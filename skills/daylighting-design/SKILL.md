@@ -1,31 +1,15 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: daylighting-design
 description: Natural daylighting strategies, solar geometry, glare control, artificial lighting integration, and visual comfort for architectural design
 user-invocable: true
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 日光照明设计
 
 关于自然采光策略、太阳几何、遮阳装置设计、眩光控制、人工照明整合和视觉舒适度优化的综合知识库。涉及窗户设计、日光模拟、遮阳计算、照明分区、昼夜节律照明、日光指标（sDA、ASE、UDI、DF），或任何建筑自然光设计决策时启用本技能。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 1 节：日光指标
 
 ### 1.1 采光系数（DF）
@@ -143,13 +127,8 @@ DGP 是基于亮度的指标，用于预测特定视点发生眩光的概率。�
 - **垂直照度（E_v）：**眼睛高度处垂直平面的照度；对昼夜节律刺激至关重要（上午眼睛高度目标 ≥ 250 melanopic lux）。
 - **视野因子：**某点可见天空的立体角，与 DF 高度相关。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 2 节：采光策略
 
 ### 2.1 侧向采光（窗户设计）
@@ -358,13 +337,8 @@ agent_created: true
 
 透光保温材料（TIM）、气凝胶板（透光率 40–60%，U 值 0.5–0.7 W/m²K）、槽型玻璃（Profilit）和聚碳酸酯多层板，可在保持热工性能的同时提供漫射且无眩光的光线。适用于北向立面、楼梯间和体育馆。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 3 节：太阳几何与遮阳
 
 ### 3.1 太阳位置
@@ -448,13 +422,8 @@ agent_created: true
 
 **截止角：**遮阳挑檐完全遮蔽下方窗户时的太阳高度角。应按关键过热日期的高度角设计（北半球通常为 8 月 1 日，并考虑夏至后的热滞后）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 4 节：眩光控制
 
 ### 4.1 建筑中的眩光来源
@@ -499,13 +468,8 @@ agent_created: true
 
 **屏幕朝向规则：**侧向采光办公室中，电脑屏幕应与窗墙平行（使用者坐姿与窗户垂直）。不得让屏幕正对明亮窗户（画面发白），也不得让使用者面向窗户（屏幕后方产生直射眩光）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 5 节：人工照明整合
 
 ### 5.1 照明分区
@@ -582,13 +546,8 @@ agent_created: true
 - 配置电池备用或发电机供电回路
 - 每月功能测试；每年完整持续时间测试
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 6 节：日光设计流程
 
 ### 6.1 八步日光设计工作流程
@@ -684,13 +643,8 @@ Balance Visual Light Transmittance (VLT) and Solar Heat Gain Coefficient (SHGC):
 | 电致变色（着色） | 0.02-0.60 | 0.09-0.41 | 1.3-1.7 | 自适应立面 |
 | 半透明气凝胶 | 0.40-0.60 | 0.30-0.45 | 0.5-0.7 | 漫射采光、高保温 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 7 节：日光设计经验法则速查
 
 1. 有效侧向采光区深度 = 窗顶高度的 2.0 倍
@@ -710,11 +664,5 @@ agent_created: true
 15. 导光管每个 30° 弯头约损失 10% 光通量
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

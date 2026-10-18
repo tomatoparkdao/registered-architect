@@ -1,9 +1,3 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: country-australia
 description: >
@@ -21,24 +15,14 @@ description: >
   Code, SA Planning + Building Code, ACT + NT); BCA performance + DTS pathways; the BASIX
   (NSW) sustainability assessment; Green Building Council of Australia Green Star ratings;
   and the Australian climate zones (8 zones) with cyclonic wind regions (A0, A1-5, B, C, D).
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 国家：澳大利亚
 
 适用于澳大利亚任何州或领地项目的建筑规范与法规参考。当提及澳大利亚城市/州（悉尼、墨尔本、布里斯班、珀斯、阿德莱德、堪培拉、霍巴特、达尔文）、AUD 货币、“NCC”/“BCA”/“AS”/“AS/NZS”/“NatHERS”/“BASIX”/“Premises Standards”、Green Star 或州缩写（NSW、VIC、QLD、WA、SA、TAS、ACT、NT）时启用本技能。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 1. 法规层级
 
 澳大利亚采用具有 **Archetype B（国家示范+州采纳）** 特征并兼具 **Archetype E（基于性能）** 特征的体系。NCC 是统一的性能型规范，由各州《建筑法》采纳，并在 A1–A8 附录中发布州级差异。
@@ -102,13 +86,8 @@ NCC 2022 由各州通过《建筑法》采纳：
 
 各州将 **州级差异**作为 NCC 的组成部分发布（列入相关卷册附录）。例如，NSW 有丛林火灾和洪水叠加规定；QLD 有气旋和白蚁规定；WA 北部有气旋规定；NT 有热带气旋规定。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 2. NCC 2022 结构
 
 **2022 年《国家建筑规范》**（本文撰写时现行，定期更新）由三卷组成：
@@ -163,13 +142,8 @@ NCC 2022 **基于性能**。每项性能要求（PR）可通过以下任一路�
 | **7** | 凉爽温带 | 堪培拉、霍巴特、芒特甘比尔 |
 | **8** | 高山 | 霍瑟姆山、布勒山、特雷德博、摇篮山 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 3. 防火安全（NCC 第一卷 C、D、E 节）
 
 ### 3.1 节与部分
@@ -225,13 +199,8 @@ VIC、NSW、QLD 等州另有州级禁令（覆层整改计划）。
 - 第 9a 类（医院）——通常设置喷淋
 - 设计采用 AS 2118 系列
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 4. 能源规范（NCC J 节 + NatHERS）
 
 ### 4.1 NCC J 节——能源效率（第一卷）
@@ -286,13 +255,8 @@ GBCA、IES 和州级机构日益要求进行隐含碳评估：
 - **NABERS Embodied** -- new module
 - **TM65 Embodied Carbon Calculator** (CIBSE Australian adaptation)
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 5. 无障碍（NCC D3 部分 + AS 1428.1-2021 + Premises Standards 2010）
 
 ### 5.1 法定框架
@@ -333,13 +297,8 @@ agent_created: true
 
 Increasingly common in heritage buildings where DTS impossible; AAAA accredited Access Consultants design + document Performance Solutions.
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 6. 结构与荷载（AS / AS/NZS 标准）
 
 ### 6.1 荷载标准系列
@@ -393,13 +352,8 @@ agent_created: true
 
 澳大利亚许多地区存在**反应性（膨胀性）土壤**——黏土会膨胀和收缩。AS 2870 将场地分为 A 类（稳定）至 P 类（问题场地）。常见的 M 类（中等）要求基础设计考虑土体变形。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 7. 州级实践
 
 ### 7.1 新南威尔士州（NSW）
@@ -463,13 +417,8 @@ agent_created: true
 - **北部顶端与中部**——达尔文为第 1 类气候，艾丽斯泉为第 3 类气候
 - **原住民土地**——适用独立的文化与规划制度
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 8. Approval Workflow (NSW as Representative)
 
 ### 8.1 Standard Workflow
@@ -492,13 +441,8 @@ agent_created: true
 
 澳大利亚大多数认证由**建筑测量师**（私人竞争机制）负责，而非政府建筑部门。建筑测量师须在州主管机构注册，负责评估 NCC 合规性、签发建筑许可证／施工证书并实施检查。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 9. 气候设计参数
 
 ### 9.1 Sydney (Zone 5)
@@ -549,13 +493,8 @@ agent_created: true
 | 供暖设计干球温度 | −2 至 0 °C |
 | 年热度日 | 2700+ |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 10. 数值速查
 
 | 参数 | 数值 | 来源 |
@@ -575,13 +514,8 @@ agent_created: true
 | 悉尼地震危险性 Z | 0.08 | AS 1170.4 |
 | 无障碍停车位（第 5 类） | 每 50 个车位 1 个 | NCC 第 1 卷 D3.5 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 11. 应用工作流
 
 1. **确定州／领地**。
@@ -596,13 +530,8 @@ agent_created: true
 10. **采用州级差异规定**（如 NSW SEPP 65、VIC Better Apartments、QLD QDC）。
 11. **引用条款**：例如 “NCC 2022 第一卷 C1.9 部分”、“AS 1170.2-2021 第 2.3 节”、“AS 1428.1-2021 第 11.3 节”、“NSW SEPP 65 公寓设计指南目标 4D”、“AS 3959-2018 第 5 节”、“NatHERS 软件协议”。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 12. 权威来源
 
 - **Australian Building Codes Board (ABCB)** -- abcb.gov.au -- NCC + Performance Solutions
@@ -620,21 +549,10 @@ agent_created: true
 - **Geoscience Australia** -- ga.gov.au -- seismic + flood data
 - **Bureau of Meteorology** -- bom.gov.au -- climate data
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 *交叉引用：加载 `building-codes` 了解一般规范结构（澳大利亚 NCC 基于性能，与 IBC 不同）；加载 `fire-life-safety` 了解 NCC C/D/E 节叠加的一般原则；加载 `accessibility-design` 了解全球框架及 AS 1428.1；加载 `building-sustainability` 对比 Green Star、NatHERS 和 NABERS；加载 `structural-systems` 了解 AS 结构标准（混凝土、钢、木材、砌体）；加载 `building-envelope` 了解 8 个气候区的围护结构细部及丛林火灾／气旋叠加规定。*
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

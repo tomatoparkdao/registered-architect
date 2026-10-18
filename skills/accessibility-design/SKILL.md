@@ -1,33 +1,17 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: accessibility-design
 description: >
   全面的无障碍与通用设计专业知识，涵盖 ADA/ABA
   Accessibility Standards, universal design principles (Ron Mace's 7 principles),
   包容性环境设计、无障碍路线要求、轮椅通行尺寸标准、坡道、楼梯、电梯、卫生设施、感官无障碍（视力和听力障碍）、神经多样性设计、适老化居住，以及 ADA（美国）、Equality Act/BS 8300（英国）、DIN 18040（德国）、AS 1428（澳大利亚）和 NBC（印度）之间的国际规范比较。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 无障碍设计
 
 本技能为建筑实践提供专业级无障碍标准、通用设计原则和包容性设计策略知识。所有尺寸均以公制给出，并在行业惯例要求时附英制等值尺寸。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第1节：通用设计原则
 
 根据 Ronald L. Mace 于 1997 年在北卡罗来纳州立大学通用设计中心提出的定义，通用设计是指在最大可能程度上，使产品和环境无需改造或专门设计即可供所有人使用的设计。
@@ -117,13 +101,8 @@ agent_created: true
 
 通用设计超越无障碍规范。规范规定法律最低门槛，而通用设计追求卓越。仅勉强满足 ADA 要求的建筑仍可能令人受挫、有失尊严或具有排斥性。目标是设计出无需单独设置“无障碍”设施、即可被尽可能广泛人群自然使用的环境。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第2节：ADA/ABA 无障碍标准——关键尺寸要求
 
 《无障碍设计 ADA 标准》（2010）适用于美国公共住宿场所、商业设施及州/地方政府设施；ABA 标准适用于联邦资助设施。
@@ -259,13 +238,8 @@ agent_created: true
 - 侧面触及（跨越最大深 255 mm/10 in 的障碍物）：距地最大 1370 mm（54 in）；障碍物最大高度 865 mm（34 in）
 - 侧面触及（跨越深 255–610 mm/10–24 in 的障碍物）：距地最大 1170 mm（46 in）
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第3节：无障碍卫生设施
 
 ### 无障碍坐便器隔间（标准）
@@ -312,13 +286,8 @@ agent_created: true
 - 宽门：最小净宽 1000 mm
 - 全身镜和高度可调洗脸盆
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第4节：感官无障碍
 
 ### 视力障碍设计策略
@@ -381,13 +350,8 @@ agent_created: true
 - 信噪比：保证语言清晰度至少 +15 dB
 - 声场扩声：教室辅助听力系统覆盖至少 4% 座位（IBC），或至少设置 2 套
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 5 节：超越规范的包容性设计
 
 ### 神经多样性设计
@@ -489,13 +453,8 @@ simply being unfamiliar with the building.
 - 每个决策点设置清晰的大字号方向标识
 - 采用颜色编码分区，实现直观导航
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 6 节：国际比较
 
 ### ADA/ABA 标准（美国）
@@ -553,21 +512,10 @@ agent_created: true
 
 （*英国扶手通常较低，原因是测量基准点不同以及用户研究结果不同。）
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 *本技能提供无障碍设计的一般指导。所有设计必须符合项目所在地采用的具体无障碍标准和建筑规范。无障碍规范规定的是最低要求，执业人员应追求超越规范的通用设计品质。*
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

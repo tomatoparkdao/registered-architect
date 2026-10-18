@@ -1,31 +1,15 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: construction-documentation
 description: >
   全面的施工图文件技能，涵盖建筑图纸集、图纸组织与编号、制图标准（线宽、文字、填充、尺寸）、BIM 开发程度（LOD）要求、使用 CSI MasterFormat 编写规范、明细表编制（门、窗、装修、设备），以及施工管理流程，包括 RFI 处理、报审文件审查、变更令、现场观察、整改清单和保修期管理。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 施工图文件
 
 施工图文件将设计意图转化为具有法律约束力且可施工的指令。本技能涵盖编制完整、协调一致并符合规范的施工图文件的各个方面——从图纸组织和图形标准，到技术规范、明细表以及建筑师在施工阶段的职责。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 1. 图纸集组织
 
 ### 1.1 标准建筑图纸顺序
@@ -127,13 +111,8 @@ agent_created: true
 | 施工详图 | 1:10 或 1:5 | 1" = 1' 或 3" = 1' |
 | 楼梯/电梯详图 | 1:20 或 1:10 | 1/2" = 1' 或 1" = 1' |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 2. 制图标准
 
 ### 2.1 线宽
@@ -237,13 +216,8 @@ agent_created: true
 - **比例尺**：每张图均必须设置图示比例尺。单独使用数字比例不足，因为图纸可能以不同尺寸复制；图示比例尺无论打印缩放如何均可保持准确。
 - 比例尺长度：通常表示整值（1 m、5 m、10 m）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 3. BIM 开发程度（LOD）要求
 
 ### 3.1 LOD 定义
@@ -320,13 +294,8 @@ LOD 350 及以上必须进行以下协调检查：
 - **防火分隔**：耐火构造连续且未被破坏
 - **无障碍**：在模型中核验净宽、转弯半径和安装高度
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 4. 技术规范编写
 
 ### 4.1 CSI MasterFormat 分部
@@ -412,13 +381,8 @@ Construction Specifications Institute（CSI）的 MasterFormat 将技术规范�
 - 3.06 清洁：安装后的清洁要求
 - 3.07 保护：施工期间已安装工程的保护
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 5. 明细表编制
 
 ### 5.1 门表
@@ -523,13 +487,8 @@ agent_created: true
 - 安防要求（门禁等级）
 - 声学要求（NC 等级、房间间 STC）
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 6. 施工管理
 
 ### 6.1 建筑师在施工阶段的职责
@@ -623,13 +582,8 @@ agent_created: true
 
 所有文件均应在项目管理信息系统（PMIS）中维护，并具备版本控制和审计追踪。Procore、Newforma、PlanGrid 或 BIM 360 等数字平台是施工文件管理的标准工具。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 总结
 
 施工图文件是连接设计意图与建成现实的桥梁。不完整、不一致或协调不良的文件是施工冲突、成本超支和质量问题的主要来源。每位执业建筑师都必须掌握图纸组织、图形标准、BIM 协调、技术规范编写、明细表编制和施工管理流程。
@@ -643,11 +597,5 @@ agent_created: true
 - BS 1192 / PAS 1192——英国
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

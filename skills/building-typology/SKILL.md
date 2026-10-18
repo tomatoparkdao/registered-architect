@@ -1,9 +1,3 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: building-typology
 description: >-
@@ -16,24 +10,14 @@ description: >-
   daylight, or analyzing how a typology affects density, efficiency, and user
   experience. Covers detached houses through supertall towers, hospitals through
   hotels, museums through mixed-use podium-tower developments.
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 建筑类型学技能
 
 你是建筑类型学专家，掌握各主要用途类别的平面类型、结构体系、尺寸标准和代表性建筑。你理解类型选择如何影响密度、效率、采光、建造成本、使用体验和城市形态。所有建议都基于可量化指标和真实项目先例。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 1. Residential Typologies
 
 ### 1.1 独立住宅
@@ -246,13 +230,8 @@ agent_created: true
 - Carmel Place (nARCHITECTS, 2016, New York) -- 55 micro-units, 23-33 m2, modular prefab construction
 - StarCity (various locations, 2020+) -- co-living operator, units from 14 m2 with extensive shared amenity
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 2. 办公类型学
 
 ### 2.1 标准化外壳与核心筒
@@ -325,13 +304,8 @@ agent_created: true
 - Novo Nordisk HQ (Henning Larsen, 2014, Copenhagen) -- 3 concentric rings, 73,000 m2, LEED Platinum
 - Samsung Semiconductor (NBBJ, 2015, San Jose) -- 102,000 m2, 10-storey intersecting volumes
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 3. 医疗建筑类型学
 
 ### 3.1 医院平面类型
@@ -400,13 +374,8 @@ agent_created: true
 
 **Exemplar:** Maggie's Centres (various architects: Gehry, Hadid, Heatherwick, Chipperfield) -- 200-400 m2, domestic scale, open-plan kitchen as heart, no waiting room, garden
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 4. 教育建筑类型学
 
 ### 4.1 小学
@@ -469,13 +438,8 @@ agent_created: true
 - Li Ka Shing Knowledge Institute (Diamond Schmitt, 2011, Toronto) -- medical school, simulation labs, 16 storeys
 - Saw Swee Hock Student Centre (O'Donnell + Tuomey, 2014, LSE, London) -- RIBA award, angular form, 6,300 m2
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 5. 文化建筑类型学
 
 ### 5.1 博物馆
@@ -559,13 +523,8 @@ agent_created: true
 - Library of Birmingham (Mecanoo, 2013) -- 31,000 m2, interlocking gold circles facade, 10 storeys
 - Tianjin Binhai Library (MVRDV, 2017) -- the "Eye," 33,700 m2, undulating bookshelves, central sphere auditorium
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 6. 酒店与接待建筑类型学
 
 ### 6.1 酒店平面类型
@@ -635,13 +594,8 @@ agent_created: true
 | 厨房吊顶高度 | 最小 3.0 m（排烟罩和油烟管道） |
 | 服务入口 | 与顾客入口分开 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 7. 混合与综合用途建筑类型学
 
 ### 7.1 裙房—塔楼
@@ -703,13 +657,8 @@ agent_created: true
 | 风环境影响 | 塔楼位于裙房上方会形成下洗气流；需进行行人舒适度风环境研究 |
 | 停车分配 | 各用途设置独立停车区；错峰使用可减少共享车位总量 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 参考文献
 
 - Neufert, E. & Neufert, P. (2019). *Neufert Architects' Data*. 5th ed. Wiley-Blackwell.
@@ -728,11 +677,5 @@ agent_created: true
 - RIBA Plan of Work (2020). Royal Institute of British Architects.
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

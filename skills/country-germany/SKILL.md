@@ -1,9 +1,3 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: country-germany
 description: >
@@ -13,24 +7,14 @@ description: >
   Thuringia, LBauO Rheinland-Pfalz, LBO BW Baden-Wuerttemberg, BauO SH Schleswig-Holstein, BauO
   M-V Mecklenburg-Vorpommern, LBO Saarland, BauO Bremen），联邦《建筑能源法》（GEG）
   GEG 2023、德国 Eurocode 国家附录（DIN EN 1990-1999/NA）、DIN 18040 无障碍系列（第 1 部分公共建筑、第 2 部分住宅、第 3 部分公共空间）、DIN 4109 隔声、DIN 4108 保温、DIN 4102/EN 13501 防火分类、适用于特殊建筑的高层建筑示范指南与特别建筑法规、适用于集会建筑的集会场所法规、工业建筑指南、医院 KrPflVO/HHRRL、消防安全证明方法、BAFA/KfW 激励认证制度、DGNB 认证、Effizienzhaus 40/55/70 标准、2024 年供热法、Bauwerksbuch（建筑文档）、TGA/HKLS 工程专业以及德国 BIM 联邦强制要求时间表。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 国家：德国
 
 适用于德国 16 个 Bundeslaender（联邦州）项目的建筑规范与法规参考。当提及德国城市、德国语境下的 EUR 货币、“DIN”/“LBO”/“GEG”/“MBO”/“BayBO”/“Energieausweis”/“Brandschutznachweis”/“Effizienzhaus”/“DGNB”/“KfW”/“BauO”，或德国技术术语（Geschossflaechenzahl、Grundflaechenzahl、Vollgeschoss、Bauantrag、Bauvoranfrage、Rohbau）时启用本技能。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 1. 法规层级
 
 德国采用 **Archetype C（联邦框架+州主权）** 体系。《基本法》（Grundgesetz）将建筑法权限保留给各州。联邦 Musterbauordnung 仅为示范文本，各州分别发布具有约束力的 LBO。巴伐利亚、北莱茵-威斯特法伦、柏林等州之间存在显著差异。
@@ -106,13 +90,8 @@ agent_created: true
 - **ArbStaettV**——工作场所条例（工作场所尺寸、照明、通风）
 - **BImSchG**——联邦污染控制（噪声 + 排放）
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 2. MBO + LBO 核心要求
 
 ### 2.1 建筑类别（Gebaeudeklassen）
@@ -177,13 +156,8 @@ Sonderbauten 还需适用以下附加条例：
 | GE (Gewerbegebiet) | 0.8 | 2.4 | 因项目而异 |
 | GI (Industriegebiet) | 0.8 | 2.4+ | 因项目而异 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 3. 防火安全（Brandschutz）
 
 ### 3.1 Brandschutznachweis（防火安全方案）
@@ -247,13 +221,8 @@ agent_created: true
 - 还需接受 **Brandschutzdienststelle** 审查
 - 高度 >60 m 时，还需进行专项排烟工程分析
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 4. 能源规范（GEG 2023）
 
 ### 4.1 Gebaeudeenergiegesetz（GEG）
@@ -312,13 +281,8 @@ GEG 之外的 KfW 资助标准：
 | 入户门U值 | 1.8 | 1.4 | 1.2 |
 | 气密性n50 | 有机械通风1.5/h；无机械通风3.0/h | 1.0/h | 0.6/h（被动房水平） |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 5. 无障碍（DIN 18040）
 
 ### 5.1 DIN 18040 系列
@@ -362,13 +326,8 @@ DIN 18040-1 区分：
 - 大型项目中 1% 的住宅需无障碍
 - 4 层以上的公寓需无障碍（LBO 要求设置电梯）
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 6. 声学（DIN 4109）
 
 ### 6.1 DIN 4109——隔声
@@ -383,13 +342,8 @@ agent_created: true
 
 **VDI 4100**——Schallschutz im Hochbau——3 个隔声等级（SSt I、II、III），通常用于规定高于最低要求的性能。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 7. 结构与荷载（含德国国家附录的 Eurocodes）
 
 ### 7.1 Eurocode 系列（DIN EN 1990–1999）
@@ -432,13 +386,8 @@ agent_created: true
 
 基础设计按 Eurocode 7 + DIN 1054；岩土勘察按 DIN EN 1997-2 + DIN 4020。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 8. 可持续性与认证
 
 ### 8.1 DGNB（Deutsche Gesellschaft fuer Nachhaltiges Bauen）
@@ -466,13 +415,8 @@ agent_created: true
 
 大型项目需遵循 EU Taxonomy Climate Delegated Act 2021，并完成 CSRD 合规报告。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 9. 许可流程（Bauantragsverfahren）
 
 ### 9.1 标准流程（Bauantrag）
@@ -499,13 +443,8 @@ agent_created: true
 
 在具有有效 B-Plan 的住宅区内，GK 1–2 的部分工程可免许可（Verfahrensfrei），通常包括小型住宅扩建和附加建筑。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 10. Quick Numeric Reference
 
 | 参数 | 数值 | 来源 |
@@ -526,13 +465,8 @@ agent_created: true
 | 柏林风速 vb,0 | 25 m/s | DIN EN 1991-1-4 NA |
 | 慕尼黑雪荷载 sk | 0.85 + 海拔修正 kN/m² | DIN EN 1991-1-3 NA |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 11. 应用流程
 
 1. **确定 Bundesland**。
@@ -548,13 +482,8 @@ agent_created: true
 11. **确认提交资格** Bauvorlageberechtigte。
 12. **引用条款**：例如 “MBO 2002 § 26”、“BayBO § 26”、“GEG 2023 § 19”、“DIN 18040-1:2010 Punkt 4.5”、“DIN EN 1991-1-4/NA:2010 NDP 4.3”、“DIN 4109-1:2018 Tabelle 3”。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 12. 权威来源
 
 - **Deutsches Institut fuer Bautechnik (DIBt)** -- dibt.de -- product approvals, technical guidelines
@@ -570,21 +499,10 @@ agent_created: true
 - **联邦建筑师协会（BAK）**——bak.de——联邦建筑师协会
 - **Each Land Architektenkammer** -- regional architects' chambers
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 *交叉引用：加载 `building-codes` 了解一般规范结构（德国结构采用 Eurocode，但生命安全体系具有独特性）；加载 `fire-life-safety` 了解一般原则（并叠加 Brandschutznachweis 方法）；加载 `accessibility-design` 了解全球框架，再结合 DIN 18040；加载 `building-sustainability` 比较 Passivhaus、DGNB 与 LEED；加载 `building-envelope` 了解热工、声学和气候节点（德国南北存在多个气候区）；加载 `structural-systems` 进行基于 Eurocode 的设计。*
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

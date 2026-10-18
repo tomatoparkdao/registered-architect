@@ -1,31 +1,15 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: country-singapore
 description: >
   新加坡建筑规范与法规参考。涵盖《建筑管制法 1989》（BCA）及《建筑管制条例 2003》（截至 2024 年的定期修订）、新加坡民防部队（SCDF）《消防规范 2018》（《消防安全法 1993》及《消防安全（建筑消防安全）条例》）、URA（城市重建局）《规划法》及 2019 总体规划和开发控制手册、BCA Green Mark 2021 计划（自 2008 年起所有新建建筑强制达到 Green Mark Certified）、BCA《无障碍规范 2019》（第 3 次修订；通用设计标志）、《建筑环境可持续性规范 2018》、新加坡标准 SS 530 能效、SS 553 空调、SS 568 自然采光、SS 593 声学、SS 632 应急电源，以及新加坡采用的 Eurocodes（带新加坡国家附录的 SS EN 系列）、BCA《可建造性实施规范》、《可建造性设计与施工性规范》、《工作场所安全与健康法》、NEA 噪声法规、PUB 给排水规范和陆路交通管理局车辆停车实施规范。包括 HDB（公共住房）标准及开发商主导的私人住宅设计质量协议。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 国家：新加坡
 
 适用于新加坡共和国境内项目的建筑规范与法规参考。当提及新加坡、SGD 货币、“BCA”（Building & Construction Authority）、“URA”、“SCDF”、“Green Mark”、“HDB”、“PUB”、“LTA”、新加坡标准（SS）或当地术语（shophouse、conservation area、GFA、plot ratio）时启用本技能。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 1. 法规层级
 
 新加坡采用**A 型体系（统一国家规范）**。不存在次国家层级差异，全国适用同一套建筑规范，由 BCA 集中管理，主管机构体系完整且整合度高。
@@ -79,13 +63,8 @@ agent_created: true
 - **《2018 年建筑环境可持续性批准文件》**
 - **《无障碍通行批准文件》**（已由 2019 年无障碍规范取代）
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 2. 建筑规范核心要求
 
 ### 2.1 建筑分类（《建筑管制条例》）
@@ -151,13 +130,8 @@ URA 还规定：
 
 URA 对许多店屋和历史区域设有**保护地位**（牛车水、驳船码头、丹戎巴葛、如切、实龙岗小印度、甘榜格南、中峇鲁等）。这些区域适用严格的立面、屋顶线和材料保护规则。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 3. 防火安全（SCDF Fire Code 2018）
 
 ### 3.1 SCDF Fire Code 2018
@@ -233,13 +207,8 @@ SCDF 消防规范定义：
 
 SCDF 消防规范第 17 章明确允许采用消防工程分析（CFD 建模、疏散分析、结构抗火分析）作为替代合规路径。许多新加坡大型项目采用该路径（例如 Marina Bay Sands、Jewel Changi）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 4. 能源规范
 
 ### 4.1 《建筑管制（环境可持续性）条例》2008
@@ -300,13 +269,8 @@ Ratings: **Green Mark Certified, Gold, Gold-Plus, Platinum, Super Low Energy, Ze
 
 新加坡专项要求：许多规划法规要求对 ≥30 层建筑进行**风洞试验**，评估地面层风环境舒适度；采用 PET（生理等效温度）的**行人高度热舒适度（PTC）**评估也日益成为强制要求。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 5. 无障碍（BCA Code on Accessibility 2019）
 
 ### 5.1 BCA Code on Accessibility 2019
@@ -348,13 +312,8 @@ agent_created: true
 - 预留扶手条件
 - 无障碍卫生间（可选配置已安装扶手）
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 6. 结构与荷载（SS EN Eurocodes）
 
 ### 6.1 新加坡采用的 Eurocodes（SS EN）
@@ -397,13 +356,8 @@ agent_created: true
 - 较坚实地基采用**打入桩**
 - 深地下室常采用**地下连续墙 + 逆作法**（应对地铁引起的地层位移）
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 7. 专项子规范
 
 ### 7.1 可建造性实施规范（BCA）
@@ -432,13 +386,8 @@ LTA 按建筑类型规定停车配建标准，并日益重视电动车充电：
 
 施工阶段安全。设计时应确保维护安全可达（例如按 WSH《维护条例》要求，在设计阶段确定立面维护通行策略）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 8. 审批流程
 
 ### 8.1 标准流程
@@ -464,13 +413,8 @@ agent_created: true
 
 建筑商必须向 BCA 注册（按项目金额分级）。项目金额 >300 万新加坡元时，需要完整的 BCA 建筑商执照。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 9. 快速数值参考
 
 | 参数 | 数值 | 来源 |
@@ -492,13 +436,8 @@ agent_created: true
 | 私人住宅停车 | 每 100 m² GFA 1 个 | LTA Code on Vehicle Parking |
 | 电动车就绪停车位 | 1%，2030 年升至约 15% | LTA |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 10. 应用流程
 
 1. 从 Master Plan 2019 **确定 URA 分区、容积率和高度控制范围**。
@@ -513,13 +452,8 @@ agent_created: true
 10. **确认 WSH 设计要求**，包括维护通行策略。
 11. **引用条款**：例如 “BCA Building Control Regulations 2003 Reg 8”、“SCDF Fire Code 2018 Chapter 3 Section 3.4.2”、“BCA Code on Accessibility 2019 Section 5.3”、“URA Master Plan 2019 Zone Residential 2”、“SS EN 1991-1-4 + Singapore NA Table NA.1”、“Code on Environmental Sustainability of Buildings 2018 Section 4.1”。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 11. 权威来源
 
 - **建筑与建设局（BCA）**——bca.gov.sg——建筑管制法、规范、Green Mark
@@ -534,21 +468,10 @@ agent_created: true
 - **专业工程师委员会（PEB）**——peb.gov.sg
 - **新加坡标准（SS）电子商店**——singaporestandardseshop.sg
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 *交叉引用：加载 `building-codes` 了解一般规范原则（新加坡 Building Control 独特，但理念上与英国/EC 对齐）；加载 `fire-life-safety` 了解一般原则（新加坡 SCDF Code 内容完整）；加载 `accessibility-design` 了解全球框架，再结合 BCA Code on Accessibility；加载 `building-sustainability` 比较 Green Mark、LEED 与 Passivhaus（新加坡是首个强制绿色建筑的国家）；加载 `building-envelope` 处理热带气候节点（ETTV/RTTV）；加载 `structural-systems` 进行含新加坡国家附录的 Eurocode 设计。*
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

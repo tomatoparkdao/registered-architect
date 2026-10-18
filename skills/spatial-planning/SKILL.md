@@ -1,20 +1,9 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: spatial-planning
 description: >
   建筑空间规划：平面布局与原型、交通设计（走廊、楼梯、电梯、自动扶梯）、核心筒设计与竖向设备分配、竖向叠加策略、套内与总建筑面积优化、空间效率指标、导向系统和空间可读性。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 空间规划
 
 ## 第1节：平面原型
@@ -131,13 +120,8 @@ agent_created: true
 - **适用建筑类型：**混合使用开发、大型市政建筑、大学建筑、交通枢纽和医院综合体
 - **代表性建筑：**Linked Hybrid（Steven Holl，北京，2009）；De Rotterdam（OMA，鹿特丹，2013）
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第2节：交通组织设计
 
 根据建筑类型不同，交通空间占总建筑面积的15-30%。高效的交通组织设计直接影响NTG比率、使用者体验、规范合规性和紧急疏散。
@@ -257,13 +241,8 @@ agent_created: true
 - 救援协助区：未设置完整喷淋系统的建筑，每部楼梯均需设置；每辆轮椅净空至少 760 mm × 1220 mm
 - 受保护走廊：根据建筑高度和喷淋状态设置 30/60 分钟耐火等级
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第3节：核心筒设计
 
 竖向核心筒是多层建筑的组织骨架。它将竖向交通、防火疏散路线和设备管井集中在紧凑区域内，并在各楼层重复布置。
@@ -342,13 +321,8 @@ agent_created: true
 - **行走距离（IBC）：**设置喷淋时至最近出口最大76 m；多数使用类型共同疏散路径最大45 m。这限制了核心筒至最远点的距离。
 - **结构效率：**核心筒作为剪力墙/支撑框架抵抗侧向荷载。中央核心筒抗扭最优，偏置核心筒需要外伸臂、带状桁架等补充侧向体系。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第4节：竖向叠合策略
 
 ### 4.1 原则
@@ -396,13 +370,8 @@ agent_created: true
 - 设备层：设置于底部、中部（机电）和屋顶；中部设备层可减小管井尺寸
 - 混合使用分隔：IBC表508.4要求不同使用类型之间设置防火分隔
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第5节：净总比优化
 
 ### 5.1 定义
@@ -445,13 +414,8 @@ agent_created: true
   - 按5%收益率计算=资本价值增加$2,400,000
 - NTG优化是提高开发商盈利能力的单项最高杠杆设计决策
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第6节：导向与空间可读性
 
 ### 6.1 原则
@@ -552,13 +516,8 @@ agent_created: true
 - **首次访问成功率：**首次到访者无需求助即可到达目的地的比例。目标>85%
 - **平均导航时间：**从入口到目的地的时间与理论最短时间之比。目标<最短时间的1.5倍
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 附录：主要标准与参考资料
 
 | 标准 | 范围 | 适用辖区 |
@@ -608,11 +567,5 @@ agent_created: true
 对于进深超过窗洞口高度2.5倍的空间，需要采用补充采光策略：采光搁板、高侧窗、借光、屋顶采光窗或中庭/采光井引入。BREEAM/LEED通常要求使用空间平均采光因子至少2%，并要求至少50%的经常使用面积达到300 lux下55%的空间采光自主率（sDA）。
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

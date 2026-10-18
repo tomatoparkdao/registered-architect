@@ -1,21 +1,10 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: acoustic-design
 description: >
   建筑声学设计：空间之间的隔声（空气声和撞击声）、室内声学与混响控制、环境噪声侵入、
   建筑设备噪声与振动，以及住宅、商业、教育、医疗、演出和宗教建筑类型的声学设计策略。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 建筑声学设计
 
 ## 第 1 节：建筑师应掌握的声学基础
@@ -56,13 +45,8 @@ agent_created: true
 
 **倍频程和 1/3 倍频程分析**——在 63、125、250、500、1000、2000、4000 Hz（倍频程）或更精细的 1/3 倍频程分辨率下开展完整频谱分析。对于诊断特定频率问题、设计针对性处理措施以及验证是否满足 NR／NC 曲线至关重要。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 2 节：空间之间的隔声
 
 ### 2.1 按相邻关系确定的空气声隔声目标
@@ -146,13 +130,8 @@ agent_created: true
 5. 电气插座错开至少 200 mm；分户墙内绝不背靠背设置。
 6. 使用专用声学交接节点（弹性侧向隔离条、边缘隔离）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 3 节：室内声学
 
 ### 3.1 按空间类型确定的混响时间目标
@@ -225,13 +204,8 @@ Sabine 公式适用于扩散声场（声能分布均匀）和中等吸声条件�
 
 **耦合体积**——两个或更多个具有不同吸声特性的连通空间可形成可变声学。声音在吸声更强的空间中快速衰减（有利于清晰度），而后期声能从重混响的耦合空间返回（有利于包围感）。应用于音乐厅（通过可调开口耦合混响室）和宗教空间。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 4 节：环境噪声控制
 
 ### 4.1 外部噪声源及声级
@@ -296,13 +270,8 @@ Rw,composite = 10 × log₁₀ (S_total / Σ(Sᵢ × 10^(−Rᵢ/10)))
 - **关闭窗通风策略：** MVHR（带热回收的机械通风）使窗户保持关闭，从而维持完整立面隔声，噪声暴露场地日益需要采用。过热风险须通过其他措施解决（太阳遮阳、经消声路径的夜间通风）。
 - **冬季花园／声学缓冲区：** 封闭阳台或玻璃廊道充当声闸，使内窗可向缓冲区开启，同时由外层玻璃衰减交通噪声。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 5 节：建筑设备噪声
 
 ### 5.1 机械设备背景噪声目标
@@ -361,13 +330,8 @@ agent_created: true
 
 **轻型屋面的雨噪声：** 大雨落在金属屋面或采光顶上可在室内产生 65–80 dB 的噪声。控制措施：在金属板下增设质量层（至少 10 kg/m²，例如两层 12.5 mm 石膏板）、在屋面构造中设置吸隔声保温层，或在金属板下设置木质／混凝土屋面板。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 6 节：声学设计流程
 
 系统的声学设计流程可确保在设计变更成本较低的早期解决声学要求，而非在施工后作为补救措施处理。
@@ -437,13 +401,8 @@ agent_created: true
 
 **调试流程：** 每个房间至少测量 3 个位置，取平均结果并与准则比对；识别缺陷并在移交前规定补救措施。声学调试应作为停检点——在验证满足声学准则前不得投入使用。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 7 节：按建筑类型开展声学设计
 
 ### 7.1 住宅
@@ -503,11 +462,5 @@ BCO（British Council for Offices）Guide to Specification 规定办公声学准
 **密封缝隙和侧向传声路径：** 往往是性价比最高的首项干预。密封设备穿孔、踢脚线节点、窗框周边及构件交接处，可恢复因漏气和侧向传声损失的 3–10 dB 性能。
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

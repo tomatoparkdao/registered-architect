@@ -1,9 +1,3 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: country-india
 description: >
@@ -20,24 +14,14 @@ description: >
   approval workflow involving Municipal Corporations, Development Authorities, State Fire
   Services NOC, and aviation/environmental clearances. Practitioner-grade clause-level
   reference for design teams working on projects in any Indian state or Union Territory.
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 国家：印度
 
 适用于印度任何州或联邦属地项目的建筑规范与法规参考。当项目位于印度、提及印度城市、印度卢比或 “square feet built-up” / “carpet area” / “lakh” / “crore” 等面积或金额单位，或提及 NBC、ECBC、IS 系列规范时启用本技能。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 1. 法规层级
 
 印度采用 **B 型架构（国家示范 + 州采纳）**，国家框架与各州/市执行之间存在显著差异。
@@ -131,13 +115,8 @@ NBC 2016 分为 **12 个部分**（P1 至 P12），其中若干部分进一步�
 
 针对具体项目提供建议时，必须确认：(i) 所属州；(ii) 所在城市的市政公司或开发主管机构；(iii) Building Permit 申请日期（适用规范版本取决于申请日期）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 2. 建筑规范核心要求（NBC 2016 第 3、4 部分）
 
 ### 2.1 使用分类（NBC 2016 第 4 部分 3.1）
@@ -194,13 +173,8 @@ NBC 2016 **没有**与 IBC 表 504 等效的单一“高度—结构类型”表
 - **高度：**通过FAR、退界和建筑覆盖率的相互作用隐含确定；仅特殊区域（遗产、航空、国防）明确规定
 - **停车：**每户1.0-2.0辆（因城市而异）；商业每50-100 m² GFA 1辆；ECS=等效车位
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 3. 防火安全（NBC 2016 第 4 部分 + IS 15683）
 
 ### 3.1 疏散距离
@@ -270,13 +244,8 @@ agent_created: true
 - Refuge area: minimum 15 sqm OR 0.3 sqm/person served, whichever larger
 - Refuge floor not to be used for any other purpose (no storage, no AHU); fully ventilated to atmosphere
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 4. 能源规范
 
 ### 4.1 ECBC 2017（商业建筑）
@@ -347,13 +316,8 @@ agent_created: true
 
 自 2014 年起，GRIHA 对**所有 CPWD（中央公共工程部）项目**强制执行，许多州 PWD 也予以采用。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 5. 无障碍
 
 ### 5.1 法定框架
@@ -386,13 +350,8 @@ agent_created: true
 - **无障碍停车位：**总数的2%或至少2个，取较大值
 - **集会无障碍座席：**2%，配陪同座席并分散布置（不得集中）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 6. 结构设计（IS 规范）
 
 ### 6.1 荷载
@@ -447,13 +406,8 @@ agent_created: true
 | 玻璃 | IS 16231（4 部分） |
 | 幕墙 | IS 17277:2019 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 7. 规划、分区与城市设计层级
 
 ### 7.1 RERA（房地产监管机构）
@@ -491,13 +445,8 @@ agent_created: true
 
 高度限制采用圆锥面控制（坡度因机场而异）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 8. 快速数值参考
 
 | 参数 | 数值 | 来源 |
@@ -520,13 +469,8 @@ agent_created: true
 | 两轮车停车 | 每辆1.5 m² | NBC + 当地DCR |
 | 自行车停车（TOD） | 按当地DCR；孟买DCPR要求每100 m² GFA设置1个 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 9. 应用流程
 
 针对印度项目提供建议时：
@@ -542,13 +486,8 @@ agent_created: true
 9. 生命安全采用 **NBC 2016**，随后按 DCR 确定 FAR/退界/停车，能源部分采用 ECBC。
 10. **引用具体条款**：例如 “NBC 2016 Part 4 Clause 4.4.3”、“ECBC 2017 Section 4.3.1.1”、“IS 1893:2016 Clause 6.4.2”、“Mumbai DCPR 2034 Regulation 33(10)”、“MoHUA Harmonised Guidelines 2021 Section 2.5”。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 10. 各州关键注意事项
 
 ### Maharashtra / Mumbai (MCGM DCPR 2034)
@@ -579,13 +518,8 @@ agent_created: true
 - 海得拉巴许多区域实际上 **FAR不设上限**，但受退界和保险附加费限制（GO 168及修订）
 - **TS-bPASS**——Telangana 的在线单一窗口规划审批（小地块即时审批，大地块 21 天）
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 11. 权威来源
 
 - **Bureau of Indian Standards (BIS)** -- bis.gov.in -- NBC 2016 (SP 7), IS codes
@@ -599,21 +533,10 @@ agent_created: true
 - **GRIHA Council** -- grihaindia.org
 - **IGBC (CII)** -- igbc.in
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 *本插件内交叉引用：加载 `building-codes` 进行 IBC 比较；加载 `fire-life-safety` 了解一般疏散原则；加载 `building-sustainability` 比较 LEED/Passive House；加载 `structural-systems` 在 IS 框架内选择材料体系；加载 `building-envelope` 处理印度气候区围护结构节点。*
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

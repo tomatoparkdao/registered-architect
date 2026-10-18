@@ -1,20 +1,9 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: structural-systems
 description: >
   面向建筑师的综合结构体系知识，涵盖结构类型选择、网格设计与间距、侧向稳定体系、基础类型、跨度—高度比表、荷载路径说明以及建筑师与工程师协调策略。根据跨度、高度、功能、成本、施工速度和可持续目标，为结构体系选择提供决策框架。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 建筑师结构体系
 
 ## 第1节：结构体系选择
@@ -166,13 +155,8 @@ agent_created: true
 
 **对建筑设计的关键影响：**需要尽早协调——预制构件在安装前数周即已生产。现场修改困难且成本高。接缝与连接需要细致的建筑节点设计。网格和构件尺寸的标准化是实现经济性的关键。可获得优良表面效果（清水、抛光、纹理或彩色骨料）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第2节：结构网格设计
 
 结构网格是承载所有建筑决策的骨架。网格尺寸决定柱位、立面节奏、停车效率、设备路线和空间品质。在概念阶段确定正确网格，可避免后期代价高昂的返工。
@@ -225,13 +209,8 @@ agent_created: true
 - **对齐柱网：**最佳方案——使塔楼柱网与裙房柱网协调。典型做法是采用 8.1m 裙房柱网（停车），塔楼柱位对应每隔两或三根裙房柱。
 - **巨柱：**采用大截面柱或墙独立于裙房柱网，直接将塔楼荷载传至基础。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第3节：侧向稳定体系
 
 每栋建筑都必须抵抗侧向荷载（风荷载、地震荷载和假定水平荷载）。侧向体系会深刻影响建筑规划——它决定实体墙的位置、支撑的出现位置以及可实现的立面表达。
@@ -299,13 +278,8 @@ agent_created: true
 - **示范建筑：**香港汇丰大厦（巨型框架）、伦敦 Leadenhall Building（巨型框架）
 - **规划影响：**巨柱尺寸很大（1.5-3.0 m）——从规划第一天起就必须纳入布局。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第4节：基础类型
 
 基础选择取决于土壤条件、结构荷载、沉降容许值、地下水位和场地进场限制。建筑师必须了解基础类型，以评估地下室可行性、协调地下结构并理解其对工期的影响。
@@ -365,13 +339,8 @@ agent_created: true
 - **抗浮：**高地下水位条件下，基础必须抵抗静水浮力。低于地下水位 3m 的地下室产生 30 kPa 浮力压力。
 - **典型地下室成本：**800–1500 $/m²（单层）；1000–2000 $/m²（多层），显著高于上部结构。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第5节：跨度-高度比
 
 这些经验规则使建筑师能够在概念阶段估算结构高度，并在详细工程设计前确定层高。
@@ -498,13 +467,8 @@ agent_created: true
 - Recording studios and concert halls
 - High-rise residential above 20 storeys (wind-induced sway)
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第6节：荷载路径说明
 
 ### 重力荷载路径
@@ -588,11 +552,5 @@ agent_created: true
 - [ ] 已建立隐含碳预算并据此选择结构体系
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

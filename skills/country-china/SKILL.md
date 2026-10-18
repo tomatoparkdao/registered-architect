@@ -1,35 +1,19 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: country-china
 description: >
   中华人民共和国建筑规范与法规参考。涵盖 GB
   (Guojia Biaozhun -- National Standard) series of mandatory codes including GB 50352-2019
   《民用建筑统一设计标准》（替代 2005 版）、GB 50016-2014（2018 年版）《建筑设计防火规范》、GB 51251-2017《建筑防烟排烟系统技术标准》、GB 50045（旧版高层防火）、GB 50011-2010《建筑抗震设计规范》（含 2016 年修订）、GB 50009-2012《建筑结构荷载规范》、GB 55015-2021《建筑节能与可再生能源利用通用规范》、GB 50189-2015《公共建筑节能设计标准》、JGJ 26-2018 + JGJ 75-2012 + JGJ 134-2010 住宅节能设计（按气候区）、GB 50763-2012《无障碍设计规范》、GB 50352 民用建筑规范，以及补充性的 JGJ（行业标准）规范。还包括 GB 50176-2016 规定的五类热工气候区（严寒、寒冷、夏热冬冷、夏热冬暖、温和）、六至九度地震烈度分区、控制住宅建筑间距的日照权规定、地方 DB 补充规范（北京 DB11、上海 DGJ08、广东及广西 DBJ 等）、香港特别行政区独立法规（屋宇署 BD、香港《建筑物条例》Cap 123、PNAPs 和 ATCs）、澳门独立法规、中国海绵城市计划、绿色建筑标识（三星中国绿色建筑评价标准）以及《建设工程质量管理条例》。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 国家：中国人民共和国
 
 适用于中国大陆项目的建筑规范与法规参考。**香港特别行政区**具有独立的监管制度，本文第 12 节作简要概述（规范体系、英文语言环境及普通法传统均不同）。**澳门特别行政区**同样独立。本文不涵盖台湾。
 
 当出现任何中国城市（北京、上海、广州、深圳、成都、重庆、杭州、南京、天津、武汉、西安、苏州等）、CNY/RMB/元货币、提及“GB 50016”/“GB 50352”/“GB 50011”/“JGJ”/“DB11”/“DGJ08”，或中文建筑术语（容积率 yongji-lv、建筑密度 jianzhu-midu、日照 rizhao、抗震 kangzhen、防火 fanghuo）时，启用此技能。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 1. 法规层级
 
 中国采用**D 型体系（国家集中管理 + 强制性条文）**。国家 GB 规范在全国范围内强制执行；地方 DB 补充规定只能**更严格**，不得降低要求。
@@ -92,13 +76,8 @@ agent_created: true
 
 中国特有流程：施工开始前，所有施工图必须由**经认可的施工图审查机构（Shigong Tu Shencha Jigou）**审查，该机构是经省级政府认证的私营机构。审查内容为是否符合全部适用的 GB/DB 规范。通常审查需要 15-30 天，复杂项目时间更长。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 2. 建筑规范核心要求
 
 ### 2.1 GB 50352-2019《民用建筑统一设计标准》
@@ -161,13 +140,8 @@ agent_created: true
 | > 100 m | 超高层（Chao Gao Ceng） | 适用附加规定；需进行结构性能审查 |
 | > 250 m | 超限超高层 | 需由国家级专家进行专项结构性能审查 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 3. 消防安全（GB 50016 + GB 51251）
 
 ### 3.1 GB 50016-2014（2018 年版）——《建筑设计防火规范》
@@ -258,13 +232,8 @@ agent_created: true
 - 住宅 > 100 m：每 15 层设置避难层
 - 避难层不得用于正常使用；面积按疏散容量确定；应向室外通风，并采用防火门保护
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 4. 能源规范
 
 ### 4.1 GB 55015-2021——《建筑节能与可再生能源利用通用规范》
@@ -329,13 +298,8 @@ agent_created: true
 
 由 **CABEE（建筑节能研究中心）**及各省激励政策推动。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 5. 无障碍设计（GB 50763-2012）
 
 ### 5.1 GB 50763-2012——《无障碍设计规范》
@@ -366,13 +330,8 @@ agent_created: true
 
 部分省市（北京、上海、广东）发布了更严格的无障碍地方 DB 规范。上海 DGJ08 系列和北京 DB11 系列均包含无障碍补充规定。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 6. 结构与荷载
 
 ### 6.1 GB 50009-2012——《建筑结构荷载规范》
@@ -434,13 +393,8 @@ Cities mapped to intensity:
 - 南方：S0 = 0-0.3 kN/m2
 - 高原地区：按当地海拔修正
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 7. 主要城市实践要点
 
 ### 7.1 北京（DB11 系列）
@@ -485,13 +439,8 @@ agent_created: true
 - 历史保护区（平江、上城、同里）
 - 地下水位问题突出——防水至关重要
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 8. 许可审批流程
 
 ### 8.1 标准流程
@@ -526,13 +475,8 @@ agent_created: true
 
 许多大型项目会跳过“初步设计”，直接进行“方案设计 + 施工图设计”，但施工图审查仍然是强制性的。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 9. 快速数值参考
 
 | 参数 | 数值 | 来源 |
@@ -554,13 +498,8 @@ agent_created: true
 | 北京基本风压 W0 | 0.45 kN/m2 | GB 50009 |
 | 北京地震烈度 | 8 度 | GB 50011-2010 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 10. 应用工作流
 
 1. **确定省份 + 城市 + 行政层级**（直辖市、地级市、区县）。
@@ -577,13 +516,8 @@ agent_created: true
 12. 委托**施工图审查机构**进行审查。
 13. **引用条文**：“GB 50352-2019 第 5.1.3 节（强制性）”、“GB 50016-2014（2018 年版）第 5.3.1 条”、“JGJ 26-2018 表 4.2.1”、“GB 50011-2010（2016 年修订）第 4.1.6 节”、“GB 50763-2012 第 3.5 节”、“DB11/T 891-2012 第 4.2 节”。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 11. 权威来源
 
 - **住房和城乡建设部（MOHURD）**——mohurd.gov.cn
@@ -596,13 +530,8 @@ agent_created: true
 - **上海市住房和城乡建设管理委员会**——zjw.sh.gov.cn
 - **中国绿色建筑委员会（CSGBC）**——gbwindows.cn——绿色建筑标识
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 12. 香港特别行政区（单独管理）
 
 香港依据《建筑物条例》（Cap. 123）执行自己的建筑法规，体系不同：
@@ -620,21 +549,10 @@ agent_created: true
 
 澳门拥有自己的建筑法（Lei 32/96/M）及技术规章，采用葡萄牙传统与中文体系结合的制度。本文不作详细说明。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 *交叉引用：加载 `building-codes` 了解一般规范结构（中国以红色印刷的强制性条文为特色）；加载 `fire-life-safety` 了解由 GB 50016 + GB 51251 叠加的消防生命安全原则；加载 `accessibility-design` 了解全球无障碍框架及 GB 50763；加载 `building-sustainability` 了解绿色建筑标识、LEED 对比和 GB/T 51350 NZEB；加载 `structural-systems` 了解抗震设计（中国烈度分级 + GB 50011）；加载 `building-envelope` 了解五类气候区的热带、寒冷和高原围护结构设计。*
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

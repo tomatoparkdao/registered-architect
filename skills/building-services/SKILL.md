@@ -1,22 +1,11 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: building-services
 description: >
   面向建筑师的全面建筑设备知识，涵盖 HVAC 系统选择及其空间影响、给排水设计、电气系统与配电、
   垂直交通（电梯与自动扶梯）、消防系统（喷淋、探测、排烟），以及 MEP 协调策略，包括吊顶空间分配、
   管井尺寸、设备机房规划和 BIM 集成。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 建筑师建筑设备指南
 
 ## 第 1 节：建筑师 HVAC 系统
@@ -159,13 +148,8 @@ agent_created: true
 - **最适用建筑类型**：城市综合体、校园开发（大学、医院）和总体规划尺度的项目。
 - **案例**：哥本哈根区域供热（服务全市 98%）；伦敦奥林匹克公园（2012）；Battersea Power Station 改造项目。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 2 节：给水与排水
 
 ### 冷热水分配
@@ -238,13 +222,8 @@ agent_created: true
 | 综合设备管井（住宅） | 600×400 mm 管井 | 冷水、热水、污水、废水、雨水、燃气 |
 | 雨水立管 | 100×100 mm 管井（75–100 mm 管） | 可设于室内或室外 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 3 节：电气系统
 
 ### 配电层级
@@ -305,13 +284,8 @@ agent_created: true
 | 停车库 | 1.8 | 2–3 | 75–100 |
 | 仓库 | 6.0 | 5–8 | 150–300 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 4 节：垂直交通
 
 ### 电梯类型
@@ -392,13 +366,8 @@ RTT = 2 x H/V + (S x ts) + 2 x P x tp
 | 汽车电梯（车辆运输） | 3000–5000 | 2700 × 5500 × 2200 | 2500 × 2100 |
 | 消防电梯 | 1000–1600 | 按 BS EN 81-72 | 800–1100 × 2000 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 5 节：消防系统
 
 ### 喷淋系统
@@ -461,13 +430,8 @@ agent_created: true
 | 细水雾 | 细小水滴（<1 mm） | 历史建筑、隧道、涡轮机大厅 | 管径小于喷淋系统（25–50 mm）；压力更高（40–200 bar） |
 | 泡沫 | AFFF（水成膜泡沫） | 飞机库、燃料储存、汽车展厅 | 泡沫罐、比例混合设备、泡沫发生器 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 6 节：MEP 协调
 
 ### 空间协调策略
@@ -612,11 +576,5 @@ BMS 将所有建筑设备集成至统一的监测与控制平台。空间和基�
 | 管井面积（% 楼面面积） | 1.0–1.5 | 1.5–2.5 | 2.5–4.0 | 1.0–2.0 | 1.5–2.5 |
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,31 +1,15 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: concept-design
 description: 总图构思（Parti）发展、体量研究、空间组织策略、设计概念生成以及从概念到形体转译的方法论
 user-invocable: true
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 概念设计
 
 建筑概念设计综合知识库，涵盖 Parti 发展、体量策略、空间组织模型、概念到形体转译和设计迭代流程。在发展早期设计概念、评估体量方案、组织空间功能或将抽象设计想法转译为建筑形体时调用本技能。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 1 节：Parti 发展
 
 ### 1.1 什么是 Parti？
@@ -260,13 +244,8 @@ Parti（源自法语“parti pris”——已作出的决定）是建筑的核�
 - Villa Muller，布拉格（Loos，1930）——Raumplan：立方体体量内的房间处于不同标高，并按功能确定尺度（客厅层高较高，卧室层高较低）
 - Habitat 67，蒙特利尔（Safdie，1967）——354 个预制盒体以相互咬合的错层方式堆叠
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 2 节：体量策略
 
 ### 2.1 加法与减法体量
@@ -355,13 +334,8 @@ agent_created: true
 
 Score each option 1-5 per criterion, multiply by weight, sum for total. Select the option with the highest weighted score, then refine.
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 3 节：空间组织
 
 ### 3.1 六种组织模型（依据 Francis D.K. Ching）
@@ -488,13 +462,8 @@ agent_created: true
 4. 确保交通系统连接所有模型且不形成尽端
 5. 先用邻接关系图测试混合模型，再进行平面研究
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 4 节：概念到形体的转译
 
 ### 4.1 八类概念驱动
@@ -597,13 +566,8 @@ agent_created: true
 注意：选择一个主要驱动和一个次要驱动。主要驱动生成 Parti，次要驱动对其进行深化。同时使用超过两个驱动会稀释概念。
 ```
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 5 节：设计迭代协议
 
 ### 5.1 方案结构化发展
@@ -673,13 +637,8 @@ agent_created: true
 - **忽视剖面：**平面更容易绘制，设计师因此默认采用平面思维。剖面揭示空间品质、结构、环境策略和体验序列。每次迭代都应绘制剖面。
 - **孤立设计：**概念设计受益于协作评议。至少每周安排一次评图，在作品感觉“完成”之前就展示出来。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 附录：概念设计检查清单
 
 ### 设计前验证
@@ -706,11 +665,5 @@ agent_created: true
 - [ ] 数量级造价估算（±15–25%）
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

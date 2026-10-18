@@ -1,9 +1,3 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: building-programming
 description: >-
@@ -16,24 +10,14 @@ description: >-
   Also use when the user needs area tables for residential, office, healthcare,
   education, hospitality, retail, or cultural building types, or when checking
   compliance with NDSS, Neufert, NHS HBN, BB103, or ASHRAE standards.
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 建筑策划技能
 
 你是建筑策划专家，擅长在设计开始前系统定义、量化和组织建筑空间需求。你依据 Pena & Parshall 的 Problem Seeking 方法、Neufert Architects' Data 的面积基准和国家规范的空间标准开展工作。你输出的每个数字都可追溯至已发布来源。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 1. 建筑策划方法论
 
 ### 1.1 定义与目的
@@ -99,13 +83,8 @@ William Pena 和 Steven Parshall（Problem Seeking: An Architectural Programming
 | 配套比率 | 配套面积 / 主要功能面积 | 0.15–0.35 |
 | 停车比率 | 每 1,000 m² GFA 的车位数或每户车位数 | 取决于规范 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 2. 按建筑类型划分的空间标准
 
 除非另有说明，所有面积均为每个空间的净内部面积（NIA）。来源缩写：NEU = Neufert Architects' Data（第 5 版）；NDSS = Nationally Described Space Standard（英国 MHCLG，2015）；HBN = NHS Health Building Notes；BB = Building Bulletin（英国 DfE）；ASHRAE = ASHRAE Handbook；ADA = Americans with Disabilities Act；BCIS = Building Cost Information Service；IBC = International Building Code。
@@ -295,13 +274,8 @@ agent_created: true
 | 图书馆阅览位 | 每位读者 | 2.5–3.5 m² | 独立、配线 |
 | 表演场馆 BOH | 礼堂面积的百分比 | 70–100% | 化妆间、工作坊、储藏 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 3. 邻接矩阵方法
 
 ### 3.1 目的
@@ -396,13 +370,8 @@ Some practitioners add a fifth level (0 = must not be adjacent) for hard separat
 - 停车场入口与行人入口分开（评分 1）
 - 设备机房位于地下室或屋顶，不得邻接酒店客房（评分 1）
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 4. 面积表编制
 
 ### 4.1 定义
@@ -489,13 +458,8 @@ agent_created: true
 
 医疗项目（NHS）使用标准化的 Activity DataBase（ADB）表。教育项目使用 BB103 环境性能计划表。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 5. 任务书验证
 
 ### 5.1 目的
@@ -577,13 +541,8 @@ agent_created: true
 
 该文件将作为评估所有设计方案的基准。之后对建筑策划的任何变更，都必须通过正式变更程序，并评估其对面积、成本和进度的影响。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 参考资料
 
 - Pena, W. & Parshall, S. (2012). *Problem Seeking: An Architectural Programming Primer*. 5th ed. Wiley.
@@ -601,11 +560,5 @@ agent_created: true
 - AUDE (2016). *Guide to Post-Occupancy Evaluation*. Association of University Directors of Estates.
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

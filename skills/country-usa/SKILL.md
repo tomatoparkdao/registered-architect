@@ -1,31 +1,15 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: country-usa
 description: >
   美国建筑规范与法规参考。涵盖国际规范委员会（ICC）模型规范系列（已被美国大多数辖区采用：IBC 2024、IRC 2024、IECC 2024、IFC 2024、IMC 2024、IPC 2024、IFGC 2024、IEBC 2024）、美国国家消防协会规范系列（NFPA 101《生命安全规范》2024、NFPA 70 NEC 2023、NFPA 13 喷淋、NFPA 72 探测、NFPA 285 墙体组件、NFPA 5000）、结构标准（ASCE 7-22 荷载、ASCE 41-23 既有建筑、ACI 318-19 混凝土、AISC 360-22 钢结构、ANSI/AWC NDS 2024 木结构、TMS 402/602 砌体）、无障碍标准（ADA 2010、ANSI A117.1-2017、《公平住房法》+ HUD 设计手册、ABA 标准）、能源标准（ASHRAE 90.1-2022、ASHRAE 62.1-2022、ASHRAE 55-2020、ENERGY STAR），以及主要州级修订（加州 Title 24 第 1-12 部分，其中第 6 部分能源、第 11 部分 CalGreen；纽约市建筑规范 2022 + 1968 年祖父条款 + 2014 年商业规范；佛罗里达建筑规范 2023；得州按州及辖区采用；芝加哥建筑规范；马萨诸塞州第 9 版；华盛顿州能源规范），并涵盖分区/规划实践（R/C/M 分区、FAR、退界、高度奖励、LEED 计划、AHJ——具有管辖权的主管机构）。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 国家：美利坚合众国
 
 适用于美国各州、领地和哥伦比亚特区项目的建筑规范与法规参考。当出现美国城市/州、USD 货币、平方英尺/英制单位、提及“IBC”/“IRC”/“IECC”/“NFPA”/“ASCE 7”/“ADA”/“Title 24”/“CalGreen”/“NYC BC”、州建筑部门/AHJ，或 LEED/ENERGY STAR 时，启用此技能。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 1. 法规层级
 
 美国采用**B 型体系（国家示范规范 + 州/地方采纳）**，地方差异显著。美国没有联邦建筑规范；由**管辖机构（AHJ）**——可能是城市、县、州或特殊行政区——决定实施哪个版本的示范规范及其修订内容。
@@ -104,13 +88,8 @@ agent_created: true
 
 **务必向具体 AHJ 核实**当前采纳状态。ICC 发布各州矩阵，但采纳可能滞后数年，地方修订也可能大幅改变规范内容。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 2. IBC 2024 核心要求
 
 ### 2.1 使用组别（IBC 2024 第 3 章）
@@ -193,13 +172,8 @@ agent_created: true
 - 3 个出口：501-1000 人
 - 4 个出口：>1000 人
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 3. 消防规范
 
 ### 3.1 IFC 2024 + NFPA 101
@@ -218,13 +192,8 @@ NFPA 13:2025（或当前采纳版本）是喷淋系统设计标准。危险等�
 
 虽然不属于 IBC，但大多数州卫生部门将 **设施指南研究所（FGI）《医院设计与建造指南 2022》**作为医院项目的强制性依据。该指南对房间面积、净距和感染控制至关重要。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 4. 能源规范
 
 ### 4.1 IECC 2024 + ASHRAE 90.1-2022
@@ -278,13 +247,8 @@ agent_created: true
 
 加州强制性绿色建筑规范。类别包括节水、低 VOC 材料、施工废弃物分流和电动车充电准备。强制基准之上另设两个自愿等级。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 5. 无障碍设计
 
 ### 5.1 联邦框架
@@ -338,13 +302,8 @@ agent_created: true
 
 FHA 适用于 1991 年 3 月以后首次投入使用的所有 4 套及以上住宅。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 6. 结构标准
 
 ### 6.1 荷载标准（ASCE 7-22）
@@ -375,13 +334,8 @@ agent_created: true
 
 现行版本，适用于配筋和无筋砌体。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 7. 州级重点说明
 
 ### 7.1 纽约市（NYC BC 2022 + 1968 祖父条款 + 2014 商业版）
@@ -441,13 +395,8 @@ agent_created: true
 
 被认为是美国最严格的州能源规范，许多要求已达到 IECC 2027 水平并提前实施。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 8. 应用工作流
 
 1. **确定 AHJ**——城市、县、州或联邦
@@ -459,13 +408,8 @@ agent_created: true
 7. 确认具体场地的抗震、风荷载和洪水要求
 8. **引用条文**：“IBC 2024 第 1006.2.1 节、表 1006.2.1”；“ASCE 7-22 第 26.5.1 节”；“ADA 2010 第 404.2.4 节”；“ASHRAE 90.1-2022 第 5.4 节”；“NFPA 101-2024 第 7.3 节”
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 9. 快速数值参考
 
 | 参数 | 数值 | 来源 |
@@ -486,13 +430,8 @@ agent_created: true
 | 0.4% 风速（洛杉矶） | 96 mph（43 m/s） | ASCE 7-22 |
 | 地面雪荷载（波士顿） | 40-50 psf（1.9-2.4 kN/m2） | ASCE 7-22 |
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 10. 权威来源
 
 - **国际规范委员会（ICC）**——iccsafe.org——IBC/IRC/IECC/IFC/IMC/IPC/IFGC/IEBC 系列
@@ -512,21 +451,10 @@ agent_created: true
 - **FGI**——fgiguidelines.org——设计与建造指南（医院、门诊和住宅医疗）
 - **ENERGY STAR**——energystar.gov
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 *交叉引用：加载 `building-codes` 了解 IBC 基础（美国是 IBC 的本土管辖区）；加载 `fire-life-safety` 了解 NFPA 101 + IFC；加载 `accessibility-design` 了解 ADA + ANSI A117.1 +《公平住房法》；加载 `building-sustainability` 了解 LEED + ENERGY STAR + 被动房对比；加载 `structural-systems` 了解 ASCE 7 / ACI / AISC 深度；加载 `building-services` 了解 ASHRAE 细节。*
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

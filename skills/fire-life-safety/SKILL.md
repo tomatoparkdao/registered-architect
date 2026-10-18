@@ -1,34 +1,18 @@
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 name: fire-life-safety
 description: >
   全面的消防与生命安全设计专业知识，涵盖消防策略制定、防火分区与防火隔断设计、
   疏散路径设计（包括疏散距离和楼梯尺寸）、耐火等级与结构防火方法、排烟系统（自然与机械）、
   主动消防系统（喷淋、探测、报警、应急照明）、防火门规格，以及建筑师与消防工程师之间的消防策略协调。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 # 消防与生命安全设计
 
 本技能为建筑实践提供可直接应用的消防与生命安全设计知识，涵盖建筑师在消防策略、防火分区、
 疏散设计、结构防火、排烟及主动消防系统中的职责。所有尺寸均采用公制；在行业惯例要求时提供英制等值。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 1 节：消防策略制定
 
 ### 建筑师的职责
@@ -85,13 +69,8 @@ A fire strategy report（也称 fire safety strategy、fire engineering report �
 11. 建筑管理消防安全规定
 12. 图纸：防火分区平面图、疏散平面图、消防通道平面图
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 2 节：防火分区
 
 ### 目的
@@ -224,13 +203,8 @@ agent_created: true
 - 空腔隔断间任一方向的最大间距为 20 m（ADB）；IBC 第 718 节要求可燃构造的楼板/吊顶空间设置挡烟分隔，最大面积为 280 m²（3,000 ft²）。
 - 在延伸至隐蔽空间的防火分隔墙/楼板交接处设置。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 3 节：疏散路径设计
 
 ### 疏散楼梯数量
@@ -367,13 +341,8 @@ agent_created: true
 - 要求：耐火公寓入口门（FD30S）、耐火走廊/前室墙、耐火楼梯间，以及公共区域自动探测。
 - Grenfell 事件后的审查要求在“留守原位”策略之外，同时具备同时疏散能力作为备用方案（《Building Safety Act 2022》）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 4 节：结构防火
 
 ### 耐火时间
@@ -453,13 +422,8 @@ agent_created: true
 - 建筑优势：形成温暖的外露木材美学。
 - 必须采用更大的木材尺寸，以计入完整炭化影响。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 5 节：排烟控制
 
 ### 目的
@@ -527,13 +491,8 @@ agent_created: true
 - 穿孔效应（Plugholing）：排烟点不得抽取烟层以下的空气；按 NFPA 92 临界排烟量计算。
 - IBC 404.5：所有中庭均须按第 909 节设置排烟控制。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 ## 第 6 节：主动消防系统
 
 ### 自动喷淋系统
@@ -627,21 +586,10 @@ agent_created: true
 - 压力：最顶层出水口最低 7 bar（100 psi）。
 - 供水：专用消防水箱，或连接至流量充足的可靠公共管网（湿式立管通常需要 1500 L/min）。
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
+
 *本技能为建筑设计提供一般性的消防与生命安全指导。所有消防策略必须与具备资质的消防工程师协调制定，并经主管机关批准。消防规范和标准具有辖区特定性——应依据当地采用的版本核实要求。*
 #
 
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
