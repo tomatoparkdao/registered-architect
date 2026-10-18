@@ -15,6 +15,12 @@ description: >
   日光指标以及常见设计失败的反模式目录。可路由至
   可根据用户查询上下文路由至 17 个下游专业技能。
 user-invocable: false
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 
 # 建筑师基础

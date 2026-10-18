@@ -2,6 +2,12 @@
 name: construction-documentation
 description: >
   全面的施工图文件技能，涵盖建筑图纸集、图纸组织与编号、制图标准（线宽、文字、填充、尺寸）、BIM 开发程度（LOD）要求、使用 CSI MasterFormat 编写规范、明细表编制（门、窗、装修、设备），以及施工管理流程，包括 RFI 处理、报审文件审查、变更令、现场观察、整改清单和保修期管理。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 
 # 施工图文件

@@ -15,6 +15,12 @@ description: >
   compliance), DEWA/ADDC utility coordination, and the cross-walk between IBC, ASCE 7, NFPA,
   and UAE national amendments. Practitioner-grade clause-level reference for design teams
   working in any of the seven Emirates.
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 
 # 国家：阿拉伯联合酋长国

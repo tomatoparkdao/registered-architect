@@ -5,6 +5,12 @@ description: >
   威尔士（威尔士批准文件）、苏格兰（《2004 年建筑法规（苏格兰）》及苏格兰技术手册）和北爱尔兰
   （《2012 年建筑法规（北爱尔兰）》及技术手册）的平行制度；格伦费尔事件后的 AD-B 修订（2018-2023）、
   《建筑安全法 2022》及高风险建筑（HRB）建筑安全监管机构（BSR）制度、2025 年未来住宅标准和未来建筑标准（下一版 AD-L）、英国标准（BS 9991 住宅消防、BS 9999 非住宅消防、BS 8300-1/-2 无障碍、BS 5950 旧版钢结构、带英国国家附录的 BS EN Eurocode、BS 8500 混凝土）、2021 年伦敦规划及市长能源层级、地方规划与 NPPF（2024 年国家规划政策框架）、LABC 与批准检查员、EPC + SAP 10.2 + SBEM、2011 年《能源法》MEES 最低能效标准、BREEAM，以及格伦费尔后的建筑安全制度（包括关口 1-3、居民参与、信息黄金线、安全案例报告、强制事件报告和建筑产品监管制度）。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 
 # 国家：英国

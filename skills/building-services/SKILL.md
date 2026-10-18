@@ -4,6 +4,12 @@ description: >
   面向建筑师的全面建筑设备知识，涵盖 HVAC 系统选择及其空间影响、给排水设计、电气系统与配电、
   垂直交通（电梯与自动扶梯）、消防系统（喷淋、探测、排烟），以及 MEP 协调策略，包括吊顶空间分配、
   管井尺寸、设备机房规划和 BIM 集成。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 
 # 建筑师建筑设备指南

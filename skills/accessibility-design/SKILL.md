@@ -4,6 +4,12 @@ description: >
   全面的无障碍与通用设计专业知识，涵盖 ADA/ABA
   Accessibility Standards, universal design principles (Ron Mace's 7 principles),
   包容性环境设计、无障碍路线要求、轮椅通行尺寸标准、坡道、楼梯、电梯、卫生设施、感官无障碍（视力和听力障碍）、神经多样性设计、适老化居住，以及 ADA（美国）、Equality Act/BS 8300（英国）、DIN 18040（德国）、AS 1428（澳大利亚）和 NBC（印度）之间的国际规范比较。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 
 # 无障碍设计

@@ -14,6 +14,12 @@ description: >
   approval workflow involving Municipal Corporations, Development Authorities, State Fire
   Services NOC, and aviation/environmental clearances. Practitioner-grade clause-level
   reference for design teams working on projects in any Indian state or Union Territory.
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 
 # 国家：印度

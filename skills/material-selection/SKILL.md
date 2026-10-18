@@ -2,6 +2,12 @@
 name: material-selection
 description: 建筑材料性能、耐久性、可持续性、规格、节点、生命周期评估及建筑设计材料组合
 user-invocable: true
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 
 # 材料选择

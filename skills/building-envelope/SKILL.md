@@ -2,6 +2,12 @@
 name: building-envelope
 description: >
   建筑围护结构设计：墙体系统（砌体、木、钢、CLT、幕墙、雨屏、预制、SIPs、ICF）、玻璃系统（单玻至三玻、低辐射镀膜、气体填充、框型）、屋面（平屋面、坡屋面、绿化屋面、膜屋面）、热工性能（U 值、R 值、SHGC、空气渗透性）、湿度管理（隔汽层、结露风险、Glaser 法）、气密层、外饰面和热桥预防。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 
 # 建筑围护结构

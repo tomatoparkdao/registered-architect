@@ -4,6 +4,12 @@ description: >
   建筑可持续性框架与认证体系：LEED BD+C v4.1、BREEAM New Construction、Passive House（PHI/PHIUS）、
   WELL Building Standard v2、DGNB、Living Building Challenge、净零碳策略、全寿命碳评估、隐含碳减排、
   运行能耗目标、建筑循环经济与可拆解设计。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 
 # 建筑可持续性

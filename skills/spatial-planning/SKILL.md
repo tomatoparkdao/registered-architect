@@ -2,6 +2,12 @@
 name: spatial-planning
 description: >
   建筑空间规划：平面布局与原型、交通设计（走廊、楼梯、电梯、自动扶梯）、核心筒设计与竖向设备分配、竖向叠加策略、套内与总建筑面积优化、空间效率指标、导向系统和空间可读性。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 
 # 空间规划
