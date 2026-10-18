@@ -1,3 +1,14 @@
+---
+name: adjacency-methods
+description: 注册建筑师专业参考：adjacency-methods。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 邻接分析方法参考
 
 本参考全面介绍建筑策划中的邻近性分析、邻接矩阵、泡泡图、垂直分区分析和策划测试。
@@ -399,4 +410,4 @@ Before finalizing adjacency analysis, verify:
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

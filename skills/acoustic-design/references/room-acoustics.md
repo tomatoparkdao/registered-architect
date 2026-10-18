@@ -1,3 +1,14 @@
+---
+name: room-acoustics
+description: 注册建筑师专业参考：room-acoustics。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 室内声学——参考
 
 ## 1. 音乐厅类型
@@ -320,4 +331,4 @@ QRD 由一系列不同深度的槽井组成，槽井之间以薄肋分隔，背�
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

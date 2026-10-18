@@ -1,3 +1,14 @@
+---
+name: parti-strategies
+description: 注册建筑师专业参考：parti-strategies。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # Parti 策略——深度参考
 
 本参考系统介绍建筑设计中的 16 种典型 parti 策略。每个条目记录策略的图解逻辑、历史谱系、结构影响、环境特征、功能应用、尺度范围和建成案例。
@@ -404,4 +415,4 @@ Parti 概念在建筑史中经历了显著演变：
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

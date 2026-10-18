@@ -1,3 +1,14 @@
+---
+name: movements-and-manifestos
+description: 注册建筑师专业参考：movements-and-manifestos。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 建筑思潮与宣言
 
 涵盖 19 世纪中叶至今 20 多种建筑思潮的综合参考。每个条目记录思潮的时间与地理起源、奠基文本、关键实践者、定义性特征、经典建筑及当代意义。
@@ -558,4 +569,4 @@
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

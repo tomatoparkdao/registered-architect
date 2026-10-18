@@ -1,3 +1,14 @@
+---
+name: universal-design-principles
+description: 注册建筑师专业参考：universal-design-principles。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 通用设计原则——理念、证据与示范建筑
 
 ## 概述
@@ -274,4 +285,4 @@ CEUD《人人建筑》出版物（共 9 册）提供分领域指南：
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

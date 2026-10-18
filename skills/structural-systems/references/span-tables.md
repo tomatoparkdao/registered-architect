@@ -1,3 +1,14 @@
+---
+name: span-tables
+description: 注册建筑师专业参考：span-tables。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 跨度表：综合参考
 
 本参考按材料整理了常见结构构件的专业跨度表。数据汇编自Steel Construction Institute（SCI）、The Concrete Centre、TRADA（Timber Research and Development Association）、AISC Steel Construction Manual及Eurocode设计指南。
@@ -363,4 +374,4 @@
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

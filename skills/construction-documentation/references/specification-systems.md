@@ -1,3 +1,14 @@
+---
+name: specification-systems
+description: 注册建筑师专业参考：specification-systems。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 技术规格体系参考
 
 本参考综合介绍全球使用的技术规格分类体系：CSI MasterFormat（美国）、NBS（英国）、Uniclass 2015（英国）和 OmniClass。内容包括按分部整理的 MasterFormat 摘要、性能化技术规格编写指南以及可持续性规格实践。
@@ -468,4 +479,4 @@ mill-specific carbon intensity data.
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,3 +1,14 @@
+---
+name: program-brief-template
+description: 注册建筑师专业参考：program-brief-template。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 建筑策划任务书模板
 
 使用本模板编制完整的建筑策划任务书。设计开始前应完成所有章节。标记为 [REQUIRED] 的章节必须完成；标记为 [IF APPLICABLE] 的章节在项目类型适用时填写。
@@ -306,4 +317,4 @@
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

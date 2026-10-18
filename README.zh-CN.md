@@ -1,3 +1,14 @@
+---
+name: README.zh-CN
+description: 注册建筑师专业参考：README.zh-CN。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 全球注册建筑师技能框架
 
 > [English README](README.md)
@@ -549,4 +560,4 @@ registered-architect/
 本 README 与英文 README 使用相同的章节组织、技能范围、法规专题、计算器说明、统计项目和许可证信息；英文名称、规范编号、程序标识符、路径和命令保持原样，以确保 Agent 能够正确识别和调用。
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

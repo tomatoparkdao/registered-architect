@@ -1,3 +1,14 @@
+---
+name: area-standards
+description: 注册建筑师专业参考：area-standards。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 面积标准参考
 
 涵盖主要建筑类型及子类型的综合面积标准。除非另有说明，所有面积均为各空间的净内部面积（NIA）。尺寸为室内最小净尺寸。
@@ -526,4 +537,4 @@
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

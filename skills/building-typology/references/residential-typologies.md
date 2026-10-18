@@ -1,3 +1,14 @@
+---
+name: residential-typologies
+description: 注册建筑师专业参考：residential-typologies。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 住宅类型学参考
 
 本参考涵盖住宅建筑类型、平面配置、核心筒设计、采光、户型组合、密度、停车策略和代表性项目。
@@ -447,4 +458,4 @@
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

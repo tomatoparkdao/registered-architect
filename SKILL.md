@@ -32,4 +32,4 @@ agent_created: true
 提供设计审查或建议时，应说明：待确认的适用地区与标准版本、适用约束、设计响应和后续核验事项。不得将初步建议表述为审批结论或认证结果。
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

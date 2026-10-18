@@ -1,3 +1,14 @@
+---
+name: material-properties
+description: 注册建筑师专业参考：material-properties。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 材料性能——深度参考
 
 用于建筑规格和设计的综合材料性能表。所有数值均为设计参考的典型范围；具体产品应依据制造商数据表和测试证书核实。
@@ -484,4 +495,4 @@
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

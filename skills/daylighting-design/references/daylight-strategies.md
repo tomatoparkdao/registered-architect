@@ -1,3 +1,14 @@
+---
+name: daylight-strategies
+description: 注册建筑师专业参考：daylight-strategies。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
+---
+
 # 日照设计策略——深度参考
 
 涵盖 20 多种建筑日照策略的综合参考，包含性能数据、尺寸指南、模拟基准和示范建筑。
@@ -463,4 +474,4 @@
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
