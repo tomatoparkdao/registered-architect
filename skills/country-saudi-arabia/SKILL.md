@@ -1,15 +1,31 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: country-saudi-arabia
 description: >
   沙特阿拉伯王国建筑规范与法规参考。涵盖沙特建筑规范（SBC）国家委员会（SBCNC）发布的系列规范：SBC 201 一般建筑、SBC 301 结构荷载（源自 ASCE）、SBC 302 混凝土（源自 ACI 318）、SBC 304 土与基础、SBC 305 砌体、SBC 306 钢结构（源自 AISC）、SBC 401 电气、SBC 501 机械、SBC 601 节能、SBC 701 给排水、SBC 801 消防（与 NFPA 对齐）、SBC 901 既有建筑、SBC 1001 绿色建筑；以及民防总局法规、沙特通用无障碍规范、Mostadamah（沙特绿色建筑计划）、Vision 2030 超级项目（NEOM、Qiddiya、红海、Diriyah、ROSHN）、Amana（市政）审批流程、沙特能效中心（SEEC）计划和皇家委员会管辖区（朱拜勒/延布/欧拉）。包括麦加/麦地那特殊限制（朝觐建筑法规）、Aramco 住宅标准参考，以及针对全国三类气候区的炎热干旱、沿海湿热和高地设计附加要求。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 国家：沙特阿拉伯王国
 
 适用于沙特阿拉伯境内项目的建筑规范与法规参考。当提及沙特城市（利雅得、吉达、麦加、麦地那、达曼、塔布克、欧拉、NEOM、胡拜尔、宰赫兰）、SAR 货币、“Amana”/“Baladiya”、皇家委员会项目、Mostadamah、SBC 规范或沙特民防（Difa'a al-Madani）时启用本技能。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 1. 法规层级
 
 沙特阿拉伯采用**A 型体系（统一国家规范）**：自 2018 年起，**沙特建筑规范（SBC）**对全国所有新建工程强制适用。省级差异属于行政差异（由哪个 Amana 颁发许可），而非技术差异。
@@ -81,8 +97,13 @@ Vision 2030 has spawned several **non-Amana jurisdictions** with their own build
 - 两座城市在两大圣寺（Masjid al-Haram、Al-Masjid an-Nabawi）周边区域均有**特殊高度限制**——标高、材料、色彩和标识均由**麦加/麦地那皇家委员会**与沙特遗产管理局控制
 - **朝觐建筑法规**——朝觐路线上的酒店和基础设施须满足特殊人流组织要求；容量计算遵循朝觐研究院方法
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 2. 沙特建筑规范结构
 
 沙特建筑规范（SBC）于 2007 年首次发布，并于 2018 年进行重大修订；**2018 版**为现行版本（SBCNC 定期发布更新）。全国所有建筑均须符合。
@@ -117,8 +138,13 @@ While SBC is technically nationally mandatory since 2018, **enforcement strength
 - **Tier-3 / rural**: SBC formally applies but on-site practice may lag
 - **Giga-projects**: own authority + SBC overlay
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 3. 建筑规范核心要求（SBC 201 + 801）
 
 ### 3.1 使用分类（SBC 201 第 3 章，与 IBC 对齐）
@@ -158,8 +184,13 @@ IBC-aligned; same Type IA through VB construction types; same height-vs-area-vs-
 
 Jeddah's coastal high-density mid-rise pattern uses **Building Coefficient = FAR × site coverage**. Old city (Al-Balad UNESCO heritage zone) has strict conservation rules.
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 4. 防火与生命安全（SBC 801）
 
 ### 4.1 SBC 801-CR 结构
@@ -213,8 +244,13 @@ Aligned to IBC Section 1402-1406 and NFPA 285:
 3. **Construction-phase inspections**
 4. **Pre-occupancy inspection** -- Civil Defence Completion Certificate required before Amana issues Occupancy Permit
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 5. 能源规范（SBC 601）
 
 ### 5.1 SBC 601-CR 结构
@@ -249,8 +285,13 @@ Saudi's voluntary-tier green rating system. Categories: Site, Water, Energy, Mat
 
 Saudi Energy Efficiency Center mandates appliance standards (SASO labels), industrial efficiency, district cooling for new developments > 2 million sqm conditioned space.
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 6. 无障碍（SBC 801 第 11 章 + Saudi Universal Accessibility Code）
 
 ### 6.1 框架
@@ -281,8 +322,13 @@ ANSI A117.1-aligned with Saudi additions:
 
 Three tiers: Bronze, Silver, Gold. Requires policy + physical environment + recruitment provisions. Issued by Ministry of Human Resources and Social Development. Many Saudi commercial buildings now target Mowaamah Gold.
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 7. 结构与荷载（SBC 301）
 
 ### 7.1 SBC 301——荷载
@@ -333,8 +379,13 @@ Saudi has problematic soils in many regions:
 
 Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 8. 施工许可流程
 
 ### 8.1 步骤（以利雅得为例）
@@ -357,8 +408,13 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 - **Royal Commission projects (RCJY, RCU, RCRC)**: separate workflow within commission's design + permit office
 - **Mecca/Medina holy precincts**: additional Royal Commission approval; restrictions on construction during Hajj season (~6 weeks)
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 9. 气候设计参数
 
 ### 9.1 利雅得（第 2 区——内陆炎热干燥）
@@ -396,8 +452,13 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 | Annual CDD | 2000-2500 |
 | Annual HDD | 1500-2000 |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 10. 快速数值参考
 
 | 参数 | 数值 | 来源 |
@@ -415,8 +476,13 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 | 住宅停车位 | 每户1.0-1.5个 | 当地Amana DCR |
 | 清真寺——礼拜区面积 | 坐姿每人0.8-1.0 m²；站姿0.6 m² | Hajj Research Institute |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 11. 应用流程
 
 1. **确定 Amana / Royal Commission / 超级项目管辖区**。
@@ -430,8 +496,13 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 9. 如位于相关辖区，确认 **RCRC / RCU / NEOM 专项指南**。
 10. **引用条款**：例如 “SBC 201-CR 2018 Chapter 504”、“SBC 801-CR 2018 Section 1006.2”、“SBC 601-CR 2018 Table C402.1.4”、“Saudi Universal Accessibility Code 2010 Section 4.3.1”。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 12. 权威来源
 
 - **Saudi Building Code National Committee (SBCNC)**——sbc.gov.sa——全部 SBC 规范。
@@ -450,10 +521,21 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 - **Authority of People with Disabilities** -- apd.gov.sa
 - **MISA (Ministry of Investment)** -- misa.gov.sa
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 *交叉引用：加载 `building-codes` 了解 IBC 基础（SBC 201 源自 IBC）；加载 `fire-life-safety` 了解一般疏散并结合 SBC 801；加载 `building-envelope` 处理炎热干燥及沿海湿热节点；加载 `building-sustainability` 比较 Mostadamah / LEED；加载 `accessibility-design` 了解 ANSI A117.1 / Saudi UAC；加载 `structural-systems` 了解 SBC 302/306 所采用的 ACI 318 + AISC 内容。*
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

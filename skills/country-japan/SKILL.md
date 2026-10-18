@@ -1,3 +1,9 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: country-japan
 description: >
@@ -7,14 +13,24 @@ description: >
   采光与退界比例）的《城市规划法》；独特的两级抗震设计理念（一级 475 年、二级 2475 年重现期）、1981 年新耐震标准、能量吸收构件、
   基础隔震与阻尼器系统；AIJ《建筑物荷载建议》（2015）；CASBEE（建成环境综合性能评价系统）；BCJ（日本建筑中心）结构性能评价；
   《建筑师法》及一级/二级/木造建筑师资格；《土地与建筑物租赁法》；以及都道府县、政令指定城市和核心城市行政层级。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 国家：日本
 
 适用于日本项目（47 个都道府县及东京都）的建筑规范与法规参考。当提及日本城市/都道府县、JPY 货币、“Kenchiku Kijun Ho”/“BSL”/“Sho-Energy Ho”/“CASBEE”/“AIJ”/“BCJ”/“Shintaishin”，或日本建筑术语（yoseki-ritsu、kenpei-ritsu、kakunin-shinsei、kanseikensa、joryoku-do、koshou-tatemono、mokuzo）时启用本技能。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 1. 法规层级
 
 日本采用**D 型体系（中央集权国家规范 + 强制性条文）**。建筑法规为国家层级，由都道府县和政令指定城市依据《建筑基准法》授权管理，部分事项下放至指定城市。
@@ -72,8 +88,13 @@ description: >
 
 东京都政府（Tokyo-to）下辖 23 个特别区（Tokubetsu-ku），其职能相当于市町村，另有多城市组成的多摩地区。东京 23 区的建筑确认通常由东京都城市整备局负责，小型工程由区役所处理。东京都另有自己的**《东京都建筑基准条例》**，作为 BSA 的补充。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 2. 建筑基准法核心要求
 
 ### 2.1 建筑分类（Yoto Bunkenchiku）
@@ -153,8 +174,13 @@ BSA 按**用途** + **结构** + **规模**对建筑进行分类：
 - 中层住宅 > 5 层（或楼层面积 > 500 m2）
 - 高层建筑超过规定阈值
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 3. 抗震设计
 
 ### 3.1 两级抗震设计
@@ -188,8 +214,13 @@ BSA 按**用途** + **结构** + **规模**对建筑进行分类：
 - **JSCE 标准**——主要用于桥梁/土木工程
 - **BCJ 性能评价**——适用于较高建筑
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 4. 防火安全（《消防法》+ BSA）
 
 ### 4.1 双法规体系
@@ -229,8 +260,13 @@ Japan emphasizes **outside-air stair (To-no-zen Kaidan)** -- stairs vented to ou
 
 Hospitals, fire stations, government emergency operations centres, designated evacuation centres designed for **post-event functionality** -- structural drift limits tighter, redundancies for utilities, separate emergency power.
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 5. 能源规范（Sho-Energy Ho）
 
 ### 5.1 建筑物能源消费性能提升法（Kenchikubutsu Sho-Energy Ho）2015
@@ -291,8 +327,13 @@ Japan's own green building assessment system, comparable to LEED + DGNB. Rates b
 
 Many municipalities require CASBEE B+ or A as minimum for medium-large buildings.
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 6. 无障碍（Heart Building Law 2006）
 
 ### 6.1 Heart Building Law（Hito ni Yasashii Machizukuri / 无障碍法）
@@ -329,8 +370,13 @@ Japan's robust UD culture extends beyond legal minimum:
 - "ChojuJuutaku" (Long-Life Quality Housing) certification for housing
 - "Tokutei Hyouka" Designated Evaluation for housing accessibility
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 7. 结构材料与标准
 
 ### 7.1 材料规范
@@ -361,8 +407,13 @@ Wind-resistant design also separate consideration:
 - **Aerodynamic shape coefficients** per wind tunnel testing for >60 m
 - **Cyclonic/typhoon design** distinct from synoptic wind, especially in Okinawa + Kyushu
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 8. 许可流程
 
 ### 8.1 标准流程（Kakunin-shinsei）
@@ -396,8 +447,13 @@ BCJ evaluates buildings beyond standard limits:
 
 BCJ issues evaluation certificate which the Confirmation Inspection Agency relies on.
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 9. 气候设计参数
 
 ### 9.1 东京（第 5 区）
@@ -432,8 +488,13 @@ BCJ issues evaluation certificate which the Confirmation Inspection Agency relie
 | Typhoon wind | extreme; design 60+ m/s 3-sec gust |
 | 盐雾腐蚀 | 严重 |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 10. 快速数值参考
 
 | 参数 | 数值 | 来源 |
@@ -454,8 +515,13 @@ BCJ issues evaluation certificate which the Confirmation Inspection Agency relie
 | 住宅建蔽率（Kenpei-ritsu） | 30-60% | 城市规划法 |
 | Daylight hours required (Region 5 winter) | 3 hours mid-winter | Local ordinance |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 11. 应用流程
 
 1. **Identify prefecture / Designated City** (or special wards in Tokyo).
@@ -470,8 +536,13 @@ BCJ issues evaluation certificate which the Confirmation Inspection Agency relie
 10. **Engage BCJ or other accredited body** if structural performance evaluation needed.
 11. **Cite clauses**: "Building Standards Act Article 20", "BSA Enforcement Order Article 120", "MLIT Notification 1457 of 2000 (Kokuji)", "AIJ Recommendations for Loads on Buildings 2015", "Sho-Energy Ho 2015 Article 11", "Heart Building Law Implementation Standards Section 13".
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 12. 权威来源
 
 - **MLIT (Ministry of Land, Infrastructure, Transport and Tourism)** -- mlit.go.jp
@@ -488,10 +559,21 @@ BCJ issues evaluation certificate which the Confirmation Inspection Agency relie
 - **Each prefecture building department** -- prefectural government websites
 - **Architect license examination via Japan Architects Association** -- jia.or.jp
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 *交叉引用：加载 `building-codes` 了解一般规范结构（日本 BSA 独特地采用双法规防火体系）；加载 `fire-life-safety` 了解一般原则，并结合 BSA 耐火和《消防法》主动防火条款；加载 `accessibility-design` 了解全球框架，再结合 Heart Building Law；加载 `building-sustainability` 比较 CASBEE、LEED 与 Passivhaus；加载 `structural-systems` 处理抗震专项设计（日本两级抗震与隔震）；加载 `building-envelope` 处理从亚寒带至亚热带的严酷气候及台风节点。*
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

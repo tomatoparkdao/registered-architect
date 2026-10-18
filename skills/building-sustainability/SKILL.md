@@ -1,11 +1,22 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: building-sustainability
 description: >
   建筑可持续性框架与认证体系：LEED BD+C v4.1、BREEAM New Construction、Passive House（PHI/PHIUS）、
   WELL Building Standard v2、DGNB、Living Building Challenge、净零碳策略、全寿命碳评估、隐含碳减排、
   运行能耗目标、建筑循环经济与可拆解设计。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 建筑可持续性
 
 ## 第 1 节：可持续性框架选择器
@@ -82,8 +93,13 @@ description: >
 - **市场认可度：** 最高声誉等级。截至 2025 年，全球完整认证项目少于 30 个。获得 LBC 认证是对环境承诺的非凡声明。
 - **建筑师影响：** 几乎是决定性的。场地修复、水资源独立、能源生产、材料来源和亲生物设计等建筑师决策决定项目能否获得认证。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 2 节：LEED BD+C v4.1
 
 LEED（Leadership in Energy and Environmental Design）是全球使用最广泛的绿色建筑评级体系。LEED BD+C（Building Design and Construction）涵盖新建和重大改造项目，4.1 版为当前评级体系。
@@ -222,8 +238,13 @@ LEED（Leadership in Energy and Environmental Design）是全球使用最广泛�
 
 **区域优先学分**由 USGBC 区域委员会预先确定，代表当地重要环境优先事项。项目达到指定学分后可获得奖励分（最多 4 分）。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 3 节：Passive House 标准
 
 ### 3.1 五项准则
@@ -279,8 +300,13 @@ PHPP 使用逐月能量平衡（EN ISO 13790）及项目所在地专属气候数
 
 **Passive House Premium：** PER ≤30 kWh/m²a；可再生能源产量 ≥120 kWh/m²a，为能源净正的 Passive House。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 4 节：全寿命碳
 
 ### 4.1 碳生命周期阶段（EN 15978）
@@ -372,8 +398,13 @@ PHPP 使用逐月能量平衡（EN ISO 13790）及项目所在地专属气候数
 - 尽量减少无法分离的复合材料
 - 提供记录全部构件的材料护照，便于未来回收
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 5 节：WELL 建筑标准 v2
 
 ### 5.1 十项概念
@@ -430,8 +461,13 @@ WELL 建筑标准 v2 围绕 10 项概念组织，每项对应人类健康与福�
 - **Restorative spaces** (design quiet rooms, outdoor terraces, garden spaces)
 - **Universal accessibility** (exceed ADA/Part M requirements, create barrier-free environments)
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 6 节：净零碳策略
 
 ### 6.1 运营阶段净零
@@ -485,8 +521,13 @@ WELL 建筑标准 v2 围绕 10 项概念组织，每项对应人类健康与福�
 - Intermediate target: 80% below regional average energy consumption by 2025
 - 100% by 2030 (through efficiency + on-site/off-site renewables)
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 7 节：建筑中的循环经济
 
 ### 7.1 面向拆解设计（DfD）
@@ -582,5 +623,11 @@ Material passports enable buildings to function as material banks — repositori
 - Designed by Acton Ostry Architects with Architekten Hermann Kaufmann
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

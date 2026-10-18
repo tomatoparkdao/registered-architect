@@ -1,3 +1,9 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: country-uk
 description: >
@@ -5,14 +11,24 @@ description: >
   威尔士（威尔士批准文件）、苏格兰（《2004 年建筑法规（苏格兰）》及苏格兰技术手册）和北爱尔兰
   （《2012 年建筑法规（北爱尔兰）》及技术手册）的平行制度；格伦费尔事件后的 AD-B 修订（2018-2023）、
   《建筑安全法 2022》及高风险建筑（HRB）建筑安全监管机构（BSR）制度、2025 年未来住宅标准和未来建筑标准（下一版 AD-L）、英国标准（BS 9991 住宅消防、BS 9999 非住宅消防、BS 8300-1/-2 无障碍、BS 5950 旧版钢结构、带英国国家附录的 BS EN Eurocode、BS 8500 混凝土）、2021 年伦敦规划及市长能源层级、地方规划与 NPPF（2024 年国家规划政策框架）、LABC 与批准检查员、EPC + SAP 10.2 + SBEM、2011 年《能源法》MEES 最低能效标准、BREEAM，以及格伦费尔后的建筑安全制度（包括关口 1-3、居民参与、信息黄金线、安全案例报告、强制事件报告和建筑产品监管制度）。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 国家：英国
 
 适用于英格兰、威尔士、苏格兰和北爱尔兰项目的建筑规范与法规参考。当出现任何英国相关内容、GBP 货币、提及“Approved Document”/“AD-B”/“Part L”/“Part M”、BSI/英国标准、BS 8300、《建筑安全法》、BSR、格伦费尔相关外墙问题、NPPF、伦敦规划、EPC/SAP/SBEM、BREEAM、英国版本 RIBA 工作计划、MEES 或 LABC 时，启用此技能。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 1. 法规层级
 
 英国采用**C 型体系（联邦框架 + 权力下放行政区）**。四个组成国各有独立的监管制度，但基础内容高度相似。
@@ -68,8 +84,13 @@ description: >
 | **苏格兰** | 《2004 年建筑法规（苏格兰）》+ 苏格兰技术手册（住宅 + 非住宅，2023 版） | 2023 技术手册第 6 节能源 + 标准 6.1-6.9 | 技术手册第 2 节消防 | 技术手册第 4 节安全 + 《2010 年平等法》 |
 | **北爱尔兰** | 《2012 年建筑法规（北爱尔兰）》+ 技术手册 A-V | 技术手册 F1/F2 | 技术手册 E | 技术手册 R |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 2. 英格兰《建筑法规 2010》及批准文件
 
 ### 2.1 批准文件索引
@@ -119,8 +140,13 @@ description: >
 - **社区规划**——部分地区另有社区层级规划
 - **《伦敦规划 2021》**——伦敦市长与 GLA 制定的大伦敦空间发展战略，在伦敦申请中具有重要政策权重
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 3. 消防安全（格伦费尔后 AD-B）
 
 ### 3.1 AD-B 修订
@@ -175,8 +201,13 @@ description: >
 - 将**消防安全工程原则应用于建筑设计**
 - 8 个子系统 PD（公开文件），涵盖初始火灾与生命安全、烟气、结构防火等具体方面
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 4. 能源规范
 
 ### 4.1 AD-L（燃料与能源节约）
@@ -239,8 +270,13 @@ description: >
 
 此外，新建建筑应以**净零碳**为目标（运行碳 + 隐含碳）；需提交市长审查的大型申请必须进行全生命周期碳评估。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 5. 无障碍设计
 
 ### 5.1 AD-M 住宅三层级体系
@@ -286,8 +322,13 @@ description: >
 - **《街道设计手册》/《街道设计手册 2》**——设计标准
 - **TSRGD**（交通标志法规）——标识
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 6. 结构与荷载（采用英国国家附录的 Eurocode）
 
 ### 6.1 英国采用的 Eurocode 系列
@@ -326,8 +367,13 @@ description: >
 - 苏格兰高地较高，其他地区相对较小
 - 海拔超过 100 m 时，海拔系数至关重要
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 7. 权力下放组成国——快速参考
 
 ### 7.1 苏格兰
@@ -373,8 +419,13 @@ description: >
 
 北爱尔兰的相应规定通常比英格兰滞后 12-24 个月。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 8. 实务工作流
 
 ### 8.1 英格兰建筑项目流程（非 HRB）
@@ -404,8 +455,13 @@ description: >
 3. 以净零碳为目标（或按地方规划支付碳抵消费用）
 4. 进行空气质量中和评估
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 9. 快速数值参考
 
 | 参数 | 数值 | 来源 |
@@ -426,8 +482,13 @@ description: >
 | 风速 Vb,0（格拉斯哥） | 25 m/s | 同上 |
 | 地面雪荷载 sk（伦敦） | 0.4 kN/m2 | BS EN 1991-1-3 英国国家附录 |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 10. 应用工作流
 
 1. **确定组成国**（英格兰、威尔士、苏格兰、北爱尔兰）。
@@ -441,8 +502,13 @@ description: >
 9. 规划采用**地方规划 / NPPF /《伦敦规划》**。
 10. **引用条文**：“AD-B 第 2 卷（2019，2022 修订）第 2.1 节、表 2.1”；“BS 9991:2024 第 7 节”；“AD-L 第 1 卷 2021 第 4.2 节”；“《伦敦规划 2021》政策 SI 2”；“《建筑安全法 2022》第 65 条”；“BS EN 1991-1-4:2005+A1:2010 + 英国国家附录”。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 11. 权威来源
 
 - **DLUHC/MHCLG（英国住房主管部门）**——gov.uk/government/organisations/ministry-of-housing-communities-and-local-government
@@ -459,10 +525,21 @@ description: >
 - **BRE**——bregroup.com——BREEAM、SAP 10.2、SBEM
 - **MEES 指南**——gov.uk/government/publications/the-non-domestic-private-rented-property-minimum-standard
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 *交叉引用：加载 `building-codes` 了解一般消防/疏散概念（AD-B 对其进行英国化细化）；加载 `fire-life-safety` 了解一般消防工程（再结合英国 BS 9991/9999）；加载 `accessibility-design` 了解全球框架及 BS 8300/AD-M；加载 `building-sustainability` 了解 BREEAM、被动房对比和全生命周期碳；加载 `building-envelope` 了解英国气候（AD-O 过热 + AD-L 围护结构）；加载 `structural-systems` 了解基于 Eurocode 的设计。*
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

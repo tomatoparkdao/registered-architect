@@ -1,15 +1,31 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: building-codes
 description: >
   全面的建筑规范专业知识，涵盖 IBC（International Building Code）使用类别、I 至 V 类建筑构造、建筑高度与面积限制、疏散设计、防火分隔与防护要求、卫生器具计算，以及 IBC、Building Regulations（英格兰和威尔士）、Eurocodes、NCC（澳大利亚）和 NBC（加拿大）之间的国际规范比较。提供具体规范条文、尺寸要求、耐火等级和建筑合规计算方法。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 建筑规范
 
 本技能为建筑设计提供可直接用于实践的建筑规范知识，以 International Building Code（IBC）为主要框架，并进行国际规范比较。所有尺寸均采用公制；在行业惯例要求时同时给出英制等效值。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 1 节：IBC 使用类别
 
 IBC 根据建筑用途和使用者特征，将每栋建筑或建筑的一部分划分为 10 个使用类别之一。正确分类是建筑师作出的最重要规范决策之一，因为它决定建筑构造类别、建筑高度与面积限制、疏散要求、防火分隔和卫生器具数量。
@@ -194,8 +210,13 @@ IBC 根据建筑用途和使用者特征，将每栋建筑或建筑的一部分�
 - 典型火灾荷载：可变
 - 关键规范要求：按 IBC 312，农业建筑可豁免许多 IBC 条款；不属于 S-2 的私人车库归类为 U 类
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 2 节：建筑构造类别
 
 IBC 定义了 5 类建筑构造（I 至 V），每类包含 A、B 两个子类别，共 10 种分类。此外，2021 版 IBC 为大体量木结构增加了 IV 类子类别。构造类别决定结构构件的耐火等级，并与使用类别共同确定建筑高度和面积限值。
@@ -329,8 +350,13 @@ IBC 定义了 5 类建筑构造（I 至 V），每类包含 A、B 两个子类�
 
 （UL = 不限。所有面积以千 ft² 表示，高度以层数/英尺表示。数值已按 IBC 504.2 考虑喷淋增幅。具体项目数值必须对照 IBC 表 504.3、504.4 和 506.2 进行核验。）
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 3 节：高度与面积限值
 
 ### 允许高度计算
@@ -391,8 +417,13 @@ Total = Aa × number of stories (up to 3 stories)
 
 这些规定适用于大占地建筑，例如会议中心、大型盒式零售店、仓库、飞机库和制造工厂。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 4 节：疏散路径
 
 疏散路径是从建筑内任何有人使用的位置通往公共道路的连续、无障碍行走路线，由三个部分组成。
@@ -484,8 +515,13 @@ Total = Aa × number of stories (up to 3 stories)
 - EN 标准楼梯宽度：最小 1,100 mm（BS 9999：每层最多 150 人时最小 1,050 mm）
 - 行走距离测量方式不同：EN/BS 按最短路线的实际行走距离，IBC 采用直线距离方法
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 5 节：防火分隔要求
 
 ### 防火构造类型
@@ -546,8 +582,13 @@ Total = Aa × number of stories (up to 3 stories)
 
 （*无论表 1020.1 的耐火等级如何，I 类建筑的走道墙通常还需根据其他条款设置为防烟分隔。）
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 6 节：卫生器具
 
 ### 卫生器具最低要求（IBC 表 2902.1 / IPC 表 403.1）
@@ -595,8 +636,13 @@ Total = Aa × number of stories (up to 3 stories)
 - 部分辖区已对多隔间全性别卫生间作出规定
 - 采用全性别单人卫生间时，卫生器具数量可以合并计算
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 7 节：国际规范比较
 
 ### IBC（美国）
@@ -651,10 +697,21 @@ Total = Aa × number of stories (up to 3 stories)
 
 5. **大体量木结构：**IBC 2021 为高层大体量木结构引入 IV-A/B/C 类；NBC 允许部分省份达到 12 层；英国没有规定性的高层木结构路径，但性能化方法已支持最高约 10 层的项目；澳大利亚 NCC 2019 引入了有效高度最高 25 m 的大体量木结构规定。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 *本技能为建筑决策提供一般性规范指导。所有规范解释必须根据主管部门（AHJ）采用的具体版本进行核验。建筑主管部门对规范合规性拥有最终裁定权。*
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

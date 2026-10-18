@@ -1,3 +1,9 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: architect-calculator
 description: >
@@ -6,8 +12,13 @@ description: >
   BRE 方法的采光系数估算；疏散合规性校核（使用人数、出口宽度、疏散距离）；
   结构竖向荷载与柱分担面积计算；基于度日法的年度能耗估算；以及按建筑类型、
   品质和地区估算建造成本。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 建筑师计算器
 
 这是一套用于快速建筑设计计算的七个命令行 Python 计算器。每个计算器均通过
@@ -22,8 +33,13 @@ python scripts/<calculator_name>.py [arguments]
 在任意命令中添加 `--json`，即可获得适用于传递给其他工具或自动化流程的结构化
 JSON 输出。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 1. 面积计算器（`area_calculator.py`）
 
 根据用地面积和容积率（FAR）计算开发强度指标，包括总建筑面积、净可用面积、
@@ -66,8 +82,13 @@ python scripts/area_calculator.py --site-area 5000 --far 2.5 --ntg-ratio 0.82
 停车位数：            120
 ```
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 2. 传热系数（U 值）计算器（`uvalue_calculator.py`）
 
 通过汇总各构造层热阻及表面热阻，计算多层墙体、屋面或楼板构造的传热系数（U 值）。
@@ -115,8 +136,13 @@ Rse（外表面）        --             --                   0.0400
 常见规范目标（墙体）：        0.30 W/m2K  —— 符合
 ```
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 3. 采光计算器（`daylight_calculator.py`）
 
 使用 BRE 简化公式估算侧向采光房间的平均采光系数。
@@ -161,8 +187,13 @@ python scripts/daylight_calculator.py \
 评价：合格（居住房间目标值 ≥ 2.0%）
 ```
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 4. 疏散计算器（`egress_calculator.py`）
 
 按 IBC 计算使用人数、所需出口数量、最小出口宽度及疏散距离合规性。
@@ -206,8 +237,13 @@ python scripts/egress_calculator.py --floor-area 800 --occupancy-type B --sprink
 合规提示：请在平面图上复核疏散距离。
 ```
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 5. 结构荷载计算器（`structural_load_calculator.py`）
 
 计算柱分担面积的竖向荷载，用于结构初步选型。
@@ -246,8 +282,13 @@ python scripts/structural_load_calculator.py --tributary-area 36 --num-floors 8 
 初步柱截面：        约 400×400 mm RC（fc'=35 MPa）
 ```
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 6. 能耗计算器（`energy_calculator.py`）
 
 采用度日法估算年度供暖和制冷能耗需求。
@@ -298,8 +339,13 @@ python scripts/energy_calculator.py \
 被动房目标：           15 kWh/m2/年 —— 不符合
 ```
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 7. 造价计算器（`cost_calculator.py`）
 
 根据建筑类型、品质等级和地理区域估算建造成本。
@@ -340,8 +386,13 @@ python scripts/cost_calculator.py --gfa 5000 --building-type office --quality pr
 每平方米总成本：          3,346.00 USD/m2
 ```
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 方法参考
 
 每个计算器的详细公式和方法记录在
@@ -365,5 +416,11 @@ JSON 输出（`--json` 标志）可用于集成至：
 - BIM 参数写入
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

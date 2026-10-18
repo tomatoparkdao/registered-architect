@@ -1,9 +1,20 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: building-envelope
 description: >
   建筑围护结构设计：墙体系统（砌体、木、钢、CLT、幕墙、雨屏、预制、SIPs、ICF）、玻璃系统（单玻至三玻、低辐射镀膜、气体填充、框型）、屋面（平屋面、坡屋面、绿化屋面、膜屋面）、热工性能（U 值、R 值、SHGC、空气渗透性）、湿度管理（隔汽层、结露风险、Glaser 法）、气密层、外饰面和热桥预防。
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 建筑围护结构
 
 ## 第1节：围护结构性能要求
@@ -77,8 +88,13 @@ description: >
 - Heating demand: ≤15 kWh/m²/year
 - Primary energy demand: ≤60 kWh/m²/year (PER: 120 kWh/m²/year)
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第2节：墙体系统
 
 ### 2.1 砌体空腔墙（砖-保温-砌块）
@@ -241,8 +257,13 @@ description: >
 - **优点：**具备负碳潜力、外露木材美学、特色鲜明、结构与围护一体化
 - **缺点：**外露木材需维护（每 3–5 年重新涂油或炭化处理），风化不均，外露木立面需消防工程设计；无额外保护时高度受限
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第3节：玻璃系统
 
 ### 3.1 玻璃类型
@@ -337,8 +358,13 @@ description: >
 
 ASHRAE 90.1 基准值：WWR 为 40%。更高的 WWR 需要采取补偿措施（更好的 U 值、更低的 SHGC、外遮阳）。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第4节：屋面系统
 
 ### 4.1 平屋面——暖屋面
@@ -394,8 +420,13 @@ ASHRAE 90.1 基准值：WWR 为 40%。更高的 WWR 需要采取补偿措施（�
 - PTFE 涂层玻璃纤维：张拉膜结构；半透明；U 值较差（单层约 6.0）；最适合半室外及遮阳应用
 - 直立锁边金属屋面：锌、铜、铝、钢；最小坡度 3°；使用寿命 40–100 年（锌/铜）
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第5节：湿气管理
 
 ### 5.1 “完美墙体”原则
@@ -460,8 +491,13 @@ Glaser方法（BS EN ISO 13788）用于计算墙体构造内部的结露风险�
 - 基础处热桥：在底板边缘下方设置保温，或采用保温基础系统
 - DPC（防潮层）：至少高出完成地坪 150 mm（英国建筑法规）
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第6节：热桥预防
 
 ### 6.1 什么是热桥？
@@ -539,8 +575,13 @@ Psi值（线性热透射系数）量化交接处每米长度的附加热损失�
 - **计算约定：**BRE IP 1/06（英国）；PHI Protocol（被动房）。内尺寸法与外尺寸法会影响 ψ 值，必须说明采用的约定。
 - **SAP/SBEM（英国）：**采用 Accredited Construction Details 或 BR 497 的 ψ 值表；也接受热工模拟得到的定制值。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 附录 A：围护结构测试与调试
 
 ### 气密性测试
@@ -569,8 +610,13 @@ Psi值（线性热透射系数）量化交接处每米长度的附加热损失�
 - 可识别：热桥、保温缺失、空气泄漏路径和水分侵入。
 - 不能量化 U 值；仅作定性评估（色标表示相对表面温度）。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 附录 B：主要标准与规范参考
 
 | 标准 | 范围 | 适用辖区 |
@@ -614,5 +660,11 @@ Psi值（线性热透射系数）量化交接处每米长度的附加热损失�
 | 平屋面防水膜更换 | 20–30 年（单层膜）；15–20 年（多层卷材） | 绿化屋面膜材因受保护而寿命更长 |
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

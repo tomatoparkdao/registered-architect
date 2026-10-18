@@ -1,15 +1,31 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: material-selection
 description: 建筑材料性能、耐久性、可持续性、规格、节点、生命周期评估及建筑设计材料组合
 user-invocable: true
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 材料选择
 
 建筑材料选择综合知识库，涵盖结构性能、耐久性、热工与声学性能、耐火性、隐含碳、成本和美学品质。涉及材料规格、材料比较、生命周期评估、隐含碳目标、材料节点、饰面选择或材料适配型设计策略时调用本技能。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 1 节：材料选择方法
 
 ### 1.1 八项标准评估框架
@@ -96,8 +112,13 @@ user-invocable: true
 
 **解读：**加权总分最高者为优选方案。进行敏感性分析：将权重改变 ±0.5 以检验稳健性。若方案得分差异在 5% 以内，可视为等效，并根据定性因素决策。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 2 节：混凝土
 
 ### 2.1 类型
@@ -167,8 +188,13 @@ user-invocable: true
 - **Zaha Hadid：**以 UHPC 与 GRC 实现流动几何（海达尔·阿利耶夫中心——GRC 板）
 - **Grafton Architects：**将裸露混凝土作为公共建筑材料（利马 UTEC、博科尼大学）
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 3 节：钢材
 
 ### 3.1 结构钢等级
@@ -237,8 +263,13 @@ user-invocable: true
 - **Santiago Calatrava：**雕塑般的钢肋和桅杆（City of Arts and Sciences、Milwaukee Art Museum）。
 - **Peter Rice（Ove Arup）：**铸钢节点与张拉结构（Lloyd's of London、Kansai Airport）。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 4 节：木材
 
 ### 4.1 针叶树种
@@ -330,8 +361,13 @@ user-invocable: true
 - **Hermann Kaufmann：**大截面木结构先驱（Illwerke Zentrum Montafon——8 层 CLT/胶合木混合结构；LifeCycle Tower）。
 - **Heatherwick Studio：**大尺度工程木材（Maggie's Leeds——木格栅）。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 5 节：砌体
 
 ### 5.1 砖
@@ -398,8 +434,13 @@ user-invocable: true
 - Concrete block: 0.08-0.12 kgCO2e/kg
 - AAC block: 0.28-0.34 kgCO2e/m² (per block face area)
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 6 节：玻璃
 
 ### 6.1 玻璃类型
@@ -454,8 +495,13 @@ user-invocable: true
 - **Jean Nouvel：**以玻璃讲述文化叙事（阿拉伯世界研究院、卡地亚基金会——透明层）
 - **Apple Store（Foster + Partners / Bohlin Cywinski Jackson）：**全玻璃结构；玻璃肋、玻璃梁、玻璃楼梯
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 7 节：金属与复合材料
 
 ### 7.1 铝
@@ -542,8 +588,13 @@ user-invocable: true
 - 防火：Euroclass A1。
 - 应用：立面幕墙（通风雨幕）、地面/墙面饰面和泳池周边。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 8 节：生命周期评估（LCA）
 
 ### 8.1 全生命周期碳
@@ -648,5 +699,11 @@ Total carbon = Embodied carbon (A1-A5, B1-B5, C1-C4) + Operational carbon (B6-B7
 - **Park 20|20**（William McDonough，阿姆斯特丹）——通过从摇篮到摇篮认证；可拆卸立面；所有建筑均建立材料护照
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

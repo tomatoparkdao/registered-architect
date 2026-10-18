@@ -1,3 +1,9 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: architect-foundations
 description: >
@@ -15,14 +21,24 @@ description: >
   日光指标以及常见设计失败的反模式目录。可路由至
   可根据用户查询上下文路由至 17 个下游专业技能。
 user-invocable: false
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 建筑师基础
 
 自动激活的知识层。所有涉及建筑设计的回答，在路由至专用技能前均先参考本基础库。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 1. 建筑师与理论家核心速查
 
 | # | 建筑师/理论家 | 核心框架（年代） | 关键概念与代表建筑 | 适用时机 |
@@ -68,8 +84,13 @@ user-invocable: false
 | **Jorn Utzon** | 加法建筑、平台与台地、悉尼歌剧院（1957–1973）的球面几何壳体 | *Platforms and Plateaus*（1962） |
 | **Cedric Price** | Fun Palace（1961，未建）：灵活、可拆卸、设备化框架；预见性建筑 | 将建筑视为赋能基础设施而非纪念碑 |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 2. 定量经验法则
 
 ### 2.1 层高
@@ -280,8 +301,13 @@ user-invocable: false
 | 照度 | 医院病房 | 普通照明100 lux | 阅读300 lux | EN 12464-1 |
 | 照度 | 走廊/交通空间 | 100 lux | 150 lux | EN 12464-1 |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 3. 建筑类型分类体系
 
 ### 3.1 住宅建筑
@@ -340,8 +366,13 @@ user-invocable: false
 | **Performing arts** | Acoustics RT60 1.4-2.2 s (symphonic), fly tower 2.5x proscenium, orchestra pit | 0.6 m2/seat, NC-20 to NC-25 background noise |
 | **Laboratory** | Fume hood density, ACH 6-12, vibration class VC-A to VC-E, chemical storage | 10-14 m2/researcher, 100% outside air |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 4. 设计质量框架
 
 ### 4.1 综合质量检查表
@@ -412,8 +443,13 @@ user-invocable: false
 - [ ] 疏散出口层上方/下方楼层的每个楼梯均设置避难区（IBC 1009.3）
 - [ ] 高差转换、楼梯踏步前缘及玻璃标识带设置颜色/肌理变化
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 5. 反模式目录
 
 ### 5.1 规划与体量失败
@@ -461,8 +497,13 @@ user-invocable: false
 | **Demolish-and-rebuild vs. retrofit** | Embodied carbon of new building (400-800 kgCO2e/m2) exceeds operational savings for 30+ years. | Lacaton & Vassal principle: never demolish. Assess retrofit first. Whole-life carbon assessment per EN 15978. |
 | **Greenwashing with certification** | Pursuing LEED points in documentation/innovation while ignoring energy performance. Certified Gold building performing worse than code baseline. | Prioritize energy (EAc2 Optimize) and water (WEc2) credits. Set absolute EUI target, not just relative improvement. Monitor post-occupancy. |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 6. 技能路由器
 
 当 architect-foundations 层激活时，依据以下决策逻辑将用户问题路由至相应的专业技能。
@@ -568,10 +609,21 @@ START
 
 Always provide the foundational context from this skill, then defer to the specialized skill for depth.
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 *Sources: IBC 2021, IRC 2021, NFPA 101 2021, ADA 2010 Standards, ASHRAE 90.1-2022, ASHRAE 62.1-2022, EN 1990-1999 (Eurocodes), EN 17037, EN 12464-1, BS 8300:2018, BS 9999:2017, BB93, BB103, CIBSE Guides A/B/D/LG10/AM10, BCO Guide to Specification 2019, Neufert Architects' Data 5th Ed, Architectural Graphic Standards 12th Ed, FGI Guidelines for Design and Construction of Hospitals 2022, RIBA Plan of Work 2020, LEED BD+C v4.1, BREEAM New Construction SD5078 2024, Passive House Institute criteria, WELL v2 Q3 2023, AUDE/HEFCE Space Management Guide, BRE 209 Site Layout Planning for Daylight and Sunlight, LETI Climate Emergency Design Guide 2020.*
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,15 +1,31 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: design-theory
 description: 建筑运动、设计哲学、批判理论、先例分析和构图原则，用于形成有依据的设计推理
 user-invocable: true
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 设计理论
 
 建筑设计哲学、批判理论、构图原则、先例分析方法和设计评析框架的综合知识库。涉及设计哲学、建筑运动、设计决策的理论基础或建筑方案的结构化评析时调用本技能。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 1 节：建筑设计哲学
 
 ### 1.1 理性主义——结构作为表达
@@ -167,8 +183,13 @@ Patrik Schumacher 2008 年的宣言将参数主义称为现代主义之后的新
 
 **设计应用：**在设计开始前开展社区资产制图。项目每个阶段至少举行 3 次参与式工作坊。对关键空间决策采用 1:1 实物样板。将 15–20% 的空间设计为可适应社区自主用途的灵活共享空间。制定使用后社区管护计划，并为社区能力建设预留预算（培训当地劳动力掌握施工技术）。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 2 节：设计思维框架
 
 ### 2.1 RIBA Plan of Work 2020——阶段 0–7
@@ -276,8 +297,13 @@ IDP 将协作前置，从阶段 0/1 起就让所有专业（结构、MEP、景�
 - 获得日光：拥有窗景的患者住院时间减少 2.6 天（Beauchemin & Hays，1996）。
 - 降低噪声：单人病房 + 吸声吊顶板（NRC >0.90）可将环境噪声从 72 dB 降至 48 dB。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 3 节：构图原则
 
 ### 3.1 比例系统
@@ -343,8 +369,13 @@ IDP 将协作前置，从阶段 0/1 起就让所有专业（结构、MEP、景�
 
 **形式统一：**所有部分共同构成连贯整体。Sydney Opera House（Utzon，1973）：全部壳体源于同一半径 75 m 的球体（1961 年的“球形解法”）。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 4 节：先例分析方法
 
 ### 4.1 七步法
@@ -450,8 +481,13 @@ LIMITATIONS (what does not transfer):
 2.
 ```
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 第 5 节：设计评析框架
 
 ### 5.1 八维度评估
@@ -532,8 +568,13 @@ LIMITATIONS (what does not transfer):
 - **细部盲区：** 只关注宏大姿态，却忽略材料如何交接、雨水如何排放、光线如何进入。
 - **单一指标固着：** 将评析简化为单一问题（如可持续性），而忽视空间品质或建构表达。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 附录：设计理论重要著作
 
 | 著作 | 作者 | 年份 | 核心贡献 |
@@ -550,5 +591,11 @@ LIMITATIONS (what does not transfer):
 | 《建筑的自创生》（The Autopoiesis of Architecture） | Patrik Schumacher | 2011 | 参数主义作为时代风格；建筑作为社会系统 |
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

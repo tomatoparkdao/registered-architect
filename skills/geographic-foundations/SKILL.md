@@ -1,16 +1,32 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: geographic-foundations
 description: >
   Architect Skills 插件的自动激活地理背景路由器。检测建筑问题涉及的国家或司法辖区，并路由至相应国家法规档案（印度、阿联酋、沙特、美国、英国、德国、新加坡、日本、中国、澳大利亚）。编码全球法规格局：各主管机构发布哪些规范、国家/州/市级法规层级、按版本年份划分的规范采用状态、各辖区主要能源/抗震/消防/无障碍规范，以及国家规范与国际参考体系（IBC、NFPA、Eurocode、ISO、ASCE）的对应关系。精确记录各国采用的 Eurocode 国家附录、各州/酋长国/联邦州/都道府县发布的修订，以及国际标准通过引用适用的场合。当用户问题中出现地理背景（城市名、项目地点、语言线索、规范引用）时触发国家技能；未声明具体辖区时提供全球框架比较。
 user-invocable: false
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 地理基础
 
 自动激活层，用于检测地理背景，并将建筑问题路由至正确的国家法规档案。在任何规范、生命安全、结构或规划分析之前加载。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 1. 地理背景检测
 
 当用户问题包含以下任一信号时，应在应用 `building-codes`、`fire-life-safety` 或 `accessibility-design` 的通用内容*之前*，先路由至指定国家技能。
@@ -74,8 +90,13 @@ user-invocable: false
 
 如果用户表述含糊或项目跨境（国际事务所、设计竞赛、总体规划研究），采用**国际参考规范组合**（IBC + Eurocodes + ASCE 7 + ASHRAE + ISO 21542 无障碍 + ISO 23932 消防），并明确说明假设。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 2. 全球法规层级
 
 每个国家属于五种法规原型之一。原型决定条文级问题的回答方式。
@@ -122,8 +143,13 @@ user-invocable: false
 
 许多一级国家属于*混合型*：例如日本允许性能验证（1998 年以前为第 38 条；1998 年后由第 37 条型式认可和 BCJ 结构性能评价替代）。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 3. 对比矩阵——一级国家
 
 ### 3.1 主要规范、能源规范、消防规范与无障碍规范
@@ -168,8 +194,13 @@ user-invocable: false
 5. **ISO 标准**（ISO 21542 无障碍、ISO 23932 消防工程、ISO 22156 竹结构、ISO 5807 管道）——通用后备规范
 6. **ASHRAE 90.1 + ASHRAE 62.1 + ASHRAE 55**——通用热工、室内空气质量和舒适度后备规范
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 4. 气候分区对照
 
 每个国家采用略有不同的气候分区体系，建筑师必须进行转换。
@@ -213,8 +244,13 @@ user-invocable: false
 
 当用户给出城市时，应同时确定当地分区和 ASHRAE 分区——本插件的设计参考同时使用两者。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 5. 标准交叉引用索引
 
 当问题引用某项标准时，本表用于识别其发布国家及其他体系中的等效标准。
@@ -292,8 +328,13 @@ user-invocable: false
 | Estidama Pearl 2010 + Al Sa'fat 2016 + Mostadamah | UAE | -- |
 | SBC 601-CR + Saudi Mostadamah Building Code | Saudi | -- |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 6. 主管与审批机构
 
 在提供许可、认证或审批建议时，应路由至指定主管机构。
@@ -311,8 +352,13 @@ user-invocable: false
 | **China** | Local Construction Bureau (Jianshe Ju) + Planning Bureau (Guihua Ju); permit = Jianshe Gongcheng Guihua Xuke Zheng | Same + Public Security Fire Department (Gong'an Xiaofang); since 2019 transferred to Emergency Management Department | MOHURD (national) + provincial Construction Department; Green Building Label issued by CSGBC | Disability Persons' Federation (Canlianhui) + Construction Bureau |
 | **Australia** | State Building Authority (Building Commission VIC, NSW Fair Trading, QBCC QLD); private Building Surveyor for assessment | State Fire & Rescue Service + Australian Building Codes Board for code; performance solutions via Fire Engineer (FPA Australia) | NCC Section J via Building Surveyor; NatHERS by accredited assessor (AAA) | Premises Standards via Building Surveyor; AAAA accredited Access Consultant; Human Rights Commission complaints |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 7. 技能路由表
 
 检测成功后，应*立即*加载相关国家技能，再叠加专业主题技能。
@@ -332,8 +378,13 @@ user-invocable: false
 
 如果项目跨越多个司法辖区（国际事务所、含外国主力租户的总体规划、使馆/外交项目），每项参数采用两者中**更严格**的要求，并逐项记录来源。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 8. 决策树
 
 ```
@@ -372,8 +423,13 @@ COUNTRY SKILL ACTIVE
             使用——最终认证 + 调试
 ```
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 9. 应用工作流
 
 1. 使用第 1 节触发器**检测地理位置**。
@@ -385,8 +441,13 @@ COUNTRY SKILL ACTIVE
 7. 使用第 6 节**确定审批主管机构**。
 8. 用户要求进行基准比较时，**与国际参考进行交叉核对**（例如比较 ECBC 2017 墙体 U 值、ASHRAE 90.1-2022 与被动房标准）。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 10. 地理基础不应触发的情形
 
 - 没有项目语境的纯理论/先例问题（“什么是批判地域主义？”——由 `design-theory` 处理）
@@ -396,10 +457,21 @@ COUNTRY SKILL ACTIVE
 
 其他涉及真实地点设计决策的情形，均应触发本技能。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 *来源：ICC（国际规范委员会）——IBC/IRC/IECC/IFC 2024 版；NFPA——NFPA 101 2024 + NFPA 70 2023；BSI——《建筑法规 2010》+ A-S 批准文件 2010-2025；DIBt + 各邦——MBO 2002/2019 + 现行 16 部邦建筑法规；BIS——NBC 2016 + 现行 IS 规范；BEE——ECBC 2017 + ECBC-R 2018；印度 MoHUA——《统一指南 2021》；SBCNC——2018 年沙特建筑规范九部分系列；阿联酋民防——《阿联酋消防与生命安全规范 2018》；迪拜市政府——《迪拜建筑规范 2021》；阿布扎比市政与交通部——ADIBC 2013 + Estidama Pearl 评级；新加坡 BCA——《建筑管制法》+《建筑管制条例 2003》+ 2021 更新 + SCDF 消防规范 2018；日本 MLIT——《建筑基准法》+ 内阁令 + 最新告示；中国住建部——GB 50352-2019、GB 50016-2014（2018 年版）、GB 50011-2010、GB 55015-2021；澳大利亚 ABCB——NCC 2022 第 1-3 卷；ISO——21542:2021、23932:2018；CEN——EN 1990-1999 Eurocode 系列现行版本及国家附录；ASHRAE——90.1-2022、62.1-2022、55-2020、169-2021。*
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

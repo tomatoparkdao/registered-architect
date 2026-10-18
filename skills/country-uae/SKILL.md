@@ -1,3 +1,9 @@
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 name: country-uae
 description: >
@@ -15,14 +21,24 @@ description: >
   compliance), DEWA/ADDC utility coordination, and the cross-walk between IBC, ASCE 7, NFPA,
   and UAE national amendments. Practitioner-grade clause-level reference for design teams
   working in any of the seven Emirates.
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 # 国家：阿拉伯联合酋长国
 
 适用于七个酋长国（阿布扎比、迪拜、沙迦、阿治曼、乌姆盖万、哈伊马角、富查伊拉）的建筑规范与法规参考。当提及阿联酋城市、AED 货币、“Civil Defence”、“ADM”/“DM”/“DDA”、“Estidama”/“Al Sa'fat”/“Mostadamah”、“Trakhees”、酋长国开发商名称（Emaar、Aldar、Nakheel、Dubai Holding、Mubadala）或 DBC/ADIBC/UAE FLS 规范时启用本技能。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 1. 法规层级
 
 阿联酋采用 **C 型架构（联邦框架 + 酋长国自治）**。七个酋长国各自拥有建筑主管机构，每个酋长国内还可能存在次级管辖区（总体开发商、自由区）。
@@ -63,8 +79,13 @@ description: >
 
 自由区对商业运营通常采用**较宽松的监管制度**，但建筑和生命安全规范相同或更严格。Trakhees（迪拜）、JAFZA、RAKEZ 等会发布自己的建筑法规，几乎都源自 IBC 或迪拜规范，并在防火、环境等方面增加更严格条款。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 2. 迪拜——建筑规范核心要求
 
 ### 2.1 Dubai Building Code 2021（DBC）
@@ -141,8 +162,13 @@ DBC 采用 IBC 的“高度—结构类型”原则，但对高层建筑设置�
 - **Solar reflectivity limits** for facades exceeding 30 m height (anti-glare to road traffic)
 - **Cladding fire standard**: post-Marina Torch / Address Downtown fires, ALL external cladding (>= 15 m height) must comply with **EN 13501-1 Class A1 or A2-s1,d0** OR equivalent; **NFPA 285 testing** for assemblies; effectively prohibits combustible ACP cores
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 3. 阿布扎比——建筑规范核心要求
 
 ### 3.1 Abu Dhabi International Building Code 2013（ADIBC）
@@ -174,8 +200,13 @@ PBRS 包含 **7 个类别**：综合开发流程、自然系统、宜居建筑�
 
 阿布扎比规划依据 **Plan Abu Dhabi 2030** 及 Estidama 社区指南。退界和 FAR 按 DMT 为各分区发布的 **Detailed Master Plan (DMP)** 确定，因项目而异。Aldar 开发项目（Yas、Saadiyat、Al Raha Beach）还需遵守 Aldar DRG。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 4. 防火与生命安全
 
 ### 4.1 UAE Fire and Life Safety Code of Practice 2018
@@ -240,8 +271,13 @@ Structure (2018 edition):
 - **Notification**: voice evacuation per UAE FLS Ch. 6 for occupant load > 1000 or assembly group
 - **Smoke control**: NFPA 92 + UAE FLS Ch. 18 for atria, parking garages, high-rises
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 5. 能源规范
 
 ### 5.1 迪拜——Al Sa'fat（强制）+ Dubai Green Building Regulations & Specifications 2011
@@ -297,8 +333,13 @@ Structure (2018 edition):
 | 天窗 | 1.90 |
 | 天窗 SHGC | 0.27 |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 6. 无障碍
 
 ### 6.1 联邦框架
@@ -341,8 +382,13 @@ Structure (2018 edition):
 | 集会座席 | 1%，分散布置并配陪同座席 |
 | 旅游景点 | 友好感官环境的入口；所有公共信息处设置盲文标识 |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 7. 结构与荷载
 
 ### 7.1 荷载
@@ -377,8 +423,13 @@ Structure (2018 edition):
 - High water table (Marina, Bluewaters): permanent dewatering, tanking
 - Dubai Marina/Palm: heavy reclaimed sand; dynamic compaction or stone columns standard for ground-improvement
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 8. 规划与房地产框架
 
 ### 8.1 迪拜房地产框架
@@ -411,8 +462,13 @@ Dubai uses "Built-Up Area" (BUA) as the carpet equivalent. Critical for FAR/cove
 - Construction: 1 Pearl Construction Rating
 - Operations: 1 Pearl Operations Rating
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 9. 快速数值参考（阿联酋/迪拜默认）
 
 | 参数 | 数值 | 来源 |
@@ -430,8 +486,13 @@ Dubai uses "Built-Up Area" (BUA) as the carpet equivalent. Critical for FAR/cove
 | 住宅停车比例 | 每户 1.0–1.5 个 ECS，访客 0.25 个 | DBC + 总体开发商 DRG |
 | 办公停车比例 | 每 50–80 m² NLA 1 个 | DBC + 总体开发商 |
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 10. 应用流程
 
 1. **确定酋长国**（迪拜、阿布扎比、沙迦等）及**子管辖区**（自由区或城市辖区）。
@@ -444,8 +505,13 @@ Dubai uses "Built-Up Area" (BUA) as the carpet equivalent. Critical for FAR/cove
 8. 采用 **ASHRAE 90.1 + 阿联酋能源附加要求**。
 9. **引用条款**：例如 “UAE FLS 2018 Chapter 3 Section 3.4.2”、“DBC 2021 Chapter 13.4.1”、“Estidama PBRS 2010 RE-1 Improved Energy Performance”、“ADIBC 2013 Section 1006.2”。
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 ## 11. 权威来源
 
 - **Dubai Municipality** -- dm.gov.ae -- e-permit portal, DBC 2021, Sa'fa
@@ -458,10 +524,21 @@ Dubai uses "Built-Up Area" (BUA) as the carpet equivalent. Critical for FAR/cove
 - **Federal Authority for Government Human Resources** -- for People of Determination policies
 - **Ministry of Energy and Infrastructure (MoEI)** -- moei.gov.ae
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
-
 *交叉引用：在迪拜（DBC 源自 IBC）或阿布扎比（ADIBC 源自 IBC 2009）工作时加载 `building-codes` 了解 IBC 基础；加载 `fire-life-safety` 了解叠加 UAE FLS 的一般疏散原则；加载 `building-envelope` 处理炎热干燥气候节点；加载 `building-sustainability` 比较 Sa'fa、Estidama 与 LEED；加载 `accessibility-design` 了解全球无障碍框架，再应用 Dubai UDC 2017 的专项要求。*
 #
 
+license: MIT（OmniAiLab）—— 见 LICENSE
+platform: OmniAiLab
+version: 1.0.0
+author: OmniAiLab
+developer: Mochiball
+agent_created: true
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
