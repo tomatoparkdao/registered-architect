@@ -1,13 +1,12 @@
-# Calculator Reference -- Formulas and Methodology
+# 计算器参考 —— 公式与方法
 
-Detailed formulas, constants, and methodology behind each of the seven
-architectural calculators.
+七个建筑设计计算器所采用的详细公式、常数和方法。
 
 ---
 
-## 1. Area Calculator
+## 1. 面积计算器
 
-### Formulas
+### 公式
 
 ```
 GFA = Site Area x FAR
@@ -17,183 +16,180 @@ Population = Units x Persons per Unit
 Parking = Units x Parking Ratio
 ```
 
-### Key Ratios
+### 关键比率
 
-| Building Type       | Typical NTG Ratio |
+| 建筑类型            | 典型 NTG 比率     |
 |--------------------|-------------------|
-| Residential (apt)  | 0.75 - 0.85      |
-| Office             | 0.80 - 0.88      |
-| Retail             | 0.85 - 0.92      |
-| Hospital           | 0.55 - 0.65      |
-| Hotel              | 0.65 - 0.75      |
-| School             | 0.70 - 0.80      |
+| 住宅（公寓）        | 0.75 - 0.85      |
+| 办公                | 0.80 - 0.88      |
+| 零售                | 0.85 - 0.92      |
+| 医院                | 0.55 - 0.65      |
+| 酒店                | 0.65 - 0.75      |
+| 学校                | 0.70 - 0.80      |
 
-NTG ratio accounts for circulation (corridors, lobbies, stairs,
-elevators), structure (columns, walls), and service spaces (mechanical
-rooms, electrical rooms, storage).
+NTG 比率计入交通空间（走道、大堂、楼梯、电梯）、结构构件（柱、墙）和设备用房
+（机房、电气间、储藏室）。
 
-### Density Benchmarks
+### 开发强度基准
 
-| Density Measure         | Low Density | Medium     | High Density |
+| 开发强度指标            | 低密度     | 中密度     | 高密度       |
 |------------------------|-------------|------------|-------------|
 | FAR                    | 0.5 - 1.0  | 1.5 - 3.0 | 4.0 - 15.0 |
-| Dwelling units/hectare | 30 - 50    | 75 - 150   | 200 - 500+  |
-| Persons/hectare        | 75 - 125   | 200 - 400  | 500 - 1500+ |
+| 住宅单元/公顷          | 30 - 50    | 75 - 150   | 200 - 500+  |
+| 人口/公顷              | 75 - 125   | 200 - 400  | 500 - 1500+ |
 
 ---
 
-## 2. U-Value Calculator
+## 2. 传热系数（U 值）计算器
 
-### Formula
+### 公式
 
 ```
 R_total = Rsi + sum(thickness_i / conductivity_i) + Rse
 U = 1 / R_total
 ```
 
-Where:
-- Rsi = internal surface resistance (m2K/W)
-- Rse = external surface resistance (m2K/W)
-- thickness in meters (input in mm, converted)
-- conductivity in W/mK
+其中：
+- Rsi = 内表面热阻（m2K/W）
+- Rse = 外表面热阻（m2K/W）
+- thickness 的单位为米（输入单位为 mm，程序会转换）
+- conductivity 的单位为 W/mK
 
-### Surface Resistance Values (ISO 6946)
+### 表面热阻取值（ISO 6946）
 
-| Position         | Direction of Heat Flow | Rsi (m2K/W) | Rse (m2K/W) |
+| 位置             | 热流方向               | Rsi (m2K/W) | Rse (m2K/W) |
 |-----------------|----------------------|-------------|-------------|
-| External wall   | Horizontal           | 0.13        | 0.04        |
-| Internal floor  | Upward               | 0.10        | 0.10        |
-| Internal ceiling| Downward             | 0.17        | 0.17        |
-| Roof            | Upward               | 0.10        | 0.04        |
-| Ground floor    | Downward             | 0.17        | 0.00*       |
+| 外墙             | 水平                 | 0.13        | 0.04        |
+| 内部楼板         | 向上                 | 0.10        | 0.10        |
+| 内部顶棚         | 向下                 | 0.17        | 0.17        |
+| 屋面             | 向上                 | 0.10        | 0.04        |
+| 接地楼板         | 向下                 | 0.17        | 0.00*       |
 
-*Ground floor uses separate calculation method (ISO 13370).
+*接地楼板采用单独的计算方法（ISO 13370）。
 
-### Target U-Values
+### 目标 U 值
 
-| Element       | Passive House | Typical Code (Climate Zone 5) | Minimum Code |
+| 构件          | 被动房        | 常见规范（气候区 5）          | 最低规范值   |
 |--------------|---------------|-------------------------------|-------------|
-| External wall| 0.10 - 0.15   | 0.25 - 0.30                   | 0.35 - 0.45 |
-| Roof         | 0.10 - 0.12   | 0.15 - 0.20                   | 0.25 - 0.30 |
-| Floor        | 0.10 - 0.15   | 0.20 - 0.25                   | 0.30 - 0.40 |
-| Window       | 0.80 - 1.00   | 1.40 - 1.80                   | 2.00 - 2.80 |
+| 外墙          | 0.10 - 0.15   | 0.25 - 0.30                   | 0.35 - 0.45 |
+| 屋面          | 0.10 - 0.12   | 0.15 - 0.20                   | 0.25 - 0.30 |
+| 楼板          | 0.10 - 0.15   | 0.20 - 0.25                   | 0.30 - 0.40 |
+| 窗            | 0.80 - 1.00   | 1.40 - 1.80                   | 2.00 - 2.80 |
 
-### Common Material Conductivities
+### 常见材料导热系数
 
-| Material                | Conductivity (W/mK) |
+| 材料                    | 导热系数（W/mK）    |
 |------------------------|-------------------|
-| Mineral wool           | 0.032 - 0.040     |
-| EPS (expanded polystyrene) | 0.032 - 0.038 |
-| XPS (extruded polystyrene) | 0.028 - 0.036 |
-| PIR/PUR board          | 0.020 - 0.025     |
-| Phenolic foam          | 0.018 - 0.022     |
-| Concrete (dense)       | 1.13 - 1.93       |
-| Concrete block (medium)| 0.51 - 0.70       |
-| Brick (common)         | 0.62 - 0.77       |
-| Timber (softwood)      | 0.13 - 0.16       |
-| Plasterboard           | 0.16 - 0.25       |
-| Steel                  | 50.0              |
-| Glass                  | 1.05              |
-| Air gap (unventilated) | 0.14 - 0.18*      |
+| 矿棉                    | 0.032 - 0.040     |
+| EPS（膨胀聚苯板）       | 0.032 - 0.038     |
+| XPS（挤塑聚苯板）       | 0.028 - 0.036     |
+| PIR/PUR 板              | 0.020 - 0.025     |
+| 酚醛泡沫                | 0.018 - 0.022     |
+| 密实混凝土              | 1.13 - 1.93       |
+| 中等密度混凝土砌块      | 0.51 - 0.70       |
+| 普通砖                  | 0.62 - 0.77       |
+| 软木材                  | 0.13 - 0.16       |
+| 石膏板                  | 0.16 - 0.25       |
+| 钢材                    | 50.0              |
+| 玻璃                    | 1.05              |
+| 不通风空气层            | 0.14 - 0.18*      |
 
-*Effective conductivity for simplified calculation.
+*用于简化计算的等效导热系数。
 
 ---
 
-## 3. Daylight Calculator
+## 3. 采光计算器
 
-### BRE Simplified Formula
+### BRE 简化公式
 
 ```
 DF = (Aw x T x theta) / (A_total x (1 - R^2)) x 100
 ```
 
-Where:
-- DF = average daylight factor (%)
-- Aw = net glazed area of window (m2)
-- T = glazing transmittance (typically 0.60 - 0.70 for double glazing)
-- theta = visible sky angle factor (0 to 1, derived from sky angle)
-- A_total = total area of all room surfaces (floor + ceiling + walls)
-- R = area-weighted average reflectance of room surfaces
+其中：
+- DF = 平均采光系数（%）
+- Aw = 窗的净玻璃面积（m2）
+- T = 玻璃透光率（双层玻璃通常为 0.60 - 0.70）
+- theta = 可见天空角系数（0 至 1，由天空角推导）
+- A_total = 房间所有表面的总面积（楼地面 + 顶棚 + 墙体）
+- R = 房间表面的面积加权平均反射比
 
-### Sky Angle Calculation
+### 天空角计算
 
-The visible sky angle is measured from the center of the window to the
-top of any obstruction. For an unobstructed window:
+可见天空角自窗中心向任何遮挡物顶部测量。对于无外部遮挡的窗：
 
 ```
 theta_degrees = arctan((room_height - window_sill_height) / room_depth)
 theta_factor = theta_degrees / 90
 ```
 
-For obstructed conditions, theta is reduced based on the obstruction
-angle.
+存在遮挡时，根据遮挡角降低 theta。
 
-### Total Room Surface Area
+### 房间总表面积
 
 ```
 A_total = 2 x (W x D) + 2 x (W x H) + 2 x (D x H)
 ```
 
-Where W = width, D = depth, H = height.
+其中 W = 宽度，D = 进深，H = 高度。
 
-### Daylight Factor Targets
+### 采光系数目标值
 
-| Space Type          | Minimum DF | Recommended DF |
+| 空间类型            | 最低 DF    | 建议 DF        |
 |--------------------|-----------|---------------|
-| Living room        | 1.5%      | 2.0%          |
-| Bedroom            | 1.0%      | 1.5%          |
-| Kitchen            | 2.0%      | 2.5%          |
-| Office             | 2.0%      | 3.0 - 5.0%   |
-| Classroom          | 2.0%      | 5.0%          |
-| Hospital ward      | 1.5%      | 2.5%          |
-| Retail             | 2.0%      | 3.5%          |
+| 起居室              | 1.5%      | 2.0%          |
+| 卧室                | 1.0%      | 1.5%          |
+| 厨房                | 2.0%      | 2.5%          |
+| 办公室              | 2.0%      | 3.0 - 5.0%   |
+| 教室                | 2.0%      | 5.0%          |
+| 医院病房            | 1.5%      | 2.5%          |
+| 零售                | 2.0%      | 3.5%          |
 
 ---
 
-## 4. Egress Calculator
+## 4. 疏散计算器
 
-### Occupant Load Factor (IBC Table 1004.5)
+### 人员荷载系数（IBC 表 1004.5）
 
-| Occupancy | Use                    | Factor (m2/person) | Factor (ft2/person) |
+| 使用分类  | 用途                   | 系数（m2/人）      | 系数（ft2/人）      |
 |-----------|------------------------|--------------------|---------------------|
-| A-1       | Assembly, fixed seats  | 1.5 net            | 15 net              |
-| A-2       | Assembly, food/drink   | 1.4 net            | 15 net              |
-| A-3       | Assembly, worship      | 1.9 net            | 20 net (pews)       |
-| B         | Business               | 9.3                | 100                 |
-| E         | Educational            | 1.9 net            | 20 net              |
-| F-1       | Factory, moderate      | 18.6               | 200                 |
-| H         | High hazard            | 9.3                | 100                 |
-| I-1       | Institutional, care    | 18.6               | 200                 |
-| M         | Mercantile             | 5.6                | 60                  |
-| R         | Residential            | 18.6               | 200                 |
-| S-1       | Storage, moderate      | 46.5               | 500                 |
-| U         | Utility                | 46.5               | 500                 |
+| A-1       | 集会（固定座席）       | 1.5 净面积         | 15 净面积           |
+| A-2       | 集会（餐饮）           | 1.4 净面积         | 15 净面积           |
+| A-3       | 集会（宗教礼拜）       | 1.9 净面积         | 20 净面积（长椅）   |
+| B         | 商务办公               | 9.3                | 100                 |
+| E         | 教育                   | 1.9 净面积         | 20 净面积           |
+| F-1       | 工厂（中等危险）       | 18.6               | 200                 |
+| H         | 高危险                 | 9.3                | 100                 |
+| I-1       | 机构场所（照护）       | 18.6               | 200                 |
+| M         | 商业                   | 5.6                | 60                  |
+| R         | 住宅                   | 18.6               | 200                 |
+| S-1       | 仓储（中等危险）       | 46.5               | 500                 |
+| U         | 辅助用房               | 46.5               | 500                 |
 
-### Number of Exits Required (IBC 1006.2)
+### 所需出口数量（IBC 1006.2）
 
-| Occupant Load | Minimum Exits |
+| 使用人数      | 最少出口数量 |
 |--------------|--------------|
 | 1 - 500      | 2            |
 | 501 - 1000   | 3            |
 | > 1000       | 4            |
 
-### Exit Width Calculation
+### 出口宽度计算
 
 ```
-Total exit width (mm) = Occupant Load x Width Factor
-Width per exit = Total width / Number of exits
+总出口宽度（mm） = 使用人数 × 宽度系数
+每个出口宽度 = 总宽度 / 出口数量
 ```
 
-Width factors:
-- Stairs: 7.6 mm per person (0.3 inches)
-- Other egress components: 5.1 mm per person (0.2 inches)
-- Minimum single door width: 813 mm (32 inches clear)
-- Minimum corridor width: 1118 mm (44 inches)
+宽度系数：
+- 楼梯：7.6 mm/人（0.3 英寸）
+- 其他疏散构件：5.1 mm/人（0.2 英寸）
+- 单樘门最小净宽：813 mm（32 英寸）
+- 走道最小宽度：1118 mm（44 英寸）
 
-### Maximum Travel Distance (IBC Table 1017.2)
+### 最大疏散距离（IBC 表 1017.2）
 
-| Occupancy | Without Sprinklers (m/ft) | With Sprinklers (m/ft) |
+| 使用分类  | 未设喷淋（m/ft）          | 设有喷淋（m/ft）       |
 |-----------|---------------------------|------------------------|
 | A, E, M   | 61 / 200                  | 76 / 250              |
 | B         | 61 / 200                  | 91 / 300              |
@@ -204,53 +200,53 @@ Width factors:
 
 ---
 
-## 5. Structural Load Calculator
+## 5. 结构荷载计算器
 
-### Gravity Load Calculation
+### 竖向荷载计算
 
 ```
-Load per floor = Tributary Area x (Dead Load + Live Load)
-Total column load = Load per floor x Number of floors
-Factored load = Tributary Area x (1.2 x DL + 1.6 x LL) x Floors
+每层荷载 = 柱分担面积 ×（恒载 + 活载）
+柱总荷载 = 每层荷载 × 楼层数
+组合荷载 = 柱分担面积 ×（1.2 × DL + 1.6 × LL）× 楼层数
 ```
 
-### Typical Dead Loads
+### 典型恒载
 
-| Construction Type              | Dead Load (kN/m2) |
+| 构造类型                       | 恒载（kN/m2）     |
 |-------------------------------|-------------------|
-| RC slab (200mm)               | 4.8               |
-| RC slab (250mm)               | 6.0               |
-| Steel deck + concrete (130mm) | 3.5               |
-| Timber floor (joists)         | 1.5               |
-| Superimposed dead (MEP, finish)| 1.0 - 1.5        |
+| RC 楼板（200mm）               | 4.8               |
+| RC 楼板（250mm）               | 6.0               |
+| 钢承板 + 混凝土（130mm）        | 3.5               |
+| 木楼板（搁栅）                 | 1.5               |
+| 附加恒载（MEP、饰面）          | 1.0 - 1.5        |
 
-### Typical Live Loads (IBC Table 1607.1)
+### 典型活载（IBC 表 1607.1）
 
-| Occupancy Type  | Live Load (kN/m2) | Live Load (psf) |
+| 使用类型        | 活载（kN/m2）     | 活载（psf）     |
 |----------------|-------------------|-----------------|
-| Residential    | 1.9               | 40              |
-| Office         | 2.4               | 50              |
-| Retail (ground)| 4.8               | 100             |
-| Assembly       | 4.8               | 100             |
-| Storage (light)| 6.0               | 125             |
-| Parking garage | 2.4               | 50              |
-| Hospital       | 3.8               | 80              |
-| School         | 1.9               | 40              |
+| 住宅            | 1.9               | 40              |
+| 办公            | 2.4               | 50              |
+| 零售（首层）    | 4.8               | 100             |
+| 集会            | 4.8               | 100             |
+| 仓储（轻型）    | 6.0               | 125             |
+| 停车库          | 2.4               | 50              |
+| 医院            | 3.8               | 80              |
+| 学校            | 1.9               | 40              |
 
-### Preliminary Column Sizing (RC)
+### 初步柱截面估算（RC）
 
 ```
-Required area = Factored Load / (0.4 x fc')
-Column dimension = sqrt(Required area)
+所需面积 = 组合荷载 /（0.4 × fc'）
+柱截面边长 = sqrt（所需面积）
 ```
 
-Where fc' is concrete compressive strength (typically 30-40 MPa).
+其中 fc' 为混凝土抗压强度（通常为 30-40 MPa）。
 
 ---
 
-## 6. Energy Calculator
+## 6. 能耗计算器
 
-### Degree-Day Method
+### 度日法
 
 ```
 Q_transmission = U_avg x A_envelope x HDD x 24 / 1000   (kWh/yr)
@@ -264,59 +260,59 @@ Cooling Demand = (U_avg x A_envelope x CDD x 24 / 1000)
 EUI = (Heating + Cooling) / A_floor
 ```
 
-Where:
-- n = ventilation rate (ACH)
-- V = building volume = A_floor x assumed height (3.0m)
-- q_int = internal gains (W/m2)
-- hours = heating season hours (HDD/avg_temp_diff x 24)
+其中：
+- n = 通风换气次数（ACH）
+- V = 建筑体积 = A_floor × 假定高度（3.0m）
+- q_int = 室内得热（W/m2）
+- hours = 供暖季小时数（HDD/avg_temp_diff × 24）
 
-### Passive House Targets
+### 被动房目标
 
-| Criterion                    | Target Value          |
+| 指标                         | 目标值                |
 |-----------------------------|-----------------------|
-| Heating demand              | <= 15 kWh/m2/yr       |
-| Cooling demand              | <= 15 kWh/m2/yr       |
-| Primary energy (total)      | <= 120 kWh/m2/yr      |
-| Airtightness (n50)          | <= 0.6 ACH @ 50 Pa    |
-| Overheating frequency       | <= 10% of hours > 25C |
+| 供暖需求                     | <= 15 kWh/m2/年       |
+| 制冷需求                     | <= 15 kWh/m2/年       |
+| 一次能源（总量）             | <= 120 kWh/m2/年      |
+| 气密性（n50）                | <= 0.6 ACH @ 50 Pa    |
+| 过热发生频率                 | <= 温度 > 25C 小时数的 10% |
 
 ---
 
-## 7. Cost Calculator
+## 7. 造价计算器
 
-### Cost Database (USD/m2, 2025 baseline)
+### 造价数据库（USD/m2，2025 年基准）
 
-| Building Type  | Basic    | Standard | Premium  |
+| 建筑类型       | 基础     | 标准     | 高标准   |
 |---------------|----------|----------|----------|
-| Residential   | 1,200    | 1,800    | 2,800    |
-| Office        | 1,400    | 2,100    | 3,200    |
-| Retail        | 1,000    | 1,500    | 2,400    |
-| Hospital      | 2,500    | 3,500    | 5,000    |
-| School        | 1,300    | 1,900    | 2,800    |
-| Hotel         | 1,600    | 2,400    | 3,800    |
+| 住宅           | 1,200    | 1,800    | 2,800    |
+| 办公           | 1,400    | 2,100    | 3,200    |
+| 零售           | 1,000    | 1,500    | 2,400    |
+| 医院           | 2,500    | 3,500    | 5,000    |
+| 学校           | 1,300    | 1,900    | 2,800    |
+| 酒店           | 1,600    | 2,400    | 3,800    |
 
-### Regional Cost Factors
+### 区域造价系数
 
-| Region         | Factor |
+| 区域           | 系数   |
 |---------------|--------|
-| North America | 1.00   |
-| Europe        | 1.05   |
-| Middle East   | 0.85   |
-| Asia          | 0.65   |
-| Australia     | 1.15   |
+| 北美           | 1.00   |
+| 欧洲           | 1.05   |
+| 中东           | 0.85   |
+| 亚洲           | 0.65   |
+| 澳大利亚       | 1.15   |
 
-### Fee and Contingency Rates
+### 费用和不可预见费率
 
-| Item               | Basic  | Standard | Premium |
+| 项目               | 基础   | 标准     | 高标准  |
 |-------------------|--------|----------|---------|
-| Professional Fees | 10%    | 12%      | 15%     |
-| Contingency       | 10%    | 7.5%     | 5%      |
-| External Works    | 8-15%  | 8-15%    | 8-15%   |
+| 专业服务费         | 10%    | 12%      | 15%     |
+| 不可预见费         | 10%    | 7.5%     | 5%      |
+| 室外工程           | 8-15%  | 8-15%    | 8-15%   |
 
 ```
-Construction Cost = GFA x Base Rate x Regional Factor
-Professional Fees = Construction Cost x Fee Rate
-Contingency = Construction Cost x Contingency Rate
-External Works = Construction Cost x 0.10 (if included)
-Total = Construction Cost + Fees + Contingency + External
+建造成本 = GFA × 基础单方造价 × 区域系数
+专业服务费 = 建造成本 × 费率
+不可预见费 = 建造成本 × 不可预见费率
+室外工程 = 建造成本 × 0.10（如包含）
+合计 = 建造成本 + 服务费 + 不可预见费 + 室外工程
 ```

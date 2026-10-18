@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-Egress Calculator
+疏散计算器
 
-Calculates egress requirements per International Building Code (IBC):
-  - Occupant load from floor area and occupant load factor
-  - Required number of exits
-  - Minimum total exit width and width per exit
-  - Maximum travel distance
-  - Compliance assessment
+按《International Building Code》（IBC）计算疏散要求：
+  - 根据楼层面积和人员荷载系数计算使用人数
+  - 所需出口数量
+  - 最小总出口宽度和每个出口宽度
+  - 最大疏散距离
+  - 合规性评价
 
-Usage:
+用法：
     python egress_calculator.py --floor-area 800 --occupancy-type B --sprinklered
     python egress_calculator.py --floor-area 800 --occupancy-type B --num-stories 4 --json
 """
@@ -20,31 +20,31 @@ import math
 import sys
 
 
-# Occupant load factors (m2 per person) - IBC Table 1004.5
+# 人员荷载系数（m2/人）— IBC Table 1004.5
 OCCUPANT_LOAD_FACTORS = {
-    "A-1": {"factor": 1.5, "name": "Assembly, fixed seats", "net": True},
-    "A-2": {"factor": 1.4, "name": "Assembly, food/drink", "net": True},
-    "A-3": {"factor": 1.9, "name": "Assembly, worship/recreation", "net": True},
-    "A-4": {"factor": 4.6, "name": "Assembly, standing", "net": True},
-    "A-5": {"factor": 1.4, "name": "Assembly, outdoor", "net": True},
-    "B":   {"factor": 9.3, "name": "Business", "net": False},
-    "E":   {"factor": 1.9, "name": "Educational", "net": True},
-    "F-1": {"factor": 18.6, "name": "Factory, moderate hazard", "net": False},
-    "F-2": {"factor": 18.6, "name": "Factory, low hazard", "net": False},
-    "H-1": {"factor": 9.3, "name": "High hazard, detonation", "net": False},
-    "H-2": {"factor": 9.3, "name": "High hazard, accelerated burning", "net": False},
-    "H-3": {"factor": 9.3, "name": "High hazard, physical", "net": False},
-    "I-1": {"factor": 18.6, "name": "Institutional, supervised", "net": False},
-    "I-2": {"factor": 22.3, "name": "Institutional, incapacitated", "net": False},
-    "I-3": {"factor": 11.1, "name": "Institutional, restrained", "net": False},
-    "M":   {"factor": 5.6, "name": "Mercantile", "net": False},
-    "R":   {"factor": 18.6, "name": "Residential", "net": False},
-    "S-1": {"factor": 46.5, "name": "Storage, moderate hazard", "net": False},
-    "S-2": {"factor": 46.5, "name": "Storage, low hazard", "net": False},
-    "U":   {"factor": 46.5, "name": "Utility", "net": False},
+    "A-1": {"factor": 1.5, "name": "集会场所（固定座席）", "net": True},
+    "A-2": {"factor": 1.4, "name": "集会场所（餐饮）", "net": True},
+    "A-3": {"factor": 1.9, "name": "集会场所（宗教礼拜/娱乐）", "net": True},
+    "A-4": {"factor": 4.6, "name": "集会场所（站立）", "net": True},
+    "A-5": {"factor": 1.4, "name": "集会场所（室外）", "net": True},
+    "B":   {"factor": 9.3, "name": "商务办公", "net": False},
+    "E":   {"factor": 1.9, "name": "教育场所", "net": True},
+    "F-1": {"factor": 18.6, "name": "工厂（中等危险）", "net": False},
+    "F-2": {"factor": 18.6, "name": "工厂（低危险）", "net": False},
+    "H-1": {"factor": 9.3, "name": "高危险场所（爆炸）", "net": False},
+    "H-2": {"factor": 9.3, "name": "高危险场所（快速燃烧）", "net": False},
+    "H-3": {"factor": 9.3, "name": "高危险场所（物理危害）", "net": False},
+    "I-1": {"factor": 18.6, "name": "机构场所（受监管）", "net": False},
+    "I-2": {"factor": 22.3, "name": "机构场所（无自救能力）", "net": False},
+    "I-3": {"factor": 11.1, "name": "机构场所（受约束）", "net": False},
+    "M":   {"factor": 5.6, "name": "商业", "net": False},
+    "R":   {"factor": 18.6, "name": "住宅", "net": False},
+    "S-1": {"factor": 46.5, "name": "仓储（中等危险）", "net": False},
+    "S-2": {"factor": 46.5, "name": "仓储（低危险）", "net": False},
+    "U":   {"factor": 46.5, "name": "辅助用房", "net": False},
 }
 
-# Maximum travel distances (meters) - IBC Table 1017.2
+# 最大疏散距离（米）— IBC Table 1017.2
 TRAVEL_DISTANCES = {
     "A-1": {"unsprinklered": 61.0, "sprinklered": 76.0},
     "A-2": {"unsprinklered": 61.0, "sprinklered": 76.0},
@@ -70,31 +70,31 @@ TRAVEL_DISTANCES = {
 
 
 def validate_inputs(args):
-    """Validate all input parameters."""
+    """校验全部输入参数。"""
     errors = []
     if args.floor_area <= 0:
-        errors.append("Floor area must be a positive number.")
+        errors.append("楼层面积必须为正数。")
     occ = args.occupancy_type.upper()
     if occ not in OCCUPANT_LOAD_FACTORS:
         valid = ", ".join(sorted(OCCUPANT_LOAD_FACTORS.keys()))
-        errors.append(f"Invalid occupancy type '{args.occupancy_type}'. "
-                      f"Valid types: {valid}")
+        errors.append(f"无效使用类型“{args.occupancy_type}”。"
+                      f"有效类型：{valid}")
     if args.num_stories < 1:
-        errors.append("Number of stories must be at least 1.")
+        errors.append("建筑层数至少为 1。")
     return errors
 
 
 def calculate(args):
-    """Perform egress calculations."""
+    """执行疏散计算。"""
     occ = args.occupancy_type.upper()
     occ_info = OCCUPANT_LOAD_FACTORS[occ]
     occ_factor = occ_info["factor"]
     occ_name = occ_info["name"]
 
-    # Occupant load
+    # 使用人数
     occupant_load = math.ceil(args.floor_area / occ_factor)
 
-    # Number of exits required (IBC 1006.2)
+    # 所需出口数量（IBC 1006.2）
     if occupant_load <= 500:
         num_exits = 2
     elif occupant_load <= 1000:
@@ -102,46 +102,46 @@ def calculate(args):
     else:
         num_exits = 4
 
-    # Special: single exit allowed for small occupant loads in certain occupancies
-    # (simplified -- full code has more nuance)
+    # 特殊情况：特定使用类型且使用人数较少时允许单一出口
+    # （简化处理，完整规范要求更细化）
     if occupant_load <= 49 and args.num_stories <= 1 and occ not in ("H-1", "H-2", "H-3"):
         num_exits = max(1, num_exits)
-        # Still require 2 for safety in most cases
+        # 多数情况下仍因安全原因要求 2 个出口
         if occupant_load > 10:
             num_exits = 2
 
-    # Exit width calculation
-    # Stair width factor: 7.6 mm/person; other components: 5.1 mm/person
+    # 出口宽度计算
+    # 楼梯宽度系数：7.6 mm/人；其他构件：5.1 mm/人
     if args.num_stories > 1:
-        width_factor = 7.6  # stairs
+        width_factor = 7.6  # 楼梯
     else:
-        width_factor = 5.1  # level components
+        width_factor = 5.1  # 水平疏散构件
 
     if args.sprinklered:
-        width_factor *= 0.75  # Sprinkler reduction per IBC
+        width_factor *= 0.75  # IBC 规定的喷淋减小系数
 
     total_exit_width_mm = math.ceil(occupant_load * width_factor)
     width_per_exit_mm = math.ceil(total_exit_width_mm / num_exits)
 
-    # Minimum door width
+    # 最小门净宽
     min_door_width_mm = 813  # 32 inches clear
 
-    # Use the larger of calculated and minimum
+    # 取计算值和最小值中的较大者
     effective_width_per_exit = max(width_per_exit_mm, min_door_width_mm)
 
-    # Travel distances
+    # 疏散距离
     sprinkler_key = "sprinklered" if args.sprinklered else "unsprinklered"
     travel_info = TRAVEL_DISTANCES.get(occ, {"unsprinklered": 61.0, "sprinklered": 76.0})
     max_travel = travel_info[sprinkler_key]
     max_travel_ft = round(max_travel * 3.28084)
 
-    # Common path and dead end limits
+    # 共用疏散路径和尽端走道限值
     max_common_path = 23.0  # 75 ft default
     max_dead_end = 6.1  # 20 ft without sprinklers
     if args.sprinklered:
         max_dead_end = 15.0  # 50 ft with sprinklers
 
-    # For B, F, S occupancies, common path can be longer
+    # B、F、S 使用类型的共用疏散路径可更长
     if occ in ("B", "F-1", "F-2", "S-1", "S-2", "U"):
         max_common_path = 23.0 if not args.sprinklered else 30.0
 
@@ -166,59 +166,58 @@ def calculate(args):
 
 
 def format_output(result):
-    """Format results for human-readable output."""
+    """将结果格式化为便于阅读的输出。"""
     lines = [
-        "=== Egress Calculator ===",
-        f"Floor Area:        {result['floor_area_m2']:,.2f} m2",
-        f"Occupancy Type:    {result['occupancy_type']} ({result['occupancy_name']})",
-        f"Sprinklered:       {'Yes' if result['sprinklered'] else 'No'}",
-        f"Number of Stories: {result['num_stories']}",
+        "=== 疏散计算器 ===",
+        f"楼层面积：          {result['floor_area_m2']:,.2f} m2",
+        f"使用类型：          {result['occupancy_type']} ({result['occupancy_name']})",
+        f"设有喷淋：          {'是' if result['sprinklered'] else '否'}",
+        f"建筑层数：          {result['num_stories']}",
         "---------------------------------------",
-        f"Occupant Load Factor:   {result['occupant_load_factor_m2']:.1f} m2/person",
-        f"Occupant Load:          {result['occupant_load']:,} persons",
+        f"人员荷载系数：        {result['occupant_load_factor_m2']:.1f} m2/人",
+        f"使用人数：            {result['occupant_load']:,} 人",
         "---------------------------------------",
-        f"Required Exits:         {result['required_exits']}",
-        f"Min Exit Width (total): {result['total_exit_width_mm']:,} mm",
-        f"Width per Exit:         {result['width_per_exit_mm']:,} mm",
-        f"Min Door Width:         {result['min_door_width_mm']:,} mm (32 inches)",
-        f"Effective per Exit:     {result['effective_width_per_exit_mm']:,} mm",
+        f"所需出口数量：        {result['required_exits']}",
+        f"最小总出口宽度：      {result['total_exit_width_mm']:,} mm",
+        f"每个出口宽度：        {result['width_per_exit_mm']:,} mm",
+        f"最小门宽：            {result['min_door_width_mm']:,} mm（32 英寸）",
+        f"每个出口有效宽度：    {result['effective_width_per_exit_mm']:,} mm",
         "---------------------------------------",
-        f"Max Travel Distance:    {result['max_travel_distance_m']:.1f} m "
+        f"最大疏散距离：        {result['max_travel_distance_m']:.1f} m "
         f"({result['max_travel_distance_ft']} ft) "
-        f"[{'sprinklered' if result['sprinklered'] else 'unsprinklered'}]",
-        f"Max Common Path:        {result['max_common_path_m']:.1f} m",
-        f"Max Dead End:           {result['max_dead_end_m']:.1f} m",
+        f"[{'设有喷淋' if result['sprinklered'] else '未设喷淋'}]",
+        f"最大共用路径：        {result['max_common_path_m']:.1f} m",
+        f"最大尽端走道：        {result['max_dead_end_m']:.1f} m",
         "",
-        "COMPLIANCE: Review travel distances on plans against limits above.",
+        "合规提示：应在平面图上对照以上限值复核疏散距离。",
     ]
     return "\n".join(lines)
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Egress Calculator: compute occupant load, required exits, "
-                    "exit widths, and travel distances per IBC."
+        description="疏散计算器：按 IBC 计算使用人数、所需出口、出口宽度和疏散距离。"
     )
     parser.add_argument("--floor-area", type=float, required=True,
-                        help="Net floor area in m2")
+                        help="净楼层面积，单位为 m2")
     parser.add_argument("--occupancy-type", type=str, required=True,
-                        help="IBC occupancy classification (e.g., A-1, B, E, M, R)")
+                        help="IBC 使用分类（例如 A-1、B、E、M、R）")
     parser.add_argument("--sprinklered", action="store_true",
-                        help="Building is sprinklered")
+                        help="建筑设有自动喷水灭火系统")
     parser.add_argument("--num-stories", type=int, default=1,
-                        help="Number of stories (default: 1)")
+                        help="建筑层数（默认值：1）")
     parser.add_argument("--json", action="store_true",
-                        help="Output results as JSON")
+                        help="以 JSON 输出结果")
 
     args = parser.parse_args()
 
     errors = validate_inputs(args)
     if errors:
         for error in errors:
-            print(f"Error: {error}", file=sys.stderr)
+            print(f"错误：{error}", file=sys.stderr)
         sys.exit(1)
 
-    # Normalize occupancy type to uppercase
+    # 将使用类型规范化为大写
     args.occupancy_type = args.occupancy_type.upper()
 
     result = calculate(args)

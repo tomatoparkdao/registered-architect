@@ -1,227 +1,207 @@
 ---
 name: construction-documentation
 description: >
-  Comprehensive construction documentation skill covering architectural drawing
-  sets, sheet organization and numbering, drawing standards (line weights, text,
-  hatching, dimensions), BIM Level of Development (LOD) requirements,
-  specification writing using CSI MasterFormat, schedule production (door,
-  window, finish, fixture), and construction administration workflows including
-  RFI processing, submittal review, change orders, site observations, punch
-  lists, and warranty period management.
+  全面的施工图文件技能，涵盖建筑图纸集、图纸组织与编号、制图标准（线宽、文字、填充、尺寸）、BIM 开发程度（LOD）要求、使用 CSI MasterFormat 编写规范、明细表编制（门、窗、装修、设备），以及施工管理流程，包括 RFI 处理、报审文件审查、变更令、现场观察、整改清单和保修期管理。
 ---
 
-# Construction Documentation
+# 施工图文件
 
-Construction documentation translates design intent into legally binding,
-buildable instructions. This skill covers every aspect of producing a
-complete, coordinated, and code-compliant set of construction documents --
-from drawing organization and graphic standards through specifications,
-schedules, and the architect's role during the construction phase.
+施工图文件将设计意图转化为具有法律约束力且可施工的指令。本技能涵盖编制完整、协调一致并符合规范的施工图文件的各个方面——从图纸组织和图形标准，到技术规范、明细表以及建筑师在施工阶段的职责。
 
 ---
 
-## 1. Drawing Set Organization
+## 1. 图纸集组织
 
-### 1.1 Standard Architectural Drawing Sequence
+### 1.1 标准建筑图纸顺序
 
-A complete architectural drawing set follows a consistent order that allows
-contractors, consultants, and reviewers to navigate the documents
-efficiently. The standard sequence is:
+完整的建筑图纸集应遵循统一顺序，使承包商、顾问和审查人员能够高效查阅文件。标准顺序如下：
 
-1. **Cover Sheet** -- project name, address, owner, architect, consultants,
+1. **封面**——项目名称、地址、业主、建筑师、顾问、
    project number, issue date, building code summary, occupancy
    classification, construction type, area tabulation, vicinity map.
-2. **Drawing List** -- complete index of every sheet in the set, organized
+2. **图纸目录**——图纸集所有图纸的完整索引，按专业组织，
    by discipline with sheet number, title, and revision status.
-3. **General Notes** -- project-wide notes, abbreviations, symbols legend,
+3. **总说明**——项目通用说明、缩写、符号图例、
    material keynote legend, accessibility standards referenced, applicable
    codes and editions.
-4. **Site Plan** -- property boundaries, setbacks, easements, building
+4. **总平面图**——用地边界、退界、地役权、建筑
    footprint, grading, paving, landscaping, utilities, site lighting,
    stormwater management, accessibility routes.
-5. **Floor Plans** -- every level including basement, ground, upper floors,
+5. **平面图**——包括地下层、首层、上部楼层、
    mezzanines, and mechanical penthouse. Show walls, doors, windows,
    stairs, elevators, room names, room numbers, dimensions, column grid,
    section cut indicators, elevation markers, detail callouts.
-6. **Reflected Ceiling Plans (RCP)** -- ceiling materials, heights, grid
+6. **吊顶平面图（RCP）**——顶棚材料、高度、网格
    layout, light fixtures, diffusers, sprinkler heads, access panels,
    ceiling soffits, bulkheads.
-7. **Roof Plan** -- roof slopes, drainage, overflow drains, mechanical
+7. **屋顶平面图**——屋面坡度、排水、溢流口、机电
    equipment, roof access, parapet heights, expansion joints, roof
    penetrations, fall protection anchorage.
-8. **Exterior Elevations** -- all four sides minimum, material indications,
+8. **外立面图**——至少四个立面、材料标注、
    floor lines, ceiling lines, grade line, roof ridge/eave lines, window
    tags, door tags, material keynotes, vertical dimensions.
-9. **Building Sections** -- longitudinal and transverse sections through
+9. **建筑剖面图**——贯穿整栋建筑的纵剖面和横剖面。
    the entire building. Show structural system, floor-to-floor heights,
    foundation, roof structure, wall assemblies at cut, vertical
    circulation, key dimensions.
-10. **Wall Sections** -- detailed vertical cuts through typical wall
+10. **墙身剖面图**——从基础至屋顶贯穿典型墙体
     assemblies from foundation to roof. Show every layer, flashing,
     waterproofing, insulation, vapor barriers, structural connections,
     window head/sill/jamb conditions.
-11. **Enlarged Plans** -- stair plans, elevator plans, toilet rooms,
+11. **放大平面图**——楼梯平面、电梯平面、卫生间、
     kitchens, lobbies, and other complex spaces at 1:50 or 1:20 scale.
-12. **Interior Elevations** -- wall-by-wall interior views of significant
+12. **室内立面图**——重要房间逐墙绘制的室内视图：
     rooms: toilets, kitchens, reception areas, conference rooms. Show
     casework, tile layouts, fixture locations, outlet heights.
-13. **Stair and Elevator Details** -- stair sections, handrail details,
+13. **楼梯和电梯详图**——楼梯剖面、扶手详图、
     guardrail connections, nosing profiles, elevator pit, shaft dimensions,
     machine room layout, cab interior elevations.
-14. **Door Schedule and Details** -- door types, frame details, hardware
+14. **门表和门详图**——门类型、门框详图、五金
     sets, threshold details, ADA clearance diagrams.
-15. **Window Schedule and Details** -- window types, mullion details,
+15. **窗表和窗详图**——窗类型、窗竖梃详图、
     sill/head/jamb sections, hardware, performance specifications.
-16. **Finish Schedule** -- room-by-room listing of floor, base, wall, and
+16. **装修表**——逐房间列出地面、踢脚、墙面和
     ceiling finishes with finish codes cross-referenced to specifications.
-17. **Detail Sheets** -- miscellaneous construction details not covered
+17. **详图图纸**——其他图纸未涵盖的杂项施工详图：
     elsewhere: expansion joints, control joints, flashing, waterproofing,
     miscellaneous metal, signage mounting.
 
-### 1.2 Sheet Numbering Conventions
+### 1.2 图纸编号约定
 
-Sheet numbers use a discipline prefix followed by a category digit and
-sequential number. The standard architectural prefix is "A":
+图纸编号采用专业前缀，后接类别数字和顺序号。建筑专业标准前缀为 “A”：
 
-| Sheet Series | Category                  | Examples               |
+| 图纸系列 | 类别 | 示例 |
 |-------------|---------------------------|------------------------|
-| A0.01       | General (cover, notes)    | A0.01, A0.02, A0.03   |
-| A1.01       | Floor Plans               | A1.01, A1.02, A1.03   |
-| A1.50       | Reflected Ceiling Plans   | A1.50, A1.51           |
-| A1.70       | Roof Plans                | A1.70, A1.71           |
-| A2.01       | Exterior Elevations       | A2.01, A2.02           |
-| A2.50       | Interior Elevations       | A2.50, A2.51, A2.52   |
-| A3.01       | Building Sections         | A3.01, A3.02           |
-| A3.50       | Wall Sections             | A3.50, A3.51           |
-| A4.01       | Enlarged Plans            | A4.01, A4.02           |
-| A5.01       | Details                   | A5.01, A5.02, A5.03   |
-| A6.01       | Schedules                 | A6.01, A6.02           |
-| A7.01       | Interior Design           | A7.01, A7.02           |
+| A0.01       | 总图/通用（封面、说明） | A0.01, A0.02, A0.03 |
+| A1.01       | 平面图 | A1.01, A1.02, A1.03 |
+| A1.50       | 吊顶平面图 | A1.50, A1.51 |
+| A1.70       | 屋顶平面图 | A1.70, A1.71 |
+| A2.01       | 外立面图 | A2.01, A2.02 |
+| A2.50       | 室内立面图 | A2.50, A2.51, A2.52 |
+| A3.01       | 建筑剖面图 | A3.01, A3.02 |
+| A3.50       | 墙身剖面图 | A3.50, A3.51 |
+| A4.01       | 放大平面图 | A4.01, A4.02 |
+| A5.01       | 详图 | A5.01, A5.02, A5.03 |
+| A6.01       | 明细表 | A6.01, A6.02 |
+| A7.01       | 室内设计 | A7.01, A7.02 |
 
-Other discipline prefixes:
-- **G** -- General (project-wide cover sheets, code analysis)
-- **C** -- Civil
-- **L** -- Landscape
-- **S** -- Structural
-- **M** -- Mechanical
-- **P** -- Plumbing
-- **FP** -- Fire Protection
-- **E** -- Electrical
+其他专业前缀：
+- **G**——总图/通用（项目通用封面、规范分析）
+- **C**——土木
+- **L**——景观
+- **S**——结构
+- **M**——机械
+- **P**——给排水
+- **FP**——消防
+- **E**——电气
 
-### 1.3 Drawing Scale Conventions by Sheet Type
+### 1.3 按图纸类型划分的比例约定
 
-| Sheet Type              | Common Metric Scale | Imperial Equivalent    |
+| 图纸类型 | 常用公制比例 | 英制等效比例 |
 |------------------------|--------------------|-----------------------|
-| Site Plan              | 1:200 or 1:500    | 1" = 20' or 1" = 40' |
-| Floor Plans            | 1:100 or 1:50     | 1/8" = 1' or 1/4" = 1' |
-| Reflected Ceiling Plan | 1:100 or 1:50     | 1/8" = 1' or 1/4" = 1' |
-| Roof Plan              | 1:100 or 1:200    | 1/8" = 1' or 1/16" = 1' |
-| Exterior Elevations    | 1:100 or 1:50     | 1/8" = 1' or 1/4" = 1' |
-| Building Sections      | 1:100 or 1:50     | 1/8" = 1' or 1/4" = 1' |
-| Wall Sections          | 1:20 or 1:10      | 3/4" = 1' or 1-1/2" = 1' |
-| Enlarged Plans         | 1:50 or 1:20      | 1/4" = 1' or 1/2" = 1' |
-| Interior Elevations    | 1:50 or 1:20      | 1/4" = 1' or 1/2" = 1' |
-| Construction Details   | 1:10 or 1:5       | 1" = 1' or 3" = 1'   |
-| Stair/Elevator Details | 1:20 or 1:10      | 1/2" = 1' or 1" = 1' |
+| 总平面图 | 1:200 或 1:500 | 1" = 20' 或 1" = 40' |
+| 平面图 | 1:100 或 1:50 | 1/8" = 1' 或 1/4" = 1' |
+| 吊顶平面图 | 1:100 或 1:50 | 1/8" = 1' 或 1/4" = 1' |
+| 屋顶平面图 | 1:100 或 1:200 | 1/8" = 1' 或 1/16" = 1' |
+| 外立面图 | 1:100 或 1:50 | 1/8" = 1' 或 1/4" = 1' |
+| 建筑剖面图 | 1:100 或 1:50 | 1/8" = 1' 或 1/4" = 1' |
+| 墙身剖面图 | 1:20 或 1:10 | 3/4" = 1' 或 1-1/2" = 1' |
+| 放大平面图 | 1:50 或 1:20 | 1/4" = 1' 或 1/2" = 1' |
+| 室内立面图 | 1:50 或 1:20 | 1/4" = 1' 或 1/2" = 1' |
+| 施工详图 | 1:10 或 1:5 | 1" = 1' 或 3" = 1' |
+| 楼梯/电梯详图 | 1:20 或 1:10 | 1/2" = 1' 或 1" = 1' |
 
 ---
 
-## 2. Drawing Standards
+## 2. 制图标准
 
-### 2.1 Line Weights
+### 2.1 线宽
 
-Consistent line weights ensure drawings are legible at all reproduction
-sizes. The standard hierarchy:
+统一的线宽确保图纸在各种复制尺寸下均清晰可读。标准层级如下：
 
-| Line Weight (mm) | Purpose                                        |
+| 线宽（mm） | 用途 |
 |------------------|------------------------------------------------|
-| 0.13             | Grid lines, construction lines, hatch patterns |
-| 0.18             | Hatching, fine detail, material patterns        |
-| 0.25             | Minor object lines, furniture, equipment        |
-| 0.35             | Major object lines, walls beyond cut plane      |
-| 0.50             | Cut lines (walls, floors, roofs in section)     |
-| 0.70             | Section cut lines, profile lines                |
+| 0.13 | 轴网线、构造线、填充图案 |
+| 0.18 | 填充、精细细节、材料图案 |
+| 0.25 | 次要对象线、家具、设备 |
+| 0.35 | 主要对象线、剖切面之外的墙体 |
+| 0.50 | 剖切线（剖面中的墙、楼板、屋面） |
+| 0.70 | 剖面剖切线、轮廓线 |
 
-In practice, line weights map to pen colors in CAD systems:
-- Color 1 (Red) = 0.13mm
-- Color 2 (Yellow) = 0.18mm
-- Color 3 (Green) = 0.25mm
-- Color 4 (Cyan) = 0.35mm
-- Color 5 (Blue) = 0.50mm
-- Color 6 (Magenta) = 0.70mm
+在实践中，CAD 系统中的线宽对应笔色：
+- 颜色 1（红）= 0.13 mm
+- 颜色 2（黄）= 0.18 mm
+- 颜色 3（绿）= 0.25 mm
+- 颜色 4（青）= 0.35 mm
+- 颜色 5（蓝）= 0.50 mm
+- 颜色 6（洋红）= 0.70 mm
 
-### 2.2 Text Heights
+### 2.2 文字高度
 
-Text height standards ensure readability when plotted:
+文字高度标准确保出图后清晰可读：
 
-| Text Height (mm) | Usage                                           |
+| 文字高度（mm） | 用途 |
 |------------------|------------------------------------------------|
-| 1.8              | Dimensions, minor annotations                   |
-| 2.0              | General notes, specifications on drawings        |
-| 2.5              | Room names, door/window tags                     |
-| 3.5              | Drawing titles, subtitles                        |
-| 5.0              | Sheet titles                                     |
-| 7.0              | Cover sheet project name                         |
+| 1.8              | 尺寸标注、次要注释                   |
+| 2.0              | 一般说明、图纸上的规格说明        |
+| 2.5              | 房间名称、门窗编号                     |
+| 3.5              | 图纸标题、副标题                        |
+| 5.0              | 图纸页标题                                     |
+| 7.0              | 封面项目名称                         |
 
-Font standards:
-- Primary: Arial, Helvetica, or equivalent sans-serif
-- CAD standard: SIMPLEX or ROMANS (SHX fonts)
-- Avoid decorative fonts; maintain consistent font family across all sheets
+字体标准：
+- 首选：Arial、Helvetica 或同等无衬线字体
+- CAD 标准：SIMPLEX 或 ROMANS（SHX 字体）
+- 避免装饰性字体；所有图纸保持统一字体族
 
-### 2.3 Hatching Patterns
+### 2.3 填充图案
 
-Standard material hatching in section and plan:
+剖面和平面中的标准材料填充：
 
-| Material          | Hatch Pattern Description                        |
+| 材料 | 填充图案说明 |
 |------------------|--------------------------------------------------|
-| Concrete          | Dot stipple or triangular aggregate pattern       |
+| Concrete          | 点状或三角形骨料图案       |
 | Masonry (brick)   | Diagonal crosshatch at 45 degrees                |
-| Masonry (CMU)     | Diagonal lines with dots at block cores           |
+| Masonry (CMU)     | 带砌块芯部点状标记的斜线           |
 | Insulation (rigid)| Hatched at 45 degrees, tight spacing              |
-| Insulation (batt) | Wavy lines or scalloped pattern                   |
-| Earth/soil        | Random dot pattern with short dashes              |
+| Insulation (batt) | 波浪线或扇贝形图案                   |
+| Earth/soil        | 随机点状图案及短划线              |
 | Timber (sawn)     | End grain circles in section, parallel lines along|
 | Steel             | Diagonal lines at 45 degrees, tight spacing       |
-| Glass             | Single solid fill or single line                  |
-| Membrane/sheet    | Heavy single line                                 |
-| Plywood           | Alternating parallel lines at varying angles      |
+| Glass             | 单色实填或单线                  |
+| Membrane/sheet    | 粗单线                                 |
+| Plywood           | 以不同角度交替布置的平行线      |
 | Gypsum board      | Small "x" pattern or light stipple                |
 
-### 2.4 Annotation Standards
+### 2.4 注释标准
 
-- **Keynotes**: Numeric references linked to keynote legend; preferred over
-  text notes for consistency. Use either sheet keynotes or reference
-  keynotes (linked to specifications).
-- **Room Tags**: Room number (bold, upper), room name (below), floor finish
-  code, ceiling height.
-- **Door Tags**: Circle with door number referencing door schedule.
-- **Window Tags**: Diamond or hexagon with window type referencing schedule.
-- **Section Markers**: Circle with section number (upper) and sheet number
-  (lower), tail pointing in direction of view.
-- **Elevation Markers**: Circle with arrow indicating viewing direction,
-  reference number and sheet number.
-- **Detail Callouts**: Circle or oval with detail number (upper) and sheet
-  number (lower).
-- **Column Grid**: Circles at grid intersections -- numbers for one axis
-  (1, 2, 3...) and letters for the other (A, B, C...).
+- **关键注释**：与关键注释图例关联的数字引用；为保持一致性优先于
+  文字注释以保持一致性。可使用图纸关键注释或参考关键注释（链接至技术规格）。
+- **房间标记**：房间编号（上方加粗）、房间名称（下方）、地面装修
+  地面装修代码、天花高度。
+- **门标记**：带门编号的圆形符号，引用门表。
+- **窗标记**：带窗类型的菱形或六边形符号，引用窗表。
+- **剖面标记**：圆形符号，上方为剖面编号，下方为图纸编号，
+  （下方），尾部指向视线方向。
+- **立面标记：**带箭头的圆形符号，表示视线方向、索引编号和图纸编号。
+- **详图索引：**圆形或椭圆形符号，上方为详图编号，下方为图纸编号。
+- **柱网：**网格交点处的圆形符号——一个方向用数字（1、2、3……），另一个方向用字母（A、B、C……）。
 
-### 2.5 Dimension Styles
+### 2.5 尺寸标注样式
 
-Three primary dimensioning methods:
+三种主要标注方法：
 
-1. **Running Dimensions** (baseline): All dimensions taken from a single
-   reference point. Preferred for structural grids and overall building
-   dimensions. Reduces cumulative error.
+1. **基线尺寸**：所有尺寸均从同一
+   基准点。适用于结构柱网和建筑总体尺寸，可减少累计误差。
 
-2. **Chain Dimensions** (continuous): Sequential dimensions from point to
-   point. Used for wall-to-wall dimensions, opening locations. Three
-   dimension strings typical: overall, grid-to-grid, wall-to-wall.
+2. **连续尺寸**：从一个点到下一个点的连续
+   点。用于墙到墙尺寸和洞口位置。通常设置三道尺寸链：总尺寸、柱网间尺寸、墙到墙尺寸。
 
-3. **Ordinate Dimensions**: X-Y coordinates from a datum point. Used in
+3. **坐标尺寸**：从基准点测量 X-Y 坐标，用于
    site plans and complex curved geometry.
 
-General rules:
-- Dimension to face of structure, not finish, unless specifically noting
+一般规则：
+- 除非特别标注装修尺寸，否则尺寸标注至结构面而非装修面
   finish dimensions
 - Place dimensions outside the building footprint where possible
 - Use three dimension strings: overall, intermediate (grid-to-grid), and
@@ -230,434 +210,388 @@ General rules:
 - Use consistent units: mm for metric, feet-inches for imperial
 - Avoid crossing dimension lines over each other
 
-### 2.6 North Arrow and Scale Bar
+### 2.6 指北针和比例尺
 
-- **North arrow**: Required on every plan drawing. Use project north (aligned
-  to building grid) with true north indicated by separate arrow if different.
-- **Scale bar**: Graphic scale bar required on every drawing. Numeric scale
-  alone is insufficient because drawings may be reproduced at different sizes.
-  Graphic bar maintains accuracy regardless of print scaling.
-- Scale bar length: Typically represents a round number (1m, 5m, 10m).
+- **指北针**：每张平面图均必须设置。使用项目北（与建筑轴网对齐）；若与真北不同，应另设真北箭头。
+- **比例尺**：每张图均必须设置图示比例尺。单独使用数字比例不足，因为图纸可能以不同尺寸复制；图示比例尺无论打印缩放如何均可保持准确。
+- 比例尺长度：通常表示整值（1 m、5 m、10 m）。
 
 ---
 
-## 3. BIM Level of Development (LOD) Requirements
+## 3. BIM 开发程度（LOD）要求
 
-### 3.1 LOD Definitions
+### 3.1 LOD 定义
 
-The BIM Forum LOD Specification defines the following levels:
+《BIM Forum LOD 规范》定义以下等级：
 
-**LOD 100 -- Concept Design**
-- Overall building massing, volume, and area
-- Generic placeholders indicating approximate size, shape, location
-- Used for: conceptual analysis, early cost modeling, scheduling
-- Geometric accuracy: Not reliable for measurement
+**LOD 100——概念设计**
+- 建筑总体体量、体积和面积
+- 表示大致尺寸、形状和位置的通用占位体
+- 用途：概念分析、早期成本建模、进度计划
+- 几何精度：不适用于可靠测量
 
-**LOD 200 -- Schematic Design**
-- Approximate geometry with approximate quantities, size, shape, location
-- Non-geometric information may be attached
-- Used for: schematic analysis, approximate cost estimates
-- Geometric accuracy: Approximate; elements recognizable as intended type
+**LOD 200——方案设计**
+- 具有大致数量、尺寸、形状和位置的近似几何
+- 可附加非几何信息
+- 用途：方案分析、近似成本估算
+- 几何精度：近似；构件可识别为预期类型
 
-**LOD 300 -- Design Development**
-- Precise geometry with specific dimensions, shape, location, orientation
-- Materials specified; performance criteria defined
-- Used for: code compliance, design coordination, detailed cost estimates
-- Geometric accuracy: Suitable for measurement and coordination
+**LOD 300——设计深化**
+- 具有明确尺寸、形状、位置和朝向的精确几何
+- 明确材料并定义性能标准
+- 用途：规范符合性、设计协调、详细成本估算
+- 几何精度：适用于测量和协调
 
-**LOD 350 -- Construction Documentation**
-- All LOD 300 content plus interfaces with other building systems
-- Connections, supports, and blocking modeled
-- Coordination with other disciplines resolved
-- Used for: clash detection, construction coordination, shop drawing prep
-- Geometric accuracy: Fully coordinated; construction-ready
+**LOD 350——施工图文件**
+- 包含 LOD 300 全部内容，并增加与其他建筑系统的接口
+- 对连接件、支撑和加固构件建模
+- 完成与其他专业的协调
+- 用途：碰撞检测、施工协调、施工深化图准备
+- 几何精度：完全协调，可直接施工
 
-**LOD 400 -- Fabrication**
-- Sufficient detail for fabrication and assembly
-- Precise dimensions, connections, and installation information
-- Used for: shop drawings, CNC fabrication, prefabrication
-- Geometric accuracy: Fabrication-level precision
+**LOD 400——加工制造**
+- 提供足够的加工和装配细节
+- 精确尺寸、连接和安装信息
+- 用途：施工深化图、CNC 加工、预制
+- 几何精度：加工制造级精度
 
-**LOD 500 -- As-Built**
-- Field-verified representation of completed construction
-- Actual dimensions and locations as installed
-- Used for: facility management, operations, future renovation
-- Geometric accuracy: Verified against field conditions
+**LOD 500——竣工模型**
+- 经现场核验的已完工建筑表示
+- 反映实际安装尺寸和位置
+- 用途：设施管理、运营、未来改造
+- 几何精度：已根据现场条件核验
 
-### 3.2 LOD Requirements by Element Type
+### 3.2 按构件类型划分的 LOD 要求
 
-| Building Element        | SD (LOD) | DD (LOD) | CD (LOD) | Fab (LOD) |
+| 建筑构件 | 方案设计 SD（LOD） | 设计深化 DD（LOD） | 施工图 CD（LOD） | 加工 Fab（LOD） |
 |------------------------|----------|----------|----------|-----------|
-| Structural columns     | 200      | 300      | 350      | 400       |
-| Structural beams       | 200      | 300      | 350      | 400       |
-| Exterior walls         | 200      | 300      | 350      | 400       |
-| Interior partitions    | 100      | 300      | 350      | 350       |
-| Doors                  | 200      | 300      | 350      | 400       |
-| Windows                | 200      | 300      | 350      | 400       |
-| Curtain walls          | 200      | 300      | 350      | 400       |
-| Stairs                 | 200      | 300      | 350      | 400       |
-| Elevators              | 100      | 200      | 350      | 400       |
-| Mechanical equipment   | 100      | 200      | 350      | 400       |
-| Ductwork               | --       | 200      | 350      | 400       |
-| Piping                 | --       | 200      | 350      | 400       |
-| Electrical panels      | 100      | 200      | 350      | 350       |
-| Light fixtures         | --       | 200      | 350      | 350       |
-| Ceiling systems        | 100      | 200      | 350      | 350       |
-| Casework/millwork      | 100      | 300      | 350      | 400       |
-| Site elements          | 200      | 300      | 350      | 350       |
+| 结构柱 | 200 | 300 | 350 | 400 |
+| 结构梁 | 200 | 300 | 350 | 400 |
+| 外墙 | 200 | 300 | 350 | 400 |
+| 内隔墙 | 100 | 300 | 350 | 350 |
+| 门 | 200 | 300 | 350 | 400 |
+| 窗 | 200 | 300 | 350 | 400 |
+| 幕墙 | 200 | 300 | 350 | 400 |
+| 楼梯 | 200 | 300 | 350 | 400 |
+| 电梯 | 100 | 200 | 350 | 400 |
+| 机械设备 | 100 | 200 | 350 | 400 |
+| 风管 | -- | 200 | 350 | 400 |
+| 管道 | -- | 200 | 350 | 400 |
+| 配电盘 | 100 | 200 | 350 | 350 |
+| 灯具 | -- | 200 | 350 | 350 |
+| 吊顶系统 | 100 | 200 | 350 | 350 |
+| 固定家具/木作 | 100 | 300 | 350 | 400 |
+| 场地构件 | 200 | 300 | 350 | 350 |
 
-### 3.3 Model Coordination Requirements
+### 3.3 模型协调要求
 
-At LOD 350 and above, the following coordination checks are mandatory:
+LOD 350 及以上必须进行以下协调检查：
 
-- **Clash detection**: Hard clashes (physical intersections), soft clashes
+- **碰撞检测**：硬碰撞（物理相交）、软碰撞
   (clearance violations), and 4D clashes (scheduling conflicts)
-- **Spatial coordination**: Verify ceiling plenum space accommodates all MEP
-  routing with minimum clearances
-- **Penetration coordination**: All structural penetrations identified,
-  sized, and sleeved
-- **Fire separation**: Rated assemblies continuous and uncompromised
-- **Accessibility**: Clear widths, turning radii, and mounting heights
-  verified in model
+- **空间协调**：核验吊顶夹层空间是否容纳所有 MEP 管线，并满足最小净距
+- **穿透协调**：识别、确定尺寸并套管处理所有结构穿透
+- **防火分隔**：耐火构造连续且未被破坏
+- **无障碍**：在模型中核验净宽、转弯半径和安装高度
 
 ---
 
-## 4. Specification Writing
+## 4. 技术规范编写
 
-### 4.1 CSI MasterFormat Divisions
+### 4.1 CSI MasterFormat 分部
 
-The Construction Specifications Institute (CSI) MasterFormat organizes
-specifications into the following divisions:
+Construction Specifications Institute（CSI）的 MasterFormat 将技术规范组织为以下分部：
 
-| Division | Title                              | Typical Architectural Content          |
+| 分部 | 标题 | 典型建筑内容 |
 |----------|------------------------------------|---------------------------------------|
-| 01       | General Requirements               | Summary, price forms, alternates, schedules, submittals, quality, temporary facilities |
-| 02       | Existing Conditions                | Demolition, hazmat abatement, site assessment |
-| 03       | Concrete                           | Cast-in-place, precast, architectural concrete |
-| 04       | Masonry                            | Unit masonry, stone assemblies, glass unit masonry |
-| 05       | Metals                             | Structural steel, miscellaneous metals, ornamental metal |
-| 06       | Wood, Plastics, Composites         | Rough carpentry, finish carpentry, millwork, FRP |
-| 07       | Thermal/Moisture Protection        | Waterproofing, insulation, roofing, sealants, flashing |
-| 08       | Openings                           | Doors, windows, curtain walls, hardware, glazing |
-| 09       | Finishes                           | Plaster, gypsum board, tiling, flooring, painting |
-| 10       | Specialties                        | Visual display, toilet accessories, signage, lockers |
-| 11       | Equipment                          | Kitchen equipment, athletic equipment, lab equipment |
-| 12       | Furnishings                        | Casework, window treatments, furniture |
-| 13       | Special Construction               | Swimming pools, clean rooms, radiation protection |
-| 14       | Conveying Equipment                | Elevators, escalators, dumbwaiters |
-| 21       | Fire Suppression                   | Sprinkler systems, standpipes |
-| 22       | Plumbing                           | Fixtures, piping, drainage |
-| 23       | HVAC                               | Air handling, ductwork, controls |
-| 25       | Integrated Automation              | Building automation systems |
-| 26       | Electrical                         | Power distribution, lighting, controls |
-| 27       | Communications                     | Data, voice, AV systems |
-| 28       | Electronic Safety/Security         | Access control, CCTV, fire alarm |
-| 31       | Earthwork                          | Grading, excavation, fill |
-| 32       | Exterior Improvements              | Paving, site furnishings, fencing |
-| 33       | Utilities                          | Storm drainage, water supply, sanitary sewer |
-| 40-49    | Process Integration/Equipment      | Industrial processes, electrical systems |
+| 01 | 总则 | 摘要、报价表、备选项、进度表、报审文件、质量、临时设施 |
+| 02 | 现状条件 | 拆除、危险材料处理、场地评估 |
+| 03 | 混凝土 | 现浇、预制、建筑混凝土 |
+| 04 | 砌体 | 砌块砌体、石材构造、玻璃砌块砌体 |
+| 05 | 金属 | 结构钢、杂项金属、装饰金属 |
+| 06 | 木材、塑料、复合材料 | 粗木作、精木作、木作、FRP |
+| 07 | 热工/防潮保护 | 防水、保温、屋面、密封胶、泛水 |
+| 08 | 门窗洞口 | 门、窗、幕墙、五金、玻璃 |
+| 09 | 饰面 | 抹灰、石膏板、铺贴、地面、涂漆 |
+| 10 | 专项工程 | 视觉展示、卫生间配件、标识、储物柜 |
+| 11 | 设备 | 厨房、体育、实验室设备 |
+| 12 | 家具 | 固定家具、窗饰、家具 |
+| 13 | 特殊施工 | 游泳池、洁净室、辐射防护 |
+| 14 | 输送设备 | 电梯、自动扶梯、传菜梯 |
+| 21 | 灭火系统 | 喷淋系统、立管 |
+| 22 | 给排水 | 器具、管道、排水 |
+| 23 | HVAC | 空气处理、风管、控制 |
+| 25 | 综合自动化 | 建筑自动化系统 |
+| 26 | 电气 | 配电、照明、控制 |
+| 27 | 通信 | 数据、语音、影音系统 |
+| 28 | 电子安全/安防 | 门禁、CCTV、火灾报警 |
+| 31 | 土方 | 场地平整、开挖、填方 |
+| 32 | 室外改造 | 铺装、场地家具、围栏 |
+| 33 | 公用设施 | 雨水排水、供水、污水管网 |
+| 40–49 | 工艺整合/设备 | 工业工艺、电气系统 |
 
-### 4.2 Specification Types
+### 4.2 技术规范类型
 
-**Prescriptive Specification**
-- Names the specific product, manufacturer, and model number
-- Simplest to write; limits competition; maximum control
-- Example: "Provide Acme Corporation Model XR-500 door closer"
+**规定性规范**
+- 指定具体产品、制造商和型号
+- 编写最简单；限制竞争；控制力最大
+- 示例：“提供 Acme Corporation XR-500 型闭门器”
 
-**Performance Specification**
-- States required performance criteria; allows vendor to propose solution
-- Encourages innovation; more complex to evaluate
-- Example: "Provide door closer capable of controlling doors up to 100 kg,
-  with adjustable backcheck, closing speed 3-7 seconds, and complying with
-  EN 1154 Class 4"
+**性能规范**
+- 规定所需性能标准，允许供应商提出解决方案
+- 鼓励创新，但评估更复杂
+- 示例：“提供可控制最大 100 kg 门扇的闭门器，带可调反向缓冲，关闭速度 3–7 秒，并符合 EN 1154 4 级”
 
-**Proprietary Specification**
-- Names approved manufacturers or products with "or equal" clause
-- Balance of control and competition
-- Example: "Provide Acme XR-500 or approved equal meeting the following
-  requirements..."
+**专有规范**
+- 列出获批准的制造商或产品，并附“或同等产品”条款
+- 平衡控制与竞争
+- 示例：“提供 Acme XR-500 或经批准的满足以下要求的同等产品……”
 
-**Reference Standard Specification**
-- References an industry standard (ASTM, EN, ISO) for material or
-  performance requirements
-- Example: "Concrete masonry units shall comply with ASTM C90, Grade N,
-  Type I"
+**引用标准规范**
+- 引用行业标准（ASTM、EN、ISO）规定材料或性能要求
+- 示例：“混凝土砌块应符合 ASTM C90、N 级、I 型”
 
-### 4.3 Three-Part Specification Format
+### 4.3 三部分规范格式
 
-Every specification section follows the CSI three-part format:
+每个规范分节均采用 CSI 三部分格式：
 
-**Part 1 -- General**
-- 1.01 Summary: Scope of work, related sections, work by others
-- 1.02 References: Applicable standards (ASTM, ANSI, EN, ISO)
-- 1.03 Definitions: Technical terms specific to this section
-- 1.04 Submittals: Shop drawings, product data, samples, test reports
-- 1.05 Quality Assurance: Installer qualifications, mock-ups, pre-installation meetings
-- 1.06 Delivery, Storage, Handling: Protection requirements
-- 1.07 Project Conditions: Environmental requirements for installation
-- 1.08 Warranty: Duration and coverage beyond standard warranty
+**第 1 部分——总则**
+- 1.01 摘要：工作范围、相关分节、其他单位承担的工作
+- 1.02 参考资料：适用标准（ASTM、ANSI、EN、ISO）
+- 1.03 定义：本分节专用技术术语
+- 1.04 报审文件：施工深化图、产品资料、样品、测试报告
+- 1.05 质量保证：安装人员资质、样板、安装前会议
+- 1.06 交付、储存、搬运：防护要求
+- 1.07 项目条件：安装环境要求
+- 1.08 保修：超出标准保修的期限和范围
 
-**Part 2 -- Products**
-- 2.01 Materials: Base materials, acceptable standards
-- 2.02 Manufactured Products: Specific products or performance criteria
-- 2.03 Fabrication: Shop fabrication requirements, tolerances
-- 2.04 Finishes: Surface treatments, coatings, colors
-- 2.05 Source Quality Control: Factory testing, certifications
+**第 2 部分——产品**
+- 2.01 材料：基础材料、可接受标准
+- 2.02 制造产品：具体产品或性能标准
+- 2.03 加工：工厂加工要求、允许偏差
+- 2.04 饰面：表面处理、涂层、颜色
+- 2.05 来源质量控制：工厂测试、认证
 
-**Part 3 -- Execution**
-- 3.01 Examination: Site conditions verification before installation
-- 3.02 Preparation: Surface preparation, priming, layout
-- 3.03 Installation: Step-by-step installation requirements
-- 3.04 Field Quality Control: Testing, inspection requirements
-- 3.05 Adjusting: Post-installation adjustment
-- 3.06 Cleaning: Post-installation cleaning requirements
-- 3.07 Protection: Protection of installed work during construction
+**第 3 部分——施工实施**
+- 3.01 检查：安装前核验现场条件
+- 3.02 准备：表面准备、底涂和放线
+- 3.03 安装：逐步安装要求
+- 3.04 现场质量控制：测试和检查要求
+- 3.05 调整：安装后的调整
+- 3.06 清洁：安装后的清洁要求
+- 3.07 保护：施工期间已安装工程的保护
 
 ---
 
-## 5. Schedule Production
+## 5. 明细表编制
 
-### 5.1 Door Schedule
+### 5.1 门表
 
-Standard door schedule columns:
+标准门表列：
 
-| Column            | Description                                       |
+| 列 | 说明 |
 |------------------|---------------------------------------------------|
-| Door Tag          | Unique identifier matching plan annotation         |
-| Location          | Room name or room number where door is located     |
-| Width             | Clear opening width (mm or feet-inches)            |
-| Height            | Clear opening height                               |
-| Thickness         | Door leaf thickness                                |
-| Type              | Single, pair, sliding, pocket, overhead, revolving |
-| Material          | Wood, hollow metal, aluminum, FRP, glass           |
-| Fire Rating       | None, 20 min, 45 min, 60 min, 90 min, 3 hr       |
-| Smoke Rating      | Yes/No; S-label for smoke doors                    |
-| Hardware Set      | Number referencing hardware group specification     |
-| Frame Type        | Hollow metal, wood, aluminum; anchor type          |
-| Frame Material    | Same as door or different                          |
-| Glazing           | Vision panel size, type, fire-rated if applicable  |
-| Finish            | Paint color, stain, anodized, powder coat          |
-| Undercut          | Gap at bottom for air transfer                     |
-| Threshold         | Type (saddle, ADA, interlocking, none)             |
-| Remarks           | Special notes, ADA, security, acoustic rating      |
+| 门标记 | 与平面图注释对应的唯一标识 |
+| 位置 | 门所在房间名称或编号 |
+| 宽度 | 净开口宽度（mm 或英尺-英寸） |
+| 高度 | 净开口高度 |
+| 厚度 | 门扇厚度 |
+| 类型 | 单扇、双扇、推拉、暗藏、上悬、旋转 |
+| 材料 | 木、空心金属、铝、FRP、玻璃 |
+| 耐火等级 | 无、20 分钟、45 分钟、60 分钟、90 分钟、3 小时 |
+| 防烟等级 | 是/否；防烟门使用 S 标识 |
+| 五金组 | 引用五金组规范的编号 |
+| 门框类型 | 空心金属、木、铝；锚固类型 |
+| 门框材料 | 与门相同或不同 |
+| 玻璃 | 观察窗尺寸、类型，必要时注明防火等级 |
+| 饰面 | 涂料颜色、染色、阳极氧化、粉末涂层 |
+| 门底间隙 | 用于空气传递的底部间隙 |
+| 门槛 | 类型（鞍形、ADA、互锁、无） |
+| 备注 | 特殊说明、ADA、安防、声学等级 |
 
-### 5.2 Window Schedule
+### 5.2 窗表
 
-Standard window schedule columns:
+标准窗表列：
 
-| Column            | Description                                       |
+| 列 | 说明 |
 |------------------|---------------------------------------------------|
-| Window Tag        | Unique identifier matching plan/elevation tag      |
-| Width             | Overall frame width                                |
-| Height            | Overall frame height                               |
-| Sill Height       | Height from finished floor to sill                 |
-| Type              | Fixed, casement, awning, hopper, sliding, tilt-turn|
-| Frame Material    | Aluminum, wood, PVC, steel, fiberglass             |
-| Glazing Spec      | Single, double, triple; low-e coating; gas fill    |
-| U-value           | Thermal transmittance of complete window assembly  |
-| SHGC              | Solar Heat Gain Coefficient                        |
-| VLT               | Visible Light Transmittance                        |
-| STC               | Sound Transmission Class                           |
-| Operator Type     | Handle, crank, motorized, none (fixed)             |
-| Screen            | Yes/No; type (insect, solar, retractable)          |
-| Finish            | Anodized, powder coat, painted; color              |
-| Fire Rating       | If required by location (property line proximity)  |
-| Remarks           | Safety glazing, impact-rated, blast-rated          |
+| 窗标记 | 与平面图/立面图标记对应的唯一标识 |
+| 宽度 | 窗框总宽度 |
+| 高度 | 窗框总高度 |
+| 窗台高度 | 从完成地面至窗台的高度 |
+| 类型 | 固定、平开、上悬、下悬、推拉、内倒 |
+| 窗框材料 | 铝、木、PVC、钢、玻璃纤维 |
+| 玻璃规格 | 单玻、双玻、三玻；Low-E 涂层；充气 |
+| U 值 | 完整窗组件的传热系数 |
+| SHGC | 太阳得热系数 |
+| VLT | 可见光透射率 |
+| STC | 隔声等级 |
+| 操作类型 | 把手、摇柄、电动、无（固定） |
+| 纱窗/遮阳网 | 是/否；类型（防虫、遮阳、可收回） |
+| 饰面 | 阳极氧化、粉末涂层、涂漆；颜色 |
+| 耐火等级 | 位置需要时（靠近用地边界） |
+| 备注 | 安全玻璃、抗冲击、抗爆 |
 
-### 5.3 Finish Schedule
+### 5.3 装修表
 
-Standard finish schedule format:
+标准装修表格式：
 
-| Column            | Description                                       |
+| 列 | 说明 |
 |------------------|---------------------------------------------------|
-| Room Number       | Matching plan room tag                             |
-| Room Name         | Descriptive name                                   |
-| Floor Finish      | Finish code (e.g., F1 = Porcelain tile)           |
-| Floor Base        | Base type code (e.g., B1 = Ceramic cove base)     |
-| Wall Finish North | Finish code per wall orientation                   |
-| Wall Finish South | Finish code per wall orientation                   |
-| Wall Finish East  | Finish code per wall orientation                   |
-| Wall Finish West  | Finish code per wall orientation                   |
-| Ceiling Finish    | Finish code (e.g., C1 = Gypsum board, painted)    |
-| Ceiling Height    | Height in mm or feet-inches                        |
-| Remarks           | Wet area coating, antimicrobial, accent walls      |
+| 房间编号 | 与平面图房间标记对应 |
+| 房间名称 | 描述性名称 |
+| 地面装修 | 装修代码（如 F1 = 瓷砖） |
+| 地面踢脚 | 踢脚类型代码（如 B1 = 陶瓷圆弧踢脚） |
+| 北墙装修 | 按墙体朝向的装修代码 |
+| 南墙装修 | 按墙体朝向的装修代码 |
+| 东墙装修 | 按墙体朝向的装修代码 |
+| 西墙装修 | 按墙体朝向的装修代码 |
+| 顶棚装修 | 装修代码（如 C1 = 涂漆石膏板） |
+| 顶棚高度 | 以 mm 或英尺-英寸表示 |
+| 备注 | 湿区涂层、抗菌、重点墙面 |
 
-Finish codes should be defined in a legend:
-- F1: Porcelain tile 600x600
-- F2: Vinyl plank flooring
-- F3: Sealed concrete
-- F4: Carpet tile
-- B1: Ceramic cove base 100mm
-- B2: Rubber base 100mm
-- B3: Wood base 75mm
-- W1: Paint on gypsum board (GWB)
-- W2: Ceramic wall tile
-- W3: Stone veneer
-- C1: Gypsum board painted
-- C2: Suspended acoustic ceiling tile
-- C3: Exposed structure painted
+装修代码应在图例中定义：
+- F1：600 × 600 瓷砖
+- F2：乙烯基地板条
+- F3：密封混凝土
+- F4：方块地毯
+- B1：100 mm 陶瓷圆弧踢脚
+- B2：100 mm 橡胶踢脚
+- B3：75 mm 木踢脚
+- W1：石膏板（GWB）涂漆
+- W2：陶瓷墙砖
+- W3：石材饰面
+- C1：涂漆石膏板
+- C2：悬挂式吸声矿棉板
+- C3：外露结构涂漆
 
-### 5.4 Fixture and Equipment Schedules
+### 5.4 设备和器具表
 
-**Plumbing Fixture Schedule**: Tag, type (WC, lavatory, sink, shower),
-manufacturer, model, mounting (floor, wall), supply connection, waste
-size, accessibility compliance, finish.
+**卫生器具表**：标记、类型（坐便器、洗脸盆、水槽、淋浴器）、制造商、型号、安装方式（地面、墙面）、供水连接、排水尺寸、无障碍符合性和饰面。
 
-**Equipment Schedule**: Tag, equipment name, manufacturer, model,
-dimensions, weight, power requirements (voltage, phase, amperage),
-plumbing connections, ventilation requirements, clearances required.
+**设备表**：标记、设备名称、制造商、型号、尺寸、重量、电力要求（电压、相数、电流）、给排水连接、通风要求和所需净距。
 
-### 5.5 Room Data Sheets
+### 5.5 房间数据表
 
-For complex program types (hospitals, laboratories, data centers), room
-data sheets replace or supplement finish schedules. Each room gets a
-dedicated sheet listing:
+对于复杂建筑类型（医院、实验室、数据中心），房间数据表可替代或补充装修表。每个房间设置专用页面，列出：
 
-- Room number, name, department, and function
-- Area (net, gross)
-- Floor, wall, and ceiling finishes with performance requirements
-- Mechanical requirements (temperature, humidity, air changes, pressure)
-- Electrical requirements (circuits, outlets, dedicated power)
-- Lighting requirements (lux level, color temperature)
-- Plumbing requirements (fixtures, gases, vacuum)
-- IT/communications requirements
-- Furniture and equipment list
-- Security requirements (access control level)
-- Acoustic requirements (NC rating, STC between rooms)
+- 房间编号、名称、部门和功能
+- 面积（净面积、毛面积）
+- 地面、墙面和顶棚装修及性能要求
+- 机械要求（温度、湿度、换气次数、压力）
+- 电气要求（回路、插座、专用电源）
+- 照明要求（照度、色温）
+- 给排水要求（器具、气体、真空）
+- IT/通信要求
+- 家具和设备清单
+- 安防要求（门禁等级）
+- 声学要求（NC 等级、房间间 STC）
 
 ---
 
-## 6. Construction Administration
+## 6. 施工管理
 
-### 6.1 Architect's Role During Construction
+### 6.1 建筑师在施工阶段的职责
 
-The architect's role during construction is defined by the Owner-Architect
-agreement (AIA B101 or equivalent). The architect does NOT supervise
-construction -- the contractor is solely responsible for means, methods,
-techniques, sequences, and safety. The architect performs the following:
+建筑师在施工阶段的职责由业主—建筑师协议（AIA B101 或同等协议）确定。建筑师不负责施工监督——施工方法、工艺、顺序和安全由承包商独立负责。建筑师执行以下工作：
 
-### 6.2 RFI (Request for Information) Processing
+### 6.2 RFI（信息请求）处理
 
-- Contractor submits RFI when drawings or specifications are unclear
-- Architect logs, reviews, and responds typically within **5-7 business days**
-- Response options: clarify intent, issue supplemental sketch (ASI), refer
-  to specification section, defer to consultant, request contractor proposal
-- All RFIs are numbered sequentially and tracked in a log
-- RFIs that result in cost or schedule impact may become change orders
+- 图纸或规范不明确时，承包商提交 RFI
+- 建筑师登记、审查并通常在 **5–7 个工作日**内回复
+- 回复方式：澄清意图、发布补充草图（ASI）、引用规范分节、转交顾问、要求承包商提出方案
+- 所有 RFI 按顺序编号并在日志中跟踪
+- 导致成本或进度影响的 RFI 可能转化为变更令
 
-### 6.3 Submittal Review
+### 6.3 报审文件审查
 
-- Contractor submits product data, shop drawings, samples, and mock-ups
-- Architect reviews for **conformance with design intent** (not code
-  compliance -- that remains contractor's responsibility)
-- Standard turnaround: **14-21 business days** from receipt
-- Review stamps: Approved, Approved as Noted, Revise and Resubmit, Rejected
-- Submittals requiring resubmission restart the review clock
-- Architect maintains a submittal log tracking status of all items
+- 承包商提交产品资料、施工深化图、样品和样板
+- 建筑师审查其是否**符合设计意图**（不审查规范合规性，该责任仍由承包商承担）
+- 标准周转时间：收到后 **14–21 个工作日**
+- 审查章：批准、注明后批准、修改后重新提交、拒绝
+- 需要重新提交的文件重新开始审查计时
+- 建筑师维护报审日志，跟踪所有项目状态
 
-### 6.4 Change Order Review
+### 6.4 变更令审查
 
-- Changes arise from: owner requests, unforeseen conditions, design errors,
-  code changes, value engineering
-- Process: Contractor submits proposal (COR), architect reviews scope and
-  cost, recommends to owner, owner authorizes change order (CO)
-- Architect evaluates: Is the work within original scope? Is the cost
-  reasonable? Is the time extension justified?
-- All change orders tracked in a log with cumulative cost impact
+- 变更来源：业主要求、不可预见条件、设计错误、规范变化、价值工程
+- 流程：承包商提交方案（COR），建筑师审查范围和成本并向业主提出建议，业主批准变更令（CO）
+- 建筑师评估：工作是否属于原范围？成本是否合理？工期延长是否有依据？
+- 所有变更令均在日志中跟踪累计成本影响
 
-### 6.5 Site Observations
+### 6.5 现场观察
 
-- Architect conducts **periodic site observations** (not continuous
-  inspection) at intervals appropriate to the stage of construction
-- Purpose: determine if work is **generally in accordance** with contract
-  documents
-- Architect is NOT a building inspector and does NOT certify code compliance
-- Document observations in field reports with photographs
-- Note deficiencies and report to contractor in writing
-- Typical frequency: biweekly during active construction, weekly during
-  critical phases (waterproofing, fireproofing, facade installation)
+- 建筑师按施工阶段适当间隔进行**定期现场观察**（不是连续检查）
+- 目的：确定工程是否**总体符合**合同文件
+- 建筑师不是建筑检查员，也不认证规范符合性
+- 在现场报告中以照片记录观察结果
+- 记录缺陷并书面报告承包商
+- 典型频率：施工活跃期每两周一次，关键阶段（防水、防火、幕墙安装）每周一次
 
-### 6.6 Payment Certificate Review
+### 6.6 付款证书审查
 
-- Contractor submits monthly application for payment
-- Architect reviews percentage complete by line item
-- Architect certifies amount due to owner for payment
-- Retainage typically held: **10%** until substantial completion, reduced
-  to **5%** or released at final completion
-- Architect is NOT an auditor; certification is based on observations and
-  contractor's representations
+- 承包商每月提交付款申请
+- 建筑师按分项审查完成比例
+- 建筑师认证应付业主的付款金额
+- 保留金通常为 **10%**，至实质完工后降至 **5%**，或在最终完工时释放
+- 建筑师不是审计师；认证依据现场观察和承包商陈述
 
-### 6.7 Substantial Completion
+### 6.7 实质完工
 
-- Defined as: the stage when the work is **sufficiently complete** that the
-  owner can use it for its intended purpose
-- Architect conducts substantial completion inspection
-- Issues **Certificate of Substantial Completion** if warranted
-- Begins warranty period from date of substantial completion
-- Generates **punch list**: a detailed list of incomplete or deficient items
-  that the contractor must correct
+- 定义：工程**已充分完成**，业主可以按预定用途使用的阶段
+- 建筑师进行实质完工检查
+- 符合条件时签发**实质完工证书**
+- 保修期从实质完工日期开始
+- 编制**整改清单**：列出承包商必须修正的未完或缺陷项目
 
-### 6.8 Punch List
+### 6.8 整改清单
 
-- Architect walks the entire project documenting deficiencies
-- Items categorized: incomplete work, damaged work, work not conforming to
-  documents, cleaning required
-- Contractor addresses all items within agreed timeframe (typically 30 days)
-- Architect re-inspects to verify corrections
-- Release of final retainage contingent on punch list completion
+- 建筑师巡视整个项目并记录缺陷
+- 项目分类：未完成工程、损坏工程、不符合文件的工程、需要清洁的项目
+- 承包商在约定期限内处理所有项目（通常 30 天）
+- 建筑师复查以核实修正结果
+- 最终保留金的释放以整改清单完成为条件
 
-### 6.9 Final Completion
+### 6.9 最终完工
 
-- All punch list items resolved
-- All closeout documents received: warranties, as-built drawings,
-  operations manuals, maintenance manuals, spare parts, keying schedule
-- Architect issues **Final Certificate for Payment**
-- Final retainage released
-- Architect's services under construction administration conclude
+- 所有整改清单项目已解决
+- 收齐所有收尾文件：保修文件、竣工图、运行手册、维护手册、备件和钥匙系统表
+- 建筑师签发**最终付款证书**
+- 释放最终保留金
+- 建筑师的施工管理服务结束
 
-### 6.10 Warranty Period
+### 6.10 保修期
 
-- Standard warranty period: **12 months** from date of substantial
-  completion (per AIA A201 General Conditions)
-- Extended warranties for specific systems (roofing: 15-20 years,
-  waterproofing: 10 years, mechanical equipment: 2-5 years)
-- Architect may conduct **11-month warranty inspection** to identify
-  deficiencies before warranty expiration
-- Owner should maintain warranty documentation for entire building life
+- 标准保修期：自实质完工日起 **12 个月**（依据 AIA A201 通用条件）
+- 特定系统的延长保修（屋面：15–20 年；防水：10 年；机械设备：2–5 年）
+- 建筑师可进行**第 11 个月保修检查**，在保修期届满前发现缺陷
+- 业主应在建筑整个寿命期内保存保修文件
 
-### 6.11 Document Control and Record Keeping
+### 6.11 文件控制和记录保存
 
-Throughout construction, the architect maintains:
-- RFI log with all responses
-- Submittal log with review status
-- Change order log with cumulative cost tracking
-- Field report file with photographs
-- Meeting minutes from all OAC (Owner-Architect-Contractor) meetings
-- Correspondence log
-- ASI (Architect's Supplemental Instruction) log
-- Payment certification records
-- Punch list and closeout tracking
+整个施工期间，建筑师应维护：
+- 含所有回复的 RFI 日志
+- 含审查状态的报审日志
+- 跟踪累计成本的变更令日志
+- 含照片的现场报告文件
+- 所有 OAC（业主—建筑师—承包商）会议纪要
+- 往来函件日志
+- ASI（建筑师补充指示）日志
+- 付款认证记录
+- 整改清单和收尾跟踪记录
 
-All documents should be maintained in a project management information
-system (PMIS) with version control and audit trail. Digital platforms
-such as Procore, Newforma, PlanGrid, or BIM 360 are standard tools for
-construction document management.
+所有文件均应在项目管理信息系统（PMIS）中维护，并具备版本控制和审计追踪。Procore、Newforma、PlanGrid 或 BIM 360 等数字平台是施工文件管理的标准工具。
 
 ---
 
-## Summary
+## 总结
 
-Construction documentation is the bridge between design intent and built
-reality. Incomplete, inconsistent, or poorly coordinated documents are the
-primary source of construction conflicts, cost overruns, and quality
-failures. Mastery of drawing organization, graphic standards, BIM
-coordination, specification writing, schedule production, and construction
-administration processes is essential for every practicing architect.
+施工图文件是连接设计意图与建成现实的桥梁。不完整、不一致或协调不良的文件是施工冲突、成本超支和质量问题的主要来源。每位执业建筑师都必须掌握图纸组织、图形标准、BIM 协调、技术规范编写、明细表编制和施工管理流程。
 
-The standards in this document align with:
-- AIA Document Standards (A201, B101)
-- CSI MasterFormat and SectionFormat
-- BIM Forum LOD Specification
-- ISO 19650 (BIM Information Management)
-- National CAD Standard (NCS) -- United States
-- BS 1192 / PAS 1192 -- United Kingdom
+本文件所述标准与以下标准体系一致：
+- AIA 文件标准（A201、B101）
+- CSI MasterFormat 和 SectionFormat
+- BIM Forum LOD 规范
+- ISO 19650（BIM 信息管理）
+- National CAD Standard（NCS）——美国
+- BS 1192 / PAS 1192——英国

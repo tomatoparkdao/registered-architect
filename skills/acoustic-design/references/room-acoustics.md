@@ -1,319 +1,319 @@
-# Room Acoustics — Reference
+# 室内声学——参考
 
-## 1. Concert Hall Typologies
+## 1. 音乐厅类型
 
-### 1.1 Shoebox (Rectangular)
+### 1.1 鞋盒式（矩形）
 
-The shoebox hall is the oldest and most acoustically reliable concert hall typology. A long, narrow, tall rectangular room with parallel side walls generates strong lateral reflections that create a powerful sense of envelopment (spatial impression). The audience is enveloped in reflected sound arriving from the sides within 20–80 ms of the direct sound.
+鞋盒式音乐厅是最古老且声学可靠性最高的音乐厅类型。狭长、高挑的矩形空间配合平行侧墙，可产生强烈侧向反射，形成显著包围感（空间印象）。听众会被直达声后 20–80 ms 从侧面到达的反射声包围。
 
-**Acoustic characteristics:**
-- High lateral energy fraction (LF > 0.20)
-- Strong early lateral reflections from parallel side walls
-- Even sound distribution due to regular geometry
-- Reverberation time easily controlled by volume and absorption
-- Risk of flutter echo between parallel walls (mitigated by surface articulation, diffusion, or slight splay)
+**声学特征：**
+- 侧向能量比例高（LF > 0.20）。
+- 平行侧墙产生强烈早期侧向反射。
+- 几何规则，声音分布均匀。
+- 混响时间易通过体积和吸声控制。
+- 平行墙之间存在颤动回声风险（可通过表面起伏、扩散或轻微偏转减弱）。
 
-**Typical dimensions:** Width 20–25 m (critical — wider halls lose lateral reflections), length 40–55 m, height 15–20 m. Volume per seat: 8–11 m³.
+**典型尺寸：** 宽 20–25 m（关键控制值——厅宽过大将损失侧向反射）、长 40–55 m、高 15–20 m。每座体积：8–11 m³。
 
-**Exemplar halls:**
-- Musikvereinssaal, Vienna (1870) — 1,680 seats, RT60 2.0 s, widely regarded as the finest orchestral hall in the world. Width 19.8 m, height 17.4 m. Rich caryatid wall articulation provides diffusion.
-- Concertgebouw, Amsterdam (1888) — 2,036 seats, RT60 2.2 s. Width 28 m (wide for a shoebox, compensated by coffered ceiling). Warm, blended sound.
+**代表性音乐厅：**
+- Musikvereinssaal, Vienna（1870）——1,680 座，RT60 2.0 s，被广泛认为是世界上最优秀的交响乐厅。宽 19.8 m、高 17.4 m；丰富的女像柱墙面起伏提供扩散。
+- Concertgebouw, Amsterdam（1888）——2,036 座，RT60 2.2 s。宽 28 m（对鞋盒式而言较宽，以格槽顶棚补偿），声音温暖、融合。
 
-### 1.2 Vineyard (Terraced)
+### 1.2 葡萄园式（阶梯看台）
 
-The vineyard typology surrounds the orchestra with audience seated in terraced blocks (vineyard-like) at varying heights and angles. Invented by Hans Scharoun and Lothar Cremer for the Berlin Philharmonie (1963). The audience wraps around and above the stage, creating visual and social intimacy.
+葡萄园式将乐队置于中心，观众以不同高度和角度坐在葡萄园般的阶梯看台中环绕乐队。该类型由 Hans Scharoun 和 Lothar Cremer 为 Berlin Philharmonie（1963）创立。观众环抱并高于舞台，形成视觉和社交亲密感。
 
-**Acoustic characteristics:**
-- Reduced source-to-listener distance (audience closer on all sides)
-- Early reflections from terrace fronts and convex balcony faces
-- Less consistent lateral energy than shoebox (some seats receive predominantly ceiling reflections)
-- More complex sound field — greater variation in acoustic experience between seats
-- Canopy reflectors above the stage are critical for ensemble hearing and early energy to distant seats
+**声学特征：**
+- 声源至听众距离缩短（四周观众均更接近）。
+- 阶梯前沿和凸形包厢面产生早期反射。
+- 侧向能量不如鞋盒式均匀（部分座位主要接收顶棚反射）。
+- 声场更复杂，不同座位的声学体验差异更大。
+- 舞台上方的罩棚反射体对于乐队互听和将早期声能传至远端座位至关重要。
 
-**Typical dimensions:** Variable geometry; volume per seat 8–12 m³. The terraces create diffusion at a large scale.
+**典型尺寸：** 几何可变；每座体积 8–12 m³。阶梯看台形成大尺度扩散。
 
-**Exemplar halls:**
-- Philharmonie Berlin (1963) — 2,440 seats, RT60 2.0 s. Scharoun/Cremer. Tent-like roof with asymmetric geometry. The benchmark for vineyard halls.
-- Walt Disney Concert Hall, Los Angeles (2003) — 2,265 seats, RT60 2.2 s. Gehry/Nagata. Billowing interior surfaces create complex reflection patterns. Outstanding warmth and clarity.
+**代表性音乐厅：**
+- Philharmonie Berlin（1963）——2,440 座，RT60 2.0 s，Scharoun／Cremer 设计。帐篷状屋顶与非对称几何，是葡萄园式音乐厅的标杆。
+- Walt Disney Concert Hall, Los Angeles（2003）——2,265 座，RT60 2.2 s，Gehry／Nagata 设计。起伏的室内表面形成复杂反射模式，温暖感和清晰度出色。
 
-### 1.3 Surround / In-the-Round
+### 1.3 环绕式／中心式
 
-The audience fully surrounds the stage (or nearly so), with no seats behind a proscenium. Maximum audience capacity for a given distance from the stage. Acoustic challenges are significant: the orchestra projects primarily forward; rear seats receive weaker direct sound and delayed reflections.
+观众完全（或近乎完全）环绕舞台，台口后方没有座位。在距舞台既定距离下可获得最大观众容量。其声学挑战显著：乐队主要向前投射，后排座位接收的直达声较弱且反射声延迟。
 
-**Acoustic characteristics:**
-- Maximum intimacy (no seat far from stage)
-- Highly variable direct-to-reverberant ratio across seating positions
-- Overhead reflectors essential for ensemble and audience coverage
-- Rear seats behind the orchestra may have poor balance and clarity
-- Diffuse sound field due to multiple reflection angles
+**声学特征：**
+- 亲密感最大（没有座位远离舞台）。
+- 各座位的直达声／混响声比差异很大。
+- 顶置反射体对乐队互听和覆盖观众至关重要。
+- 乐队后方座位的平衡度和清晰度可能较差。
+- 多种反射角度形成扩散声场。
 
-**Exemplar halls:**
-- Royal Albert Hall, London (1871) — 5,272 seats. Oval dome caused severe focusing until installation of mushroom diffusers (1969). RT60 2.5 s.
+**代表性音乐厅：**
+- Royal Albert Hall, London（1871）——5,272 座。椭圆穹顶曾造成严重聚焦，直至 1969 年安装蘑菇形扩散体；RT60 2.5 s。
 
 ### 1.4 Fan-Shaped
 
-A fan-shaped plan (walls diverge from the stage) maximizes seating capacity close to the stage. Acoustically problematic: the diverging walls send reflections away from the audience rather than back toward them, reducing lateral energy. The wide rear wall can produce a late focus or echo.
+扇形平面（墙体从舞台向外发散）可最大化舞台附近的座位容量，但存在声学问题：发散墙体将反射声导离听众，而非反射回听众，从而降低侧向能量。宽阔后墙可能产生晚期聚焦或回声。
 
-**Acoustic characteristics:**
-- Efficient seating density
-- Weak lateral reflections (walls diverge)
-- Risk of echo from rear wall (requires absorption or diffusion)
-- Lower envelopment than shoebox or vineyard
-- Often supplemented with overhead reflectors and side wall articulation
+**声学特征：**
+- 座位布置密度高。
+- 侧向反射弱（墙体向外发散）。
+- 后墙存在回声风险（需吸声或扩散处理）。
+- 包围感低于鞋盒式或葡萄园式。
+- 通常辅以顶置反射体和侧墙起伏处理。
 
-**Exemplar halls:**
-- Bridgewater Hall, Manchester (1996) — 2,341 seats, RT60 2.0 s. Arup Acoustics. Fan plan with internal wall fins to generate lateral reflections. Floating on 280 springs for vibration isolation from the adjacent railway.
+**代表性音乐厅：**
+- Bridgewater Hall, Manchester（1996）——2,341 座，RT60 2.0 s，Arup Acoustics 设计。扇形平面通过内部墙肋产生侧向反射，并以 280 个弹簧浮置以隔离邻近铁路振动。
 
-### 1.5 Arena / Oval
+### 1.5 竞技场／椭圆形
 
-Large-scale venues for amplified music, sport, and convention. Acoustics are dominated by the PA system; the room's contribution is managed to avoid excessive reverberation and late reflections that would degrade speech intelligibility and music clarity.
+用于扩声音乐、体育和会议的大型场所。声学表现主要由 PA 系统决定；需控制房间贡献，避免过度混响和会降低言语可懂度、音乐清晰度的晚期反射。
 
-**Acoustic characteristics:**
-- Very large volume (>100,000 m³)
-- RT60 must be controlled to 1.5–2.5 s (lower for speech-dependent events)
-- Extensive acoustic absorption on walls and ceiling (absorptive roof decks, fabric banners)
-- PA system design is paramount — room acoustics support rather than define the sound
-
----
-
-## 2. Reverberation Time Targets — Expanded Reference
-
-### 2.1 Performance Spaces
-
-| Space Type | Volume Range (m³) | RT60 Target (s) | Key Considerations |
-|---|---|---|---|
-| Symphony concert hall | 15,000–25,000 | 1.8–2.2 | Warmth, envelopment, blend |
-| Chamber music hall | 3,000–8,000 | 1.4–1.8 | Intimacy, clarity, detail |
-| Opera house | 8,000–15,000 | 1.2–1.6 | Vocal clarity over orchestra |
-| Recital hall (piano/solo) | 2,000–5,000 | 1.2–1.6 | Instrument detail, sustain |
-| Drama theatre (unamplified) | 2,000–6,000 | 0.7–1.0 | Speech clarity to rear seats |
-| Musical theatre | 5,000–12,000 | 1.0–1.4 | Compromise speech/music with amplification |
-| Jazz club | 500–2,000 | 0.6–1.0 | Intimacy, rhythmic clarity |
-| Organ recital (cathedral-like) | 10,000–50,000 | 2.5–4.0 | Sustain, grandeur |
-| Rehearsal room (orchestral) | 1,500–3,000 | 1.2–1.6 | Simulates concert hall (slightly lower) |
-| Choral rehearsal room | 800–2,000 | 1.0–1.4 | Blend, ensemble balance |
-| Amplified pop/rock venue | 2,000–20,000 | 0.8–1.5 | PA dominates; room supports |
-
-### 2.2 Communication Spaces
-
-| Space Type | Volume Range (m³) | RT60 Target (s) | Key Considerations |
-|---|---|---|---|
-| Classroom (primary) | 100–200 | 0.4–0.5 | BB93 mandates ≤0.6 s for ≤280 m³ |
-| Classroom (secondary) | 150–300 | 0.5–0.6 | |
-| Lecture hall | 500–3,000 | 0.6–0.8 | With reinforcement: 0.8–1.0 |
-| Conference room | 50–300 | 0.4–0.7 | Teleconference use demands lower RT |
-| Boardroom | 100–400 | 0.5–0.7 | |
-| Courtroom | 300–1,500 | 0.6–0.9 | Clarity for judge, jury, gallery |
-| Council chamber | 500–2,000 | 0.7–1.0 | |
-| Worship — speech-focused | 1,000–5,000 | 0.8–1.2 | Sermon intelligibility |
-
-### 2.3 Everyday Spaces
-
-| Space Type | Volume Range (m³) | RT60 Target (s) | Key Considerations |
-|---|---|---|---|
-| Open-plan office | 500–5,000 | 0.5–0.8 | D2,S ≥ 7 dB, Lp,A,S,4m ≤ 48 dB |
-| Private office | 30–60 | 0.4–0.6 | |
-| Restaurant | 200–1,000 | 0.6–0.9 | Lombard effect: patrons raise voices in noise |
-| Cafeteria | 500–2,000 | 0.7–1.0 | |
-| Hospital ward | 200–800 | 0.5–0.8 | Sleep quality, speech privacy |
-| Hotel lobby | 500–5,000 | 0.8–1.2 | |
-| Sports hall | 2,000–10,000 | 1.0–1.5 | PA intelligibility for announcements |
-| Swimming pool | 2,000–15,000 | 1.2–2.0 | Hard surfaces, humidity-resistant materials only |
-| Library reading room | 200–2,000 | 0.5–0.8 | Quiet atmosphere |
-| Museum gallery | 200–5,000 | 0.8–1.5 | Depends on exhibit type |
-| Cinema auditorium | 300–1,500 | 0.4–0.6 | Dolby/THX specifications |
-| Recording studio — control | 50–150 | 0.2–0.3 | Neutral, non-reflective |
-| Recording studio — live room | 100–500 | 0.3–0.6 | Variable acoustics desirable |
+**声学特征：**
+- 体积非常大（>100,000 m³）。
+- RT60 必须控制在 1.5–2.5 s（以言语为主的活动需更低）。
+- 墙面和顶棚设置大量吸声（吸声屋面板、织物吊挂物）。
+- PA 系统设计最为关键——房间声学起支持作用，而非决定声音。
 
 ---
 
-## 3. Acoustic Modeling Methods
+## 2. 混响时间目标——扩展参考
 
-### 3.1 Geometric (Ray Tracing and Image Source)
+### 2.1 演出空间
 
-**Ray tracing** models sound as rays emitted from a source, reflecting specularly off surfaces according to angle of incidence = angle of reflection. Each ray carries energy that is reduced at each reflection by the absorption coefficient of the surface. The model tracks rays until their energy falls below a threshold. Provides impulse response, RT60, early reflection patterns, and sound pressure level distribution.
+| 空间类型 | 体积范围（m³） | RT60 目标（s） | 关键考虑 |
+|---|---|---|---|
+| 交响乐厅 | 15,000–25,000 | 1.8–2.2 | 温暖感、包围感、融合度 |
+| 室内乐厅 | 3,000–8,000 | 1.4–1.8 | 亲密感、清晰度、细节 |
+| 歌剧院 | 8,000–15,000 | 1.2–1.6 | 乐队上方的人声清晰度 |
+| 独奏厅（钢琴／独奏） | 2,000–5,000 | 1.2–1.6 | 乐器细节、延续性 |
+| 话剧院（非扩声） | 2,000–6,000 | 0.7–1.0 | 后排座位的言语清晰度 |
+| 音乐剧院 | 5,000–12,000 | 1.0–1.4 | 扩声条件下言语／音乐折中 |
+| 爵士俱乐部 | 500–2,000 | 0.6–1.0 | 亲密感、节奏清晰度 |
+| 管风琴演奏厅（类大教堂） | 10,000–50,000 | 2.5–4.0 | 延续性、宏伟感 |
+| 排练厅（交响乐） | 1,500–3,000 | 1.2–1.6 | 模拟音乐厅（略低） |
+| 合唱排练厅 | 800–2,000 | 1.0–1.4 | 融合度、乐队平衡 |
+| 扩声流行／摇滚场所 | 2,000–20,000 | 0.8–1.5 | PA 主导，房间起支持作用 |
 
-**Image source method** calculates reflection paths by creating virtual mirror images of the source at each reflecting surface. More accurate than ray tracing for early reflections (within the first 2–3 orders of reflection) but computationally expensive for higher orders (the number of image sources grows exponentially with reflection order).
+### 2.2 交流空间
 
-**Hybrid methods** combine image source (for early reflections, first 2–3 orders) with ray tracing (for late reflections). This is the standard approach in commercial software.
+| 空间类型 | 体积范围（m³） | RT60 目标（s） | 关键考虑 |
+|---|---|---|---|
+| 小学教室 | 100–200 | 0.4–0.5 | BB93 对 ≤280 m³ 要求 ≤0.6 s |
+| 中学教室 | 150–300 | 0.5–0.6 | |
+| 讲堂 | 500–3,000 | 0.6–0.8 | 扩声时：0.8–1.0 |
+| 会议室 | 50–300 | 0.4–0.7 | 视频会议要求更低 RT |
+| 董事会议室 | 100–400 | 0.5–0.7 | |
+| 法庭 | 300–1,500 | 0.6–0.9 | 法官、陪审团、旁听席清晰度 |
+| 议事厅 | 500–2,000 | 0.7–1.0 | |
+| 宗教空间——言语优先 | 1,000–5,000 | 0.8–1.2 | 讲道可懂度 |
 
-**Software:** CATT-Acoustic, ODEON, EASE, Ramsete, COMSOL Ray Acoustics module.
+### 2.3 日常空间
 
-**Limitations:** Geometric methods assume specular reflection and are valid only when surface dimensions are large compared to wavelength. Below approximately 500 Hz (wavelength > 0.7 m), diffraction and wave effects become significant, and geometric methods lose accuracy.
-
-### 3.2 Wave-Based (FEM, BEM, FDTD)
-
-**Finite Element Method (FEM)** solves the Helmholtz equation on a volumetric mesh. Accurate at all frequencies but computationally intensive — practical only for small rooms or low frequencies (< 500 Hz in rooms < 200 m³ with current computing).
-
-**Boundary Element Method (BEM)** solves on surface meshes rather than volumetric meshes, reducing degrees of freedom. Suitable for predicting diffraction around objects, scattering from diffusers, and low-frequency room modes.
-
-**Finite-Difference Time-Domain (FDTD)** discretizes space and time, directly simulating pressure wave propagation. Captures all wave phenomena (diffraction, interference, modal behavior). GPU acceleration has made FDTD practical for mid-sized rooms at frequencies up to 1–2 kHz.
-
-**Software:** COMSOL Multiphysics, Treble (cloud-based wave solver), custom research codes.
-
-### 3.3 Statistical Energy Analysis (SEA)
-
-For very large or coupled spaces, SEA models the room as a system of coupled subsystems exchanging vibrational energy. Each subsystem is characterized by its modal density, damping loss factor, and coupling loss factors to adjacent subsystems. Useful for predicting sound transmission through building structures and for large industrial spaces.
+| 空间类型 | 体积范围（m³） | RT60 目标（s） | 关键考虑 |
+|---|---|---|---|
+| 开放办公区 | 500–5,000 | 0.5–0.8 | D2,S ≥ 7 dB，Lp,A,S,4m ≤ 48 dB |
+| 独立办公室 | 30–60 | 0.4–0.6 | |
+| 餐厅 | 200–1,000 | 0.6–0.9 | Lombard 效应：噪声中顾客会提高音量 |
+| 食堂 | 500–2,000 | 0.7–1.0 | |
+| 医院病房 | 200–800 | 0.5–0.8 | 睡眠质量、言语私密性 |
+| 酒店大堂 | 500–5,000 | 0.8–1.2 | |
+| 体育馆 | 2,000–10,000 | 1.0–1.5 | 用于广播的 PA 可懂度 |
+| 游泳池 | 2,000–15,000 | 1.2–2.0 | 仅采用硬质、耐湿材料 |
+| 图书馆阅览室 | 200–2,000 | 0.5–0.8 | 安静氛围 |
+| 博物馆展厅 | 200–5,000 | 0.8–1.5 | 取决于展品类型 |
+| 影院观众厅 | 300–1,500 | 0.4–0.6 | Dolby／THX 规格 |
+| 录音室——控制室 | 50–150 | 0.2–0.3 | 中性、非反射 |
+| 录音室——录音间 | 100–500 | 0.3–0.6 | 宜采用可变声学 |
 
 ---
 
-## 4. Material Absorption Coefficients
+## 3. 声学建模方法
 
-Absorption coefficients (α) at octave-band centre frequencies. Values are indicative; exact values depend on specific product, mounting, and installation. NRC is the average of 250, 500, 1000, and 2000 Hz values.
+### 3.1 几何法（射线追踪和镜像声源）
 
-| Material | 125 Hz | 250 Hz | 500 Hz | 1000 Hz | 2000 Hz | 4000 Hz | NRC |
+**射线追踪**将声音建模为从声源发出的射线，按入射角等于反射角在表面发生镜面反射。每条射线携带的能量在每次反射时按表面吸声系数衰减。模型追踪射线直至能量低于阈值，并提供脉冲响应、RT60、早期反射模式和声压级分布。
+
+**镜像声源法**通过在每个反射表面生成声源的虚拟镜像来计算反射路径。对于早期反射（前 2–3 次反射）比射线追踪更准确，但高次反射计算成本高（镜像声源数量随反射次数呈指数增长）。
+
+**混合方法**将镜像声源法（用于前 2–3 次早期反射）与射线追踪（用于晚期反射）结合，是商业软件中的标准方法。
+
+**软件：** CATT-Acoustic、ODEON、EASE、Ramsete、COMSOL Ray Acoustics 模块。
+
+**局限：** 几何法假定镜面反射，仅当表面尺寸远大于波长时有效。在约 500 Hz 以下（波长 > 0.7 m），绕射和波动效应变得显著，几何法的准确性下降。
+
+### 3.2 波动法（FEM、BEM、FDTD）
+
+**有限元法（FEM）**在体网格上求解 Helmholtz 方程。全频率范围准确但计算量大——以当前计算能力，仅适用于小房间或低频（体积 <200 m³ 房间内 <500 Hz）。
+
+**边界元法（BEM）**在表面网格而非体网格上求解，减少自由度。适合预测物体周围绕射、扩散体散射和低频房间模态。
+
+**时域有限差分法（FDTD）**将空间和时间离散化，直接模拟压力波传播，能够捕捉全部波动现象（绕射、干涉、模态行为）。GPU 加速使 FDTD 可用于中型房间、最高约 1–2 kHz 的频率。
+
+**软件：** COMSOL Multiphysics、Treble（云端波动求解器）及定制研究代码。
+
+### 3.3 统计能量分析（SEA）
+
+对于非常大或相互耦合的空间，SEA 将房间建模为交换振动能量的耦合子系统。每个子系统由模态密度、阻尼损耗因子及与相邻子系统的耦合损耗因子表征。适用于预测声音经建筑结构的传递和大型工业空间的声学表现。
+
+---
+
+## 4. 材料吸声系数
+
+倍频程中心频率下的吸声系数（α）。数值仅供参考，准确值取决于具体产品、安装方式和施工安装。NRC 为 250、500、1000 和 2000 Hz 数值的平均值。
+
+| 材料 | 125 Hz | 250 Hz | 500 Hz | 1000 Hz | 2000 Hz | 4000 Hz | NRC |
 |---|---|---|---|---|---|---|---|
-| **Concrete, painted** | 0.01 | 0.01 | 0.02 | 0.02 | 0.02 | 0.03 | 0.02 |
-| **Brick, unplastered** | 0.02 | 0.03 | 0.03 | 0.04 | 0.05 | 0.07 | 0.04 |
-| **Brick, plastered** | 0.01 | 0.02 | 0.02 | 0.03 | 0.04 | 0.05 | 0.03 |
-| **Gypsum board on studs (no insulation)** | 0.29 | 0.10 | 0.05 | 0.04 | 0.07 | 0.09 | 0.07 |
-| **Gypsum board on studs (with insulation)** | 0.15 | 0.11 | 0.08 | 0.05 | 0.03 | 0.03 | 0.07 |
-| **Glass (large pane, 6 mm)** | 0.18 | 0.06 | 0.04 | 0.03 | 0.02 | 0.02 | 0.04 |
-| **Plywood panel (6 mm, air gap)** | 0.28 | 0.22 | 0.17 | 0.09 | 0.10 | 0.11 | 0.15 |
-| **Timber floor (hardwood on joists)** | 0.15 | 0.11 | 0.10 | 0.07 | 0.06 | 0.07 | 0.09 |
-| **Carpet (thin, on concrete)** | 0.02 | 0.06 | 0.14 | 0.37 | 0.60 | 0.65 | 0.29 |
-| **Carpet (thick, on underlay)** | 0.08 | 0.24 | 0.57 | 0.69 | 0.71 | 0.73 | 0.55 |
-| **Curtain (light, flat against wall)** | 0.03 | 0.04 | 0.11 | 0.17 | 0.24 | 0.35 | 0.14 |
-| **Curtain (medium, half-draped)** | 0.07 | 0.31 | 0.49 | 0.75 | 0.70 | 0.60 | 0.56 |
-| **Curtain (heavy, fully draped)** | 0.14 | 0.35 | 0.55 | 0.72 | 0.70 | 0.65 | 0.58 |
+| **涂漆混凝土** | 0.01 | 0.01 | 0.02 | 0.02 | 0.02 | 0.03 | 0.02 |
+| **未抹灰砖墙** | 0.02 | 0.03 | 0.03 | 0.04 | 0.05 | 0.07 | 0.04 |
+| **抹灰砖墙** | 0.01 | 0.02 | 0.02 | 0.03 | 0.04 | 0.05 | 0.03 |
+| **龙骨石膏板（无保温）** | 0.29 | 0.10 | 0.05 | 0.04 | 0.07 | 0.09 | 0.07 |
+| **龙骨石膏板（有保温）** | 0.15 | 0.11 | 0.08 | 0.05 | 0.03 | 0.03 | 0.07 |
+| **玻璃（大面积玻璃片，6 mm）** | 0.18 | 0.06 | 0.04 | 0.03 | 0.02 | 0.02 | 0.04 |
+| **胶合板（6 mm，空气层）** | 0.28 | 0.22 | 0.17 | 0.09 | 0.10 | 0.11 | 0.15 |
+| **木楼板（搁栅上硬木）** | 0.15 | 0.11 | 0.10 | 0.07 | 0.06 | 0.07 | 0.09 |
+| **地毯（薄型，铺于混凝土）** | 0.02 | 0.06 | 0.14 | 0.37 | 0.60 | 0.65 | 0.29 |
+| **地毯（厚型，带衬垫）** | 0.08 | 0.24 | 0.57 | 0.69 | 0.71 | 0.73 | 0.55 |
+| **帘幕（轻型，贴墙平铺）** | 0.03 | 0.04 | 0.11 | 0.17 | 0.24 | 0.35 | 0.14 |
+| **帘幕（中型，半垂挂）** | 0.07 | 0.31 | 0.49 | 0.75 | 0.70 | 0.60 | 0.56 |
+| **帘幕（重型，完全垂挂）** | 0.14 | 0.35 | 0.55 | 0.72 | 0.70 | 0.65 | 0.58 |
 | **50 mm mineral wool (wall-mounted)** | 0.15 | 0.60 | 0.90 | 0.95 | 0.95 | 0.90 | 0.85 |
 | **50 mm mineral wool (50 mm air gap)** | 0.40 | 0.80 | 0.95 | 0.95 | 0.90 | 0.85 | 0.90 |
-| **100 mm mineral wool (wall-mounted)** | 0.35 | 0.85 | 0.95 | 0.98 | 0.95 | 0.90 | 0.93 |
-| **25 mm acoustic foam (wall-mounted)** | 0.05 | 0.15 | 0.45 | 0.80 | 0.90 | 0.85 | 0.58 |
-| **50 mm acoustic foam (wall-mounted)** | 0.12 | 0.35 | 0.75 | 0.95 | 0.95 | 0.90 | 0.75 |
-| **Acoustic plaster (25 mm)** | 0.10 | 0.40 | 0.70 | 0.85 | 0.80 | 0.75 | 0.69 |
-| **Perforated metal ceiling (15% open, 200 mm plenum with mineral wool)** | 0.60 | 0.85 | 0.95 | 0.95 | 0.85 | 0.75 | 0.90 |
-| **Perforated gypsum board ceiling (mineral wool above)** | 0.45 | 0.70 | 0.85 | 0.90 | 0.85 | 0.80 | 0.83 |
-| **Micro-perforated panel (aluminium, 200 mm cavity)** | 0.30 | 0.75 | 0.95 | 0.90 | 0.60 | 0.40 | 0.80 |
-| **Wooden slat ceiling (50% open, mineral wool above)** | 0.20 | 0.50 | 0.75 | 0.85 | 0.80 | 0.75 | 0.73 |
-| **Upholstered theatre seat (unoccupied)** | 0.19 | 0.37 | 0.56 | 0.67 | 0.61 | 0.59 | 0.55 |
-| **Upholstered theatre seat (occupied)** | 0.24 | 0.40 | 0.78 | 0.98 | 0.96 | 0.87 | 0.78 |
-| **Audience (seated, per person)** | 0.25 | 0.45 | 0.80 | 0.95 | 0.93 | 0.85 | 0.78 |
-| **Wooden pew (church)** | 0.10 | 0.12 | 0.16 | 0.18 | 0.19 | 0.20 | 0.16 |
-| **Water surface (swimming pool)** | 0.01 | 0.01 | 0.01 | 0.02 | 0.02 | 0.03 | 0.02 |
-| **Grass/lawn** | 0.11 | 0.26 | 0.60 | 0.69 | 0.92 | 0.99 | 0.62 |
-| **Gravel (loose, 100 mm)** | 0.25 | 0.60 | 0.65 | 0.70 | 0.75 | 0.80 | 0.68 |
-| **Audience on raked timber floor** | 0.20 | 0.35 | 0.65 | 0.85 | 0.90 | 0.85 | 0.69 |
-| **Timber wall panelling (solid, 25 mm)** | 0.10 | 0.08 | 0.06 | 0.06 | 0.06 | 0.06 | 0.07 |
-| **Acoustic timber panel (perforated, absorber behind)** | 0.25 | 0.55 | 0.80 | 0.90 | 0.85 | 0.80 | 0.78 |
+| **100 mm 矿棉（墙面安装）** | 0.35 | 0.85 | 0.95 | 0.98 | 0.95 | 0.90 | 0.93 |
+| **25 mm 吸声泡沫（墙面安装）** | 0.05 | 0.15 | 0.45 | 0.80 | 0.90 | 0.85 | 0.58 |
+| **50 mm 吸声泡沫（墙面安装）** | 0.12 | 0.35 | 0.75 | 0.95 | 0.95 | 0.90 | 0.75 |
+| **吸声抹灰（25 mm）** | 0.10 | 0.40 | 0.70 | 0.85 | 0.80 | 0.75 | 0.69 |
+| **穿孔金属吊顶（开孔率 15%，200 mm 吊顶空腔内填矿棉）** | 0.60 | 0.85 | 0.95 | 0.95 | 0.85 | 0.75 | 0.90 |
+| **穿孔石膏板吊顶（上方填矿棉）** | 0.45 | 0.70 | 0.85 | 0.90 | 0.85 | 0.80 | 0.83 |
+| **微穿孔板（铝制，200 mm 空腔）** | 0.30 | 0.75 | 0.95 | 0.90 | 0.60 | 0.40 | 0.80 |
+| **木格栅吊顶（开孔率 50%，上方填矿棉）** | 0.20 | 0.50 | 0.75 | 0.85 | 0.80 | 0.75 | 0.73 |
+| **软包剧院座椅（无人）** | 0.19 | 0.37 | 0.56 | 0.67 | 0.61 | 0.59 | 0.55 |
+| **软包剧院座椅（有人）** | 0.24 | 0.40 | 0.78 | 0.98 | 0.96 | 0.87 | 0.78 |
+| **观众（坐姿，每人）** | 0.25 | 0.45 | 0.80 | 0.95 | 0.93 | 0.85 | 0.78 |
+| **木质长椅（教堂）** | 0.10 | 0.12 | 0.16 | 0.18 | 0.19 | 0.20 | 0.16 |
+| **水面（游泳池）** | 0.01 | 0.01 | 0.01 | 0.02 | 0.02 | 0.03 | 0.02 |
+| **草地／草坪** | 0.11 | 0.26 | 0.60 | 0.69 | 0.92 | 0.99 | 0.62 |
+| **碎石（松散，100 mm）** | 0.25 | 0.60 | 0.65 | 0.70 | 0.75 | 0.80 | 0.68 |
+| **倾斜木地板上的观众** | 0.20 | 0.35 | 0.65 | 0.85 | 0.90 | 0.85 | 0.69 |
+| **木质墙面板（实心，25 mm）** | 0.10 | 0.08 | 0.06 | 0.06 | 0.06 | 0.06 | 0.07 |
+| **声学木面板（穿孔，背后设吸声体）** | 0.25 | 0.55 | 0.80 | 0.90 | 0.85 | 0.80 | 0.78 |
 
 ---
 
-## 5. Diffuser Design
+## 5. 扩散体设计
 
-### 5.1 Quadratic Residue Diffuser (QRD)
+### 5.1 二次剩余扩散体（QRD）
 
-The QRD consists of a series of wells of varying depths, separated by thin fins, backed by a rigid surface. Well depths are determined by the quadratic residue sequence: depth_n = (n² mod N) × λ₀ / (2N), where N is the prime number determining the sequence length and λ₀ is the design wavelength.
+QRD 由一系列不同深度的槽井组成，槽井之间以薄肋分隔，背后为刚性表面。槽井深度由二次剩余数列确定：depth_n = (n² mod N) × λ₀ / (2N)，其中 N 为决定数列长度的素数，λ₀ 为设计波长。
 
-**Design parameters:**
-- Design frequency f₀ = c / (2 × d_max), where d_max is the maximum well depth
-- Upper frequency limit: f_upper ≈ c / (2 × well_width) — well width must be < half wavelength
-- Number of wells per period N: prime number (typically 7, 11, 13, 17, 23)
-- Larger N = more wells per period = broader diffusion pattern
-- Multiple periods should be used for effective diffusion
+**设计参数：**
+- 设计频率 f₀ = c / (2 × d_max)，其中 d_max 为最大槽井深度。
+- 最高频率限值：f_upper ≈ c / (2 × 槽宽)——槽宽必须小于半波长。
+- 每周期槽井数量 N：素数（通常为 7、11、13、17、23）。
+- N 越大 = 每周期槽井越多 = 扩散模式越宽。
+- 应采用多个周期以实现有效扩散。
 
-**Example:** N = 7, design frequency 500 Hz (d_max = 0.343 m). Sequence: 0,1,4,2,2,4,1. Well depths: 0, 49, 196, 98, 98, 196, 49 mm. Well width: 45 mm. Effective range: 500–3800 Hz.
+**示例：** N = 7，设计频率 500 Hz（d_max = 0.343 m）。数列：0、1、4、2、2、4、1。槽井深度：0、49、196、98、98、196、49 mm。槽宽：45 mm。有效范围：500–3800 Hz。
 
-### 5.2 Primitive Root Diffuser
+### 5.2 本原根扩散体
 
-Similar construction to QRD but using the primitive root sequence: depth_n = (g^n mod N) × λ₀ / (2N), where g is a primitive root of the prime N. The primitive root sequence produces asymmetric diffusion (scattering preferentially to one side), useful for directing energy in a specific direction while maintaining temporal diffusion.
+构造方式与 QRD 类似，但采用本原根数列：depth_n = (g^n mod N) × λ₀ / (2N)，其中 g 为素数 N 的本原根。本原根数列产生非对称扩散（优先向一侧散射），适用于在保持时间扩散的同时将能量导向特定方向。
 
-### 5.3 Binary Amplitude Diffuser
+### 5.3 二元幅度扩散体
 
-Alternating reflecting and absorbing patches (binary sequence: 0 = absorb, 1 = reflect). Based on maximum-length sequences (MLS) or Barker codes. Simpler to construct than QRD — flat surface with absorptive patches. Less effective than QRD at uniform scattering but useful for combined absorption/diffusion.
+反射区与吸收区交替布置（二元数列：0 = 吸收，1 = 反射）。基于最大长度数列（MLS）或 Barker 码。比 QRD 更易建造——在平面上布置吸声区。均匀散射效果不如 QRD，但适用于吸声／扩散组合。
 
-### 5.4 Geometric Diffusion
+### 5.4 几何扩散
 
-**Convex surfaces:** Cylindrical or spherical curvature scatters sound over a wide angle. Effective for large-scale diffusion. Columns, pilasters, barrel vaults, and convex balcony fronts all contribute to sound scattering. Minimum radius of curvature for effective diffusion at frequency f: r ≥ λ/2.
+**凸曲面：** 圆柱或球面曲率可将声音向宽角度散射，对大尺度扩散有效。柱子、壁柱、筒拱和凸形包厢前沿均有助于声音散射。频率 f 下实现有效扩散的最小曲率半径为：r ≥ λ/2。
 
-**Surface articulation:** Coffering, rustication, pilasters, mouldings, and other surface relief provide diffusion through geometric scattering. The Musikvereinssaal's famous acoustics owe much to the extensive caryatid and coffered surface articulation, which provides diffusion at multiple scales.
+**表面起伏：** 格槽、粗凿饰面、壁柱、线脚及其他表面浮雕通过几何散射提供扩散。Musikvereinssaal 著名的声学表现很大程度上得益于丰富的女像柱和格槽表面处理，可在多个尺度提供扩散。
 
 ---
 
-## 6. Exemplar Acoustic Spaces
+## 6. 代表性声学空间
 
 ### 6.1 Philharmonie Berlin (1963)
-- **Architect:** Hans Scharoun | **Acoustician:** Lothar Cremer
-- **Type:** Vineyard/terraced | **Seats:** 2,440 | **Volume:** 21,000 m³ | **V/seat:** 8.6 m³
-- **RT60:** 2.0 s (occupied) | **EDT:** 1.9 s | **C80:** −0.5 dB | **LF:** 0.22
-- **Significance:** First vineyard-type concert hall. Demonstrated that audience could surround the orchestra without catastrophic acoustic compromise. Tent-like ceiling provides overhead reflections. Terrace fronts provide early lateral energy. Considered one of the greatest concert halls.
+- **建筑师：** Hans Scharoun | **声学师：** Lothar Cremer
+- **类型：** 葡萄园式／阶梯式 | **座位：** 2,440 | **体积：** 21,000 m³ | **V/座：** 8.6 m³
+- **RT60：** 2.0 s（有人）| **EDT：** 1.9 s | **C80：** −0.5 dB | **LF：** 0.22
+- **意义：** 首座葡萄园式音乐厅，证明观众可环绕乐队而不造成灾难性的声学折中。帐篷状顶棚提供顶向反射，阶梯前沿提供早期侧向能量，被认为是最伟大的音乐厅之一。
 
 ### 6.2 Musikvereinssaal, Vienna (1870)
-- **Architect:** Theophil Hansen | **Acoustician:** None (pre-discipline)
-- **Type:** Shoebox | **Seats:** 1,680 | **Volume:** 14,600 m³ | **V/seat:** 8.7 m³
-- **RT60:** 2.0 s (occupied), 3.0 s (empty) | **C80:** −1.5 dB | **LF:** 0.25
-- **Significance:** The gold standard. Narrow width (19.8 m) delivers powerful lateral reflections. Caryatids and coffered ceiling provide diffusion at every scale. Flat floor with movable seating allows variable configuration. Acoustic performance is the benchmark against which all others are measured.
+- **建筑师：** Theophil Hansen | **声学师：** 无（声学学科形成之前）
+- **类型：** 鞋盒式 | **座位：** 1,680 | **体积：** 14,600 m³ | **V/座：** 8.7 m³
+- **RT60：** 2.0 s（有人）、3.0 s（无人）| **C80：** −1.5 dB | **LF：** 0.25
+- **意义：** 黄金标准。狭窄宽度（19.8 m）带来强侧向反射，女像柱和格槽顶棚在各尺度提供扩散。平地面与可移动座椅允许改变布局，其声学性能是评估其他音乐厅的标杆。
 
 ### 6.3 Walt Disney Concert Hall, Los Angeles (2003)
-- **Architect:** Frank Gehry | **Acoustician:** Yasuhisa Toyota (Nagata Acoustics)
-- **Type:** Vineyard | **Seats:** 2,265 | **Volume:** 18,500 m³ | **V/seat:** 8.2 m³
-- **RT60:** 2.2 s | **C80:** −0.3 dB
-- **Significance:** Demonstrates that complex sculptural geometry can achieve world-class acoustics when rigorously controlled by acoustic simulation. Toyota used 1:10 scale model testing and computational modeling. Douglas fir interior surfaces provide warmth and diffusion. Convex surfaces throughout scatter sound in complex patterns.
+- **建筑师：** Frank Gehry | **声学师：** Yasuhisa Toyota（Nagata Acoustics）
+- **类型：** 葡萄园式 | **座位：** 2,265 | **体积：** 18,500 m³ | **V/座：** 8.2 m³
+- **RT60：** 2.2 s | **C80：** −0.3 dB
+- **意义：** 证明复杂雕塑性几何在声学模拟严格控制下也可实现世界级声学。Toyota 采用 1:10 比例模型测试和计算建模。道格拉斯冷杉室内表面提供温暖感和扩散；遍布的凸曲面以复杂模式散射声音。
 
 ### 6.4 Muziekgebouw aan 't IJ, Amsterdam (2005)
-- **Architect:** 3XN | **Acoustician:** Peutz
-- **Type:** Shoebox (main hall) | **Seats:** 735 | **Volume:** 12,500 m³ | **V/seat:** 17.0 m³
-- **RT60:** 2.2 s (variable to 1.5 s via curtains)
-- **Significance:** High volume-per-seat ratio creates very long RT60 for its size. Variable acoustics via motorized curtains allow the hall to serve contemporary, classical, and amplified music. Glass exterior walls provide harbour views; acoustic isolation achieved through massive concrete inner shell.
+- **建筑师：** 3XN | **声学师：** Peutz
+- **类型：** 鞋盒式（主厅）| **座位：** 735 | **体积：** 12,500 m³ | **V/座：** 17.0 m³
+- **RT60：** 2.2 s（通过帘幕可变至 1.5 s）
+- **意义：** 较高的每座体积使其在该尺度下具有很长 RT60。电动帘幕实现可变声学，使大厅可服务当代、古典和扩声音乐。玻璃外墙提供港口景观；厚重混凝土内壳实现隔声。
 
 ### 6.5 Bridgewater Hall, Manchester (1996)
-- **Architect:** Renton Howard Wood Levin | **Acoustician:** Arup Acoustics
-- **Type:** Modified fan | **Seats:** 2,341 | **Volume:** 25,000 m³ | **V/seat:** 10.7 m³
-- **RT60:** 2.0 s | **C80:** 0.0 dB
-- **Significance:** The entire auditorium floats on 280 steel springs to isolate from the adjacent Metrolink tramway. One of the most extensive vibration isolation systems ever built for a concert hall. Internal wall fins compensate for the fan plan's weak lateral reflections.
+- **建筑师：** Renton Howard Wood Levin | **声学师：** Arup Acoustics
+- **类型：** 改良扇形 | **座位：** 2,341 | **体积：** 25,000 m³ | **V/座：** 10.7 m³
+- **RT60：** 2.0 s | **C80：** 0.0 dB
+- **意义：** 整个观众厅以 280 个钢弹簧浮置，隔离邻近 Metrolink 有轨电车，是音乐厅中最完善的隔振系统之一。内部墙肋补偿扇形平面较弱的侧向反射。
 
 ### 6.6 Elbphilharmonie, Hamburg (2017)
-- **Architect:** Herzog & de Meuron | **Acoustician:** Yasuhisa Toyota (Nagata Acoustics)
-- **Type:** Vineyard | **Seats:** 2,100 | **Volume:** 23,000 m³ | **V/seat:** 11.0 m³
-- **RT60:** 2.1 s | **C80:** −0.2 dB
-- **Significance:** 10,000 unique algorithmically-designed gypsum fibre acoustic panels ("White Skin") line the walls and ceiling. Each panel has a unique CNC-milled surface profile optimized through computational acoustic simulation to scatter sound at specific frequencies and angles. The most computationally intensive acoustic surface design ever realized.
+- **建筑师：** Herzog & de Meuron | **声学师：** Yasuhisa Toyota（Nagata Acoustics）
+- **类型：** 葡萄园式 | **座位：** 2,100 | **体积：** 23,000 m³ | **V/座：** 11.0 m³
+- **RT60：**2.1 s | **C80：**−0.2 dB
+- **意义：** 墙面和顶棚铺设 10,000 块通过算法设计的独特石膏纤维声学板（“White Skin”）。每块板均具有独特的 CNC 铣削表面轮廓，经计算声学模拟优化，以在特定频率和角度散射声音，是迄今计算强度最高的声学表面设计。
 
 ### 6.7 Sage Gateshead, Hall One (2004)
-- **Architect:** Foster + Partners | **Acoustician:** Arup Acoustics
-- **Type:** Shoebox variant with coupled volumes | **Seats:** 1,700 | **Volume:** 19,600 m³
-- **RT60:** 1.7–2.2 s (variable via reverberation chambers)
-- **Significance:** Ten concrete reverberation chambers surround the hall, connected via large motorized doors. Opening the doors couples the chamber volumes to the hall, increasing RT60 from 1.7 s (doors closed) to 2.2 s (doors open). One of the most effective variable acoustics systems in a concert hall.
+- **建筑师：** Foster + Partners | **声学师：** Arup Acoustics
+- **类型：** 带耦合体积的鞋盒式变体 | **座位：** 1,700 | **体积：** 19,600 m³
+- **RT60：** 1.7–2.2 s（通过混响室可变）
+- **意义：** 大厅周围设十个混凝土混响室，以大型电动门相连。开门后混响室与大厅耦合，RT60 从 1.7 s（关门）增加至 2.2 s（开门），是音乐厅中最有效的可变声学系统之一。
 
 ### 6.8 KKL Luzern, Concert Hall (1998)
-- **Architect:** Jean Nouvel | **Acoustician:** Russell Johnson (Artec)
-- **Type:** Shoebox | **Seats:** 1,840 | **Volume:** 17,400 m³ | **V/seat:** 9.5 m³
-- **RT60:** 1.9 s
-- **Significance:** A large movable canopy over the stage can be raised, lowered, and tilted to adjust early reflections. Echo chambers above the canopy provide additional reverberation. The hall demonstrates precise acoustic tuning through physical adjustability.
+- **建筑师：** Jean Nouvel | **声学师：** Russell Johnson（Artec）
+- **类型：**鞋盒式 | **座位：**1,840 | **体积：**17,400 m³ | **V/座：**9.5 m³
+- **RT60：**1.9 s
+- **意义：** 舞台上方的大型可移动罩棚可升降和倾斜，以调节早期反射。罩棚上方的回声室提供额外混响，展示了通过实体可调构件实现精确声学调谐。
 
 ### 6.9 Snape Maltings Concert Hall, Suffolk (1967, rebuilt 1970)
-- **Architect:** Arup Associates | **Acoustician:** Derek Sugden
-- **Type:** Converted maltings (rectangular) | **Seats:** 830 | **Volume:** 8,200 m³
-- **RT60:** 1.7 s
-- **Significance:** Conversion of a Victorian industrial building. The existing brick walls, timber roof trusses, and irregular surfaces provide a naturally diffuse and warm acoustic. Demonstrates that existing buildings with good bones (volume, proportions, mass) can become outstanding acoustic spaces.
+- **建筑师：** Arup Associates | **声学师：** Derek Sugden
+- **类型：** 改造麦芽厂（矩形）| **座位：** 830 | **体积：** 8,200 m³
+- **RT60：**1.7 s
+- **意义：** 将维多利亚时期工业建筑改造为音乐厅。既有砖墙、木屋架和不规则表面提供自然扩散且温暖的声学环境，证明具有良好“骨架”（体积、比例、质量）的既有建筑可转化为卓越的声学空间。
 
 ### 6.10 Boston Symphony Hall (1900)
-- **Architect:** McKim, Mead & White | **Acoustician:** Wallace Clement Sabine
-- **Type:** Shoebox | **Seats:** 2,625 | **Volume:** 18,750 m³ | **V/seat:** 7.1 m³
-- **RT60:** 1.9 s
-- **Significance:** The first concert hall designed using scientific acoustic principles. Wallace Sabine developed the reverberation equation specifically for this project. The hall's success validated the scientific approach to architectural acoustics and established the field.
+- **建筑师：** McKim, Mead & White | **声学师：** Wallace Clement Sabine
+- **类型：** 鞋盒式 | **座位：** 2,625 | **体积：** 18,750 m³ | **V/座：** 7.1 m³
+- **RT60：**1.9 s
+- **意义：** 首座运用科学声学原理设计的音乐厅。Wallace Sabine 专门为该项目建立混响公式。音乐厅的成功验证了建筑声学的科学方法并奠定了这一学科。
 
 ### 6.11 Boulez Saal, Berlin (2017)
-- **Architect:** Frank Gehry | **Acoustician:** Yasuhisa Toyota (Nagata Acoustics)
-- **Type:** Elliptical, flexible | **Seats:** 682 | **Volume:** ~6,500 m³
-- **RT60:** 1.6 s
-- **Significance:** An elliptical chamber music hall within the former warehouse of the Staatsoper scenery workshop. Terraced seating wraps the oval plan. The hall hosts multiple configurations (end stage, centre stage, flat floor). Intimate scale with refined acoustics for chamber and contemporary music.
+- **建筑师：** Frank Gehry | **声学师：** Yasuhisa Toyota（Nagata Acoustics）
+- **类型：** 椭圆形、可变 | **座位：** 682 | **体积：** 约 6,500 m³
+- **RT60：**1.6 s
+- **意义：** 位于 Staatsoper 舞台布景工场旧仓库内的椭圆形室内乐厅。阶梯座席环绕椭圆平面，大厅可采用多种布局（端舞台、中心舞台、平地面）。尺度亲密，适合室内乐和当代音乐，声学精致。
 
 ---
 
-## 7. Advanced Room Acoustic Parameters
+## 7. 高级房间声学参数
 
-Beyond RT60, performance spaces are characterized by a family of objective parameters that correlate with subjective acoustic qualities:
+除 RT60 外，演出空间还通过一组与主观声学品质相关的客观参数进行表征：
 
-| Parameter | Symbol | Definition | Subjective Correlate | Target (Concert Hall) |
+| 参数 | 符号 | 定义 | 主观对应品质 | 目标（音乐厅） |
 |---|---|---|---|---|
-| Early Decay Time | EDT | Time for first 10 dB of decay × 6 | Perceived reverberance | 1.8–2.4 s |
-| Clarity (music) | C80 | Energy 0–80 ms / energy after 80 ms (dB) | Musical clarity vs reverberance | −2 to +2 dB |
-| Clarity (speech) | C50 | Energy 0–50 ms / energy after 50 ms (dB) | Speech intelligibility | > 0 dB |
-| Definition | D50 | Energy 0–50 ms / total energy (ratio) | Speech definition | > 0.50 |
-| Lateral Energy Fraction | LF (or JLF) | Lateral energy 5–80 ms / total energy 0–80 ms | Spatial impression, envelopment | > 0.19 |
-| Late Lateral Energy | LJ (or GLL) | Late lateral sound level (dB) | Listener envelopment | > −14 dB |
-| Strength | G | Sound level relative to free field at 10 m (dB) | Loudness, presence | 0 to +10 dB |
-| Stage Support | ST1 | Early reflected energy on stage / direct energy | Ensemble hearing for musicians | −12 to −14 dB |
-| Inter-Aural Cross Correlation | IACC_E | Dissimilarity of signals at two ears (early) | Apparent source width | < 0.40 (low = wide) |
+| 早期衰减时间 | EDT | 前 10 dB 衰减时间 × 6 | 感知混响度 | 1.8–2.4 s |
+| 清晰度（音乐） | C80 | 0–80 ms 能量／80 ms 后能量（dB） | 音乐清晰度与混响度 | −2 至 +2 dB |
+| 清晰度（言语） | C50 | 0–50 ms 能量／50 ms 后能量（dB） | 言语可懂度 | > 0 dB |
+| 定义度 | D50 | 0–50 ms 能量／总能量（比值） | 言语定义度 | > 0.50 |
+| 侧向能量比例 | LF（或 JLF） | 5–80 ms 侧向能量／0–80 ms 总能量 | 空间印象、包围感 | > 0.19 |
+| 晚期侧向能量 | LJ（或 GLL） | 晚期侧向声级（dB） | 听众包围感 | > −14 dB |
+| 强度 | G | 10 m 处相对于自由场的声级（dB） | 响度、存在感 | 0 至 +10 dB |
+| 舞台支持 | ST1 | 舞台早期反射能量／直达能量 | 演奏者的乐队互听 | −12 至 −14 dB |
+| 双耳交叉相关 | IACC_E | 两耳信号差异（早期） | 表观声源宽度 | < 0.40（越低越宽） |
 
-These parameters are measured per ISO 3382-1 using omnidirectional and figure-of-eight microphones at multiple audience positions. A well-designed concert hall achieves favorable values across all parameters simultaneously — this is the fundamental challenge of acoustic design.
+这些参数按 ISO 3382-1 使用全向和八字形麦克风，在多个观众位置测量。优秀的音乐厅需在所有参数上同时取得有利数值，这正是声学设计的根本挑战。

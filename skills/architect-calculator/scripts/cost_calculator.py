@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 """
-Construction Cost Calculator
+建造成本计算器
 
-Estimates construction cost based on building type, quality level, and
-geographic region. Includes professional fees, contingency, and optional
-external works.
+根据建筑类型、品质等级和地理区域估算建造成本，包含专业服务费、不可预见费和可选室外工程费。
 
-Usage:
+用法：
     python cost_calculator.py --gfa 5000 --building-type office --quality premium --region europe
     python cost_calculator.py --gfa 5000 --building-type residential --json
 """
@@ -16,7 +14,7 @@ import json
 import sys
 
 
-# Base cost database (USD/m2, 2025 baseline, North America standard quality)
+# 基础成本数据库（USD/m2，2025 年基准，北美标准品质）
 COST_DATABASE = {
     "residential": {"basic": 1200, "standard": 1800, "premium": 2800},
     "office":      {"basic": 1400, "standard": 2100, "premium": 3200},
@@ -26,79 +24,79 @@ COST_DATABASE = {
     "hotel":       {"basic": 1600, "standard": 2400, "premium": 3800},
 }
 
-# Regional cost adjustment factors (relative to North America)
+# 区域成本调整系数（相对于北美）
 REGIONAL_FACTORS = {
-    "north-america": {"factor": 1.00, "name": "North America"},
-    "europe":        {"factor": 1.05, "name": "Europe"},
-    "middle-east":   {"factor": 0.85, "name": "Middle East"},
-    "asia":          {"factor": 0.65, "name": "Asia"},
-    "australia":     {"factor": 1.15, "name": "Australia"},
+    "north-america": {"factor": 1.00, "name": "北美"},
+    "europe":        {"factor": 1.05, "name": "欧洲"},
+    "middle-east":   {"factor": 0.85, "name": "中东"},
+    "asia":          {"factor": 0.65, "name": "亚洲"},
+    "australia":     {"factor": 1.15, "name": "澳大利亚"},
 }
 
-# Professional fee and contingency rates by quality level
+# 按品质等级划分的专业服务费率和不可预见费率
 FEE_RATES = {
     "basic":    {"fees": 0.10, "contingency": 0.10},
     "standard": {"fees": 0.12, "contingency": 0.075},
     "premium":  {"fees": 0.15, "contingency": 0.05},
 }
 
-# External works percentage of construction cost
+# 室外工程占建造成本的比例
 EXTERNAL_WORKS_RATE = 0.10
 
 
 def validate_inputs(args):
-    """Validate all input parameters."""
+    """校验全部输入参数。"""
     errors = []
     if args.gfa <= 0:
-        errors.append("GFA must be a positive number.")
+        errors.append("GFA 必须为正数。")
 
     btype = args.building_type.lower()
     if btype not in COST_DATABASE:
         valid = ", ".join(sorted(COST_DATABASE.keys()))
-        errors.append(f"Invalid building type '{args.building_type}'. "
-                      f"Valid types: {valid}")
+        errors.append(f"无效建筑类型“{args.building_type}”。"
+                      f"有效类型：{valid}")
 
     quality = args.quality.lower()
     if quality not in ("basic", "standard", "premium"):
-        errors.append("Invalid quality level. Must be: basic, standard, or premium.")
+        errors.append("无效品质等级。必须为：basic、standard 或 premium。")
 
     region = args.region.lower()
     if region not in REGIONAL_FACTORS:
         valid = ", ".join(sorted(REGIONAL_FACTORS.keys()))
-        errors.append(f"Invalid region '{args.region}'. Valid regions: {valid}")
+        errors.append(f"无效地区“{args.region}”。有效地区：{valid}")
 
     return errors
 
 
 def calculate(args):
-    """Perform cost estimation calculations."""
+    """执行成本估算。"""
     btype = args.building_type.lower()
     quality = args.quality.lower()
     region = args.region.lower()
 
-    # Base cost rate
+    # 基础成本单价
     base_rate = COST_DATABASE[btype][quality]
     regional_factor = REGIONAL_FACTORS[region]["factor"]
     region_name = REGIONAL_FACTORS[region]["name"]
     adjusted_rate = base_rate * regional_factor
 
-    # Construction cost
+    # 建造成本
     construction_cost = args.gfa * adjusted_rate
 
-    # Professional fees
+    # 专业服务费
     fee_rate = FEE_RATES[quality]["fees"]
     professional_fees = construction_cost * fee_rate
 
-    # Contingency
+    # 不可预见费
     contingency_rate = FEE_RATES[quality]["contingency"]
     contingency = construction_cost * contingency_rate
 
-    # External works
+    # 室外工程
     external_works = 0
     if args.include_external:
         external_works = construction_cost * EXTERNAL_WORKS_RATE
 
-    # Total development cost
+    # 开发总成本
     total_cost = construction_cost + professional_fees + contingency + external_works
     total_per_m2 = total_cost / args.gfa if args.gfa > 0 else 0
 
@@ -124,7 +122,7 @@ def calculate(args):
 
 
 def format_currency(value):
-    """Format a number as USD currency string."""
+    """将数值格式化为美元货币字符串。"""
     if value >= 1_000_000:
         return f"{value:,.0f} USD"
     else:
@@ -132,39 +130,39 @@ def format_currency(value):
 
 
 def format_output(result):
-    """Format results for human-readable output."""
+    """将结果格式化为便于阅读的输出。"""
     lines = [
-        "=== Construction Cost Calculator ===",
-        f"Gross Floor Area:   {result['gfa_m2']:,.2f} m2",
-        f"Building Type:      {result['building_type']}",
-        f"Quality Level:      {result['quality_level']}",
-        f"Region:             {result['region']} (factor: {result['regional_factor']:.2f})",
+        "=== 建造成本计算器 ===",
+        f"总建筑面积：        {result['gfa_m2']:,.2f} m2",
+        f"建筑类型：          {result['building_type']}",
+        f"品质等级：          {result['quality_level']}",
+        f"地区：              {result['region']}（系数：{result['regional_factor']:.2f}）",
         "---------------------------------------",
-        f"Base Cost Rate:     {result['base_rate_usd_m2']:,.2f} USD/m2",
-        f"Adjusted Rate:      {result['adjusted_rate_usd_m2']:,.2f} USD/m2",
-        f"Construction Cost:  {format_currency(result['construction_cost_usd'])}",
+        f"基础成本单价：      {result['base_rate_usd_m2']:,.2f} USD/m2",
+        f"调整后单价：        {result['adjusted_rate_usd_m2']:,.2f} USD/m2",
+        f"建造成本：          {format_currency(result['construction_cost_usd'])}",
         "---------------------------------------",
-        f"Professional Fees ({result['professional_fee_rate_pct']:.0f}%):  "
+        f"专业服务费（{result['professional_fee_rate_pct']:.0f}%）："
         f"{format_currency(result['professional_fees_usd'])}",
-        f"Contingency ({result['contingency_rate_pct']:.1f}%):       "
+        f"不可预见费（{result['contingency_rate_pct']:.1f}%）："
         f"{format_currency(result['contingency_usd'])}",
     ]
 
     if result["include_external"]:
         lines.append(
-            f"External Works ({result['external_works_rate_pct']:.0f}%):    "
+            f"室外工程（{result['external_works_rate_pct']:.0f}%）："
             f"{format_currency(result['external_works_usd'])}"
         )
     else:
-        lines.append("External Works:           -- (not included)")
+        lines.append("室外工程：            --（未包含）")
 
     lines.extend([
         "---------------------------------------",
-        f"Total Development Cost:   {format_currency(result['total_development_cost_usd'])}",
-        f"Cost per m2 (total):      {result['total_cost_per_m2_usd']:,.2f} USD/m2",
+        f"开发总成本：          {format_currency(result['total_development_cost_usd'])}",
+        f"每 m2 总成本：        {result['total_cost_per_m2_usd']:,.2f} USD/m2",
         "",
-        "Note: Costs are indicative estimates (2025 baseline USD).",
-        "Actual costs vary by market conditions, site specifics, and scope.",
+        "注：成本仅为指示性估算（2025 年美元基准）。",
+        "实际成本会随市场条件、场地具体情况和工作范围而变化。",
     ])
 
     return "\n".join(lines)
@@ -172,30 +170,29 @@ def format_output(result):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Construction Cost Calculator: estimate development cost "
-                    "by building type, quality, and region."
+        description="建造成本计算器：按建筑类型、品质和地区估算开发成本。"
     )
     parser.add_argument("--gfa", type=float, required=True,
-                        help="Gross floor area in m2")
+                        help="总建筑面积，单位为 m2")
     parser.add_argument("--building-type", type=str, required=True,
-                        help="Building type: residential, office, retail, "
+                        help="建筑类型：residential、office、retail、"
                              "hospital, school, hotel")
     parser.add_argument("--quality", type=str, default="standard",
-                        help="Quality level: basic, standard, premium (default: standard)")
+                        help="品质等级：basic、standard、premium（默认值：standard）")
     parser.add_argument("--region", type=str, default="north-america",
-                        help="Region: north-america, europe, middle-east, asia, "
-                             "australia (default: north-america)")
+                        help="地区：north-america、europe、middle-east、asia、"
+                             "australia（默认值：north-america）")
     parser.add_argument("--include-external", action="store_true",
-                        help="Include external/site works (10%% of construction cost)")
+                        help="包含室外／场地工程（建造成本的 10%%）")
     parser.add_argument("--json", action="store_true",
-                        help="Output results as JSON")
+                        help="以 JSON 输出结果")
 
     args = parser.parse_args()
 
     errors = validate_inputs(args)
     if errors:
         for error in errors:
-            print(f"Error: {error}", file=sys.stderr)
+            print(f"错误：{error}", file=sys.stderr)
         sys.exit(1)
 
     result = calculate(args)

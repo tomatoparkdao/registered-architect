@@ -1,273 +1,259 @@
 ---
 name: country-singapore
 description: >
-  Singapore architectural code and regulatory reference. Covers the Building Control Act 1989
-  (BCA) and Building Control Regulations 2003 (with periodic amendments through 2024), the
-  Singapore Civil Defence Force (SCDF) Fire Code 2018 (Fire Safety Act 1993 + Fire Safety
-  (Building Fire Safety) Regulations), the URA (Urban Redevelopment Authority) Planning Act
-  with Master Plan 2019 and Development Control Handbooks, BCA Green Mark scheme 2021 with
-  mandatory Green Mark Certified Building requirement for all new buildings since 2008, BCA
-  Code on Accessibility 2019 (3rd revision; Universal Design Mark), Code on Environmental
-  Sustainability of Buildings 2018, Singapore Standards SS 530 energy efficiency, SS 553
-  air-conditioning, SS 568 natural lighting, SS 593 acoustic, SS 632 emergency power, plus
-  Singapore-adopted Eurocodes (SS EN suite with Singapore National Annexes), Code of Practice
-  on Buildability (BCA), Code on Buildable Design and Constructability, Workplace Safety and
-  Health Act, NEA noise regulations, PUB water/drainage codes, and the Land Transport
-  Authority's Code of Practice on Vehicle Parking. Includes HDB (public housing) standards
-  and the developer-led private residential design quality protocols.
+  新加坡建筑规范与法规参考。涵盖《建筑管制法 1989》（BCA）及《建筑管制条例 2003》（截至 2024 年的定期修订）、新加坡民防部队（SCDF）《消防规范 2018》（《消防安全法 1993》及《消防安全（建筑消防安全）条例》）、URA（城市重建局）《规划法》及 2019 总体规划和开发控制手册、BCA Green Mark 2021 计划（自 2008 年起所有新建建筑强制达到 Green Mark Certified）、BCA《无障碍规范 2019》（第 3 次修订；通用设计标志）、《建筑环境可持续性规范 2018》、新加坡标准 SS 530 能效、SS 553 空调、SS 568 自然采光、SS 593 声学、SS 632 应急电源，以及新加坡采用的 Eurocodes（带新加坡国家附录的 SS EN 系列）、BCA《可建造性实施规范》、《可建造性设计与施工性规范》、《工作场所安全与健康法》、NEA 噪声法规、PUB 给排水规范和陆路交通管理局车辆停车实施规范。包括 HDB（公共住房）标准及开发商主导的私人住宅设计质量协议。
 ---
 
-# Country: Singapore
+# 国家：新加坡
 
-Architectural code and regulatory reference for projects within the Republic of Singapore. Activate this skill on any reference to Singapore, SGD currency, mention of "BCA" (Building & Construction Authority), "URA", "SCDF", "Green Mark", "HDB", "PUB", "LTA", Singapore Standards (SS), or local Singapore terminology (shophouse, conservation area, GFA, plot ratio).
+适用于新加坡共和国境内项目的建筑规范与法规参考。当提及新加坡、SGD 货币、“BCA”（Building & Construction Authority）、“URA”、“SCDF”、“Green Mark”、“HDB”、“PUB”、“LTA”、新加坡标准（SS）或当地术语（shophouse、conservation area、GFA、plot ratio）时启用本技能。
 
 ---
 
-## 1. Regulatory Hierarchy
+## 1. 法规层级
 
-Singapore operates as **Archetype A (Unitary National Code)**. There is no sub-national variation -- a single building code applies nationally, administered centrally by BCA. Strong, well-integrated authority structure.
+新加坡采用**A 型体系（统一国家规范）**。不存在次国家层级差异，全国适用同一套建筑规范，由 BCA 集中管理，主管机构体系完整且整合度高。
 
-### 1.1 Authority Stack
+### 1.1 主管机构层级
 
 ```
-LEVEL 1 -- NATIONAL (MINISTRY)
-  Ministry of National Development (MND) -- urban policy
-  Ministry of Sustainability and the Environment (MSE) -- environment
-  Ministry of Home Affairs (MHA) -- fire/safety
-  Ministry of Manpower (MOM) -- workplace safety
-  Ministry of Transport (MOT) -- transit + parking
+第 1 级——国家层面（部委）
+  国家发展部（MND）——城市政策
+  可持续发展与环境部（MSE）——环境
+  内政部（MHA）——消防/安全
+  人力部（MOM）——工作场所安全
+  交通部（MOT）——交通 + 停车
 
-LEVEL 2 -- STATUTORY BOARDS (executes legislation)
-  Building and Construction Authority (BCA) -- building control + Green Mark + buildability +
-    accessibility + structural; lead authority for buildings
-  Urban Redevelopment Authority (URA) -- planning + zoning + conservation + Master Plan
-  Singapore Civil Defence Force (SCDF) -- fire safety + shelters; under MHA
-  Public Utilities Board (PUB) -- water + drainage + WSH
-  National Environment Agency (NEA) -- pollution, noise (CSEE), waste, vector control
-  Housing & Development Board (HDB) -- public housing (executes building work as developer)
-  Land Transport Authority (LTA) -- transport, parking standards
-  Singapore Land Authority (SLA) -- land titles, state property
-  JTC Corporation -- industrial estates + business parks
-  ACRES + Animal & Veterinary Service + NParks -- environmental
+第 2 级——法定机构（执行法律）
+  建筑建设局（BCA）——建筑管控 + Green Mark + 可建造性 + 无障碍 + 结构；建筑主管机构
+  城市重建局（URA）——规划 + 分区 + 保护 + 总体规划
+  新加坡民防部队（SCDF）——消防安全 + 避难设施；隶属 MHA
+  公共事业局（PUB）——供水 + 排水 + 工作场所安全与健康（WSH）
+  国家环境局（NEA）——污染、噪声（CSEE）、废物、病媒控制
+  建屋发展局（HDB）——公共住房（作为开发商执行建设工作）
+  陆路交通管理局（LTA）——交通、停车标准
+  新加坡土地管理局（SLA）——土地权属、国家资产
+  JTC Corporation——工业园区 + 商业园区
+  ACRES + 动物与兽医服务 + 国家公园局（NParks）——环境
 
-LEVEL 3 -- DESIGN PROFESSIONS (qualified persons)
-  Qualified Persons (QPs) -- under Building Control Act:
-    QP Architect (Board of Architects Singapore)
-    QP Engineer (Professional Engineers Board)
-    QP Structural Engineer (specialized)
-    QP Mechanical Engineer
-    QP Electrical Engineer
-    Resident Technical Officer (RTO) on site
-  Accredited Checker (AC) -- independent structural checker for major projects
-  Green Mark Accredited Professional (GMAP) -- for Green Mark certification
+第 3 级——设计专业人员（合资格人士）
+  合资格人士（QP）——依据《建筑管制法》：
+    建筑师 QP（新加坡建筑师委员会）
+    工程师 QP（专业工程师委员会）
+    结构工程师 QP（专业方向）
+    机电工程师 QP
+    电气工程师 QP
+    驻场技术官（RTO）
+  认可审查员（AC）——重大项目的独立结构审查员
+  Green Mark 认可专业人士（GMAP）——负责 Green Mark 认证
 ```
 
-### 1.2 Building Control Act + Building Control Regulations
+### 1.2 《建筑管制法》与《建筑管制条例》
 
-The Building Control Act 1989 (BCA) is the primary statute. Subsidiary legislation:
-- **Building Control Regulations 2003** (with periodic amendments; current 2023-24)
-- **Building Control (Buildability) Regulations**
-- **Building Control (Accessibility) Regulations**
-- **Building Control (Resilience) Regulations**
-- **Building Control (Existing Buildings) Regulations** -- maintenance, retrofitting
+《建筑管制法 1989》（BCA）是主要法律。配套法规包括：
+- **《2003 年建筑管制条例》**（定期修订；现行 2023-24 版）
+- **《建筑管制（可建造性）条例》**
+- **《建筑管制（无障碍）条例》**
+- **《建筑管制（韧性）条例》**
+- **《建筑管制（既有建筑）条例》**——维护、改造
 
-Plus the Codes of Practice ("Approved Documents" equivalents):
-- **Approved Document (AD) Building Control Regulations**
-- **AD on Accessibility 2019** (Code on Accessibility in the Built Environment)
-- **AD on Environmental Sustainability of Buildings 2018**
-- **AD on Barrier-Free Accessibility (replaced by 2019 Code on Accessibility)**
+另有相当于“批准文件”的实施规范：
+- **《建筑管制条例》批准文件（AD）**
+- **《2019 年无障碍批准文件》**（《建成环境无障碍规范》）
+- **《2018 年建筑环境可持续性批准文件》**
+- **《无障碍通行批准文件》**（已由 2019 年无障碍规范取代）
 
 ---
 
-## 2. Building Code Core Requirements
+## 2. 建筑规范核心要求
 
-### 2.1 Building Classification (Building Control Regulations)
+### 2.1 建筑分类（《建筑管制条例》）
 
-Singapore uses **Purpose Group classification** (similar to UK Building Regulations historical approach):
+新加坡采用**用途组分类**（类似英国历史上的建筑法规分类方式）：
 
-| Purpose Group | Description |
+| 用途组别 | 描述 |
 |---|---|
-| I | Residential -- private dwellings (houses, apartments) |
-| II | Residential institution -- hotels, hostels, retirement homes |
-| III | Place of public resort -- assembly, recreation |
-| IV | Educational |
-| V | Office |
-| VI | Shop |
-| VII | Factory |
-| VIII | Storage (general / hazardous distinguished) |
+| I | 住宅——私人住宅（独立屋、公寓） |
+| II | 住宅机构——酒店、旅舍、养老院 |
+| III | 公共聚集场所——集会、娱乐 |
+| IV | 教育 |
+| V | 办公 |
+| VI | 商店 |
+| VII | 工厂 |
+| VIII | 仓储（区分普通仓储与危险品仓储） |
 
-### 2.2 GFA Definition (URA, BCA, IRAS)
+### 2.2 GFA 定义（URA、BCA、IRAS）
 
-A critical definition. Singapore's GFA (Gross Floor Area) is precisely defined and used for:
-- URA plot-ratio compliance
-- BCA permit application
-- IRAS property tax
-- Strata title issuance
+这是关键定义。新加坡 GFA（总楼面面积）有精确定义，用于：
+- URA 容积率合规
+- BCA 许可申请
+- IRAS 房产税
+- 分层产权证签发
 
-**GFA includes** (URA Handbook):
-- All covered floor areas, including stairs, lift shafts, lift lobbies, common corridors
-- Balconies (counted to GFA; bonus from URA in some schemes)
-- Recreational ancillaries (limited bonus)
-- Excluded: void above stairs, planter recess (subject to limits), bay window above 200 mm sill, certain landscape decks (subject to URA)
+**GFA 包括**（URA 手册）：
+- 所有有顶楼面面积，包括楼梯、电梯井、电梯厅和公共走道
+- 阳台（计入 GFA；部分计划可获得 URA 奖励面积）
+- 娱乐配套空间（奖励面积有限）
+- 不包括：楼梯上方的空洞、种植槽凹槽（受限值约束）、窗台高于 200 mm 的凸窗，以及部分景观平台（以 URA 规定为准）
 
-### 2.3 Plot Ratio (URA Master Plan 2019)
+### 2.3 容积率（URA Master Plan 2019）
 
-URA's Master Plan defines plot ratio (GPR -- Gross Plot Ratio) by zone:
-- **Residential zones**: 1.4 - 4.2 (varies by zone type)
-- **Commercial zones**: 4.2 - 12.0+ (CBD)
-- **Mixed-Use (RD)**: 2.8 - 4.2
-- **Industrial (Business 1)**: 1.0 - 2.5
-- **Industrial (Business 2)**: 1.4 - 2.5
+URA 总体规划按分区定义容积率（GPR——总地块容积率）：
+- **住宅分区**：1.4–4.2（随分区类型变化）
+- **商业分区**：4.2–12.0+（CBD）
+- **混合用途（RD）**：2.8–4.2
+- **工业（Business 1）**：1.0–2.5
+- **工业（Business 2）**：1.4–2.5
 
-URA also imposes:
-- **Site coverage** limits (varies by zone)
-- **Building height** limits (varies; "Height Restriction" or "Storey" controlled; some areas height-controlled due to aviation)
-- **Setbacks** -- per zone-specific Development Control Plans
-- **Sun-shadow studies** for tall buildings near sensitive sites
+URA 还规定：
+- **建筑覆盖率**限值（随分区变化）
+- **建筑高度**限值（随分区变化；由“高度限制”或“层数”控制，部分区域因航空要求受高度控制）
+- **退界**——按分区专项开发控制规划执行
+- 敏感场地附近高层建筑需进行**日照阴影研究**
 
-### 2.4 Setback & Coverage (Indicative)
+### 2.4 退界与覆盖率（示意值）
 
-| Zone | Plot Ratio | Coverage | Setbacks |
+| 分区 | 容积率 | 覆盖率 | 退界 |
 |---|---|---|---|
-| Landed (R1) | 1.4 | 40-50% | 3 m front, 2 m side, 2-3 m rear |
-| Condominium (R2) | 1.4-2.8 | 35-45% | per detailed plan |
-| Apartment (R3) | 2.1-2.8 | 35-45% | per detailed plan |
-| Commercial (CBD) | 12.6+ | 100% (often podium-then-tower) | mostly to lot line at ground |
-| Mixed-Use (RD) | 2.8-4.2 | 50-60% | per plan |
-| Business 1 (industrial) | 2.5 | 50-60% | varies |
+| 有地住宅（R1） | 1.4 | 40–50% | 前退 3 m，侧退 2 m，后退 2–3 m |
+| 公寓（R2） | 1.4–2.8 | 35–45% | 按详细规划 |
+| 公寓（R3） | 2.1–2.8 | 35–45% | 按详细规划 |
+| 商业（CBD） | 12.6+ | 100%（通常为裙房+塔楼） | 首层大多退至用地红线 |
+| 混合用途（RD） | 2.8–4.2 | 50–60% | 按规划执行 |
+| Business 1（工业） | 2.5 | 50–60% | 随项目变化 |
 
-### 2.5 Height Control
+### 2.5 高度控制
 
-Singapore is unusual: there are strong **island-wide aviation height controls** centred on Changi + Paya Lebar + Seletar airfields. Within obstacle limitation surfaces, building height is restricted. Even the CBD has height controls in the tower zone (~280 m) per Changi conical surface. Significant for design: the Changi Conical Surface tops out tower heights in Marina Bay and downtown.
+新加坡的特殊之处在于存在以樟宜、巴耶利峇和实里达机场为中心的严格**全岛航空高度控制**。在障碍物限制面范围内，建筑高度受到限制。即使 CBD 塔楼区也受樟宜锥形面控制，高度约为 280 m。对设计而言，这意味着樟宜锥形面限制了滨海湾和市中心塔楼的高度。
 
-### 2.6 Conservation Areas
+### 2.6 保护区
 
-URA has **conservation status** for many shophouse and heritage areas (Chinatown, Boat Quay, Tanjong Pagar, Joo Chiat, Little India, Kampong Glam, Tiong Bahru, etc.). Strict facade + roof line + materials preservation rules.
+URA 对许多店屋和历史区域设有**保护地位**（牛车水、驳船码头、丹戎巴葛、如切、实龙岗小印度、甘榜格南、中峇鲁等）。这些区域适用严格的立面、屋顶线和材料保护规则。
 
 ---
 
-## 3. Fire Safety (SCDF Fire Code 2018)
+## 3. 防火安全（SCDF Fire Code 2018）
 
 ### 3.1 SCDF Fire Code 2018
 
-Issued by Singapore Civil Defence Force (SCDF), under Fire Safety Act 1993 + Fire Safety (Building Fire Safety) Regulations. The 2018 edition is the operative version (with errata + amendments). Comprehensive code organized into:
+由新加坡民防部队（SCDF）依据《消防安全法 1993》和《消防安全（建筑消防安全）条例》发布。2018 版为现行版本（含勘误和修订），完整规范分为：
 
-| Chapter | Topic |
+| 章节 | 主题 |
 |---|---|
-| 1 | Administrative |
-| 2 | Definitions |
-| 3 | Means of Escape |
-| 4 | Compartmentation |
-| 5 | Fire Resistance |
-| 6 | Internal Lining + Surfaces |
-| 7 | External Walls and Roofs |
-| 8 | Fire Engine Access + Setting Down Points |
-| 9 | Fire Hydrants + Risers + Hose Reels |
-| 10 | Sprinkler Systems (Singapore National Standards-aligned) |
-| 11 | Fire Detection + Voice Communication |
-| 12 | Smoke Control + Pressurization |
-| 13 | Emergency Lighting + Exit Signage |
-| 14 | Refuge Floors |
-| 15 | Specific Occupancies (mall, MRT station, hospital, retail, etc.) |
-| 16 | Existing Buildings |
-| 17 | Performance-Based Approach (Fire Engineering) |
+| 1 | 行政管理 |
+| 2 | 定义 |
+| 3 | 疏散方式 |
+| 4 | 防火分隔 |
+| 5 | 耐火性能 |
+| 6 | 室内衬里与表面 |
+| 7 | 外墙与屋顶 |
+| 8 | 消防车通道与停靠点 |
+| 9 | 消火栓、立管与消防软管卷盘 |
+| 10 | 自动喷水灭火系统（与新加坡国家标准一致） |
+| 11 | 火灾探测与语音通信 |
+| 12 | 排烟与加压 |
+| 13 | 应急照明与出口标志 |
+| 14 | 避难层 |
+| 15 | 特定用途（商场、地铁站、医院、零售等） |
+| 16 | 既有建筑 |
+| 17 | 性能化方法（消防工程） |
 
-### 3.2 Means of Escape (SCDF Fire Code Ch. 3)
+### 3.2 疏散方式（SCDF Fire Code 第 3 章）
 
-Singapore is closer to UK (Approved Documents B/9999) than US (IBC). Key:
+新加坡体系更接近英国（Approved Documents B/BS 9999），而非美国（IBC）。主要参数如下：
 
-| Parameter | Value |
+| 参数 | 数值 |
 |---|---|
-| Travel distance one-direction (office sprinklered) | 25 m |
-| Travel distance two-direction (office sprinklered) | 45 m |
-| Travel distance assembly two-direction | 32 m |
-| Max stair travel distance from any point on floor to stair | per above |
-| Stair width minimum | 1.10 m (capacity 5 mm/person sprinklered, 7.5 mm unsprinklered) |
-| Stair width (Purpose Group III assembly) | 1.20 m |
-| Min door clear width | 850 mm general; 950 mm escape | 
-| Maximum corridor without fire-resistant separation | 12 m |
+| 单向疏散距离（办公、设喷淋） | 25 m |
+| 双向疏散距离（办公、设喷淋） | 45 m |
+| 双向疏散距离（集会场所） | 32 m |
+| 楼层任一点至楼梯的最大疏散距离 | 按上表执行 |
+| 楼梯最小宽度 | 1.10 m（设喷淋5 mm/人，无喷淋7.5 mm/人） |
+| 楼梯宽度（用途组III集会场所） | 1.20 m |
+| 门最小净宽 | 一般850 mm；疏散950 mm |
+| 无防火分隔的最大走廊长度 | 12 m |
 
-### 3.3 Compartmentation (SCDF Ch. 4-5)
+### 3.3 防火分隔（SCDF 第 4–5 章）
 
-| Element | Fire Resistance |
+| 要素 | 耐火性能 |
 |---|---|
-| Internal load-bearing walls / floors (residential >18 m) | 90 min |
-| Compartment walls between dwellings | 60 min |
-| Stair walls / lobby walls | 60 min |
-| Lift shaft walls | 60 min |
-| Riser shafts | 60 min |
-| Compartment areas: residential (per dwelling) | max 4000 m2 |
-| Compartment areas: office sprinklered | max 6000 m2 |
-| Compartment areas: industrial | varies by hazard |
+| 承重内墙/楼板（住宅高度 >18 m） | 90 分钟 |
+| 住宅单元之间的防火分隔墙 | 60 分钟 |
+| 楼梯墙/前室墙 | 60 分钟 |
+| 电梯井壁 | 60 分钟 |
+| 管井 | 60 分钟 |
+| 防火分区面积：住宅（每户） | 最大 4,000 m² |
+| 防火分区面积：办公（设喷淋） | 最大 6,000 m² |
+| 防火分区面积：工业 | 按危险性变化 |
 
-### 3.4 Cladding (SCDF Fire Code Ch. 7 -- post-Grenfell update)
+### 3.4 覆层（SCDF Fire Code 第 7 章——Grenfell 后更新）
 
-Post-Grenfell (and post-Sentosa apartments cladding incident), Singapore tightened:
-- **Buildings >= 24 m height** -- external wall must be A1 or A2 non-combustible
-- **All buildings >= 12 m** with combustible insulation -- must pass full-scale test BS 8414-1/-2 OR equivalent (no AS 5113)
-- **Cavity barriers** at every compartment floor + every 10 m horizontally
-- **Approval** by SCDF + testing certification
+Grenfell 事件（以及圣淘沙公寓覆层事件）后，新加坡收紧了要求：
+- **高度 ≥24 m 的建筑**——外墙必须为 A1 或 A2 级不燃材料
+- **所有高度 ≥12 m 且采用可燃保温材料的建筑**——必须通过 BS 8414-1/-2 全尺寸试验或等效试验（不采用 AS 5113）
+- **空腔防火封堵**——每个防火分隔楼层处以及水平方向每 10 m 设置
+- **审批**——由 SCDF 审批并提供试验认证
 
-### 3.5 High-Rise & Refuge
+### 3.5 高层与避难层
 
-SCDF Fire Code definitions:
-- **High-rise** = building >= 24 m
-- **Tall building** = building >= 60 m -- additional requirements
-- **Super tall** = building >= 200 m -- specific performance-based approach
+SCDF 消防规范定义：
+- **高层建筑** = 高度 ≥24 m
+- **高塔建筑** = 高度 ≥60 m——附加要求
+- **超高层建筑** = 高度 ≥200 m——采用专门的性能化方法
 
-**Refuge floors**: required every 20 storeys in residential, every 10 storeys in office/hotel for buildings >= 60 m height. Refuge floor: full storey, ventilated to outside, no other occupancy, dedicated firefighter facilities.
+**避难层**：高度 ≥60 m 的建筑，住宅每 20 层设置一层，办公/酒店每 10 层设置一层。避难层应为完整楼层，与室外通风，不得安排其他使用功能，并设置专用消防员设施。
 
-### 3.6 Performance-Based Fire Engineering
+### 3.6 性能化防火工程
 
-SCDF Fire Code Ch. 17 explicitly permits fire engineering analyses (CFD modelling, evacuation analysis, structural fire analysis) as alternative compliance. Many large Singapore projects use this route (e.g., Marina Bay Sands, Jewel Changi).
+SCDF 消防规范第 17 章明确允许采用消防工程分析（CFD 建模、疏散分析、结构抗火分析）作为替代合规路径。许多新加坡大型项目采用该路径（例如 Marina Bay Sands、Jewel Changi）。
 
 ---
 
-## 4. Energy Code
+## 4. 能源规范
 
-### 4.1 Building Control (Environmental Sustainability) Regulations 2008
+### 4.1 《建筑管制（环境可持续性）条例》2008
 
-Singapore was first country to make green building mandatory (since 2008):
-- **All new buildings** must achieve minimum **Green Mark Certified rating** -- this is the legal minimum
-- Government-funded buildings: minimum Green Mark Platinum (2022 onwards)
-- Major renovations to existing buildings: minimum Green Mark Certified
+新加坡是首个强制实施绿色建筑的国家（自 2008 年起）：
+- **所有新建建筑**必须达到最低 **Green Mark Certified 认证等级**——这是法律最低要求
+- 政府投资建筑：2022 年起至少达到 Green Mark Platinum
+- 既有建筑重大改造：至少达到 Green Mark Certified
 
 ### 4.2 BCA Green Mark 2021
 
-Latest framework. 7 categories:
-- Energy Efficiency
-- Water Efficiency
-- Indoor Environmental Quality
-- Sustainable Operations + Management
-- Smart and Healthy Buildings
-- Other Green Features
-- Whole Life Carbon
+这是最新框架，包含 7 个类别：
+- 能源效率
+- 水效率
+- 室内环境质量
+- 可持续运营与管理
+- 智慧与健康建筑
+- 其他绿色特征
+- 全生命周期碳排放
 
 Ratings: **Green Mark Certified, Gold, Gold-Plus, Platinum, Super Low Energy, Zero Energy, Positive Energy**.
 
-The 2021 framework progressively raises the floor; Green Mark "Certified" is now ~28% energy improvement over baseline.
+2021 框架逐步提高最低要求；目前 Green Mark“Certified”相较基准能耗改善约 28%。
 
-### 4.3 SS 530:2014 (Air-conditioning + IAQ) + SS 530:2019 (revised)
+### 4.3 SS 530:2014（空调与室内空气质量）+ SS 530:2019（修订版）
 
-Singapore Standard for air-conditioning + indoor air quality. Tropical climate-specific (no heating). Defines minimum efficiency for AC equipment, ventilation rates, IAQ thresholds.
+这是新加坡关于空调和室内空气质量的标准，针对热带气候（无采暖）。规定空调设备最低效率、通风率和室内空气质量阈值。
 
-### 4.4 SS 568:2011 -- Lighting
+### 4.4 SS 568:2011——照明
 
-Energy-efficient lighting standards.
+能源高效照明标准。
 
-### 4.5 Code on Environmental Sustainability of Buildings 2018
+### 4.5 《建筑环境可持续性规范》2018
 
-The technical companion to Green Mark. Specifies:
-- **Envelope Thermal Transfer Value (ETTV)** target: <= 50 W/m2 (commercial); <= 25 W/m2 (residential) -- effectively combined U-value + solar gain metric for tropical climates
-- **Roof Thermal Transfer Value (RTTV)** target: <= 50 W/m2 (commercial); <= 25 W/m2 (residential)
-- **WTTV** -- Window Thermal Transfer Value (combined U + SHGC)
-- **GFA-weighted Energy Use Intensity (EUI)** target by building type
+这是 Green Mark 的技术配套规范，规定：
+- **围护结构传热值（ETTV）**目标：≤50 W/m²（商业）；≤25 W/m²（住宅）——热带气候下综合 U 值与太阳得热的指标
+- **屋面传热值（RTTV）**目标：≤50 W/m²（商业）；≤25 W/m²（住宅）
+- **WTTV**——窗传热值（综合 U 值 + SHGC）
+- 按建筑类型确定的**按 GFA 加权能源使用强度（EUI）**目标
 
-### 4.6 Climate Design Parameters
+### 4.6 气候设计参数
 
-Singapore is **single climate zone -- equatorial tropical** (Köppen Af; ASHRAE 1A):
+新加坡属于**单一气候区——赤道热带气候**（Köppen Af；ASHRAE 1A）：
 
-| Parameter | Value |
+| 参数 | 数值 |
 |---|---|
 | Cooling design DB (0.4%) | 33-34 °C |
 | Cooling design WB | 28-29 °C (very humid) |
@@ -279,209 +265,209 @@ Singapore is **single climate zone -- equatorial tropical** (Köppen Af; ASHRAE 
 | Lightning days | 170+ per year (highest globally) |
 | Wind 3-sec gust | 33-35 m/s 0.4% |
 
-### 4.7 Heat Stress + Outdoor Comfort
+### 4.7 热应激与室外舒适性
 
-Singapore-specific: many planning regulations require **Wind Tunnel Test** for buildings >= 30 storeys to evaluate ground-level wind comfort; **Pedestrian-level Thermal Comfort (PTC)** assessment using PET (Physiological Equivalent Temperature) increasingly mandated.
+新加坡专项要求：许多规划法规要求对 ≥30 层建筑进行**风洞试验**，评估地面层风环境舒适度；采用 PET（生理等效温度）的**行人高度热舒适度（PTC）**评估也日益成为强制要求。
 
 ---
 
-## 5. Accessibility (BCA Code on Accessibility 2019)
+## 5. 无障碍（BCA Code on Accessibility 2019）
 
 ### 5.1 BCA Code on Accessibility 2019
 
-3rd edition; supersedes 2013. Aligned to international best practice + ISO 21542 with Singapore adaptations.
+第 3 版，取代 2013 版。与国际最佳实践和 ISO 21542 保持一致，并结合新加坡本地调整。
 
-### 5.2 Key Dimensions
+### 5.2 关键尺寸
 
-| Element | Dimension |
+| 要素 | 尺寸 |
 |---|---|
-| Accessible route | 1.5 m clear (1.8 m preferred) |
-| Door clear width | 850 mm (900 mm preferred); 1000 mm at main entrance |
-| Ramp gradient | 1:12 max (with 1.5 x 1.5 m landings every 9 m); 1:15 preferred |
-| Lift cabin | 1100 x 1400 mm minimum (Type 1); 1100 x 2100 mm hospital |
-| Accessible WC | 1500 x 2000 mm minimum (Singapore standard slightly less than UK) |
-| Accessible parking | 3500 mm width + 1500 mm aisle |
-| Tactile flooring | Per ISO 23599; at lift entries, stair tops/bottoms, level changes |
-| Hearing loop | All assembly areas > 100 occupants |
-| Universal Design Mark | Voluntary upgrade per UD Index assessment |
+| 无障碍通道 | 净宽 1.5 m（建议 1.8 m） |
+| 门净宽 | 850 mm（建议 900 mm）；主入口 1,000 mm |
+| 坡道坡度 | 最大 1:12（每 9 m 设置 1.5 × 1.5 m 平台）；建议 1:15 |
+| 电梯轿厢 | 最小 1,100 × 1,400 mm（Type 1）；医院 1,100 × 2,100 mm |
+| 无障碍卫生间 | 最小 1,500 × 2,000 mm（新加坡标准略低于英国） |
+| 无障碍停车位 | 宽 3,500 mm + 1,500 mm 通道 |
+| 触觉铺装 | 按 ISO 23599；设置于电梯入口、楼梯顶部/底部和高差处 |
+| 助听环路 | 所有容纳 >100 人的集会空间 |
+| 通用设计标志 | 根据 UD 指数评估自愿申请升级 |
 
 ### 5.3 BCA Universal Design Mark
 
-Voluntary higher-tier certification:
+自愿申请的高等级认证：
 - **UD Mark Goldplus**, **Gold**, **Certified**
-- Awarded to projects achieving comprehensive UD principles (older + younger + parent-with-pram + tourist with luggage etc.)
+- 授予贯彻全面通用设计原则的项目（兼顾老年人、儿童、推婴儿车家长和携带行李的游客等）
 
-### 5.4 Provision Counts
+### 5.4 配置数量
 
-- **Accessible parking**: 1 per 50 lots (1 per 30 lots for hospitals)
-- **Accessible WC**: 1 per gender per WC bank in public buildings
-- **Accessible apartments (HDB + private)**: 100% of new HDB units accessible (Singapore unique -- public housing 100%); private 1-5% typical
-- **Hotel accessible rooms**: 1 per 50 minimum, distributed across categories
+- **无障碍停车位**：每 50 个车位设置 1 个（医院每 30 个车位设置 1 个）
+- **无障碍卫生间**：公共建筑每组卫生间每种性别至少 1 个
+- **无障碍住宅（HDB + 私人住宅）**：新建 HDB 住宅 100% 无障碍（新加坡特色——公共住房全部无障碍）；私人住宅通常为 1–5%
+- **酒店无障碍客房**：至少每 50 间设置 1 间，并分散于不同房型类别
 
-### 5.5 HDB Universal Design
+### 5.5 HDB 通用设计
 
-All HDB (public housing) new builds since 2006 incorporate UD features as default:
-- Step-free entry
-- Wider doorways
-- Grab-bar provisions
-- Accessible bathrooms (with optional fitted-out grab bars)
+自 2006 年起，所有新建 HDB（公共住房）默认纳入通用设计特征：
+- 无高差入口
+- 加宽门洞
+- 预留扶手条件
+- 无障碍卫生间（可选配置已安装扶手）
 
 ---
 
-## 6. Structural and Loads (SS EN Eurocodes)
+## 6. 结构与荷载（SS EN Eurocodes）
 
-### 6.1 Singapore-Adopted Eurocodes (SS EN)
+### 6.1 新加坡采用的 Eurocodes（SS EN）
 
-Singapore officially adopted Eurocodes 2013-2015 with Singapore National Annexes:
+新加坡于 2013–2015 年正式采用带新加坡国家附录的 Eurocodes：
 
-| SS EN | Topic |
+| SS EN | 主题 |
 |---|---|
-| SS EN 1990 + NA | Basis |
-| SS EN 1991-1-1 + NA | Imposed loads |
-| SS EN 1991-1-2 + NA | Fire |
-| SS EN 1991-1-3 + NA | (snow, not applicable) |
-| SS EN 1991-1-4 + NA | Wind -- Singapore-specific values |
-| SS EN 1991-1-5 + NA | Thermal |
-| SS EN 1992 + NA | Concrete |
-| SS EN 1993 + NA | Steel |
-| SS EN 1994 + NA | Composite |
-| SS EN 1995 + NA | Timber |
-| SS EN 1996 + NA | Masonry |
-| SS EN 1997 + NA | Geotechnical -- Singapore tropical soft soils provisions |
-| SS EN 1998 + NA | Seismic -- Singapore far-field (intra-plate) seismicity |
+| SS EN 1990 + NA | 基本原则 |
+| SS EN 1991-1-1 + NA | 使用荷载 |
+| SS EN 1991-1-2 + NA | 火灾 |
+| SS EN 1991-1-3 + NA | （雪荷载，不适用） |
+| SS EN 1991-1-4 + NA | 风荷载——新加坡专用值 |
+| SS EN 1991-1-5 + NA | 温度作用 |
+| SS EN 1992 + NA | 混凝土 |
+| SS EN 1993 + NA | 钢结构 |
+| SS EN 1994 + NA | 组合结构 |
+| SS EN 1995 + NA | 木结构 |
+| SS EN 1996 + NA | 砌体 |
+| SS EN 1997 + NA | 岩土——新加坡热带软土规定 |
+| SS EN 1998 + NA | 抗震——新加坡远场（板块内部）地震作用 |
 
-### 6.2 Wind (SS EN 1991-1-4 + Singapore NA)
+### 6.2 风荷载（SS EN 1991-1-4 + Singapore NA）
 
-- Basic wind velocity vb,0 = **25 m/s** (1-in-50-year mean, 10-min average); equivalent 3-second gust = 33-35 m/s
-- Adjusted for tropical climate, terrain, building height per Eurocode methodology
+- 基本风速 vb,0 = **25 m/s**（50 年一遇平均值，10 分钟平均）；等效 3 秒阵风 = 33–35 m/s
+- 按 Eurocode 方法根据热带气候、地形和建筑高度进行调整
 
-### 6.3 Seismic (SS EN 1998-1 + Singapore NA)
+### 6.3 抗震（SS EN 1998-1 + Singapore NA）
 
-Singapore is **intra-plate, far from major faults**, but has experienced felt earthquakes from Sumatra (1833, 1861, 2007). Singapore NA defines:
-- Reference PGA ~0.05-0.10 g for 475-year return
-- All structures > 4 storeys require seismic analysis per Eurocode 8 + Singapore NA
-- For taller buildings: site-specific response spectrum analysis
+新加坡位于**板块内部且远离主要断层**，但曾感受到来自苏门答腊的地震（1833、1861、2007 年）。新加坡国家附录规定：
+- 475 年重现期参考 PGA 约为 0.05–0.10 g
+- 所有 >4 层结构均须按 Eurocode 8 和新加坡国家附录进行抗震分析
+- 更高建筑需进行场地专属反应谱分析
 
-### 6.4 Geotechnical -- Soft Clay
+### 6.4 岩土工程——软黏土
 
-Singapore has substantial **Marine Clay** deposits (15-30 m thick in much of central + east), plus **Old Alluvium** + **Jurong sedimentary** + **Bukit Timah Granite**. Foundation design:
-- **Piled foundations** standard for buildings > 3 storeys in soft clay
-- **Bored piles** to bedrock common for tall buildings
-- **Driven piles** in firmer ground
-- **Diaphragm walls + top-down construction** common for deep basements (MRT-induced ground movement)
-
----
-
-## 7. Specialised Sub-Codes
-
-### 7.1 Code of Practice on Buildability (BCA)
-
-Singapore mandates **Buildable Design Score (BDS) + Constructability Score (CS)** assessments under the Buildability Regulations. Targets driven by Buildable Design Appraisal System.
-
-### 7.2 Code on Vehicle Parking (LTA)
-
-LTA's standards for parking provision per building type, with growing emphasis on EV charging:
-- Office: 1 per 200 m2 GFA (CBD/MRT area); 1 per 100 m2 (suburb)
-- Residential: 1 per dwelling (HDB / executive condo); 1 per 100 m2 (private)
-- EV charging readiness: 1% of stalls (rising to ~15% by 2030)
-
-### 7.3 PUB Code on Drainage + Plumbing
-
-- Stormwater detention required for sites > 0.2 ha (Drainage Code 2018)
-- Greywater + rainwater systems for Green Mark Platinum
-- Water Conservation Tax + Water Efficiency Labelling Scheme (WELS)
-
-### 7.4 NEA Noise Control
-
-- Construction noise: 75 dBA daytime, 65 dBA night per NEA Environmental Public Health Act
-- Building services noise: per BCA Code on Environmental Sustainability of Buildings
-
-### 7.5 Workplace Safety and Health Act (MOM)
-
-Construction-phase safety. For design: ensure safe access for maintenance (e.g., facade access strategy required at design stage per WSH Maintenance Regulations).
+新加坡广泛分布**海相黏土**（中部和东部许多地区厚度 15–30 m），另有**老冲积层**、**裕廊沉积层**和**武吉知马花岗岩**。基础设计包括：
+- 软黏土中 >3 层建筑通常采用**桩基础**
+- 高层建筑常采用钻至基岩的**钻孔灌注桩**
+- 较坚实地基采用**打入桩**
+- 深地下室常采用**地下连续墙 + 逆作法**（应对地铁引起的地层位移）
 
 ---
 
-## 8. Approval Workflow
+## 7. 专项子规范
 
-### 8.1 Standard Workflow
+### 7.1 可建造性实施规范（BCA）
 
-1. **Provisional Planning Permission (PPP)** from URA -- check zoning, height, GPR, conservation
-2. **Submit Planning Permission application** (URA) with concept design
-3. **Provisional Building Plan (BP)** submission to BCA -- preliminary technical check
-4. **Final Building Plan submission to BCA** -- with structural calculations, fire engineering, accessibility audit, environmental sustainability evidence (Green Mark)
-5. **Fire Safety Certificate submission to SCDF** -- Fire Safety Plan
-6. **Permit to Commence Work** (BCA)
-7. **Construction stages**: foundation works, structural works -- BCA milestone certifications by Accredited Checker
-8. **Sub-contractor approvals** for specific trades (lift, fire systems, AC)
-9. **Pre-TOP (Temporary Occupation Permit) checks** -- BCA + SCDF + PUB + LTA + URA
-10. **TOP issued** by BCA
-11. **CSC (Certificate of Statutory Completion)** issued when all final works + landscape + utilities complete
-12. **Green Mark certification** issued in parallel
+新加坡依据《可建造性条例》强制进行**可建造性设计评分（BDS）+施工性评分（CS）**评估，目标由可建造性设计评估系统确定。
 
-### 8.2 Qualified Persons (QP) System
+### 7.2 车辆停车规范（LTA）
 
-Singapore relies on a **QP-led system**: design by registered QP (architect/engineer), construction supervised by QP, structural design checked by independent Accredited Checker (AC), built work checked by QP. BCA's role is statutory approval + audit, not full plan-check.
+LTA 按建筑类型规定停车配建标准，并日益重视电动车充电：
+- 办公：CBD/MRT 区每 200 m² GFA 配 1 个；郊区每 100 m² 配 1 个
+- 住宅：每户 1 个（HDB/行政公寓）；私人住宅每 100 m² 配 1 个
+- 电动车充电就绪：占车位 1%（2030 年升至约 15%）
 
-### 8.3 Master Builder + Builder Licensing
+### 7.3 PUB 排水与给排水规范
 
-Builder must be registered with BCA (different grades by project value). For projects > S$3 million, full BCA Builder License required.
+- >0.2 ha 场地必须设置雨洪调蓄（《排水规范 2018》）
+- Green Mark Platinum 项目设置中水和雨水系统
+- 水资源保护税 + 水效率标签计划（WELS）
+
+### 7.4 NEA 噪声控制
+
+- 施工噪声：依据 NEA《环境公共卫生法》，白天 75 dBA，夜间 65 dBA
+- 建筑设备噪声：按 BCA《建筑环境可持续性规范》执行
+
+### 7.5 工作场所安全与健康法（MOM）
+
+施工阶段安全。设计时应确保维护安全可达（例如按 WSH《维护条例》要求，在设计阶段确定立面维护通行策略）。
 
 ---
 
-## 9. Quick Numeric Reference
+## 8. 审批流程
 
-| Parameter | Value | Source |
+### 8.1 标准流程
+
+1. URA 颁发**临时规划许可（PPP）**——核查分区、高度、GPR 和保护状态
+2. 向 URA 提交规划许可申请及概念设计
+3. 向 BCA 提交**临时建筑计划（BP）**——进行初步技术审查
+4. 向 BCA 提交最终建筑计划——附结构计算、消防工程、无障碍审查和环境可持续性证据（Green Mark）
+5. 向 SCDF 提交消防安全证书——附消防安全计划
+6. 取得 BCA **开工许可**
+7. **施工阶段**：基础、结构施工——由 Accredited Checker 出具 BCA 里程碑认证
+8. **专项分包审批**：电梯、消防系统、空调等
+9. **TOP 前检查**（临时使用许可）——BCA + SCDF + PUB + LTA + URA
+10. BCA 颁发 **TOP**
+11. 所有收尾工程、景观和公用设施完成后，颁发 **CSC（法定完工证书）**
+12. 同步颁发 **Green Mark 认证**
+
+### 8.2 合格专业人员（QP）体系
+
+新加坡采用**QP 主导体系**：由注册 QP（建筑师/工程师）设计，由 QP 监督施工，由独立 Accredited Checker（AC）审查结构设计，并由 QP 检查已建工程。BCA 的职责是法定审批和审计，而不是全面图纸审查。
+
+### 8.3 总承包商与建筑商许可
+
+建筑商必须向 BCA 注册（按项目金额分级）。项目金额 >300 万新加坡元时，需要完整的 BCA 建筑商执照。
+
+---
+
+## 9. 快速数值参考
+
+| 参数 | 数值 | 来源 |
 |---|---|---|
-| Floor-to-floor residential (HDB) | 2.8-3.0 m | HDB Design Guide; 2.5 m clear min |
-| Floor-to-floor residential (private) | 2.9-3.2 m | Industry; 2.4 m clear min per BC |
-| Floor-to-floor office | 3.8-4.2 m | BCA Guide; 2.7 m clear min |
-| Floor-to-floor hotel | 3.0-3.4 m | Brand + BCA |
-| Door clear width (accessible) | 850-900 mm | BCA Code on Accessibility 2019 |
-| Stair width minimum | 1100 mm | SCDF Fire Code Ch. 3 |
-| Travel distance B sprinklered (1-direction) | 25 m | SCDF Fire Code Ch. 3 |
-| Travel distance B sprinklered (2-direction) | 45 m | SCDF Fire Code Ch. 3 |
-| Cladding (>= 24 m) | A1 / A2 non-combustible | SCDF Fire Code Ch. 7 |
-| ETTV (commercial) | <= 50 W/m2 | Code on Env Sust Buildings 2018 |
-| ETTV (residential) | <= 25 W/m2 | Same |
-| Wind vb,0 | 25 m/s | SS EN 1991-1-4 NA |
-| Site coverage residential (R2 condo) | 35-45% | URA Master Plan |
-| Plot ratio residential (R2) | 1.4-2.8 | URA Master Plan |
-| Parking residential (private) | 1 per 100 m2 GFA | LTA Code on Vehicle Parking |
-| EV-ready parking provision | 1% rising to ~15% by 2030 | LTA |
+| 住宅层高（HDB） | 2.8–3.0 m | HDB Design Guide；净高最小 2.5 m |
+| 住宅层高（私人） | 2.9–3.2 m | 行业惯例；按 BC 净高最小 2.4 m |
+| 办公层高 | 3.8–4.2 m | BCA Guide；净高最小 2.7 m |
+| 酒店层高 | 3.0–3.4 m | 品牌标准 + BCA |
+| 无障碍门净宽 | 850–900 mm | BCA Code on Accessibility 2019 |
+| 楼梯最小宽度 | 1100 mm | SCDF Fire Code 第 3 章 |
+| B 组有喷淋单向疏散距离 | 25 m | SCDF Fire Code 第 3 章 |
+| B 组有喷淋双向疏散距离 | 45 m | SCDF Fire Code 第 3 章 |
+| 覆层（≥24 m） | A1 / A2 不燃 | SCDF Fire Code 第 7 章 |
+| ETTV（商业） | ≤50 W/m² | Code on Environmental Sustainability of Buildings 2018 |
+| ETTV（住宅） | ≤25 W/m² | 同上 |
+| 风速 vb,0 | 25 m/s | SS EN 1991-1-4 NA |
+| 住宅用地覆盖率（R2 公寓） | 35–45% | URA Master Plan |
+| 住宅容积率（R2） | 1.4–2.8 | URA Master Plan |
+| 私人住宅停车 | 每 100 m² GFA 1 个 | LTA Code on Vehicle Parking |
+| 电动车就绪停车位 | 1%，2030 年升至约 15% | LTA |
 
 ---
 
-## 10. Application Workflow
+## 10. 应用流程
 
-1. **Identify URA zone + plot ratio + height envelope** from Master Plan 2019.
-2. **Check conservation status** (if shophouse area or heritage).
-3. **Check Changi conical aviation surface** (height constraint).
-4. **Apply Building Control Act + Building Control Regulations 2003** for general.
-5. **Apply SCDF Fire Code 2018** (always).
-6. **Apply BCA Code on Accessibility 2019** for accessibility.
-7. **Apply Code on Environmental Sustainability of Buildings 2018 + Green Mark target**.
-8. **Apply SS EN Eurocodes with Singapore NAs** for structural.
-9. **Confirm seismic analysis required** (anything > 4 storeys).
-10. **Confirm WSH design requirements** -- maintenance access strategy.
-11. **Cite clauses**: "BCA Building Control Regulations 2003 Reg 8", "SCDF Fire Code 2018 Chapter 3 Section 3.4.2", "BCA Code on Accessibility 2019 Section 5.3", "URA Master Plan 2019 Zone Residential 2", "SS EN 1991-1-4 + Singapore NA Table NA.1", "Code on Environmental Sustainability of Buildings 2018 Section 4.1".
-
----
-
-## 11. Authoritative Sources
-
-- **Building and Construction Authority (BCA)** -- bca.gov.sg -- Building Control Act, Codes, Green Mark
-- **Urban Redevelopment Authority (URA)** -- ura.gov.sg -- Master Plan, Development Control, conservation
-- **Singapore Civil Defence Force (SCDF)** -- scdf.gov.sg -- Fire Code 2018, Fire Safety Act
-- **Public Utilities Board (PUB)** -- pub.gov.sg -- water, drainage, sewerage
-- **National Environment Agency (NEA)** -- nea.gov.sg -- environment, noise
-- **Housing & Development Board (HDB)** -- hdb.gov.sg -- public housing
-- **Land Transport Authority (LTA)** -- lta.gov.sg -- parking, transit, road
-- **Ministry of National Development (MND)** -- mnd.gov.sg
-- **Board of Architects Singapore (BOA)** -- boa.gov.sg
-- **Professional Engineers Board (PEB)** -- peb.gov.sg
-- **Singapore Standards (SS) eShop** -- singaporestandardseshop.sg
+1. 从 Master Plan 2019 **确定 URA 分区、容积率和高度控制范围**。
+2. **核查保护状态**（如位于骑楼店屋或遗产区域）。
+3. **核查樟宜锥形航空面**（高度限制）。
+4. 一般要求采用 **Building Control Act + Building Control Regulations 2003**。
+5. 始终采用 **SCDF Fire Code 2018**。
+6. 无障碍采用 **BCA Code on Accessibility 2019**。
+7. 采用 **Code on Environmental Sustainability of Buildings 2018 + Green Mark 目标**。
+8. 结构采用带新加坡国家附录的 **SS EN Eurocodes**。
+9. **确认是否需要抗震分析**（超过 4 层的建筑）。
+10. **确认 WSH 设计要求**，包括维护通行策略。
+11. **引用条款**：例如 “BCA Building Control Regulations 2003 Reg 8”、“SCDF Fire Code 2018 Chapter 3 Section 3.4.2”、“BCA Code on Accessibility 2019 Section 5.3”、“URA Master Plan 2019 Zone Residential 2”、“SS EN 1991-1-4 + Singapore NA Table NA.1”、“Code on Environmental Sustainability of Buildings 2018 Section 4.1”。
 
 ---
 
-*Cross-references: load `building-codes` for general code principles (Singapore Building Control is unique but conceptually aligned to UK/EC); `fire-life-safety` for general principles (Singapore SCDF Code is comprehensive); `accessibility-design` for global frameworks then BCA Code on Accessibility; `building-sustainability` for Green Mark + LEED + Passivhaus comparison (Singapore was first to mandate green building); `building-envelope` for tropical climate detailing (ETTV/RTTV); `structural-systems` for Eurocode-based design with Singapore NA.*
+## 11. 权威来源
+
+- **建筑与建设局（BCA）**——bca.gov.sg——建筑管制法、规范、Green Mark
+- **城市重建局（URA）**——ura.gov.sg——总体规划、开发管制、保护
+- **新加坡民防部队（SCDF）**——scdf.gov.sg——2018消防规范、消防安全法
+- **公用事业局（PUB）**——pub.gov.sg——给水、排水、污水
+- **国家环境局（NEA）**——nea.gov.sg——环境、噪声
+- **建屋发展局（HDB）**——hdb.gov.sg——公共住房
+- **陆路交通管理局（LTA）**——lta.gov.sg——停车、公共交通、道路
+- **国家发展部（MND）**——mnd.gov.sg
+- **新加坡建筑师委员会（BOA）**——boa.gov.sg
+- **专业工程师委员会（PEB）**——peb.gov.sg
+- **新加坡标准（SS）电子商店**——singaporestandardseshop.sg
+
+---
+
+*交叉引用：加载 `building-codes` 了解一般规范原则（新加坡 Building Control 独特，但理念上与英国/EC 对齐）；加载 `fire-life-safety` 了解一般原则（新加坡 SCDF Code 内容完整）；加载 `accessibility-design` 了解全球框架，再结合 BCA Code on Accessibility；加载 `building-sustainability` 比较 Green Mark、LEED 与 Passivhaus（新加坡是首个强制绿色建筑的国家）；加载 `building-envelope` 处理热带气候节点（ETTV/RTTV）；加载 `structural-systems` 进行含新加坡国家附录的 Eurocode 设计。*

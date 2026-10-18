@@ -1,116 +1,116 @@
 ---
 name: concept-design
-description: Parti development, massing studies, spatial organization strategies, design concept generation, and concept-to-form translation methodologies
+description: 总图构思（Parti）发展、体量研究、空间组织策略、设计概念生成以及从概念到形体转译的方法论
 user-invocable: true
 ---
 
-# Concept Design
+# 概念设计
 
-Comprehensive knowledge base for architectural concept design including parti development, massing strategies, spatial organization models, concept-to-form translation, and design iteration protocols. Invoke this skill when developing early-stage design concepts, evaluating massing options, organizing spatial programs, or translating abstract design ideas into architectural form.
+建筑概念设计综合知识库，涵盖 Parti 发展、体量策略、空间组织模型、概念到形体转译和设计迭代流程。在发展早期设计概念、评估体量方案、组织空间功能或将抽象设计想法转译为建筑形体时调用本技能。
 
 ---
 
-## Section 1: Parti Development
+## 第 1 节：Parti 发展
 
-### 1.1 What is a Parti?
+### 1.1 什么是 Parti？
 
-The parti (from French "parti pris" — a decision taken) is the essential organizational diagram of a building. It is the irreducible idea that governs the relationship between program, structure, circulation, and site. Every design decision should be traceable to the parti. If a move does not reinforce the parti, it weakens the design.
+Parti（源自法语“parti pris”——已作出的决定）是建筑的核心组织图解，是支配功能、结构、交通和场地关系的不可约思想。每项设计决策都应能够追溯到 Parti；如果某个设计动作没有强化 Parti，就会削弱整体设计。
 
-A strong parti:
-- Can be drawn in 30 seconds with a single line or simple shapes
-- Explains the building's organization to a non-architect
-- Resolves the primary design problem (access, view, climate, program)
-- Generates both plan and section logic
-- Remains legible in the finished building
+强有力的 Parti：
+- 可用一条线或简单形状在 30 秒内画出
+- 能向非建筑专业人士解释建筑的组织方式
+- 解决主要设计问题（到达、视线、气候、功能）
+- 同时生成平面和剖面逻辑
+- 在建成建筑中仍保持可读性
 
-### 1.2 Twelve Archetypal Parti Types
+### 1.2 十二种原型 Parti 类型
 
-#### 1. Linear
+#### 1. 线性
 
-**Diagram:** A single bar or spine — all rooms arranged along one axis. Circulation runs parallel to the primary volume.
+**图解：**单一条带或脊柱——所有房间沿一条轴线布置，交通与主体体量平行。
 
-**Spatial Characteristics:**
-- Single-loaded or double-loaded corridor organization
-- Clear directionality from one end to the other
-- Sequential spatial experience (A to B to C)
-- Depth typically 12-18 m for natural ventilation and daylighting (single-loaded: 6-8 m; double-loaded: 12-15 m)
+**空间特征：**
+- 单侧或双侧走道组织
+- 从一端到另一端的清晰方向性
+- 连续的空间体验（A 到 B 到 C）
+- 为自然通风和采光，进深通常为 12–18 m（单侧走道：6–8 m；双侧走道：12–15 m）
 
-**Programmatic Best-Fit:** Museums and galleries (sequential viewing), hospitals (patient wings), schools (classroom wings), linear transit stations, waterfront promenades
+**最适合的功能：**博物馆和美术馆（连续参观）、医院（病房翼）、学校（教室翼）、线性交通站点、滨水步道
 
-**Structural Implications:** Repetitive bay structure perpendicular to the spine. Typical bay: 6-9 m wide x 6-12 m deep. Lateral stability via corridor walls or braced bays at intervals (every 30-40 m in steel, every 20-30 m in timber).
+**结构含义：**重复柱网垂直于脊柱布置。典型柱网为宽 6–9 m × 深 6–12 m。通过走道墙或间隔设置的支撑跨提供侧向稳定（钢结构每 30–40 m 设置，木结构每 20–30 m 设置）。
 
-**Exemplar Buildings:**
-- Neue Nationalgalerie, Berlin (Mies, 1968) — 64.8 m x 64.8 m clear-span roof on 8 cruciform columns, but the gallery below is organized as a linear sequence of rooms
-- Kimbell Art Museum, Fort Worth (Kahn, 1972) — 6 parallel cycloid vaults, each 30.5 m long x 7.0 m wide, linear gallery rooms beneath
+**代表建筑：**
+- Neue Nationalgalerie，柏林（Mies，1968）——64.8 m × 64.8 m 的无柱跨屋顶由 8 根十字形柱支撑，但下方展厅按线性房间序列组织
+- Kimbell Art Museum，沃思堡（Kahn，1972）——6 个平行摆线拱顶，每个长 30.5 m × 宽 7.0 m，下方为线性展厅
 
-#### 2. Courtyard
+#### 2. 庭院
 
-**Diagram:** Rooms arranged around one or more enclosed open spaces. The void is the organizing principle.
+**图解：**房间围绕一个或多个围合的开放空间布置，空隙是组织原则。
 
-**Spatial Characteristics:**
-- Inward-looking — the courtyard provides light, air, and a protected exterior room
-- All rooms share a visual and physical connection to the open space
-- Strong definition of public (courtyard) and private (perimeter rooms) zones
-- Courtyard dimensions for comfortable microclimate: minimum width = 1x surrounding building height in temperate climates; 0.5x in hot climates (for shade)
+**空间特征：**
+- 向内聚焦——庭院提供光线、空气和受保护的室外房间
+- 所有房间都与开放空间建立视觉和实体联系
+- 清晰界定公共（庭院）与私密（周边房间）区域
+- 舒适微气候的庭院尺寸：温带气候最小宽度为周边建筑高度的 1 倍；炎热气候为 0.5 倍（以获得遮阴）
 
-**Programmatic Best-Fit:** Housing (traditional Islamic house, European palazzo, contemporary apartment blocks), monasteries, schools, museums, offices, civic buildings
+**最适合的功能：**住宅（传统伊斯兰住宅、欧洲宫殿、当代公寓楼）、修道院、学校、博物馆、办公和公共建筑
 
-**Structural Implications:** Load-bearing perimeter walls or frame structure with courtyard as structural void. Corner conditions require careful resolution (corner columns or cantilevered slabs). Typical perimeter depth: 6-12 m.
+**结构含义：**采用承重周边墙或框架结构，将庭院作为结构空隙。转角条件需精细处理（转角柱或悬挑楼板）。典型周边进深为 6–12 m。
 
-**Exemplar Buildings:**
-- Salk Institute, La Jolla (Kahn, 1965) — two parallel lab wings flanking a travertine courtyard (61 m x 20 m) open to the Pacific, water channel on axis
-- Alhambra, Granada (14th century) — Court of the Myrtles (36.6 m x 23.5 m, reflecting pool), Court of the Lions (28.5 m x 15.7 m, columned arcade, fountain)
+**代表建筑：**
+- Salk Institute，拉霍亚（Kahn，1965）——两座平行实验楼翼夹持 61 m × 20 m 的洞石庭院，向太平洋开放，中轴设水渠
+- Alhambra，格拉纳达（14 世纪）——桃金娘庭院（36.6 m × 23.5 m，倒影池）、狮子庭院（28.5 m × 15.7 m，柱廊和喷泉）
 
-#### 3. Clustered
+#### 3. 集群
 
-**Diagram:** Discrete volumes grouped by proximity and relationship, without a single dominant axis or center. Spaces are connected by short links or shared edges.
+**图解：**离散体量按邻近关系和联系组成集群，没有单一主导轴线或中心。空间通过短连接或共享边界相连。
 
-**Spatial Characteristics:**
-- Non-hierarchical — no single dominant space or axis
-- Village-like aggregation of semi-independent elements
-- Interstitial spaces (between clusters) are as important as rooms themselves
-- Scale range: from a cluster of rooms to a cluster of buildings
+**空间特征：**
+- 非等级化——没有单一主导空间或轴线
+- 半独立元素如村落般聚合
+- 间隙空间（集群之间）与房间本身同样重要
+- 尺度范围：从房间集群到建筑集群
 
-**Programmatic Best-Fit:** University campuses, research parks, housing communities, primary schools, conference centers, healthcare villages
+**最适合的功能：**大学校园、研究园区、住宅社区、小学、会议中心、医疗村
 
-**Structural Implications:** Each cluster can have independent structure. Connections may be lightweight (glazed links, bridges) or substantial (shared walls). Foundation design varies per cluster, advantageous on sloping or irregular sites.
+**结构含义：**每个集群可采用独立结构。连接部分可以轻型化（玻璃连廊、桥）或实体化（共享墙）。各集群可采用不同基础设计，适合坡地或不规则场地。
 
-**Exemplar Buildings:**
-- Amsterdam Orphanage (van Eyck, 1960) — tartan grid of small pavilions creating an interior village, domed roofs, multiple scales from individual to collective
-- Maggie's Centre, Edinburgh (Richard Murphy, 2009) — cluster of small rooms around a central kitchen, domestic scale, garden connections
+**代表建筑：**
+- Amsterdam Orphanage（van Eyck，1960）——小亭组成的格纹网格营造室内村落，采用穹顶屋面，尺度从个体到集体多层次变化
+- Maggie's Centre，爱丁堡（Richard Murphy，2009）——小房间围绕中央厨房形成集群，具有居住尺度并连接花园
 
-#### 4. Radial
+#### 4. 放射
 
-**Diagram:** Elements radiating from a central point or core. Circulation moves outward from center to periphery or along concentric rings.
+**图解：**元素从中心点或核心向外放射，交通从中心向外围移动，或沿同心环组织。
 
-**Spatial Characteristics:**
-- Strong central focal space (atrium, rotunda, hub)
-- Radial wings or corridors extending outward
-- Diminishing hierarchy from center to edge
-- Clear orientation — the center is always identifiable
-- Plan geometry: circular, hexagonal, octagonal, or triangular subdivision
+**空间特征：**
+- 强烈的中心焦点空间（中庭、圆厅、枢纽）
+- 放射状翼楼或走道向外延伸
+- 从中心到边缘层级逐渐减弱
+- 方向明确——始终可以识别中心
+- 平面几何：圆形、六边形、八边形或三角形分割
 
-**Programmatic Best-Fit:** Airports (central terminal with radiating concourses), hospitals (nursing hub with radiating wings), prisons (panopticon), convention centers, large-scale commercial (central food court with radiating retail wings)
+**最适合的功能：**机场（带放射状登机廊道的中央航站楼）、医院（带放射状病房翼的护理枢纽）、监狱（全景监控式）、会议中心、大型商业（带放射状零售翼的中央美食广场）
 
-**Structural Implications:** Central core carries vertical loads and provides lateral stability. Radiating wings can be identical (modular) or differentiated. Structural efficiency decreases at the perimeter (wider spans between radial walls). Ring beams at intersections.
+**结构含义：**中央核心承受竖向荷载并提供侧向稳定。放射翼楼可以相同（模块化）或有所区别。外围结构效率降低（放射墙之间跨度更大），交接处设置环梁。
 
-**Exemplar Buildings:**
-- Guggenheim Museum, New York (Wright, 1959) — helical ramp spiraling around a 28 m diameter central void, top-lit atrium
-- Chandigarh Capitol Complex (Le Corbusier, 1952-63) — radial site plan with Assembly, Secretariat, and High Court radiating from central esplanade
+**代表建筑：**
+- Guggenheim Museum，纽约（Wright，1959）——螺旋坡道围绕直径 28 m 的中央空洞盘旋，中庭顶部采光
+- Chandigarh Capitol Complex（Le Corbusier，1952–63）——放射式场地规划，议会、秘书处和高等法院从中央大平台向外展开
 
-#### 5. Grid
+#### 5. 网格
 
-**Diagram:** A regular two-directional matrix of structural bays, typically orthogonal. Program is distributed across the grid; hierarchy emerges through selective void, double-height, or density variation.
+**图解：**规则的双向结构柱网矩阵，通常为正交网格。功能分布在网格中，通过局部空洞、层高加倍或密度变化形成层级。
 
-**Spatial Characteristics:**
-- Neutral, non-directional spatial field
-- Flexibility — any bay can house any function (within structural capacity)
-- Hierarchy through exception: voids, double heights, material changes within the grid
-- Repetitive bay dimensions provide economic efficiency
+**空间特征：**
+- 中性、无方向性的空间场
+- 灵活性——任何柱网单元均可容纳不同功能（在结构能力范围内）
+- 通过例外形成层级：网格中的空洞、双层高和材料变化
+- 重复柱网尺寸带来经济效率
 
-**Programmatic Best-Fit:** Offices (6-9 m grids), parking structures (8-10 m grids), warehouse/industrial (10-15 m grids), exhibition halls, libraries, mixed-use buildings
+**最适合的功能：**办公（6–9 m 柱网）、停车结构（8–10 m 柱网）、仓库/工业（10–15 m 柱网）、展览厅、图书馆、混合用途建筑
 
-**Structural Implications:** Highly efficient — repetitive columns, beams, and floor plates. Standard grids: 6 m x 6 m (economic minimum for offices), 7.5 m x 7.5 m (popular for parking below offices), 9 m x 9 m (generous open office), 10.8 m x 10.8 m (maximum economic RC flat slab). Column sizes: 300-600 mm diameter for RC, 200-400 mm for steel, depending on load and height.
+**结构含义：**效率高——柱、梁和楼板重复使用。标准柱网：6 m × 6 m（办公经济下限）、7.5 m × 7.5 m（办公下部停车常用）、9 m × 9 m（宽敞开放办公）、10.8 m × 10.8 m（经济型钢筋混凝土无梁楼板的最大值）。柱尺寸：钢筋混凝土直径 300–600 mm，钢柱 200–400 mm，取决于荷载和高度。
 
 **Exemplar Buildings:**
 - Crown Hall, IIT Chicago (Mies, 1956) — 36.6 m x 67 m clear span, 4 plate girders at 18.3 m spacing, universal space
@@ -118,188 +118,188 @@ A strong parti:
 
 #### 6. Pinwheel
 
-**Diagram:** Elements rotating around a central point but not connected at center — like windmill blades or a swastika motif (in its pre-symbolic geometric sense). Four (or three) wings extending and rotating around a pivot.
+**图解：**元素围绕中心点旋转但不在中心相连——类似风车叶片或万字符图案（取其符号化之前的几何意义）。四个（或三个）翼楼从枢轴处延伸并旋转。
 
-**Spatial Characteristics:**
-- Dynamic centrifugal movement outward from center
-- Each wing extends toward a different landscape or context condition
-- Center is often a void or transitional space
-- Asymmetric balance through rotational equilibrium
+**空间特征：**
+- 从中心向外的动态离心运动
+- 每个翼楼朝向不同的景观或场地语境条件
+- 中心通常是空洞或过渡空间
+- 通过旋转平衡形成非对称平衡
 
-**Programmatic Best-Fit:** Houses (each wing toward different garden aspect), small cultural buildings, pavilions, visitor centers
+**最适合的功能：**住宅（每个翼楼朝向不同花园景观）、小型文化建筑、亭、游客中心
 
-**Structural Implications:** Each wing is structurally semi-independent. Central pivot point may be a column cluster or a core. Wings typically single-story or split-level. Cantilevers at wing terminations create visual dynamism.
+**结构含义：**每个翼楼在结构上半独立。中央枢轴点可以是柱群或核心。翼楼通常为单层或错层；翼端悬挑形成视觉动感。
 
-**Exemplar Buildings:**
-- Barcelona Pavilion (Mies, 1929) — walls and roof planes slide past each other in a pinwheel composition, 8 cruciform chrome columns
-- Brick Country House project (Mies, 1924) — unbuilt; seminal pinwheel plan with walls extending beyond the building envelope into the landscape
+**代表建筑：**
+- Barcelona Pavilion（Mies，1929）——墙体和屋面平面在风车式构图中相互错动，采用 8 根十字形镀铬柱
+- Brick Country House 项目（Mies，1924）——未建成；先驱性风车平面，墙体从建筑边界延伸进入景观
 
-#### 7. Bar
+#### 7. 条带
 
-**Diagram:** A single rectangular volume, typically elongated (length:width > 3:1). Simpler than the linear parti — the bar is a single mass rather than rooms along a spine.
+**图解：**单一矩形体量，通常为长条形（长:宽 >3:1）。比线性 Parti 更简单——条带是单一体量，而不是沿脊柱布置的房间。
 
-**Spatial Characteristics:**
-- Maximum perimeter-to-area ratio (good for daylighting and ventilation)
-- Clear structural logic: short-span direction perpendicular to the long axis
-- Two primary facades with distinct orientations (north/south or street/garden)
-- Floor plates 12-18 m deep (optimal for daylighting: daylight penetrates 2-2.5x ceiling height from facade)
+**空间特征：**
+- 周长与面积比最大（有利于采光和通风）
+- 结构逻辑清晰：短跨方向垂直于长轴
+- 两个朝向明确的主立面（南北向或街道/花园向）
+- 楼板进深 12–18 m（最佳采光：日光可从立面进入约 2–2.5 倍层高的深度）
 
-**Programmatic Best-Fit:** Residential (apartment slabs), offices (commercial bars), laboratories (with service spine), schools (classroom bars)
+**最适合的功能：**住宅（公寓板楼）、办公（商业条带）、实验室（带服务脊柱）、学校（教室条带）
 
-**Structural Implications:** Repetitive cross-section. Steel or RC frame with 6-9 m bays. Lateral stability via cores at ends or intervals. For timber: CLT panels at 3.6-6 m bay spacing, typically 5-8 stories maximum.
+**结构含义：**重复截面。采用 6–9 m 柱网的钢或钢筋混凝土框架，通过端部或中间核心提供侧向稳定。木结构采用 3.6–6 m 柱网间距的 CLT 板，通常最高 5–8 层。
 
-**Exemplar Buildings:**
-- Unite d'Habitation, Marseille (Le Corbusier, 1952) — 137 m x 24 m x 56 m, 337 apartments in a single bar, internal street, pilotis
-- Narkomfin Building, Moscow (Ginzburg, 1930) — 85 m long bar, skip-stop corridor, duplex apartments, detached communal block
+**代表建筑：**
+- Unite d'Habitation，马赛（Le Corbusier，1952）——137 m × 24 m × 56 m，单一条带内设 337 套公寓、内部街道和底层架空柱
+- Narkomfin Building，莫斯科（Ginzburg，1930）——长 85 m 的条带，隔层停靠走道、复式公寓和独立公共建筑
 
-#### 8. Tower
+#### 8. 塔楼
 
-**Diagram:** A vertical extrusion of a compact floor plate, typically with a central or offset core. Height:width > 3:1.
+**图解：**紧凑楼板的垂直挤压体量，通常设中央或偏心核心。高:宽 >3:1。
 
-**Spatial Characteristics:**
-- Vertical stacking of repetitive floor plates
-- Core as organizing element (elevators, stairs, risers, restrooms)
-- Premium floors at top (views, light, prestige)
-- Ground floor as public interface (lobby, retail, through-block connection)
-- Core-to-perimeter distance: 9-15 m (optimal for daylighting and leasing depth in offices)
+**空间特征：**
+- 重复楼板垂直叠置
+- 核心作为组织元素（电梯、楼梯、管井、卫生间）
+- 顶部为优质楼层（景观、采光、声望）
+- 首层作为公共界面（大堂、零售、穿越街区的连接）
+- 核心至外围距离：9–15 m（适合办公采光和租赁进深）
 
-**Programmatic Best-Fit:** Offices (10-60+ stories), residential (15-80+ stories), hotels, mixed-use towers
+**最适合的功能：**办公（10–60+ 层）、住宅（15–80+ 层）、酒店、混合用途塔楼
 
-**Structural Implications:** Core provides gravity and lateral resistance (RC shear walls 300-600 mm thick, or braced steel core). Perimeter frame: steel or RC columns at 3-4.5 m centers. Outrigger trusses at intervals for supertall (> 300 m). Floor plate efficiency: 70-82% net-to-gross (compact core = higher efficiency). Structural premium above 50 stories: 15-25% additional cost.
+**结构含义：**核心提供重力承载和侧向抗力（300–600 mm 厚钢筋混凝土剪力墙，或支撑钢核心）。外围框架采用钢或钢筋混凝土柱，柱距 3–4.5 m。超高层（>300 m）每隔一定高度设置伸臂桁架。楼板效率：净面积/总面积 70–82%（核心越紧凑，效率越高）。超过 50 层的结构成本溢价约增加 15–25%。
 
-**Exemplar Buildings:**
-- Seagram Building, New York (Mies + Johnson, 1958) — 38 stories, 157 m, bronze I-beam curtain wall, 27 m plaza setback
-- 30 St Mary Axe, London (Foster, 2004) — 41 stories, 180 m, diagrid structure, circular plan tapering at base and top
+**代表建筑：**
+- Seagram Building，纽约（Mies + Johnson，1958）——38 层、157 m，青铜工字钢幕墙，广场退距 27 m
+- 30 St Mary Axe，伦敦（Foster，2004）——41 层、180 m，网格式结构，圆形平面在底部和顶部收分
 
-#### 9. Podium + Tower
+#### 9. 裙房 + 塔楼
 
-**Diagram:** A horizontal base (podium, 2-6 stories) supporting one or more vertical towers. The podium engages the street; the tower engages the sky.
+**图解：**水平基座（2–6 层裙房）支撑一座或多座竖向塔楼。裙房连接街道，塔楼面向天空。
 
-**Spatial Characteristics:**
-- Podium: large-floor-plate programs (retail, parking, conference, amenity)
-- Tower: small-floor-plate programs (residential, hotel, office)
-- Podium roof as amenity deck (pool, garden, playground)
-- Podium defines the streetwall; tower is set back from the podium edge (minimum 3 m for many zoning codes)
+**空间特征：**
+- 裙房：大楼板功能（零售、停车、会议、配套）
+- 塔楼：小楼板功能（住宅、酒店、办公）
+- 裙房屋顶作为配套平台（泳池、花园、游乐场）
+- 裙房界定街墙；塔楼从裙房边缘退让（许多分区规范要求最小 3 m）
 
-**Programmatic Best-Fit:** Mixed-use urban development, hotels above retail, residential above commercial, transit-oriented development
+**最适合的功能：**城市混合用途开发、零售上部酒店、商业上部住宅、公共交通导向开发
 
-**Structural Implications:** Transfer structure at podium-tower interface: transfer beams (1.2-3.0 m deep) or transfer plates (600-1,200 mm thick RC) redistribute tower column loads to wider podium column grids. Podium columns at 8-10 m grids for parking; tower columns at 6-9 m grids.
+**结构含义：**裙房—塔楼交界处设置转换结构：转换梁（深 1.2–3.0 m）或转换板（厚 600–1,200 mm 的钢筋混凝土）将塔楼柱荷载重新分配到更宽的裙房柱网。停车裙房柱网为 8–10 m；塔楼柱网为 6–9 m。
 
-**Exemplar Buildings:**
-- Marina Bay Sands, Singapore (Safdie, 2010) — 3 towers (57 stories each) on a podium with casino, convention, retail; 340 m SkyPark spanning all three towers
-- VIA 57 West, New York (BIG, 2016) — pyramidal hybrid with podium base, courtyard tower rising from west to east, 76,180 m2
+**代表建筑：**
+- Marina Bay Sands，新加坡（Safdie，2010）——裙房上设置 3 座塔楼（每座 57 层），包含赌场、会议和零售功能；340 m 高的 SkyPark 跨接三座塔楼
+- VIA 57 West，纽约（BIG，2016）——以裙房为基座的金字塔式混合体量，庭院塔楼由西向东升起，面积 76,180 m²
 
 #### 10. Atrium
 
-**Diagram:** A central void (atrium) surrounded by occupied floors on multiple levels. The void connects all levels visually and provides daylight deep into the plan.
+**图解：**中央空洞（中庭）被多个楼层的使用空间围合。空洞在视觉上连接各层，并将日光引入平面深处。
 
-**Spatial Characteristics:**
-- Central void as social and spatial heart of the building
-- Visual connection between floors (community, orientation, wayfinding)
-- Stack effect drives natural ventilation (if atrium is ventilated to exterior)
-- Daylight delivered to interior spaces via atrium glazing (target: 2% daylight factor at atrium floor)
-- Atrium proportions: height-to-width ratio 2:1 to 5:1 typical; width minimum 6 m for meaningful daylight penetration
+**空间特征：**
+- 中央空洞作为建筑的社交与空间核心
+- 楼层之间形成视觉联系（促进社区感、定位和寻路）
+- 烟囱效应驱动自然通风（前提是中庭与室外连通）
+- 通过中庭玻璃将日光引入内部空间（中庭地面目标日光因子：2%）
+- 中庭比例：典型高宽比为 2:1 至 5:1；宽度至少 6 m 才能实现有意义的日光渗透
 
-**Programmatic Best-Fit:** Hotels, shopping centers, corporate headquarters, hospitals, universities, libraries, civic buildings
+**最适合的功能：**酒店、购物中心、企业总部、医院、大学、图书馆、公共建筑
 
-**Structural Implications:** Long-span roof structure over atrium void (steel trusses, space frames, cable-net, ETFE cushions). Floor plates cantilever or span around the void. Atrium glazing requires careful structural support (spider fittings, cable walls, or mullion systems) and smoke management (minimum 2 m smoke reservoir depth per BS 9999).
+**结构含义：**中庭空洞上方采用大跨度屋盖结构（钢桁架、空间网架、索网、ETFE 气枕）。楼板可围绕空洞悬挑或跨越。中庭玻璃需要精细的结构支撑（点式连接件、索墙或立柱系统）和排烟管理（依据 BS 9999，蓄烟层最小深度为 2 m）。
 
-**Exemplar Buildings:**
-- Ford Foundation, New York (Roche Dinkeloo, 1968) — 12-story atrium garden, L-shaped office floors wrap two sides, first modern office atrium
-- Bradbury Building, Los Angeles (Wyman, 1893) — 5-story skylit atrium, ornamental iron railings, open-cage elevators, 15 m wide atrium
+**代表建筑：**
+- Ford Foundation，纽约（Roche Dinkeloo，1968）——12 层中庭花园，L 形办公楼层环绕两侧，是最早的现代办公中庭之一
+- Bradbury Building，洛杉矶（Wyman，1893）——5 层顶部采光中庭、装饰铁栏杆、开放式笼形电梯，中庭宽 15 m
 
-#### 11. Spiral
+#### 11. 螺旋
 
-**Diagram:** Circulation path spirals upward or outward, with program arranged along the continuous path. The ramp or helical stair is the primary spatial and structural element.
+**图解：**交通路径向上或向外螺旋，功能沿连续路径布置。坡道或螺旋楼梯是主要空间和结构元素。
 
-**Spatial Characteristics:**
-- Continuous movement rather than floor-by-floor stops
-- No distinct floor plates — seamless vertical transition
-- Dramatic spatial experience (compression, expansion, revelation as you ascend)
-- Challenging for accessibility (requires parallel elevator access)
+**空间特征：**
+- 连续移动，而非逐层停留
+- 没有明确楼板——形成无缝的竖向过渡
+- 戏剧性空间体验（上升过程中的压缩、扩张和逐步揭示）
+- 无障碍较难处理（需要设置平行电梯）
 
-**Programmatic Best-Fit:** Museums and galleries (continuous viewing sequence), parking garages, observation towers, religious/ceremonial buildings, exhibition pavilions
+**最适合的功能：**博物馆和美术馆（连续参观序列）、停车库、观景塔、宗教/仪式建筑、展览亭
 
-**Structural Implications:** Helical ramp acts as structural element (inclined slab, typically 200-300 mm RC). Central column or perimeter walls provide vertical support. Torsional loads must be resolved. Foundation receives asymmetric loads.
+**结构含义：**螺旋坡道兼作结构构件（倾斜楼板，钢筋混凝土通常厚 200–300 mm）。中央柱或周边墙提供竖向支撑，必须处理扭转载荷，基础承受非对称荷载。
 
-**Exemplar Buildings:**
-- Guggenheim Museum, New York (Wright, 1959) — continuous helical ramp, 28 m diameter, 6 levels, 430 m total ramp length
-- National Museum of Qatar, Doha (Nouvel, 2019) — interlocking disc forms creating a spiraling spatial sequence, 52,000 m2
+**代表建筑：**
+- Guggenheim Museum，纽约（Wright，1959）——连续螺旋坡道，直径 28 m，6 个层级，坡道总长 430 m
+- National Museum of Qatar，多哈（Nouvel，2019）——相互咬合的圆盘形体量形成螺旋空间序列，面积 52,000 m²
 
-#### 12. Split-Level
+#### 12. 错层
 
-**Diagram:** Floor plates at half-story offsets, connected by half-flights of stairs. The section is the primary design tool.
+**图解：**楼板错开半层，通过半层楼梯连接。剖面是主要设计工具。
 
-**Spatial Characteristics:**
-- Vertical spatial interconnection without full double-height spaces
-- Half-level offsets create sightlines between adjacent spaces
-- Efficient use of site slope (embed into hillside)
-- Complex spatial experience with modest floor-to-floor heights
+**空间特征：**
+- 不设置完整通高空间也能实现竖向空间互联
+- 半层错位在相邻空间之间形成视线
+- 高效利用场地坡度（嵌入山坡）
+- 在适中的层高下形成复杂空间体验
 
-**Programmatic Best-Fit:** Houses on sloping sites, small cultural buildings, retail (half-level browsing), libraries, schools
+**最适合的功能：**坡地住宅、小型文化建筑、零售（半层浏览）、图书馆、学校
 
-**Structural Implications:** Staggered floor slabs require careful structural coordination. Bearing walls at half-level offsets act as both gravity and lateral systems. Typical half-level: 1.5 m offset (for 3.0 m floor-to-floor). Foundation steps with the slope.
+**结构含义：**错层楼板需要精细的结构协调。半层错位处的承重墙同时作为重力和侧向体系。典型半层高差为 1.5 m（对应 3.0 m 层高），基础随坡度分级。
 
-**Exemplar Buildings:**
-- Villa Muller, Prague (Loos, 1930) — Raumplan: rooms at different levels within a cubic volume, each sized to its function (salon: high ceiling, bedroom: low ceiling)
-- Habitat 67, Montreal (Safdie, 1967) — 354 prefabricated boxes stacked in interlocking split-level configurations
+**代表建筑：**
+- Villa Muller，布拉格（Loos，1930）——Raumplan：立方体体量内的房间处于不同标高，并按功能确定尺度（客厅层高较高，卧室层高较低）
+- Habitat 67，蒙特利尔（Safdie，1967）——354 个预制盒体以相互咬合的错层方式堆叠
 
 ---
 
-## Section 2: Massing Strategies
+## 第 2 节：体量策略
 
-### 2.1 Additive vs. Subtractive Massing
+### 2.1 加法与减法体量
 
-**Additive Massing:** Building form generated by combining discrete volumes. Each volume is legible as a separate element. The composition is the relationship between parts.
-- Method: Start with the primary volume (the largest program element). Add secondary volumes based on program adjacency, site orientation, and structural logic.
-- Expression: articulated joints between volumes (recessed glazed links, material changes, setbacks)
-- Example: Vitra Fire Station (Hadid, 1993) — sharp-angled volumes colliding and separating
+**加法体量：**通过组合离散体量生成建筑形体，每个体量都可作为独立元素识别，构图重点是各部分之间的关系。
+- 方法：从主体体量（最大的功能元素）开始，根据功能邻接、场地朝向和结构逻辑增加次要体量。
+- 表达：强调体量之间的节点（凹入式玻璃连接、材料变化、退台）
+- 示例：Vitra Fire Station（Hadid，1993）——尖角体量相互碰撞并分离
 
-**Subtractive Massing:** Building form generated by carving voids from a solid. The starting point is a maximum envelope; the final form is what remains after removals.
-- Method: Start with the maximum buildable envelope (site boundary, height limit, setback requirements, FAR). Subtract for: solar access (cut south-facing voids), views (cut toward view corridors), entry (carve entrance volumes), outdoor space (cut courtyards, terraces).
-- Expression: the void is the design move — what is removed matters more than what remains
-- Example: Simmons Hall, MIT (Holl, 2002) — 10-story slab with 5 large conical voids cut through the mass for light, air, and communal space
+**减法体量：**通过从实体中雕刻空洞生成建筑形体。起点是最大建筑包络，最终形体是移除部分后剩余的实体。
+- 方法：从最大可建包络（用地边界、高度限值、退界要求、FAR）开始，针对太阳能获取（切削朝南空洞）、景观（朝视线廊道切削）、入口（雕刻入口体量）和室外空间（切削庭院、露台）进行减法。
+- 表达：空洞是设计动作——被移除的部分比剩余部分更重要
+- 示例：Simmons Hall，MIT（Holl，2002）——10 层板式体量中切出 5 个大型锥形空洞，用于采光、通风和公共空间
 
-### 2.2 Solid-Void Relationships
+### 2.2 实体—空洞关系
 
-The relationship between occupied (solid) and unoccupied (void) space defines the character of the building:
+被占用的实体空间与未占用的空洞空间之间的关系决定建筑特征：
 
-| Solid-Void Ratio | Character | Example |
+| 实体—空洞比例 | 特征 | 示例 |
 |---|---|---|
-| 90% solid / 10% void | Fortress, bunker, introversion | Therme Vals (Zumthor) |
-| 70% solid / 30% void | Institutional gravitas, courtyard types | Salk Institute (Kahn) |
-| 50% solid / 50% void | Balanced, civic, campus types | IIT Campus (Mies) |
-| 30% solid / 70% void | Open, transparent, pavilion types | Farnsworth House (Mies) |
-| 10% solid / 90% void | Canopy, shelter, minimal enclosure | Serpentine Pavilions (various) |
+| 90% 实体 / 10% 空洞 | 堡垒、掩体、内向性 | Therme Vals（Zumthor） |
+| 70% 实体 / 30% 空洞 | 机构庄重感、庭院类型 | Salk Institute（Kahn） |
+| 50% 实体 / 50% 空洞 | 平衡、公共、校园类型 | IIT Campus（Mies） |
+| 30% 实体 / 70% 空洞 | 开放、透明、亭式类型 | Farnsworth House（Mies） |
+| 10% 实体 / 90% 空洞 | 顶棚、庇护、最小围合 | Serpentine Pavilions（多位建筑师） |
 
-### 2.3 Articulation Methods
+### 2.3 体量表达方法
 
-**Setbacks:** Upper floors recessed from lower floors. Creates terraces, reduces perceived bulk, defines a streetwall at lower levels while allowing height above. Zoning-driven setback: New York 1916 Zoning (wedding cake massing). Design-driven setback: VIA 57 West (BIG, 2016).
+**退台：**上部楼层相对下部楼层后退，形成露台、减小感知体量，在低层界定街墙并允许上部增加高度。分区驱动的退台：纽约 1916 年分区法（婚礼蛋糕式体量）。设计驱动的退台：VIA 57 West（BIG，2016）。
 
-**Cantilevers:** Volumes projecting beyond the support structure below. Creates shelter at ground level, visual drama, and architectural assertion. Structural limit for RC: 3-6 m typical; for steel: 6-15 m; for post-tensioned: up to 20 m. Example: CCTV Headquarters (OMA, 2012) — 75 m cantilever at the top connecting two leaning towers.
+**悬挑：**体量超出下方支撑结构。可在地面层形成庇护、视觉戏剧性和建筑宣言。钢筋混凝土典型结构限值 3–6 m；钢结构 6–15 m；后张预应力结构可达 20 m。示例：CCTV Headquarters（OMA，2012）——顶部 75 m 悬挑连接两座倾斜塔楼。
 
-**Terracing:** Stepping the building mass with the topography or in response to solar access requirements. Each terrace creates an outdoor room for the floor below. Example: Habitat 67 — each unit has a garden on the roof of the unit below.
+**台地化：**使建筑体量顺应地形或太阳 access 要求逐级退台。每个露台都为下层创造一个室外房间。示例：Habitat 67——每个单元都在下方单元屋顶拥有花园。
 
-**Stepping:** Incremental vertical offsets creating a stepped profile. Responds to zoning envelopes, reduces shadow impact on neighbors, creates a varied skyline. Example: 8 House, Copenhagen (BIG, 2010) — figure-eight plan with ramping cross-section, 476 apartments.
+**阶梯式：**通过逐步竖向错位形成阶梯轮廓，回应分区包络、减少对邻地的遮阴影响并创造变化的天际线。示例：8 House，哥本哈根（BIG，2010）——“8”字平面与坡道剖面，包含 476 套公寓。
 
-### 2.4 Solar Massing
+### 2.4 太阳能体量
 
-**Orientation for Passive Solar (Northern Hemisphere):**
-- Elongate the building on the east-west axis (long facades face north and south)
-- South facade: maximum glazing with horizontal shading (overhangs sized to block summer sun at 70+ degrees altitude but admit winter sun at 25-35 degrees)
-- East facade: moderate glazing with vertical fins (morning sun is desirable for wake-up in residential)
-- West facade: minimize glazing or use deep vertical louvers (late afternoon sun causes overheating — west facade receives 2-3x the solar gain of south in summer)
-- North facade: maximize glazing for diffuse daylight without direct solar gain (ideal for studios, galleries, offices)
+**被动太阳能朝向（北半球）：**
+- 建筑沿东西轴线拉长（长立面朝北和朝南）
+- 南立面：最大化玻璃面积并设置水平遮阳（挑檐尺寸应能遮挡高度角 70° 以上的夏季太阳，同时允许高度角 25–35° 的冬季太阳进入）
+- 东立面：适度玻璃并设置竖向翼板（住宅中早晨阳光有利于起床）
+- 西立面：减少玻璃或采用深竖向百叶（午后阳光导致过热——夏季西立面太阳得热为南立面的 2–3 倍）
+- 北立面：最大化玻璃以获得漫射日光而避免直接太阳得热（适合工作室、美术馆和办公室）
 
-**Solar Envelope (Ralph Knowles):** The maximum buildable volume that will not shadow adjacent properties beyond specified limits. Defined by: latitude, time of day (typically 10:00-14:00 access required), date (winter solstice for worst case), and shadow fence height on adjacent property. Results in sloped/stepped massing that creates optimal solar access for the neighborhood.
+**太阳能包络（Ralph Knowles）：**在不使邻地遮阴超过规定限值的情况下允许建造的最大体量。由纬度、时间（通常要求 10:00–14:00 的日照）、日期（冬至为最不利情况）和邻地遮阴围栏高度确定。最终形成倾斜/阶梯式体量，为社区创造最佳日照条件。
 
-### 2.5 Wind-Responsive Massing
+### 2.5 风环境响应体量
 
-- **Aerodynamic shaping:** Rounded corners reduce wind acceleration around buildings by 30-40% compared to sharp corners. Tapered or setback forms reduce vortex shedding (critical for supertall towers).
-- **Podium sheltering:** A 2-4 story podium creates a wind-protected zone at ground level. Wind speed at pedestrian level behind a podium is 40-60% lower than at the exposed tower face.
-- **Porosity:** Through-building openings (sky gardens, ventilation slots) can reduce overall wind load by 10-20% and provide natural ventilation to interior spaces.
-- **Orientation:** Orient the narrow facade toward the prevailing winter wind. Typical prevailing wind in mid-latitudes: west to northwest in winter.
-- **Comfort criteria (Lawson):** Sitting: < 4 m/s (Beaufort 2-3); Standing/entrance: < 6 m/s; Walking: < 8 m/s; Uncomfortable: > 8 m/s. These targets must be tested via CFD or wind tunnel (at 1:300 scale minimum).
+- **空气动力学塑形：**圆角相较于尖角可使建筑周围的风速加速降低 30–40%。锥形或退台形体可减少涡激脱落（对超高层塔楼尤为关键）。
+- **裙房遮蔽：**2–4 层裙房可在地面层形成避风区。裙房背风侧行人高度处的风速比暴露塔楼立面处低 40–60%。
+- **通透性：**贯穿建筑的开口（空中花园、通风缝）可使总体风荷载降低 10–20%，并为内部空间提供自然通风。
+- **朝向：**将窄立面朝向冬季主导风向。中纬度地区典型冬季主导风向为西风至西北风。
+- **舒适度标准（Lawson）：**坐姿：< 4 m/s（Beaufort 2–3 级）；站立/入口：< 6 m/s；行走：< 8 m/s；不舒适：> 8 m/s。必须通过 CFD 或风洞试验验证这些目标（最小比例为 1:300）。
 
 ### 2.6 View-Responsive Massing
 
@@ -336,333 +336,330 @@ Score each option 1-5 per criterion, multiply by weight, sum for total. Select t
 
 ---
 
-## Section 3: Spatial Organization
+## 第 3 节：空间组织
 
-### 3.1 Six Organizational Models (after Francis D.K. Ching)
+### 3.1 六种组织模型（依据 Francis D.K. Ching）
 
-#### Centralized Organization
+#### 集中式组织
 
-**Definition:** A dominant central space surrounded by secondary spaces. The center is the focus; periphery is subordinate.
+**定义：**以主导中心空间为核心，周围环绕次要空间。中心是焦点，外围处于从属地位。
 
-**When to Use:** Programs with a single primary gathering space — concert halls, worship spaces, legislatures, courts, sports arenas
+**适用情况：**具有单一主要聚集空间的功能——音乐厅、礼拜空间、议会、法院、体育馆
 
-**Advantages:**
-- Clear hierarchy — the center is undeniable
-- Strong orientation — users always know where the main event is
-- Efficient for spectator programs (radial sightlines)
+**优点：**
+- 层级清晰——中心不可忽视
+- 方向性强——使用者始终知道主要活动在哪里
+- 适合观众型功能（放射状视线）
 
-**Disadvantages:**
-- Inflexible — the center must remain central
-- Difficult to expand without disrupting the hierarchy
-- Peripheral spaces may feel secondary or residual
+**缺点：**
+- 缺乏灵活性——中心必须保持中心地位
+- 扩建时容易破坏既有层级
+- 外围空间可能显得次要或残余
 
-**Programmatic Best-Fit:** Concert halls (2,000 m2 floor area at 0.7-0.9 m2/seat), courthouses (central courtroom), religious buildings (nave/sanctuary), libraries (central reading room)
+**最适合的功能：**音乐厅（2,000 m² 楼面面积，按 0.7–0.9 m²/座）、法院（中央法庭）、宗教建筑（中殿/圣所）、图书馆（中央阅览室）
 
-**Structural Implications:** Long-span roof over central space (steel trusses: 30-60 m; space frame: 40-100 m; cable-net: 50-200 m). Peripheral spaces can use conventional framing. Central space volume: 6-20 m clear height depending on acoustic and programmatic requirements.
+**结构含义：**中心空间上方采用大跨度屋顶（钢桁架：30–60 m；空间网架：40–100 m；索网：50–200 m）。外围空间可采用常规框架。中心空间净高根据声学和功能要求为 6–20 m。
 
-#### Linear Organization
+#### 线性组织
 
-**Definition:** Spaces arranged in a row along a path. The path may be straight, curved, segmented, or branching.
+**定义：**空间沿路径成排布置，路径可以是直线、曲线、分段或分支。
 
-**When to Use:** Programs that require sequential access — galleries, hospitals, corridors of power, processing plants
+**适用情况：**需要顺序进入的功能——美术馆、医院、权力建筑的仪式性通道、加工厂
 
-**Advantages:**
-- Clear wayfinding — one path, one direction
-- Natural ventilation potential (cross-ventilation perpendicular to path)
-- Can adapt to site geometry (curve with a river, follow a contour)
+**优点：**
+- 导向清晰——一条路径、一个方向
+- 具有自然通风潜力（垂直于路径进行交叉通风）
+- 可适应场地几何（沿河流弯曲、沿等高线布置）
 
-**Disadvantages:**
-- Long walking distances (mitigate by limiting to 150 m before a vertical core or break)
-- Dead-end conditions if path does not loop or branch
-- Monotonous if rhythm and variation are not introduced
+**缺点：**
+- 行走距离长（可通过在到达竖向核心或节点前限制在 150 m 内来缓解）
+- 路径不循环或不分支时会形成尽端
+- 缺乏节奏和变化时容易单调
 
-**Programmatic Best-Fit:** Museums (100-150 m maximum viewing sequence before fatigue), hospital wards (45-60 m nursing corridor maximum), schools (double-loaded corridor with 60-80 m wing lengths), airport terminals (linear concourses: 500-1,500 m with moving walkways)
+**最适合的功能：**博物馆（疲劳前的最大连续参观序列为 100–150 m）、医院病房（护理走道最大 45–60 m）、学校（双侧走道，翼楼长度 60–80 m）、机场航站楼（线性登机廊道：500–1,500 m，配合自动步道）
 
-**Structural Implications:** Repetitive bay structure. Expansion joints every 40-60 m in RC and masonry, every 60-90 m in steel (per climate — more frequent in extreme temperature ranges).
+**结构含义：**采用重复柱跨结构。钢筋混凝土和砌体每 40–60 m 设置伸缩缝，钢结构每 60–90 m 设置伸缩缝（根据气候条件调整；极端温差地区应更密）。
 
-#### Radial Organization
+#### 放射式组织
 
-**Definition:** Linear arms extending outward from a central point. Combines the focus of centralized with the directionality of linear.
+**定义：**线性翼楼从中心点向外延伸，将集中式组织的焦点性与线性组织的方向性结合起来。
 
-**When to Use:** Programs requiring both a central hub and directional extensions — airports, hospitals, conference centers
+**适用情况：**同时需要中央枢纽和方向性延伸的功能——机场、医院、会议中心
 
-**Advantages:**
-- Central hub serves as orientation and distribution point
-- Each arm can respond to different site conditions (view, sun, access)
-- Expandable by adding arms without disrupting the center
+**优点：**
+- 中央枢纽兼作定位和分配节点
+- 每个翼楼可响应不同的场地条件（景观、日照、出入口）
+- 可通过增加翼楼扩建，而不扰动中心
 
-**Disadvantages:**
-- Intersection geometry at center becomes complex
-- Peripheral ends of arms may be far from center (limit arm length to 100-150 m)
-- Wedge-shaped interstitial spaces between arms may be difficult to program
+**缺点：**
+- 中心交接处的几何关系复杂
+- 翼楼末端可能距中心过远（翼楼长度宜控制在 100–150 m）
+- 翼楼之间的楔形间隙空间可能难以布置功能
 
-**Programmatic Best-Fit:** Airport terminals (central check-in, radiating concourses), hospitals (nursing hub with 3-4 wings, maximum 30 beds per wing), campuses (central commons with radiating academic buildings)
+**最适合的功能：**机场航站楼（中央值机区、放射式登机廊道）、医院（含 3–4 个翼楼的护理枢纽，每翼最多 30 张床位）、校园（中央公共空间与放射式教学楼）
 
-**Structural Implications:** Hub structure carries concentrated loads from multiple arms. Ring beams at hub perimeter distribute loads. Each arm can use independent structural systems. Differential settlement between hub and arms requires movement joints.
+**结构含义：**枢纽结构承受多个翼楼传来的集中荷载。枢纽周边设置环梁分配荷载。每个翼楼可采用独立结构体系。枢纽与翼楼之间的差异沉降需要设置变形缝。
 
-#### Clustered Organization
+#### 集群式组织
 
-**Definition:** Groups of spaces related by proximity, shared visual or circulatory properties, or common function. No dominant axis or center.
+**定义：**空间因邻近关系、共享视觉或交通属性，或共同功能而组成群组；不存在主导轴线或中心。
 
-**When to Use:** Programs with multiple semi-autonomous units — university departments, housing communities, research centers, healthcare villages
+**适用情况：**包含多个半自治单元的功能——大学院系、居住社区、研究中心、医疗村
 
-**Advantages:**
-- Flexible — clusters can be added, removed, or modified independently
-- Creates varied, village-like spatial experience
-- Responds well to irregular sites and topography
-- Allows phased construction
+**优点：**
+- 灵活——可独立增加、删除或调整集群
+- 营造多样化、类似村落的空间体验
+- 对不规则场地和地形适应性好
+- 支持分期建设
 
-**Disadvantages:**
-- Weak overall legibility — users may not grasp the whole
-- Circulation can be indirect (target maximum 1.3x the direct distance between any two points)
-- Difficult to create a strong institutional identity
+**缺点：**
+- 整体可读性弱——使用者可能难以把握全局
+- 交通可能迂回（任意两点间的交通距离宜不超过直线距离的 1.3 倍）
+- 难以形成鲜明的机构识别性
 
-**Programmatic Best-Fit:** University campuses (cluster by department), housing (cluster by community group: 20-40 units per cluster per Dunbar-inspired social scaling), healthcare (cluster by patient acuity), research (cluster by discipline with shared equipment zones)
+**最适合的功能：**大学校园（按院系分组）、住宅（按社区群组分组：参考 Dunbar 社会尺度，每集群 20–40 户）、医疗（按患者病情严重程度分组）、研究设施（按学科分组并共享设备区）
 
-**Structural Implications:** Each cluster is structurally independent. Connections between clusters can be lightweight (covered walkways: steel or timber, 3-6 m wide) or substantial (shared walls). Variable foundation types per cluster (advantage on mixed soil conditions).
+**结构含义：**每个集群在结构上独立。集群之间的连接可轻型化（有盖连廊：钢或木结构，宽 3–6 m）或实体化（共享墙）。各集群可采用不同基础类型，适用于土质混杂的场地。
 
-#### Grid Organization
+#### 网格式组织
 
-**Definition:** Spaces organized within a regular, two-dimensional framework of intersecting parallel lines. Program is distributed across grid cells.
+**定义：**空间组织在由相交平行线构成的规则二维框架内，功能分布于网格单元中。
 
-**When to Use:** Programs requiring maximum flexibility, equal access, and systematic expansion — offices, laboratories, museums, storage, industrial
+**适用情况：**需要最大灵活性、均等可达性和系统化扩展的功能——办公、实验室、博物馆、仓储、工业建筑
 
-**Advantages:**
-- Maximum flexibility — any cell can serve any function
-- Repetitive structure is economical
-- Easy to expand (add rows or columns)
-- Clear addressing system (row + column)
+**优点：**
+- 最大灵活性——任何网格单元都可承担任意功能
+- 重复性结构经济高效
+- 易于扩展（增加行或列）
+- 定位系统清晰（行 + 列）
 
-**Disadvantages:**
-- Can be monotonous without variation (introduce hierarchy through voids, double heights, material changes)
-- Inflexible at the macro scale (responds poorly to irregular sites)
-- Produces deep floor plates that require artificial lighting at core
+**缺点：**
+- 缺少变化时可能单调（可通过空洞、双层高和材料变化引入层级）
+- 宏观尺度灵活性不足（对不规则场地适应性较差）
+- 容易形成进深较大的楼板，核心区需要人工照明
 
-**Programmatic Best-Fit:** Open-plan offices (7.5-9 m grid), laboratories (3.3-3.6 m module perpendicular to lab benches, 6.6-10.8 m bay along corridor), warehouses and distribution centers (10-15 m grid), parking (7.5-8.4 m x 15-16.8 m)
+**最适合的功能：**开放式办公（7.5–9 m 网格）、实验室（垂直于实验台 3.3–3.6 m 模数，沿走道 6.6–10.8 m 柱跨）、仓库和配送中心（10–15 m 网格）、停车设施（7.5–8.4 m × 15–16.8 m）
 
-**Structural Implications:** Highly repetitive and efficient. Standard systems: RC flat slab (spans 6-10 m, depth L/30 to L/26), steel composite (spans 9-18 m, depth L/20), CLT (spans 3.6-7.2 m, depth 140-240 mm). Column drops or capitals for punching shear in flat slabs.
+**结构含义：**重复性强且效率高。标准体系包括：钢筋混凝土无梁楼板（跨度 6–10 m，厚度为 L/30 至 L/26）、钢—混凝土组合结构（跨度 9–18 m，结构高度为 L/20）、CLT（跨度 3.6–7.2 m，厚度 140–240 mm）。无梁楼板采用柱帽或柱墩抵抗冲切剪力。
 
-#### Hybrid Organization
+#### 混合式组织
 
-**Definition:** Two or more organizational models combined in a single building. The hybrid responds to the reality that most complex programs cannot be served by a single model.
+**定义：**在一座建筑中组合两种或更多组织模型。混合式组织回应了复杂功能通常无法由单一模型满足的现实。
 
-**When to Use:** Almost every building of significant complexity is a hybrid. The skill is in selecting the right combination and managing the transitions.
+**适用情况：**几乎所有具有较高复杂度的建筑都是混合型。关键在于选择正确的组合并处理模型之间的过渡。
 
-**Common Hybrids:**
-- Linear + Centralized: gallery wings radiating from a central hall (British Museum, Foster's Great Court, 2000)
-- Grid + Atrium: regular office grid surrounding a central void (Commerzbank, Foster, 1997 — 53-story tower with 12-story sky gardens)
-- Podium + Tower: horizontal public base with vertical private stack (Marina Bay Sands)
-- Cluster + Linear: clusters connected by a linear spine (university campus model)
-- Centralized + Radial: domed central space with radiating wings (US Capitol)
+**常见组合：**
+- 线性 + 集中式：展厅翼楼从中央大厅放射（British Museum，Foster 的 Great Court，2000）
+- 网格 + 中庭：规则办公网格围绕中央空洞布置（Commerzbank，Foster，1997——53 层塔楼，设 12 层高的空中花园）
+- 裙房 + 塔楼：水平公共基座与竖向私密功能叠置（Marina Bay Sands）
+- 集群 + 线性：集群由线性脊柱连接（大学校园模式）
+- 集中式 + 放射式：穹顶中央空间与放射翼楼结合（US Capitol）
 
-**Design Strategy for Hybrids:**
-1. Identify the 2-3 dominant program groups
-2. Assign each group the most appropriate organizational model
-3. Design the transition/interface between models (this is where the architectural magic happens)
-4. Ensure that circulation connects all models without dead ends
-5. Test the hybrid with adjacency diagrams, then plan studies
+**混合式组织的设计策略：**
+1. 识别 2–3 个主导功能组
+2. 为每个功能组分配最合适的组织模型
+3. 设计模型之间的过渡/界面（建筑的创造性往往发生在这里）
+4. 确保交通系统连接所有模型且不形成尽端
+5. 先用邻接关系图测试混合模型，再进行平面研究
 
 ---
 
-## Section 4: Concept-to-Form Translation
+## 第 4 节：概念到形体的转译
 
-### 4.1 Eight Concept Drivers
+### 4.1 八类概念驱动
 
-Every architectural concept begins with an abstract idea. The challenge is translating that idea into three-dimensional form. The following eight drivers provide distinct pathways from concept to architecture.
+每个建筑概念都始于抽象思想。挑战在于将思想转译为三维形体。以下八类驱动提供了从概念走向建筑的不同路径。
 
-#### Driver 1: Narrative / Metaphor
+#### 驱动 1：叙事 / 隐喻
 
-**Method:** The building tells a story or embodies a metaphor. Form, material, and sequence are composed to communicate meaning.
+**方法：**建筑讲述一个故事或承载一个隐喻。通过组织形体、材料和空间序列来传达意义。
 
-**Process:** Define the narrative in one sentence. Identify the key scenes/episodes. Assign architectural moments to each episode (entry = prologue, main space = climax, exit = denouement). Select materials and light conditions that reinforce the narrative mood.
+**流程：**用一句话定义叙事。识别关键场景/情节，并为每个情节分配建筑时刻（入口 = 序幕，主空间 = 高潮，出口 = 结局）。选择能够强化叙事氛围的材料和光环境。
 
-**Example:** Jewish Museum, Berlin (Libeskind, 2001) — the building is a narrative of absence and displacement. The zigzag plan traces the disconnected addresses of deported Jewish Berliners. Void spaces cut through all floors represent irretrievable loss. The Garden of Exile is disorienting (columns tilted 12 degrees).
+**示例：**Jewish Museum，柏林（Libeskind，2001）——建筑讲述缺席与流离失所。锯齿形平面追踪被驱逐柏林犹太人的断裂地址。贯穿各层的空洞代表无法挽回的失去。Exile Garden 通过倾斜 12° 的柱子营造迷失感。
 
-**Risk:** Narrative can become literal or illustrative. The best narrative architecture communicates through spatial experience, not symbolism.
+**风险：**叙事可能变得直白或插图化。优秀的叙事建筑通过空间体验而非象征符号来传达意义。
 
-#### Driver 2: Material Logic
+#### 驱动 2：材料逻辑
 
-**Method:** The inherent properties of a material — its strength, weight, texture, weathering, and workability — generate the building's form and detail.
+**方法：**材料的固有属性——强度、重量、肌理、耐候性和可加工性——生成建筑的形体与细部。
 
-**Process:** Select the primary material based on site context, budget, and desired atmospheric quality. Study its structural properties (compressive strength, tensile strength, modulus). Design the structural system to express those properties. Detail connections to reveal material behavior.
+**流程：**根据场地语境、预算和期望的氛围品质选择主要材料。研究其结构性能（抗压强度、抗拉强度、弹性模量）。设计能够表达这些属性的结构体系，并通过节点细部揭示材料行为。
 
-**Example:** Therme Vals (Zumthor, 1996) — local Vals gneiss quartzite generates everything: wall thickness (600 mm composite: 2 layers of stone with insulated cavity), coursing rhythm (31/47/63 mm), bath temperatures etched into stone, even the light is filtered through stone edges.
+**示例：**Therme Vals（Zumthor，1996）——当地 Vals 片麻岩石英岩生成了一切：墙厚（600 mm 复合墙：两层石材夹保温空腔）、砌筑节奏（31/47/63 mm）、刻在石材上的浴池温度，甚至光线也从石材边缘滤入。
 
-**Risk:** Material fetishism — the building becomes a material sample board rather than a spatial experience.
+**风险：**材料崇拜——建筑变成材料样板，而不是空间体验。
 
-#### Driver 3: Structural Expression
+#### 驱动 3：结构表达
 
-**Method:** Structure is not concealed but becomes the primary architectural expression. The load path is the parti.
+**方法：**结构不被隐藏，而成为主要建筑表达。荷载路径就是 Parti。
 
-**Process:** Define the span, load, and lateral requirements. Select the structural system that most elegantly resolves these forces. Expose the structure. Detail connections as expressive moments. Celebrate the hierarchy of primary/secondary/tertiary structure.
+**流程：**定义跨度、荷载和侧向作用要求。选择最优雅地解决这些作用的结构体系。显露结构，将节点设计为表达性时刻，并强调一级/二级/三级结构的层级。
 
-**Example:** Sendai Mediatheque (Ito, 2001) — 13 seaweed-like tube-columns of bundled steel pipes support 7 flat steel plates. Structure IS the architecture — there are no walls, no hidden frames, no false ceilings.
+**示例：**Sendai Mediatheque（Ito，2001）——13 根海藻般的钢管束筒柱支撑 7 块平钢板。结构就是建筑——没有墙体、隐藏框架或吊顶。
 
-**Risk:** Structural exhibitionism — complexity for its own sake. The best structural expression achieves elegance through economy.
+**风险：**结构炫技——为复杂而复杂。最佳的结构表达通过经济性实现优雅。
 
-#### Driver 4: Environmental Response
+#### 驱动 4：环境响应
 
-**Method:** Climate, sun path, wind patterns, and site ecology generate the building's form, orientation, and envelope.
+**方法：**气候、太阳路径、风环境和场地生态生成建筑的形体、朝向与围护结构。
 
-**Process:** Analyze the site's solar geometry (altitude/azimuth at solstices and equinoxes), prevailing winds (seasonal direction and velocity), rainfall (annual total and peak hourly), and temperature (annual range, diurnal swing). Design the section as a climate-modifying device. Optimize the envelope for thermal performance.
+**流程：**分析场地太阳几何（冬至、夏至和春秋分的高度角/方位角）、主导风（季节方向与风速）、降雨（年总量与小时峰值）和温度（年变化范围、昼夜波动）。将剖面设计为调节气候的装置，并优化围护结构的热工性能。
 
-**Example:** Manitoba Hydro Place, Winnipeg (KPMB, 2009) — extreme continental climate (-35 C winter, +35 C summer). Double-skin curtain wall acts as thermal buffer. 115 m solar chimney drives stack-effect ventilation. South-facing wintergarden preheats ventilation air. Result: 60% energy reduction vs. MNECB.
+**示例：**Manitoba Hydro Place，温尼伯（KPMB，2009）——极端大陆性气候（冬季 −35°C，夏季 +35°C）。双层幕墙充当热缓冲层。115 m 高的太阳能烟囱驱动烟囱效应通风。朝南冬季花园预热新风。结果：相较 MNECB 能耗降低 60%。
 
-#### Driver 5: Programmatic Diagram
+#### 驱动 5：功能关系图
 
-**Method:** The relationships between program elements — adjacencies, hierarchies, separations, and flows — directly generate the building's form.
+**方法：**功能要素之间的关系——邻接、层级、分隔与流线——直接生成建筑形体。
 
-**Process:** Create a detailed program with areas (m2) for every space. Map adjacency requirements (must be adjacent, should be near, must be separated). Diagram circulation flows (public, staff, service, emergency). Translate the diagram into plan and section. The form is the program made spatial.
+**流程：**为每个空间建立包含面积（m²）的详细功能书。标注邻接要求（必须相邻、宜接近、必须分隔）。绘制公共、员工、服务和紧急交通流线图，并将其转译为平面和剖面。形体就是空间化的功能关系。
 
-**Example:** Seattle Central Library (OMA/LMN, 2004) — program sorted into 5 "stable" platforms (parking, staff, meeting, book spiral, headquarters) and 4 "unstable" in-between zones (living room, mixing chamber, reading room, viewing room). Each platform is the size its program demands. The form is the section.
+**示例：**Seattle Central Library（OMA/LMN，2004）——功能被整理为 5 个“稳定”平台（停车、员工、会议、书籍螺旋、总部）和 4 个“非稳定”中间区域（起居室、混合厅、阅览室、观景室）。每个平台的尺度由其功能需求决定，形体则体现在剖面中。
 
-#### Driver 6: Contextual Response
+#### 驱动 6：语境响应
 
-**Method:** The existing urban or landscape context — its geometries, rhythms, materials, scales, and histories — generates the new building's form.
+**方法：**既有城市或景观语境——其几何、节奏、材料、尺度和历史——生成新建筑的形体。
 
-**Process:** Map the site's contextual grid (street angles, parcel lines, adjacent building footprints). Identify the prevailing scale (cornice heights, floor-to-floor, facade rhythm). Study the material palette within 200 m radius. Design the new building to extend, complete, or strategically contrast with the context.
+**流程：**绘制场地语境网格（街道角度、地块边界、相邻建筑基底）。识别主导尺度（檐口高度、层高、立面节奏）。研究半径 200 m 范围内的材料色谱。设计新建筑以延续、补全或有策略地对比语境。
 
-**Example:** Kolumba Museum, Cologne (Zumthor, 2007) — built atop the ruins of Gothic St. Kolumba church. New grey brick walls rise from the ruin fragments. Custom perforated "filter brick" creates lace-like walls over the archaeological zone. The new building is simultaneously modern and ancient.
+**示例：**Kolumba Museum，科隆（Zumthor，2007）——建于哥特式 St. Kolumba 教堂遗址之上。新的灰砖墙从遗迹碎片中升起，定制穿孔“过滤砖”在考古区上方形成蕾丝般的墙体。新建筑同时具有现代性与古老性。
 
-#### Driver 7: Phenomenological Intention
+#### 驱动 7：现象学意图
 
-**Method:** A desired experiential quality — stillness, mystery, weightlessness, warmth — drives all design decisions.
+**方法：**期望的体验品质——静谧、神秘、失重感、温暖——驱动所有设计决策。
 
-**Process:** Define the target atmosphere in sensory terms (not formal terms). Specify: light quality (direct/diffuse, warm/cool, 2700K/4000K), acoustic character (reverberant/absorptive, RT60 target), material temperature (warm wood/cool stone), spatial proportion (compressive/expansive). Design every element to achieve that atmosphere.
+**流程：**用感官而非形式术语定义目标氛围。明确光质（直射/漫射、暖/冷、2700K/4000K）、声学特征（混响/吸声、RT60 目标）、材料温度（暖木/冷石）和空间比例（压缩/扩张）。设计每个要素以实现该氛围。
 
-**Example:** Bruder Klaus Field Chapel (Zumthor, 2007) — target atmosphere: primal shelter, vertical aspiration, connection to sky. 112 tree trunks stacked as formwork, concrete poured over 24 days, trunks burned out over 3 weeks leaving charred interior. Oculus open to rain and sky. Floor of molten lead. 350 hand-blown glass orbs as light points. Every decision serves the atmosphere.
+**示例：**Bruder Klaus Field Chapel（Zumthor，2007）——目标氛围为原始庇护、向上的渴望和与天空的联系。112 根树干堆叠形成模板，混凝土浇筑历时 24 天，树干在 3 周内烧除，留下炭化内壁。天窗向雨水和天空敞开，地面采用熔融铅，350 个手工吹制玻璃球构成光点。每个决策都服务于氛围。
 
-#### Driver 8: Tectonic Expression
+#### 驱动 8：构造表达
 
-**Method:** The way materials are joined — the tectonics of assembly — becomes the primary design content.
+**方法：**材料连接的方式——组装的构造逻辑——成为主要设计内容。
 
-**Process:** Select the construction method (in-situ cast, precast, prefabricated, hand-laid, CNC-cut). Design the joint vocabulary (revealed/concealed, expressed/suppressed, same-material/contrasting). Detail the hierarchy of connections: primary (structure-to-structure), secondary (structure-to-envelope), tertiary (envelope-to-finish).
+**流程：**选择施工方式（现浇、预制、装配、手工砌筑、CNC 切割）。设计节点语汇（显露/隐藏、强调/弱化、同材/对比），并细化连接层级：一级（结构—结构）、二级（结构—围护）、三级（围护—饰面）。
 
-**Example:** Castelvecchio Museum renovation (Scarpa, 1973) — every joint between new (steel, concrete) and old (stone, brick, plaster) is a meticulously detailed micro-composition. Steel brackets are expressed, not hidden. Concrete meets stone with a deliberate gap. Each material retains its identity.
+**示例：**Castelvecchio Museum 改造（Scarpa，1973）——新材料（钢、混凝土）与旧材料（石材、砖、灰泥）之间的每个节点都被细致设计为微型构图。钢支架被明确表达而非隐藏；混凝土与石材之间保留有意设置的缝隙；每种材料都保持自身识别性。
 
-### 4.2 Concept Driver Decision Tree
+### 4.2 概念驱动决策树
 
 ```
-START: What is the project's PRIMARY design challenge?
+开始：项目的主要设计挑战是什么？
 
-IF the challenge is MEANING/IDENTITY:
-  → Narrative/Metaphor (Driver 1) or Contextual Response (Driver 6)
+如果挑战是意义/身份：
+  → 叙事/隐喻（驱动 1）或语境响应（驱动 6）
 
-IF the challenge is CONSTRUCTION BUDGET/METHOD:
-  → Material Logic (Driver 2) or Tectonic Expression (Driver 8)
+如果挑战是施工预算/方法：
+  → 材料逻辑（驱动 2）或构造表达（驱动 8）
 
-IF the challenge is STRUCTURAL SPAN or INNOVATION:
-  → Structural Expression (Driver 3)
+如果挑战是结构跨度或创新：
+  → 结构表达（驱动 3）
 
-IF the challenge is CLIMATE/ENERGY PERFORMANCE:
-  → Environmental Response (Driver 4)
+如果挑战是气候/能源性能：
+  → 环境响应（驱动 4）
 
-IF the challenge is COMPLEX PROGRAM with many adjacencies:
-  → Programmatic Diagram (Driver 5)
+如果挑战是具有大量邻接关系的复杂功能：
+  → 功能关系图（驱动 5）
 
-IF the challenge is EXPERIENCE/ATMOSPHERE:
-  → Phenomenological Intention (Driver 7)
+如果挑战是体验/氛围：
+  → 现象学意图（驱动 7）
 
-NOTE: Select ONE primary driver and ONE secondary driver.
-The primary driver generates the parti; the secondary
-driver refines it. Using more than two drivers
-simultaneously dilutes the concept.
+注意：选择一个主要驱动和一个次要驱动。主要驱动生成 Parti，次要驱动对其进行深化。同时使用超过两个驱动会稀释概念。
 ```
 
 ---
 
-## Section 5: Design Iteration Protocol
+## 第 5 节：设计迭代协议
 
-### 5.1 Structured Option Development
+### 5.1 方案结构化发展
 
-Develop 3-5 concept options, each exploring a different parti or primary concept driver. The purpose is not to find the "right" answer immediately but to explore the solution space and identify the strongest direction through comparison.
+发展 3–5 个概念方案，每个方案探索不同的 Parti 或主要概念驱动。目的不是立即找到“正确”答案，而是探索解空间，并通过比较识别最有力的方向。
 
-**Phase 1: Divergent Generation (3-5 days)**
+**阶段 1：发散生成（3–5 天）**
 
-For each option, produce:
-1. Parti diagram (one sketch, 30 seconds)
-2. Site plan at 1:500 showing building footprint, access, and landscape
-3. Ground floor plan at 1:200 showing primary spaces, circulation, and entry
-4. Typical upper floor plan at 1:200
-5. Two key sections at 1:200 (longitudinal and transverse)
-6. Massing model (physical or digital) — axonometric view
-7. One-paragraph concept statement (50-100 words)
+每个方案应形成：
+1. Parti 图（30 秒完成的一张草图）
+2. 1:500 总平面图，显示建筑基底、出入口和景观
+3. 1:200 首层平面图，显示主要空间、交通和入口
+4. 1:200 标准层平面图
+5. 两张 1:200 关键剖面图（纵向和横向）
+6. 体量模型（实体或数字）——轴测视图
+7. 一段概念说明（50–100 字）
 
-**Phase 2: Comparative Evaluation (1-2 days)**
+**阶段 2：比较评估（1–2 天）**
 
-Score each option against the following criteria using a 1-5 scale:
+使用 1–5 分制，依据以下标准为每个方案评分：
 
-| Criterion | Weight | Description |
+| 标准 | 权重 | 说明 |
 |---|---|---|
-| Program Resolution | 20% | Does the option accommodate all program areas within the area budget (+/- 5%)? Are adjacencies correct? |
-| Site Response | 15% | Does the option respond to access, views, solar orientation, wind, and context? |
-| Structural Feasibility | 10% | Can the option be built with available structural systems and within budget? Span limits respected? |
-| Environmental Performance | 15% | Does the option enable passive strategies (daylight, ventilation, solar control)? Estimated EUI? |
-| Spatial Quality | 15% | Does the option create memorable spatial experiences? Is there a clear spatial sequence? |
-| Budget Alignment | 10% | Is the option achievable within the cost/m2 target? (Simple forms: lower cost; complex forms: higher cost) |
-| Flexibility / Adaptability | 5% | Can the option accommodate future program changes? Is the structure adaptable? |
-| Client Vision Alignment | 10% | Does the option respond to the client's stated aspirations and values? |
+| 功能解析度 | 20% | 方案是否在面积预算（±5%）内容纳全部功能面积？邻接关系是否正确？ |
+| 场地响应 | 15% | 方案是否回应出入口、景观、太阳朝向、风环境和语境？ |
+| 结构可行性 | 10% | 方案能否在预算内采用可用结构体系建成？是否遵守跨度限值？ |
+| 环境性能 | 15% | 方案是否支持被动策略（日光、通风、太阳能控制）？估算 EUI 如何？ |
+| 空间品质 | 15% | 方案能否创造令人难忘的空间体验？是否具有清晰的空间序列？ |
+| 预算匹配度 | 10% | 方案能否达到目标造价/m²？（简单形体成本较低；复杂形体成本较高） |
+| 灵活性 / 适应性 | 5% | 方案能否容纳未来功能变化？结构是否可适应？ |
+| 客户愿景匹配度 | 10% | 方案是否回应客户明确提出的愿望和价值观？ |
 
-**Phase 3: Selection and Justification (1 day)**
+**阶段 3：选择与论证（1 天）**
 
-1. Present all options to the design team (and client, if appropriate) with scoring matrix
-2. Identify the highest-scoring option as the preferred direction
-3. If scores are close (within 10%), consider a hybrid that combines the strongest elements of the top 2 options
-4. Document the selection rationale in writing (minimum 200 words)
-5. Document what was learned from rejected options (transferable insights)
+1. 使用评分矩阵向设计团队（如适当，也向客户）展示所有方案
+2. 将得分最高的方案确定为优先方向
+3. 若得分接近（差异在 10% 以内），考虑结合前两个方案最强要素的混合方案
+4. 以书面形式记录选择理由（至少 200 字）
+5. 记录从被否决方案中获得的经验（可迁移的洞见）
 
-**Phase 4: Convergent Development (5-10 days)**
+**阶段 4：收敛深化（5–10 天）**
 
-Develop the selected option through iterative refinement:
+通过迭代深化发展选定方案：
 
-1. **Cycle 1 — Plan Resolution:** Resolve all room layouts at 1:100. Confirm area compliance. Locate all vertical cores (stairs, elevators, risers). Confirm fire egress (maximum 45 m travel distance to exit stair in sprinklered buildings per IBC, or per local code).
+1. **循环 1——平面解析：**以 1:100 完成所有房间布局。确认面积符合要求。定位所有竖向核心筒（楼梯、电梯、管井）。确认消防疏散（按 IBC，设置自动喷水灭火系统的建筑到疏散楼梯的最大行走距离为 45 m；或按当地规范执行）。
 
-2. **Cycle 2 — Section Development:** Resolve all floor-to-floor heights. Locate all MEP zones (typically 1.0-1.5 m above structural floor for office, 0.6-0.9 m for residential). Confirm key spatial volumes (double heights, atriums, feature spaces). Coordinate with structural engineer on beam depths.
+2. **循环 2——剖面深化：**确定所有层高。定位所有机电（MEP）区域（办公通常位于结构楼板上方 1.0–1.5 m，住宅为 0.6–0.9 m）。确认关键空间体积（双层高、中庭、特色空间），并与结构工程师协调梁高。
 
-3. **Cycle 3 — Envelope and Material:** Select facade system (curtain wall, rainscreen, masonry, precast, timber cladding). Confirm window-to-wall ratio (25-40% optimal for energy in temperate climates per Arup research). Select 2-3 primary materials. Develop one key detail at 1:20 (the detail that defines the building's tectonic character).
+3. **循环 3——围护与材料：**选择立面系统（幕墙、雨屏、砌体、预制构件、木饰面）。确认窗墙比（依据 Arup 研究，温带气候中 25–40% 为能源性能的最佳范围）。选择 2–3 种主要材料。以 1:20 深化一个关键细部（定义建筑构造特征的细部）。
 
-4. **Cycle 4 — Integration:** Overlay structural grid, MEP zones, and fire strategy onto the architectural plan. Resolve all conflicts. Confirm that the parti is still legible after technical integration. If technical requirements have compromised the parti, revise the technical approach rather than abandoning the concept.
+4. **循环 4——整合：**将结构网格、MEP 区域和消防策略叠加到建筑平面上，解决所有冲突。确认技术整合后 Parti 仍然清晰可读。如果技术要求损害了 Parti，应调整技术方案，而不是放弃概念。
 
-### 5.2 Pin-Up Protocol
+### 5.2 评图汇报协议
 
-At the end of each cycle, conduct a 30-minute pin-up review:
+每个循环结束时进行 30 分钟的评图汇报：
 
-1. **Present** (10 min): Designer presents the current state of the option with key decisions and open questions
-2. **Clarify** (5 min): Reviewers ask factual questions only (no opinions yet)
-3. **Critique** (10 min): Reviewers provide feedback using the "What's working / What's not working / What if..." framework
-4. **Action items** (5 min): Designer records 3-5 specific next steps
+1. **展示**（10 分钟）：设计师介绍方案当前状态、关键决策和待解决问题
+2. **澄清**（5 分钟）：评审者只提出事实性问题（暂不发表意见）
+3. **评议**（10 分钟）：评审者使用“哪些有效 / 哪些无效 / 如果……会怎样”的框架反馈
+4. **行动事项**（5 分钟）：设计师记录 3–5 项具体后续步骤
 
-### 5.3 Common Iteration Failures
+### 5.3 常见迭代失误
 
-- **Premature convergence:** Selecting an option before exploring alternatives. Mandate minimum 3 options.
-- **Concept drift:** The parti becomes unrecognizable through incremental compromises. Test every decision against the parti diagram.
-- **Detail before diagram:** Resolving window mullion profiles before confirming the massing. Work from large to small: site → mass → plan → section → elevation → detail.
-- **Ignoring the section:** Plans are easier to draw, so designers default to plan-based thinking. The section reveals spatial quality, structure, environmental strategy, and experiential sequence. Draw sections at every iteration.
-- **Solo design:** Concept design benefits from collaborative critique. Schedule pin-ups at minimum weekly intervals. Show work before it feels "finished."
+- **过早收敛：**尚未探索替代方案就选定方案。至少要求提出 3 个方案。
+- **概念漂移：**渐进式妥协使 Parti 变得无法识别。用 Parti 图检验每个决策。
+- **细部先于图解：**尚未确认体量就先确定窗框分格。遵循从大到小的顺序：场地 → 体量 → 平面 → 剖面 → 立面 → 细部。
+- **忽视剖面：**平面更容易绘制，设计师因此默认采用平面思维。剖面揭示空间品质、结构、环境策略和体验序列。每次迭代都应绘制剖面。
+- **孤立设计：**概念设计受益于协作评议。至少每周安排一次评图，在作品感觉“完成”之前就展示出来。
 
 ---
 
-## Appendix: Concept Design Checklist
+## 附录：概念设计检查清单
 
-### Pre-Design Verification
-- [ ] Project brief reviewed and confirmed with client
-- [ ] Area schedule complete (m2 per space, total GFA, target net-to-gross ratio)
-- [ ] Site survey data received (topographic, geotechnical, services, trees)
-- [ ] Planning/zoning constraints documented (height, FAR, setbacks, parking ratios)
-- [ ] Budget established (total and cost/m2 target)
-- [ ] Sustainability targets set (BREEAM/LEED/Passivhaus/Living Building Challenge)
+### 设计前验证
+- [ ] 已与客户审阅并确认项目任务书
+- [ ] 面积表完整（每个空间 m²、总 GFA、目标得房率）
+- [ ] 已收到场地测绘资料（地形、岩土、管线、树木）
+- [ ] 已记录规划/分区限制（高度、FAR、退界、停车比例）
+- [ ] 已确定预算（总额和目标造价/m²）
+- [ ] 已设定可持续性目标（BREEAM/LEED/Passivhaus/Living Building Challenge）
 
-### Concept Design Deliverables
-- [ ] 3-5 concept options developed and evaluated
-- [ ] Preferred option selected with written justification
-- [ ] Parti diagram
-- [ ] Site plan at 1:500
-- [ ] Floor plans at 1:200 (ground + typical + roof)
-- [ ] Sections at 1:200 (minimum 2: longitudinal and transverse)
-- [ ] Elevations at 1:200 (all significant faces)
-- [ ] 3D massing model (physical or digital)
-- [ ] Concept statement (200-500 words)
-- [ ] Outline structural strategy (system, grid, material)
-- [ ] Outline environmental strategy (passive strategies, orientation, shading)
-- [ ] Preliminary area reconciliation (actual vs. brief, +/- 5%)
-- [ ] Order-of-magnitude cost estimate (+/- 15-25%)
+### 概念设计交付物
+- [ ] 已发展并评估 3–5 个概念方案
+- [ ] 已通过书面论证选定优先方案
+- [ ] Parti 图
+- [ ] 1:500 总平面图
+- [ ] 1:200 平面图（首层 + 标准层 + 屋顶）
+- [ ] 1:200 剖面图（至少 2 张：纵向和横向）
+- [ ] 1:200 立面图（所有重要立面）
+- [ ] 三维体量模型（实体或数字）
+- [ ] 概念说明（200–500 字）
+- [ ] 结构策略纲要（体系、网格、材料）
+- [ ] 环境策略纲要（被动策略、朝向、遮阳）
+- [ ] 初步面积核算（实际值与任务书对比，±5%）
+- [ ] 数量级造价估算（±15–25%）

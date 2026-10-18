@@ -1,472 +1,467 @@
 ---
 name: structural-systems
 description: >
-  Comprehensive structural systems knowledge for architects covering structural
-  typology selection, grid design and spacing, lateral stability systems,
-  foundation types, span-to-depth ratio tables, load path narratives, and
-  architect-engineer coordination strategies. Provides decision frameworks for
-  selecting structural systems based on span, height, program, cost, construction
-  speed, and sustainability targets.
+  面向建筑师的综合结构体系知识，涵盖结构类型选择、网格设计与间距、侧向稳定体系、基础类型、跨度—高度比表、荷载路径说明以及建筑师与工程师协调策略。根据跨度、高度、功能、成本、施工速度和可持续目标，为结构体系选择提供决策框架。
 ---
 
-# Structural Systems for Architects
+# 建筑师结构体系
 
-## Section 1: Structural System Selection
+## 第1节：结构体系选择
 
-The choice of structural system is one of the earliest and most consequential decisions in building design. It determines floor-to-floor height, column spacing, facade expression, construction programme, cost, and embodied carbon. The following decision tree and system catalogue provide architects with the knowledge to make informed selections before engaging structural engineers.
+结构体系的选择是建筑设计最早且影响最深远的决策之一。它决定楼层层高、柱网间距、立面表达、施工计划、成本和隐含碳。以下决策树与体系目录帮助建筑师在委托结构工程师之前作出有依据的选择。
 
-### Decision Tree: Key Variables
+### 决策树：关键变量
 
-1. **Span requirement** — What clear span does the programme demand?
-2. **Building height** — Low-rise (1-4), mid-rise (5-12), high-rise (13-40), supertall (40+)?
-3. **Programme type** — Residential, office, retail, industrial, mixed-use, cultural?
-4. **Cost envelope** — Budget-constrained, mid-market, premium?
-5. **Construction speed** — Is programme duration a critical driver?
-6. **Sustainability target** — Embodied carbon budget (kgCO2e/m²)?
-7. **Fire rating** — 30/60/90/120 minutes required?
-8. **Site constraints** — Access, vibration, noise, adjacent structures?
+1. **跨度要求**——功能规划需要多大的净跨？
+2. **建筑高度**——低层（1-4层）、中层（5-12层）、高层（13-40层）还是超高层（40层以上）？
+3. **功能类型**——住宅、办公、零售、工业、混合使用还是文化建筑？
+4. **成本范围**——预算受限、中端还是高端？
+5. **施工速度**——工期是否为关键驱动因素？
+6. **可持续性目标**——隐含碳预算（kgCO2e/m²）是多少？
+7. **耐火等级**——要求30/60/90/120分钟？
+8. **场地限制**——进场条件、振动、噪声及相邻结构？
 
-### System Type 1: Load-Bearing Masonry
+### 体系类型1：承重砌体
 
-- **Span range**: 4-7m (with concrete floor slabs or timber joists)
-- **Height limit**: Up to 6 storeys (unreinforced); up to 10+ storeys (reinforced/confined)
-- **Typical wall thickness**: 215mm (single leaf), 300mm (cavity), 215-327mm (solid at lower storeys)
-- **Slab depth**: 150-200mm RC slab on masonry walls; or 200-250mm precast plank
-- **Cost range**: 80-140 $/m² (structure only)
-- **Construction speed**: 4-6 weeks per floor (traditional); faster with thin-joint masonry
-- **Fire rating strategy**: Inherent fire resistance — 215mm solid block achieves 120 min REI
-- **Embodied carbon**: 150-280 kgCO2e/m² (depending on block type and mortar)
-- **Best-fit building types**: Social housing, low-rise residential, hotels, student accommodation, schools
-- **Exemplar buildings**:
+- **跨度范围**：4–7m（配混凝土楼板或木搁栅）
+- **高度限制**：最多 6 层（无筋）；最多 10 层以上（配筋／约束砌体）
+- **典型墙厚**：215mm（单叶）、300mm（夹心）、215–327mm（低层实心）
+- **楼板厚度**：砌体墙上的 150–200mm 钢筋混凝土板，或 200–250mm 预制板
+- **成本范围**：80–140 $/m²（仅结构）
+- **施工速度**：每层 4–6 周（传统施工）；薄缝砌体更快
+- **耐火策略**：固有耐火性——215mm 实心砌块可达到 120 分钟 REI
+- **隐含碳**：150–280 kgCO2e/m²（取决于砌块和砂浆类型）
+- **最适建筑类型**：社会住宅、低层住宅、酒店、学生宿舍、学校
+- **示范建筑**：
   - Monadnock Building, Chicago (1891) — 17 storeys, 1.8m thick walls at base
   - Mapleton Crescent, London (2018) — 6-storey CLT with masonry facade
   - Park Hill, Sheffield (1961) — load-bearing crosswall construction
 
-**Key architectural implications**: Wall positions fix the plan. Window openings are limited by structural capacity. Interior load-bearing walls constrain future flexibility. Best for repetitive cellular plans (residential, hotels). Crosswall construction (party walls carry loads) is the most efficient variant.
+**对建筑设计的关键影响：**墙体位置固定平面。窗洞受结构承载能力限制。室内承重墙会限制未来改造的灵活性。最适合重复性的细胞式平面（住宅、酒店）。横墙承重构造（分户墙承担荷载）是效率最高的变体。
 
-### System Type 2: Reinforced Concrete Frame
+### 体系类型2：钢筋混凝土框架
 
-- **Span range**: 6-12m (flat slab); 8-15m (beam-and-slab); 10-18m (waffle slab)
-- **Height limit**: Unlimited (with appropriate lateral system)
-- **Typical slab depths**: Flat slab 250-350mm; beam-slab 150-200mm slab + 450-700mm beam; waffle 325-500mm overall
-- **Column sizes**: 300x300mm (low-rise) to 1200x1200mm (high-rise base)
-- **Cost range**: 120-220 $/m² (structure only)
-- **Construction speed**: 7-14 days per floor (traditional formwork); 5-7 days (table forms)
-- **Fire rating strategy**: Cover to reinforcement — 25mm for 60 min, 35mm for 90 min, 45mm for 120 min (BS EN 1992-1-2)
-- **Embodied carbon**: 250-400 kgCO2e/m² (conventional); 180-280 kgCO2e/m² (with GGBS/PFA cement replacement)
-- **Best-fit building types**: All building types — residential, offices, hospitals, mixed-use, high-rise
-- **Exemplar buildings**:
+- **跨度范围**：6–12m（无梁楼板）；8–15m（梁板）；10–18m（密肋楼板）
+- **高度限制**：无上限（配合适当的抗侧体系）
+- **典型楼板厚度**：无梁楼板 250–350mm；梁板 150–200mm 板 + 450–700mm 梁；密肋楼板总厚 325–500mm
+- **柱截面**：300×300mm（低层）至 1200×1200mm（高层底部）
+- **成本范围**：120–220 $/m²（仅结构）
+- **施工速度**：每层 7–14 天（传统模板）；5–7 天（台模）
+- **耐火策略**：钢筋保护层——60 分钟 25mm、90 分钟 35mm、120 分钟 45mm（BS EN 1992-1-2）
+- **隐含碳**：250–400 kgCO2e/m²（常规）；采用 GGBS/PFA 替代水泥时 180–280 kgCO2e/m²
+- **最适建筑类型**：各类建筑——住宅、办公、医院、混合使用、高层
+- **示范建筑**：
   - Barbican Estate, London (1969-76) — exposed concrete frame, residential towers to 42 storeys
   - Marina Bay Sands, Singapore (2010) — post-tensioned flat slabs, 57 storeys
   - Bosco Verticale, Milan (2014) — RC frame with cantilevered planting balconies
 
-**Key architectural implications**: Flat slabs give maximum flexibility — no downstand beams, services route freely. But punching shear at columns requires drop panels or shear heads. Beam-slab systems deeper overall but more efficient for longer spans. Waffle slabs suit exposed soffits in public buildings.
+**对建筑设计的关键影响：**无梁楼板提供最大灵活性——没有下挂梁，设备管线可自由布置。但柱位冲切需要柱帽或抗冲切剪力头。梁板体系整体更深，但适合更大跨度。密肋楼板适合在公共建筑中外露底面。
 
-### System Type 3: Post-Tensioned Concrete
+### 体系类型3：后张预应力混凝土
 
-- **Span range**: 8-16m (flat slab); 10-20m (banded beams)
-- **Height limit**: Unlimited
-- **Typical slab depths**: 200-300mm (flat slab PT); 180-250mm slab + 400-600mm band beam
-- **Cost range**: 140-240 $/m² (structure only — tendons add 15-25% to RC cost but save concrete)
-- **Construction speed**: 5-7 days per floor (table forms); faster cycle than RC due to thinner slabs and earlier striking
-- **Fire rating strategy**: Same as RC, but with specific tendon cover requirements (40mm for 90 min). Bonded tendons preferred for fire safety; unbonded require supplementary reinforcement.
-- **Embodied carbon**: 200-320 kgCO2e/m² — typically 15-25% lower than equivalent RC flat slab due to reduced concrete volume
-- **Best-fit building types**: Large-span offices, car parks, hospitals, airports, podium structures
-- **Exemplar buildings**:
+- **跨度范围：**8-16 m（无梁楼板）；10-20 m（带状梁）
+- **高度限制：**无限制
+- **典型楼板厚度：**200-300 mm（无梁后张楼板）；180-250 mm 楼板 + 400-600 mm 带状梁
+- **成本范围：**140-240 $/m²（仅结构——预应力筋使钢筋混凝土成本增加 15-25%，但可节约混凝土）
+- **施工速度：**每层 5–7 天（台模）；由于楼板更薄且可提前拆模，施工周期比钢筋混凝土更快
+- **耐火策略：**与钢筋混凝土相同，但有特定预应力筋保护层要求（90 分钟为 40mm）。出于防火安全优先采用有粘结预应力筋；无粘结筋需设置补充钢筋。
+- **隐含碳：**200-320 kgCO2e/m²——由于混凝土用量减少，通常比等效钢筋混凝土无梁楼板低 15-25%
+- **最适建筑类型：**大跨度办公、停车楼、医院、机场、裙房结构
+- **示范建筑：**
   - One Canada Square, London (1991) — PT flat slabs, 50 storeys
   - Apple Park, Cupertino (2017) — PT radial slabs, 12m spans
   - Broadgate Exchange House, London (1990) — 78m clear span PT arches supporting 10 storeys
 
-**Key architectural implications**: Thinner slabs than RC (typically 20-30% thinner) — reduces floor-to-floor height, cumulative savings on cladding and services. Tendons restrict location of penetrations: openings must be coordinated early with structural engineer. Core holes cannot be cut through tendons post-construction.
+**对建筑设计的关键影响：**楼板比普通钢筋混凝土更薄（通常薄20-30%），可降低层高，并在幕墙和机电上产生累计节省。预应力筋限制开洞位置：洞口必须尽早与结构工程师协调。竣工后不得在预应力筋处开凿核心孔。
 
-### System Type 4: Steel Frame
+### 体系类型4：钢框架
 
-- **Span range**: 6-20m (standard sections); 15-60m+ (trusses, castellated beams)
-- **Height limit**: Unlimited (with appropriate lateral system)
-- **Typical beam depths**: 300-600mm (6-12m span); 500-900mm (12-20m); trusses 1.5-3.0m (30-60m)
-- **Column sizes**: 200x200mm UC to 400x400mm (or circular 219-508mm dia.)
-- **Cost range**: 150-280 $/m² (structure only, including fire protection)
-- **Construction speed**: 3-5 days per floor (steel erection); fastest structural system. 4-6 month programme advantage over RC for high-rise.
-- **Fire rating strategy**: Intumescent paint (thin-film for 30-60 min, thick-film for 90-120 min), board encasement, concrete encasement, water-filled hollow sections, or fire-engineered unprotected steel where justified.
-- **Embodied carbon**: 200-350 kgCO2e/m² (conventional); 120-200 kgCO2e/m² (high recycled content, EAF steel)
-- **Best-fit building types**: Offices (City of London standard), tall buildings, long-span structures, exhibition halls, stadia, fast-track projects
-- **Exemplar buildings**:
+- **跨度范围：**6-20 m（标准截面）；15-60 m+（桁架、蜂窝梁）
+- **高度限制：**无限制（采用适当的抗侧体系时）
+- **典型梁高：**300-600 mm（6-12 m 跨）；500-900 mm（12-20 m 跨）；桁架 1.5-3.0 m（30-60 m 跨）
+- **柱尺寸：**200x200 mm UC 至 400x400 mm（或直径 219-508 mm 的圆柱）
+- **成本范围：**150-280 $/m²（仅结构，含防火保护）
+- **施工速度：**每层 3–5 天（钢结构安装），为最快结构体系；高层项目相比钢筋混凝土可缩短工期 4–6 个月。
+- **耐火策略：**膨胀型防火涂料（薄膜 30-60 分钟、厚膜 90-120 分钟）、板材包覆、混凝土包覆、充水空心截面，或经防火工程论证后采用不包覆钢材。
+- **隐含碳：**200–350 kgCO2e/m²（常规）；120–200 kgCO2e/m²（高再生含量、EAF 钢）
+- **最适建筑类型：**办公（伦敦金融城标准）、高层建筑、大跨度结构、展览馆、体育场、快速建造项目
+- **示范建筑：**
   - The Shard, London (2012) — steel frame with concrete core, 72 storeys, 310m
   - Centre Pompidou, Paris (1977) — exposed steel gerberette trusses, 48m clear spans
   - Beijing National Stadium "Bird's Nest" (2008) — steel space frame, 330m span
 
-**Key architectural implications**: Lightest structural system — advantageous on poor soils. Fastest erection — critical for commercial projects. Fire protection is an additional cost and aesthetic consideration. Exposed steel requires careful detailing for fire engineering or acceptance of fire-engineered solutions. Long-span steel enables column-free spaces impossible with concrete.
+**对建筑设计的关键影响：**最轻的结构体系——对软弱地基有利。安装速度最快——对商业项目至关重要。防火保护会增加成本并影响美学。外露钢构件需要精细的防火工程设计，或接受经防火工程论证的不包覆方案。大跨度钢结构可实现混凝土无法达到的无柱空间。
 
-### System Type 5: Composite Steel-Concrete
+### 体系类型5：钢-混凝土组合结构
 
-- **Span range**: 9-18m (composite beams with metal deck); 12-20m (composite trusses)
-- **Height limit**: Unlimited
-- **Typical floor construction**: 130-170mm composite metal deck slab on 400-600mm downstand steel beams (or 200-350mm ASB/slim-floor beams)
-- **Cost range**: 140-250 $/m² (structure only)
-- **Construction speed**: Matches steel frame — metal deck acts as permanent formwork, no propping required for spans up to 3.6m
-- **Fire rating strategy**: Mesh-reinforced deck achieves 60 min; additional bar reinforcement for 90-120 min. Steel beams protected as per steel frame.
-- **Embodied carbon**: 220-340 kgCO2e/m²
-- **Best-fit building types**: Commercial offices (UK standard), mixed-use podiums, car parks
-- **Exemplar buildings**:
+- **跨度范围**：9–18m（金属楼承板组合梁）；12–20m（组合桁架）
+- **高度限制**：无上限
+- **典型楼面构造**：400–600mm 下挂钢梁上的 130–170mm 组合金属楼承板，或 200–350mm ASB／薄楼板梁
+- **成本范围**：140–250 $/m²（仅结构）
+- **施工速度**：与钢框架相当——金属楼承板作为永久模板，跨度不超过 3.6m 时无需支撑
+- **耐火策略**：钢筋网增强楼承板达到 60 分钟；90–120 分钟需增加钢筋。钢梁按钢框架方式防火保护。
+- **隐含碳**：220–340 kgCO2e/m²
+- **最适建筑类型**：商业办公（英国标准）、混合使用裙房、停车楼
+- **示范建筑**：
   - 22 Bishopsgate, London (2020) — composite frame, 62 storeys
   - One World Trade Center, New York (2014) — composite steel-concrete
   - Leadenhall Building "Cheesegrater", London (2014) — mega-frame with composite floors
 
-**Key architectural implications**: The standard commercial office solution in the UK. 150mm slab + 400-500mm beam gives total structural zone of 550-650mm. Slim-floor variants (ASB, Slimdek) reduce this to 300-400mm but at higher cost. Web openings in beams allow services to pass through the structural zone, reducing overall floor-to-floor height.
+**对建筑设计的关键影响：**英国标准商业办公解决方案。150mm楼板加400-500mm梁形成550-650mm的结构带。薄楼板变体（ASB、Slimdek）可将其降至300-400mm，但成本更高。梁腹开孔允许设备穿过结构带，从而降低总层高。
 
-### System Type 6: Mass Timber
+### 体系类型6：工程木结构
 
-- **Span range**: CLT floors 5-8m; glulam beams 8-15m; timber trusses 12-30m
-- **Height limit**: Up to 18 storeys (current codes; taller in engineered solutions — Mjosternet, Norway is 18 storeys/85.4m)
-- **Typical element sizes**: CLT panels 100-300mm thick; glulam beams 200x400mm to 300x900mm; LVL beams similar range
-- **Cost range**: 160-300 $/m² (structure only — premium over concrete but falling)
-- **Construction speed**: Very fast — 3-5 days per floor. Prefabricated, dry construction, reduced site labour. 30-50% faster than RC.
-- **Fire rating strategy**: Charring rate method — timber chars at 0.65mm/min (softwood), sacrificial timber layers. 60-90 min easily achievable with oversized sections. Encapsulation for 120 min. Sprinklers typically required above 4 storeys.
-- **Embodied carbon**: 80-180 kgCO2e/m² — significantly lower than concrete or steel. Biogenic carbon sequestration potentially makes it carbon-negative.
-- **Best-fit building types**: Residential (mid-rise), offices, schools, cultural buildings, wellness/healthcare where biophilic design is valued
-- **Exemplar buildings**:
+- **跨度范围**：CLT 楼板 5–8m；胶合木梁 8–15m；木桁架 12–30m
+- **高度限制**：最多 18 层（现行规范；工程化方案可更高——挪威 Mjosternet 为 18 层／85.4m）
+- **典型构件尺寸**：CLT 板厚 100–300mm；胶合木梁 200×400mm 至 300×900mm；LVL 梁类似
+- **成本范围**：160–300 $/m²（仅结构——较混凝土有溢价但正在下降）
+- **施工速度**：很快——每层 3–5 天。预制、干式施工，现场人工减少，比钢筋混凝土快 30–50%。
+- **耐火策略**：炭化速率法——木材炭化速率 0.65mm/min（软木），设置牺牲木层。加大截面可轻松达到 60–90 分钟，120 分钟需包覆。4 层以上通常要求喷淋。
+- **隐含碳**：80–180 kgCO2e/m²，显著低于混凝土或钢材；生物源碳固存可能使其实现负碳。
+- **最适建筑类型**：中层住宅、办公、学校、文化建筑，以及重视亲生物设计的康养／医疗建筑
+- **示范建筑**：
   - Mjosternet, Brumunddal, Norway (2019) — 18 storeys, 85.4m, world's tallest timber building
   - Dalston Works, London (2017) — 10-storey CLT residential, 121 units
   - Sara Kulturhus, Skelleftea, Sweden (2021) — 20 storeys, mass timber hybrid
 
-**Key architectural implications**: Warm, biophilic aesthetic when exposed. Acoustic separation requires careful detailing (resilient layers, concrete topping on CLT). Moisture management critical during construction. Connection design is the key challenge — steel brackets, self-tapping screws, dowelled connections. Timber moves (shrinkage, creep) — allow for differential movement at connections to other materials.
+**对建筑设计的关键影响：**外露时具有温暖、亲生物的美学效果。声学分隔需要精细构造（弹性层、CLT上的混凝土面层）。施工期间的防潮管理至关重要。连接设计是主要挑战——包括钢托、自动攻丝螺钉和销钉连接。木材会发生收缩和徐变，与其他材料连接处应预留差异变形。
 
-### System Type 7: Hybrid Systems
+### 体系类型7：混合体系
 
-- **Timber-Concrete Composite (TCC)**: CLT or glulam with concrete topping — improves acoustic performance, adds thermal mass, increases stiffness. Spans 6-10m. Common in residential.
-- **Steel-Timber**: Steel primary frame with CLT floor panels — combines long steel spans with timber's sustainability. Spans 8-16m.
-- **Concrete Core + Timber Frame**: Concrete core for lateral stability, timber for gravity frame — common in tall timber buildings.
-- **Cost range**: 150-280 $/m² depending on combination
-- **Embodied carbon**: 120-250 kgCO2e/m² — intermediate between pure timber and pure concrete
-- **Exemplar buildings**:
+- **木—混凝土组合（TCC）：**CLT 或胶合木上浇筑混凝土面层——改善声学性能、增加热惰性并提高刚度。跨度 6–10m，住宅中常见。
+- **钢—木组合：**钢主体框架配 CLT 楼板——结合钢材的大跨度与木材的可持续性。跨度 8–16m。
+- **混凝土核心筒 + 木框架：**混凝土核心筒承担抗侧稳定，木结构承担重力荷载——高层木建筑中常见。
+- **成本范围：**150–280 $/m²，取决于组合方式
+- **隐含碳：**120–250 kgCO2e/m²，介于纯木和纯混凝土之间
+- **示范建筑：**
   - 25 King, Brisbane (2018) — timber-concrete composite, 10 storeys
   - Brock Commons, Vancouver (2017) — concrete core + CLT floors + glulam columns, 18 storeys
   - 80 Atlantic Avenue, Toronto (2022) — steel-timber hybrid office
 
-### System Type 8: Precast Concrete
+### 体系类型8：预制混凝土
 
-- **Span range**: Hollowcore plank 6-16m; double-tee 12-24m; precast beams 8-18m
-- **Height limit**: Up to 30+ storeys (with in-situ cores or shear walls for stability)
-- **Typical element sizes**: Hollowcore 150-400mm deep x 1200mm wide; double-tee 400-800mm deep x 2400mm wide; columns 300x300 to 600x600mm
-- **Cost range**: 130-230 $/m² (structure only)
-- **Construction speed**: Very fast — factory quality control, minimal wet trades on site. 3-5 days per floor.
-- **Fire rating strategy**: Inherent — similar to in-situ RC. 150mm hollowcore achieves 60 min; 200mm achieves 90 min; 250mm+ achieves 120 min.
-- **Embodied carbon**: 230-370 kgCO2e/m² — similar to in-situ RC but with less waste
-- **Best-fit building types**: Car parks, retail, warehouses, student housing, prisons, repetitive residential
-- **Exemplar buildings**:
+- **跨度范围：**空心板 6–16m；双 T 板 12–24m；预制梁 8–18m
+- **高度限制：**最多 30 层以上（采用现浇核心筒或剪力墙保证稳定）
+- **典型构件尺寸：**空心板深 150–400mm、宽 1200mm；双 T 板深 400–800mm、宽 2400mm；柱 300×300 至 600×600mm
+- **成本范围：**130–230 $/m²（仅结构）
+- **施工速度：**很快——工厂质量控制，现场湿作业少，每层 3–5 天。
+- **耐火策略：**固有耐火性，与现浇钢筋混凝土类似。150mm 空心板达到 60 分钟，200mm 达到 90 分钟，250mm 以上达到 120 分钟。
+- **隐含碳：**230–370 kgCO2e/m²，与现浇钢筋混凝土相近但废料更少
+- **最适建筑类型：**停车楼、零售、仓库、学生住宅、监狱、重复性住宅
+- **示范建筑：**
   - Welbeck Street Car Park, London (1970) — precast diagrid facade/structure
   - De Rotterdam, Rotterdam (2013) — precast concrete frame, 150m, 162,000m² mixed-use
   - Habitat 67, Montreal (1967) — prefabricated concrete modules, 354 units
 
-**Key architectural implications**: Requires early coordination — precast elements are manufactured weeks before erection. Modifications on site are difficult and expensive. Joints and connections require careful architectural detailing. Standardization of grid and element sizes is essential for economy. Excellent surface finish achievable (fair-faced, polished, textured, coloured aggregate).
+**对建筑设计的关键影响：**需要尽早协调——预制构件在安装前数周即已生产。现场修改困难且成本高。接缝与连接需要细致的建筑节点设计。网格和构件尺寸的标准化是实现经济性的关键。可获得优良表面效果（清水、抛光、纹理或彩色骨料）。
 
 ---
 
-## Section 2: Structural Grid Design
+## 第2节：结构网格设计
 
-The structural grid is the skeleton upon which all architectural decisions hang. Grid dimensions drive column positions, facade rhythm, parking efficiency, service routes, and spatial quality. Getting the grid right at concept stage prevents costly redesigns later.
+结构网格是承载所有建筑决策的骨架。网格尺寸决定柱位、立面节奏、停车效率、设备路线和空间品质。在概念阶段确定正确网格，可避免后期代价高昂的返工。
 
-### Grid Spacing by Building Type
+### 按建筑类型划分的网格间距
 
-| Building Type | Typical Grid (m) | Notes |
+| 建筑类型 | 典型柱网（m） | 说明 |
 |---|---|---|
-| Residential (apartment) | 5.0-8.0 x 5.0-8.0 | Party wall crosswall at 5.0-7.5m centres; 6.0m allows 2-bed flat width |
-| Residential (hotel) | 3.6-4.2 x 7.5-9.0 | Room width 3.6-4.2m; room depth 7.5-9.0m including bathroom |
-| Office (speculative) | 7.5-10.8 x 7.5-10.8 | 9.0m is the UK standard; 10.8m for premium Grade A |
-| Office (owner-occupied) | 6.0-9.0 x 6.0-12.0 | More flexibility in grid; can accept transfer structures |
-| Retail (shopping centre) | 8.0-12.0 x 8.0-12.0 | Column-free retail units preferred; 8.1m suits standard shopfronts |
-| Retail (supermarket) | 10.0-16.0 x 10.0-16.0 | Large clear spans for racking and flexibility |
-| Car parking (above-ground) | 8.1 x 5.4 (single bay) | 2 cars + aisle = 5.0m car + 6.0m aisle + 5.0m car = 16.0m double bay |
-| Car parking (basement) | 7.5-8.1 x 15.4-16.2 | 16.2m double-bay span is standard for post-tensioned car parks |
-| Hospital | 7.2-8.4 x 7.2-8.4 | Suits clinical room modules; 7.2m = 2x3.6m clinical bays |
-| School (classroom) | 7.5-9.0 x 7.5-9.0 | 8.1m x 8.1m suits 60m² classroom |
-| Warehouse/logistics | 12.0-24.0 x 12.0-24.0 | Long-span portal frames or trusses; 24m clear span is standard |
-| Laboratory | 6.6-7.5 x 9.0-10.8 | Module driven by 3.3m bench spacing (2 x 3.3m = 6.6m) |
+| 住宅（公寓） | 5.0–8.0 × 5.0–8.0 | 分户横墙中心距 5.0–7.5m；6.0m 可满足两居室面宽 |
+| 住宅（酒店） | 3.6–4.2 × 7.5–9.0 | 客房宽 3.6–4.2m；含卫生间的客房进深 7.5–9.0m |
+| 办公（投机开发） | 7.5–10.8 × 7.5–10.8 | 9.0m 为英国标准；高端 Grade A 采用 10.8m |
+| 办公（自用） | 6.0–9.0 × 6.0–12.0 | 柱网更灵活，可接受转换结构 |
+| 零售（购物中心） | 8.0–12.0 × 8.0–12.0 | 优先采用无柱零售单元；8.1m 适合标准店面 |
+| 零售（超市） | 10.0–16.0 × 10.0–16.0 | 为货架和灵活布局提供大跨度 |
+| 停车（地上） | 8.1 × 5.4（单车位组） | 2 辆车 + 车道 = 5.0m 车位 + 6.0m 车道 + 5.0m 车位 = 16.0m 双车位组 |
+| 停车（地下） | 7.5–8.1 × 15.4–16.2 | 16.2m 双车位组跨度是后张预应力停车楼的标准值 |
+| 医院 | 7.2–8.4 × 7.2–8.4 | 适合临床房间模块；7.2m = 2×3.6m 临床单元 |
+| 学校（教室） | 7.5–9.0 × 7.5–9.0 | 8.1m × 8.1m 适合 60m² 教室 |
+| 仓库／物流 | 12.0–24.0 × 12.0–24.0 | 大跨度门式刚架或桁架；24m 净跨为标准值 |
+| 实验室 | 6.6–7.5 × 9.0–10.8 | 由 3.3m 工作台间距决定（2 × 3.3m = 6.6m） |
 
-### Column-Free Span Requirements
+### 无柱空间跨度要求
 
-| Use | Minimum Clear Span |
+| 用途 | 最小净跨 |
 |---|---|
-| Badminton court | 6.1 x 13.4m |
-| Basketball court | 15.2 x 28.6m |
-| Swimming pool (25m) | 25.0 x 16.0m minimum |
-| Swimming pool (50m) | 50.0 x 25.0m minimum |
-| Theatre auditorium | 15-30m depending on seating capacity |
-| Concert hall | 25-50m |
-| Exhibition hall | 30-100m+ |
-| Airport terminal | 30-70m (check-in halls) |
+| 羽毛球场 | 6.1 × 13.4m |
+| 篮球场 | 15.2 × 28.6m |
+| 游泳池（25m） | 最小 25.0 × 16.0m |
+| 游泳池（50m） | 最小 50.0 × 25.0m |
+| 剧院观众厅 | 15–30m，取决于座位容量 |
+| 音乐厅 | 25–50m |
+| 展览厅 | 30–100m 以上 |
+| 机场航站楼 | 30–70m（值机大厅） |
 
-### Grid Alignment with Facade Module
+### 网格与立面模数协调
 
-The structural grid should coordinate with the facade module to avoid awkward junctions:
+结构网格应与立面模数协调，以避免不合理的交接：
 
-- **Curtain wall**: Typical mullion spacing 1.2m, 1.5m, or 1.8m. A 9.0m structural grid divides into 6x1.5m or 5x1.8m facade bays.
-- **Precast cladding**: Panel widths typically 1.5-3.6m. Grid must suit panel module.
-- **Masonry facade**: Brick module 225mm (UK) or 200mm (modular). Grid dimensions should be multiples of brick module.
-- **Unitised curtain wall**: Panel widths 1.2-1.8m. Structural grid should be a whole multiple of panel width.
+- **幕墙：**典型竖梃间距为 1.2m、1.5m 或 1.8m。9.0m 结构柱网可划分为 6×1.5m 或 5×1.8m 立面分格。
+- **预制挂板：**板宽通常为 1.5–3.6m，柱网必须适应板材模数。
+- **砌体立面：**砖模数为 225mm（英国）或 200mm（模数砖），柱网尺寸应为砖模数的倍数。
+- **单元式幕墙：**板宽 1.2–1.8m，结构柱网应为板宽的整数倍。
 
-### Podium-Tower Transition
+### 裙房-塔楼转换
 
-Where a tower sits on a podium (common in mixed-use: retail/parking podium + residential/office tower), the grids rarely align:
+当塔楼坐落于裙房之上（混合使用项目中很常见：零售/停车裙房加住宅/办公塔楼）时，两者网格通常难以对齐：
 
-- **Transfer structure**: Use transfer beams (1.0-2.5m deep) or transfer slabs (600-1200mm) to redirect loads. Expensive and carbon-intensive.
-- **Offset columns**: Step columns inward using inclined members. Requires careful detailing.
-- **Aligned grids**: Best solution — design tower grid to work with podium grid. Typical approach: 8.1m podium grid (parking) with tower columns at every second or third podium column.
-- **Mega-columns**: Carry tower loads directly through podium on large-section columns or walls, independent of podium grid.
-
----
-
-## Section 3: Lateral Stability Systems
-
-Every building must resist lateral loads (wind, seismic, notional horizontal loads). The lateral system profoundly affects architectural planning — it determines where solid walls must go, where bracing appears, and what facade expression is possible.
-
-### Shear Walls (Concrete or Masonry)
-
-- **Principle**: Planar walls acting as vertical cantilevers fixed at foundation
-- **Minimum thickness**: 150mm (concrete, up to 10 storeys); 200-300mm (taller buildings); 215mm (masonry)
-- **Planning impact**: Walls must be continuous from roof to foundation. Cannot be removed or relocated. Must be arranged in two orthogonal directions.
-- **Height suitability**: Up to 30 storeys (concrete); up to 10 storeys (masonry)
-- **Advantages**: Excellent fire compartmentation, acoustic separation, no visible bracing
-- **Location strategy**: Around cores (lifts, stairs), party walls, gable ends, flanking corridor walls
-- **Minimum shear wall provision**: Approximately 3-5% of floor area in plan for buildings up to 20 storeys
-
-### Braced Frames
-
-- **Types**: X-bracing, V-bracing (chevron), inverted-V, K-bracing (avoid — progressive collapse risk), eccentric bracing
-- **Member sizes**: Typically 150x150mm to 300x300mm hollow sections (steel); or 200x200mm to 400x400mm timber
-- **Planning impact**: Bracing panels restrict movement through the braced bay. Must be resolved at concept stage.
-- **Height suitability**: Up to 20 storeys (concentric bracing); up to 40 storeys (eccentric bracing with ductile links)
-- **Advantages**: Efficient, lightweight, expressed bracing can be architecturally dramatic
-- **Disadvantages**: Obstructs openings in braced bays; requires foundation fixity
-
-### Moment Frames
-
-- **Principle**: Rigid connections between beams and columns resist lateral loads through bending
-- **Member sizes**: Columns 50-100% larger than gravity-only design; beams deeper at connections
-- **Planning impact**: No bracing or shear walls required — maximum spatial freedom
-- **Height suitability**: Up to 25 storeys (steel); less efficient above this
-- **Advantages**: Complete flexibility in planning; transparent facades possible
-- **Disadvantages**: Most expensive lateral system; significant steel tonnage premium (30-50% more than braced frame); larger member sizes; more complex connections
-- **Drift control**: Governing design criterion is usually storey drift (H/500 typical) rather than strength
-
-### Core Structures
-
-- **Principle**: Concrete core (containing lifts, stairs, risers) acts as primary lateral element
-- **Planning impact**: Core is the anchor of the plan. Core position affects structural efficiency, lettable area, and egress distance.
-- **Central core**: Most structurally efficient for lateral loads; standard in commercial office towers. Maximises perimeter usable space.
-- **Side/end core**: Common in residential towers; allows clear-span floor plates. Less efficient for lateral resistance — supplementary walls may be needed.
-- **Dual core**: Used in deep-plan buildings; two cores linked by floor diaphragm.
-- **Height suitability**: Up to 40-50 storeys (core alone); taller with outriggers
-- **Core dimensions**: Typically 15-25% of typical floor area for buildings above 20 storeys
-
-### Outrigger Systems
-
-- **Principle**: Deep beams or trusses connect core to perimeter columns, engaging the full building width in lateral resistance. Dramatically reduces core bending moments and roof deflection.
-- **Outrigger depth**: Typically 1-2 storeys (mechanical plant floors are ideal locations)
-- **Height suitability**: 40-80 storeys
-- **Planning impact**: Outrigger floors cannot have normal occupancy — dedicate to mechanical plant
-- **Efficiency**: Single outrigger at 2/3 height reduces drift by ~50%; dual outriggers (1/3 and 2/3) reduce by ~65%
-- **Exemplar**: Taipei 101, One World Trade Center, Shanghai Tower
-
-### Tube Structures
-
-- **Framed tube**: Closely spaced perimeter columns (2-4m centres) with deep spandrel beams form a tube. 40-80 storeys.
-- **Bundled tube**: Multiple tubes grouped together (Sears/Willis Tower). 80-110 storeys.
-- **Braced tube**: Diagonal bracing on building perimeter (John Hancock Center, 30 St Mary Axe). 40-100 storeys.
-- **Diagrid**: Triangulated perimeter structure — no vertical columns on facade. Very efficient. 30-70 storeys.
-- **Planning impact**: Perimeter columns/diagonals are architecturally expressive but restrict views and facade openings. Ground-floor column transfer typically needed for entrances.
-
-### Mega-Frame / Belt Truss
-
-- **Principle**: Mega-columns at corners connected by belt trusses at intervals. Interior structure is lightweight gravity-only framing.
-- **Height suitability**: 60-120+ storeys
-- **Exemplar**: HSBC Building Hong Kong (mega-frame), Leadenhall Building London (mega-frame)
-- **Planning impact**: Mega-columns are very large (1.5-3.0m dimension) — integrate into planning from day one
+- **转换结构：**采用转换梁（深 1.0–2.5m）或转换板（600–1200mm）重新分配荷载，成本和隐含碳较高。
+- **错位柱：**利用倾斜构件使柱向内收进，需要精细节点设计。
+- **对齐柱网：**最佳方案——使塔楼柱网与裙房柱网协调。典型做法是采用 8.1m 裙房柱网（停车），塔楼柱位对应每隔两或三根裙房柱。
+- **巨柱：**采用大截面柱或墙独立于裙房柱网，直接将塔楼荷载传至基础。
 
 ---
 
-## Section 4: Foundation Types
+## 第3节：侧向稳定体系
 
-Foundation selection depends on soil conditions, structural loads, settlement tolerance, water table, and site access constraints. Architects must understand foundation types to assess basement feasibility, coordinate below-ground structure, and understand programme implications.
+每栋建筑都必须抵抗侧向荷载（风荷载、地震荷载和假定水平荷载）。侧向体系会深刻影响建筑规划——它决定实体墙的位置、支撑的出现位置以及可实现的立面表达。
 
-### Strip Foundations
+### 剪力墙（混凝土或砌体）
 
-- **Description**: Continuous concrete strip beneath load-bearing walls
-- **Typical dimensions**: 450-900mm wide x 200-450mm deep (unreinforced); wider/deeper with reinforcement
-- **Suitable for**: Low-rise load-bearing masonry, light framed structures
-- **Soil requirement**: Firm ground at shallow depth (typically <1.5m below ground level)
-- **Bearing capacity utilised**: 50-200 kPa
+- **原理：**平面墙体作为固定于基础的竖向悬臂
+- **最小厚度：**150mm（混凝土，最多 10 层）；200–300mm（更高建筑）；215mm（砌体）
+- **规划影响：**墙体必须从屋面连续至基础，不得拆除或移位，并应沿两个正交方向布置。
+- **适用高度：**混凝土最多 30 层；砌体最多 10 层
+- **优点：**防火分区和隔声性能优良，无可见支撑
+- **位置策略：**布置在核心筒（电梯、楼梯）周边、分户墙、山墙端部和走廊侧墙
+- **剪力墙最小配置：**20 层以下建筑平面面积约 3–5%
 
-### Pad Foundations
+### 支撑框架
 
-- **Description**: Individual concrete bases beneath each column
-- **Typical dimensions**: 1.0x1.0m to 3.5x3.5m plan; 500-1500mm deep
-- **Suitable for**: Framed structures (steel, concrete, timber) on competent ground
-- **Soil requirement**: Firm to stiff soil at shallow depth
-- **Bearing capacity utilised**: 100-600 kPa
+- **类型：**X 形支撑、V 形支撑（人字形）、倒 V 形、K 形支撑（应避免——存在连续倒塌风险）、偏心支撑
+- **构件尺寸：**通常为 150×150mm 至 300×300mm 空心钢截面，或 200×200mm 至 400×400mm 木构件
+- **规划影响：**支撑桁架限制支撑跨内的通行，必须在概念阶段解决。
+- **适用高度：**同心支撑最多 20 层；带延性连梁的偏心支撑最多 40 层
+- **优点：**高效、轻质，外露支撑可形成强烈建筑表达
+- **缺点：**阻挡支撑跨的开口，并要求基础具有固结能力
 
-### Raft / Mat Foundations
+### 刚架（抗弯框架）
 
-- **Description**: Continuous reinforced concrete slab beneath entire building footprint
-- **Typical thickness**: 300-600mm (light buildings); 600-1500mm (heavy buildings/towers)
-- **Suitable for**: Variable or weak soils, high water table, buildings requiring basement waterproofing
-- **Advantages**: Spreads load over large area; acts as basement floor slab; reduces differential settlement
-- **Soil requirement**: Can work on relatively weak soils (50-150 kPa)
+- **原理：**梁柱刚性连接通过弯曲抵抗侧向荷载
+- **构件尺寸：**柱比仅按重力设计大 50–100%，连接处梁更深
+- **规划影响：**无需支撑或剪力墙，空间自由度最大
+- **适用高度：**钢结构最多 25 层，超过后效率降低
+- **优点：**平面布置完全灵活，可实现透明立面
+- **缺点：**最昂贵的抗侧体系；钢材用量比支撑框架高 30–50%；构件更大、连接更复杂
+- **层间位移控制：**控制性设计准则通常是层间位移（典型 H/500），而非强度
 
-### Piled Foundations
+### 核心筒结构
 
-When surface soils cannot support the building loads, piles transfer loads to deeper competent strata.
+- **原理：**包含电梯、楼梯和竖井的混凝土核心筒作为主要抗侧构件
+- **规划影响：**核心筒是平面锚点，其位置影响结构效率、可出租面积和疏散距离。
+- **中央核心筒：**抗侧最有效，商业办公塔楼的标准做法，最大化周边可用空间。
+- **侧置／端部核心筒：**住宅塔楼常见，可形成无柱楼板；抗侧效率较低，可能需要补充墙体。
+- **双核心筒：**用于进深较大的建筑，两个核心筒由楼板水平隔板连接。
+- **适用高度：**仅核心筒最多 40–50 层；配合外伸臂可更高
+- **核心筒尺寸：**20 层以上建筑通常为标准楼层面积的 15–25%
 
-- **Bored piles (CFA — Continuous Flight Auger)**: 300-1200mm diameter, depths to 30m. Low vibration, low noise. Suit urban sites. Typical capacity: 500-5000 kN per pile.
-- **Bored piles (rotary)**: 600-2400mm diameter, depths to 60m+. For heavy loads. Capacity: 2000-30000 kN per pile.
-- **Driven piles (precast concrete)**: 250-450mm square, depths to 30m. High vibration — restricted on urban sites. Capacity: 500-3000 kN per pile.
-- **Driven piles (steel H-section)**: 200-350mm, depths to 40m. Can be driven through obstructions. Capacity: 500-4000 kN per pile.
-- **Screw piles**: 200-800mm diameter, quick installation, removable. For temporary structures or light permanent loads. Capacity: 100-1500 kN.
+### 外伸臂体系
 
-### Typical Bearing Pressures by Soil Type
+- **原理：**深梁或桁架将核心筒与周边柱连接，使建筑全宽参与抗侧，显著降低核心筒弯矩和屋顶挠度。
+- **外伸臂深度：**通常为 1–2 层（机电设备层是理想位置）
+- **适用高度：**40–80 层
+- **规划影响：**外伸臂楼层不能正常使用，应专门用于机电设备
+- **效率：**在 2/3 高度设置单层外伸臂可使位移降低约 50%；在 1/3 和 2/3 高度设置双层外伸臂可降低约 65%
+- **示范项目：**台北 101、纽约 One World Trade Center、上海中心大厦
 
-| Soil/Rock Type | Presumed Bearing Capacity (kPa) |
+### 筒体结构
+
+- **框筒：**间距紧密的周边柱（中心距 2–4m）与深腰梁形成筒体，适用 40–80 层。
+- **束筒：**多个筒体组合（Sears／Willis Tower），适用 80–110 层。
+- **支撑筒：**建筑周边设置斜向支撑（John Hancock Center、30 St Mary Axe），适用 40–100 层。
+- **斜交网格：**三角化周边结构，立面无竖向柱，效率很高，适用 30–70 层。
+- **规划影响：**周边柱／斜杆具有建筑表现力，但会限制视野和立面开口；入口处通常需要首层柱转换。
+
+### 巨型框架/带状桁架
+
+- **原理：**角部巨柱通过带状桁架在不同高度连接，内部结构为轻型、仅承担重力的框架。
+- **适用高度：**60-120+ 层
+- **示范建筑：**香港汇丰大厦（巨型框架）、伦敦 Leadenhall Building（巨型框架）
+- **规划影响：**巨柱尺寸很大（1.5-3.0 m）——从规划第一天起就必须纳入布局。
+
+---
+
+## 第4节：基础类型
+
+基础选择取决于土壤条件、结构荷载、沉降容许值、地下水位和场地进场限制。建筑师必须了解基础类型，以评估地下室可行性、协调地下结构并理解其对工期的影响。
+
+### 条形基础
+
+- **说明：**承重墙下的连续混凝土条带
+- **典型尺寸：**宽 450–900mm × 深 200–450mm（无筋）；配筋时更宽更深
+- **适用：**低层承重砌体、轻型框架结构
+- **土壤要求：**浅层坚实地基（通常低于地面 <1.5m）
+- **采用承载力：**50–200 kPa
+
+### 独立基础
+
+- **说明：**每根柱下的独立混凝土基础
+- **典型尺寸：**平面 1.0×1.0m 至 3.5×3.5m；深 500–1500mm
+- **适用：**坚实地基上的框架结构（钢、混凝土、木）
+- **土壤要求：**浅层坚硬至坚实土
+- **采用承载力：**100–600 kPa
+
+### 筏板/箱形基础
+
+- **说明：**覆盖整个建筑占地的连续钢筋混凝土板
+- **典型厚度：**300–600mm（轻型建筑）；600–1500mm（重型建筑／塔楼）
+- **适用：**土质变化或软弱土、高地下水位、需要地下室防水的建筑
+- **优点：**将荷载分散至大面积；兼作地下室底板；减少差异沉降
+- **土壤要求：**可用于相对软弱土（50–150 kPa）
+
+### 桩基础
+
+当浅层土体无法承受建筑荷载时，桩将荷载传递至更深处的持力层。
+
+- **钻孔桩（CFA——连续螺旋钻）：**直径 300–1200mm，深度达 30m。振动小、噪声低，适合城市场地。典型承载力：每桩 500–5000 kN。
+- **钻孔桩（旋挖）：**直径 600–2400mm，深度达 60m 以上，适用于重荷载。承载力：每桩 2000–30000 kN。
+- **打入桩（预制混凝土）：**250–450mm 方桩，深度达 30m。振动大，城市场地受限。承载力：每桩 500–3000 kN。
+- **打入桩（钢 H 型）：**200–350mm，深度达 40m，可穿越障碍物。承载力：每桩 500–4000 kN。
+- **螺旋桩：**直径 200–800mm，安装快且可拆除，适用于临时结构或轻型永久荷载。承载力：100–1500 kN。
+
+### 按土壤类型划分的典型地基承压力
+
+| 土壤／岩石类型 | 假定承载力（kPa） |
 |---|---|
-| Strong igneous/metamorphic rock | 10,000+ |
-| Strong limestone/sandstone | 2,000-10,000 |
-| Weak rock (chalk, mudstone) | 500-2,000 |
-| Dense gravel / dense sand | 300-600 |
-| Medium-dense sand | 100-300 |
-| Loose sand | 50-100 (not recommended) |
-| Stiff clay (undrained shear strength >150 kPa) | 150-300 |
-| Firm clay (Su 75-150 kPa) | 75-150 |
-| Soft clay (Su <75 kPa) | 50-100 (settlement-critical) |
-| Very soft clay / peat | Not suitable for shallow foundations |
+| 坚硬火成岩／变质岩 | 10,000+ |
+| 坚硬石灰岩／砂岩 | 2,000–10,000 |
+| 软弱岩石（白垩、泥岩） | 500–2,000 |
+| 密实砾石／密实砂 | 300–600 |
+| 中密砂 | 100–300 |
+| 松散砂 | 50–100（不建议） |
+| 硬黏土（不排水抗剪强度 >150 kPa） | 150–300 |
+| 坚实黏土（Su 75–150 kPa） | 75–150 |
+| 软黏土（Su <75 kPa） | 50–100（沉降控制） |
+| 极软黏土／泥炭 | 不适用于浅基础 |
 
-### Groundwater and Basement Design
+### 地下水与地下室设计
 
-- **Water table above basement slab**: Requires tanked construction (Type A waterproofing — membrane), structurally integral waterproof concrete (Type B — BS 8102), or drained cavity (Type C).
-- **Uplift resistance**: In high water table conditions, the foundation must resist hydrostatic uplift. A 3m-deep basement below water table generates 30 kPa uplift pressure.
-- **Typical basement cost**: 800-1500 $/m² (single level); 1000-2000 $/m² (multi-level) — substantially more than superstructure.
+- **地下室底板高于地下水位：**需要整体槽式施工（A 型防水——膜）、结构自防水混凝土（B 型——BS 8102）或排水空腔（C 型）。
+- **抗浮：**高地下水位条件下，基础必须抵抗静水浮力。低于地下水位 3m 的地下室产生 30 kPa 浮力压力。
+- **典型地下室成本：**800–1500 $/m²（单层）；1000–2000 $/m²（多层），显著高于上部结构。
 
 ---
 
-## Section 5: Span-to-Depth Ratios
+## 第5节：跨度-高度比
 
-These rules of thumb allow architects to estimate structural depths at concept stage, determining floor-to-floor heights before detailed engineering.
+这些经验规则使建筑师能够在概念阶段估算结构高度，并在详细工程设计前确定层高。
 
-### Concrete Elements
+### 混凝土构件
 
-| Element | Span/Depth Ratio | Example: 8m span |
+| 构件 | 跨高比 | 示例：8m 跨度 |
 |---|---|---|
-| One-way RC slab (simply supported) | L/28 | 286mm |
-| One-way RC slab (continuous) | L/32 | 250mm |
-| Two-way RC slab (simply supported) | L/33 | 242mm |
-| Two-way RC slab (continuous) | L/40 | 200mm |
-| Post-tensioned flat slab | L/40 to L/48 | 167-200mm |
-| RC beam (simply supported) | L/12 | 667mm |
-| RC beam (continuous) | L/18 | 444mm |
-| Post-tensioned beam | L/18 to L/24 | 333-444mm |
-| RC column (height/least dimension) | H/15 to H/8 | — |
+| 单向钢筋混凝土板（简支） | L/28 | 286mm |
+| 单向钢筋混凝土板（连续） | L/32 | 250mm |
+| 双向钢筋混凝土板（简支） | L/33 | 242mm |
+| 双向钢筋混凝土板（连续） | L/40 | 200mm |
+| 后张无梁楼板 | L/40 至 L/48 | 167–200mm |
+| 钢筋混凝土梁（简支） | L/12 | 667mm |
+| 钢筋混凝土梁（连续） | L/18 | 444mm |
+| 后张梁 | L/18 至 L/24 | 333–444mm |
+| 钢筋混凝土柱（高度／最小尺寸） | H/15 至 H/8 | — |
 
-### Steel Elements
+### 钢构件
 
-| Element | Span/Depth Ratio | Example: 12m span |
+| 构件 | 跨高比 | 示例：12m 跨度 |
 |---|---|---|
-| Steel beam (UB, simply supported) | L/20 | 600mm |
-| Steel beam (continuous) | L/24 | 500mm |
-| Castellated beam | L/18 to L/22 | 545-667mm |
-| Cellular beam | L/20 to L/25 | 480-600mm |
-| Steel truss (parallel chord) | L/10 to L/15 | 800-1200mm |
-| Steel truss (pitched) | L/8 to L/12 | 1000-1500mm |
-| Plate girder | L/12 to L/15 | 800-1000mm |
+| 钢梁（UB，简支） | L/20 | 600mm |
+| 钢梁（连续） | L/24 | 500mm |
+| 蜂窝梁 | L/18 至 L/22 | 545–667mm |
+| 空腹梁 | L/20 至 L/25 | 480–600mm |
+| 钢桁架（平行弦） | L/10 至 L/15 | 800–1200mm |
+| 钢桁架（变高度） | L/8 至 L/12 | 1000–1500mm |
+| 组合板梁 | L/12 至 L/15 | 800–1000mm |
 
-### Timber Elements
+### 木构件
 
-| Element | Span/Depth Ratio | Example: 7m span |
+| 构件 | 跨高比 | 示例：7m 跨度 |
 |---|---|---|
-| Glulam beam (simply supported) | L/15 to L/20 | 350-467mm |
-| Glulam beam (continuous) | L/18 to L/24 | 292-389mm |
-| CLT floor slab | L/25 to L/30 | 233-280mm |
-| LVL beam | L/16 to L/22 | 318-438mm |
-| Timber I-joist | L/15 to L/20 | 350-467mm |
-| Timber truss (pitched roof) | L/8 to L/12 | 583-875mm |
+| 胶合木梁（简支） | L/15 至 L/20 | 350–467mm |
+| 胶合木梁（连续） | L/18 至 L/24 | 292–389mm |
+| CLT 楼板 | L/25 至 L/30 | 233–280mm |
+| LVL 梁 | L/16 至 L/22 | 318–438mm |
+| 木工字梁 | L/15 至 L/20 | 350–467mm |
+| 木桁架（坡屋面） | L/8 至 L/12 | 583–875mm |
 
-### Precast Concrete Elements
+### 预制混凝土构件
 
-| Element | Span/Depth Ratio | Example: 10m span |
+| 构件 | 跨高比 | 示例：10m 跨度 |
 |---|---|---|
-| Hollowcore plank (150mm) | L/30 to L/35 | 286-333mm |
-| Hollowcore plank (250-400mm) | L/35 to L/40 | 250-286mm |
-| Precast double-tee | L/20 to L/25 | 400-500mm |
-| Precast beam (rectangular) | L/12 to L/16 | 625-833mm |
-| Precast beam (L-shaped/inverted-T) | L/14 to L/18 | 556-714mm |
+| 空心板（150mm） | L/30 至 L/35 | 286–333mm |
+| 空心板（250–400mm） | L/35 至 L/40 | 250–286mm |
+| 预制双 T 板 | L/20 至 L/25 | 400–500mm |
+| 预制梁（矩形） | L/12 至 L/16 | 625–833mm |
+| 预制梁（L 形／倒 T 形） | L/14 至 L/18 | 556–714mm |
 
-### Applying Span-to-Depth Ratios
+### 跨度-高度比的应用
 
-**Procedure for estimating floor-to-floor height:**
+**估算层高的步骤：**
 
-1. Determine structural span from grid
-2. Select element type (slab, beam, etc.)
-3. Calculate structural depth using L/ratio
-4. Add ceiling void for services: 150-400mm (residential), 400-800mm (office), 600-1200mm (hospital)
-5. Add floor finishes: 50-150mm (raised floor) or 20-50mm (screed/carpet)
-6. Add ceiling finish: 15-25mm
-7. Sum = floor construction zone
-8. Add clear room height: 2400-2700mm (residential), 2700-3000mm (office), 2700-3600mm (retail)
-9. Total = floor-to-floor height
+1. 根据网格确定结构跨度
+2. 选择构件类型（楼板、梁等）
+3. 使用L/比值计算结构高度
+4. 加上设备吊顶空间：住宅150-400mm、办公400-800mm、医院600-1200mm
+5. 加上楼面饰面：架空地板50-150mm，或找平层/地毯20-50mm
+6. 加上吊顶饰面：15-25mm
+7. 合计得到楼层构造带
+8. 加上房间净高：住宅2400-2700mm、办公2700-3000mm、零售2700-3600mm
+9. 总和即为层高
 
-**Example 1 — 9m span office with composite steel beam:**
-- Structural depth: 9000/20 = 450mm beam (with 150mm composite deck = 600mm total)
-- Ceiling void: 200mm (services through beam web openings, additional below beam)
-- Raised floor: 150mm
-- Ceiling tile: 15mm
-- Clear height: 2750mm
-- Floor-to-floor: 600 + 200 + 150 + 15 + 2750 = 3715mm → round to 3750mm or 4000mm
+**示例1——采用组合钢梁的9m跨度办公建筑：**
+- 结构高度：9000/20 = 450mm 梁（加 150mm 组合楼承板，总计 600mm）
+- 吊顶空间：200mm（设备穿过梁腹开孔，梁下另留空间）
+- 架空地板：150mm
+- 吊顶板：15mm
+- 净高：2750mm
+- 层高：600 + 200 + 150 + 15 + 2750 = 3715mm → 取整为 3750mm 或 4000mm
 
-**Example 2 — 6m span residential with RC flat slab:**
-- Structural depth: 6000/28 = 214mm → use 225mm flat slab
-- Ceiling void: 200mm (pipework, sprinkler, cabling)
-- Floor finish (screed + carpet): 75mm
-- Ceiling finish: 15mm
-- Clear height: 2500mm
-- Floor-to-floor: 225 + 200 + 75 + 15 + 2500 = 3015mm → round to 3100mm
+**示例2——采用钢筋混凝土无梁楼板的6m跨度住宅：**
+- 结构高度：6000/28 = 214mm → 采用 225mm 无梁楼板
+- 吊顶空间：200mm（管道、喷淋、电缆）
+- 地面饰面（找平层 + 地毯）：75mm
+- 吊顶饰面：15mm
+- 净高：2500mm
+- 层高：225 + 200 + 75 + 15 + 2500 = 3015mm → 取整为 3100mm
 
-**Example 3 — 7.5m span hospital with RC beam-slab:**
-- Structural depth: 200mm slab + 600mm beam = 600mm (beam governs zone)
-- Ceiling void: 800mm (extensive services — HVAC, medical gases, data, sprinkler)
-- Floor finish (vinyl on screed): 75mm
-- Ceiling tile: 15mm
-- Clear height: 2700mm
-- Floor-to-floor: 600 + 800 + 75 + 15 + 2700 = 4190mm → round to 4200mm or 4500mm
+**示例3——采用钢筋混凝土梁板的7.5m跨度医院：**
+- 结构高度：200mm 楼板 + 600mm 梁 = 600mm（梁控制结构带）
+- 吊顶空间：800mm（大量机电——HVAC、医用气体、数据、喷淋）
+- 地面饰面（找平层上的乙烯基地板）：75mm
+- 吊顶板：15mm
+- 净高：2700mm
+- 层高：600 + 800 + 75 + 15 + 2700 = 4190mm → 取整为 4200mm 或 4500mm
 
-**Example 4 — 16.2m span car park with PT flat slab:**
-- Structural depth: 16200/40 = 405mm → use 400mm PT slab
-- Services below slab: 150mm (sprinklers, lighting, drainage only)
-- No floor finish; no ceiling finish
-- Clear height: 2400mm minimum (2100mm at obstructions per BS 8110)
-- Floor-to-floor: 400 + 150 + 2400 = 2950mm → round to 3000mm
+**示例4——采用后张无梁楼板的16.2m跨度停车库：**
+- 结构高度：16200/40 = 405mm → 采用 400mm 后张楼板
+- 楼板下设备：150mm（仅喷淋、照明和排水）
+- 无地面饰面；无吊顶饰面
+- 净高：最小 2400mm（按 BS 8110，障碍物处 2100mm）
+- 层高：400 + 150 + 2400 = 2950mm → 取整为 3000mm
 
-### Structural System Comparison Matrix
+### 结构体系比较矩阵
 
-| Criterion | Masonry | RC Frame | PT Concrete | Steel Frame | Composite | Mass Timber | Precast |
+| 指标 | 砌体 | 钢筋混凝土框架 | 后张混凝土 | 钢框架 | 组合结构 | 工程木 | 预制混凝土 |
 |---|---|---|---|---|---|---|---|
-| Max economic span | 7m | 12m | 16m | 20m | 18m | 15m (glulam) | 16m (HC) |
-| Max height | 6 storeys | Unlimited | Unlimited | Unlimited | Unlimited | 18 storeys | 30 storeys |
-| Floor-to-floor (office, 9m) | N/A | 3.6-4.0m | 3.4-3.8m | 3.7-4.0m | 3.5-3.8m | 3.5-3.9m | 3.5-3.8m |
-| Embodied carbon | Low-Med | High | Medium | Medium | Med-High | Very Low | Medium |
-| Construction speed | Slow | Medium | Med-Fast | Very Fast | Very Fast | Very Fast | Very Fast |
-| Planning flexibility | Low | High | High | Very High | Very High | Medium | Low |
-| Acoustic performance | Good | Good | Good | Poor (needs treatment) | Fair | Poor (needs treatment) | Good |
-| Fire resistance | Inherent | Inherent | Inherent | Requires protection | Partial | Charring + encapsulation | Inherent |
-| Wet trades on site | High | High | High | Low | Medium | Very Low | Low |
-| Quality control | Variable | Variable | Good | Good | Good | Excellent (factory) | Excellent (factory) |
+| 最大经济跨度 | 7m | 12m | 16m | 20m | 18m | 15m（胶合木） | 16m（空心板） |
+| 最大高度 | 6 层 | 无上限 | 无上限 | 无上限 | 无上限 | 18 层 | 30 层 |
+| 层高（办公，9m） | 不适用 | 3.6–4.0m | 3.4–3.8m | 3.7–4.0m | 3.5–3.8m | 3.5–3.9m | 3.5–3.8m |
+| 隐含碳 | 低—中 | 高 | 中 | 中 | 中—高 | 很低 | 中 |
+| 施工速度 | 慢 | 中 | 中—快 | 很快 | 很快 | 很快 | 很快 |
+| 规划灵活性 | 低 | 高 | 高 | 很高 | 很高 | 中 | 低 |
+| 声学性能 | 良好 | 良好 | 良好 | 较差（需处理） | 一般 | 较差（需处理） | 良好 |
+| 耐火性 | 固有 | 固有 | 固有 | 需防护 | 部分 | 炭化 + 包覆 | 固有 |
+| 现场湿作业 | 多 | 多 | 多 | 少 | 中 | 极少 | 少 |
+| 质量控制 | 可变 | 可变 | 良好 | 良好 | 良好 | 优秀（工厂） | 优秀（工厂） |
 
-### Vibration Considerations
+### 振动注意事项
 
-Lightweight floor structures (steel, timber) are susceptible to human-induced vibration (footfall):
-- **Concrete slabs** (>250mm): Natural frequency typically >8 Hz — acceptable for all uses
-- **Composite steel deck** (130-170mm): Check required for spans >7.5m. Natural frequency target: >4 Hz (office), >8 Hz (hospital operating theatre)
-- **CLT floors**: Susceptible above 5m span. Add concrete topping (50-80mm) to increase mass and damping. Target: >8 Hz for residential
-- **Post-tensioned slabs**: Generally satisfactory due to high stiffness-to-weight ratio
-- **Long-span steel beams** (>12m): Frequently require vibration analysis. Remedies: increase beam stiffness, add concrete topping mass, tune dampers (TMDs)
+轻型楼盖结构（钢结构、木结构）容易受到人为振动（脚步荷载）的影响：
+- **混凝土楼板**（>250mm）：固有频率通常 >8 Hz，可满足所有用途
+- **组合钢楼承板**（130–170mm）：跨度 >7.5m 时需校核。固有频率目标：办公 >4 Hz，医院手术室 >8 Hz
+- **CLT 楼板：**跨度超过 5m 时易受振动影响。增加 50–80mm 混凝土面层以提高质量和阻尼，住宅目标 >8 Hz
+- **后张楼板：**因刚重比高，通常满足要求
+- **大跨度钢梁**（>12m）：通常需要振动分析。措施包括提高梁刚度、增加混凝土面层质量、调谐阻尼器（TMD）
 
-**Vibration-sensitive uses requiring special attention:**
+**需要特别关注振动的使用类型：**
 - Hospital operating theatres and imaging suites (VC-A to VC-D criteria)
 - Laboratory precision equipment (VC-A to VC-E)
 - Recording studios and concert halls
@@ -474,84 +469,84 @@ Lightweight floor structures (steel, timber) are susceptible to human-induced vi
 
 ---
 
-## Section 6: Load Path Narrative
+## 第6节：荷载路径说明
 
-### Gravity Load Path
+### 重力荷载路径
 
-Loads flow downward through the structure in a continuous chain:
+荷载沿连续链条向下传递：
 
-1. **Applied loads** (people, furniture, equipment, snow) act on **floor finishes**
-2. Floor finishes transfer load to **floor slab/deck** (one-way or two-way spanning)
-3. Slab transfers load to **beams** (if present) or directly to columns/walls (flat slab)
-4. Beams transfer load to **columns** or **load-bearing walls**
-5. Columns/walls transfer load through each storey to **foundations**
-6. Foundations transfer load to **ground**
+1. **施加荷载**（人员、家具、设备、雪）作用于**楼面饰面**
+2. 楼面饰面将荷载传至**楼板／楼承板**（单向或双向跨度）
+3. 楼板将荷载传至**梁**（如有），或直接传至柱／墙（无梁楼板）
+4. 梁将荷载传至**柱**或**承重墙**
+5. 柱／墙逐层将荷载传至**基础**
+6. 基础将荷载传至**地基**
 
-**Critical rule**: Every element in the chain must have adequate strength, and the path must be continuous. A column on the 5th floor must have a column below it on the 4th floor — or a transfer structure.
+**关键规则：**链条中的每个构件都必须具有足够强度，路径必须连续。五层的柱下方必须在四层有对应柱，或者设置转换结构。
 
-### Lateral Load Path
+### 侧向荷载路径
 
-Wind and seismic forces follow a horizontal path:
+风荷载和地震力沿水平路径传递：
 
-1. **Wind pressure** acts on **facade/cladding**
-2. Facade transfers load to **floor slabs** (acting as horizontal diaphragms) at each level
-3. Floor diaphragm transfers load (through in-plane shear) to **lateral resisting elements** (cores, shear walls, braced frames, moment frames)
-4. Lateral elements transfer load vertically to **foundations**
-5. Foundations transfer overturning moments and base shear to **ground**
+1. **风压**作用于**立面／外饰面**
+2. 立面将荷载传至各层**楼板**（作为水平隔板）
+3. 楼板隔板通过平面内剪力将荷载传至**抗侧构件**（核心筒、剪力墙、支撑框架、刚架）
+4. 抗侧构件将荷载竖向传至**基础**
+5. 基础将倾覆力矩和基底剪力传至**地基**
 
-**Critical rule**: Floor diaphragms must be continuous and connected to lateral elements. Large openings in floor slabs (atria, stairs) weaken the diaphragm — reinforcement and collector beams required around openings.
+**关键规则：**楼板水平隔板必须连续并与侧向构件连接。楼板中的大洞口（中庭、楼梯）会削弱隔板作用，洞口周边需要加强钢筋和集力梁。
 
-### Common Architectural Decisions That Create Structural Problems
+### 容易造成结构问题的常见建筑决策
 
-1. **Removing a column on one floor** — creates a transfer beam, adds cost and depth, disrupts floor below
-2. **Large atrium void through multiple floors** — interrupts diaphragm action; requires edge beams and supplementary bracing
-3. **Cantilevered floors** — require back-span anchoring and heavier structure; deflection critical at cantilever tips
-4. **Setting back upper floors** — changes lateral force path; columns must transition, adding transfer structures
-5. **Misaligned cores between podium and tower** — creates torsional effects and complex transfer
-6. **Ground-floor open on all sides (pilotis)** — soft-storey risk in seismic zones; requires careful lateral design
-7. **Curved or irregular floor plates** — complicates diaphragm action; may require deeper slabs or additional beams
-8. **Late changes to penetration locations** — particularly damaging in post-tensioned slabs where tendons cannot be cut
-9. **Mixing structural systems vertically** — differential stiffness and movement between systems requires careful detailing
-10. **Ignoring construction sequence** — propping, temporary stability, and pour sequences affect final stresses
+1. **拆除某层的一根柱**——形成转换梁，增加成本和结构深度，并干扰下层楼面
+2. **多层贯通的大中庭洞口**——中断隔板作用，需要边梁和补充支撑
+3. **悬挑楼板**——需要后跨锚固和更重结构；悬挑端挠度是关键
+4. **上部楼层退台**——改变侧向力路径，柱需转换并增加转换结构
+5. **裙房与塔楼核心筒不对齐**——产生扭转效应和复杂转换
+6. **首层四面开敞（架空层）**——地震区存在软弱层风险，需要谨慎设计抗侧体系
+7. **曲线或不规则楼板**——使隔板作用复杂，可能需要更厚楼板或增设梁
+8. **后期改变洞口位置**——对后张楼板尤其有害，因为不得切断预应力筋
+9. **竖向混用结构体系**——体系间刚度和变形差异需要精细节点设计
+10. **忽略施工顺序**——支撑、临时稳定和浇筑顺序会影响最终应力
 
-### Progressive Collapse and Robustness
+### 连续倒塌与结构鲁棒性
 
-Building structures must be designed to avoid disproportionate collapse — where local failure of one element does not cascade into collapse of a large part of the structure. This is a code requirement (Eurocode 1991-1-7, ASCE 7, Approved Document A).
+建筑结构必须设计为避免非比例倒塌，即单个构件的局部失效不会级联为大范围结构倒塌。这是规范要求（Eurocode 1991-1-7、ASCE 7、Approved Document A）。
 
-**Design strategies for robustness:**
-- **Prescriptive tying**: Continuous reinforcement or steel ties connecting all elements horizontally and vertically. Floor slabs tied to beams; beams tied to columns; columns tied to floors above and below.
-- **Alternative load path method**: If one column is removed, the structure must redistribute loads to adjacent elements without collapse. Requires ductile connections and redundancy.
-- **Key element design**: Critical elements (transfer columns, single support members) designed for accidental load of 34 kN/m² (Eurocode) applied to the element and any attached structure.
-- **Segmentation**: Subdivide the structure so that collapse of one segment does not propagate to adjacent segments. Expansion joints or structural separation zones.
+**提高鲁棒性的设计策略：**
+- **规定性系杆连接：**采用连续钢筋或钢系杆将所有构件在水平和竖向连接起来。楼板与梁连接，梁与柱连接，柱与上下楼层连接。
+- **替代荷载路径法：**当一根柱被移除时，结构必须将荷载重新分配给相邻构件而不发生倒塌。需要延性连接和结构冗余。
+- **关键构件设计：**关键构件（转换柱、单一支撑构件）按34 kN/m²的偶然荷载设计（Eurocode），该荷载作用于构件及其连接结构。
+- **分段：**将结构划分为若干段，使一段的倒塌不会传播到相邻段。可采用伸缩缝或结构分隔区。
 
-**Architectural implications**: Avoid single-column support for large areas. Ensure at least two load paths for every supported area. Transfer structures are key elements by definition — they must be designed for enhanced robustness.
+**对建筑设计的影响：**避免用单根柱支撑大面积区域。每个受支撑区域至少应有两条荷载路径。转换结构按定义属于关键构件，必须按更高鲁棒性要求设计。
 
-### Movement Joints
+### 变形缝
 
-Buildings expand and contract with temperature changes. Concrete shrinks as it cures. Differential settlement occurs across large footprints. Movement joints accommodate these movements.
+建筑会随温度变化而伸缩，混凝土在固化过程中收缩，大体量建筑还会出现差异沉降。变形缝用于容纳这些变形。
 
-- **Expansion joints in RC structures**: Every 50-60m (or closer in exposed structures). Joint width: 25-50mm.
-- **Expansion joints in steel structures**: Every 80-100m. Steel has lower thermal mass but higher coefficient of expansion.
-- **Settlement joints**: Where building sections have significantly different loads or foundation conditions (e.g., tower meeting podium).
-- **Seismic joints**: In seismic zones, building sections of different heights or stiffness must be separated by seismic joints wide enough to prevent pounding (typically 50-200mm depending on building height and drift).
-- **Joint covers**: Architectural joint covers required at floors, walls, ceilings, and roof. Fire-rated joint seals at fire compartment boundaries.
+- **钢筋混凝土结构伸缩缝：**每50-60m设置一道（外露结构间距应更小），缝宽25-50mm。
+- **钢结构伸缩缝：**每80-100m设置一道。钢材热容量较低，但线膨胀系数较高。
+- **沉降缝：**用于荷载或基础条件明显不同的建筑分段之间（例如塔楼与裙房交接处）。
+- **抗震缝：**在地震区，不同高度或刚度的建筑分段必须用足够宽的抗震缝分隔，以防止碰撞（通常为50-200mm，取决于建筑高度和层间位移）。
+- **缝盖板：**楼面、墙面、吊顶和屋面均需设置建筑缝盖板；防火分区边界处应采用耐火封缝。
 
-### Architect's Coordination Responsibilities
+### 建筑师的协调职责
 
-- **Concept stage**: Define grid, floor-to-floor height, lateral system location, basement extent with structural engineer input
-- **Scheme design**: Fix column positions, core geometry, transfer locations. Structural engineer provides preliminary member sizes.
-- **Detailed design**: Coordinate penetrations, fixings, movement joints, cladding connections. Structural engineer produces detailed calculations and drawings.
-- **Construction stage**: Review shop drawings, attend site for critical pours/erections, verify as-built conditions
+- **概念阶段：**在结构工程师参与下确定网格、层高、侧向体系位置和地下室范围。
+- **方案设计：**确定柱位、核心筒几何和转换位置。结构工程师提供初步构件尺寸。
+- **详细设计：**协调洞口、连接件、变形缝和幕墙连接。结构工程师完成详细计算和图纸。
+- **施工阶段：**审查深化图纸，参加关键浇筑/安装的现场检查，核实竣工条件。
 
-### Early Coordination Checklist
+### 早期协调检查清单
 
-- [ ] Structural grid agreed and coordinated with parking, facade, and planning module
-- [ ] Floor-to-floor heights confirmed (including services zone)
-- [ ] Lateral stability system defined and core/wall positions fixed
-- [ ] Foundation type selected based on ground investigation
-- [ ] Transfer structures identified and minimised
-- [ ] Penetration zones defined (especially for PT slabs)
-- [ ] Movement joints located (every 50-60m in RC, 80-100m in steel)
-- [ ] Construction programme implications of structural choice understood
-- [ ] Fire strategy aligned with structural system
-- [ ] Embodied carbon budget established and structural system selected accordingly
+- [ ] 结构网格已确定，并与停车、立面和规划模数协调
+- [ ] 层高已确认（包括设备空间）
+- [ ] 侧向稳定体系已确定，核心筒/墙体位置已固定
+- [ ] 已根据岩土勘察选择基础类型
+- [ ] 已识别并尽量减少转换结构
+- [ ] 已确定洞口区域（尤其是后张楼板）
+- [ ] 已定位变形缝（混凝土结构每50-60m，钢结构每80-100m）
+- [ ] 已理解结构选择对施工计划的影响
+- [ ] 防火策略已与结构体系协调
+- [ ] 已建立隐含碳预算并据此选择结构体系

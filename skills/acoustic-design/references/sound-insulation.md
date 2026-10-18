@@ -1,377 +1,377 @@
-# Sound Insulation Constructions — Reference
+# 隔声构造——参考
 
-## 1. Wall Constructions — Airborne Sound Insulation
+## 1. 墙体构造——空气声隔声
 
-### 1.1 Masonry Walls
+### 1.1 砌体墙
 
-**W1 — Single-leaf dense concrete block (215 mm, plastered both sides)**
-- Surface mass: ~300 kg/m²
+**W1——单层密实混凝土砌块（215 mm，两侧抹灰）**
+- 面密度：约 300 kg/m²
 - STC: 52 | Rw: 52 dB
-- Notes: Relies on mass law. Adequate for party walls between dwellings to minimum code only. Plaster adds 2–3 dB over unplastered block. No cavity means no mass-air-mass benefit.
+- 说明：依靠质量定律。仅能满足住户间分户墙的最低规范要求。抹灰相较未抹灰砌块可增加 2–3 dB。无空腔，无法获得质量—空气—质量效应。
 
-**W2 — Cavity masonry wall: 2 × 100 mm dense concrete block, 75 mm cavity, 50 mm mineral wool, butterfly wire ties, plastered both sides**
-- Surface mass: ~300 kg/m² total
+**W2——砌体空腔墙：2 × 100 mm 密实混凝土砌块、75 mm 空腔、50 mm 矿棉、蝶形钢丝拉结，两侧抹灰**
+- 总面密度：约 300 kg/m²
 - STC: 56 | Rw: 56 dB
-- Notes: Robust Construction Type 1 per ADE Part E. The cavity and mineral wool provide resonance damping. Wire ties (not rigid wall ties) minimize acoustic bridging. Performance limited by flanking via floor slab — requires floor treatments within 300 mm of the wall.
+- 说明：符合 ADE Part E 的 Robust Construction Type 1。空腔和矿棉提供共振阻尼。钢丝拉结（而非刚性墙体拉结）可减少声桥。性能受经楼板侧向传声限制，墙边 300 mm 范围内需进行楼板处理。
 
-**W3 — Cavity masonry wall: 2 × 140 mm dense aggregate block, 75 mm cavity, 50 mm mineral wool, plastered both sides**
-- Surface mass: ~420 kg/m² total
+**W3——砌体空腔墙：2 × 140 mm 密实骨料砌块、75 mm 空腔、50 mm 矿棉，两侧抹灰**
+- 总面密度：约 420 kg/m²
 - STC: 60 | Rw: 59 dB
-- Notes: Enhanced mass for hotel party walls, plant room walls. Dense aggregate block (≥1800 kg/m³) significantly outperforms lightweight block of the same thickness.
+- 说明：为酒店分户墙和设备房墙提供增强质量。密实骨料砌块（≥1800 kg/m³）的性能显著优于同厚度轻质砌块。
 
-**W4 — Cavity masonry wall: 2 × 215 mm dense concrete block, 100 mm cavity, 75 mm mineral wool, plastered both sides**
-- Surface mass: ~600 kg/m² total
+**W4——砌体空腔墙：2 × 215 mm 密实混凝土砌块、100 mm 空腔、75 mm 矿棉，两侧抹灰**
+- 总面密度：约 600 kg/m²
 - STC: 64 | Rw: 63 dB
-- Notes: Maximum masonry performance. Suitable for separations between music rooms, cinemas, plant rooms, and sensitive spaces. Very thick (530 mm total) — significant spatial cost.
+- 说明：砌体的最高性能，适用于音乐室、影院、设备房与敏感空间之间的分隔。总厚度很大（530 mm），会显著占用空间。
 
-**W5 — Single-leaf lightweight aggregate block (215 mm, plastered both sides)**
-- Surface mass: ~160 kg/m²
+**W5——单层轻骨料砌块（215 mm，两侧抹灰）**
+- 面密度：约 160 kg/m²
 - STC: 45 | Rw: 45 dB
-- Notes: Insufficient for party walls. Acceptable for internal partitions between non-sensitive spaces (office to corridor, retail to corridor).
+- 说明：不适用于分户墙。可用于非敏感空间之间的内部隔墙（办公室与走廊、零售空间与走廊）。
 
-### 1.2 Metal Stud Partitions
+### 1.2 轻钢龙骨隔墙
 
-**W6 — Single frame: 1 × 15 mm gypsum board each side, 70 mm C-studs at 600 centres, no insulation**
-- Surface mass: ~22 kg/m²
+**W6——单排龙骨：两侧各 1 层 15 mm 石膏板，70 mm C 型龙骨中心距 600，未填保温材料**
+- 面密度：约 22 kg/m²
 - STC: 34 | Rw: 34 dB
-- Notes: Minimum internal partition. Conversations clearly audible. Not suitable for any privacy requirement.
+- 说明：最低等级内部隔墙，可清晰听见交谈，不适用于任何私密性要求。
 
-**W7 — Single frame: 2 × 15 mm gypsum board each side, 70 mm C-studs at 600 centres, 50 mm 45 kg/m³ mineral wool**
-- Surface mass: ~44 kg/m²
+**W7——单排龙骨：两侧各 2 层 15 mm 石膏板，70 mm C 型龙骨中心距 600，填 50 mm、45 kg/m³ 矿棉**
+- 面密度：约 44 kg/m²
 - STC: 52 | Rw: 50 dB
-- Notes: Standard office partition. Achieves normal conversational privacy. The double board layer is critical — single board + insulation achieves only STC 40.
+- 说明：标准办公隔墙，可满足正常交谈私密性。双层板至关重要，单层板加填充仅能达到 STC 40。
 
-**W8 — Single frame: 2 × 15 mm gypsum board + 1 × 12.5 mm soundbloc board each side, 92 mm C-studs at 600 centres, 75 mm 60 kg/m³ mineral wool**
-- Surface mass: ~62 kg/m²
+**W8——单排龙骨：两侧各 2 × 15 mm 石膏板 + 1 × 12.5 mm Soundbloc 板，92 mm C 型龙骨中心距 600，填 75 mm、60 kg/m³ 矿棉**
+- 面密度：约 62 kg/m²
 - STC: 56 | Rw: 55 dB
-- Notes: Enhanced office partition. Soundbloc (high-density gypsum with damping polymer) adds 3–4 dB over standard board. Suitable for boardrooms, private offices adjacent to noisy spaces.
+- 说明：增强型办公隔墙。Soundbloc（含阻尼聚合物的高密度石膏板）比标准板增加 3–4 dB，适用于董事会议室及毗邻噪声空间的独立办公室。
 
-**W9 — Double frame (2 × 50 mm C-stud rows, 10 mm gap): 2 × 15 mm gypsum board each side, 2 × 50 mm mineral wool in cavity**
-- Surface mass: ~44 kg/m²
+**W9——双排龙骨（2 × 50 mm C 型龙骨排，间隙 10 mm）：两侧各 2 × 15 mm 石膏板，空腔填 2 × 50 mm 矿棉**
+- 面密度：约 44 kg/m²
 - STC: 60 | Rw: 58 dB
-- Notes: The independent stud rows eliminate structural bridging through the studs, providing 8–10 dB improvement over equivalent single frame. Standard solution for party walls in lightweight construction.
+- 说明：独立龙骨排消除了通过龙骨的结构声桥，相较同等单排龙骨可提高 8–10 dB，是轻型结构分户墙的标准方案。
 
-**W10 — Double frame (2 × 70 mm C-stud rows, 25 mm gap): 3 × 15 mm gypsum board each side, 2 × 70 mm mineral wool in cavity**
-- Surface mass: ~66 kg/m²
+**W10——双排龙骨（2 × 70 mm C 型龙骨排，间隙 25 mm）：两侧各 3 × 15 mm 石膏板，空腔填 2 × 70 mm 矿棉**
+- 面密度：约 66 kg/m²
 - STC: 66 | Rw: 63 dB
-- Notes: Premium lightweight party wall. 3 layers per side with staggered joints. Suitable for hotel party walls, separation to plant rooms. Total thickness ~260 mm.
+- 说明：高性能轻型分户墙。每侧三层板且接缝错开，适用于酒店分户墙及设备房分隔。总厚度约 260 mm。
 
-**W11 — Single frame with resilient channels: 2 × 15 mm gypsum board on studs one side, resilient channel + 2 × 15 mm gypsum board on other side, 70 mm studs, 50 mm mineral wool**
-- Surface mass: ~44 kg/m²
+**W11——带弹性龙骨的单排框架：一侧龙骨上 2 × 15 mm 石膏板，另一侧弹性龙骨 + 2 × 15 mm 石膏板，70 mm 龙骨，50 mm 矿棉**
+- 面密度：约 44 kg/m²
 - STC: 56 | Rw: 54 dB
-- Notes: Asymmetric construction. Resilient channel provides decoupling on one side. More space-efficient than double frame but lower ultimate performance. Critical: no short-circuit screws through the channel flange into the stud.
+- 说明：非对称构造。弹性龙骨使一侧脱开，比双排框架节省空间，但最终性能较低。关键要求：不得有短路螺钉穿过龙骨翼缘固定至竖龙骨。
 
-### 1.3 Timber Frame Walls
+### 1.3 木框架墙
 
-**W12 — Timber frame party wall: 2 × 89 mm timber stud rows (25 mm gap), 2 × 15 mm gypsum board each side, 2 × 89 mm mineral wool batts**
-- Surface mass: ~44 kg/m²
+**W12——木框架分户墙：2 × 89 mm 木龙骨排（间隙 25 mm），两侧各 2 × 15 mm 石膏板，填 2 × 89 mm 矿棉毡**
+- 面密度：约 44 kg/m²
 - STC: 58 | Rw: 56 dB
-- Notes: Standard timber frame party wall per Robust Details (E-WT-1/E-WT-2). The structural separation between stud rows is critical. Foundation and roof junction details must prevent flanking.
+- 说明：符合 Robust Details（E-WT-1/E-WT-2）的标准木框架分户墙。龙骨排之间的结构分离至关重要，基础和屋面节点必须防止侧向传声。
 
-**W13 — Cross-laminated timber (CLT) wall: 100 mm CLT + 50 mm cavity + 2 × 15 mm gypsum board on resilient channels**
-- Surface mass: ~75 kg/m²
+**W13——交叉层压木（CLT）墙：100 mm CLT + 50 mm 空腔 + 弹性龙骨上的 2 × 15 mm 石膏板**
+- 面密度：约 75 kg/m²
 - STC: 54 | Rw: 52 dB
-- Notes: CLT provides mass and stiffness. The lining on resilient channels provides decoupling. Without the lining, bare 100 mm CLT achieves only Rw 37 dB due to coincidence effects.
+- 说明：CLT 提供质量和刚度，弹性龙骨上的衬层提供脱开。没有衬层时，裸露 100 mm CLT 因吻合效应仅能达到 Rw 37 dB。
 
-### 1.4 Specialist High-Performance Walls
+### 1.4 专项高性能墙体
 
-**W14 — Acoustic room-within-room wall: 2 × 140 mm blockwork leaves, 100 mm cavity with mineral wool, independent of building structure on vibration isolation pads, 2 × 15 mm gypsum board each side**
-- Surface mass: ~450 kg/m²
+**W14——声学房中房墙：2 × 140 mm 砌体墙片，100 mm 填矿棉空腔，置于隔振垫上并与建筑结构独立，两侧各 2 × 15 mm 石膏板**
+- 面密度：约 450 kg/m²
 - STC: 70+ | Rw: 68+ dB
-- Notes: For recording studios, broadcast facilities, concert hall stage enclosures. The structural isolation prevents flanking through the building frame.
+- 说明：用于录音室、广播设施和音乐厅舞台围护。结构隔离可防止声音经建筑框架侧向传递。
 
-**W15 — Composite acoustic wall: 200 mm reinforced concrete + 100 mm cavity + 2 × 15 mm gypsum board on independent metal studs + mineral wool**
-- Surface mass: ~510 kg/m²
+**W15——复合声学墙：200 mm 钢筋混凝土 + 100 mm 空腔 + 独立轻钢龙骨上的 2 × 15 mm 石膏板 + 矿棉**
+- 面密度：约 510 kg/m²
 - STC: 72 | Rw: 70 dB
-- Notes: Maximum performance short of room-within-room construction. Used for cinema separations, nightclub walls, generator enclosures.
+- 说明：除房中房外的最高性能方案，用于影院分隔、夜总会墙体和发电机隔声罩。
 
 ---
 
-## 2. Floor Constructions — Airborne and Impact Sound Insulation
+## 2. 楼板构造——空气声和撞击声隔声
 
-### 2.1 Concrete Floors
+### 2.1 混凝土楼板
 
-**F1 — 150 mm reinforced concrete slab, bare soffit, no floor finish**
-- Surface mass: ~360 kg/m²
-- Airborne: STC 52 | Rw 52 dB
-- Impact: IIC 28 | Ln,w 78 dB
-- Notes: Adequate airborne insulation but very poor impact insulation. The bare concrete slab is the baseline to which floor and ceiling treatments add performance.
+**F1——150 mm 钢筋混凝土楼板，裸露板底，无地面饰面**
+- 面密度：约 360 kg/m²
+- 空气声：STC 52 | Rw 52 dB
+- 撞击声：IIC 28 | Ln,w 78 dB
+- 说明：空气声隔声尚可，但撞击声隔声很差。裸露混凝土板是地面和顶棚处理增加性能的基准。
 
-**F2 — 150 mm RC slab + 65 mm sand-cement screed on 25 mm resilient mineral wool (s' ≤ 15 MN/m³)**
-- Surface mass: ~510 kg/m²
-- Airborne: STC 58 | Rw 57 dB
-- Impact: IIC 62 | Ln,w 48 dB
-- Notes: Standard floating screed floor for residential. The resilient layer must be continuous with no gaps, turned up at all edges with a compressible perimeter strip. All services below the resilient layer — pipes penetrating the screed need acoustic wrapping.
+**F2——150 mm 钢筋混凝土板 + 25 mm 弹性矿棉（s' ≤ 15 MN/m³）上的 65 mm 水泥砂浆找平层**
+- 面密度：约 510 kg/m²
+- 空气声：STC 58 | Rw 57 dB
+- 撞击声：IIC 62 | Ln,w 48 dB
+- 说明：住宅标准浮筑找平层楼面。弹性层必须连续无缝，所有边缘翻起并用可压缩周边条隔离。所有设备管线位于弹性层下方；穿过找平层的管道需作声学包覆。
 
-**F3 — 200 mm RC slab + 75 mm screed on 25 mm resilient mineral wool + independent suspended ceiling (2 × 15 mm gypsum board on spring hangers, 200 mm void with 100 mm mineral wool)**
-- Surface mass: ~620 kg/m² (slab + screed)
-- Airborne: STC 68 | Rw 67 dB
-- Impact: IIC 72 | Ln,w 38 dB
-- Notes: Premium residential / hotel floor. The independent ceiling adds 10–12 dB to both airborne and impact insulation. Spring hangers must have a natural frequency ≤8 Hz. No rigid connections between ceiling grid and structure.
+**F3——200 mm 钢筋混凝土板 + 25 mm 弹性矿棉上的 75 mm 找平层 + 独立吊顶（弹簧吊件上的 2 × 15 mm 石膏板，200 mm 空腔内填 100 mm 矿棉）**
+- 面密度：约 620 kg/m²（楼板 + 找平层）
+- 空气声：STC 68 | Rw 67 dB
+- 撞击声：IIC 72 | Ln,w 38 dB
+- 说明：高标准住宅／酒店楼板。独立吊顶可使空气声和撞击声隔声均提高 10–12 dB。弹簧吊件固有频率必须 ≤8 Hz。吊顶龙骨与结构之间不得刚性连接。
 
-**F4 — 150 mm RC slab + carpet and underlay (no floating floor)**
-- Surface mass: ~360 kg/m²
-- Airborne: STC 52 | Rw 52 dB
-- Impact: IIC 50–60 | Ln,w 50–58 dB (depending on carpet/underlay weight)
-- Notes: Carpet dramatically improves impact insulation but provides negligible airborne improvement. Not accepted as the sole impact solution in most standards because carpet can be removed.
+**F4——150 mm 钢筋混凝土板 + 地毯和衬垫（无浮筑楼面）**
+- 面密度：约 360 kg/m²
+- 空气声：STC 52 | Rw 52 dB
+- 撞击声：IIC 50–60 | Ln,w 50–58 dB（取决于地毯／衬垫质量）
+- 说明：地毯可显著改善撞击声隔声，但对空气声改善很小。因地毯可能被移除，多数标准不接受其作为唯一撞击声方案。
 
-**F5 — 250 mm post-tensioned concrete slab + 5 mm resilient acoustic mat + 50 mm screed**
-- Surface mass: ~650 kg/m²
-- Airborne: STC 60 | Rw 59 dB
-- Impact: IIC 58 | Ln,w 52 dB
-- Notes: Common in high-rise residential. Post-tensioned slabs are thinner for a given span but have good mass. Thin resilient mat (5 mm recycled rubber or closed-cell foam) provides moderate impact isolation.
+**F5——250 mm 后张法混凝土板 + 5 mm 弹性声学垫 + 50 mm 找平层**
+- 面密度：约 650 kg/m²
+- 空气声：STC 60 | Rw 59 dB
+- 撞击声：IIC 58 | Ln,w 52 dB
+- 说明：高层住宅常用。后张法楼板在相同跨度下可更薄，但质量较好。薄弹性垫（5 mm 再生橡胶或闭孔泡沫）提供中等撞击隔离。
 
-### 2.2 Timber Floors
+### 2.2 木楼板
 
-**F6 — Timber joist floor: 22 mm chipboard deck on 225 mm timber joists at 400 centres, 12.5 mm gypsum board ceiling**
-- Surface mass: ~35 kg/m²
-- Airborne: STC 34 | Rw 34 dB
-- Impact: IIC 25 | Ln,w 82 dB
-- Notes: Extremely poor without treatment. Typical existing Victorian/Edwardian timber floor. Requires comprehensive upgrading for residential separation.
+**F6——木搁栅楼板：22 mm 刨花板面层铺于 225 mm 木搁栅（中心距 400），12.5 mm 石膏板吊顶**
+- 面密度：约 35 kg/m²
+- 空气声：STC 34 | Rw 34 dB
+- 撞击声：IIC 25 | Ln,w 82 dB
+- 说明：未经处理时性能极差，是典型维多利亚／爱德华时期木楼板。用于住宅分隔时需全面升级。
 
-**F7 — Upgraded timber floor: 22 mm chipboard on 25 mm resilient battens on 225 mm joists + 100 mm mineral wool between joists + resilient bars + 2 × 15 mm gypsum board ceiling**
-- Surface mass: ~65 kg/m²
-- Airborne: STC 50 | Rw 50 dB
-- Impact: IIC 52 | Ln,w 53 dB
-- Notes: Minimum code-compliant timber party floor. The resilient battens isolate the walking surface; the resilient bars isolate the ceiling. Mineral wool between joists is essential for cavity damping.
+**F7——升级木楼板：22 mm 刨花板铺于 225 mm 搁栅上的 25 mm 弹性木条 + 搁栅间 100 mm 矿棉 + 弹性龙骨 + 2 × 15 mm 石膏板吊顶**
+- 面密度：约 65 kg/m²
+- 空气声：STC 50 | Rw 50 dB
+- 撞击声：IIC 52 | Ln,w 53 dB
+- 说明：满足最低规范的木质分户楼板。弹性木条隔离行走面，弹性龙骨隔离吊顶；搁栅间矿棉对空腔阻尼至关重要。
 
-**F8 — Timber floor with heavy pugging: 18 mm timber deck on resilient strips on 225 mm joists + 80 mm dry sand pugging between joists on plywood shelf + 100 mm mineral wool below pugging + resilient bars + 2 × 15 mm gypsum board**
-- Surface mass: ~130 kg/m²
-- Airborne: STC 56 | Rw 55 dB
-- Impact: IIC 56 | Ln,w 50 dB
-- Notes: The sand pugging adds mass within the floor depth, improving low-frequency performance. Traditional technique updated with modern resilient strips and ceiling isolation.
+**F8——带重质填砂的木楼板：18 mm 木面层铺于 225 mm 搁栅的弹性条上 + 搁栅间胶合板托板上的 80 mm 干砂填充 + 填砂下方 100 mm 矿棉 + 弹性龙骨 + 2 × 15 mm 石膏板**
+- 面密度：约 130 kg/m²
+- 空气声：STC 56 | Rw 55 dB
+- 撞击声：IIC 56 | Ln,w 50 dB
+- 说明：干砂在楼板厚度内增加质量，改善低频性能；这是结合现代弹性条和吊顶隔离的传统技术更新。
 
-**F9 — Timber I-joist floor with independent ceiling: 22 mm chipboard on resilient battens on 300 mm timber I-joists + 150 mm mineral wool between joists + independent ceiling on separate 50 × 50 mm battens below (50 mm air gap) + 2 × 15 mm gypsum board**
-- Surface mass: ~55 kg/m²
-- Airborne: STC 56 | Rw 54 dB
-- Impact: IIC 58 | Ln,w 48 dB
-- Notes: The independent ceiling (separate from the joist structure) eliminates direct structural connection. The 50 mm air gap and mineral wool provide additional absorption.
+**F9——带独立吊顶的木工字搁栅楼板：22 mm 刨花板铺于 300 mm 木工字搁栅上的弹性木条 + 搁栅间 150 mm 矿棉 + 下方独立的 50 × 50 mm 木条吊顶（50 mm 空气层）+ 2 × 15 mm 石膏板**
+- 面密度：约 55 kg/m²
+- 空气声：STC 56 | Rw 54 dB
+- 撞击声：IIC 58 | Ln,w 48 dB
+- 说明：独立吊顶与搁栅结构分离，消除直接结构连接；50 mm 空气层和矿棉提供额外吸声。
 
 ### 2.3 CLT Floors
 
-**F10 — 140 mm CLT slab, bare soffit**
-- Surface mass: ~70 kg/m²
-- Airborne: STC 38 | Rw 37 dB
-- Impact: IIC 24 | Ln,w 84 dB
-- Notes: CLT alone has poor acoustic performance due to low mass and stiffness-controlled coincidence. Treatments are essential.
+**F10——140 mm CLT 楼板，裸露板底**
+- 面密度：约 70 kg/m²
+- 空气声：STC 38 | Rw 37 dB
+- 撞击声：IIC 24 | Ln,w 84 dB
+- 说明：CLT 单独使用时因质量低且受刚度控制的吻合效应影响，声学性能较差，必须进行处理。
 
-**F11 — 140 mm CLT + 80 mm concrete topping on separating layer + 25 mm resilient mat + 50 mm screed + suspended ceiling (2 × 15 mm gypsum board on resilient hangers, 100 mm mineral wool in void)**
-- Surface mass: ~350 kg/m²
-- Airborne: STC 62 | Rw 60 dB
-- Impact: IIC 60 | Ln,w 46 dB
-- Notes: Comprehensive CLT floor build-up for residential/hotel. The concrete topping adds the mass that CLT lacks; the resilient mat and suspended ceiling provide decoupling.
+**F11——140 mm CLT + 分隔层上的 80 mm 混凝土叠合层 + 25 mm 弹性垫 + 50 mm 找平层 + 吊顶（弹性吊件上的 2 × 15 mm 石膏板，空腔内填 100 mm 矿棉）**
+- 面密度：约 350 kg/m²
+- 空气声：STC 62 | Rw 60 dB
+- 撞击声：IIC 60 | Ln,w 46 dB
+- 说明：适用于住宅／酒店的完整 CLT 楼板做法。混凝土叠合层补足 CLT 缺少的质量；弹性垫和吊顶提供脱开。
 
 ---
 
-## 3. Facade Sound Insulation
+## 3. 立面隔声
 
-### 3.1 Composite Facade Calculation Method
+### 3.1 立面组合隔声计算方法
 
-The composite sound reduction index of a multi-element facade is:
+多构件立面的组合隔声量为：
 
 ```
 Rw,composite = 10 × log₁₀(S_total / Σ(Sᵢ × 10^(-Rᵢ/10)))
 ```
 
-**Worked example — Bedroom facade on busy road:**
-- External noise: 72 dB LAeq,16h at the facade
-- Internal target: 30 dB LAeq (bedroom, night)
-- Required facade insulation: 72 − 30 + 10 (safety) = 52 dB Rw+Ctr
-- Facade: 8 m² total. 5 m² brick/cavity/block wall (Rw 55 dB), 2 m² acoustic glazing (Rw 40 dB), 1 m² acoustic ventilator (Dn,e,w 36 dB)
-- Composite: 10 × log₁₀(8 / (5×10⁻⁵·⁵ + 2×10⁻⁴ + 1×10⁻³·⁶)) = 10 × log₁₀(8 / (5×3.16e-6 + 2×1.0e-4 + 1×2.51e-4)) = 10 × log₁₀(8 / (1.58e-5 + 2.0e-4 + 2.51e-4)) = 10 × log₁₀(8 / 4.67e-4) = 10 × log₁₀(17,130) = 42.3 dB
+**计算示例——繁忙道路旁卧室立面：**
+- 外部噪声：立面处 72 dB LAeq,16h。
+- 室内目标：30 dB LAeq（卧室，夜间）。
+- 所需立面隔声：72 − 30 + 10（安全余量）= 52 dB Rw+Ctr。
+- 立面总面积 8 m²：5 m² 砖／空腔／砌块墙（Rw 55 dB）、2 m² 隔声玻璃（Rw 40 dB）、1 m² 消声通风器（Dn,e,w 36 dB）。
+- 组合值：10 × log₁₀(8 / (5×10⁻⁵·⁵ + 2×10⁻⁴ + 1×10⁻³·⁶)) = 10 × log₁₀(8 / (5×3.16e-6 + 2×1.0e-4 + 1×2.51e-4)) = 10 × log₁₀(8 / (1.58e-5 + 2.0e-4 + 2.51e-4)) = 10 × log₁₀(8 / 4.67e-4) = 10 × log₁₀(17,130) = 42.3 dB
 
-Result: 42 dB composite falls short of the 52 dB requirement by 10 dB. Solutions: reduce glazing area, upgrade to secondary glazing (Rw 48 dB), eliminate acoustic ventilator (use MVHR instead), or combine strategies.
+结果：组合隔声量 42 dB，比 52 dB 要求低 10 dB。解决方案：减少玻璃面积、升级为二次窗（Rw 48 dB）、取消消声通风器（改用 MVHR），或组合采用多项策略。
 
-### 3.2 Glazing Acoustic Performance Table
+### 3.2 玻璃声学性能表
 
-| Glazing Configuration | Thickness (mm) | Rw (dB) | Rw+Ctr (dB) | Notes |
+| 玻璃构造 | 厚度（mm） | Rw（dB） | Rw+Ctr（dB） | 说明 |
 |---|---|---|---|---|
-| Single (6 mm float) | 6 | 30 | 26 | Minimum, unsuitable for noise control |
-| Single (10 mm float) | 10 | 33 | 29 | |
-| Single (6.4 mm laminated PVB) | 6.4 | 32 | 29 | Laminate improves coincidence dip |
-| Single (12.8 mm laminated acoustic PVB) | 12.8 | 38 | 35 | Acoustic interlayer dampens resonance |
-| DGU (4-16Ar-4) | 24 | 30 | 26 | Standard thermal DGU — poor acoustic performance due to mass-air-mass resonance at ~200 Hz |
-| DGU (6-16Ar-6) | 28 | 33 | 29 | |
-| DGU (6-16Ar-10) | 32 | 36 | 32 | Asymmetric — staggers coincidence |
-| DGU (10-20Ar-6.4lam) | 36.4 | 40 | 37 | Acoustic DGU — wide cavity, asymmetry, laminated pane |
-| DGU (10-20Ar-10.8lam acoustic PVB) | 40.8 | 44 | 41 | Premium acoustic DGU |
-| TGU (6-16Ar-4-16Ar-6) | 48 | 36 | 32 | Triple glazing — two resonances can reduce acoustic performance |
-| TGU (8-16Ar-6-16Ar-8lam) | 54 | 40 | 36 | Asymmetric triple with laminate |
-| Secondary glazing (6mm+100mm gap+6mm) | 112 | 42 | 38 | Wide air gap essential for low-frequency isolation |
-| Secondary glazing (10mm+150mm gap+6.4lam) | 166.4 | 48 | 44 | High-performance secondary glazing |
-| Secondary glazing (10mm+200mm gap+10.8lam) | 220.8 | 52 | 48 | Maximum glazing performance short of triple secondary |
+| 单层（6 mm 浮法玻璃） | 6 | 30 | 26 | 最低配置，不适用于噪声控制 |
+| 单层（10 mm 浮法玻璃） | 10 | 33 | 29 | |
+| 单层（6.4 mm PVB 夹层） | 6.4 | 32 | 29 | 夹层改善吻合谷值 |
+| 单层（12.8 mm 隔声 PVB 夹层） | 12.8 | 38 | 35 | 隔声夹层抑制共振 |
+| DGU（4-16Ar-4） | 24 | 30 | 26 | 标准热工 DGU——约 200 Hz 质量—空气—质量共振导致声学性能较差 |
+| DGU（6-16Ar-6） | 28 | 33 | 29 | |
+| DGU（6-16Ar-10） | 32 | 36 | 32 | 非对称构造，错开吻合效应 |
+| DGU（10-20Ar-6.4lam） | 36.4 | 40 | 37 | 隔声 DGU——宽空腔、非对称、夹层玻璃 |
+| DGU（10-20Ar-10.8lam 隔声 PVB） | 40.8 | 44 | 41 | 高性能隔声 DGU |
+| TGU（6-16Ar-4-16Ar-6） | 48 | 36 | 32 | 三层玻璃——两个共振可能降低声学性能 |
+| TGU（8-16Ar-6-16Ar-8lam） | 54 | 40 | 36 | 带夹层的非对称三层玻璃 |
+| 二次窗（6mm+100mm 间隙+6mm） | 112 | 42 | 38 | 宽空气层对低频隔离至关重要 |
+| 二次窗（10mm+150mm 间隙+6.4lam） | 166.4 | 48 | 44 | 高性能二次窗 |
+| 二次窗（10mm+200mm 间隙+10.8lam） | 220.8 | 52 | 48 | 除三层二次窗外的最高玻璃性能 |
 
-### 3.3 Facade Element Performance
+### 3.3 立面构件性能
 
-| Element | Rw (dB) | Rw+Ctr (dB) | Notes |
+| 构件 | Rw（dB） | Rw+Ctr（dB） | 说明 |
 |---|---|---|---|
-| Brick/cavity/block wall (102+50+100) | 53 | 49 | Standard external wall |
-| Rendered blockwork (200 mm dense block) | 50 | 47 | |
-| Timber frame wall (standard) | 38–42 | 34–38 | Varies with cladding and linings |
-| Curtain wall (typical) | 32–38 | 28–34 | Dominated by glazing proportion |
-| Ventilated rainscreen on blockwork | 50–55 | 46–51 | Rainscreen adds 2–4 dB |
-| Acoustic trickle vent | Dn,e,w 30–36 | 26–32 | Significant weak point in facade |
-| Acoustic wall vent (attenuated) | Dn,e,w 38–48 | 34–44 | Extended acoustic path |
-| Open window (100 mm gap) | 10–15 | 8–12 | Effectively negates facade insulation |
+| 砖／空腔／砌块墙（102+50+100） | 53 | 49 | 标准外墙 |
+| 抹灰砌块墙（200 mm 密实砌块） | 50 | 47 | |
+| 木框架墙（标准） | 38–42 | 34–38 | 随覆层和衬层变化 |
+| 幕墙（典型） | 32–38 | 28–34 | 主要取决于玻璃比例 |
+| 砌块墙上的通风雨幕 | 50–55 | 46–51 | 雨幕增加 2–4 dB |
+| 消声背景通风口 | Dn,e,w 30–36 | 26–32 | 立面的显著薄弱点 |
+| 消声墙式通风口 | Dn,e,w 38–48 | 34–44 | 延长声学路径 |
+| 开启窗（100 mm 间隙） | 10–15 | 8–12 | 实际上抵消立面隔声 |
 
 ---
 
-## 4. Flanking Path Analysis
+## 4. 侧向传声路径分析
 
-### 4.1 Flanking Path Identification
+### 4.1 侧向传声路径识别
 
-In any completed building, the achieved sound insulation between rooms is the energetic sum of the direct path and all flanking paths:
+在任何已建成建筑中，房间之间的实际隔声是直接路径和所有侧向路径的能量合成：
 
 ```
 1/R_total = 1/R_direct + 1/R_flank1 + 1/R_flank2 + ... + 1/R_flankN
 ```
 
-Or equivalently:
+等价地：
 ```
 R_total = -10 × log₁₀(10^(-R_direct/10) + Σ 10^(-R_flanki/10))
 ```
 
-If R_direct = 60 dB and one flanking path provides R_flank = 55 dB, the total R = 53.5 dB — the flanking path reduces performance by 6.5 dB.
+若 R_direct = 60 dB 且一条侧向路径提供 R_flank = 55 dB，则总 R = 53.5 dB——该侧向路径使性能降低 6.5 dB。
 
-### 4.2 Critical Flanking Paths and Solutions
+### 4.2 关键侧向路径及解决方案
 
-**Path F-f (floor-to-floor, via continuous slab under party wall):**
-- Risk: Very high in concrete frame construction where the floor slab is continuous through the party wall line
-- Typical flanking Rw: 50–55 dB (concrete slab), 40–45 dB (timber floor)
-- Solution: Structural break in the slab at the party wall line (expensive, rarely done in concrete); floating floors on both sides extending ≥1 m from the party wall; increase mass of flanking floor slab
+**路径 F-f（楼板至楼板，经分户墙下方连续楼板）：**
+- 风险：混凝土框架中楼板连续穿过分户墙线时风险极高。
+- 典型侧向 Rw：50–55 dB（混凝土楼板）、40–45 dB（木楼板）。
+- 解决方案：在分户墙线处断开楼板结构（成本高，混凝土结构中很少采用）；两侧浮筑楼面从分户墙延伸 ≥1 m；增加侧向楼板质量。
 
-**Path D-f (direct element to flanking floor/ceiling):**
-- Risk: High. The party wall excites the flanking floor on the receiver side.
-- Solution: Resilient bars or isolated lining on the ceiling in the receiving room within 1 m of the party wall; floating floor on resilient layer extending to the party wall
+**路径 D-f（直接构件至侧向楼板／顶棚）：**
+- 风险：高。分户墙会激励接收侧的侧向楼板。
+- 解决方案：接收房间距分户墙 1 m 范围内的顶棚采用弹性龙骨或独立衬层；在延伸至分户墙的弹性层上设置浮筑楼面。
 
-**Path F-d (flanking wall to direct element):**
-- Risk: High for external walls wrapping around the party wall junction
-- Solution: Structural isolation at the junction (flexible joint in the external wall at the party wall line); inner leaf of the external wall discontinuous at the party wall; acoustic flanking strip between party wall and external wall leaf
+**路径 F-d（侧向墙至直接构件）：**
+- 风险：外墙包绕分户墙交接处时风险高。
+- 解决方案：交接处进行结构隔离（外墙分户墙线处设柔性接缝）；外墙内叶在分户墙处断开；分户墙与外墙内叶之间设声学侧向隔离条。
 
-**Path D-d (direct to direct, not flanking — this is the target):**
-- This is the performance of the separating element itself, measured under laboratory conditions
-- The design goal is to ensure all flanking paths have higher insulation than the direct path, so the direct path controls overall performance
+**路径 D-d（直接至直接，并非侧向——这是目标路径）：**
+- 这是分隔构件本身的性能，在实验室条件下测量。
+- 设计目标是确保所有侧向路径的隔声高于直接路径，使直接路径控制总体性能。
 
-### 4.3 ISO 12354 Prediction Model
+### 4.3 ISO 12354 预测模型
 
-ISO 12354-1 (airborne) and ISO 12354-2 (impact) provide calculation methods to predict in-situ sound insulation from laboratory element data plus junction vibration reduction indices (Kij). The model accounts for:
-- Direct transmission through the separating element
-- 12 flanking paths (4 junction edges × 3 path types per junction: Ff, Df, Fd)
-- Junction vibration reduction index Kij depends on mass ratio of elements meeting at the junction and junction type (rigid T, rigid X, flexible, etc.)
+ISO 12354-1（空气声）和 ISO 12354-2（撞击声）提供计算方法，可根据实验室构件数据及节点振动降低指数（Kij）预测现场隔声。模型考虑：
+- 声音直接穿过分隔构件的传递。
+- 12 条侧向路径（4 个节点边缘 × 每个节点 3 种路径类型：Ff、Df、Fd）。
+- 节点振动降低指数 Kij 取决于交接构件的质量比和节点类型（刚性 T、刚性 X、柔性等）。
 
-This model allows architects and acoustic engineers to predict field performance at the design stage without relying solely on laboratory ratings that ignore flanking.
-
----
-
-## 5. Construction Detailing for Acoustic Junctions
-
-### 5.1 Party Wall to External Wall Junction
-
-**Masonry construction:**
-- Inner leaf of external wall must not be continuous across the party wall line
-- Each side's inner leaf abuts the party wall with a flexible joint (10 mm compressed mineral wool or acoustic sealant)
-- Cavity closers at the party wall line must not bridge the structural break
-- Wall ties on each side are independent — no ties crossing the party wall cavity
-
-**Lightweight (steel/timber frame) construction:**
-- Party wall frame is structurally independent of external wall frame
-- External wall sheathing may be continuous for weather integrity but internal linings must be discontinuous at the party wall line
-- Acoustic flanking strip (resilient foam, 10 mm) between party wall and external wall framing
-
-### 5.2 Party Wall to Floor Junction
-
-**Concrete slab:**
-- Floating floor must extend continuously on both sides of the party wall
-- Perimeter resilient strip between screed and party wall
-- No screed-to-wall contact (screed bridges flanking vibration to the wall, then re-radiates on the other side)
-
-**Timber floor:**
-- Floor joists must not pass through the party wall; joists supported on joist hangers on each side
-- If joists are parallel to the party wall, maintain 25 mm minimum gap between joist ends and party wall, packed with mineral wool
-
-### 5.3 Service Penetrations
-
-- Pipes and cables through party walls: seal annular gap with intumescent acoustic sealant (minimum 25 mm depth of seal)
-- No back-to-back electrical sockets in party walls; offset by minimum 200 mm horizontally and install acoustic putty pads behind socket boxes
-- Ductwork through party walls: lined duct section (minimum 1 m lined on each side) or proprietary acoustic fire damper
-- Soil stacks in party walls: acoustically lagged pipe (mass-loaded vinyl wrap + mineral wool, minimum 10 kg/m² lagging mass)
-
-### 5.4 Roof Junction
-
-- Party wall must extend to the underside of the roof covering (or roof deck) without a gap in the ceiling void
-- If a continuous ceiling void exists, an acoustic barrier of equivalent performance to the party wall must be installed at the party wall line above the ceiling (minimum 2 × 15 mm gypsum board on timber frame, with mineral wool fill)
-- In masonry construction, the party wall typically extends into the roof void as a fire/acoustic barrier
+该模型使建筑师和声学工程师能够在设计阶段预测现场性能，而不必仅依赖忽略侧向传声的实验室评级。
 
 ---
 
-## 6. Standards and Testing References
+## 5. 声学节点施工详图
 
-### 6.1 Building Regulations
+### 5.1 分户墙与外墙交接
 
-| Standard | Jurisdiction | Scope |
+**砌体构造：**
+- 外墙内叶不得连续跨越分户墙线。
+- 两侧内叶均与分户墙相接，并设置柔性接缝（10 mm 压缩矿棉或声学密封胶）。
+- 分户墙线处的空腔封堵不得跨接结构断开处。
+- 两侧墙体拉结独立设置，不得有拉结件穿过分户墙空腔。
+
+**轻型（钢／木框架）构造：**
+- 分户墙框架与外墙框架结构独立。
+- 外墙覆板可为保证防水连续，但内衬必须在分户墙线处断开。
+- 分户墙与外墙框架之间设置声学侧向隔离条（10 mm 弹性泡沫）。
+
+### 5.2 分户墙与楼板交接
+
+**混凝土楼板：**
+- 浮筑楼面必须在分户墙两侧连续延伸。
+- 找平层与分户墙之间设置周边弹性隔离条。
+- 找平层不得接触墙体（否则会将侧向振动传至墙体，并在另一侧重新辐射）。
+
+**木楼板：**
+- 楼搁栅不得穿过分户墙，两侧搁栅分别由搁栅吊件支承。
+- 若搁栅与分户墙平行，搁栅端部与分户墙之间至少留 25 mm 间隙，并填充矿棉。
+
+### 5.3 设备穿孔
+
+- 管道和电缆穿过分户墙：用膨胀型声学密封胶封闭环形间隙（密封深度至少 25 mm）。
+- 分户墙内不得设置背靠背电气插座；水平错开至少 200 mm，并在接线盒后设置声学腻子垫。
+- 风管穿过分户墙：设置内衬风管段（两侧各至少 1 m）或专用声学防火阀。
+- 分户墙内排污立管：采用声学包覆管（加重乙烯基包覆 + 矿棉，包覆质量至少 10 kg/m²）。
+
+### 5.4 屋面交接
+
+- 分户墙必须延伸至屋面覆盖层（或屋面板）底部，吊顶空腔内不得留缝。
+- 若存在连续吊顶空腔，须在吊顶上方分户墙线处设置性能等同于分户墙的声学隔断（木框架上至少 2 × 15 mm 石膏板，空腔填矿棉）。
+- 砌体构造中，分户墙通常延伸至屋面空腔，兼作防火／声学隔断。
+
+---
+
+## 6. 标准与测试参考
+
+### 6.1 建筑法规
+
+| 标准 | 适用辖区 | 范围 |
 |---|---|---|
-| Approved Document E (ADE) | England & Wales | Sound insulation between dwellings; internal sound insulation in residential |
-| Building Bulletin 93 (BB93) | England & Wales | Acoustic design of schools |
-| HTM 08-01 | England | Acoustics in healthcare premises |
-| IBC Chapter 12, Section 1207 | United States | Sound transmission between dwelling units |
-| NBC Section 5.9 | Canada | Sound transmission in residential buildings |
-| NCC / BCA | Australia | Sound insulation between dwellings (F5 class) |
-| DIN 4109 | Germany | Sound insulation in buildings |
-| Technical Guidance Document E | Ireland | Sound insulation in dwellings |
+| Approved Document E（ADE） | 英格兰和威尔士 | 住户之间隔声；住宅内部隔声 |
+| Building Bulletin 93（BB93） | 英格兰和威尔士 | 学校声学设计 |
+| HTM 08-01 | 英格兰 | 医疗场所声学 |
+| IBC 第 12 章第 1207 节 | 美国 | 住宅单元之间的声音传递 |
+| NBC 第 5.9 节 | 加拿大 | 住宅建筑声音传递 |
+| NCC ／ BCA | 澳大利亚 | 住户之间隔声（F5 类） |
+| DIN 4109 | 德国 | 建筑隔声 |
+| 技术指导文件E（Technical Guidance Document E） | 爱尔兰 | 住宅隔声 |
 
-### 6.2 Laboratory and Field Test Standards
+### 6.2 实验室与现场测试标准
 
-| Standard | Description |
+| 标准 | 说明 |
 |---|---|
-| ISO 10140-1 to -5 | Laboratory measurement of sound insulation of building elements |
-| ISO 16283-1 | Field measurement of airborne sound insulation |
-| ISO 16283-2 | Field measurement of impact sound insulation |
-| ISO 16283-3 | Field measurement of facade sound insulation |
-| ISO 717-1 | Rating of airborne sound insulation (Rw, C, Ctr) |
-| ISO 717-2 | Rating of impact sound insulation (Ln,w, CI) |
-| ISO 12354-1 | Estimation of acoustic performance — airborne |
-| ISO 12354-2 | Estimation of acoustic performance — impact |
-| ASTM E90 | Laboratory measurement of airborne sound transmission loss |
-| ASTM E492 | Laboratory measurement of impact sound transmission (IIC) |
-| ASTM E336 | Field measurement of airborne sound attenuation |
-| ASTM E1007 | Field measurement of impact sound transmission |
-| ASTM E413 | Classification for rating sound insulation (STC) |
-| ASTM E989 | Classification for rating impact insulation (IIC) |
+| ISO 10140-1 至 -5 | 建筑构件隔声实验室测量 |
+| ISO 16283-1 | 空气声隔声现场测量 |
+| ISO 16283-2 | 撞击声隔声现场测量 |
+| ISO 16283-3 | 立面隔声现场测量 |
+| ISO 717-1 | 空气声隔声评级（Rw、C、Ctr） |
+| ISO 717-2 | 撞击声隔声评级（Ln,w、CI） |
+| ISO 12354-1 | 声学性能估算——空气声 |
+| ISO 12354-2 | 声学性能估算——撞击声 |
+| ASTM E90 | 空气声传声损失实验室测量 |
+| ASTM E492 | 撞击声传递实验室测量（IIC） |
+| ASTM E336 | 空气声衰减现场测量 |
+| ASTM E1007 | 撞击声传递现场测量 |
+| ASTM E413 | 隔声评级分类（STC） |
+| ASTM E989 | 撞击隔声评级分类（IIC） |
 
-### 6.3 Design and Guidance Standards
+### 6.3 设计与指导标准
 
-| Standard | Description |
+| 标准 | 说明 |
 |---|---|
-| BS 8233:2014 | Guidance on sound insulation and noise reduction for buildings |
-| BS EN ISO 3382-1 | Measurement of room acoustic parameters — performance spaces |
-| BS EN ISO 3382-2 | Measurement of room acoustic parameters — ordinary rooms |
-| ANSI S12.60 | Acoustical performance criteria for classrooms |
-| ASHRAE Applications Ch. 49 | Noise and vibration control in HVAC systems |
-| CIBSE Guide B5 | Noise and vibration control for building services systems |
-| WHO Environmental Noise Guidelines | Community noise exposure targets |
-| BCO Guide to Specification | Acoustic criteria for offices |
+| BS 8233:2014 | 建筑隔声与降噪指南 |
+| BS EN ISO 3382-1 | 房间声学参数测量——演出空间 |
+| BS EN ISO 3382-2 | 房间声学参数测量——普通房间 |
+| ANSI S12.60 | 教室声学性能准则 |
+| ASHRAE Applications 第 49 章 | HVAC 系统噪声与振动控制 |
+| CIBSE Guide B5 | 建筑设备系统噪声与振动控制 |
+| WHO 环境噪声指南 | 社区噪声暴露目标 |
+| BCO《技术规格指南》 | 办公建筑声学准则 |
 
 ---
 
-## 7. Approved Document E — Robust Details Summary
+## 7. Approved Document E——Robust Details 摘要
 
-Approved Document E (England & Wales) provides two compliance routes: (1) use Robust Details Ltd approved constructions and avoid pre-completion testing, or (2) use any construction and demonstrate compliance through pre-completion testing. The Robust Details scheme covers:
+Approved Document E（英格兰和威尔士）提供两种合规路径：（1）采用 Robust Details Ltd 批准的构造，可免于竣工前测试；或（2）采用任意构造，并通过竣工前测试证明合规。Robust Details 体系涵盖：
 
-**Separating walls:**
-- E-WM-1 to E-WM-24: Masonry wall details (cavity masonry, solid masonry)
-- E-WS-1 to E-WS-6: Steel frame wall details (double frame)
-- E-WT-1 to E-WT-4: Timber frame wall details (double frame)
+**分隔墙：**
+- E-WM-1 至 E-WM-24：砌体墙节点（砌体空腔、实心砌体）。
+- E-WS-1 至 E-WS-6：钢框架墙节点（双排框架）。
+- E-WT-1 至 E-WT-4：木框架墙节点（双排框架）。
 
-**Separating floors:**
-- E-FC-1 to E-FC-14: Concrete base floors (with and without ceiling treatments)
-- E-FT-1 to E-FT-6: Timber base floors
-- E-FS-1 to E-FS-4: Steel frame base floors
+**分隔楼板：**
+- E-FC-1 至 E-FC-14：混凝土基层楼板（有或无顶棚处理）。
+- E-FT-1 至 E-FT-6：木基层楼板。
+- E-FS-1 至 E-FS-4：钢框架基层楼板。
 
-Each Robust Detail specifies the separating element construction, flanking element treatments within the checklist zone (typically 300 mm–1200 mm from the separating element), junction details, and prohibited features. Using a Robust Detail requires registration with Robust Details Ltd and compliance with all checklist items — deviation from any item invalidates the robust detail status and requires testing.
+每个 Robust Detail 均规定分隔构件构造、检查区域内侧向构件处理（通常距分隔构件 300–1200 mm）、节点细节和禁止特征。使用 Robust Detail 必须向 Robust Details Ltd 注册并遵守全部检查项目；任何一项偏离都会使 Robust Detail 状态失效，并要求进行测试。
 
-**ADE Performance Targets (2003, amended 2015):**
-- Airborne (walls and floors): DnT,w + Ctr ≥ 45 dB
-- Impact (floors): L'nT,w ≤ 62 dB
-- These are field measurements including flanking
+**ADE 性能目标（2003，2015 年修订）：**
+- 空气声（墙和楼板）：DnT,w + Ctr ≥ 45 dB。
+- 撞击声（楼板）：L'nT,w ≤ 62 dB。
+- 以上为包含侧向传声影响的现场测量值。
 
-Testing requirement: minimum 1 set of tests per group of 10 habitable rooms of the same construction type, with at least 2 sets per development. Each set comprises 1 airborne + 1 impact (for floors) or 1 airborne (for walls) between a pair of rooms.
+测试要求：每 10 间同一构造类型的可居住房间至少进行 1 组测试，每个开发项目至少进行 2 组。每组测试包括一对房间之间的 1 项空气声 + 1 项撞击声测试（楼板），或 1 项空气声测试（墙体）。

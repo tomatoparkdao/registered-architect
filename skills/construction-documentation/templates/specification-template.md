@@ -1,282 +1,246 @@
-# CSI Three-Part Specification Template
+# CSI 三段式技术规格书模板
 
-Use this template as a starting point for writing specification sections.
-Replace all bracketed placeholders with project-specific content.
-
----
-
-## SECTION [XX XX XX] -- [SECTION TITLE]
-
-### PART 1 -- GENERAL
-
-#### 1.01 SUMMARY
-
-A. Section Includes:
-   1. [Primary scope item]
-   2. [Secondary scope item]
-   3. [Additional scope items as needed]
-
-B. Related Sections:
-   1. Section [XX XX XX] -- [Related section title]: [Nature of relationship]
-   2. Section [XX XX XX] -- [Related section title]: [Nature of relationship]
-
-C. Work by Others:
-   1. [Description of work provided by other trades that interfaces
-      with this section]
-
-#### 1.02 REFERENCES
-
-A. [Standards Organization] [Standard Number] -- [Standard Title]:
-   1. [Specific standard reference, e.g., ASTM C90 -- Standard
-      Specification for Loadbearing Concrete Masonry Units]
-   2. [Additional standard references]
-
-B. [Code references, e.g., IBC 2021, NFPA 101]
-
-C. [Industry guidelines, e.g., MIA Installation Handbook]
-
-#### 1.03 DEFINITIONS
-
-A. [Term]: [Definition as used in this specification section]
-
-B. [Term]: [Definition]
-
-#### 1.04 SUBMITTALS
-
-A. Product Data:
-   1. Submit manufacturer's published product data for each product
-      specified, including technical specifications, installation
-      instructions, and available finishes.
-
-B. Shop Drawings:
-   1. Submit detailed shop drawings showing [layout, dimensions,
-      connections, anchorage, and relationship to adjacent work].
-   2. Include [specific items required on shop drawings].
-
-C. Samples:
-   1. Submit [size] samples of each [material/finish/color] specified.
-   2. Submit [number] samples for Architect's selection from
-      manufacturer's full range.
-
-D. Test Reports:
-   1. Submit certified test reports from [accredited laboratory]
-      demonstrating compliance with specified performance requirements.
-
-E. Certificates:
-   1. Submit manufacturer's certificate of compliance with referenced
-      standards.
-   2. Submit installer qualification documentation.
-
-F. Closeout Submittals:
-   1. Operation and maintenance data for inclusion in O&M manuals.
-   2. Warranty documentation per Article 1.08.
-
-#### 1.05 QUALITY ASSURANCE
-
-A. Manufacturer Qualifications:
-   1. Minimum [X] years experience manufacturing specified products.
-   2. [Additional qualification requirements]
-
-B. Installer Qualifications:
-   1. Minimum [X] years experience installing specified products.
-   2. [Certification requirements, e.g., manufacturer-certified installer]
-   3. Submit list of [X] comparable completed projects with references.
-
-C. Mock-Up:
-   1. Construct mock-up of [element] at [location] to demonstrate
-      quality of materials, workmanship, and finish.
-   2. Mock-up size: [dimensions].
-   3. Obtain Architect's approval of mock-up before proceeding with
-      remaining work.
-   4. Approved mock-up may remain as part of the Work.
-
-D. Pre-Installation Meeting:
-   1. Conduct pre-installation meeting at project site minimum
-      [X] days before beginning installation.
-   2. Attendees: Installer, manufacturer's representative, Architect,
-      General Contractor, and affected trades.
-
-#### 1.06 DELIVERY, STORAGE, AND HANDLING
-
-A. Deliver products in manufacturer's original, unopened, labeled
-   packaging.
-
-B. Store products in [dry/covered/temperature-controlled] area,
-   protected from [moisture/direct sunlight/physical damage].
-
-C. Handle products to prevent damage, soiling, and deterioration.
-
-#### 1.07 PROJECT CONDITIONS
-
-A. Environmental Requirements:
-   1. Do not install when ambient temperature is below [X] degrees C
-      ([X] degrees F) or above [X] degrees C ([X] degrees F).
-   2. Maintain minimum temperature of [X] degrees C ([X] degrees F)
-      for [X] hours before, during, and after installation.
-   3. [Humidity requirements if applicable]
-
-B. Substrate Conditions:
-   1. Verify substrate is [dry/level/plumb/clean] before beginning
-      installation.
-   2. Maximum substrate moisture content: [X]% when tested per
-      [test method].
-
-#### 1.08 WARRANTY
-
-A. Manufacturer's Warranty:
-   1. Provide manufacturer's standard warranty for a period of [X] years
-      from date of Substantial Completion.
-   2. Warranty shall cover [defects in materials and workmanship /
-      specific coverage items].
-
-B. Installer's Warranty:
-   1. Provide installer's warranty for a period of [X] years from
-      date of Substantial Completion covering [workmanship defects /
-      water infiltration / specific coverage items].
+将本模板作为编写技术规格书章节的起点。请将所有方括号中的占位内容替换为项目专用内容。
 
 ---
 
-### PART 2 -- PRODUCTS
+## 第 [XX XX XX] 节 —— [章节标题]
 
-#### 2.01 MATERIALS
+### 第 1 部分 —— 总则
 
-A. [Material Name]:
-   1. Standard: [Reference standard, e.g., ASTM XXXX]
-   2. Type: [Type/Grade/Class per standard]
-   3. [Additional material properties]
+#### 1.01 概述
 
-#### 2.02 MANUFACTURED PRODUCTS
+A. 本节包括：
+   1. [主要工作范围]
+   2. [次要工作范围]
+   3. [其他所需工作范围]
 
-A. Acceptable Manufacturers:
-   1. [Manufacturer Name]; Product: [Model/Series]
-   2. [Manufacturer Name]; Product: [Model/Series]
-   3. [Or approved equal meeting specified performance requirements]
+B. 相关章节：
+   1. 第 [XX XX XX] 节 —— [相关章节标题]：[关系性质]
+   2. 第 [XX XX XX] 节 —— [相关章节标题]：[关系性质]
 
-B. Performance Requirements:
-   1. [Performance criterion]: [Value] when tested per [Standard]
-   2. [Performance criterion]: [Value] when tested per [Standard]
+C. 其他专业工作：
+   1. [与本节工作衔接的其他专业工作说明]
 
-C. Physical Properties:
-   1. Size: [Dimensions]
-   2. Thickness: [Dimension]
-   3. Weight: [Value per unit area/length]
-   4. Color: [As selected by Architect from manufacturer's standard range]
-   5. Finish: [Finish type and standard]
+#### 1.02 参考标准
 
-#### 2.03 FABRICATION
+A. [标准组织] [标准编号] —— [标准名称]：
+   1. [具体标准引用，例如 ASTM C90 —— 承重混凝土砌块标准技术规格]
+   2. [其他标准引用]
 
-A. Fabricate [products] in accordance with [standard/manufacturer's
-   instructions].
+B. [规范引用，例如 IBC 2021、NFPA 101]
 
-B. Tolerances:
-   1. [Dimension]: Plus or minus [X] mm ([X] inches)
-   2. [Flatness/straightness]: [Tolerance value]
+C. [行业指南，例如 MIA Installation Handbook]
 
-C. [Shop priming/finishing requirements]
+#### 1.03 术语定义
 
-#### 2.04 FINISHES
+A. [术语]：[本技术规格书章节中采用的定义]
 
-A. Factory finish [products] with [finish type]:
-   1. Color: [Color specification]
-   2. Gloss: [Gloss level per standard]
-   3. Thickness: [Film thickness minimum]
-   4. [Performance requirements for finish]
+B. [术语]：[定义]
 
-#### 2.05 SOURCE QUALITY CONTROL
+#### 1.04 报审资料
 
-A. Factory Testing:
-   1. Test [products] in accordance with [test standard] at [frequency].
-   2. Submit test reports to Architect.
+A. 产品资料：
+   1. 提交每种规定产品的制造商公开产品资料，包括技术规格、安装说明和可供选择的饰面。
 
-B. Certifications:
-   1. [Product certifications required, e.g., UL listed, FM approved,
-      GREENGUARD certified]
+B. 加工图：
+   1. 提交详细加工图，显示[布置、尺寸、连接、锚固及与相邻工作的关系]。
+   2. 应包括[加工图要求的具体项目]。
 
----
+C. 样品：
+   1. 提交每种规定[材料/饰面/颜色]的 [尺寸] 样品。
+   2. 从制造商全系列中提交 [数量] 份样品供建筑师选择。
 
-### PART 3 -- EXECUTION
+D. 检测报告：
+   1. 提交由[认可实验室]出具的认证检测报告，证明符合规定的性能要求。
 
-#### 3.01 EXAMINATION
+E. 证明文件：
+   1. 提交制造商符合引用标准的证明文件。
+   2. 提交安装人员资格证明文件。
 
-A. Examine substrates and conditions for compliance with requirements
-   for installation tolerances and other conditions affecting
-   performance of the Work.
+F. 竣工资料：
+   1. 供纳入运行与维护（O&M）手册的运行维护资料。
+   2. 按第 1.08 条提交保修文件。
 
-B. Verify [specific conditions to check, e.g., structural supports are
-   in place, surfaces are level within tolerance].
+#### 1.05 质量保证
 
-C. Proceed with installation only after unsatisfactory conditions have
-   been corrected.
+A. 制造商资格：
+   1. 制造规定产品的经验不少于 [X] 年。
+   2. [其他资格要求]
 
-#### 3.02 PREPARATION
+B. 安装人员资格：
+   1. 安装规定产品的经验不少于 [X] 年。
+   2. [认证要求，例如经制造商认证的安装人员]
+   3. 提交 [X] 个类似已完成项目及其参考资料清单。
 
-A. Clean substrate surfaces of [dust, debris, grease, form release
-   agents] that would impair bonding or installation.
+C. 样板：
+   1. 在[位置]制作[构件]样板，以展示材料、工艺和饰面质量。
+   2. 样板尺寸：[尺寸]。
+   3. 继续其余工作前，应取得建筑师对样板的批准。
+   4. 经批准的样板可保留为工程的一部分。
 
-B. [Apply primer/sealer per manufacturer's instructions]
+D. 安装前会议：
+   1. 在开始安装前至少 [X] 天于项目现场召开安装前会议。
+   2. 参会人员：安装人员、制造商代表、建筑师、总承包商及相关专业单位。
 
-C. Establish layout lines and reference points for installation.
+#### 1.06 运输、贮存和搬运
 
-#### 3.03 INSTALLATION
+A. 产品应以制造商原始、未开启且带标签的包装交付。
 
-A. Install [products] in accordance with manufacturer's written
-   instructions and approved shop drawings.
+B. 将产品贮存于[干燥/有遮蔽/温度受控]区域，防止[受潮/阳光直射/物理损坏]。
 
-B. [Specific installation requirements, step by step]:
-   1. [First installation step]
-   2. [Second installation step]
-   3. [Additional steps as needed]
+C. 搬运产品时应防止损坏、污损和劣化。
 
-C. Anchorage and Fastening:
-   1. [Fastener type, size, spacing, and material]
-   2. [Special fastening requirements]
+#### 1.07 现场条件
 
-D. Joints and Connections:
-   1. [Joint type, width, and sealant requirements]
-   2. [Connection details and requirements]
+A. 环境要求：
+   1. 当环境温度低于 [X] 摄氏度（[X] 华氏度）或高于 [X] 摄氏度（[X] 华氏度）时不得安装。
+   2. 安装前、安装期间和安装后 [X] 小时内，应保持最低温度 [X] 摄氏度（[X] 华氏度）。
+   3. [适用时的湿度要求]
 
-E. Tolerances:
-   1. [Installed tolerance requirements, e.g., plumb within X mm per
-      X meters, level within X mm per X meters]
+B. 基层条件：
+   1. 开始安装前核实基层[干燥/平整/垂直/洁净]。
+   2. 按[检测方法]检测时，基层最大含水率为 [X]%。
 
-#### 3.04 FIELD QUALITY CONTROL
+#### 1.08 保修
 
-A. Field Testing:
-   1. Perform [test type] in accordance with [test standard].
-   2. Test [frequency/locations].
-   3. Acceptance criteria: [Pass/fail criteria].
+A. 制造商保修：
+   1. 自实质竣工之日起提供 [X] 年的制造商标准保修。
+   2. 保修应涵盖[材料和工艺缺陷/特定保修项目]。
 
-B. Inspection:
-   1. [Inspection requirements and responsible party]
-
-C. If test results do not meet specified criteria, remove and replace
-   non-complying work at no additional cost to Owner.
-
-#### 3.05 ADJUSTING
-
-A. Adjust [operable components] for proper operation.
-
-B. [Specific adjustment requirements]
-
-#### 3.06 CLEANING
-
-A. Clean installed work per manufacturer's recommendations.
-
-B. Remove excess materials, adhesive residue, and construction debris.
-
-C. [Specific cleaning requirements for this product]
-
-#### 3.07 PROTECTION
-
-A. Protect installed work from damage by subsequent construction
-   activities.
-
-B. [Specific protection measures, e.g., apply protective film, install
-   temporary covers, restrict traffic]
-
-C. Replace or repair damaged work to Architect's satisfaction at no
-   additional cost to Owner.
+B. 安装方保修：
+   1. 自实质竣工之日起提供 [X] 年的安装方保修，涵盖[工艺缺陷/渗水/特定保修项目]。
 
 ---
 
-END OF SECTION [XX XX XX]
+### 第 2 部分 —— 产品
+
+#### 2.01 材料
+
+A. [材料名称]：
+   1. 标准：[引用标准，例如 ASTM XXXX]
+   2. 类型：[按标准确定的类型/等级/类别]
+   3. [其他材料性能]
+
+#### 2.02 制成品
+
+A. 可接受的制造商：
+   1. [制造商名称]；产品：[型号/系列]
+   2. [制造商名称]；产品：[型号/系列]
+   3. [或符合规定性能要求的经批准同等产品]
+
+B. 性能要求：
+   1. [性能指标]：按[标准]检测时为[数值]
+   2. [性能指标]：按[标准]检测时为[数值]
+
+C. 物理性能：
+   1. 尺寸：[尺寸]
+   2. 厚度：[尺寸]
+   3. 重量：[单位面积/长度的数值]
+   4. 颜色：[由建筑师从制造商标准色卡中选择]
+   5. 饰面：[饰面类型和标准]
+
+#### 2.03 制作
+
+A. 按照[标准/制造商说明]制作[产品]。
+
+B. 允许偏差：
+   1. [尺寸]：± [X] mm（[X] 英寸）
+   2. [平整度/直线度]：[偏差值]
+
+C. [工厂底漆/饰面要求]
+
+#### 2.04 饰面
+
+A. 使用[饰面类型]在工厂完成[产品]饰面：
+   1. 颜色：[颜色规格]
+   2. 光泽：[按标准确定的光泽等级]
+   3. 厚度：[涂膜最小厚度]
+   4. [饰面性能要求]
+
+#### 2.05 来源质量控制
+
+A. 工厂检测：
+   1. 按[检测标准]以[频次]检测[产品]。
+   2. 向建筑师提交检测报告。
+
+B. 认证：
+   1. [所需产品认证，例如 UL 列名、FM 认可、GREENGUARD 认证]
+
+---
+
+### 第 3 部分 —— 施工
+
+#### 3.01 检查
+
+A. 检查基层和现场条件是否符合安装允许偏差及其他影响工程性能的要求。
+
+B. 核实[需检查的具体条件，例如结构支承已就位、表面平整度在允许偏差内]。
+
+C. 只有在不合格条件得到纠正后方可进行安装。
+
+#### 3.02 准备
+
+A. 清除基层表面可能影响粘结或安装的[灰尘、杂物、油脂、脱模剂]。
+
+B. [按制造商说明涂刷底漆/封闭剂]
+
+C. 建立安装定位线和参考点。
+
+#### 3.03 安装
+
+A. 按制造商书面说明和批准的加工图安装[产品]。
+
+B. [具体安装要求，按步骤列出]：
+   1. [第一步安装工序]
+   2. [第二步安装工序]
+   3. [所需的其他工序]
+
+C. 锚固和紧固：
+   1. [紧固件类型、尺寸、间距和材料]
+   2. [特殊紧固要求]
+
+D. 接缝和连接：
+   1. [接缝类型、宽度和密封胶要求]
+   2. [连接细节和要求]
+
+E. 允许偏差：
+   1. [安装允许偏差要求，例如每 X 米垂直度偏差不超过 X mm、每 X 米水平度偏差不超过 X mm]
+
+#### 3.04 现场质量控制
+
+A. 现场检测：
+   1. 按[检测标准]进行[检测类型]。
+   2. 检测[频次/位置]。
+   3. 验收标准：[合格/不合格判定标准]。
+
+B. 检查：
+   1. [检查要求和责任方]
+
+C. 如果检测结果不符合规定标准，应拆除并更换不合格工程，业主不承担额外费用。
+
+#### 3.05 调整
+
+A. 调整[可操作构件]以确保正常运行。
+
+B. [具体调整要求]
+
+#### 3.06 清洁
+
+A. 按制造商建议清洁已安装工程。
+
+B. 清除多余材料、胶粘剂残留物和施工杂物。
+
+C. [本产品的具体清洁要求]
+
+#### 3.07 成品保护
+
+A. 保护已安装工程，避免后续施工活动造成损坏。
+
+B. [具体保护措施，例如粘贴保护膜、安装临时盖板、限制通行]
+
+C. 更换或修复损坏工程至建筑师满意，业主不承担额外费用。
+
+---
+
+第 [XX XX XX] 节结束

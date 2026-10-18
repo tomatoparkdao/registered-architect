@@ -1,59 +1,45 @@
-# Occupancy Classification -- Edge Cases and Special Provisions
+# 使用组分类——边界情形与特殊规定
 
-## Overview
+## 概述
 
-Correct occupancy classification is the most consequential code decision in a
-building project. Misclassification cascades through every subsequent analysis:
-construction type, height and area, egress, fire protection, and accessibility.
-This reference addresses the classification scenarios that are most frequently
-mishandled in practice.
+正确的使用组分类是建筑项目中影响最大的规范决策。分类错误会传导至后续所有分析：结构类型、建筑高度与面积、疏散、消防和无障碍。本参考处理实践中最常被误判的分类情形。
 
 ---
 
-## Section 1: Mixed Occupancy
+## 第 1 节：混合使用组
 
-When a building contains two or more occupancy groups, the architect must choose
-between two approaches per IBC Section 508.
+当建筑包含两个或以上使用组时，建筑师必须依据 IBC 第 508 节在两种方法中作出选择。
 
-### Nonseparated Occupancies (IBC 508.3)
+### 不分隔使用组（IBC 508.3）
 
-All occupancies are treated as a single building without physical fire separation
-between uses.
+所有使用组视为同一建筑，不在各用途之间设置实体防火分隔。
 
-**Rules:**
-- The most restrictive height and area requirements of any occupancy present
-  govern the entire building
-- The most restrictive construction type requirements govern
-- The most restrictive fire protection system requirements apply throughout
+**规则：**
+- 任一使用组中最严格的高度和面积要求适用于整栋建筑
+- 采用最严格的结构类型要求
+- 最严格的消防系统要求适用于全楼
 
-**When to use:**
-- Small accessory uses that do not warrant fire-rated separation
-- Uses that are functionally intermingled (e.g., office and assembly in a
-  conference center)
-- When the penalty of the most restrictive occupancy is acceptable
+**适用情形：**
+- 不值得设置耐火分隔的小型附属用途
+- 功能上相互交织的用途（例如会议中心内的办公室和集会空间）
+- 可以接受采用最严格使用组要求带来的限制时
 
-**Example:** A 2-story building with Group B offices (upper floor) and Group M
-retail (ground floor), nonseparated. Both are governed by the more restrictive
-of B or M for height, area, and construction type. For most construction types,
-B and M have similar allowances, so nonseparated is efficient.
+**示例：**两层建筑上层为 B 组办公室、首层为 M 组零售，且不进行分隔。高度、面积和结构类型均按 B 或 M 中更严格者执行。大多数结构类型下 B 与 M 的允许值相近，因此不分隔方式更高效。
 
-### Separated Occupancies (IBC 508.4)
+### 分隔使用组（IBC 508.4）
 
-Occupancies are physically separated by fire barriers with fire resistance
-ratings per IBC Table 508.4.
+使用组之间采用实体防火分隔，其耐火等级按 IBC 表 508.4 执行。
 
-**Rules:**
-- Each occupancy is evaluated independently for height and area
-- Fire barriers between occupancies must extend from floor slab to floor slab
-  (or roof) above
-- Fire barriers must meet IBC 707 requirements
-- Each occupancy must comply with its own fire protection requirements
-- The construction type of the building must be permitted for ALL occupancies
-  present
+**规则：**
+- 各使用组分别计算高度和面积
+- 使用组之间的防火分隔必须从楼板延伸至上方楼板（或屋面）
+- 防火分隔必须满足 IBC 707
+- 各使用组必须符合自身消防要求
+- 建筑结构类型必须允许建筑内的所有使用组
 
 **Separation ratings (IBC Table 508.4):**
 
-| Occupancy Groups | Sprinklered | Nonsprinklered |
+| 使用组 | 设置喷淋 | 未设置喷淋 |
 |---------------------------------------------|-------------|----------------|
 | A + B | 1 hr | 2 hr |
 | A + R | 1 hr | 2 hr |
@@ -65,352 +51,279 @@ ratings per IBC Table 508.4.
 | Any + H-1 | NP | NP |
 | F-1, S-1 + R | 1 hr | 2 hr |
 
-(NP = Not Permitted in same building)
+(NP = 不允许在同一建筑内共存)
 
 **When to use:**
 - Mixed-use buildings where different uses have significantly different code
   requirements (e.g., residential over retail, assembly within office)
-- When separating occupancies allows more favorable area calculations for
-  each use
-- When one occupancy requires sprinklers but another does not (separation
-  may avoid sprinklering the entire building in limited cases)
+- 当分隔使用组可为各用途提供更有利的面积计算时
+- 当一个使用组需要喷淋而另一个不需要时（在有限情形下，分隔可避免全楼设置喷淋）
 
-### Mixed Occupancy Height Interaction
+### 混合使用组的高度关系
 
-Critical rule for separated occupancies: the construction type must be
-permitted for ALL occupancies at the proposed height. If the building is
-6 stories, every occupancy must be permitted at 6 stories under the chosen
-construction type, even if that occupancy only occupies 1 story.
+分隔使用组的关键规则：所选结构类型必须在拟定高度下允许所有使用组。若建筑为 6 层，即使某使用组只占 1 层，所有使用组也必须在所选结构类型下允许建至 6 层。
 
-**Example:** A 6-story building with R-2 on floors 2-6 and A-2 on floor 1.
+**示例：**6 层建筑 2–6 层为 R-2，1 层为 A-2。
 - Type IB: R-2 allowed 12 stories, A-2 allowed 12 stories. Both work.
 - Type IIIA: R-2 allowed 5 stories (sprinklered), A-2 allowed 4 stories
   (sprinklered). At 6 stories, neither works. Need Type IB or higher.
 
 ---
 
-## Section 2: Accessory Occupancies
+## 第 2 节：附属使用组
 
-IBC Section 508.2 provides an exception for accessory uses.
+IBC 第 508.2 节为附属用途提供例外规定。
 
-### Definition
+### 定义
 
-An accessory occupancy is a use that:
-- Is subordinate to the main occupancy
-- Does not exceed 10% of the floor area of the story it is on
-- Does not exceed the tabular area limits per Table 506.2 for the
-  accessory occupancy
+附属使用组是指满足以下条件的用途：
+- 从属于主要使用组
+- 不超过所在楼层面积的 10%
+- 不超过表 506.2 对该附属使用组规定的表格面积限值
 
-### Treatment
+### 处理方式
 
-- No fire-rated separation required between accessory and main occupancy
-- The accessory use is classified as part of the main occupancy for
-  height/area purposes
-- The accessory space must still comply with its own occupancy requirements
-  for egress, fire protection features, and other applicable code sections
+- 附属用途与主要使用组之间无需设置耐火分隔
+- 就高度/面积而言，附属用途归入主要使用组
+- 附属空间仍须满足自身关于疏散、消防设施和其他适用规范章节的要求
 
-### Common Accessory Use Examples
+### 常见附属用途示例
 
-| Main Occupancy | Accessory Use | Notes |
+| 主要使用组 | 附属用途 | 备注 |
 |----------------|------------------------------|--------------------------------|
-| B (Office) | A-3 (conference room) | Conference rooms < 10% of floor |
-| M (Retail) | S-1 (stockroom) | Stockroom < 10% of floor |
-| R-2 (Apartment) | A-3 (community room) | Fitness/party room < 10% |
-| B (Office) | M (ground floor cafe) | Cafe serving occupants < 10% |
-| E (School) | A-1 (auditorium) | Auditorium may exceed 10% -- then requires separation |
+| B（办公室） | A-3（会议室） | 会议室 < 楼层面积 10% |
+| M（零售） | S-1（储藏室） | 储藏室 < 楼层面积 10% |
+| R-2（公寓） | A-3（公共活动室） | 健身/聚会室 <10% |
+| B（办公室） | M（首层咖啡厅） | 为使用者服务的咖啡厅 <10% |
+| E（学校） | A-1（礼堂） | 礼堂可能超过 10%，此时需设置分隔 |
 
-### Accessory vs Incidental
+### 附属用途与偶发用途的区别
 
-Accessory occupancies are not the same as incidental uses (IBC Table 509).
-Accessory relates to occupancy classification. Incidental relates to specific
-hazardous functions within a building that require either fire-rated separation
-or sprinkler protection.
+附属使用组不同于偶发用途（IBC 表 509）。附属用途涉及使用组分类；偶发用途涉及建筑内需要耐火分隔或喷淋保护的特定危险功能。
 
 ---
 
-## Section 3: Incidental Uses
+## 第 3 节：偶发用途
 
-IBC Section 509 and Table 509 identify specific uses within buildings that
-pose an elevated risk and require either separation or suppression.
+IBC 第 509 节和表 509 确定建筑内风险较高、需要分隔或灭火保护的特定用途。
 
-### Incidental Use Table (IBC Table 509)
+### 偶发用途表（IBC 表 509）
 
-| Incidental Use | Separation or Protection |
+| 偶发用途 | 分隔或保护 |
 |-------------------------------------------|-------------------------------|
-| Furnace room (fuel-fired, > 400 MBH) | 1 hr or sprinklers + barriers |
-| Boiler rooms (> 15 psi, > 10 HP) | 1 hr or sprinklers + barriers |
-| Refrigerant machinery rooms | 1 hr or sprinklers + barriers |
-| Hydrogen fuel gas rooms | 1 hr + sprinklers |
-| Incinerator rooms | 2 hr + sprinklers |
-| Paint shops (not H) | 2 hr or 1 hr + sprinklers |
-| Laboratories and vocational shops (not H) | 1 hr or sprinklers + barriers |
-| Laundry rooms > 9.3 m² (100 ft²) | 1 hr or sprinklers + barriers |
-| Waste/linen collection > 9.3 m² | 1 hr or sprinklers + barriers |
-| Storage rooms > 9.3 m² (100 ft²) | 1 hr or sprinklers + barriers |
-| Stationary lead-acid battery systems | 1 hr + sprinklers per IFC 608 |
+| 炉房（燃料燃烧，>400 MBH） | 1 小时，或喷淋 + 防火分隔 |
+| 锅炉房（>15 psi，>10 HP） | 1 小时，或喷淋 + 防火分隔 |
+| 制冷剂设备机房 | 1 小时，或喷淋 + 防火分隔 |
+| 氢燃料气体房 | 1 小时 + 喷淋 |
+| 焚烧炉房 | 2 小时 + 喷淋 |
+| 涂装车间（非 H 组） | 2 小时，或 1 小时 + 喷淋 |
+| 实验室和职业培训车间（非 H 组） | 1 小时，或喷淋 + 防火分隔 |
+| 洗衣房 >9.3 m²（100 ft²） | 1 小时，或喷淋 + 防火分隔 |
+| 废物/布草收集间 >9.3 m² | 1 小时，或喷淋 + 防火分隔 |
+| 储藏室 >9.3 m²（100 ft²） | 1 小时，或喷淋 + 防火分隔 |
+| 固定式铅酸电池系统 | 1 小时 + 按 IFC 608 设置喷淋 |
 
-### Key Principle
+### 核心原则
 
-Incidental uses are NOT reclassified as a different occupancy. They remain
-part of the main occupancy but require additional protection. A boiler room
-in an office building is still Group B -- it is not reclassified as F or H.
+偶发用途不会重新分类为其他使用组。它们仍属于主要使用组，但需要额外保护。办公建筑中的锅炉房仍为 B 组，不会重新分类为 F 组或 H 组。
 
-When the table offers "separation OR sprinklers + barriers," the architect
-may choose either path. Sprinklers and smoke-tight barriers are often more
-economical than full fire-rated enclosures, especially in sprinklered buildings.
+当表格提供“分隔或喷淋 + 防火分隔”两种路径时，建筑师可任选其一。尤其在已设置喷淋的建筑中，喷淋和防烟分隔通常比完整耐火围护更经济。
 
 ---
 
-## Section 4: Atriums (IBC Section 404)
+## 第 4 节：中庭（IBC 第 404 节）
 
-### Classification Challenges
+### 分类难点
 
-An atrium is a floor opening connecting two or more stories that is NOT:
-- An enclosed stairway, ramp, or elevator shaft
-- A mezzanine complying with Section 505
+中庭是连接两层或以上楼层的楼板开口，但不属于：
+- 封闭楼梯、坡道或电梯井
+- 符合第 505 节的夹层
 
-### Code Requirements
+### 规范要求
 
-1. **Sprinklers:** NFPA 13 sprinklers required throughout the building
-2. **Fire barrier separation:** Atrium must be separated from adjacent spaces
-   by 1-hour fire barriers OR a glass wall + sprinkler curtain system (IBC
-   404.6). The glass wall option requires closely spaced sprinklers on the
-   atrium side, wetting the glass surface.
-3. **Smoke control:** Required per Section 909. Active smoke control system
-   must maintain tenable conditions during evacuation. Typically mechanical
-   exhaust with natural or mechanical makeup air.
-4. **Travel distance:** Through the atrium to an exit must not exceed limits.
-   Occupants within the atrium are counted separately.
-5. **Standby power:** Smoke control system must have standby power.
+1. **喷淋**：整栋建筑均需按 NFPA 13 设置喷淋
+2. **防火分隔**：中庭必须采用 1 小时防火分隔，或采用玻璃墙 + 喷淋幕系统与相邻空间分隔（IBC 404.6）。玻璃墙方案需在中庭侧密集布置喷头，使玻璃表面保持湿润。
+3. **排烟控制**：按第 909 节要求设置。主动排烟系统必须在疏散期间维持可生存条件，通常采用机械排烟并配自然或机械补风。
+4. **疏散距离**：穿过中庭到达出口的距离不得超过限值；中庭内人员单独计数。
+5. **备用电源**：排烟控制系统必须设备用电源。
 
-### Occupancy Interaction
+### 使用组关系
 
-The atrium itself is not a separate occupancy -- it takes the occupancy of
-the uses it serves. But uses opening onto the atrium may need to be separated
-from the atrium volume depending on the fire strategy.
+中庭本身不是独立使用组，而采用其服务用途的使用组分类。但根据消防策略，朝向中庭开放的用途可能需要与中庭空间分隔。
 
-### Common Design Solutions
+### 常见设计方案
 
-- Glass walls with sprinkler curtain (most common in commercial atriums)
-- Smoke reservoirs at atrium top (min 3 m / 10 ft depth)
-- Balcony spill plume calculations per NFPA 92
-- Mechanical exhaust sizing: typically 4-8 air changes per hour depending
-  on atrium volume and fire size
+- 采用带喷淋幕的玻璃墙（商业中庭最常见）
+- 中庭顶部设置储烟层（最小深度 3 m/10 ft）
+- 按 NFPA 92 进行阳台溢流烟羽计算
+- 机械排烟量通常按每小时 4–8 次换气计算，取决于中庭体积和火灾规模
 
 ---
 
-## Section 5: High-Rise Buildings (IBC Section 403)
+## 第 5 节：高层建筑（IBC 第 403 节）
 
-### Definition
+### 定义
 
-A high-rise building has an occupied floor located more than 23 m (75 ft)
-above the lowest level of fire department vehicle access.
+高层建筑是指有人员使用的楼层高于消防车辆可到达最低标高 23 m（75 ft）以上的建筑。
 
-### Classification Impact
+### 分类影响
 
-High-rise status triggers additional requirements regardless of occupancy:
+无论使用组如何，高层建筑均触发以下附加要求：
 
-1. **Construction type:** Type IB minimum (2-hour structural frame). Exception:
-   R-2 may use Type IIA with additional fire protection per 403.2.1.1
-2. **Sprinklers:** NFPA 13 throughout, secondary water supply
-3. **Fire alarm:** Voice/alarm communication per NFPA 72, fire command center
-4. **Standpipe:** Class I standpipe in all exit stairways
+1. **结构类型**：最低 Type IB（结构框架 2 小时耐火）。例外：R-2 可按 403.2.1.1 采用 Type IIA 并增加消防保护
+2. **喷淋**：全楼按 NFPA 13 设置，并设第二水源
+3. **火灾报警**：按 NFPA 72 设置语音/报警通信和消防控制中心
+4. **立管**：所有疏散楼梯内设置 I 类消防立管
 5. **Elevators:** At least one fire service access elevator (ASME A17.1)
    serving all floors; two required in buildings > 36.6 m (120 ft)
-6. **Emergency power:** Generator for fire alarm, elevators, egress lighting,
-   fire pump; 2-hour fuel supply minimum
-7. **Stairway communication:** Two-way communication at every 5th floor
-8. **Luminous egress markings:** Photoluminescent or self-luminous markings
-   on stair treads, landings, handrails, perimeters, and exit signs
+6. **应急电源**：火灾报警、电梯、疏散照明和消防泵配置发电机；燃料至少供应 2 小时
+7. **楼梯通信**：每隔 5 层设置双向通信
+8. **发光疏散标识**：楼梯踏步、平台、扶手、边界和出口标志设置光致发光或自发光标识
 
-### Stairway Pressurization
+### 楼梯加压
 
-Stairways in high-rise buildings must have smokeproof enclosures (IBC 403.5.4):
-- Option 1: Stair pressurization system (most common) -- maintaining positive
-  pressure of 12.5 Pa (0.05 in w.g.) minimum with all doors closed, max
-  87 Pa (0.35 in w.g.) to allow door opening
-- Option 2: Natural ventilation (open exterior stair) -- rare in high-rise
-- Option 3: Vestibule with mechanical ventilation
+高层建筑楼梯必须设置防烟封闭（IBC 403.5.4）：
+- 方案 1：楼梯加压系统（最常见）——所有门关闭时保持至少 12.5 Pa（0.05 in w.g.）正压，最大 87 Pa（0.35 in w.g.）以便开门
+- 方案 2：自然通风（外露楼梯）——高层建筑中很少采用
+- 方案 3：带机械通风的前室
 
 ---
 
-## Section 6: Underground Buildings (IBC Section 405)
+## 第 6 节：地下建筑（IBC 第 405 节）
 
 ### Definition
 
-A building with an occupied floor level more than 9.1 m (30 ft) below the
-lowest level of exit discharge.
+地下建筑是指有人员使用的楼层低于最低疏散出口标高 9.1 m（30 ft）以上的建筑。
 
-### Additional Requirements
+### 附加要求
 
-1. **Construction type:** Type I required
-2. **Sprinklers:** NFPA 13 throughout
-3. **Smoke control:** Mechanical smoke exhaust or compartment pressurization
+1. **结构类型**：必须采用 Type I
+2. **喷淋**：全楼按 NFPA 13 设置
+3. **排烟控制**：机械排烟或分区加压
 4. **Compartmentation:** Max 139 m² (1,500 ft²) smoke compartments, or smoke
    control per Section 909
-5. **Fire alarm:** Voice/alarm communication, fire command center
+5. **火灾报警**：语音/报警通信和消防控制中心
 6. **Standpipe:** Required in exit stairways
-7. **Elevator:** Fire service access elevator to lowest level
+7. **电梯**：消防服务电梯通达最低楼层
 
-### Design Implications
+### 设计影响
 
 Underground buildings often occur in urban contexts: transit stations, below-grade
 retail, parking structures, cultural facilities (museums, performance halls).
-The combination of limited egress paths, no natural ventilation, and potential
-for smoke logging makes these among the most challenging fire safety designs.
+疏散路径有限、缺乏自然通风并可能积聚烟气，使其成为最具挑战性的消防设计类型之一。
 
 ---
 
-## Section 7: Covered and Open Mall Buildings (IBC Section 402)
+## 第 7 节：封闭式与开放式购物中心（IBC 第 402 节）
 
-### Covered Mall Building
+### 封闭式购物中心建筑
 
-A single building enclosing multiple tenants and anchor stores with a common
-pedestrian mall.
+一栋建筑内包含多个租户和主力店，并设有共用步行商业街。
 
-**Key provisions:**
-- Mall is treated as a pedestrian way (not contributing to exit access travel
-  distance once reached) if minimum 6.1 m (20 ft) wide
-- Tenant spaces must have exits directly to mall or to exterior
-- Max travel distance within tenant: 61 m (200 ft) to mall entrance (not to
-  building exit)
-- Sprinklers required throughout per NFPA 13
-- Emergency voice/alarm communication system required
-- Standby power for smoke control in mall
-- Anchor stores (> 2 per mall) may be treated as separate buildings if
-  separated by fire walls
+**主要规定：**
+- 商业街宽度至少 6.1 m（20 ft）时可视为步行通道；到达商业街后不再计入出口通行距离
+- 租户空间必须直接向商业街或室外设置出口
+- 租户内部至商业街入口的最大通行距离为 61 m（200 ft），不是至建筑出口的距离
+- 全楼按 NFPA 13 设置喷淋
+- 必须设置应急语音/报警通信系统
+- 商业街排烟控制设置备用电源
+- 每个商业街超过 2 家主力店时，如以防火墙分隔，可按独立建筑处理
 
-**Occupancy:**
-- Mall tenants: typically M (retail), A-2 (food court), B (offices)
-- Mall building does not require occupancy separation between the mall
-  walkway and tenant spaces less than 280 m² (3,000 ft²) per Section 402.4.2.1
-- Large tenants (> 280 m²) require fire-rated separation or sprinkler
-  protection per tenant type
+**使用组：**
+- 商业街租户通常为 M（零售）、A-2（美食广场）或 B（办公室）
+- 按第 402.4.2.1 节，商业街步行道与小于 280 m²（3000 ft²）的租户空间之间无需使用组分隔
+- 大型租户（>280 m²）须按租户类型设置耐火分隔或喷淋保护
 
-### Open Mall Building
+### 开放式购物中心建筑
 
-Similar to covered mall but with open-air pedestrian way.
-- Less stringent smoke control requirements
-- Still requires sprinklers in tenant spaces
+与封闭式购物中心类似，但步行商业街为露天形式。
+- 排烟控制要求较宽松
+- 租户空间仍需设置喷淋
 
 ---
 
-## Section 8: Special Occupancy Edge Cases
+## 第 8 节：特殊使用组边界情形
 
-### Assembly Threshold
+### 集会人数阈值
 
-A space becomes Group A when it is used by 50 or more persons for assembly
-purposes. A conference room for 49 in an office building is Group B. The
-same room for 50 becomes A-3 (accessory A-3 if < 10% of floor, separated
-A-3 if larger).
+空间用于集会且人数达到 50 人或以上时，分类为 A 组。办公建筑内容纳 49 人的会议室属于 B 组；容纳 50 人时变为 A-3（占楼层面积 <10% 时为附属 A-3，超过时为分隔的 A-3）。
 
-### Day Care Reclassification
+### 日托用途重新分类
 
-Day care for > 5 persons of any age is Group I-4. But if the facility is
-on the level of exit discharge with direct exterior exit access and serves
-children over 2.5 years, it may be classified as Group E instead. This
-distinction dramatically affects construction type and egress requirements.
+任何年龄超过 5 人的日托设施属于 I-4 组。但若设施位于疏散出口层、直接通向室外，且服务对象年龄超过 2.5 岁，则可分类为 E 组。该区别会显著影响结构类型和疏散要求。
 
-### Residential Care Facilities
+### 住宅照护设施
 
-The boundary between R-4 (5-16 persons, residential care) and I-1 (> 16 persons)
-is frequently misunderstood. R-4 Condition 1 (ambulatory occupants) may use
-R-3 (IRC) construction with sprinklers. R-4 Condition 2 (non-ambulatory)
-must comply with I-1 requirements, effectively making it institutional
-construction despite the small size.
+R-4（5–16 人，住宅照护）与 I-1（>16 人）之间的界限经常被误解。R-4 条件 1（可自行行走人员）可采用 R-3（IRC）结构并设置喷淋。R-4 条件 2（不能自行行走人员）必须符合 I-1 要求，即使规模很小，也实际上属于机构类建筑。
 
-### Laboratory Classification
+### 实验室分类
 
-Laboratories default to Group B unless materials present exceed IFC exempt
-amounts, triggering Group H. University research buildings frequently contain
-both B laboratories and H-2/H-3/H-4 laboratories. Each lab must be individually
-classified based on its chemical inventory, and H-classified labs require
-compliant separation from B spaces.
+实验室通常默认为 B 组，除非现场材料超过 IFC 豁免量，从而触发 H 组。大学科研建筑常同时包含 B 组实验室和 H-2/H-3/H-4 实验室。每个实验室必须依据其化学品清单单独分类；归为 H 组的实验室必须与 B 组空间设置符合规范的分隔。
 
-### Ambulatory Care Facilities
+### 门诊护理设施
 
-Outpatient surgery centers and clinics where 4+ patients are rendered incapable
-of self-preservation (general anesthesia, conscious sedation) are classified
-as Group B but must comply with Section 422 additional requirements:
-- Sprinklers per NFPA 13
-- Smoke compartments if > 4 such patients per smoke compartment on floors
-  other than level of exit discharge
-- Smoke detection in waiting and recovery areas
+当门诊手术中心或诊所内有 4 名以上患者因全身麻醉或清醒镇静而无法自救时，仍分类为 B 组，但必须符合第 422 节附加要求：
+- 按 NFPA 13 设置喷淋
+- 除疏散出口层外，每个烟气分区内此类患者超过 4 人时设置烟气分区
+- 在等候区和恢复区设置烟感探测
 
-This is technically Group B with I-2-like provisions -- one of the most
-confusing classification overlaps in the IBC.
+这在技术上是带有类似 I-2 条款的 B 组，是 IBC 中最容易混淆的分类交叉情形之一。
 
-### Parking Garages
+### 停车库
 
-- Open parking garages (Section 406.5): at least 20% open on each tier,
-  uniformly distributed. Qualify for significant area and height increases.
-  May be Type IIA, IIIA, or IV at reduced fire resistance.
-- Enclosed parking garages: S-2 occupancy with full table compliance
-- Mechanical access parking (robotic parking): S-2, no occupants in
-  parking area, so no egress from parking levels needed
+- 开放式停车库（第 406.5 节）：每层至少 20% 开敞且均匀分布，可获得显著的面积和高度增加；可采用降低耐火等级的 Type IIA、IIIA 或 IV。
+- 封闭式停车库：按 S-2 使用组并完整符合表格要求
+- 机械式停车（机器人停车）：S-2，停车区域无人员，因此无需设置停车层疏散路线
 
-### Food Service within Other Occupancies
+### 其他使用组内的餐饮服务
 
 A restaurant in an office building:
-- < 750 ft² and serving the building's occupants: accessory use of Group B
+- <750 ft² 且仅服务建筑使用者：B 组附属用途
 - >= 750 ft² or open to public: A-2 requiring separation from B
 
 A restaurant in a hotel:
-- Serving hotel guests and public: A-2 separated from R-1
+- 服务酒店客人和公众：A-2，与 R-1 分隔
 - Room service kitchen only: accessory use of R-1
 
 ---
 
-## Section 9: Occupancy Load Calculation -- Special Cases
+## 第 9 节：使用人数计算——特殊情形
 
-### Multiple Functions in One Space
+### 一个空间内的多种功能
 
-When a space has multiple functions, use the function that produces the
-highest occupant load. A gymnasium that is also used for assembly with
-chairs (0.65 m²/person) has a higher load than when used for exercise
-(4.6 m²/person). Design for the worst case.
+当一个空间具有多种功能时，采用产生最大使用人数的功能。兼作集会空间并摆放座椅的体育馆（0.65 m²/人）比用于运动时（4.6 m²/人）产生更高人数。按最不利情况设计。
 
-### Fixed Seating vs Calculated Load
+### 固定座位与计算人数
 
-When fixed seating is installed, count the actual seats. When seating is
-not fixed, calculate by area. If the calculated load is higher, use the
-calculated load. If fixed seating provides more seats than the calculated
-load, use the fixed seat count.
+设置固定座位时按实际座位数计数。座位不固定时按面积计算。若计算人数更高，采用计算人数；若固定座位数高于计算人数，采用固定座位数。
 
-### Outdoor Areas
+### 室外区域
 
-Outdoor assembly areas (patios, beer gardens, roof decks) are counted in
-the occupant load. Outdoor dining at a restaurant adds to the A-2 load.
-Egress from outdoor areas must comply independently.
+室外集会区域（露台、啤酒花园、屋顶平台）计入使用人数。餐厅室外用餐区应计入 A-2 人数。室外区域的疏散必须独立符合要求。
 
-### Mezzanines
+### 夹层
 
-A mezzanine occupant load is added to the floor below for egress purposes
-unless the mezzanine has independent egress directly to an exit.
+除非夹层具有直接通向出口的独立疏散路线，否则夹层使用人数应为疏散目的计入下方楼层。
 
 ---
 
-## Decision Flowchart -- Occupancy Classification
+## 决策流程图——使用组分类
 
-1. Identify the primary use of the space
-2. If sleeping accommodations: R (transient? R-1; permanent? R-2/R-3/R-4)
-   or I (restrained? I-3; incapable of self-preservation? I-1/I-2)
-3. If assembly >= 50 persons: A (which A subgroup?)
-4. If mercantile (retail sales): M
-5. If educational K-12: E
-6. If factory/industrial: F-1 or F-2 based on hazard
-7. If office/professional: B
-8. If storage: S-1 or S-2 based on hazard
-9. If hazardous materials exceed exempt quantities: H-1 through H-5
-10. If none of the above: U
-11. Check for mixed occupancy -- separated or nonseparated?
-12. Check for accessory uses < 10%
-13. Check for incidental uses requiring Table 509 protection
-14. Verify against special provisions: high-rise (403), atrium (404),
-    underground (405), mall (402)
+1. 确定空间的主要用途
+2. 若为住宿：R（临时住宿？R-1；长期住宿？R-2/R-3/R-4），或 I（受约束人员？I-3；无法自救人员？I-1/I-2）
+3. 若集会人数 ≥50 人：A（属于哪个 A 子组？）
+4. 若为商业零售：M
+5. 若为 K-12 教育：E
+6. 若为工厂/工业：依据危险等级采用 F-1 或 F-2
+7. 若为办公室/专业用途：B
+8. 若为储存：依据危险等级采用 S-1 或 S-2
+9. 若危险材料超过豁免量：H-1 至 H-5
+10. 若不属于上述类别：U
+11. 检查是否为混合使用组——分隔或不分隔？
+12. 检查附属用途是否 <10%
+13. 检查是否存在需按表 509 保护的偶发用途
+14. 对照特殊规定核验：高层（403）、中庭（404）、地下建筑（405）、购物中心（402）
 
 ---
 
-*All references are to the IBC 2021 edition unless otherwise noted. Verify
-against the locally adopted code edition and amendments. Building officials
-have final interpretive authority.*
+*除非另有说明，所有引用均指 IBC 2021 版。应根据当地采用的规范版本及修订条款进行核验。建筑主管部门拥有最终解释权。*

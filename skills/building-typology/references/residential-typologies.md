@@ -1,126 +1,126 @@
-# Residential Typologies Reference
+# 住宅类型学参考
 
-Comprehensive reference covering all residential building types, plan configurations, core design, daylight access, unit mix, density, parking strategies, and exemplar projects.
+本参考涵盖住宅建筑类型、平面配置、核心筒设计、采光、户型组合、密度、停车策略和代表性项目。
 
 ---
 
-## 1. Plan Configurations by Type
+## 1. 按类型划分的平面配置
 
-### 1.1 Detached House
+### 1.1 独立住宅
 
-| Configuration | Plan Depth (m) | Plan Width (m) | GIA (m2) | Characteristics |
+| 配置 | 平面进深（m） | 平面宽度（m） | GIA（m²） | 特征 |
 |--------------|---------------|----------------|----------|----------------|
-| Single-Room Depth | 6 - 8 | 8 - 12 | 60 - 100 | All rooms face exterior; excellent daylight; simple structure |
-| Double-Room Depth | 10 - 14 | 8 - 15 | 100 - 200 | Front and rear rooms; central hallway/stair; some internal rooms |
-| L-Plan | 8 - 12 (each wing) | Variable | 120 - 250 | Two wings create sheltered outdoor space; good aspect control |
-| Courtyard | 6 - 10 (wings) | 15 - 25 (overall) | 150 - 350 | Rooms face inward courtyard; privacy; climate moderation |
-| Split-Level | 10 - 14 | 8 - 12 | 100 - 200 | Half-level changes; responds to slope; spatial complexity |
-| Pavilion | 8 - 15 | 8 - 15 | 80 - 180 | Freestanding, all-glass or highly glazed; landscape integration |
+| 单房间进深 | 6–8 | 8–12 | 60–100 | 所有房间面向室外；采光优秀；结构简单 |
+| 双房间进深 | 10–14 | 8–15 | 100–200 | 前后房间；中央走廊/楼梯；部分内部房间 |
+| L 形平面 | 8–12（每个翼楼） | 可变 | 120–250 | 两个翼楼形成受保护室外空间；朝向控制良好 |
+| 庭院式 | 6–10（翼楼） | 15–25（整体） | 150–350 | 房间面向内向庭院；私密性和气候调节良好 |
+| 错层式 | 10–14 | 8–12 | 100–200 | 半层高差；响应坡地；空间复杂度高 |
+| 亭式 | 8–15 | 8–15 | 80–180 | 独立设置，全玻璃或大面积玻璃；融入景观 |
 
-### 1.2 Terrace / Rowhouse
+### 1.2 联排住宅
 
-| Configuration | Unit Width (m) | Plan Depth (m) | Storeys | GIA (m2) | Notes |
+| 配置 | 单元宽度（m） | 平面进深（m） | 层数 | GIA（m²） | 说明 |
 |--------------|---------------|----------------|---------|----------|-------|
-| Narrow Front | 4.2 - 5.0 | 8 - 10 | 2-3 | 60 - 100 | Min viable width; stair against party wall |
-| Standard | 5.0 - 6.5 | 9 - 12 | 2-3 | 85 - 130 | Most common UK terrace; two rooms per floor |
-| Wide Front | 6.5 - 8.0 | 8 - 12 | 2-3 | 110 - 160 | Room for side passage; 3 rooms per floor possible |
-| Deep Plan | 5.0 - 6.5 | 12 - 15 | 2-3 | 100 - 150 | Requires central lightwell or rooflight for middle zone |
-| Back-to-Back | 4.0 - 5.5 | 5 - 7 | 3-4 | 55 - 90 | Single-aspect; historic type (Leeds); revived in some schemes |
-| Mews | 4.0 - 6.0 | 6 - 9 | 2 | 50 - 80 | Garage below, living above; narrow lane access |
+| 窄面宽 | 4.2–5.0 | 8–10 | 2–3 | 60–100 | 可行的最小宽度；楼梯贴分户墙布置 |
+| 标准 | 5.0–6.5 | 9–12 | 2–3 | 85–130 | 英国最常见联排类型；每层两个房间 |
+| 宽面宽 | 6.5–8.0 | 8–12 | 2–3 | 110–160 | 可设置侧向通道；每层可布置 3 个房间 |
+| 深进深 | 5.0–6.5 | 12–15 | 2–3 | 100–150 | 中部区域需设置采光井或天窗 |
+| 背靠背 | 4.0–5.5 | 5–7 | 3–4 | 55–90 | 单面采光；历史类型（利兹），部分项目重新采用 |
+| 服务巷住宅 | 4.0–6.0 | 6–9 | 2 | 50–80 | 下部车库、上部居住；由狭窄巷道进入 |
 
-### 1.3 Walk-Up Apartment (3-5 Storeys)
+### 1.3 步行楼梯公寓（3–5 层）
 
-| Configuration | Building Depth (m) | Units/Core/Floor | NTG Ratio | Typical Unit NIA (m2) | Daylight |
+| 配置 | 建筑进深（m） | 每核心/每层户数 | NTG 比率 | 典型户型 NIA（m²） | 采光 |
 |--------------|-------------------|-----------------|-----------|----------------------|----------|
-| Stair Access (2 per landing) | 10 - 12 | 2 | 0.82 - 0.88 | 50 - 90 | All dual-aspect |
-| Stair Access (4 per landing) | 12 - 16 | 4 | 0.78 - 0.84 | 40 - 75 | 2 dual, 2 single-aspect |
-| Single-Loaded Corridor | 6 - 8 (units only) | 6 - 10 | 0.72 - 0.78 | 40 - 70 | All same orientation |
-| Double-Loaded Corridor | 12 - 16 | 8 - 14 | 0.78 - 0.84 | 40 - 70 | All single-aspect |
-| Gallery Access | 6 - 8 (units only) | 6 - 12 | 0.74 - 0.80 | 45 - 75 | All same orientation; gallery is external |
+| 楼梯入户（每个平台 2 户） | 10–12 | 2 | 0.82–0.88 | 50–90 | 全部双面采光 |
+| 楼梯入户（每个平台 4 户） | 12–16 | 4 | 0.78–0.84 | 40–75 | 2 户双面、2 户单面采光 |
+| 单侧走道 | 6–8（仅单元） | 6–10 | 0.72–0.78 | 40–70 | 全部朝向相同 |
+| 双侧走道 | 12–16 | 8–14 | 0.78–0.84 | 40–70 | 全部单面采光 |
+| 外廊入户 | 6–8（仅单元） | 6–12 | 0.74–0.80 | 45–75 | 全部朝向相同；外廊位于室外 |
 
-### 1.4 Mid-Rise and High-Rise Apartment (6+ Storeys)
+### 1.4 中高层公寓（6 层以上）
 
-| Configuration | Floor Plate GIA (m2) | Units/Core/Floor | NTG Ratio | Plan Depth (m) |
+| 配置 | 楼板 GIA（m²） | 每核心/每层户数 | NTG 比率 | 平面进深（m） |
 |--------------|---------------------|-----------------|-----------|----------------|
-| Point Tower (square) | 400 - 700 | 4 - 6 | 0.68 - 0.76 | 18 - 22 |
-| Point Tower (circular) | 500 - 800 | 6 - 8 | 0.65 - 0.73 | 20 - 26 (diameter) |
-| Slab (double-loaded) | 800 - 2,000 | 8 - 16 | 0.75 - 0.82 | 12 - 16 |
-| L-Shaped | 600 - 1,200 | 6 - 10 | 0.72 - 0.78 | 12 - 15 per wing |
-| U-Shaped | 800 - 1,500 | 8 - 12 | 0.70 - 0.76 | 12 - 15 per wing |
-| Cruciform | 600 - 1,000 | 6 - 8 | 0.68 - 0.75 | 10 - 14 per wing |
-| Y-Shaped | 500 - 900 | 6 - 9 | 0.67 - 0.74 | 10 - 14 per wing |
-| Pinwheel | 500 - 800 | 4 - 6 | 0.70 - 0.76 | 10 - 14 per wing |
+| 点式塔楼（方形） | 400–700 | 4–6 | 0.68–0.76 | 18–22 |
+| 点式塔楼（圆形） | 500–800 | 6–8 | 0.65–0.73 | 20–26（直径） |
+| 板式（双侧走道） | 800–2,000 | 8–16 | 0.75–0.82 | 12–16 |
+| L 形 | 600–1,200 | 6–10 | 0.72–0.78 | 每翼楼 12–15 |
+| U 形 | 800–1,500 | 8–12 | 0.70–0.76 | 每翼楼 12–15 |
+| 十字形 | 600–1,000 | 6–8 | 0.68–0.75 | 每翼楼 10–14 |
+| Y 形 | 500–900 | 6–9 | 0.67–0.74 | 每翼楼 10–14 |
+| 风车形 | 500–800 | 4–6 | 0.70–0.76 | 每翼楼 10–14 |
 
 ---
 
-## 2. Core Design for Apartments
+## 2. 公寓核心筒设计
 
-### 2.1 Core Types
+### 2.1 核心筒类型
 
-**Single Stair (UK/Europe):**
-| Element | Dimension |
+**单楼梯（英国/欧洲）：**
+| 要素 | 尺寸 |
 |---------|-----------|
-| Stair Width | 1,000 - 1,100mm clear (residential) |
-| Stair Lobby | 3.0 - 4.5 m2 per floor |
-| Lift (single) | 1.1m x 1.4m car (8-person), shaft 1.7m x 2.0m |
-| Refuse Chute | 450mm diameter, 600mm shaft |
-| Riser Cupboard | 0.6 - 1.0 m2 per floor |
-| Total Core Area | 12 - 18 m2 per floor |
-| Max Served | 8 units per floor (UK ADB guidance) |
-| Max Building Height | Varies by code; UK single-stair limited post-Grenfell reforms |
+| 楼梯宽度 | 住宅净宽 1,000–1,100 mm |
+| 楼梯前室 | 每层 3.0–4.5 m² |
+| 单部电梯 | 轿厢 1.1 m × 1.4 m（8 人），井道 1.7 m × 2.0 m |
+| 垃圾滑道 | 直径 450 mm，井道 600 mm |
+| 管井柜 | 每层 0.6–1.0 m² |
+| 核心筒总面积 | 每层 12–18 m² |
+| 最大服务户数 | 每层 8 户（UK ADB 指导） |
+| 最大建筑高度 | 取决于规范；Grenfell 改革后英国单楼梯建筑受到限制 |
 
-**Scissor Stair (UK):**
-| Element | Dimension |
+**剪刀楼梯（英国）：**
+| 要素 | 尺寸 |
 |---------|-----------|
-| Shaft Size | 2.4m x 5.0m (two interleaving flights in single shaft) |
-| Function | Two independent escape routes in one compact shaft |
-| Stair Width | 1,000mm clear per flight |
-| Protected Lobbies | Two separate lobbies, each with 0.5-hour fire door |
-| Max Served | 8 units per floor |
-| Total Core Area | 18 - 25 m2 per floor |
-| Advantage | Compact; satisfies two-escape-stair requirement |
-| Disadvantage | Complex construction; both stairs share same shaft fire risk |
+| 井道尺寸 | 2.4 m × 5.0 m（单井道内两部交错梯段） |
+| 功能 | 在紧凑井道内形成两条独立疏散路线 |
+| 楼梯宽度 | 每个梯段净宽 1,000 mm |
+| 防护前室 | 两个独立前室，每个设 0.5 小时防火门 |
+| 最大服务户数 | 每层 8 户 |
+| 核心筒总面积 | 每层 18–25 m² |
+| 优点 | 紧凑；满足双疏散楼梯要求 |
+| 缺点 | 施工复杂；两部楼梯共享同一井道，存在共同火灾风险 |
 
-**Twin Stair (International / IBC):**
-| Element | Dimension |
+**双楼梯（国际 / IBC）：**
+| 要素 | 尺寸 |
 |---------|-----------|
-| Stair 1 | 1,100mm clear width, pressurised enclosure |
-| Stair 2 | 1,100mm clear width, pressurised enclosure, remote from Stair 1 |
-| Separation | Stairs must be > 1/2 diagonal of floor plate apart (IBC) |
-| Firefighting Lift | Dedicated lift adjacent to firefighting stair; 1.1m x 2.1m car minimum |
-| Passenger Lifts | 2-4 depending on building height and population |
-| Total Core Area | 40 - 80 m2 per floor (much larger than single stair) |
-| Advantage | True redundancy; international code compliance |
-| Disadvantage | Large core consumes floor area; lower NTG |
+| 楼梯 1 | 净宽 1,100 mm，加压防护楼梯间 |
+| 楼梯 2 | 净宽 1,100 mm，加压防护楼梯间，与楼梯 1 分离 |
+| 间距 | 两部楼梯间距必须大于楼板对角线的 1/2（IBC） |
+| 消防电梯 | 紧邻消防楼梯设置专用电梯；轿厢最小 1.1 m × 2.1 m |
+| 客梯 | 根据建筑高度和人数设置 2–4 部 |
+| 核心筒总面积 | 每层 40–80 m²（显著大于单楼梯方案） |
+| 优点 | 真正冗余；符合国际规范 |
+| 缺点 | 核心筒占用面积大；NTG 较低 |
 
-**Skip-Stop:**
-| Element | Description |
+**隔层停靠：**
+| 要素 | 描述 |
 |---------|-------------|
-| Concept | Corridor every 2nd or 3rd floor; units accessed up or down from corridor level |
-| Unit Type | Maisonettes (2-storey units) with internal stair |
-| Corridor Floors | Every 3rd floor (Le Corbusier Unité model) or every 2nd |
-| NTG Improvement | 3 - 5% higher NTG than conventional corridor (less corridor area) |
-| Disadvantage | Accessibility: only corridor-level entrances are step-free; internal stairs in units |
-| Advantage | Dual-aspect maisonettes; reduced corridor; cross-ventilation possible |
+| 概念 | 每 2 层或 3 层设置走道，住宅单元从走道层向上或向下进入 |
+| 单元类型 | 带内部楼梯的复式住宅（2 层） |
+| 走道楼层 | 每 3 层（Le Corbusier Unité 模式）或每 2 层设置 |
+| NTG 提升 | 比传统走道高 3–5%（走道面积较少） |
+| 缺点 | 无障碍性：只有走道层入口无高差，单元内部有楼梯 |
+| 优点 | 复式住宅双面采光；减少走道；可实现交叉通风 |
 
-### 2.2 Lift Provision
+### 2.2 电梯配置
 
-| Building Height (storeys) | Min Lifts | Lift Size | Notes |
+| 建筑高度（层） | 最少电梯数 | 电梯尺寸 | 说明 |
 |--------------------------|-----------|-----------|-------|
-| 3 - 5 | 1 (+ stair) | 8-person (1100x1400mm) | Lift required from 3+ storeys for accessibility |
-| 6 - 10 | 2 | 8-person | One firefighting lift required above certain height |
-| 11 - 20 | 2 - 3 | 8-person + 1 firefighting (13-person) | Up-peak analysis: 1 lift per 80-100 units |
-| 21 - 40 | 3 - 4 | Mix of 8 and 13-person | Consider sky lobby for buildings > 30 storeys |
-| 40+ | 4 - 6 | Zoned service (low/mid/high-rise banks) | Destination dispatch control |
+| 3–5 | 1（+楼梯） | 8 人（1,100 × 1,400 mm） | 3 层以上为满足无障碍需设置电梯 |
+| 6–10 | 2 | 8 人 | 超过特定高度需设置消防电梯 |
+| 11–20 | 2–3 | 8 人 + 1 部消防电梯（13 人） | 高峰分析：每 80–100 户 1 部电梯 |
+| 21–40 | 3–4 | 8 人和 13 人混合 | >30 层建筑可考虑设置空中大堂 |
+| 40+ | 4–6 | 分区服务（低/中/高层电梯组） | 目的层派梯控制 |
 
-### 2.3 Core Area Benchmarks
+### 2.3 核心筒面积基准
 
-| Core Configuration | Core Area per Floor (m2) | As % of GIA | Best Suited To |
+| 核心筒配置 | 每层核心筒面积（m²） | 占 GIA | 最适用类型 |
 |-------------------|------------------------|-------------|----------------|
-| Single stair + 1 lift | 12 - 18 | 8 - 12% | Walk-up, low-mid rise (UK) |
-| Scissor stair + 1 lift | 18 - 25 | 10 - 15% | Mid-rise (UK, up to ~18 storeys) |
-| Twin stair + 2 lifts | 40 - 60 | 15 - 22% | Mid-high rise (international) |
-| Twin stair + 3-4 lifts + FF lift | 60 - 80 | 18 - 25% | High-rise tower (20+ storeys) |
+| 单楼梯 + 1 部电梯 | 12–18 | 8–12% | 步行楼梯公寓、低中层（英国） |
+| 剪刀楼梯 + 1 部电梯 | 18–25 | 10–15% | 中层（英国，约 18 层以内） |
+| 双楼梯 + 2 部电梯 | 40–60 | 15–22% | 中高层（国际） |
+| 双楼梯 + 3–4 部电梯 + 消防电梯 | 60–80 | 18–25% | 高层塔楼（20 层以上） |
 
 ---
 
@@ -128,191 +128,191 @@ Comprehensive reference covering all residential building types, plan configurat
 
 ### 3.1 Aspect Types
 
-| Aspect | Definition | Daylight Quality | Ventilation | Plan Implication |
+| 朝向类型 | 定义 | 日照质量 | 通风 | 平面影响 |
 |--------|-----------|-----------------|-------------|-----------------|
-| Single-Aspect | Windows on one wall only | Adequate to 2x room height depth (e.g., 2.5m ceiling = 5m max depth) | No cross-ventilation; relies on mechanical or stack | Double-loaded corridor buildings |
-| Dual-Aspect | Windows on two opposite walls | Good daylight to 2.5x ceiling height per side | Cross-ventilation possible; excellent natural vent. | Corner units, through-units, stair-access buildings |
-| Triple-Aspect | Windows on three walls | Excellent; almost all rooms daylit | Multiple cross-ventilation paths | End units, corner units on L-shaped buildings |
-| Corner | Windows on two adjacent walls (not opposite) | Good but asymmetric; one aspect may be secondary | Partial cross-ventilation | Corner units in towers and slab blocks |
+| 单朝向 | 仅一面墙设窗 | 进深可达层高 2 倍（如层高 2.5 m = 最大进深 5 m） | 无穿堂通风，依靠机械通风或烟囱效应 | 双廊式建筑 |
+| 双朝向 | 两面相对墙设窗 | 每侧可达层高 2.5 倍，日照良好 | 可实现穿堂通风，自然通风优良 | 转角单元、穿堂单元、楼梯直达建筑 |
+| 三朝向 | 三面墙设窗 | 优秀，几乎所有房间均有日照 | 多条穿堂通风路径 | 端部单元、L 形建筑转角单元 |
+| 转角 | 两面相邻墙设窗（非相对） | 良好但不对称，一侧朝向可能为次要朝向 | 部分穿堂通风 | 塔楼和板式建筑转角单元 |
 
 ### 3.2 Daylight Standards
 
-| Standard | Metric | Target | Application |
+| 标准 | 指标 | 目标 | 应用 |
 |----------|--------|--------|-------------|
 | BS EN 17037 | Target illuminance | 300 lux for 50% of reference plane, 50% of daylight hours | EU / UK recommended |
 | BRE Site Layout Planning | Average Daylight Factor | 1% (bedrooms), 1.5% (living rooms), 2% (kitchens) | UK planning |
-| BRE Sunlight | Annual Probable Sunlight Hours | 25% of total APSH, 5% in winter months | For living rooms facing within 90 deg of south |
+| BRE 日照 | 年可能日照时数 | 总 APSH 的 25%，冬季月份 5% | 适用于朝向正南 ±90° 的起居室 |
 | LEED v4.1 | Spatial Daylight Autonomy | sDA300/50 for 55% of floor area (2 points), 75% (3 points) | LEED certification |
 | London Plan | Daylight + sunlight | Comply with BRE guidance; single-aspect north-facing units to be avoided | London planning policy |
 | NDSS | Room depth | No room > 2x floor-to-ceiling in depth for single-aspect | UK minimum quality |
 | Passive House | Window-to-floor ratio | Typically 25-35% depending on orientation and climate | Energy balance |
 
-### 3.3 Plan Depth vs. Daylight
+### 3.3 平面进深与采光
 
-| Plan Depth (m) | Daylight at Rear (single-aspect, 2.5m ceiling) | Suitability |
+| 平面进深（m） | 后部采光（单面采光，层高 2.5 m） | 适用性 |
 |---------------|-----------------------------------------------|-------------|
-| 4 - 6 | Excellent (ADF > 3%) | Hotel rooms, studios |
-| 6 - 8 | Good (ADF 2 - 3%) | 1-bed units, bedrooms |
-| 8 - 10 | Adequate (ADF 1.5 - 2%) | 2-bed units, living rooms at window |
-| 10 - 12 | Marginal (ADF 1 - 1.5%) | Requires careful design; kitchens/bathrooms internal |
-| 12 - 15 | Poor (ADF < 1%) | Needs lightwell, clerestory, or dual-aspect |
-| > 15 | Inadequate for habitable rooms | Only with atrium, deep light well, or artificial light |
+| 4–6 | 优秀（ADF > 3%） | 酒店客房、单间公寓 |
+| 6–8 | 良好（ADF 2–3%） | 一居室、卧室 |
+| 8–10 | 适中（ADF 1.5–2%） | 两居室、起居室靠窗 |
+| 10–12 | 临界（ADF 1–1.5%） | 需要精细设计；厨房/卫生间位于内部 |
+| 12–15 | 较差（ADF < 1%） | 需要采光井、高侧窗或双面采光 |
+| >15 | 不适合居住空间 | 仅能通过中庭、深采光井或人工照明解决 |
 
-### 3.4 Dual-Aspect Achievement Strategies
+### 3.4 双面采光实现策略
 
-| Strategy | Description | NTG Impact |
+| 策略 | 描述 | 对 NTG 的影响 |
 |----------|-------------|-----------|
-| Stair-Access Plan | 2-4 units per landing, no corridor | Highest NTG; all/most units dual-aspect |
-| Gallery Access | External walkway on one side; units extend full depth | Most units dual-aspect but gallery blocks one facade partially |
-| Skip-Stop | Maisonettes with corridor every 3rd floor | Dual-aspect within maisonette upper/lower levels |
-| Point Tower (small) | 4-6 units around central core; corner units get 2+ aspects | 50-75% of units dual-aspect |
-| Through-Apartment | Unit spans full building depth (single-loaded) | 100% dual-aspect but lower NTG |
-| Notched Plan | Building form has notches/setbacks creating additional window walls | 60-80% dual-aspect; complex form increases facade cost |
+| 楼梯入户平面 | 每个平台 2–4 户，无走道 | NTG 最高；全部/大多数单元双面采光 |
+| 外廊入户 | 一侧设置外部走道；单元贯穿整个进深 | 大多数单元双面采光，但外廊部分遮挡一侧立面 |
+| 隔层停靠 | 每 3 层设置走道的复式住宅 | 复式住宅上下层均可双面采光 |
+| 小型点式塔楼 | 中央核心筒周围 4–6 户；转角户有 2 个以上朝向 | 50–75% 单元双面采光 |
+| 穿通式住宅 | 单元贯穿建筑全进深（单侧走道） | 100% 双面采光，但 NTG 较低 |
+| 切角平面 | 通过切角/退台增加开窗墙面 | 60–80% 双面采光；复杂形体增加立面成本 |
 
 ---
 
-## 4. Unit Mix Strategies
+## 4. 户型组合策略
 
-### 4.1 Market-Driven Unit Mix
+### 4.1 市场驱动的户型组合
 
-| Market Segment | Typical Mix | Average Unit Size (NIA) | Target Buyer/Renter |
+| 市场细分 | 典型组合 | 平均户型面积（NIA） | 目标买家/租户 |
 |---------------|------------|------------------------|-------------------|
-| Urban Rental (young professionals) | 40% studio/1b, 45% 2b, 15% 3b | 45 - 60 m2 | 25-35 age, singles/couples |
-| Family Suburb | 10% 1b, 30% 2b, 40% 3b, 20% 4b+ | 80 - 110 m2 | Families, 30-50 age |
-| Affordable (social rent) | 20% 1b, 35% 2b, 30% 3b, 15% 4b+ | 55 - 85 m2 | Mixed demographics; larger families |
-| Luxury Urban | 15% 1b, 35% 2b, 35% 3b, 15% 4b/PH | 75 - 150 m2 | High-income buyers |
-| Senior Living | 50% 1b, 40% 2b, 10% 3b | 50 - 75 m2 | Over 55s; accessible design throughout |
-| Student | 70% studio, 20% cluster flat, 10% 2b | 18 - 25 m2 (studio); 8-12 m2 (cluster bedroom) | University students |
-| Build-to-Rent (BTR) | 30% studio/1b, 50% 2b, 20% 3b | 45 - 70 m2 | Young professionals, downsizers |
+| 城市租赁（年轻专业人士） | 40% 单间/一居，45% 两居，15% 三居 | 45–60 m² | 25–35 岁，单身/伴侣 |
+| 家庭郊区 | 10% 一居，30% 两居，40% 三居，20% 四居以上 | 80–110 m² | 30–50 岁家庭 |
+| 可负担住房（社会租赁） | 20% 一居，35% 两居，30% 三居，15% 四居以上 | 55–85 m² | 混合人口；大家庭 |
+| 城市豪宅 | 15% 一居，35% 两居，35% 三居，15% 四居/顶层公寓 | 75–150 m² | 高收入买家 |
+| 老年居住 | 50% 一居，40% 两居，10% 三居 | 50–75 m² | 55 岁以上；全面无障碍设计 |
+| 学生住宅 | 70% 单间，20% 集群公寓，10% 两居 | 单间 18–25 m²；集群卧室 8–12 m² | 大学生 |
+| 建设即出租（BTR） | 30% 单间/一居，50% 两居，20% 三居 | 45–70 m² | 年轻专业人士、缩小居住面积者 |
 
-### 4.2 Planning Policy Unit Mix (London Example)
+### 4.2 规划政策户型组合（伦敦示例）
 
-The London Plan and borough local plans often mandate unit mix to meet identified housing need:
+《伦敦规划》和各区地方规划通常规定户型组合，以满足已识别的住房需求：
 
-| Borough Type | 1-Bed | 2-Bed | 3-Bed+ | Source |
+| 行政区类型 | 一居 | 两居 | 三居以上 | 来源 |
 |-------------|-------|-------|--------|--------|
-| Inner London (market) | 30-40% | 30-40% | 20-30% | Typical SHMA outcome |
-| Inner London (affordable) | 15-25% | 25-35% | 40-50% | Higher family need |
-| Outer London (market) | 20-30% | 35-45% | 25-35% | More family housing |
-| Outer London (affordable) | 10-20% | 25-35% | 45-55% | Significant family need |
+| 伦敦内区（市场） | 30–40% | 30–40% | 20–30% | SHMA 典型结果 |
+| 伦敦内区（可负担） | 15–25% | 25–35% | 40–50% | 家庭住房需求更高 |
+| 伦敦外区（市场） | 20–30% | 35–45% | 25–35% | 家庭住房比例更高 |
+| 伦敦外区（可负担） | 10–20% | 25–35% | 45–55% | 家庭住房需求显著 |
 
-### 4.3 Unit Mix Impact on Building Design
+### 4.3 户型组合对建筑设计的影响
 
-| Factor | More Small Units (studios/1b) | More Large Units (3b+) |
+| 因素 | 小户型较多（单间/一居） | 大户型较多（三居以上） |
 |--------|------------------------------|----------------------|
-| Number of front doors per floor | Higher (more units per core) | Lower |
-| Corridor length | Longer (more doors to serve) | Shorter |
-| NTG Ratio | Slightly lower (more doors = more corridor) | Slightly higher |
-| Core capacity (lifts) | More lift trips (more households) | Fewer trips |
-| Parking demand | Lower per unit | Higher per unit |
-| Acoustic complexity | Higher (more party walls) | Lower |
-| Plumbing complexity | Higher (more kitchens/bathrooms) | Lower |
-| Revenue (per m2) | Higher (premium on small units in urban areas) | Lower per m2 but higher per unit |
+| 每层入户门数量 | 较多（每核心户数更多） | 较少 |
+| 走道长度 | 较长（服务更多入口） | 较短 |
+| NTG 比率 | 略低（门越多，走道越长） | 略高 |
+| 核心筒容量（电梯） | 电梯运行次数更多（住户更多） | 运行次数较少 |
+| 停车需求 | 每户较低 | 每户较高 |
+| 声学复杂度 | 较高（分户墙更多） | 较低 |
+| 给排水复杂度 | 较高（厨房/卫生间更多） | 较低 |
+| 收益（每 m²） | 较高（城市小户型溢价） | 每 m² 较低但每户较高 |
 
 ---
 
-## 5. Density Implications by Typology
+## 5. 类型学的密度影响
 
-### 5.1 Density Benchmarks
+### 5.1 密度基准
 
-| Typology | Density (DU/ha) | Density (habitable rooms/ha) | FAR / Plot Ratio | Typical Context |
+| 类型 | 密度（DU/ha） | 密度（居住间/ha） | FAR / 容积率 | 典型语境 |
 |----------|----------------|-----------------------------|-----------------|--------------------|
-| Detached House (large plot) | 8 - 15 | 25 - 60 | 0.15 - 0.30 | Rural, exurban |
-| Detached House (suburban) | 15 - 30 | 50 - 100 | 0.25 - 0.50 | Low-density suburb |
-| Semi-Detached | 25 - 50 | 80 - 180 | 0.35 - 0.65 | Suburban |
-| Terrace / Rowhouse | 40 - 80 | 130 - 300 | 0.50 - 1.00 | Inner suburb, urban |
-| Walk-Up Apartment (3-5 storeys) | 60 - 150 | 180 - 500 | 0.80 - 1.50 | Urban |
-| Mid-Rise Apartment (6-12 storeys) | 100 - 250 | 300 - 800 | 1.20 - 2.50 | Urban, TOD |
-| High-Rise Tower (13-25 storeys) | 200 - 400 | 600 - 1500 | 2.00 - 5.00 | Urban centre, TOD |
-| High-Rise Tower (25+ storeys) | 300 - 600+ | 1000 - 2500+ | 4.00 - 10.00+ | City centre, Hong Kong |
-| Courtyard Housing | 40 - 100 | 130 - 350 | 0.50 - 1.20 | Urban infill |
-| Co-Housing | 30 - 80 | 100 - 280 | 0.40 - 1.00 | Suburban, semi-urban |
-| Micro/Co-Living | 200 - 500+ | 400 - 1000+ | 2.00 - 6.00 | Urban centre |
+| 大地块独立住宅 | 8–15 | 25–60 | 0.15–0.30 | 农村、城市边缘 |
+| 郊区独立住宅 | 15–30 | 50–100 | 0.25–0.50 | 低密度郊区 |
+| 半独立住宅 | 25–50 | 80–180 | 0.35–0.65 | 郊区 |
+| 联排住宅 | 40–80 | 130–300 | 0.50–1.00 | 内郊区、城市 |
+| 步行楼梯公寓（3–5 层） | 60–150 | 180–500 | 0.80–1.50 | 城市 |
+| 中层公寓（6–12 层） | 100–250 | 300–800 | 1.20–2.50 | 城市、TOD |
+| 高层塔楼（13–25 层） | 200–400 | 600–1,500 | 2.00–5.00 | 城市中心、TOD |
+| 高层塔楼（25 层以上） | 300–600+ | 1,000–2,500+ | 4.00–10.00+ | 城市中心、香港 |
+| 庭院住宅 | 40–100 | 130–350 | 0.50–1.20 | 城市填充 |
+| 共享居住 | 30–80 | 100–280 | 0.40–1.00 | 郊区、半城市 |
+| 微型/共享居住 | 200–500+ | 400–1,000+ | 2.00–6.00 | 城市中心 |
 
-### 5.2 Density vs. Quality Trade-Offs
+### 5.2 密度与品质的权衡
 
-| Density Range (DU/ha) | Achievable With | Daylight | Private Amenity | Parking |
+| 密度范围（DU/ha） | 可采用的类型 | 采光 | 私享配套 | 停车 |
 |-----------------------|----------------|----------|----------------|---------|
-| < 30 | Houses with gardens | Excellent | Large gardens | On-plot, easy |
-| 30 - 75 | Terraces, walk-ups | Good - Excellent | Small gardens, balconies | On-street, small basement |
-| 75 - 150 | Walk-ups, mid-rise | Good | Balconies, some gardens | Podium or basement |
-| 150 - 250 | Mid-rise, some high-rise | Variable | Balconies | Basement or decoupled |
-| 250 - 400 | High-rise | Challenging | Balconies (wind at height) | Basement, reduced ratio |
-| > 400 | Supertall, ultra-dense | Requires careful design | Winter gardens, communal | Minimal or car-free |
+| <30 | 带花园住宅 | 优秀 | 大花园 | 地块内，容易实现 |
+| 30–75 | 联排住宅、步行楼梯公寓 | 良好至优秀 | 小花园、阳台 | 路边、小型地下室 |
+| 75–150 | 步行楼梯公寓、中层公寓 | 良好 | 阳台、部分花园 | 裙房或地下室 |
+| 150–250 | 中层及部分高层 | 可变 | 阳台 | 地下室或异地停车 |
+| 250–400 | 高层建筑 | 具有挑战 | 阳台（高处风环境） | 地下室，降低配建比例 |
+| >400 | 超高层、超高密度 | 需精细设计 | 冬季花园、共享配套 | 最少停车或无车模式 |
 
 ---
 
-## 6. Parking Strategies
+## 6. 停车策略
 
-### 6.1 Types
+### 6.1 类型
 
-| Strategy | Spaces/Unit | Area/Space (m2) | Cost/Space (GBP approx.) | Suitable Typology |
+| 策略 | 车位/户 | 每车位面积（m²） | 每车位成本（约 GBP） | 适用类型 |
 |----------|------------|----------------|--------------------------|-------------------|
-| On-Plot (driveway/garage) | 1 - 3 | 15 - 30 | 5,000 - 15,000 | Houses |
-| On-Street | 0.5 - 1.0 | 12 - 15 (per space of street) | Low (public) | Terrace, walk-up |
-| Surface Lot | 0.5 - 1.5 | 25 m2 (incl. aisle) | 3,000 - 8,000 | Suburban apartments |
-| Podium (above ground) | 0.5 - 1.0 | 28 - 32 | 20,000 - 35,000 | Mid-rise, high-rise |
-| Basement (1 level) | 0.5 - 1.0 | 28 - 35 | 35,000 - 55,000 | Mid-rise, high-rise |
-| Basement (2+ levels) | 0.5 - 1.5 | 30 - 38 | 45,000 - 70,000 per space | High-rise, luxury |
-| Decoupled (off-site) | 0 - 0.5 | N/A (remote garage) | Variable | Urban car-free schemes |
-| Mechanical Stacker | 0.5 - 1.0 | 12 - 18 | 25,000 - 40,000 | Constrained sites |
-| Car-Free | 0 (+ disabled) | 0 | 0 | High PTAL locations |
+| 地块内（车道/车库） | 1–3 | 15–30 | 5,000–15,000 | 住宅 |
+| 路边 | 0.5–1.0 | 12–15（按街道车位） | 低（公共设施） | 联排住宅、步行楼梯公寓 |
+| 地面停车场 | 0.5–1.5 | 25（含车道） | 3,000–8,000 | 郊区公寓 |
+| 裙房（地上） | 0.5–1.0 | 28–32 | 20,000–35,000 | 中层、高层 |
+| 地下室（1 层） | 0.5–1.0 | 28–35 | 35,000–55,000 | 中层、高层 |
+| 地下室（2 层以上） | 0.5–1.5 | 30–38 | 每车位 45,000–70,000 | 高层、豪宅 |
+| 异地分离 | 0–0.5 | 不适用（远程车库） | 可变 | 城市无车方案 |
+| 机械立体车库 | 0.5–1.0 | 12–18 | 25,000–40,000 | 受限场地 |
+| 无车 | 0（残障车位除外） | 0 | 0 | 高 PTAL 地区 |
 
-### 6.2 Parking Dimensional Standards
+### 6.2 停车尺寸标准
 
-| Element | Dimension | Source |
+| 要素 | 尺寸 | 来源 |
 |---------|-----------|--------|
-| Standard Bay | 2.4m x 4.8m (min); 2.5m x 5.0m (preferred) | BS 8300 / local standards |
-| Accessible Bay | 3.6m x 4.8m (min); 3.6m x 6.0m (preferred) | Part M / ADA |
-| Aisle Width (90-degree parking) | 6.0m (two-way); 7.0m (with angled bays) | Local standards |
-| Headroom | 2.1m min (2.3m for accessible); 2.6m for SUV/van | Practice |
-| Ramp Width | 3.5m (one-way); 6.0m (two-way) | Practice |
-| Ramp Gradient | 1:10 max (10%); 1:20 at transitions | BS 8300 |
-| EV Charging | 20% active + 80% passive provision (UK) | Building Regs Part S |
-| Cycle Parking | Sheffield stand: 1.8m x 0.75m per 2 bikes; two-tier: 1.8m x 0.5m per bike | London Cycling Design Standards |
+| 标准车位 | 最小 2.4 m × 4.8 m；建议 2.5 m × 5.0 m | BS 8300 / 地方标准 |
+| 无障碍车位 | 最小 3.6 m × 4.8 m；建议 3.6 m × 6.0 m | Part M / ADA |
+| 车道宽度（90°停车） | 双向 6.0 m；带斜列车位 7.0 m | 地方标准 |
+| 净高 | 最小 2.1 m（无障碍 2.3 m）；SUV/厢式车 2.6 m | 实务 |
+| 坡道宽度 | 单向 3.5 m；双向 6.0 m | 实务 |
+| 坡道坡度 | 最大 1:10（10%）；过渡处 1:20 | BS 8300 |
+| 电动车充电 | 20%主动 + 80%预留（英国） | Building Regs Part S |
+| 自行车停车 | Sheffield 架：每 2 辆 1.8 m × 0.75 m；双层架：每辆 1.8 m × 0.5 m | London Cycling Design Standards |
 
-### 6.3 Podium Parking Design
+### 6.3 裙房停车设计
 
-| Parameter | Standard |
+| 参数 | 标准 |
 |-----------|---------|
-| Structural Grid | 7.2m x 7.2m or 7.5m x 15.0m (compatible with residential above) |
-| Typical Levels | 1 - 3 above ground (wrapped with active uses at street level) |
-| Ventilation | Natural: 5% of floor area as permanent openings; Mechanical: 6 ACH normal, 10 ACH fire |
-| Fire Suppression | Sprinklers typically required for enclosed parking > 200 m2 |
-| Screening | Podium parking facades treated architecturally: mesh, planting, active frontage wrapping |
-| Amenity Deck | Podium roof as residential garden/amenity (waterproofing, loading, access) |
+| 结构网格 | 7.2 m × 7.2 m 或 7.5 m × 15.0 m（与上部住宅兼容） |
+| 典型层数 | 地上 1–3 层（首层用活跃功能包裹） |
+| 通风 | 自然通风：永久开口面积为楼面面积 5%；机械通风：正常 6 ACH，火灾 10 ACH |
+| 灭火系统 | 封闭式停车面积 >200 m² 通常需设置喷淋 |
+| 遮蔽处理 | 裙房停车立面采用建筑化处理：网格、种植、活跃沿街界面 |
+| 配套平台 | 裙房屋顶作为住宅花园/配套平台（防水、荷载、通行） |
 
 ---
 
-## 7. Exemplar Residential Projects
+## 7. 住宅代表性项目
 
-### 7.1 Houses and Low-Rise
+### 7.1 住宅与低层建筑
 
-| Project | Architect | Year | Location | Key Data | Significance |
+| 项目 | 建筑师 | 年份 | 地点 | 关键数据 | 意义 |
 |---------|-----------|------|----------|----------|--------------|
-| Farnsworth House | Mies van der Rohe | 1951 | Plano, Illinois | 140 m2, steel frame, glass | Universal space; architecture reduced to structure + skin |
-| Eames House (Case Study #8) | Charles & Ray Eames | 1949 | Pacific Palisades, CA | 130 m2 + 60 m2 studio, steel frame, prefab | Industrial materials as domestic architecture |
-| Koshino House | Tadao Ando | 1984 | Ashiya, Japan | 260 m2, in-situ concrete, double-height | Light as primary material; concrete as craft |
-| Villa Savoye | Le Corbusier | 1931 | Poissy, France | 365 m2, pilotis, roof garden, ramp | Five Points of New Architecture manifest |
-| Goldsmith Street | Mikhail Riches | 2019 | Norwich, UK | 105 dwellings, Passivhaus, terrace | Stirling Prize; proof that social housing + sustainability + beauty coexist |
-| Borneo Sporenburg | Various (West 8 masterplan) | 2000 | Amsterdam | 2,500 units, 5.1m wide terraces, 100 DU/ha | Narrow-frontage, high-density, low-rise innovation |
-| Accordia | FCB/ML/Alison Brooks | 2008 | Cambridge, UK | 378 homes, 47 DU/ha, mixed types | Stirling Prize; masterclass in medium-density mixed typology |
+| Farnsworth House | Mies van der Rohe | 1951 | 伊利诺伊州普莱诺 | 140 m²，钢框架，玻璃 | 通用空间；将建筑简化为结构与表皮 |
+| Eames House（Case Study #8） | Charles & Ray Eames | 1949 | 加州 Pacific Palisades | 130 m² + 60 m² 工作室，钢框架，预制 | 将工业材料用于住宅建筑 |
+| Koshino House | Tadao Ando | 1984 | 日本芦屋 | 260 m²，现浇混凝土，双层高 | 光作为主要材料；混凝土作为工艺 |
+| Villa Savoye | Le Corbusier | 1931 | 法国 Poissy | 365 m²，底层架空柱、屋顶花园、坡道 | 新建筑五点的宣言式表达 |
+| Goldsmith Street | Mikhail Riches | 2019 | 英国诺里奇 | 105 户，Passivhaus，联排 | Stirling Prize；证明社会住宅、可持续性与美感可以共存 |
+| Borneo Sporenburg | 多位建筑师（West 8 总体规划） | 2000 | 阿姆斯特丹 | 2,500 户，联排宽 5.1 m，100 DU/ha | 窄面宽、高密度、低层创新 |
+| Accordia | FCB/ML/Alison Brooks | 2008 | 英国剑桥 | 378 户，47 DU/ha，混合类型 | Stirling Prize；中密度混合类型的典范 |
 
-### 7.2 Walk-Up and Mid-Rise (3-12 Storeys)
+### 7.2 步行楼梯与中层建筑（3–12 层）
 
-| Project | Architect | Year | Location | Key Data | Significance |
+| 项目 | 建筑师 | 年份 | 地点 | 关键数据 | 意义 |
 |---------|-----------|------|----------|----------|--------------|
-| Ely Court | Alison Brooks Architects | 2015 | London | 44 units, brick, stair-access, dual-aspect | Exemplary walk-up; RIBA National Award |
-| 85 Falkner Street | shedkm | 2018 | Liverpool | 32 units, CLT structure, Passivhaus | First CLT Passivhaus apartment building in UK |
-| Silodam | MVRDV | 2003 | Amsterdam | 157 units, harbour, mixed tenure | Mini-city: each cluster has distinct character |
+| Ely Court | Alison Brooks Architects | 2015 | 伦敦 | 44 套，砖砌、楼梯直达、双朝向 | 优秀步行楼梯住宅；RIBA 国家奖 |
+| 85 Falkner Street | shedkm | 2018 | 利物浦 | 32 套，CLT 结构，被动房 | 英国首座 CLT 被动房公寓建筑 |
+| Silodam | MVRDV | 2003 | 阿姆斯特丹 | 157 套，港区、混合产权 | 微型城市：每个组团具有独特特征 |
 | Via Verde | Grimshaw + Dattner | 2012 | Bronx, NY | 222 units, affordable, green roofs, duplex | AIA Honor Award; proof that affordable housing can be innovative |
 | One Folgate Street | Alison Brooks Architects | 2018 | London | 80 units, 8 storeys, brick, mixed tenure | Dual-aspect prioritised; generous proportions |
 | The Interlace | OMA/Ole Scheeren | 2013 | Singapore | 1,040 units, 31 blocks stacked at angles | WAF World Building of Year 2015; horizontal density |
 | 79&Park | BIG | 2018 | Stockholm | 169 units, 8 storeys, stepped cedar-clad | Pixelated terraces; park views; hybrid structure |
 
-### 7.3 High-Rise (13+ Storeys)
+### 7.3 高层建筑（13 层以上）
 
-| Project | Architect | Year | Location | Key Data | Significance |
+| 项目 | 建筑师 | 年份 | 地点 | 关键数据 | 意义 |
 |---------|-----------|------|----------|----------|--------------|
 | Unité d'Habitation | Le Corbusier | 1952 | Marseille | 337 units, 18 storeys, skip-stop corridor, pilotis | Prototype for the residential slab block; internal street |
 | Barbican Estate | Chamberlin Powell & Bon | 1969-76 | London | 2,014 units, 3 towers (42 storeys), maisonettes + terrace | Brutalist megastructure; Grade II listed; beloved by residents |
@@ -325,103 +325,103 @@ The London Plan and borough local plans often mandate unit mix to meet identifie
 | Habitat 67 | Moshe Safdie | 1967 | Montreal | 158 units, 354 prefab concrete boxes, 12 storeys | Each unit has roof garden; no two units alike; megastructure |
 | Sky Habitat | Moshe Safdie | 2015 | Singapore | 509 units, 2 towers (38 storeys), sky bridges | Evolution of Habitat 67 concept; sky gardens every 6 floors |
 
-### 7.4 Courtyard and Co-Housing
+### 7.4 庭院住宅与共享居住
 
-| Project | Architect | Year | Location | Key Data | Significance |
+| 项目 | 建筑师 | 年份 | 地点 | 关键数据 | 意义 |
 |---------|-----------|------|----------|----------|--------------|
-| Marmalade Lane | Mole Architects | 2019 | Cambridge, UK | 42 homes, co-housing, common house, car-free street | UK's most acclaimed co-housing project |
-| Sargfabrik | BKK-3 | 1996 | Vienna | 73 units, communal bath, rooftop, cultural space | Adaptive reuse of coffin factory; radical communal living |
+| Marmalade Lane | Mole Architects | 2019 | 英国剑桥 | 42 户，共享住宅、公共住宅、无车街道 | 英国最受认可的共享住宅项目之一 |
+| Sargfabrik | BKK-3 | 1996 | 维也纳 | 73 套，公共浴室、屋顶、文化空间 | 棺材工厂适应性再利用；激进的共同生活模式 |
 | R50 Baugruppe | ifau + Jesko Fezer | 2013 | Berlin | 19 units, co-housing, exposed concrete, communal roof | Baugruppe (building group) model; cost-efficient collective |
 | Jystrup Savvaerket | Vandkunsten | 1984 | Denmark | 21 homes, co-housing, timber, shared garden | Influential early co-housing; communal dining |
 | Lilac | White Design | 2013 | Leeds, UK | 20 homes, mutual home ownership, straw bale | Affordable by design; community land trust model |
 
 ---
 
-## 8. London Housing Design Guide and NDSS Compliance
+## 8. 伦敦住宅设计指南与 NDSS 合规
 
-### 8.1 Key NDSS Requirements Summary
+### 8.1 NDSS 关键要求摘要
 
-| Requirement | Standard | Measurement |
+| 要求 | 标准 | 测量方式 |
 |------------|----------|-------------|
-| Min GIA per unit | See NDSS Table 1 (Section 1 above) | Measured to inner face of external walls |
-| Single bedroom | 7.5 m2 min, 2.15m min width | Excludes built-in storage |
-| Double bedroom | 11.5 m2 min, 2.75m min width | Must accommodate 1500mm wide bed |
-| Built-in storage | 1.0 m2 (1p) to 3.5 m2 (6p+) | Dedicated, with door, usable shelving |
-| Floor-to-ceiling | 2.3m min for at least 75% of GIA | Sloping ceilings: count area above 1.5m |
+| 每户最小 GIA | 见 NDSS 表 1（上文第 1 节） | 测量至外墙内表面 |
+| 单人卧室 | 最小 7.5 m²，最小宽度 2.15 m | 不包括内置储藏 |
+| 双人卧室 | 最小 11.5 m²，最小宽度 2.75 m | 必须容纳宽 1,500 mm 的床 |
+| 内置储藏 | 1 人户 1.0 m² 至 6 人以上户 3.5 m² | 独立设置，带门和可用搁板 |
+| 楼地面至顶棚 | 至少 75% GIA 的高度不小于 2.3 m | 斜顶：只计高度超过 1.5 m 的面积 |
 
-### 8.2 London Plan / Housing SPG Additional Standards
+### 8.2 伦敦规划 / 住宅 SPG 附加标准
 
-| Requirement | Standard | Notes |
+| 要求 | 标准 | 说明 |
 |------------|----------|-------|
-| Private outdoor space | Min 5 m2 for 1-2p, +1 m2 per additional person | Balcony, terrace, or garden; min 1.5m depth |
-| Communal amenity | Provide where private is not possible | Rooftop, courtyard, play space |
-| Dual-aspect | Maximise; avoid north-facing single-aspect | Single-aspect north-facing = not acceptable |
-| Floor-to-ceiling (ground) | 2.5m min | Higher standard than upper floors |
-| Floor-to-ceiling (upper) | 2.5m min (London HDG exceeds NDSS) | NDSS says 2.3m; London requires 2.5m |
-| Daylight | BRE guidelines compliance | ADF and sunlight hours |
-| Overheating | CIBSE TM59 assessment | Risk assessment required for all new dwellings |
-| Wheelchair units | 10% of all new dwellings M4(3) adaptable | Remaining 90% must be M4(2) accessible |
-| Cycle storage | 1 per studio/1b, 2 per 2b+, accessible, secure | Long-stay; plus short-stay visitor |
-| Refuse | Per local authority; on-street collection or internal store | Max 30m carry distance for residents |
-| Entrance and shared circulation | Generous, well-lit, postal delivery, buggy storage | Lobby min 1.5m wide; corridors 1.2m min |
-| Deck access / corridor max | 8 units per core per floor | London Plan Housing SPG |
-| Corridor length | Max 12m from core to furthest unit entrance | Fire safety and quality |
+| 私人室外空间 | 1–2 人户最小 5 m²，每增加 1 人加 1 m² | 阳台、露台或花园；最小进深 1.5 m |
+| 共享配套 | 无法提供私人空间时设置 | 屋顶、庭院、游戏空间 |
+| 双面采光 | 尽量增加；避免朝北单面采光 | 朝北单面采光不可接受 |
+| 楼地面至顶棚（首层） | 最小 2.5 m | 高于上部楼层标准 |
+| 楼地面至顶棚（上部楼层） | 最小 2.5 m（伦敦 HDG 高于 NDSS） | NDSS 为 2.3 m，伦敦要求 2.5 m |
+| 采光 | 符合 BRE 指南 | ADF 和日照时数 |
+| 过热 | CIBSE TM59 评估 | 所有新住宅必须进行风险评估 |
+| 轮椅住宅单元 | 新住宅的 10% 按 M4(3) 可适应设计 | 其余 90% 必须满足 M4(2) 无障碍 |
+| 自行车储藏 | 单间/一居每户 1 个，两居以上每户 2 个；应可达且安全 | 长时停放，另设短时访客位 |
+| 垃圾 | 按地方政府要求；路边收集或内部储藏 | 居民搬运距离最大 30 m |
+| 入口与共享交通 | 宽敞、照明良好，考虑邮件投递和婴儿车储藏 | 大堂最小宽 1.5 m；走道最小 1.2 m |
+| 外廊入户/走道最大户数 | 每核心每层 8 户 | 伦敦住宅规划 SPG |
+| 走道长度 | 核心至最远住宅入口最大 12 m | 消防安全与居住品质 |
 
-### 8.3 Designing to NDSS: Common Pitfalls
+### 8.3 按 NDSS 设计：常见问题
 
-| Pitfall | Impact | Resolution |
+| 问题 | 影响 | 解决方案 |
 |---------|--------|------------|
-| Storage undersized | Fails NDSS storage requirement | Dedicate storage cupboards early; include in NIA |
-| Bedroom below minimum | Fails room size test | Double: 11.5 m2 min is hard in narrow-frontage designs |
-| GIA measured incorrectly | May appear compliant but actually fails | RICS Code of Measuring Practice; include internal walls, exclude balconies |
-| Ceiling height < 2.3m | Fails NDSS | Particularly in top-floor units with services routing under roof |
-| Balcony < 1.5m depth | Fails London Plan | Unusable below 1.5m depth; 1.8m+ preferred |
-| Single-aspect north-facing | Not acceptable per London Plan | Re-plan to avoid; orient building to eliminate |
-| No wheelchair units | Fails 10% M4(3) requirement | Design from start; retrofit is expensive and compromised |
-| Corridor > 12m from core | Fails London quality standard | Limit units per core; add second core or reconfigure |
+| 储藏空间过小 | 不满足 NDSS 储藏要求 | 尽早设置储藏柜，并计入 NIA |
+| 卧室小于最小值 | 房间面积测试不合格 | 双人卧室最小 11.5 m²，窄面宽设计尤其困难 |
+| GIA 测量错误 | 可能表面合规但实际不合格 | 按 RICS 测量实务规范；计入内墙，排除阳台 |
+| 高度 <2.3 m | 不满足 NDSS | 顶层设备在屋面下布置时尤其容易出现 |
+| 阳台进深 <1.5 m | 不满足伦敦规划 | 小于 1.5 m 不可用；建议 1.8 m 以上 |
+| 朝北单面采光 | 伦敦规划不可接受 | 重新规划并调整建筑朝向 |
+| 没有轮椅住宅 | 不满足 10% M4(3) 要求 | 从设计初期考虑；改造成本高且效果受限 |
+| 核心至最远入口走道 >12 m | 不满足伦敦居住品质标准 | 限制每核心户数；增加第二核心或重新配置 |
 
 ### 8.4 Lifetime Homes / Part M Category 2
 
-All new dwellings in England must meet Part M Category 2 (accessible and adaptable) as a minimum. Key spatial implications:
+英格兰所有新住宅至少必须满足 Part M Category 2（可达且可适应）。主要空间要求如下：
 
-| Feature | Requirement |
+| 特征 | 要求 |
 |---------|------------|
-| Level approach | Gradient < 1:15 from parking/drop-off to entrance |
-| Entrance door | 850mm clear opening |
-| Hallway | 1050mm wide (900mm min at pinch point) |
-| Internal doors | 775mm clear opening |
-| WC at entry level | Must be provided in units with 2+ storeys |
-| Bedroom at entry level | At least one bedroom (or space adaptable to bedroom) at entry level |
-| Turning circle | 1500mm in kitchen, dining, living, 1 bedroom, 1 bathroom |
-| Bathroom | Bath or level-access shower; future grab rail zones reinforced |
+| 无障碍水平入口 | 从停车/落客处至入口坡度 <1:15 |
+| 入口门 | 净开口 850 mm |
+| 走廊 | 宽 1,050 mm（局部瓶颈处最小 900 mm） |
+| 室内门 | 净开口 775 mm |
+| 入口层卫生间 | 2 层以上住宅必须设置 |
+| 入口层卧室 | 入口层至少设 1 间卧室（或可改造为卧室的空间） |
+| 转身圆 | 厨房、餐厅、起居室、1 间卧室和 1 间卫生间内均为 1,500 mm |
+| 卫生间 | 浴缸或无高差淋浴；预先加强未来扶手区域 |
 
 ---
 
-## 9. Residential Structural Systems
+## 9. 住宅结构体系
 
-### 9.1 By Typology
+### 9.1 按类型划分
 
-| Typology | Primary System | Grid / Span | Floor System | Notes |
+| 类型 | 主体体系 | 网格/跨度 | 楼板体系 | 说明 |
 |----------|---------------|-------------|-------------|-------|
-| Detached House | Timber frame or masonry | Variable | Timber joists, 200-300mm | Lightest, fastest |
-| Terrace | Load-bearing party walls | 4.5-7.0m spans | Timber joists or precast plank | Party wall = fire + acoustic separation |
-| Walk-Up (3-5 storeys) | Load-bearing masonry or CLT | 5-7m spans | RC slab or CLT panels | CLT increasingly popular for speed and carbon |
-| Mid-Rise (6-12 storeys) | RC flat slab + shear walls | 6m x 7.5m typical | 200-250mm PT flat slab | Shear walls = party walls (dual function) |
-| High-Rise (13-25 storeys) | RC core + flat slab | 6m x 7.5m to 8m x 8m | 225-300mm PT flat slab | Core provides lateral stability |
-| High-Rise (25+ storeys) | RC core + outriggers or tube | Various | PT flat slab or composite | Wind governs; outriggers at plant floors |
+| 独立住宅 | 木框架或砌体 | 可变 | 木搁栅，200–300 mm | 最轻、最快 |
+| 联排住宅 | 承重分户墙 | 跨度 4.5–7.0 m | 木搁栅或预制板 | 分户墙兼作防火与隔声分隔 |
+| 步行楼梯公寓（3–5 层） | 承重砌体或 CLT | 跨度 5–7 m | 钢筋混凝土楼板或 CLT 板 | CLT 因施工速度和碳排放优势日益普及 |
+| 中层（6–12 层） | 钢筋混凝土无梁楼板 + 剪力墙 | 典型 6 m × 7.5 m | 200–250 mm 后张无梁楼板 | 剪力墙兼作分户墙，双重功能 |
+| 高层（13–25 层） | 钢筋混凝土核心筒 + 无梁楼板 | 6 m × 7.5 m 至 8 m × 8 m | 225–300 mm 后张无梁楼板 | 核心筒提供侧向稳定 |
+| 高层（25 层以上） | 钢筋混凝土核心筒 + 伸臂桁架或筒体 | 可变 | 后张无梁楼板或组合结构 | 风荷载控制；设备层设置伸臂桁架 |
 
-### 9.2 CLT (Cross-Laminated Timber) for Residential
+### 9.2 住宅 CLT（交叉层压木）
 
-| Parameter | Value |
+| 参数 | 数值 |
 |-----------|-------|
-| Max practical height | 10 - 12 storeys (Mjostornet, Norway: 18 storeys, 85.4m) |
-| Panel thickness | 100 - 300mm (walls); 140 - 300mm (floors) |
-| Span | 4 - 7m (floors without secondary beams) |
-| Fire performance | Charring rate 0.65mm/min; 60-90 min fire resistance achievable |
-| Acoustic | Requires additional mass or resilient layers for Part E compliance |
-| Carbon | 40-60% lower embodied carbon vs. RC frame (Structural Timber Association) |
-| Speed | 30-50% faster erection than RC frame |
-| Exemplar | Dalston Works (Waugh Thistleton, 2017, London) -- 121 units, 10 storeys, largest CLT building in world at completion |
+| 实用最大高度 | 10–12 层（挪威 Mjostornet：18 层、85.4 m） |
+| 板厚 | 墙 100–300 mm；楼板 140–300 mm |
+| 跨度 | 4–7 m（楼板无次梁） |
+| 防火性能 | 炭化速率 0.65 mm/min；可实现 60–90 分钟耐火 |
+| 声学 | 需要增加质量或设置弹性层，以满足 Part E |
+| 碳排放 | 相较钢筋混凝土框架隐含碳降低 40–60%（Structural Timber Association） |
+| 施工速度 | 比钢筋混凝土框架快 30–50% |
+| 代表项目 | Dalston Works（Waugh Thistleton，2017，伦敦）——121 户、10 层，建成时全球最大的 CLT 建筑 |
 
 ---
 

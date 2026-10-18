@@ -1,465 +1,462 @@
 ---
 name: acoustic-design
 description: >
-  Acoustic design for buildings: sound insulation between spaces (airborne and
-  impact), room acoustics and reverberation control, environmental noise
-  intrusion, noise and vibration from building services, and acoustic design
-  strategies for residential, commercial, educational, healthcare, performance,
-  and worship building types.
+  建筑声学设计：空间之间的隔声（空气声和撞击声）、室内声学与混响控制、环境噪声侵入、
+  建筑设备噪声与振动，以及住宅、商业、教育、医疗、演出和宗教建筑类型的声学设计策略。
 ---
 
-# Acoustic Design
+# 建筑声学设计
 
-## Section 1: Acoustic Fundamentals for Architects
+## 第 1 节：建筑师应掌握的声学基础
 
-Sound is mechanical energy propagated as pressure waves through air, solids, and liquids. Architectural acoustics splits into two complementary domains: **sound insulation** (preventing unwanted sound transmission between spaces) and **room acoustics** (controlling how sound behaves within a space). Every building design decision — from structural material to partition detailing to room volume — has acoustic consequences.
+声音是以压力波形式在空气、固体和液体中传播的机械能。建筑声学分为两个相互补充的领域：**隔声**（防止不需要的声音在空间之间传递）和**室内声学**（控制声音在空间内的行为）。从结构材料、隔墙节点到房间体积，每一项建筑设计决策都会产生声学后果。
 
-### 1.1 Sound Transmission Modes
+### 1.1 声音传递方式
 
-**Airborne sound** originates in the air and strikes a building element (wall, floor, facade), causing it to vibrate and re-radiate sound on the other side. Sources include speech, music, television, traffic noise, and mechanical plant. The transmission follows a source-path-receiver model: sound pressure at the source excites the separating element, energy is transmitted through the element (and around it via flanking paths), and the receiver perceives the residual sound.
+**空气声**产生于空气中并撞击建筑构件（墙体、楼板、立面），使其振动后在另一侧再次辐射声音。声源包括讲话、音乐、电视、交通噪声和机械设备。其传递遵循声源—路径—接收者模型：声源处声压激发分隔构件，能量经构件传递（并通过侧向传声路径绕行），接收者感知到残余声音。
 
-**Impact / structure-borne sound** originates from direct mechanical excitation of a building element — footsteps on a floor, a door slamming, a pipe vibrating against a wall. The impact creates vibrational waves that travel through the structure, often far from the point of origin, and radiate as airborne sound into receiving rooms. Structure-borne sound is particularly difficult to control because rigid structural connections act as efficient transmission paths. Footfall on an upper floor can be clearly audible two storeys below if the structure is continuous concrete without isolation.
+**撞击声／固体传声**源于对建筑构件的直接机械激励，例如楼板脚步声、摔门声或管道撞墙振动。撞击形成的振动波会沿结构传播，常常远离起点，并以空气声形式辐射至接收房间。固体传声尤难控制，因为刚性结构连接是高效的传递路径；若连续混凝土结构未作隔振，上层的脚步声在下两层仍可能清晰可闻。
 
-**Flanking transmission** is indirect sound transmission via paths other than the direct separating element. A high-performance party wall is worthless if sound bypasses it through a continuous floor slab, a shared window reveal, a back-to-back electrical socket, or a common ceiling void. In lightweight construction (steel frame, timber frame), flanking paths routinely limit achieved performance to 5–10 dB below the laboratory rating of the separating element.
+**侧向传声**是经直接分隔构件以外路径发生的间接声音传递。若声音通过连续楼板、共用窗洞口、背靠背电气插座或连通吊顶空腔绕过墙体，再高性能的分户墙也会失效。在轻型结构（钢框架、木框架）中，侧向传声常使实测性能比构件的实验室评级低 5–10 dB。
 
-### 1.2 Key Acoustic Metrics
+### 1.2 关键声学指标
 
-**Sound Transmission Class (STC)** — Single-number rating of airborne sound insulation, derived from laboratory measurements per ASTM E90. Used in North America. The reference contour is fitted to 1/3-octave transmission loss data from 125 to 4000 Hz. Higher is better. An STC 50 wall reduces conversational speech to inaudibility for most listeners; STC 60 renders loud speech inaudible.
+**隔声等级（STC）**——根据 ASTM E90 实验室测试得出的空气声隔声单值评级，用于北美。参考曲线与 125 至 4000 Hz 的 1/3 倍频程传声损失数据拟合；数值越高越好。STC 50 的墙可使大多数听者听不清正常交谈，STC 60 可使大声说话听不见。
 
-**Weighted Sound Reduction Index (Rw)** — ISO equivalent of STC, derived from laboratory measurements per ISO 10140. Used in Europe, UK, Australasia, and most international standards. The single-number value is determined by fitting a reference curve to 1/3-octave data per ISO 717-1. Rw and STC are not identical but are typically within 1–2 dB for broadband sources. Spectrum adaptation terms Ctr (for traffic/low-frequency noise) and C (for pink noise) adjust Rw for specific source spectra.
+**计权隔声量（Rw）**——STC 的 ISO 对应指标，依据 ISO 10140 实验室测试得出，适用于欧洲、英国、澳大拉西亚和多数国际标准。该单值通过 ISO 717-1 的参考曲线与 1/3 倍频程数据拟合确定。Rw 与 STC 并不相同，但对宽带声源通常相差 1–2 dB。频谱修正项 Ctr（交通／低频噪声）和 C（粉红噪声）用于按特定声源频谱修正 Rw。
 
-**Impact Insulation Class (IIC)** — Single-number rating of impact sound insulation for floors, measured per ASTM E492 using a standard tapping machine. Higher is better. An IIC 50 floor with a standard tapping machine produces moderate audibility of footsteps in the room below.
+**撞击声隔声等级（IIC）**——楼板撞击声隔声的单值评级，按 ASTM E492 使用标准撞击器测试；数值越高越好。IIC 50 的楼板在标准撞击器测试下，会使下层房间中脚步声处于中等可闻程度。
 
-**Weighted Normalized Impact Sound Pressure Level (Ln,w)** — ISO equivalent of IIC, per ISO 10140-3 and ISO 717-2. Unlike IIC, lower Ln,w is better (it measures sound level received below the floor). Approximate relationship: IIC ≈ 110 - Ln,w.
+**计权标准化撞击声压级（Ln,w）**——按 ISO 10140-3 和 ISO 717-2 定义的 IIC 对应 ISO 指标。不同于 IIC，Ln,w 越低越好（其测量楼板下方接收的声级）。近似关系为：IIC ≈ 110 - Ln,w。
 
-**Noise Reduction Coefficient (NRC)** — Arithmetic average of absorption coefficients at 250, 500, 1000, and 2000 Hz. Used to rate the absorptive performance of surface materials. NRC 0.00 = perfectly reflective; NRC 1.00 = perfectly absorptive (in practice, values above 1.0 occur due to edge diffraction in test specimens).
+**降噪系数（NRC）**——250、500、1000 和 2000 Hz 吸声系数的算术平均值，用于评价表面材料的吸声性能。NRC 0.00 = 完全反射；NRC 1.00 = 完全吸声（实际测试中，试件边缘绕射可导致数值大于 1.0）。
 
-**Reverberation Time (RT60 or T60)** — Time in seconds for sound to decay by 60 dB after the source stops. The fundamental descriptor of a room's acoustic character. Measured per ISO 3382-1 (performance spaces) or ISO 3382-2 (ordinary rooms). Typically reported as a mid-frequency average (500/1000 Hz). Longer RT60 = more reverberant, more enveloping, less speech clarity.
+**混响时间（RT60 或 T60）**——声源停止后声音衰减 60 dB 所需的秒数，是描述房间声学特性的基本指标。按 ISO 3382-1（演出空间）或 ISO 3382-2（普通房间）测量，通常报告中频平均值（500/1000 Hz）。RT60 越长，混响越强、包围感越强、言语清晰度越低。
 
-**Speech Transmission Index (STI)** — Measure of speech intelligibility from 0 (unintelligible) to 1 (perfect). Accounts for reverberation and background noise. Targets: STI ≥ 0.60 for classrooms (good), ≥ 0.50 for open-plan offices (fair), ≥ 0.50 for PA systems in transport hubs.
+**语言传输指数（STI）**——衡量言语可懂度的指标，范围从 0（不可懂）至 1（完美），同时考虑混响和背景噪声。目标值：教室 STI ≥ 0.60（良好），开放办公区 ≥ 0.50（尚可），交通枢纽 PA 系统 ≥ 0.50。
 
-**Noise Rating (NR) / Noise Criteria (NC)** — Single-number rating curves for steady-state background noise from mechanical services. NR is ISO-based; NC is ASHRAE-based. The curve is tangent to the octave-band spectrum of the measured noise. NR 25 = very quiet (recording studio, bedroom); NR 40 = moderately noisy (retail, circulation). NC curves are approximately 5 dB lower than equivalent NR curves at mid-frequencies.
+**噪声评价数（NR）／噪声标准（NC）**——用于机械设备稳态背景噪声的单值评级曲线。NR 以 ISO 为基础；NC 以 ASHRAE 为基础。该曲线与实测噪声的倍频程频谱相切。NR 25 = 非常安静（录音室、卧室）；NR 40 = 中等嘈杂（零售、交通空间）。在中频段，NC 曲线通常比相应 NR 曲线低约 5 dB。
 
-### 1.3 Frequency Weighting
+### 1.3 频率计权
 
-**A-weighting (dBA or LAeq)** — Approximates human ear sensitivity. Attenuates low frequencies (−26 dB at 63 Hz, −16 dB at 125 Hz) and high frequencies (−1 dB at 4 kHz, −7 dB at 8 kHz) relative to 1 kHz. Standard weighting for environmental noise, building regulation compliance, and workplace noise assessment.
+**A 计权（dBA 或 LAeq）**——近似反映人耳灵敏度。相对于 1 kHz，衰减低频（63 Hz 时 −26 dB、125 Hz 时 −16 dB）和高频（4 kHz 时 −1 dB、8 kHz 时 −7 dB）。是环境噪声、建筑法规符合性及工作场所噪声评估的标准计权方式。
 
-**C-weighting (dBC or LCeq)** — Relatively flat across the audible spectrum. Used for assessing low-frequency noise (bass music, mechanical plant rumble, transformer hum). A large difference between LAeq and LCeq (>15 dB) indicates significant low-frequency content that A-weighting underestimates.
+**C 计权（dBC 或 LCeq）**——在可听频谱内相对平坦。用于评估低频噪声（低音音乐、设备低沉轰鸣、变压器嗡声）。LAeq 与 LCeq 差值较大（>15 dB）表明存在显著低频成分，A 计权对此会低估。
 
-**Octave and 1/3-octave band analysis** — Full spectral analysis at 63, 125, 250, 500, 1000, 2000, 4000 Hz (octave bands) or finer 1/3-octave resolution. Essential for diagnosing specific frequency problems, designing targeted treatments, and verifying compliance with NR/NC curves.
+**倍频程和 1/3 倍频程分析**——在 63、125、250、500、1000、2000、4000 Hz（倍频程）或更精细的 1/3 倍频程分辨率下开展完整频谱分析。对于诊断特定频率问题、设计针对性处理措施以及验证是否满足 NR／NC 曲线至关重要。
 
 ---
 
-## Section 2: Sound Insulation Between Spaces
+## 第 2 节：空间之间的隔声
 
-### 2.1 Airborne Sound Insulation Targets by Adjacency
+### 2.1 按相邻关系确定的空气声隔声目标
 
-The following targets represent minimum acceptable performance. Good practice exceeds these by 3–5 dB, and premium developments by 8–10 dB.
+以下目标为最低可接受性能。良好做法宜高出 3–5 dB，高端项目宜高出 8–10 dB。
 
-| Adjacency | STC Minimum | Rw Minimum | Standard Reference |
+| 相邻关系 | STC 最低值 | Rw 最低值 | 规范依据 |
 |---|---|---|---|
-| Between dwellings (wall or floor) | 50 | 53 dB (DnT,w+Ctr ≥ 45) | IBC 1207, ADE Part E |
-| Between dwelling and corridor/stair | 50 | 48 dB | IBC 1207, ADE Part E |
-| Between classroom and classroom | 50 | 48 dB | BB93, ANSI S12.60 |
-| Between classroom and corridor | 45 | 43 dB | BB93 |
-| Between office and office (cellular) | 45 | 43 dB | BCO Guide |
-| Between office and boardroom | 50 | 48 dB | BCO Guide |
-| Between hotel room and hotel room | 55 | 53 dB | IBC, BS 8233 |
-| Between hotel room and corridor | 50 | 48 dB | BS 8233 |
-| Between music room and adjacent space | 60+ | 60+ dB | BB93, bespoke |
-| Between cinema auditorium and adjacent | 65+ | 65+ dB | THX, bespoke |
-| Between plant room and occupied space | 55–65 | 55–65 dB | BS 8233, project-specific |
-| Between hospital ward and ward | 50 | 48 dB | HTM 08-01 |
-| Between operating theatre and adjacent | 55 | 53 dB | HTM 08-01 |
+| 住户之间（墙或楼板） | 50 | 53 dB（DnT,w+Ctr ≥ 45） | IBC 1207、ADE Part E |
+| 住户与走廊／楼梯之间 | 50 | 48 dB | IBC 1207、ADE Part E |
+| 教室与教室之间 | 50 | 48 dB | BB93、ANSI S12.60 |
+| 教室与走廊之间 | 45 | 43 dB | BB93 |
+| 办公室与办公室之间（独立办公室） | 45 | 43 dB | BCO Guide |
+| 办公室与会议室之间 | 50 | 48 dB | BCO Guide |
+| 酒店客房与客房之间 | 55 | 53 dB | IBC、BS 8233 |
+| 酒店客房与走廊之间 | 50 | 48 dB | BS 8233 |
+| 音乐室与相邻空间之间 | 60+ | 60+ dB | BB93、专项设计 |
+| 影院观众厅与相邻空间之间 | 65+ | 65+ dB | THX、专项设计 |
+| 设备房与有人使用空间之间 | 55–65 | 55–65 dB | BS 8233、项目专项要求 |
+| 医院病房与病房之间 | 50 | 48 dB | HTM 08-01 |
+| 手术室与相邻空间之间 | 55 | 53 dB | HTM 08-01 |
 
-### 2.2 Impact Sound Insulation
+### 2.2 撞击声隔声
 
-Impact insulation is critical for floors separating dwellings, hotel rooms, and any space where footfall, furniture movement, or dropped objects generate structure-borne noise.
+对于分隔住户、酒店客房以及任何会因脚步、家具移动或物体坠落产生固体传声的空间，撞击声隔声至关重要。
 
-**Minimum targets:**
-- Between dwellings: IIC 50 / Ln,w ≤ 53 dB (IBC, ADE Part E: L'nT,w ≤ 62 dB)
-- Between hotel rooms: IIC 55 / Ln,w ≤ 48 dB
-- Above recording studio or concert hall: IIC 65+ / Ln,w ≤ 40 dB
+**最低目标：**
+- 住户之间：IIC 50 ／ Ln,w ≤ 53 dB（IBC、ADE Part E：L'nT,w ≤ 62 dB）。
+- 酒店客房之间：IIC 55 ／ Ln,w ≤ 48 dB。
+- 录音室或音乐厅上方：IIC 65+ ／ Ln,w ≤ 40 dB。
 
-**The standard tapping machine** (ISO 10140-3 / ASTM E492) is a 5-hammer device dropping steel cylinders from 40 mm height at 10 impacts per second. It represents hard-heeled footsteps but underestimates the low-frequency thud of bare-foot walking or children running. Some standards supplement with a heavy/soft impact source (rubber ball drop per ISO 10140-5) to capture low-frequency impact.
+**标准撞击器**（ISO 10140-3 ／ ASTM E492）为五锤装置，每秒 10 次从 40 mm 高度落下钢制圆柱。它模拟硬底鞋脚步声，但会低估赤脚步行或儿童跑动的低频闷响。部分标准增设重／软撞击源（按 ISO 10140-5 的橡胶球跌落）以捕捉低频撞击声。
 
-### 2.3 The Mass Law and Beyond
+### 2.3 质量定律及其延伸
 
-**Mass law:** For a single-leaf partition, sound reduction index increases by approximately 6 dB per doubling of surface mass (kg/m²) and 6 dB per doubling of frequency. A 100 mm dense concrete wall (~240 kg/m²) achieves approximately Rw 50 dB. Doubling to 200 mm (~480 kg/m²) yields approximately Rw 56 dB.
+**质量定律：** 对单层隔墙，面密度（kg/m²）每加倍，隔声量约增加 6 dB；频率每加倍，隔声量亦约增加 6 dB。100 mm 厚密实混凝土墙（约 240 kg/m²）可达到约 Rw 50 dB；厚度增至 200 mm（约 480 kg/m²）后可达到约 Rw 56 dB。
 
-**Mass-air-mass resonance:** Cavity walls (two leaves separated by an air gap) exhibit a resonance frequency where performance drops sharply. The resonance frequency is: f₀ = 60 / √(m₁·m₂·d / (m₁+m₂)) where m₁, m₂ are surface masses (kg/m²) and d is cavity width (m). Below resonance, performance is worse than equivalent single-leaf mass. Above resonance, performance improves at 12 dB/octave (vs 6 dB/octave for single-leaf). Design strategy: keep resonance below 80 Hz by using wide cavities (≥75 mm) and sufficient leaf mass.
+**质量—空气—质量共振：** 空腔墙（两层墙体以空气层分隔）存在性能骤降的共振频率。共振频率为：f₀ = 60 / √(m₁·m₂·d / (m₁+m₂))，其中 m₁、m₂ 为面密度（kg/m²），d 为空腔宽度（m）。低于共振频率时，性能低于同等质量的单层墙；高于共振频率时，性能按 12 dB／倍频程提升（单层墙为 6 dB／倍频程）。设计策略是采用较宽空腔（≥75 mm）及足够的墙板质量，使共振频率低于 80 Hz。
 
-**Cavity absorption:** Mineral wool in the cavity (full or partial fill) damps the cavity resonance and improves performance by 5–10 dB at and above resonance. Minimum 50 mm, 25–60 kg/m³ density mineral wool is standard.
+**空腔吸声：** 在空腔内满填或部分填充矿棉可抑制空腔共振，并在共振频率及以上提高 5–10 dB 的性能。常规配置为厚度至少 50 mm、密度 25–60 kg/m³ 的矿棉。
 
-### 2.4 Construction Solutions for Airborne Insulation
+### 2.4 空气声隔声构造方案
 
-**Masonry/concrete cavity walls** — Two leaves of blockwork or concrete with a 50–100 mm cavity fully filled with mineral wool, no rigid ties. Achieves Rw 55–65 dB depending on leaf mass. Used for party walls between dwellings.
+**砌体／混凝土空腔墙**——两片砌块或混凝土墙体之间设 50–100 mm 空腔并满填矿棉，不设刚性拉结。根据墙片质量可达到 Rw 55–65 dB，用于住户之间的分户墙。
 
-**Metal stud partitions** — Single frame: 2 layers 15 mm gypsum board each side on 70 mm C-studs at 600 mm centres, 50 mm mineral wool in cavity. Achieves STC 50–55 / Rw 50–53 dB. Double frame (two independent stud rows, 25 mm gap): 2 layers gypsum board each side, mineral wool full fill. Achieves STC 60–65 / Rw 58–63 dB.
+**轻钢龙骨隔墙**——单排龙骨：70 mm C 型龙骨，中心距 600 mm，两侧各两层 15 mm 石膏板，空腔内填 50 mm 矿棉；可达到 STC 50–55 ／ Rw 50–53 dB。双排龙骨（两排独立龙骨，间距 25 mm）：两侧各两层石膏板，空腔满填矿棉；可达到 STC 60–65 ／ Rw 58–63 dB。
 
-**Resilient bars / channels** — Spring-steel channels fixed to the structural frame with gypsum board screw-fixed to the channels. Decouples the board from the structure, adding 5–10 dB improvement. Critical installation detail: no short-circuit screws penetrating through the channel into the stud.
+**弹性减振条／龙骨**——将弹簧钢龙骨固定于结构框架，石膏板再用螺钉固定至龙骨，使面板与结构脱开，可提升 5–10 dB。关键安装要求：不得有短路螺钉穿过龙骨并固定至竖龙骨。
 
-**Floating floors** — Concrete screed (65–75 mm) on a resilient layer (mineral wool, rubber, closed-cell foam) placed over the structural slab. The resilient layer must turn up at edges and be isolated from walls with a perimeter strip. Achieves Rw improvement of 5–10 dB airborne and IIC improvement of 20–30 dB.
+**浮筑楼面**——在结构楼板上铺设弹性层（矿棉、橡胶、闭孔泡沫），再浇筑 65–75 mm 混凝土找平层。弹性层须在边缘翻起，并以周边隔离条与墙体脱开。可使空气声 Rw 提升 5–10 dB，IIC 提升 20–30 dB。
 
-**Independent ceilings** — Ceiling on separate joists or hangers not rigidly connected to the floor above. The air gap and absorption in the ceiling void provide additional insulation. Achieves 10–15 dB improvement. Used below noisy spaces (plant rooms, dance studios) or above sensitive spaces (recording studios, concert halls).
+**独立吊顶**——吊顶设于独立搁栅或吊杆上，与上部楼板不作刚性连接。吊顶空腔内的空气层与吸声材料提供额外隔声，可提升 10–15 dB。适用于噪声空间（设备房、舞蹈室）下方或敏感空间（录音室、音乐厅）上方。
 
-### 2.5 Impact Sound Control Solutions
+### 2.5 撞击声控制方案
 
-**Soft floor coverings:** Carpet with underlay can improve IIC by 20–30 dB on a bare concrete slab. However, carpet cannot be guaranteed to remain for the building's life and is not accepted as the sole impact insulation strategy in most standards.
+**软质地面覆盖层：** 在裸露混凝土板上铺设地毯及衬垫可使 IIC 提升 20–30 dB。但不能保证地毯在建筑全寿命期内保留，因此多数标准不接受其作为唯一的撞击声隔声策略。
 
-**Floating screed floors:** 65 mm sand-cement screed on 25 mm resilient mineral wool (dynamic stiffness s' ≤ 20 MN/m³) over 150 mm concrete slab. Achieves Ln,w ≤ 48 dB (IIC ≥ 62). The lower the dynamic stiffness of the resilient layer, the better the impact isolation.
+**浮筑找平层楼面：** 在 150 mm 混凝土板上铺设 25 mm 弹性矿棉（动态刚度 s' ≤ 20 MN/m³），再浇筑 65 mm 水泥砂浆找平层。可达到 Ln,w ≤ 48 dB（IIC ≥ 62）。弹性层的动态刚度越低，撞击隔声越好。
 
-**Timber floating floors:** 18 mm chipboard or plywood on 25 mm resilient rubber pads or cradles, over structural timber or concrete floor. Less mass than concrete screed but suitable for lightweight construction. Achieves Ln,w ≤ 53–58 dB.
+**木质浮筑楼面：** 在结构木楼板或混凝土楼板上铺设 25 mm 弹性橡胶垫或支座，再铺 18 mm 刨花板或胶合板。其质量小于混凝土找平层，但适用于轻型结构，可达到 Ln,w ≤ 53–58 dB。
 
-**Isolated ceiling below:** Independent ceiling with spring hangers and 100 mm mineral wool in the void. Adds 8–15 dB impact improvement. Most effective combined with floating floor above for premium performance.
+**下部隔振吊顶：** 采用弹簧吊件的独立吊顶，空腔内填 100 mm 矿棉，可增加 8–15 dB 撞击声改善量。与上部浮筑楼面组合时，最适合实现高标准性能。
 
-### 2.6 Flanking Transmission
+### 2.6 侧向传声
 
-In completed buildings, the achieved sound insulation between rooms is the combination of the direct path (through the separating element) and all flanking paths. Flanking paths include:
+建成建筑中，房间之间的实际隔声性能由直接路径（穿过分隔构件）和所有侧向路径共同决定。侧向路径包括：
 
-- **Continuous floor/ceiling slabs** passing through or under the party wall
-- **External wall/facade** wrapping around the party wall junction
-- **Shared ceiling voids** (suspended ceilings without acoustic barriers above the party wall line)
-- **Back-to-back electrical sockets** creating holes in the separating wall
-- **Service penetrations** (pipes, ducts, cables) without acoustic sealing
-- **Shared raised floors** without acoustic breaks at the party wall line
-- **Door undercuts** if rooms share a common corridor
+- **连续楼板／顶板** 穿过或位于分户墙下方。
+- **外墙／立面** 在分户墙交接处连续包绕。
+- **共用吊顶空腔**（分户墙线以上的吊顶未设置声学隔断）。
+- **背靠背电气插座** 在分隔墙上形成孔洞。
+- **设备穿孔**（管道、风管、电缆）未作声学密封。
+- **共用架空地板** 未在分户墙线处设置声学断开。
+- 房间共用走廊时的**门底缝**。
 
-**Mitigation strategies:**
-1. Break structural continuity at the party wall line (flexible joints, structural separation)
-2. Increase mass/isolation of flanking elements within 1 m of the junction
-3. Seal all penetrations with intumescent acoustic sealant or acoustic putty pads
-4. Install acoustic barriers in ceiling voids (full-height blockwork or double-layer board above the party wall)
-5. Stagger electrical sockets by 200 mm minimum; never back-to-back in party walls
-6. Use proprietary acoustic junction details (resilient flanking strips, edge isolation)
-
----
-
-## Section 3: Room Acoustics
-
-### 3.1 Reverberation Time Targets by Space Type
-
-Reverberation time is the single most important descriptor of a room's acoustic character. Correct RT60 ensures speech intelligibility in communication spaces, musical richness in performance spaces, and comfort in everyday environments.
-
-| Space Type | Target RT60 (mid-frequency) | Key Driver |
-|---|---|---|
-| Classroom (≤280 m³) | 0.4–0.6 s | Speech intelligibility (STI ≥ 0.60) |
-| Lecture hall (>280 m³) | 0.6–0.8 s | Speech clarity with reinforcement |
-| Conference room | 0.4–0.7 s | Unamplified speech at table |
-| Courtroom | 0.6–0.9 s | Speech clarity, authority |
-| Multi-purpose hall | 0.8–1.2 s | Compromise speech/music |
-| Concert hall — orchestral | 1.8–2.2 s | Warmth, envelopment, blend |
-| Concert hall — chamber music | 1.4–1.8 s | Intimacy, clarity |
-| Opera house | 1.2–1.6 s | Vocal clarity with orchestral support |
-| Recital hall | 1.2–1.6 s | Solo instrument clarity |
-| Recording studio — control room | 0.2–0.3 s | Neutral monitoring |
-| Recording studio — live room | 0.3–0.6 s (variable) | Versatile recording environment |
-| Worship — reverberant tradition | 2.0–4.0 s | Choral envelopment, awe |
-| Worship — speech-focused | 0.8–1.2 s | Sermon intelligibility |
-| Open-plan office | 0.5–0.8 s | Speech privacy (D2,S ≥ 7 dB) |
-| Restaurant | 0.6–0.9 s | Conversation without strain |
-| Hospital ward | 0.5–0.8 s | Patient comfort, speech privacy |
-| Cinema | 0.4–0.6 s | Dialogue clarity, immersive sound |
-| Drama theatre | 0.7–1.0 s | Unamplified speech projection |
-| Sports hall | 1.0–1.5 s | PA intelligibility, reduced roar |
-
-### 3.2 The Sabine Equation and Its Variants
-
-**Sabine equation:** RT60 = 0.161V / A
-
-Where V = room volume (m³) and A = total absorption in the room (m² sabins). A = Σ(αᵢ × Sᵢ) + 4mV, where αᵢ is the absorption coefficient of surface i, Sᵢ is its area (m²), and m is the air absorption coefficient (significant only above 2 kHz in large volumes).
-
-The Sabine equation is accurate for diffuse sound fields (uniform sound energy distribution) and moderate absorption (average α ≤ 0.3). For highly absorptive rooms (recording studios, anechoic spaces), the Eyring equation is more accurate:
-
-**Eyring equation:** RT60 = 0.161V / (−S × ln(1 − ᾱ))
-
-Where S = total surface area and ᾱ = average absorption coefficient.
-
-**Design implications:**
-- RT60 is proportional to volume: larger rooms are naturally more reverberant
-- RT60 is inversely proportional to absorption: adding absorptive material reduces RT60
-- For a given RT60 target, the required absorption area scales with volume
-- Low-frequency RT60 is typically longer (less absorption available at low frequencies) — a 0.2–0.3 s rise at 125 Hz compared to 500 Hz is desirable for musical warmth in concert halls
-
-### 3.3 Acoustic Treatment Types
-
-**Porous absorbers** — Materials with interconnected air-filled pores (mineral wool, open-cell foam, acoustic plaster, fabric-wrapped panels). Sound energy enters the pores and is converted to heat through viscous friction. Most effective at mid and high frequencies. Absorption at low frequencies increases with material thickness or mounting distance from the wall (air gap behind the panel). A 50 mm panel mounted with a 50 mm air gap performs equivalently to a 100 mm panel mounted directly on the wall. Typical NRC: 0.70–1.00.
-
-**Panel / membrane absorbers** — A thin, non-porous panel (plywood, gypsum board, metal sheet) mounted over an air cavity, sometimes with absorbent fill in the cavity. The panel vibrates at its resonant frequency, converting sound energy to heat through internal damping. Effective at low frequencies (63–250 Hz). Resonant frequency: f₀ = 60 / √(m × d) where m = panel surface mass (kg/m²) and d = cavity depth (m). Used to control low-frequency buildup in control rooms, home theatres, and small rooms.
-
-**Helmholtz resonators** — Enclosed air volumes connected to the room through a narrow neck or slot. Strongly absorb sound at a specific resonant frequency determined by neck dimensions and cavity volume: f₀ = (c/2π) × √(S / (V × L')) where c = speed of sound, S = neck cross-sectional area, V = cavity volume, L' = effective neck length. Used for targeted absorption of problematic frequencies, bass traps. Perforated panels and slotted panels act as distributed Helmholtz resonators.
-
-**Diffusers** — Surfaces that scatter incident sound in multiple directions, creating a diffuse sound field without removing energy from the room. Types:
-- **Schroeder (QRD) diffusers:** Wells of varying depth based on quadratic residue number sequences. Effective bandwidth depends on well depth and width. Design frequency: f₀ = c / (2 × d_max).
-- **Primitive root diffusers:** Similar to QRD but with different number sequence, offering broader bandwidth.
-- **Binary amplitude diffusers:** Alternating reflecting and absorbing patches.
-- **Convex surfaces:** Cylindrical or spherical curvature scatters sound geometrically. Simple and effective for large-scale diffusion (barrel-vaulted ceilings, colonnade walls).
-
-**Reflectors** — Flat or convex surfaces positioned to direct early reflections toward the audience. Overhead reflectors (canopies) in concert halls and lecture halls provide first-order reflections within 20–30 ms of direct sound, enhancing clarity and intimacy. Minimum panel dimension ≥ 2λ for effective reflection at the lowest design frequency.
-
-### 3.4 Room Shape and Geometry
-
-**Parallel surfaces** create flutter echoes — rapid repetitive reflections audible as a metallic ringing tone. Avoid parallel walls in critical listening environments. Splay walls by ≥5° or treat one surface with absorption/diffusion.
-
-**Concave surfaces** (domes, barrel vaults, concave walls) focus sound, creating hot spots and dead zones. Avoid in performance spaces or treat the concave surface with diffusion. The Whispering Gallery effect in domed spaces is acoustically problematic for uniform sound distribution.
-
-**Room proportions** — In small rooms (studios, practice rooms), modal distribution depends on room dimensions. Optimal ratios (height : width : length) include 1 : 1.4 : 1.9 (Bolt ratio), 1 : 1.28 : 1.54, and 1 : 1.6 : 2.33 (IEC recommendation). Avoid cubic rooms or rooms with integer dimension ratios (e.g., 1:2:3).
-
-**Coupled volumes** — Two or more connected spaces with different absorption characteristics create variable acoustics. Sound decays quickly in the more absorptive space (benefiting clarity) but late energy returns from the reverberant coupled space (benefiting envelopment). Used in concert halls (reverberant chambers coupled via adjustable openings) and worship spaces.
+**减缓策略：**
+1. 在分户墙线处切断结构连续性（柔性接缝、结构分离）。
+2. 提高交接点 1 m 范围内侧向构件的质量／隔离性能。
+3. 用膨胀型声学密封胶或声学腻子垫封堵全部穿孔。
+4. 在吊顶空腔内设置声学隔断（分户墙上方通高砌体或双层板材）。
+5. 电气插座错开至少 200 mm；分户墙内绝不背靠背设置。
+6. 使用专用声学交接节点（弹性侧向隔离条、边缘隔离）。
 
 ---
 
-## Section 4: Environmental Noise Control
+## 第 3 节：室内声学
 
-### 4.1 External Noise Sources and Levels
+### 3.1 按空间类型确定的混响时间目标
 
-| Source | Typical Level at Reference Distance | Reference Distance |
+混响时间是描述房间声学特性的最重要单项指标。适当的 RT60 可确保交流空间的言语可懂度、演出空间的音乐丰满度，以及日常环境的舒适性。
+
+| 空间类型 | RT60 目标值（中频） | 关键要求 |
 |---|---|---|
-| Quiet rural area | 30–35 dB LAeq | Ambient |
-| Quiet suburban residential | 35–45 dB LAeq | Ambient (daytime) |
-| Suburban road (light traffic) | 55–65 dB LAeq | 10 m from kerb |
-| Urban arterial road | 70–78 dB LAeq | 10 m from kerb |
-| Motorway | 75–85 dB LAeq | 10 m from nearside |
-| Railway (passing train) | 80–90 dB LAmax | 25 m from track |
-| Aircraft (departure, overhead) | 85–100 dB LAmax | Varies with altitude |
-| Construction site | 75–90 dB LAeq | 10 m from activity |
-| Industrial premises | 55–75 dB LAeq | At boundary |
+| 教室（≤280 m³） | 0.4–0.6 s | 言语可懂度（STI ≥ 0.60） |
+| 讲堂（>280 m³） | 0.6–0.8 s | 扩声条件下的言语清晰度 |
+| 会议室 | 0.4–0.7 s | 会议桌旁非扩声言语 |
+| 法庭 | 0.6–0.9 s | 言语清晰度、庄重感 |
+| 多功能厅 | 0.8–1.2 s | 言语／音乐折中 |
+| 音乐厅——交响乐 | 1.8–2.2 s | 温暖感、包围感、融合度 |
+| 音乐厅——室内乐 | 1.4–1.8 s | 亲密感、清晰度 |
+| 歌剧院 | 1.2–1.6 s | 乐队伴奏下的人声清晰度 |
+| 独奏音乐厅 | 1.2–1.6 s | 独奏乐器清晰度 |
+| 录音室——控制室 | 0.2–0.3 s | 中性监听 |
+| 录音室——录音间 | 0.3–0.6 s（可变） | 多用途录音环境 |
+| 宗教空间——重混响传统 | 2.0–4.0 s | 合唱包围感、崇高感 |
+| 宗教空间——言语优先 | 0.8–1.2 s | 讲道可懂度 |
+| 开放办公区 | 0.5–0.8 s | 言语私密性（D2,S ≥ 7 dB） |
+| 餐厅 | 0.6–0.9 s | 轻松交谈 |
+| 医院病房 | 0.5–0.8 s | 患者舒适性、言语私密性 |
+| 影院 | 0.4–0.6 s | 对白清晰度、沉浸声 |
+| 话剧院 | 0.7–1.0 s | 非扩声言语投射 |
+| 体育馆 | 1.0–1.5 s | PA 可懂度、降低喧嚣 |
 
-### 4.2 Internal Noise Level Targets
+### 3.2 Sabine 公式及其变体
 
-| Space | Target (BS 8233:2014 / WHO) | Comments |
+**Sabine 公式：** RT60 = 0.161V / A
+
+其中 V = 房间体积（m³），A = 房间总吸声量（m² sabin）。A = Σ(αᵢ × Sᵢ) + 4mV，其中 αᵢ 为第 i 个表面的吸声系数，Sᵢ 为其面积（m²），m 为空气吸声系数（仅在大体积空间且频率高于 2 kHz 时显著）。
+
+Sabine 公式适用于扩散声场（声能分布均匀）和中等吸声条件（平均 α ≤ 0.3）。对于高吸声房间（录音室、消声空间），Eyring 公式更准确：
+
+**Eyring 公式：** RT60 = 0.161V / (−S × ln(1 − ᾱ))
+
+其中 S = 总表面积，ᾱ = 平均吸声系数。
+
+**设计启示：**
+- RT60 与体积成正比：房间越大，自然混响越强。
+- RT60 与吸声量成反比：增加吸声材料可降低 RT60。
+- 对既定 RT60 目标，所需吸声面积随体积增大而增加。
+- 低频 RT60 通常更长（低频可用吸声较少）；音乐厅中 125 Hz 相较 500 Hz 增加 0.2–0.3 s，有利于获得音乐温暖感。
+
+### 3.3 声学处理类型
+
+**多孔吸声体**——具有相互连通含气孔隙的材料（矿棉、开孔泡沫、吸声抹灰、布包板）。声能进入孔隙后通过黏滞摩擦转化为热能，对中高频最有效。低频吸声随材料厚度或距墙安装距离增加（板后空气层）而提高。背后留设 50 mm 空气层的 50 mm 板材，性能等同于直接贴墙安装的 100 mm 板材。典型 NRC 为 0.70–1.00。
+
+**板式／膜式吸声体**——将薄而不透气的板材（胶合板、石膏板、金属板）架设于空气腔前，空腔有时填充吸声材料。面板在共振频率振动，通过内部阻尼将声能转化为热能，对低频（63–250 Hz）有效。共振频率为：f₀ = 60 / √(m × d)，其中 m = 面板面密度（kg/m²），d = 空腔深度（m）。用于控制控制室、家庭影院和小房间的低频积聚。
+
+**亥姆霍兹共振器**——通过狭窄颈部或缝隙与房间连通的封闭空气体积。在由颈部尺寸和腔体体积确定的特定共振频率处强烈吸声：f₀ = (c/2π) × √(S / (V × L'))，其中 c = 声速，S = 颈部截面积，V = 腔体体积，L' = 有效颈部长度。用于对问题频率进行针对性吸收及设置低频陷阱。穿孔板和槽孔板可作为分布式亥姆霍兹共振器。
+
+**扩散体**——将入射声向多个方向散射的表面，可形成扩散声场而不从房间移除能量。类型包括：
+- **Schroeder（QRD）扩散体：** 基于二次剩余数列形成不同深度的槽井。有效带宽取决于槽井深度和宽度。设计频率：f₀ = c / (2 × d_max)。
+- **本原根扩散体：** 与 QRD 类似，但采用不同数列，可提供更宽带宽。
+- **二元幅度扩散体：** 反射区与吸收区交替布置。
+- **凸曲面：** 圆柱或球面曲率以几何方式散射声音。对于大尺度扩散（筒拱顶、柱廊墙）简单且有效。
+
+**反射体**——用于将早期反射声导向听众的平面或凸面。音乐厅和讲堂中的顶置反射体（声学罩棚）可在直达声后 20–30 ms 内提供一次反射，从而增强清晰度和亲密感。要在最低设计频率实现有效反射，面板最小尺寸应 ≥ 2λ。
+
+### 3.4 房间形状与几何
+
+**平行表面**会产生颤动回声——可听到快速重复反射形成的金属振铃音。在关键聆听环境中应避免平行墙面。可使墙面偏转 ≥5°，或对其中一面采用吸声／扩散处理。
+
+**凹曲面**（穹顶、筒拱、凹墙）会聚焦声音，形成声热点和声影区。演出空间应避免使用，或对凹面作扩散处理。穹顶空间中的耳语廊效应不利于均匀声场分布。
+
+**房间比例**——小房间（录音室、练习室）的模态分布取决于房间尺寸。优化比例（高：宽：长）包括 1 : 1.4 : 1.9（Bolt 比例）、1 : 1.28 : 1.54 和 1 : 1.6 : 2.33（IEC 建议）。应避免立方体房间或尺寸成整数比的房间（如 1:2:3）。
+
+**耦合体积**——两个或更多个具有不同吸声特性的连通空间可形成可变声学。声音在吸声更强的空间中快速衰减（有利于清晰度），而后期声能从重混响的耦合空间返回（有利于包围感）。应用于音乐厅（通过可调开口耦合混响室）和宗教空间。
+
+---
+
+## 第 4 节：环境噪声控制
+
+### 4.1 外部噪声源及声级
+
+| 声源 | 参考距离处典型声级 | 参考距离 |
 |---|---|---|
-| Bedroom (night) | 30 dB LAeq,8h (≤45 LAmax) | Sleep disturbance threshold |
-| Living room (daytime) | 35 dB LAeq,16h | Relaxation, conversation |
-| Classroom | 35 dB LAeq | BB93, unoccupied |
-| Hospital ward | 35 dB LAeq (night), 40 day | HTM 08-01 |
-| Office — cellular | 35–40 dB LAeq | BCO Guide |
-| Office — open plan | 40–45 dB LAeq | BCO Guide |
-| Concert hall | ≤25 dB LAeq (NR 20) | Critical listening |
-| Recording studio | ≤20 dB LAeq (NR 15) | Critical monitoring |
-| Library / reading room | 35 dB LAeq | |
-| Courtroom | 35 dB LAeq | |
-| Restaurant | 40–45 dB LAeq | |
+| 安静乡村地区 | 30–35 dB LAeq | 环境本底 |
+| 安静郊区住宅区 | 35–45 dB LAeq | 环境本底（昼间） |
+| 郊区道路（轻交通） | 55–65 dB LAeq | 距路缘 10 m |
+| 城市主干道 | 70–78 dB LAeq | 距路缘 10 m |
+| 高速公路 | 75–85 dB LAeq | 距近侧车道 10 m |
+| 铁路（列车通过） | 80–90 dB LAmax | 距轨道 25 m |
+| 飞机（起飞、飞越） | 85–100 dB LAmax | 随高度变化 |
+| 施工现场 | 75–90 dB LAeq | 距作业点 10 m |
+| 工业场所 | 55–75 dB LAeq | 场界处 |
 
-### 4.3 Facade Sound Insulation
+### 4.2 室内噪声级目标
 
-The required facade insulation is calculated from:
+| 空间 | 目标（BS 8233:2014 ／ WHO） | 说明 |
+|---|---|---|
+| 卧室（夜间） | 30 dB LAeq,8h（≤45 LAmax） | 睡眠干扰阈值 |
+| 起居室（昼间） | 35 dB LAeq,16h | 休憩、交谈 |
+| 教室 | 35 dB LAeq | BB93，无人状态 |
+| 医院病房 | 35 dB LAeq（夜间）、昼间 40 | HTM 08-01 |
+| 办公室——独立式 | 35–40 dB LAeq | BCO Guide |
+| 办公室——开放式 | 40–45 dB LAeq | BCO Guide |
+| 音乐厅 | ≤25 dB LAeq（NR 20） | 关键聆听 |
+| 录音室 | ≤20 dB LAeq（NR 15） | 关键监听 |
+| 图书馆／阅览室 | 35 dB LAeq | |
+| 法庭 | 35 dB LAeq | |
+| 餐厅 | 40–45 dB LAeq | |
 
-**Required Rw (facade) = External noise level − Internal target + 10 dB (safety margin)**
+### 4.3 立面隔声
 
-For example: Busy road at 75 dB LAeq, bedroom target 30 dB LAeq → Required Rw = 75 − 30 + 10 = 55 dB.
+所需立面隔声量按下式计算：
 
-**Composite facade calculation:** Where a facade comprises multiple elements (wall, window, ventilator), the composite sound reduction is:
+**所需 Rw（立面） = 外部噪声级 − 室内目标值 + 10 dB（安全余量）**
+
+例如：繁忙道路噪声为 75 dB LAeq，卧室目标为 30 dB LAeq → 所需 Rw = 75 − 30 + 10 = 55 dB。
+
+**组合立面计算：** 当立面由多个构件（墙、窗、通风器）组成时，组合隔声量为：
 
 Rw,composite = 10 × log₁₀ (S_total / Σ(Sᵢ × 10^(−Rᵢ/10)))
 
-where Sᵢ and Rᵢ are the area and Rw of each element. The weakest element dominates: a wall at Rw 55 dB with 30% glazing at Rw 32 dB yields a composite of approximately Rw 37 dB.
+其中 Sᵢ 和 Rᵢ 分别为各构件的面积和 Rw。最薄弱构件起主导作用：Rw 55 dB 的墙体搭配占比 30%、Rw 32 dB 的玻璃，组合隔声量约为 Rw 37 dB。
 
-**Window performance:**
-- Single glazing (6 mm): Rw 28–30 dB
-- Standard double glazing (4-16-4): Rw 29–32 dB
-- Acoustic double glazing (6-16-10): Rw 35–37 dB
-- Acoustic double glazing (10-20-6.4 laminated): Rw 38–42 dB
-- Secondary glazing (100–200 mm gap): Rw 40–50 dB
-- Triple glazing (acoustic): Rw 35–40 dB
+**窗的性能：**
+- 单层玻璃（6 mm）：Rw 28–30 dB。
+- 标准中空玻璃（4-16-4）：Rw 29–32 dB。
+- 隔声中空玻璃（6-16-10）：Rw 35–37 dB。
+- 隔声中空玻璃（10-20-6.4 夹层）：Rw 38–42 dB。
+- 二次窗（间隙 100–200 mm）：Rw 40–50 dB。
+- 三层玻璃（隔声型）：Rw 35–40 dB。
 
-### 4.4 Ventilation and Acoustic Compromise
+### 4.4 通风与声学的折中
 
-**Open windows** reduce the effective facade insulation by approximately 10–15 dB. A bedroom with a facade achieving Rw 42 dB closed drops to effectively Rw 27–32 dB with a window open for ventilation. This is the fundamental tension between natural ventilation and acoustic protection.
+**开窗**会使立面的有效隔声量降低约 10–15 dB。一间卧室的关闭窗立面达到 Rw 42 dB，开窗通风时有效隔声量会降至 Rw 27–32 dB。这是自然通风与声学防护之间的根本矛盾。
 
-**Solutions:**
-- **Acoustic ventilators:** Through-wall or through-window units with internal sound-attenuating baffles. Achieve Dn,e,w 30–42 dB while providing trickle ventilation (typically 5–10 l/s). Types: louvered acoustic vents, acoustic trickle vents with mineral wool lining, mechanically assisted acoustic vents.
-- **Attenuated air paths:** Purpose-designed ventilation openings with extended acoustic path length (typically 0.5–1.0 m), lined with absorptive material. Can be integrated into facade reveals or window heads.
-- **Closed-window ventilation strategy:** MVHR (mechanical ventilation with heat recovery) allows windows to remain closed, maintaining full facade insulation. Increasingly required on noise-exposed sites. Overheating risk must be addressed through other means (solar shading, night cooling via attenuated paths).
-- **Winter garden / acoustic buffer zone:** Enclosed balcony or glazed loggia acts as an acoustic airlock, permitting inner window to open to the buffer while outer glazing attenuates traffic noise.
+**解决方案：**
+- **消声通风器：** 穿墙或穿窗装置，内部设消声折流板。在提供背景通风（通常 5–10 l/s）的同时，达到 Dn,e,w 30–42 dB。类型包括百叶消声风口、内衬矿棉的消声背景风口和机械辅助式消声风口。
+- **消声风道：** 专门设计、具有较长声程（通常 0.5–1.0 m）且内衬吸声材料的通风开口，可整合至立面凹槽或窗楣内。
+- **关闭窗通风策略：** MVHR（带热回收的机械通风）使窗户保持关闭，从而维持完整立面隔声，噪声暴露场地日益需要采用。过热风险须通过其他措施解决（太阳遮阳、经消声路径的夜间通风）。
+- **冬季花园／声学缓冲区：** 封闭阳台或玻璃廊道充当声闸，使内窗可向缓冲区开启，同时由外层玻璃衰减交通噪声。
 
 ---
 
-## Section 5: Noise from Building Services
+## 第 5 节：建筑设备噪声
 
-### 5.1 Background Noise Targets from Mechanical Services
+### 5.1 机械设备背景噪声目标
 
-Building services (HVAC, plumbing, electrical) generate continuous background noise that occupants experience as a persistent hum, rumble, or whistle. Noise criteria are expressed as NR (Noise Rating) or NC (Noise Criteria) curves.
+建筑设备（HVAC、给排水、电气）会产生连续背景噪声，使用者会感受到持续的嗡声、低沉轰鸣或啸叫。噪声准则以 NR（噪声评价数）或 NC（噪声标准）曲线表示。
 
-| Space | NR Target | NC Target | Notes |
+| 空间 | NR 目标 | NC 目标 | 说明 |
 |---|---|---|---|
-| Concert hall | 20 | 15–20 | Extremely critical |
-| Recording studio | 15 | 10–15 | Measured with all systems operating |
-| Bedroom (residential) | 25 | 25 | Night-time criterion |
-| Living room | 30 | 30 | |
-| Private office | 30–35 | 30–35 | |
-| Open-plan office | 35–40 | 35–40 | Some masking noise beneficial |
-| Conference room | 25–30 | 25–30 | |
-| Classroom | 25–30 | 25–30 | BB93: 35 dB LAeq |
-| Library | 30 | 30 | |
-| Courtroom | 25–30 | 25–30 | |
-| Hospital ward | 30–35 | 30–35 | |
-| Operating theatre | 35–40 | 35–40 | |
-| Restaurant | 35–40 | 35–40 | |
-| Retail | 40 | 40 | |
-| Lobby / circulation | 40–45 | 40–45 | |
-| Plant room | Not applicable | Not applicable | Hearing protection zone |
+| 音乐厅 | 20 | 15–20 | 极其关键 |
+| 录音室 | 15 | 10–15 | 在全部系统运行时测量 |
+| 卧室（住宅） | 25 | 25 | 夜间准则 |
+| 起居室 | 30 | 30 | |
+| 独立办公室 | 30–35 | 30–35 | |
+| 开放办公区 | 35–40 | 35–40 | 适量掩蔽噪声有利 |
+| 会议室 | 25–30 | 25–30 | |
+| 教室 | 25–30 | 25–30 | BB93：35 dB LAeq |
+| 图书馆 | 30 | 30 | |
+| 法庭 | 25–30 | 25–30 | |
+| 医院病房 | 30–35 | 30–35 | |
+| 手术室 | 35–40 | 35–40 | |
+| 餐厅 | 35–40 | 35–40 | |
+| 零售空间 | 40 | 40 | |
+| 门厅／交通空间 | 40–45 | 40–45 | |
+| 设备房 | 不适用 | 不适用 | 听力防护区 |
 
-### 5.2 Vibration Isolation of Plant
+### 5.2 设备隔振
 
-Rotating and reciprocating machinery (fans, pumps, compressors, chillers, generators) generate vibration that, if rigidly connected to the building structure, radiates as noise in occupied spaces — often far from the plant room.
+旋转和往复机械（风机、水泵、压缩机、冷水机组、发电机）会产生振动；若与建筑结构刚性连接，这些振动会在有人使用的空间中辐射为噪声，且常常远离设备房。
 
-**Isolation principles:**
-- **Spring mounts:** Steel coil springs provide 90–98% isolation efficiency at operating speed. Static deflection 25–50 mm typical. Used for large fans, chillers, pumps. Must include a neoprene acoustic pad beneath the spring to prevent high-frequency short-circuiting.
-- **Rubber mounts:** Neoprene, natural rubber, or silicone pads. Static deflection 3–10 mm. Suitable for smaller equipment, pipe supports, and secondary isolation.
-- **Inertia bases:** Concrete plinth (mass 1.5–3× equipment mass) on spring or rubber mounts. The added mass lowers the system centre of gravity, reduces rocking motion, and provides additional attenuation. Essential for equipment with large out-of-balance forces (reciprocating compressors, diesel generators).
-- **Flexible connections:** All pipes, ducts, and cables connecting to isolated equipment must incorporate flexible sections to prevent vibration bypass. Rubber bellows on pipes, canvas or neoprene flexible duct sections, flexible conduit for cables.
+**隔振原则：**
+- **弹簧隔振器：** 钢制螺旋弹簧在运行转速下可提供 90–98% 的隔振效率，典型静挠度为 25–50 mm。用于大型风机、冷水机组和水泵。弹簧下必须设置氯丁橡胶声学垫，以防高频短路传振。
+- **橡胶隔振器：** 氯丁橡胶、天然橡胶或硅橡胶垫，静挠度为 3–10 mm。适用于小型设备、管道支架和二级隔振。
+- **惯性基座：** 弹簧或橡胶隔振器上的混凝土基座（质量为设备质量的 1.5–3 倍）。附加质量可降低系统重心、减少摇摆并提供额外衰减。对于不平衡力大的设备（往复压缩机、柴油发电机）必不可少。
+- **柔性连接：** 连接至隔振设备的所有管道、风管和电缆均须设柔性段，以防振动绕过隔振器。管道采用橡胶波纹管，风管采用帆布或氯丁橡胶柔性接头，电缆采用柔性导管。
 
-**Isolation efficiency:** η = 1 − 1/(f/f₀)² for frequencies well above the natural frequency f₀. For 90% isolation, the operating frequency must be ≥3× the natural frequency of the mount. A fan at 25 Hz on springs with f₀ = 3 Hz achieves η = 99%.
+**隔振效率：** 对远高于固有频率 f₀ 的频率，η = 1 − 1/(f/f₀)²。为达到 90% 隔振，运行频率必须 ≥ 隔振器固有频率的 3 倍。运行频率为 25 Hz、弹簧 f₀ = 3 Hz 的风机可达到 η = 99%。
 
-### 5.3 Ductwork Noise Control
+### 5.3 风管噪声控制
 
-**Fan noise** is the primary noise source in HVAC systems. Fan sound power level increases with pressure rise and airflow volume. Backward-curved centrifugal fans are quieter than forward-curved at the same duty. Sound power: Lw = 10 + 10 log₁₀(Q) + 20 log₁₀(P) where Q is flow (m³/s) and P is total pressure (Pa). The spectrum shape depends on fan type and blade-pass frequency.
+**风机噪声**是 HVAC 系统的主要噪声源。风机声功率级随压升和风量增加而升高。相同工况下，后向弯曲离心风机比前向弯曲风机更安静。声功率：Lw = 10 + 10 log₁₀(Q) + 20 log₁₀(P)，其中 Q 为风量（m³/s），P 为全压（Pa）。频谱形状取决于风机类型和叶片通过频率。
 
-**Duct attenuation methods:**
-- **Lined ductwork:** Internal acoustic lining (25–50 mm mineral wool with perforated metal facing or acoustic tissue). Attenuation 3–10 dB/m depending on duct size and lining thickness. Most effective at mid/high frequencies. Minimum 3 m length for significant effect.
-- **Splitter silencers:** Parallel baffles of absorptive material within the duct cross-section. Attenuation 10–30 dB over 1–2 m length. Causes pressure drop (25–75 Pa typically). Sized to match duct dimensions.
-- **Reactive silencers:** Expansion chambers, quarter-wave resonators, Helmholtz resonators within the duct. Effective at specific frequencies (tonal fan noise, blade-pass frequency). No absorptive material — useful in clean environments.
-- **Duct lagging:** External wrapping (mass-loaded vinyl + mineral wool) to reduce breakout noise from duct walls. Sheet metal rectangular ducts are poor at containing noise; breakout can exceed the noise delivered through supply grilles. Critical for ductwork passing through or above sensitive spaces.
-- **Acoustic transfer (crosstalk):** Sound transmitted between rooms via shared ductwork. Prevent with lined duct runs of sufficient length between branches, or with duct-mounted crosstalk attenuators.
+**风管衰减方法：**
+- **内衬风管：** 内设声学衬里（25–50 mm 矿棉，外覆穿孔金属面层或吸声毡）。衰减量随风管尺寸和衬里厚度不同为 3–10 dB/m，对中高频最有效。要获得显著效果，长度至少应为 3 m。
+- **片式消声器：** 风管截面内设置平行的吸声材料折流片。在 1–2 m 长度内可衰减 10–30 dB，但会产生压降（通常 25–75 Pa）。尺寸应与风管尺寸相匹配。
+- **阻抗复合消声器：** 在风管内设置扩张室、四分之一波长共振器、亥姆霍兹共振器。对特定频率（风机纯音、叶片通过频率）有效。不含吸声材料，适用于洁净环境。
+- **风管包覆：** 采用外包覆（加重乙烯基 + 矿棉）降低风管壁透射噪声。金属板矩形风管的隔声能力差，透射噪声可能超过送风口送出的噪声；对于穿越或位于敏感空间上方的风管尤为关键。
+- **声串扰：** 声音通过共用风管在房间间传递。可通过在支管之间设置足够长度的内衬风管，或安装风管串扰消声器防止。
 
-### 5.4 Other Building Services Noise
+### 5.4 其他建筑设备噪声
 
-**Plumbing noise:** Water flow through pipes at high velocity (>1.5 m/s) generates turbulence noise. Pressure reduction valves, thermostatic mixing valves, and cistern fill valves can produce tonal noise. Fix: limit flow velocities, use acoustic pipe clips with rubber inserts, acoustically lag pipes in wall cavities adjacent to bedrooms.
+**给排水噪声：** 水在管道中高速流动（>1.5 m/s）会产生湍流噪声。减压阀、恒温混水阀和水箱进水阀会产生纯音噪声。控制措施：限制流速、使用带橡胶嵌件的声学管卡，并对毗邻卧室的墙体空腔内管道作隔声包覆。
 
-**Elevator noise:** Traction motor noise, door operation, and car movement in the shaft. Motor-room-less (MRL) elevators place the motor at the top of the shaft, transmitting vibration to the guide rails and structural frame. Mitigation: vibration-isolated motor mounts, acoustic enclosure for machinery, resilient fixings for guide rails, neoprene pads at all structural connections.
+**电梯噪声：** 包括曳引机噪声、开关门声及轿厢在井道内运行的声音。无机房（MRL）电梯将电机布置在井道顶部，会将振动传递至导轨和结构框架。控制措施：电机采用隔振支座、机械设备设置隔声罩、导轨采用弹性固定件、所有结构连接处设置氯丁橡胶垫。
 
-**Transformer hum:** Magnetostriction in transformer cores produces a characteristic 100 Hz hum (at 50 Hz supply, 120 Hz at 60 Hz). Very difficult to attenuate due to low frequency. Mitigation: vibration-isolated transformer pad, distance from occupied spaces (minimum 5 m), acoustic enclosure if necessary.
+**变压器嗡声：** 变压器铁芯的磁致伸缩会产生特征性的 100 Hz 嗡声（50 Hz 供电时；60 Hz 供电时为 120 Hz）。因频率低而极难衰减。控制措施：变压器基础隔振、与有人使用空间保持距离（至少 5 m），必要时设置隔声罩。
 
-**Rainwater on lightweight roofs:** Heavy rainfall on metal roofs or rooflights can produce 65–80 dB internally. Mitigation: mass layer beneath the metal cladding (minimum 10 kg/m² — for example, 2 layers of 12.5 mm plasterboard), acoustic insulation in the roof build-up, or a timber/concrete deck beneath the metal cladding.
-
----
-
-## Section 6: Acoustic Design Process
-
-A systematic acoustic design process ensures that acoustic requirements are addressed early, when design changes are inexpensive, rather than as remedial fixes after construction.
-
-### 6.1 Step 1: Establish Acoustic Criteria
-
-Draw acoustic criteria from the project brief, applicable building regulations, planning conditions, and relevant standards. For each space type, define:
-- Internal ambient noise target (NR/NC or dB LAeq)
-- Reverberation time target (RT60)
-- Sound insulation targets to adjacent spaces (STC/Rw and IIC/Ln,w)
-- Any specialist criteria (STI for speech, concert hall parameters C80/D50/G)
-
-Reference standards: BS 8233 (UK), BB93 (schools), HTM 08-01 (healthcare), IBC Chapter 12 (US), ANSI S12.60 (classrooms), ASHRAE Applications Handbook (mechanical noise), BCO Guide (offices).
-
-### 6.2 Step 2: Identify Noise Sources and Sensitive Receivers
-
-Map all noise sources (external: roads, railways, aircraft, industry; internal: plant rooms, kitchens, entertainment venues, lift shafts) and all noise-sensitive spaces (bedrooms, classrooms, concert halls, recording studios, wards). Assess the noise climate through environmental noise surveys (minimum 24-hour LAeq measurement at the most exposed facade positions). Identify critical adjacencies where high-noise and noise-sensitive spaces share a common boundary.
-
-### 6.3 Step 3: Design Sound Insulation
-
-Select facade, partition, and floor constructions to achieve the required sound insulation for each critical adjacency. Consider:
-- Direct airborne insulation of the separating element
-- Impact insulation of floors
-- Flanking paths through junctions, services, and structure
-- Composite insulation of facades (wall + window + ventilator)
-- Ventilation strategy and its acoustic implications
-
-### 6.4 Step 4: Design Room Acoustics
-
-For each acoustically significant space, design the room shape, volume, and surface treatments:
-- Calculate required absorption area from Sabine equation using RT60 target and room volume
-- Select absorption materials and locations (walls, ceiling, furnishings)
-- Address room shape hazards (flutter echoes, focusing, long-delayed reflections)
-- For performance spaces: design early reflection patterns, stage acoustics, coupled volumes
-- For open-plan offices: design spatial sound decay (ceiling absorption, screens, background masking)
-
-### 6.5 Step 5: Specify Mechanical Noise Limits
-
-Include acoustic specifications in the mechanical services brief:
-- Maximum NR/NC in each occupied space from all building services combined
-- Vibration isolation requirements for all rotating/reciprocating equipment
-- Duct attenuation requirements (lined duct lengths, silencer insertion loss)
-- Breakout noise limits for ductwork passing through/above sensitive spaces
-- Noise limits for terminal devices (diffusers, grilles, fan coil units, VAV boxes)
-
-### 6.6 Step 6: Detail Junctions to Prevent Flanking
-
-At each junction between the separating element and flanking elements (floor-to-wall, wall-to-external wall, wall-to-ceiling), specify construction details that minimize flanking:
-- Structural breaks or flexible joints at party wall lines
-- Edge isolation strips for floating floors at all wall perimeters
-- Full-height party wall extending through ceiling void to structural soffit
-- Acoustic barriers in raised floor voids at party wall lines
-- Acoustic sealing of all service penetrations (fire-rated acoustic sealant)
-- Staggered electrical socket positions (minimum 200 mm offset, never back-to-back)
-
-### 6.7 Step 7: Site Testing and Commissioning
-
-Pre-completion acoustic testing validates design performance:
-
-**Sound insulation testing** — Airborne: ISO 16283-1 / ASTM E336 (field measurement of DnT,w or FSTC). Impact: ISO 16283-2 / ASTM E1007 (field measurement of L'nT,w or FIIC). Minimum sample: 10% of each separating element type (ADE Part E requires specific sampling). Failed tests require remedial work (additional board layers, sealing of gaps, replacement of defective installations).
-
-**Reverberation time measurement** — ISO 3382-2 (ordinary rooms). Measured in unoccupied, furnished condition. Impulse source (starter pistol, balloon burst, or dodecahedral loudspeaker with MLS/sweep excitation) and omnidirectional microphone at multiple positions.
-
-**Background noise measurement** — All mechanical systems operating at typical load. NR/NC determined from octave-band sound pressure levels at representative positions.
-
-**Environmental noise measurement** — Facade sound insulation: ISO 16283-3 (loudspeaker method or traffic noise method). Verification that internal noise levels meet planning condition targets.
-
-**Commissioning protocol:** Measure at minimum 3 positions per room; average results; compare to criteria; identify deficiencies and prescribe remediation before handover. Acoustic commissioning should be a hold point — occupation should not proceed until acoustic criteria are verified as met.
+**轻型屋面的雨噪声：** 大雨落在金属屋面或采光顶上可在室内产生 65–80 dB 的噪声。控制措施：在金属板下增设质量层（至少 10 kg/m²，例如两层 12.5 mm 石膏板）、在屋面构造中设置吸隔声保温层，或在金属板下设置木质／混凝土屋面板。
 
 ---
 
-## Section 7: Acoustic Design by Building Type
+## 第 6 节：声学设计流程
 
-### 7.1 Residential
+系统的声学设计流程可确保在设计变更成本较低的早期解决声学要求，而非在施工后作为补救措施处理。
 
-Residential acoustic design prioritizes sleep protection (bedroom ambient ≤30 dB LAeq, party wall STC ≥50, party floor IIC ≥50) and freedom from neighbour noise. Key decisions: party wall construction (mass or lightweight), floor build-up (floating screed or floating timber), facade insulation (particularly on noise-exposed sites), and ventilation strategy (MVHR preserves facade insulation; openable windows do not). Flanking details at junctions between party elements and flanking structure are the most common cause of complaints. Internal noise from lifts, pumps, and communal plant must meet NR 25 in bedrooms. Plumbing noise from adjacent units (flushing, water hammer) requires acoustic pipe clips, flow velocity limits, and isolation of soil stacks in party walls.
+### 6.1 步骤 1：确定声学准则
 
-### 7.2 Education (Schools and Universities)
+从项目任务书、适用建筑法规、规划条件及相关标准中提取声学准则。对每种空间类型，明确：
+- 室内环境噪声目标（NR／NC 或 dB LAeq）。
+- 混响时间目标（RT60）。
+- 与相邻空间的隔声目标（STC／Rw 和 IIC／Ln,w）。
+- 专项准则（言语 STI、音乐厅参数 C80／D50／G）。
 
-BB93 (UK) and ANSI S12.60 (US) govern school acoustics. Classroom RT60 ≤ 0.6 s (furnished, unoccupied) is mandatory — this typically requires an acoustic ceiling tile (NRC ≥ 0.85) across 80–100% of the ceiling area plus absorption on the upper rear wall. Ambient noise target: 35 dB LAeq in teaching spaces (BB93 indoor ambient noise levels table). STC 50 between classrooms. Music rooms require STC 60+ separation from adjacent teaching spaces, with isolated floating floors and independent ceilings. Open-plan teaching areas require spatial sound decay rate D2,S ≥ 7 dB and speech privacy measures. Sports halls need RT60 ≤ 1.5 s with robust, impact-resistant acoustic panels.
+参考标准：BS 8233（英国）、BB93（学校）、HTM 08-01（医疗）、IBC 第 12 章（美国）、ANSI S12.60（教室）、ASHRAE Applications Handbook（机械噪声）、BCO Guide（办公建筑）。
 
-### 7.3 Healthcare
+### 6.2 步骤 2：识别噪声源与敏感接收者
 
-HTM 08-01 (UK) provides acoustic requirements for healthcare premises. Priorities: speech privacy between consulting rooms and wards (STC 50 minimum), sleep protection in patient rooms (ambient ≤ 30 dB LAeq night), and acoustic clarity for clinical communication. MRI scanner rooms require exceptional vibration isolation (the scanner generates strong magnetic fields and is extremely sensitive to vibration; the room structure must also contain the scanner's acoustic noise output, which can reach 110 dB). Operating theatres require NR 35–40 and STC 55 from adjacent spaces. NICU (neonatal intensive care) environments target ≤ 40 dB LAeq and ≤ 55 dB LAmax to protect vulnerable infants.
+绘制所有噪声源（外部：道路、铁路、飞机、工业；内部：设备房、厨房、娱乐场所、电梯井）和全部噪声敏感空间（卧室、教室、音乐厅、录音室、病房）。通过环境噪声调查评估噪声环境（在最暴露立面位置至少进行 24 小时 LAeq 测量）。识别高噪声空间与敏感空间共用边界的关键相邻关系。
 
-### 7.4 Commercial Offices
+### 6.3 步骤 3：设计隔声系统
 
-BCO (British Council for Offices) Guide to Specification defines office acoustic criteria. Open-plan offices: RT60 0.5–0.8 s, spatial decay D2,S ≥ 7 dB (achieved through high-NRC ceiling tiles, absorbent screens between workstations, and carpet). Background noise NR 35–40 (some masking is beneficial in open plan — too quiet and speech from colleagues is more distracting). Cellular offices: STC 45 between adjacent offices, STC 50 to boardrooms. Meeting rooms: NR 30, STC 50 from adjacent spaces, RT60 0.4–0.7 s. Teleconference/video conference rooms: lower RT60 (0.3–0.5 s) to avoid remote-end echo and ensure speech clarity for distant participants.
+选择立面、隔墙和楼板构造，以满足每个关键相邻关系的隔声要求。应考虑：
+- 分隔构件的直接空气声隔声。
+- 楼板的撞击声隔声。
+- 经节点、设备和结构的侧向传声路径。
+- 立面的组合隔声（墙 + 窗 + 通风器）。
+- 通风策略及其声学影响。
 
-### 7.5 Hotels
+### 6.4 步骤 4：设计室内声学
 
-Hotels demand premium acoustic performance because guests pay for comfort and sleep. Party wall STC 55 / Rw 53 minimum (STC 60+ for luxury). Party floor IIC 55 / Ln,w ≤ 48 minimum. Corridor-to-room STC 50 with acoustic door seals (door itself STC 35–40, perimeter gaskets, automatic door bottom seal). Bathroom plumbing noise is a major complaint source: back-to-back bathroom configurations should be avoided; where unavoidable, install heavy masonry or double-frame walls between bathrooms. Lift motor rooms should not be adjacent to guest rooms; where they are, provide full vibration isolation and acoustic enclosure. HVAC: fan coil units at NR 25 in guest rooms (specify low-noise units with insulated casings).
+对每个声学重要空间，设计房间形状、体积和表面处理：
+- 根据 RT60 目标和房间体积，使用 Sabine 公式计算所需吸声面积。
+- 选择吸声材料和布置位置（墙面、顶棚、家具）。
+- 处理房间形状风险（颤动回声、聚焦、长延迟反射）。
+- 对演出空间，设计早期反射模式、舞台声学和耦合体积。
+- 对开放办公区，设计空间声衰减（顶棚吸声、屏风、背景掩蔽）。
 
-### 7.6 Performance Venues (Concert Halls, Theatres, Cinemas)
+### 6.5 步骤 5：规定机械噪声限值
 
-Concert halls require the most sophisticated acoustic design of any building type. Volume per seat (8–11 m³), room shape (shoebox, vineyard, or hybrid), early reflection patterns, reverberation time (1.8–2.2 s for orchestral), stage acoustics (ensemble hearing, ST1 = −12 to −14 dB), and background noise (NR 20 maximum) must all be optimized simultaneously. The room is the instrument — every surface contributes to the acoustic character. Theatres require lower RT60 (0.7–1.0 s for drama, 1.0–1.4 s for musical theatre) to support unamplified speech. Cinemas require very low RT60 (0.4–0.6 s) and extraordinary inter-auditorium insulation (STC 65+ between adjacent auditoria to prevent low-frequency bleed from action films).
+在机械设备任务书中纳入声学规定：
+- 各有人使用空间中全部建筑设备综合产生的最大 NR／NC。
+- 所有旋转／往复设备的隔振要求。
+- 风管衰减要求（内衬风管长度、消声器插入损失）。
+- 穿越／位于敏感空间上方的风管透射噪声限值。
+- 末端设备（散流器、风口、风机盘管、VAV 箱）的噪声限值。
 
-### 7.7 Worship Spaces
+### 6.6 步骤 6：细化节点以防止侧向传声
 
-Worship acoustics vary dramatically with liturgical tradition. Reverberant traditions (Catholic, Anglican, Orthodox) benefit from long RT60 (2.0–4.0 s) that supports choral music, organ, and a sense of transcendence — but at the cost of speech clarity. Speech-focused traditions (evangelical, reformed) require shorter RT60 (0.8–1.2 s) for sermon intelligibility, often with sound reinforcement. Multi-use worship spaces may employ variable acoustics (motorized curtains, rotating wall panels, coupled volumes) to serve both modes. Bell towers and organ installations require vibration isolation from the main worship space to prevent structural transmission of very high sound levels.
+在分隔构件与侧向构件的每个交接处（楼板—墙、墙—外墙、墙—顶棚），应规定将侧向传声降至最低的构造细节：
+- 分户墙线处的结构断开或柔性接缝。
+- 浮筑楼面在全部墙周的边缘隔离条。
+- 分户墙穿过吊顶空腔并延伸至结构板底。
+- 分户墙线处架空地板空腔内的声学隔断。
+- 所有设备穿孔的声学密封（防火声学密封胶）。
+- 电气插座错位布置（偏移至少 200 mm，绝不背靠背）。
 
-### 7.8 Industrial and Manufacturing
+### 6.7 步骤 7：现场测试与调试
 
-Industrial acoustics focus on hearing conservation (occupational noise exposure limits: 85 dB LAeq,8h per OSHA / 80 dB LAeq,8h per EU Directive 2003/10/EC) and environmental noise impact on neighbours. Strategies: source control (quieter machinery, vibration-isolated mounts), path control (acoustic enclosures around noisy equipment, barriers between noise sources and workers), receiver protection (hearing protection zones, acoustic refuges for rest breaks). Environmental noise from industrial sites is controlled through building envelope specification (acoustic cladding systems Rw 35–45 dB), attenuated ventilation openings, and operational management (restricted hours for noisiest activities).
+竣工前声学测试用于验证设计性能：
 
-### 7.9 Mixed-Use Developments
+**隔声测试**——空气声：ISO 16283-1 ／ ASTM E336（DnT,w 或 FSTC 现场测量）。撞击声：ISO 16283-2 ／ ASTM E1007（L'nT,w 或 FIIC 现场测量）。最低抽样量：每种分隔构件类型的 10%（ADE Part E 规定特定抽样要求）。测试失败须实施补救措施（增加板层、密封缝隙、更换有缺陷的安装）。
 
-Mixed-use buildings present the most complex acoustic challenges because they combine noise-generating uses (restaurants, bars, gyms, retail, plant rooms) with noise-sensitive uses (residential, hotel, offices) in a single structure. The critical design decisions are:
+**混响时间测量**——ISO 3382-2（普通房间）。应在无人、已配家具的状态下测量。采用脉冲声源（发令枪、爆破气球，或以 MLS／扫频激励的十二面体扬声器）及多个位置的全向麦克风。
 
-- **Vertical stacking strategy:** Never place noise-sensitive spaces directly above or below noise-generating spaces if avoidable. If unavoidable, provide exceptional floor/ceiling insulation (STC 65+, IIC 65+) with structural isolation (floating floor + independent ceiling + structural break).
-- **Horizontal separation:** Provide acoustic buffer zones (corridors, stores, service risers) between noise-generating and noise-sensitive spaces.
-- **Structural isolation:** In extreme cases (nightclub below residential), provide a completely independent structure — a room-within-a-room on vibration isolation mounts, structurally separated from the residential structure above.
-- **Amplified music assessment:** Low-frequency bass energy (63 Hz, 125 Hz) from amplified entertainment venues travels through structure far more effectively than mid/high frequency sound. Standard STC/Rw ratings, which emphasize mid-frequency performance, underestimate bass transmission. Use the Ctr spectrum adaptation term and/or octave-band analysis to assess low-frequency insulation requirements.
-- **Operational management:** Acoustic conditions should be specified in commercial leases (maximum noise levels at the boundary with residential, hours of operation, requirement for limiter on PA systems).
+**背景噪声测量**——全部机械系统在典型负荷下运行，在代表性位置根据倍频程声压级确定 NR／NC。
 
-### 7.10 Acoustic Remediation in Existing Buildings
+**环境噪声测量**——立面隔声按 ISO 16283-3（扬声器法或交通噪声法）。验证室内噪声级是否满足规划条件目标。
 
-When acoustic problems are identified in existing buildings, remediation options are constrained by the existing construction:
+**调试流程：** 每个房间至少测量 3 个位置，取平均结果并与准则比对；识别缺陷并在移交前规定补救措施。声学调试应作为停检点——在验证满足声学准则前不得投入使用。
 
-**Adding mass to existing walls/floors:** Adhesive-bonded or mechanically-fixed additional board layers (15–25 mm acoustic plasterboard) can add 3–6 dB to an existing partition. Cost-effective but limited improvement.
+---
 
-**Independent lining systems:** A new stud frame built clear of the existing wall (10–25 mm gap), with mineral wool in the cavity and 2 layers of gypsum board. Adds 10–15 dB but costs floor area (100–150 mm total build-out per wall face).
+## 第 7 节：按建筑类型开展声学设计
 
-**Floating floor overlays:** Thin resilient mat (5–10 mm) with overlay board (18 mm plywood or acoustic flooring system). Limited impact improvement (5–10 dB IIC). Thicker systems (25 mm resilient layer + 50 mm screed) provide better performance (15–20 dB IIC) but raise the floor level significantly.
+### 7.1 住宅
 
-**Suspended ceiling addition:** New suspended ceiling below an existing ceiling, on spring hangers with mineral wool in the void. Adds 8–12 dB airborne and 5–10 dB impact. Reduces room height.
+住宅声学设计优先保护睡眠（卧室环境噪声 ≤30 dB LAeq、分户墙 STC ≥50、分户楼板 IIC ≥50）并避免邻里噪声干扰。关键决策包括：分户墙构造（重质或轻质）、楼板做法（浮筑找平层或浮筑木地板）、立面隔声（尤其是噪声暴露场地）及通风策略（MVHR 可维持立面隔声，开启窗则不能）。分户构件与侧向结构交接处的侧向传声细节是最常见的投诉原因。电梯、水泵和公用设备产生的室内噪声在卧室须满足 NR 25。相邻住户的给排水噪声（冲厕、水锤）须采用声学管卡、限制流速，并隔离分户墙中的排污立管。
 
-**Sealing gaps and flanking paths:** Often the most cost-effective first intervention. Seal around service penetrations, at skirting board junctions, around window frames, and at junctions between elements. Can recover 3–10 dB of performance lost to air leakage and flanking.
+### 7.2 教育建筑（学校和大学）
+
+BB93（英国）和 ANSI S12.60（美国）规定学校声学要求。教室 RT60 ≤ 0.6 s（有家具、无人状态）为强制要求——通常需要在 80–100% 顶棚面积设置吸声吊顶板（NRC ≥ 0.85），并在后墙上部增加吸声处理。教学空间环境噪声目标为 35 dB LAeq（BB93 室内环境噪声级表）。教室之间要求 STC 50。音乐室与相邻教学空间之间要求 STC 60+，并设隔振浮筑楼面和独立吊顶。开放教学区要求空间声衰减率 D2,S ≥ 7 dB 及言语私密性措施。体育馆需采用坚固耐撞的吸声板，RT60 ≤ 1.5 s。
+
+### 7.3 医疗建筑
+
+HTM 08-01（英国）规定医疗场所的声学要求。重点包括：诊室和病房之间的言语私密性（最低 STC 50）、患者房间的睡眠保护（夜间环境噪声 ≤ 30 dB LAeq）和临床交流的声学清晰度。MRI 扫描室要求特别高的隔振性能（扫描仪产生强磁场且对振动极敏感；房间结构还须控制扫描仪可达 110 dB 的声学噪声输出）。手术室要求 NR 35–40，且与相邻空间之间 STC 55。NICU（新生儿重症监护）环境目标为 ≤ 40 dB LAeq 和 ≤ 55 dB LAmax，以保护脆弱婴儿。
+
+### 7.4 商业办公
+
+BCO（British Council for Offices）Guide to Specification 规定办公声学准则。开放办公区：RT60 为 0.5–0.8 s，空间声衰减 D2,S ≥ 7 dB（通过高 NRC 吊顶板、工位间吸声屏风和地毯实现）。背景噪声为 NR 35–40（开放办公中适度掩蔽有益——环境过安静时同事谈话反而更易分散注意）。独立办公室：相邻办公室之间 STC 45，与董事会议室之间 STC 50。会议室：NR 30、与相邻空间之间 STC 50、RT60 为 0.4–0.7 s。电话／视频会议室：采用较低 RT60（0.3–0.5 s），以避免远端回声并保证远程参会者的言语清晰度。
+
+### 7.5 酒店
+
+酒店要求高标准声学性能，因为宾客为舒适和睡眠付费。分户墙最低为 STC 55 ／ Rw 53（豪华酒店为 STC 60+）；分户楼板最低为 IIC 55 ／ Ln,w ≤ 48。走廊至客房要求 STC 50，并配套声学门密封（门本身 STC 35–40、周边密封条、自动门底密封）。卫生间给排水噪声是主要投诉来源：应避免卫生间背靠背布置；无法避免时，应在卫生间之间设置重质砌体或双排龙骨墙。电梯机房不应毗邻客房；若不可避免，须提供完整隔振和隔声罩。HVAC：客房风机盘管要求 NR 25（应选用带保温外壳的低噪声机组）。
+
+### 7.6 演出场所（音乐厅、剧院、影院）
+
+音乐厅需要所有建筑类型中最精密的声学设计。每座体积（8–11 m³）、房间形状（鞋盒式、葡萄园式或混合式）、早期反射模式、混响时间（交响乐为 1.8–2.2 s）、舞台声学（乐队互听，ST1 = −12 至 −14 dB）和背景噪声（最高 NR 20）均须同时优化。房间本身就是乐器——每一处表面都影响声学特性。剧院需要较低 RT60（话剧 0.7–1.0 s、音乐剧 1.0–1.4 s）以支持非扩声言语。影院要求极低 RT60（0.4–0.6 s）和极高的影厅间隔声（相邻影厅之间 STC 65+，防止动作片低频串音）。
+
+### 7.7 宗教建筑
+
+宗教建筑的声学要求随礼仪传统而显著变化。重混响传统（天主教、圣公会、东正教）受益于较长的 RT60（2.0–4.0 s），以支持合唱、管风琴及超越感——但会牺牲言语清晰度。言语优先的传统（福音派、改革宗）要求较短 RT60（0.8–1.2 s）以保证讲道可懂度，通常配合扩声。多用途宗教空间可采用可变声学（电动帘幕、旋转墙板、耦合体积）以服务两种模式。钟楼和管风琴装置需与主礼拜空间隔振，防止极高声级经结构传递。
+
+### 7.8 工业与制造建筑
+
+工业声学侧重于听力保护（职业噪声暴露限值：按 OSHA 为 85 dB LAeq,8h；按 EU Directive 2003/10/EC 为 80 dB LAeq,8h）及工业噪声对邻近环境的影响。策略包括：声源控制（更低噪声的机械、隔振安装）、传播路径控制（高噪声设备隔声罩、噪声源与工人之间的屏障）及接收者保护（听力防护区、供休息的声学避难空间）。工业场地的环境噪声通过建筑围护规定（Rw 35–45 dB 的隔声围护系统）、消声通风开口和运行管理（限制最高噪声活动时段）加以控制。
+
+### 7.9 混合功能开发项目
+
+混合功能建筑将产生噪声的业态（餐厅、酒吧、健身房、零售、设备房）和对噪声敏感的业态（住宅、酒店、办公）组合在同一结构中，因此面临最复杂的声学挑战。关键设计决策包括：
+
+- **垂直叠置策略：** 如可避免，绝不将敏感空间直接布置在噪声空间上方或下方。若无法避免，应采用高性能楼板／顶棚隔声（STC 65+、IIC 65+）及结构隔离（浮筑楼面 + 独立吊顶 + 结构断开）。
+- **水平分隔：** 在噪声空间与敏感空间之间设置声学缓冲区（走廊、库房、设备竖井）。
+- **结构隔离：** 在极端情形（如住宅下方设夜总会）中，设置完全独立的结构——在隔振支座上的“房中房”，与上部住宅结构脱开。
+- **扩声音乐评估：** 娱乐场所的扩声低频低音能量（63 Hz、125 Hz）经结构传递的效率远高于中高频声音。强调中频性能的常规 STC／Rw 评级会低估低频传递，应采用 Ctr 频谱修正项和／或倍频程分析评估低频隔声要求。
+- **运营管理：** 商业租约中应规定声学条件（与住宅交界处的最高噪声级、营业时间、PA 系统限声器要求）。
+
+### 7.10 既有建筑声学整治
+
+既有建筑发现声学问题时，整治方案受现有构造条件制约：
+
+**为既有墙体／楼板增加质量：** 胶粘或机械固定附加板层（15–25 mm 隔声石膏板）可为既有分隔构件增加 3–6 dB。成本效益较高，但改善有限。
+
+**独立衬墙系统：** 在既有墙体外侧留出 10–25 mm 间隙新建龙骨框架，空腔填矿棉并设置两层石膏板。可增加 10–15 dB，但会占用面积（每面墙总增厚 100–150 mm）。
+
+**浮筑楼面叠加层：** 采用薄弹性垫（5–10 mm）加面层板（18 mm 胶合板或声学地板系统）。撞击声改善有限（5–10 dB IIC）。较厚系统（25 mm 弹性层 + 50 mm 找平层）可提供更好性能（15–20 dB IIC），但会显著抬高地面标高。
+
+**增设吊顶：** 在既有顶棚下以弹簧吊件新设吊顶，空腔内填矿棉。可增加 8–12 dB 空气声隔声和 5–10 dB 撞击声改善量，但会降低房间净高。
+
+**密封缝隙和侧向传声路径：** 往往是性价比最高的首项干预。密封设备穿孔、踢脚线节点、窗框周边及构件交接处，可恢复因漏气和侧向传声损失的 3–10 dB 性能。

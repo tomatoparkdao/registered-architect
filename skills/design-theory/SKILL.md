@@ -1,402 +1,402 @@
 ---
 name: design-theory
-description: Architectural movements, design philosophy, critical theory, precedent analysis, and compositional principles for informed design reasoning
+description: 建筑运动、设计哲学、批判理论、先例分析和构图原则，用于形成有依据的设计推理
 user-invocable: true
 ---
 
-# Design Theory
+# 设计理论
 
-Comprehensive knowledge base for architectural design philosophy, critical theory, compositional principles, precedent analysis methodology, and design critique frameworks. Invoke this skill when addressing questions about design philosophy, architectural movements, theoretical underpinnings of design decisions, or structured critique of architectural proposals.
-
----
-
-## Section 1: Architectural Design Philosophies
-
-### 1.1 Rationalism — Structure as Expression
-
-Rationalism holds that architectural form should derive from logical structural and programmatic reasoning. The building's truth lies in its clarity of organization and the honest expression of its constructive logic.
-
-**Core Tenets:**
-- Form follows structural logic and material behavior
-- Spatial order derives from geometric and mathematical systems
-- Ornament is secondary to tectonic clarity
-- Repetition and modular coordination create visual coherence
-
-**Key Figures:** Auguste Perret, Pier Luigi Nervi, Louis Kahn, Aldo Rossi, Giorgio Grassi
-
-**Canonical Works:**
-- Kimbell Art Museum (Kahn, 1972) — cycloid vault shells spanning 30.5 m (100 ft), natural light slits at vault crowns
-- Palazzetto dello Sport, Rome (Nervi, 1957) — 58.5 m diameter ribbed dome, 1,620 precast concrete V-elements
-- Gallaratese Housing, Milan (Rossi, 1974) — archetypal column-and-lintel repetition, 182 m long block
-
-**Design Application:** Begin with the structural bay as the generative unit. Derive spatial hierarchy from column grid spacing (typically 6.0 m, 7.5 m, 9.0 m, or 10.8 m grids in reinforced concrete). Express the load path visually. Eliminate non-structural partitions where possible to reveal the primary order.
-
-### 1.2 Empiricism — Experience-Driven Design
-
-Empiricism prioritizes direct human experience, sensory engagement, and contextual observation over abstract theory. Design decisions arise from studying how people actually inhabit and move through space.
-
-**Core Tenets:**
-- User observation and post-occupancy data drive design
-- Spatial sequences are composed for experiential richness
-- Material selections respond to tactile and visual perception
-- Context (climate, culture, daily rituals) shapes form
-
-**Key Figures:** Alvar Aalto, Ralph Erskine, Jorn Utzon, Herman Hertzberger, Giancarlo De Carlo
-
-**Canonical Works:**
-- Paimio Sanatorium (Aalto, 1933) — patient rooms oriented for morning light, handrail profiles designed for tubercular grip
-- Byker Wall, Newcastle (Erskine, 1974) — 1.6 km perimeter wall shields against north wind, south-facing terraces capture sun
-- Centraal Beheer, Apeldoorn (Hertzberger, 1972) — 9 m x 9 m tartan grid of habitable blocks, 1,000 employees given agency over individual workspace configuration
-
-**Design Application:** Conduct behavioral mapping during programming. Walk the site at dawn, midday, and dusk. Photograph existing pedestrian desire lines. Record ambient sound levels (target < 35 dB in work areas, < 45 dB in circulation). Document prevailing wind direction and velocity. Let these observations generate the parti rather than imposing a geometric diagram.
-
-### 1.3 Phenomenology — Atmosphere, Body, Perception
-
-Phenomenological architecture foregrounds the lived experience of space — the qualities of light, material, temperature, sound, and movement that constitute atmosphere. Architecture is understood through the sensing body rather than the detached eye.
-
-**Core Tenets:**
-- Architecture is experienced multi-sensorially, not just visually
-- Atmosphere is a legitimate design objective (Zumthor's "architectural atmosphere")
-- Materials are valued for their tactile and temporal qualities (patina, weathering, warmth)
-- Thresholds, transitions, and spatial compression-expansion sequences shape experience
-- The body in motion is the measure of space
-
-**Key Figures:** Martin Heidegger (philosophical ground), Christian Norberg-Schulz, Juhani Pallasmaa, Peter Zumthor, Steven Holl, Alberto Campo Baeza
-
-**Canonical Works:**
-- Therme Vals (Zumthor, 1996) — local Vals gneiss quartzite in 31 mm, 47 mm, and 63 mm courses; water temperature progression from 14 C to 42 C; sound of water as spatial marker
-- Chapel of St. Ignatius, Seattle (Holl, 1997) — seven "bottles of light" in different colors for liturgical program; beeswax-finished walls
-- Bruder Klaus Field Chapel, Mechernich (Zumthor, 2007) — 12 m tall truncated cone, 112 tree trunks burned out to form interior surface, oculus open to rain and sky
-
-**Design Application:** Compose spatial sequences as atmospheric scores. Map the visitor's journey through compression (2.4 m ceiling) to expansion (6.0 m+). Specify materials by touch: rough-sawn timber vs. honed stone vs. brushed steel. Design light as a material — calculate the sun's path and place apertures to create specific light conditions at specific times. Target a minimum of 3 sensory engagements per major space (visual, tactile, acoustic).
-
-### 1.4 Pragmatism — Performance-Driven Design
-
-Pragmatism evaluates architecture by how well it works: functionally, economically, environmentally, and socially. Performance metrics replace aesthetic judgment as the primary design criterion.
-
-**Core Tenets:**
-- Measurable performance outcomes drive design decisions
-- Life-cycle cost analysis (LCCA) over 30-60 year horizons determines material and system selection
-- Energy Use Intensity (EUI) targets are set at project inception (e.g., < 100 kBtu/ft2/yr for offices)
-- Post-Occupancy Evaluation (POE) validates or refutes design hypotheses
-- Iterative prototyping and testing replace singular design gestures
-
-**Key Figures:** Buckminster Fuller, Cedric Price, Norman Foster, Renzo Piano, Bjarke Ingels
-
-**Canonical Works:**
-- Centre Pompidou, Paris (Piano + Rogers, 1977) — all services externalized to free 7,500 m2 column-free floors, 48 m clear spans
-- 30 St Mary Axe "Gherkin," London (Foster, 2004) — diagrid structure reduces steel by 21% vs. conventional frame, natural ventilation for 40% of occupied hours
-- VIA 57 West, New York (BIG, 2016) — courtyard-tower hybrid maximizes air and light while achieving 76,180 m2 (820,000 ft2) residential GFA on a constrained site
-
-**Design Application:** Establish quantitative performance targets before sketching: target EUI, daylight factor (minimum 2% in occupied spaces), ventilation rates (ASHRAE 62.1: 8.5 L/s per person for offices), structural efficiency (kg steel/m2), and cost/m2. Use energy modeling (EnergyPlus, IES VE) from concept stage. Evaluate every design move against these metrics.
-
-### 1.5 Critical Regionalism — Frampton's Six Points
-
-Kenneth Frampton's 1983 essay "Towards a Critical Regionalism" argues for an architecture that resists both the placelessness of universal modernism and the sentimentality of historicism.
-
-**Frampton's Six Points:**
-1. **Culture vs. Nature:** Architecture mediates between the universalizing tendency of civilization and the particularities of local culture
-2. **The Rise and Fall of the Avant-Garde:** Resist rear-guard historicism and avant-garde abstraction equally
-3. **Critical Regionalism and World Culture:** Adopt universal technique but inflect it with local conditions
-4. **The Resistance of the Place-Form:** Ground architecture in topography rather than impose upon it (build the site, not on the site)
-5. **Culture vs. Nature (Reprise):** Modulate climate through architectural means — loggias, brise-soleil, cross-ventilation — rather than hermetic mechanical systems
-6. **The Visual vs. the Tactile:** Foreground the tactile (materiality, light, temperature) over the purely visual (the photograph)
-
-**Key Figures:** Kenneth Frampton, Tadao Ando, Glenn Murcutt, Balkrishna Doshi, Geoffrey Bawa, Charles Correa, Sverre Fehn
-
-**Canonical Works:**
-- Bagsvaerd Church, Copenhagen (Utzon, 1976) — concrete shell vaults evoke Danish cloudscape, precast exterior with in-situ interior
-- Marika-Alderton House, Northern Territory (Murcutt, 1994) — operable wall panels for cross-ventilation in tropical climate, raised on steel piers to allow air flow beneath
-- Indian Institute of Management, Ahmedabad (Doshi, 1977/2012 campus) — brick construction responding to Gujarat climate, deep overhangs, stepped terraces, water courts
-
-**Design Application:** Map the site's genius loci: prevailing winds, solar geometry, topographic contours, local building materials within 500 km radius, vernacular construction techniques, and cultural use patterns. Develop the building section as a climate-responsive device before the plan. Use local materials for primary enclosure (target > 60% by weight from regional sources within 800 km per LEED MRc5).
-
-### 1.6 Parametricism — Schumacher's Tenets
-
-Patrik Schumacher's 2008 manifesto declares Parametricism the new epochal style after Modernism, arguing that digital tools enable continuously differentiated, relationally complex architectural and urban fields.
-
-**Core Tenets (Schumacher's Taboos and Dogmas):**
-- **Negative heuristics (taboos):** Avoid rigid geometric primitives (boxes, cylinders), avoid simple repetition, avoid collage of unrelated elements
-- **Positive heuristics (dogmas):** All forms must be soft (nurbs-based), all systems must be interdependent (structure/envelope/program parametrically linked), differentiation must be gradual and lawful (no abrupt transitions)
-
-**Key Figures:** Patrik Schumacher, Zaha Hadid, Greg Lynn, Hernan Diaz Alonso, Neri Oxman, Marc Fornes
-
-**Canonical Works:**
-- Heydar Aliyev Center, Baku (Hadid, 2012) — continuous surface folding from ground to roof to wall, 57,500 m2, GRP panels over space-frame
-- Galaxy SOHO, Beijing (Hadid, 2012) — four continuous volumes with interconnecting bridges, 332,000 m2
-- Morpheus Hotel, Macau (Hadid, 2018) — exoskeleton with free-form voids, 40 stories, 770 rooms
-
-**Design Application:** Define design parameters (site boundary, program areas, solar access, views, structural span) as variable inputs to a computational model (Grasshopper/Dynamo). Establish relationships between parameters (e.g., facade density varies with solar gain — 40% open on north, 15% on west). Generate multiple options through parameter variation. Evaluate with quantitative fitness criteria. The designer's role shifts from form-maker to system-designer.
-
-### 1.7 Ecological Design — Regenerative and Biomimicry
-
-Ecological design moves beyond sustainability (doing less harm) to regenerative design (creating net positive environmental impact). Biomimicry applies nature's 3.8 billion years of evolutionary strategies to architectural problems.
-
-**Core Tenets:**
-- Buildings as ecosystems: produce energy, clean water, sequester carbon, support biodiversity
-- Cradle-to-Cradle material philosophy: all materials are either biological nutrients (compostable) or technical nutrients (infinitely recyclable)
-- Living Building Challenge 4.0: seven performance areas (place, water, energy, health, materials, equity, beauty) — the most stringent green building standard
-- Biomimicry design spiral: identify function, biologize question, discover natural models, abstract design principles, emulate
-
-**Key Figures:** William McDonough, Janine Benyus, Ken Yeang, Michael Pawlyn, Neri Oxman, Bill Reed
-
-**Canonical Works:**
-- Bullitt Center, Seattle (Miller Hull, 2013) — net-zero energy, net-zero water, composting toilets, 242 photovoltaic panels, 14.2 kBtu/ft2/yr EUI
-- Eastgate Centre, Harare (Pearce, 1996) — termite-mound-inspired passive ventilation, 90% less energy than conventional AC in sub-Saharan climate
-- Bosco Verticale, Milan (Boeri, 2014) — 900 trees, 5,000 shrubs, 11,000 perennial plants on two towers (110 m and 76 m), equivalent to 20,000 m2 of forest
-
-**Design Application:** Set regenerative targets: net-positive energy (produce 105% of consumption), net-positive water (harvest > consumption + 10% for habitat), carbon sequestration (use mass timber, hempcrete, or biochar concrete to store > embodied carbon within 30 years). Use the Biomimicry Design Spiral at concept stage: what function does this building need to perform? How does nature achieve this function? Abstract the principle and apply it.
-
-### 1.8 Social Architecture — Participation, Equity, Community Agency
-
-Social architecture foregrounds the political and social dimensions of design: who designs, who is designed for, who benefits, and who is displaced.
-
-**Core Tenets:**
-- Participatory design processes (not just consultation but genuine co-design)
-- Design justice: center the voices of those most impacted by design decisions
-- Incremental development: design frameworks that communities can build out over time
-- Commons and shared spaces as priorities over private enclosure
-- Anti-displacement strategies: community land trusts, inclusive zoning, affordable unit integration
-
-**Key Figures:** Giancarlo De Carlo, Hassan Fathy, Alejandro Aravena, Yasmeen Lari, Francis Kere, Anna Heringer, Teddy Cruz
-
-**Canonical Works:**
-- Quinta Monroy, Iquique (Aravena/ELEMENTAL, 2004) — half-houses at $7,500 each, 93 families, incremental design allowing residents to expand from 36 m2 to 72 m2
-- Gando Primary School, Burkina Faso (Kere, 2001) — community-built with local laterite clay, raised corrugated metal roof for stack-effect ventilation, $50,000 budget
-- METI School, Rudrapur (Heringer, 2006) — bamboo and earth construction, built by local craftspeople and students, cave-like ground floor, open bamboo upper floor
-
-**Design Application:** Conduct community asset mapping before design begins. Hold minimum 3 participatory workshops per project phase. Use 1:1 mock-ups for critical spatial decisions. Design 15-20% of spaces as flexible commons adaptable to community-determined uses. Establish a post-occupancy community stewardship plan. Budget for community capacity building (training local labor in construction techniques).
+建筑设计哲学、批判理论、构图原则、先例分析方法和设计评析框架的综合知识库。涉及设计哲学、建筑运动、设计决策的理论基础或建筑方案的结构化评析时调用本技能。
 
 ---
 
-## Section 2: Design Thinking Frameworks
+## 第 1 节：建筑设计哲学
 
-### 2.1 RIBA Plan of Work 2020 — Stages 0-7
+### 1.1 理性主义——结构作为表达
 
-The Royal Institute of British Architects (RIBA) Plan of Work organizes the design and construction process into eight stages. Each stage has defined deliverables, responsibilities, and information exchanges.
+理性主义认为建筑形态应源于合乎逻辑的结构和功能推理。建筑的真实性体现在组织清晰，以及对建造逻辑的诚实表达。
 
-**Stage 0 — Strategic Definition**
-- Define project aspirations and desired outcomes
-- Identify site constraints and opportunities
-- Prepare Strategic Brief (client requirements at strategic level)
-- Conduct initial feasibility study (order-of-magnitude cost: +/- 40%)
-- Key deliverables: Strategic Brief, Project Execution Plan, initial Business Case
+**核心原则：**
+- 形态遵循结构逻辑和材料行为。
+- 空间秩序源于几何和数学系统。
+- 装饰次于建构清晰性。
+- 重复和模数协调创造视觉统一。
 
-**Stage 1 — Preparation and Briefing**
-- Develop Project Brief with detailed spatial requirements (area schedule per room)
-- Conduct site surveys: topographic (1:200), geotechnical (minimum 3 boreholes), environmental (Phase 1 desk study)
-- Establish project budget (cost plan to +/- 25%)
-- Define sustainability targets (BREEAM/LEED/WELL rating target)
-- Key deliverables: Project Brief, Site Information, Project Budget, Feasibility Studies
+**重要人物：** Auguste Perret、Pier Luigi Nervi、Louis Kahn、Aldo Rossi、Giorgio Grassi
 
-**Stage 2 — Concept Design**
-- Develop architectural concept (parti diagram, massing, spatial strategy)
-- Outline structural strategy (material, grid, span ranges)
-- Outline services strategy (HVAC approach, electrical distribution)
-- Preliminary cost plan (+/- 15%)
-- Key deliverables: Concept Design drawings (1:500/1:200), Outline Specification, Cost Plan 1, Planning Strategy
+**代表作品：**
+- Kimbell Art Museum（Kahn，1972）——跨度 30.5 m（100 ft）的旋轮线拱壳，拱顶设自然采光缝。
+- Palazzetto dello Sport, Rome（Nervi，1957）——直径 58.5 m 的肋状穹顶，由 1,620 个预制混凝土 V 形构件组成。
+- Gallaratese Housing, Milan（Rossi，1974）——原型化柱梁体系的重复，建筑体长 182 m。
 
-**Stage 3 — Spatial Coordination**
-- Coordinate all design disciplines in 3D model (BIM Level 2 minimum)
-- Resolve all spatial conflicts (MEP routing through structural zones)
-- Confirm all room layouts and adjacencies at 1:100/1:50
-- Submit planning application (if applicable)
-- Key deliverables: Spatially Coordinated Design, updated Cost Plan 2 (+/- 10%), Planning Application
+**设计应用：**以结构开间作为生成单元。根据柱网间距推导空间层级（钢筋混凝土通常采用 6.0 m、7.5 m、9.0 m 或 10.8 m 柱网）。以视觉方式表达荷载路径。在可能的情况下取消非结构隔断，以揭示主要秩序。
 
-**Stage 4 — Technical Design**
-- Develop all construction details (1:20, 1:10, 1:5, 1:1)
-- Specify all materials, products, and finishes (NBS specifications)
-- Complete structural calculations and MEP sizing
-- Prepare construction issue drawings
-- Key deliverables: Technical Design package, Specifications, Cost Plan 3 (+/- 5%), Building Regulations submission
+### 1.2 经验主义——体验驱动的设计
 
-**Stage 5 — Manufacturing and Construction**
-- Administer construction contract
-- Review shop drawings and submittals
-- Conduct regular site inspections (weekly minimum)
-- Issue Architect's Instructions for variations
-- Key deliverables: Site inspection reports, Architect's Instructions, Practical Completion Certificate
+经验主义将直接的人体体验、感官参与和场地观察置于抽象理论之上。设计决策源于对人们实际使用和穿行空间方式的研究。
 
-**Stage 6 — Handover**
-- Defects inspection and snagging list
-- Compile O&M manuals and as-built drawings
-- Commission building systems (HVAC, fire alarm, BMS)
-- Conduct initial post-occupancy walkthrough
-- Key deliverables: Defects List, Building Manual, Final Certificate
+**核心原则：**
+- 用户观察和使用后数据驱动设计。
+- 为丰富体验而组织空间序列。
+- 材料选择回应触觉和视觉感知。
+- 场地语境（气候、文化、日常仪式）塑造形态。
 
-**Stage 7 — Use**
-- Post-Occupancy Evaluation at 12 months and 36 months
-- Facilities management support
-- Feedback for future projects
-- Key deliverables: POE Report, Lessons Learned
+**重要人物：** Alvar Aalto、Ralph Erskine、Jorn Utzon、Herman Hertzberger、Giancarlo De Carlo
 
-### 2.2 AIA Phases
+**代表作品：**
+- Paimio Sanatorium（Aalto，1933）——病房朝向晨光，扶手截面专为结核病患者的握持能力设计。
+- Byker Wall, Newcastle（Erskine，1974）——1.6 km 周边墙抵御北风，南向露台获得日照。
+- Centraal Beheer, Apeldoorn（Hertzberger，1972）——由 9 m × 9 m 的可居住单元组成格状网格，1,000 名员工可自主布置个人工作空间。
 
-The American Institute of Architects defines five traditional project phases:
+**设计应用：**在功能策划阶段进行行为制图。于黎明、正午和黄昏步行考察场地。拍摄现有行人惯行路线。记录环境声级（工作区目标 <35 dB，交通区 <45 dB）。记录主导风向和风速。让这些观察生成构思，而不是强加几何图解。
 
-| Phase | Fee % (typical) | Deliverables |
+### 1.3 现象学——氛围、身体与感知
+
+现象学建筑将空间的生活体验置于首位——光线、材料、温度、声音和运动等共同构成氛围的品质。建筑通过感知中的身体而非抽离的视觉来理解。
+
+**核心原则：**
+- 建筑通过多重感官体验，而不只是视觉体验。
+- 氛围是正当的设计目标（Zumthor 的“建筑氛围”）。
+- 材料因其触觉和时间性品质（锈层、风化、温暖感）而具有价值。
+- 门槛、过渡以及空间收缩—扩张序列塑造体验。
+- 运动中的身体是空间的尺度。
+
+**重要人物：** Martin Heidegger（哲学基础）、Christian Norberg-Schulz、Juhani Pallasmaa、Peter Zumthor、Steven Holl、Alberto Campo Baeza
+
+**代表作品：**
+- Therme Vals（Zumthor，1996）——采用当地 Vals 片麻石石英岩，砌层厚 31 mm、47 mm 和 63 mm；水温由 14 C 递进至 42 C；水声作为空间标记。
+- Chapel of St. Ignatius, Seattle（Holl，1997）——为礼仪功能设置七个不同颜色的“光之瓶”，墙面以蜂蜡饰面。
+- Bruder Klaus Field Chapel, Mechernich（Zumthor，2007）——高 12 m 的截锥体，烧除 112 根树干形成内部表面，顶部圆洞向雨水和天空敞开。
+
+**设计应用：**将空间序列组织成氛围乐谱。绘制访客从收缩空间（2.4 m 层高）到扩张空间（6.0 m 以上）的旅程。按触感规定材料：粗锯木材、磨光石材和拉丝钢材。将光作为材料进行设计——计算太阳路径，在特定位置设置开口，以特定时间形成特定光环境。每个主要空间至少设置 3 种感官参与（视觉、触觉、听觉）。
+
+### 1.4 实用主义——性能驱动的设计
+
+实用主义依据建筑的实际运行效果评价建筑：功能、经济、环境和社会表现。性能指标取代审美判断，成为首要设计标准。
+
+**核心原则：**
+- 可测量的性能结果驱动设计决策。
+- 通过 30–60 年周期的生命周期成本分析（LCCA）确定材料和系统选择。
+- 项目启动时设定能源使用强度（EUI）目标（例如办公建筑 <100 kBtu/ft²/年）。
+- 使用后评估（POE）验证或否定设计假设。
+- 迭代式原型和测试取代单一的设计姿态。
+
+**重要人物：** Buckminster Fuller、Cedric Price、Norman Foster、Renzo Piano、Bjarke Ingels
+
+**代表作品：**
+- Centre Pompidou, Paris（Piano + Rogers，1977）——将全部设备外置，释放出 7,500 m2 无柱楼面，净跨 48 m。
+- 30 St Mary Axe “Gherkin”, London（Foster，2004）——斜网格结构较常规框架减少 21% 用钢量，40% 的使用时间采用自然通风。
+- VIA 57 West, New York（BIG，2016）——庭院与塔楼的混合体量，在受限场地上兼顾通风、采光及 76,180 m2（820,000 ft2）的住宅 GFA。
+
+**设计应用：**在草图阶段前建立量化性能目标：EUI 目标、采光系数（使用空间最低 2%）、通风率（ASHRAE 62.1：办公每人 8.5 L/s）、结构效率（kg 钢材/m²）和成本/m²。从概念阶段使用能耗模拟（EnergyPlus、IES VE）。根据这些指标评估每个设计动作。
+
+### 1.5 批判地域主义——Frampton 的六点
+
+Kenneth Frampton 1983 年的论文《走向批判地域主义》主张一种建筑，既抵抗普遍现代主义的无场所性，也抵抗历史主义的感伤性。
+
+**Frampton 的六点：**
+1. **文化与自然：** 建筑调和文明的普遍化趋势与地方文化的特殊性。
+2. **先锋派的兴衰：** 同等抵制保守的历史主义与先锋派的抽象化。
+3. **批判地域主义与世界文化：** 采用普遍技术，但以地方条件赋予其具体特征。
+4. **场所形式的抵抗：** 让建筑扎根地形，而非强加于地形之上（营造场地，而非仅在场地上建造）。
+5. **文化与自然（重述）：** 通过建筑手段——廊柱、遮阳板、穿堂风——调节气候，而非依赖密闭的机械系统。
+6. **视觉与触觉：** 强调触觉（材料性、光、温度）而非纯粹视觉（照片）。
+
+**重要人物：** Kenneth Frampton、Tadao Ando、Glenn Murcutt、Balkrishna Doshi、Geoffrey Bawa、Charles Correa、Sverre Fehn
+
+**代表作品：**
+- Bagsvaerd Church, Copenhagen（Utzon，1976）——混凝土壳体拱顶唤起丹麦云景，外部预制、内部现浇。
+- Marika-Alderton House, Northern Territory（Murcutt，1994）——热带气候中采用可开启墙板实现穿堂风，建筑架设于钢柱上以保证底部气流通行。
+- Indian Institute of Management, Ahmedabad（Doshi，1977/2012 校园）——砖砌建造回应 Gujarat 气候，设深挑檐、层叠露台与水庭院。
+
+**设计应用：**绘制场地的场所精神：主导风、太阳几何、地形等高线、500 km 半径内的地方建筑材料、乡土建造技术和文化使用模式。先于平面将建筑剖面发展为气候响应装置。主要围护采用地方材料（按 LEED MRc5，目标为重量的 >60% 来自 800 km 内区域来源）。
+
+### 1.6 参数主义——Schumacher 的原则
+
+Patrik Schumacher 2008 年的宣言将参数主义称为现代主义之后的新时期风格，认为数字工具能够生成连续差异化且关系复杂的建筑与城市场域。
+
+**核心原则（Schumacher 的禁忌与教条）：**
+- **负向启发式（禁忌）：** 避免僵硬的几何原型（盒体、圆柱体）、简单重复和无关元素的拼贴。
+- **正向启发式（教条）：** 全部形体应为柔性形体（基于 NURBS）；全部系统应相互依存（结构／围护／功能参数化关联）；差异化应渐进且有规律（不得突变）。
+
+**重要人物：** Patrik Schumacher、Zaha Hadid、Greg Lynn、Hernan Diaz Alonso、Neri Oxman、Marc Fornes
+
+**代表作品：**
+- Heydar Aliyev Center, Baku（Hadid，2012）——连续曲面由地面折转至屋顶和墙面，57,500 m2，空间桁架外覆 GRP 面板。
+- Galaxy SOHO, Beijing（Hadid，2012）——四个连续体量以连桥相连，332,000 m2。
+- Morpheus Hotel, Macau（Hadid，2018）——带自由形态孔洞的外骨骼结构，40 层、770 间客房。
+
+**设计应用：**将设计参数（场地边界、功能面积、太阳获取、视线和结构跨度）定义为计算模型（Grasshopper/Dynamo）的变量输入。建立参数之间的关系（例如立面密度随太阳得热变化——北立面开口 40%，西立面 15%）。通过改变参数生成多个方案，以量化适配度标准评估。设计师的角色由形态创造者转向系统设计者。
+
+### 1.7 生态设计——再生与仿生
+
+生态设计超越可持续性（减少伤害），走向再生设计（创造净正环境影响）。仿生将自然 38 亿年的进化策略应用于建筑问题。
+
+**核心原则：**
+- 建筑作为生态系统：产出能源、净化水、固碳并支持生物多样性。
+- 从摇篮到摇篮的材料哲学：所有材料均为生物养分（可堆肥）或技术养分（可无限循环利用）。
+- Living Building Challenge 4.0：涵盖场所、水、能源、健康、材料、公平和美七个性能领域——最严格的绿色建筑标准。
+- 仿生设计螺旋：识别功能、将问题生物化、发现自然模型、抽象设计原理并进行仿效。
+
+**重要人物：** William McDonough、Janine Benyus、Ken Yeang、Michael Pawlyn、Neri Oxman、Bill Reed
+
+**代表作品：**
+- Bullitt Center, Seattle（Miller Hull，2013）——净零能源、净零用水、堆肥厕所、242 块光伏板，EUI 为 14.2 kBtu/ft2/yr。
+- Eastgate Centre, Harare（Pearce，1996）——受白蚁丘启发的被动通风，在撒哈拉以南气候中比常规空调少耗能 90%。
+- Bosco Verticale, Milan（Boeri，2014）——两座塔楼（110 m 和 76 m）种植 900 棵乔木、5,000 株灌木及 11,000 株多年生植物，相当于 20,000 m2 的森林。
+
+**设计应用：**设定再生目标：净正能源（产能为消耗量的 105%）、净正水（收集量大于消耗量，并额外预留 10% 用于生境）、固碳（使用工程木、麻混凝土或生物炭混凝土，在 30 年内储存量大于隐含碳）。在概念阶段使用仿生设计螺旋：建筑需要实现什么功能？自然如何实现该功能？抽象其原理并加以应用。
+
+### 1.8 社会建筑——参与、公平与社区自主性
+
+社会建筑强调设计的政治和社会维度：谁在设计、为谁设计、谁从中受益、谁会被迫迁离。
+
+**核心原则：**
+- 参与式设计过程（不只是咨询，而是真正的共同设计）。
+- 设计正义：以最受设计决策影响人群的声音为中心。
+- 渐进式发展：提供社区可随时间逐步建设的设计框架。
+- 公共共享空间优先于私有封闭空间。
+- 防止迁离策略：社区土地信托、包容性分区、保障性住房单元整合。
+
+**重要人物：** Giancarlo De Carlo、Hassan Fathy、Alejandro Aravena、Yasmeen Lari、Francis Kere、Anna Heringer、Teddy Cruz
+
+**代表作品：**
+- Quinta Monroy, Iquique（Aravena/ELEMENTAL，2004）——每套“半栋住宅”造价 $7,500，服务 93 个家庭；渐进式设计允许住户将 36 m2 扩展至 72 m2。
+- Gando Primary School, Burkina Faso（Kere，2001）——社区以当地红土黏土建造，抬高的波纹金属屋面利用烟囱效应通风，预算 $50,000。
+- METI School, Rudrapur（Heringer，2006）——竹与土建造，由当地工匠和学生共同完成；底层如洞穴，上层为开放式竹结构。
+
+**设计应用：**在设计开始前开展社区资产制图。项目每个阶段至少举行 3 次参与式工作坊。对关键空间决策采用 1:1 实物样板。将 15–20% 的空间设计为可适应社区自主用途的灵活共享空间。制定使用后社区管护计划，并为社区能力建设预留预算（培训当地劳动力掌握施工技术）。
+
+---
+
+## 第 2 节：设计思维框架
+
+### 2.1 RIBA Plan of Work 2020——阶段 0–7
+
+英国皇家建筑师学会（RIBA）工作计划将设计和施工过程组织为八个阶段。每个阶段均规定交付成果、责任和信息交换。
+
+**阶段 0——战略定义**
+- 明确项目愿景和预期成果。
+- 识别场地限制与机遇。
+- 编制战略任务书（战略层面的业主需求）。
+- 开展初步可行性研究（数量级成本：±40%）。
+- 主要交付成果：战略任务书、项目执行计划、初步商业论证。
+
+**阶段 1——准备与任务书**
+- 编制项目任务书，明确详细空间需求（逐房间面积表）。
+- 开展场地调查：地形（1:200）、岩土（至少 3 个钻孔）和环境（第一阶段案头研究）。
+- 确定项目预算（成本计划精度 ±25%）。
+- 定义可持续性目标（BREEAM/LEED/WELL 评级目标）。
+- 主要交付成果：项目任务书、场地信息、项目预算和可行性研究。
+
+**阶段 2——概念设计**
+- 发展建筑概念（构思图、体量和空间策略）。
+- 概述结构策略（材料、柱网和跨度范围）。
+- 概述设备策略（HVAC 方法和电气配电）。
+- 初步成本计划（±15%）。
+- 主要交付成果：概念设计图纸（1:500/1:200）、概略规格、成本计划 1、规划策略。
+
+**阶段 3——空间协调**
+- 在三维模型中协调所有设计专业（至少 BIM Level 2）。
+- 解决所有空间冲突（例如 MEP 穿越结构区域的路径）。
+- 以 1:100/1:50 确认所有房间布局和邻接关系。
+- 提交规划申请（如适用）。
+- 主要交付成果：空间协调设计、更新后的成本计划 2（±10%）、规划申请。
+
+**阶段 4——技术设计**
+- 深化所有施工节点（1:20、1:10、1:5、1:1）。
+- 明确所有材料、产品和饰面（NBS 规格）。
+- 完成结构计算和 MEP 尺寸计算。
+- 编制施工发图。
+- 主要交付成果：技术设计包、规格、成本计划 3（±5%）、建筑法规申报。
+
+**阶段 5——制造与施工**
+- 管理施工合同。
+- 审核加工图和报审文件。
+- 定期现场检查（至少每周一次）。
+- 针对变更签发建筑师指示。
+- 主要交付成果：现场检查报告、建筑师指示、实质竣工证书。
+
+**阶段 6——移交**
+- 缺陷检查和收尾问题清单。
+- 汇编运维（O&M）手册和竣工图。
+- 调试建筑系统（HVAC、火灾报警、BMS）。
+- 开展初步使用后巡查。
+- 主要交付成果：缺陷清单、建筑手册、最终证书。
+
+**阶段 7——使用**
+- 在 12 个月和 36 个月进行使用后评估。
+- 提供设施管理支持。
+- 为未来项目提供反馈。
+- 主要交付成果：POE 报告、经验教训。
+
+### 2.2 AIA 阶段
+
+美国建筑师协会定义了五个传统项目阶段：
+
+| 阶段 | 典型费用比例 | 交付成果 |
 |---|---|---|
-| Schematic Design (SD) | 15% | Parti, massing, 1:200 plans/sections/elevations, outline spec |
-| Design Development (DD) | 20% | 1:100 plans, structural grid, MEP zones, material selections, code analysis |
-| Construction Documents (CD) | 40% | Full drawing set (1:50 plans, 1:20 details), specifications (CSI format), permit set |
-| Bidding/Negotiation | 5% | Addenda, bid evaluation, contractor selection |
-| Construction Administration (CA) | 20% | RFI responses, submittal review, change orders, substantial completion |
+| 方案设计（SD） | 15% | 设计构思、体量、1:200 平面／剖面／立面、概略规格 |
+| 设计深化（DD） | 20% | 1:100 平面、结构柱网、MEP 分区、材料选择、规范分析 |
+| 施工文件（CD） | 40% | 完整图纸集（1:50 平面、1:20 详图）、规格书（CSI 格式）、报批图纸 |
+| 招标／谈判 | 5% | 补遗文件、投标评估、承包商选择 |
+| 施工管理（CA） | 20% | RFI 回复、报审审核、变更令、实质竣工 |
 
-### 2.3 Integrated Design Process (IDP)
+### 2.3 整合设计流程（IDP）
 
-IDP front-loads collaboration, engaging all disciplines (structural, MEP, landscape, sustainability, cost) from Stage 0/1 rather than sequentially.
+IDP 将协作前置，从阶段 0/1 起就让所有专业（结构、MEP、景观、可持续性、成本）参与，而不是按顺序依次介入。
 
-**Key Principles:**
-- All consultants present at first design charrette
-- Energy modeling begins at concept stage (not DD)
-- Cost estimating is continuous, not stage-gate
-- Contractor input during design (IPD/Design-Build contracts)
-- Target Value Design: set cost target first, design to meet it
+**核心原则：**
+- 所有顾问均参加首次设计研讨会。
+- 能耗模拟从概念阶段开始（而非 DD 阶段）。
+- 成本估算持续进行，而非阶段闸门式进行。
+- 设计期间吸收承包商意见（IPD/设计—建造合同）。
+- 目标价值设计：先设定成本目标，再据此设计。
 
-**Quantitative Benefits (per AIA/COTE studies):**
-- 15-30% reduction in construction cost vs. traditional sequential process
-- 20-40% reduction in energy use through early passive design decisions
-- 50-70% reduction in RFIs during construction
+**量化收益（依据 AIA/COTE 研究）：**
+- 与传统顺序流程相比，施工成本降低 15–30%。
+- 通过早期被动式设计决策，能耗降低 20–40%。
+- 施工期间 RFI 减少 50–70%。
 
-### 2.4 Evidence-Based Design (EBD) for Healthcare
+### 2.4 医疗建筑的循证设计（EBD）
 
-Developed by the Center for Health Design, EBD uses research findings to inform design decisions in healthcare environments.
+由 Center for Health Design 发展而来，EBD 利用研究发现为医疗环境的设计决策提供依据。
 
-**Core Methodology:**
-1. Define EBD goals linked to outcomes (reduce patient falls, reduce HAIs, reduce staff fatigue)
-2. Gather evidence from peer-reviewed research (CHD Pebble Project database)
-3. Translate evidence into design hypotheses (single-patient rooms reduce HAIs by 50%)
-4. Implement design interventions
-5. Measure outcomes post-occupancy (minimum 12-month data collection)
+**核心方法：**
+1. 定义与结果相关的 EBD 目标（减少患者跌倒、降低 HAI、减轻员工疲劳）。
+2. 从同行评审研究中收集证据（CHD Pebble Project 数据库）。
+3. 将证据转化为设计假设（单人病房可使 HAI 降低 50%）。
+4. 实施设计干预措施。
+5. 在使用后测量结果（至少收集 12 个月数据）。
 
-**Key Evidence-Based Guidelines:**
-- Single-patient rooms: 30-50% reduction in hospital-acquired infections (Ulrich et al., 2008)
-- Same-handed room layouts: 30% reduction in medical errors (standardized positions for equipment, gases, nurse server)
-- Decentralized nursing stations: reduce walking distance by 40-60% (target < 8,000 steps/shift)
-- Access to daylight: 2.6 fewer days of hospitalization for patients with window views (Beauchemin & Hays, 1996)
-- Noise reduction: single-patient rooms + sound-absorbing ceiling tiles (NRC > 0.90) reduce ambient noise from 72 dB to 48 dB
-
----
-
-## Section 3: Compositional Principles
-
-### 3.1 Proportion Systems
-
-**The Golden Ratio (Phi = 1.618...)**
-- Rectangle proportions: 1:1.618
-- Fibonacci sequence approximation: 1, 1, 2, 3, 5, 8, 13, 21, 34...
-- Application: facade divisions, window proportions, plan organization
-- Historical use: Parthenon stylobate (69.5 m x 30.9 m, ratio ~2.25:1, refined by curvature), Notre-Dame facade
-
-**Le Corbusier's Modulor (1948)**
-- Two interlocking Fibonacci series based on human dimensions
-- Red series (based on navel height 1.08 m): 27, 43, 70, 113, 183, 296 cm
-- Blue series (based on raised-hand height 2.26 m): 33, 53, 86, 140, 226, 366 cm
-- Applied at Unite d'Habitation, Marseille (1952): apartment dimensions 3.66 m floor-to-floor, 2.26 m ceiling height within duplex, 4.80 m facade module
-
-**Ken Module (Japanese)**
-- Based on tatami mat: 910 mm x 1,820 mm (3 shaku x 6 shaku)
-- Half-ken (910 mm) is the fundamental column spacing
-- Room sizes expressed in mat count: 4.5-mat (7.4 m2), 6-mat (9.9 m2), 8-mat (13.2 m2)
-- Katsura Imperial Villa (1663): entire plan on ken grid with 10 mm tolerance
-
-**Classical Orders**
-- Doric: column height = 4-6x lower diameter; intercolumniation = 2.25 diameters (eustyle per Vitruvius)
-- Ionic: column height = 8-9x lower diameter; volute capitals
-- Corinthian: column height = 10x lower diameter; acanthus leaf capitals
-- Proportional system governs entablature (architrave:frieze:cornice typically 1:1:0.75 of column height)
-
-**Palladian Ratios**
-- Seven preferred room shapes from "Four Books of Architecture" (1570):
-  - Circle, square (1:1), sqrt(2) rectangle (1:1.414), 3:4, 2:3, 3:5, 1:2
-- Villa Rotonda: 30.5 m x 30.5 m plan, 6 m x 6 m central rotunda, porticos 5.5 m deep
-
-### 3.2 Balance
-
-**Symmetry:** Bilateral symmetry along one or more axes. Creates formality, monumentality, institutional character. Palazzo Farnese (Sangallo/Michelangelo, 1534), National Gallery of Art East Building (Pei, 1978 — triangular symmetry).
-
-**Asymmetry:** Dynamic equilibrium through visual weight distribution. Requires more sophisticated compositional skill. Barcelona Pavilion (Mies, 1929) — offset planes, pinwheel arrangement. Fallingwater (Wright, 1935) — cantilevered trays balanced around vertical stone core.
-
-**Radial Balance:** Elements radiating from a central point. Pantheon, Rome (126 CE) — 43.3 m diameter coffered dome. Guggenheim Museum, New York (Wright, 1959) — helical ramp around central void.
-
-### 3.3 Rhythm
-
-**Repetition:** Regular intervals of identical elements. Colosseum, Rome — 80 arched bays. Lake Shore Drive Apartments (Mies, 1951) — 5.3 m I-beam mullion spacing on 21-story curtain wall.
-
-**Alternation:** Two or more elements in regular alternating pattern. ABAB or ABCABC. Doge's Palace, Venice — alternating pointed arches and quatrefoil tracery. Salk Institute (Kahn, 1965) — alternating study towers and open courts.
-
-**Progression:** Gradual change in size, spacing, or intensity. Jean-Marie Tjibaou Cultural Centre (Piano, 1998) — ten cases increasing in height from 20 m to 28 m. The Broad (Diller Scofidio + Renfro, 2015) — veil perforations varying from dense to open.
-
-### 3.4 Hierarchy
-
-**By Scale:** The most important element is largest. Cathedral nave vs. side aisles (Notre-Dame: nave 12.5 m wide, aisles 5.5 m). Civic buildings raised on plinth above surrounding fabric.
-
-**By Position:** Central position implies primacy. Domed crossing in cruciform church plans. CEO office at building terminus in corporate layouts.
-
-**By Contrast:** Differentiation in material, form, or detail signals importance. Entrance portal distinguished from repetitive facade (Ronchamp chapel — south wall thick, north wall thin). Lobby double-height within a repetitive office floor plate.
-
-### 3.5 Unity
-
-**Material Unity:** Consistent material palette (typically 2-3 primary materials). Therme Vals: Vals quartzite + water + concrete. Exeter Library (Kahn, 1972): brick exterior, concrete interior, teak furnishings.
-
-**Geometric Unity:** Derived from a single geometric system. Islamic architecture: octagonal geometry generating plan, section, and ornament. Alhambra: muqarnas, tile patterns, and courtyard proportions from shared geometric basis.
-
-**Formal Unity:** All parts contribute to a coherent whole. Sydney Opera House (Utzon, 1973): all shells derived from a single sphere of 75 m radius (the "spherical solution" of 1961).
+**主要循证指南：**
+- 单人病房：医院获得性感染降低 30–50%（Ulrich 等，2008）。
+- 同手型病房布局：医疗错误降低 30%（设备、医用气体、护士工作站位置标准化）。
+- 分散式护士站：行走距离降低 40–60%（目标 <8,000 步/班）。
+- 获得日光：拥有窗景的患者住院时间减少 2.6 天（Beauchemin & Hays，1996）。
+- 降低噪声：单人病房 + 吸声吊顶板（NRC >0.90）可将环境噪声从 72 dB 降至 48 dB。
 
 ---
 
-## Section 4: Precedent Analysis Method
+## 第 3 节：构图原则
 
-### 4.1 Seven-Step Methodology
+### 3.1 比例系统
 
-A structured approach to extracting transferable design knowledge from built works.
+**黄金比例（Phi = 1.618…）**
+- 矩形比例：1:1.618。
+- 斐波那契数列近似值：1、1、2、3、5、8、13、21、34……
+- 应用：立面划分、窗洞比例和平面组织。
+- 历史应用：帕特农神庙台基（69.5 m x 30.9 m，比例约 2.25:1，并通过曲线修正）、巴黎圣母院立面。
 
-**Step 1: Identify the Design Problem**
-- Define the specific design challenge you are investigating
-- Frame it as a question: "How can a museum mediate between monumental civic presence and intimate gallery experience?"
-- Narrow the scope: site strategy, spatial sequence, structural expression, envelope performance, etc.
+**Le Corbusier 的模度（Modulor，1948）**
+- 基于人体尺度的两组相互嵌套的斐波那契数列。
+- 红色序列（以 1.08 m 的脐高为基础）：27、43、70、113、183、296 cm。
+- 蓝色序列（以 2.26 m 的举手高度为基础）：33、53、86、140、226、366 cm。
+- 应用于 Unite d'Habitation, Marseille（1952）：公寓层间高度 3.66 m，复式单元内净高 2.26 m，立面模数 4.80 m。
 
-**Step 2: Select Relevant Precedents (3-5 buildings)**
-- Criteria for selection: similar program, similar site condition, similar climate, similar cultural context, or similar design ambition
-- Include at least one historical and one contemporary example
-- Include at least one from a different cultural context to avoid parochialism
-- Document: architect, location, date, area (GFA), cost (if available), client
+**间模块（日本）**
+- 以榻榻米尺寸为基础：910 mm × 1,820 mm（3 尺 × 6 尺）。
+- 半间（910 mm）是基本柱距。
+- 房间规模以榻榻米数量表示：4.5 帖（7.4 m2）、6 帖（9.9 m2）、8 帖（13.2 m2）。
+- Katsura Imperial Villa（1663）：全套平面均基于间模块网格，误差控制在 10 mm 内。
 
-**Step 3: Site and Context Analysis**
-- Urban context: plot ratio, height datum, streetwall condition, surrounding uses
-- Topography: slope gradient, elevation change, relationship to landscape
-- Climate: latitude, annual temperature range, prevailing winds, rainfall, solar geometry
-- Cultural context: building traditions, material availability, regulatory framework
-- Access and circulation: vehicular, pedestrian, public transport proximity
+**古典柱式**
+- 多立克式：柱高 = 柱下径的 4–6 倍；柱间距 = 2.25 倍柱径（Vitruvius 所述优式）。
+- 爱奥尼式：柱高 = 柱下径的 8–9 倍；涡卷柱头。
+- 科林斯式：柱高 = 柱下径的 10 倍；莨苕叶柱头。
+- 比例体系控制檐部构成（柱座：檐壁：檐口通常为柱高的 1:1:0.75）。
 
-**Step 4: Program and Spatial Organization**
-- Area schedule: list all major spaces with their areas (m2)
-- Adjacency requirements: which spaces must be proximate, which must be separated
-- Circulation type: single-loaded corridor, double-loaded, gallery, atrium, open plan
-- Public-to-private gradient: map the transition from most public to most private space
-- Vertical organization: what's on the ground floor (public) vs. upper floors (private)
+**帕拉第奥比例**
+- 《建筑四书》（1570）提出的七种优选房间形状：
+  - 圆形、正方形（1:1）、根号 2 矩形（1:1.414）、3:4、2:3、3:5、1:2。
+- Villa Rotonda：30.5 m × 30.5 m 平面，中央圆厅为 6 m × 6 m，门廊进深 5.5 m。
 
-**Step 5: Structural and Material Logic**
-- Structural system: load-bearing masonry, steel frame, RC frame, timber frame, hybrid
-- Span dimensions: column-to-column, clear spans for large spaces
-- Material palette: primary structure, secondary structure, envelope, interior finishes
-- Construction method: in-situ, precast, prefabricated, hybrid
-- Detail resolution: how structure meets envelope, how materials join
+### 3.2 均衡
 
-**Step 6: Environmental Strategy**
-- Passive strategies: orientation, natural ventilation, thermal mass, shading
-- Active systems: HVAC type, energy source, renewable energy integration
-- Daylighting: window-to-wall ratio, roof lights, light shelves, light wells
-- Water management: rainwater harvesting, greywater recycling
-- Measured performance: EUI (if available), post-occupancy thermal comfort data
+**对称：** 沿一条或多条轴线形成双侧对称，营造正式感、纪念性和机构性特征。示例包括 Palazzo Farnese（Sangallo/Michelangelo，1534）和 National Gallery of Art East Building（Pei，1978——三角形对称）。
 
-**Step 7: Synthesis of Transferable Principles**
-- Identify 3-5 key design principles that can be abstracted from the precedent
-- State each principle as a transferable rule: "When [condition], then [strategy], because [reason]"
-- Evaluate which principles apply to your current design problem
-- Document limitations: what does NOT transfer (climate, budget, scale, culture)
+**非对称：** 通过视觉重量分配形成动态均衡，要求更成熟的构图能力。Barcelona Pavilion（Mies，1929）采用错位平面与风车式布局；Fallingwater（Wright，1935）以悬挑板围绕竖向石芯实现均衡。
 
-### 4.2 Precedent Analysis Template
+**放射均衡：** 元素由中心点向外辐射。Pantheon, Rome（126 CE）设直径 43.3 m 的格槽穹顶；Guggenheim Museum, New York（Wright，1959）以螺旋坡道环绕中央空腔。
+
+### 3.3 韵律
+
+**重复：** 相同元素按规则间距排列。Colosseum, Rome 有 80 个拱券开间；Lake Shore Drive Apartments（Mies，1951）的 21 层幕墙以 5.3 m 间距布置工字钢竖梃。
+
+**交替：** 两种或更多元素按规则交替排列，如 ABAB 或 ABCABC。Doge's Palace, Venice 交替采用尖拱与四叶饰窗花；Salk Institute（Kahn，1965）交替组织研究塔楼与开敞庭院。
+
+**渐变：** 尺度、间距或强度逐渐变化。Jean-Marie Tjibaou Cultural Centre（Piano，1998）的十个构体高度从 20 m 递增至 28 m；The Broad（Diller Scofidio + Renfro，2015）的外罩穿孔由密至疏变化。
+
+### 3.4 层级
+
+**按尺度：** 最重要的元素尺度最大。例如教堂中殿相对于侧廊（Notre-Dame：中殿宽 12.5 m，侧廊宽 5.5 m）；市政建筑通过抬升基座高于周边城市肌理。
+
+**按位置：** 中央位置暗示主导性，如十字形教堂平面中的穹顶交叉部，或企业布局中位于建筑尽端的 CEO 办公室。
+
+**按对比：** 材料、形体或细部的差异传达重要性。例如入口门廊区别于重复立面（Ronchamp chapel——南墙厚、北墙薄），或重复办公层中设置通高大堂。
+
+### 3.5 统一性
+
+**材料统一：**采用一致的材料组合（通常为 2–3 种主要材料）。Therme Vals：Vals 石英岩 + 水 + 混凝土。Exeter Library（Kahn，1972）：砖外部、混凝土内部、柚木家具。
+
+**几何统一：**源自一个单一的几何系统。伊斯兰建筑：八角形几何生成平面、剖面和装饰。Alhambra：钟乳体、瓷砖图案和庭院比例源于共同的几何基础。
+
+**形式统一：**所有部分共同构成连贯整体。Sydney Opera House（Utzon，1973）：全部壳体源于同一半径 75 m 的球体（1961 年的“球形解法”）。
+
+---
+
+## 第 4 节：先例分析方法
+
+### 4.1 七步法
+
+一种从已建作品中提取可迁移设计知识的结构化方法。
+
+**步骤 1：识别设计问题**
+- 明确正在研究的具体设计挑战。
+- 将其表述为问题：“博物馆如何在纪念性的城市存在感和私密的展厅体验之间进行调和？”
+- 缩小范围：场地策略、空间序列、结构表达、围护性能等。
+
+**步骤 2：选择相关先例（3–5 个建筑）**
+- 选择标准：相似的功能、场地条件、气候、文化语境或设计愿景。
+- 至少包含一个历史案例和一个当代案例。
+- 至少包含一个不同文化语境的案例，以避免狭隘性。
+- 记录：建筑师、地点、日期、面积（GFA）、成本（如可获得）和业主。
+
+**步骤 3：场地与语境分析**
+- 城市语境：容积率、高度基准、沿街界面条件、周边用地。
+- 地形：坡度、高程变化、与景观的关系。
+- 气候：纬度、全年温度范围、主导风、降雨量、太阳几何。
+- 文化语境：建造传统、材料可得性、法规框架。
+- 到达与交通：机动车、行人、公共交通可达性。
+
+**步骤 4：功能与空间组织**
+- 面积表：列出全部主要空间及其面积（m2）。
+- 邻接要求：哪些空间必须相邻，哪些必须分隔。
+- 交通类型：单廊式、双廊式、廊厅式、中庭式、开放式平面。
+- 公共至私密梯度：绘制从最公共空间到最私密空间的过渡。
+- 垂直组织：底层（公共）与上层（私密）分别布置哪些内容。
+
+**步骤 5：结构与材料逻辑**
+- 结构体系：承重砌体、钢框架、钢筋混凝土框架、木框架、混合结构。
+- 跨度尺寸：柱间距及大空间的净跨。
+- 材料组合：主结构、次结构、围护和室内饰面。
+- 建造方式：现浇、预制、装配式、混合式。
+- 细部解决：结构如何与围护交接，材料如何连接。
+
+**步骤 6：环境策略**
+- 被动策略：朝向、自然通风、热质量、遮阳。
+- 主动系统：HVAC 类型、能源来源、可再生能源整合。
+- 自然采光：窗墙比、天窗、导光板、采光井。
+- 水资源管理：雨水收集、灰水回收。
+- 实测性能：EUI（如可获得）、使用后热舒适数据。
+
+**步骤 7：综合可迁移原则**
+- 识别可从先例中抽象出的 3–5 项关键设计原则。
+- 将每项原则表述为可迁移规则：“当 [条件] 时，采用 [策略]，因为 [原因]。”
+- 评估哪些原则适用于当前设计问题。
+- 记录局限：哪些内容不可迁移（气候、预算、尺度、文化）。
+
+### 4.2 先例分析模板
 
 ```
 PROJECT: [Building Name]
@@ -452,99 +452,99 @@ LIMITATIONS (what does not transfer):
 
 ---
 
-## Section 5: Design Critique Framework
+## 第 5 节：设计评析框架
 
-### 5.1 Eight-Dimension Evaluation
+### 5.1 八维度评估
 
-A structured method for evaluating architectural proposals. Each dimension is scored 1-5 (1 = deficient, 3 = competent, 5 = exceptional) with written justification.
+用于评估建筑方案的结构化方法。每个维度按 1–5 分评分（1 = 不足，3 = 合格，5 = 卓越），并给出书面理由。
 
-**Dimension 1: Spatial Quality**
-- Does the building create memorable spatial experiences?
-- Is there a clear spatial sequence from arrival to primary space?
-- Are there moments of compression and expansion?
-- Is daylight used as a spatial material?
-- Benchmark: Therme Vals (spatial procession from dark entry to light bath hall), Salk Institute (compressed lab corridor to expansive court)
+**维度 1：空间品质**
+- 建筑是否创造了令人难忘的空间体验？
+- 是否从抵达至主空间形成清晰的空间序列？
+- 是否存在空间收缩与舒展的节点？
+- 日光是否被作为空间材料使用？
+- 参照案例：Therme Vals（由幽暗入口到明亮浴厅的空间序列）、Salk Institute（由压缩的实验室走廊到开阔庭院）
 
-**Dimension 2: Tectonic Expression**
-- Is the structural system legible and expressive?
-- Do structure and form reinforce each other?
-- Are connections and joints detailed with care?
-- Is there a clear hierarchy of primary, secondary, and tertiary structure?
-- Benchmark: Sendai Mediatheque (Ito, 2001) — 13 tube-columns supporting 7 steel plates, structure as spatial generator
+**维度 2：建构表达**
+- 结构体系是否清晰可读且富有表现力？
+- 结构与形体是否相互强化？
+- 连接与节点是否经过细致设计？
+- 是否形成主结构、次结构和三级结构的清晰层级？
+- 参照案例：Sendai Mediatheque（Ito，2001）——13 根筒状柱支撑 7 块钢板，结构即为空间生成器。
 
-**Dimension 3: Environmental Response**
-- Does the building respond intelligently to climate?
-- Are passive strategies deployed before active systems?
-- Is the building oriented for optimal solar access and wind protection?
-- What is the projected or measured EUI?
-- Benchmark: Manitoba Hydro Place (KPMB, 2009) — double-skin curtain wall, solar chimney, 60% energy reduction vs. code baseline, 85 kBtu/ft2/yr
+**维度 3：环境响应**
+- 建筑是否对气候作出合理响应？
+- 是否在采用主动系统之前优先部署被动策略？
+- 建筑朝向是否有利于获得最佳日照并防御不利风向？
+- 预测或实测的 EUI 是多少？
+- 参照案例：Manitoba Hydro Place（KPMB，2009）——双层幕墙、太阳能烟囱，相较规范基准节能 60%，85 kBtu/ft2/yr。
 
-**Dimension 4: Programmatic Resolution**
-- Are all programmatic requirements met?
-- Are adjacencies logical and efficient?
-- Is there appropriate flexibility for future adaptation?
-- Is circulation efficient (target: 15-25% of GFA for institutional buildings)?
-- Benchmark: Seattle Central Library (OMA/LMN, 2004) — program sorted into 5 stable platforms and 4 unstable in-between zones
+**维度 4：功能解决度**
+- 是否满足全部功能需求？
+- 邻接关系是否合理、高效？
+- 是否为未来适应性改造预留恰当的灵活性？
+- 交通空间是否高效（机构类建筑的目标值为 GFA 的 15–25%）？
+- 参照案例：Seattle Central Library（OMA/LMN，2004）——将功能组织为 5 个稳定平台与 4 个不稳定的中间地带。
 
-**Dimension 5: Contextual Fit**
-- Does the building respond to its urban or landscape context?
-- Is the streetwall condition respected or intentionally challenged?
-- Does the building contribute to the public realm?
-- Are setbacks, heights, and massing contextually appropriate?
-- Benchmark: Kolumba Museum, Cologne (Zumthor, 2007) — new structure built atop Gothic ruin fragments, custom grey brick matching stone datum
+**维度 5：语境适配度**
+- 建筑是否回应了城市或景观语境？
+- 是否尊重或有意识地挑战沿街界面的既有条件？
+- 建筑是否对公共领域有所贡献？
+- 退界、高度与体量是否符合场地语境？
+- 参照案例：Kolumba Museum, Cologne（Zumthor，2007）——新结构建于哥特式遗址碎片之上，定制灰砖与石材基准线相呼应。
 
-**Dimension 6: Material Palette**
-- Is the material selection coherent and limited (2-4 primary materials)?
-- Are materials appropriate to their structural and environmental roles?
-- Do materials age well (patina, weathering)?
-- Are materials sourced responsibly (FSC timber, recycled content)?
-- Benchmark: Castelvecchio Museum renovation (Scarpa, 1973) — steel, concrete, stone, plaster — each material with distinct tectonic role
+**维度 6：材料组合**
+- 材料选择是否协调且有所控制（2–4 种主要材料）？
+- 材料是否适合其结构及环境角色？
+- 材料是否能良好老化（包浆、耐候变化）？
+- 材料来源是否负责任（FSC 木材、再生含量）？
+- 参照案例：Castelvecchio Museum renovation（Scarpa，1973）——钢、混凝土、石材、抹灰；每种材料均具有不同的建构角色。
 
-**Dimension 7: Structural Clarity**
-- Is the structural system efficient for the spans required?
-- Is the load path clear and logical?
-- Are lateral systems (bracing, shear walls, cores) integrated into the architectural concept?
-- Is the structure buildable with available local skills and equipment?
-- Benchmark: CCTV Headquarters, Beijing (OMA/Arup, 2012) — continuous tube structure, 234 m tall, diagrid density varies with structural demand
+**维度 7：结构清晰度**
+- 结构体系对于所需跨度是否高效？
+- 荷载传递路径是否清晰、合理？
+- 抗侧力体系（支撑、剪力墙、核心筒）是否融入建筑概念？
+- 现有本地技能与设备是否能够建造该结构？
+- 参照案例：CCTV Headquarters, Beijing（OMA/Arup，2012）——连续筒体结构，高 234 m，斜网格密度随结构需求而变化。
 
-**Dimension 8: User Experience**
-- Is wayfinding intuitive (can a first-time visitor navigate without signage)?
-- Are thermal, acoustic, and visual comfort conditions met?
-- Is the building accessible (beyond code minimum — truly inclusive)?
-- Does the building create a sense of belonging and wellbeing?
-- Benchmark: Maggie's Centres (various architects) — domestic scale, garden access, central kitchen/table, no institutional corridors
+**维度 8：用户体验**
+- 导向是否直观（首次到访者能否不依赖标识完成行进）？
+- 是否满足热、声、光环境的舒适性要求？
+- 建筑是否具备无障碍性（超越规范最低要求，真正实现包容）？
+- 建筑是否营造归属感和幸福感？
+- 参照案例：Maggie's Centres（多位建筑师设计）——居家尺度、可达花园、中心厨房／餐桌、无机构式走廊。
 
-### 5.2 Critique Protocol
+### 5.2 评析流程
 
-1. **Silent observation** (10 minutes): Review all drawings and images without comment
-2. **Descriptive phase** (5 minutes): Describe what you see objectively — no judgment
-3. **Analytical phase** (15 minutes): Score each of the 8 dimensions with justification
-4. **Interpretive phase** (5 minutes): What is the design trying to achieve? Does it succeed on its own terms?
-5. **Evaluative phase** (10 minutes): What are the strongest and weakest aspects? What specific changes would improve the weakest dimensions?
-6. **Summary** (5 minutes): 3 strengths, 3 areas for development, 1 overarching recommendation
+1. **静默观察**（10 分钟）：不作评论，审阅所有图纸和图像。
+2. **描述阶段**（5 分钟）：客观描述所见内容，不作判断。
+3. **分析阶段**（15 分钟）：为 8 个维度逐项评分并说明理由。
+4. **阐释阶段**（5 分钟）：设计意图是什么？它是否以自身标准取得成功？
+5. **评价阶段**（10 分钟）：最强与最弱之处是什么？哪些具体改变可改善最弱维度？
+6. **总结**（5 分钟）：3 项优点、3 个发展方向、1 项总体建议。
 
-### 5.3 Common Critique Pitfalls to Avoid
+### 5.3 应避免的常见评析误区
 
-- **Style bias:** Evaluating a building because you dislike its stylistic language rather than its performance
-- **Image vs. experience:** Judging from photographs rather than spatial experience (plan and section analysis mitigates this)
-- **Program amnesia:** Critiquing form without understanding what the building needs to do
-- **Context ignorance:** Critiquing without knowledge of site, climate, budget, and regulatory constraints
-- **Detail blindness:** Focusing only on the big gesture while ignoring how materials meet, how water drains, how light enters
-- **Single-metric fixation:** Reducing critique to one issue (e.g., sustainability) while ignoring spatial quality or tectonic expression
+- **风格偏见：** 因不喜欢建筑的风格语言而非其实际表现来评价建筑。
+- **图像与体验混淆：** 仅据照片而非空间体验作判断（可通过平、剖面分析缓解）。
+- **功能遗忘：** 未理解建筑需承担的功能便批评其形式。
+- **忽视语境：** 不了解场地、气候、预算和法规约束即作评析。
+- **细部盲区：** 只关注宏大姿态，却忽略材料如何交接、雨水如何排放、光线如何进入。
+- **单一指标固着：** 将评析简化为单一问题（如可持续性），而忽视空间品质或建构表达。
 
 ---
 
-## Appendix: Key Texts for Design Theory
+## 附录：设计理论重要著作
 
-| Text | Author | Year | Core Contribution |
+| 著作 | 作者 | 年份 | 核心贡献 |
 |---|---|---|---|
-| The Ten Books on Architecture | Vitruvius | ~30 BCE | Firmitas, utilitas, venustas — the foundational triad |
-| Towards a New Architecture | Le Corbusier | 1923 | Five Points; the house as "machine for living" |
-| Complexity and Contradiction | Robert Venturi | 1966 | "Less is a bore" — the intellectual case for pluralism |
-| The Architecture of the City | Aldo Rossi | 1966 | Urban artifacts, typological analysis, collective memory |
-| A Pattern Language | Alexander et al. | 1977 | 253 design patterns from region to construction detail |
-| Towards a Critical Regionalism | Kenneth Frampton | 1983 | Resistance of the place-form; tactile over visual |
-| The Eyes of the Skin | Juhani Pallasmaa | 2005 | Multi-sensory architecture; critique of ocularcentrism |
-| Thinking Architecture | Peter Zumthor | 2006 | Atmosphere, material presence, memory in architecture |
-| Atmospheres | Peter Zumthor | 2006 | Nine qualities of architectural atmosphere |
-| The Autopoiesis of Architecture | Patrik Schumacher | 2011 | Parametricism as epochal style; architecture as social system |
+| 《建筑十书》（The Ten Books on Architecture） | Vitruvius | ~30 BCE | Firmitas、utilitas、venustas——奠基性的三元原则 |
+| 《走向新建筑》（Towards a New Architecture） | Le Corbusier | 1923 | 五点原则；住宅作为“居住的机器” |
+| 《复杂性与矛盾性》（Complexity and Contradiction） | Robert Venturi | 1966 | “Less is a bore”——为多元主义提供理论依据 |
+| 《城市建筑学》（The Architecture of the City） | Aldo Rossi | 1966 | 城市构成物、类型学分析、集体记忆 |
+| A Pattern Language | Alexander et al. | 1977 | 从地域到建造细部的 253 个设计模式 |
+| 《走向批判地域主义》（Towards a Critical Regionalism） | Kenneth Frampton | 1983 | 场所形式的抵抗；触觉优先于视觉 |
+| 《肌肤之目》（The Eyes of the Skin） | Juhani Pallasmaa | 2005 | 多感官建筑；对视觉中心主义的批评 |
+| 《思考建筑》（Thinking Architecture） | Peter Zumthor | 2006 | 建筑中的氛围、材料存在感与记忆 |
+| Atmospheres | Peter Zumthor | 2006 | 建筑氛围的九种特质 |
+| 《建筑的自创生》（The Autopoiesis of Architecture） | Patrik Schumacher | 2011 | 参数主义作为时代风格；建筑作为社会系统 |

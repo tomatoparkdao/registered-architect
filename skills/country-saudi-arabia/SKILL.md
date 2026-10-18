@@ -1,55 +1,43 @@
 ---
 name: country-saudi-arabia
 description: >
-  Kingdom of Saudi Arabia architectural code and regulatory reference. Covers the Saudi Building
-  Code (SBC) nine-part series issued by the Saudi Building Code National Committee (SBCNC):
-  SBC 201 General Building, SBC 301 Structural Loads (ASCE 7-derived), SBC 302 Concrete (ACI
-  318-derived), SBC 304 Soil and Foundations, SBC 305 Masonry, SBC 306 Steel (AISC-derived),
-  SBC 401 Electrical, SBC 501 Mechanical, SBC 601 Energy Conservation, SBC 701 Plumbing, SBC
-  801 Fire (NFPA-aligned), SBC 901 Existing Buildings, SBC 1001 Green Buildings. Also covers
-  the General Directorate of Civil Defence regulations, Saudi Universal Accessibility Code,
-  Mostadamah (Saudi Green Building Program), the Vision 2030 giga-projects (NEOM, Qiddiya,
-  Red Sea, Diriyah, ROSHN), Amana (Municipality) approval workflows, Saudi Energy Efficiency
-  Center (SEEC) programs, and Royal Commission jurisdictions (Jubail/Yanbu/AlUla). Includes
-  Mecca/Medina special restrictions (Hajj building regulations), Aramco housing standards
-  reference, and the hot-arid + coastal-humid + highland design overlays for the three
-  national climate zones.
+  沙特阿拉伯王国建筑规范与法规参考。涵盖沙特建筑规范（SBC）国家委员会（SBCNC）发布的系列规范：SBC 201 一般建筑、SBC 301 结构荷载（源自 ASCE）、SBC 302 混凝土（源自 ACI 318）、SBC 304 土与基础、SBC 305 砌体、SBC 306 钢结构（源自 AISC）、SBC 401 电气、SBC 501 机械、SBC 601 节能、SBC 701 给排水、SBC 801 消防（与 NFPA 对齐）、SBC 901 既有建筑、SBC 1001 绿色建筑；以及民防总局法规、沙特通用无障碍规范、Mostadamah（沙特绿色建筑计划）、Vision 2030 超级项目（NEOM、Qiddiya、红海、Diriyah、ROSHN）、Amana（市政）审批流程、沙特能效中心（SEEC）计划和皇家委员会管辖区（朱拜勒/延布/欧拉）。包括麦加/麦地那特殊限制（朝觐建筑法规）、Aramco 住宅标准参考，以及针对全国三类气候区的炎热干旱、沿海湿热和高地设计附加要求。
 ---
 
-# Country: Kingdom of Saudi Arabia
+# 国家：沙特阿拉伯王国
 
-Architectural code and regulatory reference for projects within Saudi Arabia. Activate this skill on any reference to Saudi cities (Riyadh, Jeddah, Mecca, Medina, Dammam, Tabuk, AlUla, NEOM, Khobar, Dhahran), SAR currency, "Amana"/"Baladiya", Royal Commission projects, Mostadamah, SBC codes, or Saudi Civil Defence (Difa'a al-Madani).
+适用于沙特阿拉伯境内项目的建筑规范与法规参考。当提及沙特城市（利雅得、吉达、麦加、麦地那、达曼、塔布克、欧拉、NEOM、胡拜尔、宰赫兰）、SAR 货币、“Amana”/“Baladiya”、皇家委员会项目、Mostadamah、SBC 规范或沙特民防（Difa'a al-Madani）时启用本技能。
 
 ---
 
-## 1. Regulatory Hierarchy
+## 1. 法规层级
 
-Saudi Arabia operates as **Archetype A (Unitary National Code)**: the **Saudi Building Code (SBC)** is mandatory throughout the Kingdom for all new construction since 2018. Provincial variations are administrative (which Amana issues the permit), not technical.
+沙特阿拉伯采用**A 型体系（统一国家规范）**：自 2018 年起，**沙特建筑规范（SBC）**对全国所有新建工程强制适用。省级差异属于行政差异（由哪个 Amana 颁发许可），而非技术差异。
 
-### 1.1 Authority Stack
+### 1.1 主管机构层级
 
 ```
-LEVEL 1 -- NATIONAL
-  Ministry of Municipal, Rural Affairs and Housing (MoMRAH) -- urban policy & code adoption
-    + Saudi Building Code National Committee (SBCNC) -- publishes SBC series
-  Saudi Standards, Metrology and Quality Org (SASO) -- materials/products
-  Saudi Energy Efficiency Center (SEEC) -- energy programs
-  General Directorate of Civil Defence (Mudiriat al-Difa'a al-Madani) -- fire approvals
-  Authority of People with Disabilities -- accessibility policy
-  General Authority for Survey and Geospatial Information -- maps, coordinates
-  Saudi Authority for Industrial Cities & Technology Zones (MODON)
-  Royal Commission for Jubail and Yanbu (RCJY) -- separate jurisdiction
-  Royal Commission for AlUla (RCU) -- separate jurisdiction
-  NEOM -- separate regulatory framework
-  Qiddiya Investment Company -- separate regulatory framework
-  Red Sea Global -- separate regulatory framework
-  Diriyah Gate Development Authority -- separate regulatory framework
+第 1 级——国家层面
+  市政、农村事务与住房部（MoMRAH）——城市政策与规范采用
+    + 沙特建筑规范国家委员会（SBCNC）——发布 SBC 系列
+  沙特标准、计量与质量组织（SASO）——材料/产品
+  沙特能效中心（SEEC）——能源计划
+  民防总局（Mudiriat al-Difa'a al-Madani）——消防审批
+  残障人士事务机构——无障碍政策
+  测量与地理空间信息总局——地图、坐标
+  沙特工业城与技术区管理局（MODON）
+  朱拜勒和延布皇家委员会（RCJY）——独立管辖
+  欧拉皇家委员会（RCU）——独立管辖
+  NEOM——独立监管框架
+  Qiddiya 投资公司——独立监管框架
+  Red Sea Global——独立监管框架
+  Diriyah Gate 开发管理局——独立监管框架
 
-LEVEL 2 -- REGIONAL
+第 2 级——区域层面
   Regional Council of each Emirate (Riyadh, Mecca, Medina, Eastern, Asir, Tabuk, Qassim,
     Hail, Northern Borders, Jazan, Najran, Al-Bahah, Jouf) -- regional planning oversight
 
-LEVEL 3 -- LOCAL (PERMITTING)
+第 3 级——地方层面（许可）
   Amana / Baladiyah (Municipality) -- per city:
     Riyadh: Amanat al-Riyadh (now under Royal Commission for Riyadh City - RCRC)
     Jeddah: Amanat Jeddah
@@ -58,7 +46,7 @@ LEVEL 3 -- LOCAL (PERMITTING)
     Dammam: Amanat al-Mintaqah al-Sharqiyah
   + Sub-municipalities (Baladiyah Far'iyah) for districts within metropolises
 
-LEVEL 4 -- PROJECT
+第 4 级——项目层面
   Civil Defence (Difa'a al-Madani) -- pre-design + occupancy NOC
   Saudi Electricity Company (SEC) -- electrical sanction
   National Water Co (NWC) / SWCC -- water/sewer
@@ -68,14 +56,14 @@ LEVEL 4 -- PROJECT
   Ministry of Investment (MISA) -- foreign-owned projects
 ```
 
-### 1.2 Giga-Project Special Jurisdictions
+### 1.2 超级项目特殊管辖区
 
 Vision 2030 has spawned several **non-Amana jurisdictions** with their own building authorities:
 
-| Giga-Project | Authority | Code Approach |
+| 超级项目 | 主管机构 | 规范路径 |
 |---|---|---|
-| **NEOM** | NEOM Company (own urban authority) | NEOM Building Code in development; in interim, project-specific authority approval; reportedly aligned to SBC + Eurocodes + bespoke high-performance overlay |
-| **The Line** | NEOM | Special structural performance criteria (200 m height, 170 km length) |
+| **NEOM** | NEOM 公司（自有城市主管机构） | NEOM 建筑规范制定中；过渡期间由项目专属主管机构审批；据报道与 SBC + Eurocode 对齐，并叠加定制高性能要求 |
+| **The Line** | NEOM | 特殊结构性能标准（高度 200 m、长度 170 km） |
 | **Qiddiya** | Qiddiya Investment Company | Qiddiya Design Guidelines + SBC overlay |
 | **Red Sea / AMAALA** | Red Sea Global | Red Sea Sustainability Standards (target LEED Platinum equivalent) + SBC + bespoke coastal-eco overlay |
 | **Diriyah** | Diriyah Gate Development Authority | Salmani Architecture Guidelines (Najdi vernacular + modern); UNESCO heritage area compliance |
@@ -85,43 +73,43 @@ Vision 2030 has spawned several **non-Amana jurisdictions** with their own build
 | **Jubail Industrial City** | RCJY | RCJY-specific industrial codes + SBC |
 | **Yanbu Industrial City** | RCJY | Same |
 
-In any of these, project teams must follow the **specific authority's design guidelines AND the SBC** -- the giga-project guidelines layer on top, not replace.
+在上述任一地区，项目团队必须同时遵守**具体主管机构的设计指南和 SBC**——超级项目指南是叠加要求，不取代 SBC。
 
-### 1.3 Sacred City Restrictions (Mecca + Medina)
+### 1.3 圣城限制（麦加与麦地那）
 
-- **Mecca and Medina**: only Muslims may permanently reside/work; non-Muslim consultants typically work via Saudi-Arabia-licensed Saudi associates with offsite review
-- Both cities have **special height limits** in zones surrounding the Two Holy Mosques (Masjid al-Haram, Al-Masjid an-Nabawi) -- elevations, materials, colors, signage all controlled by **Royal Commission for Mecca/Medina** + Saudi Heritage Authority
-- **Hajj building regulations** -- special crowd-flow requirements for hotels and infrastructure on the Hajj routes; capacity calculations follow Hajj Research Institute methodologies
+- **麦加和麦地那**：仅穆斯林可长期居住/工作；非穆斯林顾问通常通过持沙特执照的沙特合作方开展工作，并采用远程审查
+- 两座城市在两大圣寺（Masjid al-Haram、Al-Masjid an-Nabawi）周边区域均有**特殊高度限制**——标高、材料、色彩和标识均由**麦加/麦地那皇家委员会**与沙特遗产管理局控制
+- **朝觐建筑法规**——朝觐路线上的酒店和基础设施须满足特殊人流组织要求；容量计算遵循朝觐研究院方法
 
 ---
 
-## 2. Saudi Building Code Structure
+## 2. 沙特建筑规范结构
 
-The Saudi Building Code (SBC) was first published in 2007 with major revision in 2018 -- the **2018 edition** is the operative version (with periodic updates issued by SBCNC). All buildings nationally must comply.
+沙特建筑规范（SBC）于 2007 年首次发布，并于 2018 年进行重大修订；**2018 版**为现行版本（SBCNC 定期发布更新）。全国所有建筑均须符合。
 
-### 2.1 Nine-Part Structure
+### 2.1 九部分结构
 
-| Code | Title | Aligned to / Derived From |
+| 规范 | 标题 | 对齐/来源 |
 |---|---|---|
-| **SBC 201-CR** | General Building Requirements | IBC 2018 |
-| **SBC 301-CR** | Structural - Loads | ASCE 7-16 |
-| **SBC 302-CR** | Concrete | ACI 318-14 |
-| **SBC 303-CR** | Foundations / Soil Mechanics | -- |
-| **SBC 304-CR** | (Note: numbering varies by edition; check current) | -- |
-| **SBC 305-CR** | Masonry | TMS 402/602 |
-| **SBC 306-CR** | Steel | AISC 360 |
-| **SBC 307-CR** | Composite | AISC 360 + AISI |
-| **SBC 401-CR** | Electrical | NEC 2017 (NFPA 70) |
-| **SBC 501-CR** | Mechanical | IMC 2018 |
-| **SBC 601-CR** | Energy Conservation | IECC 2015 + ASHRAE 90.1-2013 base, with SBC modifications |
-| **SBC 701-CR** | Plumbing | IPC 2018 |
-| **SBC 801-CR** | Fire | IFC 2018 + NFPA cross-references |
-| **SBC 901-CR** | Existing Buildings | IEBC 2018 |
-| **SBC 1001-CR** | Green Buildings | LEED + ASHRAE 189.1 + IgCC |
+| **SBC 201-CR** | 一般建筑要求 | IBC 2018 |
+| **SBC 301-CR** | 结构——荷载 | ASCE 7-16 |
+| **SBC 302-CR** | 混凝土 | ACI 318-14 |
+| **SBC 303-CR** | 基础/土力学 | -- |
+| **SBC 304-CR** |（注：编号随版本变化；请核对现行版） | -- |
+| **SBC 305-CR** | 砌体 | TMS 402/602 |
+| **SBC 306-CR** | 钢结构 | AISC 360 |
+| **SBC 307-CR** | 组合结构 | AISC 360 + AISI |
+| **SBC 401-CR** | 电气 | NEC 2017 (NFPA 70) |
+| **SBC 501-CR** | 机械 | IMC 2018 |
+| **SBC 601-CR** | 节能 | IECC 2015 + ASHRAE 90.1-2013 基础，并按 SBC 修订 |
+| **SBC 701-CR** | 给排水 | IPC 2018 |
+| **SBC 801-CR** | 消防 | IFC 2018 + NFPA 交叉引用 |
+| **SBC 901-CR** | 既有建筑 | IEBC 2018 |
+| **SBC 1001-CR** | 绿色建筑 | LEED + ASHRAE 189.1 + IgCC |
 
 **SBC-G** (general public) and **SBC-CR** (technical/engineer) are the two reading tiers. Practitioners use SBC-CR.
 
-### 2.2 Adoption Year by City
+### 2.2 各城市采纳年份
 
 While SBC is technically nationally mandatory since 2018, **enforcement strength varies**:
 - **Riyadh, Jeddah, Dammam, Mecca, Medina**: full SBC enforcement at Amana level since 2019
@@ -131,11 +119,11 @@ While SBC is technically nationally mandatory since 2018, **enforcement strength
 
 ---
 
-## 3. Building Code Core (SBC 201 + 801)
+## 3. 建筑规范核心要求（SBC 201 + 801）
 
-### 3.1 Occupancy Classification (SBC 201 Ch. 3, IBC-aligned)
+### 3.1 使用分类（SBC 201 第 3 章，与 IBC 对齐）
 
-| Group | Occupancy | Subdivisions |
+| 组别 | 使用性质 | 子分类 |
 |---|---|---|
 | A | Assembly | A-1 (theaters), A-2 (food/drink), A-3 (worship/exhibit), A-4 (indoor sport), A-5 (outdoor) |
 | B | Business | -- |
@@ -148,33 +136,33 @@ While SBC is technically nationally mandatory since 2018, **enforcement strength
 | S | Storage | S-1 moderate, S-2 low |
 | U | Utility | -- |
 
-### 3.2 Height & Area (SBC 201 Ch. 5 + Table 504)
+### 3.2 高度与面积（SBC 201 第 5 章 + 表 504）
 
 IBC-aligned; same Type IA through VB construction types; same height-vs-area-vs-occupancy-vs-construction matrix.
 
 **Key Saudi-specific note**: Saudi practice often uses **Type IA or IB (fully fire-protected)** for most large buildings due to fire policy + insurance.
 
-### 3.3 Setback and FAR -- Riyadh Example (RCRC)
+### 3.3 退界与 FAR——利雅得示例（RCRC）
 
-| Zone | FAR (sometimes "Floor Area Coefficient") | Coverage | Setbacks | Height |
+| 分区 | FAR（有时称“建筑面积系数”） | 覆盖率 | 退界 | 高度 |
 |---|---|---|---|---|
-| R1 villa | 1.0-1.5 | 50% | 5 m front, 3 m sides | 12 m (2-3 floors typical) |
-| R2 (apartments) | 2.5-4.0 | 50-60% | 5-7 m front, 3-5 m sides | 20-30 m |
-| Commercial mid-density | 4.0-6.0 | 70% | per street width formula | 30-45 m |
-| Commercial high-density / CBD | 6-12 | 70-80% | per zoning + setback minimum 5 m | 100 m+ (per skyline plan) |
-| Industrial | 0.8 | 50% | 8 m front | varies |
+| R1别墅 | 1.0-1.5 | 50% | 前5 m、侧3 m | 12 m（通常2-3层） |
+| R2（公寓） | 2.5-4.0 | 50-60% | 前5-7 m、侧3-5 m | 20-30 m |
+| 商业中密度 | 4.0-6.0 | 70% | 按街道宽度公式 | 30-45 m |
+| 商业高密度/CBD | 6-12 | 70-80% | 按分区要求，退界至少5 m | 100 m以上（按天际线规划） |
+| 工业 | 0.8 | 50% | 前8 m | 视项目而定 |
 
-Riyadh's **Riyadh Strategic Plan 2030** + **King Salman Renaissance Project (RCRC)** are restructuring zoning. Confirm current Detailed Land Use Plan (DLUP) for any specific plot.
+利雅得的 **Riyadh Strategic Plan 2030** 和 **King Salman Renaissance Project (RCRC)** 正在重构分区。具体地块应确认当前的详细土地利用规划（DLUP）。
 
-### 3.4 Setback and FAR -- Jeddah
+### 3.4 退界与 FAR——吉达
 
 Jeddah's coastal high-density mid-rise pattern uses **Building Coefficient = FAR × site coverage**. Old city (Al-Balad UNESCO heritage zone) has strict conservation rules.
 
 ---
 
-## 4. Fire and Life Safety (SBC 801)
+## 4. 防火与生命安全（SBC 801）
 
-### 4.1 SBC 801-CR Structure
+### 4.1 SBC 801-CR 结构
 
 IBC/IFC-aligned. Key chapters:
 - Ch. 4 General Building Heights and Areas (cross-ref SBC 201 Ch. 5)
@@ -186,11 +174,11 @@ IBC/IFC-aligned. Key chapters:
 - Ch. 33 Existing buildings
 - Ch. 34 Special detailed requirements
 
-### 4.2 Egress Travel Distances (SBC 801 Ch. 10)
+### 4.2 疏散距离（SBC 801 第 10 章）
 
 Aligned to IBC Table 1017.2 with Saudi modifications:
 
-| Occupancy | Sprinklered Travel (m) | Unsprinklered (m) |
+| 使用性质 | 有喷淋疏散距离（m） | 无喷淋（m） |
 |---|---|---|
 | A | 76.2 | 61.0 |
 | B | 91.4 | 61.0 |
@@ -204,22 +192,22 @@ Aligned to IBC Table 1017.2 with Saudi modifications:
 | R | 76.2 | 60.96 |
 | S-1 | 76.2 | 60.96 |
 
-### 4.3 High-Rise (SBC 801 Ch. 4 Special Detailed)
+### 4.3 高层建筑（SBC 801 第 4 章特殊条款）
 
 - **Threshold**: building > 23 m (75 ft) above lowest fire-department access
 - Required: 2 enclosed exit stairs (pressurized in many cases), 2-hour fire-rated lobbies, sprinklers throughout, voice evacuation, fire command centre, fire lift complying with EN 81-72 equivalent
 - **Smoke control**: required atrium, mall, underground parking, high-rise per SBC 801 Ch. 28
 
-### 4.4 External Wall Cladding (SBC 801 Ch. 14, post-Mecca crane tower fires)
+### 4.4 外墙覆层（SBC 801 第 14 章，麦加塔吊火灾后）
 
 Aligned to IBC Section 1402-1406 and NFPA 285:
 - Buildings > 18 m (60 ft) require **NFPA 285 tested assembly** OR Class A1/A2 non-combustible
 - **Storage building heat-released ban**: large-scale combustible cladding effectively prohibited
 - **Approval**: Civil Defence reviews + Saudi Standards (SASO) certification of products
 
-### 4.5 Civil Defence Approval Pre-Design
+### 4.5 民防部门设计前审批
 
-For any major project (high-rise, hospital, school, hotel, mall, industrial, special hazards):
+对于任何大型项目（高层、医院、学校、酒店、商场、工业及特殊危险用途）：
 1. **Concept submission** to Civil Defence -- review of fire strategy
 2. **Design Development submission** -- complete fire/life safety design package
 3. **Construction-phase inspections**
@@ -227,23 +215,23 @@ For any major project (high-rise, hospital, school, hotel, mall, industrial, spe
 
 ---
 
-## 5. Energy Code (SBC 601)
+## 5. 能源规范（SBC 601）
 
-### 5.1 SBC 601-CR Structure
+### 5.1 SBC 601-CR 结构
 
 Aligned to **IECC 2015 + ASHRAE 90.1-2013** with Saudi modifications. Mandatory.
 
-**Saudi Climate Zones (SBC 601-CR Section 301.1):**
+**沙特气候区（SBC 601-CR 第 301.1 节）：**
 
-| Zone | Type | Cities | ASHRAE 169 Equivalent |
+| 区域 | 类型 | 城市 | ASHRAE 169 等效区 |
 |---|---|---|---|
 | **Zone 1** | Hot-Humid (Coast) | Jeddah, Yanbu, Jubail, Dammam, Khobar | 1B-2A margin |
 | **Zone 2** | Hot-Dry (Interior) | Riyadh, Hail, Buraydah, Hofuf | 1B |
 | **Zone 3** | Cooler/Highland | Abha, Taif, Tabuk, AlUla, NEOM (mountains) | 2B-3B margin |
 
-### 5.2 SBC 601 Prescriptive Envelope Targets
+### 5.2 SBC 601 规定性围护结构目标
 
-| Element | Zone 1 (Coastal Humid) | Zone 2 (Interior Dry) | Zone 3 (Highland) |
+| 要素 | 第 1 区（沿海湿热） | 第 2 区（内陆干燥） | 第 3 区（高地） |
 |---|---|---|---|
 | Wall U (W/m2K) | 0.50 | 0.45 | 0.40 |
 | Roof U (W/m2K) | 0.30 | 0.25 | 0.25 |
@@ -253,19 +241,19 @@ Aligned to **IECC 2015 + ASHRAE 90.1-2013** with Saudi modifications. Mandatory.
 
 (Values indicative; refer to SBC 601-CR current edition tables.)
 
-### 5.3 Mostadamah (Saudi Green Building Program)
+### 5.3 Mostadamah（沙特绿色建筑计划）
 
 Saudi's voluntary-tier green rating system. Categories: Site, Water, Energy, Materials, IEQ, Innovation. Pursued by government-funded projects and increasingly by private developers (NEOM, Red Sea Global require equivalent).
 
-### 5.4 SEEC Programs
+### 5.4 SEEC 计划
 
 Saudi Energy Efficiency Center mandates appliance standards (SASO labels), industrial efficiency, district cooling for new developments > 2 million sqm conditioned space.
 
 ---
 
-## 6. Accessibility (SBC 801 Ch. 11 + Saudi Universal Accessibility Code)
+## 6. 无障碍（SBC 801 第 11 章 + Saudi Universal Accessibility Code）
 
-### 6.1 Framework
+### 6.1 框架
 
 - **SBC 801 Chapter 11** -- aligned to ANSI A117.1-2009
 - **Saudi Universal Accessibility Code (2010, revised)** -- by MoMRAH + Authority of People with Disabilities
@@ -273,11 +261,11 @@ Saudi Energy Efficiency Center mandates appliance standards (SASO labels), indus
 - **Mowaamah Certification** -- accessibility certification for workplaces
 - Saudi ratified the **UN Convention on the Rights of Persons with Disabilities** (2008)
 
-### 6.2 Key Dimensions
+### 6.2 关键尺寸
 
 ANSI A117.1-aligned with Saudi additions:
 
-| Element | Dimension |
+| 要素 | 尺寸 |
 |---|---|
 | Accessible route | 1.22 m clear (1.5 m preferred) |
 | Door clear width | 813 mm (32 in) -- with Saudi preference for 900 mm at primary entries |
@@ -289,19 +277,19 @@ ANSI A117.1-aligned with Saudi additions:
 | Tactile flooring | Per ISO 23599 + Saudi Code; at all level changes, doorways, lift entries, ramp ends |
 | Mosque accessibility | Wheelchair-accessible prayer area at side (not back) per Saudi guidelines; ablution stations dual-height |
 
-### 6.3 Mowaamah Workplace Certification
+### 6.3 Mowaamah 工作场所认证
 
 Three tiers: Bronze, Silver, Gold. Requires policy + physical environment + recruitment provisions. Issued by Ministry of Human Resources and Social Development. Many Saudi commercial buildings now target Mowaamah Gold.
 
 ---
 
-## 7. Structural and Loads (SBC 301)
+## 7. 结构与荷载（SBC 301）
 
-### 7.1 SBC 301 -- Loads
+### 7.1 SBC 301——荷载
 
 Aligned to ASCE 7-16:
 
-| Load | Saudi-Specific |
+| 荷载 | 沙特专项要求 |
 |---|---|
 | Dead and Live | ASCE 7-16 Ch. 3-4 |
 | Wind | ASCE 7-16 + Saudi wind maps; 3-second gust mapped by region |
@@ -310,24 +298,24 @@ Aligned to ASCE 7-16:
 | Dust/Sand | Site-specific additive; significant near Empty Quarter (Rub' al Khali) edges |
 | Thermal | Critical for facades; design thermal range up to 60 C |
 
-### 7.2 Seismic Zoning
+### 7.2 抗震分区
 
 Saudi Arabia has **moderate seismicity along Red Sea margin** + Tabuk + Asir; low elsewhere.
 
-| Region | Seismic Design Category (SDC) | Notes |
+| 地区 | 抗震设计类别（SDC） | 备注 |
 |---|---|---|
-| Central Plateau (Riyadh, Buraydah) | A | Lowest |
-| Eastern Province (Dammam, Khobar) | A-B | Low |
+| 中部高原（利雅得、布赖代） | A | 最低 |
+| 东部省（达曼、胡拜尔） | A-B | 低 |
 | Western Coast Jeddah | B-C | Moderate |
 | Tabuk, NEOM region | C-D | Higher |
-| Asir Highlands (Abha) | C | Moderate |
+| 阿西尔高地（艾卜哈） | C | 中等 |
 | Northern Borders | A | Lowest |
 
-For SDC D and above, full ductile detailing per SBC 302/306 + ASCE 7 seismic analysis required.
+对于 SDC D 及以上等级，必须依据 SBC 302/306 进行完整延性构造，并按 ASCE 7 开展抗震分析。
 
-### 7.3 Materials
+### 7.3 材料
 
-| Material | Code |
+| 材料 | 规范 |
 |---|---|
 | Concrete | SBC 302 (ACI 318-14 derived) |
 | Steel | SBC 306 (AISC 360 derived) |
@@ -335,7 +323,7 @@ For SDC D and above, full ductile detailing per SBC 302/306 + ASCE 7 seismic ana
 | Foundations | SBC 304 -- soils, calcareous/sabkha + gypsum special provisions |
 | Aluminium | AA Aluminium Design Manual (referenced) |
 
-### 7.4 Soils
+### 7.4 土壤
 
 Saudi has problematic soils in many regions:
 - **Sabkha** (coastal salt flats around Persian Gulf, Red Sea): high sulphate + chloride, weak bearing
@@ -347,9 +335,9 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 
 ---
 
-## 8. Construction Permits Workflow
+## 8. 施工许可流程
 
-### 8.1 Steps (Riyadh as representative)
+### 8.1 步骤（以利雅得为例）
 
 1. **Land documentation**: Saqq (Title Deed) verification with Ministry of Justice
 2. **Survey + soil report** by certified office
@@ -363,7 +351,7 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 10. **Occupancy Certificate (Shahadat Itham al-Bina'a)** by Amana
 11. Utility connections SEC + NWC + others
 
-### 8.2 Special Workflows
+### 8.2 特殊流程
 
 - **Giga-projects**: own authority handles steps 4-10 internally; SBC compliance reviewed by their consultants
 - **Royal Commission projects (RCJY, RCU, RCRC)**: separate workflow within commission's design + permit office
@@ -371,11 +359,11 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 
 ---
 
-## 9. Climate Design Parameters
+## 9. 气候设计参数
 
-### 9.1 Riyadh (Zone 2 -- Hot Dry Interior)
+### 9.1 利雅得（第 2 区——内陆炎热干燥）
 
-| Parameter | Value |
+| 参数 | 数值 |
 |---|---|
 | Cooling design DB (0.4%) | 47-48 deg C |
 | Cooling MCWB | 18-20 deg C (dry) |
@@ -387,7 +375,7 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 | Wind 3-sec gust | 38-42 m/s |
 | Dust storms | 8-15 events/year |
 
-### 9.2 Jeddah (Zone 1 -- Hot Humid Coast)
+### 9.2 吉达（第 1 区——沿海炎热湿润）
 
 | Parameter | Value |
 |---|---|
@@ -395,10 +383,10 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 | Cooling MCWB | 27-29 deg C (humid -- bigger challenge) |
 | Heating design DB | 13-15 deg C |
 | Annual CDD | 5000+ |
-| Salt-laden air | severe corrosion risk |
-| Sirocco / khamsin events | dust + heat |
+| 含盐空气 | 严重腐蚀风险 |
+| 西罗科/哈姆辛风事件 | 沙尘+高温 |
 
-### 9.3 Tabuk / NEOM (Zone 3 -- Highland)
+### 9.3 塔布克 / NEOM（第 3 区——高地）
 
 | Parameter | Value |
 |---|---|
@@ -410,43 +398,43 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 
 ---
 
-## 10. Quick Numeric Reference
+## 10. 快速数值参考
 
-| Parameter | Value | Source |
+| 参数 | 数值 | 来源 |
 |---|---|---|
-| Floor-to-floor residential | 3.0-3.3 m | SBC 201 + general practice |
-| Floor-to-floor office | 4.0-4.5 m | SBC 201 + Saudi Class A office spec |
-| Hotel ceiling clear | 2.7 m min | SBC 201 |
-| Corridor width residential | 1.118 m (44 in) | SBC 801 Ch. 10 |
-| Corridor width office | 1.118 m (44 in) | SBC 801 Ch. 10 |
-| Stair width | 1.118 m (44 in) | SBC 801 Ch. 10 |
-| Travel distance B (sprinklered) | 91.4 m | SBC 801 Ch. 10 + IBC Table 1017.2 |
-| Cladding (high-rise) | NFPA 285 assembly or Class A1/A2 | SBC 801 Ch. 14 |
-| Wall U (Zone 2 -- Riyadh) | 0.45 W/m2K | SBC 601 |
-| Glass SHGC (Zone 2) | 0.25 | SBC 601 |
-| Parking residential | 1.0-1.5 per unit | Local Amana DCR |
-| Mosque -- prayer area allocation | 0.8-1.0 m2 per worshipper (sitting); 0.6 m2 standing | Hajj Research Institute |
+| 住宅层高 | 3.0-3.3 m | SBC 201 + 通行做法 |
+| 办公层高 | 4.0-4.5 m | SBC 201 + 沙特A级办公规范 |
+| 酒店净高 | 最小2.7 m | SBC 201 |
+| 住宅走廊宽度 | 1.118 m（44 in） | SBC 801 第10章 |
+| 办公走廊宽度 | 1.118 m（44 in） | SBC 801 第10章 |
+| 楼梯宽度 | 1.118 m（44 in） | SBC 801 第10章 |
+| B类疏散距离（设喷淋） | 91.4 m | SBC 801 第10章 + IBC表1017.2 |
+| 高层覆层 | NFPA 285组件或A1/A2类 | SBC 801 第14章 |
+| 墙体U值（第2区——利雅得） | 0.45 W/m2K | SBC 601 |
+| 玻璃SHGC（第2区） | 0.25 | SBC 601 |
+| 住宅停车位 | 每户1.0-1.5个 | 当地Amana DCR |
+| 清真寺——礼拜区面积 | 坐姿每人0.8-1.0 m²；站姿0.6 m² | Hajj Research Institute |
 
 ---
 
-## 11. Application Workflow
+## 11. 应用流程
 
-1. **Identify Amana / Royal Commission / Giga-project jurisdiction**.
-2. **Confirm SBC version in force at current Amana** (typically 2018 + latest amendments).
-3. **Apply SBC 201** for general + classification.
-4. **Apply SBC 801** for fire/life safety (always).
-5. **Apply SBC 601** for energy compliance.
-6. **Apply SBC 301-306** for structural.
-7. **Apply Saudi Universal Accessibility Code + SBC 801 Ch. 11** for accessibility.
-8. **Confirm Civil Defence pre-approval workflow** at concept/SD/DD/Construction/Completion.
-9. **Confirm RCRC / RCU / NEOM specific guidelines** if within those jurisdictions.
-10. **Cite clauses**: "SBC 201-CR 2018 Chapter 504", "SBC 801-CR 2018 Section 1006.2", "SBC 601-CR 2018 Table C402.1.4", "Saudi Universal Accessibility Code 2010 Section 4.3.1".
+1. **确定 Amana / Royal Commission / 超级项目管辖区**。
+2. **确认当前 Amana 执行的 SBC 版本**（通常为 2018 版及最新修订）。
+3. 对一般要求和分类采用 **SBC 201**。
+4. 始终对防火与生命安全采用 **SBC 801**。
+5. 对能源合规采用 **SBC 601**。
+6. 对结构采用 **SBC 301–306**。
+7. 无障碍采用 **Saudi Universal Accessibility Code + SBC 801 第 11 章**。
+8. 确认民防部门在概念、SD、DD、施工和竣工阶段的预审批流程。
+9. 如位于相关辖区，确认 **RCRC / RCU / NEOM 专项指南**。
+10. **引用条款**：例如 “SBC 201-CR 2018 Chapter 504”、“SBC 801-CR 2018 Section 1006.2”、“SBC 601-CR 2018 Table C402.1.4”、“Saudi Universal Accessibility Code 2010 Section 4.3.1”。
 
 ---
 
-## 12. Authoritative Sources
+## 12. 权威来源
 
-- **Saudi Building Code National Committee (SBCNC)** -- sbc.gov.sa -- all SBC codes
+- **Saudi Building Code National Committee (SBCNC)**——sbc.gov.sa——全部 SBC 规范。
 - **Ministry of Municipal, Rural Affairs and Housing (MoMRAH)** -- momrah.gov.sa
 - **General Directorate of Civil Defence** -- 998.gov.sa
 - **Saudi Standards, Metrology and Quality Org (SASO)** -- saso.gov.sa
@@ -464,4 +452,4 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 
 ---
 
-*Cross-references: load `building-codes` for IBC fundamentals (SBC 201 is IBC-derived); `fire-life-safety` for general egress overlaid by SBC 801; `building-envelope` for hot-arid + coastal-humid detailing; `building-sustainability` for Mostadamah / LEED comparison; `accessibility-design` for ANSI A117.1 / Saudi UAC; `structural-systems` for ACI 318 + AISC content used by SBC 302/306.*
+*交叉引用：加载 `building-codes` 了解 IBC 基础（SBC 201 源自 IBC）；加载 `fire-life-safety` 了解一般疏散并结合 SBC 801；加载 `building-envelope` 处理炎热干燥及沿海湿热节点；加载 `building-sustainability` 比较 Mostadamah / LEED；加载 `accessibility-design` 了解 ANSI A117.1 / Saudi UAC；加载 `structural-systems` 了解 SBC 302/306 所采用的 ACI 318 + AISC 内容。*

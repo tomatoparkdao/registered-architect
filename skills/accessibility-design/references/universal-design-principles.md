@@ -1,377 +1,273 @@
-# Universal Design Principles -- Philosophy, Evidence, and Exemplar Buildings
+# 通用设计原则——理念、证据与示范建筑
 
-## Overview
+## 概述
 
-Universal design is a design philosophy that goes beyond compliance with
-accessibility codes. It seeks to create environments usable by the widest
-range of people without adaptation or specialized features. This reference
-covers the philosophical foundation, the Centre for Excellence in Universal
-Design guidelines, post-occupancy evidence supporting inclusive design, and
-exemplar buildings that demonstrate universal design at the highest level.
+通用设计是一种超越无障碍规范合规要求的设计理念，旨在创造无需改造或专门设施、可供最广泛人群使用的环境。本参考涵盖其哲学基础、通用设计卓越中心指南、支持包容性设计的使用后评估证据，以及展示高水平通用设计的示范建筑。
 
 ---
 
-## Section 1: Philosophical Foundation
+## 第 1 节：哲学基础
 
-### Origins
+### 起源
 
-The term "universal design" was coined by Ronald L. Mace (1941-1998), an
-architect who used a wheelchair from age nine due to polio. Mace argued that
-accessibility regulations, while necessary, created a parallel and often
-stigmatizing infrastructure -- separate entrances, add-on ramps, institutional
-fixtures. He proposed instead that the mainstream design process should
-inherently accommodate diversity.
+“通用设计”一词由 Ronald L. Mace（1941—1998）提出。他是一名建筑师，因小儿麻痹症自 9 岁起使用轮椅。Mace 认为，无障碍法规虽然必要，却造成了平行且常带有污名化色彩的基础设施——独立入口、后加坡道和机构化设施。他主张主流设计流程本身就应当包容多样性。
 
-Mace's 1985 founding of the Center for Universal Design at North Carolina
-State University established the academic and professional framework that
-produced the 7 Principles of Universal Design in 1997 (see SKILL.md Section 1).
+Mace 于 1985 年在北卡罗来纳州立大学创立通用设计中心，建立了学术与专业框架，并于 1997 年形成《通用设计七项原则》（见 SKILL.md 第 1 节）。
 
-### Distinction from Accessibility
+### 与无障碍设计的区别
 
-| Aspect | Accessibility (Codes) | Universal Design |
+| 方面 | 无障碍设计（规范） | 通用设计 |
 |------------------------|-------------------------------|------------------------------|
-| Motivation | Legal compliance | Design excellence |
-| Scope | Persons with disabilities | All persons |
-| Approach | Minimum standards | Optimal experience |
-| Integration | May allow separate solutions | Demands integrated solutions |
-| Measurement | Pass/fail against code | Continuous improvement |
-| Cost perception | Added expense | Better design at similar cost |
+| 动机 | 法规合规 | 设计卓越 |
+| 范围 | 残障人士 | 所有人 |
+| 方法 | 最低标准 | 最优体验 |
+| 整合 | 可能允许分离式解决方案 | 要求一体化解决方案 |
+| 衡量 | 按规范通过/不通过 | 持续改进 |
+| 成本认知 | 额外支出 | 以相近成本实现更优设计 |
 
-### Social Model of Disability
+### 残障的社会模型
 
-Universal design is grounded in the social model of disability, which holds
-that disability is created by barriers in the environment rather than by
-individual impairments. A person using a wheelchair is disabled by stairs,
-not by their body. Remove the stairs (provide a level entrance), and the
-disability disappears. This reframes accessibility from "accommodation"
-to "good design."
+通用设计以残障的社会模型为基础，认为残障由环境障碍造成，而非由个人身体缺陷造成。使用轮椅的人是被楼梯限制的，而不是被自己的身体限制的。移除楼梯（提供无高差入口）后，障碍便消失了。这使无障碍从“特殊适配”重新定义为“良好设计”。
 
-### Intersectionality
+### 交叉性
 
-Universal design recognizes that human diversity is multidimensional. A
-person may be:
-- Using a wheelchair AND carrying groceries
-- Visually impaired AND a child
-- Elderly AND a non-native language speaker
-- Temporarily injured AND unfamiliar with the building
+通用设计承认人的多样性具有多维特征。一个人可能同时是：
+- 使用轮椅且携带杂货
+- 视力受损且是儿童
+- 老年人且并非当地语言使用者
+- 暂时受伤且不熟悉建筑
 
-Designing for any single "user type" misses the reality of overlapping
-needs. Universal design addresses this by creating environments that work
-for the broadest possible intersection of human characteristics.
+只针对某一种“用户类型”进行设计，会忽略需求相互叠加的现实。通用设计通过创造适用于最广泛人群特征交叉组合的环境来回应这一问题。
 
 ---
 
-## Section 2: Centre for Excellence in Universal Design (CEUD) Guidelines
+## 第 2 节：通用设计卓越中心（CEUD）指南
 
-The Centre for Excellence in Universal Design, established by the National
-Disability Authority of Ireland under the Disability Act 2005, has published
-comprehensive guidelines that operationalize universal design principles for
-the built environment.
+爱尔兰国家残障管理局依据《2005 年残障法》设立通用设计卓越中心，并发布了将通用设计原则落实到建成环境中的综合指南。
 
-### CEUD's 10-Point Guidelines for the Built Environment
+### CEUD 建成环境十项指南
 
-1. **Approach and Entry:** Accessible, welcoming, and dignified arrival
-   experience for all. Level entry, power-assisted doors, shelter at entrance,
-   clear wayfinding from transport stops.
+1. **接近与入口：** 为所有人提供无障碍、友好且有尊严的到达体验。设置无高差入口、电动辅助门、入口遮蔽，并从交通站点提供清晰的导向。
 
-2. **Circulation and Movement:** Safe, intuitive, and comfortable circulation.
-   Wide corridors (1500 mm preferred), level changes addressed by elevators
-   and ramps alongside stairs, rest points every 50 m in large buildings.
+2. **流线与移动：** 确保流线安全、直观且舒适。走廊宜宽（推荐 1500 mm），高差通过与楼梯并列的电梯和坡道解决，大型建筑每 50 m 设置休息点。
 
-3. **Internal Environment:** Comfortable acoustics, thermal comfort,
-   lighting quality, and air quality. Acoustic absorption to reduce
-   reverberation (RT60 < 0.8s in circulation areas). Daylight access for
-   all regularly occupied spaces.
+3. **室内环境：** 提供舒适声学、热舒适、良好照明与空气质量。通过吸声降低混响（交通区域 RT60 < 0.8 s），所有经常使用空间均应获得自然采光。
 
-4. **Wayfinding and Orientation:** Multi-sensory wayfinding: visual (signs,
-   color), audible (announcements), tactile (TGSIs, map), and spatial
-   (architectural legibility). Decision points must be unambiguous.
+4. **导向与定位：** 采用多感官导向：视觉（标识、色彩）、听觉（广播）、触觉（TGSIs、地图）和空间（建筑可读性）。决策点必须明确无歧义。
 
-5. **Sanitary Facilities:** Accessible WCs on every level, gender-neutral
-   options, Changing Places facilities in large public buildings, baby
-   change facilities accessible to all genders.
+5. **卫生设施：** 每层设置无障碍卫生间，提供性别中立选项；大型公共建筑设置 Changing Places 专用设施，并提供所有性别均可使用的婴儿护理设施。
 
-6. **Furniture, Fittings, and Equipment:** Adjustable and adaptable.
-   Height-adjustable desks, multiple seat types (with and without armrests),
-   accessible service counters, induction loops at service points.
+6. **家具、装置与设备：** 可调节、可适应。设置高度可调桌、多种座椅（带或不带扶手）、无障碍服务柜台，并在服务点设置感应环路。
 
-7. **Technology and Digital Integration:** Accessible digital interfaces
-   (WCAG 2.1 AA for kiosks and digital signage), hearing loop coverage,
-   real-time information in visual and audible formats.
+7. **技术与数字整合：** 提供无障碍数字界面（信息亭和数字标牌符合 WCAG 2.1 AA）、听觉感应环覆盖，以及视觉和听觉形式的实时信息。
 
-8. **Outdoor Spaces:** Firm, stable surfaces, accessible play areas, seating
-   at regular intervals (max 50 m), shelter from weather, adequate lighting,
-   accessible planting beds (raised, reachable from wheelchair).
+8. **室外空间：** 地面坚实稳定，设置无障碍游乐区，按规律间隔布置座椅（最大 50 m），提供天气遮蔽和充足照明，并设置无障碍种植池（抬高且轮椅可触及）。
 
-9. **Emergency Egress:** Inclusive emergency evacuation: visual and audible
-   alarms, refuge areas at every stair, evacuation plans for persons with
-   disabilities, staff training for assisted evacuation.
+9. **紧急疏散：** 实施包容性应急疏散：设置视觉和听觉报警、每部楼梯旁设置避难区、制定残障人士疏散方案，并培训工作人员开展辅助疏散。
 
-10. **Management and Maintenance:** Post-occupancy evaluation, user feedback
-    mechanisms, maintenance regime that preserves accessibility (e.g., not
-    storing items in accessible WCs, keeping tactile indicators unobstructed).
+10. **管理与维护：** 开展使用后评估，建立用户反馈机制，并执行维护制度以保持无障碍条件（例如不得在无障碍卫生间内堆放物品，保持触觉标识无障碍）。
 
-### CEUD Building for Everyone Series
+### CEUD《人人建筑》系列
 
-The CEUD "Building for Everyone" publication (9 booklets) provides sector-
-specific guidance:
-- Booklet 1: External Environment
-- Booklet 2: Entrances and Horizontal Circulation
-- Booklet 3: Vertical Circulation
-- Booklet 4: Internal Environment and Services
-- Booklet 5: Sanitary Facilities
-- Booklet 6: Facilities in Buildings
-- Booklet 7: Building Types
-- Booklet 8: Building Management
-- Booklet 9: Planning and Policy
+CEUD《人人建筑》出版物（共 9 册）提供分领域指南：
+- 第 1 册：室外环境
+- 第 2 册：入口与水平交通
+- 第 3 册：垂直交通
+- 第 4 册：室内环境与服务
+- 第 5 册：卫生设施
+- 第 6 册：建筑内设施
+- 第 7 册：建筑类型
+- 第 8 册：建筑管理
+- 第 9 册：规划与政策
 
 ---
 
-## Section 3: Post-Occupancy Evidence for Inclusive Design
+## 第 3 节：支持包容性设计的使用后评估证据
 
-### Research Findings
+### 研究发现
 
-**Productivity and well-being:**
-- A 2019 study by the World Green Building Council found that buildings
-  designed with inclusive principles (good daylighting, acoustics, thermal
-  comfort, and spatial quality) showed 11% higher productivity among all
-  occupants, not just those with disabilities.
+**生产力与福祉：**
+- 世界绿色建筑委员会 2019 年研究发现，采用包容性原则（良好采光、声学、热舒适度和空间品质）设计的建筑，所有使用者的生产力提高了 11%，而不仅是残障人士。
 
-**Reduced injury rates:**
-- Level thresholds, contrasting stair nosings, and slip-resistant flooring
-  reduce trip-and-fall incidents by 20-40% compared to buildings meeting
-  only minimum code requirements (UK Health and Safety Executive data, 2017).
+**降低受伤率：**
+- 与仅满足规范最低要求的建筑相比，平齐门槛、对比色踏步前缘和防滑地面可将绊倒事故减少 20%–40%（英国健康与安全执行局 2017 年数据）。
 
-**Increased dwell time and spending:**
-- Retail environments designed with universal design principles (wide aisles,
-  clear wayfinding, accessible fitting rooms, rest points) show 15-25%
-  increased dwell time across all customers (not just disabled customers).
-  Study: Petermans and Cain, 2018, "Design for Inclusivity in Retail."
+**延长停留时间并增加消费：**
+- 采用通用设计原则（宽通道、清晰导向、无障碍试衣间、休息点）的零售环境，可使所有顾客的停留时间增加 15%–25%（不只是残障顾客）。研究：Petermans 与 Cain，2018，《零售包容性设计》。
 
-**Healthcare outcomes:**
-- Patient rooms designed with universal principles (level shower access,
-  grab bars as standard, adequate turning space) reduce patient falls by
-  30% and staff injuries during patient transfers by 40% (Ulrich et al.,
-  2008, "A Review of the Research Literature on Evidence-Based Healthcare
-  Design").
+**医疗成果：**
+- 采用通用原则设计的病房（平齐淋浴入口、标准配置扶手、充足回转空间）可使患者跌倒减少 30%，并使工作人员在转移患者时的受伤减少 40%（Ulrich 等，2008，《循证医疗设计研究文献综述》）。
 
-**Aging population:**
-- In countries with aging populations (Japan, Germany, Italy), buildings
-  designed with universal principles maintain functional independence longer.
-  Japanese research shows that universally designed dwellings allow persons
-  to "age in place" 5-8 years longer than conventional housing (MLIT Japan,
-  2016 housing survey).
+**人口老龄化：**
+- 在日本、德国、意大利等人口老龄化国家，采用通用原则设计的建筑可更长时间维持使用者的功能独立性。日本研究表明，通用设计住宅可使居民比传统住宅多 5–8 年实现“原居安老”（日本国土交通省，2016 年住房调查）。
 
-### Economic Case
+### 经济效益
 
-- **Construction cost premium:** Well-integrated universal design typically
-  adds 0-2% to construction cost compared to minimum code compliance.
-  Retrofitting an inaccessible building costs 5-15x more than designing
-  inclusively from the start.
-- **Operational savings:** Reduced liability from trip-and-fall claims,
-  reduced renovation costs as demographics shift, higher occupancy rates
-  in commercial properties.
-- **Market expansion:** 15-20% of the global population has a disability.
-  Adding aging populations and temporary impairments, 40-50% of people
-  benefit from universal design features at any given time.
+- **建造成本溢价：**与仅满足规范最低要求相比，良好整合的通用设计通常使建造成本增加 0%–2%。对无障碍不足的建筑进行改造，成本是从一开始采用包容性设计的 5–15 倍。
+- **运营节省：**减少绊倒索赔带来的责任风险；在人口结构变化时降低翻修成本；提高商业物业入住率。
+- **市场扩展：**全球 15%–20% 的人口存在残障。考虑老年人口和暂时性功能障碍后，在任一时点受益于通用设计特征的人群可达 40%–50%。
 
 ---
 
-## Section 4: Exemplar Inclusive Buildings Worldwide
+## 第 4 节：全球包容性建筑示范
 
-### 1. Ed Roberts Campus -- Berkeley, California, USA (2011)
-**Architect:** Leddy Maytum Stacy Architects
+### 1. Ed Roberts Campus——美国加利福尼亚州伯克利（2011）
+**建筑师：**Leddy Maytum Stacy Architects
 
-The building is named after Ed Roberts, a disability rights pioneer. It houses
-multiple disability service organizations and was designed from the ground up
-as a universally designed workplace.
+建筑以残障权利先驱 Ed Roberts 命名，容纳多个残障服务机构，并从一开始就按通用设计工作场所进行设计。
 
-Key features:
-- Helical ramp as the primary circulation element (not an afterthought),
-  connecting all levels with a continuous accessible path at 1:16 slope
-- No stairs as primary circulation -- the ramp IS the architecture
-- Acoustic design: RT60 < 0.6s in all common areas
-- Tactile and color-coded wayfinding throughout
-- Adjustable workstations at every desk
-- Hearing loops in all meeting rooms
-- Contrasting floor materials at every transition point
+主要特征：
+- 以螺旋坡道作为主要交通要素（并非事后补充），以 1:16 坡度将各层连接成连续无障碍路径
+- 不以楼梯作为主要交通——坡道本身就是建筑
+- 声学设计：所有公共区域 RT60 < 0.6 s
+- 全楼采用触觉与色彩编码导向
+- 每张办公桌均设可调节工作站
+- 所有会议室设置助听感应环
+- 每个材料转换位置均采用对比地面材料
 
-### 2. Museu de Arte de Sao Paulo (MASP) -- Sao Paulo, Brazil (1968, renovated 2010s)
-**Architect:** Lina Bo Bardi (original); accessibility improvements ongoing
+### 2. 圣保罗艺术博物馆（MASP）——巴西圣保罗（1968 年，2010 年代翻修）
+**建筑师：**Lina Bo Bardi（原设计）；无障碍改造持续进行
 
-Key features:
-- The original 1968 design elevated the building on massive pilotis, creating
-  a covered public plaza accessible at grade from all directions
-- Recent renovations added: accessible gallery routes, tactile models of
-  artworks, audio descriptions, sensory tours for visitors with intellectual
-  disabilities
-- Demonstrates that mid-century modern architecture can be adapted for
-  contemporary inclusive standards
+主要特征：
+- 1968 年原设计将建筑抬升于巨型底层柱上，形成四面均可平层到达的有顶公共广场
+- 近期翻修增加无障碍展厅路线、艺术品触觉模型、语音描述，以及面向智力障碍访客的感官导览
+- 证明中世纪现代主义建筑可以适应当代包容性标准
 
-### 3. Maggie's Centre Leeds -- Leeds, UK (2020)
-**Architect:** Heatherwick Studio
+### 3. Maggie's Centre Leeds——英国利兹（2020）
+**建筑师：**Heatherwick Studio
 
-A cancer support center designed around the experience of people in treatment:
+围绕治疗期人群体验设计的癌症支持中心：
 
-Key features:
-- Single-story design with level access throughout
-- Domestic scale (not institutional) to reduce anxiety
-- Large, operable windows for fresh air and daylight
-- Quiet rooms with dimmable lighting for sensory relief
-- Garden accessible from every room, with raised planting beds
-- Kitchen as central social space, wheelchair-accessible counters at standard
-  and lowered heights as integrated design feature
+主要特征：
+- 单层设计，全程平层通行
+- 采用居家尺度（而非机构化尺度）以减轻焦虑
+- 设置大型可开启窗，提供新鲜空气和自然采光
+- 设置可调光安静房间，缓解感官压力
+- 每个房间均可到达花园，花园设抬高种植池
+- 厨房作为核心社交空间，标准高度及降低高度均设轮椅可用台面，并将其作为整合设计特征
 
-### 4. Copenhagen Airport Terminal 3 -- Copenhagen, Denmark (1998, expanded)
-**Architect:** Vilhelm Lauritzen Architects
+### 4. 哥本哈根机场 3 号航站楼——丹麦哥本哈根（1998 年，扩建）
+**建筑师：**Vilhelm Lauritzen Architects
 
-Consistently rated one of the world's most accessible airports:
+持续被评为全球无障碍程度最高的机场之一：
 
-Key features:
-- Single-level check-in and departure hall (no level changes from entrance
-  to gate)
-- Tactile guide paths from entrance to all major services
-- Hearing loops at all counters and gates
-- Quiet rooms at every concourse for neurodivergent travelers
-- Accessible toilets exceed Danish code by 20% in size
-- Real-time flight information in large visual displays AND audible announcements
-  in multiple languages
+主要特征：
+- 单层值机及出发大厅（从入口至登机口无高差变化）
+- 从入口通往所有主要服务设施的触觉导向路径
+- 所有服务柜台和登机口设置助听感应环
+- 每个候机区均设面向神经多样性旅客的安静房间
+- 无障碍卫生间面积比丹麦规范要求大 20%
+- 通过大型视觉显示和多语种语音播报提供实时航班信息
 
-### 5. Apple Park Visitor Center -- Cupertino, California, USA (2017)
-**Architect:** Foster + Partners
+### 5. Apple Park 访客中心——美国加利福尼亚州库比蒂诺（2017）
+**建筑师：**Foster + Partners
 
-Key features:
-- Entirely level floor plate with flush thresholds throughout
-- Wide, unobstructed circulation paths (2.5 m minimum)
-- Assistive listening system throughout
-- Tactile augmented reality experience (iPad-based AR accessible to
-  screen reader users)
-- Restrooms exceed ADA requirements in every dimension
-- Demonstrates that universal design can be achieved at the highest level
-  of architectural sophistication
+主要特征：
+- 整体楼板平齐，全程采用无高差门槛
+- 宽阔且无障碍的交通路径（最小 2.5 m）
+- 全楼设置辅助听觉系统
+- 触觉增强现实体验（基于 iPad 的 AR，可供屏幕阅读器用户使用）
+- 卫生间各项尺寸均超过 ADA 要求
+- 证明通用设计可以达到建筑精细度的最高水平
 
-### 6. Smithsonian National Museum of African American History and Culture -- Washington, DC, USA (2016)
-**Architect:** Freelon Adjaye Bond / SmithGroup
+### 6. 美国国家非裔历史与文化博物馆——美国华盛顿特区（2016）
+**建筑师：**Freelon Adjaye Bond / SmithGroup
 
-Key features:
-- Multi-sensory exhibition design: tactile artifacts, audio stations with
-  hearing loop support, scent elements, vibration
-- Accessible route to every exhibition element including underground levels
-- Quiet contemplation spaces on every level
-- Wide corridors with rest points and seating with armrests
-- Wayfinding combining visual, tactile, and digital (app-based)
+主要特征：
+- 多感官展览设计：触觉展品、支持助听感应环的音频站、气味元素和振动
+- 通往所有展览元素的无障碍路线，包括地下层
+- 每层设置安静的沉思空间
+- 宽走廊设置休息点和带扶手座椅
+- 结合视觉、触觉和数字方式（基于应用程序）的导向系统
 
-### 7. Vestre Fjord Park -- Aalborg, Denmark (2018)
-**Architect:** ADEPT
+### 7. Vestre Fjord Park——丹麦奥尔堡（2018）
+**建筑师：**ADEPT
 
-An outdoor recreation facility demonstrating universal design in landscape:
+展示景观通用设计的户外休闲设施：
 
-Key features:
-- Accessible swimming facility with zero-depth entry pool
-- Changing rooms with Changing Places dimensions
-- Wheelchair-accessible observation tower via helical ramp
-- Tactile guide paths along waterfront
-- Play areas meeting EN 1176/1177 with accessible surfacing
-- Social seating arrangements at multiple heights
+主要特征：
+- 设有无高差入口泳池的无障碍游泳设施
+- 采用 Changing Places 尺寸的更衣室
+- 通过螺旋坡道到达轮椅可用的观景塔
+- 沿水岸设置触觉导向路径
+- 游乐区符合 EN 1176/1177，并采用无障碍地面
+- 设置多种高度的社交座椅组合
 
-### 8. Tate Modern -- London, UK (2000, Switch House extension 2016)
-**Architect:** Herzog & de Meuron
+### 8. 泰特现代美术馆——英国伦敦（2000 年，Switch House 扩建于 2016 年）
+**建筑师：**Herzog & de Meuron
 
-Key features:
-- Turbine Hall: vast ground-level public space accessible from river walk
-  and street level
-- Switch House: inclusive vertical circulation with 65 m ramp alongside stairs
-- Multi-sensory tours program (touch tours, audio description, BSL tours)
-- Quiet viewing hours program for neurodivergent visitors
-- Accessible WCs that exceed Part M requirements, including Changing Places
-  facility
+主要特征：
+- 涡轮大厅：大型地面层公共空间，可从河滨步道和街道平层进入
+- Switch House：楼梯旁设置 65 m 坡道，形成包容性垂直交通
+- 多感官导览项目（触摸导览、语音描述、英国手语导览）
+- 面向神经多样性访客的安静参观时段
+- 无障碍卫生间超过 Part M 要求，并设 Changing Places 设施
 
-### 9. Melbourne Convention and Exhibition Centre -- Melbourne, Australia (2009)
-**Architect:** Woods Bagot + NH Architecture
+### 9. 墨尔本会议会展中心——澳大利亚墨尔本（2009）
+**建筑师：**Woods Bagot + NH Architecture
 
-Key features:
-- Designed to exceed Australian AS 1428.1 requirements
-- All circulation at 1200 mm minimum clear width
-- Hearing augmentation (induction loop) in all meeting rooms and halls
-- Wayfinding: consistent color, material, and spatial vocabulary
-- Accessible spectator seating with companion seats at 3% of total capacity
-  (above the 1% minimum)
-- Post-occupancy evaluation program tracks accessibility performance annually
+主要特征：
+- 设计标准高于澳大利亚 AS 1428.1 要求
+- 所有交通空间净宽至少 1,200 mm
+- 所有会议室和大厅设置助听增强系统（感应环）
+- 导向系统采用一致的色彩、材料和空间语汇
+- 无障碍观众席配备陪同座位，占总容量 3%（高于 1% 的最低要求）
+- 使用后评估项目每年跟踪无障碍性能
 
-### 10. Fundacion ONCE Headquarters -- Madrid, Spain (2018)
-**Architect:** Marroquin Arquitectos
+### 10. Fundacion ONCE 总部——西班牙马德里（2018）
+**建筑师：**Marroquin Arquitectos
 
-The headquarters of Spain's national organization for the blind:
+西班牙国家盲人组织总部：
 
-Key features:
-- Dual wayfinding system: visual + full tactile route map with audio beacons
-- Every meeting room: hearing loop, captioning screen, tactile agenda documents
-- Workstations: height-adjustable as standard for all employees
-- Garden: fully accessible planting beds, water features designed for tactile
-  and auditory experience
-- Demonstrates that buildings can be designed primarily FOR people with
-  disabilities while being excellent environments for everyone
+主要特征：
+- 双重导向系统：视觉导向 + 配有音频信标的完整触觉路线图
+- 每间会议室均设助听感应环、字幕屏和触觉议程文件
+- 工作站标准配置高度可调节功能，供所有员工使用
+- 花园设置完全无障碍种植池，水景按触觉和听觉体验设计
+- 证明建筑可以主要面向残障人士设计，同时仍成为适合所有人的优秀环境
 
-### 11. Oodi Central Library -- Helsinki, Finland (2018)
-**Architect:** ALA Architects
+### 11. Oodi 中央图书馆——芬兰赫尔辛基（2018）
+**建筑师：**ALA Architects
 
-Key features:
-- Street-level public floor entirely barrier-free
-- Third-floor "book heaven" accessible by multiple elevators and escalators
-  with accessible integration
-- Multi-sensory children's area
-- Recording studios and maker spaces with adjustable workstations
-- Acoustically zoned: noisy ground floor, moderate second, quiet third
-- Gender-neutral accessible WCs on every floor
-- Demonstrably one of the most visited libraries in the world, partly due
-  to its welcoming, inclusive environment
+主要特征：
+- 街道层公共楼层完全无障碍
+- 三层“书的天堂”可通过多部电梯和自动扶梯到达，并整合无障碍设施
+- 多感官儿童区
+- 录音室和创客空间配置可调节工作站
+- 按声学分区：嘈杂的一层、中等声环境的二层、安静的三层
+- 每层均设性别中立无障碍卫生间
+- 其友好、包容的环境是该馆成为全球参观人数最多图书馆之一的部分原因
 
 ---
 
-## Section 5: Implementing Universal Design in Practice
+## 第 5 节：在实践中实施通用设计
 
-### Process Integration
+### 流程整合
 
-Universal design is not an add-on to be addressed at the documentation phase.
-It must be integrated from the earliest programming and concept design stages.
+通用设计不是在施工图阶段再补充的附加项，而必须从最早的任务书编制和概念设计阶段开始整合。
 
-**Programming:** Define user groups broadly -- include persons with mobility,
-sensory, cognitive, and temporary impairments in the user brief. Conduct user
-consultation with disability organizations.
+**任务书编制：**广泛定义用户群体——在用户需求书中纳入行动、感官、认知及暂时性功能障碍人士。与残障组织开展用户咨询。
 
-**Concept design:** Test spatial concepts against the 7 Principles. Can the
-primary circulation path serve all users? Is the main entrance level? Can
-wayfinding work without vision?
+**概念设计：**依据七项原则检验空间概念。主要交通路径能否服务所有用户？主入口是否平层？在无法视觉识别时导向系统是否仍然有效？
 
-**Schematic design:** Verify that all spaces are on an accessible route. Model
-critical clearances (door swings, turning spaces, fixture layouts) in 3D.
+**方案设计：**确认所有空间均位于无障碍路径上。在三维模型中校核关键净空（门扇开启、回转空间、洁具布置）。
 
-**Design development:** Detail every transition -- thresholds, level changes,
-material changes. Specify contrasts, finishes, hardware. Review with access
-consultant.
+**扩初设计：**详细处理所有转换部位——门槛、高差变化和材料变化。明确对比度、饰面及五金要求，并与无障碍顾问复核。
 
-**Construction documentation:** Annotate accessibility requirements on every
-drawing. Provide an accessibility specification section. Include grab bar
-blocking, pipe protection, floor finish slip ratings.
+**施工图设计：**在每张图纸上标注无障碍要求。设置无障碍专项技术规格章节，包括扶手加固、管道防护及地面饰面防滑等级。
 
-**Construction administration:** Verify installed dimensions. Common failures:
-ramp slopes that exceed 1:12 due to settlement, doors installed with incorrect
-clearances, signage mounted at wrong heights.
+**施工管理：**核验现场安装尺寸。常见问题包括：因沉降导致坡道坡度超过 1:12、门安装净空不正确、标识安装高度错误。
 
-**Post-occupancy:** Conduct accessibility audit 6-12 months after occupation.
-Survey occupants with disabilities. Address deficiencies.
+**使用后评估：**建筑投入使用 6–12 个月后开展无障碍审计。调查残障使用者，并整改缺陷。
 
-### Access Consultants
+### 无障碍顾问
 
-For complex projects, engage a certified access consultant (US: ADAAG
-certified, UK: NRAC consultant, Australia: AACA member). Their role includes:
-- Review of design at each stage
-- Code compliance verification
-- User testing facilitation
-- Post-occupancy evaluation
+对于复杂项目，应聘请认证无障碍顾问（美国：ADAAG 认证顾问；英国：NRAC 顾问；澳大利亚：AACA 会员）。其职责包括：
+- 各阶段设计审查
+- 规范合规性核验
+- 协助开展用户测试
+- 使用后评估
 
 ---
 
-*Universal design is not about making buildings "accessible." It is about
-making buildings good -- environments that serve human diversity as the
-default condition, not the exception.*
+*通用设计不只是让建筑“无障碍”，而是让建筑变得更好——将服务人类多样性作为默认条件，而不是例外情况。*

@@ -1,426 +1,424 @@
 ---
 name: building-sustainability
 description: >
-  Building sustainability frameworks and certification systems: LEED BD+C v4.1,
-  BREEAM New Construction, Passive House (PHI/PHIUS), WELL Building Standard v2,
-  DGNB, Living Building Challenge, Net Zero Carbon strategies, whole-life carbon
-  assessment, embodied carbon reduction, operational energy targets, circular
-  economy in architecture, and design for disassembly.
+  建筑可持续性框架与认证体系：LEED BD+C v4.1、BREEAM New Construction、Passive House（PHI/PHIUS）、
+  WELL Building Standard v2、DGNB、Living Building Challenge、净零碳策略、全寿命碳评估、隐含碳减排、
+  运行能耗目标、建筑循环经济与可拆解设计。
 ---
 
-# Building Sustainability
+# 建筑可持续性
 
-## Section 1: Sustainability Framework Selector
+## 第 1 节：可持续性框架选择器
 
-Selecting the right sustainability framework depends on project geography, client goals, market positioning, regulatory context, and budget. The following decision tree guides the selection.
+选择合适的可持续性框架取决于项目地域、业主目标、市场定位、法规环境和预算。以下决策树用于指导选择。
 
-### 1.1 LEED BD+C v4.1 (US Green Building Council)
+### 1.1 LEED BD+C v4.1（US Green Building Council）
 
-**Best for:** Projects in the United States, Canada, and global markets seeking internationally recognized green certification.
+**适用项目：** 美国、加拿大及寻求国际认可绿色认证的全球市场项目。
 
-- **Certification levels:** Certified (40–49 pts), Silver (50–59), Gold (60–79), Platinum (80+) out of 110 points
-- **Point structure:** 9 credit categories with prerequisite requirements and optional credits
-- **Cost premium:** 2–5% for Certified/Silver, 5–10% for Gold, 8–15% for Platinum (varies with baseline design quality)
-- **Market recognition:** Highest global recognition. Over 100,000 projects registered in 180+ countries. LEED certification is a market differentiator for Class A commercial office, institutional, and hospitality sectors. Many US federal and municipal projects mandate LEED Silver or Gold.
-- **Certification body:** GBCI (Green Business Certification Inc.)
-- **Timeline:** Registration → design review → construction review → certification. Typically 12–24 months from registration to certification.
-- **Architect's influence:** Architects directly influence 60–70% of available points through site design, building orientation, envelope performance, daylighting, material selection, and indoor environmental quality.
+- **认证等级：** 满分 110 分，Certified（40–49 分）、Silver（50–59 分）、Gold（60–79 分）、Platinum（80 分以上）。
+- **分值结构：** 9 个学分类别，含先决条件和可选学分。
+- **成本增量：** Certified／Silver 为 2–5%，Gold 为 5–10%，Platinum 为 8–15%（随基准设计质量变化）。
+- **市场认可度：** 全球认可度最高。已有超过 100,000 个项目在 180 多个国家注册。LEED 是甲级商业办公、机构和酒店项目的市场差异化因素；许多美国联邦和市政项目强制要求 LEED Silver 或 Gold。
+- **认证机构：** GBCI（Green Business Certification Inc.）。
+- **时间线：** 注册 → 设计审查 → 施工审查 → 认证，通常从注册到认证需 12–24 个月。
+- **建筑师影响：** 建筑师通过场地设计、建筑朝向、围护性能、采光、材料选择和室内环境质量，直接影响 60–70% 的可得分值。
 
-### 1.2 BREEAM New Construction (Building Research Establishment)
+### 1.2 BREEAM New Construction（Building Research Establishment）
 
-**Best for:** Projects in the United Kingdom, Europe, and markets where BRE assessment is established (Gulf states, parts of Asia).
+**适用项目：** 英国、欧洲及已建立 BRE 评估体系的市场（海湾国家、亚洲部分地区）。
 
-- **Certification levels:** Pass (≥30%), Good (≥45%), Very Good (≥55%), Excellent (≥70%), Outstanding (≥85%)
-- **Point structure:** 10 categories with mandatory credits and weighted scoring. Category weights vary by building type (e.g., Energy has higher weight in offices than in retail).
-- **Cost premium:** 1–3% for Good, 3–7% for Excellent, 7–15% for Outstanding
-- **Market recognition:** Dominant in the UK where planning authorities increasingly require BREEAM Excellent for major developments. Over 590,000 certificates issued. Strong in Europe, Middle East, and parts of Asia Pacific.
-- **Certification body:** BRE Global
-- **Architect's influence:** Architects influence management process (design stage credits), health & wellbeing, energy, transport, materials, and land use & ecology categories.
+- **认证等级：** Pass（≥30%）、Good（≥45%）、Very Good（≥55%）、Excellent（≥70%）、Outstanding（≥85%）。
+- **分值结构：** 10 个类别，采用强制学分和加权评分；类别权重随建筑类型变化（例如能源在办公建筑中的权重高于零售建筑）。
+- **成本增量：** Good 为 1–3%，Excellent 为 3–7%，Outstanding 为 7–15%。
+- **市场认可度：** 在英国占主导地位，规划机构日益要求大型开发项目达到 BREEAM Excellent。已颁发超过 590,000 份证书，在欧洲、中东和亚太部分地区影响力强。
+- **认证机构：** BRE Global。
+- **建筑师影响：** 建筑师影响管理流程（设计阶段学分）、健康与福祉、能源、交通、材料、土地利用与生态类别。
 
-### 1.3 DGNB (German Sustainable Building Council)
+### 1.3 DGNB（German Sustainable Building Council）
 
-**Best for:** Projects in Germany, Austria, Switzerland, Denmark, and Central European markets valuing lifecycle assessment.
+**适用项目：** 德国、奥地利、瑞士、丹麦及重视生命周期评估的中欧市场项目。
 
-- **Certification levels:** Bronze (≥35%), Silver (≥50%), Gold (≥65%), Platinum (≥80%)
-- **Point structure:** 6 quality sections: Environmental (22.5%), Economic (22.5%), Sociocultural & Functional (22.5%), Technical (15%), Process (12.5%), Site (5%). Emphasis on lifecycle cost and lifecycle environmental assessment.
-- **Cost premium:** 3–8% for Gold, 8–15% for Platinum
-- **Market recognition:** Dominant in Germany. Increasingly adopted in Denmark, Bulgaria, and other EU markets. Strong emphasis on lifecycle thinking distinguishes it from LEED/BREEAM.
-- **Architect's influence:** Very high. DGNB's lifecycle approach means architectural decisions about durability, adaptability, and material selection are central.
+- **认证等级：** Bronze（≥35%）、Silver（≥50%）、Gold（≥65%）、Platinum（≥80%）。
+- **分值结构：** 6 个质量部分：环境（22.5%）、经济（22.5%）、社会文化与功能（22.5%）、技术（15%）、流程（12.5%）、场地（5%）。强调生命周期成本和生命周期环境评估。
+- **成本增量：** Gold 为 3–8%，Platinum 为 8–15%。
+- **市场认可度：** 在德国占主导，并逐渐被丹麦、保加利亚及其他欧盟市场采用。对生命周期思维的强调使其区别于 LEED／BREEAM。
+- **建筑师影响：** 非常高。DGNB 的生命周期方法意味着耐久性、适应性和材料选择等建筑决策处于核心位置。
 
-### 1.4 WELL Building Standard v2 (International WELL Building Institute)
+### 1.4 WELL Building Standard v2（International WELL Building Institute）
 
-**Best for:** Projects where occupant health and wellbeing are primary goals — corporate headquarters, wellness-oriented hospitality, healthcare-adjacent, and forward-thinking offices.
+**适用项目：** 以使用者健康与福祉为首要目标的项目——企业总部、健康导向酒店、医疗相关项目和前瞻性办公建筑。
 
-- **Certification levels:** Bronze (≥40 pts), Silver (≥50), Gold (≥60), Platinum (≥80) out of 100+ points
-- **Point structure:** 10 concepts (Air, Water, Nourishment, Light, Movement, Thermal Comfort, Sound, Materials, Mind, Community) with preconditions and optimizations
-- **Cost premium:** 3–8% for Silver, 8–15% for Platinum (primarily in air quality systems, lighting controls, and acoustic treatments)
-- **Market recognition:** Growing rapidly. Positioned as a complement to LEED/BREEAM (environmental certification + WELL health certification). Over 4,500 projects in 60+ countries. Strong in corporate real estate where talent attraction is a driver.
-- **Certification body:** GBCI (same as LEED)
+- **认证等级：** 满分 100 分以上，Bronze（≥40 分）、Silver（≥50 分）、Gold（≥60 分）、Platinum（≥80 分）。
+- **分值结构：** 10 个概念（空气、水、营养、光、运动、热舒适、声音、材料、心智、社区），包含先决条件和优化项。
+- **成本增量：** Silver 为 3–8%，Platinum 为 8–15%（主要用于空气质量系统、照明控制和声学处理）。
+- **市场认可度：** 发展迅速，定位为 LEED／BREEAM 的补充（环境认证 + WELL 健康认证）。已有超过 4,500 个项目遍布 60 多个国家，在以人才吸引为驱动因素的企业不动产领域影响力强。
+- **认证机构：** GBCI（与 LEED 相同）。
 
-### 1.5 Passive House (PHI / PHIUS)
+### 1.5 Passive House（PHI／PHIUS）
 
-**Best for:** Projects targeting ultra-low operational energy — residential, schools, offices, and any building type where minimizing heating/cooling demand is paramount. Two certifying bodies: PHI (Passivhaus Institut, Darmstadt — original standard, used globally) and PHIUS (Passive House Institute US — climate-adapted standard for North American climates).
+**适用项目：** 目标实现超低运行能耗的项目——住宅、学校、办公以及以最小化供暖／制冷需求为首要目标的各类建筑。认证机构有两个：PHI（Passivhaus Institut，达姆施塔特，原始标准，全球使用）和 PHIUS（Passive House Institute US，针对北美气候调整的标准）。
 
-- **Certification levels:** PHI: Classic, Plus (net zero renewable), Premium (net positive). PHIUS: PHIUS+ 2021 (climate-specific targets)
-- **Criteria:** Heating demand ≤15 kWh/m²a (or heating load ≤10 W/m²), cooling demand ≤15 kWh/m²a, primary energy ≤120 kWh/m²a, airtightness ≤0.6 ACH @ 50 Pa
-- **Cost premium:** 5–15% over standard construction (decreasing as supply chains mature)
-- **Market recognition:** Gold standard for energy efficiency. Over 65,000 certified units worldwide. Increasingly mandated in municipal energy codes (Brussels, New York City projects, Vancouver). The physics-based approach delivers verified performance — the performance gap between design and operation is minimal.
+- **认证等级：** PHI：Classic、Plus（可再生能源净零）、Premium（能源净正）；PHIUS：PHIUS+ 2021（针对气候的目标）。
+- **准则：** 供暖需求 ≤15 kWh/m²a（或供暖负荷 ≤10 W/m²），制冷需求 ≤15 kWh/m²a，一次能源 ≤120 kWh/m²a，气密性 ≤0.6 ACH @ 50 Pa。
+- **成本增量：** 比标准建造高 5–15%（随着供应链成熟而下降）。
+- **市场认可度：** 能效黄金标准。全球已有超过 65,000 个认证单元，越来越多被纳入城市能源法规（布鲁塞尔、纽约市项目、温哥华）。基于物理学的方法可提供经验证的性能，设计与运行之间的性能差距很小。
 
-### 1.6 Net Zero Carbon (LETI / RIBA 2030 / Architecture 2030)
+### 1.6 净零碳（LETI／RIBA 2030／Architecture 2030）
 
-**Best for:** Projects committed to achieving net zero operational carbon and/or net zero whole-life carbon. Not a certification system per se, but a framework of targets and methodologies.
+**适用项目：** 承诺实现运行碳净零和／或全寿命碳净零的项目。这并非严格意义上的认证体系，而是由目标和方法组成的框架。
 
-- **LETI (London Energy Transformation Initiative):** Voluntary design targets for London and UK. Operational energy intensity: <35 kWh/m²/yr residential, <55 kWh/m²/yr office. Embodied carbon: <300 kgCO2e/m² residential, <350 kgCO2e/m² office (upfront, modules A1-A5). Space heating demand: <15 kWh/m²/yr.
-- **RIBA 2030 Climate Challenge:** Staged targets for UK architects: 2020 targets → 2025 targets → 2030 targets for operational energy, embodied carbon, and potable water use. By 2030: operational energy <35 kWh/m²/yr (all building types), embodied carbon <200 kgCO2e/m² (upfront).
-- **Architecture 2030 Challenge:** Global. All new buildings to be carbon-neutral by 2030. 80% reduction in fossil-fuel energy use by 2025.
+- **LETI（London Energy Transformation Initiative）：** 面向伦敦和英国的自愿设计目标。运行能耗强度：住宅 <35 kWh/m²/yr，办公 <55 kWh/m²/yr；隐含碳：住宅 <300 kgCO2e/m²，办公 <350 kgCO2e/m²（前期碳，模块 A1–A5）；空间供暖需求 <15 kWh/m²/yr。
+- **RIBA 2030 Climate Challenge：** 面向英国建筑师的分阶段目标：针对运行能耗、隐含碳和饮用水使用设定 2020 → 2025 → 2030 目标。到 2030 年：所有建筑类型运行能耗 <35 kWh/m²/yr，前期隐含碳 <200 kgCO2e/m²。
+- **Architecture 2030 Challenge：** 全球倡议。要求所有新建筑在 2030 年前实现碳中和，并在 2025 年前将化石燃料能耗降低 80%。
 
-### 1.7 Living Building Challenge 4.0 (International Living Future Institute)
+### 1.7 Living Building Challenge 4.0（International Living Future Institute）
 
-**Best for:** Projects aspiring to the most rigorous sustainability standard in the world — regenerative buildings that give back more than they take.
+**适用项目：** 追求世界上最严格可持续性标准的项目——创造的环境收益多于消耗的再生型建筑。
 
-- **Certification levels:** Full certification (all imperatives met), Petal certification (at least 3 of 7 petals), Zero Energy, Zero Carbon certifications (individual petals)
-- **Structure:** 7 petals (Place, Water, Energy, Health & Happiness, Materials, Equity, Beauty) with 20 imperatives. All imperatives are mandatory for full certification — no point trading.
-- **Cost premium:** 10–25%+ (net water positive, net energy positive, Red List material avoidance)
-- **Market recognition:** Prestige-tier. Fewer than 30 fully certified projects globally as of 2025. Achieving LBC certification is an extraordinary statement of environmental commitment.
-- **Architect's influence:** Almost total. The architect's design decisions — site restoration, water independence, energy generation, material sourcing, biophilic design — determine whether the project can achieve certification.
+- **认证等级：** 完整认证（满足全部强制要求）、花瓣认证（7 个花瓣中至少满足 3 个）、零能耗和零碳认证（单独花瓣）。
+- **结构：** 7 个花瓣（场所、水、能源、健康与幸福、材料、公平、美）共 20 项强制要求。完整认证要求全部满足，不允许以分值相互抵扣。
+- **成本增量：** 10–25% 以上（净正水、净正能源、避免使用红名单材料）。
+- **市场认可度：** 最高声誉等级。截至 2025 年，全球完整认证项目少于 30 个。获得 LBC 认证是对环境承诺的非凡声明。
+- **建筑师影响：** 几乎是决定性的。场地修复、水资源独立、能源生产、材料来源和亲生物设计等建筑师决策决定项目能否获得认证。
 
 ---
 
-## Section 2: LEED BD+C v4.1
+## 第 2 节：LEED BD+C v4.1
 
-LEED (Leadership in Energy and Environmental Design) is the world's most widely used green building rating system. LEED BD+C (Building Design and Construction) covers new construction and major renovations. Version 4.1 is the current rating system.
+LEED（Leadership in Energy and Environmental Design）是全球使用最广泛的绿色建筑评级体系。LEED BD+C（Building Design and Construction）涵盖新建和重大改造项目，4.1 版为当前评级体系。
 
-### 2.1 Category Structure Overview
+### 2.1 类别结构概览
 
-| Category | Abbreviation | Points Available | Architect's Influence |
+| 类别 | 缩写 | 可得分值 | 建筑师影响 |
 |---|---|---|---|
-| Integrative Process | IP | 1 | High |
-| Location & Transportation | LT | 16 | Moderate (site selection) |
-| Sustainable Sites | SS | 10 | High |
-| Water Efficiency | WE | 11 | Moderate |
-| Energy & Atmosphere | EA | 33 | Very High |
-| Materials & Resources | MR | 13 | High |
-| Indoor Environmental Quality | EQ | 16 | Very High |
-| Innovation | IN | 6 | High |
-| Regional Priority | RP | 4 | Variable |
+| 整合流程 | IP | 1 | 高 |
+| 场地与交通 | LT | 16 | 中等（场地选择） |
+| 可持续场地 | SS | 10 | 高 |
+| 用水效率 | WE | 11 | 中等 |
+| 能源与大气 | EA | 33 | 极高 |
+| 材料与资源 | MR | 13 | 高 |
+| 室内环境质量 | EQ | 16 | 极高 |
+| 创新 | IN | 6 | 高 |
+| 区域优先 | RP | 4 | 可变 |
 | **Total** | | **110** | |
 
-### 2.2 Location and Transportation (LT) — 16 Points
+### 2.2 场地与交通（LT）——16 分
 
-Credits an architect directly influences through site selection advocacy and design:
+建筑师可通过场地选择倡导和设计直接影响的学分：
 
-**LT Credit: Bicycle Facilities (1 pt)** — Provide short-term bicycle storage (within 200 ft of main entrance) and long-term secure storage for ≥5% of building occupants. Shower/changing facilities for ≥0.5% of FTE occupants.
+**LT 学分：自行车设施（1 分）**——提供短期自行车存放处（距主入口 200 ft 内）及可供 ≥5% 建筑使用者使用的长期安全存放处；为 ≥0.5% 的全职等效（FTE）使用者提供淋浴／更衣设施。
 
-**LT Credit: Reduced Parking Footprint (1 pt)** — Do not exceed minimum local code parking requirements. Provide preferred parking for carpools/vanpools. In urban projects, consider eliminating on-site parking entirely.
+**LT 学分：减少停车面积（1 分）**——不超过当地规范的最低停车要求；为拼车／通勤车提供优先车位。城市项目可考虑完全取消场地内停车。
 
-**LT Credit: Access to Quality Transit (5 pts)** — Located within walking distance of existing public transit: 1/4 mile walk to bus stop (≥72 weekday trips and ≥40 weekend trips), 1/2 mile walk to rail/BRT station. Points scale with transit frequency and diversity.
+**LT 学分：便捷使用优质公共交通（5 分）**——位于现有公共交通步行可达范围内：距公交站步行 1/4 英里（工作日 ≥72 班次、周末 ≥40 班次），距铁路／BRT 车站步行 1/2 英里。分值随交通频率和类型多样性变化。
 
-**LT Credit: Surrounding Density and Diverse Uses (5 pts)** — Located in a previously developed area with a density of ≥22,000 sq ft/acre and ≥8 diverse uses within 1/2 mile walking distance.
+**LT 学分：周边密度与多样用途（5 分）**——位于已开发区域，密度 ≥22,000 sq ft/acre，且 1/2 英里步行范围内有 ≥8 种多样用途。
 
-### 2.3 Sustainable Sites (SS) — 10 Points
+### 2.3 可持续场地（SS）——10 分
 
-**SS Prerequisite: Construction Activity Pollution Prevention** — Mandatory. Erosion and sedimentation control plan per EPA CGP or local equivalent.
+**SS 先决条件：施工活动污染防治**——强制要求。按 EPA CGP 或当地等效标准制定水土流失和沉积物控制计划。
 
-**SS Credit: Site Assessment (1 pt)** — Conduct a comprehensive site assessment covering topography, hydrology, climate, vegetation, soils, human use, and human health effects before design begins.
+**SS 学分：场地评估（1 分）**——设计开始前开展全面场地评估，涵盖地形、水文、气候、植被、土壤、人类使用和对人体健康的影响。
 
-**SS Credit: Protect or Restore Habitat (2 pts)** — Preserve and restore ≥40% of the total site area (excluding building footprint) with native or adapted vegetation. On previously developed sites, restore 20% of total site area.
+**SS 学分：保护或恢复生境（2 分）**——使用本土或适生植被保护并恢复 ≥40% 的总场地面积（不含建筑基底面积）；已开发场地恢复总场地面积的 20%。
 
-**SS Credit: Open Space (1 pt)** — Provide outdoor space ≥30% of total site area (including building footprint). At least 25% of the outdoor space must be vegetated.
+**SS 学分：开放空间（1 分）**——提供 ≥30% 总场地面积（含建筑基底面积）的室外空间，其中至少 25% 必须为植被覆盖。
 
-**SS Credit: Rainwater Management (3 pts)** — Manage on-site the runoff from the 95th percentile (2 pts) or 98th percentile (3 pts) of regional or local rainfall events using green infrastructure and LID techniques: bioswales, rain gardens, permeable paving, green roofs, cisterns.
+**SS 学分：雨水管理（3 分）**——采用绿色基础设施和 LID 技术，在场地内管理区域或当地降雨事件第 95 百分位（2 分）或第 98 百分位（3 分）的径流，包括生物滞留沟、雨水花园、透水铺装、绿色屋顶和蓄水池。
 
-**SS Credit: Heat Island Reduction (2 pts)** — Use a combination of strategies for 75% of non-roof site hardscape (SRI ≥33, open-grid paving, shade from trees/structures) and 75% of roof area (SRI ≥82 for low-slope roofs, vegetated roof, or SRI ≥39 for steep-slope). Alternatively, install a vegetated roof on ≥75% of roof area.
+**SS 学分：热岛效应降低（2 分）**——对 75% 的非屋面场地硬质铺装采用组合策略（SRI ≥33、开放网格铺装、树木／构筑物遮阴），并对 75% 屋面面积采用措施（低坡屋面 SRI ≥82、绿色屋面，或陡坡屋面 SRI ≥39）。也可在 ≥75% 屋面面积设置绿色屋顶。
 
-**SS Credit: Light Pollution Reduction (1 pt)** — Meet IESNA RP-33 backlight-uplight-glare (BUG) ratings for all exterior luminaires. Eliminate direct-beam uplight. Interior lighting: automatic controls to reduce input power by ≥50% after hours, or shielding on all openings.
+**SS 学分：光污染降低（1 分）**——所有室外灯具满足 IESNA RP-33 的后向光—上射光—眩光（BUG）评级，消除直射上射光。室内照明在非工作时段通过自动控制将输入功率降低 ≥50%，或对所有开口设置遮蔽。
 
-### 2.4 Water Efficiency (WE) — 11 Points
+### 2.4 用水效率（WE）——11 分
 
-**WE Prerequisite: Outdoor Water Use Reduction** — Reduce outdoor water use by ≥30% from baseline (or use no irrigation).
+**WE 先决条件：室外用水减少**——相较基准减少室外用水 ≥30%（或不采用灌溉）。
 
-**WE Prerequisite: Indoor Water Use Reduction** — Reduce indoor water use by ≥20% from LEED baseline fixtures.
+**WE 先决条件：室内用水减少**——相较 LEED 基准器具减少室内用水 ≥20%。
 
-**WE Credit: Outdoor Water Use Reduction (2 pts)** — 50% reduction (1 pt) or no irrigation/100% non-potable sources (2 pts). Strategies: drought-tolerant landscaping, high-efficiency drip irrigation, rainwater/greywater reuse, smart controllers with rain sensors.
+**WE 学分：室外用水减少（2 分）**——减少 50%（1 分），或不灌溉／100% 使用非饮用水源（2 分）。策略包括耐旱景观、高效滴灌、雨水／灰水回用及带雨量传感器的智能控制器。
 
-**WE Credit: Indoor Water Use Reduction (6 pts)** — Points scale with reduction percentage: 25% (1 pt) to 50% (6 pts). Low-flow fixtures: toilets ≤1.28 gpf (dual-flush preferred), urinals ≤0.125 gpf (waterless preferred), lavatory faucets ≤0.5 gpm (public) / ≤1.5 gpm (private), showers ≤2.0 gpm, kitchen faucets ≤1.5 gpm.
+**WE 学分：室内用水减少（6 分）**——分值随减量比例变化：25%（1 分）至 50%（6 分）。低流量器具：坐便器 ≤1.28 gpf（优先双冲式）、小便器 ≤0.125 gpf（优先无水式）、洗手盆龙头 ≤0.5 gpm（公共）／≤1.5 gpm（私人）、淋浴器 ≤2.0 gpm、厨房龙头 ≤1.5 gpm。
 
-**WE Credit: Cooling Tower Water Use (2 pts)** — Achieve ≥5 cycles of concentration (1 pt) or ≥10 cycles (2 pts), or use non-potable makeup water for ≥50%.
+**WE 学分：冷却塔用水（2 分）**——达到 ≥5 次浓缩循环（1 分）或 ≥10 次（2 分），或至少 50% 使用非饮用补水。
 
-**WE Credit: Water Metering (1 pt)** — Install permanent water meters for building-level and subsystem-level consumption monitoring.
+**WE 学分：用水计量（1 分）**——安装永久性水表，监测建筑级和子系统级用水量。
 
-### 2.5 Energy and Atmosphere (EA) — 33 Points
+### 2.5 能源与大气（EA）——33 分
 
-The largest and most impactful category. An architect's decisions on building form, orientation, envelope, glazing, and daylighting directly determine the energy baseline.
+这是分值最高、影响最大的类别。建筑师对建筑形体、朝向、围护、玻璃和采光的决策直接决定能耗基准。
 
-**EA Prerequisite: Fundamental Commissioning and Verification** — Mandatory. Commission energy-related building systems per ASHRAE Guideline 0.
+**EA 先决条件：基础调试与验证**——强制要求。按 ASHRAE Guideline 0 对与能源相关的建筑系统进行调试。
 
-**EA Prerequisite: Minimum Energy Performance** — Mandatory. Demonstrate 5% improvement (new buildings) or 3% (major renovations) over ASHRAE 90.1-2016 baseline through whole-building energy simulation.
+**EA 先决条件：最低能源性能**——强制要求。通过全建筑能耗模拟证明相较 ASHRAE 90.1-2016 基准，新建建筑改善 5%，重大改造改善 3%。
 
-**EA Prerequisite: Building-Level Energy Metering** — Mandatory. Install whole-building energy meters for all energy sources.
+**EA 先决条件：建筑级能源计量**——强制要求。为所有能源来源安装全建筑能源表。
 
-**EA Prerequisite: Fundamental Refrigerant Management** — Mandatory. No CFC-based refrigerants in new HVAC&R systems.
+**EA 先决条件：基础制冷剂管理**——强制要求。新 HVAC&R 系统不得使用 CFC 类制冷剂。
 
-**EA Credit: Optimize Energy Performance (18 pts)** — The single most valuable credit in LEED. Points scale with percentage improvement over ASHRAE 90.1-2016 baseline:
-- 6% improvement → 1 pt (new construction)
-- 8% → 2 pts ... 50% → 18 pts
+**EA 学分：优化能源性能（18 分）**——LEED 中价值最高的单项学分。分值随相较 ASHRAE 90.1-2016 基准的改善比例变化：
+- 改善 6% → 1 分（新建）。
+- 8% → 2 分……50% → 18 分。
 
-Architect-driven strategies: optimal building orientation (long axis E-W in heating climates), high-performance envelope (U-values exceeding code by 30–50%), reduced window-to-wall ratio on E/W facades, external shading devices, daylighting to reduce electric lighting, thermal mass for load shifting, natural ventilation (mixed-mode where climate allows).
+建筑师主导的策略包括：优化建筑朝向（供暖气候长轴东西向）、高性能围护（U 值比规范要求提高 30–50%）、降低东西立面窗墙比、外遮阳、利用采光减少电照明、利用热质量移峰，以及自然通风（气候允许时采用混合模式）。
 
-**EA Credit: Enhanced Commissioning (6 pts)** — Enhanced/monitoring-based commissioning per ASHRAE Guideline 0 and NIBS Guideline 3. Envelope commissioning (testing/verification of air and water tightness).
+**EA 学分：增强调试（6 分）**——按 ASHRAE Guideline 0 和 NIBS Guideline 3 开展增强型／基于监测的调试；进行围护调试（气密性和水密性测试／验证）。
 
-**EA Credit: Advanced Energy Metering (1 pt)** — Sub-metering of major energy end uses (HVAC, lighting, plug loads, process loads) with data accessible to occupants.
+**EA 学分：先进能源计量（1 分）**——对主要终端用能（HVAC、照明、插座负荷、工艺负荷）分项计量，并使数据可供使用者访问。
 
-**EA Credit: Grid Harmonization (2 pts)** — Demand response capability and/or energy storage to shift load away from peak grid demand periods.
+**EA 学分：电网协调（2 分）**——具备需求响应能力和／或储能，将负荷从电网峰值需求时段转移。
 
-**EA Credit: Renewable Energy (5 pts)** — On-site renewable energy generation. Points scale: 1% of building energy cost → 1 pt, up to 10% → 5 pts. Alternatively, procurement of green power or carbon offsets for up to 100% of energy use (via EA Credit: Green Power and Carbon Offsets, 1 pt).
+**EA 学分：可再生能源（5 分）**——现场生产可再生能源。分值为建筑能源成本的 1% → 1 分，最高 10% → 5 分。也可采购绿色电力或碳抵消，以覆盖最高 100% 的能源使用（通过 EA 学分“绿色电力与碳抵消”，1 分）。
 
-### 2.6 Materials and Resources (MR) — 13 Points
+### 2.6 材料与资源（MR）——13 分
 
-**MR Prerequisite: Storage and Collection of Recyclables** — Mandatory. Dedicated area for collection of paper, glass, plastic, metals, and batteries.
+**MR 先决条件：可回收物储存与收集**——强制要求。设置专用区域收集纸张、玻璃、塑料、金属和电池。
 
-**MR Prerequisite: Construction and Demolition Waste Management Planning** — Mandatory. Develop a waste management plan identifying materials to be diverted.
+**MR 先决条件：施工与拆除废弃物管理规划**——强制要求。制定废弃物管理计划，明确需要分流的材料。
 
-**MR Credit: Building Life-Cycle Impact Reduction (5 pts)** — Whole-building LCA (WBLCA) demonstrating ≥5% reduction in at least 3 of 6 impact categories (global warming potential, ozone depletion, acidification, eutrophication, photochemical ozone formation, non-renewable energy depletion) compared to a baseline building. OR reuse of existing building structure/envelope (higher points for greater reuse percentage). This credit directly rewards structural optimization, low-carbon materials, and design for longevity.
+**MR 学分：建筑生命周期影响降低（5 分）**——开展全建筑 LCA（WBLCA），证明相较基准建筑，6 个影响类别中至少 3 个降低 ≥5%（全球变暖潜势、臭氧层消耗、酸化、富营养化、光化学臭氧生成、不可再生能源消耗）；或重复利用既有建筑结构／围护（重复利用比例越高，得分越高）。该学分直接奖励结构优化、低碳材料和面向长寿命的设计。
 
-**MR Credit: Environmental Product Declarations (2 pts)** — Use ≥20 permanently installed products from ≥5 different manufacturers with EPDs conforming to ISO 14025 and EN 15804 / ISO 21930.
+**MR 学分：环境产品声明（2 分）**——使用来自 ≥5 家不同制造商的 ≥20 种永久安装产品，且产品具有符合 ISO 14025 和 EN 15804／ISO 21930 的 EPD。
 
-**MR Credit: Sourcing of Raw Materials (2 pts)** — Use products from manufacturers reporting raw material sourcing that meets responsible extraction criteria. Extended Producer Responsibility programs. Bio-based materials meeting Sustainable Agriculture Network standards.
+**MR 学分：原材料采购（2 分）**——使用制造商报告原材料来源且符合负责任开采准则的产品；采用生产者延伸责任计划，以及符合 Sustainable Agriculture Network 标准的生物基材料。
 
-**MR Credit: Material Ingredients (2 pts)** — Use ≥20 products from ≥5 manufacturers that demonstrate chemical inventory of the product through Health Product Declarations (HPD), Cradle to Cradle certification, or REACH optimization.
+**MR 学分：材料成分（2 分）**——使用来自 ≥5 家制造商的 ≥20 种产品，并通过 Health Product Declarations（HPD）、Cradle to Cradle 认证或 REACH 优化证明产品化学成分清单。
 
-**MR Credit: Construction and Demolition Waste Management (2 pts)** — Divert ≥50% (1 pt) or ≥75% (2 pts) of total construction and demolition waste from landfill. Generate ≤2.5 lb waste per sq ft of building area.
+**MR 学分：施工与拆除废弃物管理（2 分）**——将施工与拆除废弃物总量的 ≥50%（1 分）或 ≥75%（2 分）从填埋场分流；每平方英尺建筑面积产生废弃物 ≤2.5 lb。
 
-### 2.7 Indoor Environmental Quality (EQ) — 16 Points
+### 2.7 室内环境质量（EQ）——16 分
 
-**EQ Prerequisite: Minimum Indoor Air Quality Performance** — Mandatory. Meet ASHRAE 62.1-2016 ventilation requirements.
+**EQ 先决条件：最低室内空气质量性能**——强制要求。满足 ASHRAE 62.1-2016 通风要求。
 
-**EQ Prerequisite: Environmental Tobacco Smoke Control** — Mandatory. Prohibit smoking inside the building and within 25 ft of entries, air intakes, and operable windows.
+**EQ 先决条件：环境烟草烟雾控制**——强制要求。禁止在建筑内部以及入口、进风口和可开启窗 25 ft 范围内吸烟。
 
-**EQ Credit: Enhanced Indoor Air Quality Strategies (2 pts)** — Entry-way systems (walk-off mats/grilles ≥10 ft), interior cross-contamination prevention (exhaust from chemical use areas, negative pressure in copy rooms/kitchens), MERV 13+ filtration on outside air intakes.
+**EQ 学分：增强室内空气质量策略（2 分）**——入口系统（步行擦鞋垫／格栅 ≥10 ft）、室内交叉污染防治（化学品使用区排风、复印室／厨房负压），室外空气进风口采用 MERV 13+ 过滤。
 
-**EQ Credit: Low-Emitting Materials (3 pts)** — Products installed inside the weatherproofing system must meet VOC emission and content thresholds:
-- Paints and coatings: VOC ≤ 50 g/L (flat), ≤ 100 g/L (non-flat)
-- Adhesives and sealants: per SCAQMD Rule 1168
-- Flooring: FloorScore or GreenLabel Plus certified
-- Composite wood: no added urea-formaldehyde
-- Insulation, ceiling, and wall systems: CDPH v1.2 compliant
+**EQ 学分：低排放材料（3 分）**——安装在防风雨系统内的产品必须满足 VOC 排放和含量阈值：
+- 涂料和表面涂层：VOC ≤50 g/L（平光），≤100 g/L（非平光）。
+- 胶粘剂和密封胶：符合 SCAQMD Rule 1168。
+- 地板：取得 FloorScore 或 GreenLabel Plus 认证。
+- 复合木材：不得添加尿素甲醛。
+- 保温、顶棚和墙体系统：符合 CDPH v1.2。
 
-**EQ Credit: Construction Indoor Air Quality Management Plan (1 pt)** — SMACNA-compliant plan during construction: protect stored absorptive materials, isolate construction areas from occupied areas, replace HVAC filters before occupancy.
+**EQ 学分：施工室内空气质量管理计划（1 分）**——施工期间制定符合 SMACNA 的计划：保护储存的吸声材料，将施工区域与使用区域隔离，并在投入使用前更换 HVAC 过滤器。
 
-**EQ Credit: Indoor Air Quality Assessment (2 pts)** — Flush-out (14,000 cu ft of outdoor air per sq ft of floor area) OR baseline IAQ testing (formaldehyde < 27 ppb, TVOC < 500 μg/m³, PM10 < 50 μg/m³, CO < 9 ppm, ozone < 75 ppb) before occupancy.
+**EQ 学分：室内空气质量评估（2 分）**——投入使用前进行通风冲洗（每平方英尺楼面面积 14,000 cu ft 室外空气），或开展基准 IAQ 测试（甲醛 <27 ppb、TVOC <500 μg/m³、PM10 <50 μg/m³、CO <9 ppm、臭氧 <75 ppb）。
 
-**EQ Credit: Thermal Comfort (1 pt)** — Design heating, ventilating, and air-conditioning systems to meet ASHRAE Standard 55 requirements. Provide individual comfort controls for ≥50% of individual occupant spaces and group controls for all shared multi-occupant spaces.
+**EQ 学分：热舒适（1 分）**——设计供暖、通风和空调系统以满足 ASHRAE Standard 55；为 ≥50% 的独立使用者空间提供个体舒适控制，为所有共享多人空间提供分组控制。
 
-**EQ Credit: Interior Lighting (2 pts)** — Provide individual lighting controls for ≥90% of individual occupant spaces. For 75% of floor area, achieve light levels per IES recommendations with unified glare rating (UGR) ≤ 19. Provide controllable ambient and task lighting.
+**EQ 学分：室内照明（2 分）**——为 ≥90% 的独立使用者空间提供独立照明控制；75% 楼面面积达到 IES 建议照度，且统一眩光值（UGR）≤19；提供可控制的环境照明和任务照明。
 
-**EQ Credit: Daylight (3 pts)** — Achieve ≥55% (2 pts) or ≥75% (3 pts) of regularly occupied floor area with spatial daylight autonomy (sDA300/50%) ≥ 55%. No more than 10% of floor area may receive direct sunlight penetration of ≥1000 lux for more than 250 occupied hours per year (Annual Sunlight Exposure, ASE1000,250 ≤ 10%).
+**EQ 学分：日光（3 分）**——经常使用楼面面积中，≥55%（2 分）或 ≥75%（3 分）达到空间日光自主性（sDA300/50%）≥55%。每年不超过 10% 的楼面面积可在超过 250 个使用小时内接受 ≥1000 lux 的直射日光（年度日照暴露 ASE1000,250 ≤10%）。
 
-**EQ Credit: Quality Views (1 pt)** — Provide direct line of sight to outdoor environment through vision glazing for ≥75% of regularly occupied floor area. Views must include ≥2 of: flora/fauna/sky, movement, objects ≥25 ft from glazing.
+**EQ 学分：优质视野（1 分）**——经常使用楼面面积中 ≥75% 通过视野玻璃直接看见室外环境。视野必须包含以下至少 2 项：植物／动物／天空、运动、距玻璃 ≥25 ft 的物体。
 
-**EQ Credit: Acoustic Performance (1 pt)** — Meet background noise targets (≤35 dB for offices, ≤40 dB for open plan), reverberation time targets (≤0.6 s for enclosed offices, ≤0.8 s for open plan), sound insulation targets (STC ≥45 between enclosed offices), and sound masking levels (per ASHRAE Handbook).
+**EQ 学分：声学性能（1 分）**——满足背景噪声目标（办公室 ≤35 dB，开放办公区 ≤40 dB）、混响时间目标（独立办公室 ≤0.6 s，开放办公区 ≤0.8 s）、隔声目标（独立办公室之间 STC ≥45）和声掩蔽级（按 ASHRAE Handbook）。
 
-### 2.8 Innovation (IN) — 6 Points and Regional Priority (RP) — 4 Points
+### 2.8 创新（IN）——6 分与区域优先（RP）——4 分
 
-**Innovation credits** reward strategies that exceed LEED requirements or address sustainability issues not covered by existing credits. Up to 5 Innovation credits plus 1 LEED Accredited Professional credit.
+**创新学分**奖励超越 LEED 要求的策略，或解决现有学分未覆盖的可持续性问题。最多可获得 5 个创新学分和 1 个 LEED Accredited Professional 学分。
 
-**Regional Priority credits** are pre-identified by USGBC regional councils as locally important environmental priorities. Projects earn bonus points (up to 4) for achieving these designated credits.
+**区域优先学分**由 USGBC 区域委员会预先确定，代表当地重要环境优先事项。项目达到指定学分后可获得奖励分（最多 4 分）。
 
 ---
 
-## Section 3: Passive House Standard
+## 第 3 节：Passive House 标准
 
-### 3.1 The Five Criteria
+### 3.1 五项准则
 
-The Passive House standard is physics-based — it defines performance targets that can be met through any combination of design strategies. No prescriptive solutions, only measured outcomes.
+Passive House 标准以物理学为基础，规定可通过任意设计策略组合实现的性能目标。不规定具体做法，只关注实测结果。
 
-1. **Specific space heating demand ≤ 15 kWh/m²a** (or peak heating load ≤ 10 W/m²)
-2. **Specific space cooling demand ≤ 15 kWh/m²a** (with additional allowance for dehumidification in humid climates: total cooling + dehumidification ≤ 15 + dehumidification demand)
-3. **Primary energy demand ≤ 120 kWh/m²a** (Classic), ≤ 60 kWh/m²a PER (Plus), ≤ 0 kWh/m²a PER (Premium). PER = Primary Energy Renewable, a metric that accounts for seasonal mismatch between renewable generation and building demand.
-4. **Airtightness ≤ 0.6 ACH @ 50 Pa** — verified by blower door test
-5. **Thermal comfort: no more than 10% of hours above 25 C** (without active cooling)
+1. **单位面积供暖需求 ≤15 kWh/m²a**（或峰值供暖负荷 ≤10 W/m²）。
+2. **单位面积制冷需求 ≤15 kWh/m²a**（湿热气候可为除湿增加额度：制冷 + 除湿总需求 ≤15 + 除湿需求）。
+3. **一次能源需求 ≤120 kWh/m²a**（Classic）、≤60 kWh/m²a PER（Plus）、≤0 kWh/m²a PER（Premium）。PER = Primary Energy Renewable，一项考虑可再生能源生产与建筑需求季节错配的指标。
+4. **气密性 ≤0.6 ACH @ 50 Pa**——通过鼓风门测试验证。
+5. **热舒适：高于 25 C 的小时数不超过 10%**（无主动制冷）。
 
-### 3.2 Design Principles
+### 3.2 设计原则
 
-**Superinsulation:** Building envelope U-values significantly beyond code requirements:
-- External walls: U ≤ 0.15 W/m²K (typical code 0.26–0.30)
-- Roof: U ≤ 0.10 W/m²K (typical code 0.16–0.20)
-- Floor / ground slab: U ≤ 0.15 W/m²K (typical code 0.22–0.25)
-- Windows: Uw ≤ 0.80 W/m²K installed (triple glazed, warm-edge spacer, insulated frames). Solar heat gain coefficient (SHGC / g-value) ≥ 0.50 for south-facing glazing to maximize passive solar gains.
-- Doors: Ud ≤ 0.80 W/m²K
+**超保温：** 建筑围护 U 值显著优于规范要求：
+- 外墙：U ≤0.15 W/m²K（规范典型值 0.26–0.30）。
+- 屋面：U ≤0.10 W/m²K（规范典型值 0.16–0.20）。
+- 楼板／地坪：U ≤0.15 W/m²K（规范典型值 0.22–0.25）。
+- 窗：安装后 Uw ≤0.80 W/m²K（三玻、暖边间隔条、保温窗框）。朝南玻璃太阳得热系数（SHGC／g 值）≥0.50，以最大化被动太阳得热。
+- 门：Ud ≤0.80 W/m²K。
 
-**Thermal bridge-free construction (ψ ≤ 0.01 W/mK):** Every junction, penetration, and transition must be designed to eliminate linear thermal bridges. The insulation envelope must be continuous without breaks. Window frames must overlap the insulation plane. Steel lintels must be thermally broken or replaced with insulated composite lintels. Foundation details must use insulated raft systems or thermal break elements.
+**无热桥构造（ψ ≤0.01 W/mK）：** 每个节点、穿孔和转折均须设计为消除线性热桥。保温层必须连续无断点；窗框应与保温层平面重叠；钢过梁须设置热断桥，或替换为保温复合过梁；基础节点应采用保温筏板系统或热断桥构件。
 
-**Continuous airtight layer:** A single, clearly identifiable airtight barrier around the entire heated volume. Typically the interior face of the structural wall (taped OSB or proprietary membranes), with all joints, penetrations, and transitions sealed with compatible tapes and grommets. The airtight layer must be protected from damage during subsequent construction trades. Tested by pressurization (blower door test per EN 13829 / ASTM E779) at building completion; ≤ 0.6 ACH @ 50 Pa.
+**连续气密层：** 在整个采暖体积周围设置单一、清晰可识别的气密屏障。通常位于结构墙内侧（粘贴胶带的 OSB 或专用膜），所有接缝、穿孔和转折均采用相容胶带和密封套环封闭。后续工种施工期间必须保护气密层免受损坏。建筑完工时按 EN 13829／ASTM E779 通过加压测试（鼓风门测试）验证，要求 ≤0.6 ACH @ 50 Pa。
 
-**Mechanical Ventilation with Heat Recovery (MVHR):** With an airtight envelope, controlled ventilation is essential for indoor air quality. MVHR units recover ≥ 75% (PHI certification requires ≥ 75% effective heat recovery, many units achieve 85–95%) of the heat from outgoing exhaust air and transfer it to incoming fresh supply air. Supply air is delivered to living rooms and bedrooms; extract air is drawn from kitchens and bathrooms. Air change rate: 0.3–0.4 ACH (30 m³/h per person).
+**带热回收的机械通风（MVHR）：** 围护气密时，受控通风对室内空气质量至关重要。MVHR 机组从排风中回收 ≥75% 的热量（PHI 认证要求有效热回收 ≥75%，许多机组可达 85–95%），并传递给新鲜送风。送风进入起居室和卧室，排风来自厨房和卫生间。换气率：0.3–0.4 ACH（每人 30 m³/h）。
 
-**Optimized solar gains with summer shading:** South-facing glazing (in the Northern Hemisphere) sized and positioned to maximize solar heat gain in winter while external shading (overhangs, brise-soleil, external blinds) prevents overheating in summer. A well-designed Passive House in a temperate climate derives 30–50% of its annual heating demand from passive solar gains through south glazing.
+**优化太阳得热并设置夏季遮阳：**（北半球）朝南玻璃的尺寸和位置应在冬季最大化太阳得热，同时通过外遮阳（挑檐、遮阳板、外百叶）防止夏季过热。设计良好的温带 Passive House 可通过南向玻璃的被动太阳得热满足年度供暖需求的 30–50%。
 
-### 3.3 PHPP Energy Modeling
+### 3.3 PHPP 能耗建模
 
-The Passive House Planning Package (PHPP) is the designated energy modeling tool. It is a detailed steady-state energy balance calculated in a series of linked spreadsheets covering:
-- Areas and U-values of all envelope components
-- Thermal bridges (ψ-values × lengths)
-- Windows (Uw, g-value, frame fraction, shading factors, installation ψ-values)
-- Ventilation (MVHR efficiency, duct losses, infiltration)
-- Internal heat gains (occupancy, appliances, lighting)
-- Heating/cooling demand and peak loads
-- Primary energy (all energy end uses: heating, cooling, DHW, auxiliary, lighting, appliances)
-- Summer comfort (hourly overheating calculation)
+Passive House Planning Package（PHPP）是指定能耗建模工具，通过一系列相互关联的电子表格进行详细稳态能量平衡计算，涵盖：
+- 所有围护构件的面积和 U 值。
+- 热桥（ψ 值 × 长度）。
+- 窗（Uw、g 值、窗框比例、遮阳系数、安装 ψ 值）。
+- 通风（MVHR 效率、风管损失、渗透）。
+- 室内得热（人员、设备、照明）。
+- 供暖／制冷需求和峰值负荷。
+- 一次能源（供暖、制冷、生活热水、辅助、照明、设备等全部终端用能）。
+- 夏季舒适性（逐小时过热计算）。
 
-PHPP uses monthly energy balance (EN ISO 13790) with climate data specific to the project location. Results must demonstrate compliance with all five Passive House criteria.
+PHPP 使用逐月能量平衡（EN ISO 13790）及项目所在地专属气候数据。结果必须证明符合 Passive House 的五项准则。
 
-### 3.4 Cost Premium and Performance
+### 3.4 成本增量与性能
 
-**Cost premium:** 5–15% over standard construction for first projects; 5–8% for experienced teams. The premium is concentrated in the envelope (better windows, more insulation, airtightness detailing) and MVHR system. HVAC simplification (no radiators, no boiler or only a small heat pump) offsets some cost.
+**成本增量：** 首个项目比标准建造高 5–15%，有经验团队为 5–8%。增量主要集中在围护（更好的窗、更多保温、气密细节）和 MVHR 系统；HVAC 简化（无散热器、无锅炉或仅设小型热泵）可抵消部分成本。
 
-**Performance in practice:** Passive House buildings consistently deliver measured performance within 10–15% of PHPP predictions — far closer than conventional buildings, which routinely show a 30–100% "performance gap" between design and operation. The airtightness test and the rigorous PHPP methodology are the primary reasons for this accuracy.
+**实际性能：** Passive House 建筑的实测性能通常在 PHPP 预测值的 ±10–15% 内，明显优于常规建筑；常规建筑设计与运行之间通常存在 30–100% 的“性能差距”。气密性测试和严格的 PHPP 方法是准确性的主要原因。
 
-### 3.5 Passive House Plus and Premium
+### 3.5 Passive House Plus 与 Premium
 
-**Passive House Plus:** Primary Energy Renewable (PER) ≤ 45 kWh/m²a. Renewable energy generation ≥ 60 kWh/m²a (referred to footprint). Effectively a net-zero-energy Passive House.
+**Passive House Plus：** 一次可再生能源（PER）≤45 kWh/m²a；可再生能源产量 ≥60 kWh/m²a（按建筑占地面积计），实质上为能源净零 Passive House。
 
-**Passive House Premium:** PER ≤ 30 kWh/m²a. Renewable energy generation ≥ 120 kWh/m²a. A net-positive-energy Passive House.
+**Passive House Premium：** PER ≤30 kWh/m²a；可再生能源产量 ≥120 kWh/m²a，为能源净正的 Passive House。
 
 ---
 
-## Section 4: Whole-Life Carbon
+## 第 4 节：全寿命碳
 
-### 4.1 Carbon Lifecycle Stages (EN 15978)
+### 4.1 碳生命周期阶段（EN 15978）
 
-| Module | Stage | Description |
+| 模块 | 阶段 | 说明 |
 |---|---|---|
-| A1 | Product | Raw material supply |
-| A2 | Product | Transport to manufacturer |
-| A3 | Product | Manufacturing |
-| A4 | Construction | Transport to site |
-| A5 | Construction | Construction/installation process |
-| B1 | Use | Installed product use (e.g., carbonation of concrete) |
-| B2 | Use | Maintenance |
-| B3 | Use | Repair |
-| B4 | Use | Replacement |
-| B5 | Use | Refurbishment |
-| B6 | Use | Operational energy use |
-| B7 | Use | Operational water use |
-| C1 | End of life | Deconstruction/demolition |
-| C2 | End of life | Transport to waste processing |
-| C3 | End of life | Waste processing |
-| C4 | End of life | Disposal |
-| D | Beyond lifecycle | Reuse/recovery/recycling potential (reported separately) |
+| A1 | 产品 | 原材料供应 |
+| A2 | 产品 | 运至制造商 |
+| A3 | 产品 | 制造 |
+| A4 | 建造 | 运至场地 |
+| A5 | 建造 | 施工／安装过程 |
+| B1 | 使用 | 已安装产品使用（如混凝土碳化） |
+| B2 | 使用 | 维护 |
+| B3 | 使用 | 修理 |
+| B4 | 使用 | 更换 |
+| B5 | 使用 | 翻新 |
+| B6 | 使用 | 运行能耗 |
+| B7 | 使用 | 运行用水 |
+| C1 | 寿命终结 | 拆解／拆除 |
+| C2 | 寿命终结 | 运至废弃物处理地 |
+| C3 | 寿命终结 | 废弃物处理 |
+| C4 | 寿命终结 | 处置 |
+| D | 生命周期之外 | 再利用／回收／循环利用潜力（单独报告） |
 
-**Upfront embodied carbon** = A1–A5 (product + construction). This is the carbon emitted before the building is occupied. It cannot be recovered — once emitted, it is a sunk carbon cost. Reducing upfront embodied carbon is the highest priority because it has immediate atmospheric impact.
+**前期隐含碳** = A1–A5（产品 + 建造）。这是建筑投入使用前排放的碳，无法追回——一旦排放即成为既成的碳成本。降低前期隐含碳应当优先，因为它会立即影响大气。
 
-**Operational carbon** = B6 (operational energy). Over a 60-year building life, operational carbon has historically dominated whole-life carbon. But as grids decarbonize and buildings become more energy-efficient, the proportion of embodied carbon increases. For a Passive House on a decarbonized grid, embodied carbon can represent 70–80% of whole-life carbon.
+**运行碳** = B6（运行能耗）。在建筑 60 年寿命期内，运行碳历来占全寿命碳的主导地位。但随着电网脱碳、建筑能效提升，隐含碳所占比例会增加。在已脱碳电网上运行的被动房中，隐含碳可能占全寿命碳的 70–80%。
 
-**Whole-life carbon** = A1–A5 + B1–B7 + C1–C4, with Module D reported separately.
+**全寿命碳** = A1–A5 + B1–B7 + C1–C4，模块 D 单独报告。
 
-### 4.2 Embodied Carbon Targets
+### 4.2 隐含碳目标
 
-**LETI targets (upfront embodied carbon, A1–A5):**
-- Residential: < 300 kgCO2e/m² GIA
-- Commercial office: < 350 kgCO2e/m² GIA
-- School: < 300 kgCO2e/m² GIA
-- Retail: < 350 kgCO2e/m² GIA
+**LETI 目标（前期隐含碳，A1–A5）：**
+- 住宅：< 300 kgCO2e/m² GIA
+- 商业办公：< 350 kgCO2e/m² GIA
+- 学校：< 300 kgCO2e/m² GIA
+- 零售：< 350 kgCO2e/m² GIA
 
-**RIBA 2030 Climate Challenge targets:**
-- 2020: < 600 kgCO2e/m² (modules A1–A5, including sequestration)
-- 2025: < 450 kgCO2e/m²
-- 2030: < 300 kgCO2e/m²
+**RIBA 2030 气候挑战目标：**
+- 2020：< 600 kgCO2e/m²（模块 A1–A5，包括固碳）
+- 2025：< 450 kgCO2e/m²
+- 2030：< 300 kgCO2e/m²
 
-**Typical benchmarks:**
-- Conventional concrete frame office: 500–700 kgCO2e/m² (A1–A5)
-- Steel frame office: 450–650 kgCO2e/m²
-- Mass timber office: 250–400 kgCO2e/m²
-- Low-rise residential (masonry): 300–500 kgCO2e/m²
-- Low-rise residential (timber frame): 200–350 kgCO2e/m²
+**典型基准：**
+- 传统混凝土框架办公楼：500–700 kgCO2e/m²（A1–A5）
+- 钢框架办公楼：450–650 kgCO2e/m²
+- 工程木办公楼：250–400 kgCO2e/m²
+- 低层住宅（砌体）：300–500 kgCO2e/m²
+- 低层住宅（木框架）：200–350 kgCO2e/m²
 
-### 4.3 Operational Energy Targets
+### 4.3 运行能耗目标
 
-**LETI targets (total operational energy intensity):**
-- Residential: < 35 kWh/m²/yr (including regulated and unregulated energy)
-- Commercial office: < 55 kWh/m²/yr
-- School: < 65 kWh/m²/yr
-- Retail: < 55 kWh/m²/yr
+**LETI 目标（总运行能耗强度）：**
+- 住宅：< 35 kWh/m²/yr（包括受管制和非受管制能耗）
+- 商业办公：< 55 kWh/m²/yr
+- 学校：< 65 kWh/m²/yr
+- 零售：< 55 kWh/m²/yr
 
-**Space heating demand:**
-- LETI: < 15 kWh/m²/yr (aligned with Passive House)
-- CIBSE TM54 median operational reality for new-build offices: 120–200 kWh/m²/yr (showing the gap between design intent and operational reality)
+**空间供暖需求：**
+- LETI：< 15 kWh/m²/yr（与被动房一致）
+- 新建办公楼 CIBSE TM54 运行实际中位值：120–200 kWh/m²/yr（显示设计意图与实际运行之间的差距）
 
-**The performance gap:** Conventional buildings typically consume 1.5–3× the energy predicted by compliance models (Part L / ASHRAE 90.1). Causes include unregulated loads not captured in compliance models, poor construction quality, controls not commissioned correctly, and occupant behavior. Passive House and NABERS-style operational ratings close this gap by using realistic energy modeling (PHPP) or measuring actual consumption.
+**性能差距：**传统建筑的实际能耗通常是合规模型（Part L / ASHRAE 90.1）预测值的 1.5–3 倍。原因包括合规模型未计入非受管制负荷、施工质量不佳、控制系统调试不当以及使用者行为。被动房和 NABERS 类运行评级通过采用现实的能耗建模（PHPP）或测量实际消耗来缩小这一差距。
 
-### 4.4 Strategies to Reduce Embodied Carbon
+### 4.4 降低隐含碳的策略
 
-**Structural optimization:**
-- Right-size structural members (avoid overdesign due to conservative assumptions)
-- Use post-tensioned concrete slabs (20–30% less concrete than RC flat slabs)
-- Optimize grid spacing (wider grids = fewer columns, less total structure)
-- Use voided slabs (Cobiax, BubbleDeck) — 30% less concrete, 20% lighter
-- Reduce foundation size through lighter superstructure
+**结构优化：**
+- 使结构构件合理定尺（避免因保守假设导致过度设计）
+- 采用后张法混凝土楼板（比钢筋混凝土无梁楼板少 20–30% 混凝土）
+- 优化柱网间距（更大柱网 = 更少柱子、更少总结构量）
+- 采用空心楼板（Cobiax、BubbleDeck）——少 30% 混凝土、减重 20%
+- 通过减轻上部结构来减小基础尺寸
 
-**Low-carbon materials:**
-- **Concrete:** Replace 30–50% of Portland cement with GGBS (Ground Granulated Blast-furnace Slag) or PFA (Pulverized Fuel Ash). Use CEM III/B cement (66–80% GGBS). Embodied carbon: OPC concrete ~150 kgCO2e/m³ → 50% GGBS concrete ~90 kgCO2e/m³. Consider geopolymer or alkali-activated concretes for non-structural applications.
-- **Steel:** Specify ≥90% recycled content (electric arc furnace steel). Embodied carbon: virgin BOF steel ~2.5 tCO2e/t → EAF recycled steel ~0.5 tCO2e/t.
-- **Mass timber:** CLT, glulam, LVL as primary structure. Sequesters ~1.0 tCO2e/m³ of timber (biogenic carbon). Net embodied carbon (including sequestration): CLT structure ~−150 to +100 kgCO2e/m³ vs RC frame +350–500 kgCO2e/m³.
-- **Brick:** Unfired earth blocks, compressed stabilized earth blocks (CSEB), rammed earth. Embodied carbon: fired clay brick ~0.24 kgCO2e/kg → unfired earth block ~0.02 kgCO2e/kg.
-- **Insulation:** Woodfibre, cellulose, hemp, sheep's wool instead of EPS/XPS/PIR. Bio-based insulation sequesters carbon; petrochemical insulation releases carbon.
+**低碳材料：**
+- **混凝土：**用 GGBS（磨细粒化高炉矿渣）或 PFA（粉煤灰）替代 30–50% 的波特兰水泥。使用 CEM III/B 水泥（含 66–80% GGBS）。隐含碳：OPC 混凝土约 150 kgCO2e/m³ → 50% GGBS 混凝土约 90 kgCO2e/m³。非结构应用可考虑地质聚合物或碱激发混凝土。
+- **钢材：**规定 ≥90% 的再生含量（电弧炉钢）。隐含碳：原生 BOF 钢约 2.5 tCO2e/t → EAF 再生钢约 0.5 tCO2e/t。
+- **工程木：**以 CLT、胶合木、LVL 作为主体结构。每立方米木材可固存约 1.0 tCO2e（生物源碳）。计入固碳后的净隐含碳：CLT 结构约 −150 至 +100 kgCO2e/m³，而钢筋混凝土框架为 +350–500 kgCO2e/m³。
+- **砖：**未烧结土坯、压实稳定土块（CSEB）、夯土。隐含碳：烧结黏土砖约 0.24 kgCO2e/kg → 未烧结土块约 0.02 kgCO2e/kg。
+- **保温材料：**以木纤维、纤维素、麻、羊毛替代 EPS/XPS/PIR。生物基保温材料可固碳；石化保温材料会释放碳。
 
-**Design for longevity and adaptability:**
-- Design buildings to last 100+ years (reducing annualized embodied carbon)
-- Design for adaptability: regular structural grids, generous floor-to-floor heights, demountable partitions, accessible services
-- Specify durable materials in high-wear locations (reducing replacement cycles, modules B4/B5)
+**面向长寿命和适应性设计：**
+- 设计建筑使用寿命达到 100 年以上（降低年均隐含碳）
+- 面向适应性设计：规整柱网、充足的层高、可拆卸隔断、易于检修的机电服务
+- 在高磨损部位选用耐久材料（减少更换周期，降低模块 B4/B5 影响）
 
-**Design for disassembly (DfD):**
-- Use mechanical connections (bolts, screws, clips) instead of chemical bonds (adhesives, welds, cast-in connections)
-- Design reversible connections at every interface
-- Minimize composite materials that cannot be separated
-- Provide material passports documenting all components for future recovery
+**面向拆解设计（DfD）：**
+- 使用机械连接（螺栓、螺钉、卡扣），而非化学连接（胶粘、焊接、预埋连接）
+- 在每个界面设计可逆连接
+- 尽量减少无法分离的复合材料
+- 提供记录全部构件的材料护照，便于未来回收
 
 ---
 
-## Section 5: WELL Building Standard v2
+## 第 5 节：WELL 建筑标准 v2
 
-### 5.1 Ten Concepts
+### 5.1 十项概念
 
-The WELL Building Standard v2 is organized around 10 concepts, each addressing a different dimension of human health and wellbeing. Each concept contains preconditions (mandatory for certification) and optimizations (elective, point-earning).
+WELL 建筑标准 v2 围绕 10 项概念组织，每项对应人类健康与福祉的不同维度。每项包含先决条件（认证强制要求）和优化项（可选、可获得分数）。
 
-**1. Air (A):** Ensure clean, healthy indoor air.
+**1. 空气（A）：**确保室内空气清洁、健康。
 - Precondition: ventilation per ASHRAE 62.1 + 30% (or equivalent)
 - Precondition: no smoking inside or within 7.5 m of entries
 - Key optimizations: MERV 13+ filtration on all air handling (or HEPA for high-density spaces), operable windows for natural ventilation (where feasible), indoor air quality monitoring (CO2, PM2.5, TVOC), air quality testing post-construction, advanced air purification (activated carbon, photocatalytic)
 
-**2. Water (W):** Ensure safe, clean drinking water.
+**2. 水（W）：**确保饮用水安全、清洁。
 - Precondition: water quality testing (turbidity, total coliforms, lead, copper)
 - Key optimizations: advanced water treatment (carbon filtration + UV), drinking water promotion (accessible water dispensers within 30 m of all occupants), periodic testing
 
-**3. Nourishment (N):** Promote healthy eating patterns.
+**3. 营养（N）：**促进健康饮食模式。
 - Key optimizations: fruits and vegetables promotion, nutritional transparency, healthy vending, food production (on-site gardens or edible landscaping)
 
-**4. Light (L):** Optimize lighting for visual acuity, circadian health, and mood.
+**4. 光（L）：**优化照明，满足视觉清晰度、昼夜节律健康和情绪需求。
 - Precondition: light levels per task (300 lux workplane for offices)
 - Key optimizations: circadian lighting design (melanopic equivalent daylight illuminance ≥ 150 lux at eye level during daytime hours), glare control (UGR ≤ 19), color rendering (CRI ≥ 90), daylight access and views, lighting controllability
 
-**5. Movement (V):** Promote physical activity through design.
+**5. 运动（V）：**通过设计促进身体活动。
 - Key optimizations: active design (visible, attractive, well-lit stairs near entrance as primary circulation; walking routes of ≥0.5 km within or adjacent to the building), fitness facilities or subsidies, active workstations (sit-stand desks for ≥25% of workstations), bicycle infrastructure
 
-**6. Thermal Comfort (T):** Ensure comfortable thermal environments.
+**6. 热舒适（T）：**确保舒适的热环境。
 - Precondition: design to ASHRAE 55 or ISO 7730 (PMV within ±0.5)
 - Key optimizations: personal thermal comfort controls (operable windows, desk fans, radiant panels), free address (occupants can move to preferred thermal zone), enhanced HVAC zoning, radiant heating/cooling (lower air temperature differential, reduced drafts)
 
-**7. Sound (S):** Create comfortable acoustic environments.
+**7. 声环境（S）：**营造舒适的声学环境。
 - Key optimizations: background noise targets (NR 35 max for offices), reverberation time targets (RT60 ≤ 0.6 s enclosed offices, ≤ 0.8 s open plan), speech privacy (STC ≥ 45 between enclosed offices), sound masking (45–48 dB in open plan)
 
-**8. Materials (X):** Reduce exposure to harmful chemicals.
+**8. 材料（X）：**减少接触有害化学物质。
 - Precondition: fundamental material safety (asbestos and lead management)
 - Key optimizations: Red List chemical avoidance (ILFI Red List, REACH SVHC), low-emitting interiors (VOC limits per CDPH v1.2), hazardous material reduction, enhanced material safety (third-party declarations: HPDs, Declare Labels, Cradle to Cradle)
 
-**9. Mind (M):** Support mental health and wellbeing.
+**9. 心智（M）：**支持心理健康与福祉。
 - Key optimizations: biophilic design (integration of nature: plants, water, natural materials, daylight, views; nature ratio ≥1% of floor area as interior planting or green walls), restorative spaces (quiet rooms, meditation spaces), mental health support (EAP programs), stress management
 
-**10. Community (C):** Build a sense of community and social equity.
+**10. 社区（C）：**建立社区归属感和社会公平。
 - Key optimizations: civic engagement, social equity (accessibility beyond code, universal design), diversity and inclusion, community investment
 
-### 5.2 Architect-Influenced Features
+### 5.2 建筑师可影响的特征
 
-The architect's design decisions directly affect the following WELL features:
+建筑师的设计决策直接影响以下 WELL 特征：
 - **Air filtration and ventilation design** (mechanical system capacity for MERV 13+, natural ventilation openings)
 - **Operable windows** (provide user control over fresh air; design for security and weather protection)
 - **Biophilic design** (integrate planting, water features, natural materials, nature views, fractal geometry)
@@ -434,46 +432,46 @@ The architect's design decisions directly affect the following WELL features:
 
 ---
 
-## Section 6: Net Zero Carbon Strategy
+## 第 6 节：净零碳策略
 
-### 6.1 Operational Net Zero
+### 6.1 运营阶段净零
 
-A building is operationally net zero carbon when the total operational energy consumed on an annual basis is matched by on-site or procured renewable energy, resulting in zero net carbon emissions from building operations.
+当建筑年度运营能源消耗由现场或采购的可再生能源等量匹配，并使运营阶段净碳排放为零时，即实现运营阶段净零碳。
 
-**Step 1: Reduce demand (energy efficiency first)**
+**步骤 1：降低需求（优先提高能效）**
 - Passive House-level envelope performance (U-values, airtightness)
 - High-efficiency HVAC (COP ≥ 4.0 heat pumps, MVHR ≥ 85% efficiency)
 - LED lighting with daylight-responsive dimming (installed lighting power density ≤ 6 W/m²)
 - Efficient plug loads (Energy Star appliances, power management)
 - Target: < 35–55 kWh/m²/yr total operational energy
 
-**Step 2: Decarbonize energy supply**
+**步骤 2：能源供应脱碳**
 - All-electric building (no fossil fuels on site — no gas boilers, no gas cooking)
 - Grid electricity decarbonization (UK grid: ~200 gCO2/kWh in 2024, projected <50 gCO2/kWh by 2035)
 - On-site renewable generation (photovoltaic panels, building-integrated PV, micro-wind where viable)
 
-**Step 3: Generate renewable energy on-site**
+**步骤 3：现场生产可再生能源**
 - PV yield by latitude: 800–1000 kWh/kWp installed (Northern Europe, 50–55°N), 1000–1300 kWh/kWp (Central Europe / Northern US, 40–50°N), 1300–1600 kWh/kWp (Southern Europe / Southern US, 30–40°N), 1600–1900 kWh/kWp (subtropical/tropical, 0–30°N)
 - Roof area required: approximately 7 m² per kWp installed (standard crystalline silicon panels at 20% efficiency, 2024 technology)
 - For a 1,000 m² office at 55 kWh/m²/yr = 55,000 kWh/yr demand. At 1,100 kWh/kWp (UK): need 50 kWp = 350 m² roof area. This represents 35% of the floor area as roof PV — achievable for low-rise but challenging for multi-storey buildings.
 
-**Step 4: Offset residual (last resort)**
+**步骤 4：抵消剩余排放（最后手段）**
 - Where on-site generation cannot fully offset demand, procure off-site renewable energy through Power Purchase Agreements (PPAs), Renewable Energy Certificates (RECs/GOOs), or invest in verified carbon offset projects.
 - Offset should be the last resort, not the primary strategy.
 
-### 6.2 Embodied Net Zero
+### 6.2 隐含碳净零
 
-A building achieves embodied net zero carbon when the total lifecycle carbon emissions from materials and construction (A1–A5, B1–B5, C1–C4) are offset by carbon sequestration in bio-based materials, carbon capture technologies, or verified offsets.
+当材料和建造的全生命周期碳排放（A1–A5、B1–B5、C1–C4）通过生物基材料碳封存、碳捕集技术或经验证的抵消项目得到抵消时，建筑即可实现隐含碳净零。
 
-**Step 1: Reduce** — Use structural optimization, low-carbon materials, and efficient design to minimize embodied carbon to below LETI/RIBA targets.
+**步骤 1：减少**——采用结构优化、低碳材料和高效设计，将隐含碳降至 LETI/RIBA 目标以下。
 
-**Step 2: Reuse** — Retain and adapt existing buildings and structural elements. Reusing an existing structure saves 50–75% of the embodied carbon compared to demolition and rebuild. Reuse reclaimed materials: steel, timber, brick, stone.
+**步骤 2：再利用**——保留并适应性改造既有建筑和结构构件。与拆除重建相比，再利用既有结构可节省 50%–75% 的隐含碳。再利用回收材料：钢材、木材、砖和石材。
 
-**Step 3: Sequester** — Specify bio-based materials that store atmospheric carbon: mass timber (CLT, glulam, LVL), woodfibre insulation, hempcrete, straw bale, cork. Net carbon storage must be verified through lifecycle assessment.
+**步骤 3：封存**——指定可储存大气碳的生物基材料：大体量木材（CLT、胶合木、LVL）、木纤维保温、麻纤维混凝土、稻草捆和软木。净碳储存量必须通过生命周期评估验证。
 
-**Step 4: Offset** — Residual emissions after reduce/reuse/sequester are offset through verified carbon removal credits (reforestation, direct air capture, biochar) — not avoidance credits.
+**步骤 4：抵消**——减少/再利用/封存后剩余排放通过经验证的碳移除信用额抵消（再造林、直接空气捕集、生物炭），而不是避免排放信用额。
 
-### 6.3 Science-Based Targets and Trajectories
+### 6.3 基于科学的目标与路径
 
 **RIBA 2030 Climate Challenge trajectory:**
 | Metric | 2020 Target | 2025 Target | 2030 Target |
@@ -489,13 +487,13 @@ A building achieves embodied net zero carbon when the total lifecycle carbon emi
 
 ---
 
-## Section 7: Circular Economy in Architecture
+## 第 7 节：建筑中的循环经济
 
-### 7.1 Design for Disassembly (DfD)
+### 7.1 面向拆解设计（DfD）
 
-Buildings designed for disassembly enable the recovery, reuse, and recycling of components at end of life, diverting materials from landfill and preserving their embodied carbon and economic value.
+面向拆解设计的建筑可在寿命结束时回收、再利用和循环利用构件，避免材料进入填埋场，并保留其隐含碳和经济价值。
 
-**Principles:**
+**原则：**
 1. Use mechanical connections (bolts, screws, clips) instead of chemical bonds (adhesives, welds, mortar, cast-in fixings)
 2. Design standard, modular components (standard steel sections, standard timber dimensions, standard panel sizes)
 3. Minimize the number of different material types and make them easily separable
@@ -503,13 +501,13 @@ Buildings designed for disassembly enable the recovery, reuse, and recycling of 
 5. Document all materials and connections in a material passport / building logbook
 6. Design for reversibility: every assembly step should be reversible without destroying the component
 
-**Connection hierarchy for disassembly (best to worst):**
+**拆解连接层级（由优至劣）：**
 1. Dry mechanical — bolted steel connections, screwed timber joints, clip-fix systems
 2. Friction/gravity — stacked masonry (lime mortar, not cement), loose-laid flooring
 3. Adhesive-mechanical hybrid — glued laminated timber (separable by cutting)
 4. Chemical bond — welded steel, cement mortar, epoxy adhesive (not separable without destruction)
 
-### 7.2 Design for Adaptability (DfA)
+### 7.2 面向适应性设计（DfA）
 
 Buildings designed for adaptability can accommodate changes in use, occupancy, and technology over their lifetime, extending their useful life and avoiding premature demolition.
 
@@ -521,7 +519,7 @@ Buildings designed for adaptability can accommodate changes in use, occupancy, a
 - Oversized risers and plant space for future services upgrades
 - Structural capacity for future floor loading changes (design for 5.0 kN/m² even if initial use requires only 2.5 kN/m²)
 
-### 7.3 Material Passports
+### 7.3 材料护照
 
 A material passport is a digital record of all materials and components in a building, documenting:
 - Material type, manufacturer, product specification
@@ -536,7 +534,7 @@ Material passports enable buildings to function as material banks — repositori
 
 **Platforms:** Madaster (Netherlands-based material passport platform), Arup's Material Passport framework, BAMB (Buildings as Material Banks) EU project outputs.
 
-### 7.4 Case Studies
+### 7.4 案例研究
 
 **Circle House, Lisbjerg, Denmark (2023)**
 - 60 social housing units designed for 90% disassembly and reuse

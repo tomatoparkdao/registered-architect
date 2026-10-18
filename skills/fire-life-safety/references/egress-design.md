@@ -1,213 +1,167 @@
-# Egress Design -- Deep Reference
+# 疏散设计——深度参考
 
-## Overview
+## 概述
 
-Egress design is among the architect's most critical responsibilities. A well-
-designed egress system is invisible to occupants during normal use but becomes
-the difference between life and death in a fire or emergency. This reference
-covers stair configurations, refuge areas, firefighting access, travel distance
-tables, stair width calculations with worked examples, evacuation modeling
-basics, and case studies of egress design in complex buildings.
+疏散设计是建筑师最重要的职责之一。设计良好的疏散系统在正常使用时几乎不会被使用者察觉，但在火灾或紧急情况下却可能决定生死。本参考涵盖楼梯配置、避难区域、消防救援通道、疏散距离表、带算例的楼梯宽度计算、疏散建模基础以及复杂建筑疏散设计案例。
 
 ---
 
-## Section 1: Stair Configurations
+## 第 1 节：楼梯配置
 
-### Conventional Enclosed Stair
+### 常规封闭楼梯
 
-The most common escape stair configuration:
-- Single straight-run or return stair enclosed in fire-rated walls
-- Enclosure rating: 1 hr for stairs serving 4 or fewer stories; 2 hr for
-  more than 4 stories (IBC 1023.2; ADB similar by height)
-- Typical plan dimensions:
-  - Single straight run: 3000 x 6000 mm (fits 1100 mm stair + 2 landings)
-  - Return stair (U-shape): 2700 x 5400 mm minimum (2 x 1100 mm flights +
-    150 mm center gap + walls)
-  - Scissor stair core: see below
+最常见的疏散楼梯配置：
+- 由防火墙围合的单跑直楼梯或折返楼梯
+- 围护耐火等级：服务 4 层及以下建筑为 1 小时；超过 4 层为 2 小时（IBC 1023.2；ADB 按高度采用类似要求）
+- 典型平面尺寸：
+  - 单跑直楼梯：3000 × 6000 mm（可容纳 1100 mm 梯段和 2 个平台）
+  - 折返楼梯（U 形）：最小 2700 × 5400 mm（2 × 1100 mm 梯段 + 150 mm 中间间隙 + 墙体）
+  - 剪刀楼梯核心筒：见下文
 
-**Stair geometry requirements (IBC 1011):**
-- Riser height: 102-178 mm (4-7 in); uniform within flight
-- Tread depth: minimum 279 mm (11 in); uniform within flight
-- Nosing: maximum 32 mm (1.25 in) projection; radius max 13 mm (0.5 in)
-- Landing: minimum depth equal to stair width; minimum width equal to stair width
-- Headroom: minimum 2030 mm (80 in) measured vertically from tread nosing to
-  soffit above
-- Handrails: both sides, continuous, 865-965 mm (34-38 in) above tread nosing;
-  extensions per ADA at top and bottom
+**楼梯几何要求（IBC 1011）：**
+- 踢步高度：102–178 mm（4–7 in）；同一梯段内应统一
+- 踏步深度：最小 279 mm（11 in）；同一梯段内应统一
+- 踏步前缘：最大突出 32 mm（1.25 in）；圆角半径最大 13 mm（0.5 in）
+- 平台：最小进深等于楼梯宽度；最小宽度等于楼梯宽度
+- 净高：从踏步前缘至上方楼板底垂直测量，最小 2030 mm（80 in）
+- 扶手：两侧连续设置，距踏步前缘 865–965 mm（34–38 in）；顶部和底部按 ADA 设置延伸段
 
-### Scissor Stairs
+### 剪刀楼梯
 
-Two independent stairs interlocking within a single structural core, each
-serving alternate floors or both serving every floor with separate entries:
+两部独立楼梯交错布置在同一结构核心筒内，可分别服务交替楼层，也可通过独立入口共同服务每一层：
 
-- Each stair is a fully independent fire-rated enclosure
-- Fire-rated wall (minimum 2 hr) separates the two stairs within the core
-- Each stair has its own smoke lobby at every floor
-- Each stair discharges independently at ground level (separate exit
-  discharge paths to the public way)
-- Ventilation: each stair independently pressurized or naturally ventilated
+- 每部楼梯均为完全独立的防火围护空间
+- 核心筒内两部楼梯之间由最小 2 小时耐火墙分隔
+- 每部楼梯在每层均设有独立前室
+- 每部楼梯在首层独立疏散（分别通向室外公共通道）
+- 通风：每部楼梯独立加压或自然通风
 
-**Advantages:**
-- Compact core: significant floor area savings compared to two separate cores
-- Structural efficiency: single core for lateral stability
-- Two protected escape routes from every floor
+**优势：**
+- 核心筒紧凑：相比两个独立核心筒，可显著节省楼面面积
+- 结构效率高：由单一核心筒提供抗侧稳定
+- 每层均有两条受保护的疏散路线
 
-**Limitations:**
-- Complexity: smoke lobby design at each floor requires careful spatial planning
-- Common wall: while fire-rated, a single construction defect could compromise
-  both stairs (IBC and ADB require demonstration that stairs are truly
-  independent)
-- Pressurization: air handling for two independent systems within one core is
-  complex
+**局限：**
+- 复杂性：每层前室的设计需要谨慎进行空间规划
+- 共用墙：虽然具有耐火性能，但单一施工缺陷可能同时影响两部楼梯（IBC 和 ADB 要求证明两部楼梯真正独立）
+- 加压：在一个核心筒内为两套独立系统配置空气处理较为复杂
 
-**Typical plan arrangement:**
-- Core dimensions: approximately 5400 x 6000 mm minimum for two 1100 mm stairs
-  with lobbies
-- Each stair: 1100 mm clear width between walls
-- Each lobby: minimum 1500 mm depth for wheelchair refuge + door swings
-- Separating wall: continuous from foundation to roof, 2-hour fire-rated minimum
+**典型平面布置：**
+- 核心筒尺寸：两部 1100 mm 楼梯及前室约需最小 5400 × 6000 mm
+- 每部楼梯：墙间净宽 1100 mm
+- 每个前室：最小进深 1500 mm，以容纳轮椅避难空间和门扇开启范围
+- 分隔墙：从基础连续至屋顶，耐火等级至少 2 小时
 
-### Pressurized Stairs
+### 加压楼梯
 
-Stairs with mechanical pressurization to resist smoke infiltration:
+通过机械加压抵抗烟气侵入的楼梯：
 
-**IBC requirements (Section 909.20, Section 403.5.4 for high-rise):**
-- Minimum pressure: 12.5 Pa (0.05 in w.g.) with all doors closed
-- Maximum pressure: 87 Pa (0.35 in w.g.) to allow door opening (max 133 N /
-  30 lbf force at door handle)
-- Door opening: system must maintain minimum pressure with one door open on
-  the fire floor; air velocity through open door >= 0.75 m/s (some codes
-  require 1.0 m/s per BS EN 12101-6)
+**IBC 要求（第 909.20 节，高层建筑适用第 403.5.4 节）：**
+- 最小压力：所有门关闭时 12.5 Pa (0.05 in w.g.)
+- 最大压力：87 Pa (0.35 in w.g.)，以允许开门（门把手最大作用力 133 N / 30 lbf）
+- 开门条件：着火楼层一扇门开启时系统仍须保持最小压力；开启门洞气流速度 ≥ 0.75 m/s（部分规范
+  按 BS EN 12101-6 要求达到 1.0 m/s）
 
-**System components:**
-- Supply fan: typically at roof level, sized for total leakage + one open door flow
-- Fresh air intake: located away from smoke exhaust outlets (minimum 3 m
-  horizontal, 5 m recommended)
-- Pressure relief: barometric dampers or variable-speed drive to prevent
-  over-pressurization
-- Backup power: standby generator (high-rise requirement)
-- Commissioning: air flow and pressure testing at completion; annual testing
-  per fire code
+**系统组成：**
+- 送风机：通常位于屋顶层，按总泄漏量加一扇开启门的气流量确定容量
+- 新风进风口：应远离排烟出口（水平距离至少 3 m，建议 5 m）
+ - 压力泄放：采用大气阻尼器或变速驱动，防止过度加压
+ - 备用电源：备用发电机（高层建筑要求）
+ - 调试：竣工时进行气流和压力测试；按消防规范每年测试
 
-**Design considerations:**
-- Stack effect in tall buildings: temperature difference between interior and
-  exterior creates significant pressure differentials, especially in winter.
-  Fan sizing must account for worst-case stack effect.
-- Wind effect: wind pressure on building facades affects pressurization.
-  Multiple inlets on different facades or ducted intake recommended.
-- Elevator shaft interaction: elevator shafts can act as chimneys; consider
-  elevator lobby pressurization or vestibule design to prevent smoke migration
-  through elevator shaft to stair.
+**设计考虑：**
+- 高层建筑的烟囱效应：内外温差会产生显著压差，冬季尤为明显。风机选型必须考虑最不利烟囱效应。
+- 风效应：建筑立面风压会影响加压。建议在不同立面设置多个进风口，或采用管道进风。
+- 与电梯井的相互作用：电梯井可能充当烟囱；应考虑电梯前室加压或前室设计，防止烟气沿电梯井进入楼梯间。
 
-### Smoke Lobbies (Protected Lobbies)
+### 防烟前室（受保护前室）
 
-A fire-rated vestibule between the occupied floor and the stair enclosure,
-providing an additional barrier to smoke entering the stair:
+位于使用楼层与楼梯围护之间的防火前室，为进入楼梯间的烟气提供额外屏障：
 
-- Minimum area: 5 m² (BS 9999) or sufficient for wheelchair refuge +
-  door swings
-- Rating: same as stair enclosure walls
-- Doors: self-closing, smoke-sealed (FD30S minimum UK; 20-min smoke door IBC)
-- Ventilation: natural vent (1.0 m² openable) or mechanical (pressurization
-  or extract)
-- Required by: ADB for all escape stairs in buildings > 11 m; IBC for
-  smokeproof enclosures in high-rise; BS 9999 for all protected stairs in
-  risk profiles C2/C3
+- 最小面积：5 m²（BS 9999），或足以容纳轮椅避难空间及门扇开启范围
+- 耐火等级：与楼梯围护墙相同
+- 门：自闭、烟密封（英国 FD30S 最低要求；IBC 为 20 分钟防烟门）
+- 通风：自然通风口（可开启面积 1.0 m²）或机械通风（加压或排烟）
+- 适用要求：建筑高度 > 11 m 时 ADB 要求所有疏散楼梯设置；高层防烟楼梯间适用 IBC；C2/C3 风险等级的所有受保护楼梯适用 BS 9999
 
 ---
 
-## Section 2: Refuge Areas
+## 第 2 节：避难区域
 
-### Definition and Purpose
+### 定义和目的
 
-A refuge area (area of rescue assistance per IBC; protected refuge per ADB)
-is a location within a building where persons who cannot use stairs can wait
-safely for assisted evacuation.
+避难区域（IBC 称为救援辅助区域，ADB 称为受保护避难区）是建筑内供无法使用楼梯的人员安全等待协助疏散的场所。
 
-### Design Requirements
+### 设计要求
 
-**Location:**
-- Adjacent to every escape stair at every level above and below exit discharge
-- Within the stair enclosure or in the smoke lobby
-- Must not obstruct the flow of evacuating occupants through the stair
+**位置：**
+- 在疏散出口层以上和以下的每一层，均应邻接每个疏散楼梯
+- 设置在楼梯围护内或防烟前室内
+- 不得阻碍人员通过楼梯疏散的流线
 
-**Size:**
-- IBC: 760 x 1220 mm (30 x 48 in) clear floor space per wheelchair space
-- ADB/BS 9999: 900 x 1400 mm per wheelchair space
-- Number: minimum 1 per stair per floor; 2 per floor if > 200 occupants
-  on that floor
+**尺寸：**
+- IBC：每个轮椅位净地面空间 760 × 1220 mm（30 × 48 in）
+- ADB/BS 9999：每个轮椅位 900 × 1400 mm
+- 数量：每层每部楼梯至少 1 个；该层人数 > 200 时，每层 2 个
 
-**Communication:**
-- Two-way voice communication between refuge and fire command center or
-  building entrance (IBC 1009.8)
-- Visual indicator at refuge showing system is operational
-- Instructions signage at refuge: "Area of Rescue Assistance / Two-way
-  communication provided / Persons unable to use stairs should wait here
-  for assistance"
+**通信：**
+- 避难区与消防控制中心或建筑入口之间设置双向语音通信（IBC 1009.8）
+- 避难区设置显示系统正常运行的视觉指示器
+- 避难区设置指示牌：“救援辅助区域 / 已提供双向通信 / 无法使用楼梯的人员应在此等待救援”
 
-**Protection:**
-- Same fire rating as stair enclosure
-- Smoke-sealed construction (fire-rated walls and self-closing doors)
-- Pressurization or natural ventilation as per stair enclosure
+**防护：**
+- 与楼梯围护具有相同耐火等级
+- 采用烟密封构造（防火墙和自闭门）
+- 按楼梯围护要求采用加压或自然通风
 
-### Evacuation Devices
+### 疏散设备
 
-Increasingly, buildings provide evacuation devices at refuge areas:
-- Evacuation chairs: stair-descent devices operated by trained staff;
-  stored at each refuge area; weight capacity typically 136-182 kg (300-400 lb)
-- Evacuation mats/sheets: for persons who cannot sit in an evacuation chair
-- Emergency evacuation elevator: per IBC 3008 or BS EN 81-76; under control
-  of fire service or trained building staff
+越来越多的建筑在避难区配置疏散设备：
+- 疏散椅：由受训人员操作的楼梯下降设备；存放在每个避难区，典型承重 136–182 kg（300–400 lb）
+- 疏散垫/疏散单：供无法坐入疏散椅的人员使用
+- 应急疏散电梯：依据 IBC 3008 或 BS EN 81-76，由消防人员或受训建筑工作人员控制
 
-### Exceptions
+### 例外
 
-IBC Section 1009.3 Exception: refuge areas are not required in buildings
-equipped throughout with an NFPA 13 sprinkler system. This exception is
-based on the premise that sprinklers will control the fire and allow
-sufficient time for assisted evacuation by fire service using elevators.
+IBC 第 1009.3 节例外：全楼设置 NFPA 13 自动喷水灭火系统的建筑无需设置避难区。该例外基于以下前提：喷淋系统能够控制火灾，并为消防人员使用电梯协助疏散提供足够时间。
 
-UK ADB: refuge areas required regardless of sprinkler provision.
+英国 ADB：无论是否设置喷淋系统，均要求设置避难区。
 
 ---
 
-## Section 3: Firefighting Access
+## 第 3 节：消防救援通道
 
-### Fire Service Vehicle Access
+### 消防车辆通道
 
-- Minimum road width: 6.0 m (20 ft) for aerial apparatus per IFC Appendix D
-  (3.7 m / 12 ft for standard apparatus)
-- Road surface: designed for fire apparatus loading (minimum 34,000 kg / 75,000 lb
-  for aerial apparatus)
-- Clear height: 4.1 m (13.5 ft) minimum under any overhead obstruction
-- Turning radius: minimum 12.2 m (40 ft) inside, 15.2 m (50 ft) outside
-- Dead-end roads: turnaround required (hammerhead, cul-de-sac, or equivalent)
-  per IFC
+- 最小道路宽度：按 IFC 附录 D，云梯消防车为 6.0 m（20 ft），普通消防车为 3.7 m（12 ft）
+- 路面：按消防车辆荷载设计，云梯消防车最小荷载 34,000 kg / 75,000 lb
+- 净高：任何上方障碍物下方最小 4.1 m（13.5 ft）
+- 转弯半径：内侧最小 12.2 m（40 ft），外侧最小 15.2 m（50 ft）
+- 尽端道路：按 IFC 要求设置回车场（锤头形、环形回车场或等效形式）
 
-### Firefighter Access Points
+### 消防员进入点
 
-- Minimum 1 fire department access door per 61 m (200 ft) of building perimeter
-  at ground level
-- Access doors: openable from exterior without key; size minimum 915 x 2032 mm
-  (36 x 80 in)
-- Identification: "FIRE DEPT. ACCESS" sign or reflective marker per AHJ
+- 首层建筑周长每 61 m (200 ft) 至少设置 1 个消防部门进入门
+- 进入门：无需钥匙即可从外部开启；最小尺寸 915 x 2032 mm (36 x 80 in)
+- 标识：按 AHJ 要求设置“FIRE DEPT. ACCESS”标牌或反光标记
 
-### Firefighting Shaft Components
+### 消防竖井组成
 
-| Component | IBC High-Rise | ADB > 18 m | BS 9999 |
+| 组成 | IBC 高层建筑 | ADB > 18 m | BS 9999 |
 |------------------------------|-------------|------------|---------|
-| Fire service elevator | Required | Required | Required |
-| Protected lobby | Required | Required | Required |
-| Fire main (standpipe/riser) | Wet standpipe Class I | Dry riser 18-60 m; Wet riser > 60 m | Per risk profile |
-| Lobby size | Per accessibility | Min 5 m² | Min 5 m² |
-| Lobby ventilation | Pressurization | Natural 1.0 m² or mech. | Natural or mechanical |
+| 消防电梯 | 必须 | 必须 | 必须 |
+| 受保护前室 | 必须 | 必须 | 必须 |
+| 消防主管（立管） | I 类湿式立管 | 18-60 m 为干式立管；> 60 m 为湿式立管 | 按风险等级 |
+| 前室面积 | 按无障碍要求 | 最小 5 m² | 最小 5 m² |
+| 前室通风 | 加压 | 1.0 m² 自然排烟或机械通风 | 自然或机械通风 |
 
 ---
 
-## Section 4: Travel Distance Tables -- Consolidated International Comparison
+## 第 4 节：疏散距离表——国际综合比较
 
-### IBC (US) -- Maximum Travel Distance (Table 1017.2)
+### IBC（美国）——最大疏散距离（表 1017.2）
 
-| Occupancy | Unsprinklered m (ft) | Sprinklered m (ft) |
+| 使用类别 | 无喷淋 m（ft） | 有喷淋 m（ft） |
 |-----------|----------------------|-------------------|
 | A | 61 (200) | 76 (250) |
 | B | 61 (200) | 91 (300) |
@@ -225,45 +179,45 @@ UK ADB: refuge areas required regardless of sprinkler provision.
 | S-2 | 91 (300) | 122 (400) |
 | U | 61 (200) | 76 (250) |
 
-### BS 9999 (UK) -- Maximum Travel Distance
+### BS 9999（英国）——最大疏散距离
 
-**Risk Profile A (office, commercial):**
+**风险类别 A（办公、商业）：**
 
-| Condition | One Direction | More Than One Direction |
+| 条件 | 单一方向 | 多个方向 |
 |------------|--------------|----------------------|
-| Unsprinklered | 18 m | 45 m |
-| Sprinklered | 27 m | 60 m |
+| 无喷淋 | 18 m | 45 m |
+| 设喷淋 | 27 m | 60 m |
 
-**Risk Profile B (retail, assembly, industrial):**
+**风险类别 B（零售、集会、工业）：**
 
-| Condition | One Direction | More Than One Direction |
+| 条件 | 单一方向 | 多个方向 |
 |------------|--------------|----------------------|
-| Unsprinklered | 15 m | 32-45 m |
-| Sprinklered | 22 m | 45-60 m |
+| 无喷淋 | 15 m | 32-45 m |
+| 设喷淋 | 22 m | 45-60 m |
 
-**Risk Profile C (residential, sleeping):**
+**风险类别 C（住宅、睡眠）：**
 
-| Condition | One Direction | More Than One Direction |
+| 条件 | 单一方向 | 多个方向 |
 |------------|--------------|----------------------|
-| Unsprinklered | 9 m | 18-35 m |
-| Sprinklered | 18 m | 35-45 m |
+| 无喷淋 | 9 m | 18-35 m |
+| 设喷淋 | 18 m | 35-45 m |
 
-### Approved Document B (England & Wales)
+### Approved Document B（英格兰和威尔士）
 
-| Purpose Group | One Direction | Alternative Directions |
+| 用途组 | 单一方向 | 替代方向 |
 |--------------------------|--------------|----------------------|
-| 2a Residential (flat) | 9 m (corridor) | -- (single direction) |
-| 2b Residential (institutional) | 9 m | 18 m |
-| 3 Office | 18 m | 45 m |
-| 4 Shop/commercial | 18 m | 45 m |
-| 5 Assembly/recreation | 15 m | 32 m |
-| 6 Industrial | 25 m | 45 m |
-| 7a Storage/high hazard | 12 m | 25 m |
+| 2a 住宅（公寓） | 9 m（走廊） | --（单一方向） |
+| 2b 住宅（机构） | 9 m | 18 m |
+| 3 办公 | 18 m | 45 m |
+| 4 商店/商业 | 18 m | 45 m |
+| 5 集会/娱乐 | 15 m | 32 m |
+| 6 工业 | 25 m | 45 m |
+| 7a 储藏/高危险 | 12 m | 25 m |
 | 7b Storage/low hazard | 25 m | 45 m |
 
-### NCC (Australia)
+### NCC（澳大利亚）
 
-| Class | Single Direction | Alternative Directions |
+| 类别 | 单一方向 | 替代方向 |
 |-------|-----------------|----------------------|
 | 2 (Apartments) | 6 m | 20 m |
 | 3 (Hotels) | 6 m | 20 m |
@@ -273,302 +227,213 @@ UK ADB: refuge areas required regardless of sprinkler provision.
 | 8 (Factory) | 20 m | 40 m |
 | 9a (Healthcare) | 15 m | 30 m |
 
-(Note: Australian distances are generally shorter than IBC and comparable
-to UK. NCC Specification C2.4.)
+（注：澳大利亚疏散距离通常短于 IBC，与英国规范相近。依据 NCC C2.4 条款。）
 
 ---
 
-## Section 5: Stair Width Calculations -- Worked Examples
+## 第 5 节：楼梯宽度计算——算例
 
-### Example 1: 10-Story Office Building (IBC)
+### 算例 1：10 层办公建筑（IBC）
 
-**Given:**
-- 10-story office (Group B), 2000 m² (21,528 ft²) per floor
-- Sprinklered (NFPA 13)
-- 2 exit stairs
+**已知：**
+- 10 层办公建筑（B 组），每层 2000 m²（21,528 ft²）
+- 设置喷淋系统（NFPA 13）
+- 2 部疏散楼梯
 
-**Step 1: Occupant load per floor.**
-- B occupancy: 9.3 m² gross per person
-- 2000 / 9.3 = 215 occupants per floor
+**步骤 1：每层人员荷载。**
+- B 类使用：每人 9.3 m² 毛面积
+- 2000 / 9.3 = 每层 215 人
 
-**Step 2: Stair width per IBC.**
-- Per IBC 1005.1: stair width = occupant load × 7.6 mm per occupant
-- With 2 stairs, each must accommodate total load when one is blocked:
-  215 × 7.6 = 1,634 mm per stair
-- Minimum stair width for 50+ occupants: 1,118 mm
-- Required: 1,634 mm per stair (governs over minimum)
+**步骤 2：按 IBC 确定楼梯宽度。**
+- 按 IBC 1005.1：楼梯宽度 = 人员荷载 × 每人 7.6 mm
+- 设置 2 部楼梯时，一部被阻断后另一部必须容纳全部荷载：215 × 7.6 = 每部楼梯 1,634 mm
+- 50 人以上的楼梯最小宽度：1,118 mm
+- 要求值：每部楼梯 1,634 mm（高于最小值，采用该值）
 
-**Step 3: Practical stair width.**
-- 1,634 mm between walls -- round up to 1,650 mm (65 in)
-- With 2 handrails projecting 90 mm each: clear walking width =
-  1,650 - 180 = 1,470 mm
-- Provides comfortable 2-abreast flow with 3rd person passing
+**步骤 3：实际楼梯宽度。**
+- 墙间 1,634 mm——向上取整为 1,650 mm（65 in）
+- 两侧扶手各突出 90 mm：净行走宽度 = 1,650 − 180 = 1,470 mm
+- 可舒适地容纳两人并行，并允许第三人通过
 
-**Step 4: Stair core dimensions.**
-- Return stair (U-shape): 2 flights × 1,650 mm + 150 mm center gap
-  + 2 × 200 mm walls = 3,850 mm wide
-- Length: assuming 3,200 mm floor-to-floor, 17 risers × 189 mm = 3,200 mm
-  (riser height slightly above 178 mm maximum -- reduce to 18 risers ×
-  178 mm = 3,200 mm); run = 17 treads × 279 mm = 4,743 mm + 2 landings
-  × 1,650 mm = 8,043 mm total stair enclosure length
-- Plan: approximately 3,850 mm × 8,100 mm for stair enclosure
+**步骤 4：楼梯核心筒尺寸。**
+- 折返楼梯（U 形）：2 个梯段 × 1,650 mm + 150 mm 中间间隙 + 2 × 200 mm 墙体 = 宽 3,850 mm
+- 长度：假设层高 3,200 mm，17 个踢步 × 189 mm = 3,200 mm（踢步高度略高于 178 mm 上限，调整为 18 个踢步 × 178 mm = 3,200 mm）；梯段水平长度 = 17 个踏步 × 279 mm = 4,743 mm + 2 个平台 × 1,650 mm = 楼梯围护总长 8,043 mm
+- 平面：楼梯围护约 3,850 mm × 8,100 mm
 
-### Example 2: Residential Tower (BS 9999 / ADB Method)
+### 算例 2：住宅塔楼（BS 9999 / ADB 方法）
 
-**Given:**
-- 20-story residential tower, 8 flats per floor, 2.5 persons per flat
-- Single stair with firefighting shaft
-- Simultaneous evacuation capacity required (post-Grenfell)
+**已知：**
+- 20 层住宅塔楼，每层 8 套住宅，每套 2.5 人
+- 设有消防电梯井的单部楼梯
+- 需要满足同时疏散能力（Grenfell 事件后要求）
 
-**Step 1: Population per floor.**
-- 8 × 2.5 = 20 persons per floor
+**步骤 1：每层人数。**
+- 8 × 2.5 = 每层 20 人
 
-**Step 2: Total simultaneous evacuation population.**
-- 19 upper floors × 20 = 380 persons (ground floor evacuates directly)
+**步骤 2：同时疏散总人数。**
+- 19 个上部楼层 × 20 = 380 人（首层直接疏散）
 
-**Step 3: Stair width per BS 9999 Table 13.**
-- For 220+ persons in a single stair, width = 1,100 mm minimum
-- Check capacity: 1,100 mm stair accommodates approximately 80 persons/min
-  at 1.1 m/s descent speed (per BS 9999 calculation method)
-- 380 persons / 80 persons/min = 4.75 minutes -- acceptable if ASET
-  (Available Safe Egress Time) > 4.75 minutes + pre-movement time
+**步骤 3：按 BS 9999 表 13 确定楼梯宽度。**
+- 单部楼梯服务 220 人以上时，最小宽度 = 1,100 mm
+ - 容量核查：按 BS 9999 计算方法，1,100 mm 楼梯在 1.1 m/s 下行速度时约可容纳 80 人/分钟
+ - 380 人 / 80 人/分钟 = 4.75 分钟——若 ASET（可用安全疏散时间）> 4.75 分钟 + 预动作时间，则可接受
 
-**Step 4: Pre-movement time.**
-- BS PD 7974-6 residential: 5-10 minutes for first occupant, 10-15 minutes
-  for last occupant on fire floor
-- Total RSET (Required Safe Egress Time) = detection time + alarm time +
-  pre-movement time + travel time = 1 + 0.5 + 10 + 5 = 16.5 minutes
-- ASET must exceed RSET with safety margin: ASET > 1.5 × RSET = 24.75 min
+**步骤 4：预动作时间。**
+- BS PD 7974-6 住宅建筑：首位使用者 5–10 分钟，起火层最后一位使用者 10–15 分钟
+- RSET 总计（所需安全疏散时间）= 探测时间 + 报警时间 + 预动作时间 + 行走时间 = 1 + 0.5 + 10 + 5 = 16.5 分钟
+- ASET 必须带安全裕度超过 RSET：ASET > 1.5 × RSET = 24.75 分钟
 
-**Step 5: Stair with lobby.**
-- Lobby: 2,400 × 1,800 mm minimum (wheelchair refuge + 2 door swings)
-- Stair enclosure: 2,700 × 5,000 mm minimum
-- Firefighting shaft adds: fire service elevator (2,100 × 1,500 mm cab +
-  shaft walls), rising main cupboard
+**步骤 5：带前室的楼梯。**
+- 前室：最小 2,400 × 1,800 mm（轮椅避难空间 + 2 个门扇开启范围）
+- 楼梯围护：最小 2,700 × 5,000 mm
+- 消防电梯井增加：消防电梯（轿厢 2,100 × 1,500 mm + 井道墙体）和立管箱
 
-### Example 3: Concert Hall with 2,500 Seats (IBC)
+### 算例 3：2,500 座音乐厅（IBC）
 
-**Given:**
-- A-1 assembly, 2,500 fixed seats, single story, sprinklered
-- 4 exits required (> 1,000 occupants)
+**已知：**
+- A-1 集会建筑，2,500 个固定座位，单层，设置喷淋
+- 需要 4 个出口（> 1,000 人）
 
-**Step 1: Exit width calculation.**
-- Level components (doors): 5.1 mm per occupant
-- Total door width: 2,500 × 5.1 = 12,750 mm across all exits
-- 4 exits: 12,750 / 4 = 3,188 mm per exit
-- Practical: 4 pairs of double doors, each pair 1,829 mm (72 in),
-  total = 4 × 1,829 = 7,316 mm... insufficient
-- Revised: provide 8 exit doors at 1,118 mm (44 in) each = 8,944 mm...
-  still insufficient
-- Solution: provide 4 exit clusters, each with triple doors (3 × 914 mm
-  = 2,742 mm per cluster), total = 10,968 mm -- still short
-- Correct solution: 4 exit locations × 4 doors each (4 × 914 mm = 3,658 mm
-  per location), total = 14,632 mm -- exceeds 12,750 mm requirement
+**步骤 1：出口宽度计算。**
+- 楼层构件（门）：每人 5.1 mm
+- 所有出口的门宽总计：2,500 × 5.1 = 12,750 mm
+- 4 个出口：12,750 / 4 = 每个出口 3,188 mm
+- 初步方案：设置 4 组双扇门，每组 1,829 mm（72 in），总宽度 = 4 × 1,829 = 7,316 mm……不足
+- 修订方案：设置 8 樘出口门，每樘 1,118 mm（44 in）= 8,944 mm……仍不足
+- 方案调整：设置 4 个出口组，每组 3 樘门（3 × 914 mm = 每组 2,742 mm），总宽度 = 10,968 mm——仍不足
+- 正确方案：4 个出口位置 × 每处 4 樘门（4 × 914 mm = 每处 3,658 mm），总宽度 = 14,632 mm——超过 12,750 mm 的要求
 
-**Step 2: Travel distance.**
-- A-1 sprinklered: 76 m (250 ft) maximum
-- Concert hall plan: exits at all 4 sides; maximum travel from center of
-  rear row to nearest exit approximately 40 m -- well within limit
+**步骤 2：疏散距离。**
+- 设置喷淋的 A-1：最大 76 m（250 ft）
+- 音乐厅平面：四侧均设出口；后排中央至最近出口的最大距离约 40 m，远低于限值
 
-**Step 3: Assembly-specific.**
-- Main exit (facing lobby/public way): 50% of total occupant load
-  = 1,250 occupants × 5.1 mm = 6,375 mm
-- Provide main exit lobby with 8 doors × 914 mm = 7,312 mm -- adequate
-- Remaining exits: 1,250 × 5.1 = 6,375 mm across 3 remaining exit locations
-  = 2,125 mm each; provide 3 double doors per location (3 × 914 = 2,742 mm
-  each) -- adequate
+**步骤 3：集会建筑专用要求。**
+- 主出口（面向大堂/公共通道）：总人员荷载的 50% = 1,250 人 × 5.1 mm = 6,375 mm
+- 主出口大堂设置 8 樘门 × 914 mm = 7,312 mm，满足要求
+- 其余出口：1,250 × 5.1 = 6,375 mm 分配至 3 个剩余出口位置 = 每处 2,125 mm；每处设置 3 樘双扇门（3 × 914 = 2,742 mm），满足要求
 
-**Step 4: Emergency systems.**
-- Panic hardware on all exit doors (occupant load > 50 in A-1)
-- Emergency voice/alarm: required (occupant load > 300)
-- Emergency lighting: 10.8 lux on egress path, 90-minute duration
-- Standby power for voice/alarm and emergency lighting
+**步骤 4：应急系统。**
+- 所有出口门设置推杆式紧急开启装置（A-1 人员荷载 > 50）
+- 必须设置应急语音/报警系统（人员荷载 > 300）
+- 应急照明：疏散路径 10.8 lux，持续 90 分钟
+- 语音/报警系统和应急照明配置备用电源
 
 ---
 
-## Section 6: Evacuation Modeling Basics
+## 第 6 节：疏散建模基础
 
-### Purpose
+### 目的
 
-Evacuation modeling predicts the time required for building occupants to
-reach safety. It is used in performance-based fire engineering to demonstrate
-that ASET (Available Safe Egress Time) exceeds RSET (Required Safe Egress Time).
+疏散建模预测建筑使用者到达安全地点所需的时间。在性能化消防工程中，用于证明 ASET（可用安全疏散时间）超过 RSET（所需安全疏散时间）。
 
-### RSET Components
+### RSET 组成
 
 ```
 RSET = t_detection + t_alarm + t_pre-movement + t_travel
 ```
 
-- **t_detection:** Time from fire ignition to detection. Depends on detector
-  type, fire growth rate, ceiling height. Typically 30s-3min.
-- **t_alarm:** Time from detection to occupant notification. Typically 0-30s
-  (automatic) or up to 5 min (investigation by staff before alarm).
-- **t_pre-movement:** Time from alarm to start of movement. Highly variable:
-  office 1-3 min, residential 5-15 min, hospital 10-20 min. Includes
-  recognition, decision, and preparation.
-- **t_travel:** Time to traverse exit access, exit, and exit discharge to
-  place of safety. Calculated by modeling or hand calculation.
+- **t_detection：**从起火到被探测的时间，取决于探测器类型、火灾增长速率和顶棚高度，通常为 30 秒–3 分钟。
+- **t_alarm：**从探测到通知使用者的时间，通常为 0–30 秒（自动报警），或因工作人员调查后报警而最长 5 分钟。
+- **t_pre-movement：**从报警到开始移动的时间，差异很大：办公 1–3 分钟、住宅 5–15 分钟、医院 10–20 分钟，包括识别、决策和准备。
+- **t_travel：**通过出口通道、出口和出口疏散段到达安全地点的时间，可通过建模或手算确定。
 
-### ASET Determination
+### ASET 确定
 
-ASET is the time from ignition until conditions become untenable on the
-egress path. Tenability criteria:
+ASET 是从起火到疏散路径上的环境条件变得不可忍受的时间。可生存性判据：
 
-| Parameter | Tenability Limit |
+| 参数 | 可生存性限值 |
 |-----------|-----------------|
-| Visibility | > 10 m (familiar), > 5 m (unfamiliar) |
-| Temperature | < 60°C (sustained exposure) |
-| Radiant heat flux | < 2.5 kW/m² |
-| CO concentration | < 1400 ppm (30-min exposure) |
-| FED (Fractional Effective Dose) | < 0.3 (conservative) |
-| Smoke layer height | > 2.5 m above floor |
+| 能见度 | > 10 m（熟悉环境），> 5 m（不熟悉环境） |
+| 温度 | < 60°C（持续暴露） |
+| 辐射热通量 | < 2.5 kW/m² |
+| CO 浓度 | < 1400 ppm（暴露 30 分钟） |
+| FED（分数有效剂量） | < 0.3（保守值） |
+| 烟层高度 | 高于地面 > 2.5 m |
 
-### Modeling Software
+### 建模软件
 
-**Agent-based models (microscopic):**
-- **Pathfinder** (Thunderhead Engineering): 3D agent-based, SFPE steering mode
-  or flow mode; widely used in the US
-- **STEPS** (Mott MacDonald): 3D agent-based; widely used in the UK and Asia
-- **Simulex** (IES): 2D agent-based; legacy software
-- **MassMotion** (Oasys): 3D agent-based; used for large transit and stadium
-  projects
+**基于个体的模型（微观）：**
+- **Pathfinder**（Thunderhead Engineering）：三维基于个体，支持 SFPE 引导模式或流量模式；在美国广泛使用
+- **STEPS**（Mott MacDonald）：三维基于个体；在英国和亚洲广泛使用
+- **Simulex**（IES）：二维基于个体；旧版软件
+- **MassMotion**（Oasys）：三维基于个体；用于大型交通和体育场项目
 
-**Flow-based models (macroscopic):**
-- Hand calculation per SFPE Handbook Chapter 64 (hydraulic flow model)
-- Spreadsheet tools for simple geometries
+**基于流量的模型（宏观）：**
+- 按 SFPE 手册第 64 章手算（水力流模型）
+- 简单几何形体使用电子表格工具
 
-### Key Parameters
+### 关键参数
 
-- Walking speed: 1.2 m/s (free-flow, horizontal); 0.5-0.7 m/s (stair descent);
-  0.4-0.6 m/s (stair ascent)
-- Density-speed relationship: as density increases, speed decreases; at
-  3.8 persons/m² (jam density), movement stops
-- Door flow rate: approximately 1.3 persons/s per meter of door width
-  (at optimal density)
-- Stair flow rate: approximately 1.0-1.1 persons/s per meter of stair width
-  (descent); reduces at higher occupant densities
+- 行走速度：1.2 m/s（水平自由流）；0.5–0.7 m/s（下楼）；0.4–0.6 m/s（上楼）
+- 密度—速度关系：密度增加时速度降低；达到 3.8 人/m²（拥堵密度）时停止移动
+- 门流量：最佳密度下约为每米门宽 1.3 人/秒
+- 楼梯流量：下楼约为每米楼梯宽 1.0–1.1 人/秒；人员密度更高时降低
 
 ---
 
-## Section 7: Case Studies
+## 第 7 节：案例研究
 
-### Case Study 1: The Shard, London (310 m, 72 Stories)
+### 案例 1：伦敦碎片大厦（310 m，72 层）
 
-- **Egress strategy:** Phased evacuation; firefighting shaft with 2 fire service
-  elevators; 3 escape stairs serving different floor zones
-- **Stairs:** 2 primary stairs from top to ground; 1 additional stair serving
-  lower commercial floors. Width 1,200 mm each.
-- **Refuge:** Designated refuge floors at mechanical plant levels (approximately
-  every 15 stories); wheelchair refuge at every stair landing
-- **Smoke control:** Stair pressurization; mechanical extract in common lobbies;
-  atrium smoke reservoirs at restaurant levels
-- **Key innovation:** Zoned evacuation communicating via voice alarm; occupants
-  above and below fire zone hold in place while fire floor evacuates
+- **疏散策略：**分阶段疏散；消防电梯井内设 2 部消防电梯；3 部疏散楼梯服务不同楼层分区
+- **楼梯：**2 部主楼梯从顶层通至首层；另设 1 部楼梯服务下部商业楼层，每部宽 1,200 mm
+- **避难：**在设备机房层设置指定避难楼层（约每 15 层一处）；每个楼梯平台设置轮椅避难位
+- **烟气控制：**楼梯加压；公共前室机械排烟；餐厅楼层设置中庭蓄烟区
+- **关键创新：**通过语音报警进行分区疏散；火灾分区上下方人员原地待命，同时疏散起火楼层
 
-### Case Study 2: Marina Bay Sands, Singapore (200 m, 55 Stories + SkyPark)
+### 案例 2：新加坡滨海湾金沙（200 m，55 层 + 空中花园）
 
-- **Challenge:** 2,500-person rooftop SkyPark at 200 m height connected to
-  3 separate towers by a horizontal span
-- **Egress from SkyPark:** Dedicated exit stairs from SkyPark down through each
-  tower; evacuation elevators under fire service control
-- **Stairs:** Multiple stairs in each tower; scissor stair configuration in
-  hotel towers for compact core
-- **Smoke control:** Pressurized stairs; wind-driven smoke management at
-  SkyPark (open-air conditions at 200 m altitude create extreme wind effects)
-- **Key innovation:** Performance-based egress design accommodating
-  3,000+ occupants at rooftop level
+- **挑战：**200 m 高度屋顶空中花园可容纳 2,500 人，通过水平跨度连接 3 座独立塔楼
+- **空中花园疏散：**设置专用出口楼梯，分别穿过各塔楼向下；疏散电梯由消防人员控制
+- **楼梯：**每座塔楼设置多部楼梯；酒店塔楼采用剪刀楼梯配置以压缩核心筒
+- **烟气控制：**楼梯加压；空中花园采用风驱动烟气管理（200 m 高空的露天环境产生极端风效应）
+- **关键创新：**采用性能化疏散设计，满足屋顶层 3,000 人以上的疏散需求
 
-### Case Study 3: Crossrail Elizabeth Line Stations, London (Underground)
+### 案例 3：伦敦 Crossrail Elizabeth Line 车站（地下）
 
-- **Challenge:** Deep underground stations (up to 40 m below ground) with
-  platform-to-surface egress for 15,000+ persons per hour
-- **Egress:** Escalator banks (6-8 escalators per station) as primary egress;
-  fire-rated stairs adjacent; evacuation elevators for accessibility
-- **Travel distance:** Platform to surface > 100 m (achieved through
-  performance-based analysis exceeding prescriptive UK limits)
-- **Smoke control:** Platform-level mechanical extract; tunnel ventilation
-  (piston effect + mechanical fans); pressurized escape routes
-- **Evacuation modeling:** Extensive use of STEPS and Legion (pedestrian
-  simulation) for all 10 central stations; validated against real crowd
-  movement data from existing London Underground stations
-- **Key innovation:** Full dynamic simulation of 40,000 simultaneous
-  evacuees across the central section
+- **挑战：**深地下车站（最深地下 40 m），每小时需将 15,000 多人从站台疏散至地面
+- **疏散：**以扶梯组为主要疏散方式（每站 6–8 部扶梯）；邻近设置防火楼梯；为无障碍设置疏散电梯
+- **疏散距离：**站台至地面 > 100 m（通过性能化分析实现，超过英国规定性限值）
+- **烟气控制：**站台层机械排烟；隧道通风（活塞效应 + 机械风机）；疏散路线加压
+- **疏散建模：**10 个中心车站广泛使用 STEPS 和 Legion（行人模拟），并与现有伦敦地铁车站的真实人群移动数据进行验证
+- **关键创新：**对中心段 40,000 名同时疏散人员进行完整动态模拟
 
-### Case Study 4: Apple Park, Cupertino (4-Story Ring Building, 260,000 m²)
+### 案例 4：库比蒂诺 Apple Park（4 层环形建筑，260,000 m²）
 
-- **Challenge:** Single building with 12,000+ occupants; largest occupied
-  floor plate in the US at approximately 65,000 m² per floor
-- **Egress:** Multiple stairs distributed around the ring perimeter and at
-  internal cores; travel distance managed by short distances to numerous stairs
-- **Exits:** Ground-floor exit discharge to exterior at grade around full
-  perimeter (ring building sits in landscape, accessible from all sides)
-- **Smoke control:** Large floor plates ventilated by operable facade panels
-  (natural ventilation); NFPA 13 sprinklers throughout
-- **Key innovation:** The ring geometry ensures no point is far from an
-  exterior exit; egress design drove the structural bay spacing and core
-  locations
+- **挑战：**单体建筑容纳 12,000 多人；每层约 65,000 m²，是美国最大的使用楼面之一
+- **疏散：**环形外周和内部核心筒分布多部楼梯；通过缩短至各楼梯的距离控制疏散距离
+- **出口：**首层沿完整外周向室外地面疏散（环形建筑位于景观中，四周均可到达）
+- **烟气控制：**大楼面通过可开启立面板自然通风；全楼设置 NFPA 13 喷淋
+- **关键创新：**环形几何确保任何位置都不会远离室外出口；疏散设计推动了结构柱网间距和核心筒位置
 
-### Case Study 5: One World Trade Center, New York (541 m, 94 Stories)
+### 案例 5：纽约世贸中心一号楼（541 m，94 层）
 
-- **Challenge:** Iconic supertall on a site defined by the memory of egress
-  failures during 9/11
-- **Egress:** 3 exit stairs (one more than code minimum); extra-wide stairs
-  at 1,320 mm (52 in) clear width; all stairs pressurized with dedicated fans
-- **Refuge:** Transfer floors every 20 stories with enlarged lobbies serving
-  as refuge areas
-- **Firefighting:** Firefighting shaft with dedicated fire service elevator;
-  standpipe in each stair; fire command center at ground level
-- **Structural fire protection:** Concrete core (inherent fire resistance);
-  steel perimeter structure with spray-applied fire protection + intumescent
-  coating on exposed areas
-- **Bio-chemical protection:** Air filtration system for chemical/biological
-  agents (unique post-9/11 requirement)
-- **Key innovation:** Third stair (beyond code requirement) reflects lessons
-  learned; stair width exceeds code minimum by 18% to reduce congestion;
-  luminous egress markings (photoluminescent) throughout all stairs
+- **挑战：**标志性超高层建筑，场地承载着 9/11 事件疏散失败的记忆
+- **疏散：**3 部疏散楼梯（比规范最低要求多 1 部）；楼梯净宽加大至 1,320 mm（52 in）；所有楼梯由专用风机加压
+- **避难：**每 20 层设置转换层，扩大前室作为避难区域
+- **消防救援：**设置消防电梯井和专用消防电梯；每部楼梯设立管；首层设消防控制中心
+- **结构防火：**混凝土核心筒（具备固有耐火性）；外围钢结构采用喷涂防火材料，外露区域增加膨胀型涂层
+- **生化防护：**设置化学/生物制剂空气过滤系统（9/11 后的特殊要求）
+- **关键创新：**第三部楼梯（超出规范要求）体现经验教训；楼梯宽度超过规范最低值 18% 以减少拥堵；所有楼梯设置发光疏散标志（光致发光）
 
 ---
 
-## Section 8: Egress Design Best Practices
+## 第 8 节：疏散设计最佳实践
 
-1. **Design egress first:** In complex projects, establish stair locations,
-   widths, and exit discharge paths before finalizing floor plate layout.
-   Egress should drive the plan, not be forced into remaining space.
+1. **优先设计疏散：**复杂项目中，应在确定楼面布局前先确定楼梯位置、宽度和出口疏散路径。疏散应主导平面，而不是被迫塞入剩余空间。
 
-2. **Remote stair placement:** IBC 1007.1.1 requires exits to be placed at
-   a distance not less than 1/3 of the maximum diagonal of the floor plate
-   (sprinklered) or 1/2 (unsprinklered). This maximizes the probability that
-   at least one exit is remote from a fire.
+2. **楼梯远距离布置：**IBC 1007.1.1 要求出口之间的距离不小于楼面最大对角线的 1/3（有喷淋）或 1/2（无喷淋）。这可最大限度确保至少一个出口远离火源。
 
-3. **Intuitive wayfinding:** Escape routes should follow paths that occupants
-   use daily. If the daily circulation uses the elevator lobby, the escape
-   stair should be visible from or adjacent to the elevator lobby -- not
-   hidden behind a service corridor.
+3. **直观导向：**疏散路线应沿使用者日常使用的路径布置。如果日常交通经过电梯大堂，疏散楼梯应从电梯大堂可见或与其相邻，而不应隐藏在服务走廊后方。
 
-4. **Convergence at exit discharge:** The ground floor is a bottleneck.
-   When multiple stairs discharge through the ground floor (IBC allows 50%),
-   ensure the ground-floor path is protected and does not merge with incoming
-   occupant traffic at entrances.
+4. **出口疏散段汇流：**首层是瓶颈。当多部楼梯经首层疏散（IBC 允许 50%）时，应确保首层路径受到保护，且不在入口处与进入建筑的人流合流。
 
-5. **Maintenance of egress:** Design egress paths that remain clear under
-   normal building operations. Avoid corridors used for storage (common in
-   hospitals), stairs used as informal meeting spaces, and exit doors that
-   are routinely locked or blocked.
+5. **疏散维护：**设计在建筑正常运营中始终保持畅通的疏散路径。避免将走廊用作储藏（医院常见）、将楼梯用作非正式会面空间，以及经常上锁或堵塞出口门。
 
-6. **Counter-flow provision:** In high-rise buildings, firefighters ascend
-   stairs while occupants descend. Stair width should accommodate this
-   counter-flow. Additional width beyond code minimum (150-200 mm) improves
-   flow and reduces congestion.
+6. **逆向流线：**高层建筑中，消防员上楼而使用者下楼。楼梯宽度应容纳这种逆向流线。超过规范最低值增加 150–200 mm 可改善流动并减少拥堵。
 
-7. **Accessible egress integration:** Refuge areas should be part of the
-   normal stair landing, not a dead-end alcove. Two-way communication should
-   be clearly signed and regularly tested.
+7. **无障碍疏散整合：**避难区应成为正常楼梯平台的一部分，而不是尽端凹室。双向通信应有清晰标识并定期测试。
 
 ---
 
-*All references are to the IBC 2021, BS 9999:2017, and Approved Document B
-(2019 edition with 2020 amendments) unless otherwise noted. Verify against
-the specific editions adopted by the authority having jurisdiction. Fire
-engineering analysis must be performed by qualified fire engineers and
-approved by the AHJ.*
+*除非另有说明，所有参考均采用 IBC 2021、BS 9999:2017 和 Approved Document B（2019 版及 2020 修订）。应根据主管机关采用的具体版本进行核验。消防工程分析必须由合格的消防工程师完成，并经 AHJ 批准。*

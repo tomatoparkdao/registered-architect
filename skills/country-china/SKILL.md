@@ -1,371 +1,358 @@
 ---
 name: country-china
 description: >
-  People's Republic of China architectural code and regulatory reference. Covers the GB
+  中华人民共和国建筑规范与法规参考。涵盖 GB
   (Guojia Biaozhun -- National Standard) series of mandatory codes including GB 50352-2019
-  Civil Buildings Unified Design Standard (replaces 2005), GB 50016-2014 (2018 ed.) Fire
-  Protection Design of Buildings, GB 51251-2017 Smoke Control + Prevention, GB 50045 (legacy
-  high-rise fire), GB 50011-2010 Seismic Design (with 2016 amendments), GB 50009-2012 Building
-  Structural Loads, GB 55015-2021 General Code for Building Energy + Renewable Energy, GB
-  50189-2015 Public Building Energy Design, JGJ 26-2018 + JGJ 75-2012 + JGJ 134-2010
-  Residential Energy Design (by climate zone), GB 50763-2012 Code for Design Accessibility,
-  GB 50352 civil building, plus the supplementary JGJ (Industry Standard) codes. Includes the
-  five thermal climate zones per GB 50176-2016 (Severe Cold, Cold, Hot Summer Cold Winter,
-  Hot Summer Warm Winter, Temperate), the eight seismic intensity zones (degree 6-9), the
-  sunlight rights (Rizhao) regulation governing residential setbacks, DB local supplements
-  (DB11 Beijing, DGJ08 Shanghai, DBJ Guangdong + Guangxi etc.), Hong Kong SAR distinct
-  regulation (Buildings Department BD HK BO Cap 123 + PNAPs + ATCs), Macao separately, and
-  the China Sponge City Program, Green Building Label (3-star China Green Building Evaluation
-  Standard), and the Construction Engineering Quality Management Regulations.
+  《民用建筑统一设计标准》（替代 2005 版）、GB 50016-2014（2018 年版）《建筑设计防火规范》、GB 51251-2017《建筑防烟排烟系统技术标准》、GB 50045（旧版高层防火）、GB 50011-2010《建筑抗震设计规范》（含 2016 年修订）、GB 50009-2012《建筑结构荷载规范》、GB 55015-2021《建筑节能与可再生能源利用通用规范》、GB 50189-2015《公共建筑节能设计标准》、JGJ 26-2018 + JGJ 75-2012 + JGJ 134-2010 住宅节能设计（按气候区）、GB 50763-2012《无障碍设计规范》、GB 50352 民用建筑规范，以及补充性的 JGJ（行业标准）规范。还包括 GB 50176-2016 规定的五类热工气候区（严寒、寒冷、夏热冬冷、夏热冬暖、温和）、六至九度地震烈度分区、控制住宅建筑间距的日照权规定、地方 DB 补充规范（北京 DB11、上海 DGJ08、广东及广西 DBJ 等）、香港特别行政区独立法规（屋宇署 BD、香港《建筑物条例》Cap 123、PNAPs 和 ATCs）、澳门独立法规、中国海绵城市计划、绿色建筑标识（三星中国绿色建筑评价标准）以及《建设工程质量管理条例》。
 ---
 
-# Country: People's Republic of China
+# 国家：中国人民共和国
 
-Architectural code and regulatory reference for projects in mainland China. **Hong Kong SAR** has a distinct regulatory regime briefly summarised at Section 12 (different code system, English language, Common Law tradition). **Macao SAR** also distinct. Taiwan is not covered here.
+适用于中国大陆项目的建筑规范与法规参考。**香港特别行政区**具有独立的监管制度，本文第 12 节作简要概述（规范体系、英文语言环境及普通法传统均不同）。**澳门特别行政区**同样独立。本文不涵盖台湾。
 
-Activate this skill on any Chinese city reference (Beijing, Shanghai, Guangzhou, Shenzhen, Chengdu, Chongqing, Hangzhou, Nanjing, Tianjin, Wuhan, Xi'an, Suzhou, etc.), CNY/RMB/Yuan currency, mention of "GB 50016"/"GB 50352"/"GB 50011"/"JGJ"/"DB11"/"DGJ08", or Chinese architectural terminology (容积率 yongji-lv, 建筑密度 jianzhu-midu, 日照 rizhao, 抗震 kangzhen, 防火 fanghuo).
+当出现任何中国城市（北京、上海、广州、深圳、成都、重庆、杭州、南京、天津、武汉、西安、苏州等）、CNY/RMB/元货币、提及“GB 50016”/“GB 50352”/“GB 50011”/“JGJ”/“DB11”/“DGJ08”，或中文建筑术语（容积率 yongji-lv、建筑密度 jianzhu-midu、日照 rizhao、抗震 kangzhen、防火 fanghuo）时，启用此技能。
 
 ---
 
-## 1. Regulatory Hierarchy
+## 1. 法规层级
 
-China operates as **Archetype D (Centralised National + Strong-Form Mandatory Clauses)**. National GB codes are mandatory throughout the country; local DB supplements may **only be more stringent**, never less.
+中国采用**D 型体系（国家集中管理 + 强制性条文）**。国家 GB 规范在全国范围内强制执行；地方 DB 补充规定只能**更严格**，不得降低要求。
 
-### 1.1 Authority Stack
+### 1.1 主管部门体系
 
 ```
-LEVEL 1 -- NATIONAL
-  Ministry of Housing and Urban-Rural Development (MOHURD, Zhufang he Chengxiang Jianshe Bu)
-    -- primary building authority
-    + State Administration for Market Regulation (SAMR) -- approves standards
-    + Standardization Administration of China (SAC) -- standards body
-  Ministry of Emergency Management (MEM, Yingji Guanli Bu) -- fire approvals
-    (transferred from Public Security Fire Department in 2018)
-  Ministry of Ecology and Environment (MEE)
-  National Energy Administration (NEA) -- energy policy
-  Ministry of Industry and Information Technology (MIIT) -- industrial
-  China Disabled Persons' Federation (Canlianhui) -- accessibility policy
+第 1 级——国家
+  住房和城乡建设部（MOHURD，Zhufang he Chengxiang Jianshe Bu）
+    ——主要建筑主管部门
+    + 国家市场监督管理总局（SAMR）——批准标准
+    + 中国国家标准化管理委员会（SAC）——标准管理机构
+  应急管理部（MEM，Yingji Guanli Bu）——消防审批
+    （2018 年由公安消防部门移交）
+  生态环境部（MEE）
+  国家能源局（NEA）——能源政策
+  工业和信息化部（MIIT）——工业管理
+  中国残疾人联合会（Canlianhui）——无障碍政策
 
-LEVEL 2 -- PROVINCE (sheng) + AUTONOMOUS REGION + MUNICIPALITY DIRECTLY UNDER CENTRAL GOVT
+第 2 级——省（sheng）+ 自治区 + 直辖市
   4 Municipalities: Beijing, Shanghai, Tianjin, Chongqing
   23 Provinces (Guangdong, Jiangsu, Zhejiang, Shandong, etc.)
   5 Autonomous Regions (Guangxi, Tibet, Inner Mongolia, Ningxia, Xinjiang)
   2 SARs (Hong Kong, Macao) -- own systems
     Each issues:
-    DB Local Standards (e.g., DB11 Beijing, DGJ08 Shanghai, DBJ Guangxi 45, DB Guangdong 44, DB Zhejiang 33)
-    Provincial Construction Department (Sheng Jianshe Ting)
+    DB 地方标准（例如北京 DB11、上海 DGJ08、广西 DBJ 45、广东 DB 44、浙江 DB 33）
+    省级住房和城乡建设厅（Sheng Jianshe Ting）
     Provincial Fire Department (now Yingji Ting)
 
-LEVEL 3 -- PREFECTURE / CITY
-  Local Construction Bureau (Jianshe Ju)
+第 3 级——地级市/城市
+  地方建设局（Jianshe Ju）
   Planning Bureau (Guihua Ju, now usually merged with Natural Resources Bureau Ziyuan Ju)
   Emergency Management Bureau (Yingji Guanli Ju) -- former Fire Department
   Land + Resources Bureau (Guotu Ju, now Natural Resources Bureau)
   Environmental Protection Bureau (Huanbao Ju)
 
-LEVEL 4 -- DISTRICT / COUNTY
+第 4 级——区/县
   Smaller cities + counties -- delegated authority from prefecture
 
-LEVEL 5 -- PROJECT
-  Construction Engineering Planning Permit (Jianshe Gongcheng Guihua Xuke Zheng) from Planning
-  Construction Permit (Shigong Xuke Zheng) from Construction Bureau
-  Construction-Engineering Quality Supervision (Zhiliang Jiandu) from Construction Quality Office
-  Fire approval (Xiaofang Shenpi) from Emergency Management Bureau
-  Inspection by accredited testing institutes
+第 5 级——项目
+  由规划部门签发建设工程规划许可证（Jianshe Gongcheng Guihua Xuke Zheng）
+  由建设主管部门签发施工许可证（Shigong Xuke Zheng）
+  由工程质量监督机构实施建设工程质量监督（Zhiliang Jiandu）
+  由应急管理部门进行消防审批（Xiaofang Shenpi）
+  由认可检测机构开展检验
 ```
 
-### 1.2 GB Code Type Classification
+### 1.2 GB 规范类型分类
 
-Codes are classified by mandatory level:
-- **GB Mandatory (Qiangzhi Xing) -- printed in red** -- legally binding, must comply; deviation requires special approval
-- **GB Recommended (Tuijian Xing) -- printed in black** -- advisory; can be followed but not legally binding
-- **JGJ Industry Standards** -- MOHURD industry standards, generally recommended but commonly adopted
-- **DB Local Standards** -- provincial/municipal; may only be more stringent than national GB
-- **DBJ** -- Local Building Standards (subset)
+规范按强制等级分类：
+- **GB 强制性标准（Qiangzhi Xing，以红色印刷）**——具有法律约束力，必须遵守；偏离需要特别批准
+- **GB 推荐性标准（Tuijian Xing，以黑色印刷）**——指导性标准，可遵循但不具有法律强制力
+- **JGJ 行业标准**——住房和城乡建设部行业标准，通常为推荐性但普遍采用
+- **DB 地方标准**——省级/市级标准，只能比国家 GB 更严格
+- **DBJ**——地方建筑标准（DB 子集）
 
-A single project must comply with the **strictest** applicable provision across these layers.
+单个项目必须遵守各层级中适用条款的**最严格要求**。
 
-### 1.3 Construction Drawing Review (Shigong Tu Shencha)
+### 1.3 施工图审查（Shigong Tu Shencha）
 
-Distinct Chinese process: before construction can begin, all construction drawings must be reviewed by an **accredited Construction Drawing Review Institute (Shigong Tu Shencha Jigou)** -- private body certified by provincial government. They check compliance with all applicable GB/DB codes. Review takes typically 15-30 days, longer for complex projects.
+中国特有流程：施工开始前，所有施工图必须由**经认可的施工图审查机构（Shigong Tu Shencha Jigou）**审查，该机构是经省级政府认证的私营机构。审查内容为是否符合全部适用的 GB/DB 规范。通常审查需要 15-30 天，复杂项目时间更长。
 
 ---
 
-## 2. Building Code Core Requirements
+## 2. 建筑规范核心要求
 
-### 2.1 GB 50352-2019 Civil Buildings Unified Design Standard
+### 2.1 GB 50352-2019《民用建筑统一设计标准》
 
-The "constitution" of Chinese building design. Replaces 2005 version. Defines:
+中国建筑设计的“宪法”，替代 2005 年版本。主要定义：
 
-- **Civil Building (Minyong Jianzhu) Classification**:
-  - Residential (Juzhu Jianzhu)
-  - Public Building (Gonggong Jianzhu) -- offices, commercial, hotels, hospitals, schools, etc.
-- **Building Heights**:
-  - Low-rise residential: 1-3 storeys
-  - Multi-storey residential: 4-6 storeys
-  - Mid-rise residential: 7-9 storeys
-  - High-rise residential: ≥10 storeys OR ≥28 m
-  - High-rise public building: > 24 m
-  - Super-high-rise: > 100 m
+- **民用建筑（Minyong Jianzhu）分类**：
+  - 住宅建筑（Juzhu Jianzhu）
+  - 公共建筑（Gonggong Jianzhu）——办公、商业、酒店、医院、学校等
+- **建筑高度/层数**：
+  - 低层住宅：1-3 层
+  - 多层住宅：4-6 层
+  - 中高层住宅：7-9 层
+  - 高层住宅：≥10 层或 ≥28 m
+  - 高层公共建筑：> 24 m
+  - 超高层建筑：> 100 m
 
-### 2.2 GB 50352 General Provisions
+### 2.2 GB 50352 一般规定
 
-- **Floor-to-floor height**: residential 2.8-3.0 m; office 3.6-4.5 m; hospital 4.0-4.5 m; commercial 4.5+ m
-- **Net ceiling height (Jingkong Gao)**: residential 2.4 m min; corridor 2.1 m min
-- **Stair**: width 1.10 m residential, 1.20 m public; max riser 0.18 m, min going 0.26 m
-- **Door clear width**: 800 mm general, 1000 mm main entrance public
-- **Setback to road red line**: per municipal Detailed Regulation Plan
-- **Setback to property line**: per municipal regulation; typically 3-12 m
+- **层高**：住宅 2.8-3.0 m；办公 3.6-4.5 m；医院 4.0-4.5 m；商业 4.5+ m
+- **净高（Jingkong Gao）**：住宅最小 2.4 m；走道最小 2.1 m
+- **楼梯**：住宅宽度 1.10 m，公共建筑 1.20 m；最大踏步高 0.18 m，最小踏步深 0.26 m
+- **门净宽**：一般 800 mm，公共建筑主要入口 1000 mm
+- **退道路红线距离**：按城市详细规划规定
+- **退用地边界距离**：按城市规定，通常为 3-12 m
 
-### 2.3 Yongji-lv (容积率) -- FAR Equivalent
+### 2.3 容积率（Yongji-lv）——FAR 等效指标
 
-- **Yongji-lv = total above-grade GFA / lot area**
-- **Jianzhu Midu (建筑密度) = building footprint / lot area** (similar to coverage)
-- Both controlled by **Konngzhi Xing Xiangxi Guihua (Detailed Regulation Plan)** for each plot
-- Typical residential yongji-lv: 1.0-3.5; commercial 4.0-8.0; CBD towers higher
+- **容积率 = 地上总建筑面积 / 用地面积**
+- **建筑密度（Jianzhu Midu）= 建筑基底面积 / 用地面积**（类似建筑覆盖率）
+- 两者均由各地块的**控制性详细规划（Konngzhi Xing Xiangxi Guihua）**控制
+- 典型住宅容积率：1.0-3.5；商业 4.0-8.0；CBD 塔楼可更高
 
-### 2.4 Sunlight Rights (Rizhao Quan, 日照权)
+### 2.4 日照权（Rizhao Quan，日照权）
 
-Distinctive Chinese regulation: every residential dwelling must receive a specified number of hours of unobstructed sunlight on the worst day of winter (大寒 Da Han, around 20 January), measured at the lowest occupied window. Targets:
+中国特有的规定：每套住宅在冬季最不利日（大寒 Da Han，约 1 月 20 日）必须获得规定时长的无遮挡日照，测量点为最低使用窗。目标值如下：
 
-| Climate Zone | Required Sunlight Hours (mid-winter Da Han) |
+| 气候区 | 要求日照时长（冬季大寒日） |
 |---|---|
-| Severe Cold (Zone I) | ≥3 h |
-| Cold (Zone II) | ≥3 h |
-| Hot Summer Cold Winter (Zone III) | ≥2 h |
-| Hot Summer Warm Winter (Zone IV) | ≥1 h or local rule |
-| Temperate (Zone V) | ≥2 h |
+| 严寒（I 区） | ≥3 h |
+| 寒冷（II 区） | ≥3 h |
+| 夏热冬冷（III 区） | ≥2 h |
+| 夏热冬暖（IV 区） | ≥1 h 或按地方规定 |
+| 温和（V 区） | ≥2 h |
 
-This drives Chinese urban form: long parallel slab blocks (north-south or oriented), substantial spacing between blocks, distinct from Western tower-on-podium. Calculation per GB 50180-2018 + local rules.
+这塑造了中国城市形态：长条形平行板式建筑（南北向或按朝向布置），建筑间距较大，与西方塔楼+裙房模式不同。计算依据 GB 50180-2018 及地方规定。
 
-### 2.5 Setbacks Between Buildings (Jianzhu Jianju, 建筑间距)
+### 2.5 建筑间距（Jianzhu Jianju，建筑间距）
 
-- For residential blocks, **minimum distance** between facing facades = function(building height + use + sunlight ratio).
-- Common rule of thumb: distance = 1.0 - 1.3 × north building height in Cold zone (more for higher latitude)
-- Local DB specifies exact formula
+- 对于住宅楼栋，迎向立面的**最小间距**取决于建筑高度、用途和日照系数。
+- 常用经验值：寒冷地区间距 = 北侧建筑高度的 1.0 - 1.3 倍（纬度越高通常越大）。
+- 具体公式由地方 DB 规范确定。
 
-### 2.6 Height & Use Classification (GB 50352 + GB 50016)
+### 2.6 高度与用途分类（GB 50352 + GB 50016）
 
-| Building Height | Classification | Implications |
+| 建筑高度 | 分类 | 影响 |
 |---|---|---|
-| < 24 m (≤ 10 storey roughly) | Low/Multi-storey | Standard rules |
-| 24-100 m | High-rise (Gao Ceng) | GB 50016 high-rise rules; sprinklered above 27 m residential or 24 m public |
-| > 100 m | Super-High-Rise (Chao Gao Ceng) | Additional rules; structural performance review |
-| > 250 m | Super-Tall | Special structural performance review by national experts |
+| < 24 m（约 ≤ 10 层） | 低层/多层 | 执行一般规定 |
+| 24-100 m | 高层（Gao Ceng） | 执行 GB 50016 高层规定；住宅超过 27 m 或公共建筑超过 24 m 时设置自动喷水灭火系统 |
+| > 100 m | 超高层（Chao Gao Ceng） | 适用附加规定；需进行结构性能审查 |
+| > 250 m | 超限超高层 | 需由国家级专家进行专项结构性能审查 |
 
 ---
 
-## 3. Fire Safety (GB 50016 + GB 51251)
+## 3. 消防安全（GB 50016 + GB 51251）
 
-### 3.1 GB 50016-2014 (2018 Edition) -- "Code for Fire Protection Design of Buildings"
+### 3.1 GB 50016-2014（2018 年版）——《建筑设计防火规范》
 
-The single most-cited code on Chinese projects. **Major 2018 amendment** post the SCMP-reported high-rise fires. Replaces older legacy codes including GB 50045-95 (high-rise specific).
+这是中国项目引用最多的规范。经历 SCMP 报道的高层火灾后进行了**2018 年重大修订**，替代包括 GB 50045-95（高层建筑专用规范）在内的旧规范。
 
-Structure:
-- Ch. 1 General
-- Ch. 2 Terminology
-- Ch. 3 Production + Storage Buildings (industrial)
-- Ch. 4 Hazardous Materials Storage + Use
-- Ch. 5 Civil Buildings -- the most-used chapter; fire-resistance, compartmentation, egress for all civil buildings
-- Ch. 6 Building Construction (combustibility, materials)
-- Ch. 7 Building Equipment
-- Ch. 8 Active Fire Protection Systems
-- Ch. 9 Heating, Ventilation, Air Conditioning
-- Ch. 10 Electrical
-- Ch. 11 Wood-Frame Buildings
-- Ch. 12 Existing Buildings
-- Annexes A-F
+结构：
+- 第 1 章 一般规定
+- 第 2 章 术语
+- 第 3 章 工业建筑（生产与储存）
+- 第 4 章 甲、乙类危险物品储存与使用
+- 第 5 章 民用建筑——使用最频繁的章节，规定所有民用建筑的耐火、分隔和疏散
+- 第 6 章 建筑构造（可燃性、材料）
+- 第 7 章 建筑设备
+- 第 8 章 主动消防系统
+- 第 9 章 供暖、通风与空气调节
+- 第 10 章 电气
+- 第 11 章 木结构建筑
+- 第 12 章 既有建筑
+- 附录 A-F
 
-### 3.2 Civil Building Classification by Fire Hazard (GB 50016 Ch. 5)
+### 3.2 民用建筑火灾危险性分类（GB 50016 第 5 章）
 
-| Category | Examples |
+| 类别 | 示例 |
 |---|---|
-| **Class I High-Rise** (Yiji Gao Ceng) | Hospitals, broadcasting + telecom centres (over 50 m), >100 m public, large train station, conference, exhibition |
-| **Class II High-Rise** (Erji Gao Ceng) | Most office, hotel, commercial high-rise; >50 m residential; >24 m public general |
-| **High-Rise Residential** | All residential ≥ 27 m -- with special sub-categories at 54 m, 100 m, 200 m thresholds |
-| **Multi-Storey** | Buildings < 24 m public OR < 27 m residential |
+| **一类高层**（Yiji Gao Ceng） | 医院、广播与电信中心（超过 50 m）、超过 100 m 的公共建筑、大型火车站、会议及展览建筑 |
+| **二类高层**（Erji Gao Ceng） | 大多数办公、酒店、商业高层；超过 50 m 的住宅；超过 24 m 的一般公共建筑 |
+| **高层住宅** | 所有 ≥ 27 m 的住宅，并在 54 m、100 m、200 m 处设置特殊分级 |
+| **多层建筑** | 公共建筑 < 24 m 或住宅 < 27 m |
 
-### 3.3 Fire-Resistance Class (Naohuo Dengji)
+### 3.3 耐火等级（Naohuo Dengji）
 
-| Class | Description |
+| 等级 | 说明 |
 |---|---|
-| **First Class** (Yiji) | Non-combustible structural members; 3 h frame; 1.5 h floors |
-| **Second Class** (Erji) | Non-combustible; 2.5 h frame; 1 h floors |
-| **Third Class** (Sanji) | Mixed; 2 h frame |
-| **Fourth Class** (Siji) | Combustible structure tolerated; 0.5 h frame |
+| **一级**（Yiji） | 结构构件不燃；框架 3 h；楼板 1.5 h |
+| **二级**（Erji） | 不燃；框架 2.5 h；楼板 1 h |
+| **三级**（Sanji） | 混合结构；框架 2 h |
+| **四级**（Siji） | 允许可燃结构；框架 0.5 h |
 
-High-rise (Class I + II) must be at least First Class. Residential mid-rise often Second Class.
+高层建筑（一类和二类）至少应为一级耐火等级。中高层住宅通常采用二级耐火等级。
 
-### 3.4 Egress (GB 50016-2014 Ch. 5)
+### 3.4 疏散（GB 50016-2014 第 5 章）
 
-| Parameter | Value |
+| 参数 | 数值 |
 |---|---|
-| Max travel distance (residential >9 storey) | 40 m (sprinklered); 25 m unsprinklered |
-| Max travel distance (office sprinklered) | 40 m one-direction; 80 m two-direction |
-| Max travel distance (hospital sprinklered) | 30 m |
-| Max travel distance (assembly sprinklered) | 30 m |
-| Min corridor width residential | 1.2 m (mid-rise); 1.4 m (high-rise) |
-| Min corridor width office mid-rise | 1.4 m |
-| Min stair width residential | 1.1 m |
-| Min stair width public mid-rise | 1.2 m |
-| Min stair width public high-rise | 1.4 m |
-| Min door clear width | 0.90 m residential, 1.0 m public |
-| Max compartment area residential (Class I high-rise) | 1500 m2 per floor sprinklered |
-| Max compartment area public Class I (sprinklered) | 2500 m2 (per fire-resistant compartment) |
+| 住宅（>9 层）最大疏散距离 | 40 m（设喷淋）；未设喷淋 25 m |
+| 办公建筑（设喷淋）最大疏散距离 | 单向 40 m；双向 80 m |
+| 医院（设喷淋）最大疏散距离 | 30 m |
+| 集会建筑（设喷淋）最大疏散距离 | 30 m |
+| 住宅最小走道宽度 | 中高层 1.2 m；高层 1.4 m |
+| 中高层办公最小走道宽度 | 1.4 m |
+| 住宅最小楼梯宽度 | 1.1 m |
+| 中高层公共建筑最小楼梯宽度 | 1.2 m |
+| 高层公共建筑最小楼梯宽度 | 1.4 m |
+| 门最小净宽 | 住宅 0.90 m，公共建筑 1.0 m |
+| 一类高层住宅最大防火分区面积 | 设喷淋时每层 1500 m2 |
+| 一类公共建筑最大防火分区面积（设喷淋） | 2500 m2（每个防火分隔单元） |
 
-### 3.5 Sprinklers (GB 50084-2017)
+### 3.5 自动喷水灭火系统（GB 50084-2017）
 
-- Mandatory for high-rise residential ≥ 54 m (or 100 m per latest amendment)
-- Mandatory for high-rise public buildings ≥ 24 m
-- Mandatory for hospitals, hotels, schools above certain scales
-- Mandatory for underground spaces
+- 高层住宅 ≥ 54 m 时强制设置（按最新修订，或为 100 m）
+- 高层公共建筑 ≥ 24 m 时强制设置
+- 达到一定规模的医院、酒店、学校强制设置
+- 地下空间强制设置
 
-### 3.6 Smoke Control (GB 51251-2017)
+### 3.6 防烟排烟（GB 51251-2017）
 
-Dedicated code for smoke control + smoke prevention. Required for:
-- Atriums
-- Underground spaces
-- Long corridors > 20 m without natural ventilation
-- All compartment areas > 100 m2 without natural ventilation
+专门规定防烟与排烟。以下场所必须设置：
+- 中庭
+- 地下空间
+- 无自然通风且长度 > 20 m 的长走道
+- 无自然通风且面积 > 100 m2 的所有防火分区
 
-Specifies mechanical extract rates, makeup air, pressurization, smoke barriers, dampers.
+规范规定机械排烟量、补风、加压送风、防烟分隔和排烟阀等要求。
 
-### 3.7 External Cladding (GB 50016-2014 Section 5.5)
+### 3.7 外墙饰面与保温（GB 50016-2014 第 5.5 节）
 
-Post-2010s fires (multiple in Shanghai, Urumqi, Shenyang):
-- High-rise residential ≥ 50 m: cladding must be Class A non-combustible (GB 8624-2012)
-- High-rise public buildings: same
-- Non-high-rise but ≥ 24 m: Class B1 acceptable but increasingly Class A preferred
-- Insulation behind cladding: separate fire-rating; Class A non-combustible required in most high-rise
+受 2010 年代后上海、乌鲁木齐、沈阳等地多起火灾影响：
+- 高层住宅 ≥ 50 m：外墙饰面必须为 A 级不燃材料（GB 8624-2012）
+- 高层公共建筑：同样要求
+- 非高层但 ≥ 24 m：可采用 B1 级，但越来越倾向于采用 A 级
+- 饰面后保温层需单独进行耐火评级；大多数高层建筑要求 A 级不燃
 
-### 3.8 Refuge Floors (Bi Nan Ceng)
+### 3.8 避难层（Bi Nan Ceng）
 
-For super-high-rise:
-- Public buildings > 100 m: refuge floor every 15 storeys (or 50 m vertical interval)
-- Residential > 100 m: refuge floor every 15 storeys
-- Refuge floor: not used for occupancy; sized for evacuation capacity; ventilated to outside; protected fire doors
+对于超高层建筑：
+- 公共建筑 > 100 m：每 15 层（或垂直间隔 50 m）设置避难层
+- 住宅 > 100 m：每 15 层设置避难层
+- 避难层不得用于正常使用；面积按疏散容量确定；应向室外通风，并采用防火门保护
 
 ---
 
-## 4. Energy Code
+## 4. 能源规范
 
-### 4.1 GB 55015-2021 -- General Code for Building Energy + Renewable Energy
+### 4.1 GB 55015-2021——《建筑节能与可再生能源利用通用规范》
 
-Highest-level energy code, replacing fragments of older codes. Applies to all civil buildings nationally. Co-exists with detailed prescriptive codes below.
+最高层级的能源规范，替代旧规范中的相关条文。全国所有民用建筑均适用，并与下述详细规定性规范并行。
 
-### 4.2 GB 50189-2015 -- Public Buildings Energy Conservation
+### 4.2 GB 50189-2015——《公共建筑节能设计标准》
 
-Detailed prescriptive code for offices, hotels, hospitals, large commercial. Sets envelope U-values + HVAC efficiency + lighting power density by climate zone.
+适用于办公、酒店、医院和大型商业建筑的详细规定性规范，按气候区规定围护结构 U 值、暖通空调效率和照明功率密度。
 
-### 4.3 Residential Energy by Zone
+### 4.3 分气候区住宅节能
 
-- **JGJ 26-2018** -- Severe Cold + Cold Zone residential (north -- Beijing, Harbin, Tianjin, Shenyang)
-- **JGJ 134-2010** -- Hot Summer Cold Winter Zone (central -- Shanghai, Wuhan, Chongqing, Nanjing, Hangzhou)
-- **JGJ 75-2012** -- Hot Summer Warm Winter Zone (south -- Guangzhou, Shenzhen, Haikou)
+- **JGJ 26-2018**——严寒和寒冷地区住宅（北方——北京、哈尔滨、天津、沈阳）
+- **JGJ 134-2010**——夏热冬冷地区（中部——上海、武汉、重庆、南京、杭州）
+- **JGJ 75-2012**——夏热冬暖地区（南方——广州、深圳、海口）
 
-Each defines envelope U-values + window SHGC by climate sub-zone, building shape coefficient, and floor area.
+各规范按气候分区、建筑体形系数和建筑面积规定围护结构 U 值及窗户 SHGC。
 
-### 4.4 Climate Zones (GB 50176-2016)
+### 4.4 气候分区（GB 50176-2016）
 
-Five primary thermal climate zones:
+五个主要热工气候区：
 
-| Zone | HDD18 / CDD26 | Cities |
+| 分区 | HDD18 / CDD26 | 城市 |
 |---|---|---|
-| **I -- Severe Cold** | HDD18 > 6000; CDD26 < 90 | Harbin, Hohhot, Urumqi, Shenyang |
-| **II -- Cold** | 3800 < HDD18 ≤ 6000 | Beijing, Tianjin, Xi'an, Lanzhou, Yinchuan, Datong |
-| **III -- Hot Summer + Cold Winter (HSCW)** | 700 ≤ HDD18 ≤ 2000; 40 ≤ CDD26 ≤ 110 | Shanghai, Hangzhou, Nanjing, Wuhan, Chongqing, Chengdu, Hefei, Jinan |
-| **IV -- Hot Summer + Warm Winter (HSWW)** | HDD18 < 700; CDD26 > 100 | Guangzhou, Shenzhen, Nanning, Haikou, Hong Kong, Macao |
-| **V -- Temperate** | HDD18 ≤ 2000; CDD26 ≤ 10 | Kunming, Lhasa (special), Guiyang, Xichang |
+| **I——严寒** | HDD18 > 6000；CDD26 < 90 | 哈尔滨、呼和浩特、乌鲁木齐、沈阳 |
+| **II——寒冷** | 3800 < HDD18 ≤ 6000 | 北京、天津、西安、兰州、银川、大同 |
+| **III——夏热冬冷（HSCW）** | 700 ≤ HDD18 ≤ 2000；40 ≤ CDD26 ≤ 110 | 上海、杭州、南京、武汉、重庆、成都、合肥、济南 |
+| **IV——夏热冬暖（HSWW）** | HDD18 < 700；CDD26 > 100 | 广州、深圳、南宁、海口、香港、澳门 |
+| **V——温和** | HDD18 ≤ 2000；CDD26 ≤ 10 | 昆明、拉萨（特殊）、贵阳、西昌 |
 
-(Plus Zone VI -- alpine -- not commonly built in.)
+（另有 VI 区——高原区，通常不涉及常规建设。）
 
-### 4.5 U-Value Targets (JGJ 26-2018 Severe Cold + Cold residential)
+### 4.5 U 值目标（JGJ 26-2018 严寒与寒冷地区住宅）
 
-| Element | Severe Cold (I) | Cold (II) | HSCW (III) |
+| 构件 | 严寒（I） | 寒冷（II） | 夏热冬冷（III） |
 |---|---|---|---|
-| Roof | 0.20-0.30 | 0.30-0.40 | 0.50-0.80 |
-| Exterior wall | 0.25-0.40 | 0.40-0.55 | 0.80-1.50 |
-| Floor (slab) | 0.30 | 0.45 | -- |
-| Window (Uw) | 2.0 | 2.5 | 2.5-3.0 |
-| Window SHGC (cooling-dominant SHGC limit; heating-dominant fixed by lower) | 0.50 (winter) | 0.45 | 0.40-0.45 |
+| 屋面 | 0.20-0.30 | 0.30-0.40 | 0.50-0.80 |
+| 外墙 | 0.25-0.40 | 0.40-0.55 | 0.80-1.50 |
+| 楼板 | 0.30 | 0.45 | -- |
+| 窗（Uw） | 2.0 | 2.5 | 2.5-3.0 |
+| 窗 SHGC（以制冷为主时为 SHGC 限值；以采暖为主时按较低值确定） | 0.50（冬季） | 0.45 | 0.40-0.45 |
 
-(Targets indicative; actual depend on shape factor + floor count + orientation per current code.)
+（以上为指示性目标值，实际数值应根据现行规范中的体形系数、层数和朝向确定。）
 
-### 4.6 Green Building Label (Lujian Biaoshi)
+### 4.6 绿色建筑标识（Lujian Biaoshi）
 
-China's national green rating per **GB/T 50378-2019 "Assessment Standard for Green Building"**:
-- **One Star (Yi Xing)**
-- **Two Star (Liang Xing)**
-- **Three Star (San Xing)** -- highest, comparable to LEED Gold-Platinum equivalent
+中国依据 **GB/T 50378-2019《绿色建筑评价标准》**实施国家绿色建筑评级：
+- **一星（Yi Xing）**
+- **二星（Liang Xing）**
+- **三星（San Xing）**——最高等级，可与 LEED 金级至铂金级大致比较
 
-Assessment categories: safety + durability, health + comfort, life + convenience, resource saving, environment livability, innovation.
+评价类别：安全耐久、健康舒适、生活便利、资源节约、环境宜居、提高与创新。
 
-Mandatory minimum One Star for government investment buildings in many provinces; rising standards.
+许多省份规定政府投资建筑最低必须达到一星，且标准持续提高。
 
-### 4.7 Near-Zero Energy + Zero Energy Buildings
+### 4.7 近零能耗与零能耗建筑
 
-**GB/T 51350-2019 -- Technical Standard for Nearly Zero Energy Buildings** -- China's PassivHaus-equivalent track. Three tiers:
-- **Nearly Zero Energy Building (Jin Ling Nenghao)**
-- **Zero Energy Building (Ling Nenghao)**
-- **Positive Energy Building (Zheng Nenghao)**
+**GB/T 51350-2019《近零能耗建筑技术标准》**是中国对应于 PassivHaus 的技术路径，分为三个等级：
+- **近零能耗建筑（Jin Ling Nenghao）**
+- **零能耗建筑（Ling Nenghao）**
+- **产能建筑（Zheng Nenghao）**
 
-Promoted by **CABEE (Centre for Building Energy Efficiency)** + provincial incentive schemes.
+由 **CABEE（建筑节能研究中心）**及各省激励政策推动。
 
 ---
 
-## 5. Accessibility (GB 50763-2012)
+## 5. 无障碍设计（GB 50763-2012）
 
-### 5.1 GB 50763-2012 -- Code for Design Accessibility
+### 5.1 GB 50763-2012——《无障碍设计规范》
 
-China's accessibility code. Aligned to ISO 21542 + UN CRPD which China ratified.
+中国的无障碍设计规范，与 ISO 21542 及中国已批准的《联合国残疾人权利公约》（UN CRPD）相协调。
 
-### 5.2 Key Dimensions
+### 5.2 关键尺寸
 
-| Element | Dimension |
+| 要素 | 尺寸 |
 |---|---|
-| Accessible route | 1.2 m clear (1.5 m preferred); passing space 1.5 x 1.5 m every 25 m |
-| Door clear width | 800 mm (900 mm preferred at main entry) |
-| Ramp gradient | 1:12 max (1:16 preferred); landings every 9 m |
-| Lift cabin | 1100 x 1400 mm (Type 1); 1100 x 2100 mm hospital |
-| Accessible WC | 2.0 x 2.0 m (peninsula layout); grab rails left + right |
-| Accessible parking | 3.5 m + 1.5 m aisle (or 3.0 + 1.2 m for limited urban contexts) |
-| Tactile flooring | Per GB/T 12992-2008 tactile pavement; at level changes, ramps, stair edges, lift entries |
-| Hearing loop | All assembly venues > 200 occupants |
+| 无障碍通路 | 净宽 1.2 m（建议 1.5 m）；每 25 m 设置 1.5 × 1.5 m 错车空间 |
+| 门净宽 | 800 mm（主要入口建议 900 mm） |
+| 坡道坡度 | 最大 1:12（建议 1:16）；每 9 m 设置平台 |
+| 电梯轿厢 | 1100 × 1400 mm（1 型）；医院 1100 × 2100 mm |
+| 无障碍卫生间 | 2.0 × 2.0 m（半岛式布局）；左右两侧设置扶手 |
+| 无障碍车位 | 3.5 m + 1.5 m 通道（受限城市条件可为 3.0 + 1.2 m） |
+| 盲道铺装 | 按 GB/T 12992-2008 盲道规定；设置于高差、坡道、楼梯边缘和电梯入口处 |
+| 助听环路 | 所有容纳人数 > 200 人的集会场所 |
 
-### 5.3 Provision Counts
+### 5.3 配置数量
 
-- **Accessible parking**: 1-2% of total OR minimum 1
-- **Accessible WC**: 1 per gender per public WC bank; OR 1 unisex
-- **Accessible apartments**: 1-2% of new residential schemes >100 units
-- **Public buildings**: full accessibility required throughout
+- **无障碍车位**：总车位的 1-2%，或至少 1 个
+- **无障碍卫生间**：每组公共卫生间每种性别至少 1 个，或设置 1 个无性别卫生间
+- **无障碍住宅**：新建住宅超过 100 套时，占 1-2%
+- **公共建筑**：全范围均应满足无障碍要求
 
-### 5.4 Provincial Variation
+### 5.4 省级差异
 
-Some provinces (Beijing, Shanghai, Guangdong) issue stricter local DB codes for accessibility. Shanghai's DGJ08 series + Beijing's DB11 series include accessibility supplements.
+部分省市（北京、上海、广东）发布了更严格的无障碍地方 DB 规范。上海 DGJ08 系列和北京 DB11 系列均包含无障碍补充规定。
 
 ---
 
-## 6. Structural and Loads
+## 6. 结构与荷载
 
-### 6.1 GB 50009-2012 -- Building Structural Loads
+### 6.1 GB 50009-2012——《建筑结构荷载规范》
 
-- Dead loads, live loads, partition loads
-- Wind loads (basic wind pressure W0 mapped by region)
-- Snow loads (basic ground snow load S0 mapped)
-- Soil pressure
-- Crane loads
-- Thermal effects
+- 恒载、活载、隔墙荷载
+- 风荷载（按地区划分的基本风压 W0）
+- 雪荷载（按地区划分的基本地面雪压 S0）
+- 土压力
+- 吊车荷载
+- 温度作用
 
-### 6.2 GB 50011-2010 (with 2016 partial amendment) -- Code for Seismic Design
+### 6.2 GB 50011-2010（含 2016 年局部修订）——《建筑抗震设计规范》
 
-Defines **Seismic Intensity** (Lieji) -- 6-9 degree scale per Chinese intensity classification (not exactly MMI/MMS):
+定义**地震烈度**（Lieji）——采用 6-9 度中国烈度分级，并不完全等同于 MMI/MMS：
 
-| Intensity Degree (Lieji) | Description | Approximate PGA |
+| 烈度（Lieji） | 说明 | 近似 PGA |
 |---|---|---|
-| **Degree 6** | Felt by most; minor non-structural damage | 0.05 g (50-year 10% probability) |
-| **Degree 7** | Light damage to engineered structures | 0.10-0.15 g |
-| **Degree 8** | Moderate-heavy damage | 0.20-0.30 g |
-| **Degree 9** | Severe damage; collapse possible | 0.40 g+ |
+| **6 度** | 多数人有感；非结构构件轻微损坏 | 0.05 g（50 年超越概率 10%） |
+| **7 度** | 工程结构轻微损坏 | 0.10-0.15 g |
+| **8 度** | 中等至严重损坏 | 0.20-0.30 g |
+| **9 度** | 严重损坏，可能倒塌 | 0.40 g+ |
 
 Cities mapped to intensity:
 - Beijing: Degree 8
@@ -376,192 +363,192 @@ Cities mapped to intensity:
 - Wenchuan (post-2008 mapping): Degree 9
 - Lhasa: Degree 7-8
 
-### 6.3 Materials (GB Codes)
+### 6.3 材料（GB 规范）
 
-| Material | Code |
+| 材料 | 规范 |
 |---|---|
-| Concrete | GB 50010-2010 (Code for Design of Concrete Structures) |
-| Steel | GB 50017-2017 (Code for Design of Steel Structures) |
-| Composite | GB 50017 + GB 50068 |
-| Reliability | GB 50068-2018 (Unified Standard for Reliability) |
-| Wood | GB 50005-2017 |
-| Masonry | GB 50003-2011 |
-| Foundations | GB 50007-2011 (Code for Foundation Design); GB 50330-2013 slope; GB 50202-2018 excavation |
-| Wind tunnel testing | GB 50009 + Tongji + CABR guidelines |
+| 混凝土 | GB 50010-2010（《混凝土结构设计规范》） |
+| 钢结构 | GB 50017-2017（《钢结构设计规范》） |
+| 组合结构 | GB 50017 + GB 50068 |
+| 可靠度 | GB 50068-2018（《工程结构可靠性设计统一标准》） |
+| 木结构 | GB 50005-2017 |
+| 砌体结构 | GB 50003-2011 |
+| 地基基础 | GB 50007-2011（《建筑地基基础设计规范》）；GB 50330-2013 边坡；GB 50202-2018 基坑 |
+| 风洞试验 | GB 50009 + 同济大学 + CABR 指南 |
 
-### 6.4 Wind Zones (GB 50009)
+### 6.4 风区（GB 50009）
 
-China divided into **basic wind pressure W0 (kN/m2)** by region:
-- South China coast (typhoon belt): W0 = 0.75-0.85 (Guangzhou ~0.50; coastal up to 0.85)
-- North coast (Shandong, Liaoning, Tianjin): W0 = 0.55-0.70
-- Inland east + central: W0 = 0.35-0.50
-- West interior: W0 = 0.35-0.55
+中国按地区划分**基本风压 W0（kN/m2）**：
+- 华南沿海（台风带）：W0 = 0.75-0.85（广州约 0.50；沿海最高 0.85）
+- 北部沿海（山东、辽宁、天津）：W0 = 0.55-0.70
+- 东部及中部内陆：W0 = 0.35-0.50
+- 西部内陆：W0 = 0.35-0.55
 
-3-second-gust speeds derived; typical 30-45 m/s 50-year return.
+由此换算 3 秒阵风风速；50 年重现期通常为 30-45 m/s。
 
-### 6.5 Snow Zones
+### 6.5 雪区
 
-- Northeast (Heilongjiang, Jilin, parts of Inner Mongolia): S0 = 0.7-1.5 kN/m2
-- Central China: S0 = 0.3-0.5 kN/m2
-- South: S0 = 0-0.3 kN/m2
-- Alpine: per local elevation correction
-
----
-
-## 7. Major City Practice Notes
-
-### 7.1 Beijing (DB11 series)
-
-- **DB11/T 891** -- Beijing accessibility supplement
-- **DB11/687** -- Beijing energy supplement
-- **DB11/T 1610** -- Beijing residential energy
-- Seismic Degree 8; high-rise residential restrictions; sunlight rights strong
-- Plot ratios moderate (1.5-3.5 residential)
-- Aviation height restrictions near Capital Airport
-- Heritage zones (Old City) -- height + materials controlled
-
-### 7.2 Shanghai (DGJ08 series)
-
-- **DGJ08-205-2011** -- Shanghai general building design
-- **DGJ08-107-2018** -- Shanghai residential energy
-- **DGJ08-109-2014** -- Shanghai public building energy
-- Seismic Degree 7
-- Higher plot ratios (5+ in Pudong CBD)
-- Soft Yangtze Delta soil -- piled foundations universal
-- Sunlight rights at HSCW Zone III standard (2 h Da Han)
-
-### 7.3 Shenzhen / Guangzhou / Greater Bay Area
-
-- **DBJ/T 15** Guangdong series
-- Hot Summer Warm Winter Zone IV
-- Lower sunlight requirements (1 h); higher densities feasible
-- Wind/typhoon design dominant (W0 = 0.75 + Guangzhou)
-- Subtropical detailing -- humidity, mould, lightning (Shenzhen ~70 thunder days/year)
-
-### 7.4 Chongqing (Sichuan / SW China)
-
-- Hot Summer Cold Winter Zone III
-- Seismic Degree 7 (varies; post-Wenchuan updates)
-- Mountainous terrain -- piloti / stepped designs common
-- Distinct foundation conditions: limestone karst widely
-
-### 7.5 Hangzhou / Suzhou / Nanjing (Yangtze Delta)
-
-- HSCW Zone III
-- Seismic Degree 6-7
-- Heritage zones (Pingjiang, Shang Cheng, Tongli)
-- Strong water-table issues -- waterproofing critical
+- 东北（黑龙江、吉林、内蒙古部分地区）：S0 = 0.7-1.5 kN/m2
+- 华中地区：S0 = 0.3-0.5 kN/m2
+- 南方：S0 = 0-0.3 kN/m2
+- 高原地区：按当地海拔修正
 
 ---
 
-## 8. Permit Workflow
+## 7. 主要城市实践要点
 
-### 8.1 Standard Workflow
+### 7.1 北京（DB11 系列）
 
-1. **Land use right acquisition** -- typically 70-year (residential), 40-year (commercial), 50-year (industrial) leasehold from state
-2. **Construction Land Planning Permit (Jianshe Yongdi Guihua Xuke Zheng)** -- Planning Bureau
-3. **Preliminary design + Construction Engineering Planning Permit (Jianshe Gongcheng Guihua Xuke Zheng)** -- Planning Bureau
-4. **Construction Drawing Review** by accredited Construction Drawing Review Institute
-5. **Fire Approval (Xiaofang Shenpi)** -- Emergency Management Bureau
-6. **Construction Permit (Shigong Xuke Zheng)** -- Construction Bureau
-7. **Construction-Engineering Quality Supervision** assigned by Quality Office
-8. **Site inspections during construction**
-9. **Construction Engineering Completion Acceptance (Zhugong Yanshou)** -- 5-party meeting: Developer + Supervisor + Designer + Contractor + Drawing Review (joint acceptance)
-10. **File completion with archive (Beian)** -- formal completion recorded
-11. **Property rights certificate issuance**
+- **DB11/T 891**——北京无障碍补充规定
+- **DB11/687**——北京节能补充规定
+- **DB11/T 1610**——北京住宅节能
+- 地震烈度 8 度；高层住宅有限制；日照权要求严格
+- 容积率适中（住宅 1.5-3.5）
+- 首都机场附近有航空限高
+- 历史保护区（老城）控制建筑高度和材料
 
-### 8.2 Designer / Practitioner Licensing
+### 7.2 上海（DGJ08 系列）
 
-- **Class A Architectural Design Institute (Yi Ji Sheji Yuan)** -- large projects, all scales
-- **Class B** -- mid-scale
-- **Class C** -- small only
-- Individual **Registered Architect (Zhuce Jianzhushi)** -- Class 1 + Class 2
+- **DGJ08-205-2011**——上海建筑设计一般规定
+- **DGJ08-107-2018**——上海住宅节能
+- **DGJ08-109-2014**——上海公共建筑节能
+- 地震烈度 7 度
+- 容积率较高（浦东 CBD 可达 5+）
+- 长江三角洲软土——普遍采用桩基础
+- 按夏热冬冷 III 区标准执行日照权（大寒日 2 h）
 
-Hospitals, schools, and other special projects require Class A institutes.
+### 7.3 深圳/广州/大湾区
 
-### 8.3 Three Critical Pre-Construction Phases
+- **DBJ/T 15** 广东系列
+- 夏热冬暖 IV 区
+- 日照要求较低（1 h），可采用更高密度
+- 风和台风设计占主导（广州 W0 = 0.75+）
+- 亚热带构造重点关注湿度、霉菌和雷电（深圳每年约 70 个雷暴日）
 
-China practice distinguishes:
-1. **Initial Design (Chubu Sheji)** -- detailed enough for permit + cost estimation
-2. **Construction Drawing (Shigong Tu)** -- production drawings
-3. **Construction Drawing Review (Shigong Tu Shencha)** -- mandatory third-party check
+### 7.4 重庆（四川/中国西南）
 
-Many large projects skip "Initial Design" and proceed directly with "Schematic + Construction Drawing" -- but Construction Drawing Review remains mandatory.
+- 夏热冬冷 III 区
+- 地震烈度 7 度（因地而异；汶川地震后有更新）
+- 山地地形——常见架空层和台地式设计
+- 地基条件特殊：石灰岩喀斯特地貌广泛分布
+
+### 7.5 杭州/苏州/南京（长江三角洲）
+
+- 夏热冬冷 III 区
+- 地震烈度 6-7 度
+- 历史保护区（平江、上城、同里）
+- 地下水位问题突出——防水至关重要
 
 ---
 
-## 9. Quick Numeric Reference
+## 8. 许可审批流程
 
-| Parameter | Value | Source |
+### 8.1 标准流程
+
+1. **取得土地使用权**——通常为国家出让的 70 年（住宅）、40 年（商业）、50 年（工业）使用权
+2. **建设用地规划许可证（Jianshe Yongdi Guihua Xuke Zheng）**——规划局
+3. **初步设计 + 建设工程规划许可证（Jianshe Gongcheng Guihua Xuke Zheng）**——规划局
+4. 由认可的施工图审查机构进行**施工图审查**
+5. **消防审批（Xiaofang Shenpi）**——应急管理局
+6. **施工许可证（Shigong Xuke Zheng）**——住建部门
+7. 由质量管理部门安排**建设工程质量监督**
+8. **施工期间现场检查**
+9. **建设工程竣工验收（Zhugong Yanshou）**——五方会议：建设单位 + 监理单位 + 设计单位 + 施工单位 + 图审机构联合验收
+10. **工程档案归档（Beian）**——正式记录竣工
+11. **颁发不动产权证书**
+
+### 8.2 设计单位/从业人员资质
+
+- **甲级建筑设计院（Yi Ji Sheji Yuan）**——大型项目及所有规模项目
+- **乙级**——中型项目
+- **丙级**——仅限小型项目
+- 个人**注册建筑师（Zhuce Jianzhushi）**——一级 + 二级
+
+医院、学校和其他特殊项目要求由甲级设计院承担。
+
+### 8.3 施工前三个关键阶段
+
+中国实践区分：
+1. **初步设计（Chubu Sheji）**——细化到足以办理许可并进行造价估算
+2. **施工图（Shigong Tu）**——施工生产图纸
+3. **施工图审查（Shigong Tu Shencha）**——强制性的第三方检查
+
+许多大型项目会跳过“初步设计”，直接进行“方案设计 + 施工图设计”，但施工图审查仍然是强制性的。
+
+---
+
+## 9. 快速数值参考
+
+| 参数 | 数值 | 来源 |
 |---|---|---|
-| Floor-to-floor residential | 2.8-3.0 m | GB 50352-2019 |
-| Floor-to-floor office | 3.6-4.5 m | GB 50352-2019; min 2.5 m clear |
-| Hospital floor-to-floor | 4.0-4.5 m | GB 50352-2019 |
-| Net ceiling height (residential) | 2.4 m min | GB 50352-2019 |
-| Stair width residential | 1.1 m | GB 50352-2019 |
-| Stair width public mid-rise | 1.2 m | GB 50352-2019 |
-| Travel distance high-rise residential sprinklered | 40 m | GB 50016 Ch. 5 |
-| Travel distance office sprinklered (1-way) | 40 m | GB 50016 Ch. 5 |
-| Compartment area Class I high-rise sprinklered | 2500 m2 | GB 50016 Ch. 5 |
-| Cladding (high-rise residential ≥ 50 m) | Class A non-combustible | GB 50016 + GB 8624 |
-| Wall U-value Cold Zone residential | 0.40-0.55 W/m2K | JGJ 26-2018 |
-| Window Uw Cold Zone | 2.5 W/m2K | JGJ 26-2018 |
-| Sunlight Da Han hours (Beijing) | 3 h | DB11 / National rule |
-| Yongji-lv residential (Beijing) | 1.5-3.5 | Local Detailed Reg Plan |
-| Basic wind pressure W0 Beijing | 0.45 kN/m2 | GB 50009 |
-| Seismic intensity Beijing | Degree 8 | GB 50011-2010 |
+| 住宅层高 | 2.8-3.0 m | GB 50352-2019 |
+| 办公层高 | 3.6-4.5 m | GB 50352-2019；净高最小 2.5 m |
+| 医院层高 | 4.0-4.5 m | GB 50352-2019 |
+| 住宅净高 | 最小 2.4 m | GB 50352-2019 |
+| 住宅楼梯宽度 | 1.1 m | GB 50352-2019 |
+| 中高层公共建筑楼梯宽度 | 1.2 m | GB 50352-2019 |
+| 高层住宅（设喷淋）疏散距离 | 40 m | GB 50016 第 5 章 |
+| 办公建筑（设喷淋、单向）疏散距离 | 40 m | GB 50016 第 5 章 |
+| 一类高层（设喷淋）防火分区面积 | 2500 m2 | GB 50016 第 5 章 |
+| 外墙饰面（高层住宅 ≥ 50 m） | A 级不燃 | GB 50016 + GB 8624 |
+| 寒冷地区住宅墙体 U 值 | 0.40-0.55 W/m2K | JGJ 26-2018 |
+| 寒冷地区窗 Uw | 2.5 W/m2K | JGJ 26-2018 |
+| 北京大寒日照时长 | 3 h | DB11 / 国家规定 |
+| 北京住宅容积率 | 1.5-3.5 | 地方控制性详细规划 |
+| 北京基本风压 W0 | 0.45 kN/m2 | GB 50009 |
+| 北京地震烈度 | 8 度 | GB 50011-2010 |
 
 ---
 
-## 10. Application Workflow
+## 10. 应用工作流
 
-1. **Identify province + city + administrative tier** (province-direct-govt city, prefecture, district).
-2. **Identify climate zone** (5 zones per GB 50176-2016).
-3. **Identify seismic intensity** (degree 6-9 per GB 50011-2010 map for city).
-4. **Identify DB local supplement** (e.g., DB11 Beijing, DGJ08 Shanghai).
-5. **Apply GB 50352-2019** for general civil building requirements.
-6. **Apply GB 50016-2014 (2018 ed.)** for fire/life safety.
-7. **Apply GB 50011-2010** for seismic design.
-8. **Apply GB 50189-2015** (public) OR JGJ 26/75/134 (residential) for energy by zone.
-9. **Apply GB 50763-2012** for accessibility.
-10. **Apply Sunlight Rights** per GB 50180-2018 + local rules.
-11. **Confirm yongji-lv + jianzhu midu + building spacing** per Detailed Regulation Plan.
-12. **Engage Construction Drawing Review Institute**.
-13. **Cite clauses**: "GB 50352-2019 Section 5.1.3 (mandatory)", "GB 50016-2014 (2018 ed.) Article 5.3.1", "JGJ 26-2018 Table 4.2.1", "GB 50011-2010 (2016 amend) Section 4.1.6", "GB 50763-2012 Section 3.5", "DB11/T 891-2012 Section 4.2".
-
----
-
-## 11. Authoritative Sources
-
-- **Ministry of Housing and Urban-Rural Development (MOHURD, 住房和城乡建设部)** -- mohurd.gov.cn
-- **Standardization Administration of China (SAC, 国家标准化管理委员会)** -- sac.gov.cn -- GB code sales
-- **National Engineering Construction Standards Network** -- ndzh.com (paywall for full text)
-- **China Building Standard Design Research Institute (CBI, 中国建筑标准设计研究院)** -- chinabuilding.com.cn
-- **Centre for Building Energy Efficiency (CABEE)** -- energy compliance + ZEB programs
-- **Each provincial Department of Housing and Urban-Rural Development** -- provincial DB codes
-- **Beijing Bureau of Urban Planning + Natural Resources** -- ghzrzyw.beijing.gov.cn
-- **Shanghai Housing + Construction Commission** -- zjw.sh.gov.cn
-- **China Green Building Council (CSGBC)** -- gbwindows.cn -- Green Building Label
+1. **确定省份 + 城市 + 行政层级**（直辖市、地级市、区县）。
+2. **确定气候区**（按 GB 50176-2016 的 5 个分区）。
+3. **确定地震烈度**（按 GB 50011-2010 城市分区图的 6-9 度）。
+4. **确定地方 DB 补充规定**（如北京 DB11、上海 DGJ08）。
+5. 按 **GB 50352-2019** 执行民用建筑一般要求。
+6. 按 **GB 50016-2014（2018 年版）** 执行消防与生命安全要求。
+7. 按 **GB 50011-2010** 执行抗震设计。
+8. 按气候区执行 **GB 50189-2015**（公共建筑）或 **JGJ 26/75/134**（住宅）节能要求。
+9. 按 **GB 50763-2012** 执行无障碍设计。
+10. 按 GB 50180-2018 及地方规定执行**日照权**要求。
+11. 按控制性详细规划确认**容积率 + 建筑密度 + 建筑间距**。
+12. 委托**施工图审查机构**进行审查。
+13. **引用条文**：“GB 50352-2019 第 5.1.3 节（强制性）”、“GB 50016-2014（2018 年版）第 5.3.1 条”、“JGJ 26-2018 表 4.2.1”、“GB 50011-2010（2016 年修订）第 4.1.6 节”、“GB 50763-2012 第 3.5 节”、“DB11/T 891-2012 第 4.2 节”。
 
 ---
 
-## 12. Hong Kong SAR (separately governed)
+## 11. 权威来源
 
-Hong Kong has its own Building Regulations under Buildings Ordinance (Cap. 123). Distinct system:
-- **Buildings Department (BD)** -- approvals
-- **Code of Practice for the Provision of Means of Escape in Case of Fire (MOE Code)**
-- **Code of Practice for Fire Safety in Buildings (FSC)**
-- **Practice Notes for Authorized Persons (PNAPs)** -- guidance
-- **APP** (Application Practice notes)
-- Plot ratio + site coverage regulated by **Building (Planning) Regulations**
-- Authorized Person (AP) leads submission, Registered Structural Engineer (RSE) for structural
-
-Hong Kong common law tradition, English-language, but uses **OB (Outline Zoning Plan)** for planning. Not covered in detail here -- consult HK-specific resources.
-
-## 13. Macao SAR
-
-Macao has its own building law (Lei 32/96/M) + technical regulations. Portuguese-tradition + Chinese hybrid. Not detailed here.
+- **住房和城乡建设部（MOHURD）**——mohurd.gov.cn
+- **国家标准化管理委员会（SAC）**——sac.gov.cn——GB 规范销售
+- **国家工程建设标准化信息网**——ndzh.com（全文需付费）
+- **中国建筑标准设计研究院（CBI）**——chinabuilding.com.cn
+- **建筑节能研究中心（CABEE）**——节能合规与 ZEB 项目
+- **各省住房和城乡建设主管部门**——地方 DB 规范
+- **北京市规划和自然资源委员会**——ghzrzyw.beijing.gov.cn
+- **上海市住房和城乡建设管理委员会**——zjw.sh.gov.cn
+- **中国绿色建筑委员会（CSGBC）**——gbwindows.cn——绿色建筑标识
 
 ---
 
-*Cross-references: load `building-codes` for general code structure (China is unique with mandatory red-text clauses); `fire-life-safety` for general principles overlaid by GB 50016 + GB 51251; `accessibility-design` for global frameworks then GB 50763; `building-sustainability` for Green Building Label + LEED comparison + GB/T 51350 NZEB; `structural-systems` for seismic design (Chinese intensity scale + GB 50011); `building-envelope` for 5-climate-zone tropical + cold + alpine detailing.*
+## 12. 香港特别行政区（单独管理）
+
+香港依据《建筑物条例》（Cap. 123）执行自己的建筑法规，体系不同：
+- **屋宇署（BD）**——审批
+- **《火灾时逃生途径设置作业守则》（MOE Code）**
+- **《建筑物消防安全作业守则》（FSC）**
+- **认可人士作业备考（PNAPs）**——指导文件
+- **APP**（申请作业备考）
+- 建筑密度和建筑覆盖率由 **《建筑物（规划）规例》**管制
+- 由认可人士（AP）负责申报，结构工程由注册结构工程师（RSE）负责
+
+香港采用普通法传统和英文法规体系，并使用 **OB（Outline Zoning Plan，法定图则）**进行规划。本文不作详细说明，应查阅香港专用资源。
+
+## 13. 澳门特别行政区
+
+澳门拥有自己的建筑法（Lei 32/96/M）及技术规章，采用葡萄牙传统与中文体系结合的制度。本文不作详细说明。
+
+---
+
+*交叉引用：加载 `building-codes` 了解一般规范结构（中国以红色印刷的强制性条文为特色）；加载 `fire-life-safety` 了解由 GB 50016 + GB 51251 叠加的消防生命安全原则；加载 `accessibility-design` 了解全球无障碍框架及 GB 50763；加载 `building-sustainability` 了解绿色建筑标识、LEED 对比和 GB/T 51350 NZEB；加载 `structural-systems` 了解抗震设计（中国烈度分级 + GB 50011）；加载 `building-envelope` 了解五类气候区的热带、寒冷和高原围护结构设计。*

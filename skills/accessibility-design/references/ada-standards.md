@@ -1,130 +1,105 @@
-# ADA Accessibility Standards -- Chapter-by-Chapter Reference for Architects
+# ADA 无障碍标准——建筑师分章参考
 
-## Overview
+## 概述
 
-The 2010 ADA Standards for Accessible Design are organized into chapters covering
-scoping requirements (what must be accessible) and technical requirements (how to
-make it accessible). This reference extracts the provisions most critical to
-architectural design decisions, organized by chapter with specific dimensional
-requirements.
+《2010 ADA 无障碍设计标准》按章节编排，涵盖范围要求（哪些内容必须无障碍）和技术要求（如何实现无障碍）。本参考按章节提取对建筑设计决策最关键的条款，并列出具体尺寸要求。
 
 ---
 
-## Chapter 1: Application and Administration
+## 第 1 章：适用与管理
 
-### Key Provisions
+### 关键条款
 
-- **Section 103: Equivalent Facilitation.** Alternative designs that provide
-  substantially equivalent or greater accessibility may be used. Must
-  demonstrate equivalency.
-- **Section 104.1: Dimensions.** All dimensions are subject to conventional
-  building industry tolerances. The Access Board has clarified that tolerances
-  are construction tolerances, not design tolerances -- design to nominal values.
-- **Section 106: Definitions.** Critical definitions:
-  - "Accessible" = complies with these standards
-  - "Accessible route" = continuous, unobstructed path
-  - "Public way" = any street, alley, or sidewalk under public authority
-  - "Technically infeasible" = existing structural conditions that would
-    require removing or altering a load-bearing member (applies to alterations)
+- **第 103 节：等效便利。** 可采用提供实质等效或更高无障碍水平的替代设计，但必须证明其等效性。
+- **第 104.1 节：尺寸。** 所有尺寸均受建筑行业常规允许偏差约束。Access Board 已明确，允许偏差是施工允许偏差，而非设计允许偏差；设计应采用名义尺寸。
+- **第 106 节：定义。** 关键定义包括：
+  - “无障碍”（Accessible）= 符合本标准
+  - “无障碍路线”（Accessible route）= 连续、无障碍的通行路径
+  - “公共通道”（Public way）= 由公共机构管理的街道、巷道或人行道
+  - “技术上不可行”（Technically infeasible）= 既有结构条件要求拆除或改动承重构件（适用于改造）
 
 ---
 
-## Chapter 2: Scoping Requirements
+## 第 2 章：范围要求
 
-### Section 206: Accessible Routes
+### 第 206 节：无障碍路线
 
-**Site arrival points to accessible entrance:**
-- At least one accessible route from each: public transportation stop, accessible
-  parking, passenger loading zone, and public streets/sidewalks
-- Route must connect to accessible building entrance
+**从场地到达点至无障碍入口：**
+- 至少从以下每一处设置一条无障碍路线：公共交通站点、无障碍停车位、乘客上下客区及公共街道/人行道
+- 路线必须连接建筑无障碍入口
 
-**Within the building:**
-- Accessible route connects all accessible spaces and elements within the building
-- Where a circulation path is provided, an accessible route must be provided
-- Multi-story buildings: accessible route between stories (elevator) unless:
-  - Building < 3 stories AND < 279 m² (3,000 ft²) per story (private sector)
-  - Exception does not apply to: shopping centers, professional offices of
-    healthcare providers, public transit stations, or airport terminals
+**建筑内部：**
+- 无障碍路线连接建筑内所有无障碍空间和要素
+- 设置交通路径的地方必须设置无障碍路线
+- 多层建筑应在楼层之间设置无障碍路线（电梯），除非：
+  - 私营部门建筑少于 3 层且每层少于 279 m²（3,000 ft²）
+  - 该例外不适用于购物中心、医疗服务专业办公室、公共交通车站或机场航站楼
 
-**Specific requirements:**
-- Section 206.2.3: Multi-story buildings with an accessible route between
-  stories must have an accessible route to each level served by the path
-- Section 206.4: Accessible entrance must serve as the public entrance
+**具体要求：**
+- 第 206.2.3 节：楼层之间设有无障碍路线的多层建筑，必须为该路线服务的每一层设置无障碍通达
+- 第 206.4 节：无障碍入口必须作为公共入口使用
 
-### Section 207: Accessible Means of Egress
+### 第 207 节：无障碍疏散设施
 
-- Accessible means of egress per IBC Section 1009
-- Must equal the number of required exits
-- Elevator may serve as accessible MOE only when permitted by IBC
-  (supervised emergency evacuation)
-- Areas of refuge: not required in sprinklered buildings (IBC exception)
+- 按 IBC 第 1009 节设置无障碍疏散设施
+- 数量必须等于要求的出口数量
+- 仅在 IBC 允许时电梯才可作为无障碍疏散设施（受监督的紧急疏散）
+- 避难区：设置喷淋的建筑可不设（IBC 例外）
 
-### Section 208: Parking Spaces
+### 第 208 节：停车位
 
-Total parking in lot determines accessible space count (see SKILL.md Section 2
-table). Additional:
-- Hospital outpatient: 10% of patient/visitor parking
-- Rehabilitation/outpatient physical therapy: 20% of patient/visitor parking
-- Residential (2% of spaces, but not less than 1): at least one per accessible
-  dwelling unit
-- Location: on shortest accessible route to accessible entrance; dispersed
-  among multiple facilities
+停车场总车位数决定无障碍车位数量（见 SKILL.md 第 2 节表格）。补充要求：
+- 医院门诊：患者/访客车位的 10%
+- 康复/门诊物理治疗：患者/访客车位的 20%
+- 住宅（车位的 2%，但不少于 1 个）：每个无障碍住宅单元至少 1 个
+- 位置：位于通往无障碍入口的最短无障碍路线，并在多个设施之间分散设置
 
-### Section 211: Drinking Fountains
+### 第 211 节：饮水器
 
-- Where provided, 50% at standard height (no higher than 915 mm / 36 in
-  spout height) for standing persons and 50% at wheelchair height (max
-  915 mm / 36 in spout, knee clearance underneath)
-- Exception: where 1 unit, provide both hi-lo or accessible unit with cup
-  dispenser
+- 设置饮水器时，50% 为站立使用的标准高度（出水口不高于 915 mm / 36 in），50% 为轮椅使用高度（出水口最高 915 mm / 36 in，底部留膝部净空）
+- 例外：仅设置 1 台时，应设置高低双高度饮水器，或设置带杯架的无障碍饮水器
 
-### Section 213: Toilet Facilities and Bathing Facilities
+### 第 213 节：卫生间与洗浴设施
 
-- Where provided, at least one of each type must be accessible
-- Multi-user toilet rooms: minimum one accessible WC compartment per room,
-  plus one ambulant compartment per room (when 6+ WCs)
-- Unisex/single-user: one per floor where multi-user toilets are provided,
-  if building has 6+ stories (per some jurisdictions)
-- Number requiring accessible fixtures: all accessible compartments and all
-  lavatories in accessible toilet rooms
+- 设置任何类型的设施时，每种类型至少应有 1 个无障碍设施
+- 多人卫生间：每间至少 1 个无障碍坐便器隔间；当坐便器达到 6 个及以上时，每间另设 1 个可步入式隔间
+- 男女通用/单人卫生间：设置多人卫生间的楼层每层 1 个；建筑达到 6 层及以上时，部分辖区有此要求
+- 需设置无障碍器具的数量：所有无障碍隔间以及无障碍卫生间内的所有洗手盆
 
-### Section 216: Signs
+### 第 216 节：标识
 
-**Identification signs (room/space):**
-- Tactile (raised characters + Braille) at permanent rooms and spaces
-- Mounting: latch side of door
-- Exception: not required for parking spaces or site signs
+**识别标识（房间/空间）：**
+- 在永久性房间和空间设置触觉标识（凸起字符 + 盲文）
+- 安装位置：门锁侧
+- 例外：停车位或场地标识无需设置
 
-**Directional and informational:**
-- Visual only (no tactile required)
-- Must comply with visual character requirements (contrast, proportion, finish)
+**方向与信息标识：**
+- 仅需视觉信息（无需触觉）
+- 必须符合视觉字符要求（对比度、比例、表面处理）
 
-**Means of egress:**
-- Tactile exit signs at exit doors per IBC
-- Exit route signs per IBC
+**疏散设施：**
+- 按 IBC 在出口门设置触觉出口标识
+- 按 IBC 设置出口路线标识
 
-### Section 221: Assembly Areas -- Wheelchair Spaces and Companion Seats
+### 第 221 节：集会场所——轮椅位与陪同座位
 
-| Total Seats | Wheelchair Spaces Required |
+| 座位总数 | 所需轮椅位 |
 |-------------|--------------------------|
 | 4-25 | 1 |
 | 26-50 | 2 |
 | 51-150 | 4 |
 | 151-300 | 5 |
 | 301-500 | 6 |
-| 501-5,000 | 6 + 1 per 150 over 500 |
-| > 5,000 | 36 + 1 per 200 over 5,000 |
+| 501-5,000 | 6 + 每超过 500 个增加 1 个/150 个 |
+| > 5,000 | 36 + 每超过 5,000 个增加 1 个/200 个 |
 
-- Dispersal: wheelchair spaces must be dispersed horizontally and vertically
-  to provide viewing angles and locations comparable to general seating
-- Companion seats: one adjacent to each wheelchair space, at same level,
-  shoulder alignment
-- Lines of sight: over standing spectators where spectators are expected
-  to stand (enhanced sightlines)
+- 分散布置：轮椅位必须在水平和垂直方向分散，以提供与普通座位相当的视角和位置
+- 陪同座位：每个轮椅位旁设置 1 个，同一标高且肩部对齐
+- 视线：当观众预计站立时，视线应越过站立观众（增强视线条件）
 
-### Section 224: Transient Lodging Guest Rooms
+### 第 224 节：短期住宿客房
 
-| Total Rooms | Accessible Rooms (mobility) | Communication Features |
+| 客房总数 | 无障碍客房（行动） | 通信功能客房 |
 |-------------|----------------------------|----------------------|
 | 1-25 | 1 | 1 |
 | 26-50 | 2 | 2 |
@@ -138,30 +113,28 @@ table). Additional:
 | 501-1000 | 2% | 2% |
 | > 1000 | 20 + 1/100 over 1000 | 20 + 1/100 over 1000 |
 
-- Disperse among room types (suites, standard, smoking/non-smoking, etc.)
-- Communication features include: visual notification devices for door knock,
-  phone ring, and fire alarm; telephone with volume control; accessible data
-  port
+- 应在不同房型之间分散设置（套房、标准房、吸烟/禁烟房等）
+- 通信功能包括：门敲、电话铃声和火灾报警的视觉通知装置；带音量控制的电话；无障碍数据端口
 
 ---
 
-## Chapter 3: Building Blocks
+## 第 3 章：建筑基本要素
 
-### Section 301-309: Fundamental Accessible Design Elements
+### 第 301-309 节：无障碍设计基本要素
 
-**Ground and floor surfaces (302):**
-- Firm, stable, slip-resistant
+**地面和楼面（302）：**
+- 坚实、稳定、防滑
 - Carpet: securely attached, max 13 mm (0.5 in) pile height, firm cushion
   or no cushion
 - Gratings: max 13 mm (0.5 in) openings, elongated openings perpendicular
   to dominant travel direction
 
-**Changes in level (303):**
-- Max 6.4 mm (0.25 in) vertical without edge treatment
-- 6.4-13 mm (0.25-0.5 in) beveled max 1:2
-- Greater than 13 mm: must be ramped (1:12) or use elevator/lift
+**高差（303）：**
+- 无边缘处理时垂直高差最大 6.4 mm (0.25 in)
+- 6.4-13 mm (0.25-0.5 in) 时，倒角最大 1:2
+- 大于 13 mm：必须设置坡道（1:12）或使用电梯/升降平台
 
-**Protruding objects (307):**
+**突出物（307）：**
 - Wall-mounted: max 100 mm (4 in) protrusion when leading edge > 685 mm
   (27 in) and < 2030 mm (80 in) above floor
 - Post-mounted: max 305 mm (12 in) protrusion when leading edge > 685 mm
@@ -170,29 +143,27 @@ table). Additional:
 - If reduced headroom < 2030 mm: guardrail or other barrier at max 685 mm
   (27 in) above floor as cane-detectable warning
 
-**Reach ranges (308):**
-- See SKILL.md Section 2 for complete reach range dimensions
+**可达范围（308）：**
+- 完整可达范围尺寸见 SKILL.md 第 2 节
 
-**Operable parts (309):**
-- Operable with one hand, without tight grasping, pinching, or wrist twisting
-- Maximum operating force: 22 N (5 lbf) -- except for fire doors and
-  code-required limits
-- Height: within reach ranges (380-1220 mm / 15-48 in above floor)
+**可操作部件（309）：**
+- 可单手操作，无需紧握、捏持或扭转手腕
+- 最大操作力：22 N (5 lbf)——防火门及规范规定的限值除外
+- 高度：位于可达范围内（距地面 380-1220 mm / 15-48 in）
 
 ---
 
-## Chapter 4: Accessible Routes
+## 第 4 章：无障碍路线
 
-### Section 402: Accessible Routes (General)
+### 第 402 节：无障碍路线（一般要求）
 
-- Running slope: max 1:20 (5%). If > 1:20, must comply as ramp (Section 405)
-- Cross slope: max 1:48 (2%)
-- Clear width: 915 mm (36 in) minimum, measured at floor between walls,
-  handrails, and vertical projections
+- 纵坡：最大 1:20（5%）。大于 1:20 时必须按坡道（第 405 节）执行
+- 横坡：最大 1:48（2%）
+- 净宽：最小 915 mm (36 in)，在墙、扶手和垂直突出物之间的地面处测量
 
-### Section 404: Doors, Doorways, and Gates
+### 第 404 节：门、门洞与门闸
 
-**Maneuvering clearances at doors (extensive -- key configurations):**
+**门的操作净空（完整要求中的关键配置）：**
 
 | Approach | Side | Minimum Depth | Latch Side Clearance |
 |----------|------|---------------|---------------------|
@@ -203,31 +174,26 @@ table). Additional:
 | Hinge side| Pull | 1525 mm (60") | 915 mm (36") |
 | Hinge side| Push | 1065 mm (42") | 710 mm (28") |
 
-(Values assume no closer or latch. Add 150 mm / 6 in depth when closer AND
-latch present on push side.)
+（数值假定无闭门器或锁舌。推门侧同时设置闭门器和锁舌时，深度增加 150 mm / 6 in。）
 
-**Recessed doors:** When door is recessed > 203 mm (8 in) from face of wall,
-maneuvering clearance must be provided within the recess and outside the recess.
+**凹入式门：**当门距墙面凹入超过 203 mm (8 in) 时，凹槽内外均必须提供操作净空。
 
-**Two doors in series (vestibule):** Distance between doors must be at least
-1220 mm (48 in) plus width of any door swinging into the space.
+**连续两道门（门斗）：**门间距离至少为 1220 mm (48 in) 加上任何向该空间开启的门扇宽度。
 
-### Section 405: Ramps
+### 第 405 节：坡道
 
-See SKILL.md Section 2 for complete ramp requirements.
+完整坡道要求见 SKILL.md 第 2 节。
 
-Additional detail:
-- Wet conditions: ramps exposed to weather should have max 1:16 (6.25%) to
-  account for reduced traction
-- Landings at top: minimum 1525 mm (60 in) length in direction of travel
-- Landings at bottom: minimum 1830 mm (72 in) length for space to maneuver
-  wheelchair clear of ramp slope (best practice, not strict ADA requirement)
+补充要求：
+- 潮湿条件：暴露于天气的坡道宜采用最大 1:16（6.25%），以考虑摩擦力降低
+- 顶部平台：沿行进方向最小长度 1525 mm (60 in)
+- 底部平台：最小长度 1830 mm (72 in)，为轮椅离开坡度区域提供操作空间（最佳实践，不是 ADA 的严格要求）
 
-### Section 407: Elevators
+### 第 407 节：电梯
 
-See SKILL.md Section 2 for cab sizes and general requirements.
+轿厢尺寸和一般要求见 SKILL.md 第 2 节。
 
-Additional detail:
+补充要求：
 - Destination-oriented elevators (Section 407.2.1.5): lobby controls with
   visual and audible indicators showing assigned car
 - Existing elevators (alterations): may retain existing dimensions if car
@@ -235,26 +201,23 @@ Additional detail:
 - Emergency communication: handset cord at least 740 mm (29 in) long;
   TTY/TDD compatibility required
 
-### Section 410: Platform Lifts
+### 第 410 节：升降平台
 
-- Permitted in limited situations: existing buildings, performance areas,
-  speaker platforms, courtroom stations, judicial spaces, certain residential
-- Must be capable of unassisted entry, operation, and exit
-- Clear floor space: 915 x 1525 mm (36 x 60 in) minimum
-- Doors/gates: power-operated or manual from wheelchair
+- 仅在有限情形下允许：既有建筑、表演区、演讲台、法庭席位、司法空间及部分住宅
+- 必须能够无辅助进入、操作和离开
+- 地面净空：最小 915 x 1525 mm (36 x 60 in)
+- 门/闸：可电动操作，或可从轮椅位置手动操作
 
 ---
 
-## Chapter 6: Plumbing Elements and Facilities
+## 第 6 章：给排水要素与设施
 
-### Section 603: Toilet and Bathing Rooms
+### 第 603 节：卫生间与洗浴间
 
-- Turning space: 1525 mm (60 in) diameter within room (door may swing into
-  turning space if additional maneuvering is provided)
-- Door: must not swing into clear floor space of any fixture unless room
-  provides 915 mm (36 in) beyond the arc of the door swing
+- 回转空间：室内直径 1525 mm (60 in)（如提供额外操作空间，门可向回转空间开启）
+- 门：不得开启至任何器具的地面净空内，除非门扇开启弧线外另提供 915 mm (36 in) 空间
 
-### Section 604: Water Closets and Toilet Compartments
+### 第 604 节：坐便器与卫生间隔间
 
 - Centerline: 430-480 mm (16.5-18.5 in) from side wall (Note: this was
   changed from older ADA/UFAS which used 457 mm / 18 in center. ICC A117.1
@@ -277,7 +240,7 @@ Additional detail:
 - Depth: 1525 mm (60 in) minimum
 - Door: self-closing, outswing
 
-### Section 606: Lavatories and Sinks
+### 第 606 节：洗手盆与水槽
 
 - Rim height: max 865 mm (34 in) above floor
 - Knee clearance: 685 mm (27 in) high, 205 mm (8 in) deep at 230 mm above floor
@@ -287,11 +250,11 @@ Additional detail:
 - Faucet: lever, push, touch, or electronically controlled; must not require
   tight grasping, pinching, or wrist twisting
 
-### Section 608: Shower Compartments
+### 第 608 节：淋浴隔间
 
-See SKILL.md Section 3 for roll-in and transfer shower details.
+无障碍进入式和转移式淋浴的详细要求见 SKILL.md 第 3 节。
 
-### Section 609: Grab Bars
+### 第 609 节：扶手
 
 - Structural strength: resist 1.33 kN (300 lbf) at any point and direction
 - Diameter: circular cross-section 32-51 mm (1.25-2 in); non-circular with
@@ -303,9 +266,9 @@ See SKILL.md Section 3 for roll-in and transfer shower details.
 
 ---
 
-## Chapter 7: Communication Elements and Features
+## 第 7 章：通信要素与功能
 
-### Section 703: Signs
+### 第 703 节：标识
 
 **Tactile signs:**
 - Uppercase characters, sans-serif or simple serif
@@ -327,14 +290,14 @@ See SKILL.md Section 3 for roll-in and transfer shower details.
 - Style: sans-serif or simple serif; no italic, oblique, script, highly
   decorative, or unusual forms
 
-### Section 704: Telephones
+### 第 704 节：电话
 
 - If public phones provided: at least one per floor must be wheelchair accessible
   (clear floor space, reach to controls, cord length 740 mm / 29 in)
 - Volume control: minimum 12 dB gain above normal, up to 20 dB
 - TTY: one per building where 4+ public phones provided
 
-### Section 706: Assistive Listening Systems
+### 第 706 节：辅助听力系统
 
 | Assembly Capacity | Required Receivers |
 |-------------------|-------------------|
@@ -349,23 +312,23 @@ See SKILL.md Section 3 for roll-in and transfer shower details.
 
 ---
 
-## Chapter 8: Special Rooms, Spaces, and Elements
+## 第 8 章：特殊房间、空间与要素
 
-### Section 802: Assembly Areas
+### 第 802 节：集会场所
 
 - Wheelchair spaces: 915 mm (36 in) wide minimum, 1220 mm (48 in) deep
   for front/rear entry, 1525 mm (60 in) for side entry
 - Surface: level (max 1:48 in all directions)
 - Integration: in-row placement preferred over segregated areas
 
-### Section 803: Dressing, Fitting, and Locker Rooms
+### 第 803 节：更衣、试衣与储物柜房间
 
 - 5% of each type (but not less than one) must be accessible
 - Bench: 610 x 1220 mm (24 x 48 in) minimum, seat 430-485 mm (17-19 in)
   above floor, back support or wall
 - Clear floor space: 760 x 1220 mm (30 x 48 in) adjacent to bench
 
-### Section 804: Kitchens and Kitchenettes
+### 第 804 节：厨房与小厨房
 
 - Clearance between opposing counters/appliances: 1015 mm (40 in) for
   U-shaped kitchens; 915 mm (36 in) for galley if only one cook at a time
@@ -375,7 +338,7 @@ See SKILL.md Section 3 for roll-in and transfer shower details.
 - Appliance controls: within reach range (380-1220 mm)
 - 50% of storage: within reach range
 
-### Section 806: Transient Lodging Guest Rooms
+### 第 806 节：短期住宿客房
 
 - Accessible route throughout room
 - Clear floor space on both sides of bed: 915 mm (36 in) minimum
@@ -384,7 +347,7 @@ See SKILL.md Section 3 for roll-in and transfer shower details.
 - Vanity: knee and toe clearance
 - Communication features: visible notification for door, phone, and alarm
 
-### Section 807: Dwelling Units
+### 第 807 节：住宅单元
 
 **Type A units (ICC A117.1):**
 - Accessible kitchen, bathroom, bedroom, living spaces
@@ -398,31 +361,23 @@ See SKILL.md Section 3 for roll-in and transfer shower details.
 - Reinforced walls in bathroom for future grab bars
 - Usable kitchen and bathroom (slightly less demanding than Type A)
 
-**Type C (visitability, ICC A117.1):**
-- Accessible entrance
-- Accessible route on main floor
-- At least one powder room (half bath) on main floor
-- Reinforced walls in all bathrooms for future grab bars
+**C 型（可访问性，ICC A117.1）：**
+- 无障碍入口
+- 主层无障碍路线
+- 主层至少 1 个盥洗室（半卫生间）
+- 所有卫生间墙体均为未来安装扶手预留加固
 
 ---
 
-## Applying ADA in Practice -- Architect's Checklist
+## ADA 实践应用——建筑师检查清单
 
-1. **Programming phase:** Identify all accessible scoping requirements
-   (parking count, entrance count, guest room count, plumbing count)
-2. **Schematic design:** Establish accessible route from site arrival to all
-   major program areas; locate elevators for accessible vertical circulation
-3. **Design development:** Detail door clearances, turning spaces, fixture
-   layouts, reach ranges, signage locations
-4. **Construction documents:** Specify grab bar blocking, pipe protection,
-   thresholds, hardware, floor finishes, signage
-5. **Construction administration:** Verify installed dimensions match design;
-   common field issues: door hardware type, grab bar height, toilet centerline,
-   counter height, ramp slopes that exceed 1:12 due to construction tolerances
+1. **编制任务书阶段：**识别所有无障碍范围要求（停车位数量、入口数量、客房数量、卫生器具数量）
+2. **方案设计阶段：**建立从场地到达点至主要功能区的无障碍路线；布置电梯实现无障碍垂直交通
+3. **设计深化阶段：**细化门净空、回转空间、器具布局、可达范围和标识位置
+4. **施工图阶段：**规定扶手预埋加固、管道防护、
+   门槛、五金、地面饰面和标识
+5. **施工管理：**核实已安装尺寸与设计一致；常见现场问题包括门五金类型、扶手高度、坐便器中心线、柜台高度，以及因施工允许偏差导致坡度超过 1:12 的坡道
 
 ---
 
-*All references are to the 2010 ADA Standards for Accessible Design unless
-otherwise noted. For federally funded projects, also verify compliance with
-ABA Standards (Architectural Barriers Act). State and local codes may impose
-additional requirements beyond ADA.*
+*除非另有说明，所有引用均指《2010 ADA 无障碍设计标准》。对于联邦资助项目，还应核实符合 ABA 标准（《建筑障碍法》）。州和地方规范可能规定超出 ADA 的附加要求。*

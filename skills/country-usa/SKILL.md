@@ -1,36 +1,23 @@
 ---
 name: country-usa
 description: >
-  United States architectural code and regulatory reference. Covers the International Code
-  Council (ICC) family of model codes adopted across most US jurisdictions (IBC 2024, IRC 2024,
-  IECC 2024, IFC 2024, IMC 2024, IPC 2024, IFGC 2024, IEBC 2024), the National Fire Protection
-  Association suite (NFPA 101 Life Safety Code 2024, NFPA 70 NEC 2023, NFPA 13 sprinklers,
-  NFPA 72 detection, NFPA 285 wall assemblies, NFPA 5000), structural standards (ASCE 7-22
-  loads, ASCE 41-23 existing, ACI 318-19 concrete, AISC 360-22 steel, ANSI/AWC NDS 2024
-  wood, TMS 402/602 masonry), accessibility (ADA 2010 Standards, ANSI A117.1-2017, Fair
-  Housing Act + HUD design manual, ABA Standards), energy (ASHRAE 90.1-2022, ASHRAE 62.1-2022,
-  ASHRAE 55-2020, ENERGY STAR), and the major state amendments (California Title 24 Parts
-  1-12 with Part 6 Energy and Part 11 CalGreen, NYC Building Code 2022 + 1968 grandfathered
-  + 2014 commercial, Florida Building Code 2023, Texas through state-by-jurisdiction adoption,
-  Chicago Construction Codes, Massachusetts 9th Edition, Washington State Energy Code) plus
-  zoning/planning realities (R/C/M zones, FAR, setback, height bonuses, LEED programs,
-  AHJ -- Authority Having Jurisdiction).
+  美国建筑规范与法规参考。涵盖国际规范委员会（ICC）模型规范系列（已被美国大多数辖区采用：IBC 2024、IRC 2024、IECC 2024、IFC 2024、IMC 2024、IPC 2024、IFGC 2024、IEBC 2024）、美国国家消防协会规范系列（NFPA 101《生命安全规范》2024、NFPA 70 NEC 2023、NFPA 13 喷淋、NFPA 72 探测、NFPA 285 墙体组件、NFPA 5000）、结构标准（ASCE 7-22 荷载、ASCE 41-23 既有建筑、ACI 318-19 混凝土、AISC 360-22 钢结构、ANSI/AWC NDS 2024 木结构、TMS 402/602 砌体）、无障碍标准（ADA 2010、ANSI A117.1-2017、《公平住房法》+ HUD 设计手册、ABA 标准）、能源标准（ASHRAE 90.1-2022、ASHRAE 62.1-2022、ASHRAE 55-2020、ENERGY STAR），以及主要州级修订（加州 Title 24 第 1-12 部分，其中第 6 部分能源、第 11 部分 CalGreen；纽约市建筑规范 2022 + 1968 年祖父条款 + 2014 年商业规范；佛罗里达建筑规范 2023；得州按州及辖区采用；芝加哥建筑规范；马萨诸塞州第 9 版；华盛顿州能源规范），并涵盖分区/规划实践（R/C/M 分区、FAR、退界、高度奖励、LEED 计划、AHJ——具有管辖权的主管机构）。
 ---
 
-# Country: United States of America
+# 国家：美利坚合众国
 
-Architectural code and regulatory reference for projects within any US state, territory, or D.C. Activate this skill on any US city/state reference, USD currency, square feet / imperial units, mention of "IBC"/"IRC"/"IECC"/"NFPA"/"ASCE 7"/"ADA"/"Title 24"/"CalGreen"/"NYC BC", state building department/AHJ references, or LEED/ENERGY STAR.
+适用于美国各州、领地和哥伦比亚特区项目的建筑规范与法规参考。当出现美国城市/州、USD 货币、平方英尺/英制单位、提及“IBC”/“IRC”/“IECC”/“NFPA”/“ASCE 7”/“ADA”/“Title 24”/“CalGreen”/“NYC BC”、州建筑部门/AHJ，或 LEED/ENERGY STAR 时，启用此技能。
 
 ---
 
-## 1. Regulatory Hierarchy
+## 1. 法规层级
 
-The US operates as **Archetype B (National Model + State/Local Adoption)** with significant local variation. There is no federal building code; the **Authority Having Jurisdiction (AHJ)** -- which may be the city, county, state, or special district -- decides which model code edition is in force and with what amendments.
+美国采用**B 型体系（国家示范规范 + 州/地方采纳）**，地方差异显著。美国没有联邦建筑规范；由**管辖机构（AHJ）**——可能是城市、县、州或特殊行政区——决定实施哪个版本的示范规范及其修订内容。
 
-### 1.1 Authority Stack
+### 1.1 主管部门体系
 
 ```
-LEVEL 1 -- MODEL CODE PUBLISHERS (no enforcement authority)
+第 1 级——示范规范发布机构（无执法权）
   International Code Council (ICC) -- IBC, IRC, IECC, IFC, IPC, IMC, IFGC, IEBC, IgCC, IWUIC
   National Fire Protection Association (NFPA) -- NFPA 101, 70, 13, 72, 285, 5000
   ASHRAE -- 90.1, 62.1, 55, 169, 189.1
@@ -43,7 +30,7 @@ LEVEL 1 -- MODEL CODE PUBLISHERS (no enforcement authority)
   ANSI -- A117.1 accessibility, others
   ASTM -- material/test standards
 
-LEVEL 2 -- FEDERAL APPLICABILITY (specific contexts)
+第 2 级——联邦适用规范（特定场景）
   ADA 2010 Standards (Department of Justice) -- enforcement civil rights
   ABA Standards (GSA) -- federal facilities + recipients of federal funds
   Fair Housing Act design + construction (HUD) -- residential
@@ -53,7 +40,7 @@ LEVEL 2 -- FEDERAL APPLICABILITY (specific contexts)
   DOD UFC -- military facilities
   NPS -- National Park Service properties
 
-LEVEL 3 -- STATE
+第 3 级——州
   State Building Code Council / DOR / Construction Department adopts model code edition
     + state amendments (e.g., California Building Standards Commission - Title 24)
   State Energy Office -- often state energy code (e.g., WA Energy Code)
@@ -62,7 +49,7 @@ LEVEL 3 -- STATE
   State Department of Health -- hospital codes (FGI Guidelines often adopted)
   State Department of Education -- school facility codes (CHPS, varies)
 
-LEVEL 4 -- LOCAL AHJ
+第 4 级——地方 AHJ
   City/County Building Department (Department of Buildings NYC, LADBS LA, etc.)
     + adopted code + local amendments
   Fire Marshal
@@ -70,7 +57,7 @@ LEVEL 4 -- LOCAL AHJ
   Planning Department (zoning, design review)
   Historic Preservation Commission (HPC) -- if in historic district
 
-LEVEL 5 -- SPECIAL DISTRICTS
+第 5 级——特殊行政区
   School districts (own facility standards)
   Transit authorities (own design criteria)
   Universities/medical centers (often own building standards)
@@ -78,170 +65,170 @@ LEVEL 5 -- SPECIAL DISTRICTS
   Tribal authorities (sovereign on reservation land)
 ```
 
-### 1.2 Code Adoption Status (Selected States, 2024-2025)
+### 1.2 规范采纳状态（选定州，2024-2025）
 
-| State | IBC Adopted | IECC Adopted | Notable Amendments |
+| 州 | 采纳的 IBC | 采纳的 IECC | 重要修订 |
 |---|---|---|---|
-| **California** | 2021 (with CA Title 24) | Title 24 Part 6 (own energy code) | Title 24 Parts 1-12; CALGreen Part 11; Tier 1/2 reach codes; Strong fire (WUI); seismic Cat C+ |
-| **Texas** | 2018-2021 varies by city (no statewide adoption) | 2015-2021 varies; mandatory through DSHS/SECO | Local amendments significant; Houston, Austin, Dallas distinct |
-| **Florida** | FBC 2023 (own custom code; IBC 2021-derived) | FBC Energy Conservation 2023 | High-Velocity Hurricane Zone (HVHZ) for Miami-Dade/Broward; wind speeds 175 mph 0.4% |
-| **New York** | NYS UBC 2020 + NYC has separate (NYC BC 2022 + 1968 grandfather + 2014 commercial) | NYS Energy Code 2020 (90.1-2019 + adds) | NYC has own zoning (Zoning Resolution 1961+amendments), NYC plumbing, NYC mechanical, NYC fuel gas |
-| **Illinois** | No statewide; Chicago has Chicago Construction Codes 2019 (IBC-based) | -- | Chicago strict |
-| **Massachusetts** | 9th Edition (2023, IBC 2021-derived) + amendments | Stretch Energy Code 2023 | Mass MAAB Accessibility ahead of ADA |
-| **Pennsylvania** | UCC IBC 2018 (transitioning to 2021) | IECC 2018 (transitioning) | -- |
-| **Washington** | WSBC 2021 (IBC 2021-derived) | WSEC 2021 (own, most stringent in US) | Seattle Energy Code stricter still |
-| **Oregon** | OSSC 2022 (IBC 2021-derived) | Oregon Energy Code | -- |
-| **Colorado** | No statewide; municipal | -- | Denver/Boulder strict |
-| **Arizona** | No statewide; municipal | -- | -- |
-| **Georgia** | IBC 2018 statewide | IECC 2015 (lags) | -- |
-| **Michigan** | MBC 2015 (transitioning 2021) | MUEC 2015 | -- |
-| **Ohio** | OBC 2017 (transitioning 2024) | -- | -- |
-| **North Carolina** | NCBC 2018 + Local | NCECC | -- |
-| **Virginia** | USBC 2018 (transitioning 2021) | VUSBC | -- |
+| **加利福尼亚州** | 2021（含CA Title 24） | Title 24第6部分（自有能源规范） | Title 24第1-12部分；CALGreen第11部分；Tier 1/2扩展规范；强制防火（WUI）；地震C类以上 |
+| **得克萨斯州** | 2018-2021，因城市而异（无全州统一采纳） | 2015-2021不一；通过DSHS/SECO强制 | 地方修订显著；休斯敦、奥斯汀、达拉斯各不相同 |
+| **佛罗里达州** | FBC 2023（自有规范，源自IBC 2021） | FBC能源节约2023 | 迈阿密-戴德/布劳沃德高风速飓风区（HVHZ）；0.4%风速175 mph |
+| **New York** | NYS UBC 2020 + NYC 独立规范（NYC BC 2022 + 1968 既有建筑 + 2014 商业） | NYS Energy Code 2020（90.1-2019 + 增补） | NYC 具有独立分区（Zoning Resolution 1961+修订）、给排水、暖通和燃气规范 |
+| **伊利诺伊州** | 无全州统一规范；芝加哥采用2019芝加哥建筑规范（基于IBC） | -- | 芝加哥要求严格 |
+| **马萨诸塞州** | 第9版（2023，源自IBC 2021）及修订 | Stretch Energy Code 2023 | 马萨诸塞州MAAB无障碍要求高于ADA |
+| **Pennsylvania** | UCC IBC 2018（过渡至 2021） | IECC 2018（过渡中） | -- |
+| **华盛顿州** | WSBC 2021（源自IBC 2021） | WSEC 2021（自有、美国最严格之一） | 西雅图能源规范更严格 |
+| **俄勒冈州** | OSSC 2022（源自IBC 2021） | 俄勒冈能源规范 | -- |
+| **科罗拉多州** | 无全州统一规范；由市政采纳 | -- | 丹佛/博尔德要求严格 |
+| **Arizona** | 无全州统一规范；由市政采用 | -- | -- |
+| **Georgia** | 全州 IBC 2018 | IECC 2015（滞后） | -- |
+| **Michigan** | MBC 2015（过渡至 2021） | MUEC 2015 | -- |
+| **Ohio** | OBC 2017（过渡至 2024） | -- | -- |
+| **North Carolina** | NCBC 2018 + 地方规范 | NCECC | -- |
+| **Virginia** | USBC 2018（过渡至 2021） | VUSBC | -- |
 
-**ALWAYS verify** current adoption status with the specific AHJ. ICC publishes a state-by-state matrix, but adoption can lag by years and local amendments significantly modify.
+**务必向具体 AHJ 核实**当前采纳状态。ICC 发布各州矩阵，但采纳可能滞后数年，地方修订也可能大幅改变规范内容。
 
 ---
 
-## 2. IBC 2024 Core Requirements
+## 2. IBC 2024 核心要求
 
-### 2.1 Occupancy Groups (IBC 2024 Ch. 3)
+### 2.1 使用组别（IBC 2024 第 3 章）
 
-| Group | Description | Subdivisions |
+| 组别 | 说明 | 子分类 |
 |---|---|---|
-| A | Assembly | A-1 (theatres, concert halls), A-2 (food/drink est), A-3 (worship, lectures, exhibits), A-4 (indoor sport), A-5 (outdoor) |
-| B | Business | (offices, professional services, banks, post offices, etc.) |
-| E | Educational | (through 12th grade -- university is B or A) |
-| F | Factory/Industrial | F-1 (moderate hazard), F-2 (low hazard) |
-| H | High Hazard | H-1 (detonation), H-2 (deflagration/accelerated burning), H-3 (oxidizers, combustibles), H-4 (toxic), H-5 (semiconductor fab) |
-| I | Institutional | I-1 (supervised personal care), I-2 (hospitals/nursing), I-3 (detention -- I-3.1-5 by escape ability), I-4 (daycare) |
-| M | Mercantile | (retail, shopping centers, etc.) |
-| R | Residential | R-1 (transient -- hotel/motel), R-2 (multi-family >2 dwelling units, not transient), R-3 (1-2 family, not classified as R-1/2/4), R-4 (small assisted living 6-16 residents) |
-| S | Storage | S-1 (moderate hazard), S-2 (low hazard) |
-| U | Utility / misc | (sheds, fences, retaining walls, agricultural buildings) |
+| A | 集会 | A-1（剧院、音乐厅）、A-2（餐饮）、A-3（礼拜、讲座、展览）、A-4（室内运动）、A-5（室外活动） |
+| B | 办公 | （办公室、专业服务、银行、邮局等） |
+| E | 教育 | （十二年级及以下；大学通常为 B 或 A） |
+| F | 工厂/工业 | F-1（中等危险）、F-2（低危险） |
+| H | 高危险 | H-1（爆炸）、H-2（爆燃/加速燃烧）、H-3（氧化剂、可燃物）、H-4（有毒）、H-5（半导体制造） |
+| I | 机构 | I-1（有人监管的个人照护）、I-2（医院/护理）、I-3（拘留——按逃生能力分 I-3.1-5）、I-4（日托） |
+| M | 商业 | （零售、购物中心等） |
+| R | 住宅 | R-1（短期住宿——酒店/汽车旅馆）、R-2（>2 套住宅单元的多户住宅，非短期）、R-3（1-2 户且不属于 R-1/2/4）、R-4（6-16 名居民的小型辅助生活设施） |
+| S | 仓储 | S-1（中等危险）、S-2（低危险） |
+| U | 公用/杂项 | （棚屋、围栏、挡土墙、农业建筑） |
 
-### 2.2 Construction Types (IBC 2024 Table 601)
+### 2.2 建筑类型（IBC 2024 表 601）
 
-| Type | Description | Frame Fire Rating | Ext. Bearing Walls | Floor | Roof |
+| 类型 | 说明 | 框架耐火时间 | 外部承重墙 | 楼板 | 屋面 |
 |---|---|---|---|---|---|
-| **IA** | Non-combustible fire-resistive | 3 hr | 3 hr | 2 hr | 1.5 hr |
-| **IB** | Non-combustible fire-resistive | 2 hr | 2 hr | 2 hr | 1 hr |
-| **IIA** | Non-combustible protected | 1 hr | 1 hr | 1 hr | 1 hr |
-| **IIB** | Non-combustible unprotected | 0 hr | 0 hr | 0 hr | 0 hr |
-| **IIIA** | Exterior non-combustible bearing + protected combustible | 1 hr | 2 hr | 1 hr | 1 hr |
-| **IIIB** | Same as IIIA but unprotected | 0 hr | 2 hr | 0 hr | 0 hr |
-| **IV-HT** | Heavy Timber (legacy, large members) | HT | 2 hr | HT | HT |
-| **IV-A** | Mass Timber (new in IBC 2021) up to 18 storeys | 3 hr fully encapsulated | 3 hr | 2 hr | 1.5 hr |
-| **IV-B** | Mass Timber up to 12 storeys, partial exposure | 2 hr partially encapsulated | 2 hr | 2 hr | 1 hr |
-| **IV-C** | Mass Timber up to 9 storeys, fully exposed | 2 hr exposed | 2 hr | 2 hr | 1 hr |
-| **VA** | Protected combustible (e.g., light wood frame) | 1 hr | 1 hr | 1 hr | 1 hr |
-| **VB** | Unprotected combustible | 0 hr | 0 hr | 0 hr | 0 hr |
+| **IA** | 不燃耐火 | 3 h | 3 h | 2 h | 1.5 h |
+| **IB** | 不燃耐火 | 2 h | 2 h | 2 h | 1 h |
+| **IIA** | 受保护不燃 | 1 h | 1 h | 1 h | 1 h |
+| **IIB** | 未受保护不燃 | 0 h | 0 h | 0 h | 0 h |
+| **IIIA** | 外部不燃承重 + 受保护可燃 | 1 h | 2 h | 1 h | 1 h |
+| **IIIB** | 与 IIIA 相同但未受保护 | 0 h | 2 h | 0 h | 0 h |
+| **IV-HT** | 重型木结构（传统，大截面构件） | HT | 2 h | HT | HT |
+| **IV-A** | 大体积木结构（IBC 2021 新增），最高 18 层 | 完全封闭 3 h | 3 h | 2 h | 1.5 h |
+| **IV-B** | 大体积木结构，最高 12 层，部分外露 | 部分封闭 2 h | 2 h | 2 h | 1 h |
+| **IV-C** | 大体积木结构，最高 9 层，完全外露 | 外露 2 h | 2 h | 2 h | 1 h |
+| **VA** | 受保护可燃（如轻型木框架） | 1 h | 1 h | 1 h | 1 h |
+| **VB** | 未受保护可燃 | 0 h | 0 h | 0 h | 0 h |
 
-### 2.3 Height & Area (IBC Table 504.3, 504.4, 506.2)
+### 2.3 高度与面积（IBC 表 504.3、504.4、506.2）
 
-A critical IBC table: maximum building height in storeys, height in feet, and area per storey by Occupancy Group + Construction Type. Sprinklers permit increases. Frontage area increase per Section 506.3. The table is too large to fully reproduce; key benchmarks:
+这是 IBC 的关键表格：按使用组别和建筑类型规定最大层数、英尺高度及每层面积。设置喷淋可增加限值，临街面面积可按第 506.3 节增加。由于完整表格较大，以下列出关键基准：
 
-| Combination | Max Storeys (sprinklered) | Max Ht (ft) | Max Area/Storey (sf) |
+| 组合 | 最大层数（设喷淋） | 最大高度（ft） | 每层最大面积（sf） |
 |---|---|---|---|
-| B (office) Type IA | 12 (unlimited area) | unlimited | unlimited |
-| B Type IB | 12 | 180 | unlimited |
-| B Type IIA | 6 | 85 | 92,500 |
-| B Type IIB | 5 | 75 | 69,000 |
-| B Type IIIA | 6 | 85 | 57,500 |
-| R-2 Type IIA | 5 | 75 | 36,000 |
-| R-2 Type IV-A (mass timber) | 18 | 270 | 108,000 |
-| R-2 Type IV-B | 12 | 180 | 72,000 |
-| R-2 Type IV-C | 8 | 85 | 36,000 |
-| M (mercantile) Type IIB | 5 | 75 | 87,500 |
+| B（办公）IA 型 | 12（面积不限） | 不限 | 不限 |
+| B 组 IB 型 | 12 | 180 | 不限 |
+| B 组 IIA 型 | 6 | 85 | 92,500 |
+| B 组 IIB 型 | 5 | 75 | 69,000 |
+| B 组 IIIA 型 | 6 | 85 | 57,500 |
+| R-2 组 IIA 型 | 5 | 75 | 36,000 |
+| R-2 组 IV-A 型（大体积木结构） | 18 | 270 | 108,000 |
+| R-2 组 IV-B 型 | 12 | 180 | 72,000 |
+| R-2 组 IV-C 型 | 8 | 85 | 36,000 |
+| M（商业）IIB 型 | 5 | 75 | 87,500 |
 
-### 2.4 High-Rise (IBC 2024 Section 403)
+### 2.4 高层建筑（IBC 2024 第 403 节）
 
-- **Definition**: a building > 75 ft (22.86 m) above lowest level of fire department vehicle access
-- Requires: sprinklers throughout (NFPA 13), Class I standpipes, smoke control for high-rise lobbies/elevator hoistways, fire command centre, emergency power, voice/alarm communication system per NFPA 72, smokeproof enclosures for stair shafts (in some configurations), pressurized stairwells (variable per smoke management strategy)
-- **Bonus**: with full sprinklers, 1-hour reduction permitted for many fire-resistance ratings
+- **定义**：建筑高度超过消防车辆可达最低地面以上 75 ft（22.86 m）
+- 要求：全楼设置喷淋（NFPA 13）、I 类立管、高层门厅/电梯井道排烟、消防控制中心、应急电源、按 NFPA 72 设置语音/报警通信系统，部分配置需设置防烟楼梯间，并根据排烟策略设置加压楼梯间
+- **优惠**：全楼设置喷淋时，许多耐火等级可减少 1 小时。
 
-### 2.5 Egress (IBC 2024 Ch. 10)
+### 2.5 疏散（IBC 2024 第 10 章）
 
-| Parameter | Value |
+| 参数 | 数值 |
 |---|---|
-| Min corridor width (>=50 occupants) | 44 in (1118 mm) |
-| Min corridor width (<50 occupants) | 36 in (914 mm) |
-| Min stair width (occupant load > 50) | 44 in (1118 mm) |
-| Stair capacity unsprinklered | 0.3 in/person (7.62 mm) |
-| Stair capacity sprinklered | 0.2 in/person (5.08 mm) |
-| Min door clear width | 32 in (813 mm) |
-| Max travel distance (B sprinklered) | 300 ft (91.4 m) |
-| Max travel distance (B unsprinklered) | 200 ft (60.96 m) |
-| Max travel distance (I-2 sprinklered) | 200 ft (60.96 m) |
-| Max common path of travel (B sprinklered) | 100 ft (30.48 m) |
-| Max common path of travel (B unsprinklered) | 75 ft (22.86 m) |
-| Max dead-end (B sprinklered) | 50 ft (15.24 m) |
-| Max dead-end (R sprinklered) | 50 ft |
+| 走道最小宽度（≥50 人） | 44 in（1118 mm） |
+| 走道最小宽度（<50 人） | 36 in（914 mm） |
+| 楼梯最小宽度（使用人数 >50） | 44 in（1118 mm） |
+| 未设喷淋楼梯容量 | 0.3 in/人（7.62 mm） |
+| 设喷淋楼梯容量 | 0.2 in/人（5.08 mm） |
+| 门最小净宽 | 32 in（813 mm） |
+| 最大疏散距离（B 类设喷淋） | 300 ft（91.4 m） |
+| 最大疏散距离（B 类未设喷淋） | 200 ft（60.96 m） |
+| 最大疏散距离（I-2 类设喷淋） | 200 ft（60.96 m） |
+| 最大共同疏散路径（B 类设喷淋） | 100 ft（30.48 m） |
+| 最大共同疏散路径（B 类未设喷淋） | 75 ft（22.86 m） |
+| 最大袋形走道（B 类设喷淋） | 50 ft（15.24 m） |
+| 最大袋形走道（R 类设喷淋） | 50 ft |
 
-### 2.6 Means of Egress -- Number of Exits (IBC Table 1006.3.4)
+### 2.6 疏散途径——出口数量（IBC 表 1006.3.4）
 
-- Most occupancies: 1 exit access OK if occupant load <= 49 AND common path <= limits AND a single exit on dwelling unit with proper provisions
-- 2 exits: 50-500 occupants typical
-- 3 exits: 501-1000
-- 4 exits: >1000
+- 大多数使用组别：当使用人数 <= 49、共同路径不超过限值，且住宅单元满足相应条件时，可采用 1 个出口通道
+- 2 个出口：通常适用于 50-500 人
+- 3 个出口：501-1000 人
+- 4 个出口：>1000 人
 
 ---
 
-## 3. Fire Code
+## 3. 消防规范
 
 ### 3.1 IFC 2024 + NFPA 101
 
-US uses both **IFC** (model fire code, ICC) and **NFPA 101 Life Safety Code 2024** as supplementary. In some states, NFPA 101 is the primary (e.g., MA, hospitals nationally adopt NFPA 99 + 101). Check AHJ.
+美国同时使用 **IFC**（ICC 示范消防规范）和 **NFPA 101《生命安全规范 2024》**作为补充规范。部分州以 NFPA 101 为主要规范（例如马萨诸塞州；医院在全国范围通常采用 NFPA 99 + 101）。应向 AHJ 核实。
 
-### 3.2 NFPA 13 (Sprinklers)
+### 3.2 NFPA 13（喷淋系统）
 
-NFPA 13:2025 (or current adopted) -- the design standard for sprinkler systems. Hazard classes Light, Ordinary 1-2, Extra 1-2. Density-area method.
+NFPA 13:2025（或当前采纳版本）是喷淋系统设计标准。危险等级包括轻危险、中危险 1-2 级和特大危险 1-2 级，采用密度-面积法。
 
-### 3.3 NFPA 285 (Wall Assemblies)
+### 3.3 NFPA 285（墙体组件）
 
-The test method for combustible components in non-combustible wall assemblies. Often required for foam-insulated walls of Type I-IV buildings. Post-Grenfell-like incidents in US (Chicago 2010s, Las Vegas) drove tightening.
+用于检验不燃墙体组件中可燃构件的试验方法。I-IV 类建筑的泡沫保温墙体通常需要进行该试验。美国发生类似格伦费尔的事故（2010 年代芝加哥、拉斯维加斯）后，要求趋于严格。
 
-### 3.4 Healthcare -- FGI Guidelines
+### 3.4 医疗建筑——FGI 指南
 
-Although not in IBC, the **Facility Guidelines Institute (FGI) Guidelines for Design and Construction of Hospitals 2022** is adopted by most state health departments as enforceable for hospital projects. Critical for room sizes, clearances, infection control.
+虽然不属于 IBC，但大多数州卫生部门将 **设施指南研究所（FGI）《医院设计与建造指南 2022》**作为医院项目的强制性依据。该指南对房间面积、净距和感染控制至关重要。
 
 ---
 
-## 4. Energy Code
+## 4. 能源规范
 
 ### 4.1 IECC 2024 + ASHRAE 90.1-2022
 
-US uses two parallel energy code regimes:
-- **IECC 2024 Commercial Provisions** OR **ASHRAE 90.1-2022** (compliance via choice; ASHRAE permitted by IECC)
-- **IECC 2024 Residential Provisions** for low-rise residential (3 storeys or less)
-- States may adopt either; California has own Title 24 Part 6 (stricter than both)
+美国采用两套并行的能源规范体系：
+- **IECC 2024 商业条文**或 **ASHRAE 90.1-2022**（可择一合规，IECC 允许采用 ASHRAE）
+- 对低层住宅（3 层及以下）采用 **IECC 2024 住宅条文**
+- 各州可采纳其中之一；加利福尼亚州另有 Title 24 第 6 部分，要求比两者更严格
 
-### 4.2 ASHRAE 169 Climate Zones (US)
+### 4.2 ASHRAE 169 气候区（美国）
 
-8 zones (1-8) + moisture sub-zones (A humid, B dry, C marine). Examples:
+分为 8 个气候区（1-8）及湿度子区（A 湿润、B 干燥、C 海洋性）。示例：
 
-| Zone | City | Description |
+| 分区 | 城市 | 说明 |
 |---|---|---|
-| 1A | Miami | Very Hot Humid |
-| 2A | Houston, Atlanta (margin), Orlando | Hot Humid |
-| 2B | Phoenix, Tucson | Hot Dry |
-| 3A | Memphis, Atlanta | Warm Humid |
-| 3B | Los Angeles, Bakersfield | Warm Dry |
-| 3C | San Francisco | Warm Marine |
-| 4A | Washington DC, Philadelphia, NYC | Mixed Humid |
-| 4B | Albuquerque | Mixed Dry |
-| 4C | Seattle, Portland OR | Mixed Marine |
-| 5A | Chicago, Boston, Detroit | Cool Humid |
-| 5B | Denver | Cool Dry |
-| 6A | Minneapolis | Cold Humid |
-| 7 | International Falls MN, Anchorage | Very Cold |
-| 8 | Fairbanks, Northern Alaska | Subarctic |
+| 1A | 迈阿密 | 炎热湿润 |
+| 2A | 休斯敦、亚特兰大（边缘）、奥兰多 | 炎热湿润 |
+| 2B | 菲尼克斯、图森 | 炎热干燥 |
+| 3A | 孟菲斯、亚特兰大 | 温暖湿润 |
+| 3B | 洛杉矶、贝克斯菲尔德 | 温暖干燥 |
+| 3C | 旧金山 | 温暖海洋性 |
+| 4A | 华盛顿特区、费城、纽约市 | 混合湿润 |
+| 4B | 阿尔伯克基 | 混合干燥 |
+| 4C | 西雅图、俄勒冈州波特兰 | 混合海洋性 |
+| 5A | 芝加哥、波士顿、底特律 | 凉爽湿润 |
+| 5B | 丹佛 | 凉爽干燥 |
+| 6A | 明尼阿波利斯 | 寒冷湿润 |
+| 7 | 明尼苏达州国际瀑布城、安克雷奇 | 严寒 |
+| 8 | 费尔班克斯、阿拉斯加北部 | 亚寒带 |
 
-### 4.3 ASHRAE 90.1-2022 -- Indicative U-values (W/m2K)
+### 4.3 ASHRAE 90.1-2022——参考 U 值（W/m2K）
 
-| Zone | Wall (Non-Res) | Roof | Floor | Window U | Window SHGC |
+| 分区 | 墙体（非住宅） | 屋面 | 楼板 | 窗 U 值 | 窗 SHGC |
 |---|---|---|---|---|---|
-| 1 | 0.81 | 0.27 | -- (no req for non-cond) | 5.0 | 0.25 |
+| 1 | 0.81 | 0.27 | --（非空调空间无要求） | 5.0 | 0.25 |
 | 2 | 0.66 | 0.22 | -- | 3.7 | 0.25 |
 | 3 | 0.51 | 0.22 | 1.06 | 2.7 | 0.25 |
 | 4 | 0.42 | 0.22 | 0.65 | 2.4 | 0.40 |
@@ -250,220 +237,220 @@ US uses two parallel energy code regimes:
 | 7 | 0.25 | 0.17 | 0.39 | 1.6 | NR |
 | 8 | 0.20 | 0.15 | 0.35 | 1.4 | NR |
 
-### 4.4 California Title 24 Part 6 (CEC, 2022 revision; 2025 next)
+### 4.4 加州 Title 24 第 6 部分（CEC，2022 修订；下一版 2025）
 
-- Stringent: requires PV on new homes (2020 onwards), heat pump water heaters in many cases (2022)
-- Zero Net Energy aspirations for residential, commercial
-- 16 California climate zones (not ASHRAE), each with own targets
+- 要求严格：新住宅自 2020 年起必须设置光伏，2022 年起许多情形要求热泵热水器
+- 住宅和商业建筑以净零能耗为目标
+- 加州划分 16 个气候区（不同于 ASHRAE），各区有独立目标
 
-### 4.5 CALGreen (Title 24 Part 11)
+### 4.5 CALGreen（Title 24 第 11 部分）
 
-Mandatory green building code for California. Categories include water reduction, low-VOC materials, construction waste diversion, EV charging readiness. Two voluntary tiers above mandatory baseline.
+加州强制性绿色建筑规范。类别包括节水、低 VOC 材料、施工废弃物分流和电动车充电准备。强制基准之上另设两个自愿等级。
 
 ---
 
-## 5. Accessibility
+## 5. 无障碍设计
 
-### 5.1 Federal Framework
+### 5.1 联邦框架
 
-- **ADA 2010 Standards for Accessible Design** -- mandatory for state/local government (Title II) and public accommodations + commercial facilities (Title III)
-- **ABA Standards (Architectural Barriers Act)** -- federal facilities + federally-funded
-- **Fair Housing Act (FHA) Design and Construction Standards** -- multi-family housing 4+ units
-- **HUD Section 504 Standards** -- HUD-funded housing (UFAS-derived)
+- **ADA 2010《无障碍设计标准》**——州/地方政府（第二章）及公共服务设施和商业设施（第三章）强制适用
+- **ABA 标准（《建筑障碍法》）**——联邦设施和联邦资助设施
+- **《公平住房法》（FHA）设计与建造标准**——4 套及以上的多户住宅
+- **HUD 第 504 条标准**——HUD 资助住宅（源自 UFAS）
 
-### 5.2 Model Code: ANSI A117.1-2017
+### 5.2 示范标准：ANSI A117.1-2017
 
-Referenced by IBC Chapter 11. Most state codes apply ANSI A117.1-2017 (current edition; A117.1-2009 still in effect in some jurisdictions). 2017 edition adds Adult Changing Stations, expanded reach ranges.
+由 IBC 第 11 章引用。多数州规范采用 ANSI A117.1-2017（现行版本；部分辖区仍采用 A117.1-2009）。2017 版新增成人更衣台并扩大了可达范围。
 
-### 5.3 Critical Dimensions
+### 5.3 关键尺寸
 
-| Element | Dimension |
+| 要素 | 尺寸 |
 |---|---|
-| Accessible route | 36 in (914 mm) clear; 60 in (1525 mm) passing space every 200 ft |
-| Door clear width | 32 in (813 mm) |
-| Ramp slope | 1:12 max (8.33%); 1:20 preferred (5%) for tactile contrast |
-| Ramp landing | 60 in (1525 mm) square; every 30 in (762 mm) rise |
-| Cross slope | 1:48 max (2%) |
-| Lift cabin (passenger) | 51 x 68 in (1295 x 1727 mm) -- centred-opening Type B |
-| Lift cabin (Type A side-opening) | 54 x 80 in (1372 x 2032 mm) |
-| Accessible WC stall | 60 x 56 in (1525 x 1422 mm) wheelchair stall |
-| Accessible WC water closet | side reach 16-18 in (406-457 mm), centerline 18 in from wall |
-| Lavatory | knee clear 27 in (686 mm); rim 34 in (864 mm) max |
-| Accessible parking | 8 ft (2440 mm) wide stall + 5 ft (1525 mm) aisle (standard); 11 ft + 5 ft (van) |
-| Van-accessible parking | 8 ft (2440 mm) + 8 ft (2440 mm) aisle (alt config) |
-| Reach -- forward unobstructed | 15 in (380) low, 48 in (1220) high |
-| Reach -- side unobstructed | 15 in (380) low, 48 in (1220) high |
+| 无障碍通路 | 净宽 36 in（914 mm）；每 200 ft 设置 60 in（1525 mm）错车空间 |
+| 门净宽 | 32 in（813 mm） |
+| 坡道坡度 | 最大 1:12（8.33%）；为形成触觉对比建议 1:20（5%） |
+| 坡道平台 | 60 in（1525 mm）见方；每升高 30 in（762 mm）设置 |
+| 横坡 | 最大 1:48（2%） |
+| 客梯轿厢 | 51 × 68 in（1295 × 1727 mm）——中置开门 B 型 |
+| 客梯轿厢（A 型侧开门） | 54 × 80 in（1372 × 2032 mm） |
+| 无障碍卫生间隔间 | 60 × 56 in（1525 × 1422 mm）轮椅隔间 |
+| 无障碍坐便器 | 侧向操作范围 16-18 in（406-457 mm），中心线距墙 18 in |
+| 洗手盆 | 膝部净空 27 in（686 mm）；台面最高 34 in（864 mm） |
+| 无障碍车位 | 宽 8 ft（2440 mm）+ 5 ft（1525 mm）通道（标准）；厢式车 11 ft + 5 ft |
+| 厢式车无障碍车位 | 8 ft（2440 mm）+ 8 ft（2440 mm）通道（替代布置） |
+| 前向无障碍可达范围 | 低位 15 in（380），高位 48 in（1220） |
+| 侧向无障碍可达范围 | 低位 15 in（380），高位 48 in（1220） |
 
-### 5.4 Provision Counts (ADA + IBC Ch. 11)
+### 5.4 配置数量（ADA + IBC 第 11 章）
 
-- **Accessible parking**: 1 per 1-25 stalls; 2 per 26-50; 3 per 51-75; etc. (IBC + ADA 208.2). 1 in every 6 must be van-accessible (or 1 in every 8 standard + 1 in every 8 van).
-- **Accessible rooms in hotels (R-1)**: 4% of first 50 + 2% of remainder, distributed across price points + bed configurations
-- **Accessible dwelling units (R-2)**: per IBC + Fair Housing Act (4+ units): 2% Type A (full mobility), 100% Type B (visitable -- covered routes, switches, doors)
-- **Assembly seating**: 1% wheelchair + adjacent companion seats, distributed
-- **Drinking fountains**: 1 high + 1 low (or single hi-lo unit) at each location
+- **无障碍车位**：1-25 个车位设置 1 个；26-50 个设置 2 个；51-75 个设置 3 个，依此类推（IBC + ADA 208.2）。每 6 个中至少 1 个应为厢式车无障碍车位（或每 8 个普通车位 + 每 8 个厢式车位各设置 1 个）。
+- **酒店无障碍客房（R-1）**：前 50 间的 4% + 其余客房的 2%，并应分布于不同价格档次和床位配置
+- **无障碍住宅单元（R-2）**：按 IBC +《公平住房法》（4 套及以上）：2% 为 A 型（完全行动无障碍），100% 为 B 型（可访问——通路、开关、门满足要求）
+- **集会座席**：1% 设置轮椅位及相邻陪同座席，并均匀分布
+- **饮水器**：每个位置设置 1 个高位 + 1 个低位，或设置 1 个高低组合式饮水器
 
-### 5.5 Fair Housing Act Design Manual (HUD)
+### 5.5 《公平住房法》设计手册（HUD）
 
-For 4+ unit residential, FHA requires:
-- Accessible building entrance (one per building min)
-- Common-use areas accessible
-- Doors wide enough (32 in clear)
-- Accessible route through dwelling unit
-- Light switches, outlets, thermostats at accessible heights
-- Reinforced bathroom walls for future grab-bar installation
-- Usable kitchens and bathrooms (clearances)
+对于 4 套及以上住宅，FHA 要求：
+- 建筑入口无障碍（每栋至少 1 个）
+- 公共使用区域无障碍
+- 门宽足够（净宽 32 in）
+- 住宅单元内设无障碍通路
+- 灯开关、插座、恒温器位于可达高度
+- 卫生间墙体加固，以便未来安装扶手
+- 厨房和卫生间可使用（净距符合要求）
 
-FHA covers all 4+ unit residential built for first occupancy after March 1991.
-
----
-
-## 6. Structural Standards
-
-### 6.1 Load Standards (ASCE 7-22)
-
-The single most-referenced US structural standard. Maps for:
-- Wind (3-second gust, Risk Categories I-IV)
-- Seismic (Sds, Sd1; ASCE 7 Site Class A-E; Seismic Design Category A-F)
-- Snow (ground snow load Pg)
-- Flood loads
-- Tsunami loads (added in ASCE 7-16+)
-- Rain
-- Ice (atmospheric)
-- Tornado (Risk Cat III-IV, added formally in ASCE 7-22)
-
-### 6.2 Concrete (ACI 318-19)
-
-Current edition. Distinct chapters for SDC A-F detailing.
-
-### 6.3 Steel (AISC 360-22)
-
-Current AISC unified specification (ASD + LRFD).
-
-### 6.4 Wood (AWC NDS 2024, SDPWS 2021)
-
-National Design Specification (NDS) for wood construction. SDPWS for wood diaphragms/shear walls. Mass timber (CLT, GLT) provisions integrated.
-
-### 6.5 Masonry (TMS 402/602-2022)
-
-Current edition. Reinforced and unreinforced.
+FHA 适用于 1991 年 3 月以后首次投入使用的所有 4 套及以上住宅。
 
 ---
 
-## 7. State Deep-Dives
+## 6. 结构标准
 
-### 7.1 New York City (NYC BC 2022 + 1968 Grandfather + 2014 Commercial)
+### 6.1 荷载标准（ASCE 7-22）
 
-NYC has its own building code (not IBC-derived directly; chapters renumbered). **NYC BC 2022** is current new construction code. **NYC BC 1968** still applies to many existing buildings. **NYC BC 2014** retroactively applies for certain commercial.
+美国引用最广泛的结构标准，规定：
+- 风荷载（3 秒阵风，风险类别 I-IV）
+- 地震（Sds、Sd1；ASCE 7 场地类别 A-E；抗震设计类别 A-F）
+- 雪荷载（地面雪荷载 Pg）
+- 洪水荷载
+- 海啸荷载（ASCE 7-16 及以后版本新增）
+- 雨荷载
+- 冰荷载（大气结冰）
+- 龙卷风（风险类别 III-IV，ASCE 7-22 正式新增）
 
-**NYC-specific**:
-- **Local Law 11/98 (Facade Safety)** -- exterior wall inspection every 5 years for buildings >6 storeys (FISP)
-- **Local Law 97 (Climate Mobilization Act)** -- emissions limits + fines for buildings >25,000 sf starting 2024
-- **Local Law 84 (Energy Benchmarking)** -- annual benchmarking for >25,000 sf
-- **Zoning Resolution 1961+amendments** -- FAR by district (R1 0.5 - R10 10.0; M+C similar); special tools (height factor, R7-2 contextual, R10 Quality Housing)
-- **Construction Codes Chapter 33** -- adjacent property protection (Mt. Sinai/Lincoln Center type)
+### 6.2 混凝土（ACI 318-19）
 
-### 7.2 California (CBC 2022 + Title 24 Parts 1-12)
+现行版本，针对 SDC A-F 设有不同的构造章节。
 
-California Title 24:
-- Part 1 -- Building Standards Administrative Code
-- Part 2 -- California Building Code (IBC + CA amendments)
-- Part 2.5 -- California Residential Code
-- Part 3 -- California Electrical Code (NEC + CA)
-- Part 4 -- California Mechanical Code
-- Part 5 -- California Plumbing Code
-- Part 6 -- California Energy Code (own)
-- Part 7 -- Elevator Safety
-- Part 8 -- Historical Building Code
-- Part 9 -- California Fire Code
-- Part 10 -- Existing Building Code
-- Part 11 -- CALGreen
-- Part 12 -- Reference Standards
+### 6.3 钢结构（AISC 360-22）
 
-**California-specific**:
-- **WUI (Wildland-Urban Interface) Code (Ch. 7A)** -- ignition-resistant construction in fire severity zones
-- **AB 38** -- defensible space + home hardening
-- **Seismic Cat C-D-E typical**; **Hospital seismic safety (OSHPD)** -- now under HCAI
-- **Title 25 (DSA) accessibility** stricter than ADA in many places
+现行 AISC 统一规范（ASD + LRFD）。
 
-### 7.3 Florida (FBC 2023)
+### 6.4 木结构（AWC NDS 2024、SDPWS 2021）
 
-- **High-Velocity Hurricane Zone (HVHZ)** -- Miami-Dade + Broward; ASCE 7 mapped 175 mph 0.4% probability (3-sec gust); special impact-resistant glazing required, Notice of Acceptance (NOA) approval process for products
-- **All Florida**: wind speed 130-180 mph design 0.4%
-- **Energy** -- FBC Energy Conservation 2023 (own; IECC-aligned)
+木结构国家设计规范（NDS）。SDPWS 用于木结构楼盖水平构件和剪力墙。已纳入大体积木结构（CLT、GLT）条文。
 
-### 7.4 Chicago Construction Codes 2019 (IBC-aligned)
+### 6.5 砌体（TMS 402/602-2022）
 
-After being unique for many decades, Chicago harmonised in 2019. Still has Chicago-specific:
-- **Construction Type modifications**
-- **Refuge area** requirements
-- **Strong fire code**
-
-### 7.5 Massachusetts (9th Edition + MAAB 521 CMR)
-
-- **9th Edition** (2023, IBC 2021-derived)
-- **521 CMR (MAAB)** -- accessibility ahead of ADA in places (stronger residential)
-- **Stretch Energy Code 2023** -- optional reach code towns adopt; effectively mandatory in many municipalities
-
-### 7.6 Washington (WSEC 2021)
-
-Considered most stringent state energy code in the US. Many requirements at IECC 2027 level applied today.
+现行版本，适用于配筋和无筋砌体。
 
 ---
 
-## 8. Application Workflow
+## 7. 州级重点说明
 
-1. **Identify AHJ** -- city, county, state, federal
-2. **Identify in-force code editions** (model code year + state/local amendments + transition status). ICC + state matrices help.
-3. **Identify special applicabilities**: ADA (any public accommodation), Fair Housing (4+ unit residential), Section 504 (HUD funds), historic district restrictions, WUI zones, flood zones
-4. **Apply IBC + IECC + IFC** (or state equivalents) for life-safety, energy, fire
-5. **Apply ASCE 7 + ACI 318 + AISC 360** for structural
-6. **Apply ADA 2010 + ANSI A117.1-2017** for accessibility (in addition to IBC Ch. 11)
-7. **Confirm seismic / wind / flood requirements** at the specific site
-8. **Cite clauses**: "IBC 2024 Section 1006.2.1, Table 1006.2.1", "ASCE 7-22 Section 26.5.1", "ADA 2010 Section 404.2.4", "ASHRAE 90.1-2022 Section 5.4", "NFPA 101-2024 Section 7.3"
+### 7.1 纽约市（NYC BC 2022 + 1968 祖父条款 + 2014 商业版）
+
+纽约市拥有自己的建筑规范（并非直接源自 IBC，章节编号也不同）。**NYC BC 2022** 是新建项目现行规范；许多既有建筑仍适用 **NYC BC 1968**；部分商业项目追溯适用 **NYC BC 2014**。
+
+**纽约市专项要求**：
+- **地方条例 11/98（外墙安全）**——超过 6 层建筑每 5 年进行一次外墙检查（FISP）
+- **地方条例 97（气候动员法）**——自 2024 年起，对超过 25,000 sf 建筑设定排放限值并处以罚款
+- **地方条例 84（能源基准）**——超过 25,000 sf 建筑每年进行能源基准申报
+- **《分区决议 1961》及修订**——按分区规定 FAR（R1 为 0.5 - R10 为 10.0；M+C 类似）；并设有高度系数、R7-2 语境式分区、R10 优质住宅等工具
+- **建筑规范第 33 章**——毗邻物业保护（如西奈山/林肯中心项目）
+
+### 7.2 加利福尼亚州（CBC 2022 + Title 24 第 1-12 部分）
+
+加州 Title 24：
+- 第 1 部分——建筑标准行政规范
+- 第 2 部分——加州建筑规范（IBC + 加州修订）
+- 第 2.5 部分——加州住宅规范
+- 第 3 部分——加州电气规范（NEC + 加州修订）
+- 第 4 部分——加州机械规范
+- 第 5 部分——加州管道规范
+- 第 6 部分——加州能源规范（独立体系）
+- 第 7 部分——电梯安全
+- 第 8 部分——历史建筑规范
+- 第 9 部分——加州消防规范
+- 第 10 部分——既有建筑规范
+- 第 11 部分——CALGreen
+- 第 12 部分——参考标准
+
+**加州专项要求**：
+- **WUI（野地-城市交界区）规范（第 7A 章）**——火灾危险区采用抗引燃构造
+- **AB 38**——防御性空间与住宅防火加固
+- **抗震类别通常为 C-D-E**；**医院抗震安全（OSHPD）**现由 HCAI 管理
+- **Title 25（DSA）无障碍要求**在许多方面严于 ADA
+
+### 7.3 佛罗里达州（FBC 2023）
+
+- **高风速飓风区（HVHZ）**——迈阿密-戴德县与布劳沃德县；按 ASCE 7 采用 175 mph、0.4% 概率（3 秒阵风）；必须采用抗冲击玻璃，产品需经过认可通知（NOA）审批
+- **全佛州**：设计风速 130-180 mph，0.4% 概率
+- **能源**——《佛州建筑规范节能 2023》（独立规范，与 IECC 协调）
+
+### 7.4 芝加哥建筑规范 2019（与 IBC 协调）
+
+芝加哥在长期独立后于 2019 年实现协调，但仍有芝加哥专项要求：
+- **建筑类型修订**
+- **避难区域**要求
+- **严格的消防规范**
+
+### 7.5 马萨诸塞州（第 9 版 + MAAB 521 CMR）
+
+- **第 9 版**（2023，源自 IBC 2021）
+- **521 CMR（MAAB）**——部分无障碍要求领先于 ADA（住宅要求更严格）
+- **2023 延伸能源规范**——地方可自愿采纳的高标准规范，在许多市镇实际上已成为强制要求
+
+### 7.6 华盛顿州（WSEC 2021）
+
+被认为是美国最严格的州能源规范，许多要求已达到 IECC 2027 水平并提前实施。
 
 ---
 
-## 9. Quick Numeric Reference
+## 8. 应用工作流
 
-| Parameter | Value | Source |
+1. **确定 AHJ**——城市、县、州或联邦
+2. **确定现行规范版本**（示范规范年份 + 州/地方修订 + 过渡状态）。可参考 ICC 与各州矩阵。
+3. **确定特殊适用范围**：ADA（任何公共服务设施）、《公平住房法》（4 套及以上住宅）、第 504 条（HUD 资金）、历史保护区限制、WUI 区、洪泛区
+4. 对生命安全、节能和消防应用 **IBC + IECC + IFC**（或州级等效规范）
+5. 结构设计应用 **ASCE 7 + ACI 318 + AISC 360**
+6. 无障碍应用 **ADA 2010 + ANSI A117.1-2017**（在 IBC 第 11 章之外另行适用）
+7. 确认具体场地的抗震、风荷载和洪水要求
+8. **引用条文**：“IBC 2024 第 1006.2.1 节、表 1006.2.1”；“ASCE 7-22 第 26.5.1 节”；“ADA 2010 第 404.2.4 节”；“ASHRAE 90.1-2022 第 5.4 节”；“NFPA 101-2024 第 7.3 节”
+
+---
+
+## 9. 快速数值参考
+
+| 参数 | 数值 | 来源 |
 |---|---|---|
-| Floor-to-floor residential R-2 | 9-10 ft (2.74-3.05 m) | Industry practice |
-| Floor-to-floor office | 12-14 ft (3.66-4.27 m) | Industry practice |
-| Hotel ceiling clear (R-1) | 7.5 ft (2.29 m) min | IBC 1208.2 |
-| Bedroom min ceiling | 7.0 ft (2.13 m) | IBC 1208.2 |
-| Corridor width (>=50 occ) | 44 in (1118 mm) | IBC 1020.3 |
-| Stair width (>=50 occ) | 44 in (1118 mm) | IBC 1011.2 |
-| Riser height | 4 in min, 7 in max (R/A/B/E/I/M) | IBC 1011.5.2 |
-| Tread depth | 11 in min | IBC 1011.5.2 |
-| Travel distance B sprinklered | 300 ft (91.4 m) | IBC 1017.2 |
-| Wall U-value (Zone 4 mass) | 0.42 W/m2K (R-13.0+R-3.8c.i.) | ASHRAE 90.1-2022 |
-| Wind speed 0.4% (NYC) | 122 mph (54.6 m/s) | ASCE 7-22 |
-| Wind speed 0.4% (Miami HVHZ) | 175 mph (78.2 m/s) | ASCE 7-22 |
-| Wind speed 0.4% (Houston) | 124 mph (55.4 m/s) | ASCE 7-22 |
-| Wind speed 0.4% (LA) | 96 mph (43 m/s) | ASCE 7-22 |
-| Ground snow load (Boston) | 40-50 psf (1.9-2.4 kN/m2) | ASCE 7-22 |
+| R-2 住宅层高 | 9-10 ft（2.74-3.05 m） | 行业实践 |
+| 办公层高 | 12-14 ft（3.66-4.27 m） | 行业实践 |
+| 酒店净高（R-1） | 最小 7.5 ft（2.29 m） | IBC 1208.2 |
+| 卧室最小净高 | 7.0 ft（2.13 m） | IBC 1208.2 |
+| 走道宽度（≥50 人） | 44 in（1118 mm） | IBC 1020.3 |
+| 楼梯宽度（≥50 人） | 44 in（1118 mm） | IBC 1011.2 |
+| 踏步高度 | 最小 4 in，最大 7 in（R/A/B/E/I/M） | IBC 1011.5.2 |
+| 踏步深度 | 最小 11 in | IBC 1011.5.2 |
+| B 类设喷淋疏散距离 | 300 ft（91.4 m） | IBC 1017.2 |
+| 墙体 U 值（4 区大体积建筑） | 0.42 W/m2K（R-13.0+R-3.8c.i.） | ASHRAE 90.1-2022 |
+| 0.4% 风速（纽约市） | 122 mph（54.6 m/s） | ASCE 7-22 |
+| 0.4% 风速（迈阿密 HVHZ） | 175 mph（78.2 m/s） | ASCE 7-22 |
+| 0.4% 风速（休斯敦） | 124 mph（55.4 m/s） | ASCE 7-22 |
+| 0.4% 风速（洛杉矶） | 96 mph（43 m/s） | ASCE 7-22 |
+| 地面雪荷载（波士顿） | 40-50 psf（1.9-2.4 kN/m2） | ASCE 7-22 |
 
 ---
 
-## 10. Authoritative Sources
+## 10. 权威来源
 
-- **International Code Council (ICC)** -- iccsafe.org -- IBC/IRC/IECC/IFC/IMC/IPC/IFGC/IEBC suite
-- **NFPA** -- nfpa.org -- NFPA 101, 70, 13, 72, 285 etc.
-- **ASHRAE** -- ashrae.org -- 90.1, 62.1, 55, 189.1
-- **ASCE** -- asce.org -- ASCE 7, ASCE 41
-- **ACI** -- concrete.org -- ACI 318
-- **AISC** -- aisc.org -- AISC 360, 341
-- **AWC** -- awc.org -- NDS, SDPWS
-- **DOJ ADA** -- ada.gov -- ADA Standards 2010
-- **HUD** -- hud.gov -- FHA Design Manual + Section 504 + UFAS
-- **GSA** -- gsa.gov -- P100 Federal Facilities Standard
-- **CA Building Standards Commission** -- bsc.ca.gov -- Title 24
-- **NYC Department of Buildings** -- nyc.gov/buildings -- NYC BC 2022
-- **Florida Building Commission** -- floridabuilding.org -- FBC 2023
-- **CDC NIOSH** -- workplace + healthcare facility guidance
-- **FGI** -- fgiguidelines.org -- Guidelines for Design and Construction (hospitals + outpatient + residential health)
-- **ENERGY STAR** -- energystar.gov
+- **国际规范委员会（ICC）**——iccsafe.org——IBC/IRC/IECC/IFC/IMC/IPC/IFGC/IEBC 系列
+- **NFPA**——nfpa.org——NFPA 101、70、13、72、285 等
+- **ASHRAE**——ashrae.org——90.1、62.1、55、189.1
+- **ASCE**——asce.org——ASCE 7、ASCE 41
+- **ACI**——concrete.org——ACI 318
+- **AISC**——aisc.org——AISC 360、341
+- **AWC**——awc.org——NDS、SDPWS
+- **美国司法部 ADA**——ada.gov——ADA 2010 标准
+- **HUD**——hud.gov——FHA 设计手册 + 第 504 条 + UFAS
+- **GSA**——gsa.gov——P100 联邦设施标准
+- **加州建筑标准委员会**——bsc.ca.gov——Title 24
+- **纽约市建筑局**——nyc.gov/buildings——NYC BC 2022
+- **佛罗里达州建筑委员会**——floridabuilding.org——FBC 2023
+- **CDC NIOSH**——工作场所与医疗设施指南
+- **FGI**——fgiguidelines.org——设计与建造指南（医院、门诊和住宅医疗）
+- **ENERGY STAR**——energystar.gov
 
 ---
 
-*Cross-references: load `building-codes` for IBC fundamentals (US is IBC's home jurisdiction); `fire-life-safety` for NFPA 101 + IFC; `accessibility-design` for ADA + ANSI A117.1 + Fair Housing; `building-sustainability` for LEED + ENERGY STAR + Passive House comparison; `structural-systems` for ASCE 7 / ACI / AISC depth; `building-services` for ASHRAE detail.*
+*交叉引用：加载 `building-codes` 了解 IBC 基础（美国是 IBC 的本土管辖区）；加载 `fire-life-safety` 了解 NFPA 101 + IFC；加载 `accessibility-design` 了解 ADA + ANSI A117.1 +《公平住房法》；加载 `building-sustainability` 了解 LEED + ENERGY STAR + 被动房对比；加载 `structural-systems` 了解 ASCE 7 / ACI / AISC 深度；加载 `building-services` 了解 ASHRAE 细节。*

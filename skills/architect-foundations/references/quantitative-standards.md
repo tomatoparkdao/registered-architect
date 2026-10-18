@@ -1,5 +1,5 @@
-# Quantitative Standards Reference
-## Architectural Design Numbers, Rules of Thumb, and Code-Derived Metrics
+# 定量标准参考
+## 建筑设计数值、经验法则与规范派生指标
 
 > Sources: Neufert Architects' Data (5th Ed.), Architectural Graphic Standards (12th Ed.),
 > IBC 2021, ASHRAE 62.1-2022, ASHRAE 90.1-2022, BS EN standards, Passive House Institute,
@@ -7,11 +7,11 @@
 
 ---
 
-## 1. HUMAN DIMENSIONAL STANDARDS
+## 1. 人体尺寸标准
 
-### 1.1 Anthropometric Data (95th Percentile Adult Male / 5th Percentile Adult Female)
+### 1.1 人体测量数据（成年男性第 95 百分位 / 成年女性第 5 百分位）
 
-| Dimension                    | Male 95th | Female 5th | Design Use                  |
+| 尺寸 | 男性第 95 百分位 | 女性第 5 百分位 | 设计用途 |
 |------------------------------|-----------|------------|-----------------------------|
 | Standing height              | 1870 mm   | 1500 mm    | Clearance above head        |
 | Standing eye height          | 1745 mm   | 1405 mm    | Signage, display placement  |
@@ -27,9 +27,9 @@
 
 Source: Neufert Ch. 1; ADA/ABA 304-308; BS 8300:2018.
 
-### 1.2 Ergonomic Working Heights
+### 1.2 人体工学工作高度
 
-| Surface                | Height (mm) | Notes                           |
+| 表面/设施 | 高度（mm） | 备注 |
 |------------------------|-------------|---------------------------------|
 | Kitchen worktop        | 850-950     | 900 standard; adjust to user    |
 | Desk (seated)          | 720-760     | 740 typical; adjustable 650-850 |
@@ -42,11 +42,11 @@ Source: Neufert Ch. 1; ADA/ABA 304-308; BS 8300:2018.
 
 ---
 
-## 2. DOOR AND OPENING DIMENSIONS
+## 2. 门与洞口尺寸
 
-### 2.1 Door Widths
+### 2.1 门宽
 
-| Type                      | Min (mm) | Standard (mm) | Notes                       |
+| 类型 | 最小值（mm） | 标准值（mm） | 备注 |
 |---------------------------|----------|---------------|-----------------------------|
 | Single leaf residential   | 762      | 900           | 838 common in US            |
 | Accessible (clear width)  | 915      | 915           | ADA 404.2.3; measured leaf  |
@@ -58,18 +58,18 @@ Source: Neufert Ch. 1; ADA/ABA 304-308; BS 8300:2018.
 | Garage (single car)       | 2400     | 2700          | Height 2100 min             |
 | Garage (double car)       | 4200     | 4800          | Height 2100 min             |
 
-### 2.2 Door Heights
+### 2.2 门高
 
-| Context       | Min (mm) | Standard (mm) | Max (mm) | Notes                    |
+| 场景 | 最小值（mm） | 标准值（mm） | 最大值（mm） | 备注 |
 |---------------|----------|---------------|----------|--------------------------|
 | Residential   | 2040     | 2100          | 2400     | 2100 code minimum        |
 | Commercial    | 2100     | 2200          | 3000     | Full height trending     |
 | Accessible    | 2032     | 2100          | --       | ADA 404.2.3              |
 | Overhead/roll | 3000     | 3600          | 5000     | Vehicle clearance driven |
 
-### 2.3 Maneuvering Clearances at Doors (ADA 404.2.4)
+### 2.3 门洞操作净空（ADA 404.2.4）
 
-| Approach Direction | Pull Side  | Push Side  |
+| 接近方向 | 拉侧 | 推侧 |
 |--------------------|------------|------------|
 | Front approach     | 1525 depth | 1220 depth |
 | Hinge approach     | 1525 depth, 915 beside | 1065 depth, 610 beside |
@@ -77,11 +77,11 @@ Source: Neufert Ch. 1; ADA/ABA 304-308; BS 8300:2018.
 
 ---
 
-## 3. STAIR AND RAMP DIMENSIONS
+## 3. 楼梯与坡道尺寸
 
-### 3.1 Stair Geometry
+### 3.1 楼梯几何尺寸
 
-| Parameter             | Min    | Optimal  | Max    | Source               |
+| 参数 | 最小值 | 优选值 | 最大值 | 来源 |
 |-----------------------|--------|----------|--------|----------------------|
 | Riser height          | 125 mm | 165 mm   | 180 mm | IBC 1011.5.2         |
 | Tread depth           | 254 mm | 280 mm   | 330 mm | IBC 1011.5.2         |
@@ -95,9 +95,9 @@ Source: Neufert Ch. 1; ADA/ABA 304-308; BS 8300:2018.
 | Max rise between landings | -- | 3660 mm  | 3660 mm| IBC 1011.8           |
 | Landing depth         | = width| = width  | --     | IBC 1011.6           |
 
-### 3.2 Ramp Geometry
+### 3.2 坡道几何尺寸
 
-| Parameter             | Min     | Optimal  | Max     | Source              |
+| 参数 | 最小值 | 优选值 | 最大值 | 来源 |
 |-----------------------|---------|----------|---------|---------------------|
 | Slope                 | --      | 1:15     | 1:12    | ADA 405.2           |
 | Cross slope           | --      | 1:50     | 1:48    | ADA 405.3           |
@@ -108,11 +108,11 @@ Source: Neufert Ch. 1; ADA/ABA 304-308; BS 8300:2018.
 
 ---
 
-## 4. CEILING HEIGHTS AND FLOOR-TO-FLOOR
+## 4. 吊顶高度与层高
 
-### 4.1 Minimum Ceiling Heights
+### 4.1 最小净高
 
-| Space Type              | Min (m) | Typical (m) | Premium (m) | Source         |
+| 空间类型 | 最小值（m） | 典型值（m） | 高端值（m） | 来源 |
 |-------------------------|---------|-------------|-------------|----------------|
 | Residential habitable   | 2.40    | 2.55-2.70   | 3.00-3.60   | IBC 1208.2     |
 | Residential non-hab     | 2.10    | 2.30        | --          | IBC 1208.2     |
@@ -128,9 +128,9 @@ Source: Neufert Ch. 1; ADA/ABA 304-308; BS 8300:2018.
 | Warehouse               | 6.00    | 8.00-10.00  | 12.00-15.00 | Neufert         |
 | Parking (clear)         | 2.10    | 2.40        | 2.70        | IBC 406.4       |
 
-### 4.2 Typical Floor-to-Floor Heights
+### 4.2 典型层高
 
-| Building Type           | Typical (m)  | Includes                          |
+| 建筑类型 | 典型值（m） | 包含内容 |
 |-------------------------|-------------- |-----------------------------------|
 | Residential apartment   | 2.80-3.10    | 150 slab + ceiling void           |
 | Office (steel frame)    | 3.60-4.00    | 600-1000 ceiling void + 150 floor |
@@ -142,11 +142,11 @@ Source: Neufert Ch. 1; ADA/ABA 304-308; BS 8300:2018.
 
 ---
 
-## 5. STRUCTURAL RULES OF THUMB
+## 5. 结构经验法则
 
-### 5.1 Span-to-Depth Ratios
+### 5.1 跨高比
 
-| Element                        | Simply Supported | Continuous  | Cantilever | Source          |
+| 构件 | 简支 | 连续 | 悬臂 | 来源 |
 |--------------------------------|-----------------|-------------|------------|-----------------|
 | RC one-way slab                | L/28            | L/32        | L/10       | ACI 318 Table 9.3.1.1 |
 | RC two-way slab (flat plate)   | L/30            | L/33        | L/8        | ACI 318         |
@@ -165,9 +165,9 @@ Source: Neufert Ch. 1; ADA/ABA 304-308; BS 8300:2018.
 | Precast double-tee             | L/25-L/30       | --          | --         | PCI manual      |
 | Composite steel deck slab      | L/28-L/32       | --          | --         | SDI manual      |
 
-### 5.2 Typical Column Sizes (Square RC, Normal Loads)
+### 5.2 典型柱截面尺寸（方形钢筋混凝土柱，正常荷载）
 
-| Storeys Supported | Light Load (5 kPa) | Medium (7.5 kPa) | Heavy (10+ kPa) |
+| 支承楼层数 | 轻荷载（5 kPa） | 中荷载（7.5 kPa） | 重荷载（10+ kPa） |
 |-------------------|--------------------|--------------------|-----------------|
 | 1-3               | 300 x 300 mm      | 350 x 350 mm      | 400 x 400 mm   |
 | 4-8               | 400 x 400 mm      | 450 x 450 mm      | 500 x 500 mm   |
@@ -177,9 +177,9 @@ Source: Neufert Ch. 1; ADA/ABA 304-308; BS 8300:2018.
 
 Note: Highly dependent on concrete grade (C30-C60), reinforcement ratio (1-4%), and slenderness.
 
-### 5.3 Typical Span Ranges by System
+### 5.3 各体系典型跨度范围
 
-| System                          | Economic Span (m) | Maximum Span (m) |
+| 体系 | 经济跨度（m） | 最大跨度（m） |
 |---------------------------------|-------------------|-------------------|
 | RC flat slab                    | 6-9               | 12                |
 | RC beam-slab                    | 6-12              | 15                |
@@ -194,9 +194,9 @@ Note: Highly dependent on concrete grade (C30-C60), reinforcement ratio (1-4%), 
 | CLT floor                       | 4-8               | 10                |
 | Timber I-joist                  | 4-7               | 9                 |
 
-### 5.4 Foundation Rules of Thumb
+### 5.4 基础经验法则
 
-| Foundation Type      | Bearing Capacity Assumed | Depth Rule          | Notes                  |
+| 基础类型 | 假定承载力 | 深度规则 | 备注 |
 |----------------------|--------------------------|---------------------|------------------------|
 | Strip footing        | 75-150 kPa              | Width = 2-3x wall   | For loadbearing walls  |
 | Pad footing          | 100-300 kPa             | Depth = 1-1.5x size | Isolated columns       |
@@ -207,11 +207,11 @@ Note: Highly dependent on concrete grade (C30-C60), reinforcement ratio (1-4%), 
 
 ---
 
-## 6. ENVIRONMENTAL AND ENERGY TARGETS
+## 6. 环境与能源目标
 
-### 6.1 U-Values (W/m2K) by Climate Zone
+### 6.1 按气候区划分的 U 值（W/m²K）
 
-| Element          | CZ 1-2 (Hot) | CZ 3-4 (Mixed) | CZ 5-6 (Cold) | CZ 7-8 (Very Cold) | Passive House |
+| 要素 | CZ 1–2（炎热） | CZ 3–4（混合） | CZ 5–6（寒冷） | CZ 7–8（严寒） | Passive House |
 |------------------|---------------|-----------------|----------------|---------------------|---------------|
 | External wall    | 0.70          | 0.45            | 0.32           | 0.25                | 0.10-0.15     |
 | Roof             | 0.35          | 0.27            | 0.20           | 0.15                | 0.10-0.15     |
@@ -221,9 +221,9 @@ Note: Highly dependent on concrete grade (C30-C60), reinforcement ratio (1-4%), 
 
 Sources: ASHRAE 90.1-2022 Table 5.5; Passive House Institute criteria.
 
-### 6.2 Solar Heat Gain Coefficient (SHGC) / g-value
+### 6.2 太阳得热系数（SHGC）/ g 值
 
-| Orientation / Climate      | Max SHGC (Hot) | Max SHGC (Mixed) | Min SHGC (Cold) | Notes              |
+| 朝向/气候 | 最大 SHGC（炎热） | 最大 SHGC（混合） | 最小 SHGC（寒冷） | 备注 |
 |----------------------------|---------------- |-------------------|------------------|--------------------|
 | South (N.Hem) / passive    | 0.25            | 0.40              | 0.50-0.60        | Maximize winter gain|
 | West / East (all)          | 0.25            | 0.25-0.35         | 0.40             | Control afternoon  |
@@ -232,9 +232,9 @@ Sources: ASHRAE 90.1-2022 Table 5.5; Passive House Institute criteria.
 
 Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equivalent metrics).
 
-### 6.3 Daylight Factor Targets
+### 6.3 采光系数目标
 
-| Space Type              | Minimum DF | Recommended DF | Source            |
+| 空间类型 | 最小 DF | 建议 DF | 来源 |
 |-------------------------|-----------|----------------|-------------------|
 | Residential living      | 1.5%      | 2.0%+          | BS 8206-2         |
 | Residential kitchen     | 1.5%      | 2.0%+          | BS 8206-2         |
@@ -247,9 +247,9 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 | Art studio / lab        | 4.0%      | 5.0-8.0%       | Neufert           |
 | Corridor / circulation  | 0.5%      | 1.0%           | --                |
 
-### 6.4 Illuminance Levels (lux) per EN 12464-1 / CIBSE SLL
+### 6.4 按 EN 12464-1 / CIBSE SLL 的照度水平（lux）
 
-| Space Type              | Min (lux) | Maintained (lux) | Notes                |
+| 空间类型 | 最小值（lux） | 维持值（lux） | 备注 |
 |-------------------------|-----------|-------------------|----------------------|
 | Corridor/circulation    | 50        | 100               | Emergency: 1 lux     |
 | Stairway                | 100       | 150               |                      |
@@ -269,11 +269,11 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 
 ---
 
-## 7. VENTILATION RATES (ASHRAE 62.1-2022)
+## 7. 通风量（ASHRAE 62.1-2022）
 
-### 7.1 Outdoor Air Requirements
+### 7.1 室外空气要求
 
-| Space Type                | Per Person (L/s) | Per Area (L/s/m2) | Default Density (m2/person) |
+| 空间类型 | 每人（L/s） | 每面积（L/s/m²） | 默认密度（m²/人） |
 |---------------------------|-------------------|--------------------|-----------------------------|
 | Office                    | 2.5               | 0.3                | 20                          |
 | Conference/meeting        | 2.5               | 0.3                | 5                           |
@@ -291,9 +291,9 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 | Corridor                 | --                | 0.3                | --                          |
 | Parking garage           | --                | 3.8                | --                          |
 
-### 7.2 Extract/Exhaust Rates (Intermittent/Continuous)
+### 7.2 排风量（间歇/连续）
 
-| Space                    | Intermittent (L/s) | Continuous (L/s)  | Source             |
+| 空间 | 间歇（L/s） | 连续（L/s） | 来源 |
 |--------------------------|--------------------|--------------------|---------------------|
 | Kitchen (domestic)       | 50-60              | 12                 | ADF Part F / 62.2   |
 | Bathroom (domestic)      | 25                 | 8                  | ADF Part F / 62.2   |
@@ -304,11 +304,11 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 
 ---
 
-## 8. INTERNAL HEAT GAINS
+## 8. 室内得热
 
-### 8.1 People
+### 8.1 人员
 
-| Activity Level           | Sensible (W) | Latent (W) | Total (W) | Source        |
+| 活动水平 | 显热（W） | 潜热（W） | 总热量（W） | 来源 |
 |--------------------------|-------------- |------------|-----------|---------------|
 | Seated, at rest          | 60            | 40         | 100       | ASHRAE Fund.  |
 | Seated, light work       | 70            | 45         | 115       | ASHRAE Fund.  |
@@ -318,9 +318,9 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 | Heavy work/exercise      | 110           | 185        | 295       | ASHRAE Fund.  |
 | Dancing                  | 90            | 160        | 250       | ASHRAE Fund.  |
 
-### 8.2 Equipment and Lighting
+### 8.2 设备与照明
 
-| Item / Space Type              | Power Density        | Notes                        |
+| 项目/空间类型 | 功率密度 | 备注 |
 |--------------------------------|----------------------|------------------------------|
 | Office lighting (LED)          | 8-12 W/m2            | Target 8 for LEED/BREEAM    |
 | Retail lighting                | 12-18 W/m2           | Display-heavy: 20+          |
@@ -336,11 +336,11 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 
 ---
 
-## 9. OCCUPANCY LOADS AND EGRESS
+## 9. 使用人数荷载与疏散
 
-### 9.1 Occupant Load Factors (IBC Table 1004.5)
+### 9.1 使用人数系数（IBC 表 1004.5）
 
-| Use                                | Area per Occupant (m2) | Notes                         |
+| 用途 | 每人面积（m²） | 备注 |
 |------------------------------------|------------------------|-------------------------------|
 | Assembly, concentrated (no seats)  | 0.65 net               | Dance floor, standing event   |
 | Assembly, standing                 | 0.46 net               | Standing room only            |
@@ -362,9 +362,9 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 | Swimming pool (water surface)      | 4.6 gross              |                               |
 | Swimming pool (deck)               | 2.8 gross              |                               |
 
-### 9.2 Egress Width Requirements (IBC 1005)
+### 9.2 疏散宽度要求（IBC 1005）
 
-| Component         | Stairway Factor    | Other Factor      | Notes                      |
+| 构成要素 | 楼梯系数 | 其他系数 | 备注 |
 |-------------------|--------------------|-------------------|----------------------------|
 | Without sprinkler | 7.6 mm/occupant    | 5.1 mm/occupant   | From IBC 1005.1            |
 | With sprinkler    | 5.1 mm/occupant    | 3.8 mm/occupant   | Reduced with sprinkler     |
@@ -372,9 +372,9 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 | Min corridor      | --                 | 1120 mm           | IBC 1020.2 (>50 occupants)|
 | Min door           | --                 | 815 mm clear      | IBC 1010.1.1               |
 
-### 9.3 Maximum Travel Distances (IBC Table 1017.2)
+### 9.3 最大疏散距离（IBC 表 1017.2）
 
-| Occupancy Group | Unsprinklered (m) | Sprinklered (m) |
+| 使用组别 | 无喷淋（m） | 有喷淋（m） |
 |-----------------|-------------------|-----------------|
 | A, E, F-1, M, R, S-1 | 61          | 76              |
 | B               | 61                | 91              |
@@ -385,9 +385,9 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 | I-1             | 61                | 76              |
 | I-2             | 46                | 61              |
 
-### 9.4 Common Path of Egress (IBC Table 1006.2.1)
+### 9.4 疏散共用路径（IBC 表 1006.2.1）
 
-| Occupancy | Max Common Path (m) | Notes                    |
+| 使用性质 | 最大共用路径（m） | 备注 |
 |-----------|---------------------|--------------------------|
 | A, E      | 23 (sprinklered)    |                          |
 | B         | 30 (sprinklered)    | 23 unsprinklered         |
@@ -397,9 +397,9 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 
 ---
 
-## 10. FIRE RESISTANCE RATINGS (IBC TABLE 601)
+## 10. 耐火等级（IBC 表 601）
 
-### 10.1 Required Fire Resistance (hours)
+### 10.1 要求耐火时间（小时）
 
 | Element              | Type IA | Type IB | Type IIA | Type IIB | Type IIIA | Type IIIB | Type IV-A | Type IV-B | Type VA | Type VB |
 |----------------------|---------|---------|----------|----------|-----------|-----------|-----------|-----------|---------|---------|
@@ -409,9 +409,9 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 | Floor construction   | 2       | 2       | 1        | 0        | 1         | 0         | 2         | 2         | 1       | 0       |
 | Roof construction    | 1.5     | 1       | 1        | 0        | 1         | 0         | 1.5       | 1         | 1       | 0       |
 
-### 10.2 Common Fire Separation Requirements
+### 10.2 常见防火分隔要求
 
-| Condition                              | Min Rating (hr) | Source           |
+| 条件 | 最小等级（小时） | 来源 |
 |----------------------------------------|-----------------|------------------|
 | Dwelling-dwelling (party wall)         | 1               | IBC 706/708      |
 | Corridor wall (Group I-2)              | 1 (smoke)       | IBC 407          |
@@ -425,11 +425,11 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 
 ---
 
-## 11. ACOUSTIC PERFORMANCE
+## 11. 声学性能
 
-### 11.1 Airborne Sound Insulation (STC / Rw)
+### 11.1 空气声隔声（STC / Rw）
 
-| Adjacency                       | Min STC | Recommended Rw | Source                |
+| 相邻关系 | 最小 STC | 建议 Rw | 来源 |
 |---------------------------------|---------|-----------------|-----------------------|
 | Dwelling to dwelling (wall)     | 50      | 53-56           | IBC 1207 / ADE Part E|
 | Dwelling to dwelling (floor)    | 50      | 53-56           | IBC 1207 / ADE Part E|
@@ -442,9 +442,9 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 | Music room to adjacent          | 55      | 60-65           | BB93                  |
 | Plant room to occupied          | 55      | 55-60           | CIBSE Guide B         |
 
-### 11.2 Impact Sound Insulation (IIC / Ln,w)
+### 11.2 撞击声隔声（IIC / Ln,w）
 
-| Adjacency                       | Min IIC | Target Ln,w    | Source                |
+| 相邻关系 | 最小 IIC | 目标 Ln,w | 来源 |
 |---------------------------------|---------|----------------|-----------------------|
 | Dwelling floor above dwelling   | 50      | 53 (max)       | IBC 1207 / ADE Part E|
 | Hotel floor above room          | 55      | 48 (max)       | Industry standard     |
@@ -453,9 +453,9 @@ Note: g-value (European) approximately equals SHGC x 1.0 (they are nearly equiva
 
 Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 
-### 11.3 Reverberation Time (RT60) Targets
+### 11.3 混响时间（RT60）目标
 
-| Space Type                | Min (s) | Optimal (s) | Max (s) | Frequency Range |
+| 空间类型 | 最小值（s） | 优选值（s） | 最大值（s） | 频率范围 |
 |---------------------------|---------|-------------|---------|-----------------|
 | Classroom (primary)       | 0.4     | 0.6         | 0.8     | 500 Hz-2 kHz    |
 | Classroom (secondary)     | 0.5     | 0.6-0.8     | 1.0     | 500 Hz-2 kHz    |
@@ -469,9 +469,9 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 | Restaurant                | 0.5     | 0.6-0.9     | 1.0     | Atmosphere       |
 | Hospital ward             | 0.5     | 0.6-0.8     | 1.0     | Comfort          |
 
-### 11.4 Background Noise Criteria
+### 11.4 背景噪声指标
 
-| Space Type                | NR / NC Rating | Notes                        |
+| 空间类型 | NR / NC 等级 | 备注 |
 |---------------------------|----------------|------------------------------|
 | Bedroom (residential)     | NR 25 / NC 25  | CIBSE Guide B                |
 | Living room               | NR 30 / NC 30  | CIBSE Guide B                |
@@ -489,11 +489,11 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 
 ---
 
-## 12. MEP SPACE ALLOWANCES
+## 12. 机电空间预留
 
-### 12.1 Plant Room / Mechanical Space (% of GFA)
+### 12.1 设备房/机械空间（占 GFA 百分比）
 
-| Building Type         | Min %  | Typical %  | Notes                              |
+| 建筑类型 | 最小比例 | 典型比例 | 备注 |
 |-----------------------|--------|------------|------------------------------------|
 | Office (AC)           | 5%     | 6-8%       | Higher with central plant          |
 | Office (naturally vent)| 2%    | 3-4%       | Minimal HVAC                       |
@@ -506,9 +506,9 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 | School                | 4%     | 5-7%       | Plant rooms + boiler/chiller       |
 | Museum/gallery        | 6%     | 8-10%      | Climate control critical           |
 
-### 12.2 Electrical Space
+### 12.2 电气空间
 
-| Component              | Allowance             | Notes                            |
+| 构成要素 | 预留面积 | 备注 |
 |------------------------|-----------------------|----------------------------------|
 | Main switchroom        | 25-50 m2              | Per 10,000 m2 GFA               |
 | Sub-distribution       | 5-10 m2 per floor     | Adjacent to core                 |
@@ -518,9 +518,9 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 | Comms/server room      | 10-20 m2 per floor    | Temperature controlled           |
 | Total electrical GFA   | 2-3% GFA              | All electrical spaces combined   |
 
-### 12.3 Ceiling Voids and Risers
+### 12.3 吊顶空腔与管井
 
-| Building Type         | Ceiling Void (mm) | Floor Void (mm) | Notes                        |
+| 建筑类型 | 吊顶空腔（mm） | 楼板空腔（mm） | 备注 |
 |-----------------------|-------------------|-----------------|------------------------------|
 | Residential           | 150-400           | 0-100           | Minimal services             |
 | Office (standard)     | 400-600           | 50-150          | Cable management              |
@@ -531,9 +531,9 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 | Retail (ground)       | 400-600           | 0               | Exposed ceiling trending     |
 | Hotel                 | 250-400           | 0               | Compact FCU systems          |
 
-### 12.4 Riser Shafts
+### 12.4 管井
 
-| Service Type          | Size per Floor       | Notes                             |
+| 服务类型 | 每层尺寸 | 备注 |
 |-----------------------|----------------------|-----------------------------------|
 | HVAC duct riser       | 0.5-1.5 m2          | Depends on system type            |
 | Plumbing/drainage     | 0.3-0.5 m2          | Per wet core                      |
@@ -546,11 +546,11 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 
 ---
 
-## 13. PARKING
+## 13. 停车
 
-### 13.1 Parking Ratios (Typical Zoning Minimums)
+### 13.1 停车比例（典型分区最低值）
 
-| Use                  | Urban (per 100m2 GFA) | Suburban          | Notes                        |
+| 用途 | 城市（每 100m² GFA） | 郊区 | 备注 |
 |----------------------|-----------------------|-------------------|------------------------------|
 | Office               | 1.0-2.0 spaces        | 2.5-4.0 spaces    | Trend: reduce/eliminate      |
 | Retail               | 2.0-3.0 spaces        | 4.0-5.0 spaces    | Anchor tenant higher         |
@@ -561,9 +561,9 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 | Restaurant           | 5-10 per 100m2        | 10-15 per 100m2   | High turnover                |
 | Industrial/warehouse | 0.5-1.0 per 100m2     | 1.0-2.0 per 100m2 | Truck loading separate       |
 
-### 13.2 Parking Stall and Aisle Dimensions
+### 13.2 停车位与车道尺寸
 
-| Type                 | Width (mm) | Length (mm) | Aisle Width (mm) | Notes              |
+| 类型 | 宽度（mm） | 长度（mm） | 车道宽度（mm） | 备注 |
 |----------------------|------------|-------------|-------------------|--------------------|
 | Standard (90 deg)    | 2400-2500  | 5400-5500   | 7200-7300         | Most common        |
 | Compact (90 deg)     | 2200-2400  | 4600-4800   | 6600-7000         | Max 15-30% of total|
@@ -574,9 +574,9 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 | Bicycle              | 600        | 1800        | 1500 (aisle)      | Sheffield stand    |
 | Motorcycle           | 1200       | 2400        | 3000              | Grouped preferred  |
 
-### 13.3 Ramp and Drive Geometry
+### 13.3 坡道与车行几何
 
-| Element              | Value        | Notes                                   |
+| 要素 | 数值 | 备注 |
 |----------------------|--------------|-----------------------------------------|
 | Ramp slope (max)     | 1:6 (17%)   | Preferred 1:8 (12.5%)                   |
 | Ramp width (1-way)   | 3000-3600 mm | Plus clearance to walls                 |
@@ -588,11 +588,11 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 
 ---
 
-## 14. ELEVATOR SIZING
+## 14. 电梯尺寸
 
-### 14.1 Number of Elevators Rule of Thumb
+### 14.1 电梯数量经验法则
 
-| Building Type     | Population Basis     | Elevators per Population | Interval Target   |
+| 建筑类型 | 人口基准 | 每人口对应电梯数 | 间隔目标 |
 |-------------------|---------------------|--------------------------|-------------------|
 | Office (prestige) | 1 per 10-12 m2 NFA  | 1 per 200-250 persons    | 20-25 seconds     |
 | Office (standard) | 1 per 12-15 m2 NFA  | 1 per 250-350 persons    | 25-35 seconds     |
@@ -601,9 +601,9 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 | Hospital          | --                  | 2-3 per 100 beds         | < 30 seconds      |
 | Retail            | Based on occupancy   | 1 per 5000-8000 m2       | Escalators primary|
 
-### 14.2 Elevator Shaft Dimensions (Typical)
+### 14.2 电梯井道典型尺寸
 
-| Capacity          | Shaft Width (mm) | Shaft Depth (mm) | Door Width (mm) | Notes          |
+| 载重量/人数 | 井道宽度（mm） | 井道深度（mm） | 门宽（mm） | 备注 |
 |-------------------|------------------|-------------------|-----------------|----------------|
 | 8 person (630 kg) | 1600-1700        | 1700-1800         | 800             | Min residential|
 | 13 person (1000kg)| 1900-2100        | 2100-2200         | 900-1000        | Standard office|
@@ -613,9 +613,9 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 | Goods (2500kg)    | 2600-3000        | 3000-3200         | 1500            | Service core   |
 | Firefighter       | 2000-2200        | 2400-2600         | 1100            | Dedicated shaft|
 
-### 14.3 Pit and Overrun
+### 14.3 底坑与顶层净空
 
-| Speed (m/s) | Pit Depth (mm) | Overrun Height (mm) | Notes              |
+| 速度（m/s） | 底坑深度（mm） | 顶层净空高度（mm） | 备注 |
 |-------------|----------------|----------------------|--------------------|
 | 1.0         | 1200-1400      | 3600-3800            | Low-rise typical   |
 | 1.6         | 1400-1600      | 3800-4200            | Mid-rise typical   |
@@ -624,11 +624,11 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 
 ---
 
-## 15. LOADING AND SERVICE
+## 15. 装卸与服务
 
-### 15.1 Loading Dock Dimensions
+### 15.1 装卸平台尺寸
 
-| Element                   | Dimension        | Notes                              |
+| 要素 | 尺寸 | 备注 |
 |---------------------------|------------------|------------------------------------|
 | Dock door width           | 2400-3000 mm     | 3000 standard for articulated      |
 | Dock door height          | 3600-4200 mm     | 4200 for large trucks              |
@@ -638,9 +638,9 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 | Bay spacing (center-center)| 3600-4000 mm    | Minimum for adjacent bays          |
 | Turning radius (artic.)   | 12000-13500 mm   | Inside radius                      |
 
-### 15.2 Waste Storage Allowances
+### 15.2 垃圾存储预留
 
-| Building Type        | Allowance                | Notes                           |
+| 建筑类型 | 预留量 | 备注 |
 |----------------------|--------------------------|---------------------------------|
 | Office               | 10-15 L per person/week  | 3-5 bin types (recycling)       |
 | Residential          | 60-100 L per unit/week   | Based on household size         |
@@ -650,9 +650,9 @@ Note: IIC is a higher-is-better rating; Ln,w is lower-is-better.
 
 Bin store area: typically 5-15 m2 per 1000 m2 GFA, accessible to collection vehicles.
 
-### 15.3 Delivery and Service Vehicle Tracking
+### 15.3 配送与服务车辆轨迹
 
-| Vehicle Type           | Length (m) | Width (m) | Height (m) | Turning Circle (m) |
+| 车辆类型 | 长度（m） | 宽度（m） | 高度（m） | 转弯直径（m） |
 |------------------------|-----------|-----------|------------|---------------------|
 | Transit van            | 5.5-6.0   | 2.0       | 2.5        | 11.0-12.0           |
 | 7.5t rigid truck       | 7.5-8.0   | 2.3       | 3.2        | 14.0-15.0           |
@@ -665,11 +665,11 @@ Bin store area: typically 5-15 m2 per 1000 m2 GFA, accessible to collection vehi
 
 ---
 
-## 16. MISCELLANEOUS CRITICAL NUMBERS
+## 16. 其他关键数值
 
-### 16.1 Structural Live Loads (IBC Table 1607.1 / EN 1991-1-1)
+### 16.1 结构活荷载（IBC 表 1607.1 / EN 1991-1-1）
 
-| Use                       | IBC (kPa) | EN (kPa) | Notes                     |
+| 用途 | IBC（kPa） | EN（kPa） | 备注 |
 |---------------------------|-----------|----------|---------------------------|
 | Residential               | 1.9       | 1.5-2.0  | Habitable rooms           |
 | Office (general)          | 2.4       | 2.5-3.0  | Open plan and cellular    |
@@ -687,88 +687,88 @@ Bin store area: typically 5-15 m2 per 1000 m2 GFA, accessible to collection vehi
 | Roofs (ordinary)          | 1.0       | 0.6-1.0  | Plus snow/rain loads      |
 | Balconies                 | 2.9       | 2.5-4.0  | Edge concentration        |
 
-### 16.2 Toilet Provision (IPC / BS 6465-1:2006+A1:2009)
+### 16.2 卫生器具配置（IPC / BS 6465-1:2006+A1:2009）
 
-| Building Type    | Male WC  | Male Urinal | Female WC | Notes (per x persons)    |
+| 建筑类型 | 男厕 | 男小便器 | 女厕 | 备注（每 x 人） |
 |------------------|----------|-------------|-----------|--------------------------|
-| Office (1-15)    | 1        | 1           | 1         | Per 15 persons           |
-| Office (16-30)   | 1        | 1           | 2         | Male and female separate |
-| Office (31-45)   | 2        | 1           | 2         |                          |
-| Office (46-60)   | 2        | 2           | 3         |                          |
-| Office (61-80)   | 2        | 2           | 3         |                          |
-| Assembly (100)   | 1        | 2           | 3         | Female ratio higher      |
-| Assembly (250)   | 2        | 4           | 8         | Events: temporary add    |
-| Restaurant (100) | 1        | 2           | 3         | Plus accessible          |
+| 办公（1–15 人） | 1 | 1 | 1 | 每 15 人 |
+| 办公（16–30 人） | 1 | 1 | 2 | 男女分设 |
+| 办公（31–45 人） | 2 | 1 | 2 | |
+| 办公（46–60 人） | 2 | 2 | 3 | |
+| 办公（61–80 人） | 2 | 2 | 3 | |
+| 集会（100 人） | 1 | 2 | 3 | 女性比例较高 |
+| 集会（250 人） | 2 | 4 | 8 | 活动临时增加 |
+| 餐厅（100 人） | 1 | 2 | 3 | 另设无障碍设施 |
 
-Accessible WC: minimum 1 per gender per floor; unisex accessible at least 1 per floor.
-Ambulant disabled cubicle: 1 per 3 standard cubicles. Dimensions: 800 x 1500 mm minimum.
-Accessible WC room: minimum 1500 x 2200 mm (BS 8300) or 1525 x 1525 mm clear (ADA).
+无障碍卫生间：每层每性别至少 1 个；每层至少设置 1 个男女通用无障碍卫生间。
+行动障碍者隔间：每 3 个标准隔间设置 1 个。尺寸最小 800 × 1500 mm。
+无障碍卫生间面积：最小 1500 × 2200 mm（BS 8300），或净空间 1525 × 1525 mm（ADA）。
 
-### 16.3 Key Thermal Bridging Psi-Values (W/mK)
+### 16.3 关键热桥 Psi 值（W/mK）
 
-| Junction                     | Default | Good Practice | Best Practice |
+| 节点 | 默认值 | 良好做法 | 最佳做法 |
 |------------------------------|---------|---------------|---------------|
-| Steel lintel at window       | 0.50    | 0.15          | 0.04          |
-| Window sill                  | 0.16    | 0.08          | 0.02          |
-| Window jamb                  | 0.15    | 0.06          | 0.01          |
-| Ground floor / wall          | 0.32    | 0.16          | 0.05          |
-| Corner (external)            | 0.15    | 0.09          | 0.02          |
-| Roof / wall                  | 0.24    | 0.12          | 0.04          |
-| Balcony (uninsulated)        | 1.00    | 0.20          | 0.04          |
-| Party wall / external wall   | 0.20    | 0.08          | 0.02          |
+| 窗上钢过梁 | 0.50 | 0.15 | 0.04 |
+| 窗台 | 0.16 | 0.08 | 0.02 |
+| 窗侧 | 0.15 | 0.06 | 0.01 |
+| 首层地面/墙体 | 0.32 | 0.16 | 0.05 |
+| 外角 | 0.15 | 0.09 | 0.02 |
+| 屋面/墙体 | 0.24 | 0.12 | 0.04 |
+| 阳台（无保温） | 1.00 | 0.20 | 0.04 |
+| 分户墙/外墙 | 0.20 | 0.08 | 0.02 |
 
 Source: BRE IP 1/06; Accredited Construction Details (UK); PHI certification limits.
 
-### 16.4 Airtightness Targets
+### 16.4 气密性目标
 
-| Standard                    | Target (m3/hr/m2 @ 50Pa) | Equivalent ACH50 (typical) |
+| 标准 | 目标值（50 Pa 下 m³/h/m²） | 等效 ACH50（典型） |
 |-----------------------------|---------------------------|----------------------------|
-| Building Regs England 2021  | 8.0                       | ~7-8                       |
-| Building Regs England (new) | 5.0                       | ~4-5                       |
-| Best practice UK            | 3.0                       | ~2.5-3                     |
-| Passive House               | 0.6 ACH50                 | 0.6                        |
-| EnerPHit (retrofit)         | 1.0 ACH50                 | 1.0                        |
-| ASHRAE 90.1-2022            | 2.0 L/s/m2 @ 75 Pa       | ~3-4 ACH50 equivalent      |
+| 英格兰建筑法规 2021 | 8.0 | 约 7–8 |
+| 英格兰建筑法规（新建） | 5.0 | 约 4–5 |
+| 英国最佳实践 | 3.0 | 约 2.5–3 |
+| Passive House | 0.6 ACH50 | 0.6 |
+| EnerPHit（改造） | 1.0 ACH50 | 1.0 |
+| ASHRAE 90.1-2022 | 50 Pa 下 2.0 L/s/m² | 约 3–4 ACH50 等效值 |
 
 ---
 
-## 17. QUICK REFERENCE: AREA PER PERSON BENCHMARKS
+## 17. 快速参考：人均面积基准
 
-### 17.1 Net Usable Area per Person (Programming)
+### 17.1 人均净可用面积（功能策划）
 
-| Space Type              | Min (m2/person) | Typical (m2/person) | Notes                 |
+| 空间类型 | 最小值（m²/人） | 典型值（m²/人） | 备注 |
 |-------------------------|-----------------|---------------------|-----------------------|
-| Open plan office        | 6               | 8-10                | Desk + share of circ  |
-| Cellular office         | 8               | 10-15               | Single occupancy      |
-| Executive office        | 15              | 20-30               | Meeting area included |
+| 开放式办公室 | 6 | 8–10 | 工位+分摊交通面积 |
+| 独立办公室 | 8 | 10–15 | 单人使用 |
+| 主管办公室 | 15 | 20–30 | 含会议区域 |
 | Hot desk / co-working   | 5               | 6-8                 | Higher density        |
 | Classroom (fixed desks) | 1.5             | 2.0-2.5             | Including teaching wall|
-| University lecture      | 0.8             | 1.0-1.5             | Fixed seating         |
-| Library (reading)       | 2.3             | 3.0-4.5             | Plus shelving aisles  |
-| Restaurant dining       | 1.2             | 1.5-1.8             | Fine dining: 2.0+     |
-| Hotel room (budget)     | 15              | 18-22               | Room area only        |
-| Hotel room (mid-range)  | 22              | 25-30               | Including bathroom    |
-| Hotel room (luxury)     | 35              | 40-60               | Suite: 60-120         |
-| Hospital ward (single)  | 14              | 16-20               | HBN guidance          |
-| Hospital ward (multi)   | 7               | 8-10                | Per bed space         |
+| 大学阶梯教室 | 0.8 | 1.0–1.5 | 固定座位 |
+| 图书馆（阅览） | 2.3 | 3.0–4.5 | 另加书架通道 |
+| 餐厅就餐区 | 1.2 | 1.5–1.8 | 精致餐饮：2.0+ |
+| 酒店客房（经济型） | 15 | 18–22 | 仅客房面积 |
+| 酒店客房（中档） | 22 | 25–30 | 含卫生间 |
+| 酒店客房（豪华型） | 35 | 40–60 | 套房：60–120 |
+| 医院病房（单人） | 14 | 16–20 | HBN 指南 |
+| 医院病房（多人） | 7 | 8–10 | 按每床位 |
 
 ### 17.2 Gross-to-Net Ratios
 
-| Building Type           | Net-to-Gross Ratio | Notes                            |
+| 建筑类型 | 净面积/总面积比例 | 备注 |
 |-------------------------|--------------------|----------------------------------|
-| Office (efficient)      | 80-85%             | Core-to-facade optimized         |
-| Office (standard)       | 75-80%             | Typical commercial               |
-| Residential (apartment) | 75-85%             | Corridor-loaded vs point-access  |
-| Hotel                   | 55-65%             | Back-of-house significant        |
-| Hospital                | 55-65%             | Circulation + MEP heavy          |
-| Retail (department)     | 75-80%             | Sales floor proportion           |
-| School                  | 60-70%             | Circulation + ancillary          |
-| Museum/gallery          | 55-65%             | Display vs support               |
-| Laboratory              | 55-65%             | Services and circulation heavy   |
+| 办公（高效） | 80–85% | 核心筒至立面优化 |
+| 办公（标准） | 75–80% | 典型商业建筑 |
+| 住宅（公寓） | 75–85% | 走廊式与点式交通差异 |
+| 酒店 | 55–65% | 后勤面积占比较大 |
+| 医院 | 55–65% | 交通与机电面积较大 |
+| 零售（百货） | 75–80% | 销售面积占比 |
+| 学校 | 60–70% | 交通及附属空间 |
+| 博物馆/画廊 | 55–65% | 展示与支持空间 |
+| 实验室 | 55–65% | 服务和交通面积较大 |
 
 ---
 
-*Last updated: April 2026. Always verify against current local codes and project-specific requirements.*
-*Primary sources: Neufert (5th Ed.), AGS (12th Ed.), IBC 2021, ACI 318-19, AISC 360-22,*
-*ASHRAE 62.1-2022, ASHRAE 90.1-2022, BS/EN standards, CIBSE Guides, Metric Handbook (6th Ed.),*
-*ADA/ABA Standards, PCI Design Handbook, CLT Handbook, PTI Manual.*
+*最后更新：2026 年 4 月。始终根据现行地方规范和具体项目要求进行核验。*
+*主要来源：Neufert（第 5 版）、AGS（第 12 版）、IBC 2021、ACI 318-19、AISC 360-22、*
+*ASHRAE 62.1-2022、ASHRAE 90.1-2022、BS/EN 标准、CIBSE 指南、Metric Handbook（第 6 版）、*
+*ADA/ABA 标准、PCI Design Handbook、CLT Handbook、PTI Manual。*

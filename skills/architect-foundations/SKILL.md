@@ -1,210 +1,210 @@
 ---
 name: architect-foundations
 description: >
-  Auto-activated foundation layer for the Architect Skills plugin providing practitioner-grade
-  reference across 50+ architects and theorists (Vitruvius through Kere), 100+ quantitative
-  rules of thumb sourced from IBC, ASHRAE 90.1, ADA/ABA, NFPA 101, BS EN 1991-1995,
-  Neufert Architects' Data, and Architectural Graphic Standards. Covers all major building
-  typologies (residential, commercial, institutional, industrial, special), design quality
-  frameworks (RIBA Plan of Work 2020, AIA Framework for Design Excellence, CABE Building
-  for Life 12), sustainability rating systems (LEED BD+C v4.1, BREEAM New Construction 2024,
+  为 Architect Skills 插件自动激活的基础层，提供执业级
+  涵盖 50 多位建筑师与理论家（从 Vitruvius 到 Kere）及 100 多条定量
+  经验规则，来源包括 IBC、ASHRAE 90.1、ADA/ABA、NFPA 101、BS EN 1991-1995、
+  Neufert Architects' Data 与 Architectural Graphic Standards。涵盖主要建筑
+  类型（住宅、商业、机构、工业、特殊），设计质量
+  框架（RIBA Plan of Work 2020、AIA Framework for Design Excellence、CABE Building
+  for Life 12）、可持续性评价体系（LEED BD+C v4.1、BREEAM New Construction 2024、
   Passive House Classic/Plus/Premium, WELL v2, Living Building Challenge 4.0, Fitwel),
-  fire and life safety codes (NFPA 101, IBC Ch. 7-10, BS 9999, Approved Document B),
-  accessibility standards (ADA 2010, BS 8300, EN 17210, DDA), acoustic performance
+  防火与生命安全规范（NFPA 101、IBC 第 7–10 章、BS 9999、Approved Document B）、
+  无障碍标准（ADA 2010、BS 8300、EN 17210、DDA）、声学性能
   (ASTM E90 STC, ASTM E492 IIC, BB93, DIN 4109), structural systems, envelope performance,
-  daylighting metrics, and an anti-pattern catalog of common design failures. Routes to
-  17 specialized downstream skills based on user query context.
+  日光指标以及常见设计失败的反模式目录。可路由至
+  可根据用户查询上下文路由至 17 个下游专业技能。
 user-invocable: false
 ---
 
-# Architect Foundations
+# 建筑师基础
 
-Auto-activated knowledge layer. Every response involving building architecture draws from this reference base before routing to specialized skills.
+自动激活的知识层。所有涉及建筑设计的回答，在路由至专用技能前均先参考本基础库。
 
 ---
 
-## 1. Core Architects & Theorists Quick Reference
+## 1. 建筑师与理论家核心速查
 
-| # | Architect / Theorist | Core Framework (Dates) | Key Concepts & Exemplar Buildings | When to Apply |
+| # | 建筑师/理论家 | 核心框架（年代） | 关键概念与代表建筑 | 适用时机 |
 |---|---|---|---|---|
-| 1 | **Vitruvius** | *De Architectura* (c. 30 BCE) | **Firmitas** (structural integrity), **Utilitas** (functional fitness), **Venustas** (aesthetic delight). Classical orders (Doric, Ionic, Corinthian) as proportional systems. Site orientation per wind/sun. Aqueduct and basilica typology. *Exemplar:* Basilica at Fano (described, not extant). | Foundational quality check on any project. Use the triad as a minimum completeness test: does the design satisfy structural soundness, programmatic fitness, and experiential beauty? |
-| 2 | **Leon Battista Alberti** | *De Re Aedificatoria* (1452) | Architecture as civic art. **Concinnitas** (harmony of parts). Facade as independent compositional layer (Palazzo Rucellai, Florence, 1446-1451 -- pilaster orders applied to masonry wall). Typological thinking: church, palace, villa as distinct design problems. Town planning principles. | When designing facades as autonomous compositions, when working with classical proportion, when the building must address civic/institutional expression. |
-| 3 | **Andrea Palladio** | *I Quattro Libri dell'Architettura* (1570) | Proportional room ratios (1:1, 1:sqrt2, 1:2, 2:3, 3:4). **Bilateral symmetry** along central axis. Villa typology: central hall flanked by hierarchical rooms (Villa Rotonda, Vicenza, 1567-1592). Loggia/portico as threshold. Temple front applied to domestic architecture. Harmonic proportions derived from musical intervals. | Residential design requiring formal order. Any project where room-to-room proportional relationships matter. Classical institutional buildings. Heritage/conservation contexts requiring Palladian literacy. |
-| 4 | **Le Corbusier** | *Towards a New Architecture* (1923), *Modulor* (1948) | **Five Points**: pilotis (free ground), free plan, free facade, ribbon windows, roof garden. **Dom-ino** frame (1914): slab-column independence enabling plan freedom. **Modulor**: anthropometric proportional system (red/blue series from 1.83m standing figure). *Promenade architecturale* (Villa Savoye, Poissy, 1929-1931). Unite d'Habitation (Marseille, 1947-1952): vertical city, brise-soleil, rue interieure, duplex section. Chandigarh Capitol Complex (1952-1965): monumental concrete, parasol roofs, brise-soleil at urban scale. | Reinforced concrete frame buildings. When separating structure from enclosure. Multi-storey housing with communal services. Sun-control facade design. Proportional system for furniture-to-building scale coherence. |
-| 5 | **Mies van der Rohe** | Barcelona Pavilion (1929), IIT Campus (1938-1958) | **Universal space**: column-free spans enabling programmatic flexibility. "Less is more." Steel-and-glass construction as tectonic expression. Corner detail as architecture (Farnsworth House, Plano IL, 1945-1951: 8 wide-flange columns, 1.5m cantilever, elevated floor plane). Seagram Building (NYC, 1954-1958): bronze I-beam mullions, set-back plaza, 8.4m structural bay. Crown Hall (IIT, 1950-1956): 36.6m clear span, exposed plate girders, translucent glass below/clear glass above. | Large-span structures. Corporate/institutional buildings seeking material honesty. When structural expression IS the architecture. Office buildings, museums, galleries requiring flexible open plans. |
-| 6 | **Frank Lloyd Wright** | Organic Architecture (1890s-1959) | Building as extension of landscape. **Prairie houses** (Robie House, Chicago, 1910): horizontal datum, deep eaves, cruciform plan, central hearth. **Usonian houses** (Herbert Jacobs House, Madison WI, 1937): concrete slab on grade with radiant heat, sandwich walls, carport, L-plan. Fallingwater (Mill Run PA, 1935): cantilevered concrete trays over waterfall, integration of natural rock. Guggenheim Museum (NYC, 1943-1959): continuous spiral ramp, top-lit atrium. | Residential design with strong site integration. When topography drives form. When interior spatial flow takes priority over discrete rooms. Radiant floor heating. Open-plan living. |
-| 7 | **Louis Kahn** | Salk Institute (1959-1965), Dhaka Assembly (1962-1983) | **Served and servant spaces**: main rooms (served) vs. mechanical/circulation zones (servant). Distinction between "what a building wants to be" and program. **Silence and Light** as design metaphor. Monumental concrete with deliberate formwork. Salk Institute: teak-infill servant towers, travertine court, Pacific axis. Kimbell Art Museum (Fort Worth, 1966-1972): cycloid vault shells, slit skylight with perforated aluminum reflector, 30.5m span, natural light in galleries. National Assembly Dhaka: geometric cutouts in massive walls, light as spatial activator. | Museums and cultural buildings where natural light is paramount. Institutional buildings requiring clear spatial hierarchy. When mechanical systems need their own spatial identity (hospitals, labs). Projects demanding material gravitas. |
-| 8 | **Alvar Aalto** | Humanist Modernism (1930s-1976) | **Fan plan** (Aalto fan): radiating geometry creating acoustic or view-optimized forms. Material warmth: brick, timber, copper against white render. Viipuri Library (1927-1935): conical skylights, undulating ceiling in lecture hall. Paimio Sanatorium (1929-1933): patient room design driven by recumbent body (ceiling colour, angled washbasin, radiant heating, view orientation). Saynatsalo Town Hall (1949-1952): raised courtyard, brick mass, intimate civic scale. Baker House MIT (1947-1949): serpentine plan giving each room a river view. | Healthcare, educational, and civic buildings. When user comfort drives geometry. Acoustic design of auditoria. Northern/cold climates where material warmth matters. When irregular geometry serves functional purpose (views, acoustics) rather than formal expression. |
-| 9 | **Tadao Ando** | Church of the Light (1989), Naoshima projects (1988-2004) | Smooth-cast **in-situ concrete** with 900mm tie-hole grid as ornament. Light as primary material. Geometric purity: circles, rectangles, intersecting walls. Church of the Light (Osaka): cruciform slot in end wall, no glass originally. Water Temple (Awaji, 1991): descent through lotus pond into underground elliptical space. Chichu Art Museum (Naoshima, 2004): entirely below grade, skylit galleries, no external presence. | Gallery/museum spaces. Meditation/religious buildings. When concrete is the primary expressive material. Sites where building must defer to landscape. Projects requiring extreme precision in light control. |
-| 10 | **Peter Zumthor** | *Atmospheres* (2006), *Thinking Architecture* (1998) | **Material presence**: every material selection tested at full scale. Thermal qualities of space (temperature of a room as design parameter). Temporal craft: aging, weathering, patina as design intent. Therme Vals (1996): local Valser quartzite, 15cm layered slabs, slot skylights, water as spatial medium. Bruder Klaus Chapel (Kolumba, 2007): rammed concrete over timber wigwam formwork, charred interior, oculus. Kolumba Museum (Cologne, 2007): perforated brick screen over Gothic ruin, filtered light. | Museums, baths, sacred spaces. When material sourcing is site-specific. When atmosphere and sensory experience outrank visual spectacle. Renovation/adaptive reuse requiring archaeological sensitivity. Projects where slow construction craft is viable. |
-| 11 | **Glenn Murcutt** | "Touch the earth lightly" (1969-present) | **Climate-responsive** sectional design for Australian conditions. Corrugated metal, steel frame, raised floor. Sectional thinking: ventilation stack, reflective underside, operable louvers. Marika-Alderton House (Yirrkala NT, 1991-1994): timber frame, plywood panels operable as walls/shutters, cross-ventilation for tropical monsoon climate. Simpson-Lee House (Mt Wilson NSW, 1988-1994): steel pavilion, bushfire-resistant, rainwater collection, north-facing (southern hemisphere). Single architect, hand-drawn, no employees. | Hot-arid and hot-humid climates. Lightweight steel/timber construction. Passive ventilation. Bushfire-prone sites. Rural and remote sites. When section design drives environmental performance more than plan. |
-| 12 | **Rem Koolhaas / OMA** | *Delirious New York* (1978), *S,M,L,XL* (1995) | **Bigness**: beyond a certain scale, buildings can no longer be controlled by a single architectural gesture. **Programmatic layering**: stacking unrelated programs vertically (Seattle Central Library, 2004: 5 programmatic platforms with interstitial "in-between" floors). Generic City / Junkspace as critique. CCTV Building (Beijing, 2002-2012): continuous loop structure, 234m tall, 473,000 sqm, cantilevered 75m overhang. De Rotterdam (2013): vertical city, three interconnected towers, mixed-use stacking. | Large-scale mixed-use complexes. Urban masterplanning at metropolitan scale. When program exceeds simple typological classification. Competition projects requiring narrative. Projects where diagram precedes form. |
-| 13 | **Renzo Piano / RPBW** | Centre Pompidou (1971-1977, with Rogers), Lightness + Craft | **Layered facades** with environmental/structural logic. Lightness through refined steel/glass/terracotta detailing. Centre Pompidou: inside-out services, gerberette brackets, polychrome ducts. Menil Collection (Houston, 1982-1987): ferro-cement "leaf" baffles for diffused daylight. The Shard (London, 2009-2012): 309.6m, tapering glass planes, open apex. California Academy of Sciences (SF, 2000-2008): living roof, 2.5-acre canopy, net-zero energy target. Jean-Marie Tjibaou Cultural Centre (Noumea, 1991-1998): iroko timber "cases" inspired by Kanak huts, passive stack ventilation. | Museum/gallery daylighting. Tall buildings requiring environmental performance. Cultural buildings in sensitive contexts. When the facade is the primary design problem. High-craft construction with large budgets. |
-| 14 | **Kengo Kuma** | *Anti-Object* (2008), Material Dissolution | **Material dissolution**: breaking mass into particles (wood slats, stone chips, aluminum louvers). Transparency through layering. Yusuhara Wooden Bridge Museum (2010): cantilevered laminated timber. V&A Dundee (2018): precast concrete fins creating cliff-like facade. Starbucks Reserve Roastery Tokyo (2019): 2000 Yoshino cedar tubes. GC Prostho Museum (2010): cidori timber joint system, no nails. Japan National Stadium (2019): timber-and-steel hybrid lattice, 5 stories of overhanging eaves, natural ventilation ring. | Timber and natural material construction. When mass needs to be dematerialized. Japanese-influenced detailing. Pavilion and museum projects. Screen/filter facade strategies. |
-| 15 | **Bjarke Ingels / BIG** | *Yes is More* (2009), Hedonistic Sustainability | **Worldcraft**: architecture as world-building. Programmatic diagrams as generative form (8 House, Copenhagen, 2010: figure-eight loop, 476 units, ground-to-penthouse cycling path). CopenHill (2019): waste-to-energy plant with ski slope/climbing wall on facade. VIA 57 West (NYC, 2016): courtyard + skyscraper hybrid, tetrahedral form. The Spiral (NYC, 2025): cascading terraces. Sustainability as hedonism: green features that are also pleasurable. | Mixed-use housing at urban scale. Public infrastructure requiring public amenity. Competition design with strong narrative/diagram. Projects where sustainability must be experiential, not just metric-driven. |
-| 16 | **Francis Kere** | Community-Built Architecture, Pritzker 2022 | **Local materials + community labor** as design strategy. Primary School Gando (Burkina Faso, 2001): compressed laterite blocks, rebar-reinforced, raised roof for stack ventilation, 30cm gap between ceiling and corrugated roof. Lycee Schorge (Koudougou, 2016): eucalyptus lattice screens. Serpentine Pavilion (2017): indigo timber canopy. National Assembly of Burkina Faso (Ouagadougou, 2025): stepped pyramid, tree-shaded gathering, local stone. Tropical ventilation through double roofs and thermal chimneys. | Low-resource contexts. Hot-dry/hot-humid tropical climates. Community-participatory design processes. When local material sourcing is a design imperative. Educational buildings in developing regions. Stack ventilation strategies. |
-| 17 | **Lacaton & Vassal** | Pritzker 2021, "Never Demolish" | **Economy of means**: maximum space per euro. Greenhouse/polycarbonate technology as inhabited space. Transformation of Bois-le-Pretre Tower (Paris, 2005-2011, with Druot): wrap-around winter gardens added to existing social housing, no tenant displacement. Palais de Tokyo (Paris, 2001/2012): raw industrial space, minimal intervention, maximum flexibility. FRAC Dunkirk (2013): double building -- exhibition box + translucent twin using greenhouse structure at 1/10 the cost. Generous space > expensive finishes. | Social housing renovation/extension. Tight budgets requiring spatial generosity. When existing structures must be retained. Climate-buffer (winter garden) strategies. Adaptive reuse. Projects where cost/sqm is the critical constraint. |
-| 18 | **Carlo Scarpa** | Castelvecchio Museum (1956-1973), Detail as Architecture | **Joint as architecture**: every connection between materials is a design opportunity. Layered reveals, shadow gaps, material juxtapositions. Castelvecchio (Verona): Cangrande statue pivot, steel-concrete-stone layered thresholds, water channels. Brion Cemetery (San Vito d'Altivole, 1968-1978): interlocking concrete geometry, ziggurat chapel, water-filled reflecting basin. Olivetti Showroom (Venice, 1957-1958): Aurisina marble, teak, brass, mosaic -- each material precisely bounded. Fondazione Querini Stampalia (Venice, 1961-1963): controlled flooding detail, brass/stone/water thresholds. | Heritage renovation and museum design. When material junctions are the primary design expression. High-craft detailing with multiple material interfaces. Waterside/flood-prone sites. Projects with archaeological layering. |
-| 19 | **Robert Venturi** | *Complexity and Contradiction in Architecture* (1966), *Learning from Las Vegas* (1972) | **Decorated Shed vs Duck**: buildings that apply ornament to conventional form vs. buildings where form IS the symbol. "Less is a bore." Vanna Venturi House (Philadelphia, 1962-1964): split gable, oversized chimney void, compressed entry. Guild House (1960-1963): brick, applied ornament (gold TV antenna), contextual scale. Complexity and contradiction: both/and instead of either/or. Mannerism as valid design strategy. | When a building must communicate symbolically in a commercial/suburban context. When pure abstraction fails to engage users. Contextual infill in existing neighborhoods. Critique and alternative to minimalist dogma. |
-| 20 | **Aldo Rossi** | *The Architecture of the City* (1966), *A Scientific Autobiography* (1981) | **Urban artifacts**: buildings as permanent elements giving identity to cities. **Typology** as collective memory (courtyard, tower, colonnade as archetypes). Analogical city: design through recombination of remembered forms. San Cataldo Cemetery (Modena, 1971-1984): cubic ossuary, colonnaded streets of the dead, exposed steel frame as ruin. Teatro del Mondo (Venice, 1979): floating timber theater, temporary monument. Bonnefanten Museum (Maastricht, 1990-1995): brick, zinc cupola, axial stair. | Urban design where collective typological memory matters. Cemetery/memorial design. When the city's existing morphology should generate the building's form. Competition narratives grounded in urban history. Housing blocks that must contribute to urban identity. |
+| 1 | **Vitruvius** | *De Architectura*（约公元前 30 年） | **Firmitas**（结构坚固）、**Utilitas**（功能适用）、**Venustas**（审美愉悦）。多立克、爱奥尼、科林斯柱式作为比例体系；依据风向/日照确定场地朝向；输水道和巴西利卡类型学。*代表：* Fano 巴西利卡（有记载但已不存在）。 | 任何项目的基础质量检查。将三要素作为最低完整性测试：设计是否满足结构稳固、功能适配和体验美感？ |
+| 2 | **Leon Battista Alberti** | *De Re Aedificatoria*（1452） | 建筑作为公共艺术。**Concinnitas**（部分的和谐）。立面作为独立构图层（佛罗伦萨鲁切拉宫，1446–1451——将壁柱柱式应用于砌体墙）。类型学思维：教堂、宫殿、别墅是不同设计问题；包含城市规划原则。 | 设计自主构图立面、采用古典比例，或建筑需要表达公共/机构形象时。 |
+| 3 | **Andrea Palladio** | *I Quattro Libri dell'Architettura*（1570） | 房间比例（1:1、1:sqrt2、1:2、2:3、3:4）。沿中轴线的**双向对称**。别墅类型学：中央大厅两侧布置有层级的房间（维琴察圆厅别墅，1567–1592）。凉廊/柱廊作为过渡空间；将神庙立面用于住宅；和谐比例源自音乐音程。 | 需要形式秩序的住宅设计；房间之间的比例关系重要的项目；古典机构建筑；需要 Palladio 传统知识的遗产保护项目。 |
+| 4 | **Le Corbusier** | *Towards a New Architecture*（1923）、*Modulor*（1948） | **新建筑五点**：底层架空柱、自由平面、自由立面、横向长窗、屋顶花园。**Dom-ino** 框架（1914）：板柱分离，实现平面自由。**Modulor**：人体测量比例体系（以 1.83 m 站立人体形成红/蓝系列）。*Promenade architecturale*（萨伏伊别墅，Poissy，1929–1931）。马赛公寓（1947–1952）：垂直城市、遮阳板、内部街道、复式剖面。昌迪加尔议会大厦群（1952–1965）：纪念性混凝土、伞形屋顶、城市尺度遮阳板。 | 钢筋混凝土框架建筑；结构与围护分离；带公共服务的多层住宅；遮阳立面设计；建立家具至建筑尺度一致性的比例体系。 |
+| 5 | **Mies van der Rohe** | 巴塞罗那馆（1929）、IIT 校园（1938–1958） | **通用空间**：无柱跨度实现功能灵活性。“少即是多”。钢与玻璃构造作为构造表达。转角细部即建筑（范斯沃斯住宅，Plano，1945–1951：8 根宽翼缘柱、1.5 m 悬挑、抬高楼板）。西格拉姆大厦（纽约，1954–1958）：青铜工字钢竖梃、退界广场、8.4 m 结构开间。克朗楼（IIT，1950–1956）：36.6 m 无柱跨度、外露板梁、下部半透明玻璃/上部透明玻璃。 | 大跨度结构；追求材料诚实的企业/机构建筑；结构表达即建筑本体时；需要灵活开放平面的办公、博物馆和画廊。 |
+| 6 | **Frank Lloyd Wright** | 有机建筑（1890 年代–1959） | 建筑作为景观的延伸。**草原住宅**（芝加哥 Robie House，1910）：水平基准、深檐、十字形平面、中央壁炉。**Usonian 住宅**（麦迪逊 Herbert Jacobs House，1937）：地坪混凝土板与辐射采暖、夹芯墙、车棚、L 形平面。流水别墅（Mill Run，1935）：瀑布上方悬挑混凝土托板，与天然岩石融合。古根海姆博物馆（纽约，1943–1959）：连续螺旋坡道、顶部采光中庭。 | 深度融入场地的住宅；地形驱动形态时；室内空间流动优先于独立房间时；地板辐射采暖和开放式居住。 |
+| 7 | **Louis Kahn** | 萨尔克研究所（1959–1965）、达卡议会大厦（1962–1983） | **主要空间与服务空间**：主要房间与机电/交通区域的区分；区分“建筑想成为什么”与功能要求。以**静默与光**作为设计隐喻。萨尔克研究所采用柚木填充的服务塔、洞石庭院和面向太平洋的轴线。金贝尔艺术博物馆（沃思堡，1966–1972）：摆线壳拱、带穿孔铝反射板的缝隙天窗、30.5 m 跨度，以自然光照亮画廊。达卡国家议会大厦以厚重墙体的几何开口让光成为空间激活因素。 | 自然光至关重要的博物馆和文化建筑；需要清晰空间层级的机构建筑；机电系统需要独立空间身份的医院、实验室；追求材料厚重感的项目。 |
+| 8 | **Alvar Aalto** | 人文主义现代主义（1930 年代–1976） | **扇形平面**：以放射几何形成优化声学或视线的形态。材料温度：白色抹灰背景下的砖、木材和铜。维普里图书馆（1927–1935）：锥形天窗、讲堂波浪形吊顶。帕伊米奥疗养院（1929–1933）：按卧躺人体设计病房（天花颜色、倾斜洗手盆、辐射采暖、视线朝向）。塞伊奈察洛市政厅（1949–1952）：抬高庭院、砖体量、亲切公共尺度。麻省理工学院贝克住宅（1947–1949）：蛇形平面使每个房间都能看到河景。 | 医疗、教育和公共建筑；用户舒适度驱动几何时；礼堂声学设计；需要材料温度的北方/寒冷气候；不规则几何服务于视线、声学等功能而非形式表达时。 |
+| 9 | **Tadao Ando** | 光之教堂（1989）、直岛项目（1988–2004） | 光滑现浇 **in-situ concrete**，以 900 mm 拉结孔网格作为装饰。光是主要材料。几何纯粹：圆形、矩形和相交墙体。光之教堂（大阪）：端墙上的十字形开口，最初无玻璃。水之教堂（淡路，1991）：穿过莲花池下沉至地下椭圆空间。地中美术馆（直岛，2004）：完全位于地下，以天窗采光，外部无建筑存在感。 | 画廊/博物馆；冥想/宗教建筑；混凝土为主要表达材料时；建筑需谦让于景观的场地；需要极高光线控制精度的项目。 |
+| 10 | **Peter Zumthor** | *Atmospheres*（2006）、*Thinking Architecture*（1998） | **材料存在感**：每种材料选择都按足尺进行测试。空间热特性（将房间温度作为设计参数）。时间性工艺：老化、风化和包浆作为设计意图。Therme Vals（1996）：当地瓦尔斯石英岩、15 cm 层叠板、缝隙天窗，以水作为空间媒介。布鲁德·克劳斯礼拜堂（Kolumba，2007）：在木构棚架模板上夯筑混凝土，形成炭黑室内和天窗。科隆 Kolumba 博物馆（2007）：哥特遗址上方的穿孔砖屏风，过滤光线。 | 博物馆、浴场、宗教空间；材料必须在场地本地获取时；氛围与感官体验优先于视觉奇观时；需要考古敏感性的改造/适应性再利用；适合慢工建造的项目。 |
+| 11 | **Glenn Murcutt** | “轻触大地”（1969–至今） | 针对澳大利亚条件的**气候响应剖面设计**。波纹金属、钢框架、架空地板。剖面策略包括通风烟囱、反射底面和可调百叶。Marika-Alderton House（Yirrkala，1991–1994）：木框架、可作为墙/百叶的胶合板面板，适应热带季风的交叉通风。Simpson-Lee House（Mt Wilson，1988–1994）：钢亭体、抗山火、雨水收集、朝北（南半球）。单人事务所，手绘，无雇员。 | 炎热干燥和炎热湿润气候；轻型钢/木构造；被动通风；山火风险场地；乡村和偏远场地；剖面设计比平面更能驱动环境性能时。 |
+| 12 | **Rem Koolhaas / OMA** | *Delirious New York*（1978）、*S,M,L,XL*（1995） | **大尺度**：超过一定规模后，建筑无法再由单一建筑姿态控制。**功能叠层**：将无关功能沿竖向叠置（西雅图中央图书馆，2004：5 个功能平台及夹层“中间层”）。以“普遍城市/垃圾空间”进行批判。央视总部（北京，2002–2012）：连续环形结构，高 234 m，473,000 m²，75 m 悬挑。鹿特丹大厦（2013）：垂直城市，三座互联塔楼，混合功能叠置。 | 大型混合用途综合体；都市圈尺度总体规划；功能超出简单类型学分类时；需要叙事的竞赛项目；图解先于形体的项目。 |
+| 13 | **Renzo Piano / RPBW** | 蓬皮杜中心（1971–1977，与 Rogers 合作）、轻盈与工艺 | **层叠立面**具有环境/结构逻辑，通过精细钢、玻璃和陶土细部实现轻盈。蓬皮杜中心采用内外倒置设备、gerberette 支架和彩色管道。门尼尔收藏馆（休斯敦，1982–1987）：铁丝网水泥“叶片”遮板漫射日光。碎片大厦（伦敦，2009–2012）：高 309.6 m，渐收玻璃平面和开放顶部。加州科学院（旧金山，2000–2008）：活屋顶、2.5 英亩顶棚、净零能耗目标。让-马里·蒂巴乌文化中心（努美阿，1991–1998）：受卡纳克棚屋启发的 iroko 木“壳体”，采用被动烟囱通风。 | 博物馆/画廊采光；需要环境性能的高层建筑；敏感语境中的文化建筑；立面是主要设计问题时；预算充足且追求高工艺建造时。 |
+| 14 | **Kengo Kuma** | *Anti-Object*（2008）、材料消解 | **材料消解**：将体量拆解为颗粒（木格栅、石屑、铝百叶），通过层叠实现透明。Yusuhara 木桥博物馆（2010）：悬挑层压木。V&A Dundee（2018）：预制混凝土肋形成悬崖般立面。东京星巴克臻选烘焙工坊（2019）：2,000 根吉野杉管。GC Prostho 博物馆（2010）：无钉 cidori 木节点系统。日本国家体育场（2019）：木钢混合格栅、5 层挑檐、自然通风环。 | 木材和天然材料建造；需要消解体量时；受日本影响的细部；亭体和博物馆项目；屏风/过滤立面策略。 |
+| 15 | **Bjarke Ingels / BIG** | *Yes is More*（2009）、享乐主义可持续性 | **世界营造**：将建筑视为创造世界。以功能图解生成形式（哥本哈根 8 字住宅，2010：8 字环、476 套住宅、从地面到顶层的自行车路径）。CopenHill（2019）：立面设置滑雪坡和攀岩墙的垃圾焚烧发电厂。VIA 57 West（纽约，2016）：庭院 + 摩天楼混合体，四面体形态。The Spiral（纽约，2025）：层层跌落露台。将可持续性作为享乐主义：绿色特征同时带来愉悦。 | 城市尺度混合用途住宅；需要公共配套的基础设施；叙事/图解鲜明的竞赛设计；可持续性必须被体验而非仅由指标驱动的项目。 |
+| 16 | **Francis Kere** | 社区建造建筑，普利兹克奖 2022 | 将**本地材料 + 社区劳动力**作为设计策略。Gando 小学（布基纳法索，2001）：压制红土砖、钢筋加固、抬高屋顶形成烟囱通风，天花与波纹屋顶间留 30 cm 空隙。Lycee Schorge（Koudougou，2016）：桉树格栅屏风。蛇形画廊亭（2017）：靛蓝木顶棚。布基纳法索国民议会（瓦加杜古，2025）：阶梯金字塔、树荫下聚会空间、本地石材。通过双层屋顶和热压烟囱实现热带通风。 | 资源有限的语境；炎热干燥/炎热湿润热带气候；社区参与式设计；本地材料采购是设计要务时；发展中地区教育建筑；烟囱通风策略。 |
+| 17 | **Lacaton & Vassal** | 普利兹克奖 2021，“永不拆除” | **经济手段**：每欧元获得最大空间。将温室/聚碳酸酯技术转化为可使用空间。Bois-le-Pretre 塔楼改造（巴黎，2005–2011，与 Druot 合作）：在既有社会住宅外增加环绕式冬季花园，无需搬迁住户。东京宫（巴黎，2001/2012）：原始工业空间、最小干预、最大灵活性。敦刻尔克 FRAC（2013）：双建筑——展览盒体 + 半透明孪生体，以温室结构实现，成本仅为常规方案的 1/10。宽裕空间优先于昂贵饰面。 | 社会住宅改造/扩建；预算紧张但需要空间慷慨度；必须保留既有结构时；气候缓冲（冬季花园）策略；适应性再利用；单位面积成本是关键约束的项目。 |
+| 18 | **Carlo Scarpa** | 卡斯特尔维奇奥博物馆（1956–1973），细部即建筑 | **节点即建筑**：材料之间的每个连接都是设计机会。层叠收口、阴影缝和材料并置。卡斯特尔维奇奥（维罗纳）：坎格兰德雕像转轴、钢—混凝土—石材层叠门槛、水渠。布里昂墓园（San Vito d'Altivole，1968–1978）：相互咬合的混凝土几何、金字塔形礼拜堂、蓄水倒影池。Olivetti 展厅（威尼斯，1957–1958）：Aurisina 大理石、柚木、黄铜、马赛克，每种材料均有精确边界。Fondazione Querini Stampalia（威尼斯，1961–1963）：可控泛水细部、黄铜/石材/水体门槛。 | 遗产改造和博物馆设计；材料交接是主要设计表达时；多种材料界面的高工艺细部；滨水/易洪场地；具有考古层叠性的项目。 |
+| 19 | **Robert Venturi** | *Complexity and Contradiction in Architecture*（1966）、*Learning from Las Vegas*（1972） | **装饰棚与鸭子**：在常规形体上附加装饰的建筑，与形体本身就是符号的建筑。“少即是乏味”。范纳·文丘里住宅（费城，1962–1964）：分裂山墙、超大烟囱中空、压缩入口。Guild House（1960–1963）：砖材、附加装饰（金色电视天线）、适宜的城市尺度。复杂与矛盾：采用“既是/又是”而非“非此即彼”。将矫饰主义作为有效设计策略。 | 建筑需在商业/郊区语境中进行象征表达时；纯抽象无法吸引使用者时；既有街区的语境填充；对极简主义教条的批判与替代。 |
+| 20 | **Aldo Rossi** | *The Architecture of the City*（1966）、*A Scientific Autobiography*（1981） | **城市构件**：作为赋予城市身份的永久元素。以**类型学**承载集体记忆（中庭、塔楼、柱廊作为原型）。类比城市：通过重新组合记忆中的形体进行设计。圣卡塔尔多公墓（摩德纳，1971–1984）：立方体骨灰堂、亡者柱廊街道、如废墟般的外露钢框架。世界剧院（威尼斯，1979）：漂浮木剧场、临时纪念碑。博尼范登博物馆（马斯特里赫特，1990–1995）：砖材、锌制穹顶、轴线楼梯。 | 集体类型记忆重要的城市设计；墓园/纪念性设计；城市既有形态应生成建筑形式时；植根城市历史的竞赛叙事；必须提升城市身份的住宅街区。 |
 
-### Additional Theorists for Reference
+### 其他参考理论家
 
-| Theorist | Key Contribution | Essential Text |
+| 理论家 | 核心贡献 | 重要著作 |
 |---|---|---|
-| **Christopher Alexander** | Pattern Language (253 patterns from region to construction detail), Nature of Order, living structure | *A Pattern Language* (1977), *The Timeless Way of Building* (1979) |
-| **Jan Gehl** | Human-scale urban design, 12 quality criteria for public space, edge effect, life between buildings | *Life Between Buildings* (1971), *Cities for People* (2010) |
-| **Kevin Lynch** | Urban imageability: paths, edges, districts, nodes, landmarks | *The Image of the City* (1960) |
-| **Herman Hertzberger** | Structuralism, polyvalent form, threshold as social space | *Lessons for Students in Architecture* (1991) |
-| **Fumihiko Maki** | Group Form, compositional/megastructure/group form typology, collective form | *Investigations in Collective Form* (1964) |
-| **Christian Norberg-Schulz** | Genius loci, existential space, phenomenology of architecture | *Genius Loci* (1979) |
-| **Kenneth Frampton** | Critical Regionalism, tectonic culture, resisting universal commodification | *Modern Architecture: A Critical History* (1980), *Studies in Tectonic Culture* (1995) |
-| **Reyner Banham** | Environmental controls as architecture, well-tempered environment | *The Architecture of the Well-Tempered Environment* (1969) |
-| **Bernard Tschumi** | Event-space, disjunction, program as generator (Parc de la Villette, 1982-1998) | *Architecture and Disjunction* (1994) |
-| **Balkrishna Doshi** | Indian modernism, low-cost housing (Aranya, Indore, 1989), stepped form, courtyards | Pritzker 2018, Sangath Studio (1980) |
-| **Anne Lacaton** | See Lacaton & Vassal above; economy, generosity, never demolish | *Freedom of Use* (2015) |
-| **Alejandro Aravena / ELEMENTAL** | Half-a-house incremental housing (Quinta Monroy, Iquique, 2004), participatory design | Pritzker 2016 |
-| **Lina Bo Bardi** | MASP Sao Paulo (1968): 74m clear span, civic void below. Glass House (1951). Social architecture. | Post-colonial modernism, cultural buildings as public gathering |
-| **Jorn Utzon** | Additive architecture, platform and plateau, Sydney Opera House (1957-1973): spherical geometry shells | *Platforms and Plateaus* (1962) |
-| **Cedric Price** | Fun Palace (1961, unbuilt): flexible, demountable, serviced framework. Anticipatory architecture. | Architecture as enabling infrastructure, not monument |
+| **Christopher Alexander** | 模式语言（从区域到施工细部的 253 个模式）、秩序之本质、生命结构 | *A Pattern Language*（1977）、*The Timeless Way of Building*（1979） |
+| **Jan Gehl** | 人本尺度城市设计、公共空间 12 项质量标准、边缘效应、建筑之间的生活 | *Life Between Buildings*（1971）、*Cities for People*（2010） |
+| **Kevin Lynch** | 城市意象性：路径、边界、区域、节点、地标 | *The Image of the City*（1960） |
+| **Herman Hertzberger** | 结构主义、多义形式、作为社会空间的门槛 | *Lessons for Students in Architecture*（1991） |
+| **Fumihiko Maki** | 群体形式、构图/巨型结构/群体形式类型学、集体形式 | *Investigations in Collective Form*（1964） |
+| **Christian Norberg-Schulz** | 场所精神、存在空间、建筑现象学 | *Genius Loci*（1979） |
+| **Kenneth Frampton** | 批判地域主义、构造文化、抵抗普遍商品化 | *Modern Architecture: A Critical History*（1980）、*Studies in Tectonic Culture*（1995） |
+| **Reyner Banham** | 将环境控制视为建筑、宜居环境 | *The Architecture of the Well-Tempered Environment*（1969） |
+| **Bernard Tschumi** | 事件—空间、断裂、作为生成器的功能（拉维莱特公园，1982–1998） | *Architecture and Disjunction*（1994） |
+| **Balkrishna Doshi** | 印度现代主义、低成本住宅（Indore Aranya，1989）、阶梯形体、中庭 | 普利兹克奖 2018、Sangath Studio（1980） |
+| **Anne Lacaton** | 参见上方 Lacaton & Vassal；经济、慷慨、永不拆除 | *Freedom of Use*（2015） |
+| **Alejandro Aravena / ELEMENTAL** | 半套住宅增量式住房（Iquique Quinta Monroy，2004）、参与式设计 | 普利兹克奖 2016 |
+| **Lina Bo Bardi** | 圣保罗 MASP（1968）：74 m 无柱跨度，下方公共中空；玻璃住宅（1951）；社会建筑 | 后殖民现代主义、作为公共聚会场所的文化建筑 |
+| **Jorn Utzon** | 加法建筑、平台与台地、悉尼歌剧院（1957–1973）的球面几何壳体 | *Platforms and Plateaus*（1962） |
+| **Cedric Price** | Fun Palace（1961，未建）：灵活、可拆卸、设备化框架；预见性建筑 | 将建筑视为赋能基础设施而非纪念碑 |
 
 ---
 
-## 2. Quantitative Rules of Thumb
+## 2. 定量经验法则
 
-### 2.1 Floor-to-Floor Heights
+### 2.1 层高
 
-| Building Type | Minimum | Optimal | Maximum | Clear Ceiling | Source |
+| 建筑类型 | 最小值 | 最优值 | 最大值 | 净顶棚高度 | 来源 |
 |---|---|---|---|---|---|
-| Single-family residential | 2.6 m | 2.8 m | 3.2 m | 2.4 m min | IRC R305.1 |
-| Multi-family residential | 2.8 m | 3.0 m | 3.4 m | 2.4 m min | IBC 1208.2 |
-| Office (standard) | 3.6 m | 3.9 m | 4.2 m | 2.7 m typ | ASHRAE + AGS |
-| Office (premium Grade A) | 3.9 m | 4.2 m | 4.5 m | 2.85 m typ | BCO Guide 2019 |
-| Retail (ground floor) | 4.5 m | 5.0 m | 6.0 m | 3.5 m min | IBC + Neufert |
-| Retail (upper floors) | 3.6 m | 4.2 m | 5.0 m | 3.0 m min | Neufert |
-| Hotel guest room | 2.8 m | 3.2 m | 3.6 m | 2.55 m min | Brand standards vary |
-| Hospital (patient floor) | 4.2 m | 4.5 m | 4.8 m | 2.7 m clear | FGI Guidelines 2022 |
-| Hospital (surgical) | 4.5 m | 4.8 m | 5.4 m | 3.0 m clear | FGI Guidelines 2022 |
-| School (classroom) | 3.3 m | 3.6 m | 4.0 m | 2.7 m min | BB103 / Neufert |
-| Laboratory | 4.2 m | 4.5 m | 5.0 m | 3.0 m min | NIH Design Req |
-| Parking (above-grade) | 3.0 m | 3.3 m | 3.6 m | 2.3 m clear | IBC 406.4 |
-| Parking (below-grade) | 2.8 m | 3.0 m | 3.3 m | 2.1 m clear min | IBC 406.4 |
-| Industrial / warehouse | 6.0 m | 8.0 m | 12.0 m | 5.0 m+ clear | Varies by rack ht |
-| Data center | 4.0 m | 4.5 m | 5.5 m | 3.0 m raised floor | Uptime Institute |
-| Auditorium / theater | 6.0 m | 8.0 m | 15.0 m+ | Fly tower: 2.5x proscenium ht | Neufert / AGS |
+| 单户住宅 | 2.6 m | 2.8 m | 3.2 m | 最小 2.4 m | IRC R305.1 |
+| 多户住宅 | 2.8 m | 3.0 m | 3.4 m | 最小 2.4 m | IBC 1208.2 |
+| 办公（标准） | 3.6 m | 3.9 m | 4.2 m | 典型 2.7 m | ASHRAE + AGS |
+| 办公（优质 A 级） | 3.9 m | 4.2 m | 4.5 m | 典型 2.85 m | BCO Guide 2019 |
+| 商业（首层） | 4.5 m | 5.0 m | 6.0 m | 最小 3.5 m | IBC + Neufert |
+| 商业（上层） | 3.6 m | 4.2 m | 5.0 m | 最小 3.0 m | Neufert |
+| 酒店客房 | 2.8 m | 3.2 m | 3.6 m | 最小 2.55 m | 品牌标准各异 |
+| 医院（病房层） | 4.2 m | 4.5 m | 4.8 m | 净高 2.7 m | FGI Guidelines 2022 |
+| 医院（手术部） | 4.5 m | 4.8 m | 5.4 m | 净高 3.0 m | FGI Guidelines 2022 |
+| 学校（教室） | 3.3 m | 3.6 m | 4.0 m | 最小 2.7 m | BB103 / Neufert |
+| 实验室 | 4.2 m | 4.5 m | 5.0 m | 最小 3.0 m | NIH Design Req |
+| 停车（地上） | 3.0 m | 3.3 m | 3.6 m | 净高 2.3 m | IBC 406.4 |
+| 停车（地下） | 2.8 m | 3.0 m | 3.3 m | 净高最小 2.1 m | IBC 406.4 |
+| 工业/仓库 | 6.0 m | 8.0 m | 12.0 m | 净高 5.0 m 以上 | 按货架高度变化 |
+| 数据中心 | 4.0 m | 4.5 m | 5.5 m | 3.0 m 架空地板 | Uptime Institute |
+| 礼堂/剧院 | 6.0 m | 8.0 m | 15.0 m 以上 | 舞台塔：台口高度的 2.5 倍 | Neufert / AGS |
 
-### 2.2 Structural Grid Spacing
+### 2.2 结构柱网间距
 
-| Building Type | Typical Bay (m) | Common Grid | Notes | Source |
+| 建筑类型 | 典型柱跨（m） | 常用柱网 | 备注 | 来源 |
 |---|---|---|---|---|
-| Residential (RC frame) | 5.0 - 8.0 m | 5.4 x 8.1 m, 6.0 x 7.5 m | Bays accommodate 2 parking below | Neufert |
-| Residential (load-bearing) | 3.6 - 6.0 m | Party wall @ 5.4-6.0 m | Limited by precast plank span | EN 1992 |
-| Office (steel frame) | 7.5 - 12.0 m | 9.0 x 9.0 m, 7.5 x 12.0 m | 9m allows 2x open-plan + corridor | BCO Guide |
-| Office (RC flat slab) | 7.5 - 10.5 m | 7.5 x 7.5 m, 9.0 x 9.0 m | Post-tensioned extends to 12m | ACI 318 |
-| Parking structure | 8.1 x 5.4 m | 16.2 x 5.4 m double bay | 5.4m = 2 stalls + aisle; 8.1m = 3 stalls | IBC / NPA |
-| Warehouse / logistics | 12.0 - 24.0 m | 12 x 24 m, 24 x 24 m | Clear height driven by racking | AISC / Neufert |
-| Hospital | 7.2 - 8.4 m | 7.2 x 7.2 m, 8.4 x 8.4 m | Must accommodate patient rooms (3.6m module) | FGI / HBN |
-| School | 7.2 - 8.4 m | 7.2 x 8.4 m | Classroom = 1 or 2 structural bays | BB103 |
-| Sports hall | 18.0 - 40.0 m+ | Long-span systems | Glulam, steel truss, space frame | Neufert |
+| 住宅（钢筋混凝土框架） | 5.0–8.0 m | 5.4 × 8.1 m、6.0 × 7.5 m | 跨度可容纳下方 2 个停车位 | Neufert |
+| 住宅（承重结构） | 3.6–6.0 m | 5.4–6.0 m 设分户墙 | 受预制板跨度限制 | EN 1992 |
+| 办公（钢框架） | 7.5–12.0 m | 9.0 × 9.0 m、7.5 × 12.0 m | 9 m 可容纳两组开放办公区 + 走道 | BCO Guide |
+| 办公（钢筋混凝土无梁楼板） | 7.5 - 10.5 m | 7.5 x 7.5 m、9.0 x 9.0 m | 后张法可扩展至12 m | ACI 318 |
+| 停车楼 | 8.1 x 5.4 m | 16.2 x 5.4 m双车位 | 5.4 m=2个车位+车道；8.1 m=3个车位 | IBC / NPA |
+| 仓库/物流 | 12.0 - 24.0 m | 12 x 24 m、24 x 24 m | 净高由货架系统决定 | AISC / Neufert |
+| Hospital | 7.2 - 8.4 m | 7.2 x 7.2 m, 8.4 x 8.4 m | 必须适应病房（3.6 m 模数） | FGI / HBN |
+| School | 7.2 - 8.4 m | 7.2 x 8.4 m | 教室 = 1 或 2 个结构跨 | BB103 |
+| 体育馆 | 18.0 - 40.0 m以上 | 大跨度体系 | 集成材、钢桁架、空间网架 | Neufert |
 
-### 2.3 Core, Circulation & Daylighting Distances
+### 2.3 核心筒、交通与采光距离
 
-| Metric | Value | Notes | Source |
+| 指标 | 数值 | 说明 | 来源 |
 |---|---|---|---|
-| Maximum core-to-facade distance (daylighting) | 15.0 m | 2.5x window head height rule of thumb | CIBSE LG10 |
-| Optimal core-to-facade distance | 12.0 m | Ensures DF > 2% at deepest point | EN 17037 |
-| Maximum plan depth, naturally ventilated | 12-15 m | 5x floor-to-ceiling height | CIBSE AM10 |
-| Maximum plan depth, cross-ventilated | 5x ceiling ht per side | e.g., 2.7m ceil = 13.5m total | CIBSE AM10 |
-| Maximum single-sided ventilation depth | 2-2.5x ceiling ht | e.g., 2.7m ceil = 5.4-6.75m | CIBSE AM10 |
-| Maximum dead-end corridor length | 6.0 m (unsprinklered) | 15.0 m sprinklered (IBC varies by occupancy) | IBC 1020.4, NFPA 101 |
-| Maximum travel distance to exit (office, sprinklered) | 76.2 m (250 ft) | Unsprinklered: 61.0 m (200 ft) | IBC Table 1017.2 |
-| Maximum travel distance to exit (residential, sprinklered) | 76.2 m (250 ft) | Unsprinklered: 61.0 m (200 ft) | IBC Table 1017.2 |
-| Maximum common path of travel (sprinklered) | 22.9 m (75 ft) | Business/residential occupancy | IBC 1006.2.1 |
+| 核心筒至立面最大距离（采光） | 15.0 m | 窗洞口顶部高度的 2.5 倍经验值 | CIBSE LG10 |
+| 核心筒至立面最优距离 | 12.0 m | 确保最深处采光系数 DF > 2% | EN 17037 |
+| 自然通风最大平面进深 | 12-15 m | 层高的 5 倍 | CIBSE AM10 |
+| 穿堂通风最大平面进深 | 每侧层高的 5 倍 | 例如层高 2.7 m = 总进深 13.5 m | CIBSE AM10 |
+| 单侧通风最大进深 | 层高的 2-2.5 倍 | 例如层高 2.7 m = 5.4-6.75 m | CIBSE AM10 |
+| 尽端走廊最大长度 | 6.0 m（无自动喷水灭火） | 15.0 m（设自动喷水灭火；IBC 按使用类别有所不同） | IBC 1020.4, NFPA 101 |
+| 至出口最大疏散距离（办公，设喷淋） | 76.2 m (250 ft) | 无喷淋：61.0 m (200 ft) | IBC Table 1017.2 |
+| 至出口最大疏散距离（住宅，设喷淋） | 76.2 m (250 ft) | 无喷淋：61.0 m (200 ft) | IBC Table 1017.2 |
+| 最大共同疏散路径（设喷淋） | 22.9 m (75 ft) | 商业/住宅使用类别 | IBC 1006.2.1 |
 
-### 2.4 Net-to-Gross Area Ratios
+### 2.4 净面积与总面积比
 
-| Building Type | Net/Gross Ratio | Circulation + Core | Walls + Structure | Source |
+| 建筑类型 | 净面积/总面积比 | 交通 + 核心筒 | 墙体 + 结构 | 来源 |
 |---|---|---|---|---|
-| Residential (apartment) | 75-85% | 12-18% | 5-8% | Neufert / RICS |
-| Office (speculative) | 70-80% | 15-22% | 5-8% | BCO Guide 2019 |
-| Office (owner-occupied) | 75-82% | 13-18% | 5-8% | BCO Guide 2019 |
-| Retail (shopping centre) | 65-75% | 20-28% | 5-8% | RICS |
-| Hotel | 60-70% | 25-32% | 5-8% | HVS / Neufert |
-| Hospital | 55-65% | 28-35% | 7-10% | FGI / HBN |
-| School (primary) | 60-70% | 22-30% | 5-8% | BB103 |
-| School (secondary) | 55-65% | 25-35% | 5-8% | BB103 |
-| University | 55-65% | 25-35% | 5-8% | AUDE / HEFCE |
-| Laboratory | 50-60% | 30-40% | 5-10% | NIH / S-Lab |
-| Museum / gallery | 55-65% | 25-35% | 5-10% | AGS |
-| Parking structure | 85-90% | 8-12% | 2-5% | NPA |
-| Data center | 45-55% | 35-45% | 5-10% | Uptime Institute |
+| 住宅（公寓） | 75-85% | 12-18% | 5-8% | Neufert / RICS |
+| 办公（投机型） | 70-80% | 15-22% | 5-8% | BCO Guide 2019 |
+| 办公（业主自用） | 75-82% | 13-18% | 5-8% | BCO Guide 2019 |
+| 零售（购物中心） | 65-75% | 20-28% | 5-8% | RICS |
+| 酒店 | 60-70% | 25-32% | 5-8% | HVS / Neufert |
+| 医院 | 55-65% | 28-35% | 7-10% | FGI / HBN |
+| 学校（小学） | 60-70% | 22-30% | 5-8% | BB103 |
+| 学校（中学） | 55-65% | 25-35% | 5-8% | BB103 |
+| 大学 | 55-65% | 25-35% | 5-8% | AUDE / HEFCE |
+| 实验室 | 50-60% | 30-40% | 5-10% | NIH / S-Lab |
+| 博物馆/画廊 | 55-65% | 25-35% | 5-10% | AGS |
+| 停车楼 | 85-90% | 8-12% | 2-5% | NPA |
+| 数据中心 | 45-55% | 35-45% | 5-10% | Uptime Institute |
 
-### 2.5 Corridor and Passage Widths
+### 2.5 走廊和通道宽度
 
-| Context | Minimum Width | Optimal Width | Code Basis |
+| 使用场景 | 最小宽度 | 最优宽度 | 规范依据 |
 |---|---|---|---|
-| Residential corridor (apartment) | 1.05 m (3'-6") | 1.2-1.5 m | IRC R311.6 |
-| Residential common corridor | 1.1 m | 1.5 m | IBC 1020.2 / ADA |
-| Office corridor | 1.2 m (< 50 occ.) | 1.8 m | IBC 1020.2 |
-| Hospital corridor (patient) | 2.4 m (8'-0") | 2.7 m | FGI 2022 |
-| Hospital corridor (service) | 1.8 m | 2.1 m | FGI 2022 |
-| School corridor | 1.8 m | 2.4 - 3.0 m | IBC / BB103 |
-| Assembly egress | 1.5 m min | Calc: 7.6mm/person | IBC 1005.1 |
-| Accessible route | 0.915 m (36") | 1.2 m | ADA 403.5.1 |
-| Accessible passing space | 1.525 m (60") | At intervals < 61 m | ADA 403.5.3 |
+| 住宅走廊（公寓） | 1.05 m (3'-6") | 1.2-1.5 m | IRC R311.6 |
+| 住宅公共走廊 | 1.1 m | 1.5 m | IBC 1020.2 / ADA |
+| 办公走廊 | 1.2 m（< 50 人） | 1.8 m | IBC 1020.2 |
+| 医院走廊（患者） | 2.4 m (8'-0") | 2.7 m | FGI 2022 |
+| 医院走廊（服务） | 1.8 m | 2.1 m | FGI 2022 |
+| 学校走廊 | 1.8 m | 2.4 - 3.0 m | IBC / BB103 |
+| 集会场所疏散通道 | 最小 1.5 m | 计算值：7.6 mm/人 | IBC 1005.1 |
+| 无障碍通行路线 | 0.915 m (36") | 1.2 m | ADA 403.5.1 |
+| 无障碍会车空间 | 1.525 m (60") | 间隔 < 61 m 设置 | ADA 403.5.3 |
 
-### 2.6 Window-to-Wall Ratio by Orientation & Climate
+### 2.6 按朝向和气候划分的窗墙比
 
-| Climate Zone (ASHRAE) | North WWR | East WWR | South WWR | West WWR | Total Max | Source |
+| 气候区（ASHRAE） | 北向 WWR | 东向 WWR | 南向 WWR | 西向 WWR | 总最大值 | 来源 |
 |---|---|---|---|---|---|---|
 | CZ 1-2 (Hot) | 20-30% | 15-20% | 20-30% | 10-15% | 30% | ASHRAE 90.1-2022 |
 | CZ 3-4 (Mixed) | 25-35% | 20-25% | 30-40% | 15-20% | 40% | ASHRAE 90.1-2022 |
 | CZ 5-6 (Cold) | 25-40% | 20-30% | 35-50% | 20-25% | 40% | ASHRAE 90.1-2022 |
 | CZ 7-8 (Subarctic) | 20-30% | 15-25% | 30-45% | 15-20% | 35% | ASHRAE 90.1-2022 |
-| Passive House (any) | Per PHPP calc | Per PHPP calc | Maximize | Minimize | Per PHPP | PHI |
+| 被动房（任意） | 按PHPP计算 | 按PHPP计算 | 最大化 | 最小化 | 按PHPP | PHI |
 
-Note: ASHRAE 90.1-2022 prescriptive max WWR is 30% (Table 5.5-0-5.5-8); higher ratios require trade-off (ECB/PRM) compliance path. South = equator-facing.
+注：ASHRAE 90.1-2022规定性最大WWR为30%（表5.5-0至5.5-8）；更高比例需通过权衡（ECB/PRM）合规路径。南向=朝向赤道方向。
 
-### 2.7 Thermal Transmittance (U-values) by Climate Zone
+### 2.7 按气候区划分的传热系数（U 值）
 
-| Component | CZ 1-2 (Hot) | CZ 3-4 (Mixed) | CZ 5-6 (Cold) | CZ 7-8 (Subarctic) | Passive House | Source |
+| 构件 | CZ 1-2（炎热） | CZ 3-4（混合） | CZ 5-6（寒冷） | CZ 7-8（亚寒带） | 被动房 | 来源 |
 |---|---|---|---|---|---|---|
-| Wall (above grade) | 0.70 W/m2K | 0.45 W/m2K | 0.27 W/m2K | 0.18 W/m2K | <= 0.15 W/m2K | ASHRAE 90.1 / PHI |
-| Roof | 0.36 W/m2K | 0.27 W/m2K | 0.18 W/m2K | 0.12 W/m2K | <= 0.15 W/m2K | ASHRAE 90.1 / PHI |
-| Floor (slab-on-grade, F-factor) | 1.26 W/mK | 0.90 W/mK | 0.73 W/mK | 0.54 W/mK | <= 0.15 W/m2K | ASHRAE 90.1 / PHI |
-| Window (U-factor) | 3.69 W/m2K | 2.56 W/m2K | 1.98 W/m2K | 1.36 W/m2K | <= 0.80 W/m2K | ASHRAE 90.1 / PHI |
-| Window SHGC (max) | 0.25 | 0.25-0.40 | 0.40 | 0.40 | Per PHPP | ASHRAE 90.1 |
+| 墙体（地上） | 0.70 W/m2K | 0.45 W/m2K | 0.27 W/m2K | 0.18 W/m2K | <= 0.15 W/m2K | ASHRAE 90.1 / PHI |
+| 屋面 | 0.36 W/m2K | 0.27 W/m2K | 0.18 W/m2K | 0.12 W/m2K | <= 0.15 W/m2K | ASHRAE 90.1 / PHI |
+| 地坪（地面板，F因子） | 1.26 W/mK | 0.90 W/mK | 0.73 W/mK | 0.54 W/mK | <= 0.15 W/m2K | ASHRAE 90.1 / PHI |
+| 窗（U因子） | 3.69 W/m2K | 2.56 W/m2K | 1.98 W/m2K | 1.36 W/m2K | <= 0.80 W/m2K | ASHRAE 90.1 / PHI |
+| 窗SHGC（最大） | 0.25 | 0.25-0.40 | 0.40 | 0.40 | 按PHPP | ASHRAE 90.1 |
 
-### 2.8 Stair Dimensions
+### 2.8 楼梯尺寸
 
-| Parameter | Minimum (Code) | Optimal | Maximum | Source |
+| 参数 | 最低值（规范） | 最优值 | 最大值 | 来源 |
 |---|---|---|---|---|
-| Riser height | 100 mm (4") | 170-178 mm | 196 mm (7-3/4") IBC; 180mm UK | IBC 1011.5.2 / AD-K |
-| Tread depth (going) | 254 mm (10") | 279-300 mm | -- | IBC 1011.5.2 |
-| 2R + G comfort rule | 600 mm min | 620-640 mm | 660 mm max | Neufert / Blondel |
+| 踢面高度 | 100 mm (4") | 170-178 mm | 196 mm (7-3/4") IBC；英国180 mm | IBC 1011.5.2 / AD-K |
+| 踏步深度（踏面） | 254 mm (10") | 279-300 mm | -- | IBC 1011.5.2 |
+| 2R + G舒适公式 | 最小600 mm | 620-640 mm | 最大660 mm | Neufert / Blondel |
 | Stair width (< 50 occ.) | 914 mm (36") | 1100 mm | -- | IBC 1011.2 |
 | Stair width (> 50 occ.) | 1118 mm (44") | 1200-1500 mm | -- | IBC 1011.2 |
-| Handrail height | 864 mm (34") | 900-1000 mm | 965 mm (38") | IBC 1014.2 |
-| Landing depth | >= stair width | >= stair width | -- | IBC 1011.6 |
-| Headroom | 2032 mm (80") | 2200 mm | -- | IBC 1011.3 |
+| 扶手高度 | 864 mm (34") | 900-1000 mm | 965 mm (38") | IBC 1014.2 |
+| 平台深度 | >=楼梯宽度 | >=楼梯宽度 | -- | IBC 1011.6 |
+| 净高 | 2032 mm (80") | 2200 mm | -- | IBC 1011.3 |
 
-### 2.9 Elevator Sizing
+### 2.9 电梯尺寸
 
-| Building Type | Rule of Thumb | Car Capacity | Speed | Source |
+| 建筑类型 | 经验法则 | 轿厢容量 | 速度 | 来源 |
 |---|---|---|---|---|
-| Residential (< 10 stories) | 1 lift per 90 units | 8-person (630 kg) | 1.0-1.6 m/s | BS EN 81-70 / Neufert |
-| Residential (10-25 stories) | 1 lift per 60-75 units | 10-13 person (1000 kg) | 1.6-2.5 m/s | CIBSE Guide D |
-| Office (low-rise, < 10 fl) | 1 lift per 2,500-3,000 m2 NLA | 13-16 person (1150 kg) | 1.6-2.5 m/s | BCO / CIBSE Guide D |
-| Office (mid-rise, 10-25 fl) | 1 lift per 2,000-2,500 m2 NLA | 16-21 person (1600 kg) | 2.5-4.0 m/s | CIBSE Guide D |
-| Office (high-rise, 25+ fl) | Sky-lobby + shuttle | 21-26 person (2000 kg) | 4.0-10.0 m/s | CIBSE Guide D |
-| Hospital (bed elevator) | Min 1 per 100 beds | 26-person (2500 kg) | 1.0-1.6 m/s | FGI / DH HTM 08-02 |
-| Goods / service lift | Per loading dock count | 2000-5000 kg | 0.5-1.0 m/s | Neufert |
-| Interval target (office) | -- | -- | <= 30 sec | CIBSE Guide D |
-| Handling capacity (5 min) | 12-15% of population | -- | -- | BCO / CIBSE |
+| 住宅（<10层） | 每90户1部电梯 | 8人（630 kg） | 1.0-1.6 m/s | BS EN 81-70 / Neufert |
+| 住宅（10-25层） | 每60-75户1部电梯 | 10-13人（1000 kg） | 1.6-2.5 m/s | CIBSE Guide D |
+| 办公（低层，<10层） | 每2,500-3,000 m² NLA 1部 | 13-16人（1150 kg） | 1.6-2.5 m/s | BCO / CIBSE Guide D |
+| 办公（中层，10-25层） | 每2,000-2,500 m² NLA 1部 | 16-21人（1600 kg） | 2.5-4.0 m/s | CIBSE Guide D |
+| 办公（高层，25层以上） | 空中大厅+穿梭电梯 | 21-26人（2000 kg） | 4.0-10.0 m/s | CIBSE Guide D |
+| 医院（病床电梯） | 每100张床至少1部 | 26人（2500 kg） | 1.0-1.6 m/s | FGI / DH HTM 08-02 |
+| 货梯/服务电梯 | 按装卸位数量配置 | 2000-5000 kg | 0.5-1.0 m/s | Neufert |
+| 间隔目标（办公） | -- | -- | <=30秒 | CIBSE Guide D |
+| 运载能力（5分钟） | 人口的12-15% | -- | -- | BCO / CIBSE |
 
-### 2.10 Parking Dimensions
+### 2.10 停车尺寸
 
-| Parameter | Standard | Compact | Accessible | Source |
+| 参数 | 标准 | 紧凑 | 无障碍 | 来源 |
 |---|---|---|---|---|
 | Stall width | 2.5 m (8'-6") | 2.3 m (7'-6") | 3.66 m (12'-0") + 1.52m (5') aisle | IBC / ADA 502.2 |
 | Stall depth | 5.5 m (18'-0") | 4.6 m (15'-0") | 5.5 m (18'-0") | IBC / Neufert |
@@ -218,21 +218,21 @@ Note: ASHRAE 90.1-2022 prescriptive max WWR is 30% (Table 5.5-0-5.5-8); higher r
 | Ramp grade (parking) | -- | -- | 5% max (1:20) | ADA 405.2 |
 | Drive lane gradient max | 15% (1:6.67) | -- | -- | IBC / BS 8300 |
 
-### 2.11 Loading Dock Dimensions
+### 2.11 装卸平台尺寸
 
-| Parameter | Value | Source |
+| 参数 | 数值 | 来源 |
 |---|---|---|
-| Loading berth width | 3.66 m (12'-0") | Neufert / AGS |
-| Loading berth depth | 18.3 m (60'-0") for WB-67 truck | AASHTO / AGS |
-| Dock door height | 2.74 m (9'-0") min, 3.05 m (10'-0") preferred | AGS |
-| Dock door width | 2.74 m (9'-0") min, 3.05 m (10'-0") preferred | AGS |
-| Dock leveler platform depth | 1.83 m (6'-0") | AGS |
-| Apron depth (for turning) | 36.6 m (120'-0") for WB-67 | AASHTO |
-| Dock height above grade | 1.22-1.37 m (48"-54") | AGS |
+| 装卸位宽度 | 3.66 m (12'-0") | Neufert / AGS |
+| 装卸位深度 | WB-67卡车18.3 m (60'-0") | AASHTO / AGS |
+| 月台门高度 | 最小2.74 m (9'-0")，建议3.05 m (10'-0") | AGS |
+| 月台门宽度 | 最小2.74 m (9'-0")，建议3.05 m (10'-0") | AGS |
+| 月台调节板平台深度 | 1.83 m (6'-0") | AGS |
+| 回转前场深度 | WB-67卡车36.6 m (120'-0") | AASHTO |
+| 月台高出地面高度 | 1.22-1.37 m (48"-54") | AGS |
 
-### 2.12 Fire Resistance Ratings by Construction Type
+### 2.12 按结构类型划分的耐火等级
 
-| Construction Type (IBC) | Structural Frame | Bearing Walls (ext) | Bearing Walls (int) | Floor | Roof | Source |
+| 结构类型（IBC） | 结构框架 | 承重外墙 | 承重内墙 | 楼板 | 屋面 | 来源 |
 |---|---|---|---|---|---|---|
 | Type IA (fireproof) | 3 hr | 3 hr | 3 hr | 2 hr | 1.5 hr | IBC Table 601 |
 | Type IB | 2 hr | 2 hr | 2 hr | 2 hr | 1 hr | IBC Table 601 |
@@ -244,47 +244,47 @@ Note: ASHRAE 90.1-2022 prescriptive max WWR is 30% (Table 5.5-0-5.5-8); higher r
 | Type VA (protected wood) | 1 hr | 1 hr | 1 hr | 1 hr | 1 hr | IBC Table 601 |
 | Type VB (unprotected wood) | 0 hr | 0 hr | 0 hr | 0 hr | 0 hr | IBC Table 601 |
 
-### 2.13 Acoustic Performance Ratings
+### 2.13 声学性能等级
 
-| Adjacency | STC Minimum | STC Recommended | IIC Minimum | IIC Recommended | Source |
+| 相邻空间 | STC最小值 | STC建议值 | IIC最小值 | IIC建议值 | 来源 |
 |---|---|---|---|---|---|
-| Unit-to-unit (residential wall) | 50 | 55-60 | -- | -- | IBC 1207.2 |
-| Unit-to-unit (residential floor/ceiling) | 50 | 55-60 | 50 | 55-60 | IBC 1207.3 |
-| Classroom-to-classroom | 50 | 55 | -- | -- | ANSI S12.60 |
-| Classroom-to-corridor | 45 | 50 | -- | -- | ANSI S12.60 |
-| Office-to-office (closed) | 45 | 50 | -- | -- | ASTM E90 / GSA |
-| Exam room-to-exam room | 50 | 55 | -- | -- | FGI 2022 |
-| Patient room-to-patient room | 50 | 55 | -- | -- | FGI 2022 |
-| OR to adjacent spaces | 55 | 60 | -- | -- | FGI 2022 |
-| Hotel room-to-room | 50 | 55-60 | 50 | 55-60 | Brand + IBC |
-| Music room / practice | 60 | 65 | 55 | 60 | BB93 / ANSI S12.60 |
-| Background noise (classroom) | -- | <= 35 dBA | -- | -- | ANSI S12.60 |
-| Background noise (office, open) | -- | 40-45 dBA | -- | -- | ASHRAE Handbook |
-| Background noise (hospital, patient) | -- | 30-40 dBA | -- | -- | FGI / WHO |
+| 住宅单元间（墙） | 50 | 55-60 | -- | -- | IBC 1207.2 |
+| 住宅单元间（楼板/天花） | 50 | 55-60 | 50 | 55-60 | IBC 1207.3 |
+| 教室间 | 50 | 55 | -- | -- | ANSI S12.60 |
+| 教室至走廊 | 45 | 50 | -- | -- | ANSI S12.60 |
+| 办公室间（封闭） | 45 | 50 | -- | -- | ASTM E90 / GSA |
+| 检查室间 | 50 | 55 | -- | -- | FGI 2022 |
+| 病房间 | 50 | 55 | -- | -- | FGI 2022 |
+| 手术室至相邻空间 | 55 | 60 | -- | -- | FGI 2022 |
+| 酒店客房间 | 50 | 55-60 | 50 | 55-60 | 品牌+IBC |
+| 音乐室/练习室 | 60 | 65 | 55 | 60 | BB93 / ANSI S12.60 |
+| 背景噪声（教室） | -- | <=35 dBA | -- | -- | ANSI S12.60 |
+| 背景噪声（开放办公） | -- | 40-45 dBA | -- | -- | ASHRAE Handbook |
+| 背景噪声（医院病房） | -- | 30-40 dBA | -- | -- | FGI / WHO |
 | RT60 (classroom, furnished) | -- | 0.4-0.6 s | -- | -- | BB93 / ANSI S12.60 |
 | RT60 (office, open plan) | -- | 0.5-0.8 s | -- | -- | ASHRAE / WELL |
 
-### 2.14 Daylighting Metrics
+### 2.14 日光指标
 
-| Metric | Space Type | Minimum | Target | Source |
+| 指标 | 空间类型 | 最低值 | 目标值 | 来源 |
 |---|---|---|---|---|
-| Daylight Factor (DF) | Residential living room | 1.0% | 2.0% | BS EN 17037 |
-| Daylight Factor (DF) | Office workspace | 2.0% | 3.0-5.0% | CIBSE LG10 / EN 17037 |
-| Daylight Factor (DF) | Classroom | 2.0% | 3.0-5.0% | BB90 / EN 17037 |
-| Daylight Factor (DF) | Hospital ward | 1.0% | 2.0-3.0% | HBN / EN 17037 |
-| Spatial Daylight Autonomy (sDA) | Office (LEED v4.1) | 55% area >= 300 lux for 50% hours | 75% area (2 pts) | LEED BD+C v4.1 EQ c7 |
-| Annual Sunlight Exposure (ASE) | Office (LEED v4.1) | <= 10% area > 1000 lux for 250 hrs | -- | LEED BD+C v4.1 EQ c7 |
-| Useful Daylight Illuminance (UDI) | Office | 100-3000 lux for 50%+ hours | -- | Nabil & Mardaljevic |
-| Illuminance (electric + day) | Office task area | 300 lux min | 500 lux | EN 12464-1 |
-| Illuminance | Classroom | 300 lux min | 500 lux | EN 12464-1 |
-| Illuminance | Hospital ward | 100 lux general | 300 lux reading | EN 12464-1 |
-| Illuminance | Corridor / circulation | 100 lux | 150 lux | EN 12464-1 |
+| 日光系数（DF） | 住宅客厅 | 1.0% | 2.0% | BS EN 17037 |
+| 日光系数（DF） | 办公工作区 | 2.0% | 3.0-5.0% | CIBSE LG10 / EN 17037 |
+| 日光系数（DF） | 教室 | 2.0% | 3.0-5.0% | BB90 / EN 17037 |
+| 日光系数（DF） | 医院病房 | 1.0% | 2.0-3.0% | HBN / EN 17037 |
+| 空间日光自主性（sDA） | 办公（LEED v4.1） | 50%时段内至少55%面积达到300 lux | 75%面积（2分） | LEED BD+C v4.1 EQ c7 |
+| 年日照暴露（ASE） | 办公（LEED v4.1） | 250小时内超过1000 lux的面积<=10% | -- | LEED BD+C v4.1 EQ c7 |
+| 有效日光照度（UDI） | 办公 | 50%以上时段为100-3000 lux | -- | Nabil & Mardaljevic |
+| 照度（电照明+日光） | 办公工作区 | 最小300 lux | 500 lux | EN 12464-1 |
+| 照度 | 教室 | 最小300 lux | 500 lux | EN 12464-1 |
+| 照度 | 医院病房 | 普通照明100 lux | 阅读300 lux | EN 12464-1 |
+| 照度 | 走廊/交通空间 | 100 lux | 150 lux | EN 12464-1 |
 
 ---
 
-## 3. Building Typology Taxonomy
+## 3. 建筑类型分类体系
 
-### 3.1 Residential
+### 3.1 住宅建筑
 
 | Sub-type | Key Design Drivers | Critical Metrics |
 |---|---|---|
@@ -295,7 +295,7 @@ Note: ASHRAE 90.1-2022 prescriptive max WWR is 30% (Table 5.5-0-5.5-8); higher r
 | **Senior living / care** | Accessibility throughout, assisted living vs. independent, dementia wayfinding, nurse call | Min 28 m2 single room, 1:8 staff ratio (care), 100% visitable units |
 | **Co-living** | Shared kitchens/living, private bedrooms, community programming, flexible lease | 12-16 m2 private, 4-6 m2 shared/person, high common area ratio |
 
-### 3.2 Commercial
+### 3.2 商业建筑
 
 | Sub-type | Key Design Drivers | Critical Metrics |
 |---|---|---|
@@ -306,7 +306,7 @@ Note: ASHRAE 90.1-2022 prescriptive max WWR is 30% (Table 5.5-0-5.5-8); higher r
 | **Hospitality (hotel)** | Room count, F&B, back-of-house ratio, brand compliance, views | 28-42 m2/key (midscale-upscale), BOH 15-20% GFA |
 | **Hospitality (restaurant)** | Kitchen:dining ratio 1:2.5-1:3, ventilation 15-30 ACH kitchen, grease duct | 1.5-2.0 m2/seat, 100-150 covers per service |
 
-### 3.3 Institutional
+### 3.3 公共机构建筑
 
 | Sub-type | Key Design Drivers | Critical Metrics |
 |---|---|---|
@@ -320,7 +320,7 @@ Note: ASHRAE 90.1-2022 prescriptive max WWR is 30% (Table 5.5-0-5.5-8); higher r
 | **Religious (church)** | Liturgical axis, acoustics RT60 1.5-3.0 s, assembly seating, bell tower | 0.6-0.8 m2/seat (pew), 0.9 m2/seat (chairs) |
 | **Civic (courthouse, city hall)** | Security screening, public/restricted separation, council chamber acoustics | Courtroom min 85 m2, holding cells, judge chambers |
 
-### 3.4 Industrial
+### 3.4 工业建筑
 
 | Sub-type | Key Design Drivers | Critical Metrics |
 |---|---|---|
@@ -330,7 +330,7 @@ Note: ASHRAE 90.1-2022 prescriptive max WWR is 30% (Table 5.5-0-5.5-8); higher r
 | **Logistics / e-commerce** | Sortation systems, mezzanine, EV charging, last-mile dispatch | 12-18 m clear, floor flatness FM2/DM2, 50+ docks |
 | **Cold storage** | Vapor barrier, insulation R-40+, ante-chambers, condensation control | -25C to +4C, 300mm+ insulated panel, air-lock entries |
 
-### 3.5 Special Purpose
+### 3.5 特殊用途建筑
 
 | Sub-type | Key Design Drivers | Critical Metrics |
 |---|---|---|
@@ -342,27 +342,27 @@ Note: ASHRAE 90.1-2022 prescriptive max WWR is 30% (Table 5.5-0-5.5-8); higher r
 
 ---
 
-## 4. Design Quality Framework
+## 4. 设计质量框架
 
-### 4.1 Composite Quality Checklist
+### 4.1 综合质量检查表
 
-Drawing from RIBA Plan of Work 2020 (Stages 0-7), AIA Framework for Design Excellence, CABE/Design Council Building for Life 12, and the Vitruvian triad.
+参考 RIBA Plan of Work 2020（阶段 0–7）、AIA Framework for Design Excellence、CABE/Design Council Building for Life 12 以及维特鲁威三要素。
 
-#### Firmitas (Structural Soundness & Durability)
+#### Firmitas（结构稳固性与耐久性）
 
-- [ ] Structural system matched to span, loading, and building height requirements
+- [ ] 结构体系与跨度、荷载及建筑高度要求相匹配
 - [ ] Foundation type appropriate to ground conditions (geotechnical report reviewed)
-- [ ] Design life defined: 50 yr (standard), 100 yr (monumental/infrastructure), per EN 1990 Table 2.1
+- [ ] 明确设计使用年限：标准建筑 50 年，纪念性建筑/基础设施 100 年，依据 EN 1990 表 2.1
 - [ ] Material durability class specified (timber: EN 350; steel: corrosion protection; concrete: exposure class EN 206)
 - [ ] Movement joints located at max 40-60 m intervals (concrete) or as per thermal analysis
-- [ ] Robustness / progressive collapse resistance verified (EN 1991-1-7, GSA guidelines for federal)
-- [ ] Waterproofing strategy defined for below-grade and wet areas (BS 8102 grade)
+- [ ] 已验证结构鲁棒性/抗连续倒塌能力（EN 1991-1-7、GSA 联邦建筑指南）
+- [ ] 已为地下及湿区确定防水策略（BS 8102 防水等级）
 - [ ] Roof drainage: primary + secondary overflow, max 150 m2 per outlet
 
-#### Utilitas (Functional Fitness)
+#### Utilitas（功能适配性）
 
 - [ ] Brief / program validated against area benchmarks (see Section 2.4 net-to-gross)
-- [ ] All rooms meet minimum dimensions for intended furniture/equipment
+- [ ] 所有房间满足预定家具/设备的最小尺寸要求
 - [ ] Circulation is intuitive: max 2 direction changes from entry to any primary space
 - [ ] Core location optimizes travel distances to all floor areas (centroid analysis)
 - [ ] Servicing strategy: risers, plant rooms, maintenance access all confirmed
@@ -371,52 +371,52 @@ Drawing from RIBA Plan of Work 2020 (Stages 0-7), AIA Framework for Design Excel
 - [ ] Loading/delivery: vehicle tracking verified, turning circles confirmed
 - [ ] IT/comms: riser positions, containment routes, equipment room cooling confirmed
 
-#### Venustas (Experiential Quality & Delight)
+#### Venustas（体验品质与愉悦感）
 
 - [ ] Arrival sequence designed: approach, threshold, reception, orientation
 - [ ] Natural light reaches all primary occupied spaces (DF > 2% or sDA > 55%)
 - [ ] External views from all workstations/desks (WELL v2 Feature L01: >= 75% of area)
-- [ ] Material palette limited (3-5 primary materials) with intentional juxtaposition
-- [ ] Color and texture vary by spatial hierarchy (public > semi-public > private)
-- [ ] Acoustic comfort: background noise within target range for each space type
+- [ ] 材料色板受到控制（3–5 种主材），并进行有意的并置
+- [ ] 色彩和肌理随空间层级变化（公共 > 半公共 > 私密）
+- [ ] 声学舒适度满足要求：各空间类型的背景噪声处于目标范围内
 - [ ] Biophilic elements: planting, water, natural materials, prospect/refuge, fractal patterns
 - [ ] Proportional coherence: key rooms tested against golden ratio, Modulor, or grid geometry
 
-#### Context & Place (CABE / Building for Life 12)
+#### 场所与环境（CABE / Building for Life 12）
 
-- [ ] Building relates to surrounding urban grain (street pattern, block morphology, density)
-- [ ] Height and massing respect context: shadow studies confirm no adverse overshadowing (BRE 209 criteria: > 2 hrs sun on March 21)
-- [ ] Ground floor activates street edge: transparent, accessible, programmed
-- [ ] Public realm contribution: setbacks, planting, seating, lighting specified
-- [ ] Local material/typological language referenced or consciously departed from
-- [ ] Parking concealed or de-emphasized from primary streetscape
+- [ ] 建筑与周边城市肌理相协调（街道模式、街区形态、密度）
+- [ ] 高度和体量尊重环境：日照分析确认无不利遮挡（BRE 209 标准：3 月 21 日日照超过 2 小时）
+- [ ] 首层激活街道界面：透明、可达并有明确功能
+- [ ] 对公共领域作出贡献：明确退界、种植、座椅和照明
+- [ ] 参考当地材料/类型语言，或有意识地偏离
+- [ ] 将停车隐藏或弱化，避免占据主要街景
 
-#### Sustainability & Performance (AIA / LEED / BREEAM / Passive House)
+#### 可持续性与性能（AIA / LEED / BREEAM / 被动房）
 
-- [ ] Energy target defined: EUI (kBtu/ft2/yr or kWh/m2/yr) benchmarked against type
-- [ ] Operational carbon: annual CO2 per m2 target set (RIBA 2030 Challenge targets)
-- [ ] Embodied carbon: kgCO2e/m2 target set (LETI 2020: < 500 kgCO2e/m2 residential, < 600 office)
-- [ ] Passive strategies exhausted before active: orientation, massing, shading, insulation, thermal mass, ventilation
-- [ ] Renewable energy: roof area reserved for PV, target >= 20% on-site generation
-- [ ] Water: rainwater harvesting, greywater recycling, low-flow fixtures (< 6 L/flush, < 1.9 L/min lavatory)
-- [ ] Biodiversity net gain: green/brown roofs, bird/bat boxes, native planting (UK: 10% BNG min)
-- [ ] Circular economy: design for disassembly, material passport, 80%+ diversion from landfill
+- [ ] 明确能耗目标：EUI（kBtu/ft²/年或 kWh/m²/年），并与建筑类型基准比较
+- [ ] 运行碳：设定年度每平方米 CO₂ 目标（RIBA 2030 Challenge）
+- [ ] 隐含碳：设定 kgCO2e/m² 目标（LETI 2020：住宅 <500，办公室 <600）
+- [ ] 在采用主动系统前充分利用被动策略：朝向、体量、遮阳、保温、热惰性、通风
+- [ ] 可再生能源：预留屋顶光伏面积，目标为现场发电量 ≥20%
+- [ ] 水资源：雨水收集、中水回用、节水器具（每次冲洗 <6 L，洗手盆 <1.9 L/min）
+- [ ] 生物多样性净增益：绿化/棕色屋顶、鸟箱/蝙蝠箱、本土种植（英国 BNG 最低 10%）
+- [ ] 循环经济：可拆解设计、材料护照、80% 以上废弃物避免填埋
 
-#### Accessibility & Inclusion (ADA 2010 / BS 8300 / EN 17210)
+#### 无障碍与包容性（ADA 2010 / BS 8300 / EN 17210）
 
-- [ ] Level access at all primary entrances (max 6mm threshold)
-- [ ] Accessible route connects all levels: lift or ramp (1:20 max gradient, 1:12 max with 760mm rise)
-- [ ] Accessible WC provision: min 1 per floor, 1500mm turning circle, grab rails per ADA 604
-- [ ] Signage: tactile, high-contrast (70% min LRV difference), Braille at 1200-1500mm AFL
-- [ ] Hearing enhancement: induction loops in assembly spaces > 50 m2 (BS 8300-2)
-- [ ] Refuge areas at each stairway on floors above/below exit discharge (IBC 1009.3)
-- [ ] Colour/texture change at level transitions, stair nosings, glass manifestation bands
+- [ ] 所有主要入口均为无高差通行（门槛最大 6 mm）
+- [ ] 无障碍路线连接所有楼层：电梯或坡道（最大坡度 1:20；高差 760 mm 时最大 1:12）
+- [ ] 设置无障碍卫生间：每层至少 1 间，1500 mm 回转直径，按 ADA 604 设置扶手
+- [ ] 标识具备触觉和高对比度（LRV 差值至少 70%），盲文高度 1200–1500 mm AFL
+- [ ] 听觉增强：超过 50 m² 的集会空间设置感应环路（BS 8300-2）
+- [ ] 疏散出口层上方/下方楼层的每个楼梯均设置避难区（IBC 1009.3）
+- [ ] 高差转换、楼梯踏步前缘及玻璃标识带设置颜色/肌理变化
 
 ---
 
-## 5. Anti-Pattern Catalog
+## 5. 反模式目录
 
-### 5.1 Planning & Massing Failures
+### 5.1 规划与体量失败
 
 | Anti-Pattern | Failure Mode | Fix |
 |---|---|---|
@@ -426,7 +426,7 @@ Drawing from RIBA Plan of Work 2020 (Stages 0-7), AIA Framework for Design Excel
 | **Structural grid misaligned with program** | 9 m office grid producing 4.5 m half-bays that are too small for hotel rooms (need 3.6-4.2 m) in conversion or mixed-use. | Establish grid from most constrained use first. Parking (5.4 m module) often governs. Test grid against all programs during concept. |
 | **Tower-on-podium without wind mitigation** | Tall building creates ground-level wind acceleration (Venturi effect) making podium spaces unusable. Lawson LDDC comfort criteria fail. | Chamfer/setback lower floors, add canopies, porous podium edges, wind baffles. CFD testing at concept stage. |
 
-### 5.2 Envelope & Environmental Failures
+### 5.2 围护结构与环境性能失败
 
 | Anti-Pattern | Failure Mode | Fix |
 |---|---|---|
@@ -435,7 +435,7 @@ Drawing from RIBA Plan of Work 2020 (Stages 0-7), AIA Framework for Design Excel
 | **Flat roof without redundancy** | Single waterproofing layer, no secondary drainage. Single point of failure leads to catastrophic leaks. | Dual membrane or inverted roof. Secondary drainage (scupper overflow) at 50mm above primary. Min 1:60 fall (1:40 preferred). |
 | **Curtain wall without maintenance strategy** | No BMU provision, no cradle track, no accessible cleaning positions. Facade degrades. | Design BMU/cradle system from concept. Max 1.5m reach from cradle. Track loads into structure from Stage 2. |
 
-### 5.3 Services & Systems Failures
+### 5.3 设备与系统失败
 
 | Anti-Pattern | Failure Mode | Fix |
 |---|---|---|
@@ -445,7 +445,7 @@ Drawing from RIBA Plan of Work 2020 (Stages 0-7), AIA Framework for Design Excel
 | **HVAC zoning mismatch** | Single zone serves both perimeter (solar gain variable) and interior (constant internal gains). Temperature complaints, energy waste. | Min 4 perimeter zones (N/E/S/W) + interior zone per floor. Max 50 m2 per zone in cellular office. VAV with individual zone control. |
 | **Inadequate ceiling void** | 150mm void expected to contain HVAC ducts (200-400mm), sprinkler mains (100mm), cable trays (75mm), lighting (50mm), and structure. Physical clash. | Min 400mm distribution void for residential, 600mm for office (BCO), 900mm+ for hospital. Coordinate BIM clash detection at Stage 3. |
 
-### 5.4 Accessibility & Inclusion Failures
+### 5.4 无障碍与包容性失败
 
 | Anti-Pattern | Failure Mode | Fix |
 |---|---|---|
@@ -453,7 +453,7 @@ Drawing from RIBA Plan of Work 2020 (Stages 0-7), AIA Framework for Design Excel
 | **Wheelchair refuge blocks stairway** | Refuge area encroaches on stair landing, reducing effective width below code minimum during evacuation. | Refuge area: min 760 x 1300 mm (ADA) clear of required stair width. Locate in widened landing or adjacent corridor. |
 | **Inaccessible upper floors in < 3-storey building** | No lift provided because code exempts buildings under certain size. Entire floors inaccessible to wheelchair users. | Install lift regardless of exemption. An accessible building is a better building. Cost: 2-4% of construction budget. |
 
-### 5.5 Sustainability Failures
+### 5.5 可持续性失败
 
 | Anti-Pattern | Failure Mode | Fix |
 |---|---|---|
@@ -463,19 +463,19 @@ Drawing from RIBA Plan of Work 2020 (Stages 0-7), AIA Framework for Design Excel
 
 ---
 
-## 6. Skill Router
+## 6. 技能路由器
 
-When the architect-foundations layer activates, route the user's query to the appropriate specialized skill based on the following decision logic.
+当 architect-foundations 层激活时，依据以下决策逻辑将用户问题路由至相应的专业技能。
 
-### 6.0 Geographic Pre-Routing
+### 6.0 地理预路由
 
-**Before** routing to topical skills, check for **geographic context** signals:
-- Country name, city name, currency cue, or country-specific code reference (NBC India, ECBC, IBC, Approved Documents, DIN, GB 50016, NCC, SBC, UAE FLS, etc.)
-- If detected --> **load `geographic-foundations` first**, which then loads the relevant `country-<x>` dossier (India, UAE, Saudi Arabia, USA, UK, Germany, Singapore, Japan, China, Australia)
-- The country dossier filters every downstream topical answer through that jurisdiction's clause-level requirements
-- If no geographic signal detected, proceed to topical routing below using IBC + Eurocodes + ASHRAE + ISO defaults
+**在**路由至专题技能前，检查**地理背景**信号：
+- 国家名、城市名、货币线索或特定国家规范引用（NBC India、ECBC、IBC、Approved Documents、DIN、GB 50016、NCC、SBC、UAE FLS 等）
+- 若检测到信号 → **先加载 `geographic-foundations`**，再加载对应的 `country-<x>` 国别档案（India、UAE、Saudi Arabia、USA、UK、Germany、Singapore、Japan、China、Australia）
+- 国别档案将所有后续专题回答过滤为该司法辖区的条款级要求
+- 若未检测到地理信号，则使用 IBC + Eurocodes + ASHRAE + ISO 默认值进行下方专题路由
 
-### 6.1 Topical Decision Tree
+### 6.1 专题决策树
 
 ```
 START
@@ -557,9 +557,9 @@ START
     Multiple topics? Route to primary skill, cross-reference secondary.
 ```
 
-### Multi-Skill Queries
+### 多技能查询
 
-When a query spans multiple domains, apply this priority:
+当问题跨越多个专业领域时，按以下优先级处理：
 
 1. **Safety-critical** skills take precedence: fire-life-safety > building-codes > accessibility-design > structural-systems
 2. **Performance** skills next: building-envelope > building-services > daylighting-design > acoustic-design > building-sustainability

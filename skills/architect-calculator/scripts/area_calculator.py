@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-Area & Density Calculator
+面积与密度计算器
 
-Calculates development density metrics from site area and floor area ratio:
-  - Gross Floor Area (GFA) from site area and FAR
-  - Net Gross Area (NGA) from GFA and net-to-gross ratio
-  - Residential unit count from NGA and average unit size
-  - Estimated population from units and persons per household
-  - Required parking spaces from units and parking ratio
+根据用地面积和容积率计算开发密度指标：
+  - 根据用地面积和 FAR 计算总建筑面积（GFA）
+  - 根据 GFA 和得房率计算净建筑面积（NGA）
+  - 根据 NGA 和平均套型面积计算住宅套数
+  - 根据套数和每户人数估算人口
+  - 根据套数和停车配比计算所需停车位
 
-Usage:
+用法：
     python area_calculator.py --site-area 5000 --far 2.5
     python area_calculator.py --site-area 5000 --far 2.5 --ntg-ratio 0.82 --json
 """
@@ -21,25 +21,25 @@ import sys
 
 
 def validate_inputs(args):
-    """Validate all input parameters."""
+    """校验全部输入参数。"""
     errors = []
     if args.site_area <= 0:
-        errors.append("Site area must be a positive number.")
+        errors.append("用地面积必须为正数。")
     if args.far <= 0:
-        errors.append("Floor area ratio (FAR) must be a positive number.")
+        errors.append("容积率（FAR）必须为正数。")
     if not (0.0 < args.ntg_ratio <= 1.0):
-        errors.append("Net-to-gross ratio must be between 0.0 (exclusive) and 1.0 (inclusive).")
+        errors.append("得房率必须大于 0.0 且小于或等于 1.0。")
     if args.avg_unit_size <= 0:
-        errors.append("Average unit size must be a positive number.")
+        errors.append("平均套型面积必须为正数。")
     if args.persons_per_unit <= 0:
-        errors.append("Persons per unit must be a positive number.")
+        errors.append("每户人数必须为正数。")
     if args.parking_ratio < 0:
-        errors.append("Parking ratio cannot be negative.")
+        errors.append("停车配比不得为负数。")
     return errors
 
 
 def calculate(args):
-    """Perform area and density calculations."""
+    """执行面积和密度计算。"""
     gfa = args.site_area * args.far
     nga = gfa * args.ntg_ratio
     units = math.floor(nga / args.avg_unit_size)
@@ -68,56 +68,56 @@ def calculate(args):
 
 
 def format_output(result):
-    """Format results for human-readable output."""
+    """将结果格式化为便于阅读的输出。"""
     lines = [
-        "=== Area & Density Calculator ===",
-        f"Site Area:            {result['site_area_m2']:,.2f} m2",
-        f"Floor Area Ratio:     {result['far']:.2f}",
+        "=== 面积与密度计算器 ===",
+        f"用地面积：            {result['site_area_m2']:,.2f} m2",
+        f"容积率：              {result['far']:.2f}",
         "---------------------------------------",
-        f"Gross Floor Area:     {result['gross_floor_area_m2']:,.2f} m2",
-        f"Net-to-Gross Ratio:   {result['ntg_ratio']:.2f}",
-        f"Net Gross Area:       {result['net_gross_area_m2']:,.2f} m2",
+        f"总建筑面积：          {result['gross_floor_area_m2']:,.2f} m2",
+        f"得房率：              {result['ntg_ratio']:.2f}",
+        f"净建筑面积：          {result['net_gross_area_m2']:,.2f} m2",
         "---------------------------------------",
-        f"Average Unit Size:    {result['avg_unit_size_m2']:.2f} m2",
-        f"Estimated Units:      {result['estimated_units']:,}",
-        f"Persons per Unit:     {result['persons_per_unit']:.2f}",
-        f"Estimated Population: {result['estimated_population']:,.0f}",
+        f"平均套型面积：        {result['avg_unit_size_m2']:.2f} m2",
+        f"估算套数：            {result['estimated_units']:,}",
+        f"每户人数：            {result['persons_per_unit']:.2f}",
+        f"估算人口：            {result['estimated_population']:,.0f}",
         "---------------------------------------",
-        f"Parking Ratio:        {result['parking_ratio']:.2f} spaces/unit",
-        f"Parking Spaces:       {result['parking_spaces']:,}",
+        f"停车配比：            {result['parking_ratio']:.2f} 个车位/户",
+        f"停车位数量：          {result['parking_spaces']:,}",
         "---------------------------------------",
-        f"Density:              {result['density_units_per_hectare']:.1f} units/hectare",
-        f"                      {result['density_persons_per_hectare']:.1f} persons/hectare",
+        f"密度：                {result['density_units_per_hectare']:.1f} 户/公顷",
+        f"                      {result['density_persons_per_hectare']:.1f} 人/公顷",
     ]
     return "\n".join(lines)
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Area & Density Calculator: compute GFA, NGA, unit count, "
-                    "population, and parking from site area and FAR."
+        description="面积与密度计算器：根据用地面积和 FAR 计算 GFA、NGA、套数、"
+                    "人口和停车位。"
     )
     parser.add_argument("--site-area", type=float, required=True,
-                        help="Total site/plot area in m2")
+                        help="总用地面积，单位为 m2")
     parser.add_argument("--far", type=float, required=True,
-                        help="Floor area ratio (plot ratio)")
+                        help="容积率（地积比）")
     parser.add_argument("--ntg-ratio", type=float, default=0.80,
-                        help="Net-to-gross ratio (default: 0.80)")
+                        help="得房率（默认值：0.80）")
     parser.add_argument("--avg-unit-size", type=float, default=85.0,
-                        help="Average residential unit size in m2 (default: 85)")
+                        help="住宅平均套型面积，单位为 m2（默认值：85）")
     parser.add_argument("--persons-per-unit", type=float, default=2.5,
-                        help="Average persons per dwelling unit (default: 2.5)")
+                        help="每户平均人数（默认值：2.5）")
     parser.add_argument("--parking-ratio", type=float, default=1.0,
-                        help="Parking spaces per dwelling unit (default: 1.0)")
+                        help="每户停车位数（默认值：1.0）")
     parser.add_argument("--json", action="store_true",
-                        help="Output results as JSON")
+                        help="以 JSON 输出结果")
 
     args = parser.parse_args()
 
     errors = validate_inputs(args)
     if errors:
         for error in errors:
-            print(f"Error: {error}", file=sys.stderr)
+            print(f"错误：{error}", file=sys.stderr)
         sys.exit(1)
 
     result = calculate(args)

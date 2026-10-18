@@ -1,42 +1,42 @@
-# Material Properties — Deep Reference
+# 材料性能——深度参考
 
-Comprehensive material property tables for architectural specification and design. All values are typical ranges for design reference; verify specific products against manufacturer datasheets and test certificates.
+用于建筑规格和设计的综合材料性能表。所有数值均为设计参考的典型范围；具体产品应依据制造商数据表和测试证书核实。
 
 ---
 
-## 1. Concrete
+## 1. 混凝土
 
-### 1.1 Structural Concrete Grades
+### 1.1 结构混凝土等级
 
-| Grade (EN) | Cylinder/Cube fck (MPa) | Elastic Modulus Ecm (GPa) | Density (kg/m³) | Typical Use |
+| 等级（EN） | 圆柱体/立方体 fck（MPa） | 弹性模量 Ecm（GPa） | 密度（kg/m³） | 典型用途 |
 |---|---|---|---|---|
-| C12/15 | 12/15 | 27 | 2,350 | Blinding, unreinforced foundations |
-| C16/20 | 16/20 | 29 | 2,350 | Mass fill, strip foundations |
-| C20/25 | 20/25 | 30 | 2,400 | Pad foundations, ground slabs |
-| C25/30 | 25/30 | 31 | 2,400 | Residential slabs and beams |
-| C28/35 | 28/35 | 32 | 2,400 | General structural RC frames |
-| C30/37 | 30/37 | 33 | 2,400 | Columns, beams, slabs (standard commercial) |
-| C32/40 | 32/40 | 33 | 2,400 | Water-retaining structures |
-| C35/45 | 35/45 | 34 | 2,400 | Prestressed elements, high-rise columns |
-| C40/50 | 40/50 | 35 | 2,400 | High-rise columns, long-span PT slabs |
-| C50/60 | 50/60 | 37 | 2,450 | Prestressed beams, bridge elements |
-| C60/75 | 60/75 | 39 | 2,450 | High-performance precast |
-| C90/105 | 90/105 | 44 | 2,500 | UHPC columns, special applications |
+| C12/15 | 12/15 | 27 | 2,350 | 垫层、非配筋基础 |
+| C16/20 | 16/20 | 29 | 2,350 | 大体积填充、条形基础 |
+| C20/25 | 20/25 | 30 | 2,400 | 独立基础、地坪板 |
+| C25/30 | 25/30 | 31 | 2,400 | 住宅楼板和梁 |
+| C28/35 | 28/35 | 32 | 2,400 | 一般钢筋混凝土框架 |
+| C30/37 | 30/37 | 33 | 2,400 | 柱、梁、楼板（标准商业建筑） |
+| C32/40 | 32/40 | 33 | 2,400 | 储水结构 |
+| C35/45 | 35/45 | 34 | 2,400 | 预应力构件、高层柱 |
+| C40/50 | 40/50 | 35 | 2,400 | 高层柱、大跨度后张楼板 |
+| C50/60 | 50/60 | 37 | 2,450 | 预应力梁、桥梁构件 |
+| C60/75 | 60/75 | 39 | 2,450 | 高性能预制构件 |
+| C90/105 | 90/105 | 44 | 2,500 | UHPC柱、特殊用途 |
 
-### 1.2 Concrete Thermal and Acoustic Properties
+### 1.2 混凝土热工与声学性能
 
-| Property | Normal Weight | Lightweight (1400 kg/m³) | AAC (600 kg/m³) |
+| 性能 | 普通密度 | 轻质（1400 kg/m³） | AAC（600 kg/m³） |
 |---|---|---|---|
-| Thermal conductivity λ (W/mK) | 1.0-1.8 | 0.5-0.8 | 0.12-0.18 |
-| Specific heat c (J/kgK) | 840-1,000 | 840-1,000 | 1,000 |
-| Thermal admittance Y (W/m²K) | 5.0-6.0 | 3.0-4.0 | 1.0-1.5 |
-| Decrement factor (200 mm wall) | 0.35 | 0.50 | 0.65 |
-| Sound reduction Rw (200 mm) | 52-55 dB | 45-48 dB | 36-40 dB |
-| NRC (painted surface) | 0.02-0.05 | 0.05-0.10 | 0.10-0.15 |
+| 导热系数λ（W/mK） | 1.0-1.8 | 0.5-0.8 | 0.12-0.18 |
+| 比热c（J/kgK） | 840-1,000 | 840-1,000 | 1,000 |
+| 热导纳Y（W/m²K） | 5.0-6.0 | 3.0-4.0 | 1.0-1.5 |
+| 衰减因子（200 mm墙） | 0.35 | 0.50 | 0.65 |
+| 隔声量Rw（200 mm） | 52-55 dB | 45-48 dB | 36-40 dB |
+| NRC（涂装表面） | 0.02-0.05 | 0.05-0.10 | 0.10-0.15 |
 
-### 1.3 Concrete Fire Performance
+### 1.3 混凝土防火性能
 
-| Cover to Reinforcement (mm) | Beam REI | Column REI | Slab REI | Wall REI |
+| 钢筋保护层（mm） | 梁 REI | 柱 REI | 板 REI | 墙 REI |
 |---|---|---|---|---|
 | 20 | 30 | 30 | 30 | 30 |
 | 25 | 60 | 60 | 60 | 60 |
@@ -44,11 +44,11 @@ Comprehensive material property tables for architectural specification and desig
 | 40 | 120 | 120 | 120 | 120 |
 | 55 | 240 | 240 | 180 | 240 |
 
-Minimum section dimensions also apply (e.g., column 250 mm for REI 120, 350 mm for REI 240).
+同时适用最小截面尺寸（例如 REI 120 的柱为 250 mm，REI 240 的柱为 350 mm）。
 
-### 1.4 Concrete Embodied Carbon by Mix Design
+### 1.4 按配合比划分的混凝土隐含碳
 
-| Mix Description | Cement Content (kg/m³) | GGBS/PFA (%) | Embodied Carbon A1-A3 (kgCO2e/m³) |
+| 配合比说明 | 水泥含量（kg/m³） | GGBS/PFA（%） | 隐含碳 A1–A3（kgCO2e/m³） |
 |---|---|---|---|
 | C30/37 OPC only | 340 | 0% | 235 |
 | C30/37 with 30% PFA | 240 OPC + 100 PFA | 30% | 175 |
@@ -61,219 +61,219 @@ Minimum section dimensions also apply (e.g., column 250 mm for REI 120, 350 mm f
 
 ---
 
-## 2. Steel
+## 2. 钢材
 
-### 2.1 Structural Steel Properties
+### 2.1 结构钢性能
 
-| Property | Carbon Steel (S355) | Stainless 304 | Stainless 316 | Weathering (Corten) |
+| 性能 | 碳钢（S355） | 304 不锈钢 | 316 不锈钢 | 耐候钢（Corten） |
 |---|---|---|---|---|
-| Density (kg/m³) | 7,850 | 7,900 | 8,000 | 7,850 |
-| Yield strength (MPa) | 355 | 210 | 220 | 345 |
-| Tensile strength (MPa) | 470-630 | 520-720 | 530-680 | 480-620 |
-| Elastic modulus (GPa) | 210 | 193 | 193 | 210 |
-| Thermal conductivity (W/mK) | 50 | 16 | 16 | 50 |
-| Thermal expansion (×10⁻⁶/°C) | 12 | 17.3 | 16.0 | 12 |
-| Specific heat (J/kgK) | 440 | 500 | 500 | 440 |
-| Embodied carbon (kgCO2e/kg) | 1.55 (BOF) | 4.5-6.2 | 5.0-6.8 | 1.55 |
-| Recycled content (typical) | 30-60% | 60-85% | 60-85% | 30-60% |
-| Recyclability | ~98% | ~95% | ~95% | ~98% |
-| Euroclass fire | A1 | A1 | A1 | A1 |
-| Critical temp (50% strength loss) | 550°C | 700°C | 700°C | 550°C |
-| Cost (relative to S355) | 1.0 | 4-6× | 5-8× | 1.1-1.3× |
+| 密度（kg/m³） | 7,850 | 7,900 | 8,000 | 7,850 |
+| 屈服强度（MPa） | 355 | 210 | 220 | 345 |
+| 抗拉强度（MPa） | 470-630 | 520-720 | 530-680 | 480-620 |
+| 弹性模量（GPa） | 210 | 193 | 193 | 210 |
+| 导热系数（W/mK） | 50 | 16 | 16 | 50 |
+| 热膨胀系数（×10⁻⁶/°C） | 12 | 17.3 | 16.0 | 12 |
+| 比热（J/kgK） | 440 | 500 | 500 | 440 |
+| 隐含碳（kgCO2e/kg） | 1.55（BOF） | 4.5-6.2 | 5.0-6.8 | 1.55 |
+| 典型再生材料含量 | 30-60% | 60-85% | 60-85% | 30-60% |
+| 可回收性 | 约98% | 约95% | 约95% | 约98% |
+| Euroclass防火等级 | A1 | A1 | A1 | A1 |
+| 临界温度（强度损失50%） | 550°C | 700°C | 700°C | 550°C |
+| 成本（相对于S355） | 1.0 | 4-6倍 | 5-8倍 | 1.1-1.3倍 |
 
-### 2.2 Steel Section Properties (Common UK/EU Sections)
+### 2.2 钢截面性能（英国/欧盟常用截面）
 
-| Section | Depth (mm) | Mass (kg/m) | Moment Capacity Mc (kNm) | Application |
+| 截面 | 高度（mm） | 质量（kg/m） | 弯矩承载力 Mc（kNm） | 应用 |
 |---|---|---|---|---|
-| 152×152 UC | 152 | 23-37 | 42-75 | Light columns, posts |
+| 152×152 UC | 152 | 23-37 | 42-75 | 轻型柱、立柱 |
 | 203×203 UC | 203 | 46-86 | 120-250 | Medium columns |
-| 254×254 UC | 254 | 73-167 | 250-650 | Heavy columns, transfer |
+| 254×254 UC | 254 | 73-167 | 250-650 | 重型柱、转换构件 |
 | 305×165 UB | 305 | 40-54 | 165-240 | Office floor beams (6-8 m) |
 | 406×178 UB | 406 | 54-74 | 340-490 | Standard floor beams (8-10 m) |
 | 457×191 UB | 457 | 67-98 | 490-760 | Long-span beams (10-12 m) |
 | 533×210 UB | 533 | 82-122 | 640-1,060 | Long-span (12-15 m) |
-| 610×229 UB | 610 | 101-140 | 870-1,280 | Transfer beams, long-span |
+| 610×229 UB | 610 | 101-140 | 870-1,280 | 转换梁、大跨度 |
 
 ---
 
-## 3. Timber
+## 3. 木材
 
-### 3.1 Softwood Structural Properties
+### 3.1 针叶材结构性能
 
-| Species | Density at 12% MC (kg/m³) | Bending fm,k (MPa) | Tension ft,0,k (MPa) | Compression fc,0,k (MPa) | Shear fv,k (MPa) | E0,mean (GPa) | Strength Class |
+| 树种 | 12% MC 密度（kg/m³） | 抗弯 fm,k（MPa） | 抗拉 ft,0,k（MPa） | 抗压 fc,0,k（MPa） | 抗剪 fv,k（MPa） | E0,mean（GPa） | 强度等级 |
 |---|---|---|---|---|---|---|---|
 | European Spruce | 380-450 | 16-24 | 10-14 | 17-21 | 2.5-4.0 | 8-11 | C16-C24 |
 | Scots Pine | 440-530 | 18-27 | 11-16 | 18-22 | 3.0-4.0 | 9-12 | C18-C27 |
 | Douglas Fir | 480-560 | 24-30 | 14-18 | 21-26 | 3.5-4.5 | 11-13 | C24-C30 |
 | Larch | 470-560 | 24-27 | 14-16 | 21-24 | 3.0-4.0 | 10-12 | C24-C27 |
 | Sitka Spruce | 380-440 | 16-20 | 10-12 | 17-19 | 2.5-3.0 | 8-10 | C16-C20 |
-| Western Red Cedar | 330-380 | 14-16 | 8-10 | 14-17 | 2.0-2.5 | 7-8 | C14-C16 |
+| 西部红雪松 | 330-380 | 14-16 | 8-10 | 14-17 | 2.0-2.5 | 7-8 | C14-C16 |
 
-### 3.2 Hardwood Structural Properties
+### 3.2 阔叶材结构性能
 
-| Species | Density (kg/m³) | Bending fm,k (MPa) | Compression fc,0,k (MPa) | E0,mean (GPa) | Durability Class | Janka Hardness (N) |
+| 树种 | 密度（kg/m³） | 抗弯 fm,k（MPa） | 抗压 fc,0,k（MPa） | E0,mean（GPa） | 耐久等级 | Janka 硬度（N） |
 |---|---|---|---|---|---|---|
 | European Oak | 600-720 | 38-50 | 26-34 | 10-12 | 2 | 5,600 |
 | Iroko | 550-680 | 35-45 | 22-30 | 9-11 | 1-2 | 5,100 |
 | Teak | 580-680 | 40-50 | 28-35 | 10-13 | 1 | 4,700 |
 | American White Oak | 600-720 | 42-52 | 28-36 | 11-13 | 2 | 6,000 |
 | European Beech | 660-740 | 45-55 | 30-38 | 12-14 | 5 | 6,400 |
-| American Black Walnut | 560-640 | 38-48 | 24-32 | 10-12 | 3 | 4,500 |
+| 美洲黑胡桃 | 560-640 | 38-48 | 24-32 | 10-12 | 3 | 4,500 |
 | Sapele | 560-650 | 36-46 | 24-30 | 10-12 | 2-3 | 5,200 |
 | Accoya (modified) | 510 | 33-40 | 22-28 | 8-10 | 1 | 4,000 |
 
-### 3.3 Engineered Timber Properties
+### 3.3 工程木材性能
 
-| Product | Density (kg/m³) | Bending (MPa) | Compression (MPa) | E (GPa) | Charring Rate (mm/min) | Embodied Carbon (kgCO2e/m³) |
+| 产品 | 密度（kg/m³） | 抗弯（MPa） | 抗压（MPa） | E（GPa） | 炭化速率（mm/min） | 隐含碳（kgCO2e/m³） |
 |---|---|---|---|---|---|---|
 | Glulam GL24h | 420-460 | 24 | 24 | 11.6 | 0.70 | -450 to -600 |
 | Glulam GL28h | 440-480 | 28 | 26.5 | 12.6 | 0.70 | -450 to -600 |
 | Glulam GL32h | 460-500 | 32 | 29 | 13.7 | 0.70 | -450 to -600 |
 | CLT (5-ply, 160 mm) | 420-500 | 24 (major) / 12 (minor) | 21 / 9 | 12 / 4 | 0.65 | -500 to -700 |
 | LVL (Kerto-S) | 480-520 | 44 | 35 | 13.8 | 0.65 | -400 to -550 |
-| Plywood (structural birch) | 600-680 | 40-50 | 30-40 | 10-12 | 1.0 (thin layers) | -300 to -400 |
+| 胶合板（结构级桦木） | 600-680 | 40-50 | 30-40 | 10-12 | 1.0（薄层） | -300至-400 |
 
-### 3.4 Timber Thermal and Acoustic Properties
+### 3.4 木材热工与声学性能
 
-| Property | Softwood | Hardwood | CLT (160 mm) | Plywood (18 mm) |
+| 性能 | 针叶材 | 阔叶材 | CLT（160 mm） | 胶合板（18 mm） |
 |---|---|---|---|---|
-| Thermal conductivity λ (W/mK) | 0.13 | 0.18 | 0.13 | 0.15 |
-| Specific heat c (J/kgK) | 1,600 | 1,600 | 1,600 | 1,600 |
-| Thermal admittance Y (W/m²K) | 3.5 | 4.5 | 3.5 | N/A |
+| 导热系数λ（W/mK） | 0.13 | 0.18 | 0.13 | 0.15 |
+| 比热c（J/kgK） | 1,600 | 1,600 | 1,600 | 1,600 |
+| 热导纳Y（W/m²K） | 3.5 | 4.5 | 3.5 | N/A |
 | Rw (160 mm CLT bare) | N/A | N/A | 33-36 dB | N/A |
 | Rw (CLT + resilient + plasterboard) | N/A | N/A | 52-58 dB | N/A |
-| NRC (unfinished timber) | 0.05-0.10 | 0.05-0.08 | 0.05-0.10 | 0.10-0.15 |
-| NRC (timber with gaps/slats) | 0.30-0.60 | 0.25-0.50 | N/A | N/A |
+| NRC（未饰面木材） | 0.05-0.10 | 0.05-0.08 | 0.05-0.10 | 0.10-0.15 |
+| NRC（带缝隙/木格栅） | 0.30-0.60 | 0.25-0.50 | N/A | N/A |
 
 ---
 
-## 4. Masonry
+## 4. 砌体
 
-### 4.1 Brick Properties
+### 4.1 砖性能
 
-| Brick Type | Density (kg/m³) | Compressive (MPa) | Water Absorption (%) | λ (W/mK) | Embodied Carbon (kgCO2e/kg) | Euroclass |
+| 砖类型 | 密度（kg/m³） | 抗压（MPa） | 吸水率（%） | λ（W/mK） | 隐含碳（kgCO2e/kg） | Euroclass |
 |---|---|---|---|---|---|---|
-| Common clay (wirecut) | 1,700-1,900 | 15-40 | 8-16 | 0.60-0.80 | 0.22 | A1 |
-| Facing clay (stock) | 1,800-2,100 | 20-80 | 5-12 | 0.70-0.96 | 0.24 | A1 |
-| Engineering Class A | 2,100-2,400 | ≥ 70 | < 4.5 | 1.00-1.20 | 0.28 | A1 |
-| Engineering Class B | 2,000-2,200 | ≥ 50 | < 7.0 | 0.90-1.10 | 0.26 | A1 |
-| Calcium silicate | 1,800-2,100 | 15-50 | 8-16 | 0.70-1.10 | 0.16 | A1 |
-| Concrete brick | 1,800-2,200 | 7-40 | 5-12 | 0.70-1.20 | 0.09 | A1 |
-| Handmade clay | 1,700-1,900 | 10-30 | 10-20 | 0.55-0.75 | 0.24 | A1 |
-| Reclaimed (Victorian) | 1,700-2,100 | 10-50 | 8-18 | 0.60-0.90 | ~0 (reuse) | A1 |
+| 普通黏土砖（切丝） | 1,700-1,900 | 15-40 | 8-16 | 0.60-0.80 | 0.22 | A1 |
+| 饰面黏土砖（压制） | 1,800-2,100 | 20-80 | 5-12 | 0.70-0.96 | 0.24 | A1 |
+| 工程砖A级 | 2,100-2,400 | ≥70 | <4.5 | 1.00-1.20 | 0.28 | A1 |
+| 工程砖B级 | 2,000-2,200 | ≥50 | <7.0 | 0.90-1.10 | 0.26 | A1 |
+| 硅酸钙砖 | 1,800-2,100 | 15-50 | 8-16 | 0.70-1.10 | 0.16 | A1 |
+| 混凝土砖 | 1,800-2,200 | 7-40 | 5-12 | 0.70-1.20 | 0.09 | A1 |
+| 手工黏土砖 | 1,700-1,900 | 10-30 | 10-20 | 0.55-0.75 | 0.24 | A1 |
+| 回收砖（维多利亚时期） | 1,700-2,100 | 10-50 | 8-18 | 0.60-0.90 | 约0（再利用） | A1 |
 
-### 4.2 Block Properties
+### 4.2 砌块性能
 
-| Block Type | Density (kg/m³) | Compressive (MPa) | λ (W/mK) | Rw per 100 mm (dB) | Embodied Carbon (kgCO2e/kg) |
+| 砌块类型 | 密度（kg/m³） | 抗压（MPa） | λ（W/mK） | 每 100 mm 的 Rw（dB） | 隐含碳（kgCO2e/kg） |
 |---|---|---|---|---|---|
-| Dense concrete | 2,000-2,200 | 7.3-22.5 | 1.0-1.5 | 40-43 | 0.10 |
-| Medium dense | 1,400-1,700 | 3.5-10.5 | 0.50-0.80 | 36-39 | 0.09 |
-| Lightweight aggregate | 600-1,400 | 2.8-7.3 | 0.15-0.50 | 32-38 | 0.08 |
+| 高密度混凝土砌块 | 2,000-2,200 | 7.3-22.5 | 1.0-1.5 | 40-43 | 0.10 |
+| 中密度砌块 | 1,400-1,700 | 3.5-10.5 | 0.50-0.80 | 36-39 | 0.09 |
+| 轻质骨料砌块 | 600-1,400 | 2.8-7.3 | 0.15-0.50 | 32-38 | 0.08 |
 | AAC (Aircrete) 600 | 400-600 | 2.5-4.0 | 0.10-0.15 | 30-33 | 0.30 (per block) |
 | AAC (Aircrete) 800 | 600-800 | 3.5-7.0 | 0.14-0.20 | 33-37 | 0.34 (per block) |
-| Hollow block (215 mm) | 1,400-1,800 | 3.5-7.3 | 0.30-0.60 | 38-42 | 0.08 |
+| 空心砌块（215 mm） | 1,400-1,800 | 3.5-7.3 | 0.30-0.60 | 38-42 | 0.08 |
 
-### 4.3 Natural Stone Properties
+### 4.3 天然石材性能
 
-| Stone | Density (kg/m³) | Compressive (MPa) | Flexural (MPa) | λ (W/mK) | Absorption (%) | Embodied Carbon (kgCO2e/kg) | Durability |
+| 石材 | 密度（kg/m³） | 抗压（MPa） | 抗弯（MPa） | λ（W/mK） | 吸水率（%） | 隐含碳（kgCO2e/kg） | 耐久性 |
 |---|---|---|---|---|---|---|---|
-| Portland limestone | 2,100-2,300 | 20-50 | 3-8 | 1.3 | 5-12 | 0.09 | Good |
-| Bath limestone | 1,900-2,200 | 15-35 | 2-5 | 1.1 | 8-18 | 0.09 | Moderate |
-| Yorkstone (sandstone) | 2,200-2,400 | 30-70 | 5-12 | 1.5 | 3-10 | 0.06 | Good |
-| Red sandstone | 2,000-2,300 | 20-50 | 3-8 | 1.3 | 5-15 | 0.06 | Variable |
-| Granite (grey) | 2,600-2,700 | 130-250 | 10-20 | 2.8-3.5 | 0.3-1.5 | 0.70 | Excellent |
-| Granite (black/gabbro) | 2,800-3,000 | 180-300 | 12-25 | 3.0-3.5 | 0.2-1.0 | 0.70 | Excellent |
-| Carrara marble | 2,600-2,800 | 50-100 | 8-15 | 2.5 | 0.3-1.5 | 0.12 | Good (interior) |
-| Slate (Welsh) | 2,700-2,800 | 100-180 | 30-50 | 2.0 | 0.1-0.5 | 0.03 | Excellent |
-| Travertine | 2,200-2,500 | 30-70 | 5-10 | 1.3 | 2-8 | 0.12 | Moderate |
-| Basalt | 2,800-3,000 | 150-300 | 15-30 | 1.6-2.0 | 0.2-1.0 | 0.60 | Excellent |
+| 波特兰石灰石 | 2,100-2,300 | 20-50 | 3-8 | 1.3 | 5-12 | 0.09 | 良好 |
+| 巴斯石灰石 | 1,900-2,200 | 15-35 | 2-5 | 1.1 | 8-18 | 0.09 | 中等 |
+| 约克砂岩 | 2,200-2,400 | 30-70 | 5-12 | 1.5 | 3-10 | 0.06 | 良好 |
+| 红砂岩 | 2,000-2,300 | 20-50 | 3-8 | 1.3 | 5-15 | 0.06 | 可变 |
+| 花岗岩（灰色） | 2,600-2,700 | 130-250 | 10-20 | 2.8-3.5 | 0.3-1.5 | 0.70 | 优异 |
+| 花岗岩（黑色/辉长岩） | 2,800-3,000 | 180-300 | 12-25 | 3.0-3.5 | 0.2-1.0 | 0.70 | 优异 |
+| 卡拉拉大理石 | 2,600-2,800 | 50-100 | 8-15 | 2.5 | 0.3-1.5 | 0.12 | 良好（室内） |
+| 威尔士板岩 | 2,700-2,800 | 100-180 | 30-50 | 2.0 | 0.1-0.5 | 0.03 | 优异 |
+| 洞石 | 2,200-2,500 | 30-70 | 5-10 | 1.3 | 2-8 | 0.12 | 中等 |
+| 玄武岩 | 2,800-3,000 | 150-300 | 15-30 | 1.6-2.0 | 0.2-1.0 | 0.60 | 优异 |
 
 ---
 
-## 5. Glass Properties
+## 5. 玻璃性能
 
-| Glass Type | Thickness (mm) | Weight (kg/m²) | VLT (%) | SHGC | U-value (W/m²K) | Rw (dB) | Embodied Carbon (kgCO2e/kg) |
+| 玻璃类型 | 厚度（mm） | 重量（kg/m²） | VLT（%） | SHGC | U 值（W/m²K） | Rw（dB） | 隐含碳（kgCO2e/kg） |
 |---|---|---|---|---|---|---|---|
-| Clear float (single) | 6 | 15 | 87 | 0.86 | 5.8 | 31 | 0.86 |
-| Clear float (single) | 10 | 25 | 84 | 0.83 | 5.7 | 33 | 0.86 |
-| Tinted (grey body) | 6 | 15 | 45-55 | 0.55-0.65 | 5.8 | 31 | 0.90 |
-| Toughened | 10 | 25 | 84 | 0.83 | 5.7 | 33 | 1.00 |
-| Laminated (6.4 mm = 3+3) | 6.4 | 16 | 85 | 0.84 | 5.7 | 34 | 0.95 |
-| Laminated (10.8 = 5+5) | 10.8 | 27 | 83 | 0.82 | 5.6 | 37 | 0.95 |
-| IGU clear (4-16air-4) | 24 | 20 | 79 | 0.70 | 2.8 | 29 | 0.86 |
-| IGU low-e (4-16arg-4) | 24 | 20 | 70 | 0.37 | 1.1-1.3 | 30 | 0.90 |
-| IGU solar control (6-16arg-6) | 28 | 30 | 42 | 0.25 | 1.1-1.4 | 32 | 0.95 |
-| Triple low-e (4-12arg-4-12arg-4) | 40 | 30 | 60 | 0.30 | 0.5-0.7 | 33 | 0.95 |
-| Triple low-e krypton | 36 | 30 | 62 | 0.28 | 0.5 | 34 | 1.00 |
-| Electrochromic (tinted state) | 24-30 | 22-28 | 2-60 | 0.09-0.41 | 1.3-1.7 | 30-33 | 2.00-3.00 |
-| Fire-rated (intumescent) | 15-33 | 35-85 | 75-82 | 0.65-0.75 | 3.0-4.5 | 38-44 | 2.50 |
-| Channel glass (Profilit) | 6-7 (×2) | 10-20 | 25-50 | 0.30-0.45 | 1.4-3.0 | 33-40 | 0.90 |
+| 透明浮法（单片） | 6 | 15 | 87 | 0.86 | 5.8 | 31 | 0.86 |
+| 透明浮法（单片） | 10 | 25 | 84 | 0.83 | 5.7 | 33 | 0.86 |
+| 着色（灰色本体） | 6 | 15 | 45-55 | 0.55-0.65 | 5.8 | 31 | 0.90 |
+| 钢化玻璃 | 10 | 25 | 84 | 0.83 | 5.7 | 33 | 1.00 |
+| 夹层玻璃（6.4 mm=3+3） | 6.4 | 16 | 85 | 0.84 | 5.7 | 34 | 0.95 |
+| 夹层玻璃（10.8=5+5） | 10.8 | 27 | 83 | 0.82 | 5.6 | 37 | 0.95 |
+| 中空玻璃IGU透明（4-16空气-4） | 24 | 20 | 79 | 0.70 | 2.8 | 29 | 0.86 |
+| 中空玻璃IGU低辐射（4-16氩-4） | 24 | 20 | 70 | 0.37 | 1.1-1.3 | 30 | 0.90 |
+| 中空玻璃IGU太阳控制（6-16氩-6） | 28 | 30 | 42 | 0.25 | 1.1-1.4 | 32 | 0.95 |
+| 三层低辐射（4-12氩-4-12氩-4） | 40 | 30 | 60 | 0.30 | 0.5-0.7 | 33 | 0.95 |
+| 三层低辐射氪气 | 36 | 30 | 62 | 0.28 | 0.5 | 34 | 1.00 |
+| 电致变色（着色状态） | 24-30 | 22-28 | 2-60 | 0.09-0.41 | 1.3-1.7 | 30-33 | 2.00-3.00 |
+| 防火玻璃（膨胀型） | 15-33 | 35-85 | 75-82 | 0.65-0.75 | 3.0-4.5 | 38-44 | 2.50 |
+| 槽型玻璃（Profilit） | 6-7（×2） | 10-20 | 25-50 | 0.30-0.45 | 1.4-3.0 | 33-40 | 0.90 |
 
 ---
 
-## 6. Aluminum Properties
+## 6. 铝性能
 
-| Property | 6063-T6 (extrusion) | 5005-H34 (sheet) | 3003-H14 (sheet) |
+| 性能 | 6063-T6（挤压材） | 5005-H34（板材） | 3003-H14（板材） |
 |---|---|---|---|
-| Density (kg/m³) | 2,700 | 2,700 | 2,730 |
-| Yield strength (MPa) | 170 | 140 | 115 |
-| Tensile strength (MPa) | 205 | 160 | 150 |
-| Elastic modulus (GPa) | 69 | 69 | 69 |
-| Thermal conductivity (W/mK) | 200 | 200 | 193 |
+| 密度（kg/m³） | 2,700 | 2,700 | 2,730 |
+| 屈服强度（MPa） | 170 | 140 | 115 |
+| 抗拉强度（MPa） | 205 | 160 | 150 |
+| 弹性模量（GPa） | 69 | 69 | 69 |
+| 导热系数（W/mK） | 200 | 200 | 193 |
 | Thermal expansion (×10⁻⁶/°C) | 23.4 | 23.8 | 23.2 |
-| Specific heat (J/kgK) | 900 | 900 | 900 |
+| 比热（J/kgK） | 900 | 900 | 900 |
 | Embodied carbon primary (kgCO2e/kg) | 8.20 | 8.20 | 8.20 |
 | Embodied carbon recycled (kgCO2e/kg) | 0.50 | 0.50 | 0.50 |
 | Euroclass | A1 | A1 | A1 |
-| Melting point (°C) | 600-655 | 600-655 | 640-655 |
+| 熔点（°C） | 600-655 | 600-655 | 640-655 |
 
 ---
 
-## 7. Zinc and Copper Properties
+## 7. 锌与铜性能
 
-| Property | Zinc (titanium zinc) | Copper (C11000) | Bronze (CuSn8) |
+| 性能 | 锌（钛锌） | 铜（C11000） | 青铜（CuSn8） |
 |---|---|---|---|
-| Density (kg/m³) | 7,130 | 8,900 | 8,800 |
-| Yield strength (MPa) | 100-150 | 70-220 | 150-400 |
-| Tensile strength (MPa) | 150-250 | 220-350 | 350-600 |
-| Elastic modulus (GPa) | 75 | 117 | 103 |
-| Thermal conductivity (W/mK) | 110 | 385 | 62 |
+| 密度（kg/m³） | 7,130 | 8,900 | 8,800 |
+| 屈服强度（MPa） | 100-150 | 70-220 | 150-400 |
+| 抗拉强度（MPa） | 150-250 | 220-350 | 350-600 |
+| 弹性模量（GPa） | 75 | 117 | 103 |
+| 导热系数（W/mK） | 110 | 385 | 62 |
 | Thermal expansion (×10⁻⁶/°C) | 22 | 16.5 | 17 |
 | Creep temperature (°C) | > 20 | N/A | N/A |
 | Embodied carbon (kgCO2e/kg) | 3.10 | 2.70 | 3.50 |
-| Typical cladding thickness (mm) | 0.7-1.0 | 0.6-0.7 | 3-6 |
-| Weight as cladding (kg/m²) | 5-7 | 5.5-6.5 | 25-50 |
-| Patina color (mature) | Blue-grey | Green verdigris | Dark brown-black |
-| Patina time (years) | 5-10 | 7-20 | 3-8 |
-| Expected life (years) | 80-100 | 100-200 | 100-200 |
-| Recyclability | ~95% | ~99% | ~95% |
+| 典型覆层厚度（mm） | 0.7-1.0 | 0.6-0.7 | 3-6 |
+| 覆层重量（kg/m²） | 5-7 | 5.5-6.5 | 25-50 |
+| 成熟锈层颜色 | 蓝灰色 | 绿色铜锈 | 深棕黑色 |
+| 锈层形成时间（年） | 5-10 | 7-20 | 3-8 |
+| 预期寿命（年） | 80-100 | 100-200 | 100-200 |
+| 可回收性 | 约95% | 约99% | 约95% |
 
 ---
 
-## 8. Insulation Materials
+## 8. 保温材料
 
-| Material | Density (kg/m³) | λ (W/mK) | Specific Heat (J/kgK) | Fire Class | Embodied Carbon (kgCO2e/kg) | Moisture Resistance | Cost ($/m² at R=3.5) |
+| 材料 | 密度（kg/m³） | λ（W/mK） | 比热（J/kgK） | 防火等级 | 隐含碳（kgCO2e/kg） | 防潮性 | 成本（R=3.5 时 $/m²） |
 |---|---|---|---|---|---|---|---|
-| Mineral wool (glass) | 12-80 | 0.032-0.040 | 840 | A1 | 1.20 | Hydrophobic-treated | $8-15 |
-| Mineral wool (stone/rock) | 30-200 | 0.034-0.040 | 840 | A1 | 1.05 | Hydrophobic-treated | $10-18 |
-| EPS (expanded polystyrene) | 15-35 | 0.031-0.038 | 1,450 | E (B with FR) | 2.50 | Closed-cell; good | $6-12 |
-| XPS (extruded polystyrene) | 25-45 | 0.029-0.036 | 1,450 | E (B with FR) | 4.40 | Closed-cell; excellent | $12-22 |
-| PIR (polyisocyanurate) | 30-45 | 0.020-0.025 | 1,400 | B-C | 4.20 | Foil-faced; excellent | $14-25 |
-| PUR (polyurethane foam) | 30-80 | 0.022-0.028 | 1,400 | B-C | 4.00 | Good | $12-22 |
-| Phenolic foam | 35-50 | 0.018-0.022 | 1,400 | B-C | 3.50 | Foil-faced; good | $18-30 |
-| Wood fibre board | 110-240 | 0.038-0.050 | 2,100 | E | -1.10 | Vapour-open; fair | $15-28 |
-| Cellulose (blown) | 30-65 | 0.035-0.040 | 2,000 | B-C | -1.30 | Vapour-open; fair | $5-10 |
-| Sheep's wool | 15-25 | 0.035-0.040 | 1,800 | E (B with FR) | 0.20 | Vapour-open; good | $18-30 |
-| Hemp fibre | 30-50 | 0.038-0.042 | 2,000 | E | -1.00 | Vapour-open; fair | $15-25 |
+| 玻璃棉 | 12-80 | 0.032-0.040 | 840 | A1 | 1.20 | 疏水处理 | $8-15 |
+| 岩棉 | 30-200 | 0.034-0.040 | 840 | A1 | 1.05 | 疏水处理 | $10-18 |
+| EPS（膨胀聚苯乙烯） | 15-35 | 0.031-0.038 | 1,450 | E（阻燃时为B） | 2.50 | 闭孔；良好 | $6-12 |
+| XPS（挤塑聚苯乙烯） | 25-45 | 0.029-0.036 | 1,450 | E（阻燃时为B） | 4.40 | 闭孔；优异 | $12-22 |
+| PIR（聚异氰脲酸酯） | 30-45 | 0.020-0.025 | 1,400 | B-C | 4.20 | 覆铝箔；优异 | $14-25 |
+| PUR（聚氨酯泡沫） | 30-80 | 0.022-0.028 | 1,400 | B-C | 4.00 | 良好 | $12-22 |
+| 酚醛泡沫 | 35-50 | 0.018-0.022 | 1,400 | B-C | 3.50 | 覆铝箔；良好 | $18-30 |
+| 木纤维板 | 110-240 | 0.038-0.050 | 2,100 | E | -1.10 | 可透湿；一般 | $15-28 |
+| 纤维素（吹填） | 30-65 | 0.035-0.040 | 2,000 | B-C | -1.30 | 可透湿；一般 | $5-10 |
+| 羊毛 | 15-25 | 0.035-0.040 | 1,800 | E（阻燃时为B） | 0.20 | 可透湿；良好 | $18-30 |
+| 麻纤维 | 30-50 | 0.038-0.042 | 2,000 | E | -1.00 | 可透湿；一般 | $15-25 |
 | Cork | 100-140 | 0.037-0.042 | 1,500 | E | -1.20 | Good | $20-35 |
 | Aerogel blanket | 120-180 | 0.013-0.016 | 1,000 | A2-B | 5.00 | Hydrophobic | $80-150 |
-| Vacuum insulation (VIP) | 160-200 | 0.004-0.008 | 800 | A2 | 6.50 | Sealed panel; fragile | $100-200 |
+| 真空保温板（VIP） | 160-200 | 0.004-0.008 | 800 | A2 | 6.50 | 密封板；易损 | $100-200 |
 
-### 8.1 Insulation Thickness for Target U-value
+### 8.1 目标 U 值的保温层厚度
 
-**Insulation thickness (mm) required for U = 0.15 W/m²K wall (typical Passive House):**
+**墙体 U = 0.15 W/m²K（典型被动房）所需保温层厚度（mm）：**
 
-| Material | λ (W/mK) | Required Thickness (mm) |
+| 材料 | λ（W/mK） | 所需厚度（mm） |
 |---|---|---|
 | PIR/PUR | 0.022 | 140 |
 | Phenolic | 0.020 | 130 |
@@ -282,93 +282,93 @@ Minimum section dimensions also apply (e.g., column 250 mm for REI 120, 350 mm f
 | Wood fibre | 0.040 | 255 |
 | Aerogel | 0.015 | 95 |
 
-Note: above are insulation-only thicknesses; actual construction will include structural layers that contribute to overall U-value.
+注：以上为仅保温层厚度；实际构造还包括对整体 U 值有贡献的结构层。
 
 ---
 
-## 9. Composites and Specialty Materials
+## 9. 复合材料与特种材料
 
-| Material | Density (kg/m³) | Tensile (MPa) | Compressive (MPa) | λ (W/mK) | Fire Class | Embodied Carbon (kgCO2e/kg) | Cost Range ($/m²) |
+| 材料 | 密度（kg/m³） | 抗拉（MPa） | 抗压（MPa） | λ（W/mK） | 防火等级 | 隐含碳（kgCO2e/kg） | 成本范围（$/m²） |
 |---|---|---|---|---|---|---|---|
-| GRP/GFRP (glass fibre) | 1,500-2,000 | 100-400 | 150-350 | 0.30 | B-C | 8.00 | $40-120 |
-| CFRP (carbon fibre) | 1,400-1,600 | 600-1,500 | 400-700 | 5.0-10.0 | B | 25.00 | $100-400 |
-| ETFE film (250 µm) | 1,750 | 40 | N/A | 0.24 | B-C | 6.50 | $250-500 (cushion system) |
-| Fibre cement board | 1,200-1,800 | 6-15 | 30-50 | 0.30-0.60 | A1-A2 | 0.50-0.80 | $15-40 |
-| Terracotta (extruded) | 1,800-2,100 | 5-10 (flexural) | 30-80 | 0.70-1.00 | A1 | 0.45 | $60-200 |
-| Porcelain tile (large format) | 2,300-2,400 | 35-50 (flexural) | 200-400 | 1.00-1.30 | A1 | 0.70 | $30-120 |
-| Bamboo (laminated) | 600-800 | 150-250 | 50-80 | 0.17 | D | -0.80 | $20-60 |
-| Rammed earth | 1,800-2,200 | 0.5-1.5 | 1.5-4.0 | 0.50-1.00 | A1 | 0.005-0.02 | $80-200 (wall) |
-| Hempcrete | 250-400 | 0.05-0.2 | 0.2-1.0 | 0.06-0.09 | B | -0.40 | $60-150 (wall) |
-| Compressed earth block | 1,600-2,000 | 0.5-1.0 | 2.0-10.0 | 0.60-0.80 | A1 | 0.01-0.03 | $20-40 |
+| GRP/GFRP（玻璃纤维） | 1,500-2,000 | 100-400 | 150-350 | 0.30 | B-C | 8.00 | $40-120 |
+| CFRP（碳纤维） | 1,400-1,600 | 600-1,500 | 400-700 | 5.0-10.0 | B | 25.00 | $100-400 |
+| ETFE膜（250 µm） | 1,750 | 40 | N/A | 0.24 | B-C | 6.50 | $250-500（气枕系统） |
+| 纤维水泥板 | 1,200-1,800 | 6-15 | 30-50 | 0.30-0.60 | A1-A2 | 0.50-0.80 | $15-40 |
+| 陶土（挤出） | 1,800-2,100 | 5-10（抗弯） | 30-80 | 0.70-1.00 | A1 | 0.45 | $60-200 |
+| 瓷质砖（大规格） | 2,300-2,400 | 35-50（抗弯） | 200-400 | 1.00-1.30 | A1 | 0.70 | $30-120 |
+| 竹材（层压） | 600-800 | 150-250 | 50-80 | 0.17 | D | -0.80 | $20-60 |
+| 夯土 | 1,800-2,200 | 0.5-1.5 | 1.5-4.0 | 0.50-1.00 | A1 | 0.005-0.02 | $80-200（墙体） |
+| 麻纤维混凝土 | 250-400 | 0.05-0.2 | 0.2-1.0 | 0.06-0.09 | B | -0.40 | $60-150（墙体） |
+| 压缩土块 | 1,600-2,000 | 0.5-1.0 | 2.0-10.0 | 0.60-0.80 | A1 | 0.01-0.03 | $20-40 |
 
 ---
 
-## 10. Summary Comparison — Embodied Carbon per Structural Function
+## 10. 总结比较——按结构功能计算的隐含碳
 
-For equivalent structural capacity (supporting a typical office floor, 5 kN/m² load, 7.5 m span):
+在结构承载能力相当的情况下（支承典型办公楼板，荷载 5 kN/m²，跨度 7.5 m）：
 
-| Structural System | Depth (mm) | Weight (kg/m²) | Embodied Carbon (kgCO2e/m²) | Fire Rating Achievable |
+| 结构系统 | 厚度（mm） | 重量（kg/m²） | 隐含碳（kgCO2e/m²） | 可实现耐火等级 |
 |---|---|---|---|---|
 | RC flat slab (275 mm) | 275 | 660 | 120-160 | REI 120 (inherent) |
-| RC flat slab (low-carbon mix) | 275 | 660 | 75-100 | REI 120 (inherent) |
+| 钢筋混凝土无梁楼板（低碳配合比） | 275 | 660 | 75-100 | REI 120（固有） |
 | PT flat slab (225 mm) | 225 | 540 | 80-120 | REI 120 (inherent) |
 | Steel composite (UB + slab) | 400 | 180 (steel) + 300 (slab) | 100-140 | REI 90 (with intumescent) |
 | CLT floor (200 mm) | 200 | 100 | -50 to -70 (net negative) | REI 60 (with 30 mm char layer) |
 | Glulam beam + CLT | 450 + 160 | 80 + 80 | -60 to -90 (net negative) | REI 60-90 |
 | Precast hollow-core + steel | 250 + 200 | 230 + 120 | 90-130 | REI 120 |
 
-**Key Insight:** Mass timber construction achieves net-negative embodied carbon for structure. Combined with low-carbon concrete for foundations and cores, total building embodied carbon can be reduced by 40-60% compared to all-concrete or all-steel alternatives.
+**关键结论：**大截面木结构可使结构实现净负隐含碳。与低碳混凝土基础和核心筒结合时，相比全混凝土或全钢方案，建筑总隐含碳可降低 40–60%。
 
 ---
 
-## 11. Durability and Service Life Reference
+## 11. 耐久性与使用寿命参考
 
-| Material/Component | Typical Service Life (years) | Maintenance Interval | Replacement Cycle | Notes |
+| 材料/构件 | 典型使用寿命（年） | 维护周期 | 更换周期 | 备注 |
 |---|---|---|---|---|
-| Structural concrete frame | 100-150 | Inspection every 10 yr | N/A | Assuming adequate cover |
-| Structural steel frame | 100+ | Recoat paint 15-25 yr | N/A | Hot-dip galvanized: 60+ yr maintenance-free |
-| Structural timber (protected) | 100+ | Inspection every 5 yr | N/A | Must remain dry; MC < 20% |
-| Clay brick facade | 100-150+ | Repoint every 50-80 yr | N/A | Depending on mortar and exposure |
-| Natural stone cladding | 100-200+ | Clean every 10-20 yr | N/A | Granite virtually eternal |
-| Zinc roofing/cladding | 80-100 | None (self-healing patina) | N/A | Pre-patinated shortens life slightly |
-| Copper roofing | 100-200+ | None | N/A | Longest-lived metal cladding |
-| Aluminum curtain wall | 40-60 | Seal replacement 20-30 yr | Gaskets 25-35 yr | Frame life > seal life |
-| ETFE cushion | 25-50 | Inspect 5 yr; self-cleaning | Replace film 30-40 yr | Frame lasts longer |
-| Painted steel cladding | 25-40 | Repaint 10-15 yr | Panel 30-50 yr | PVDF coating lasts longer |
-| Single-ply membrane roof | 20-35 | Inspect annually | Replace 25-30 yr | TPO/PVC/EPDM |
-| Window units (timber) | 30-50 | Repaint 5-8 yr | Replace 40-60 yr | Accoya extends to 50+ |
-| Window units (aluminum) | 40-60 | Clean 5 yr; reseal 20 yr | N/A | Powder-coat life 25-30 yr |
-| Sealants (silicone) | 15-25 | N/A | Replace 20-25 yr | Critical waterproofing element |
-| External render/stucco | 20-40 | Repaint 8-12 yr | Patch/replace 30 yr | Cracking common in rigid renders |
-| Timber cladding (softwood) | 15-30 | Oil/stain 2-5 yr | Replace 20-40 yr | Untreated: 10-15 yr |
-| Timber cladding (hardwood) | 40-80 | Oil/stain 3-5 yr (optional) | N/A | Iroko, teak: 60+ yr untreated |
+| 钢筋混凝土框架 | 100-150 | 每10年检查 | N/A | 假定保护层厚度充足 |
+| 结构钢框架 | 100年以上 | 每15-25年重涂 | N/A | 热浸镀锌：60年以上免维护 |
+| 结构木材（受保护） | 100年以上 | 每5年检查 | N/A | 必须保持干燥；含水率MC<20% |
+| 黏土砖立面 | 100-150年以上 | 每50-80年重新勾缝 | N/A | 取决于砂浆和暴露环境 |
+| 天然石材覆层 | 100-200年以上 | 每10-20年清洁 | N/A | 花岗岩几乎可永久使用 |
+| 锌屋面/覆层 | 80-100 | 无（表面自修复） | N/A | 预制锈层会略微缩短寿命 |
+| 铜屋面 | 100-200年以上 | 无 | N/A | 寿命最长的金属覆层 |
+| 铝制幕墙 | 40-60 | 每20-30年更换密封胶 | 密封条25-35年 | 框架寿命长于密封寿命 |
+| ETFE气枕 | 25-50 | 每5年检查；可自清洁 | 每30-40年更换膜材 | 框架寿命更长 |
+| 涂装钢覆层 | 25-40 | 每10-15年重涂 | 板材30-50年 | PVDF涂层寿命更长 |
+| 单层膜屋面 | 20-35 | 每年检查 | 每25-30年更换 | TPO/PVC/EPDM |
+| 木窗 | 30-50 | 每5-8年重涂 | 每40-60年更换 | Accoya可延长至50年以上 |
+| 铝窗 | 40-60 | 每5年清洁；每20年重新密封 | N/A | 粉末涂层寿命25-30年 |
+| 密封胶（硅酮） | 15-25 | N/A | 每20-25年更换 | 关键防水构件 |
+| 外墙抹灰/灰泥 | 20-40 | 每8-12年重涂 | 30年修补/更换 | 刚性抹灰常出现裂缝 |
+| 木材覆层（软木） | 15-30 | 每2-5年涂油/染色 | 每20-40年更换 | 未处理：10-15年 |
+| 木材覆层（硬木） | 40-80 | 每3-5年涂油/染色（可选） | N/A | 非洲紫檀、柚木未处理可达60年以上 |
 
 ---
 
-## 12. Acoustic Properties — Detailed Reference
+## 12. 声学性能——详细参考
 
-### 12.1 Sound Absorption Coefficients (NRC and per-frequency α)
+### 12.1 吸声系数（NRC 与各频率 α）
 
-| Material / Assembly | 125 Hz | 250 Hz | 500 Hz | 1000 Hz | 2000 Hz | 4000 Hz | NRC |
+| 材料/构造 | 125 Hz | 250 Hz | 500 Hz | 1000 Hz | 2000 Hz | 4000 Hz | NRC |
 |---|---|---|---|---|---|---|---|
 | Painted concrete | 0.01 | 0.01 | 0.02 | 0.02 | 0.02 | 0.03 | 0.02 |
-| Painted plasterboard on studs | 0.29 | 0.10 | 0.06 | 0.04 | 0.04 | 0.04 | 0.06 |
+| 龙骨上涂装石膏板 | 0.29 | 0.10 | 0.06 | 0.04 | 0.04 | 0.04 | 0.06 |
 | Plastered brick | 0.01 | 0.02 | 0.02 | 0.03 | 0.04 | 0.05 | 0.03 |
-| Timber floor (on joists) | 0.15 | 0.11 | 0.10 | 0.07 | 0.06 | 0.07 | 0.09 |
+| 木地板（搁栅上） | 0.15 | 0.11 | 0.10 | 0.07 | 0.06 | 0.07 | 0.09 |
 | Carpet on concrete | 0.02 | 0.06 | 0.14 | 0.37 | 0.60 | 0.65 | 0.29 |
 | Carpet on underlay | 0.08 | 0.24 | 0.57 | 0.69 | 0.71 | 0.73 | 0.55 |
 | Glass (single pane, 6 mm) | 0.18 | 0.06 | 0.04 | 0.03 | 0.02 | 0.02 | 0.04 |
-| Curtains (medium weight, draped) | 0.07 | 0.31 | 0.49 | 0.75 | 0.70 | 0.60 | 0.56 |
+| 窗帘（中等重量、悬挂） | 0.07 | 0.31 | 0.49 | 0.75 | 0.70 | 0.60 | 0.56 |
 | Timber slat ceiling (50% open) | 0.20 | 0.45 | 0.65 | 0.55 | 0.40 | 0.35 | 0.51 |
 | Mineral wool tile (15 mm, ceiling) | 0.10 | 0.25 | 0.55 | 0.80 | 0.85 | 0.75 | 0.61 |
 | Mineral wool tile (25 mm, ceiling) | 0.15 | 0.40 | 0.70 | 0.90 | 0.90 | 0.85 | 0.73 |
 | Perforated metal (25% open) + 50 mm MW | 0.25 | 0.60 | 0.85 | 0.95 | 0.90 | 0.80 | 0.83 |
 | Acoustic plaster (25 mm) | 0.15 | 0.35 | 0.60 | 0.70 | 0.65 | 0.60 | 0.58 |
-| Upholstered seating (occupied) | 0.60 | 0.74 | 0.88 | 0.96 | 0.93 | 0.85 | 0.88 |
+| 软包座椅（有人使用） | 0.60 | 0.74 | 0.88 | 0.96 | 0.93 | 0.85 | 0.88 |
 
-### 12.2 Airborne Sound Insulation (Rw) of Common Constructions
+### 12.2 常见构造的空气声隔声（Rw）
 
-| Construction | Mass (kg/m²) | Rw (dB) | Notes |
+| 构造 | 质量（kg/m²） | Rw（dB） | 备注 |
 |---|---|---|---|
 | 100 mm dense concrete block (plastered both sides) | 220 | 45 | Single-leaf mass law |
 | 200 mm dense concrete block (plastered) | 440 | 52 | |
@@ -377,20 +377,20 @@ For equivalent structural capacity (supporting a typical office floor, 5 kN/m² 
 | 150 mm concrete slab | 360 | 50 | |
 | 200 mm concrete slab | 480 | 53 | |
 | 250 mm concrete slab | 600 | 55 | |
-| 75 mm metal stud + 2×12.5 mm PB each side | 35 | 45-48 | With mineral wool in cavity |
+| 75 mm金属龙骨+两侧各2×12.5 mm石膏板 | 35 | 45-48 | 空腔填矿棉 |
 | 2× 75 mm metal stud (staggered) + 2×15 mm PB each side | 55 | 55-60 | Acoustic wall system |
 | 160 mm CLT | 80 | 33-36 | Bare; needs additional layers |
-| 160 mm CLT + resilient bar + 2×12.5 mm PB | 110 | 52-56 | Standard acoustic upgrade |
+| 160 mm CLT+弹性龙骨+2×12.5 mm石膏板 | 110 | 52-56 | 标准声学增强 |
 | Double glazing (4-16-4) | 20 | 29 | Coincidence dip at 3.15 kHz |
 | Double glazing (6-16-6) | 30 | 32 | |
-| Acoustic laminated double (6.4-20-8.8) | 38 | 40-43 | Best window performance |
+| 声学夹层双层玻璃（6.4-20-8.8） | 38 | 40-43 | 最佳窗性能 |
 | Triple glazing (4-12-4-12-4) | 30 | 33-35 | |
 
 ---
 
-## 13. Thermal Expansion Coefficients
+## 13. 热膨胀系数
 
-| Material | Coefficient of Thermal Expansion (×10⁻⁶ /°C) | Movement per 10 m for ΔT = 40°C (mm) |
+| 材料 | 热膨胀系数（×10⁻⁶ /°C） | ΔT = 40°C 时每 10 m 的变形（mm） |
 |---|---|---|
 | Steel (carbon) | 12 | 4.8 |
 | Stainless steel 304 | 17.3 | 6.9 |
@@ -409,75 +409,75 @@ For equivalent structural capacity (supporting a typical office floor, 5 kN/m² 
 | ETFE | 100-120 | 40.0-48.0 |
 | PVC | 50-80 | 20.0-32.0 |
 
-**Design Implication:** Movement joints required at intervals determined by material expansion rate and expected temperature range. Typical joint intervals: concrete 30-50 m, brick 10-15 m, aluminum cladding 6-8 m, zinc standing seam 10-12 m. ETFE requires accommodating large movements in fixing details.
+**设计影响：**伸缩缝间距应根据材料膨胀率和预期温度范围确定。典型间距：混凝土 30–50 m，砖 10–15 m，铝幕墙 6–8 m，锌立边咬合屋面 10–12 m。ETFE 的固定节点必须容纳较大变形。
 
 ---
 
-## 14. Fire Classification Cross-Reference
+## 14. 防火分类对照
 
-### 14.1 European (Euroclass) vs. UK Legacy vs. US (ASTM)
+### 14.1 欧洲（Euroclass）与英国旧制及美国（ASTM）对照
 
-| Euroclass (EN 13501-1) | Description | UK Legacy (BS 476) Approx. | ASTM E84 Approx. |
+| Euroclass（EN 13501-1） | 说明 | 英国旧制（BS 476）约值 | ASTM E84 约值 |
 |---|---|---|---|
 | A1 | Non-combustible | Non-combustible | — |
-| A2-s1,d0 | Very limited combustibility, no smoke, no droplets | Class 0 | Class A (FSI 0-25) |
-| B-s1,d0 | Limited combustibility | Class 0 | Class A (FSI 0-25) |
-| B-s2,d0 | Limited combustibility, limited smoke | Class 1 | Class A-B |
-| C-s2,d0 | Moderate contribution to fire | Class 1-2 | Class B (FSI 26-75) |
-| D-s2,d0 | Significant contribution to fire | Class 3 | Class C (FSI 76-200) |
-| E | High contribution to fire | Class 3-4 | Class C |
-| F | No performance determined | — | — |
+| A2-s1,d0 | 极低可燃性，无烟、无滴落 | Class 0 | A级（FSI 0-25） |
+| B-s1,d0 | 有限可燃性 | Class 0 | A级（FSI 0-25） |
+| B-s2,d0 | 有限可燃性、烟气有限 | Class 1 | A-B级 |
+| C-s2,d0 | 对火灾有中等贡献 | Class 1-2 | B级（FSI 26-75） |
+| D-s2,d0 | 对火灾有显著贡献 | Class 3 | C级（FSI 76-200） |
+| E | 对火灾贡献高 | Class 3-4 | C级 |
+| F | 未确定性能 | — | — |
 
-**Suffix Notation:**
-- s1, s2, s3: smoke production (s1 = lowest)
-- d0, d1, d2: flaming droplets (d0 = none)
+**后缀标记：**
+- s1、s2、s3：产烟量（s1 最低）。
+- d0、d1、d2：燃烧滴落物（d0 表示无）。
 
-### 14.2 Material Fire Classifications
+### 14.2 材料防火分类
 
-| Material | Typical Euroclass | Notes |
+| 材料 | 典型 Euroclass | 备注 |
 |---|---|---|
-| Concrete | A1 | Non-combustible in all forms |
-| Steel | A1 | Non-combustible; loses strength at temperature |
-| Clay brick | A1 | Non-combustible |
-| Natural stone | A1 | Non-combustible |
-| Glass | A1 | Non-combustible |
-| Aluminum | A1 | Non-combustible; melts at ~660°C |
-| Plasterboard | A2-s1,d0 | Paper facing adds minor combustibility |
-| Mineral wool | A1-A2 | Non-combustible; binder may produce minor smoke |
-| Timber (untreated) | D-s2,d0 | Combustible; predictable charring |
-| Timber (FR treated) | B-s1,d0 | Fire retardant impregnation |
-| CLT (with FR treatment) | B-s1,d0 to C | Depends on treatment depth |
-| PIR insulation (foil-faced) | B-C | Depends on facer and formulation |
-| EPS insulation | E-F | Highly combustible; must be protected |
-| XPS insulation | E | Similar to EPS; melts and burns |
-| Wood fibre insulation | E | Combustible; slow ignition |
-| ETFE | B-s1,d0 | Melts and shrinks away from flame (self-venting) |
-| HPL (compact laminate) | B-s2,d0 | Phenolic resin based |
-| ACM (aluminum composite, PE core) | E-F | **CRITICAL: fire hazard**; banned on UK buildings > 18 m post-Grenfell |
-| ACM (aluminum composite, FR core) | B-s1,d0 | Mineral-filled core; acceptable for high-rise |
+| 混凝土 | A1 | 各种形态均不燃 |
+| 钢材 | A1 | 不燃；高温下强度降低 |
+| 黏土砖 | A1 | 不燃 |
+| 天然石材 | A1 | 不燃 |
+| 玻璃 | A1 | 不燃 |
+| 铝材 | A1 | 不燃；约660°C熔化 |
+| 石膏板 | A2-s1,d0 | 纸面带来轻微可燃性 |
+| 岩棉 | A1-A2 | 不燃；胶黏剂可能产生少量烟气 |
+| 木材（未经处理） | D-s2,d0 | 可燃；炭化规律可预测 |
+| 木材（阻燃处理） | B-s1,d0 | 阻燃浸渍处理 |
+| CLT（阻燃处理） | B-s1,d0至C | 取决于处理深度 |
+| PIR保温（覆铝箔） | B-C | 取决于覆面和配方 |
+| EPS保温 | E-F | 高度可燃；必须采取保护措施 |
+| XPS保温 | E | 与EPS类似；会熔化并燃烧 |
+| 木纤维保温 | E | 可燃；起火较慢 |
+| ETFE | B-s1,d0 | 熔化并远离火焰收缩（自排烟） |
+| HPL（紧凑型层压板） | B-s2,d0 | 以酚醛树脂为基础 |
+| ACM（铝塑复合板，PE芯） | E-F | **严重火灾风险**；Grenfell事件后英国18 m以上建筑禁用 |
+| ACM（铝塑复合板，阻燃芯） | B-s1,d0 | 矿物填充芯；可用于高层建筑 |
 
 ---
 
-## 15. Cost Reference Ranges (Indicative, 2024-2025)
+## 15. 成本参考范围（指示性，2024–2025）
 
-| Material | Unit | Cost Range (USD) | Notes |
+| 材料 | 单位 | 成本范围（美元） | 备注 |
 |---|---|---|---|
-| Ready-mix concrete C30/37 | per m³ | $120-200 | Pump-delivered; varies by region |
-| Structural steel (fabricated, erected) | per tonne | $3,000-5,500 | Including connections and erection |
-| Steel rebar (cut, bent, fixed) | per tonne | $1,200-1,800 | |
-| CLT panel (supplied) | per m³ | $800-1,500 | Excluding connections and crane |
-| Glulam beam (supplied) | per m³ | $1,000-2,000 | Depending on grade and finish |
-| Facing brick (supply + lay) | per m² | $80-200 | Standard to premium facing |
-| Natural stone cladding (30 mm) | per m² | $150-600 | Limestone to granite |
-| Aluminum curtain wall | per m² | $600-1,500 | Standard to high-performance |
-| Structural glazing (point-fixed) | per m² | $800-2,000 | Including spider fittings |
-| Zinc standing seam roofing | per m² | $80-160 | Supply + install |
-| Copper standing seam roofing | per m² | $120-250 | Supply + install |
-| Painted steel cladding (insulated) | per m² | $80-150 | Composite panel or profiled sheet |
-| Terracotta rainscreen | per m² | $150-350 | Including subframe |
-| Timber cladding (larch/cedar) | per m² | $60-120 | Supply + fix |
-| ETFE cushion system | per m² | $250-500 | Including frame and inflation |
-| Mineral wool insulation (150 mm) | per m² | $12-25 | Supply + fix |
-| PIR insulation (120 mm) | per m² | $20-40 | Supply + fix |
+| C30/37预拌混凝土 | 每m³ | $120-200 | 泵送供应；因地区而异 |
+| 结构钢（加工、安装） | 每吨 | $3,000-5,500 | 包括连接件和安装 |
+| 钢筋（切割、弯曲、绑扎） | 每吨 | $1,200-1,800 | |
+| CLT板（供货） | 每m³ | $800-1,500 | 不含连接件和起重机 |
+| 胶合木梁（供货） | 每m³ | $1,000-2,000 | 取决于等级和饰面 |
+| 饰面砖（供货+砌筑） | 每m² | $80-200 | 标准至高端饰面 |
+| 天然石材覆层（30 mm） | 每m² | $150-600 | 石灰石至花岗岩 |
+| 铝制幕墙 | 每m² | $600-1,500 | 标准至高性能 |
+| 点支式结构玻璃 | 每m² | $800-2,000 | 包括蜘蛛连接件 |
+| 锌直立锁边屋面 | 每m² | $80-160 | 供货+安装 |
+| 铜直立锁边屋面 | 每m² | $120-250 | 供货+安装 |
+| 涂装钢覆层（带保温） | 每m² | $80-150 | 复合板或压型板 |
+| 陶土雨屏 | 每m² | $150-350 | 包括副框 |
+| 木材覆层（落叶松/雪松） | 每m² | $60-120 | 供货+固定 |
+| ETFE气枕系统 | 每m² | $250-500 | 包括框架和充气系统 |
+| 岩棉保温（150 mm） | 每m² | $12-25 | 供货+固定 |
+| PIR保温（120 mm） | 每m² | $20-40 | 供货+固定 |
 
-**Note:** Costs are highly regional, subject to market conditions, and should be verified with local quantity surveyors. Figures above are order-of-magnitude guidance for feasibility and comparison only.
+**注：**成本具有很强的地域性并受市场条件影响，应向当地造价师核实。以上数据仅作为可行性研究和比较的数量级参考。

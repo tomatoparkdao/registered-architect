@@ -1,4 +1,4 @@
-# Building Typology Taxonomy: Comprehensive Reference
+# 建筑类型学分类：综合参考
 
 > Dimensions, metrics, adjacencies, and exemplars for every major building type.
 > All dimensions in meters unless noted. FAR = Floor Area Ratio. NTG = Net-to-Gross ratio.
@@ -463,7 +463,7 @@
 
 ---
 
-## TYPOLOGY SELECTION MATRIX
+## 类型选择矩阵
 
 | Typology | Typical FAR | Floor-to-Floor (m) | NTG Ratio | Primary Structural System |
 |----------|------------|-------------------|-----------|--------------------------|
@@ -495,9 +495,9 @@
 
 ---
 
-## USING THIS REFERENCE
+## 本参考的使用方法
 
-When developing a project brief or evaluating a design:
+编制项目任务书或评估设计时：
 
 1. **Identify the primary typology** and its subtypes from this taxonomy.
 2. **Check dimensional ranges** -- floor plate depth, structural grid, and floor-to-floor height constrain all downstream design decisions.
@@ -510,7 +510,7 @@ When developing a project brief or evaluating a design:
 
 ---
 
-## KEY METRIC DEFINITIONS
+## 关键指标定义
 
 | Metric | Definition | Why It Matters |
 |--------|-----------|----------------|

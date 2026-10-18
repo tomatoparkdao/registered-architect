@@ -1,447 +1,447 @@
-# Passive House — Detailed Design Reference
+# 被动房——详细设计参考
 
-## 1. Wall Assemblies
+## 1. 墙体构造
 
-### 1.1 Masonry Cavity Wall (Passive House)
+### 1.1 砌体夹心墙（被动房）
 
-**Build-up (outside to inside):**
-- Brick outer leaf (102 mm) or render on rigid insulation
-- Cavity (fully filled): 150–200 mm mineral wool or EPS (λ ≤ 0.035 W/mK)
-- Dense blockwork inner leaf (140 mm, ≥1400 kg/m³)
-- Airtight plaster (13 mm) or parge coat
-- Internal finish
+**构造层次（由外向内）：**
+- 砖外叶墙（102 mm），或在硬质保温层上做抹灰
+- 夹腔（全填充）：150–200 mm 矿棉或 EPS（λ ≤ 0.035 W/mK）
+- 密实砌块内叶墙（140 mm，≥1400 kg/m³）
+- 气密抹灰层（13 mm）或找平抹灰层
+- 内部饰面
 
-**U-value:** 0.12–0.15 W/m²K (depending on insulation thickness and lambda)
+**U 值：**0.12–0.15 W/m²K（取决于保温厚度和导热系数）
 
-**Airtightness strategy:** Wet-plastered dense blockwork inner leaf provides the airtight layer. All joints between block and floor slab, block and window reveal, block and roof plate must be parged or taped with compatible sealant. Service penetrations sealed with proprietary grommets.
+**气密性策略：**湿抹灰密实砌块内叶墙作为气密层。砌块与楼板、砌块与窗洞口、砌块与屋面板之间的所有接缝，必须采用找平抹灰或相容密封胶带封闭。管线穿透处使用专用密封套管封闭。
 
-**Thermal bridges:** Window positions critical — set window frame within the insulation plane (not at inner leaf face). Lintels must be insulated composite (not steel with thermal bypass). Cavity closers at openings must be insulated. Party wall junctions require careful detailing to avoid cold bridges.
+**热桥：**窗的位置至关重要——应将窗框置于保温层平面内（而非内叶墙表面）。过梁必须采用保温复合构件（不得使用会形成热旁路的钢过梁）。洞口夹腔收口件必须保温。分户墙节点需细致设计，避免冷桥。
 
-### 1.2 Timber Frame Wall (Passive House)
+### 1.2 木框架墙（被动房）
 
-**Build-up (outside to inside):**
-- Ventilated rainscreen cladding (timber boards, fibre cement, metal)
-- Breather membrane (vapour-open, ≥0.6 MNs/g)
-- Sheathing board (OSB 9 mm or wood fibre board 35 mm)
-- Timber studs (140–220 mm at 600 centres) with full-fill mineral wool or cellulose
-- External insulation layer (50–100 mm mineral wool or woodfibre — wraps outside the frame to reduce thermal bridging through studs)
-- Airtight membrane (variable vapour resistance — "intelligent" membrane, e.g., ProClima Intello, Siga Majrex)
-- Service void (50 mm battens with mineral wool — keeps services inboard of airtight layer)
-- Gypsum board finish (12.5 mm)
+**构造层次（由外向内）：**
+- 通风雨屏外饰面（木板、纤维水泥、金属）
+- 透汽防水膜（≥0.6 MNs/g）
+- 结构面板（9 mm OSB 或 35 mm 木纤维板）
+- 木立柱（140–220 mm，中心间距 600 mm），全填充矿棉或纤维素
+- 外保温层（50–100 mm 矿棉或木纤维——包覆框架外侧，减少立柱热桥）
+- 气密膜（可变蒸汽阻力——“智能”膜，例如 ProClima Intello、Siga Majrex）
+- 设备空腔（50 mm 木龙骨填矿棉——使机电管线位于气密层内侧）
+- 石膏板饰面（12.5 mm）
 
-**U-value:** 0.10–0.15 W/m²K
+**U 值：**0.10–0.15 W/m²K
 
-**Airtightness strategy:** The intelligent vapour control membrane is the primary airtight layer. It is installed continuously across the warm side of the insulation, with all overlaps taped (minimum 60 mm overlap with compatible tape), all penetrations sealed with proprietary grommets (for pipes, cables), and all junctions to floor, ceiling, and window frames sealed with compatible adhesive or tape. The service void inboard of the membrane protects the airtight layer from damage by subsequent trades (electricians, plumbers).
+**气密性策略：**智能蒸汽控制膜是主要气密层，连续铺设在保温层暖侧。所有搭接处用相容胶带粘贴（最小搭接 60 mm），所有管线穿透处使用专用密封套管封闭，膜与楼板、天花及窗框的所有节点用相容胶粘剂或胶带封闭。膜内侧的设备空腔可保护气密层免受后续工种（电工、管道工）损坏。
 
-**Thermal bridges:** The external insulation layer wrapping outside the timber frame reduces the thermal bridge effect of the studs (λ timber ≈ 0.13 W/mK vs. λ insulation ≈ 0.035 W/mK). Without this wrap, stud thermal bridging can increase the effective U-value by 15–20%.
+**热桥：**包覆木框架外侧的外保温层可降低立柱热桥效应（木材 λ ≈ 0.13 W/mK，保温材料 λ ≈ 0.035 W/mK）。没有该包覆层时，立柱热桥可能使有效 U 值增加 15–20%。
 
-### 1.3 Steel Frame Wall (Passive House)
+### 1.3 钢框架墙（被动房）
 
-**Build-up (outside to inside):**
-- Cladding system (brick slip, render, rainscreen)
-- External insulation (120–200 mm rigid mineral wool or EPS, continuous outside the steel frame)
-- Breather membrane
-- Steel studs (90–150 mm at 600 centres) with mineral wool fill (NB: steel studs are severe thermal bridges — the external insulation must dominate)
-- Vapour control / airtight membrane
-- Service void (50 mm)
-- Gypsum board finish
+**构造层次（由外向内）：**
+- 外饰面系统（砖饰面片、抹灰、雨屏）
+- 外保温（120–200 mm 硬质矿棉或 EPS，连续铺设在钢框架外侧）
+- 透汽防水膜
+- 钢立柱（90–150 mm，中心间距 600 mm）填矿棉（注意：钢立柱是严重热桥，外保温必须起主导作用）
+- 蒸汽控制／气密膜
+- 设备空腔（50 mm）
+- 石膏板饰面
 
-**U-value:** 0.12–0.15 W/m²K (requires substantial external insulation to compensate for steel stud bridging)
+**U 值：**0.12–0.15 W/m²K（需要足够厚的外保温来抵消钢立柱热桥）
 
-**Critical note:** Steel studs have λ ≈ 50 W/mK (vs. timber at 0.13 or insulation at 0.035). Without continuous external insulation, the effective U-value can be 2–3× the clear-wall value. A 100 mm steel stud wall insulated only between studs achieves an effective U-value of approximately 0.5 W/m²K — nowhere near Passive House. The external wrap of continuous insulation is mandatory.
+**重要提示：**钢立柱 λ ≈ 50 W/mK（木材为 0.13，保温材料为 0.035）。没有连续外保温时，有效 U 值可能达到无热桥墙体值的 2–3 倍。仅在立柱之间填保温的 100 mm 钢立柱墙，有效 U 值约为 0.5 W/m²K，远未达到被动房水平。连续外保温包覆是强制要求。
 
-### 1.4 ICF Wall (Insulated Concrete Formwork)
+### 1.4 ICF 墙（保温混凝土模板）
 
-**Build-up:**
-- EPS or Neopor formwork blocks (typically 75 mm each side = 150 mm total insulation)
-- Concrete core (150–200 mm, poured in place)
-- Additional external insulation if required (50–100 mm to reach target U-value)
-- Internal finish (plasterboard on dabs or plaster)
+**构造层次：**
+- EPS 或 Neopor 模板块（通常每侧 75 mm，总保温厚度 150 mm）
+- 混凝土芯（150–200 mm，现场浇筑）
+- 需要时增设外保温（50–100 mm，以达到目标 U 值）
+- 内部饰面（点粘石膏板或抹灰）
 
-**U-value:** 0.15–0.20 W/m²K (standard ICF); 0.10–0.13 W/m²K (with additional external insulation)
+**U 值：**0.15–0.20 W/m²K（标准 ICF）；0.10–0.13 W/m²K（增设外保温时）
 
-**Airtightness:** The concrete core is inherently airtight. Joints between ICF blocks, floor-wall junctions, and penetrations must be sealed.
-
----
-
-## 2. Roof Assemblies
-
-### 2.1 Warm Roof (Insulation Above Deck)
-
-**Build-up (outside to inside):**
-- Roof membrane (single-ply or built-up)
-- Rigid insulation (200–350 mm PIR λ=0.022 or mineral wool λ=0.035)
-- Vapour control layer (airtight membrane lapped and sealed to wall airtight layer)
-- Structural deck (concrete slab, timber deck, or metal deck)
-- Ceiling finish
-
-**U-value:** 0.08–0.12 W/m²K
-
-**Airtightness:** The VCL on the warm side of the insulation must be continuous and connected to the wall airtight layer at the eaves or parapet junction. This is one of the most critical junctions in Passive House construction.
-
-### 2.2 Cold Roof (Insulation at Ceiling Level)
-
-**Build-up:**
-- Ventilated roof void (minimum 50 mm clear ventilation above insulation)
-- Loft insulation (300–500 mm mineral wool, cellulose, or woodfibre between and over joists)
-- Airtight membrane at ceiling level (connected to wall airtight layer at eaves)
-- Ceiling board (12.5 mm plasterboard)
-
-**U-value:** 0.08–0.10 W/m²K
-
-**Airtightness:** Extremely challenging at the wall-ceiling junction. The airtight membrane must be continuous from the wall, across the ceiling, without being punctured by services. Downlights, ceiling roses, and other penetrations must use airtight housings or be contained within the service void below the airtight layer.
-
-### 2.3 Rafter-Level Insulation (Vaulted Ceiling)
-
-**Build-up (outside to inside):**
-- Roofing (tiles, slates, standing seam)
-- Ventilated batten cavity (minimum 50 mm)
-- Breather membrane
-- Rafter insulation (200–300 mm between rafters + 100 mm continuous below or above rafters)
-- Airtight membrane
-- Service void and ceiling board
-
-**U-value:** 0.10–0.13 W/m²K
+**气密性：**混凝土芯天然具备气密性。ICF 模板块之间、楼板与墙体节点以及穿透处必须密封。
 
 ---
 
-## 3. Floor / Ground Slab Assemblies
+## 2. 屋面构造
 
-### 3.1 Insulated Raft Foundation
+### 2.1 暖屋面（结构板上保温）
 
-**Build-up (top to bottom):**
-- Floor finish (screed, timber, tile)
-- Structural slab (reinforced concrete 150–200 mm, or structural screed over underfloor heating)
-- Damp proof membrane
-- Rigid insulation (200–300 mm EPS 100 or XPS beneath the slab)
-- Blinding (50 mm sand or lean concrete)
-- Subgrade
+**构造层次（由外向内）：**
+- 屋面膜（单层或复合屋面）
+- 硬质保温（200–350 mm PIR，λ=0.022，或矿棉，λ=0.035）
+- 蒸汽控制层（气密膜与墙体气密层搭接并密封）
+- 结构板（混凝土板、木结构板或金属楼承板）
+- 天花饰面
 
-**U-value:** 0.10–0.15 W/m²K (depends on insulation thickness and floor perimeter-to-area ratio)
+**U 值：**0.08–0.12 W/m²K
 
-**Airtightness:** The concrete slab is the airtight layer at floor level. The DPM beneath the slab is the moisture barrier. The junction between the slab/DPM and the wall airtight layer must be continuous — typically achieved by lapping the DPM to the wall membrane with compatible tape.
+**气密性：**保温层暖侧的 VCL 必须连续，并在檐口或女儿墙节点处与墙体气密层连接。这是被动房建造中最关键的节点之一。
 
-**Thermal bridge at foundation edge:** The slab edge where it meets the external wall is a critical thermal bridge. Solutions:
-- Insulated raft systems (e.g., Passive Slab, Viking House): the entire foundation perimeter is wrapped in insulation, eliminating the slab-edge cold bridge. ψ < 0.01 W/mK.
-- Thermal break elements (Schock Isokorb type QXT or equivalent) between slab edge and external wall foundation.
+### 2.2 冷屋面（天花标高保温）
 
-### 3.2 Suspended Timber Floor
+**构造层次：**
+- 通风屋顶空腔（保温层上方最小 50 mm 净通风空间）
+- 阁楼保温（300–500 mm 矿棉、纤维素或木纤维，填充在搁栅之间并覆盖其上）
+- 天花标高的气密膜（在檐口处与墙体气密层连接）
+- 天花板（12.5 mm 石膏板）
 
-**Build-up (top to bottom):**
-- Floor finish
-- Structural timber deck (18 mm chipboard or OSB)
-- Airtight membrane (across top of joists, taped to wall membrane)
-- Timber joists (200–300 mm) with full-fill insulation (mineral wool or cellulose)
-- Breather membrane (below joists, protecting insulation from subfloor ventilation)
-- Ventilated subfloor void
+**U 值：**0.08–0.10 W/m²K
 
-**U-value:** 0.10–0.15 W/m²K
+**气密性：**墙体与天花节点处施工极具挑战。气密膜必须从墙体连续跨过天花，不能被设备管线刺穿。筒灯、吸顶装饰盘及其他穿透处必须使用气密盒，或布置在气密层下方的设备空腔内。
+
+### 2.3 椽条标高保温（坡顶天花）
+
+**构造层次（由外向内）：**
+- 屋面面层（瓦、板岩瓦、直立锁边）
+- 通风挂条空腔（最小 50 mm）
+- 透汽防水膜
+- 椽条保温（椽条之间 200–300 mm，另加椽条下方或上方连续 100 mm）
+- 气密膜
+- 设备空腔和天花板
+
+**U 值：**0.10–0.13 W/m²K
 
 ---
 
-## 4. Windows and Doors
+## 3. 楼地面／地坪板构造
 
-### 4.1 Passive House Certified Windows
+### 3.1 保温筏板基础
 
-Windows are the weakest element of the Passive House envelope and must be carefully specified. PHI certifies window systems that meet specific performance criteria.
+**构造层次（由上向下）：**
+- 地面饰面（找平层、木地板、瓷砖）
+- 结构板（150–200 mm 钢筋混凝土，或地暖上方的结构找平层）
+- 防潮膜
+- 硬质保温（板下 200–300 mm EPS 100 或 XPS）
+- 垫层（50 mm 砂或素混凝土）
+- 地基土
 
-**PHI window certification criteria:**
+**U 值：**0.10–0.15 W/m²K（取决于保温厚度及地面周长与面积之比）
+
+**气密性：**混凝土板是地面标高的气密层，板下 DPM 是防潮层。楼板／DPM 与墙体气密层的节点必须连续，通常通过将 DPM 与墙体膜搭接并用相容胶带粘贴实现。
+
+**基础边缘热桥：**楼板边缘与外墙相交处是关键热桥。解决方案：
+- 保温筏板系统（如 Passive Slab、Viking House）：整个基础周边包覆保温，消除板边冷桥。ψ < 0.01 W/mK。
+- 在楼板边缘与外墙基础之间设置断热构件（Schock Isokorb type QXT 或同等产品）。
+
+### 3.2 架空木楼板
+
+**构造层次（由上向下）：**
+- 地面饰面
+- 木结构板（18 mm 刨花板或 OSB）
+- 气密膜（铺过搁栅顶部，并与墙体膜粘贴）
+- 木搁栅（200–300 mm），全填充保温（矿棉或纤维素）
+- 透汽防水膜（位于搁栅下方，保护保温层免受地板下通风影响）
+- 通风地板下空腔
+
+**U 值：**0.10–0.15 W/m²K
+
+---
+
+## 4. 门窗
+
+### 4.1 被动房认证窗
+
+窗是被动房围护结构中最薄弱的构件，必须谨慎选型。PHI 对满足特定性能标准的窗系统进行认证。
+
+**PHI 窗认证标准：**
 - Uw,installed ≤ 0.85 W/m²K (cold climate)
 - Uw,installed ≤ 1.0 W/m²K (warm climate)
 - Ug ≤ 0.7 W/m²K (triple glazed IGU)
 - Uf ≤ 0.80 W/m²K (frame U-value, varies by frame type)
 - ψ_spacer ≤ 0.032 W/mK (warm edge spacer: TGI, Super Spacer, Swisspacer Ultimate)
-- ψ_install ≤ 0.035 W/mK (installation thermal bridge — window overlapping insulation)
+- ψ_install ≤ 0.035 W/mK（安装热桥——窗与保温层搭接）
 - g-value ≥ 0.50 (for south-facing: maximize solar heat gain)
 
-**Typical triple-glazed IGU specification:**
+**典型三玻中空玻璃单元规格：**
 - 4/16Ar/4/16Ar/4 mm with 2 low-e coatings (positions 2 and 5)
 - Argon fill (≥90%) or Krypton fill (premium)
 - Ug = 0.50–0.70 W/m²K (argon), 0.40–0.50 W/m²K (krypton)
 - g-value = 0.50–0.62 (varies with coating)
 
-**Frame types:**
+**框型：**
 - Timber: best thermal performance, Uf 0.7–0.9 W/m²K. Requires external weather protection (aluminium capping or paint).
 - Timber-aluminium composite: timber inside, aluminium outside. Uf 0.8–1.0 W/m²K. Low maintenance.
-- uPVC (multi-chamber): 5–7 chamber profiles with steel or fibreglass reinforcement. Uf 0.9–1.1 W/m²K. Cost-effective.
+- uPVC（多腔型）：5–7 腔型材，采用钢或玻璃纤维增强。Uf 0.9–1.1 W/m²K，经济性好。
 - Aluminium (thermally broken): Uf 1.2–2.0 W/m²K. Difficult to achieve Passive House targets without very wide thermal breaks (≥40 mm). Some PHI-certified systems exist (e.g., Schuco AWS 90.SI+, Reynaers Hi-Finity).
-- Fibreglass (pultruded): Uf 0.8–1.0 W/m²K. Dimensionally stable, paintable.
+- 玻璃纤维（拉挤型材）：Uf 0.8–1.0 W/m²K，尺寸稳定且可涂装。
 
-**Installation position:** The window frame must be positioned within the insulation zone — typically at the outer face of the structural wall, overlapped by ≥40 mm of external insulation. This minimizes the installation thermal bridge (ψ_install). Setting the window at the inner face of the wall creates a severe thermal bridge.
+**安装位置：**窗框必须位于保温区域内，通常设置在结构墙外表面，并由 ≥40 mm 外保温覆盖。这样可将安装热桥（ψ_install）降至最低。将窗设置在墙体内表面会形成严重热桥。
 
-**Installation sealing layers (RAL installation per RAL guideline):**
-- Outer seal: weather-tight but vapour-open (rain/wind barrier). Compriband pre-compressed tape or liquid-applied sealant.
-- Central insulation layer: PU foam or mineral wool filling the gap between frame and wall (thermal insulation).
-- Inner seal: airtight and vapour-tight. Self-adhesive airtight tape connecting window frame to wall airtight membrane. Must accommodate ±5 mm thermal movement.
+**安装密封层（按 RAL 指南进行 RAL 安装）：**
+- 外密封：防风雨但透汽（雨／风屏障）。采用 Compriband 预压缩胶带或液体密封胶。
+- 中间保温层：用 PU 泡沫或矿棉填充窗框与墙体之间的缝隙（热工保温）。
+- 内密封：气密且不透汽。采用自粘气密胶带，将窗框连接至墙体气密膜，并应适应 ±5 mm 的热位移。
 
-### 4.2 Passive House Certified Doors
+### 4.2 被动房认证门
 
-External doors must achieve Ud ≤ 0.80 W/m²K and airtight seals on all four edges (typically triple-seal compression gaskets). Threshold details are critical: the threshold must be thermally broken and insulated beneath.
+外门必须达到 Ud ≤ 0.80 W/m²K，并在四边设置气密密封（通常为三道压缩密封条）。门槛节点至关重要：门槛必须设置断热构造，并在下方进行保温。
 
-**Common solutions:**
-- Insulated timber doors with triple glazing (Ud 0.7–0.9 W/m²K)
-- Insulated composite doors with PU core (Ud 0.8–1.0 W/m²K)
-- Aluminium doors with thermal break (Ud 1.0–1.5 W/m²K — marginal for Passive House)
+**常见方案：**
+- 带三层玻璃的保温木门（Ud 0.7–0.9 W/m²K）
+- PU 芯材保温复合门（Ud 0.8–1.0 W/m²K）
+- 带断热构造的铝门（Ud 1.0–1.5 W/m²K——对被动房而言接近临界值）
 
 ---
 
-## 5. Airtightness Layer
+## 5. 气密层
 
-### 5.1 Principles
+### 5.1 原则
 
-The airtight layer must form a continuous, unbroken envelope around the entire heated volume. Every penetration, junction, and transition must be sealed. The principle is: you should be able to trace the airtight layer with a pen on the building section without lifting the pen.
+气密层必须围绕整个采暖体量形成连续、无断点的围护。每一处穿透、节点和转换都必须密封。原则是：在建筑剖面图上用笔描出气密层时，笔尖不应离开图面。
 
-**Common airtight layers by construction type:**
-| Construction | Airtight Layer | Key Vulnerability |
+**按构造类型划分的常见气密层：**
+| 构造 | 气密层 | 主要薄弱点 |
 |---|---|---|
-| Masonry | Wet plaster (parge coat) on dense blockwork inner leaf | Junctions with floor slab, roof, and openings |
-| Timber frame | Vapour control membrane (intelligent VCL) on warm side | Membrane joints, penetrations, junction to slab |
-| CLT | CLT panels with taped joints | Panel-to-panel joints, penetrations |
-| Steel frame | Vapour control membrane or internal board with taped joints | Steel-to-membrane interface, penetrations |
-| Concrete | In-situ concrete slab and walls (inherently airtight) | Construction joints, penetrations, junctions |
-| ICF | Concrete core (inherently airtight) | Top of wall, penetrations |
+| 砌体 | 密实砌块内叶墙上的湿抹灰（找平抹灰层） | 与楼板、屋面和洞口的节点 |
+| 木框架 | 暖侧蒸汽控制膜（智能 VCL） | 膜接缝、穿透处、与楼板的节点 |
+| CLT | 胶带封缝的 CLT 板 | 板与板节点、穿透处 |
+| 钢框架 | 蒸汽控制膜或胶带封缝的内侧板 | 钢材与膜界面、穿透处 |
+| 混凝土 | 现浇混凝土楼板和墙体（天然气密） | 施工缝、穿透处、节点 |
+| ICF | 混凝土芯（天然气密） | 墙顶、穿透处 |
 
-### 5.2 Membrane Products (Vapour Control / Airtight Membranes)
+### 5.2 膜产品（蒸汽控制／气密膜）
 
-| Product | Type | Sd value | Notes |
+| 产品 | 类型 | Sd 值 | 说明 |
 |---|---|---|---|
-| ProClima Intello Plus | Intelligent VCL | 0.25–10 m (variable) | Most widely used in Passive House. Variable vapour resistance: low Sd in summer (allows inward drying), high Sd in winter (prevents interstitial condensation). |
-| Siga Majrex | Intelligent VCL | 0.35–5 m (variable) | Alternative to Intello. Strong, tear-resistant. |
-| ProClima DA | External airtight membrane | Sd 0.02 m | Vapour-open, wind-tight. For outside of insulation (not VCL function). |
-| Isover Vario KM Duplex UV | Intelligent VCL | 0.3–5 m (variable) | Lower cost option. |
-| Standard PE vapour barrier | Fixed VCL | Sd > 100 m | Traditional VCL. Does NOT allow summer drying — risk of trapped moisture in timber frame. NOT recommended for Passive House. |
+| ProClima Intello Plus | 智能 VCL | 0.25–10 m（可变） | 被动房中应用最广。蒸汽阻力可变：夏季 Sd 较低（允许向内干燥），冬季 Sd 较高（防止夹层结露）。 |
+| Siga Majrex | 智能 VCL | 0.35–5 m（可变） | Intello 的替代产品，强度高且抗撕裂。 |
+| ProClima DA | 外部气密膜 | Sd 0.02 m | 透汽且防风。用于保温层外侧（不承担 VCL 功能）。 |
+| Isover Vario KM Duplex UV | 智能 VCL | 0.3–5 m（可变） | 成本较低的选项。 |
+| 标准 PE 隔汽层 | 固定式 VCL | Sd > 100 m | 传统 VCL。不能实现夏季干燥——木框架中存在积湿风险。不建议用于被动房。 |
 
-### 5.3 Tapes and Sealants
+### 5.3 胶带和密封胶
 
-| Product | Application | Notes |
+| 产品 | 应用 | 说明 |
 |---|---|---|
-| ProClima Tescon Vana | Membrane-to-membrane overlaps | Permanently tacky, high adhesion. Standard for Intello overlaps. |
-| Siga Wigluv | Membrane-to-rough surface (concrete, masonry, timber) | Adhesive strip designed for non-membrane substrates. |
-| Siga Fentrim IS 2 | Window frame-to-membrane connection | Flexible, accommodates movement. |
-| ProClima Tescon Profil | Corners and internal angles | Pre-formed corner tape. |
-| ProClima Kaflex | Pipe/cable penetrations through membrane | Grommeted sleeve for individual penetrations. |
-| Würth airtight sealant | Irregular gaps, rough substrates | Gun-applied airtight sealant (acrylic or hybrid). |
+| ProClima Tescon Vana | 膜与膜搭接 | 持久粘性，粘结力高；Intello 搭接的标准产品。 |
+| Siga Wigluv | 膜与粗糙表面（混凝土、砌体、木材） | 为非膜基材设计的胶粘带。 |
+| Siga Fentrim IS 2 | 窗框与膜连接 | 柔性材料，可适应位移。 |
+| ProClima Tescon Profil | 转角和内角 | 预成型角部胶带。 |
+| ProClima Kaflex | 管道／电缆穿膜处 | 用于单个穿透点的密封套管。 |
+| Würth 气密密封胶 | 不规则缝隙、粗糙基材 | 枪涂式气密密封胶（丙烯酸或混合型）。 |
 | SIGA Dockskin | Rough surface primer | Applied to concrete/masonry before taping to ensure bond. |
 
-### 5.4 Construction Sequence for Airtightness
+### 5.4 气密施工顺序
 
-1. **Planning:** Draw the airtight layer on every building section and plan drawing before construction begins. Identify every junction, penetration, and transition.
-2. **Substrate preparation:** Ensure surfaces receiving membrane or tape are clean, dry, dust-free, and primed where necessary.
-3. **Membrane installation:** Install VCL continuously across walls and ceiling. Overlap ≥60 mm at all joints. Tape all overlaps with compatible tape immediately.
-4. **Junction to floor slab:** Lap membrane down to concrete slab. Tape to slab using rough-surface tape (Wigluv or equivalent) on primed concrete.
-5. **Junction to windows/doors:** Apply airtight tape from window frame to wall membrane. Use flexible tape (Fentrim) that accommodates thermal movement.
-6. **Penetrations:** All pipes, cables, and ducts penetrating the airtight layer must be sealed with proprietary grommets or airtight sealant. Group penetrations where possible to minimize the number of seals.
-7. **Service void:** Install service void (battens + board) inboard of the airtight membrane to contain electrical and plumbing services WITHOUT puncturing the membrane.
-8. **Intermediate testing:** Conduct blower door test at the earliest opportunity (typically after the airtight layer is complete but before internal finishes). Fix any defects immediately — remediation is far cheaper before plasterboard and finishes are installed.
-9. **Final testing:** Conduct final blower door test per EN 13829 / ISO 9972 (Method A: building in use condition). Result must be ≤ 0.6 ACH @ 50 Pa.
+1. **规划：**施工开始前，在每张建筑剖面图和平面图上绘出气密层，识别每个节点、穿透处和转换部位。
+2. **基层准备：**确保粘贴膜或胶带的表面清洁、干燥、无尘，必要时涂刷底涂。
+3. **膜安装：**在墙体和天花连续安装 VCL。所有接缝搭接 ≥60 mm，并立即用相容胶带封闭所有搭接处。
+4. **与楼板节点：**将膜向下搭接至混凝土板，在已涂底涂的混凝土上用粗糙表面胶带（Wigluv 或同等产品）粘贴。
+5. **与门窗节点：**用气密胶带将窗框连接至墙体膜，采用可适应热位移的柔性胶带（Fentrim）。
+6. **穿透处：**所有穿过气密层的管道、电缆和风管必须用专用密封套管或气密密封胶封闭。在可行时集中布置穿透点，减少密封数量。
+7. **设备空腔：**在气密膜内侧设置设备空腔（龙骨 + 板材），容纳电气和给排水管线，且不得刺穿气密膜。
+8. **中间测试：**尽早进行鼓风门测试（通常在气密层完成后、内部饰面安装前）。立即修复缺陷——在安装石膏板和饰面前整改成本低得多。
+9. **最终测试：**按 EN 13829 / ISO 9972 进行最终鼓风门测试（方法 A：建筑使用状态）。结果必须 ≤ 0.6 ACH @ 50 Pa。
 
-**Testing method:** The blower door (fan pressurization) test measures the air change rate at 50 Pa pressure difference. A calibrated fan is sealed into an external door opening and pressurizes (or depressurizes) the building. The airflow required to maintain 50 Pa is measured. n50 = V̇50 / V, where V̇50 is the airflow at 50 Pa (m³/h) and V is the internal volume (m³).
+**测试方法：**鼓风门（风机加压）测试测量 50 Pa 压差下的换气率。将校准风机密封安装在外门洞口，对建筑加压（或减压），测量维持 50 Pa 所需的气流量。n50 = V̇50 / V，其中 V̇50 为 50 Pa 下的气流量（m³/h），V 为内部体积（m³）。
 
-**Typical results:**
-- Standard construction (no airtightness focus): 5–10 ACH @ 50 Pa
-- Good conventional construction: 3–5 ACH @ 50 Pa
-- Building regulations (UK Part L): ≤ 5 ACH @ 50 Pa (10 m³/h/m² @ 50 Pa)
-- Passive House: ≤ 0.6 ACH @ 50 Pa
-- Best achievable: 0.1–0.3 ACH @ 50 Pa
+**典型结果：**
+- 标准施工（未重点关注气密性）：5–10 ACH @ 50 Pa
+- 良好常规施工：3–5 ACH @ 50 Pa
+- 建筑法规（UK Part L）：≤ 5 ACH @ 50 Pa（10 m³/h/m² @ 50 Pa）
+- 被动房：≤ 0.6 ACH @ 50 Pa
+- 可达到的最佳水平：0.1–0.3 ACH @ 50 Pa
 
 ---
 
-## 6. MVHR System Selection and Design
+## 6. MVHR 系统选型与设计
 
-### 6.1 System Requirements
+### 6.1 系统要求
 
-**PHI minimum performance:**
-- Heat recovery efficiency ≥ 75% (effective, including electrical heating of supply air)
-- Electrical power consumption ≤ 0.45 Wh/m³ (specific fan power at design airflow)
-- Sound pressure level ≤ 25 dB(A) at 1 m from any supply/extract terminal in habitable rooms
+**PHI 最低性能：**
+- 热回收效率 ≥ 75%（有效值，包括送风电加热）
+- 电功率消耗 ≤ 0.45 Wh/m³（设计风量下的比风机功率）
+- 住宅房间内任一送风／排风末端 1 m 处的声压级 ≤ 25 dB(A)
 
-**Airflow rates:**
-- 30 m³/h per person (standard Passive House ventilation rate)
-- Extract: kitchen 60 m³/h, bathroom 40 m³/h, WC 20 m³/h (boost rates; trickle rates can be lower)
-- Supply: living room and bedrooms receive tempered supply air
-- Balance: total supply ≈ total extract (slight negative pressure acceptable to prevent moisture migration into structure)
+**风量：**
+- 每人 30 m³/h（被动房标准通风率）
+- 排风：厨房 60 m³/h、卫生间 40 m³/h、厕所 20 m³/h（加强风量；低速风量可更低）
+- 送风：客厅和卧室接收经过温度调节的送风
+- 平衡：总送风量 ≈ 总排风量（可允许轻微负压，以防水分迁移进入结构）
 
-### 6.2 PHI-Certified MVHR Units
+### 6.2 PHI 认证 MVHR 设备
 
-| Unit | Heat Recovery | SFP | Max Airflow | Noise | Notes |
+| 设备 | 热回收 | SFP | 最大风量 | 噪声 | 说明 |
 |---|---|---|---|---|---|
-| Zehnder ComfoAir Q350 | 93% | 0.27 Wh/m³ | 350 m³/h | 26 dB(A) @ 150 m³/h | Premium residential unit. Enthalpy exchanger available. |
-| Paul Novus 300 | 93% | 0.28 Wh/m³ | 300 m³/h | 24 dB(A) @ 170 m³/h | Compact, wall-mounted. Popular in Europe. |
-| Swegon CASA R3 | 87% | 0.35 Wh/m³ | 210 m³/h | 28 dB(A) @ 130 m³/h | Cost-effective. Suitable for small apartments. |
-| Brink Renovent Sky 300 | 91% | 0.31 Wh/m³ | 300 m³/h | 26 dB(A) @ 200 m³/h | Ceiling-mounted. Good for limited floor space. |
-| Zehnder ComfoAir Q600 | 93% | 0.30 Wh/m³ | 600 m³/h | 29 dB(A) @ 350 m³/h | Large residential / small commercial. |
-| Nilan Comfort CT300 | 85% | 0.38 Wh/m³ | 300 m³/h | 27 dB(A) @ 200 m³/h | Integrated heat pump option for DHW. |
+| Zehnder ComfoAir Q350 | 93% | 0.27 Wh/m³ | 350 m³/h | 26 dB(A) @ 150 m³/h | 高端住宅设备，可选焓交换器。 |
+| Paul Novus 300 | 93% | 0.28 Wh/m³ | 300 m³/h | 24 dB(A) @ 170 m³/h | 紧凑型壁挂设备，在欧洲应用广泛。 |
+| Swegon CASA R3 | 87% | 0.35 Wh/m³ | 210 m³/h | 28 dB(A) @ 130 m³/h | 性价比高，适用于小型公寓。 |
+| Brink Renovent Sky 300 | 91% | 0.31 Wh/m³ | 300 m³/h | 26 dB(A) @ 200 m³/h | 吊顶安装，适合楼面空间有限的场所。 |
+| Zehnder ComfoAir Q600 | 93% | 0.30 Wh/m³ | 600 m³/h | 29 dB(A) @ 350 m³/h | 适用于大型住宅／小型商业建筑。 |
+| Nilan Comfort CT300 | 85% | 0.38 Wh/m³ | 300 m³/h | 27 dB(A) @ 200 m³/h | 可集成生活热水热泵。 |
 
-### 6.3 Duct Design
+### 6.3 风管设计
 
-**Duct types:**
-- Rigid galvanized steel spiral duct: best for main trunk lines. Low friction, easy to clean. Diameters 100–250 mm.
-- Semi-rigid plastic duct (e.g., Zehnder ComfoTube, Lindab Safe): easier to route, fewer joints, inherently airtight. Diameters 75–90 mm for branch ducts to individual rooms.
-- Flexible insulated duct: avoid in Passive House — high friction loss, difficult to clean, potential for condensation.
+**风管类型：**
+- 刚性镀锌钢螺旋风管：最适合主管。摩擦小、易清洁，直径 100–250 mm。
+- 半刚性塑料风管（如 Zehnder ComfoTube、Lindab Safe）：易于布置、接缝少且天然气密。通往各房间的支管直径 75–90 mm。
+- 柔性保温风管：被动房应避免使用——摩擦损失大、难以清洁且可能结露。
 
-**Design principles:**
-- Maximum air velocity 3 m/s in branch ducts (noise control), 5 m/s in main trunk
-- All duct joints sealed (tape or gasket) and duct runs airtight (leakage class C minimum, class D preferred per EN 12237)
-- Insulate all ducts outside the thermal envelope (minimum 25 mm, preferably 50 mm)
-- Provide acoustic attenuators on supply and extract branches near habitable rooms (silencer or lined duct section, ≥600 mm)
-- Design for accessibility: include access panels for filter changes and duct cleaning
-- Minimize duct length and bends (each 90° bend = ~1.5 m equivalent duct length in pressure drop)
+**设计原则：**
+- 支管最大风速 3 m/s（噪声控制），主管 5 m/s
+- 所有风管接缝密封（胶带或垫片），风管系统气密（按 EN 12237，最低 C 级、优选 D 级泄漏等级）
+- 热工围护外的所有风管均应保温（最小 25 mm，优选 50 mm）
+- 在住宅房间附近的送、排风支管设置消声器（消声器或内衬风管段，≥600 mm）
+- 设计应便于检修：设置更换滤网和清洁风管的检修口
+- 尽量缩短风管并减少弯头（每个 90° 弯头在压降上相当于约 1.5 m 风管长度）
 
-### 6.4 Commissioning
+### 6.4 调试
 
-After installation:
-1. Measure airflow at each supply and extract terminal with a balometer (flow hood)
-2. Adjust dampers to achieve design airflow rates at each terminal (±10% tolerance)
-3. Verify total supply ≈ total extract (±10%)
-4. Measure noise at supply terminals in habitable rooms: ≤ 25 dB(A) at 1 m
-5. Verify heat recovery efficiency: measure supply and extract air temperatures at unit inlets and outlets under stable winter conditions
-6. Check filter condition and record baseline pressure drop
-
----
-
-## 7. Summer Comfort Strategies
-
-Passive House buildings, with their superinsulated envelopes and large south-facing windows, can overheat in summer if not properly designed. PHI requires that no more than 10% of occupied hours exceed 25°C (without active cooling).
-
-### 7.1 Prevention Strategies
-
-**External solar shading (first priority):**
-- Fixed overhangs on south facades (size for summer solar altitude: depth = window height × tan(90° − summer noon altitude))
-- External venetian blinds or roller shutters (most effective; reduce solar gain by 75–90%)
-- Vertical fins or perforated screens on east/west facades
-- Deciduous trees (seasonal shading: leaf-on in summer, leaf-off in winter)
-
-**Shading coefficient targets:** g-value × shading factor ≤ 0.10 for south glazing in summer (e.g., g = 0.50 × shading factor 0.20 = 0.10). External shading with FC = 0.10–0.20 is achievable; internal blinds (FC = 0.50–0.70) are insufficient.
-
-**Night ventilation (passive cooling):**
-- Open windows at night when Tout < Tint to flush heat from thermal mass
-- Requires exposed thermal mass (concrete soffits, masonry walls) to absorb daytime heat and release it at night
-- Security-rated ventilation openings (restricted opening, ground floor security screens)
-- Can reduce peak internal temperature by 2–4°C in temperate climates
-
-**Reduced internal gains:**
-- Efficient lighting (LED: 5–8 W/m² vs. fluorescent 12–15 W/m²)
-- Energy-efficient appliances (reduce heat output)
-- External server rooms / communal laundry in residential
-
-### 7.2 Active Cooling (When Prevention Is Insufficient)
-
-In hot climates, hot-humid climates, or urban heat island conditions, passive strategies alone may not prevent overheating. The Passive House standard allows active cooling with a cooling demand limit of ≤ 15 kWh/m²a (plus dehumidification allowance in humid climates).
-
-**Options:**
-- Split system / mini-split heat pump (COP 4–6 for cooling). Can serve dual heating/cooling function.
-- Supply air cooling via the MVHR system: a small cooling coil or heat pump in the supply air stream. Limited capacity (cooling only the ventilation supply air, ~300 W for a typical house) but very quiet and draught-free.
-- Ground-coupled cooling: earth tube (air drawn through buried pipes to pre-cool supply air) or ground-source heat pump in cooling mode.
+安装后：
+1. 使用风量罩在每个送、排风末端测量风量
+2. 调节风阀，使各末端达到设计风量（允许偏差 ±10%）
+3. 验证总送风量 ≈ 总排风量（±10%）
+4. 测量住宅房间送风末端噪声：1 m 处 ≤ 25 dB(A)
+5. 验证热回收效率：在稳定冬季工况下测量设备进、出口送风和排风温度
+6. 检查滤网状态并记录基准压降
 
 ---
 
-## 8. PHPP Modeling Workflow
+## 7. 夏季舒适策略
 
-### 8.1 Input Data Preparation
+被动房建筑具有超高保温围护结构和大面积朝南窗，若设计不当，夏季可能过热。PHI 要求在无主动制冷时，超过 25°C 的使用时间不得超过占用时间的 10%。
 
-1. **Climate data:** Select the nearest PHPP climate dataset (over 4,000 locations worldwide). Contains monthly mean temperatures, solar radiation by orientation, humidity, and design temperatures.
-2. **Building geometry:** Calculate treated floor area (TFA) per PHI convention (net internal area with adjustments for non-habitable spaces). Calculate thermal envelope surface areas (walls, roof, floor, windows) from architectural drawings.
-3. **U-values:** Calculate U-values for each envelope assembly using the PHPP U-value worksheet or equivalent (ISO 6946). Include corrections for mechanical fasteners (per ISO 6946 Annex D) and air gaps.
-4. **Thermal bridges:** Calculate linear thermal transmittance (ψ-value) for every junction using 2D thermal simulation (THERM, Flixo, HTFlux) or approved catalogue values. Input length × ψ for each bridge type.
-5. **Windows:** Input window dimensions, frame U-value (Uf), glazing U-value (Ug), spacer ψ-value, installation ψ-value, g-value, frame percentage, shading factors (overhang, reveal, winter shading), and orientation.
-6. **Ventilation:** Input MVHR unit performance (heat recovery rate, electrical power, frost protection method), duct lengths and insulation, design airflow rates, and infiltration (from blower door test or estimate).
-7. **Internal heat gains:** PHPP uses standard values: 2.1 W/m² TFA for residential (occupants + appliances + lighting). For non-residential, specific schedules per occupancy type.
+### 7.1 预防策略
 
-### 8.2 Verification Calculation
+**外遮阳（第一优先级）：**
+- 南立面固定挑檐（按夏季太阳高度确定尺寸：深度 = 窗高 × tan(90° − 夏至正午太阳高度)）
+- 外置百叶或卷帘（最有效，可减少 75–90% 的太阳得热）
+- 东西立面竖向翼墙或穿孔屏
+- 落叶乔木（季节性遮阳：夏季有叶，冬季落叶）
 
-PHPP performs a monthly energy balance:
+**遮阳系数目标：**夏季南向玻璃的 g 值 × 遮阳因子 ≤ 0.10（例如 g = 0.50 × 遮阳因子 0.20 = 0.10）。外遮阳可达到 FC = 0.10–0.20；内百叶（FC = 0.50–0.70）不足。
 
-**Heat losses** = transmission losses (through envelope) + ventilation losses (through air exchange)
-**Heat gains** = solar gains (through windows) + internal gains (people, appliances, lighting)
+**夜间通风（被动冷却）：**
+- 当室外温度 Tout < 室内温度 Tint 时夜间开窗，将热量从热惰性体中排出
+- 需要暴露的热惰性体（混凝土楼板底、砌体墙）吸收白天热量并在夜间释放
+- 设置满足安防要求的通风开口（限制开启角度，首层设防盗纱网）
+- 在温带气候下可将室内峰值温度降低 2–4°C
 
-When gains < losses: heating demand for that month = losses − gains
-When gains > losses and building cannot absorb excess: cooling demand / overheating for that month
+**降低内部得热：**
+- 高效照明（LED：5–8 W/m²，而荧光灯为 12–15 W/m²）
+- 高能效设备（减少散热）
+- 住宅项目将服务器机房／公共洗衣房布置在建筑外部或非主要空间
 
-**Annual results:**
-- Space heating demand (kWh/m²a) — must be ≤ 15
-- Peak heating load (W/m²) — must be ≤ 10
-- Space cooling demand (kWh/m²a) — must be ≤ 15 (with dehumidification allowance)
-- Primary energy demand (kWh/m²a) — must be ≤ 120 (Classic) / ≤ 60 (Plus) / ≤ 0 (Premium)
-- Overheating frequency (% hours > 25°C) — must be ≤ 10%
+### 7.2 主动制冷（预防措施不足时）
 
----
+在炎热、湿热气候或城市热岛条件下，仅靠被动策略可能无法防止过热。被动房标准允许主动制冷，制冷需求限值为 ≤ 15 kWh/m²a（湿热气候另加除湿补充限额）。
 
-## 9. Exemplar Passive House Buildings
-
-### 9.1 Kranichstein, Darmstadt, Germany (1991)
-- **Type:** 4 terraced houses | **Climate:** Temperate continental
-- **Significance:** The first Passive House building. Designed by Wolfgang Feist and Bo Adamson. Monitored continuously since 1991 — measured heating demand 10 kWh/m²a (below the 15 kWh/m²a target). Proved the Passive House concept works in practice.
-- **Construction:** Masonry with 275 mm external insulation, triple-glazed windows, MVHR.
-
-### 9.2 Bahnstadt, Heidelberg, Germany (2012–ongoing)
-- **Type:** Urban district (5,000 residents) | **Climate:** Temperate continental
-- **Significance:** The world's largest Passive House district. Includes residential, offices, retail, a cinema, and a supermarket — all certified Passive House. Demonstrates that Passive House works at urban scale across all building types.
-
-### 9.3 Cornell Tech Residential Tower, New York, USA (2017)
-- **Type:** 26-storey residential tower (352 units) | **Climate:** Hot-humid summer / cold winter
-- **Significance:** The world's tallest Passive House certified building at completion. Demonstrates that Passive House works for high-rise residential in a challenging climate with extreme temperature swings. Designed by Handel Architects with Passive House consultant Lois Arena.
-
-### 9.4 Bruck an der Mur Passive House Social Housing, Austria (1999)
-- **Type:** 39-unit social housing | **Climate:** Alpine continental
-- **Significance:** One of the earliest multi-family Passive House projects. Proved that Passive House is achievable and affordable in social housing. Measured performance: heating demand 13 kWh/m²a. Cost premium 8% over standard at time of construction.
-
-### 9.5 Passive House School, Innsbruck, Austria (2007)
-- **Type:** Primary school | **Climate:** Alpine
-- **Significance:** Demonstrated Passive House for educational buildings. Excellent indoor air quality via MVHR (CO2 consistently below 1000 ppm vs. 2000–3000 ppm in conventionally ventilated classrooms). Energy consumption 80% below conventional school.
-
-### 9.6 Enterprise Centre, University of East Anglia, Norwich, UK (2015)
-- **Type:** University building (3,400 m²) | **Climate:** Temperate maritime
-- **Significance:** BREEAM Outstanding and Passive House certified. Thatched facade (locally sourced Norfolk reed — a bio-based cladding material with near-zero embodied carbon). Demonstrates that Passive House and BREEAM can be achieved simultaneously with innovative natural materials.
-
-### 9.7 SOOP House, Namyangju, South Korea (2014)
-- **Type:** Detached family house | **Climate:** Hot-humid summer / cold winter (continental monsoon)
-- **Significance:** Demonstrates Passive House in a Korean climate with extreme seasonal variation (−15°C winter to +35°C summer with 90% humidity). Summer comfort achieved through external shading and dehumidification via MVHR with enthalpy exchanger.
-
-### 9.8 Bunyesc House, Lleida, Spain (2011)
-- **Type:** Detached family house | **Climate:** Hot-arid summer / mild winter (Mediterranean continental)
-- **Significance:** First certified Passive House in Spain. Demonstrates that the standard works in hot, dry climates with appropriate adaptations (high thermal mass, external shading, earth tube for supply air pre-cooling, night ventilation).
-
-### 9.9 Passive House in the Tropics: Magic Box, Gabon (2015)
-- **Type:** Prototype house | **Climate:** Hot-humid equatorial
-- **Significance:** Demonstrates Passive House principles applied to equatorial tropical climate. Focus shifts from heating to cooling and dehumidification. Strategies: reflective roof, maximized shading, minimal west glazing, MVHR with enthalpy recovery, small split-system for residual cooling.
-
-### 9.10 Whistler Athletes Village, Canada (2009)
-- **Type:** 72 affordable housing units | **Climate:** Cold mountain (−25°C design temperature)
-- **Significance:** Built for the 2010 Winter Olympics, converted to affordable housing post-games. PHIUS pre-certified. Demonstrates Passive House in an extreme cold climate. Triple-glazed windows, 300+ mm insulation, 0.4 ACH50 achieved (below the 0.6 target).
-
-### 9.11 Enerphit: Brunswick Centre, London, UK (2019)
-- **Type:** EnerPHit retrofit of 1960s social housing (2 blocks, 550 units) | **Climate:** Temperate maritime
-- **Significance:** One of the largest EnerPHit (Passive House retrofit standard) projects in the world. External wall insulation, new triple-glazed windows, MVHR to each unit, new roof insulation. Heating demand reduced from ~120 kWh/m²a to ~25 kWh/m²a (EnerPHit target). Demonstrates that the Passive House approach can be applied to existing social housing stock at scale.
+**选项：**
+- 分体式／多联分体热泵（制冷 COP 4–6），可兼顾供暖和制冷。
+- 通过 MVHR 系统冷却送风：在送风气流中设置小型冷盘管或热泵。容量有限（仅冷却通风送风，典型住宅约 300 W），但非常安静且无吹风感。
+- 地耦合冷却：地埋管（空气通过埋地管道预冷）或地源热泵制冷模式。
 
 ---
 
-## 10. Cost, Performance, and Business Case
+## 8. PHPP 建模工作流
 
-### 10.1 Cost Premium Analysis
+### 8.1 输入数据准备
 
-| Component | Passive House Spec | Standard Spec | Premium |
+1. **气候数据：**选择最近的 PHPP 气候数据集（全球超过 4,000 个地点）。数据包括月平均温度、按朝向划分的太阳辐射、湿度和设计温度。
+2. **建筑几何：**按 PHI 约定计算处理楼面面积（TFA）（根据非居住空间进行调整后的室内净面积）。根据建筑图纸计算热工围护表面积（墙、屋面、地面和窗）。
+3. **U 值：**使用 PHPP U 值工作表或等效方法（ISO 6946）计算每种围护构造的 U 值。计入机械紧固件（按 ISO 6946 附录 D）和空气层的修正。
+4. **热桥：**使用二维热模拟（THERM、Flixo、HTFlux）或认可的目录值，计算每个节点的线性传热系数（ψ 值）。对每类热桥输入长度 × ψ。
+5. **门窗：**输入窗尺寸、框 U 值（Uf）、玻璃 U 值（Ug）、间隔条 ψ 值、安装 ψ 值、g 值、框面积比例、遮阳因子（挑檐、洞口、冬季遮阳）和朝向。
+6. **通风：**输入 MVHR 设备性能（热回收率、电功率、防冻方法）、风管长度和保温、设计风量以及渗透风量（来自鼓风门测试或估算）。
+7. **内部得热：**PHPP 使用标准值：住宅为 2.1 W/m² TFA（人员 + 设备 + 照明）。非住宅建筑按使用者类型输入具体时间表。
+
+### 8.2 验证计算
+
+PHPP 执行月度能量平衡：
+
+**热损失** = 传热损失（通过围护结构）+ 通风损失（通过空气交换）
+**得热** = 太阳得热（通过窗）+ 内部得热（人员、设备、照明）
+
+当得热 < 损失时：该月供暖需求 = 损失 − 得热
+当得热 > 损失且建筑无法吸收多余热量时：该月制冷需求／过热
+
+**年度结果：**
+- 空间供暖需求（kWh/m²a）——必须 ≤ 15
+- 峰值供暖负荷（W/m²）——必须 ≤ 10
+- 空间制冷需求（kWh/m²a）——必须 ≤ 15（含除湿补充限额）
+- 一次能源需求（kWh/m²a）——必须 ≤ 120（Classic）／≤ 60（Plus）／≤ 0（Premium）
+- 过热频率（超过 25°C 的小时百分比）——必须 ≤ 10%
+
+---
+
+## 9. 被动房示范建筑
+
+### 9.1 德国达姆施塔特 Kranichstein（1991）
+- **类型：**4 户联排住宅 | **气候：**温带大陆性
+- **意义：**首座被动房建筑，由 Wolfgang Feist 和 Bo Adamson 设计。自 1991 年起持续监测——实测供暖需求为 10 kWh/m²a（低于 15 kWh/m²a 目标），证明被动房理念可在实践中实现。
+- **构造：**砌体墙配 275 mm 外保温、三玻窗和 MVHR。
+
+### 9.2 德国海德堡 Bahnstadt（2012–至今）
+- **类型：**城市片区（5,000 名居民） | **气候：**温带大陆性
+- **意义：**世界最大的被动房片区，包括住宅、办公、零售、影院和超市，全部取得被动房认证。证明被动房可在城市尺度适用于各种建筑类型。
+
+### 9.3 美国纽约 Cornell Tech 住宅塔楼（2017）
+- **类型：**26 层住宅塔楼（352 套） | **气候：**夏季炎热湿润／冬季寒冷
+- **意义：**竣工时世界最高的被动房认证建筑。证明被动房可在温差极大的挑战性气候中应用于高层住宅。由 Handel Architects 设计，被动房顾问为 Lois Arena。
+
+### 9.4 奥地利 Bruck an der Mur 被动房社会住宅（1999）
+- **类型：**39 套社会住宅 | **气候：**阿尔卑斯大陆性
+- **意义：**最早的多户被动房项目之一，证明被动房可在社会住宅中实现且经济可行。实测供暖需求为 13 kWh/m²a，建造时成本较标准方案高 8%。
+
+### 9.5 奥地利因斯布鲁克被动房学校（2007）
+- **类型：**小学 | **气候：**阿尔卑斯
+- **意义：**展示被动房在教育建筑中的应用。通过 MVHR 获得优良室内空气质量（CO2 始终低于 1000 ppm，而常规通风教室为 2000–3000 ppm），能耗比常规学校低 80%。
+
+### 9.6 英国诺里奇东英吉利大学 Enterprise Centre（2015）
+- **类型：**大学建筑（3,400 m²） | **气候：**温带海洋性
+- **意义：**同时获得 BREEAM Outstanding 和被动房认证。采用茅草立面（当地诺福克芦苇——近零隐含碳的生物基饰面材料），证明被动房和 BREEAM 可通过创新天然材料同时实现。
+
+### 9.7 韩国南杨州 SOOP House（2014）
+- **类型：**独立式家庭住宅 | **气候：**夏季炎热湿润／冬季寒冷（大陆性季风）
+- **意义：**展示被动房在季节变化极大的韩国气候中的应用（冬季 −15°C 至夏季 +35°C、湿度 90%）。通过外遮阳以及采用焓交换器的 MVHR 除湿实现夏季舒适。
+
+### 9.8 西班牙莱里达 Bunyesc House（2011）
+- **类型：**独立式家庭住宅 | **气候：**夏季炎热干燥／冬季温和（地中海大陆性）
+- **意义：**西班牙首座认证被动房。通过高热惰性、外遮阳、地埋管预冷送风和夜间通风等适应性措施，证明该标准适用于炎热干燥气候。
+
+### 9.9 热带被动房：加蓬 Magic Box（2015）
+- **类型：**原型住宅 | **气候：**赤道炎热湿润
+- **意义：**展示被动房原则在赤道热带气候中的应用。重点从供暖转向制冷和除湿。策略包括反射性屋面、最大化遮阳、尽量减少西向玻璃、采用焓回收的 MVHR，以及用小型分体系统满足剩余制冷需求。
+
+### 9.10 加拿大 Whistler Athletes Village（2009）
+- **类型：**72 套保障性住房 | **气候：**寒冷山区（设计温度 −25°C）
+- **意义：**为 2010 年冬季奥运会建设，赛后改造为保障性住房。获得 PHIUS 预认证，展示被动房在极寒气候中的应用。采用三玻窗、300+ mm 保温，达到 0.4 ACH50（低于 0.6 的目标）。
+
+### 9.11 EnerPHit：英国伦敦 Brunswick Centre（2019）
+- **类型：**20 世纪 60 年代社会住宅 EnerPHit 改造（2 栋、550 套） | **气候：**温带海洋性
+- **意义：**全球规模最大的 EnerPHit（被动房改造标准）项目之一。采用外墙保温、新三玻窗、每户 MVHR 和新屋面保温。供暖需求从约 120 kWh/m²a 降至约 25 kWh/m²a（EnerPHit 目标），证明被动房方法可大规模应用于既有社会住宅。
+
+---
+
+## 10. 成本、性能与商业论证
+
+### 10.1 成本溢价分析
+
+| 构件 | 被动房规格 | 标准规格 | 溢价 |
 |---|---|---|---|
-| External wall insulation | 200 mm (U 0.13) | 100 mm (U 0.26) | +£15–25/m² |
-| Roof insulation | 350 mm (U 0.09) | 200 mm (U 0.16) | +£10–20/m² |
-| Floor insulation | 250 mm (U 0.12) | 100 mm (U 0.25) | +£15–25/m² |
-| Windows (triple vs double) | Uw 0.80 | Uw 1.4 | +£100–200/m² glazing |
-| Airtightness (membrane, tapes, labour) | 0.6 ACH50 | 5.0 ACH50 | +£5–15/m² envelope |
-| MVHR system | Installed with ducting | None (extract fans only) | +£3,000–6,000/dwelling |
-| PHPP modeling and certification | Included | N/A | +£3,000–8,000/project |
-| **Typical total premium** | | | **5–15% of build cost** |
+| 外墙保温 | 200 mm（U 0.13） | 100 mm（U 0.26） | +£15–25/m² |
+| 屋面保温 | 350 mm（U 0.09） | 200 mm（U 0.16） | +£10–20/m² |
+| 地面保温 | 250 mm（U 0.12） | 100 mm（U 0.25） | +£15–25/m² |
+| 窗（相较双玻的三玻） | Uw 0.80 | Uw 1.4 | +£100–200/m² 玻璃面积 |
+| 气密性（膜、胶带、人工） | 0.6 ACH50 | 5.0 ACH50 | +£5–15/m² 围护结构 |
+| MVHR 系统 | 含风管安装 | 无（仅排风扇） | +£3,000–6,000/户 |
+| PHPP 建模与认证 | 包含 | 不适用 | +£3,000–8,000/项目 |
+| **典型总溢价** | | | **建造成本的 5–15%** |
 
-### 10.2 Operational Cost Savings
+### 10.2 运行成本节约
 
-- Heating cost reduction: 75–90% compared to standard construction
-- Total energy cost reduction: 50–70% (heating, cooling, DHW, ventilation)
-- For a typical UK dwelling: £800–1,200/year heating cost (standard) → £100–200/year (Passive House)
-- Simple payback on premium: 10–20 years (depending on energy prices and construction context)
-- With rising energy prices: payback shortens. With carbon pricing: payback shortens further.
+- 供暖成本降低：相比标准建造降低 75–90%
+- 总能耗成本降低：降低 50–70%（供暖、制冷、生活热水、通风）
+- 典型英国住宅：供暖成本由标准方案的 £800–1,200/年降至被动房的 £100–200/年
+- 溢价简单回收期：10–20 年（取决于能源价格和建造背景）
+- 能源价格上涨时回收期缩短；引入碳定价后回收期进一步缩短。
 
-### 10.3 Non-Energy Benefits
+### 10.3 非能源效益
 
-- **Indoor air quality:** Continuous filtered fresh air via MVHR. CO2 levels consistently below 1000 ppm. Reduced allergens and pollutants. Beneficial for asthma and allergy sufferers.
-- **Thermal comfort:** Uniform temperatures throughout the building (no cold spots, no radiant asymmetry). Surface temperatures close to air temperature due to superinsulation.
-- **Acoustic comfort:** High-performance windows and airtight envelope provide excellent sound insulation from external noise.
-- **Durability:** Airtight envelope with controlled vapour management reduces risk of interstitial condensation and associated moisture damage, mould growth, and structural decay.
-- **Resilience:** Low heating demand means the building stays warm for days during a power outage ("passive survivability"). Critical for vulnerable occupants (elderly, young children).
+- **室内空气质量：**通过 MVHR 持续提供过滤后的新鲜空气，CO2 浓度始终低于 1000 ppm，减少过敏原和污染物，对哮喘及过敏人群有益。
+- **热舒适：**建筑各处温度均匀（无冷点、无辐射不对称）。超高保温使表面温度接近空气温度。
+- **声舒适：**高性能窗和气密围护结构可显著隔绝外部噪声。
+- **耐久性：**气密围护结构配合受控蒸汽管理，降低夹层结露及其引起的潮湿损坏、霉菌生长和结构劣化风险。
+- **韧性：**低供暖需求意味着停电时建筑可保持温暖数日（“被动生存能力”），对老年人、幼儿等脆弱使用者尤其重要。

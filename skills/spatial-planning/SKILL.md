@@ -1,564 +1,561 @@
 ---
 name: spatial-planning
 description: >
-  Spatial planning for buildings: floor plan layout and archetypes, circulation
-  design (corridors, stairs, elevators, escalators), core design and vertical
-  service distribution, vertical stacking strategy, net-to-gross optimization,
-  space efficiency metrics, wayfinding, and spatial legibility.
+  建筑空间规划：平面布局与原型、交通设计（走廊、楼梯、电梯、自动扶梯）、核心筒设计与竖向设备分配、竖向叠加策略、套内与总建筑面积优化、空间效率指标、导向系统和空间可读性。
 ---
 
-# Spatial Planning
+# 空间规划
 
-## Section 1: Floor Plan Archetypes
+## 第1节：平面原型
 
-The floor plan archetype determines nearly every downstream design decision — structural grid, facade rhythm, servicing strategy, daylight penetration, and occupant experience. The ten canonical plan types below cover the full spectrum of building configurations from narrow residential slabs to deep-plan commercial towers.
+平面原型几乎决定所有后续设计决策——结构网格、立面节奏、设备策略、采光渗透和使用者体验。以下十种典型平面类型涵盖从狭长住宅板楼到深进深商业塔楼的完整建筑形态谱系。
 
-### 1.1 Single-Loaded Corridor
+### 1.1 单侧走廊
 
-**Diagram description:** A linear building with habitable rooms on one side only and an open corridor or gallery on the other, typically facing a courtyard or exterior view.
+**图示说明：**线性建筑仅一侧布置可居住房间，另一侧为开放走廊或外廊，通常朝向庭院或外部景观。
 
-- **Typical plan depth:** 6–9 m from corridor wall to exterior facade
-- **Structural grid:** 6–8 m bays perpendicular to corridor, 3–4 m bays parallel
-- **Daylight characteristics:** Excellent — all rooms have direct exterior exposure on at least one side; corridor receives borrowed light or is open-air
-- **Circulation efficiency:** Low — corridor serves rooms on one side only, yielding high circulation-to-usable area ratio (NTG penalty 5–10%)
-- **Best-fit building types:** Tropical housing, student residences, hospital wards, hotels in warm climates, gallery-access social housing
-- **Exemplar buildings:** Robin Hood Gardens (Alison & Peter Smithson, London, 1972); Park Hill (Jack Lynn & Ivor Smith, Sheffield, 1961)
+- **典型平面进深：**从走廊墙至外立面6-9 m
+- **结构网格：**垂直走廊方向6-8 m跨，平行走廊方向3-4 m跨
+- **采光特征：**优秀——所有房间至少一侧直接接触室外；走廊获得借光或采用开放式
+- **交通效率：**低——走廊仅服务一侧房间，交通面积与可使用面积比高（NTG损失5-10%）
+- **适用建筑类型：**热带住宅、学生宿舍、医院病房、温暖气候酒店、外廊式保障性住房
+- **代表性建筑：**Robin Hood Gardens（Alison & Peter Smithson，伦敦，1972）；Park Hill（Jack Lynn & Ivor Smith，谢菲尔德，1961）
 
-### 1.2 Double-Loaded Corridor
+### 1.2 双侧走廊
 
-**Diagram description:** A linear building with habitable rooms on both sides of a central corridor, creating a deeper floor plate.
+**图示说明：**线性建筑在中央走廊两侧布置可居住房间，形成更深的楼板平面。
 
-- **Typical plan depth:** 12–18 m total (two 6–9 m room depths flanking a 1.5–2.4 m corridor)
-- **Structural grid:** 6–8 m bays perpendicular, 3–5 m parallel
-- **Daylight characteristics:** Good in rooms; corridor is typically windowless and requires artificial lighting or periodic breaks with glazing
-- **Circulation efficiency:** High — corridor serves rooms on both sides, achieving 78–85% NTG in residential, 80–87% in hotel
-- **Best-fit building types:** Hotels, residential apartments, dormitories, hospital departments, budget office buildings
-- **Exemplar buildings:** Unite d'Habitation (Le Corbusier, Marseille, 1952); Trellick Tower (Erno Goldfinger, London, 1972)
+- **典型平面进深：**总计12-18 m（两侧各6-9 m房间进深，中间走廊宽1.5-2.4 m）
+- **结构网格：**垂直方向6-8 m跨，平行方向3-5 m跨
+- **采光特征：**房间采光良好；走廊通常无窗，需要人工照明或通过玻璃间隔设置采光断点
+- **交通效率：**高——走廊服务两侧房间，住宅NTG可达78-85%，酒店可达80-87%
+- **适用建筑类型：**酒店、住宅公寓、宿舍、医院科室、经济型办公楼
+- **代表性建筑：**Unite d'Habitation（Le Corbusier，马赛，1952）；Trellick Tower（Erno Goldfinger，伦敦，1972）
 
-### 1.3 Central Core
+### 1.3 中央核心筒
 
-**Diagram description:** A floor plate organized around a central vertical core containing stairs, elevators, risers, and often toilets, with usable space radiating outward to the perimeter facade.
+**图示说明：**楼板围绕中央竖向核心筒组织，核心筒内设楼梯、电梯、管井，通常还包括卫生间；可使用空间向外辐射至周边立面。
 
-- **Typical plan depth:** 9–15 m from core face to facade (18–30 m total floor plate dimension)
-- **Structural grid:** 9 m x 9 m or 10.8 m x 10.8 m typical for office; 8.4 m x 8.4 m for residential
-- **Daylight characteristics:** Good at perimeter (within 6–8 m of facade); deep zones beyond 8 m require artificial lighting; core zone is dark
-- **Circulation efficiency:** Excellent — shortest average travel distances, compact service distribution. NTG 75–82% for office
-- **Best-fit building types:** Office towers, mixed-use high-rises, commercial buildings over 10 storeys
-- **Exemplar buildings:** Seagram Building (Mies van der Rohe, New York, 1958); Swiss Re (Foster + Partners, London, 2004)
+- **典型平面进深：**核心筒边缘至立面9-15 m（楼板总尺寸18-30 m）
+- **结构网格：**办公通常为9 m x 9 m或10.8 m x 10.8 m；住宅为8.4 m x 8.4 m
+- **采光特征：**周边区域良好（距立面6-8 m以内）；超过8 m的深部区域需要人工照明，核心筒区域较暗
+- **交通效率：**优秀——平均行走距离最短，设备分配紧凑。办公NTG为75-82%
+- **适用建筑类型：**办公塔楼、混合使用高层、10层以上商业建筑
+- **代表性建筑：**Seagram Building（Mies van der Rohe，纽约，1958）；Swiss Re（Foster + Partners，伦敦，2004）
 
-### 1.4 Side Core
+### 1.4 侧置核心筒
 
-**Diagram description:** The vertical core is positioned at one end or one side of the floor plate, freeing the remainder for uninterrupted usable space with maximum facade access.
+**图示说明：**竖向核心筒位于楼板一端或一侧，其余区域形成连续的可使用空间，并最大化利用立面界面。
 
-- **Typical plan depth:** 12–18 m from core to far facade
-- **Structural grid:** 9–12 m clear spans common to maximize open floor plate
-- **Daylight characteristics:** Excellent — core does not obstruct perimeter daylight; deep floor plates still need supplementary lighting beyond 8 m from facade
-- **Circulation efficiency:** Good — slightly longer travel distances than central core; single direction of egress requires careful code compliance (max 45 m travel distance IBC sprinklered)
-- **Best-fit building types:** Speculative offices (lettable floor plates), creative workspaces, laboratories, buildings on narrow urban sites
-- **Exemplar buildings:** Lever House (SOM, New York, 1952); One Angel Court (Fletcher Priest, London, 2017)
+- **典型平面进深：**核心筒至远端立面12-18 m
+- **结构网格：**常采用9-12 m净跨，以最大化开放楼板
+- **采光特征：**优秀——核心筒不遮挡周边采光；深进深楼板距立面超过8 m仍需补充照明
+- **交通效率：**良好——行走距离略长于中央核心筒；单向疏散需严格满足规范（设喷淋时IBC最大行走距离45 m）
+- **适用建筑类型：**可出租办公楼板的标准办公、创意工作空间、实验室、狭窄城市用地建筑
+- **代表性建筑：**Lever House（SOM，纽约，1952）；One Angel Court（Fletcher Priest，伦敦，2017）
 
-### 1.5 Point Tower
+### 1.5 点式塔楼
 
-**Diagram description:** A compact, typically square or circular floor plate with a central or offset core, rising as a slender tower. Small floor plates (400–800 m²) with high perimeter-to-area ratio.
+**图示说明：**紧凑的方形或圆形楼板，设置中央或偏置核心筒，向上形成纤细塔楼。楼板较小（400-800 m²），周长与面积比高。
 
-- **Typical plan depth:** 6–10 m from core to facade
-- **Structural grid:** Radial or 6–8 m orthogonal grid
-- **Daylight characteristics:** Excellent — high perimeter-to-floor-area ratio ensures most space is within 6 m of facade
-- **Circulation efficiency:** Very high — compact core serves 4–8 units per floor in residential, or open-plan office. NTG 75–82% residential
-- **Best-fit building types:** Residential towers, boutique office towers, landmark/iconic structures, slender urban infill
-- **Exemplar buildings:** Barbican Tower (Chamberlin Powell & Bon, London, 1976); Aqua Tower (Studio Gang, Chicago, 2009)
+- **典型平面进深：**核心筒至立面6-10 m
+- **结构网格：**放射状或6-8 m正交网格
+- **采光特征：**优秀——周长与楼板面积比高，确保大多数空间距立面不超过6 m
+- **交通效率：**很高——紧凑核心筒可服务住宅每层4-8套单元，或服务开放式办公。住宅NTG为75-82%
+- **适用建筑类型：**住宅塔楼、精品办公塔楼、地标/标志性建筑、纤细型城市填充建筑
+- **代表性建筑：**Barbican Tower（Chamberlin Powell & Bon，伦敦，1976）；Aqua Tower（Studio Gang，芝加哥，2009）
 
-### 1.6 Courtyard Plan
+### 1.6 庭院式平面
 
-**Diagram description:** Building mass encloses or partially encloses a central open courtyard, creating inward-facing as well as outward-facing rooms.
+**图示说明：**建筑体量围合或半围合中央开放庭院，形成面向庭院和面向外部的房间。
 
-- **Typical plan depth:** 6–12 m building depth around 15–40 m courtyard dimension
-- **Structural grid:** 6–8 m bays; loadbearing masonry or frame
-- **Daylight characteristics:** Very good — dual-aspect units possible; courtyard provides sheltered daylight source. Courtyard must be min 1:1 width-to-height ratio for adequate light at lower floors
-- **Circulation efficiency:** Moderate — circulation wraps around courtyard, adding length but creating social/amenity corridor
-- **Best-fit building types:** Low-to-mid-rise housing (3–8 storeys), institutional (schools, monasteries, museums), hotels, mixed-use urban blocks
-- **Exemplar buildings:** Palazzo Farnese (Antonio da Sangallo/Michelangelo, Rome, 1534); Beurret & de la Croix housing (Valerio Olgiati, 2014)
+- **典型平面进深：**建筑进深6-12 m，围绕15-40 m尺度的庭院
+- **结构网格：**6-8 m跨；承重砌体或框架
+- **采光特征：**很好——可实现双面采光单元；庭院提供受保护的采光源。为保证低层采光，庭院宽高比至少为1:1
+- **交通效率：**中等——交通围绕庭院展开，增加长度但形成社交/公共设施走廊
+- **适用建筑类型：**低至中层住宅（3-8层）、学校/修道院/博物馆等机构建筑、酒店、混合使用城市街区
+- **代表性建筑：**Palazzo Farnese（Antonio da Sangallo/Michelangelo，罗马，1534）；Beurret & de la Croix housing（Valerio Olgiati，2014）
 
-### 1.7 Atrium Plan
+### 1.7 中庭式平面
 
-**Diagram description:** A large internal void (atrium) rises through multiple storeys, with occupied floors opening onto galleries or balconies surrounding the void. The atrium is typically top-lit or side-lit.
+**图示说明：**大型内部中空空间（中庭）贯穿多层楼层，使用楼层向围绕中庭的廊道或阳台开放。中庭通常采用顶部采光或侧向采光。
 
-- **Typical plan depth:** 6–12 m from atrium edge to exterior facade; atrium 10–30 m wide
-- **Structural grid:** Long-span (12–15 m) to clear atrium void; 6–9 m in occupied wings
-- **Daylight characteristics:** Excellent at upper levels; diminishes at lower floors of deep atria. Atrium acts as light well. Glazed roof or clerestory essential
-- **Circulation efficiency:** Good — atrium acts as orientation device and social condenser; galleries double as circulation and informal meeting space
-- **Best-fit building types:** Corporate headquarters, shopping malls, hospitals, museums, civic buildings, hotels
-- **Exemplar buildings:** Bradbury Building (George Wyman, Los Angeles, 1893); Commerzbank Tower (Foster + Partners, Frankfurt, 1997)
+- **典型平面进深：**中庭边缘至外立面6-12 m；中庭宽度10-30 m
+- **结构网格：**中庭采用12-15 m大跨度，使用翼楼采用6-9 m
+- **采光特征：**上部楼层优秀；深中庭下部楼层逐渐减弱。中庭充当采光井，玻璃屋顶或高侧窗不可或缺
+- **交通效率：**良好——中庭兼作导向装置和社交凝聚空间；廊道同时承担交通和非正式会面功能
+- **适用建筑类型：**企业总部、购物中心、医院、博物馆、市政建筑和酒店
+- **代表性建筑：**Bradbury Building（George Wyman，洛杉矶，1893）；Commerzbank Tower（Foster + Partners，法兰克福，1997）
 
-### 1.8 Free Plan
+### 1.8 自由平面
 
-**Diagram description:** Structural columns are set back from the facade on a regular grid, with non-loadbearing partitions freely arranged on each floor independently. The floor plan has no fixed interior walls tied to structure.
+**图示说明：**结构柱按规则网格退离立面布置，各层可独立自由设置非承重隔墙。平面没有与结构绑定的固定内部墙体。
 
-- **Typical plan depth:** Variable — 12–20 m common
-- **Structural grid:** Regular grid (Dom-ino: 5 m x 5 m); pilotis or columns at ground; flat slabs
-- **Daylight characteristics:** Dependent on floor plate depth and window placement; facade is free from structural constraint enabling floor-to-ceiling glazing
-- **Circulation efficiency:** High — absence of loadbearing walls allows optimized corridor placement per floor
-- **Best-fit building types:** Modernist villas, flexible office space, galleries, retail, adaptable-use buildings
-- **Exemplar buildings:** Villa Savoye (Le Corbusier, Poissy, 1931); Farnsworth House (Mies van der Rohe, Plano, 1951)
+- **典型平面进深：**可变，常见12-20 m
+- **结构网格：**规则网格（Dom-ino：5 m x 5 m）；底层采用独立柱或柱廊；无梁楼板
+- **采光特征：**取决于楼板进深和窗位；立面摆脱结构约束，可采用落地玻璃
+- **交通效率：**高——没有承重墙，可在各层优化走廊位置
+- **适用建筑类型：**现代主义别墅、灵活办公空间、展廊、零售和可适应性建筑
+- **代表性建筑：**Villa Savoye（Le Corbusier，Poissy，1931）；Farnsworth House（Mies van der Rohe，Plano，1951）
 
-### 1.9 Open Plan
+### 1.9 开放式平面
 
-**Diagram description:** A large, unpartitioned floor plate with minimal internal walls or divisions, typically with perimeter structure or long-span trusses enabling column-free interiors.
+**图示说明：**大型无分隔楼板，内部墙体或分隔极少，通常采用周边结构或大跨度桁架形成无柱室内空间。
 
-- **Typical plan depth:** 18–30 m or more; limited only by daylighting (8 m effective daylit zone from each facade)
-- **Structural grid:** Long-span: 12–18 m (steel) or 9–12 m (concrete). Post-tensioned slabs common
-- **Daylight characteristics:** Moderate — perimeter zones well-lit, deep core zones require artificial light. Atriums or lightwells mitigate this
-- **Circulation efficiency:** Very high — minimal dedicated corridor space; NTG 82–88% achievable
-- **Best-fit building types:** Trading floors, tech offices, co-working spaces, warehouses, exhibition halls, large retail
-- **Exemplar buildings:** Willis Faber & Dumas (Foster + Partners, Ipswich, 1975); Centraal Beheer (Herman Hertzberger, Apeldoorn, 1972)
+- **典型平面进深：**18-30 m或更大；仅受采光限制（每侧立面有效采光区约8 m）
+- **结构网格：**大跨度：钢结构12-18 m，混凝土9-12 m；常采用后张楼板
+- **采光特征：**中等——周边区域采光良好，深部核心区域需要人工照明；中庭或采光井可改善
+- **交通效率：**很高——专用走廊空间极少；NTG可达82-88%
+- **适用建筑类型：**交易大厅、科技办公、联合办公、仓库、展览馆和大型零售
+- **代表性建筑：**Willis Faber & Dumas（Foster + Partners，伊普斯威奇，1975）；Centraal Beheer（Herman Hertzberger，阿珀尔多伦，1972）
 
-### 1.10 Hybrid Plan
+### 1.10 混合式平面
 
-**Diagram description:** Combines two or more plan archetypes within a single floor plate or building — for example, a central core office tower with an atrium zone and a double-loaded residential wing.
+**图示说明：**在同一楼板或建筑中组合两种或更多平面原型，例如中央核心筒办公塔楼结合中庭区域和双侧走廊住宅翼楼。
 
-- **Typical plan depth:** Variable — responds to mixed program
-- **Structural grid:** Transitional grids at junctions; transfer structures where grid changes
-- **Daylight characteristics:** Varies by zone — each archetype zone retains its own daylight characteristics
-- **Circulation efficiency:** Moderate — junctions between plan types create circulation complexity; careful wayfinding needed
-- **Best-fit building types:** Mixed-use developments, large civic buildings, university buildings, transport hubs, hospital complexes
-- **Exemplar buildings:** Linked Hybrid (Steven Holl, Beijing, 2009); De Rotterdam (OMA, Rotterdam, 2013)
+- **典型平面进深：**可变，响应混合功能
+- **结构网格：**交接处采用过渡网格，网格变化处设置转换结构
+- **采光特征：**按区域变化——每个原型区域保留自身采光特征
+- **交通效率：**中等——平面类型交接处会造成交通复杂性，需要精心设计导向
+- **适用建筑类型：**混合使用开发、大型市政建筑、大学建筑、交通枢纽和医院综合体
+- **代表性建筑：**Linked Hybrid（Steven Holl，北京，2009）；De Rotterdam（OMA，鹿特丹，2013）
 
 ---
 
-## Section 2: Circulation Design
+## 第2节：交通组织设计
 
-Circulation consumes 15–30% of gross floor area depending on building type. Efficient circulation design directly impacts NTG ratio, user experience, code compliance, and emergency egress.
+根据建筑类型不同，交通空间占总建筑面积的15-30%。高效的交通组织设计直接影响NTG比率、使用者体验、规范合规性和紧急疏散。
 
-### 2.1 Primary Circulation
+### 2.1 主要交通
 
-**Lobbies:**
-- Main entrance lobbies: min 3.0 m clear height, typically 4.5–6.0 m for commercial
-- Lobby area: 0.5–1.0 m² per person served in peak 5-minute arrival period
-- Elevator lobbies: min 1.5 m depth in front of elevator doors; 2.4 m preferred for office towers
-- Residential entrance lobbies: min 6 m² (BS 9991), concierge desk adds 4–6 m²
+**大厅：**
+- 主入口大厅：净高至少3.0 m，商业建筑通常为4.5-6.0 m
+- 大厅面积：按高峰5分钟到达人数每人0.5-1.0 m²配置
+- 电梯厅：电梯门前进深至少1.5 m，办公塔楼宜为2.4 m
+- 住宅入口大厅：至少6 m²（BS 9991），设置礼宾台另增加4-6 m²
 
-**Corridors:**
-Minimum corridor widths by building type and code:
+**走廊：**
+按建筑类型和规范确定的最小走廊宽度：
 
-| Building Type | IBC Minimum | BS 9999 Minimum | Recommended |
+| 建筑类型 | IBC最小值 | BS 9999最小值 | 建议值 |
 |---|---|---|---|
-| Office | 1118 mm (44 in) | 1050 mm | 1500–1800 mm |
-| Residential (common) | 1118 mm (44 in) | 1050 mm | 1200–1500 mm |
-| Hospital | 2438 mm (96 in) | 2100 mm | 2400–3000 mm |
-| School | 1829 mm (72 in) | 1600 mm | 1800–2400 mm |
-| Hotel | 1118 mm (44 in) | 1050 mm | 1350–1500 mm |
-| Retail | 1118 mm (44 in) | 1200 mm | 1800–3000 mm |
-| Assembly | 1118 mm (44 in) | 1200 mm | 2400+ mm |
+| 办公 | 1118 mm（44 in） | 1050 mm | 1500–1800 mm |
+| 住宅（公共区域） | 1118 mm（44 in） | 1050 mm | 1200–1500 mm |
+| 医院 | 2438 mm（96 in） | 2100 mm | 2400–3000 mm |
+| 学校 | 1829 mm（72 in） | 1600 mm | 1800–2400 mm |
+| 酒店 | 1118 mm（44 in） | 1050 mm | 1350–1500 mm |
+| 零售 | 1118 mm（44 in） | 1200 mm | 1800–3000 mm |
+| 集会 | 1118 mm（44 in） | 1200 mm | 2400+ mm |
 
-**Dead-end corridors (IBC 1020.4):**
-- Unsprinklered: max 6.1 m (20 ft)
-- Sprinklered: max 15.2 m (50 ft)
-- Group I-3 (detention): 15.2 m max regardless
-- Exception: single-exit dwelling units per IBC 1006.3.4
+**尽端走廊（IBC 1020.4）：**
+- 无喷淋：最大 6.1 m (20 ft)
+- 有喷淋：最大 15.2 m (50 ft)
+- I-3 组（羁押设施）：无论情况如何最大 15.2 m
+- 例外：按 IBC 1006.3.4 的单出口住宅单元
 
-**Travel distance limits (IBC Table 1017.2):**
-- Unsprinklered: 60 m (200 ft) for most occupancies; 23 m (75 ft) for H-1/H-2 hazardous
-- Sprinklered: 76 m (250 ft) for most; 30 m (100 ft) for H-1/H-2
-- Common path of egress: 23 m unsprinklered / 23 m sprinklered for most; 30 m for B/F/S/U occupancies (sprinklered)
+**行走距离限制（IBC表1017.2）：**
+- 无喷淋：大多数使用类别 60 m (200 ft)；H-1/H-2 危险类别 23 m (75 ft)
+- 有喷淋：大多数 76 m (250 ft)；H-1/H-2 为 30 m (100 ft)
+- 共同疏散路径：大多数类别无喷淋/有喷淋均为 23 m；B/F/S/U 类（有喷淋）为 30 m
 
-### 2.2 Stair Design
+### 2.2 楼梯设计
 
-**IBC Requirements (Chapter 10):**
-- Minimum width: 1118 mm (44 in) for occupant load >50; 914 mm (36 in) for ≤50
-- Riser height: min 102 mm (4 in), max 178 mm (7 in)
-- Tread depth: min 279 mm (11 in)
-- Riser-tread relationship: 2R + T = 600–640 mm (optimum 630 mm)
-- Uniform risers within a flight: max 9.5 mm (3/8 in) variation
-- Maximum flight height without landing: 3.66 m (12 ft)
-- Landing depth: min equal to stair width, need not exceed 1220 mm (48 in)
-- Headroom: min 2032 mm (80 in) measured vertically from nosing
+**IBC要求（第10章）：**
+- 最小宽度：人员荷载 >50 时 1118 mm (44 in)；≤50 时 914 mm (36 in)
+- 踢面高度：最小 102 mm (4 in)，最大 178 mm (7 in)
+- 踏步深度：最小 279 mm (11 in)
+- 踢面—踏面关系：2R + T = 600–640 mm（最佳 630 mm）
+- 同一梯段踢面应统一：变化最大 9.5 mm (3/8 in)
+- 无平台最大梯段高度：3.66 m (12 ft)
+- 平台深度：至少等于楼梯宽度，且无需超过 1220 mm (48 in)
+- 净高：从踏步前缘垂直测量至少 2032 mm (80 in)
 
-**Handrail requirements (IBC 1014):**
-- Height: 864–965 mm (34–38 in) measured from nosing
-- Graspable: circular cross-section 32–51 mm (1.25–2 in) diameter or equivalent
-- Extensions: 305 mm (12 in) beyond top riser, one tread depth + 305 mm beyond bottom riser
-- Both sides required for stairs ≥1118 mm wide
-- Intermediate handrail required when stair width exceeds 1524 mm (60 in) with no handrail within 762 mm (30 in)
+**扶手要求（IBC 1014）：**
+- 高度：从踏步前缘测量 864–965 mm (34–38 in)
+- 可抓握：圆形截面直径 32–51 mm (1.25–2 in) 或等效形状
+- 延伸：超出顶部踢面 305 mm (12 in)，底部踢面外延一个踏步深度 + 305 mm
+- 楼梯宽度 ≥1118 mm 时两侧均需设置
+- 楼梯宽度超过 1524 mm (60 in) 且 762 mm (30 in) 范围内无扶手时，需设置中间扶手
 
-**Accessible stairs (ADA/IBC 1009):**
-- Max riser 178 mm, min tread 279 mm
-- Nosing: max 38 mm projection, radius max 13 mm, angled max 60 degrees from horizontal
-- Tactile warning strips at top landing of exterior stairs
+**无障碍楼梯（ADA/IBC 1009）：**
+- 踢面最大 178 mm，踏步最小 279 mm
+- 踏步前缘：最大突出 38 mm，半径最大 13 mm，距水平面倾角最大 60°
+- 室外楼梯顶部平台设置触觉警示条
 
-**Stair capacity:**
-- IBC capacity factor: 7.6 mm (0.3 in) per person for stairs (IBC Table 1005.1)
-- A 1118 mm stair serves: 1118 / 7.6 = 147 persons per storey
-- For phased evacuation (BS 9999): stair capacity = stair width (mm) / 5.2 mm per person = flow rate per minute
-- Typical stair flow rate: 60–80 persons per metre width per minute (downward)
+**楼梯容量：**
+- IBC 容量系数：楼梯每人 7.6 mm (0.3 in)（IBC 表 1005.1）
+- 1118 mm 楼梯服务人数：1118 / 7.6 = 每层 147 人
+- 分阶段疏散（BS 9999）：楼梯容量 = 楼梯宽度（mm）/ 每人 5.2 mm = 每分钟流量
+- 典型楼梯流量：向下每米宽度每分钟 60–80 人
 
-### 2.3 Elevator Design
+### 2.3 电梯设计
 
-**Cab sizes (EN 81-70 / ASME A17.1):**
+**轿厢尺寸（EN 81-70 / ASME A17.1）：**
 
-| Designation | Capacity | Internal (W x D mm) | Shaft (W x D mm) | Door (W mm) |
+| 型号 | 载重 | 轿厢内部（宽x深 mm） | 井道（宽x深 mm） | 门宽（mm） |
 |---|---|---|---|---|
-| 6-person | 450 kg | 1100 x 1400 | 1650 x 1900 | 800 |
-| 8-person | 630 kg | 1600 x 1400 | 2150 x 1900 | 900 |
-| 13-person | 1000 kg | 2000 x 1400 | 2550 x 1900 | 1100 |
-| 16-person | 1275 kg | 2000 x 1600 | 2550 x 2100 | 1100 |
-| 21-person | 1600 kg | 2100 x 1800 | 2650 x 2300 | 1300 |
-| Bed elevator | 2500 kg | 2400 x 2700 | 2900 x 3200 | 1300 |
-| Firefighter | 1000 kg min | 1100 x 2100 min | per shaft | 1100 |
+| 6 人 | 450 kg | 1100 × 1400 | 1650 × 1900 | 800 |
+| 8 人 | 630 kg | 1600 × 1400 | 2150 × 1900 | 900 |
+| 13 人 | 1000 kg | 2000 × 1400 | 2550 × 1900 | 1100 |
+| 16 人 | 1275 kg | 2000 × 1600 | 2550 × 2100 | 1100 |
+| 21 人 | 1600 kg | 2100 × 1800 | 2650 × 2300 | 1300 |
+| 病床电梯 | 2500 kg | 2400 × 2700 | 2900 × 3200 | 1300 |
+| 消防员电梯 | 最小 1000 kg | 最小 1100 × 2100 | 每个井道 | 1100 |
 
-**Waiting time targets (CIBSE Guide D):**
-- Premium office: 20–25 s average waiting time
-- Standard office: 25–30 s
-- Residential: 40–60 s (up-peak less critical)
-- Hotel: 30–45 s
-- Hospital (bed): 60–90 s (dedicated bed lifts)
-- Quality of service: >90% of passengers served within target wait time
+**等候时间目标（CIBSE Guide D）：**
+- 高端办公：平均等候时间 20–25 s
+- 标准办公：25–30 s
+- 住宅：40–60 s（上行高峰不太关键）
+- 酒店：30–45 s
+- 医院（病床）：60–90 s（专用病床电梯）
+- 服务质量：>90% 的乘客在目标等候时间内得到服务
 
-**Elevator quantity estimation (rule of thumb):**
-- Office: 1 elevator per 2,500–3,500 m² GFA per zone
-- Residential: 1 elevator per 60–90 units (min 2 per core)
-- Hotel: 1 elevator per 100–150 rooms
-- Hospital: complex traffic analysis required; typically 1 bed lift per 100 beds + visitor/staff lifts
+**电梯数量估算（经验规则）：**
+- 办公：每个分区每 2,500–3,500 m² GFA 设置 1 部电梯
+- 住宅：每 60–90 个单元设置 1 部（每个核心筒至少 2 部）
+- 酒店：每 100–150 间客房设置 1 部
+- 医院：需进行复杂交通分析；通常每 100 张病床设 1 部病床电梯，另设访客/员工电梯
 
-**Elevator speed by building height:**
-- Low-rise (≤10 storeys): 1.0–1.75 m/s
-- Mid-rise (10–25 storeys): 2.5–4.0 m/s
-- High-rise (25–50 storeys): 5.0–7.0 m/s
-- Supertall (50+ storeys): 8.0–10.0 m/s (sky lobbies with express + local)
+**按建筑高度确定的电梯速度：**
+- 低层（≤10 层）：1.0–1.75 m/s
+- 中层（10–25 层）：2.5–4.0 m/s
+- 高层（25–50 层）：5.0–7.0 m/s
+- 超高层（50+ 层）：8.0–10.0 m/s（设空中大堂，分快速与区间电梯）
 
-### 2.4 Escalator Design
+### 2.4 自动扶梯设计
 
-- Standard width: 600 mm (single file) or 1000 mm (two abreast)
-- Inclination: 30 degrees (standard), 35 degrees (compact, lower capacity)
-- Speed: 0.5 m/s (standard), 0.65 m/s (high traffic)
-- Capacity: 600 mm @ 0.5 m/s = ~4,500 persons/hour; 1000 mm @ 0.5 m/s = ~6,750 persons/hour
-- Horizontal run at top and bottom: min 800 mm (0.8 m) flat steps
-- Headroom: min 2300 mm vertical clearance
-- Rise: typically 3.0–6.0 m per escalator (single storey); structural opening ~1.6 m wide x 6–12 m long
-- Escalator pairs (up/down) require structural opening 3.5 m wide minimum
+- 标准宽度：600 mm（单列）或 1000 mm（并列两人）
+- 坡度：30°（标准），35°（紧凑型，容量较低）
+- 速度：0.5 m/s（标准），0.65 m/s（高流量）
+- 运力：600 mm @ 0.5 m/s ≈4,500 人/小时；1000 mm @ 0.5 m/s ≈6,750 人/小时
+- 顶部和底部水平段：平直踏步最小 800 mm (0.8 m)
+- 净高：垂直净空最小 2300 mm
+- 提升高度：每部扶梯通常 3.0–6.0 m（单层）；结构洞口约宽 1.6 m × 长 6–12 m
+- 上下行扶梯组要求结构洞口最小宽度 3.5 m
 
-### 2.5 Emergency Circulation (Egress)
+### 2.5 紧急交通（疏散）
 
-- Minimum 2 exits required when occupant load >49 (IBC 1006.2.1) or building >1 storey
-- Half-diagonal rule: two exits must be separated by distance ≥ 1/2 the maximum diagonal of the floor (IBC 1007.1.1); 1/3 diagonal if sprinklered
-- Exit discharge: directly to public way or through exit passageway; max 50% through building interior if sprinklered (IBC 1028.1)
-- Areas of rescue assistance: required at each stair for buildings without full sprinkler system; min 760 mm x 1220 mm clear space per wheelchair
-- Protected corridors: fire-rated 30/60 minutes depending on building height and sprinkler status
+- 当人员荷载 >49（IBC 1006.2.1）或建筑 >1 层时，至少需要 2 个出口
+- 半对角线规则：两个出口的间距必须 ≥ 楼层最大对角线的 1/2（IBC 1007.1.1）；设喷淋时可为对角线的 1/3
+- 出口疏散：直接通向公共通道或通过出口通道；设喷淋时最多 50% 可通过建筑内部（IBC 1028.1）
+- 救援协助区：未设置完整喷淋系统的建筑，每部楼梯均需设置；每辆轮椅净空至少 760 mm × 1220 mm
+- 受保护走廊：根据建筑高度和喷淋状态设置 30/60 分钟耐火等级
 
 ---
 
-## Section 3: Core Design
+## 第3节：核心筒设计
 
-The vertical core is the organizational spine of any multi-storey building. It concentrates vertical circulation, fire escape routes, and service risers into a compact zone that repeats floor-to-floor.
+竖向核心筒是多层建筑的组织骨架。它将竖向交通、防火疏散路线和设备管井集中在紧凑区域内，并在各楼层重复布置。
 
-### 3.1 Core Types
+### 3.1 核心筒类型
 
-**Central Core:**
-- Location: geometric center of floor plate
-- Max floor plate efficiency: shortest average travel distances
-- Typical for: office towers, commercial high-rises
-- Core area: typically 20–28% of gross floor plate for office towers
-- Advantage: equal facade access on all sides
-- Disadvantage: deep floor plates can exceed daylight limits; inflexible for tenant subdivision
+**中央核心筒：**
+- 位置：楼板几何中心
+- 楼板效率最高：平均行走距离最短
+- 典型应用：办公塔楼、商业高层
+- 核心筒面积：办公塔楼通常占总楼板面积20-28%
+- 优点：四面均可获得立面界面
+- 缺点：深进深楼板可能超出采光限值；租户分隔不灵活
 
-**Side Core:**
-- Location: one end or one side of floor plate
-- Typical for: speculative office, labs, creative workspace
-- Core area: typically 18–25% of gross floor plate
-- Advantage: uninterrupted usable floor plate, flexible tenant layouts, views unobstructed
-- Disadvantage: longer travel distances to far end; potential egress code issue if single core
+**侧置核心筒：**
+- 位置：楼板一端或一侧
+- 典型应用：标准办公、实验室、创意工作空间
+- 核心筒面积：通常占总楼板面积18-25%
+- 优点：可使用楼板连续，租户布局灵活，视线无遮挡
+- 缺点：到远端行走距离较长；单核心筒可能产生疏散规范问题
 
-**Dual Core:**
-- Location: cores at both ends of a long floor plate
-- Typical for: long-span buildings, hospitals, large floor plates >2,500 m²
-- Core area: 2 x 12–15% = 24–30% of gross floor plate
-- Advantage: meets travel distance limits on long floor plates, redundancy in egress
-- Disadvantage: duplicated elevator lobbies, additional shaft space
+**双核心筒：**
+- 位置：长楼板两端均设置核心筒
+- 典型应用：大跨度建筑、医院、面积超过2,500 m²的大型楼板
+- 核心筒面积：2 x 12-15%=总楼板面积的24-30%
+- 优点：满足长楼板行走距离限制，疏散具有冗余
+- 缺点：电梯厅重复，增加管井空间
 
-**Distributed Cores:**
-- Location: multiple small cores across a campus or large floor plate
-- Typical for: campus buildings, shopping centers, hospitals, airports
-- Core area: varies; each core typically 50–150 m²
-- Advantage: local servicing, short travel distances, incremental construction
-- Disadvantage: total core area exceeds consolidated core approach; more risers to coordinate
+**分散式核心筒：**
+- 位置：在园区或大型楼板中分布多个小核心筒
+- 典型应用：园区建筑、购物中心、医院、机场
+- 核心筒面积：可变；每个核心筒通常50-150 m²
+- 优点：就近服务、行走距离短、可分期建设
+- 缺点：核心筒总面积超过集中式方案；需要协调更多管井
 
-### 3.2 Core Components
+### 3.2 核心筒组成
 
-Every core typically contains:
+每个核心筒通常包含：
 
-1. **Stairs:** Min 2 per building >1 storey (IBC 1006.3). 1-hour fire rating for buildings ≤4 storeys, 2-hour for >4 storeys (IBC 1023.2). Pressurized to 50 Pa positive in tall buildings.
-2. **Elevators:** Passenger, goods, firefighter. Shaft: 2-hour fire rating (IBC 3006.2). Machine room or machine-room-less (MRL).
-3. **Service risers:**
-   - Electrical: 600 mm x 400 mm min per riser for typical office floor; increases with building height and load
-   - Data/telecoms: 400 mm x 400 mm min; separate from electrical for EMI
-   - Water (potable + fire): 300 mm x 300 mm min; wet riser diameter 100–150 mm
-   - Waste (soil + vent): 150 mm dia soil stack per bathroom group + 100 mm vent
-   - HVAC: vertical ductwork risers 600 mm x 1200 mm typical for office floors; or AHU per floor eliminating vertical duct risers
-   - Gas: where applicable, in fire-rated enclosure
-4. **Toilets:** Typically adjacent to core for riser access; stacking is essential
-5. **Lobby/waiting area:** Elevator lobby min 1.5 m depth; 2.4 m preferred for commercial
-6. **Refuse/recycling chute:** 500 mm dia min, fire-rated enclosure, ground floor collection room
+1. **楼梯：**超过1层的建筑至少设置2部（IBC 1006.3）。≤4层建筑耐火1小时，超过4层耐火2小时（IBC 1023.2）。高层建筑加压至50 Pa正压。
+2. **电梯：**客梯、货梯、消防员电梯。井道耐火2小时（IBC 3006.2），可采用有机房或无机房（MRL）形式。
+3. **设备管井：**
+   - 电气：典型办公楼层每个管井至少600 mm x 400 mm；随建筑高度和负荷增加
+   - 数据/通信：至少400 mm x 400 mm；为避免电磁干扰与电气管井分开
+   - 给水（生活水+消防水）：至少300 mm x 300 mm；湿式立管直径100-150 mm
+   - 排水（污水+通气）：每组卫生间设置直径150 mm污水立管+100 mm通气管
+   - HVAC：办公楼层竖向风管井典型尺寸600 mm x 1200 mm；或每层设置空调机组以取消竖向风管井
+   - 燃气：适用时设置于耐火围护内
+4. **卫生间：**通常邻近核心筒布置以便接入管井；必须上下对齐叠合
+5. **大厅/等候区：**电梯厅进深至少1.5 m，商业建筑宜为2.4 m
+6. **垃圾/回收管道井：**直径至少500 mm，采用耐火围护，首层设置收集间
 
-### 3.3 Core Dimensioning by Building Type
+### 3.3 按建筑类型确定核心筒尺寸
 
-**Residential tower (20 storeys, 8 units/floor):**
-- Single stair per core (where code allows, e.g., UK for <11 m above ground) or 2 stairs
-- 2 elevators (1 x 13-person + 1 x 8-person)
-- Core area: approximately 40–55 m² per floor
-- Core as % of floor plate (600 m² GFA): 7–9%
+**住宅塔楼（20层，每层8套）：**
+- 每个核心筒设置1部楼梯（规范允许时，例如英国地上高度<11 m）或2部楼梯
+- 2部电梯（1部13人+1部8人）
+- 核心筒面积：每层约40-55 m²
+- 核心筒占楼板面积（600 m²总建筑面积）：7-9%
 
-**Office tower (30 storeys, 1,500 m² floor plate):**
-- Central core with 2 stairs (each 1200 mm wide min)
+**办公塔楼（30层，楼板面积1,500 m²）：**
+- 中央核心筒设 2 部楼梯（每部最小宽度 1200 mm）
 - 6–8 elevators in 2 banks (low-rise + high-rise zones for >20 storeys)
-- Core area: approximately 300–400 m² per floor
-- Core as % of floor plate: 20–27%
+- 核心筒面积：每层约 300–400 m²
+- 核心筒占楼板比例：20–27%
 
-**Hospital (8 storeys, 3,000 m² floor plate):**
-- Dual cores at building ends
+**医院（8层，楼板面积3,000 m²）：**
+- 建筑两端设置双核心筒
 - 2 stairs per core + 2 bed elevators + 2 passenger elevators per core
-- Core area: 2 x 150–200 m² = 300–400 m²
-- Core as % of floor plate: 10–13%
+- 核心筒面积：2 × 150–200 m² = 300–400 m²
+- 核心筒占楼板比例：10–13%
 
-### 3.4 Core-to-Facade Distances
+### 3.4 核心筒至立面距离
 
-- **Daylighting limit:** Usable daylight penetration approximately 2x–2.5x the head height of the window. For a 2.7 m floor-to-ceiling height, daylight effective to 5.4–6.75 m. Design target: max 8 m from facade for occupied space (LEED/BREEAM daylight criteria)
-- **Travel distance (IBC):** Max 76 m to nearest exit (sprinklered). Max 45 m common path of egress in most occupancies. This limits core-to-furthest-point distance.
-- **Structural efficiency:** Core acts as shear wall/braced frame for lateral loads. Central core optimal for torsional resistance. Offset cores require supplementary lateral systems (outriggers, belt trusses).
-
----
-
-## Section 4: Vertical Stacking Strategy
-
-### 4.1 Principles
-
-Vertical stacking organizes building programs floor-by-floor to optimize:
-- Structural continuity (column grids aligning vertically)
-- Service riser alignment (wet zones stacked directly above each other)
-- Functional adjacency (related uses on adjacent floors)
-- Value capture (premium uses at upper levels for views)
-- Code compliance (different occupancy classifications per floor may trigger separations)
-
-### 4.2 Heavy and Wet Use Stacking
-
-**Stacking rule:** All kitchens, toilets, laboratories, laundries, and plant rooms should stack vertically to align plumbing risers and drainage.
-
-- Soil stacks require gravity fall: min 1:40 gradient in horizontal runs, vertical drops align
-- Horizontal offsets in soil stacks: max 2 m lateral displacement per offset with access panels
-- Water supply risers: stacked to minimize pipe runs and maintain pressure (boosted systems above 10 storeys typical)
-- Kitchen extract risers: must be stacked and fire-rated (grease duct 2-hour rating)
-
-### 4.3 Column Grid Continuity
-
-- Ideal: consistent column grid from foundation to roof
-- Transfer structures: required where grid changes (e.g., parking grid 7.5 x 15 m to residential 6 x 8 m). Transfer beams/slabs: typically 1.0–2.5 m deep, 2–3x cost of normal floor structure
-- Minimizing transfers: align at least primary columns through all levels; allow secondary column shifts
-- Column-free ground floor: common for retail/lobby; achieved via transfer beam at level 1 or mega-columns
-
-### 4.4 Typical Stacking Patterns
-
-**Mixed-use tower (bottom to top):**
-1. **Basement 2–3:** Parking, building plant (chillers, boilers, generators, water tanks), refuse store
-2. **Basement 1:** Parking, cycle store, building management suite
-3. **Ground floor:** Retail units, entrance lobbies, concierge, back-of-house
-4. **Level 1 (podium):** Retail/F&B, or amenity deck
-5. **Levels 2–3 (podium):** Parking structure or office
-6. **Level 4 (transfer):** Plant floor / amenity floor
-7. **Levels 5–20:** Office floors
-8. **Level 21:** Sky lobby / transfer floor (mechanical, amenity)
-9. **Levels 22–45:** Residential apartments
-10. **Roof:** Plant (cooling towers, PV arrays, BMU)
-
-**Key stacking considerations:**
-- Parking below occupied floors: requires fire separation (2-hour floor) and mechanical ventilation
-- Residential above office: separate elevator banks; residential elevators bypass office floors
-- Plant floors: at base, mid-height (mechanical), and roof; mid-height plant reduces riser sizes
-- Mixed occupancy separations: IBC Table 508.4 required fire separation between uses
+- **采光限值：**有效采光深度约为窗洞口高度的2-2.5倍。层高2.7 m时，有效采光深度为5.4-6.75 m。设计目标：使用空间距立面不超过8 m（LEED/BREEAM采光标准）。
+- **行走距离（IBC）：**设置喷淋时至最近出口最大76 m；多数使用类型共同疏散路径最大45 m。这限制了核心筒至最远点的距离。
+- **结构效率：**核心筒作为剪力墙/支撑框架抵抗侧向荷载。中央核心筒抗扭最优，偏置核心筒需要外伸臂、带状桁架等补充侧向体系。
 
 ---
 
-## Section 5: Net-to-Gross Optimization
+## 第4节：竖向叠合策略
 
-### 5.1 Definition
+### 4.1 原则
 
-**Net area (NIA/NFA):** Usable occupied floor area measured to the internal face of external walls, excluding cores, structure, risers, corridors, plant, and walls.
+竖向叠合按楼层组织建筑功能，以优化：
+- 结构连续性（柱网垂直对齐）
+- 设备管井对齐（湿区直接上下叠合）
+- 功能邻接（相关用途布置在相邻楼层）
+- 价值获取（高层布置可享景观的高溢价用途）
+- 规范合规（不同楼层使用分类可能触发分隔要求）
 
-**Gross area (GIA/GFA):** Total floor area measured to the external face of external walls, including everything.
+### 4.2 重型与湿区功能叠合
 
-**Net-to-gross ratio (NTG) = Net / Gross x 100%**
+**叠合规则：**所有厨房、卫生间、实验室、洗衣房和设备机房应竖向叠合，以对齐给排水管井和排水系统。
 
-### 5.2 NTG Targets by Building Type
+- 污水立管需要重力排水：水平管段最小坡度1:40，竖向落差应对齐
+- 污水立管水平偏移：每次偏移最大横向位移2 m，并设置检修口
+- 给水立管：上下叠合以减少管线长度并保持压力（超过10层通常采用增压系统）
+- 厨房排油烟立管：必须上下叠合并进行耐火处理（油脂风管耐火2小时）
 
-| Building Type | Poor | Typical | Good | Excellent |
+### 4.3 柱网连续性
+
+- 理想情况：从基础到屋顶采用一致的柱网
+- 转换结构：网格变化处必须设置（例如停车网格7.5 x 15 m转换为住宅6 x 8 m）。转换梁/板通常深1.0-2.5 m，成本为普通楼层结构的2-3倍
+- 减少转换：至少使主柱贯穿所有楼层对齐，允许次柱局部偏移
+- 首层无柱：零售/大厅常见，可通过首层转换梁或巨型柱实现
+
+### 4.4 典型竖向叠合模式
+
+**混合使用塔楼（由下至上）：**
+1. **地下2-3层：**停车、建筑设备（冷水机组、锅炉、发电机、水箱）、垃圾房
+2. **地下1层：**停车、自行车库、建筑管理用房
+3. **首层：**零售单元、入口大厅、礼宾、后勤区
+4. **1层（裙房）：**零售/餐饮，或公共设施平台
+5. **2-3层（裙房）：**停车结构或办公
+6. **4层（转换层）：**设备层/公共设施层
+7. **5-20层：**办公楼层
+8. **21层：**空中大厅/转换层（机电、公共设施）
+9. **22-45层：**住宅公寓
+10. **屋顶：**设备（冷却塔、光伏阵列、擦窗机）
+
+**关键叠合注意事项：**
+- 使用楼层下方设置停车：需要防火分隔（2小时楼板）和机械通风
+- 办公上方设置住宅：分设电梯组，住宅电梯绕过办公楼层
+- 设备层：设置于底部、中部（机电）和屋顶；中部设备层可减小管井尺寸
+- 混合使用分隔：IBC表508.4要求不同使用类型之间设置防火分隔
+
+---
+
+## 第5节：净总比优化
+
+### 5.1 定义
+
+**净面积（NIA/NFA）：**测量至外墙内表面的可使用占用楼面面积，不包括核心筒、结构、管井、走廊、设备机房和墙体。
+
+**总面积（GIA/GFA）：**测量至外墙外表面的总楼面面积，包括全部内容。
+
+**净总比（NTG）=净面积/总面积x100%**
+
+### 5.2 按建筑类型划分的NTG目标
+
+| 建筑类型 | 较差 | 典型 | 良好 | 优秀 |
 |---|---|---|---|---|
 | Residential (apartments) | <75% | 78–80% | 80–83% | 83–85% |
 | Office (speculative) | <72% | 75–78% | 78–80% | 80–82% |
 | Office (owner-occupied) | <70% | 72–75% | 75–78% | 78–80% |
-| Hotel | <58% | 60–63% | 63–66% | 66–68% |
-| Hospital | <52% | 55–58% | 58–60% | 60–62% |
-| School | <60% | 62–65% | 65–68% | 68–70% |
-| Retail | <80% | 82–85% | 85–88% | 88–90% |
-| Laboratory | <55% | 58–62% | 62–65% | 65–68% |
+| 酒店 | <58% | 60–63% | 63–66% | 66–68% |
+| 医院 | <52% | 55–58% | 58–60% | 60–62% |
+| 学校 | <60% | 62–65% | 65–68% | 68–70% |
+| 零售 | <80% | 82–85% | 85–88% | 88–90% |
+| 实验室 | <55% | 58–62% | 62–65% | 65–68% |
 
-### 5.3 Strategies for Improving NTG
+### 5.3 提高NTG的策略
 
-1. **Minimize corridor length:** Double-loaded corridors serve 2x the area of single-loaded. Eliminate dead-end corridors. Use open-plan where program allows.
-2. **Combine circulation with amenity:** Corridors that widen into break-out spaces, lobbies that serve as informal meeting areas — these serve dual function and reduce perceived waste.
-3. **Right-size cores:** Over-engineering vertical transportation wastes lettable area. Traffic analysis (simulation-based, not rule-of-thumb) can save 1–3% NTG.
-4. **Reduce structural footprint:** Post-tensioned flat slabs eliminate drop beams and allow thinner structural zones, reducing floor-to-floor height and enabling additional floors within the same building height.
-5. **Stack service risers:** Misaligned risers between floors create horizontal distribution runs that consume ceiling void and floor area. Perfect stacking eliminates horizontal diversions.
-6. **Efficient toilet layouts:** Back-to-back toilet blocks sharing a common riser wall save 10–15% compared to dispersed facilities.
-7. **Avoid unnecessary common areas:** Each common area (mail rooms, storage, secondary lobbies) reduces NTG. Consolidate where possible.
-8. **Facade efficiency:** Thick wall build-ups (500+ mm) reduce NIA relative to GIA by 3–5% compared to thin envelope systems (200 mm curtain wall).
+1. **缩短走廊长度：**双侧走廊服务面积是单侧走廊的2倍。消除尽端走廊，在功能允许时采用开放式平面。
+2. **将交通与公共设施结合：**将走廊拓宽为休憩空间，将大厅兼作非正式会面区域；一处空间承担双重功能，减少感知上的浪费。
+3. **合理确定核心筒规模：**竖向交通过度设计会浪费可出租面积。通过交通分析（基于模拟而非经验规则）可节省1-3%的NTG。
+4. **减少结构占用：**后张无梁楼板可取消下挂梁并采用更薄的结构带，降低层高，在相同建筑高度内增加楼层数。
+5. **叠合设备管井：**楼层间错位的管井会产生占用吊顶空间和楼面面积的水平分配管线。完全叠合可消除水平绕行。
+6. **高效卫生间布局：**背靠背布置并共用管井墙的卫生间组，比分散布置节省10-15%。
+7. **避免不必要的公共区域：**每个公共区域（邮件间、储藏室、次要大厅）都会降低NTG，应尽可能合并。
+8. **提高立面效率：**与200mm幕墙等薄围护系统相比，500mm以上的厚墙构造会使NIA相对GIA减少3-5%。
 
-### 5.4 Economic Impact
+### 5.4 经济影响
 
-- In a commercial office building at $600/m² annual rent:
-  - 1% improvement in NTG on 20,000 m² GFA = 200 m² additional NIA
-  - Annual rent gain = 200 x $600 = $120,000/year
-  - At 5% yield = $2,400,000 capital value increase
-- NTG optimization is the single highest-leverage design decision for developer profitability
-
----
-
-## Section 6: Wayfinding and Spatial Legibility
-
-### 6.1 Principles
-
-Effective wayfinding relies on the legibility of the architecture itself — not on signage as a corrective measure for poor spatial design. Kevin Lynch's five elements of urban legibility (paths, edges, districts, nodes, landmarks) apply at building scale:
-
-- **Paths:** Corridors, walkways, and circulation routes that are clearly defined by floor finish, ceiling height, or lighting character
-- **Edges:** Thresholds between public and private, indoor and outdoor, circulation and destination
-- **Districts:** Recognizable zones within a building — each department, wing, or floor should have distinct spatial identity through material, color, light quality, or ceiling height
-- **Nodes:** Decision points — stair lobbies, corridor intersections, elevator halls — that require clear spatial hierarchy to orient the user
-- **Landmarks:** Distinctive architectural features visible from multiple locations — a sculptural stair, a double-height space, a view to a specific external landmark, a skylight
-
-### 6.2 Architectural Wayfinding Strategies
-
-**Clear sightlines to vertical circulation:**
-- Elevator lobbies visible from the main entrance
-- Stairs announced by generous openings, natural light, or atrium exposure
-- Avoid hidden stairs — visibility encourages use and aids emergency egress
-
-**Landmark moments at decision points:**
-- At every point where a user must choose a direction, provide a distinguishing spatial event: a change in ceiling height, a view out, a material change, a water feature
-- The strength of the landmark should be proportional to the importance of the decision
-
-**Differentiation through light:**
-- Corridors lit from one end create a natural gradient — users move toward the light
-- Side-lit corridors with intermittent windows provide orientation (external views confirm location)
-- Top-lit spaces (atriums, skylights) serve as orientation anchors within deep-plan buildings
-
-**Differentiation through height:**
-- Primary circulation routes: 3.0–4.5 m ceiling height
-- Secondary routes: 2.7–3.0 m
-- Destinations (offices, rooms): 2.4–2.7 m
-- Compression and release: lowering a ceiling before a tall space heightens arrival experience
-
-**Differentiation through material:**
-- Floor material changes at thresholds signal transition between zones
-- Acoustic character (hard vs. soft surfaces) distinguishes circulation from occupation
-- Color coding by floor or wing — subtle architectural color, not painted wayfinding stripes
-
-### 6.3 Signage Integration
-
-When signage is necessary, it should complement the architecture:
-- Consistent sign family: typeface, color, mounting height, illumination
-- Decision-point signs at corridor intersections, elevator lobbies, stair entries
-- Confirmation signs along routes confirming correct path
-- Identification signs at destinations (room numbers, department names)
-- Regulatory signs (exit, fire, accessibility) per code requirements
-- Digital wayfinding: interactive kiosks at main entry points for complex buildings (hospitals, airports)
-
-### 6.4 Universal Accessibility in Wayfinding
-
-- Tactile ground surface indicators (TGSIs) at stair landings, platform edges, and hazards
-- Braille and raised lettering on room identification signs (ADA: 1220–1524 mm above floor, latch side of door)
-- Audible wayfinding for visually impaired: elevator announcements, audible beacons at key locations
-- Color contrast: 30-point minimum LRV difference between walls and floors, doors and frames, signs and backgrounds
-- Cognitive accessibility: simple, consistent spatial layout reduces confusion for neurodiverse users
-
-### 6.5 Wayfinding in Complex Building Types
-
-**Hospitals:**
-- Main street spine with departments branching off
-- Color-coded zones per department
-- Clear separation of public, patient, staff, and goods routes
-- Visitor wayfinding starts at car park, continues to reception, extends to ward/department
-
-**Airports:**
-- One-way flow from landside to airside
-- Progressive disclosure: only show next decision, not all decisions at once
-- Moving walkways as path reinforcement
-- Gate numbering systems with visual distance cues
-
-**Universities:**
-- Campus-scale wayfinding linking buildings
-- Building-scale wayfinding linking departments
-- Room-scale wayfinding linking individual spaces
-- Consistent numbering: building code + floor + room sequence (e.g., ENG-3-014)
-
-**Shopping centers:**
-- Anchor stores at ends of routes (magnets)
-- Visibility across voids for orientation
-- Consistent directory kiosks at all vertical circulation points
-- Clear back-of-house / front-of-house separation
-
-**High-rise residential:**
-- Ground floor: concierge/reception as first orientation point
-- Elevator lobby: clear numbering at each floor, visible immediately on exiting elevator
-- Corridors: apartment numbering logical and sequential (clockwise from elevator)
-- Dual-aspect corridors with windows at ends preferred for orientation
-- Mail/parcel rooms and amenity spaces as secondary landmarks
-
-### 6.6 Quantifying Wayfinding Performance
-
-Wayfinding effectiveness can be measured through:
-
-- **Decision point density:** Number of directional choices per 100 m of path. Target: <3 for simple buildings, <5 for complex
-- **Sightline distance:** Average distance at which the next decision point or destination is visible. Longer sightlines = better legibility. Target: >15 m in primary circulation
-- **Route directness ratio:** Actual walking distance / straight-line distance. Target: <1.5 for primary routes
-- **First-visit success rate:** Percentage of first-time visitors reaching destination without asking for help. Target: >85%
-- **Average navigation time:** Time to reach destination from entrance vs. minimum possible time. Target: <1.5x minimum
+- 在年租金$600/m²的商业办公楼中：
+  - 20,000 m²总建筑面积的NTG提高1%=增加200 m²净面积
+  - 年租金增益=200 x $600=$120,000/年
+  - 按5%收益率计算=资本价值增加$2,400,000
+- NTG优化是提高开发商盈利能力的单项最高杠杆设计决策
 
 ---
 
-## Appendix: Key Standards and References
+## 第6节：导向与空间可读性
 
-| Standard | Scope | Jurisdiction |
+### 6.1 原则
+
+有效的导向依赖建筑本身的可读性，而不是用标识弥补糟糕的空间设计。Kevin Lynch提出的城市可读性五要素（路径、边界、区域、节点、地标）同样适用于建筑尺度：
+
+- **路径：**由地面饰面、吊顶高度或照明特征清晰界定的走廊、步道和交通路线
+- **边界：**公共与私密、室内与室外、交通与目的地之间的过渡界面
+- **区域：**建筑中可识别的分区——每个部门、翼楼或楼层应通过材料、色彩、光环境或吊顶高度形成独特空间识别
+- **节点：**决策点——楼梯厅、走廊交叉口、电梯厅——需要清晰的空间层级以帮助使用者定位
+- **地标：**从多个位置可见的独特建筑特征——雕塑楼梯、通高空间、面向特定外部地标的视线或天窗
+
+### 6.2 建筑导向策略
+
+**通向竖向交通的清晰视线：**
+- 从主入口可看到电梯厅
+- 通过宽敞开口、自然光或中庭视线突出楼梯
+- 避免隐藏楼梯——可见性鼓励使用并有助于紧急疏散
+
+**决策点的地标性空间节点：**
+- 在使用者必须选择方向的每个位置设置可识别的空间事件：吊顶高度变化、对外视线、材料变化或水景
+- 地标的识别强度应与决策的重要性相匹配
+
+**通过光线进行区分：**
+- 从一端采光的走廊形成自然光线梯度，使用者会向光线方向移动
+- 侧向采光且间隔设置窗户的走廊可提供方向感（外部景观帮助确认位置）
+- 顶部采光空间（中庭、天窗）可在深进深建筑中作为导向锚点
+
+**通过高度进行区分：**
+- 主要交通路线：吊顶高度3.0-4.5 m
+- 次要路线：2.7-3.0 m
+- 目的地空间（办公室、房间）：2.4-2.7 m
+- 压缩与释放：在高大空间之前降低吊顶，可强化抵达体验
+
+**通过材料进行区分：**
+- 门槛处改变地面材料，提示区域之间的转换
+- 声学特征（硬质与软质表面）区分交通空间与使用空间
+- 按楼层或翼楼采用色彩编码——使用细腻的建筑色彩，而不是绘制导向条纹
+
+### 6.3 标识整合
+
+当必须设置标识时，应使其补充建筑设计：
+- 统一的标识体系：字体、颜色、安装高度和照明
+- 在走廊交叉口、电梯厅和楼梯入口设置决策点标识
+- 沿路线设置确认标识，确认行进方向正确
+- 在目的地设置识别标识（房间号、部门名称）
+- 按规范要求设置法规标识（出口、消防、无障碍）
+- 数字导向：医院、机场等复杂建筑在主入口设置交互式信息亭
+
+### 6.4 导向中的通用无障碍
+
+- 在楼梯平台、站台边缘和危险处设置触觉地面指示标识（TGSIs）
+- 房间识别标识采用盲文和凸字（ADA：距地面1220-1524 mm，位于门锁侧）
+- 为视障人士提供声音导向：电梯语音提示、关键位置的声音信标
+- 色彩对比：墙与地面、门与门框、标识与背景之间的LRV差值至少30点
+- 认知无障碍：简单、一致的空间布局可减少神经多样性使用者的困惑
+
+### 6.5 复杂建筑类型中的导向
+
+**医院：**
+- 以主街为骨架，各科室从主街分支
+- 按科室设置颜色编码区域
+- 明确分离公众、患者、员工和物资路线
+- 访客导向从停车场开始，经接待处延伸至病房/科室
+
+**机场：**
+- 从陆侧到空侧的单向流线
+- 渐进式信息披露：只显示下一决策点，不一次展示所有决策
+- 以自动步道强化路径
+- 登机口编号系统结合可视距离提示
+
+**大学：**
+- 园区尺度导向连接各建筑
+- 建筑尺度导向连接各部门
+- 房间尺度导向连接各个空间
+- 统一编号：建筑代码+楼层+房间序号（例如ENG-3-014）
+
+**购物中心：**
+- 在路线端部设置主力店作为吸引点
+- 利用跨中庭视线进行定位
+- 所有竖向交通节点设置统一的导览信息亭
+- 明确分离后勤区与前场公共区
+
+**高层住宅：**
+- 首层：礼宾/接待处作为第一个定位点
+- 电梯厅：每层清晰编号，走出电梯即可看到
+- 走廊：公寓编号逻辑连续（从电梯起顺时针排列）
+- 宜采用两端设窗的双面采光走廊以增强方向感
+- 邮件/包裹间和公共设施空间作为次级地标
+
+### 6.6 导向性能量化
+
+导向有效性可通过以下指标衡量：
+
+- **决策点密度：**每100 m路径上的方向选择次数。目标：简单建筑<3，复杂建筑<5
+- **视线距离：**可看到下一决策点或目的地的平均距离。视线越长，可读性越好。主要交通路线目标>15 m
+- **路线直接度：**实际行走距离/直线距离。主要路线目标<1.5
+- **首次访问成功率：**首次到访者无需求助即可到达目的地的比例。目标>85%
+- **平均导航时间：**从入口到目的地的时间与理论最短时间之比。目标<最短时间的1.5倍
+
+---
+
+## 附录：主要标准与参考资料
+
+| 标准 | 范围 | 适用辖区 |
 |---|---|---|
-| IBC (International Building Code) | Egress, travel distance, stair/elevator requirements | USA (adopted by most states) |
-| NFPA 101 (Life Safety Code) | Egress, occupant load, fire protection | USA (alternative to IBC) |
-| BS 9999 | Fire safety design, escape routes, travel distances | UK |
-| Approved Document B | Fire safety in buildings | England & Wales |
-| Approved Document K | Stairs, ramps, guards, protection from falling | England & Wales |
-| Approved Document M | Access to and use of buildings (accessibility) | England & Wales |
-| DIN 18065 | Stairs in buildings — terminology, dimensions | Germany |
-| DIN 18040-1/2 | Accessible design (public / residential) | Germany |
-| BS 8300 | Design of accessible and inclusive built environment | UK |
-| ADA Standards | Accessibility in public accommodations | USA |
-| CIBSE Guide D | Vertical transportation (elevator design) | UK / international |
-| EN 81-20/50 | Elevator safety — construction and installation | Europe |
-| EN 81-70 | Accessibility of elevators for persons with disability | Europe |
-| BS 6465-1 | Sanitary provision — quantity and dimensions | UK |
-| Neufert Architects' Data | Dimensional reference for all building types | International |
-| Kevin Lynch, "The Image of the City" (1960) | Spatial legibility theory | Academic reference |
+| IBC (International Building Code) | 疏散、行走距离、楼梯/电梯要求 | 美国（多数州采用） |
+| NFPA 101 (Life Safety Code) | 疏散、人员荷载、防火 | 美国（IBC替代标准） |
+| BS 9999 | 防火设计、疏散路线、行走距离 | 英国 |
+| Approved Document B | 建筑防火 | 英格兰和威尔士 |
+| Approved Document K | 楼梯、坡道、栏杆、防坠落 | 英格兰和威尔士 |
+| Approved Document M | 建筑的进入与使用（无障碍） | 英格兰和威尔士 |
+| DIN 18065 | 建筑楼梯——术语、尺寸 | 德国 |
+| DIN 18040-1/2 | 无障碍设计（公共/住宅） | 德国 |
+| BS 8300 | 无障碍和包容性建成环境设计 | 英国 |
+| ADA Standards | 公共设施无障碍 | 美国 |
+| CIBSE Guide D | 竖向交通（电梯设计） | 英国/国际 |
+| EN 81-20/50 | 电梯安全——制造与安装 | 欧洲 |
+| EN 81-70 | 残障人士电梯无障碍 | 欧洲 |
+| BS 6465-1 | 卫生设施——数量和尺寸 | 英国 |
+| Neufert Architects' Data | 各类建筑尺寸参考 | 国际 |
+| Kevin Lynch，《The Image of the City》（1960） | 空间可读性理论 | 学术参考 |
 
-### Space Planning Rules of Thumb
+### 空间规划经验规则
 
-| Parameter | Value | Source |
+| 参数 | 数值 | 来源 |
 |---|---|---|
-| Minimum ceiling height (habitable room) | 2400 mm (IBC); 2300 mm (UK) | Building codes |
-| Minimum bedroom area | 6.5 m² single, 11.0 m² double (UK NDSS) | National space standards |
-| Minimum 1-bed apartment area | 50 m² (UK NDSS); 37 m² (NYC HPD) | Local standards |
-| Corridor to usable area ratio (office) | 12–18% | Industry benchmark |
-| Elevator lobby area per elevator | 4–6 m² | CIBSE Guide D |
-| Stair area (1200 mm wide, per floor) | 14–18 m² (including half-landings) | Calculation |
-| Toilet block per floor (office, 200 occ) | 30–45 m² | BS 6465 |
-| Server/comms room per office floor | 6–12 m² | IT planning guides |
-| Cleaners store per floor | 3–5 m² | Facilities management |
+| 可居住房间最小吊顶高度 | 2400 mm（IBC）；2300 mm（英国） | 建筑规范 |
+| 最小卧室面积 | 单人6.5 m²，双人11.0 m²（英国NDSS） | 国家空间标准 |
+| 一居室公寓最小面积 | 50 m²（英国NDSS）；37 m²（NYC HPD） | 地方标准 |
+| 办公走廊与可使用面积比 | 12-18% | 行业基准 |
+| 每部电梯的电梯厅面积 | 4-6 m² | CIBSE Guide D |
+| 楼梯面积（宽1200 mm，每层） | 14-18 m²（含半层平台） | 计算值 |
+| 每层卫生间面积（办公，200人） | 30-45 m² | BS 6465 |
+| 每层服务器/通信机房 | 6-12 m² | IT规划指南 |
+| 每层清洁间 | 3-5 m² | 设施管理 |
 
-### Daylight and Plan Depth Relationship
+### 采光与平面进深关系
 
-| Floor-to-Ceiling Height (m) | Effective Daylight Depth (m) | Room Depth-to-Height Ratio |
+| 层高（m） | 有效采光深度（m） | 房间进深/高度比 |
 |---|---|---|
 | 2.4 | 4.8–6.0 | 2.0–2.5x |
 | 2.7 | 5.4–6.75 | 2.0–2.5x |
@@ -567,4 +564,4 @@ Wayfinding effectiveness can be measured through:
 | 4.0 | 8.0–10.0 | 2.0–2.5x |
 | 4.5 (double height) | 9.0–11.25 | 2.0–2.5x |
 
-For spaces deeper than 2.5x the window head height, supplementary daylighting strategies are needed: lightshelves, clerestory windows, borrowed light, rooflights, or atrium/lightwell access. BREEAM/LEED typically require a minimum average daylight factor of 2% in occupied spaces and sDA (spatial daylight autonomy) of 55% for 300 lux for at least 50% of regularly occupied area.
+对于进深超过窗洞口高度2.5倍的空间，需要采用补充采光策略：采光搁板、高侧窗、借光、屋顶采光窗或中庭/采光井引入。BREEAM/LEED通常要求使用空间平均采光因子至少2%，并要求至少50%的经常使用面积达到300 lux下55%的空间采光自主率（sDA）。

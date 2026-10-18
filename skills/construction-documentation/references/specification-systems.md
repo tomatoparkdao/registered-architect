@@ -1,28 +1,21 @@
-# Specification Systems Reference
+# 技术规格体系参考
 
-Comprehensive reference covering specification classification systems used
-globally: CSI MasterFormat (US), NBS (UK), Uniclass 2015 (UK), and
-OmniClass. Includes division-by-division MasterFormat summary, performance
-specification writing guidance, and sustainability specification practices.
+本参考综合介绍全球使用的技术规格分类体系：CSI MasterFormat（美国）、NBS（英国）、Uniclass 2015（英国）和 OmniClass。内容包括按分部整理的 MasterFormat 摘要、性能化技术规格编写指南以及可持续性规格实践。
 
 ---
 
-## 1. CSI MasterFormat (United States)
+## 1. CSI MasterFormat（美国）
 
-### 1.1 Overview
+### 1.1 概述
 
-MasterFormat is the specification standard published by the Construction
-Specifications Institute (CSI) and Construction Specifications Canada
-(CSC). It organizes construction requirements into a standardized numbering
-system of divisions and sections.
+MasterFormat 是由美国建筑技术规格学会（CSI）和加拿大建筑技术规格组织（CSC）发布的技术规格标准。它将施工要求按分部和章节组织为标准化编号体系。
 
-Current edition: MasterFormat 2018 (updated from 2004 expansion)
+现行版本：MasterFormat 2018（由 2004 年扩展版更新）
 
-### 1.2 Division-by-Division Summary
+### 1.2 分部摘要
 
-**Division 01 -- General Requirements**
-Covers administrative and procedural requirements that apply to the
-entire project, not specific products or materials.
+**分部 01——一般要求**
+涵盖适用于整个项目的行政和程序要求，而非特定产品或材料。
 - 01 10 00 Summary of Work
 - 01 23 00 Alternates
 - 01 25 00 Substitution Procedures
@@ -34,15 +27,15 @@ entire project, not specific products or materials.
 - 01 70 00 Execution and Closeout Requirements
 - 01 78 00 Closeout Submittals (O&M manuals, warranties, as-builts)
 
-**Division 02 -- Existing Conditions**
+**分部 02——既有条件**
 - 02 21 00 Surveys
 - 02 41 00 Demolition
 - 02 82 00 Asbestos Remediation
 - 02 83 00 Lead Remediation
 - 02 85 00 Mold Remediation
 
-**Division 03 -- Concrete**
-Typical architectural specifications:
+**分部 03——混凝土**
+典型建筑技术规格：
 - 03 11 00 Concrete Forming
 - 03 20 00 Concrete Reinforcing
 - 03 30 00 Cast-in-Place Concrete (most common arch spec)
@@ -52,7 +45,7 @@ Typical architectural specifications:
 - 03 49 00 Glass Fiber Reinforced Concrete (GFRC)
 - 03 54 00 Cast Underlayment (self-leveling)
 
-**Division 04 -- Masonry**
+**分部 04——砌体**
 - 04 05 00 Common Work Results for Masonry
 - 04 20 00 Unit Masonry (CMU, brick, stone veneer)
 - 04 22 00 Concrete Unit Masonry
@@ -61,7 +54,7 @@ Typical architectural specifications:
 - 04 43 00 Stone Masonry
 - 04 72 00 Cast Stone
 
-**Division 05 -- Metals**
+**分部 05——金属**
 - 05 12 00 Structural Steel Framing
 - 05 21 00 Steel Joist Framing
 - 05 31 00 Steel Decking
@@ -72,7 +65,7 @@ Typical architectural specifications:
 - 05 58 00 Metal Castings
 - 05 73 00 Decorative Metal Railings
 
-**Division 06 -- Wood, Plastics, and Composites**
+**分部 06——木材、塑料和复合材料**
 - 06 10 00 Rough Carpentry
 - 06 16 00 Sheathing
 - 06 17 00 Shop-Fabricated Structural Wood
@@ -83,7 +76,7 @@ Typical architectural specifications:
 - 06 64 00 Plastic Paneling
 - 06 82 00 Glass Fiber Reinforced Plastic
 
-**Division 07 -- Thermal and Moisture Protection**
+**分部 07——保温与防潮**
 - 07 10 00 Dampproofing and Waterproofing
 - 07 13 00 Sheet Waterproofing
 - 07 14 00 Fluid-Applied Waterproofing
@@ -101,7 +94,7 @@ Typical architectural specifications:
 - 07 84 00 Firestopping
 - 07 92 00 Joint Sealants
 
-**Division 08 -- Openings**
+**分部 08——门窗及开口**
 - 08 11 00 Metal Doors and Frames (hollow metal)
 - 08 14 00 Wood Doors
 - 08 31 00 Access Doors and Panels
@@ -117,7 +110,7 @@ Typical architectural specifications:
 - 08 81 00 Glass Glazing
 - 08 88 00 Special Function Glazing
 
-**Division 09 -- Finishes**
+**分部 09——饰面**
 - 09 21 00 Plaster and Gypsum Board Assemblies
 - 09 22 00 Supports for Plaster and Gypsum Board
 - 09 29 00 Gypsum Board
@@ -137,7 +130,7 @@ Typical architectural specifications:
 - 09 93 00 Staining and Transparent Finishing
 - 09 96 00 High-Performance Coatings
 
-**Division 10 -- Specialties**
+**分部 10——专用工程**
 - 10 11 00 Visual Display Surfaces (whiteboards)
 - 10 14 00 Signage
 - 10 21 00 Compartments and Cubicles (toilet partitions)
@@ -149,14 +142,14 @@ Typical architectural specifications:
 - 10 73 00 Protective Covers (awnings, canopies)
 - 10 75 00 Flagpoles
 
-**Division 11 -- Equipment**
+**分部 11——设备**
 - 11 31 00 Residential Appliances
 - 11 40 00 Foodservice Equipment
 - 11 52 00 Audio-Visual Equipment
 - 11 53 00 Laboratory Equipment
 - 11 66 00 Athletic Equipment
 
-**Division 12 -- Furnishings**
+**分部 12——家具与装饰**
 - 12 21 00 Window Blinds
 - 12 24 00 Window Shades
 - 12 35 00 Casework (built-in cabinetry)
@@ -165,19 +158,19 @@ Typical architectural specifications:
 - 12 59 00 Systems Furniture
 - 12 93 00 Site Furnishings
 
-**Division 13 -- Special Construction**
+**分部 13——特殊构造**
 - 13 11 00 Swimming Pools
 - 13 17 00 Tubs and Pools
 - 13 34 00 Fabricated Engineered Structures
 - 13 49 00 Radiation Protection
 
-**Division 14 -- Conveying Equipment**
+**分部 14——运输设备**
 - 14 21 00 Electric Traction Elevators
 - 14 24 00 Hydraulic Elevators
 - 14 31 00 Escalators
 - 14 42 00 Wheelchair Lifts
 
-**Divisions 21-28 -- Facility Services (MEP/Fire)**
+**分部 21-28——设施服务（机电/消防）**
 - Division 21: Fire Suppression
 - Division 22: Plumbing
 - Division 23: Heating, Ventilating, Air Conditioning
@@ -186,78 +179,71 @@ Typical architectural specifications:
 - Division 27: Communications
 - Division 28: Electronic Safety and Security
 
-**Divisions 31-35 -- Site and Infrastructure**
+**分部 31-35——场地与基础设施**
 - Division 31: Earthwork
 - Division 32: Exterior Improvements
 - Division 33: Utilities
 - Division 34: Transportation (roads, bridges)
 - Division 35: Waterway and Marine Construction
 
-**Divisions 40-49 -- Process Equipment**
+**分部 40-49——工艺设备**
 - Division 40: Process Interconnections
-- Division 41-43: Material Processing Equipment
-- Division 44: Pollution and Waste Control
-- Division 46: Water and Wastewater Equipment
-- Division 48: Electrical Power Generation
-- Division 49: (Reserved)
+- 分部 41-43：材料加工设备
+- 分部 44：污染与废物控制
+- 分部 46：给水与污水设备
+- 分部 48：发电设备
+- 分部 49：（预留）
 
 ---
 
-## 2. NBS (National Building Specification) -- United Kingdom
+## 2. NBS（国家建筑技术规格）——英国
 
-### 2.1 Overview
+### 2.1 概述
 
-NBS is the UK's most widely used specification system. NBS Chorus is the
-cloud-based platform providing structured specification writing with links
-to manufacturer product data and BIM objects.
+NBS 是英国使用最广泛的技术规格体系。NBS Chorus 是云端平台，支持结构化编写技术规格，并链接制造商产品数据和 BIM 对象。
 
-### 2.2 Key Features
+### 2.2 主要特征
 
-- **Clause-based system**: Each section contains standard clauses with
-  guidance notes
-- **Linked to BIM objects**: Specifications can link directly to IFC
-  objects in BIM models
-- **Manufacturer product data**: Direct links to certified product data
-- **Automatic updates**: Standards references update when new editions
-  are published
-- **NBS Source**: Product library with BIM objects and specification clauses
+- **基于条款的体系：**每个章节包含带指导说明的标准条款
+- **链接BIM对象：**技术规格可直接链接至BIM模型中的IFC对象
+- **制造商产品数据：**直接链接至经过认证的产品数据
+- **自动更新：**新版本发布时自动更新规范引用
+- **NBS Source：**包含BIM对象和技术规格条款的产品库
 
-### 2.3 NBS Section Structure
+### 2.3 NBS 章节结构
 
-NBS sections follow a work-result based structure:
-- Preliminaries/General conditions
-- Substructure
-- Superstructure
-- Internal finishes
-- Services
-- External works
-- Furniture and equipment
+NBS 章节按工作成果组织：
+- 前期/一般条件
+- 地下结构
+- 上部结构
+- 室内饰面
+- 机电服务
+- 室外工程
+- 家具与设备
 
 ---
 
-## 3. Uniclass 2015 (United Kingdom)
+## 3. Uniclass 2015（英国）
 
-### 3.1 Overview
+### 3.1 概述
 
-Uniclass 2015 is the unified classification system for the construction
-industry in the UK, developed by NBS. It is the recommended classification
-for BIM projects under the UK BIM Framework.
+Uniclass 2015 是由 NBS 开发的英国建筑业统一分类体系，是英国 BIM 框架下 BIM 项目推荐采用的分类体系。
 
 ### 3.2 Classification Tables
 
-| Table | Code Prefix | Purpose                         |
+| 表 | 代码前缀 | 用途 |
 |-------|------------|---------------------------------|
-| Co    | Co_        | Complexes (campus, estate)      |
-| En    | En_        | Entities (building, bridge)     |
-| Ac    | Ac_        | Activities (design, construct)  |
-| SL    | SL_        | Spaces/Locations                |
-| EF    | EF_        | Elements/Functions              |
-| Ss    | Ss_        | Systems                         |
-| Pr    | Pr_        | Products                        |
-| TE    | TE_        | Tools and Equipment             |
-| PM    | PM_        | Project Management              |
-| FI    | FI_        | Form of Information             |
-| Zz    | Zz_        | CAD                             |
+| Co | Co_ | 综合体（园区、地产） |
+| En | En_ | 实体（建筑、桥梁） |
+| Ac | Ac_ | 活动（设计、施工） |
+| SL | SL_ | 空间/位置 |
+| EF | EF_ | 要素/功能 |
+| Ss | Ss_ | 系统 |
+| Pr | Pr_ | 产品 |
+| TE | TE_ | 工具与设备 |
+| PM | PM_ | 项目管理 |
+| FI | FI_ | 信息形式 |
+| Zz | Zz_ | CAD |
 
 ### 3.3 Example Classifications
 
@@ -270,32 +256,29 @@ for BIM projects under the UK BIM Framework.
 
 ## 4. OmniClass
 
-### 4.1 Overview
+### 4.1 概述
 
-OmniClass (OCCS -- OmniClass Construction Classification System) is a
-comprehensive classification system for the construction industry used
-primarily in North America. It comprises 15 tables spanning the full
-range of construction information.
+OmniClass（OCCS——OmniClass 建筑分类体系）是主要在北美使用的建筑业综合分类体系，由 15 张表组成，覆盖完整的建筑信息范围。
 
 ### 4.2 OmniClass Tables
 
-| Table | Title                              |
+| 表 | 标题 |
 |-------|------------------------------------|
-| 11    | Construction Entities by Function  |
-| 12    | Construction Entities by Form      |
-| 13    | Spaces by Function                 |
-| 14    | Spaces by Form                     |
-| 21    | Elements (per UNIFORMAT)           |
-| 22    | Work Results (per MasterFormat)    |
-| 23    | Products                           |
-| 31    | Phases                             |
-| 32    | Services                           |
-| 33    | Disciplines                        |
-| 34    | Organizational Roles               |
-| 35    | Tools                              |
-| 36    | Information                        |
-| 41    | Materials                          |
-| 49    | Properties                         |
+| 11    | 按功能划分的施工实体  |
+| 12    | 按形式划分的施工实体      |
+| 13    | 按功能划分的空间                 |
+| 14    | 按形式划分的空间                     |
+| 21    | 构件（按 UNIFORMAT）           |
+| 22    | 工作成果（按 MasterFormat）    |
+| 23    | 产品                           |
+| 31    | 阶段                             |
+| 32    | 服务                           |
+| 33    | 专业                           |
+| 34    | 组织角色               |
+| 35    | 工具                              |
+| 36    | 信息                        |
+| 41    | 材料                          |
+| 49    | 性能属性                         |
 
 ---
 
@@ -312,8 +295,8 @@ Performance specifications are appropriate when:
 
 ### 5.2 Structure of a Performance Specification
 
-**Step 1: Define the performance requirement**
-State what the product or system must achieve, not how to achieve it.
+**步骤 1：定义性能要求**
+说明产品或系统必须达到的目标，而不是规定实现方式。
 
 ```
 Example: "Exterior wall system shall achieve a thermal transmittance
@@ -321,16 +304,16 @@ Example: "Exterior wall system shall achieve a thermal transmittance
 ISO 6946."
 ```
 
-**Step 2: Reference testing standards**
-Cite the standard that defines how performance is measured.
+**步骤 2：引用测试标准**
+引用规定性能测量方法的标准。
 
 ```
 Example: "Acoustic performance: Minimum weighted sound reduction index
 (Rw) of 55 dB when tested in accordance with ISO 10140."
 ```
 
-**Step 3: Define acceptance criteria**
-Specify the threshold values and how compliance is demonstrated.
+**步骤 3：定义验收标准**
+规定阈值以及证明符合要求的方式。
 
 ```
 Example: "Submit independent laboratory test reports from an
@@ -338,8 +321,8 @@ ISO 17025 accredited laboratory demonstrating compliance with
 specified performance values."
 ```
 
-**Step 4: Specify quality assurance**
-Define installer qualifications, mock-ups, and field testing.
+**步骤 4：规定质量保证**
+明确安装人员资质、样板和现场测试要求。
 
 ```
 Example: "Installer shall have minimum 5 years experience with
@@ -349,7 +332,7 @@ completed projects."
 
 ### 5.3 Performance Specification Examples
 
-**Curtain Wall System:**
+**幕墙系统：**
 ```
 Performance Requirements:
 - Air infiltration: Maximum 0.06 cfm/ft2 at 6.24 psf (ASTM E283)
@@ -361,7 +344,7 @@ Performance Requirements:
 - Deflection: L/175 maximum at design wind load
 ```
 
-**Flooring System:**
+**地面系统：**
 ```
 Performance Requirements:
 - Slip resistance: Minimum dynamic coefficient of friction 0.42
@@ -372,14 +355,14 @@ Performance Requirements:
 - Water absorption: Maximum 0.5% (ISO 10545-3)
 ```
 
-### 5.4 Common Pitfalls in Performance Specifications
+### 5.4 性能规范中的常见问题
 
-- Specifying performance values that only one product can achieve
+- 规定只有一个产品能够达到的性能值
   (effectively proprietary)
-- Omitting the test standard (values meaningless without test method)
-- Conflicting performance requirements
-- Failing to specify field verification methods
-- Over-specifying (requiring laboratory performance in field conditions)
+- 省略测试标准（没有测试方法，数值没有意义）
+- 性能要求相互冲突
+- 未规定现场验证方法
+- 过度规定（要求现场条件达到实验室性能）
 
 ---
 
@@ -388,27 +371,27 @@ Performance Requirements:
 ### 6.1 LEED Material Credit Documentation
 
 Specifications play a critical role in documenting LEED compliance.
-Key specification requirements by credit:
+按学分划分的规格编写关键要求：
 
-**MR Credit: Building Product Disclosure and Optimization**
-- Environmental Product Declarations (EPDs): Specify products with
+**MR 学分：建筑产品披露与优化**
+- 环境产品声明（EPD）：规定采用第三方验证 EPD 的产品
   third-party verified EPDs (ISO 14025, EN 15804)
-- Sourcing of Raw Materials: Specify products with responsible extraction
+- 原材料来源：规定具有负责任开采认证的产品
   certifications (FSC for wood, recycled content documentation)
-- Material Ingredients: Specify products with Health Product Declarations
+- 材料成分：规定具有健康产品声明
   (HPDs) or Cradle to Cradle certification
 
-**EQ Credit: Low-Emitting Materials**
-- Paints and coatings: VOC limits per SCAQMD Rule 1113 or GreenSeal GS-11
-- Adhesives and sealants: VOC limits per SCAQMD Rule 1168
-- Flooring: FloorScore or GreenLabel Plus certified
-- Composite wood: CARB Phase 2 compliant (no added urea-formaldehyde)
-- Ceiling and wall systems: GREENGUARD Gold certified
+**EQ 学分：低排放材料**
+- 涂料和涂层：按 SCAQMD Rule 1113 或 GreenSeal GS-11 控制 VOC 限值
+- 胶粘剂和密封剂：按 SCAQMD Rule 1168 控制 VOC 限值
+- 地面材料：取得 FloorScore 或 GreenLabel Plus 认证
+- 木质复合材料：符合 CARB Phase 2（不得添加尿素甲醛）
+- 吊顶和墙体系统：取得 GREENGUARD Gold 认证
 
-**EA Credit: Optimize Energy Performance**
-- Specify envelope assemblies meeting or exceeding energy code
-- Include commissioning requirements in Division 01 and relevant divisions
-- Specify high-efficiency mechanical equipment with minimum COP/EER values
+**EA 学分：优化能源性能**
+- 规定满足或超过能源规范的围护结构组件
+- 在 Division 01 及相关分部中纳入调试要求
+- 规定高效机电设备及其最低 COP/EER 值
 
 ### 6.2 Specification Clauses for Sustainability
 

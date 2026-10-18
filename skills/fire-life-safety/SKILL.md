@@ -1,128 +1,94 @@
 ---
 name: fire-life-safety
 description: >
-  Comprehensive fire and life safety design expertise covering fire strategy
-  development, compartmentation and fire barrier design, means of egress design
-  including travel distances and stair sizing, fire resistance ratings and
-  structural fire protection methods, smoke control systems (natural and mechanical),
-  active fire protection systems (sprinklers, detection, alarm, emergency lighting),
-  fire door specifications, and fire strategy coordination between architect and
-  fire engineer.
+  全面的消防与生命安全设计专业知识，涵盖消防策略制定、防火分区与防火隔断设计、
+  疏散路径设计（包括疏散距离和楼梯尺寸）、耐火等级与结构防火方法、排烟系统（自然与机械）、
+  主动消防系统（喷淋、探测、报警、应急照明）、防火门规格，以及建筑师与消防工程师之间的消防策略协调。
 ---
 
-# Fire and Life Safety Design
+# 消防与生命安全设计
 
-This skill provides practitioner-grade knowledge of fire and life safety design
-for architectural practice. It covers the architect's role in fire strategy,
-compartmentation, egress design, structural fire protection, smoke control, and
-active fire protection systems. All dimensional values are metric with imperial
-equivalents where standard practice requires.
+本技能为建筑实践提供可直接应用的消防与生命安全设计知识，涵盖建筑师在消防策略、防火分区、
+疏散设计、结构防火、排烟及主动消防系统中的职责。所有尺寸均采用公制；在行业惯例要求时提供英制等值。
 
 ---
 
-## Section 1: Fire Strategy Development
+## 第 1 节：消防策略制定
 
-### The Architect's Role
+### 建筑师的职责
 
-The architect is the primary coordinator of fire strategy in building design.
-While fire engineers provide specialist analysis (computational fire modeling,
-structural fire engineering, smoke control design), the architect is responsible
-for integrating fire safety into the architectural concept from the earliest
-design stage.
+建筑师是建筑设计中消防策略的主要协调者。消防工程师负责专业分析（计算消防模拟、结构消防工程、排烟设计），
+但建筑师负责从最早的设计阶段起，将消防安全整合进建筑概念。
 
-Fire safety is not an add-on. Buildings that treat fire protection as an
-afterthought suffer from: compromised spatial quality (corridors widened at
-the expense of usable space), increased cost (fire-rated construction added
-where it could have been avoided by better planning), and occupant risk
-(egress paths that are long, confusing, or difficult to maintain).
+消防安全不是事后附加项。将防火保护当作事后补救的建筑会面临：空间品质受损（以牺牲可用面积为代价加宽走廊）、
+成本增加（本可通过更好规划避免、却不得不后加的耐火构造），以及人员风险（疏散路径过长、令人困惑或难以维护）。
 
-### Fire Safety Objectives
+### 消防安全目标
 
-1. **Life safety:** Ensure all occupants can evacuate or reach a place of
-   safety before conditions become untenable. This is the primary objective
-   and is non-negotiable.
+1. **生命安全：**确保所有人员能在环境变得不可生存前疏散或到达安全地点。这是首要目标，不可妥协。
 
-2. **Property protection:** Limit fire damage to the area of origin or
-   a defined compartment. Relevant for insurance, business continuity,
-   and heritage buildings.
+2. **财产保护：**将火灾损害限制在起火区域或定义的防火分区内。对保险、业务连续性和历史建筑尤为重要。
 
-3. **Business continuity:** Design systems to minimize downtime after a fire
-   event. Particularly important for: hospitals (defend-in-place), data centers,
-   manufacturing, and critical infrastructure.
+3. **业务连续性：**设计系统以尽量减少火灾事件后的停运时间。对医院（就地防御）、数据中心、制造业和关键基础设施尤其重要。
 
-4. **Environmental protection:** Prevent fire-related contamination of soil,
-   water, and air. Relevant for: chemical storage, waste facilities, sites
-   near waterways.
+4. **环境保护：**防止火灾造成土壤、水体和空气污染。适用于化学品储存、废物设施及临近水道的场地。
 
-5. **Firefighter safety:** Provide safe access for fire service operations.
-   Firefighting shafts, wet/dry risers, fire command centers, adequate water
-   supply.
+5. **消防员安全：**为消防作业提供安全通道，包括消防电梯井、湿式/干式立管、消防控制中心和充足的供水。
 
-### Prescriptive vs Performance-Based Approach
+### 规范性方法与性能化方法
 
-**Prescriptive approach:**
-- Follow code provisions directly (IBC, Approved Document B, NBC, etc.)
-- Advantages: straightforward, well-understood, defensible
-- Limitations: may be overly conservative, may not address novel building
-  configurations, does not account for specific building use patterns
+**规范性方法：**
+- 直接遵循规范条文（IBC、Approved Document B、NBC 等）。
+- 优点：直接、易理解、易于论证。
+- 局限：可能过于保守，可能无法处理新型建筑构型，也不考虑建筑的具体使用模式。
 
-**Performance-based approach:**
-- Establish fire safety objectives, define design fire scenarios, demonstrate
-  through engineering analysis that objectives are met
-- Methods: computational fire modeling (FDS, CFAST), evacuation modeling
-  (Pathfinder, STEPS, Simulex), structural fire analysis (FEA with fire
-  curves), smoke control analysis (CFD)
-- Advantages: can optimize design, accommodate complex geometries, provide
-  a more accurate risk assessment
-- Limitations: requires specialist fire engineer, peer review, AHJ acceptance
+**性能化方法：**
+- 建立消防安全目标，定义设计火灾场景，并通过工程分析证明目标得到满足。
+- 方法：计算消防模拟（FDS、CFAST）、疏散模拟（Pathfinder、STEPS、Simulex）、结构抗火分析（采用火灾曲线的 FEA）和排烟分析（CFD）。
+- 优点：可优化设计、适应复杂几何形态，并提供更准确的风险评估。
+- 局限：需要专业消防工程师、同行评审和 AHJ 接受。
 
-**Hybrid approach (most common):**
-- Follow prescriptive code for most provisions
-- Use performance-based analysis for specific challenges: atrium smoke control,
-  travel distance extensions, reduced fire resistance periods, alternative
-  egress strategies
+**混合方法（最常见）：**
+- 大多数规定遵循规范性条文。
+- 对特定难题采用性能化分析，例如中庭排烟、疏散距离延长、降低耐火时限以及替代性疏散策略。
 
-### Fire Strategy Report Content
+### 消防策略报告内容
 
-A fire strategy report (also called fire safety strategy, fire engineering
-report, or basis of fire safety design) should include:
+A fire strategy report（也称 fire safety strategy、fire engineering report 或 basis of fire safety design）应包括：
 
-1. Building description: use, occupancy, construction, geometry
-2. Applicable codes and standards
-3. Design fire scenarios (size, location, growth rate)
-4. Compartmentation strategy and fire resistance schedule
-5. Means of escape: travel distances, exit widths, evacuation strategy
-6. Fire detection and alarm design
-7. Sprinkler/suppression system scope
-8. Smoke control strategy
-9. Structural fire protection specification
-10. Fire service access and facilities
-11. Building management fire safety provisions
-12. Drawings: compartmentation plans, egress plans, fire service access plans
+1. 建筑说明：用途、使用人数、构造和几何形态
+2. 适用的规范与标准
+3. 设计火灾场景（规模、位置、增长速率）
+4. 防火分区策略与耐火等级表
+5. 疏散方式：疏散距离、出口宽度、疏散策略
+6. 火灾探测与报警设计
+7. 喷淋/灭火系统范围
+8. 排烟策略
+9. 结构防火规格
+10. 消防通道与设施
+11. 建筑管理消防安全规定
+12. 图纸：防火分区平面图、疏散平面图、消防通道平面图
 
 ---
 
-## Section 2: Compartmentation
+## 第 2 节：防火分区
 
-### Purpose
+### 目的
 
-Fire compartmentation divides a building into distinct zones that contain
-fire and smoke for a defined period, allowing occupants to evacuate, limiting
-property damage, and providing safe zones for defend-in-place strategies.
+防火分区将建筑划分为能够在规定时间内控制火灾和烟气的独立区域，使人员得以疏散、限制财产损失，
+并为就地防御策略提供安全区域。
 
-### Compartment Sizing
+### 分区规模
 
-**IBC (US):**
-- No explicit maximum compartment size for most occupancies (controlled by
-  construction type and area per floor)
-- I-2 smoke compartments: max 2090 m² (22,500 ft²) per smoke compartment
-  per IBC 407.5.1
-- I-3 smoke compartments: max 2090 m² (22,500 ft²) per IBC 408.6
+**IBC（美国）：**
+- 对大多数使用类别没有明确的最大分区面积（由构造类型和每层面积控制）。
+- I-2 烟气分区：依据 IBC 407.5.1，每个烟气分区最大 2090 m²（22,500 ft²）。
+- I-3 烟气分区：依据 IBC 408.6，每个烟气分区最大 2090 m²（22,500 ft²）。
 
-**BS 9999 (UK):**
-Maximum compartment sizes by risk profile:
+**BS 9999（英国）：**
+按风险等级划分的最大分区规模：
 
-| Risk Profile | Max Compartment Floor Area | Max Dimension |
+| 风险等级 | 分区最大楼面面积 | 最大尺寸 |
 |--------------|---------------------------|---------------|
 | A1 (low risk) | 8,000 m² | No limit |
 | A2 | 4,000 m² | No limit |
@@ -132,10 +98,10 @@ Maximum compartment sizes by risk profile:
 | C2 | 1,000 m² | No limit |
 | C3 (high dependency) | 1,000 m² | No limit |
 
-**Approved Document B (England & Wales):**
-Maximum compartment sizes by purpose group:
+**Approved Document B（英格兰和威尔士）：**
+按用途组划分的最大分区规模：
 
-| Purpose Group | Height < 18 m | Height >= 18 m |
+| 用途组 | 高度 < 18 m | 高度 >= 18 m |
 |----------------------|---------------|----------------|
 | Residential (flats) | No limit* | No limit* |
 | Office | 2,000 m² | 2,000 m² |
@@ -144,162 +110,135 @@ Maximum compartment sizes by purpose group:
 | Industrial | 2,000 m² | 2,000 m² |
 | Storage | 1,000 m² | 1,000 m² |
 
-(*Flats: each dwelling is a compartment; common corridor/stair protected)
+（*公寓：每个住宅单元为一个分区；公共走廊/楼梯受保护）
 
-### Fire-Rated Construction Types
+### 耐火构造类型
 
-**Fire Barrier (IBC 707):**
-- Continuous from floor slab to underside of floor or roof slab above
-  (deck, not ceiling)
-- Used for: occupancy separation, exit enclosures, shaft enclosures,
-  horizontal exits
-- Supports: must be supported by construction with equal or greater FRR
-- Continuity: all joints, penetrations, and openings must be protected
+**防火隔断（IBC 707）：**
+- 从楼板连续延伸至上方楼板或屋面板底面（结构板，不是吊顶）。
+- 用途：使用类别分隔、出口封闭楼梯间、竖井封闭和水平出口。
+- 支承：必须由耐火等级相同或更高的构造支承。
+- 连续性：所有接缝、穿透部位和开口均必须受到保护。
 
-**Fire Partition (IBC 708):**
-- May terminate at underside of a fire-rated floor/ceiling or roof/ceiling
-  assembly
-- Used for: dwelling unit separation, sleeping unit separation, corridor walls
-- Less stringent than fire barrier (can stop at ceiling if ceiling is rated)
+**防火分隔墙（IBC 708）：**
+- 可终止于耐火楼板/吊顶或屋面/吊顶组件的底面。
+- 用途：住宅单元分隔、睡眠单元分隔和走廊墙。
+- 要求低于防火隔断（若吊顶有耐火等级，可在吊顶处终止）。
 
-**Fire Wall (IBC 706):**
-- Structurally independent (remains standing if structure on either side
-  collapses)
-- Extends from foundation to roof (through roof unless roof is fire-rated)
-- Creates separate buildings for code purposes
-- Rating: 2 hr (A, B, E, F-2, M, R, S-2, U), 3 hr (F-1, H-3/4/5, S-1),
-  4 hr (H-1, H-2)
+**防火墙（IBC 706）：**
+- 结构独立（即使两侧结构坍塌仍保持站立）。
+- 从基础延伸至屋面（除非屋面具有耐火等级，否则穿出屋面）。
+- 按规范用途形成彼此独立的建筑。
+- 耐火等级：2 小时（A、B、E、F-2、M、R、S-2、U），3 小时（F-1、H-3/4/5、S-1），4 小时（H-1、H-2）。
 
-**Smoke Barrier (IBC 709):**
-- Continuous membrane from floor to floor, outside wall to outside wall
-- Smoke-tight construction with smoke dampers at duct penetrations
-- 1-hour minimum fire resistance
-- Used for: I-2 smoke compartments, I-3 smoke compartments, ambulatory
-  care smoke compartments
+**挡烟垂壁/挡烟隔断（IBC 709）：**
+- 从楼板至楼板、从外墙至外墙连续设置。
+- 采用严密防烟构造，风管穿透处设置防烟阀。
+- 最低耐火时间为 1 小时。
+- 用途：I-2 烟气分区、I-3 烟气分区和门诊护理烟气分区。
 
-### Fire Door Ratings
+### 防火门耐火等级
 
-**IBC/UL system (US):**
+**IBC/UL 体系（美国）：**
 
-| Application | Door Rating | Wall Rating |
+| 使用场景 | 门耐火等级 | 墙耐火等级 |
 |--------------------------------------|-------------|-------------|
-| Fire wall opening | 3 hr | 4 hr |
-| Fire wall opening | 1.5 hr | 2 hr |
-| Fire barrier -- exit enclosure | 1.5 hr | 2 hr |
-| Fire barrier -- exit enclosure | 1 hr | 1 hr |
-| Fire barrier -- occupancy separation | 1.5 hr | 2 hr |
-| Fire barrier -- occupancy separation | 0.75 hr | 1 hr |
-| Fire partition -- corridor | 0.33 hr | 0.5 hr |
-| Fire partition -- corridor | 0.33 hr | 1 hr |
-| Smoke barrier | 0.33 hr | 1 hr |
+| 防火墙开口 | 3 hr | 4 hr |
+| 防火墙开口 | 1.5 hr | 2 hr |
+| 防火隔墙——出口封闭 | 1.5 hr | 2 hr |
+| 防火隔墙——出口封闭 | 1 hr | 1 hr |
+| 防火隔墙——使用类别分隔 | 1.5 hr | 2 hr |
+| 防火隔墙——使用类别分隔 | 0.75 hr | 1 hr |
+| 防火分隔——走廊 | 0.33 hr | 0.5 hr |
+| 防火分隔——走廊 | 0.33 hr | 1 hr |
+| 防烟分隔 | 0.33 hr | 1 hr |
 
-**British Standard / European system:**
+**英国标准/欧洲体系：**
 
-| Designation | Integrity (min) | Insulation (min) | Typical Use |
+| 标识 | 完整性（分钟） | 隔热性（分钟） | 典型用途 |
 |-------------|-----------------|-------------------|--------------------------|
-| FD30 | 30 | -- | Corridor doors, flat entrance doors |
-| FD30S | 30 + smoke | -- | Corridor doors (with smoke seal) |
+| FD30 | 30 | -- | 走廊门、公寓入口门 |
+| FD30S | 30 + 防烟 | -- | 走廊门（带防烟密封） |
 | FD60 | 60 | -- | Stairway doors, compartment walls |
 | FD60S | 60 + smoke | -- | Protected lobby doors |
 | FD90 | 90 | -- | High-risk areas |
 | FD120 | 120 | -- | Special applications |
 | FD30/FD60 + insulation | 30/60 | 30/60 | Where insulation criterion is needed |
 
-### Fire Door Furniture and Ironmongery
+### 防火门五金
 
-- Self-closing device: overhead closer (EN 1154 / UL 228) mandatory on
-  all fire doors; min closing force per accessibility requirements
-- Intumescent strips: 10 mm x 4 mm or 15 mm x 4 mm strips in rebate or
-  door edge; expand at 150-200°C to seal gap between door and frame
-- Smoke seals (cold smoke): flexible blade or brush seal at head and jambs;
-  required for FD__S designations and IBC smoke doors
-- Hinges: steel butt hinges, minimum 3 per door leaf; no rising butts on
-  fire doors
-- Locks and latches: must not compromise fire rating; typically tested as
-  part of fire door assembly
-- Hold-open devices: electromagnetic hold-open connected to fire alarm;
-  releases on alarm or power failure; door closer then closes door
-- Panic hardware: fire-rated panic bar or touchpad (IBC requires on assembly
-  and educational exit doors for occupant loads > 50)
+- 自动闭门器：所有防火门必须设置顶置闭门器（EN 1154 / UL 228）；最小闭合力应符合无障碍要求。
+- 膨胀型密封条：在门框槽口或门扇边缘设置 10 mm x 4 mm 或 15 mm x 4 mm 密封条；在 150–200°C 时膨胀，封闭门扇与门框之间的缝隙。
+- 防烟密封条（冷烟）：在门头和门框竖边设置柔性片状或刷状密封条；FD__S 标识及 IBC 防烟门必须采用。
+- 合页：钢制平合页，每个门扇至少 3 个；防火门不得使用上升式合页。
+- 锁与插销：不得削弱耐火等级，通常作为防火门组件的一部分进行测试。
+- 保持开启装置：与火灾报警系统连接的电磁保持开启装置；报警或断电时释放，闭门器随后关闭门扇。
+- 防恐慌五金：耐火防恐慌推杆或触压板（IBC 要求使用人数超过 50 的集会和教育建筑出口门设置）。
 
-### Glazed Fire Barriers
+### 防火玻璃隔断
 
-Types of fire-rated glass:
+防火玻璃类型：
 
-| Type | Integrity | Insulation | Max Rating | Applications |
+| 类型 | 完整性 | 隔热性 | 最大耐火时间 | 应用 |
 |------|-----------|------------|------------|------------------------------|
-| Wired glass (6 mm) | Yes | No | 60-90 min | Obsolete in many jurisdictions; limited to small vision panels |
-| Borosilicate glass | Yes | No | 60-120 min | Fire-rated vision panels, limited area |
-| Ceramic glass | Yes | No | 60-180 min | Fire screens, spandrel panels, large panels |
-| Intumescent gel glass | Yes | Yes | 30-120 min | Full fire barriers, corridor walls, lobby screens |
+| 夹丝玻璃（6 mm） | 是 | 否 | 60-90 min | 许多辖区已淘汰；仅限小面积观察窗 |
+| 硼硅玻璃 | 是 | 否 | 60-120 min | 防火观察窗，面积受限 |
+| 陶瓷玻璃 | 是 | 否 | 60-180 min | 防火屏、窗槛墙板、大型板材 |
+| 膨胀型凝胶玻璃 | 是 | 是 | 30-120 min | 完整防火隔断、走廊墙、门厅屏风 |
 
-- Integrity-only glass prevents flame and hot gas passage but radiates heat.
-  Maximum area limited to prevent radiant heat exposure on escape routes.
-- Insulating glass (intumescent gel between layers) blocks both flame and
-  radiant heat. Can be used for full fire barriers including in escape routes.
+- 仅具完整性的玻璃可阻止火焰和热烟气通过，但会产生热辐射。为防止疏散路径受到辐射热影响，其最大面积受到限制。
+- 隔热玻璃（层间填充膨胀型凝胶）同时阻挡火焰和辐射热，可用于包括疏散路径在内的完整防火隔断。
 
-### Firestopping (Penetration Seals)
+### 防火封堵（穿透部位密封）
 
-Every penetration through a fire-rated assembly must be sealed with a
-listed firestop system:
+所有穿过耐火构造的穿透部位都必须采用列名的防火封堵系统进行密封：
 
-- **Pipe penetrations:** intumescent pipe collars (combustible pipes --
-  PVC, PE, PP); mineral wool + intumescent sealant (metal pipes with
-  insulation)
-- **Cable penetrations:** intumescent block, putty, or pillows; cable
-  transit frames for large cable bundles
-- **Duct penetrations:** fire damper (integrity only) or fire/smoke damper
-  (integrity + smoke sealing); rated to match wall rating
-- **Structural joints:** fire-rated joint sealant (silicone or intumescent)
-  with mineral wool backing
+- **管道穿透：**膨胀型管道防火套环（可燃管道——PVC、PE、PP）；带保温层的金属管道采用岩棉加膨胀型密封胶。
+- **电缆穿透：**膨胀型封堵块、腻子或封堵枕；大型电缆束采用电缆穿越框架。
+- **风管穿透：**防火阀（仅保证完整性）或防火防烟阀（完整性加防烟密封）；耐火等级应与墙体匹配。
+- **结构接缝：**耐火接缝密封胶（硅酮或膨胀型）并设置岩棉背衬。
 
-**Cavity barriers:**
-- Required in concealed spaces (above ceilings, within walls) to prevent
-  unseen fire spread
-- Maximum distance between cavity barriers: 20 m in any direction (ADB);
-  IBC Section 718 requires draft stopping in floor/ceiling spaces of
-  combustible construction at max 280 m² (3,000 ft²)
-- At compartment wall/floor junctions extending into concealed spaces
+**空腔隔断：**
+- 隐蔽空间（吊顶上方、墙体内部）必须设置，以防止火灾在不可见区域蔓延。
+- 空腔隔断间任一方向的最大间距为 20 m（ADB）；IBC 第 718 节要求可燃构造的楼板/吊顶空间设置挡烟分隔，最大面积为 280 m²（3,000 ft²）。
+- 在延伸至隐蔽空间的防火分隔墙/楼板交接处设置。
 
 ---
 
-## Section 3: Means of Egress Design
+## 第 3 节：疏散路径设计
 
-### Number of Escape Stairs
+### 疏散楼梯数量
 
-**IBC (US):**
-- Based on occupancy, travel distance, and floor area
-- Minimum 2 exits from each floor (with single-exit exceptions per
-  Table 1006.2.1 for small, low-hazard spaces)
-- 3 exits for 501-1,000 occupants per floor; 4 exits for > 1,000
+**IBC（美国）：**
+- 根据使用类别、疏散距离和楼层面积确定。
+- 每层至少 2 个出口（小型、低危险空间可按表 1006.2.1 适用单出口例外）。
+- 每层 501–1,000 人时设置 3 个出口；超过 1,000 人时设置 4 个出口。
 
-**BS 9999 / Approved Document B (UK):**
-- Single stair permitted for buildings up to 11 m (ADB) in certain
-  occupancies with limited floor area and travel distance
-- Number of stairs based on maximum travel distance from any point to
-  nearest stair AND stair capacity calculation
+**BS 9999 / Approved Document B（英国）：**
+- 对部分使用类别，在楼面面积和疏散距离受限的情况下，高度不超过 11 m 的建筑可采用单部楼梯（ADB）。
+- 楼梯数量根据任一点至最近楼梯的最大疏散距离以及楼梯疏散能力计算确定。
 
-### Travel Distances -- International Comparison
+### 疏散距离——国际比较
 
-**IBC (US), sprinklered:**
+**IBC（美国），设置喷淋：**
 
-| Occupancy | One Direction | Any Direction |
+| 使用类别 | 单一方向 | 任意方向 |
 |-----------|---------------|---------------|
 | A | -- | 76 m (250 ft) |
 | B | -- | 91 m (300 ft) |
 | R | -- | 76 m (250 ft) |
 | S-2 | -- | 122 m (400 ft) |
 
-**BS 9999 (UK), Risk Profile B1 (office, normal risk):**
+**BS 9999（英国），B1 风险等级（办公室，正常风险）：**
 
-| Escape Routes | One Direction Only | More Than One Direction |
+| 疏散路线 | 仅一个方向 | 多个方向 |
 |---------------|--------------------|-----------------------|
-| Unsprinklered | 18 m | 45 m |
-| Sprinklered | 27 m | 60 m |
+| 无喷淋 | 18 m | 45 m |
+| 有喷淋 | 27 m | 60 m |
 
-**Approved Document B (England & Wales):**
+**Approved Document B（英格兰和威尔士）：**
 
-| Purpose Group | One Direction | More Than One Direction |
+| 用途组 | 一个方向 | 多个方向 |
 |----------------------|---------------|----------------------|
 | Office (2b) | 18 m | 45 m |
 | Shop (4) | 18 m | 45 m |
@@ -308,145 +247,111 @@ listed firestop system:
 | Industrial (6) | 25 m | 45 m |
 | Storage (7a) | 25 m | 45 m |
 
-**Comparison note:** UK travel distances are significantly shorter than IBC
-because the UK does not generally mandate sprinklers in the same way as the
-IBC (sprinkler credit is a specific extension of the base distance, not a
-near-universal requirement). When sprinklers are provided, UK distances
-increase but still remain shorter than IBC.
+**比较说明：**英国的疏散距离明显短于 IBC，因为英国通常不像 IBC 那样普遍强制设置喷淋（喷淋折减是对基础距离的特定延长，
+而非近乎普遍的要求）。设置喷淋后，英国允许的距离会增加，但仍短于 IBC。
 
-### Stair Width Calculation
+### 楼梯宽度计算
 
-**IBC method:**
-- 7.6 mm (0.3 in) per occupant for stairways
-- 5.1 mm (0.2 in) per occupant for other egress components
-- Minimum stair width: 1118 mm (44 in) for 50+ occupants; 914 mm (36 in)
-  for < 50 occupants
+**IBC 方法：**
+- 楼梯按每名人员 7.6 mm（0.3 in）计算。
+- 其他疏散构件按每名人员 5.1 mm（0.2 in）计算。
+- 楼梯最小宽度：人员数不少于 50 人时为 1118 mm（44 in）；少于 50 人时为 914 mm（36 in）。
 
-**BS 9999 / ADB method:**
-- Stair width based on number of persons per floor and number of floors
-  served
-- ADB Table 5: for simultaneous evacuation, stair width accommodates total
-  population minus ground floor
-- BS 9999 Table 13: discharge rates per unit width (0.6 m per person per
-  minute on stairs at 1100 mm width)
+**BS 9999 / ADB 方法：**
+- 楼梯宽度根据每层人数和服务楼层数确定。
+- ADB 表 5：同时疏散时，楼梯宽度应容纳总人数扣除首层人数后的数量。
+- BS 9999 表 13：按单位宽度的疏散率计算（楼梯宽度 1100 mm 时，每分钟每 0.6 m 宽度 1 人）。
 
 **Minimum stair widths:**
 
-| Standard | Minimum Width |
+| 标准 | 最小宽度 |
 |----------|---------------|
-| IBC (general) | 1118 mm (44 in) |
-| IBC (< 50 occupants) | 914 mm (36 in) |
-| ADB / BS 9999 | 1050 mm (between walls, up to 150 persons/floor) |
-| ADB / BS 9999 | 1100 mm (151-200 persons/floor) |
-| DIN 18065 (Germany) | 1000 mm (residential); 1200 mm (public) |
+| IBC（一般） | 1118 mm (44 in) |
+| IBC（< 50 人） | 914 mm (36 in) |
+| ADB / BS 9999 | 1050 mm（墙体之间，每层最多 150 人） |
+| ADB / BS 9999 | 1100 mm（每层 151-200 人） |
+| DIN 18065（德国） | 1000 mm（住宅）；1200 mm（公共建筑） |
 
-### Protected Stairways
+### 受保护楼梯间
 
-Escape stairs must be enclosed in fire-rated construction to protect
-occupants during evacuation:
+疏散楼梯必须采用耐火构造封闭，以在疏散期间保护人员：
 
-- **IBC exit stairway enclosure (Section 1023):**
-  - 1-hour enclosure for 4 or fewer stories connected
-  - 2-hour enclosure for more than 4 stories connected
-  - Opening protectives: 1-hour doors for 2-hour enclosure; 0.75-hour
-    or 1-hour doors for 1-hour enclosure
+- **IBC 出口楼梯间封闭（第 1023 节）：**
+  - 连接 4 层或更少楼层时，封闭构造耐火 1 小时。
+  - 连接超过 4 层时，封闭构造耐火 2 小时。
+  - 开口防护：2 小时封闭构造采用 1 小时防火门；1 小时封闭构造采用 0.75 小时或 1 小时防火门。
 
-- **ADB protected stairway:**
-  - Walls: fire resistance equal to building's fire resistance period
-    (30-120 min depending on height)
-  - Doors: FD30S minimum (self-closing, smoke-sealed)
-  - Ventilation: 1.0 m² natural ventilator at top of stair (or mechanical
-    pressurization) for buildings > 18 m
+- **ADB 受保护楼梯间：**
+  - 墙体：耐火时间等于建筑要求的耐火时间（根据高度为 30–120 分钟）。
+  - 门：最低 FD30S（自动关闭、防烟密封）。
+  - 通风：高度超过 18 m 的建筑，楼梯顶部设置 1.0 m² 自然排烟窗（或采用机械加压）。
 
-### Firefighting Shafts
+### 消防竖井
 
-Required in buildings > 18 m height (UK) or > 23 m / 75 ft (IBC high-rise):
+高度超过 18 m（英国）或超过 23 m / 75 ft（IBC 高层建筑）的建筑必须设置：
 
-- **Fire service elevator (fire lift):** min 1100 x 1400 mm cab (UK BS EN 81-72);
-  primary power + secondary (generator) power; waterproof elevator pit and
-  landing; controls override to fire service operation
-- **Firefighting lobby:** min 5 m² (UK); fire-rated enclosure at every floor
-  (2-hour walls, FD60S doors); contains dry/wet riser outlet
-- **Dry riser:** 100 mm diameter rising main with inlet at ground level and
-  outlets at every floor; buildings 18-60 m height (UK). Fire service connects
-  pumping appliance at ground level.
-- **Wet riser:** permanently charged pressurized system; buildings > 60 m (UK)
-  or per IBC standpipe requirements (Class I in high-rise exit stairways)
+- **消防电梯（fire lift）：**轿厢最小 1100 x 1400 mm（英国 BS EN 81-72）；设置主电源和备用（发电机）电源；电梯底坑和层站防水；控制系统可切换至消防运行模式。
+- **消防前室：**英国最小 5 m²；每层设置耐火封闭（2 小时墙体、FD60S 防火门）；内设干式/湿式立管接口。
+- **干式立管：**直径 100 mm 的立管，首层设进水口、每层设出水口；适用于高度 18–60 m 的建筑（英国）。消防部门在首层将消防泵车接入系统。
+- **湿式立管：**永久充水并加压的系统；适用于高度超过 60 m 的建筑（英国），或按 IBC 立管要求设置（高层出口楼梯间采用 I 类立管）。
 
-### Scissor Stairs
+### 剪刀楼梯
 
-Two interlocking stairs within a single structural shaft, separated by
-fire-rated construction:
+在一个结构竖井内设置两部相互交错的楼梯，并以耐火构造分隔：
 
-- Each stair is independently fire-rated (1 or 2 hr) from the other
-- Separate smoke lobbies at each level for each stair
-- Common in high-rise residential where site constraints prevent two
-  separate stair cores
-- IBC: scissor stairs are treated as separate exits only if each has
-  independent exit discharge and the separating construction meets exit
-  enclosure requirements
-- UK/BS 9999: accepted where demonstrated that failure of one stair does
-  not compromise the other
+- 每部楼梯均与另一部独立设置耐火等级（1 或 2 小时）。
+- 每层为每部楼梯分别设置防烟前室。
+- 常用于场地条件不允许设置两个独立楼梯核心筒的高层住宅。
+- IBC：只有当每部楼梯具有独立的出口排出路径，且分隔构造满足出口封闭要求时，剪刀楼梯才可视为独立出口。
+- 英国/BS 9999：证明一部楼梯失效不会影响另一部楼梯时可接受。
 
-### Disabled Refuge Areas
+### 残障人员避难区域
 
-Areas of temporary safety for persons unable to use stairs:
+为无法使用楼梯的人员提供临时安全的区域：
 
-- Location: at each floor landing of every escape stair (IBC Section 1009.3;
-  ADB Section 4)
-- Size: minimum 900 x 1400 mm (IBC: 760 x 1220 mm / 30 x 48 in clear
-  floor space) per wheelchair space; clear of stair discharge path
-- Communication: two-way intercom to fire command center / building
-  management (IBC Section 1009.8)
-- Number: one per stair per floor minimum; two per floor if > 200 occupants
-  on that floor
-- Not required in fully sprinklered buildings per IBC exception (occupants
-  use elevator for evacuation under emergency evacuation plan)
-- Signage: International Symbol of Accessibility + "Area of Rescue Assistance"
+- 位置：每部疏散楼梯的每层楼梯平台（IBC 第 1009.3 节；ADB 第 4 节）。
+- 尺寸：每个轮椅位置最小 900 x 1400 mm（IBC：760 x 1220 mm / 30 x 48 in 净地面空间）；不得占用楼梯排出路径。
+- 通信：通过双向对讲机连接消防控制中心/建筑管理处（IBC 第 1009.8 节）。
+- 数量：每部楼梯每层至少 1 个；该层人员超过 200 人时每层 2 个。
+- 完全设置喷淋的建筑可按 IBC 例外条款不设置（紧急疏散计划允许人员使用电梯疏散）。
+- 标识：无障碍国际通用标志 + “Area of Rescue Assistance”。
 
-### Evacuation Strategies
+### 疏散策略
 
-**Simultaneous evacuation:**
-- All occupants evacuate immediately upon alarm
-- Standard for most building types (office, retail, education)
-- Total evacuation time must be less than available safe egress time (ASET > RSET)
+**同时疏散：**
+- 报警后所有人员立即疏散。
+- 适用于大多数建筑类型（办公、零售、教育）。
+- 总疏散时间必须小于可用安全疏散时间（ASET > RSET）。
 
-**Phased evacuation:**
-- Fire floor and floor immediately above evacuate first
-- Remaining floors evacuate in sequence (above fire floor, then below)
-- Common in high-rise office buildings; requires voice/alarm communication system
-  with zoned messaging
-- Requires at minimum: sprinklers, smoke detection, compartmentation between
-  floors, voice alarm
+**分阶段疏散：**
+- 起火层和紧邻上层首先疏散。
+- 其余楼层按顺序疏散（先起火层以上，再起火层以下）。
+- 常用于高层办公建筑；需要配备分区广播信息的语音/报警通信系统。
+- 至少需要：喷淋、烟气探测、楼层之间的防火分区和语音报警。
 
-**Progressive horizontal evacuation:**
-- Occupants move horizontally through fire/smoke barriers to an adjacent
-  compartment on the same floor
-- Standard for I-2 (hospitals) and I-3 (detention) -- defend-in-place
-- Each smoke compartment must have capacity to hold its own occupants plus
-  occupants from one adjacent compartment
-- Smoke compartment max 2090 m² (22,500 ft²) per IBC 407.5.1
+**渐进式水平疏散：**
+- 人员通过防火/挡烟隔断水平移动至同层相邻分区。
+- I-2（医院）和 I-3（拘留设施）的标准策略——就地防御。
+- 每个烟气分区必须能够容纳本分区人员以及一个相邻分区转移来的人员。
+- 依据 IBC 407.5.1，烟气分区最大面积为 2090 m²（22,500 ft²）。
 
-**Stay-put (residential):**
-- UK residential strategy: occupants in flats not affected by fire remain
-  in their flats (each flat is a fire compartment)
-- Fire-affected flat occupants escape via protected corridor and stair
-- Requires: fire-rated flat entrance doors (FD30S), fire-rated corridor/lobby
-  walls, fire-rated stair enclosure, automatic detection in common areas
-- Post-Grenfell review: simultaneous evacuation capability being required
-  alongside stay-put as a backup (Building Safety Act 2022)
+**留守原位（住宅）：**
+- 英国住宅策略：未受火灾影响的公寓住户留在各自住宅内（每个公寓为一个防火分区）。
+- 受火灾影响的公寓住户通过受保护走廊和楼梯逃生。
+- 要求：耐火公寓入口门（FD30S）、耐火走廊/前室墙、耐火楼梯间，以及公共区域自动探测。
+- Grenfell 事件后的审查要求在“留守原位”策略之外，同时具备同时疏散能力作为备用方案（《Building Safety Act 2022》）。
 
 ---
 
-## Section 4: Structural Fire Protection
+## 第 4 节：结构防火
 
-### Fire Resistance Periods
+### 耐火时间
 
-**IBC Table 601 (see building-codes SKILL.md Section 2 for full table)**
+**IBC 表 601（完整表格见 building-codes SKILL.md 第 2 节）**
 
-**ADB / BS 9999 minimum fire resistance periods:**
+**ADB / BS 9999 最低耐火时间：**
 
-| Building Height | Residential | Non-residential |
+| 建筑高度 | 住宅 | 非住宅 |
 |-----------------|-------------|-----------------|
 | Up to 5 m | 30 min | 30 min |
 | Up to 11 m | 30 min | 60 min |
@@ -454,303 +359,233 @@ Areas of temporary safety for persons unable to use stairs:
 | Up to 30 m | 90 min | 90 min |
 | Over 30 m | 120 min | 120 min |
 
-### Protection Methods
+### 防护方法
 
-**Concrete cover to reinforcement:**
-- Fire resistance achieved by minimum concrete cover over steel reinforcement
-- 20 mm cover: approximately 1 hour FRR (depends on member type, loading)
-- 25 mm cover: approximately 1.5 hours
-- 35 mm cover: approximately 2 hours
-- 50 mm cover: approximately 3-4 hours
-- Governed by Eurocode 2-1-2, ACI 216.1, or BS 8110 Part 2
+**钢筋混凝土保护层：**
+- 通过钢筋外侧的最小混凝土保护层实现耐火性能。
+- 20 mm 保护层：约 1 小时 FRR（取决于构件类型和荷载）。
+- 25 mm 保护层：约 1.5 小时。
+- 35 mm 保护层：约 2 小时。
+- 50 mm 保护层：约 3–4 小时。
+- 由 Eurocode 2-1-2、ACI 216.1 或 BS 8110 第 2 部分控制。
 
-**Intumescent coatings (thin-film for structural steel):**
-- Applied as paint-like coating (0.25-5 mm dry film thickness)
-- Expands 20-50 times original thickness at 200-250°C, forming insulating char
-- Fire ratings achievable: 30-120 minutes (up to 180 min for some products)
-- Advantages: thin profile preserves exposed steel aesthetic; can be applied
-  off-site or on-site
-- Limitations: requires controlled application conditions; some products
-  vulnerable to humidity; maintenance access needed for recoating (25-year
-  typical life)
-- Specification: dry film thickness (DFT) per fire rating, section factor
-  (Hp/A) of the steel member; higher Hp/A (thinner steel) requires thicker
-  coating
+**膨胀型涂层（结构钢薄膜涂层）：**
+- 以类似油漆的涂层施工（干膜厚度 0.25–5 mm）。
+- 在 200–250°C 时膨胀至原厚度的 20–50 倍，形成隔热炭层。
+- 可实现 30–120 分钟耐火等级（部分产品可达 180 分钟）。
+- 优点：薄型轮廓可保持裸露钢材的美观；可在工厂或现场施工。
+- 局限：需要受控施工条件；部分产品易受潮气影响；重涂需要维护通道（典型寿命 25 年）。
+- 规格：根据耐火等级确定干膜厚度（DFT）和钢构件截面因子（Hp/A）；Hp/A 越高（钢材越薄），所需涂层越厚。
 
-**Board encasement:**
-- Calcium silicate board (e.g., Promat): 15-60 mm thickness for 30-240 min FRR
-- Vermiculite/gypsum board: 12-50 mm thickness for 30-180 min FRR
-- Advantages: precise, consistent, factory-quality finish; can be installed
-  in any weather
-- Limitations: visible box profile around structural members; time-consuming
-  installation for complex geometries
+**板材包覆：**
+- 硅酸钙板（如 Promat）：厚度 15–60 mm，可实现 30–240 分钟 FRR。
+- 蛭石/石膏板：厚度 12–50 mm，可实现 30–180 分钟 FRR。
+- 优点：精确、一致、具备工厂质量的饰面；任何天气均可安装。
+- 局限：结构构件周围会形成可见的盒状轮廓；复杂几何形态安装耗时。
 
-**Spray-applied fire protection (SFRM):**
-- Cementitious (Portland cement + mineral aggregate): density 240-350 kg/m³
-- Mineral fibre (slag wool + cement binder): density 190-320 kg/m³
-- Typical thickness: 10-40 mm for 1-3 hours
-- Advantages: fastest application method, conforms to complex geometries,
-  lowest cost per hour of fire rating
-- Limitations: rough finish (must be concealed above ceilings), overspray
-  containment, cannot be applied below ~4°C, fragile if exposed
+**喷涂型防火保护（SFRM）：**
+- 水泥基材料（波特兰水泥 + 矿物骨料）：密度 240–350 kg/m³。
+- 矿物纤维（矿渣棉 + 水泥黏结剂）：密度 190–320 kg/m³。
+- 典型厚度：10–40 mm，可实现 1–3 小时耐火。
+- 优点：施工速度最快，适应复杂几何形态，每小时耐火时间的成本最低。
+- 局限：饰面粗糙（必须隐藏在吊顶上方）、需要控制过喷，约 4°C 以下不能施工，暴露时易损坏。
 
-**Concrete encasement (full):**
-- Steel members fully encased in concrete
-- Provides 2-4 hours FRR depending on cover thickness
-- Heavy, expensive, rarely used for fire protection alone in modern construction
-- Still common where structural composite action (steel-concrete) is desired
+**混凝土全包覆：**
+- 钢构件完全包覆在混凝土中。
+- 根据保护层厚度提供 2–4 小时 FRR。
+- 重量大、成本高，在现代建筑中很少单独用于防火保护。
+- 当需要钢—混凝土组合受力时仍较常见。
 
-### Mass Timber Fire Design
+### 大截面木结构耐火设计
 
-**Charring method (Eurocode 5-1-2 / NDS/AWC):**
-- Standard charring rate: 0.65 mm/min for softwood (spruce, pine, fir)
-- Charring rate for glulam/CLT: 0.65-0.70 mm/min
-- Zero-strength layer: 7 mm below char line (wood heated but not charred
-  has reduced strength)
-- Effective residual section = original section - char depth - zero-strength layer
+**炭化法（Eurocode 5-1-2 / NDS/AWC）：**
+- 软木（云杉、松木、冷杉）的标准炭化速率：0.65 mm/min。
+- 胶合木/CLT 的炭化速率：0.65–0.70 mm/min。
+- 零强度层：炭化线以下 7 mm（受热但未炭化的木材强度降低）。
+- 有效剩余截面 = 原截面 − 炭化深度 − 零强度层。
 
-**Design process:**
-1. Determine required fire resistance period (e.g., 90 minutes)
-2. Calculate char depth: 0.65 mm/min × 90 min = 58.5 mm per exposed face
-3. Add zero-strength layer: 58.5 + 7 = 65.5 mm per exposed face
-4. Residual section = original - 65.5 mm per exposed face
-5. Verify structural capacity of residual section under fire load combination
-   (typically dead + 0.5 × live, reduced from ambient design loads)
+**设计流程：**
+1. 确定所需耐火时间（例如 90 分钟）。
+2. 计算炭化深度：0.65 mm/min × 90 min = 每个受火面 58.5 mm。
+3. 加上零强度层：58.5 + 7 = 每个受火面 65.5 mm。
+4. 剩余截面 = 原截面 − 每个受火面 65.5 mm。
+5. 验算火灾荷载组合下剩余截面的结构承载力（通常为恒载 + 0.5 × 活载，相比常温设计荷载有所降低）。
 
-**Type IV-A (encapsulated mass timber):**
-- All mass timber surfaces protected by noncombustible material
-- Typically 2 layers of 16 mm (5/8 in) Type X gypsum board (32 mm total)
-- Gypsum provides ~60 minutes protection before charring begins
-- Total fire resistance = gypsum protection time + residual timber capacity
+**IV-A 型（包覆式大截面木结构）：**
+- 所有大截面木结构表面均由不燃材料保护。
+- 通常采用 2 层 16 mm（5/8 in）Type X 石膏板（总厚度 32 mm）。
+- 石膏在木材开始炭化前提供约 60 分钟保护。
+- 总耐火时间 = 石膏保护时间 + 木材剩余承载能力。
 
-**Type IV-C (exposed mass timber):**
-- Timber may be fully exposed; fire resistance from oversized section alone
-- Architectural advantage: warm, exposed wood aesthetic
-- Requires larger timber dimensions to account for full charring
+**IV-C 型（外露式大截面木结构）：**
+- 木材可以完全外露；耐火性能仅依靠加大截面实现。
+- 建筑优势：形成温暖的外露木材美学。
+- 必须采用更大的木材尺寸，以计入完整炭化影响。
 
 ---
 
-## Section 5: Smoke Control
+## 第 5 节：排烟控制
 
-### Purpose
+### 目的
 
-Smoke is the primary cause of death in building fires. Smoke control systems
-maintain tenable conditions on escape routes and in occupied spaces during
-the time needed for evacuation.
+烟气是建筑火灾中的首要致死原因。排烟系统在疏散所需时间内，维持疏散路径和使用空间的可生存条件。
 
-### Natural Smoke Ventilation (NSHEV -- Natural Smoke and Heat Exhaust Ventilation)
+### 自然排烟（NSHEV——自然排烟与排热通风）
 
-**Sizing:**
-- General rule: free ventilation area = 5% of floor area of the smoke
-  reservoir, or 1.5 m² per 200 m² of floor area (whichever is greater)
-- Smoke reservoir depth: minimum 3 m (10 ft) from ceiling to bottom of
-  smoke layer (maintain clear layer height above 2.5 m for tenability)
-- Inlet air: low-level openings at least equal in area to exhaust openings
-- Location: at highest point of smoke reservoir (roof vents, high-level
-  windows)
+**尺寸：**
+- 一般规则：有效通风面积 = 烟气蓄积层楼面面积的 5%，或每 200 m² 楼面面积 1.5 m²，取较大值。
+- 烟气蓄积层深度：从吊顶至烟层底部至少 3 m（10 ft）；为保证可生存性，保持烟层以上净高超过 2.5 m。
+- 进风：低位开口面积至少等于排烟开口面积。
+- 位置：烟气蓄积层最高点（屋面排烟窗、高位窗）。
 
-**Automatic opening:**
-- Actuated by: smoke detection (most common), fusible link (thermal),
-  fire alarm signal
-- Override: manual release at ground level and adjacent to ventilator
-- Fail-safe: opens on power failure (unless wind/weather concerns require
-  closed default)
+**自动开启：**
+- 启动方式：烟气探测（最常见）、易熔合金（热触发）或火灾报警信号。
+- 覆盖控制：首层及排烟窗旁设置手动释放装置。
+- 故障安全：断电时开启（除非风力/天气因素要求默认关闭）。
 
-### Mechanical Smoke Extract
+### 机械排烟
 
-- Extract rate: determined by fire engineering analysis based on design fire
-  size and smoke production rate
-- Typical rates: 4-10 air changes per hour for corridor extract; higher for
-  atrium and large-volume spaces
-- Fans: rated for 300°C for 60 minutes (minimum) or 400°C for 120 minutes
-  (for extended fire exposure); per EN 12101-3
-- Ductwork: fire-rated or within fire-rated shaft; dampers at compartment
-  boundaries
-- Make-up air: must be provided to replace extracted smoke; typically
-  low-level inlets at 75-80% of extract rate to maintain slight negative
-  pressure in fire zone
+- 排烟量：根据设计火灾规模和产烟速率，通过消防工程分析确定。
+- 典型排烟率：走廊排烟每小时 4–10 次换气；中庭和大体量空间需要更高的换气率。
+- 风机：按 EN 12101-3，最低应满足 300°C 持续 60 分钟，或 400°C 持续 120 分钟（用于长时间火灾暴露）。
+- 风管：采用耐火风管或设置在耐火竖井内；在防火分区边界设置防火阀。
+- 补风：必须补充排出的烟气体积；通常在低位设置进风口，进风量为排烟量的 75–80%，以维持火灾区域轻微负压。
 
-### Stair and Lobby Pressurization
+### 楼梯与前室加压
 
-- Maintains positive pressure in escape stairs and lobbies to prevent smoke
-  infiltration
-- Pressure differential: 50 Pa (0.2 in w.g.) with all doors closed
-  (BS EN 12101-6); 12.5 Pa minimum, 87 Pa maximum (IBC)
-- Air velocity through open door: 0.75 m/s minimum (some codes require
-  1.0 m/s) to resist smoke flow
-- Fan sizing: accounts for leakage through closed doors, walls, and
-  when one door is open on the fire floor
-- Door opening force: must not exceed 133 N (30 lbf) at the door handle
-  with pressurization system operating (IBC 1010.1.3)
-- Compensation: variable-speed fans or pressure-relief dampers to adjust
-  for doors opening/closing
+- 在疏散楼梯和前室内维持正压，防止烟气渗入。
+- 压差：所有门关闭时为 50 Pa（0.2 in w.g.）（BS EN 12101-6）；IBC 要求最低 12.5 Pa、最高 87 Pa。
+- 开门气流速度：最低 0.75 m/s（部分规范要求 1.0 m/s），以抵抗烟气流动。
+- 风机选型：考虑关闭门扇、墙体的漏风，以及起火层一扇门开启时的漏风。
+- 开门力：加压系统运行时，门把手处不得超过 133 N（30 lbf）（IBC 1010.1.3）。
+- 补偿：采用变速风机或泄压阀，根据门扇开启/关闭进行调节。
 
-### Smoke Curtains and Fire Shutters
+### 挡烟垂壁与防火卷帘
 
-**Smoke curtains (fixed or automatic):**
-- Fabric barriers descending from ceiling to contain smoke within a
-  defined reservoir
-- Deployed by: gravity (fail-safe), motor-driven from smoke detection signal
-- Drop time: typically 30-60 seconds to full deployment
-- Rating: per EN 12101-1 (D class for ambient smoke barriers, DH class for
-  hot smoke)
+**挡烟垂壁（固定式或自动式）：**
+- 从吊顶下垂的织物隔断，将烟气限制在规定的蓄烟层内。
+- 启动方式：重力下降（故障安全）或由烟气探测信号驱动电机。
+- 下落时间：通常 30–60 秒完成展开。
+- 等级：依据 EN 12101-1（D 类用于常温烟气隔断，DH 类用于高温烟气）。
 
-**Fire shutters:**
-- Steel or composite rolling/sliding shutters providing fire separation
-- Rating: 1-4 hours (integrity); some provide insulation rating
-- Deployed automatically on fire alarm; manual override required
-- Used where fire doors are impractical (wide openings, service counters,
-  conveyor openings)
-- Activation: fusible link (thermal), fire alarm signal, or both
+**防火卷帘：**
+- 采用钢制或复合材料卷帘/滑动门，提供防火分隔。
+- 耐火等级：完整性 1–4 小时；部分产品同时具备隔热等级。
+- 火灾报警时自动展开；必须设置手动控制。
+- 用于防火门不适用的场所（大开口、服务柜台、传送带开口）。
+- 启动方式：易熔合金（热触发）、火灾报警信号或二者同时作用。
 
-### Atrium Smoke Control
+### 中庭排烟控制
 
-Atriums require specific smoke control analysis due to large interconnected
-volumes:
+由于中庭具有大型连通空间，需要进行专门的排烟分析：
 
-**Steady-state plume calculation (simplified):**
-- Mass flow rate of smoke: M = 0.071 × Qc^(1/3) × Z^(5/3) + 0.0018 × Qc
-  (axisymmetric plume, NFPA 92)
-  Where: M = mass flow rate (kg/s), Qc = convective heat release rate (kW),
-  Z = height above fire (m)
-- For balcony spill plume (fire on floor below atrium, smoke spilling over
-  balcony edge): mass flow rate increases significantly -- approximately 2-3x
-  axisymmetric for same height
+**稳态羽流计算（简化）：**
+- 烟气质量流量：M = 0.071 × Qc^(1/3) × Z^(5/3) + 0.0018 × Qc（轴对称羽流，NFPA 92）。
+  其中：M = 质量流量（kg/s），Qc = 对流放热速率（kW），Z = 火源以上高度（m）。
+- 对于阳台溢流羽流（中庭下层起火，烟气越过阳台边缘）：质量流量显著增加——在相同高度下约为轴对称羽流的 2–3 倍。
 
-**Design considerations:**
-- Smoke reservoir at top: minimum 3 m depth
-- Exhaust: mechanical or natural (powered natural ventilators)
-- Makeup air: low-level, below smoke layer; velocity < 1.0 m/s to avoid
-  disturbing plume
-- Plugholing: exhaust point must not extract air from below smoke layer;
-  per NFPA 92 critical exhaust rate calculation
-- IBC 404.5: requires smoke control per Section 909 in all atriums
+**设计要点：**
+- 顶部烟气蓄积层：深度至少 3 m。
+- 排烟：机械排烟或自然排烟（动力自然排烟窗）。
+- 补风：在烟层下方低位设置；速度 < 1.0 m/s，避免扰动羽流。
+- 穿孔效应（Plugholing）：排烟点不得抽取烟层以下的空气；按 NFPA 92 临界排烟量计算。
+- IBC 404.5：所有中庭均须按第 909 节设置排烟控制。
 
 ---
 
-## Section 6: Active Fire Protection Systems
+## 第 6 节：主动消防系统
 
-### Automatic Sprinkler Systems
+### 自动喷淋系统
 
-**Wet-pipe system (most common):**
-- Pipes permanently charged with water under pressure
-- Activation: individual sprinkler heads actuate when ambient temperature
-  reaches rated temperature (typically 68°C / 155°F for standard; 57°C for
-  residential quick-response)
-- Response: only heads in the fire zone activate (not all heads)
-- Coverage: maximum 12 m² (130 ft²) per head for light hazard;
-  9.3 m² (100 ft²) for ordinary hazard per NFPA 13
-- Maximum spacing: 4.6 m (15 ft) between heads for standard coverage
-- Minimum pressure: 0.5 bar (7 psi) at the most remote head
-- Water density: 4.1 mm/min (0.10 gpm/ft²) light hazard to 8.1 mm/min
-  (0.20 gpm/ft²) ordinary hazard Group 2
+**湿式系统（最常见）：**
+- 管道永久充水并保持压力。
+- 启动：当环境温度达到额定温度时，单个喷头动作（标准喷头通常为 68°C / 155°F；住宅快速响应喷头为 57°C）。
+- 响应：只有火灾区域内的喷头启动（不是所有喷头同时启动）。
+- 覆盖：轻危险等级每个喷头最大 12 m²（130 ft²）；按 NFPA 13，普通危险等级每个喷头 9.3 m²（100 ft²）。
+- 最大间距：标准覆盖时喷头之间 4.6 m（15 ft）。
+- 最小压力：最不利喷头处 0.5 bar（7 psi）。
+- 水量密度：轻危险等级 4.1 mm/min（0.10 gpm/ft²）至普通危险等级第 2 组 8.1 mm/min（0.20 gpm/ft²）。
 
-**Dry-pipe system:**
-- Pipes filled with pressurized air or nitrogen; water released when
-  sprinkler head actuates and air pressure drops
-- Use: unheated spaces (parking garages, loading docks, freezers) where
-  water would freeze
-- Delay: 30-60 seconds from head activation to water delivery
-- Maximum system size: 750 gallons per NFPA 13
+**干式系统：**
+- 管道充满压缩空气或氮气；喷头动作且气压下降后释放水流。
+- 用途：未供暖空间（停车库、装卸平台、冷冻库），以防水冻结。
+- 延迟：从喷头启动到供水通常为 30–60 秒。
+- 系统最大容量：按 NFPA 13 为 750 加仑。
 
-**Pre-action system:**
-- Requires two triggers: fire detection AND sprinkler head activation
-- Single interlock: detection activates valve, then head must open
-- Double interlock: both detection and head activation needed simultaneously
-- Use: data centers, museums, libraries -- where accidental water damage
-  is unacceptable
+**预作用系统：**
+- 需要两个触发条件：火灾探测和喷头启动。
+- 单联锁：探测系统启动阀门，随后喷头必须开启。
+- 双联锁：探测系统和喷头必须同时启动。
+- 用途：数据中心、博物馆、图书馆等不能接受意外水损的场所。
 
-**Deluge system:**
-- All heads are open (no fusible element); water released to all heads
-  simultaneously when detection system activates
-- Use: high-hazard areas (aircraft hangars, chemical storage, transformer
-  rooms) requiring immediate total suppression
-- Requires large water supply
+**雨淋系统：**
+- 所有喷头均为开式（无易熔元件）；探测系统启动时，水同时释放到全部喷头。
+- 用途：需要立即全面抑制的高危险区域（飞机库、化学品储存区、变压器室）。
+- 需要大容量供水。
 
-**Residential sprinkler system (NFPA 13R / 13D):**
-- NFPA 13R: for residential occupancies up to 4 stories (reduced coverage;
-  sprinklers not required in closets, bathrooms < 5.1 m², attics, garages)
-- NFPA 13D: for one- and two-family dwellings (further reduced)
-- Quick-response heads: 57°C (135°F) rated, faster thermal response
-- Minimum flow: per NFPA 13R/13D hydraulic calculations
+**住宅喷淋系统（NFPA 13R / 13D）：**
+- NFPA 13R：适用于不超过 4 层的住宅建筑（降低覆盖要求；衣帽间、面积 < 5.1 m² 的卫生间、阁楼和车库可不设喷头）。
+- NFPA 13D：适用于一户和两户住宅（覆盖要求进一步降低）。
+- 快速响应喷头：额定温度 57°C（135°F），热响应更快。
+- 最小流量：按 NFPA 13R/13D 水力计算确定。
 
-### Fire Detection and Alarm
+### 火灾探测与报警
 
-**Detection types:**
+**探测类型：**
 
-| Type | Detection Method | Response Time | Best For |
+| 类型 | 探测方法 | 响应时间 | 最适用场所 |
 |------|-----------------|---------------|----------|
-| Ionization smoke | Particle ionization change | Fast (flaming fires) | Offices, corridors (being phased out in some jurisdictions) |
-| Photoelectric smoke | Light scatter/obscuration | Fast (smoldering fires) | Bedrooms, corridors, common areas |
-| Heat (fixed temp) | Fusible element at set temp | Slow (fires must grow) | Kitchens, garages, dusty environments |
-| Heat (rate-of-rise) | Rapid temperature increase | Moderate | Warehouses, mechanical rooms |
-| Aspirating (VESDA) | Air sampling + laser detection | Very fast | Data centers, heritage, clean rooms |
-| Flame (IR/UV) | Infrared/ultraviolet radiation | Very fast | Aircraft hangars, fuel storage |
-| Linear heat | Cable changes resistance with temperature | Moderate | Tunnels, cable trays, conveyor belts |
+| 离子型烟感 | 颗粒电离变化 | 快（明火） | 办公室、走廊（部分辖区正在淘汰） |
+| 光电型烟感 | 光散射/遮蔽 | 快（阴燃） | 卧室、走廊、公共区域 |
+| 定温型感温 | 设定温度熔断元件 | 慢（火势需发展） | 厨房、车库、多尘环境 |
+| 差温型感温 | 温度快速上升 | 中等 | 仓库、机房 |
+| 吸气式（VESDA） | 空气采样+激光探测 | 极快 | 数据中心、历史建筑、洁净室 |
+| 火焰型（IR/UV） | 红外/紫外辐射 | 极快 | 飞机库、燃料储存区 |
+| 线型感温 | 电缆电阻随温度变化 | 中等 | 隧道、电缆桥架、输送带 |
 
-**Fire alarm zoning (IBC Section 907):**
-- Manual pull stations: at each exit from each floor
-- Smoke detectors: in corridors, elevator lobbies, HVAC ducts
-- Heat detectors: kitchens, mechanical rooms, parking garages
-- Voice/alarm communication: required in high-rise, assembly > 300,
-  certain E and I occupancies
-- Zone size: max 1858 m² (20,000 ft²) per zone; max 91 m (300 ft)
-  length per zone; each floor a separate zone
+**火灾报警分区（IBC 第 907 节）：**
+- 手动报警按钮：每层每个出口处设置。
+- 烟气探测器：走廊、电梯前室、暖通空调风管内设置。
+- 感温探测器：厨房、设备机房、停车库设置。
+- 语音/报警通信：高层建筑、超过 300 人的集会建筑以及部分 E 类和 I 类使用场所必须设置。
+- 分区规模：每个分区最大 1858 m²（20,000 ft²）；每个分区长度最大 91 m（300 ft）；每层为独立分区。
 
-### Emergency Lighting
+### 应急照明
 
-**IBC requirements (Section 1008):**
-- Illumination: minimum 10.8 lux (1 fc) at floor along exit access;
-  minimum 10.8 lux at exit discharge
-- Duration: minimum 90 minutes from onset of power failure
-- Power: battery backup or generator
+**IBC 要求（第 1008 节）：**
+- 照度：出口通道地面最低 10.8 lux（1 fc）；出口排出位置最低 10.8 lux。
+- 持续时间：从断电开始至少 90 分钟。
+- 电源：蓄电池备用电源或发电机。
 
-**UK / EN requirements (BS 5266-1 / EN 1838):**
-- Escape route lighting: minimum 1 lux at floor level along centerline,
-  0.5 lux at edges; uniformity ratio max 40:1
-- Anti-panic (open area) lighting: 0.5 lux at floor level throughout
-  open areas > 60 m²
-- High-risk task area: minimum 10% of maintained illuminance or 15 lux
-  (whichever is greater)
-- Duration: 1 hour minimum, 3 hours recommended (and required in many
-  jurisdictions for sleeping accommodations)
-- Monthly functional test (flick test), annual full-duration test
+**英国/EN 要求（BS 5266-1 / EN 1838）：**
+- 疏散路线照明：中心线地面最低 1 lux，边缘 0.5 lux；均匀度比最大 40:1。
+- 防恐慌（开放区域）照明：面积 > 60 m² 的开放区域内，地面处处达到 0.5 lux。
+- 高风险作业区域：至少为维持照度的 10% 或 15 lux，取较大值。
+- 持续时间：最低 1 小时，建议 3 小时（许多司法辖区的住宿场所要求 3 小时）。
+- 每月功能测试（闪测），每年全时长测试。
 
-### Fire Extinguishers
+### 灭火器
 
-- Placement: max 23 m (75 ft) travel distance to nearest extinguisher
-  for Class A (ordinary combustibles); max 15 m (50 ft) for Class B
-  (flammable liquids)
-- Mounting height: handle at max 1525 mm (60 in) above floor for units
-  > 18 kg (40 lb); max 1067 mm (42 in) for units > 18 kg on some
-  interpretations -- verify with AHJ
-- Types: ABC dry chemical (most common), CO2 (electrical/clean agent),
-  water mist (heritage), wet chemical (commercial kitchens)
-- Not a substitute for fixed suppression in buildings requiring sprinklers
+- 布置：A 类（普通可燃物）至最近灭火器的最大行走距离 23 m（75 ft）；B 类（易燃液体）最大 15 m（50 ft）。
+- 安装高度：重量 > 18 kg（40 lb）的灭火器，手柄距地面最大 1525 mm（60 in）；部分解释对 > 18 kg 的设备要求最大 1067 mm（42 in），应向 AHJ 核实。
+- 类型：ABC 干粉（最常见）、CO2（二氧化碳，电气/洁净灭火剂）、细水雾（历史建筑）、湿式化学灭火剂（商用厨房）。
+- 对要求设置喷淋的建筑，灭火器不能替代固定灭火系统。
 
-### Dry and Wet Risers
+### 干式与湿式立管
 
-**Dry riser:**
-- Vertical pipe (100 mm / 4 in diameter minimum) with inlet at ground level
-  and outlet valves at each floor
-- Fire service connects pumping appliance at ground inlet to pressurize system
-- Required: buildings 18-60 m height (UK ADB); IBC requires standpipe per
-  Section 905
-- Outlet: 65 mm (2.5 in) landing valve in firefighting lobby or stair landing
+**干式立管：**
+- 垂直管道直径至少 100 mm / 4 in，首层设进水口，每层设出水阀。
+- 消防部门将消防泵车连接至首层进水口，为系统加压。
+- 要求：高度 18–60 m 的建筑（英国 ADB）；IBC 按第 905 节要求设置立管。
+- 出水口：消防前室或楼梯平台设置 65 mm（2.5 in）层站阀。
 
-**Wet riser:**
-- Permanently pressurized with water; fire pump maintains pressure
-- Required: buildings > 60 m height (UK); IBC Class I standpipe in
-  high-rise stairways
-- Outlet: 65 mm (2.5 in) valve at each floor landing
-- Pressure: 7 bar (100 psi) at topmost outlet minimum
-- Water supply: dedicated fire water tank or connection to reliable public main
-  with adequate flow (typically 1500 L/min for wet riser)
+**湿式立管：**
+- 永久充水加压，由消防泵维持压力。
+- 要求：高度超过 60 m 的建筑（英国）；IBC 要求高层楼梯间设置 I 类立管。
+- 出水口：每层楼梯平台设置 65 mm（2.5 in）阀门。
+- 压力：最顶层出水口最低 7 bar（100 psi）。
+- 供水：专用消防水箱，或连接至流量充足的可靠公共管网（湿式立管通常需要 1500 L/min）。
 
 ---
 
-*This skill provides general fire and life safety guidance for architectural
-design. All fire strategies must be developed in coordination with a qualified
-fire engineer and approved by the authority having jurisdiction. Fire codes
-and standards are jurisdiction-specific -- verify requirements against the
-locally adopted edition.*
+*本技能为建筑设计提供一般性的消防与生命安全指导。所有消防策略必须与具备资质的消防工程师协调制定，并经主管机关批准。消防规范和标准具有辖区特定性——应依据当地采用的版本核实要求。*

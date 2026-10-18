@@ -1,529 +1,431 @@
 ---
 name: building-codes
 description: >
-  Comprehensive building code expertise covering IBC (International Building Code)
-  occupancy classification, construction types I through V, height and area limitations,
-  means of egress design, fire separation and protection requirements, plumbing fixture
-  calculations, and international code comparison across IBC, Building Regulations
-  (England & Wales), Eurocodes, NCC (Australia), and NBC (Canada). Provides specific
-  code references, dimensional requirements, fire resistance ratings, and calculation
-  methods for architectural compliance.
+  全面的建筑规范专业知识，涵盖 IBC（International Building Code）使用类别、I 至 V 类建筑构造、建筑高度与面积限制、疏散设计、防火分隔与防护要求、卫生器具计算，以及 IBC、Building Regulations（英格兰和威尔士）、Eurocodes、NCC（澳大利亚）和 NBC（加拿大）之间的国际规范比较。提供具体规范条文、尺寸要求、耐火等级和建筑合规计算方法。
 ---
 
-# Building Codes
+# 建筑规范
 
-This skill provides practitioner-grade knowledge of building codes for architectural
-design, focusing on the International Building Code (IBC) as the primary framework
-with international comparisons. All dimensional values are given in metric with
-imperial equivalents where standard practice requires.
+本技能为建筑设计提供可直接用于实践的建筑规范知识，以 International Building Code（IBC）为主要框架，并进行国际规范比较。所有尺寸均采用公制；在行业惯例要求时同时给出英制等效值。
 
 ---
 
-## Section 1: IBC Occupancy Groups
+## 第 1 节：IBC 使用类别
 
-The IBC classifies every building or portion of a building into one of 10 occupancy
-groups based on its use and the characteristics of its occupants. Correct classification
-is the single most consequential code decision an architect makes -- it drives
-construction type, height and area limits, egress requirements, fire separation,
-and plumbing fixture counts.
+IBC 根据建筑用途和使用者特征，将每栋建筑或建筑的一部分划分为 10 个使用类别之一。正确分类是建筑师作出的最重要规范决策之一，因为它决定建筑构造类别、建筑高度与面积限制、疏散要求、防火分隔和卫生器具数量。
 
-### Group A -- Assembly
+### A 类——集会
 
-Buildings where people gather for civic, social, or recreational purposes. The defining
-characteristic is a concentration of persons who are generally unfamiliar with the
-building layout, making egress critical.
+供人员进行公共、社交或休闲活动并聚集在一起的建筑。其典型特征是人员集中，且使用者通常不熟悉建筑布局，因此疏散至关重要。
 
-**A-1: Assembly with fixed seating for viewing performances**
-- Examples: theaters, concert halls, cinemas, lecture halls with fixed seats
-- Occupant load factor: 0.65 m² net per person (7 ft² net) for fixed seating;
-  count actual seats when installed
-- Typical fire load: moderate (30-60 MJ/m²), but high life-safety risk from
-  concentrated occupancy
-- Key code requirements: panic hardware on exit doors, illuminated exit signs,
-  emergency voice/alarm communication for occupant loads > 300, accessible seating
-  dispersed per ADA/ICC A117.1
+**A-1：观看演出的固定座位集会**
+- 示例：剧院、音乐厅、电影院、设固定座位的报告厅
+- 人员荷载系数：固定座位按每人 0.65 m² 净面积（7 ft² 净面积）；安装座椅时按实际座位数计数
+- 典型火灾荷载：中等（30–60 MJ/m²），但由于人员高度集中，生命安全风险较高
+- 关键规范要求：出口门设置防恐慌五金，设置发光出口标志；人员荷载 >300 时设置应急语音/报警通信；按 ADA/ICC A117.1 分散布置无障碍座位
 
-**A-2: Assembly for food and/or drink consumption**
-- Examples: restaurants, bars, nightclubs, banquet halls, cafeterias
-- Occupant load factor: 1.4 m² net per person (15 ft² net) for unconcentrated
-  tables/chairs; 0.65 m² net (7 ft²) for standing/concentrated use
-- Typical fire load: moderate to high (40-80 MJ/m²) due to kitchen equipment
-- Key code requirements: commercial kitchen hood suppression (Type I hood per
-  IMC 507), grease duct fire protection, separation from assembly seating
+**A-2：饮食消费集会**
+- 示例：餐厅、酒吧、夜总会、宴会厅、自助餐厅
+- 人员荷载系数：非集中式桌椅按每人 1.4 m² 净面积（15 ft² 净面积）；站立/集中使用按 0.65 m² 净面积（7 ft²）
+- 典型火灾荷载：中高（40–80 MJ/m²），原因是厨房设备较多
+- 关键规范要求：商用厨房排油烟罩设置灭火系统（按 IMC 507 采用 Type I 罩）；油脂风管防火；与集会座位区分隔
 
-**A-3: Assembly for worship, recreation, or amusement not in A-1/A-2**
-- Examples: churches, mosques, synagogues, museums, galleries, libraries (reading
-  rooms), community halls, bowling alleys, courtrooms
-- Occupant load factor: 0.65 m² net per person (7 ft² net) for worship with
-  fixed pews; 1.4 m² net (15 ft²) for unconcentrated use; museums and galleries
-  2.8 m² net (30 ft²)
-- Typical fire load: variable (20-80 MJ/m²)
-- Key code requirements: museums with irreplaceable collections warrant
-  sprinkler protection regardless of threshold; libraries with stack areas
-  use 9.3 m² gross (100 ft²) per person
+**A-3：不属于 A-1/A-2 的礼拜、休闲或娱乐集会**
+- 示例：教堂、清真寺、犹太会堂、博物馆、美术馆、图书馆（阅览室）、社区礼堂、保龄球馆、法庭
+- 人员荷载系数：设固定长椅的礼拜空间按每人 0.65 m² 净面积（7 ft² 净面积）；非集中式使用按 1.4 m² 净面积（15 ft²）；博物馆和美术馆按 2.8 m² 净面积（30 ft²）
+- 典型火灾荷载：变化范围较大（20–80 MJ/m²）
+- 关键规范要求：存放不可替代藏品的博物馆无论面积是否达到阈值均应设置自动喷水灭火系统；带书架区域的图书馆按每人 9.3 m² 总面积（100 ft²）计算
 
-**A-4: Assembly for viewing indoor sporting events**
-- Examples: arenas, skating rinks, indoor swimming pool spectator areas
-- Occupant load factor: 0.65 m² net per person (7 ft² net) for fixed seating;
-  count seats
-- Typical fire load: low to moderate (20-50 MJ/m²)
-- Key code requirements: similar to A-1; crowd management plan for large venues;
-  smoke-protected assembly seating provisions (IBC 1029) allow increased travel
-  distance to 122 m (400 ft) when open-air or smoke-protected
+**A-4：观看室内体育赛事的集会**
+- 示例：体育馆、滑冰场、室内游泳池观众区
+- 人员荷载系数：固定座位按每人 0.65 m² 净面积（7 ft² 净面积）；按座位数计数
+- 典型火灾荷载：低至中等（20–50 MJ/m²）
+- 关键规范要求：与 A-1 类似；大型场馆应制定人群管理计划；当采用露天或烟气防护的集会座位时，IBC 1029 的烟气防护集会座位条款允许将疏散行走距离增加至 122 m（400 ft）
 
-**A-5: Assembly for outdoor activities**
-- Examples: outdoor stadiums, grandstands, bleachers, amusement park structures
-- Occupant load factor: count seats or 0.65 m² net (7 ft²) for fixed seating
-- Typical fire load: very low
-- Key code requirements: IBC 1029 smoke-protected assembly provisions typically
-  apply; less restrictive construction type requirements due to open-air nature
+**A-5：户外活动集会**
+- 示例：露天体育场、看台、阶梯看台、游乐园构筑物
+- 人员荷载系数：按座位数计数，或固定座位按 0.65 m² 净面积（7 ft²）计
+- 典型火灾荷载：极低
+- 关键规范要求：通常适用 IBC 1029 的烟气防护集会条款；由于为露天环境，建筑构造类别要求相对宽松
 
-### Group B -- Business
+### B 类——商业
 
-Buildings for office, professional, or service transactions.
+用于办公、专业服务或服务交易的建筑。
 
-- Examples: offices, banks, outpatient clinics (fewer than 5 care recipients
-  incapable of self-preservation), government buildings, laboratories testing
-  and research (non-hazardous), post offices, radio/TV stations, educational
-  above 12th grade (universities)
-- Occupant load factor: 9.3 m² gross per person (100 ft² gross)
-- Typical fire load: moderate (40-80 MJ/m²), primarily paper and furnishings
-- Key code requirements: less restrictive than assembly; corridor rating may be
-  0 hr when sprinklered (Table 1020.1); max travel distance 76 m (250 ft)
-  sprinklered, 61 m (200 ft) unsprinklered
+- 示例：办公室、银行、门诊诊所（少于 5 名无法自我保护的护理对象）、政府建筑、非危险性检测与研究实验室、邮局、广播/电视台、12 年级以上教育建筑（大学）
+- 人员荷载系数：每人 9.3 m² 总面积（100 ft² 总面积）
+- 典型火灾荷载：中等（40–80 MJ/m²），主要来自纸张和家具
+- 关键规范要求：比集会类宽松；设置自动喷水灭火系统时走道耐火等级可为 0 小时（表 1020.1）；设置喷淋时最大疏散行走距离 76 m（250 ft），无喷淋时为 61 m（200 ft）
 
-### Group E -- Educational
+### E 类——教育
 
-Buildings used for education through the 12th grade by 6 or more students.
+供 6 名或以上学生接受 12 年级及以下教育使用的建筑。
 
-- Examples: schools (K-12), day care for more than 5 children older than 2.5 years
-- Occupant load factor: 1.9 m² net per person (20 ft² net) for classrooms
-- Typical fire load: moderate (30-60 MJ/m²)
-- Key code requirements: storm shelter provisions per ICC 500 in tornado-prone
-  regions; fire alarm with voice/evacuation capability; classroom doors must
-  be lockable from inside (active-shooter provisions, IBC 1010.1.4.4)
+- 示例：学校（K–12）、照护 5 名以上且年龄超过 2.5 岁儿童的日托机构
+- 人员荷载系数：教室按每人 1.9 m² 净面积（20 ft² 净面积）
+- 典型火灾荷载：中等（30–60 MJ/m²）
+- 关键规范要求：龙卷风多发地区按 ICC 500 设置风暴避难所；火灾报警系统应具备语音和疏散功能；教室门必须可从室内上锁（针对主动袭击事件的规定，IBC 1010.1.4.4）
 
-### Group F -- Factory and Industrial
+### F 类——工厂与工业
 
-Buildings for assembling, fabricating, manufacturing, or processing goods.
+用于组装、加工、制造或处理产品的建筑。
 
-**F-1: Factory Industrial Moderate-Hazard**
-- Examples: aircraft manufacturing, furniture manufacturing, millwork, printing,
-  woodworking
-- Occupant load factor: 11.6 m² gross per person (125 ft² gross)
-- Typical fire load: high (80-200+ MJ/m²)
-- Key code requirements: often requires Type I or II construction for multi-story;
-  sprinklers per IBC 903.2.4 when area exceeds threshold
+**F-1：中危险度工厂工业**
+- 示例：飞机制造、家具制造、木工制品、印刷、木材加工
+- 人员荷载系数：每人 11.6 m² 总面积（125 ft² 总面积）
+- 典型火灾荷载：高（80–200+ MJ/m²）
+- 关键规范要求：多层建筑通常要求采用 I 类或 II 类构造；面积超过阈值时按 IBC 903.2.4 设置自动喷水灭火系统
 
-**F-2: Factory Industrial Low-Hazard**
-- Examples: beverage bottling, brick manufacturing, ceramic production, foundries,
-  glass products, metal fabrication (noncombustible)
-- Occupant load factor: 11.6 m² gross per person (125 ft² gross)
-- Typical fire load: low to moderate (20-60 MJ/m²)
-- Key code requirements: most permissive industrial classification; noncombustible
-  materials in process reduce fire load
+**F-2：低危险度工厂工业**
+- 示例：饮料灌装、砖制造、陶瓷生产、铸造厂、玻璃制品、金属加工（不可燃）
+- 人员荷载系数：每人 11.6 m² 总面积（125 ft² 总面积）
+- 典型火灾荷载：低至中等（20–60 MJ/m²）
+- 关键规范要求：工业类别中限制最少；生产过程中使用不可燃材料可降低火灾荷载
 
-### Group H -- High-Hazard
+### H 类——高危险度
 
-Buildings containing materials that pose a physical or health hazard beyond
-exempt quantities per IFC Table 307.1(1) and 307.1(2).
+存放或使用的材料超过 IFC 表 307.1(1) 和 307.1(2) 豁免数量，并对人身或健康构成危险的建筑。
 
-**H-1: Detonation hazard**
-- Materials: explosives, organic peroxides (unclassified detonable)
-- Key code requirements: detached building, minimum setback distances per
-  quantity-distance tables, blast-resistant construction
+**H-1：爆轰危险**
+- 材料：炸药、有机过氧化物（未分类可爆物）
+- 关键规范要求：独立建筑；按数量—距离表设置最小退距；采用抗爆构造
 
-**H-2: Deflagration or accelerated burning hazard**
-- Materials: flammable gases, flammable/combustible liquids (Class I-A, I-B, I-C),
-  organic peroxides (Class I), oxidizers (Class 4)
-- Key code requirements: explosion venting, mechanical ventilation, automatic
-  sprinklers, max 1-story for some uses
+**H-2：爆燃或快速燃烧危险**
+- 材料：易燃气体、易燃/可燃液体（I-A、I-B、I-C 类）、有机过氧化物（I 类）、氧化剂（4 类）
+- 关键规范要求：设置泄爆、机械通风和自动喷水灭火系统；某些用途最高仅允许 1 层
 
-**H-3: Physical hazard materials not in H-1 or H-2**
-- Materials: combustible fiber, flammable solids, consumer fireworks (1.4G),
-  oxidizers (Class 1-3)
-- Key code requirements: sprinklers, separation from other occupancies
+**H-3：不属于 H-1 或 H-2 的物理危险材料**
+- 材料：可燃纤维、易燃固体、消费类烟花（1.4G）、氧化剂（1–3 类）
+- 关键规范要求：设置自动喷水灭火系统，并与其他使用类别分隔
 
-**H-4: Health hazard materials**
-- Materials: corrosives, highly toxic materials, toxic materials
-- Key code requirements: continuous ventilation, emergency alarm,
-  spill containment
+**H-4：健康危险材料**
+- 材料：腐蚀性材料、高毒性材料、有毒材料
+- 关键规范要求：连续通风、紧急报警和泄漏控制
 
-**H-5: Semiconductor fabrication and similar**
-- Materials: HPM (hazardous production materials) in semiconductor fabs
-- Key code requirements: HPM storage and handling per IFC Chapter 27,
-  continuous gas monitoring, emergency ventilation
+**H-5：半导体制造及类似用途**
+- 材料：半导体工厂中的 HPM（危险生产材料）
+- 关键规范要求：按 IFC 第 27 章储存和处理 HPM；持续气体监测；紧急通风
 
-### Group I -- Institutional
+### I 类——机构
 
-Buildings where occupants are under restraint or incapable of self-preservation.
+使用者受到约束或无法自行保护和疏散的建筑。
 
-**I-1: Condition 1, supervised residential (more than 16 persons)**
-- Examples: assisted living, group homes (> 16), halfway houses, residential
-  board and care
-- Occupant load factor: 18.6 m² gross per person (200 ft² gross)
-- Typical fire load: moderate (40-60 MJ/m²)
-- Key code requirements: NFPA 13 sprinklers required, manual fire alarm,
-  smoke detection in sleeping rooms and corridors
+**I-1：条件 1，受监管居住（超过 16 人）**
+- 示例：辅助生活设施、集体住宅（>16 人）、中途之家、居住照护设施
+- 人员荷载系数：每人 18.6 m² 总面积（200 ft² 总面积）
+- 典型火灾荷载：中等（40–60 MJ/m²）
+- 关键规范要求：必须设置 NFPA 13 自动喷水灭火系统和手动火灾报警；卧室及走道设置烟感探测
 
-**I-2: Medical care / 24-hour supervision (more than 5 persons)**
-- Examples: hospitals, nursing homes, psychiatric facilities, detoxification
-- Occupant load factor: 22.3 m² gross per person (240 ft² gross) inpatient
-- Typical fire load: moderate (40-80 MJ/m²)
-- Key code requirements: defend-in-place strategy, smoke compartments max
-  2090 m² (22,500 ft²), 2-hour fire-rated corridors in some jurisdictions,
-  1-hour corridor per IBC Table 1020.1, automatic sprinklers required
+**I-2：医疗照护/24 小时监管（超过 5 人）**
+- 示例：医院、护理院、精神病医疗机构、戒毒中心
+- 人员荷载系数：住院区域每人 22.3 m² 总面积（240 ft² 总面积）
+- 典型火灾荷载：中等（40–80 MJ/m²）
+- 关键规范要求：采用就地防御策略；防烟分区最大 2090 m²（22,500 ft²）；部分辖区要求 2 小时耐火走道；按 IBC 表 1020.1 设置 1 小时走道；必须设置自动喷水灭火系统
 
-**I-3: Restrained occupancy**
-- Examples: prisons, jails, reformatories, detention centers
-- Occupant load factor: 11.1 m² gross per person (120 ft² gross)
-- Conditions 1-5 based on degree of restraint
-- Key code requirements: staff-release smoke detection, remote locking,
-  defend-in-place with smoke compartments
+**I-3：受约束使用**
+- 示例：监狱、看守所、感化院、拘留中心
+- 人员荷载系数：每人 11.1 m² 总面积（120 ft² 总面积）
+- 根据约束程度分为条件 1–5
+- 关键规范要求：工作人员释放式烟气探测、远程锁闭；采用防烟分区的就地防御策略
 
-**I-4: Day care (more than 5 persons of any age)**
-- Examples: adult day care, child care for children under 2.5 years
-- Occupant load factor: 3.3 m² net per person (35 ft² net)
-- Key code requirements: if above or below level of exit discharge,
-  classified as I-4; otherwise may be E or I-4 depending on occupants
+**I-4：日间照护（任何年龄超过 5 人）**
+- 示例：成人日间照护、照护 2.5 岁以下儿童的机构
+- 人员荷载系数：每人 3.3 m² 净面积（35 ft² 净面积）
+- 关键规范要求：若位于出口排出层以上或以下，则归类为 I-4；否则可根据使用者归类为 E 类或 I-4 类
 
-### Group M -- Mercantile
+### M 类——商业零售
 
-Buildings for display and sale of merchandise.
+用于展示和销售商品的建筑。
 
-- Examples: department stores, retail shops, drug stores, markets, gas stations,
-  motor fuel-dispensing facilities
-- Occupant load factor: 2.8 m² gross per person (30 ft² gross) for ground floor
-  and basement; 5.6 m² gross (60 ft²) for upper floors
-- Typical fire load: moderate to high (50-150 MJ/m²) depending on stock
-- Key code requirements: sprinklers when fire area > 1115 m² (12,000 ft²);
-  high-piled combustible storage (IFC Chapter 32) when stock > 3.7 m (12 ft)
+- 示例：百货商店、零售店、药店、市场、加油站、机动车燃料加注设施
+- 人员荷载系数：首层和地下层每人 2.8 m² 总面积（30 ft² 总面积）；上层每人 5.6 m² 总面积（60 ft²）
+- 典型火灾荷载：根据库存量为中至高（50–150 MJ/m²）
+- 关键规范要求：火灾区域 >1115 m²（12,000 ft²）时设置自动喷水灭火系统；货物堆垛高度 >3.7 m（12 ft）时按 IFC 第 32 章执行高位可燃物储存要求
 
-### Group R -- Residential
+### R 类——居住
 
-Buildings providing sleeping accommodations (not I group).
+提供睡眠住宿且不属于 I 类的建筑。
 
-**R-1: Transient (stays < 30 days)**
-- Examples: hotels, motels, boarding houses (transient)
-- Occupant load factor: 18.6 m² gross per person (200 ft² gross)
-- Typical fire load: moderate (30-60 MJ/m²)
-- Key code requirements: automatic sprinklers (NFPA 13), single-station
-  smoke alarms in each sleeping room + corridor, manual fire alarm
+**R-1：短期居住（停留 <30 天）**
+- 示例：酒店、汽车旅馆、短期寄宿屋
+- 人员荷载系数：每人 18.6 m² 总面积（200 ft² 总面积）
+- 典型火灾荷载：中等（30–60 MJ/m²）
+- 关键规范要求：设置自动喷水灭火系统（NFPA 13）；每间卧室及走道设置独立式烟感报警器；设置手动火灾报警
 
-**R-2: Permanent (stays >= 30 days, more than 2 dwelling units)**
-- Examples: apartment buildings, condominiums, dormitories, monasteries
-- Occupant load factor: 18.6 m² gross per person (200 ft² gross)
-- Typical fire load: moderate (40-80 MJ/m²)
-- Key code requirements: NFPA 13 or 13R sprinklers (13R permitted for
-  buildings up to 4 stories per NFPA 13R scope), interconnected smoke alarms
-  in each unit, fire alarm when > 16 units
+**R-2：长期居住（停留 ≥30 天，且超过 2 个居住单元）**
+- 示例：公寓楼、产权式公寓、宿舍、修道院
+- 人员荷载系数：每人 18.6 m² 总面积（200 ft² 总面积）
+- 典型火灾荷载：中等（40–80 MJ/m²）
+- 关键规范要求：设置 NFPA 13 或 13R 自动喷水灭火系统（按 NFPA 13R 范围，最高 4 层建筑可采用 13R）；每个单元设置联网烟感报警器；超过 16 个单元时设置火灾报警系统
 
-**R-3: One- and two-family dwellings and townhouses**
-- Examples: single-family houses, duplexes, townhouses (max 3 stories),
-  adult/child care for <= 5 persons, congregate living <= 16
-- Occupant load factor: 18.6 m² gross per person (200 ft² gross)
-- Typical fire load: moderate (40-80 MJ/m²)
-- Key code requirements: IRC (International Residential Code) may be used
-  instead of IBC; NFPA 13D residential sprinklers in many jurisdictions
+**R-3：一户和两户住宅及联排住宅**
+- 示例：独立住宅、双拼住宅、联排住宅（最高 3 层）、照护不超过 5 人的成人/儿童设施、最多 16 人的集体居住设施
+- 人员荷载系数：每人 18.6 m² 总面积（200 ft² 总面积）
+- 典型火灾荷载：中等（40–80 MJ/m²）
+- 关键规范要求：可采用 IRC（International Residential Code）替代 IBC；许多辖区要求设置 NFPA 13D 住宅自动喷水灭火系统
 
-**R-4: Residential care/assisted living (5-16 persons)**
-- Examples: small group homes, small assisted living, alcohol/drug recovery
-- Occupant load factor: 18.6 m² gross per person (200 ft² gross)
-- Key code requirements: Condition 1 (ambulatory) or Condition 2 (non-ambulatory);
-  Condition 2 requires conformance with I-1 or I-2 provisions
+**R-4：居住照护/辅助生活（5–16 人）**
+- 示例：小型集体住宅、小型辅助生活设施、酒精/药物康复设施
+- 人员荷载系数：每人 18.6 m² 总面积（200 ft² 总面积）
+- 关键规范要求：条件 1（可自行行走）或条件 2（不能自行行走）；条件 2 必须符合 I-1 或 I-2 的规定
 
-### Group S -- Storage
+### S 类——仓储
 
-Buildings for storage not classified as hazardous.
+用于储存且不属于危险品储存的建筑。
 
-**S-1: Storage Moderate-Hazard**
-- Examples: furniture storage, tire storage, mattress storage, motor vehicle
-  repair garages, aircraft hangars (repair/storage)
-- Occupant load factor: 27.9 m² gross per person (300 ft² gross)
-- Typical fire load: high (80-200+ MJ/m²)
-- Key code requirements: sprinklers when fire area > 1115 m² (12,000 ft²);
-  repair garages require mechanical ventilation per IMC
+**S-1：中危险度仓储**
+- 示例：家具仓库、轮胎仓库、床垫仓库、机动车维修车库、飞机库（维修/储存）
+- 人员荷载系数：每人 27.9 m² 总面积（300 ft² 总面积）
+- 典型火灾荷载：高（80–200+ MJ/m²）
+- 关键规范要求：火灾区域 >1115 m²（12,000 ft²）时设置自动喷水灭火系统；维修车库按 IMC 要求设置机械通风
 
-**S-2: Storage Low-Hazard**
-- Examples: parking garages, aircraft hangars (storage only), noncombustible
-  material storage (metal, stone, glass)
-- Occupant load factor: 27.9 m² gross per person (300 ft² gross)
-- Typical fire load: low to moderate (10-40 MJ/m²)
-- Key code requirements: open parking garages (IBC 406.5) get significant
-  height/area increases; enclosed garages require CO detection
+**S-2：低危险度仓储**
+- 示例：停车库、飞机库（仅储存）、不可燃材料储存（钢、石材、玻璃）
+- 人员荷载系数：每人 27.9 m² 总面积（300 ft² 总面积）
+- 典型火灾荷载：低至中等（10–40 MJ/m²）
+- 关键规范要求：开放式停车库按 IBC 406.5 可显著增加高度/面积限值；封闭车库必须设置一氧化碳探测
 
-### Group U -- Utility and Miscellaneous
+### U 类——公用及杂项
 
-Buildings not classified in any other group.
+不属于其他任何使用类别的建筑。
 
-- Examples: agricultural buildings, carports, fences > 1.8 m (6 ft), retaining
-  walls, tanks, towers, barns, greenhouses, sheds
-- Occupant load factor: 27.9 m² gross per person (300 ft² gross)
-- Typical fire load: variable
-- Key code requirements: agricultural buildings exempt from many IBC provisions
-  per IBC 312; private garages classified U if not S-2
+- 示例：农业建筑、车棚、高度 >1.8 m（6 ft）的围栏、挡土墙、储罐、塔、谷仓、温室、棚屋
+- 人员荷载系数：每人 27.9 m² 总面积（300 ft² 总面积）
+- 典型火灾荷载：可变
+- 关键规范要求：按 IBC 312，农业建筑可豁免许多 IBC 条款；不属于 S-2 的私人车库归类为 U 类
 
 ---
 
-## Section 2: Construction Types
+## 第 2 节：建筑构造类别
 
-The IBC defines 5 construction types (I through V) with two subcategories each
-(A and B), for a total of 10 classifications. Additionally, the 2021 IBC introduced
-Type IV subcategories for mass timber. Construction type determines fire resistance
-ratings for structural elements and, combined with occupancy, sets height and area
-limits.
+IBC 定义了 5 类建筑构造（I 至 V），每类包含 A、B 两个子类别，共 10 种分类。此外，2021 版 IBC 为大体量木结构增加了 IV 类子类别。构造类别决定结构构件的耐火等级，并与使用类别共同确定建筑高度和面积限值。
 
-### Type I -- Noncombustible
+### I 类——不可燃
 
-The most fire-resistive construction. All structural elements are noncombustible.
+耐火性能最高的构造，所有结构构件均为不可燃材料。
 
-**Type IA**
-- Structural frame: 3-hour fire resistance rating (FRR)
-- Bearing walls (exterior): 3-hour FRR
-- Bearing walls (interior): 3-hour FRR
-- Floor construction: 2-hour FRR
-- Roof construction: 1.5-hour FRR
-- Typical materials: reinforced concrete, protected steel
-- Applications: high-rise buildings, hospitals, large assembly
+**IA 类**
+- 结构框架：3 小时耐火等级（FRR）
+- 承重墙（外墙）：3 小时 FRR
+- 承重墙（内墙）：3 小时 FRR
+- 楼板构造：2 小时 FRR
+- 屋面构造：1.5 小时 FRR
+- 典型材料：钢筋混凝土、受保护钢材
+- 应用：高层建筑、医院、大型集会建筑
 
-**Type IB**
-- Structural frame: 2-hour FRR
-- Bearing walls (exterior): 2-hour FRR
-- Bearing walls (interior): 2-hour FRR
-- Floor construction: 2-hour FRR
-- Roof construction: 1-hour FRR
-- Typical materials: reinforced concrete, protected steel
-- Applications: mid-rise to high-rise office, residential, institutional
+**IB 类**
+- 结构框架：2 小时 FRR
+- 承重墙（外墙）：2 小时 FRR
+- 承重墙（内墙）：2 小时 FRR
+- 楼板构造：2 小时 FRR
+- 屋面构造：1 小时 FRR
+- 典型材料：钢筋混凝土、受保护钢材
+- 应用：中高层办公、居住和机构建筑
 
-### Type II -- Noncombustible (reduced ratings)
+### II 类——不可燃（较低耐火等级）
 
-Structural elements are noncombustible but with lower or no fire resistance ratings.
+结构构件为不可燃材料，但耐火等级较低或没有耐火等级。
 
-**Type IIA**
-- Structural frame: 1-hour FRR
-- Bearing walls (exterior): 1-hour FRR
-- Bearing walls (interior): 1-hour FRR
-- Floor construction: 1-hour FRR
-- Roof construction: 1-hour FRR
-- Typical materials: protected steel, light-gauge steel framing with gypsum
-- Applications: mid-rise office, retail, educational
+**IIA 类**
+- 结构框架：1 小时 FRR
+- 承重墙（外墙）：1 小时 FRR
+- 承重墙（内墙）：1 小时 FRR
+- 楼板构造：1 小时 FRR
+- 屋面构造：1 小时 FRR
+- 典型材料：受保护钢材、轻型钢龙骨加石膏板
+- 应用：中层办公、零售和教育建筑
 
-**Type IIB**
-- Structural frame: 0-hour FRR (noncombustible, unprotected)
-- Bearing walls (exterior): 0-hour FRR
-- Bearing walls (interior): 0-hour FRR
-- Floor construction: 0-hour FRR
-- Roof construction: 0-hour FRR
-- Typical materials: unprotected steel, metal deck
-- Applications: warehouses, single-story commercial, big-box retail
+**IIB 类**
+- 结构框架：0 小时 FRR（不可燃、未保护）
+- 承重墙（外墙）：0 小时 FRR
+- 承重墙（内墙）：0 小时 FRR
+- 楼板构造：0 小时 FRR
+- 屋面构造：0 小时 FRR
+- 典型材料：未保护钢材、钢承板
+- 应用：仓库、单层商业建筑、大型盒式零售店
 
-### Type III -- Exterior Noncombustible, Interior Any
+### III 类——外部不可燃、内部不限
 
-Exterior walls are noncombustible; interior structure may be combustible.
+外墙为不可燃材料；内部结构可以采用可燃材料。
 
-**Type IIIA**
-- Structural frame: 1-hour FRR
-- Bearing walls (exterior): 2-hour FRR (noncombustible)
-- Bearing walls (interior): 1-hour FRR
-- Floor construction: 1-hour FRR
-- Roof construction: 1-hour FRR
-- Typical materials: masonry/concrete exterior, wood-frame interior with
-  gypsum protection
-- Applications: 3-5 story residential (apartments, hotels), mixed-use podium
+**IIIA 类**
+- 结构框架：1 小时 FRR
+- 承重墙（外墙）：2 小时 FRR（不可燃）
+- 承重墙（内墙）：1 小时 FRR
+- 楼板构造：1 小时 FRR
+- 屋面构造：1 小时 FRR
+- 典型材料：砌体/混凝土外墙，内部木框架并采用石膏板防护
+- 应用：3–5 层住宅（公寓、酒店）、带裙房的混合用途建筑
 
-**Type IIIB**
-- Structural frame: 0-hour FRR
-- Bearing walls (exterior): 2-hour FRR (noncombustible)
-- Bearing walls (interior): 0-hour FRR
-- Floor construction: 0-hour FRR
-- Roof construction: 0-hour FRR
-- Typical materials: masonry exterior, unprotected wood interior
-- Applications: low-rise mixed-use, retail with residential above
+**IIIB 类**
+- 结构框架：0 小时 FRR
+- 承重墙（外墙）：2 小时 FRR（不可燃）
+- 承重墙（内墙）：0 小时 FRR
+- 楼板构造：0 小时 FRR
+- 屋面构造：0 小时 FRR
+- 典型材料：砌体外墙、未保护木质内部结构
+- 应用：低层混合用途建筑、下部零售上部住宅
 
-### Type IV -- Heavy Timber and Mass Timber
+### IV 类——重型木结构与大体量木结构
 
-**Type IV (Legacy Heavy Timber, now Type IV-HT)**
-- Structural frame: heavy timber (HT) -- min dimensions per IBC 602.4
-  (columns min 203 mm / 8 in, beams min 152 x 203 mm / 6 x 8 in)
-- Bearing walls (exterior): 2-hour FRR (noncombustible)
-- Floor construction: heavy timber (min 76 mm / 3 in thick)
-- Roof construction: heavy timber (min 51 mm / 2 in thick)
-- No concealed spaces permitted
+**IV 类（传统重型木结构，现称 IV-HT）**
+- 结构框架：重型木结构（HT）——按 IBC 602.4 的最小尺寸要求（柱最小 203 mm / 8 in，梁最小 152×203 mm / 6×8 in）
+- 承重墙（外墙）：2 小时 FRR（不可燃）
+- 楼板构造：重型木结构（厚度至少 76 mm / 3 in）
+- 屋面构造：重型木结构（厚度至少 51 mm / 2 in）
+- 不允许设置隐蔽空腔
 
-**Type IV-A (Mass Timber, highest protection)**
-- Structural frame: 3-hour FRR (mass timber fully encapsulated with
-  noncombustible protection)
-- Floor/roof: 2-hour FRR (encapsulated)
-- All mass timber surfaces covered by noncombustible protection (typically
-  2 layers of 16 mm Type X gypsum board)
-- Maximum 18 stories per IBC (2021+)
+**IV-A 类（大体量木结构，最高防护等级）**
+- 结构框架：3 小时 FRR（大体量木结构完全由不可燃防护层包覆）
+- 楼板/屋面：2 小时 FRR（包覆）
+- 所有大体量木结构表面均采用不可燃防护层覆盖（通常为 2 层 16 mm Type X 石膏板）
+- 按 IBC（2021 版及以后）最高 18 层
 
-**Type IV-B (Mass Timber, partial exposure)**
-- Structural frame: 2-hour FRR
-- Floor/roof: 2-hour FRR
-- Limited exposed mass timber permitted: up to 20% of ceiling area,
-  40% of walls (noncombustible protection on remainder)
-- Maximum 12 stories per IBC (2021+)
+**IV-B 类（大体量木结构，部分外露）**
+- 结构框架：2 小时 FRR
+- 楼板/屋面：2 小时 FRR
+- 允许有限的大体量木结构外露：天花面积最多 20%、墙面最多 40%（其余部分设置不可燃防护层）
+- 按 IBC（2021 版及以后）最高 12 层
 
-**Type IV-C (Mass Timber, exposed)**
-- Structural frame: 2-hour FRR
-- Floor/roof: 2-hour FRR
-- Mass timber may be fully exposed (no required noncombustible covering)
-- Maximum 9 stories per IBC (2021+)
-- Fire resistance achieved by oversizing timber members beyond structural
-  requirements to account for charring
+**IV-C 类（大体量木结构，外露）**
+- 结构框架：2 小时 FRR
+- 楼板/屋面：2 小时 FRR
+- 大体量木结构可以完全外露（无需设置规定的不可燃覆盖层）
+- 按 IBC（2021 版及以后）最高 9 层
+- 通过将木构件尺寸增大到超过结构要求来考虑炭化，以实现耐火性能
 
-### Type V -- Combustible
+### V 类——可燃
 
-Wood-frame or other combustible construction.
+木框架或其他可燃构造。
 
-**Type VA**
-- Structural frame: 1-hour FRR
-- Bearing walls (exterior): 1-hour FRR
-- Bearing walls (interior): 1-hour FRR
-- Floor construction: 1-hour FRR
-- Roof construction: 1-hour FRR
-- Typical materials: wood-frame with gypsum board enclosure
-- Applications: 3-5 story residential (with podium), townhouses,
-  small commercial
+**VA 类**
+- 结构框架：1 小时 FRR
+- 承重墙（外墙）：1 小时 FRR
+- 承重墙（内墙）：1 小时 FRR
+- 楼板构造：1 小时 FRR
+- 屋面构造：1 小时 FRR
+- 典型材料：木框架配石膏板围护
+- 应用：3–5 层住宅（带裙房）、联排住宅、小型商业建筑
 
-**Type VB**
-- Structural frame: 0-hour FRR
-- Bearing walls (exterior): 0-hour FRR
-- Bearing walls (interior): 0-hour FRR
-- Floor construction: 0-hour FRR
-- Roof construction: 0-hour FRR
-- Typical materials: unprotected wood-frame
-- Applications: 1-2 story houses, small commercial, agricultural
+**VB 类**
+- 结构框架：0 小时 FRR
+- 承重墙（外墙）：0 小时 FRR
+- 承重墙（内墙）：0 小时 FRR
+- 楼板构造：0 小时 FRR
+- 屋面构造：0 小时 FRR
+- 典型材料：未保护木框架
+- 应用：1–2 层住宅、小型商业建筑、农业建筑
 
-### Height and Area by Construction Type (IBC Table 504.3/504.4 Summary)
+### 按构造类别确定高度和面积（IBC 表 504.3/504.4 摘要）
 
-Selected maximum heights (stories / feet) and areas (ft² per floor) for
-sprinklered buildings:
+设置自动喷水灭火系统的建筑，其选定的最大高度（层数/英尺）和每层面积（ft²）如下：
 
-| Occupancy | Type IA | Type IB | Type IIA | Type IIB | Type IIIA | Type VA | Type VB |
+| 使用类别 | IA 类 | IB 类 | IIA 类 | IIB 类 | IIIA 类 | VA 类 | VB 类 |
 |-----------|---------|---------|----------|----------|-----------|---------|---------|
 | A-2 | UL/UL | 12/180 | 12/85 | 12/75 | 12/85 | 4/70 | 2/40 |
 | B | UL/UL | 12/180 | 12/85 | 12/75 | 12/85 | 4/70 | 2/40 |
 | R-2 | UL/UL | 12/180 | 12/85 | 12/75 | 12/85 | 4/70 | 3/50 |
 | S-1 | UL/UL | 12/180 | 6/79 | 4/48 | 5/48 | 4/39 | 2/26 |
 
-(UL = Unlimited. All areas shown in thousands of ft². Height in stories/feet.
-Values are with sprinkler increase per IBC 504.2. Actual project values must be
-verified against IBC Table 504.3, 504.4, and 506.2.)
+（UL = 不限。所有面积以千 ft² 表示，高度以层数/英尺表示。数值已按 IBC 504.2 考虑喷淋增幅。具体项目数值必须对照 IBC 表 504.3、504.4 和 506.2 进行核验。）
 
 ---
 
-## Section 3: Height and Area Limitations
+## 第 3 节：高度与面积限值
 
-### Calculating Allowable Height
+### 允许高度计算
 
-IBC controls height two ways:
+IBC 通过两种方式控制高度：
 
-1. **Allowable stories above grade plane** (IBC Table 504.4)
-2. **Allowable building height in feet/meters** (IBC Table 504.3)
+1. **地坪面以上允许层数**（IBC 表 504.4）
+2. **以英尺/米表示的允许建筑高度**（IBC 表 504.3）
 
-Both must be satisfied. The more restrictive governs.
+两项均必须满足，以限制更严格者为准。
 
-**Sprinkler height increase (IBC 504.2):**
-- An NFPA 13 sprinkler system adds 6.1 m (20 ft) to allowable height
-- Adds 1 story to allowable stories (except for certain H and I occupancies)
-- Type IB and higher with Group B, M, or S-2: unlimited height when sprinklered
+**喷淋高度增幅（IBC 504.2）：**
+- NFPA 13 自动喷水灭火系统可使允许高度增加 6.1 m（20 ft）
+- 允许层数增加 1 层（部分 H 类和 I 类使用类别除外）
+- IB 类及更高构造、且使用类别为 B、M 或 S-2 时，设置喷淋后高度不限
 
-### Calculating Allowable Area
+### 允许面积计算
 
-**Base allowable area per floor** is given by IBC Table 506.2 based on occupancy
-and construction type.
+**每层基础允许面积**根据使用类别和构造类别，按 IBC 表 506.2 确定。
 
-**Frontage increase (If):**
+**临街增幅（If）：**
 ```
 If = [F/P - 0.25] × 100 / 0.75
 ```
-Where:
-- F = building perimeter fronting on public way or open space > 6.1 m (20 ft) wide
-- P = total building perimeter
-- Maximum If = 75%
-- Minimum F/P = 0.25 (no increase below this)
+其中：
+- F = 面向公共道路或宽度 >6.1 m（20 ft）开放空间的建筑周长
+- P = 建筑总周长
+- If 最大值 = 75%
+- F/P 最小值 = 0.25（低于此值不增加）
 
-**Sprinkler increase (Is):**
-- Multi-story: Is = 200% (area triples) for NFPA 13 system
-- Single-story: Is = 300% (area quadruples) for NFPA 13 system
+**喷淋增幅（Is）：**
+- 多层建筑：采用 NFPA 13 系统时 Is = 200%（面积变为 3 倍）
+- 单层建筑：采用 NFPA 13 系统时 Is = 300%（面积变为 4 倍）
 
 **Allowable area per floor (Aa):**
 ```
 Aa = At + [At × If / 100] + [At × Is / 100]
 ```
-Where At = tabular area from Table 506.2
+其中 At = 表 506.2 中的表列面积
 
-**Allowable total building area:**
+**建筑允许总面积：**
 ```
 Total = Aa × number of stories (up to 3 stories)
 ```
-For buildings > 3 stories, total area is not limited per floor but overall
-building footprint is governed by Aa.
+对于超过 3 层的建筑，总面积不按楼层单独限制，但建筑总体占地仍由 Aa 控制。
 
-### Unlimited Area Buildings (IBC 507)
+### 不限面积建筑（IBC 507）
 
-A building may have unlimited area when ALL of the following are met:
+建筑满足以下全部条件时，可采用不限面积：
 
-1. **Single story** (one story above grade plane)
-2. **NFPA 13 sprinkler system** throughout
-3. **Construction type and occupancy** per the following:
-   - Type I or IIA: Groups A, B, E, F, H (limited), M, S
-   - Type IIIA or IV: Groups B, F, M, S (with 18.3 m / 60 ft setback all sides)
-   - Type IIA: Group A-4 (open air) without sprinkler requirement
-4. **Perimeter access**: 18.3 m (60 ft) minimum setback from lot lines on all
-   sides, or public way frontage for fire department access
+1. **单层**（地坪面以上仅 1 层）
+2. **全建筑设置 NFPA 13 自动喷水灭火系统**
+3. **构造类别和使用类别**符合以下规定：
+   - I 类或 IIA 类：A、B、E、F、H（有限制）、M、S 类
+   - IIIA 类或 IV 类：B、F、M、S 类（四周均需退距 18.3 m / 60 ft）
+   - IIA 类：A-4 类（露天）可不设置喷淋
+4. **周边消防通道**：距用地边界四周至少 18.3 m（60 ft），或临公共道路以供消防部门进入
 
-These provisions enable large-footprint buildings: convention centers, big-box
-retail, warehouses, aircraft hangars, manufacturing plants.
+这些规定适用于大占地建筑，例如会议中心、大型盒式零售店、仓库、飞机库和制造工厂。
 
 ---
 
-## Section 4: Means of Egress
+## 第 4 节：疏散路径
 
-Means of egress is the continuous and unobstructed path of travel from any occupied
-point in a building to a public way. It consists of three components.
+疏散路径是从建筑内任何有人使用的位置通往公共道路的连续、无障碍行走路线，由三个部分组成。
 
-### Three Components
+### 三个组成部分
 
-1. **Exit Access** -- the path from any occupied point to an exit. Includes
-   rooms, corridors, aisles, ramps, and unenclosed stairs within exit access.
-   Not fire-rated (except corridor requirements per Table 1020.1).
+1. **出口通道**——从任何有人使用的位置通往出口的路径，包括房间、走道、过道、坡道以及出口通道范围内的非封闭楼梯。通常无耐火等级（表 1020.1 规定的走道要求除外）。
 
-2. **Exit** -- the fire-rated portion separating exit access from exit discharge.
-   Includes:
-   - Interior exit stairways (enclosed stairs)
-   - Interior exit ramps
-   - Exit passageways (horizontal fire-rated corridors connecting stairs to
-     exit discharge)
-   - Horizontal exits (fire wall with fire doors allowing passage to adjacent
-     fire compartment)
+2. **出口**——将出口通道与出口排出通道分隔开的耐火部分，包括：
+   - 室内出口楼梯（封闭楼梯）
+   - 室内出口坡道
+   - 出口通道（连接楼梯与出口排出通道的水平耐火走道）
+   - 水平出口（带防火门、可通往相邻防火分区的防火墙）
 
-3. **Exit Discharge** -- the path from the exit to the public way. Includes
-   exterior exit doors, vestibules, exit courts, exterior stairs. Max 50%
-   of exits may discharge through the level of exit discharge (ground floor)
-   if sprinklered and path through ground floor is protected.
+3. **出口排出通道**——从出口通往公共道路的路径，包括室外出口门、前室、出口庭院和室外楼梯。设置喷淋且首层路径受保护时，最多 50% 的出口可通过出口排出层（地面层）排出。
 
-### Number of Exits Required (IBC Table 1006.2.1)
+### 所需出口数量（IBC 表 1006.2.1）
 
-| Occupant Load | Minimum Exits |
+| 人员荷载 | 最少出口数 |
 |---------------|---------------|
 | 1-500 | 2 |
 | 501-1,000 | 3 |
 | > 1,000 | 4 |
 
-**Exception for single exit:** Certain occupancies with small occupant loads
-and short travel distances may have a single exit per IBC Table 1006.2.1:
-- Group B: max 49 occupants, max travel distance 23 m (75 ft), max 1 story
-- Group R-2: max 4 dwelling units per floor, max travel distance 38 m (125 ft)
-  sprinklered
+**单一出口例外：**部分人员荷载较小且行走距离较短的使用类别，按 IBC 表 1006.2.1 可设置单一出口：
+- B 类：最多 49 人，最大行走距离 23 m（75 ft），最高 1 层
+- R-2 类：每层最多 4 个居住单元，设置喷淋时最大行走距离 38 m（125 ft）
 
-### Travel Distance (IBC Table 1017.2)
+### 行走距离（IBC 表 1017.2）
 
-Maximum travel distance from the most remote point to the nearest exit:
+从最不利点到最近出口的最大行走距离：
 
-| Occupancy | Unsprinklered | Sprinklered |
+| 使用类别 | 无喷淋 | 有喷淋 |
 |-----------|---------------|-------------|
 | A | 61 m (200 ft) | 76 m (250 ft) |
 | B | 61 m (200 ft) | 91 m (300 ft) |
@@ -540,93 +442,79 @@ Maximum travel distance from the most remote point to the nearest exit:
 | S-2 | 91 m (300 ft) | 122 m (400 ft) |
 | U | 61 m (200 ft) | 76 m (250 ft) |
 
-(NP = not permitted without sprinklers)
+（NP = 未设置喷淋时不允许）
 
-### Common Path of Egress Travel
+### 疏散行走共同路径
 
-The portion of exit access that must be traversed before two separate paths to
-two exits become available:
+在获得通往两个出口的两条独立路径之前，必须经过的出口通道部分：
 
-- General: 23 m (75 ft)
-- Groups B, F, S (sprinklered): 30 m (100 ft)
-- Group R (sprinklered): 38 m (125 ft)
-- Groups I-1, I-2: 15 m (50 ft)
+- 一般情况：23 m（75 ft）
+- B、F、S 类（设置喷淋）：30 m（100 ft）
+- R 类（设置喷淋）：38 m（125 ft）
+- I-1、I-2 类：15 m（50 ft）
 
-### Dead-End Corridors
+### 尽端走道
 
-- General: 6.1 m (20 ft) maximum dead-end corridor
-- Sprinklered B, F-1, S-1: 15 m (50 ft)
-- Groups I-2, I-3: 6.1 m (20 ft), no increase
+- 一般情况：尽端走道最大 6.1 m（20 ft）
+- 设置喷淋的 B、F-1、S-1 类：15 m（50 ft）
+- I-2、I-3 类：6.1 m（20 ft），不增加
 
-### Exit Width Calculation
+### 出口宽度计算
 
-**Stairways:**
-- 7.6 mm (0.3 in) per occupant served
-- Minimum stair width: 1118 mm (44 in) for occupant load >= 50;
-  914 mm (36 in) for < 50
+**楼梯：**
+- 每服务 1 人按 7.6 mm（0.3 in）计算
+- 最小楼梯宽度：人员荷载 ≥50 时为 1118 mm（44 in）；<50 时为 914 mm（36 in）
 
-**Level components (doors, corridors, ramps):**
-- 5.1 mm (0.2 in) per occupant served
-- Minimum corridor width: 1118 mm (44 in) general; 1829 mm (72 in)
-  for I-2 corridors; 2438 mm (96 in) for E corridors
+**同层构件（门、走道、坡道）：**
+- 每服务 1 人按 5.1 mm（0.2 in）计算
+- 最小走道宽度：一般为 1118 mm（44 in）；I-2 类走道为 1829 mm（72 in）；E 类走道为 2438 mm（96 in）
 
-**Example:** 600 occupants, 2 stairs:
-- Each stair serves 300 occupants (at minimum; balanced loading)
-- Stair width = 300 × 7.6 mm = 2,280 mm required
-- Provide 2,300 mm (or two 1,150 mm stairs is insufficient -- each must
-  be 2,280 mm? No -- total capacity across all exits must accommodate
-  total occupant load, with largest single exit excluded)
-- IBC 1005.1: with any one exit blocked, remaining exits must handle
-  total load. With 2 exits, each must handle 100% of load
-- Revised: each stair = 600 × 7.6 mm = 4,560 mm? No -- each stair
-  handles 50%, but IBC requires total minus largest single exit
-- Correct application: 2 exits, each 50% = 300 occupants per stair
-  = 300 × 7.6 = 2,280 mm per stair
+**示例：**600 人、2 部楼梯：
+- 每部楼梯服务 300 人（最小值；均衡分配）
+- 楼梯宽度 = 300 × 7.6 mm = 需 2,280 mm
+- 设置 2,300 mm（两部 1,150 mm 楼梯不足——是否每部都必须 2,280 mm？不是；所有出口的总容量必须满足总人员荷载，并排除容量最大的单个出口）
+- IBC 1005.1：任一出口被封闭时，剩余出口必须承载总荷载。设置 2 个出口时，每个出口需要承担 100% 荷载
+- 修正：每部楼梯 = 600 × 7.6 mm = 4,560 mm？不是；每部楼梯承担 50%，但 IBC 要求按总荷载减去容量最大的单个出口计算
+- 正确应用：2 个出口各承担 50% = 每部楼梯 300 人 = 300 × 7.6 = 每部 2,280 mm
 
-(Note: The convergence factor and actual calculation method should be verified
-against the specific IBC edition adopted by the jurisdiction.)
+（注：汇合系数和实际计算方法应根据辖区采用的具体 IBC 版本进行核验。）
 
-### European Comparison (EN/BS)
+### 欧洲规范比较（EN/BS）
 
-- EN standard stair width: 1,100 mm minimum (BS 9999: 1,050 mm minimum
-  for up to 150 persons per floor)
-- Travel distance measured differently: actual walking distance along
-  shortest route vs. IBC straight-line method
+- EN 标准楼梯宽度：最小 1,100 mm（BS 9999：每层最多 150 人时最小 1,050 mm）
+- 行走距离测量方式不同：EN/BS 按最短路线的实际行走距离，IBC 采用直线距离方法
 
 ---
 
-## Section 5: Fire Separation Requirements
+## 第 5 节：防火分隔要求
 
-### Types of Fire-Rated Construction
+### 防火构造类型
 
-**Fire Wall (IBC 706):**
-- Structural independence (self-supporting, remains standing if structure
-  on either side collapses)
-- Creates separate buildings for height/area calculations
-- Rating: 2 hr (R, B, E, M) to 4 hr (H, F-1, S-1)
+**防火墙（IBC 706）：**
+- 结构独立（自承重，即使任一侧结构倒塌仍保持站立）
+- 在高度/面积计算中形成独立建筑
+- 耐火等级：R、B、E、M 类为 2 小时；H、F-1、S-1 类为 4 小时
 
-**Fire Barrier (IBC 707):**
-- Continuous from floor to underside of floor/roof above (or through roof)
-- Used for: occupancy separation, exit enclosures, incidental use separation,
-  shaft enclosures, horizontal exits
-- Rating: per table requirements (typically 1-2 hr)
+**防火隔墙（IBC 707）：**
+- 从楼板连续延伸至上方楼板/屋面底面（或穿过屋面）
+- 用途：使用类别分隔、出口封闭、附属用途分隔、竖井封闭、水平出口
+- 耐火等级：按表格要求确定（通常为 1–2 小时）
 
-**Fire Partition (IBC 708):**
-- May terminate at underside of fire-rated floor/ceiling or roof/ceiling
-  assembly above
-- Used for: dwelling unit separation, sleeping unit separation, corridor walls
-- Rating: typically 1 hr (0.5 hr for corridor in some sprinklered conditions)
+**防火分隔墙（IBC 708）：**
+- 可终止于上方耐火楼板/吊顶或屋面/吊顶组件的底面
+- 用途：居住单元分隔、睡眠单元分隔、走道墙
+- 耐火等级：通常为 1 小时（部分设置喷淋的条件下，走道可为 0.5 小时）
 
-**Smoke Barrier (IBC 709):**
-- Continuous membrane from outside wall to outside wall or floor to floor
-- Used for: I-2 smoke compartments, I-3 smoke compartments
-- Rating: 1 hr minimum, with smoke-tight construction
+**防烟隔断（IBC 709）：**
+- 从外墙连续延伸至外墙，或从楼板连续延伸至楼板
+- 用途：I-2 类和 I-3 类防烟分区
+- 耐火等级：最小 1 小时，并采用防烟密闭构造
 
-### Occupancy Separation (IBC Table 508.4)
+### 使用类别分隔（IBC 表 508.4）
 
-When different occupancies share a building using the separated occupancy method:
+采用分隔使用类别方法时，不同使用类别共用一栋建筑应满足：
 
-| Adjacent Occupancies | Separation (hr) S / NS |
+| 相邻使用类别 | 分隔耐火时间（小时）S / NS |
 |---------------------|------------------------|
 | A, B, E, M, R, S / A, B, E, M, R, S | 1 / 2 |
 | A, B, E, M, R, S / F-1, S-1 | 1 / 2 |
@@ -637,18 +525,17 @@ When different occupancies share a building using the separated occupancy method
 | A, B, E, M, R, S / I-2 | 2 / NP |
 | H-1 / any | NP / NP |
 
-(S = sprinklered, NS = nonsprinklered, NP = not permitted)
+（S = 设置喷淋，NS = 未设置喷淋，NP = 不允许）
 
-### Shaft Enclosures (IBC 713)
+### 竖井封闭（IBC 713）
 
-- Shafts connecting 4 or fewer stories: 1-hour fire barrier
-- Shafts connecting more than 4 stories: 2-hour fire barrier
-- Applies to: elevator shafts, mechanical shafts, stairways, garbage chutes,
-  laundry chutes, duct shafts
+- 连接不超过 4 层的竖井：1 小时防火隔墙
+- 连接超过 4 层的竖井：2 小时防火隔墙
+- 适用对象：电梯井、机电竖井、楼梯、垃圾滑道、洗衣滑道、风管竖井
 
-### Corridor Fire Rating (IBC Table 1020.1)
+### 走道耐火等级（IBC 表 1020.1）
 
-| Occupancy | Sprinklered | Nonsprinklered |
+| 使用类别 | 设置喷淋 | 未设置喷淋 |
 |-----------|-------------|----------------|
 | H-1, H-2, H-3 | 1 hr | 1 hr |
 | H-4, H-5 | 1 hr | 1 hr |
@@ -657,159 +544,113 @@ When different occupancies share a building using the separated occupancy method
 | A, B, E, F, M, S, U | 0 hr | 1 hr |
 | R | 0.5 hr | 1 hr |
 
-(*Corridor walls in I occupancies are often required by other sections to be
-smoke partitions regardless of Table 1020.1 rating.)
+（*无论表 1020.1 的耐火等级如何，I 类建筑的走道墙通常还需根据其他条款设置为防烟分隔。）
 
 ---
 
-## Section 6: Plumbing Fixtures
+## 第 6 节：卫生器具
 
-### Minimum Plumbing Fixture Requirements (IBC Table 2902.1 / IPC Table 403.1)
+### 卫生器具最低要求（IBC 表 2902.1 / IPC 表 403.1）
 
-Minimum number of fixtures per occupant by occupancy group:
+按使用类别计算的每名使用者最低卫生器具数量：
 
-**Assembly (A):**
-- Water closets: 1 per 125 males / 1 per 65 females
-- Lavatories: 1 per 200 persons
-- Drinking fountains: 1 per 500 persons
-- Service sinks: 1 per building
+**集会（A）：**
+- 坐便器：每 125 名男性 1 个 / 每 65 名女性 1 个
+- 洗手盆：每 200 人 1 个
+- 饮水器：每 500 人 1 个
+- 清洁水槽：每栋建筑 1 个
 
-**Business (B):**
-- Water closets: 1 per 25 males / 1 per 25 females (up to 50 occupants);
-  additional per larger counts
-- Lavatories: 1 per 40 persons
-- Drinking fountains: 1 per 100 persons
-- Service sinks: 1 per building
+**商业（B）：**
+- 坐便器：每 25 名男性 1 个 / 每 25 名女性 1 个（最多 50 人）；人数增加时按比例增加
+- 洗手盆：每 40 人 1 个
+- 饮水器：每 100 人 1 个
+- 清洁水槽：每栋建筑 1 个
 
-**Educational (E):**
-- Water closets: 1 per 50 males / 1 per 50 females
-- Lavatories: 1 per 50 persons
-- Drinking fountains: 1 per 100 persons
+**教育（E）：**
+- 坐便器：每 50 名男性 1 个 / 每 50 名女性 1 个
+- 洗手盆：每 50 人 1 个
+- 饮水器：每 100 人 1 个
 
-**Mercantile (M):**
-- Water closets: 1 per 500 males / 1 per 750 females (per code cycle --
-  verify current edition)
-- Customer facilities required when floor area > 929 m² (10,000 ft²)
+**商业零售（M）：**
+- 坐便器：每 500 名男性 1 个 / 每 750 名女性 1 个（按规范版本核验）
+- 建筑面积 >929 m²（10,000 ft²）时必须设置顾客卫生设施
 
-**Residential (R-1, R-2):**
-- 1 water closet, 1 lavatory, 1 bathtub/shower per dwelling unit or
-  guest room
-- Drinking fountains: 0 (private units)
+**居住（R-1、R-2）：**
+- 每个居住单元或客房设置 1 个坐便器、1 个洗手盆和 1 个浴缸/淋浴器
+- 饮水器：0 个（私人单元）
 
-**Industrial / Factory (F):**
-- Water closets: 1 per 100 males / 1 per 100 females
-- Lavatories: 1 per 100 persons
-- Drinking fountains: 1 per 400 persons
+**工业/工厂（F）：**
+- 坐便器：每 100 名男性 1 个 / 每 100 名女性 1 个
+- 洗手盆：每 100 人 1 个
+- 饮水器：每 400 人 1 个
 
-**Institutional (I):**
-- Varies by condition: I-2 requires accessible patient bathing and toilet
-  facilities per occupant ratios defined by licensing authorities
-- Typically 1 WC per patient room in hospitals
+**机构（I）：**
+- 根据条件变化：I-2 类需按许可主管部门规定的人员比例设置无障碍患者沐浴和卫生设施
+- 医院通常每间患者病房设置 1 个坐便器
 
-### Gender-Neutral / All-User Toilet Provisions
+### 性别中立/全用户卫生间规定
 
-Current code trends (2021 IBC and later amendments):
-- Single-occupant toilet rooms may be designated for use by any gender
-- Multi-stall all-gender restrooms addressed in some jurisdictions
-- Fixture count may be combined when using all-gender single-occupant rooms
+当前规范趋势（2021 版 IBC 及后续修订）：
+- 单人卫生间可指定为任何性别使用
+- 部分辖区已对多隔间全性别卫生间作出规定
+- 采用全性别单人卫生间时，卫生器具数量可以合并计算
 
 ---
 
-## Section 7: International Code Comparison
+## 第 7 节：国际规范比较
 
-### IBC (United States)
+### IBC（美国）
 
-- **Scope:** Model code adopted by all 50 states (with local amendments)
-- **Height limits:** Set by construction type and occupancy per prescriptive tables
-- **Fire resistance:** Prescriptive fire resistance ratings per construction type
-  (Tables 601, 602)
-- **Accessibility:** ICC A117.1 referenced; ADA/ABA standards enforced federally
-- **Energy:** IECC (International Energy Conservation Code) or ASHRAE 90.1
+- **适用范围：**由美国 50 个州采用的示范规范（各州可作地方修订）
+- **高度限值：**按构造类别和使用类别，根据规定性表格确定
+- **耐火性能：**按构造类别规定耐火等级（表 601、602）
+- **无障碍：**引用 ICC A117.1；ADA/ABA 标准由联邦层面执行
+- **能源：**IECC（International Energy Conservation Code）或 ASHRAE 90.1
 
-### Building Regulations (England & Wales)
+### Building Regulations（英格兰和威尔士）
 
-- **Scope:** Statutory Instruments enforced through Approved Documents A-S
-- **Height limits:** No prescriptive height/area table; fire strategy and structural
-  design govern feasibility. Approved Document B provides guidance by "purpose group"
-  (equivalent to occupancy)
-- **Fire resistance:** Approved Document B, Volume 1 (dwellings) and Volume 2
-  (other buildings). Fire resistance periods: 30 min (up to 5 m height), 60 min
-  (up to 18 m), 90 min (up to 30 m), 120 min (over 30 m). Post-Grenfell:
-  combustible material ban above 18 m (Building Safety Act 2022)
-- **Accessibility:** Approved Document M (Volume 1: dwellings, Volume 2: other
-  buildings). Category M4(2) accessible and adaptable dwellings; M4(3) wheelchair
-  user dwellings
-- **Energy:** Approved Document L; Part L 2021 uplift targets ~31% CO2 reduction
-  over 2013 standards; Future Homes Standard 2025 targeting 75-80% reduction
+- **适用范围：**通过 Approved Documents A–S 执行的法定文书
+- **高度限值：**没有规定性的高度/面积表；消防策略和结构设计决定可行性。Approved Document B 按“用途组”（相当于使用类别）提供指导
+- **耐火性能：**Approved Document B 第 1 卷（住宅）和第 2 卷（其他建筑）。耐火时间：高度不超过 5 m 为 30 分钟、不超过 18 m 为 60 分钟、不超过 30 m 为 90 分钟、超过 30 m 为 120 分钟。Grenfell 事件后，18 m 以上禁止使用可燃材料（Building Safety Act 2022）
+- **无障碍：**Approved Document M（第 1 卷：住宅，第 2 卷：其他建筑）；M4(2) 类无障碍及可适应住宅；M4(3) 类轮椅使用者住宅
+- **能源：**Approved Document L；Part L 2021 目标是在 2013 标准基础上减少约 31% CO2；Future Homes Standard 2025 目标减少 75–80%
 
-### Eurocodes + National Annexes
+### Eurocodes + National Annexes（欧洲规范及国家附录）
 
-- **Scope:** Structural design standards (EN 1990-1999) adopted across EU/EEA
-  with nationally determined parameters (NDPs)
-- **Height limits:** Not addressed by Eurocodes; governed by national building
-  regulations (e.g., Germany: Landesbauordnung, France: Code de la Construction)
-- **Fire resistance:** EN 1991-1-2 (fire actions), EN 1992-1-2 through
-  EN 1996-1-2 (material-specific fire design). Parametric fire curves as
-  alternative to standard fire
-- **Accessibility:** EN 17210 (accessibility and usability of the built
-  environment) published 2021; implementation varies by member state
-- **Energy:** EPBD (Energy Performance of Buildings Directive); nearly zero-energy
-  building (nZEB) requirements since 2021 for all new buildings
+- **适用范围：**EU/EEA 广泛采用的结构设计标准（EN 1990–1999），并结合各国确定的参数（NDPs）
+- **高度限值：**Eurocodes 不涉及，由各国建筑法规控制（例如德国 Landesbauordnung、法国 Code de la Construction）
+- **耐火性能：**EN 1991-1-2（火灾作用）、EN 1992-1-2 至 EN 1996-1-2（按材料分别进行防火设计）；参数化火灾曲线可作为标准火灾的替代方案
+- **无障碍：**EN 17210（建成环境的无障碍与可用性）于 2021 年发布；各成员国实施情况不同
+- **能源：**EPBD（Energy Performance of Buildings Directive）；自 2021 年起所有新建筑均需满足近零能耗建筑（nZEB）要求
 
-### NCC (National Construction Code, Australia)
+### NCC（National Construction Code，澳大利亚）
 
-- **Scope:** Building Code of Australia (BCA) forms Volume 1 and 2 of NCC
-- **Height limits:** Determined by building classification (Class 1-10) and
-  type of construction (A, B, C corresponding roughly to IBC Types I, III, V).
-  Rise in storeys and floor area per Table C1.1
-- **Fire resistance:** NCC Volume 1 Specification C1.1; fire resistance levels (FRL)
-  expressed as structural adequacy / integrity / insulation in minutes
-  (e.g., 120/120/120)
-- **Accessibility:** NCC Section D (Access and Egress) + AS 1428.1 (Design for
-  Access and Mobility, General Requirements)
-- **Energy:** NCC Section J (Energy Efficiency); NatHERS for residential
+- **适用范围：**Building Code of Australia（BCA）构成 NCC 第 1 卷和第 2 卷
+- **高度限值：**由建筑分类（Class 1–10）和构造类别（A、B、C，大致对应 IBC 的 I、III、V 类）确定；层数和楼面面积按表 C1.1
+- **耐火性能：**NCC 第 1 卷规范 C1.1；耐火等级（FRL）以结构承载能力/完整性/隔热性分钟数表示（例如 120/120/120）
+- **无障碍：**NCC D 节（通行与疏散）+ AS 1428.1（通行与移动设计，通用要求）
+- **能源：**NCC J 节（能源效率）；住宅采用 NatHERS
 
-### NBC (National Building Code, Canada)
+### NBC（National Building Code，加拿大）
 
-- **Scope:** Model code published by NRC; adopted by provinces with modifications
-- **Height limits:** Part 3 Table 3.2.2.A (building area and height based on
-  major occupancy and construction type: noncombustible vs combustible)
-- **Fire resistance:** Part 3 Subsection 3.2.2; fire-resistance ratings by
-  building use and height. Combustible construction limited to 6 storeys
-  (recent amendments allow up to 12 for mass timber in some provinces)
-- **Accessibility:** CSA B651 (Accessible Design for the Built Environment);
-  NBC Part 3 Section 3.8 (Barrier-Free Design)
-- **Energy:** NECB (National Energy Code for Buildings) 2020; tiered energy
-  performance targets
+- **适用范围：**由 NRC 发布的示范规范，各省经修订后采用
+- **高度限值：**第 3 部分表 3.2.2.A（根据主要使用类别和构造类别，即不可燃或可燃，确定建筑面积和高度）
+- **耐火性能：**第 3 部分第 3.2.2 小节；按建筑用途和高度规定耐火等级。可燃构造通常限制为 6 层（近期修订允许部分省份的大体量木结构达到 12 层）
+- **无障碍：**CSA B651（建成环境无障碍设计）；NBC 第 3 部分第 3.8 节（无障碍设计）
+- **能源：**NECB（National Energy Code for Buildings）2020；分级能源性能目标
 
-### Key Comparative Observations
+### 关键比较观察
 
-1. **Prescriptive vs performance:** IBC and NBC use prescriptive tables for
-   height/area. UK and Australian codes allow performance-based fire engineering
-   as a standard path, enabling designs exceeding prescriptive limits with
-   adequate justification.
+1. **规定性与性能化：**IBC 和 NBC 使用高度/面积规定性表格。英国和澳大利亚规范将性能化消防工程作为标准途径，在充分论证时允许设计超出规定性限值。
 
-2. **Fire resistance philosophy:** IBC rates individual assemblies. UK and
-   Eurocodes focus on whole-building fire strategy with insulation, integrity,
-   and load-bearing criteria assessed separately.
+2. **耐火理念：**IBC 对单个构件系统进行评级；英国规范和 Eurocodes 关注整栋建筑消防策略，分别评估隔热、完整性和承载能力。
 
-3. **Accessibility scope:** ADA focuses on public accommodations and commercial
-   facilities. UK Part M applies to all new buildings including dwellings.
-   Australia AS 1428.1 is among the most stringent for public buildings.
+3. **无障碍范围：**ADA 重点针对公共设施和商业设施；英国 Part M 适用于所有新建筑，包括住宅；澳大利亚 AS 1428.1 是公共建筑中要求最严格的标准之一。
 
-4. **Energy trajectory:** All jurisdictions are converging toward near-zero
-   energy new construction by 2030. UK's Future Homes Standard (2025) and EU's
-   EPBD recast (2024) lead with most aggressive targets.
+4. **能源趋势：**所有辖区都在向 2030 年新建建筑近零能耗目标靠拢。英国 Future Homes Standard（2025）和欧盟 EPBD 重编版（2024）提出了最积极的目标。
 
-5. **Mass timber:** IBC 2021 introduced Type IV-A/B/C for tall mass timber.
-   NBC allows up to 12 stories in some provinces. UK has no prescriptive tall
-   timber path but performance-based approaches have enabled projects up to
-   10 stories. Australia NCC 2019 introduced provisions for mass timber up to
-   25 m effective height.
+5. **大体量木结构：**IBC 2021 为高层大体量木结构引入 IV-A/B/C 类；NBC 允许部分省份达到 12 层；英国没有规定性的高层木结构路径，但性能化方法已支持最高约 10 层的项目；澳大利亚 NCC 2019 引入了有效高度最高 25 m 的大体量木结构规定。
 
 ---
 
-*This skill provides general code guidance for architectural decision-making.
-All code interpretations must be verified against the specific edition adopted
-by the authority having jurisdiction (AHJ). Building officials have final
-authority on code compliance.*
+*本技能为建筑决策提供一般性规范指导。所有规范解释必须根据主管部门（AHJ）采用的具体版本进行核验。建筑主管部门对规范合规性拥有最终裁定权。*

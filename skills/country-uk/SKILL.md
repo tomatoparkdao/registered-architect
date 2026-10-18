@@ -1,476 +1,464 @@
 ---
 name: country-uk
 description: >
-  United Kingdom architectural code and regulatory reference. Covers the Building Regulations
-  2010 for England with Approved Documents A through S (current 2010-2025 amendments), the
-  parallel regimes for Wales (Welsh Approved Documents), Scotland (Building (Scotland)
-  Regulations 2004 + Scottish Technical Handbooks), and Northern Ireland (Building Regulations
-  (NI) 2012 + Technical Booklets). Post-Grenfell amendments to AD-B (2018-2023), the Building
-  Safety Act 2022 with Building Safety Regulator (BSR) regime for Higher-Risk Buildings (HRB),
-  Future Homes Standard 2025 and Future Buildings Standard 2025 (next AD-L), British Standards
-  (BS 9991 fire safety dwellings, BS 9999 fire safety non-domestic, BS 8300-1/-2 accessibility,
-  BS 5950 legacy steel, BS EN Eurocodes with UK National Annexes, BS 8500 concrete), London
-  Plan 2021 + Mayor's Energy Hierarchy, Local Plans + NPPF (National Planning Policy Framework
-  2024), LABC vs Approved Inspector, EPC + SAP 10.2 + SBEM, Energy Act 2011 MEES minimum
-  energy efficiency standards, BREEAM, and the post-Grenfell Building Safety regime including
-  Gateway 1-3, Resident Engagement, Golden Thread, Safety Case Report, Mandatory Occurrence
-  Reporting, and the Construction Products regulatory regime.
+  英国建筑规范与法规参考。涵盖英格兰《建筑法规 2010》及批准文件 A 至 S（2010-2025 年现行修订）、
+  威尔士（威尔士批准文件）、苏格兰（《2004 年建筑法规（苏格兰）》及苏格兰技术手册）和北爱尔兰
+  （《2012 年建筑法规（北爱尔兰）》及技术手册）的平行制度；格伦费尔事件后的 AD-B 修订（2018-2023）、
+  《建筑安全法 2022》及高风险建筑（HRB）建筑安全监管机构（BSR）制度、2025 年未来住宅标准和未来建筑标准（下一版 AD-L）、英国标准（BS 9991 住宅消防、BS 9999 非住宅消防、BS 8300-1/-2 无障碍、BS 5950 旧版钢结构、带英国国家附录的 BS EN Eurocode、BS 8500 混凝土）、2021 年伦敦规划及市长能源层级、地方规划与 NPPF（2024 年国家规划政策框架）、LABC 与批准检查员、EPC + SAP 10.2 + SBEM、2011 年《能源法》MEES 最低能效标准、BREEAM，以及格伦费尔后的建筑安全制度（包括关口 1-3、居民参与、信息黄金线、安全案例报告、强制事件报告和建筑产品监管制度）。
 ---
 
-# Country: United Kingdom
+# 国家：英国
 
-Architectural code and regulatory reference for projects in England, Wales, Scotland, and Northern Ireland. Activate this skill on any UK reference, GBP currency, mention of "Approved Document"/"AD-B"/"Part L"/"Part M", BSI/British Standard, BS 8300, Building Safety Act, BSR, Grenfell-related cladding queries, NPPF, London Plan, EPC/SAP/SBEM, BREEAM, RIBA Plan of Work (UK-flavoured), MEES, or LABC.
+适用于英格兰、威尔士、苏格兰和北爱尔兰项目的建筑规范与法规参考。当出现任何英国相关内容、GBP 货币、提及“Approved Document”/“AD-B”/“Part L”/“Part M”、BSI/英国标准、BS 8300、《建筑安全法》、BSR、格伦费尔相关外墙问题、NPPF、伦敦规划、EPC/SAP/SBEM、BREEAM、英国版本 RIBA 工作计划、MEES 或 LABC 时，启用此技能。
 
 ---
 
-## 1. Regulatory Hierarchy
+## 1. 法规层级
 
-UK is **Archetype C (Federal Framework + Devolved Administrations)**. Each of the four nations has its own regulatory regime, though they share substantial common ground.
+英国采用**C 型体系（联邦框架 + 权力下放行政区）**。四个组成国各有独立的监管制度，但基础内容高度相似。
 
-### 1.1 Authority Stack
+### 1.1 主管部门体系
 
 ```
-ENGLAND (post Building Safety Act 2022)
-  Department for Levelling Up, Housing and Communities (DLUHC, renamed MHCLG 2024) -- policy
-  Building Safety Regulator (BSR, within HSE) -- Higher-Risk Buildings (HRB) since Oct 2023
-  Local Authority Building Control (LABC) -- local council building control
-  Approved Inspectors (private competitive choice since 1985) -- now "Registered Building Inspectors" under BSA 2022
-  Local Planning Authority (LPA) -- planning permission separate from building control
-  Fire and Rescue Authority -- statutory consultee under Fire Safety Order 2005
-  Environment Agency -- flood + water
-  Historic England + Conservation Officer (if listed/heritage)
-  Highways Authority
+英格兰（《建筑安全法 2022》之后）
+  社区和地方政府事务部（DLUHC，2024 年更名为 MHCLG）——政策
+  建筑安全监管机构（BSR，隶属 HSE）——自 2023 年 10 月起监管高风险建筑（HRB）
+  地方政府建筑管控（LABC）——地方议会建筑管控
+  批准检查员（自 1985 年起可私人竞争选择）——依据 BSA 2022 现称“注册建筑检查员”
+  地方规划主管部门（LPA）——规划许可独立于建筑管控
+  消防与救援主管部门——《2005 年消防安全令》规定的法定咨询机构
+  环境署——洪水与水务
+  英格兰历史建筑机构及保护官（列入名录或涉及遗产时）
+  公路主管部门
 
-WALES
-  Welsh Government (Cardiff) -- separate Building Regulations + Approved Documents (largely
-    mirror England with divergence post-2018)
-  Local Authority Building Control + private Approved Inspectors
+威尔士
+  威尔士政府（加的夫）——独立的建筑法规与批准文件（大体沿用英格兰，2018 年后逐渐分化）
+  地方政府建筑管控 + 私人批准检查员
 
-SCOTLAND
-  Scottish Government -- Building (Scotland) Regulations 2004 + Scottish Technical Handbooks
-    (Domestic + Non-Domestic), updated regularly
-  Local Authority Building Standards -- building warrant + completion certificate system
-  Verifier (LA building standards officer)
+苏格兰
+  苏格兰政府——《2004 年建筑法规（苏格兰）》及苏格兰技术手册（住宅 + 非住宅），定期更新
+  地方政府建筑标准部门——建筑许可令 + 完工证书制度
+  核验员（地方政府建筑标准官员）
 
-NORTHERN IRELAND
-  Department of Finance (NI) -- Building Regulations (NI) 2012 + Technical Booklets
-  District Council Building Control (e.g., Belfast, Derry, Lisburn)
+北爱尔兰
+  北爱尔兰财政部——《2012 年建筑法规（北爱尔兰）》及技术手册
+  区议会建筑管控（如贝尔法斯特、德里、利斯本）
 ```
 
-### 1.2 Building Safety Act 2022 (England) -- Major Reform
+### 1.2 《建筑安全法 2022》（英格兰）——重大改革
 
-Following the 2017 Grenfell Tower fire, the UK enacted the **Building Safety Act 2022 (BSA 2022)**. Key changes effective from 2023:
+继 2017 年格伦费尔塔火灾后，英国制定了**《建筑安全法 2022》（BSA 2022）**。自 2023 年起生效的主要变化包括：
 
-- **Building Safety Regulator (BSR)** created within HSE -- regulates "occupation" + "construction" of Higher-Risk Buildings (HRB)
-- **Higher-Risk Building (HRB) definition**: ≥18 m height OR ≥7 storeys AND contains ≥2 residential units. Hospitals + care homes during design+construction. Some non-residential captured.
-- **Three Gateways**: Gateway 1 (planning -- fire statement); Gateway 2 (pre-construction -- BSR approval); Gateway 3 (occupation -- BSR approval)
-- **Golden Thread** of information -- digital, accessible, version-controlled, mandated for HRBs
-- **Accountable Person + Principal Accountable Person** -- duty holder regime for occupied HRB
-- **Resident Engagement Strategy** mandatory
-- **Mandatory Occurrence Reporting (MOR)** -- safety occurrences reported to BSR
-- **Safety Case Report** -- demonstrates HRB safety, regularly updated
-- **New Homes Ombudsman** -- consumer redress for new homes
+- **建筑安全监管机构（BSR）**在 HSE 内设立，监管高风险建筑（HRB）的“使用”和“施工”
+- **高风险建筑（HRB）定义**：高度 ≥18 m 或层数 ≥7 层且包含 ≥2 套住宅。医院和护理院在设计及施工阶段纳入；部分非住宅建筑也适用。
+- **三个关口**：关口 1（规划——消防声明）；关口 2（施工前——BSR 批准）；关口 3（使用——BSR 批准）
+- **信息“黄金线”**：数字化、可访问、版本受控，HRB 必须建立
+- **责任人 + 首要责任人**：针对使用中 HRB 的责任主体制度
+- **居民参与策略**：强制要求
+- **强制事件报告（MOR）**：向 BSR 报告安全事件
+- **安全案例报告**：证明 HRB 安全性并定期更新
+- **新住宅监察专员**：为新住宅消费者提供申诉救济
 
-### 1.3 Code Adoption Status by Nation (current 2024-2025)
+### 1.3 各组成国规范采用状态（当前 2024-2025）
 
-| Nation | Primary Code | Energy AD | Fire AD | Accessibility AD |
+| 组成国 | 主要规范 | 节能文件 | 消防文件 | 无障碍文件 |
 |---|---|---|---|---|
-| **England** | Building Regulations 2010 + ADs A-S | AD-L Vol 1 (2021) + Vol 2 (2021) -- moving to Future Homes Standard / Future Buildings Standard 2025 | AD-B Vol 1 (2019, amended 2022, 2023) + Vol 2 (2019, amended 2022) | AD-M Vol 1 (2015 + 2024 amendments) + Vol 2 (2015) + BS 8300-1/-2:2018 |
-| **Wales** | Building Regulations 2010 (Welsh) + Welsh ADs | AD-L (Welsh, divergent from England 2022+) | AD-B (Welsh) | AD-M (Welsh) |
-| **Scotland** | Building (Scotland) Regulations 2004 + Scottish Technical Handbook (Domestic + Non-Domestic) 2023 edition | Section 6 Energy of Tech Handbooks 2023 + Standard 6.1-6.9 | Section 2 Fire of Tech Handbooks | Section 4 Safety of Tech Handbooks + Equality Act 2010 |
-| **Northern Ireland** | Building Regulations (NI) 2012 + Technical Booklets A-V | Technical Booklet F1/F2 | Technical Booklet E | Technical Booklet R |
+| **英格兰** | 《建筑法规 2010》+ AD-A 至 AD-S | AD-L 第 1 卷（2021）+ 第 2 卷（2021）——转向 2025 年未来住宅标准/未来建筑标准 | AD-B 第 1 卷（2019，2022、2023 修订）+ 第 2 卷（2019，2022 修订） | AD-M 第 1 卷（2015 + 2024 修订）+ 第 2 卷（2015）+ BS 8300-1/-2:2018 |
+| **威尔士** | 《建筑法规 2010》（威尔士）+ 威尔士 AD | AD-L（威尔士，2022 年后与英格兰分化） | AD-B（威尔士） | AD-M（威尔士） |
+| **苏格兰** | 《2004 年建筑法规（苏格兰）》+ 苏格兰技术手册（住宅 + 非住宅，2023 版） | 2023 技术手册第 6 节能源 + 标准 6.1-6.9 | 技术手册第 2 节消防 | 技术手册第 4 节安全 + 《2010 年平等法》 |
+| **北爱尔兰** | 《2012 年建筑法规（北爱尔兰）》+ 技术手册 A-V | 技术手册 F1/F2 | 技术手册 E | 技术手册 R |
 
 ---
 
-## 2. England Building Regulations 2010 + Approved Documents
+## 2. 英格兰《建筑法规 2010》及批准文件
 
-### 2.1 Approved Documents Map
+### 2.1 批准文件索引
 
-| AD | Topic | Latest Edition |
+| AD | 主题 | 最新版本 |
 |---|---|---|
-| **AD-A** | Structure | 2013 (with 2010 + 2013 amendments) |
-| **AD-B Vol 1** | Fire safety: dwellings | 2019 (amended 2020, 2022, 2023) |
-| **AD-B Vol 2** | Fire safety: buildings other than dwellings | 2019 (amended 2020, 2022) |
-| **AD-C** | Site preparation + resistance to contaminants/moisture | 2004 (amended) |
-| **AD-D** | Toxic substances | 1992 (amended) |
-| **AD-E** | Resistance to sound | 2003 (amended) |
-| **AD-F Vol 1** | Ventilation: dwellings | 2021 |
-| **AD-F Vol 2** | Ventilation: buildings other than dwellings | 2021 |
-| **AD-G** | Sanitation, hot water safety, water efficiency | 2015 (amended) |
-| **AD-H** | Drainage and waste disposal | 2015 |
-| **AD-J** | Combustion appliances + fuel storage | 2010 (amended 2013) |
-| **AD-K** | Protection from falling, collision, impact | 2013 |
-| **AD-L Vol 1** | Conservation of fuel + power: dwellings | 2021 (interim to Future Homes Standard 2025) |
-| **AD-L Vol 2** | Conservation of fuel + power: other than dwellings | 2021 (interim to Future Buildings Standard 2025) |
-| **AD-M Vol 1** | Access to and use of buildings: dwellings | 2015 (M4(1) visitable, M4(2) accessible/adaptable, M4(3) wheelchair) |
-| **AD-M Vol 2** | Access to and use of buildings: other than dwellings | 2015 (amended 2024) |
-| **AD-N** | Glazing safety (now withdrawn -- incorporated into AD-K) | -- |
-| **AD-O** | Overheating | 2021 (NEW; addresses summer overheating in new homes) |
-| **AD-P** | Electrical safety: dwellings | 2013 |
-| **AD-Q** | Security: dwellings | 2015 |
-| **AD-R** | Physical infrastructure for high-speed electronic comms | 2016 |
-| **AD-S** | Infrastructure for charging electric vehicles | 2022 (NEW; mandatory EV charging provision) |
-| **AD7** | Materials and workmanship | 2013 |
+| **AD-A** | 结构 | 2013（含 2010 + 2013 修订） |
+| **AD-B Vol 1** | 住宅消防安全 | 2019（2020、2022、2023 修订） |
+| **AD-B Vol 2** | 非住宅建筑消防安全 | 2019（2020、2022 修订） |
+| **AD-C** | 场地准备 + 抗污染物/防潮 | 2004（修订版） |
+| **AD-D** | 有毒物质 | 1992（修订版） |
+| **AD-E** | 隔声 | 2003（修订版） |
+| **AD-F Vol 1** | 住宅通风 | 2021 |
+| **AD-F Vol 2** | 非住宅建筑通风 | 2021 |
+| **AD-G** | 卫生、生活热水安全、节水 | 2015（修订版） |
+| **AD-H** | 排水与废物排放 | 2015 |
+| **AD-J** | 燃烧设备 + 燃料储存 | 2010（2013 修订） |
+| **AD-K** | 防坠落、碰撞、冲击 | 2013 |
+| **AD-L Vol 1** | 住宅燃料与能源节约 | 2021（过渡至 2025 年未来住宅标准） |
+| **AD-L Vol 2** | 非住宅建筑燃料与能源节约 | 2021（过渡至 2025 年未来建筑标准） |
+| **AD-M Vol 1** | 建筑通行与使用：住宅 | 2015（M4(1) 可访问，M4(2) 无障碍/可适应，M4(3) 轮椅） |
+| **AD-M Vol 2** | 建筑通行与使用：非住宅 | 2015（2024 修订） |
+| **AD-N** | 玻璃安全（现已撤销——并入 AD-K） | -- |
+| **AD-O** | 过热 | 2021（新增；应对新住宅夏季过热） |
+| **AD-P** | 住宅电气安全 | 2013 |
+| **AD-Q** | 住宅安防 | 2015 |
+| **AD-R** | 高速电子通信物理基础设施 | 2016 |
+| **AD-S** | 电动汽车充电基础设施 | 2022（新增；强制设置电动汽车充电设施） |
+| **AD7** | 材料与施工工艺 | 2013 |
 
-### 2.2 Approved Documents Are Guidance
+### 2.2 批准文件属于指导性文件
 
-Critical concept: ADs are *guidance* -- they describe one way to comply. Alternative approaches are permitted if they meet the *functional requirements* of the Building Regulations. This enables performance-based fire engineering, etc.
+关键概念：AD 属于*指导性文件*，仅描述一种合规路径。如果满足《建筑法规》的*功能性要求*，也允许采用其他方法。这为基于性能的消防工程等方案提供了空间。
 
-### 2.3 Planning Permission vs Building Control
+### 2.3 规划许可与建筑管控
 
-- **Planning Permission** -- Local Planning Authority (LPA) under Town and Country Planning Act 1990; addresses use, scale, design, impact
-- **Building Control** -- compliance with Building Regulations 2010; addresses safety, performance, accessibility
-- These are SEPARATE consents; both usually required
-- **Permitted Development Rights** -- some works exempt from full planning permission
-- **Prior Approval** -- some PD requires LPA prior approval (e.g., change of use)
+- **规划许可**——依据《城乡规划法 1990》由地方规划主管部门（LPA）审批；涉及用途、规模、设计和影响
+- **建筑管控**——确保符合《建筑法规 2010》；涉及安全、性能和无障碍
+- 两者是独立许可，通常都需要取得
+- **许可开发权**——部分工程可免于完整规划许可
+- **事先批准**——部分许可开发仍需 LPA 事先批准（如用途变更）
 
-### 2.4 NPPF + Local Plans
+### 2.4 NPPF 与地方规划
 
-- **National Planning Policy Framework (NPPF)** -- last revised 2024 -- sets national planning policy
-- **Local Plans** -- adopted by each LPA, set local planning policy
-- **Neighbourhood Plans** -- some localities have these too
-- **London Plan 2021** -- spatial development strategy for Greater London by Mayor + GLA; significant policy weight in London applications
+- **国家规划政策框架（NPPF）**——最近于 2024 年修订，规定国家规划政策
+- **地方规划**——由各 LPA 采纳，规定地方规划政策
+- **社区规划**——部分地区另有社区层级规划
+- **《伦敦规划 2021》**——伦敦市长与 GLA 制定的大伦敦空间发展战略，在伦敦申请中具有重要政策权重
 
 ---
 
-## 3. Fire Safety (AD-B Post-Grenfell)
+## 3. 消防安全（格伦费尔后 AD-B）
 
-### 3.1 AD-B Amendments
+### 3.1 AD-B 修订
 
-After Grenfell (June 2017), AD-B has been amended significantly:
+格伦费尔火灾（2017 年 6 月）后，AD-B 经历了重大修订：
 
-| Year | Change |
+| 年份 | 变化 |
 |---|---|
-| 2018 | Combustible cladding **ban** on buildings ≥18 m (residential, hotels, hospitals, schools) -- Regulation 7(2) of Building Regulations 2010 |
-| 2020 | Extended ban to buildings ≥11 m for residential |
-| 2022 | AD-B amendments: stricter compartmentation, sprinkler triggers, multi-storey egress |
-| 2023 | Second staircase requirement for residential buildings ≥18 m (from 2026 transition) -- consultation/implementation |
+| 2018 | 对 ≥18 m 建筑（住宅、酒店、医院、学校）实施可燃外墙饰面**禁令**——《建筑法规 2010》第 7(2) 条 |
+| 2020 | 将住宅禁令扩展至 ≥11 m 建筑 |
+| 2022 | AD-B 修订：更严格的防火分隔、喷淋触发条件和多层疏散要求 |
+| 2023 | ≥18 m 住宅建筑设置第二部楼梯（自 2026 年过渡）——正在咨询/实施 |
 
-### 3.2 Means of Escape
+### 3.2 逃生途径
 
-**AD-B Vol 1 (Dwellings) -- key parameters:**
+**AD-B 第 1 卷（住宅）——关键参数：**
 
-| Threshold | Requirement |
+| 条件 | 要求 |
 |---|---|
-| Flat in building ≤4.5 m above ground | Single escape route OK |
-| Flat in building 4.5-11 m | Lobby + single stair OK with conditions |
-| Flat in building 11-18 m | Lobby + single stair + AOV + protected stair |
-| Flat in building >18 m | Sprinklers throughout flats + protected stair + lobby; second stair from 2026 (>18 m new build) |
-| Flat in building >30 m | Sprinklers + protected stair + lobby + second stair generally needed; smoke control engineered |
+| 建筑中住宅楼层距地 ≤4.5 m | 可采用单一逃生路线 |
+| 建筑中住宅楼层距地 4.5-11 m | 满足条件时可采用门厅 + 单部楼梯 |
+| 建筑中住宅楼层距地 11-18 m | 门厅 + 单部楼梯 + AOV（自动开启排烟窗）+ 防护楼梯 |
+| 建筑中住宅楼层距地 >18 m | 住宅全覆盖喷淋 + 防护楼梯 + 门厅；自 2026 年起新建 >18 m 建筑设置第二部楼梯 |
+| 建筑中住宅楼层距地 >30 m | 通常需要喷淋 + 防护楼梯 + 门厅 + 第二部楼梯，并进行排烟工程设计 |
 
-**AD-B Vol 2 (Non-Domestic) -- key parameters:**
+**AD-B 第 2 卷（非住宅）——关键参数：**
 
-| Parameter | Value |
+| 参数 | 数值 |
 |---|---|
-| Travel distance from any point to nearest storey exit | per Table 2.1: B 18-25 m (one-direction), 45-60 m (two-direction) |
-| Max corridor length with no fire-resistant separation | 12 m |
-| Min stair width | 1.1 m up to 220 occupants per stair; capacity = 5 mm/person per m of stair width |
-| Min door clear width | 800 mm (single leaf), 1500 mm (double leaf escape) |
-| Max travel distance assembly (sprinklered) | 32 m (one-direction), 64 m (two-direction) |
-| Max travel distance B (sprinklered) | 25 m one-direction, 45 m two-direction |
+| 任一点至最近楼层出口的疏散距离 | 按表 2.1：B 类单向 18-25 m，双向 45-60 m |
+| 无耐火分隔走道最大长度 | 12 m |
+| 楼梯最小宽度 | 每部楼梯最多 220 人时 1.1 m；容量 = 楼梯宽度每米 5 mm/人 |
+| 门最小净宽 | 单扇 800 mm，双扇逃生门 1500 mm |
+| 集会建筑最大疏散距离（设喷淋） | 单向 32 m，双向 64 m |
+| B 类建筑最大疏散距离（设喷淋） | 单向 25 m，双向 45 m |
 
-### 3.3 Compartmentation
+### 3.3 防火分隔
 
-- **Maximum compartment size** per AD-B Vol 2 Table 12 (varies by building type + sprinklers)
-- **Fire-resistance periods**: 30-min (FD30) up to 4-hour for compartment walls/floors
-- **External walls** (post-Grenfell): if building ≥11 m residential, ≥18 m other, all elements of external wall (excl. window frames, doors) must be Class A2-s1, d0 OR Class A1 per EN 13501-1
+- **最大防火分区面积**按 AD-B 第 2 卷表 12 确定（随建筑类型和喷淋设置变化）
+- **耐火时间**：防火分隔墙/楼板从 30 分钟（FD30）至 4 小时
+- **外墙**（格伦费尔后）：住宅建筑 ≥11 m、其他建筑 ≥18 m 时，外墙所有构件（窗框、门除外）须按 EN 13501-1 达到 A2-s1, d0 或 A1 级
 
 ### 3.4 BS 9991:2024 + BS 9999:2017
 
-Alternative performance-based routes:
-- **BS 9991:2024** -- Fire safety in the design, management and use of residential buildings (replaces BS 9991:2015)
-- **BS 9999:2017** -- Fire safety in the design, management and use of non-domestic buildings
-- These permit fire engineering approaches not covered by AD-B
+替代性的性能化路径：
+- **BS 9991:2024**——住宅建筑设计、管理和使用中的消防安全（替代 BS 9991:2015）
+- **BS 9999:2017**——非住宅建筑设计、管理和使用中的消防安全
+- 允许采用 AD-B 未涵盖的消防工程方法
 
 ### 3.5 BS 7974:2019
 
-- **Application of fire safety engineering principles** to design of buildings
-- 8 sub-system PDs (Published Documents) covering specific aspects: initial fire+life, smoke, structural fire, etc.
+- 将**消防安全工程原则应用于建筑设计**
+- 8 个子系统 PD（公开文件），涵盖初始火灾与生命安全、烟气、结构防火等具体方面
 
 ---
 
-## 4. Energy Code
+## 4. 能源规范
 
-### 4.1 AD-L (Conservation of Fuel and Power)
+### 4.1 AD-L（燃料与能源节约）
 
-**AD-L Vol 1 (2021) -- Dwellings:**
-- Target Fabric Energy Efficiency (TFEE) per dwelling type
-- SAP 10.2 calculation methodology (TEr -- Target Emission Rate)
-- Fabric U-values minimum standards
-- Building services efficiency standards
+**AD-L 第 1 卷（2021）——住宅：**
+- 按住宅类型设定目标围护结构能效（TFEE）
+- SAP 10.2 计算方法（TEr——目标排放率）
+- 围护结构 U 值最低标准
+- 建筑设备能效标准
 
-**AD-L Vol 2 (2021) -- Non-Domestic:**
-- SBEM calculation methodology (TBER -- Target Building Emission Rate)
-- Fabric U-values minimum standards
-- HVAC efficiency standards (FE -- Building Fabric Efficiency)
+**AD-L 第 2 卷（2021）——非住宅：**
+- SBEM 计算方法（TBER——目标建筑排放率）
+- 围护结构 U 值最低标准
+- 暖通空调能效标准（FE——建筑围护结构效率）
 
 ### 4.2 Future Homes Standard 2025 + Future Buildings Standard 2025
 
-England transition pathway:
-- **From 2025**: new homes built to FHS standards -- estimated 75-80% lower carbon than 2013 stock; heat pumps default; PV expected; no on-site combustion of fossil fuels
-- **From 2025**: new non-domestic buildings to FBS standards -- similar carbon reduction trajectory
-- Interim AD-L 2021 already requires 31% improvement (homes) over 2013 baseline
+英格兰的过渡路径：
+- **自 2025 年起**：新住宅按 FHS 标准建设——预计比 2013 年建筑存量减少 75-80% 碳排放；默认采用热泵；预期配置光伏；现场不得燃烧化石燃料
+- **自 2025 年起**：新建非住宅按 FBS 标准建设——采取类似的减碳路径
+- 过渡期 AD-L 2021 已要求住宅相较 2013 年基准改善 31%
 
-### 4.3 AD-L U-Value Limits (2021)
+### 4.3 AD-L U 值限值（2021）
 
-| Element | Notional Building Limit (W/m2K) | Limiting Backstop (W/m2K) |
+| 构件 | 基准建筑限值（W/m2K） | 后备限值（W/m2K） |
 |---|---|---|
-| Wall (dwellings new) | 0.18 | 0.26 |
-| Roof (dwellings new) | 0.11 | 0.16 |
-| Ground floor (dwellings) | 0.13 | 0.18 |
-| Window/door (dwellings) | 1.2 | 1.4 (window), 1.4 (door) |
-| Wall (non-dom new) | 0.18 | 0.26 |
-| Roof (non-dom new) | 0.16 | 0.18 |
-| Window (non-dom) | 1.6 | 2.2 |
+| 墙体（新建住宅） | 0.18 | 0.26 |
+| 屋面（新建住宅） | 0.11 | 0.16 |
+| 地面层（住宅） | 0.13 | 0.18 |
+| 窗/门（住宅） | 1.2 | 1.4（窗），1.4（门） |
+| 墙体（新建非住宅） | 0.18 | 0.26 |
+| 屋面（新建非住宅） | 0.16 | 0.18 |
+| 窗（非住宅） | 1.6 | 2.2 |
 
 ### 4.4 SAP 10.2 + SBEM
 
-- **SAP 10.2** -- Standard Assessment Procedure for dwellings -- prescribes the calculation methodology for new homes' energy performance (mandatory for Building Regs + EPC)
-- **SBEM** -- Simplified Building Energy Model for non-domestic
-- **EPC (Energy Performance Certificate)** -- required for all new buildings + sales/lettings; band A-G
+- **SAP 10.2**——住宅标准评估程序，规定新住宅能源性能的计算方法（《建筑法规》和 EPC 均强制要求）
+- **SBEM**——非住宅简化建筑能耗模型
+- **EPC（能源性能证书）**——所有新建建筑及销售/出租均需提供；等级为 A-G
 
-### 4.5 MEES -- Minimum Energy Efficiency Standards
+### 4.5 MEES——最低能源效率标准
 
-- **Privately rented domestic** properties: EPC E minimum since 2018; minimum **EPC C from 2030** (proposed)
-- **Privately rented commercial** properties: EPC E minimum since 2018 (existing leases) and 2023 (continued leases); proposed EPC C by 2027, EPC B by 2030
+- **私人出租住宅**：自 2018 年起最低 EPC E；拟自 **2030 年起最低 EPC C**
+- **私人出租商业物业**：自 2018 年起（现有租约）及 2023 年起（续租）最低 EPC E；拟 2027 年达到 EPC C、2030 年达到 EPC B
 
 ### 4.6 BREEAM
 
-- **BREEAM New Construction SD5078 (2024 update)** -- UK's dominant non-domestic green rating
-- **Home Quality Mark** (HQM) -- domestic; less common than EPC
-- Ratings: Acceptable, Pass, Good, Very Good, Excellent, Outstanding
-- Many local plans require BREEAM Excellent minimum (e.g., London Plan)
+- **BREEAM New Construction SD5078（2024 更新）**——英国主要的非住宅绿色建筑评级体系
+- **住宅质量标志（HQM）**——住宅建筑使用，普及度低于 EPC
+- 等级：可接受、通过、良好、很好、优秀、卓越
+- 许多地方规划要求最低达到 BREEAM Excellent（例如《伦敦规划》）
 
-### 4.7 London Plan 2021 Energy Hierarchy
+### 4.7 《伦敦规划 2021》能源层级
 
-For Greater London projects:
-1. Be Lean -- reduce energy demand (passive + efficient services)
-2. Be Clean -- use heat networks + decentralised supply where possible
-3. Be Green -- maximise renewables
-4. Be Seen -- monitor + manage performance
+对于大伦敦项目：
+1. Be Lean——降低能源需求（被动设计 + 高效设备）
+2. Be Clean——尽可能采用热力网络和分布式能源供应
+3. Be Green——最大化可再生能源利用
+4. Be Seen——监测并管理运行性能
 
-Plus: **Net Zero Carbon** target for new buildings (operational + embodied), Whole Life-Cycle Carbon Assessment for major referable applications.
+此外，新建建筑应以**净零碳**为目标（运行碳 + 隐含碳）；需提交市长审查的大型申请必须进行全生命周期碳评估。
 
 ---
 
-## 5. Accessibility
+## 5. 无障碍设计
 
-### 5.1 AD-M Three-Tier System (Dwellings)
+### 5.1 AD-M 住宅三层级体系
 
-| Tier | Standard | When Required |
+| 层级 | 标准 | 适用情形 |
 |---|---|---|
-| **M4(1)** | Visitable | Minimum for ALL new homes -- step-free to entrance, accessible WC at entrance level, wider doors |
-| **M4(2)** | Accessible and Adaptable | Required by many Local Plans (London, Manchester etc.) for percentage of new homes |
-| **M4(3)** | Wheelchair User Dwellings | Subdivided: M4(3)(2)(a) Adaptable (most common; for future fit-out), M4(3)(2)(b) Accessible (fitted out at construction). Required for percentage of homes in many Local Plans |
+| **M4(1)** | 可访问住宅 | 所有新住宅最低要求——入口无台阶、入口层设无障碍卫生间、门宽较大 |
+| **M4(2)** | 无障碍且可适应 | 许多地方规划（伦敦、曼彻斯特等）要求一定比例的新住宅达到此标准 |
+| **M4(3)** | 轮椅使用者住宅 | 分为：M4(3)(2)(a) 可适应型（最常见，为未来改造预留）；M4(3)(2)(b) 无障碍型（施工时直接完成配置）。许多地方规划要求一定比例住宅采用此标准 |
 
-London Plan 2021: 90% M4(2), 10% M4(3) for new residential development.
+《伦敦规划 2021》：新建住宅 90% 达到 M4(2)，10% 达到 M4(3)。
 
 ### 5.2 BS 8300-1:2018 + BS 8300-2:2018
 
-Detailed technical reference superior to AD-M for non-domestic:
-- **BS 8300-1** -- External environment (pavements, kerbs, public realm, parking)
-- **BS 8300-2** -- Internal environment (entries, circulation, toilets, lifts)
+适用于非住宅、比 AD-M 更详细的技术参考：
+- **BS 8300-1**——外部环境（人行道、路缘、公共空间、停车）
+- **BS 8300-2**——内部环境（入口、交通空间、卫生间、电梯）
 
-### 5.3 Key Dimensions
+### 5.3 关键尺寸
 
-| Element | AD-M / BS 8300 |
+| 要素 | AD-M / BS 8300 |
 |---|---|
-| Accessible route | 1.5 m (BS 8300-1); 1.0 m absolute min |
-| Door clear width (principal entrance) | 1000 mm (M4(1) homes); 900 mm internal |
-| Ramp gradient | 1:12 (up to 5 m run); 1:15 (5-10 m); 1:20 (>10 m); landings every 10 m |
-| Cross slope | <= 1:50 |
-| Lift cabin -- minimum (Type 1) | 1100 x 1400 mm |
-| Lift cabin -- preferred (Type 2) | 1400 x 1600 mm (BS 8300) |
-| Accessible WC | 1500 x 2200 mm (peninsular layout); grab rails left + right |
-| Accessible parking | 4.8 m + 1.2 m aisle (2.4 + 2.4 layout); covered preferred |
-| Tactile paving | Per DfT Inclusive Mobility 2021 + BS 7997 |
+| 无障碍通路 | 1.5 m（BS 8300-1）；绝对最小 1.0 m |
+| 主要入口门净宽 | 1000 mm（M4(1) 住宅）；内部 900 mm |
+| 坡道坡度 | 1:12（水平长度≤5 m）；1:15（5-10 m）；1:20（>10 m）；每 10 m 设置平台 |
+| 横坡 | <= 1:50 |
+| 电梯轿厢——最小（1 型） | 1100 × 1400 mm |
+| 电梯轿厢——建议（2 型） | 1400 × 1600 mm（BS 8300） |
+| 无障碍卫生间 | 1500 × 2200 mm（半岛式布局）；左右设置扶手 |
+| 无障碍车位 | 4.8 m + 1.2 m 通道（2.4 + 2.4 布置）；优先设置有顶车位 |
+| 盲道铺装 | 按 DfT《包容性出行 2021》+ BS 7997 |
 
-### 5.4 Equality Act 2010
+### 5.4 《平等法 2010》
 
-UK accessibility law goes beyond Building Regs:
-- **Reasonable adjustments** duty for service providers + employers
-- **Public sector equality duty**
-- Enforcement via **Equality and Human Rights Commission (EHRC)** + tribunals
+英国无障碍法律要求超出《建筑法规》：
+- 服务提供者和雇主负有**合理调整**义务
+- **公共部门平等义务**
+- 由**平等与人权委员会（EHRC）**及法庭负责执行
 
-### 5.5 Public Realm
+### 5.5 公共空间
 
-- **Inclusive Mobility 2021** (DfT) -- public realm/streets accessibility
-- **Manual for Streets / Manual for Streets 2** -- design standards
-- **TSRGD** (Traffic Signs Regulations) -- signage
+- **《包容性出行 2021》**（DfT）——公共空间/街道无障碍
+- **《街道设计手册》/《街道设计手册 2》**——设计标准
+- **TSRGD**（交通标志法规）——标识
 
 ---
 
-## 6. Structural and Loads (Eurocodes with UK National Annexes)
+## 6. 结构与荷载（采用英国国家附录的 Eurocode）
 
-### 6.1 Eurocode Suite as Adopted in UK
+### 6.1 英国采用的 Eurocode 系列
 
-| Eurocode | Topic | UK NA Status |
+| Eurocode | 主题 | 英国国家附录状态 |
 |---|---|---|
-| **BS EN 1990:2002+A1:2005** | Basis of structural design | UK NA published |
-| **BS EN 1991** (Parts 1-1 to 4) | Actions | UK NAs published; key: 1-1 (general), 1-3 (snow), 1-4 (wind), 1-5 (thermal), 1-7 (accidental) |
-| **BS EN 1992** | Concrete | UK NA |
-| **BS EN 1993** | Steel | UK NA |
-| **BS EN 1994** | Composite | UK NA |
-| **BS EN 1995** | Timber | UK NA |
-| **BS EN 1996** | Masonry | UK NA |
-| **BS EN 1997** | Geotechnical | UK NA |
-| **BS EN 1998** | Seismic | UK NA -- low seismicity in UK; often waived |
-| **BS EN 1999** | Aluminium | UK NA |
+| **BS EN 1990:2002+A1:2005** | 结构设计基础 | 已发布英国国家附录 |
+| **BS EN 1991**（第 1-1 至 4 部分） | 作用 | 已发布英国国家附录；重点：1-1（一般）、1-3（雪）、1-4（风）、1-5（温度）、1-7（偶然作用） |
+| **BS EN 1992** | 混凝土 | 英国国家附录 |
+| **BS EN 1993** | 钢结构 | 英国国家附录 |
+| **BS EN 1994** | 组合结构 | 英国国家附录 |
+| **BS EN 1995** | 木结构 | 英国国家附录 |
+| **BS EN 1996** | 砌体结构 | 英国国家附录 |
+| **BS EN 1997** | 岩土工程 | 英国国家附录 |
+| **BS EN 1998** | 抗震 | 英国国家附录——英国地震烈度低，通常可豁免 |
+| **BS EN 1999** | 铝结构 | 英国国家附录 |
 
-### 6.2 Legacy British Standards (still in some use)
+### 6.2 传统英国标准（仍有部分使用）
 
-- **BS 5950** -- Steel (superseded by BS EN 1993 + UK NA, but some legacy projects)
-- **BS 8110** -- Concrete (superseded by BS EN 1992 + UK NA)
-- **BS 5628** -- Masonry (superseded by BS EN 1996 + UK NA)
-- **BS 8004** -- Foundations (still in use as referenced)
-- **BS 8500-1, BS 8500-2** -- Concrete specification (companion to BS EN 1992)
-- **BS 8102:2022** -- Waterproofing (active)
+- **BS 5950**——钢结构（已由 BS EN 1993 + 英国国家附录替代，但部分旧项目仍使用）
+- **BS 8110**——混凝土（已由 BS EN 1992 + 英国国家附录替代）
+- **BS 5628**——砌体（已由 BS EN 1996 + 英国国家附录替代）
+- **BS 8004**——地基基础（仍作为引用标准使用）
+- **BS 8500-1、BS 8500-2**——混凝土规范（BS EN 1992 的配套标准）
+- **BS 8102:2022**——防水（现行）
 
-### 6.3 Wind in UK
+### 6.3 英国风荷载
 
-- BS EN 1991-1-4 + UK NA: **Fundamental basic wind velocity Vb,0** = 21-29 m/s across UK (mapped)
-- Highest in Scotland north + west (Stornoway, Lerwick), lowest in southeast England
-- 50-year return; with directional, season, orography, gust factor modifiers
+- BS EN 1991-1-4 + 英国国家附录：英国范围内**基本基本风速 Vb,0** = 21-29 m/s（按地图取值）
+- 苏格兰北部和西部（斯托诺韦、勒威克）最高，英格兰东南部最低
+- 50 年重现期，并考虑方向、季节、地形和阵风系数修正
 
-### 6.4 Snow in UK
+### 6.4 英国雪荷载
 
-- BS EN 1991-1-3 + UK NA: ground snow load **sk** = 0.30 - 0.90 kN/m2 depending on region + altitude
-- Higher in Scotland highlands; relatively modest elsewhere
-- Altitude factor crucial above 100 m elevation
-
----
-
-## 7. Devolved Nations -- Quick Reference
-
-### 7.1 Scotland
-
-**Building (Scotland) Regulations 2004 (as amended)** + **Scottish Technical Handbooks** (Domestic + Non-Domestic, updated 2023):
-- Section 1 Structure
-- Section 2 Fire (Scottish equivalent of AD-B; more stringent in some areas, e.g., sprinklers in homes ≥18 m + most flats above 11 m)
-- Section 3 Environment (resistance to noise/moisture/etc.)
-- Section 4 Safety (incl. accessibility)
-- Section 5 Noise
-- Section 6 Energy (parallel to AD-L)
-- Section 7 Sustainability
-
-Process: **Building Warrant** before construction; **Completion Certificate** before occupation. Verifier (LA-appointed) checks compliance.
-
-### 7.2 Wales
-
-Welsh Government issued its own Approved Documents from 2018+ with divergence from England. Key:
-- **Welsh AD-L 2022** -- on parallel trajectory to FHS but distinct
-- **Welsh AD-B** -- post-Grenfell amendments aligned with England
-- **Welsh Future Homes Standard** -- under development
-
-### 7.3 Northern Ireland
-
-**Building Regulations (NI) 2012 (SR 2012/192)** + **Technical Booklets**:
-- A Interpretation
-- B Materials
-- C Site preparation
-- D Structure
-- E Fire safety
-- F Conservation of fuel + power
-- G Sound
-- H Stairs/ramps + protection from falling
-- J Solid fuel
-- K Ventilation
-- L Combustion appliances + fuel storage
-- M Sanitary appliances + plumbing
-- N Drainage
-- P Sanitary
-- Q Sanitary
-- R Access + use (accessibility)
-- V Glazing
-
-NI typically lags England by 12-24 months on equivalent provisions.
+- BS EN 1991-1-3 + 英国国家附录：地面雪荷载 **sk** = 0.30 - 0.90 kN/m2，取决于地区和海拔
+- 苏格兰高地较高，其他地区相对较小
+- 海拔超过 100 m 时，海拔系数至关重要
 
 ---
 
-## 8. Practical Workflows
+## 7. 权力下放组成国——快速参考
 
-### 8.1 England Building Project Workflow (non-HRB)
+### 7.1 苏格兰
 
-1. **Pre-application planning advice** -- LPA pre-app
-2. **Planning application** (Outline or Full) -- 8/13/16-week decision
-3. **Discharge planning conditions** post-permission
-4. **Building Regulations submission**: Full Plans OR Building Notice OR Initial Notice (Approved Inspector)
-5. **Construction phase inspections** at key stages
-6. **Completion certificate** issued
-7. **EPC + as-built confirmation** before occupation
+**《建筑（苏格兰）法规 2004》（经修订）** + **《苏格兰技术手册》**（住宅与非住宅，2023 更新）：
+- 第 1 节 结构
+- 第 2 节 消防（苏格兰版 AD-B；部分方面更严格，例如 ≥18 m 住宅及大多数超过 11 m 的公寓要求喷淋）
+- 第 3 节 环境（隔声、防潮等）
+- 第 4 节 安全（包括无障碍）
+- 第 5 节 噪声
+- 第 6 节 能源（对应 AD-L）
+- 第 7 节 可持续性
 
-### 8.2 England HRB Workflow (post-BSA 2022)
+流程：施工前取得**建筑许可（Building Warrant）**；使用前取得**竣工证书（Completion Certificate）**。由地方政府任命的核验员检查合规性。
 
-1. **Pre-application** with LPA + early engagement with BSR
-2. **Planning application** with Fire Safety Statement (Gateway 1)
-3. **Pre-construction submission to BSR (Gateway 2)** -- detailed design, safety case principles, competent person regime evidence; BSR has 12-week determination, can extend
-4. **Construction**: Mandatory Occurrence Reporting active; Golden Thread maintained
-5. **Completion submission to BSR (Gateway 3)** -- safety case + occupation conditions
-6. **Occupation**: Principal Accountable Person duties + Resident Engagement Strategy + ongoing Safety Case Reviews
+### 7.2 威尔士
 
-### 8.3 London Major Application
+威尔士政府自 2018 年起发布自己的批准文件，并逐渐与英格兰产生差异。重点包括：
+- **威尔士 AD-L 2022**——与 FHS 走相似路径，但体系独立
+- **威尔士 AD-B**——格伦费尔后修订与英格兰保持一致
+- **威尔士未来住宅标准**——正在制定
 
-For schemes "referable to the Mayor" (typically >150 residential units, or buildings >30 m, others):
-1. LPA processes but Mayor of London has direct call-in powers
-2. Whole Life-Cycle Carbon Assessment required
-3. Net Zero Carbon target (or carbon offset payment via Local Plans)
-4. Air Quality Neutral assessment
+### 7.3 北爱尔兰
+
+**《北爱尔兰建筑法规 2012》（SR 2012/192）** + **技术手册**：
+- A 解释
+- B 材料
+- C 场地准备
+- D 结构
+- E 消防安全
+- F 燃料与能源节约
+- G 隔声
+- H 楼梯/坡道与防坠落
+- J 固体燃料
+- K 通风
+- L 燃烧设备与燃料储存
+- M 卫生设备与管道
+- N 排水
+- P 卫生设施
+- Q 卫生设施
+- R 访问与使用（无障碍）
+- V 玻璃
+
+北爱尔兰的相应规定通常比英格兰滞后 12-24 个月。
 
 ---
 
-## 9. Quick Numeric Reference
+## 8. 实务工作流
 
-| Parameter | Value | Source |
+### 8.1 英格兰建筑项目流程（非 HRB）
+
+1. **规划申请前咨询**——LPA 预申请
+2. **规划申请**（概要或完整）——8/13/16 周决定
+3. 许可后**履行规划条件**
+4. **提交建筑法规文件**：完整图纸、建筑通知或初始通知（批准检查员）三选一
+5. **施工阶段检查**——在关键节点进行
+6. **颁发竣工证书**
+7. 使用前完成**EPC + 竣工状态确认**
+
+### 8.2 英格兰 HRB 流程（BSA 2022 后）
+
+1. 与 LPA 进行**申请前咨询**，并尽早与 BSR 接洽
+2. 提交带消防安全声明的**规划申请**（关口 1）
+3. 向 BSR 提交**施工前文件（关口 2）**——详细设计、安全案例原则、胜任人员制度证据；BSR 决定期为 12 周，可延期
+4. **施工**：启用强制事件报告，维护信息黄金线
+5. 向 BSR 提交**竣工文件（关口 3）**——安全案例 + 使用条件
+6. **使用**：履行首要责任人职责、实施居民参与策略并持续审查安全案例
+
+### 8.3 伦敦重大申请
+
+对于“需提交市长审查”的方案（通常为 >150 套住宅、建筑高度 >30 m 或其他指定项目）：
+1. 由 LPA 办理，但伦敦市长拥有直接调取审查权
+2. 必须进行全生命周期碳评估
+3. 以净零碳为目标（或按地方规划支付碳抵消费用）
+4. 进行空气质量中和评估
+
+---
+
+## 9. 快速数值参考
+
+| 参数 | 数值 | 来源 |
 |---|---|---|
-| Floor-to-floor residential | 2.7-3.0 m | AD-K + RIBA Spec; min 2.4 m clear |
-| Floor-to-floor office | 3.6-4.2 m | BCO Guide to Specification 2019; 2.7 m clear |
-| Stair max riser | 220 mm (private dwellings); 180 mm (other) | AD-K Table 1.1 |
-| Stair min going | 220 mm (private); 250 mm (other) | AD-K |
-| Min protected corridor width | 1.0 m, 1.2 m if used by escape | AD-B + AD-M |
-| Wall U-value (new dwelling) | 0.18 W/m2K limit | AD-L Vol 1 2021 |
-| Roof U-value (new dwelling) | 0.11 W/m2K limit | AD-L Vol 1 2021 |
-| Window U-value (new dwelling) | 1.2 W/m2K limit | AD-L Vol 1 2021 |
-| Travel distance (sprinklered office) | 25 m one-direction, 45 m two-direction | AD-B Vol 2 Table 2.1 |
-| Refuge area (HRB) | 0.7 m2 wheelchair + space + comms | AD-B + BS 9999 |
-| Cladding (>=11 m res, >=18 m other) | Class A1/A2-s1, d0 EN 13501-1 | Reg 7(2) Building Regs 2010 + AD-B 2018+ |
-| Accessible WC | 1500 x 2200 mm | AD-M / BS 8300 |
-| Wind Vb,0 (London) | 22 m/s | UK NA to BS EN 1991-1-4 |
-| Wind Vb,0 (Glasgow) | 25 m/s | Same |
-| Ground snow sk (London) | 0.4 kN/m2 | UK NA to BS EN 1991-1-3 |
+| 住宅层高 | 2.7-3.0 m | AD-K + RIBA 规范；净高最小 2.4 m |
+| 办公层高 | 3.6-4.2 m | BCO《技术规格指南 2019》；净高 2.7 m |
+| 楼梯最大踏步高 | 私人住宅 220 mm；其他 180 mm | AD-K 表 1.1 |
+| 楼梯最小踏步深 | 私人住宅 220 mm；其他 250 mm | AD-K |
+| 防护走道最小宽度 | 1.0 m；作为疏散路线时 1.2 m | AD-B + AD-M |
+| 墙体 U 值（新住宅） | 限值 0.18 W/m2K | AD-L 第 1 卷 2021 |
+| 屋面 U 值（新住宅） | 限值 0.11 W/m2K | AD-L 第 1 卷 2021 |
+| 窗 U 值（新住宅） | 限值 1.2 W/m2K | AD-L 第 1 卷 2021 |
+| 疏散距离（办公设喷淋） | 单向 25 m，双向 45 m | AD-B 第 2 卷表 2.1 |
+| 避难区（HRB） | 0.7 m2/轮椅使用者 + 空间 + 通信 | AD-B + BS 9999 |
+| 外墙饰面（住宅 ≥11 m，其他 ≥18 m） | EN 13501-1 A1/A2-s1, d0 级 | 《建筑法规 2010》第 7(2) 条 + 2018 年后 AD-B |
+| 无障碍卫生间 | 1500 × 2200 mm | AD-M / BS 8300 |
+| 风速 Vb,0（伦敦） | 22 m/s | BS EN 1991-1-4 英国国家附录 |
+| 风速 Vb,0（格拉斯哥） | 25 m/s | 同上 |
+| 地面雪荷载 sk（伦敦） | 0.4 kN/m2 | BS EN 1991-1-3 英国国家附录 |
 
 ---
 
-## 10. Application Workflow
+## 10. 应用工作流
 
-1. **Identify nation** (England, Wales, Scotland, NI).
-2. **Identify if HRB** under BSA 2022 (England) -- triggers BSR regime.
-3. **Identify whether listed building / heritage / conservation area** -- additional consents.
-4. **Apply Building Regulations** through ADs (England/Wales) / Technical Handbook (Scotland) / Technical Booklets (NI).
-5. **Apply Eurocodes + UK NAs** for structural; check seismic waiver.
-6. **Apply AD-L / Section 6 / Tech Booklet F** for energy.
-7. **Apply AD-B / Section 2 / Tech Booklet E** for fire.
-8. **Apply AD-M + BS 8300 / Equality Act / Tech Booklet R** for accessibility.
-9. **Apply Local Plan / NPPF / London Plan** for planning.
-10. **Cite clauses**: "AD-B Vol 2 (2019, amended 2022) Section 2.1, Table 2.1"; "BS 9991:2024 Section 7"; "AD-L Vol 1 2021 Section 4.2"; "London Plan 2021 Policy SI 2"; "Building Safety Act 2022 Section 65"; "BS EN 1991-1-4:2005+A1:2010 + UK NA"
-
----
-
-## 11. Authoritative Sources
-
-- **DLUHC/MHCLG (UK Gov Housing)** -- gov.uk/government/organisations/ministry-of-housing-communities-and-local-government
-- **HSE Building Safety Regulator** -- hse.gov.uk/building-safety
-- **BSI (British Standards Institution)** -- bsigroup.com -- BS suite
-- **Approved Documents (England)** -- gov.uk/government/collections/approved-documents
-- **Welsh Government Building Regs** -- gov.wales/building-regulations
-- **Scottish Government Building Standards** -- gov.scot/policies/building-standards
-- **NI Department of Finance** -- finance-ni.gov.uk/topics/building-regulations
-- **NPPF** -- gov.uk/government/publications/national-planning-policy-framework--2
-- **London Plan** -- london.gov.uk/programmes-strategies/planning/london-plan
-- **CIBSE** -- cibse.org -- Guides A/B/D/L (lighting)/AM10 etc.
-- **RIBA** -- riba.org -- Plan of Work 2020, briefing standards
-- **BRE** -- bregroup.com -- BREEAM, SAP 10.2, SBEM
-- **MEES guidance** -- gov.uk/government/publications/the-non-domestic-private-rented-property-minimum-standard
+1. **确定组成国**（英格兰、威尔士、苏格兰、北爱尔兰）。
+2. 按 BSA 2022 **确认是否属于 HRB**（英格兰）——决定是否触发 BSR 制度。
+3. **确认是否为登录建筑/历史建筑/保护区**——可能需要额外许可。
+4. 通过 AD（英格兰/威尔士）、技术手册（苏格兰）或技术手册（北爱尔兰）执行**建筑法规**。
+5. 结构设计采用 **Eurocode + 英国国家附录**，并检查抗震豁免。
+6. 节能采用 **AD-L / 第 6 节 / 技术手册 F**。
+7. 消防采用 **AD-B / 第 2 节 / 技术手册 E**。
+8. 无障碍采用 **AD-M + BS 8300 /《平等法》/ 技术手册 R**。
+9. 规划采用**地方规划 / NPPF /《伦敦规划》**。
+10. **引用条文**：“AD-B 第 2 卷（2019，2022 修订）第 2.1 节、表 2.1”；“BS 9991:2024 第 7 节”；“AD-L 第 1 卷 2021 第 4.2 节”；“《伦敦规划 2021》政策 SI 2”；“《建筑安全法 2022》第 65 条”；“BS EN 1991-1-4:2005+A1:2010 + 英国国家附录”。
 
 ---
 
-*Cross-references: load `building-codes` for general fire/egress concepts (which AD-B refines for UK); `fire-life-safety` for general fire engineering (then UK BS 9991/9999); `accessibility-design` for global frameworks then BS 8300/AD-M; `building-sustainability` for BREEAM + Passive House comparison + Whole Life Carbon; `building-envelope` for UK climate (AD-O overheating + AD-L envelope); `structural-systems` for Eurocode-based design.*
+## 11. 权威来源
+
+- **DLUHC/MHCLG（英国住房主管部门）**——gov.uk/government/organisations/ministry-of-housing-communities-and-local-government
+- **HSE 建筑安全监管机构**——hse.gov.uk/building-safety
+- **BSI（英国标准协会）**——bsigroup.com——BS 标准系列
+- **英格兰批准文件**——gov.uk/government/collections/approved-documents
+- **威尔士政府建筑法规**——gov.wales/building-regulations
+- **苏格兰政府建筑标准**——gov.scot/policies/building-standards
+- **北爱尔兰财政部**——finance-ni.gov.uk/topics/building-regulations
+- **NPPF**——gov.uk/government/publications/national-planning-policy-framework--2
+- **《伦敦规划》**——london.gov.uk/programmes-strategies/planning/london-plan
+- **CIBSE**——cibse.org——A/B/D/L（照明）/AM10 等指南
+- **RIBA**——riba.org——《工作计划 2020》、任务书标准
+- **BRE**——bregroup.com——BREEAM、SAP 10.2、SBEM
+- **MEES 指南**——gov.uk/government/publications/the-non-domestic-private-rented-property-minimum-standard
+
+---
+
+*交叉引用：加载 `building-codes` 了解一般消防/疏散概念（AD-B 对其进行英国化细化）；加载 `fire-life-safety` 了解一般消防工程（再结合英国 BS 9991/9999）；加载 `accessibility-design` 了解全球框架及 BS 8300/AD-M；加载 `building-sustainability` 了解 BREEAM、被动房对比和全生命周期碳；加载 `building-envelope` 了解英国气候（AD-O 过热 + AD-L 围护结构）；加载 `structural-systems` 了解基于 Eurocode 的设计。*

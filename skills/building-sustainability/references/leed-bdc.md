@@ -1,224 +1,224 @@
-# LEED BD+C v4.1 — Credit-by-Credit Reference
+# LEED BD+C v4.1——逐项学分参考
 
-## 1. Integrative Process (IP) — 1 Point
+## 1. 综合过程（IP）——1 分
 
-### IP Credit: Integrative Process (1 pt)
+### IP 学分：综合过程（1 分）
 
-**Intent:** Support high-performance, cost-effective outcomes through early analysis of interrelationships among building systems.
+**意图：**通过早期分析建筑系统之间的相互关系，支持高性能且经济有效的成果。
 
-**Requirements:** During pre-design, perform a preliminary Water Budget Analysis (water demand vs. supply, identifying non-potable water sources and demand reduction opportunities) and a preliminary Energy-Related Systems Analysis (simple box energy model exploring how massing, orientation, envelope performance, and lighting affect energy loads before schematic design is fixed).
+**要求：**在设计前期进行初步水预算分析（比较用水需求与供水，识别非饮用水来源及降低需求的机会）和初步能源相关系统分析（在确定方案设计前，使用简单盒式能耗模型研究体量、朝向、围护结构性能和照明对能耗负荷的影响）。
 
-**Architect's role:** The architect leads the integrative process. The preliminary energy analysis should test at minimum 2 envelope scenarios, 2 massing/orientation options, and 2 glazing ratios. Document how the analysis informed design decisions.
+**建筑师职责：**建筑师负责综合过程。初步能源分析至少应测试 2 种围护结构方案、2 种体量／朝向方案和 2 种玻璃比例，并记录分析如何影响设计决策。
 
-**Design strategies:** Run early-stage energy models (Sefaira, cove.tool, or simple PHPP-style calculation) during concept design. Test building orientation (long axis E-W vs. N-S), window-to-wall ratio (25% vs. 40% vs. 60%), and envelope thermal performance (code vs. enhanced). Document the analysis and its influence on design direction.
+**设计策略：**在概念设计阶段运行早期能耗模型（Sefaira、cove.tool 或简单的 PHPP 式计算）。测试建筑朝向（长轴东西向与南北向）、窗墙比（25% 与 40% 与 60%）以及围护结构热工性能（规范基准与增强方案），记录分析及其对设计方向的影响。
 
-**Documentation:** Narrative describing the analysis process, analysis results (energy model outputs), and evidence that results informed design decisions.
-
----
-
-## 2. Location and Transportation (LT) — 16 Points
-
-### LT Credit: LEED for Neighborhood Development Location (16 pts)
-
-**Intent:** Avoid development on inappropriate sites. Reduce vehicle distance traveled. Enhance livability, improve human health, and protect the environment by encouraging developments in locations with existing infrastructure and diverse uses.
-
-**Requirements:** Project is located within a LEED for Neighborhood Development certified plan or development (Conditional Approval: 8 pts, Pre-certified: 10 pts, Certified: 12 pts, Silver: 14 pts, Gold/Platinum: 16 pts). This credit is mutually exclusive with other LT credits.
-
-### LT Credit: Sensitive Land Protection (1 pt)
-
-**Intent:** Avoid development on environmentally sensitive land.
-
-**Requirements:** Locate on a previously developed site OR locate on a site that is not: prime farmland, floodplain, habitat for threatened/endangered species, within 100 ft of wetlands, within 50 ft of water bodies, or land below minimum elevation (5 ft above 100-year flood).
-
-**Architect's role:** Advocate during site selection. If site is constrained, demonstrate compliance through site survey documentation.
-
-### LT Credit: High-Priority Site (2 pts)
-
-**Intent:** Encourage projects in locations that support urban redevelopment.
-
-**Requirements:** Locate in a historic district, priority redevelopment area, brownfield, or infill site with ≥75% of perimeter bordering previously developed land.
-
-### LT Credit: Surrounding Density and Diverse Uses (5 pts)
-
-**Intent:** Conserve land and protect farmland by encouraging development in areas with existing infrastructure.
-
-**Requirements:**
-- Surrounding density (3 pts): ≥22,000 sf/acre combined density within 1/4 mile radius (residential + nonresidential)
-- Diverse uses (2 pts): ≥8 diverse use types within 1/2 mile walking distance (food retail, convenience/drug store, restaurant, laundry/dry cleaner, bank, gym, hair care, hardware, medical/dental, community/civic)
-
-### LT Credit: Access to Quality Transit (5 pts)
-
-**Intent:** Reduce greenhouse gas emissions and air pollution by encouraging developments in locations well served by transit.
-
-**Requirements:** Located within 1/4 mile walking distance of a bus/streetcar stop with ≥72 weekday and ≥40 weekend trips, OR within 1/2 mile of a rail/BRT station with ≥72 weekday and ≥40 weekend trips. Points scale with transit service frequency and number of routes.
-
-**Architect's role:** Site selection advocacy. During master planning, position buildings to minimize walking distance to transit stops. Provide weather-protected pedestrian routes to transit.
-
-### LT Credit: Bicycle Facilities (1 pt)
-
-**Intent:** Promote bicycling and transportation efficiency.
-
-**Requirements:** Short-term bicycle storage within 200 ft of main entrance (≥2.5% of peak visitors but ≥4 spaces). Long-term secure bicycle storage for ≥5% of building occupants (but ≥4 spaces). Shower/changing facilities: ≥1 per ≥100 occupants (but ≥1 per gender).
-
-**Architect's role:** Design secure, weather-protected long-term bicycle parking (ground floor, near entrance, well-lit). Integrate showers/changing rooms into core design.
-
-### LT Credit: Reduced Parking Footprint (1 pt)
-
-**Intent:** Minimize the environmental harms associated with parking.
-
-**Requirements:** Do not exceed minimum local code parking requirements. Provide preferred parking for carpool/vanpool vehicles (5% of total spaces). For projects with ≥10% below code minimum: 1 pt.
-
-**Architect's role:** Advocate for reduced parking provision. Design shared/stacked/underground parking to minimize surface area and heat island effect. Consider unbundled parking (sold/leased separately from units).
-
-### LT Credit: Electric Vehicles (1 pt)
-
-**Intent:** Promote the use of electric vehicles.
-
-**Requirements:** Install EV charging stations for ≥5% of total parking spaces (Level 2 or greater). Make ≥2% of spaces EVSE-installed and remainder EVSE-ready (conduit and panel capacity).
+**文件记录：**说明分析过程、分析结果（能耗模型输出）以及结果影响设计决策的证据。
 
 ---
 
-## 3. Sustainable Sites (SS) — 10 Points
+## 2. 选址与交通（LT）——16 分
 
-### SS Prerequisite: Construction Activity Pollution Prevention
+### LT 学分：LEED 邻里开发选址（16 分）
 
-**Intent:** Reduce pollution from construction activities.
+**意图：**避免在不适宜场地开发，减少车辆行驶距离。鼓励在已有基础设施和多元用途地区开发，以提升宜居性、改善人类健康并保护环境。
 
-**Requirements:** Erosion and sedimentation control plan per EPA Construction General Permit or local equivalent. Measures: silt fencing, sediment basins, inlet protection, construction entrance stabilization, dust control.
+**要求：**项目位于 LEED 邻里开发认证规划或开发项目内（有条件批准：8 分，预认证：10 分，认证：12 分，银级：14 分，金级／铂金级：16 分）。本学分与其他 LT 学分互斥。
 
-**Documentation:** Site-specific ESC plan, inspection logs, photographic evidence.
+### LT 学分：敏感土地保护（1 分）
 
-### SS Credit: Site Assessment (1 pt)
+**意图：**避免在生态环境敏感土地上开发。
 
-**Intent:** Assess site conditions before design to inform sustainable design.
+**要求：**选址于已开发场地，或选址不得属于：优质农田、洪泛区、受威胁／濒危物种栖息地、湿地 100 ft 范围内、水体 50 ft 范围内，或低于最低高程的土地（高于百年一遇洪水位 5 ft）。
 
-**Requirements:** Complete a site survey documenting: topography, hydrology (drainage patterns, water features), climate (solar access, wind patterns, precipitation), vegetation (existing trees, habitat), soils (classification, contamination), human use (adjacent uses, transit, pedestrian/cycle routes), and human health effects (adjacent pollution sources).
+**建筑师职责：**在选址阶段进行倡导。若场地受限，通过场地调查文件证明符合要求。
 
-**Architect's role:** Lead or coordinate the site assessment. Use findings to inform building placement, orientation, landscape design, and stormwater strategy.
+### LT 学分：高优先级场地（2 分）
 
-### SS Credit: Protect or Restore Habitat (2 pts)
+**意图：**鼓励在支持城市再开发的地点建设项目。
 
-**Intent:** Conserve existing natural areas and restore damaged habitat.
+**要求：**选址于历史街区、优先再开发区、棕地，或周边至少 75% 与已开发土地相邻的填充式开发场地。
 
-**Requirements:**
-- Option 1 (on greenfield): Limit site disturbance. Protect ≥40% of greenfield site (excluding building footprint) from disturbance.
-- Option 2 (on previously developed): Restore ≥20% of total site area with native or adapted vegetation.
-- Financial support: provide ≥$0.40/sf of total site area to a qualified land trust or restoration organization.
+### LT 学分：周边密度与多元用途（5 分）
 
-**Design strategies:** Cluster buildings to preserve contiguous habitat. Use native species palettes. Create wildlife corridors. Install green roofs and living walls to supplement ground-level habitat.
+**意图：**鼓励在已有基础设施地区开发，以节约土地并保护农田。
 
-### SS Credit: Open Space (1 pt)
+**要求：**
+- 周边密度（3 分）：半径 1/4 mile 内住宅与非住宅综合密度 ≥22,000 sf/acre
+- 多元用途（2 分）：步行 1/2 mile 范围内至少有 8 类多元用途（食品零售、便利店／药店、餐厅、洗衣店／干洗店、银行、健身房、美发、五金店、医疗／牙科、社区／公共服务）
 
-**Intent:** Create outdoor space that encourages interaction with the environment, social interaction, passive recreation, and physical activity.
+### LT 学分：便捷使用优质公共交通（5 分）
 
-**Requirements:** Outdoor space ≥30% of total site area (including building footprint). At least 25% of outdoor space must be vegetated (grass, planting, green roof). Space must be physically accessible and include ≥1 of: pedestrian-oriented paving, seating, garden space, or recreation space.
+**意图：**鼓励在公共交通服务良好的地点开发，以减少温室气体排放和空气污染。
 
-### SS Credit: Rainwater Management (3 pts)
+**要求：**位于步行 1/4 mile 内、工作日班次 ≥72 且周末班次 ≥40 的公交／有轨电车站，或位于 1/2 mile 内、工作日班次 ≥72 且周末班次 ≥40 的铁路／BRT 车站。得分随公共交通服务频率和线路数量变化。
 
-**Intent:** Reduce runoff volume and improve water quality.
+**建筑师职责：**倡导合理选址。在总体规划阶段布置建筑，缩短至公共交通站点的步行距离，并提供有遮蔽的步行通道。
 
-**Requirements:**
-- 2 pts: Manage on-site the runoff from the 95th percentile rainfall event (natural land cover conditions for flow rate AND volume)
-- 3 pts: Manage the 98th percentile rainfall event
+### LT 学分：自行车设施（1 分）
 
-**Design strategies:**
-- Green roofs (retain 50–90% of annual rainfall depending on substrate depth)
-- Bioswales and rain gardens (infiltrate and evapotranspire runoff)
-- Permeable paving (infiltrate surface runoff in parking and pedestrian areas)
-- Rainwater harvesting cisterns (capture, store, and reuse rainwater for irrigation or flushing)
-- Constructed wetlands and detention basins (rate and volume control)
+**意图：**促进自行车出行和交通效率。
 
-**Architect's role:** Integrate SuDS into landscape design. Size green roofs and permeable surfaces. Coordinate with civil engineer on below-grade systems.
+**要求：**主入口 200 ft 范围内设置短期自行车停放位（不低于高峰访客的 2.5%，且不少于 4 个）。为不少于 5% 的建筑使用者设置长期安全自行车停放位（且不少于 4 个）。淋浴／更衣设施：每 ≥100 名使用者至少 1 套，且每种性别至少 1 套。
 
-### SS Credit: Heat Island Reduction (2 pts)
+**建筑师职责：**设计安全、有遮蔽的长期自行车停车设施（位于首层、靠近入口且照明良好），并将淋浴／更衣室整合进核心设计。
 
-**Intent:** Minimize effects on microclimates and human/wildlife habitat.
+### LT 学分：减少停车占地（1 分）
 
-**Requirements:** Use a combination of strategies for:
-- Non-roof (2 options): ≥50% of site hardscape uses materials with SR ≥33, open-grid paving (≥50% pervious), shaded by structures with SR ≥33, shaded by trees within 10 years
-- Roof: ≥75% of roof area uses materials with SRI ≥82 (low-slope) or SRI ≥39 (steep-slope), OR install vegetated roof on ≥75% of roof area
+**意图：**尽量减少停车带来的环境危害。
 
-**Design strategies:** Light-colored paving and roofing materials, vegetated roofs, shade trees (plant for 10-year canopy coverage), covered parking, permeable paving.
+**要求：**不得超过当地规范规定的最低停车要求。为合乘／通勤面包车设置优先车位（总车位的 5%）。停车位比规范最低要求少 ≥10% 的项目得 1 分。
 
-### SS Credit: Light Pollution Reduction (1 pt)
+**建筑师职责：**倡导减少停车配置，设计共享／立体／地下停车以减少地面面积和热岛效应，并考虑将停车位与住宅单元分开销售或租赁。
 
-**Intent:** Increase night sky access and reduce impacts on nocturnal environments.
+### LT 学分：电动车（1 分）
 
-**Requirements:**
-- Uplight: all exterior luminaires meet BUG rating of U0 (zero direct uplight)
-- Backlight and glare: meet BUG ratings appropriate to lighting zone (LZ0–LZ4 per IESNA)
-- Interior lighting: automatic shutoff or ≥50% power reduction after business hours, OR shield all openings in the envelope to limit light trespass
+**意图：**促进电动车使用。
 
-**Architect's role:** Coordinate with lighting designer. Specify fully shielded (full cutoff) exterior luminaires. Design interior lighting controls for after-hours reduction.
+**要求：**为 ≥5% 的总停车位安装电动车充电站（Level 2 或更高）。其中 ≥2% 的车位安装 EVSE，其余车位预留 EVSE 条件（管线和配电盘容量）。
 
 ---
 
-## 4. Water Efficiency (WE) — 11 Points
+## 3. 可持续场地（SS）——10 分
 
-### WE Prerequisite: Outdoor Water Use Reduction
+### SS 先决条件：施工活动污染预防
 
-**Requirements:** Reduce outdoor landscape water use by ≥30% from baseline (calculated per EPA WaterSense Water Budget Tool). OR use no outdoor irrigation. OR use only non-potable water sources (rainwater, greywater, reclaimed) for irrigation.
+**意图：**减少施工活动造成的污染。
 
-### WE Prerequisite: Indoor Water Use Reduction
+**要求：**按 EPA Construction General Permit 或当地等效要求制定水土流失和泥沙控制计划。措施包括防尘围栏、沉淀池、雨水口保护、施工入口稳固和扬尘控制。
 
-**Requirements:** Reduce aggregate indoor water use by ≥20% from LEED v4.1 baseline. Baseline fixtures: toilets 1.6 gpf, urinals 1.0 gpf, lavatory faucets 0.5 gpm (public) / 2.2 gpm (private), showers 2.5 gpm, kitchen faucets 2.2 gpm.
+**文件记录：**场地专项 ESC 计划、检查日志和照片证据。
 
-### WE Credit: Outdoor Water Use Reduction (2 pts)
+### SS 学分：场地评估（1 分）
 
-**Requirements:** 50% reduction (1 pt) or no irrigation / 100% non-potable sources (2 pts).
+**意图：**在设计前评估场地条件，为可持续设计提供依据。
 
-**Design strategies:** Xeriscaping (drought-adapted plants), native species palettes, high-efficiency drip irrigation with weather-based controllers, rainwater harvesting for irrigation, greywater reuse (where permitted by code), soil moisture sensors, rain sensors on irrigation controllers.
+**要求：**完成场地调查并记录：地形、水文（排水模式、水体）、气候（日照、风向、降水）、植被（现有树木、栖息地）、土壤（分类、污染）、人类使用（相邻用途、公共交通、步行／自行车路线）以及对人体健康的影响（邻近污染源）。
 
-### WE Credit: Indoor Water Use Reduction (6 pts)
+**建筑师职责：**负责或协调场地评估，并用调查结果指导建筑布局、朝向、景观设计和雨洪策略。
 
-**Requirements:** Points by reduction percentage: 25% (1 pt), 30% (2 pts), 35% (3 pts), 40% (4 pts), 45% (5 pts), 50% (6 pts).
+### SS 学分：保护或恢复栖息地（2 分）
 
-**Design strategies:**
-- Toilets: 1.28 gpf single-flush or 1.1/1.6 gpf dual-flush (vs. 1.6 baseline)
-- Urinals: 0.125 gpf or waterless (vs. 1.0 baseline)
-- Lavatory faucets: 0.35 gpm with auto-shutoff (vs. 0.5 public baseline)
-- Showers: 1.5–2.0 gpm (vs. 2.5 baseline)
-- Kitchen faucets: 1.5 gpm (vs. 2.2 baseline)
-- Greywater reuse for toilet flushing (where code permits)
-- Rainwater for non-potable uses
+**意图：**保护现有自然区域并恢复受损栖息地。
 
-**Architect's role:** Specify fixture flow rates in plumbing schedules. Design greywater/rainwater collection and treatment systems. Coordinate with plumbing engineer.
+**要求：**
+- 方案 1（绿地）：限制场地扰动，保护绿地场地（不含建筑占地）≥40% 不受扰动。
+- 方案 2（已开发场地）：使用乡土或适应性植被恢复总场地面积 ≥20%。
+- 财务支持：按总场地面积向合格土地信托或恢复组织提供 ≥$0.40/sf。
 
-### WE Credit: Cooling Tower Water Use (2 pts)
+**设计策略：**集中布置建筑以保留连续栖息地，使用乡土植物配置，建立野生动物廊道，并设置绿化屋面和活体墙补充地面栖息地。
 
-**Requirements:** Achieve ≥5 cycles of concentration (1 pt) or ≥10 cycles (2 pts), OR use ≥50% non-potable makeup water.
+### SS 学分：开放空间（1 分）
 
-### WE Credit: Water Metering (1 pt)
+**意图：**创造鼓励人与环境互动、社会交往、被动休闲和身体活动的室外空间。
 
-**Requirements:** Install permanent water meters for: whole building (1 mandatory sub-meter), plus ≥2 of: irrigation, indoor plumbing, domestic hot water, reclaimed water, other process water.
+**要求：**室外空间 ≥总场地面积的 30%（包括建筑占地），且至少 25% 的室外空间应绿化（草坪、种植、绿化屋面）。空间必须可实际到达，并至少包含以下一项：步行导向铺装、座椅、花园或休闲空间。
+
+### SS 学分：雨水管理（3 分）
+
+**意图：**减少径流量并改善水质。
+
+**要求：**
+- 2 分：现场管理第 95 百分位降雨事件的径流（流量和体积均达到自然地表覆盖条件）
+- 3 分：管理第 98 百分位降雨事件
+
+**设计策略：**
+- 绿化屋面（根据基质厚度滞留全年降雨的 50–90%）
+- 生物滞留沟和雨水花园（渗透并蒸散径流）
+- 透水铺装（在停车和步行区域渗透地表径流）
+- 雨水收集蓄水池（收集、储存并回用雨水灌溉或冲厕）
+- 人工湿地和调蓄池（控制流量和体积）
+
+**建筑师职责：**将 SuDS 整合进景观设计，确定绿化屋面和透水表面的规模，并与土木工程师协调地下系统。
+
+### SS 学分：热岛减缓（2 分）
+
+**意图：**尽量减少对微气候以及人类／野生动物栖息地的影响。
+
+**要求：**组合采用以下策略：
+- 非屋面（任选 2 项）：≥50% 场地硬质铺装使用 SR ≥33 的材料；开放式网格铺装（≥50% 透水）；由 SR ≥33 的结构遮阴；或由树木在 10 年内形成遮阴
+- 屋面：≥75% 屋面面积使用 SRI ≥82（低坡）或 SRI ≥39（陡坡）的材料，或 ≥75% 屋面面积设置绿化屋面
+
+**设计策略：**浅色铺装和屋面材料、绿化屋面、遮阴树木（按 10 年树冠覆盖种植）、有顶停车、透水铺装。
+
+### SS 学分：光污染减少（1 分）
+
+**意图：**增加夜空可见度并减少对夜间环境的影响。
+
+**要求：**
+- 上射光：所有室外灯具满足 BUG 等级 U0（无直接上射光）
+- 后向光和眩光：满足适用于照明分区的 BUG 等级（按 IESNA 为 LZ0–LZ4）
+- 室内照明：营业时间后自动关闭或降低功率 ≥50%，或遮蔽围护结构所有开口以限制光侵扰
+
+**建筑师职责：**与照明设计师协调，规定完全遮光（全截光）室外灯具，并设计营业时间后的室内照明降功率控制。
 
 ---
 
-## 5. Energy and Atmosphere (EA) — 33 Points
+## 4. 水效率（WE）——11 分
 
-### EA Prerequisite: Fundamental Commissioning and Verification
+### WE 先决条件：室外用水减少
 
-**Requirements:** Commission energy-related systems per ASHRAE Guideline 0-2019. Commissioning authority (CxA) reviews design documents, develops commissioning plan, verifies installation and performance of HVAC&R, lighting controls, domestic hot water, and renewable energy systems.
+**要求：**与基准相比减少室外景观用水 ≥30%（按 EPA WaterSense 水预算工具计算）；或不设置室外灌溉；或仅使用非饮用水源（雨水、灰水、再生水）灌溉。
 
-### EA Prerequisite: Minimum Energy Performance
+### WE 先决条件：室内用水减少
 
-**Requirements:** Demonstrate ≥5% (new construction) or ≥3% (major renovation) improvement in proposed building performance rating over ASHRAE 90.1-2016 baseline through whole-building energy simulation per Appendix G. Alternative: prescriptive compliance with ASHRAE 50% AEDG for applicable building type.
+**要求：**与 LEED v4.1 基准相比，室内总用水量减少 ≥20%。基准器具：坐便器 1.6 gpf，小便器 1.0 gpf，洗手盆龙头 0.5 gpm（公共）／2.2 gpm（私人），淋浴 2.5 gpm，厨房龙头 2.2 gpm。
 
-### EA Prerequisite: Building-Level Energy Metering
+### WE 学分：室外用水减少（2 分）
 
-**Requirements:** Install whole-building energy meters for each energy source (electricity, gas, district heating/cooling, etc.). Meters must be capable of hourly or more frequent data collection and connected to BMS or data acquisition system.
+**要求：**减少 50%（1 分），或不灌溉／100% 使用非饮用水源（2 分）。
 
-### EA Prerequisite: Fundamental Refrigerant Management
+**设计策略：**旱景园林（适应干旱的植物）、乡土物种配置、采用气象控制器的高效滴灌、收集雨水灌溉、灰水回用（规范允许时）、土壤湿度传感器及灌溉控制器雨量传感器。
 
-**Requirements:** Zero use of CFC-based refrigerants in new HVAC&R systems. Phase-out plan for existing CFC systems in major renovations.
+### WE 学分：室内用水减少（6 分）
 
-### EA Credit: Optimize Energy Performance (18 pts)
+**要求：**按减少比例计分：25%（1 分）、30%（2 分）、35%（3 分）、40%（4 分）、45%（5 分）、50%（6 分）。
 
-**Intent:** Achieve increasing levels of energy performance beyond code to reduce environmental and economic harms.
+**设计策略：**
+- 坐便器：1.28 gpf 单冲，或 1.1/1.6 gpf 双冲（基准为 1.6）
+- 小便器：0.125 gpf 或无水型（基准为 1.0）
+- 洗手盆龙头：0.35 gpm 且自动关闭（公共基准为 0.5）
+- 淋浴：1.5–2.0 gpm（基准为 2.5）
+- 厨房龙头：1.5 gpm（基准为 2.2）
+- 灰水回用冲厕（规范允许时）
+- 雨水用于非饮用用途
 
-**Requirements:** Percentage improvement in building performance cost over ASHRAE 90.1-2016 baseline:
+**建筑师职责：**在给排水设备表中规定器具流量，设计灰水／雨水收集和处理系统，并与给排水工程师协调。
 
-| Improvement (New Construction) | Points |
+### WE 学分：冷却塔用水（2 分）
+
+**要求：**达到 ≥5 次浓缩循环（1 分）或 ≥10 次（2 分），或使用 ≥50% 非饮用补水。
+
+### WE 学分：水计量（1 分）
+
+**要求：**安装永久水表：整栋建筑（1 个强制分表），并在以下项目中至少选择 2 项：灌溉、室内给排水、生活热水、再生水、其他工艺用水。
+
+---
+
+## 5. 能源与大气（EA）——33 分
+
+### EA 先决条件：基本调试与验证
+
+**要求：**按 ASHRAE Guideline 0-2019 对能源相关系统进行调试。调试负责人（CxA）审查设计文件、制定调试计划，并验证 HVAC&R、照明控制、生活热水和可再生能源系统的安装与性能。
+
+### EA 先决条件：最低能源性能
+
+**要求：**根据附录 G 进行整栋建筑能耗模拟，证明拟建建筑性能评级相较 ASHRAE 90.1-2016 基准提高 ≥5%（新建）或 ≥3%（重大翻新）。替代方案：对于适用建筑类型，按 ASHRAE 50% AEDG 规定性要求合规。
+
+### EA 先决条件：建筑级能源计量
+
+**要求：**为每种能源（电力、燃气、区域供热／供冷等）安装整栋建筑能源表。仪表必须能够按小时或更高频率采集数据，并连接至 BMS 或数据采集系统。
+
+### EA 先决条件：基本制冷剂管理
+
+**要求：**新建 HVAC&R 系统不得使用 CFC 类制冷剂；重大翻新项目须制定现有 CFC 系统淘汰计划。
+
+### EA 学分：优化能源性能（18 分）
+
+**意图：**实现超越规范的更高能源性能，以减少环境和经济影响。
+
+**要求：**建筑性能成本相较 ASHRAE 90.1-2016 基准的改善比例：
+
+| 改善幅度（新建项目） | 分值 |
 |---|---|
 | 6% | 1 |
 | 8% | 2 |
@@ -239,35 +239,35 @@
 | 46% | 17 |
 | 50% | 18 |
 
-**Architect's design strategies (direct influence):**
-- **Building orientation:** Long axis E-W in heating-dominated climates maximizes south-facing glazing for passive solar gains and minimizes east/west exposure. Can reduce heating energy by 10–20%.
-- **Building form:** Compact form (low surface-area-to-volume ratio) reduces envelope heat loss. A cube has the lowest SA:V; elongated buildings have higher SA:V but better daylighting.
-- **Window-to-wall ratio:** Reduce WWR on east and west facades (high solar gain, low useful daylight). Optimize south WWR for passive solar gain with external shading. Target: 25–35% overall WWR for most climates.
-- **Envelope performance:** Exceed ASHRAE 90.1 minimum by 30–50%. Target: walls R-20+ (climate zone 4), roofs R-30+, glazing U-0.25/SHGC 0.25 (cooling) or U-0.25/SHGC 0.40 (heating).
-- **External shading:** Fixed overhangs on south (sized for solar angle at summer solstice), vertical fins on east/west, automated external blinds. Reduce cooling loads by 20–40%.
-- **Daylighting:** Sidelighting (≤2.5× window head height penetration), toplighting (skylights, monitors, clerestories for single-story). Daylight-responsive dimming saves 30–50% of lighting energy.
-- **Natural ventilation:** Mixed-mode ventilation (natural when conditions allow, mechanical when not). Reduces cooling energy by 20–50% in temperate climates.
-- **Thermal mass:** Exposed concrete soffits for night cooling in offices. Free cooling reduces active cooling hours by 30–60% in temperate climates.
+**建筑师设计策略（直接影响）：**
+- **建筑朝向：**在供暖主导气候中采用东西向长轴，最大化南向玻璃的被动太阳得热并减少东西向暴露，可降低 10–20% 供暖能耗。
+- **建筑体形：**紧凑体形（表面积与体积比较低）可减少围护结构热损失。立方体的 SA:V 最低；细长建筑 SA:V 较高但采光更好。
+- **窗墙比：**减少东西立面的 WWR（太阳得热高而有效日光少），结合外遮阳优化南立面 WWR 以获得被动太阳得热。多数气候目标为总体 WWR 25–35%。
+- **围护结构性能：**比 ASHRAE 90.1 最低要求提高 30–50%。目标：墙体 R-20+（气候区 4）、屋面 R-30+；玻璃 U-0.25/SHGC 0.25（制冷）或 U-0.25/SHGC 0.40（供暖）。
+- **外遮阳：**南向固定挑檐（按夏至太阳角确定尺寸）、东西向竖向翼墙、自动外百叶，可降低 20–40% 制冷负荷。
+- **采光：**侧窗采光（进深 ≤窗头高度的 2.5 倍）、顶部采光（单层建筑采用天窗、采光监控窗、 高侧窗）。日光响应调光可节省 30–50% 照明能耗。
+- **自然通风：**混合模式通风（条件允许时自然通风，否则机械通风），在温带气候可降低 20–50% 制冷能耗。
+- **热惰性：**办公建筑采用外露混凝土楼板底进行夜间冷却。在温带气候中，自由冷却可使主动制冷小时数减少 30–60%。
 
-### EA Credit: Enhanced Commissioning (6 pts)
+### EA 学分：增强调试（6 分）
 
-**Requirements:**
-- Option 1: Enhanced commissioning (3–4 pts) — CxA performs design review, construction verification, and post-occupancy review at 10 months.
-- Option 2: Monitoring-based commissioning (5–6 pts) — continuous monitoring of energy systems for ≥12 months post-occupancy, with corrective action plans.
-- Envelope commissioning (add 1 pt) — review envelope design, inspect installation, verify air/water tightness through testing (blower door, thermographic survey).
+**要求：**
+- 方案 1：增强调试（3–4 分）——CxA 进行设计审查、施工验证，并在使用 10 个月时进行后评估。
+- 方案 2：基于监测的调试（5–6 分）——使用后持续监测能源系统 ≥12 个月，并制定纠正措施计划。
+- 围护结构调试（加 1 分）——审查围护结构设计、检查安装，并通过测试（鼓风门、热成像调查）验证气密性和水密性。
 
-### EA Credit: Advanced Energy Metering (1 pt)
+### EA 学分：高级能源计量（1 分）
 
-**Requirements:** Sub-meter all individual energy end uses representing ≥10% of total building energy consumption. Meters must provide hourly data, be connected to BMS, and data must be accessible to building operators.
+**要求：**为占建筑总能耗 ≥10% 的每项终端能源用途设置分表。仪表必须提供小时数据、连接至 BMS，且数据可由建筑运营人员访问。
 
-### EA Credit: Grid Harmonization (2 pts)
+### EA 学分：电网协调（2 分）
 
-**Requirements:** Participate in demand response (DR) program with local utility (1 pt), AND/OR install battery energy storage or thermal energy storage to shift ≥10% of peak load off-peak (2 pts).
+**要求：**参加当地公用事业的需求响应（DR）计划（1 分），和／或安装电池储能或蓄热系统，将 ≥10% 的峰值负荷转移至非高峰时段（2 分）。
 
-### EA Credit: Renewable Energy (5 pts)
+### EA 学分：可再生能源（5 分）
 
-**Requirements:** On-site renewable energy system generating:
-| % of Building Energy Cost | Points |
+**要求：**现场可再生能源系统产生的能源比例：
+| 建筑能源成本比例 | 分值 |
 |---|---|
 | 1% | 1 |
 | 3% | 2 |
@@ -275,183 +275,183 @@
 | 7% | 4 |
 | 10% | 5 |
 
-Alternative compliance: off-site renewable energy procurement through PPA or Green-e certified RECs (lower point values available).
+替代合规：通过 PPA 或 Green-e 认证 REC 采购场外可再生能源（可获得较低分值）。
 
-**Architect's role:** Design roof for optimal PV orientation (south-facing, 15–35° tilt), maximize unshaded roof area, integrate BIPV into facade design, coordinate structural capacity for rooftop PV arrays.
+**建筑师职责：**设计最佳光伏朝向的屋面（朝南、倾角 15–35°），最大化无遮挡屋面面积，将 BIPV 整合进立面设计，并协调屋顶光伏阵列的结构承载能力。
 
-### EA Credit: Green Power and Carbon Offsets (1 pt)
+### EA 学分：绿色电力与碳抵消（1 分）
 
-**Requirements:** Contract for qualified green power, carbon offsets, or RECs for ≥50% of building energy use for ≥5 years.
-
----
-
-## 6. Materials and Resources (MR) — 13 Points
-
-### MR Prerequisite: Storage and Collection of Recyclables
-
-**Requirements:** Provide dedicated area for collection and storage of recyclable materials: paper, corrugated cardboard, glass, plastics, metals, and batteries. Area must be accessible to building occupants and waste haulers.
-
-### MR Prerequisite: Construction and Demolition Waste Management Planning
-
-**Requirements:** Develop and implement a C&D waste management plan identifying at least 5 materials for diversion from disposal, estimated percentage diverted, and diversion strategies (reuse, recycling).
-
-### MR Credit: Building Life-Cycle Impact Reduction (5 pts)
-
-**Requirements:**
-- Option 1 — Historic Building Reuse (5 pts): Maintain ≥75% of existing building structure and envelope.
-- Option 2 — Renovation (3–4 pts): Maintain existing structure (2 pts), existing structure + envelope (3 pts), or existing structure + envelope + interior non-structural elements (4 pts).
-- Option 3 — Whole-Building LCA (3 pts): Conduct WBLCA per ISO 14044 for structure and enclosure over 60-year service life. Demonstrate ≥5% reduction in at least 3 of 6 environmental impact categories vs. baseline building.
-- Option 4 — Whole-Building LCA + EPD (4–5 pts): As Option 3, plus use structural/envelope products with EPDs.
-
-**Architect's role:** This credit most directly rewards architectural decisions. Structural material selection (mass timber vs. concrete vs. steel), structural system optimization (grid spacing, slab thickness), facade material selection, and design for longevity all directly affect LCA outcomes.
-
-**Design strategies:** Use One Click LCA, Tally, or EC3 (Embodied Carbon in Construction Calculator) to compare structural options. Specify low-carbon concrete (GGBS/PFA), recycled steel, mass timber. Optimize structural grids to minimize material volume.
-
-### MR Credit: Environmental Product Declarations (2 pts)
-
-**Requirements:** Use ≥20 permanently installed products sourced from ≥5 manufacturers that have EPDs conforming to ISO 14025 and one of: ISO 21930, EN 15804, or ISO 14040.
-- 1 pt: ≥20 products with industry-wide (generic) Type III EPDs
-- 2 pts: ≥20 products with product-specific Type III EPDs
-
-### MR Credit: Sourcing of Raw Materials (2 pts)
-
-**Requirements:**
-- 1 pt: ≥20 permanently installed products from ≥5 manufacturers that document responsible extraction through third-party certification (FSC for wood, Responsible Steel, BES 6001, etc.)
-- 1 pt (additional): ≥25% of products (by cost) are: bio-based (sustainably harvested), recycled content, or salvaged/reused materials
-
-### MR Credit: Material Ingredients (2 pts)
-
-**Requirements:**
-- 1 pt: ≥20 products from ≥5 manufacturers with published chemical inventories (HPD v2.0+, Declare Label, C2C Material Health Certificate, or REACH compliant)
-- 1 pt (additional): ≥20 products optimized for chemical safety (C2C Silver+, ILFI Red List Free, GreenScreen benchmark assessment)
-
-### MR Credit: Construction and Demolition Waste Management (2 pts)
-
-**Requirements:**
-- Path 1: ≥50% of total C&D waste diverted from disposal (1 pt), ≥75% (2 pts). Calculate by weight or volume.
-- Path 2: ≤2.5 lb of waste per sf of building area (2 pts)
+**要求：**连续 ≥5 年为建筑 ≥50% 的能源使用量签订合格绿色电力、碳抵消或 REC 合同。
 
 ---
 
-## 7. Indoor Environmental Quality (EQ) — 16 Points
+## 6. 材料与资源（MR）——13 分
 
-### EQ Prerequisite: Minimum Indoor Air Quality Performance
+### MR 先决条件：可回收物的存放与收集
 
-**Requirements:** Design outdoor air ventilation systems to meet ASHRAE 62.1-2016 Sections 4-7 (Ventilation Rate Procedure or IAQ Procedure). For mechanically ventilated spaces, provide outdoor airflow monitoring at each air handler serving ≥10 occupants.
+**要求：**为可回收材料设置专用收集和存放区域，包括纸张、瓦楞纸板、玻璃、塑料、金属和电池。该区域必须便于建筑使用者和废弃物运输人员进入。
 
-### EQ Prerequisite: Environmental Tobacco Smoke Control
+### MR 先决条件：施工与拆除废弃物管理规划
 
-**Requirements:** Prohibit smoking inside the building and within 25 ft of all entries, outdoor air intakes, and operable windows. Residential: prohibit smoking in all common areas and within 25 ft of entries. Smoking rooms (if permitted by code) must be: exhausted directly outdoors, negative pressure, decoupled from distribution to other spaces.
+**要求：**制定并实施施工与拆除废弃物管理计划，至少确定 5 类从最终处置中分流的材料、预计分流比例以及分流策略（再利用、回收）。
 
-### EQ Credit: Enhanced Indoor Air Quality Strategies (2 pts)
+### MR 学分：建筑生命周期影响减少（5 分）
 
-**Requirements:**
-- 1 pt: Entry-way systems (≥10 ft walk-off grilles/mats at regular entries), interior cross-contamination prevention (exhaust from chemical use areas, negative pressure in pollutant-generating zones, self-closing doors), filtration (MERV 13+ on all recirculating and outside air AHUs)
-- 1 pt (additional): Exterior contamination prevention (set intakes away from pollution sources per ASHRAE 62.1 Table 5-1), additional filtration or gas-phase purification, increased ventilation (≥30% above ASHRAE 62.1 rates)
+**要求：**
+- 方案 1——历史建筑再利用（5 分）：保留 ≥75% 的既有建筑结构和围护结构。
+- 方案 2——翻新（3–4 分）：保留既有结构（2 分）、既有结构 + 围护结构（3 分），或既有结构 + 围护结构 + 室内非结构构件（4 分）。
+- 方案 3——整栋建筑 LCA（3 分）：按 ISO 14044 对结构和围护结构进行 60 年寿命期 WBLCA，并证明至少 6 类环境影响中的 3 类相较基准建筑减少 ≥5%。
+- 方案 4——整栋建筑 LCA + EPD（4–5 分）：同方案 3，且结构／围护产品使用 EPD。
 
-### EQ Credit: Low-Emitting Materials (3 pts)
+**建筑师职责：**该学分最直接奖励建筑决策。结构材料选择（工程木与混凝土与钢材）、结构体系优化（柱网间距、楼板厚度）、立面材料选择和长寿命设计都会直接影响 LCA 结果。
 
-**Requirements:** All products installed inside the weatherproofing system meet VOC emission and content limits per CDPH Standard Method v1.2 (emissions testing) and applicable content limits. Categories: interior paints and coatings, adhesives and sealants, flooring, composite wood and agrifiber, ceilings/walls/thermal/acoustic insulation, furniture.
+**设计策略：**使用 One Click LCA、Tally 或 EC3（建筑隐含碳计算器）比较结构方案。规定低碳混凝土（GGBS/PFA）、再生钢和工程木，并优化柱网以减少材料体积。
 
-Points based on number of categories meeting thresholds: 2 categories (1 pt), 4 categories (2 pts), 6 categories (3 pts).
+### MR 学分：环境产品声明（2 分）
 
-### EQ Credit: Construction Indoor Air Quality Management Plan (1 pt)
+**要求：**使用至少 20 个永久安装产品，来自至少 5 家制造商，且具有符合 ISO 14025 及 ISO 21930、EN 15804 或 ISO 14040 之一的 EPD。
+- 1 分：≥20 个具有行业通用（一般性）III 型 EPD 的产品
+- 2 分：≥20 个具有产品特定 III 型 EPD 的产品
 
-**Requirements:** Develop and implement an IAQ management plan per SMACNA guidelines during construction. Protect absorptive materials from moisture. Replace HVAC filters before occupancy with MERV 8+ (final filters MERV 13+).
+### MR 学分：原材料采购（2 分）
 
-### EQ Credit: Indoor Air Quality Assessment (2 pts)
+**要求：**
+- 1 分：来自至少 5 家制造商的 ≥20 个永久安装产品，通过第三方认证记录负责任采掘（木材 FSC、Responsible Steel、BES 6001 等）。
+- 额外 1 分：按成本计，≥25% 的产品为生物基（可持续采集）、含再生材料或回收／再利用材料。
 
-**Requirements:**
-- Option 1 — Flush-out (1 pt): After construction and before occupancy, supply 14,000 cf outdoor air per sf of floor area while maintaining 60°F minimum and 60% RH maximum.
-- Option 2 — Air Testing (2 pts): Conduct baseline IAQ testing after construction: formaldehyde ≤ 27 ppb, TVOC ≤ 500 μg/m³, carbon monoxide ≤ 9 ppm, PM10 ≤ 50 μg/m³ (4-hour sample per 25,000 sf of floor area).
+### MR 学分：材料成分（2 分）
 
-### EQ Credit: Thermal Comfort (1 pt)
+**要求：**
+- 1 分：来自至少 5 家制造商的 ≥20 个产品公布化学成分清单（HPD v2.0+、Declare Label、C2C Material Health Certificate 或符合 REACH）。
+- 额外 1 分：≥20 个产品针对化学安全进行优化（C2C Silver+、ILFI Red List Free、GreenScreen 基准评估）。
 
-**Requirements:** Design HVAC to meet ASHRAE 55-2017 (PMV model or adaptive model for naturally ventilated spaces). Provide thermal comfort controls: individual controls (operable windows, thermostat, radiant panel) for ≥50% of individual spaces, group controls for all shared spaces.
+### MR 学分：施工与拆除废弃物管理（2 分）
 
-### EQ Credit: Interior Lighting (2 pts)
-
-**Requirements:**
-- 1 pt: Personal lighting control for ≥90% of individual occupant spaces (task light, dimmer, or on/off control). Multi-occupant spaces: multi-zone dimming per ASHRAE 90.1.
-- 1 pt: For ≥75% of floor area, lighting quality meets: surface reflectance (ceiling ≥80%, walls ≥60%, workplane 25–45%), lamp CRI ≥90 OR specific UGR ≤ 19, AND light levels per IES recommendations with controllable ambient/task.
-
-### EQ Credit: Daylight (3 pts)
-
-**Requirements:**
-- Option 1 — Simulation: sDA300/50% ≥ 55% for 2 pts, ≥ 75% for 3 pts. ASE1000,250 ≤ 10% for all regularly occupied floor area.
-- Option 2 — Measurement: ≥55% (2 pts) or ≥75% (3 pts) of regularly occupied spaces achieve 300 lux minimum at 9 AM and 3 PM on a clear sky equinox day.
-
-**Architect's role:** This credit is almost entirely architect-determined. Floor plate depth, window placement, glazing VLT, interior surface reflectances, and shading design control daylight autonomy and glare.
-
-### EQ Credit: Quality Views (1 pt)
-
-**Requirements:** Direct line of sight to outdoor environment through vision glazing (between 30" and 90" above FFP) for ≥75% of regularly occupied floor area. Views must include ≥2 of: flora/fauna/sky, movement, objects ≥25 ft from exterior of glazing.
-
-### EQ Credit: Acoustic Performance (1 pt)
-
-**Requirements:** HVAC background noise: ASHRAE Handbook targets (STC ≥45 for office, NC ≤35 for enclosed office). Sound insulation: STC ≥45 between enclosed offices. Reverberation time: RT60 ≤ 0.6 s (enclosed offices), ≤ 0.8 s (open plan). Sound masking: 45–48 dB in open plan (if installed).
+**要求：**
+- 路径 1：总 C&D 废弃物中 ≥50% 转离最终处置（1 分），≥75%（2 分），按重量或体积计算。
+- 路径 2：每 sf 建筑面积废弃物 ≤2.5 lb（2 分）。
 
 ---
 
-## 8. Innovation (IN) — 6 Points
+## 7. 室内环境质量（EQ）——16 分
 
-### IN Credit: Innovation (5 pts)
+### EQ 先决条件：最低室内空气质量性能
 
-**Requirements:** Achieve significant, measurable performance beyond LEED credit requirements, OR address a sustainability strategy not specifically covered by existing LEED credits. Each innovation credit requires a narrative, identification of the requirement/metric, and documentation of compliance. Projects can earn up to 5 innovation credits.
+**要求：**按 ASHRAE 62.1-2016 第 4–7 节（通风率程序或 IAQ 程序）设计室外空气通风系统。机械通风空间中，为每台服务 ≥10 名使用者的空气处理机组设置室外风量监测。
 
-**Common innovation credits:**
-- Passive House / net zero energy certification (1 pt)
-- Biophilic design (1 pt)
-- Bird collision deterrence (1 pt)
-- Resilience planning (1 pt)
-- Social equity within the project (1 pt)
-- Education/outreach program (1 pt)
-- Green vehicles (going beyond LT EV credit)
+### EQ 先决条件：环境烟草烟雾控制
 
-### IN Credit: LEED Accredited Professional (1 pt)
+**要求：**禁止在建筑内部以及所有入口、室外进风口和可开启窗 25 ft 范围内吸烟。住宅项目：禁止在所有公共区域和入口 25 ft 范围内吸烟。若规范允许设置吸烟室，必须直接向室外排风、保持负压，并与其他空间的送风系统隔离。
 
-**Requirements:** At least one principal participant of the project team is a LEED AP with specialty appropriate to the project (BD+C).
+### EQ 学分：增强室内空气质量策略（2 分）
+
+**要求：**
+- 1 分：入口系统（常规入口设置 ≥10 ft 的擦鞋格栅／地垫）、室内交叉污染预防（化学品使用区排风、污染产生区负压、自闭门）、过滤（所有回风和室外风 AHU 设置 MERV 13+）
+- 额外 1 分：室外污染预防（按 ASHRAE 62.1 表 5-1 使进风口远离污染源）、额外过滤或气相净化、增加通风量（高于 ASHRAE 62.1 规定值 ≥30%）
+
+### EQ 学分：低排放材料（3 分）
+
+**要求：**防水层以内安装的所有产品，均须按 CDPH Standard Method v1.2（排放测试）及适用含量限值满足 VOC 排放和含量要求。类别包括：室内涂料和面漆、胶粘剂和密封胶、地面材料、复合木材和农纤维板、天花／墙体／热工／声学保温材料、家具。
+
+按达到阈值的类别数量计分：2 类（1 分）、4 类（2 分）、6 类（3 分）。
+
+### EQ 学分：施工室内空气质量管理计划（1 分）
+
+**要求：**施工期间按 SMACNA 指南制定并实施 IAQ 管理计划，保护吸湿材料免受潮湿影响。使用前更换 HVAC 滤网，采用 MERV 8+（最终滤网 MERV 13+）。
+
+### EQ 学分：室内空气质量评估（2 分）
+
+**要求：**
+- 方案 1——冲洗通风（1 分）：施工完成且使用前，每 sf 楼面面积供应 14,000 cf 室外空气，同时保持最低 60°F、最高相对湿度 60%。
+- 方案 2——空气测试（2 分）：施工后进行基准 IAQ 测试：甲醛 ≤ 27 ppb、TVOC ≤ 500 μg/m³、一氧化碳 ≤ 9 ppm、PM10 ≤ 50 μg/m³（每 25,000 sf 楼面面积采集 4 小时样本）。
+
+### EQ 学分：热舒适（1 分）
+
+**要求：**按 ASHRAE 55-2017 设计 HVAC（PMV 模型，或自然通风空间采用适应性模型）。设置热舒适控制：≥50% 的独立空间设置独立控制（可开启窗、恒温器、辐射板），所有共享空间设置群组控制。
+
+### EQ 学分：室内照明（2 分）
+
+**要求：**
+- 1 分：≥90% 的独立使用者空间设置个人照明控制（工作灯、调光或开／关控制）。多人空间按 ASHRAE 90.1 设置多区域调光。
+- 1 分：≥75% 楼面面积的照明质量满足：表面反射率（天花 ≥80%、墙面 ≥60%、工作面 25–45%），灯具 CRI ≥90 或特定 UGR ≤19，并按 IES 建议设置可控环境／工作面照度。
+
+### EQ 学分：日光（3 分）
+
+**要求：**
+- 方案 1——模拟：sDA300/50% ≥55% 得 2 分，≥75% 得 3 分。所有经常使用楼面面积的 ASE1000,250 ≤10%。
+- 方案 2——测量：在晴空春分或秋分日 9:00 和 15:00，≥55%（2 分）或 ≥75%（3 分）的经常使用空间达到最低 300 lux。
+
+**建筑师职责：**该学分几乎完全由建筑师决定。楼板进深、窗位置、玻璃 VLT、室内表面反射率和遮阳设计控制日光自主性与眩光。
+
+### EQ 学分：优质视野（1 分）
+
+**要求：**≥75% 的经常使用楼面面积通过视野玻璃直接看到室外环境（视线位于 FFP 上方 30–90"）。视野必须包含以下至少 2 项：植物／动物／天空、运动、距玻璃外侧 ≥25 ft 的物体。
+
+### EQ 学分：声学性能（1 分）
+
+**要求：**HVAC 背景噪声按 ASHRAE Handbook 目标（办公空间 STC ≥45，封闭办公室 NC ≤35）。隔声：封闭办公室之间 STC ≥45。混响时间：封闭办公室 RT60 ≤0.6 s，开放办公 ≤0.8 s。声音掩蔽：开放办公 45–48 dB（如安装）。
 
 ---
 
-## 9. Regional Priority (RP) — 4 Points
+## 8. 创新（IN）——6 分
 
-### RP Credit: Regional Priority (4 pts)
+### IN 学分：创新（5 分）
 
-**Requirements:** Earn up to 4 points for achieving credits identified as regional priority by USGBC regional councils. Each eligible credit earned that is flagged as a Regional Priority for the project's zip code earns 1 bonus RP point (up to 4). Regional priorities are identified based on local environmental, social, and economic priorities — e.g., water efficiency credits in drought regions, transit access credits in sprawling metros.
+**要求：**实现显著且可测量、超出 LEED 学分要求的性能，或解决现有 LEED 学分未明确涵盖的可持续策略。每项创新学分均需提供叙述、要求／指标识别和合规文件。项目最多可获得 5 项创新学分。
 
-**Architect's role:** Check the USGBC Regional Priority credit list for the project zip code early in design to identify high-value credits that earn both base points and RP bonus points. This optimizes the point-to-effort ratio.
+**常见创新学分：**
+- 被动房／净零能耗认证（1 分）
+- 亲生物设计（1 分）
+- 鸟类碰撞防护（1 分）
+- 韧性规划（1 分）
+- 项目内部社会公平（1 分）
+- 教育／宣传项目（1 分）
+- 绿色车辆（超越 LT 电动车学分）
+
+### IN 学分：LEED 认可专业人员（1 分）
+
+**要求：**项目团队至少一名主要参与者为具有适合项目专业方向（BD+C）的 LEED AP。
 
 ---
 
-## 10. Credit Interdependencies and Synergies
+## 9. 区域优先（RP）——4 分
 
-Several LEED credits reward the same design strategies, creating synergies that maximize points from a single design decision:
+### RP 学分：区域优先（4 分）
 
-**High-performance envelope:**
-- EA Optimize Energy Performance (up to 18 pts) — reduces heating/cooling energy
-- EQ Thermal Comfort (1 pt) — better envelope = more uniform interior temperatures
-- EQ Daylight (3 pts) — optimized glazing ratio supports daylighting
-- EA Enhanced Commissioning (1 pt) — envelope commissioning verifiable when well-designed
+**要求：**通过取得 USGBC 区域委员会确定的区域优先学分，最多获得 4 分。项目邮政编码标记为区域优先的每项合格学分可获得 1 个 RP 奖励分（最多 4 分）。区域优先依据当地环境、社会和经济重点确定，例如干旱地区的水效率学分、蔓延型都市区的公共交通可达性学分。
 
-**Vegetated roof:**
-- SS Rainwater Management (3 pts) — retains stormwater
-- SS Heat Island Reduction (2 pts) — qualifies as high-SRI or vegetated
-- SS Protect or Restore Habitat (2 pts) — qualifies as restored habitat if biodiverse
-- EA Optimize Energy (contribution) — reduces cooling load
+**建筑师职责：**在设计早期查询项目邮政编码对应的 USGBC 区域优先学分清单，识别可同时获得基础分和 RP 奖励分的高价值学分，优化得分与工作量的比例。
 
-**On-site renewable energy (PV):**
-- EA Optimize Energy Performance (contributes to % improvement)
-- EA Renewable Energy (up to 5 pts)
-- SS Heat Island Reduction (when PV covers parking areas as shade structures)
+---
 
-**Daylighting design:**
-- EQ Daylight (3 pts)
-- EQ Quality Views (1 pt) — same windows serve both credits
-- EA Optimize Energy Performance — daylight-responsive dimming reduces lighting energy
-- EQ Interior Lighting (2 pts) — daylight integration supports lighting quality
+## 10. 学分相互依赖与协同效应
 
-**Water-efficient landscaping:**
-- WE Outdoor Water Use Reduction (2 pts)
-- SS Rainwater Management (3 pts) — rain gardens and bioswales serve both
-- SS Protect or Restore Habitat (2 pts) — native planting serves both
+多个 LEED 学分会奖励相同的设计策略，由此产生协同效应，使单个设计决策获得最大化得分：
+
+**高性能围护结构：**
+- EA 优化能源性能（最多 18 分）——减少供暖／制冷能耗
+- EQ 热舒适（1 分）——更好的围护结构 = 更均匀的室内温度
+- EQ 日光（3 分）——优化玻璃比例支持采光
+- EA 增强调试（1 分）——设计良好时可验证围护结构调试
+
+**绿化屋面：**
+- SS 雨水管理（3 分）——滞留雨水
+- SS 热岛减缓（2 分）——可作为高 SRI 或绿化屋面
+- SS 保护或恢复栖息地（2 分）——具有生物多样性时可作为恢复栖息地
+- EA 优化能源（贡献）——减少制冷负荷
+
+**现场可再生能源（PV）：**
+- EA 优化能源性能（计入改善比例）
+- EA 可再生能源（最多 5 分）
+- SS 热岛减缓（光伏覆盖停车区并作为遮阳结构时）
+
+**采光设计：**
+- EQ 日光（3 分）
+- EQ 优质视野（1 分）——同一组窗可同时满足两项学分
+- EA 优化能源性能——日光响应调光减少照明能耗
+- EQ 室内照明（2 分）——整合日光有助于照明质量
+
+**节水景观：**
+- WE 室外用水减少（2 分）
+- SS 雨水管理（3 分）——雨水花园和生物滞留沟同时满足两项要求
+- SS 保护或恢复栖息地（2 分）——乡土植物配置同时满足两项要求

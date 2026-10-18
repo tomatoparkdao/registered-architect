@@ -1,136 +1,136 @@
-# Wall Systems — Comprehensive Reference
+# 墙体系统——综合参考
 
-## 1. Layer-by-Layer Build-Ups and Performance Data
+## 1. 分层构造与性能数据
 
-### 1.1 Traditional Masonry Cavity Wall (Brick/Block)
+### 1.1 传统砌体夹腔墙（砖/砌块）
 
-**Build-up (outside to inside):**
+**构造层次（由外向内）：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
-| 1 | Facing brick | 102.5 | 0.77 | 0.13 |
-| 2 | Clear cavity (ventilated) | 50 | — | 0.18 |
-| 3 | Mineral wool insulation (full-fill) | 150 | 0.034 | 4.41 |
-| 4 | Dense concrete block | 140 | 1.13 | 0.12 |
-| 5 | Lightweight plaster | 13 | 0.18 | 0.07 |
-| — | Internal surface resistance | — | — | 0.13 |
-| — | External surface resistance | — | — | 0.04 |
+| 1 | 饰面砖 | 102.5 | 0.77 | 0.13 |
+| 2 | 净空夹腔（通风） | 50 | — | 0.18 |
+| 3 | 矿棉保温（满填） | 150 | 0.034 | 4.41 |
+| 4 | 密实混凝土砌块 | 140 | 1.13 | 0.12 |
+| 5 | 轻质抹灰 | 13 | 0.18 | 0.07 |
+| — | 内表面热阻 | — | — | 0.13 |
+| — | 外表面热阻 | — | — | 0.04 |
 | **Total** | | **455.5** | | **5.08** |
 
-**U-value = 1/5.08 = 0.197 W/m²K**
+**U 值 = 1/5.08 = 0.197 W/m²K**
 
-To achieve U ≤ 0.18: increase insulation to 175 mm (R = 5.15, U = 0.174).
+达到 U ≤ 0.18：将保温层增加至 175 mm（R = 5.15，U = 0.174）。
 
-**Fire rating:** REI 120 (non-combustible throughout)
-**Acoustic:** Rw 50–55 dB (with 50 mm cavity)
-**Embodied carbon:** 85–120 kgCO2e/m²
-**Cost:** $150–250/m² installed
+**耐火等级：**REI 120（整体不燃）
+**隔声：**Rw 50–55 dB（带 50 mm 夹腔）
+**隐含碳：**85–120 kgCO2e/m²
+**成本：**$150–250/m²（含安装）
 
-### 1.2 Masonry Cavity Wall with Partial Fill + PIR
+### 1.2 局部填充 + PIR 的砌体夹腔墙
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
-| 1 | Facing brick | 102.5 | 0.77 | 0.13 |
-| 2 | Residual clear cavity | 50 | — | 0.18 |
-| 3 | PIR insulation (foil-faced) | 100 | 0.022 | 4.55 |
-| 4 | Aircrete block (thermal) | 140 | 0.11 | 1.27 |
-| 5 | Plasterboard on dabs | 12.5 | 0.25 | 0.05 |
+| 1 | 饰面砖 | 102.5 | 0.77 | 0.13 |
+| 2 | 剩余通风夹腔 | 50 | — | 0.18 |
+| 3 | PIR 保温板（覆箔） | 100 | 0.022 | 4.55 |
+| 4 | 加气混凝土砌块（保温型） | 140 | 0.11 | 1.27 |
+| 5 | 点粘石膏板 | 12.5 | 0.25 | 0.05 |
 | — | Rsi + Rse | — | — | 0.17 |
 | **Total** | | **405** | | **6.35** |
 
-**U-value = 1/6.35 = 0.157 W/m²K** (exceeds Part L 2021)
+**U 值 = 1/6.35 = 0.157 W/m²K**（满足并优于 Part L 2021）
 
-**Fire rating:** REI 120 (PIR is fire class B-s1,d0 behind masonry)
-**Acoustic:** Rw 52–56 dB
-**Embodied carbon:** 75–105 kgCO2e/m² (PIR has higher embodied carbon per kg than mineral wool but less thickness needed)
-**Cost:** $170–280/m²
+**耐火等级：**REI 120（砌体后方 PIR 防火等级为 B-s1,d0）
+**隔声：**Rw 52–56 dB
+**隐含碳：**75–105 kgCO2e/m²（PIR 每千克隐含碳高于矿棉，但所需厚度更小）
+**成本：**$170–280/m²
 
-### 1.3 Insulated Concrete Form (ICF)
+### 1.3 保温混凝土模板（ICF）
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
-| 1 | Render on mesh (external) | 10 | 0.50 | 0.02 |
-| 2 | EPS formwork (external leaf) | 75 | 0.034 | 2.21 |
-| 3 | Reinforced concrete core | 200 | 1.63 | 0.12 |
-| 4 | EPS formwork (internal leaf) | 75 | 0.034 | 2.21 |
-| 5 | Plasterboard | 12.5 | 0.25 | 0.05 |
+| 1 | 网格抹灰层（外侧） | 10 | 0.50 | 0.02 |
+| 2 | EPS 模板（外叶） | 75 | 0.034 | 2.21 |
+| 3 | 钢筋混凝土芯 | 200 | 1.63 | 0.12 |
+| 4 | EPS 模板（内叶） | 75 | 0.034 | 2.21 |
+| 5 | 石膏板 | 12.5 | 0.25 | 0.05 |
 | — | Rsi + Rse | — | — | 0.17 |
 | **Total** | | **372.5** | | **4.78** |
 
-**U-value = 1/4.78 = 0.209 W/m²K**
+**U 值 = 1/4.78 = 0.209 W/m²K**
 
-For U ≤ 0.18: use 100 mm EPS each side (R = 5.86, U = 0.17).
+达到 U ≤ 0.18：两侧均采用 100 mm EPS（R = 5.86，U = 0.17）。
 
-**Fire rating:** REI 120–240 (concrete core; EPS protected by render + plasterboard)
-**Acoustic:** Rw 52–58 dB (200 mm concrete mass)
-**Embodied carbon:** 130–180 kgCO2e/m²
-**Cost:** $180–300/m²
+**耐火等级：**REI 120–240（混凝土芯；EPS 由抹灰 + 石膏板保护）
+**隔声：**Rw 52–58 dB（200 mm 混凝土质量）
+**隐含碳：**130–180 kgCO2e/m²
+**成本：**$180–300/m²
 
-### 1.4 Timber Frame (Platform Frame) — Standard
+### 1.4 木框架（平台框架）——标准型
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
-| 1 | Brick slip / timber cladding | 20 | — | 0.10 |
-| 2 | Ventilated cavity | 25 | — | — |
-| 3 | Breather membrane | — | — | — |
-| 4 | OSB sheathing | 9 | 0.13 | 0.07 |
+| 1 | 薄砖/木饰面 | 20 | — | 0.10 |
+| 2 | 通风夹腔 | 25 | — | — |
+| 3 | 透汽膜 | — | — | — |
+| 4 | OSB 覆板 | 9 | 0.13 | 0.07 |
 | 5 | Timber studs 140 x 38 @ 600 crs with mineral wool between | 140 | MW: 0.035 / Timber: 0.13 | Combined: 3.49 (with bridging fraction 15%) |
-| 6 | VCL (polyethylene) | — | — | — |
-| 7 | Service void + insulation | 25 | 0.035 | 0.71 |
-| 8 | Plasterboard | 12.5 | 0.25 | 0.05 |
+| 6 | VCL（聚乙烯） | — | — | — |
+| 7 | 设备空腔 + 保温 | 25 | 0.035 | 0.71 |
+| 8 | 石膏板 | 12.5 | 0.25 | 0.05 |
 | — | Rsi + Rse | — | — | 0.17 |
 | **Total** | | **~232** | | **4.59** |
 
-**Bridging calculation (parallel path method):**
-- Studs at 600 mm centers, 38 mm wide: bridging fraction = 38/600 = 6.3% (studs) + ~8% (noggings, head/sole plates) ≈ 15%
-- R_insulation = 140/0.035 = 4.00; R_timber = 140/0.13 = 1.08
-- R_combined = 1 / (0.15/1.08 + 0.85/4.00) = 3.49
+**热桥计算（平行路径法）：**
+- 立柱间距 600 mm、宽 38 mm：热桥比例 = 38/600 = 6.3%（立柱）+ 约 8%（横撑、顶梁/底梁）≈ 15%
+- R_保温 = 140/0.035 = 4.00；R_木材 = 140/0.13 = 1.08
+- R_组合 = 1 / (0.15/1.08 + 0.85/4.00) = 3.49
 
-**U-value = 1/4.59 = 0.218 W/m²K**
+**U 值 = 1/4.59 = 0.218 W/m²K**
 
-For U ≤ 0.18: add 50 mm external mineral wool (R = 1.43, total R = 6.02, U = 0.166).
+达到 U ≤ 0.18：增加 50 mm 外部矿棉（R = 1.43，总 R = 6.02，U = 0.166）。
 
-**Fire rating:** REI 30 (single plasterboard); REI 60 (double plasterboard 25 mm total)
-**Acoustic:** Rw 40–48 dB (single layer PB); 50+ dB (resilient bar + double PB)
-**Embodied carbon:** 25–50 kgCO2e/m²
-**Cost:** $120–200/m²
+**耐火等级：**REI 30（单层石膏板）；REI 60（双层石膏板，总厚 25 mm）
+**隔声：**Rw 40–48 dB（单层石膏板）；50+ dB（弹性龙骨 + 双层石膏板）
+**隐含碳：**25–50 kgCO2e/m²
+**成本：**$120–200/m²
 
-### 1.5 Timber Frame (Platform Frame) — Enhanced (Passive House)
+### 1.5 木框架（平台框架）——增强型（被动房）
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
-| 1 | Timber rainscreen cladding | 20 | — | 0.10 |
-| 2 | Ventilated cavity | 40 | — | — |
-| 3 | Breather membrane | — | — | — |
-| 4 | Wood fibre insulation (external) | 100 | 0.038 | 2.63 |
-| 5 | OSB sheathing (air barrier) | 15 | 0.13 | 0.12 |
-| 6 | I-joist studs 240 mm with cellulose between | 240 | 0.040 | 5.45 (bridging 8%) |
-| 7 | Smart VCL (Intello Plus) | — | — | — |
-| 8 | Service void + insulation | 50 | 0.035 | 1.43 |
-| 9 | Plasterboard | 12.5 | 0.25 | 0.05 |
+| 1 | 木材雨屏覆层 | 20 | — | 0.10 |
+| 2 | 通风空腔 | 40 | — | — |
+| 3 | 透湿防水膜 | — | — | — |
+| 4 | 木纤维保温（外侧） | 100 | 0.038 | 2.63 |
+| 5 | OSB护面板（气密层） | 15 | 0.13 | 0.12 |
+| 6 | 240 mm工字木搁栅，空腔填纤维素 | 240 | 0.040 | 5.45（桥接8%） |
+| 7 | 智能VCL（Intello Plus） | — | — | — |
+| 8 | 设备空腔+保温 | 50 | 0.035 | 1.43 |
+| 9 | 石膏板 | 12.5 | 0.25 | 0.05 |
 | — | Rsi + Rse | — | — | 0.17 |
 | **Total** | | **~478** | | **9.95** |
 
-**U-value = 1/9.95 = 0.100 W/m²K** (Passive House compliant)
+**U 值 = 1/9.95 = 0.100 W/m²K**（符合被动房标准）
 
-**Fire rating:** REI 60 (with 2 × 12.5 mm fire-rated plasterboard + sprinklers)
-**Acoustic:** Rw 52–58 dB (dense cellulose in deep cavity + resilient mount)
-**Embodied carbon:** 15–35 kgCO2e/m² (possible carbon-negative with cellulose + timber)
-**Cost:** $200–350/m²
+**耐火等级：**REI 60（采用 2 × 12.5 mm 防火石膏板 + 喷淋）
+**隔声：**Rw 52–58 dB（深夹腔中的高密度纤维素 + 弹性连接）
+**隐含碳：**15–35 kgCO2e/m²（纤维素 + 木材组合可能实现负碳）
+**成本：**$200–350/m²
 
-### 1.6 Steel Frame with Infill and External Insulation
+### 1.6 填充并设外保温的钢框架
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
 | 1 | Metal cladding panel | 1.5 | 50 | ~0 |
 | 2 | Ventilated cavity | 25 | — | — |
@@ -144,16 +144,16 @@ For U ≤ 0.18: add 50 mm external mineral wool (R = 1.43, total R = 6.02, U = 0
 
 **Note:** Steel studs create severe thermal bridging. The parallel path method underestimates this; use ISO 6946 combined method or 2D modeling (THERM). Effective U-value is typically 0.30–0.50 W/m²K without external insulation. The 100 mm external insulation (continuous, no bridging) brings effective U-value to ~0.20 W/m²K.
 
-**Fire rating:** REI 60–120 (non-combustible frame + fire-rated boards)
-**Acoustic:** Rw 45–52 dB
-**Embodied carbon:** 65–100 kgCO2e/m²
-**Cost:** $150–250/m²
+**耐火等级：**REI 60–120（不燃框架 + 防火板材）
+**隔声：**Rw 45–52 dB
+**隐含碳：**65–100 kgCO2e/m²
+**成本：**$150–250/m²
 
-### 1.7 Structural Insulated Panels (SIPs)
+### 1.7 结构保温板（SIP）
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
 | 1 | External render / cladding | 15–20 | — | 0.08 |
 | 2 | Breather membrane | — | — | — |
@@ -166,18 +166,18 @@ For U ≤ 0.18: add 50 mm external mineral wool (R = 1.43, total R = 6.02, U = 0
 | **Total (PUR)** | | **~217** | | **7.72** |
 | **Total (EPS)** | | **~217** | | **5.37** |
 
-**U-value:** PUR = 0.130 W/m²K; EPS = 0.186 W/m²K
+**U 值：**PUR = 0.130 W/m²K；EPS = 0.186 W/m²K
 
-**Fire rating:** REI 30 (OSB faces); REI 60 with additional fire lining
-**Acoustic:** Rw 32–38 dB (lightweight — requires supplementary mass)
-**Embodied carbon:** PUR 45–65 kgCO2e/m²; EPS 30–50 kgCO2e/m²
-**Cost:** $140–230/m²
+**耐火等级：**REI 30（OSB 面板）；增加防火内衬后 REI 60
+**隔声：**Rw 32–38 dB（轻质构造——需增加质量）
+**隐含碳：**PUR 45–65 kgCO2e/m²；EPS 30–50 kgCO2e/m²
+**成本：**$140–230/m²
 
-### 1.8 CLT with External Insulation
+### 1.8 带外保温的 CLT
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
 | 1 | Rainscreen cladding (terracotta) | 30 | — | — |
 | 2 | Ventilated cavity | 40 | — | — |
@@ -188,20 +188,20 @@ For U ≤ 0.18: add 50 mm external mineral wool (R = 1.43, total R = 6.02, U = 0
 | — | Rsi + Rse | — | — | 0.17 |
 | **Total** | | **~370** | | **5.55** |
 
-**U-value = 1/5.55 = 0.180 W/m²K**
+**U 值 = 1/5.55 = 0.180 W/m²K**
 
-For U ≤ 0.15: increase wood fibre to 200 mm (R = 5.26, total = 6.60, U = 0.152).
+当 U ≤ 0.15 时：将木纤维保温增加至 200 mm（R = 5.26，总 R = 6.60，U = 0.152）。
 
-**Fire rating:** CLT chars at 0.65 mm/min. 140 mm panel: ~90 min residual structural capacity after charring (with char depth deducted from all exposed faces). Fire-rated plasterboard adds further protection.
-**Acoustic:** Rw 38–44 dB (CLT alone); 52–58 dB with internal resilient mount + plasterboard
-**Embodied carbon:** -10 to +30 kgCO2e/m² (CLT sequesters ~165 kgCO2/m³; wood fibre also sequesters carbon)
-**Cost:** $220–380/m²
+**耐火等级：**CLT 碳化速率为 0.65 mm/min。140 mm 板材碳化后剩余结构承载能力约 90 分钟（从所有暴露面扣除碳化深度计算）。增加防火石膏板可进一步保护。
+**隔声：**Rw 38–44 dB（仅 CLT）；采用室内弹性连接 + 石膏板时为 52–58 dB
+**隐含碳：**−10 至 +30 kgCO2e/m²（CLT 约封存 165 kgCO2/m³；木纤维也可封存碳）
+**成本：**$220–380/m²
 
-### 1.9 Precast Concrete Sandwich Panel
+### 1.9 预制混凝土夹芯板
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
 | 1 | Precast concrete (external leaf) | 75 | 1.63 | 0.05 |
 | 2 | XPS insulation | 120 | 0.034 | 3.53 |
@@ -210,22 +210,22 @@ For U ≤ 0.15: increase wood fibre to 200 mm (R = 5.26, total = 6.60, U = 0.152
 | — | Rsi + Rse | — | — | 0.17 |
 | **Total** | | **~348** | | **3.86** |
 
-**U-value = 1/3.86 = 0.259 W/m²K**
+**U 值 = 1/3.86 = 0.259 W/m²K**
 
-For U ≤ 0.18: increase XPS to 180 mm (R = 5.29, total = 5.62, U = 0.178).
+当 U ≤ 0.18 时：将 XPS 增加至 180 mm（R = 5.29，总 R = 5.62，U = 0.178）。
 
-**Thermal bridge note:** Stainless steel or composite shear connectors link inner and outer leaves. Each connector creates a point thermal bridge. Thermomass or Schock Combar (GFRP) connectors reduce this; typical impact on U-value: +0.01–0.03 W/m²K for SS, +0.001–0.005 for GFRP.
+**热桥说明：**不锈钢或复合材料抗剪连接件连接内外叶墙，每个连接件都会形成点热桥。Thermomass 或 Schock Combar（GFRP）连接件可降低影响；对 U 值的典型影响为：不锈钢 +0.01–0.03 W/m²K，GFRP +0.001–0.005 W/m²K。
 
-**Fire rating:** REI 120–240 (non-combustible)
-**Acoustic:** Rw 52–58 dB
-**Embodied carbon:** 110–170 kgCO2e/m²
-**Cost:** $220–420/m²
+**耐火等级：**REI 120–240（不燃）
+**隔声：**Rw 52–58 dB
+**隐含碳：**110–170 kgCO2e/m²
+**成本：**$220–420/m²
 
-### 1.10 Curtain Wall — Unitized Double-Glazed (Vision Zone)
+### 1.10 单元式双层玻璃幕墙（透明区）
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Properties |
+| 层次 | 材料 | 厚度（mm） | 性能 |
 |---|---|---|---|
 | 1 | Outer glass: 8 mm toughened + low-e coating | 8 | SHGC: 0.30; VLT: 60% |
 | 2 | Argon-filled cavity | 16 | Sealed IGU |
@@ -233,19 +233,19 @@ For U ≤ 0.18: increase XPS to 180 mm (R = 5.29, total = 5.62, U = 0.178).
 | 4 | Aluminum frame with polyamide thermal break | — | 30 mm break depth |
 | — | | **~130** total depth | |
 
-**U-value (center of glass):** 1.1 W/m²K
-**U-value (whole panel, incl. frame):** 1.6–2.0 W/m²K (frame fraction ~20%)
+**U 值（玻璃中心）：**1.1 W/m²K
+**U 值（整块板，含框架）：**1.6–2.0 W/m²K（框架比例约 20%）
 **SHGC:** 0.25–0.35
 **VLT:** 55–65%
-**Acoustic:** Rw 34–38 dB (laminated inner improves low-frequency)
-**Embodied carbon:** 100–150 kgCO2e/m²
-**Cost:** $500–900/m²
+**隔声：**Rw 34–38 dB（夹胶内片改善低频隔声）
+**隐含碳：**100–150 kgCO2e/m²
+**成本：**$500–900/m²
 
-### 1.11 Curtain Wall — Triple-Glazed (High Performance)
+### 1.11 三层玻璃幕墙（高性能）
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Properties |
+| 层次 | 材料 | 厚度（mm） | 性能 |
 |---|---|---|---|
 | 1 | Outer glass: 6 mm toughened + solar control low-e | 6 | Surface 2 coating |
 | 2 | Argon cavity | 14 | |
@@ -255,19 +255,19 @@ For U ≤ 0.18: increase XPS to 180 mm (R = 5.29, total = 5.62, U = 0.178).
 | 6 | Timber-aluminum frame | — | Timber inner, alu outer |
 | — | | **~160** total depth | |
 
-**U-value (center of glass):** 0.5–0.6 W/m²K
-**U-value (whole panel):** 0.8–1.1 W/m²K
+**U 值（玻璃中心）：**0.5–0.6 W/m²K
+**U 值（整块板）：**0.8–1.1 W/m²K
 **SHGC:** 0.20–0.35
 **VLT:** 45–55%
-**Acoustic:** Rw 38–44 dB
-**Embodied carbon:** 120–170 kgCO2e/m² (additional glass + frame)
-**Cost:** $700–1300/m²
+**隔声：**Rw 38–44 dB
+**隐含碳：**120–170 kgCO2e/m²（增加玻璃 + 框架）
+**成本：**$700–1300/m²
 
-### 1.12 Rainscreen — Terracotta on Steel Frame
+### 1.12 雨屏——钢框架上的陶土板
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
 | 1 | Terracotta panel | 30 | 1.00 | 0.03 |
 | 2 | Ventilated cavity | 50 | — | — |
@@ -278,20 +278,20 @@ For U ≤ 0.18: increase XPS to 180 mm (R = 5.29, total = 5.62, U = 0.178).
 | — | Rsi + Rse | — | — | 0.17 |
 | **Total** | | **~443** | | **4.86** |
 
-**U-value = 0.206 W/m²K** (increase insulation to 180 mm for U = 0.174)
+**U 值 = 0.206 W/m²K**（将保温层增加至 180 mm 时 U = 0.174）
 
-Note: bracket thermal bridges add ~0.02–0.04 W/m²K. With thermal break brackets: +0.005–0.01 W/m²K.
+注：支架热桥增加约 0.02–0.04 W/m²K；采用隔热支架时增加 +0.005–0.01 W/m²K。
 
-**Fire rating:** Non-combustible throughout (terracotta, mineral wool, concrete). Meets BS 8414 / BR 135 for buildings >18 m.
-**Acoustic:** Rw 52–60 dB (mass of concrete backing + insulation)
-**Embodied carbon:** 90–140 kgCO2e/m²
-**Cost:** $300–500/m²
+**耐火等级：**全系统不燃（陶土、矿棉、混凝土）。满足高度超过 18 m 建筑的 BS 8414 / BR 135。
+**隔声：**Rw 52–60 dB（混凝土基层质量 + 保温层）
+**隐含碳：**90–140 kgCO2e/m²
+**成本：**$300–500/m²
 
-### 1.13 Rainscreen — Fiber Cement on Timber Frame
+### 1.13 雨屏——木框架上的纤维水泥板
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
 | 1 | Fiber cement panel (Equitone, Marley Eternit) | 12 | 0.50 | 0.02 |
 | 2 | Ventilated cavity | 40 | — | — |
@@ -305,18 +305,18 @@ Note: bracket thermal bridges add ~0.02–0.04 W/m²K. With thermal break bracke
 | — | Rsi + Rse | — | — | 0.17 |
 | **Total** | | **~319** | | **6.28** |
 
-**U-value = 0.159 W/m²K**
+**U 值 = 0.159 W/m²K**
 
-**Fire rating:** Fiber cement A2-s1,d0; wood fiber/cellulose are B/C-class — requires fire engineering for >18 m buildings. Sprinklers typically required.
-**Acoustic:** Rw 48–55 dB
-**Embodied carbon:** 20–45 kgCO2e/m² (cellulose + timber sequestration)
-**Cost:** $180–300/m²
+**耐火等级：**纤维水泥为 A2-s1,d0；木纤维/纤维素为 B/C 类，高度超过 18 m 的建筑需进行消防工程设计，通常还需设置喷淋。
+**隔声：**Rw 48–55 dB
+**隐含碳：**20–45 kgCO2e/m²（纤维素 + 木材碳封存）
+**成本：**$180–300/m²
 
-### 1.14 ETICS (External Thermal Insulation Composite System) / EIFS
+### 1.14 ETICS（外墙外保温复合系统）/ EIFS
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Conductivity (W/mK) | R-value (m²K/W) |
+| 层次 | 材料 | 厚度（mm） | 导热系数（W/mK） | R 值（m²K/W） |
 |---|---|---|---|---|
 | 1 | Silicone render + mesh | 8 | 0.70 | 0.01 |
 | 2 | EPS (expanded polystyrene) insulation | 200 | 0.031 | 6.45 |
@@ -326,32 +326,32 @@ Note: bracket thermal bridges add ~0.02–0.04 W/m²K. With thermal break bracke
 | — | Rsi + Rse | — | — | 0.17 |
 | **Total** | | **~421** | | **6.88** |
 
-**U-value = 0.145 W/m²K**
+**U 值 = 0.145 W/m²K**
 
-**Fire rating:** EPS is combustible (Euroclass E). For buildings >18 m: use mineral wool (A1/A2) or EPS with fire barriers (mineral wool strips at every floor, around openings). Many countries now require A1/A2 insulation for buildings >18 m.
-**Acoustic:** Rw 48–55 dB (mass of backing wall)
-**Embodied carbon:** 70–110 kgCO2e/m² (EPS version); 80–120 (mineral wool version)
-**Cost:** $120–220/m² (most cost-effective external insulation)
+**耐火等级：**EPS 可燃（Euroclass E）。高度超过 18 m 的建筑应采用矿棉（A1/A2），或为 EPS 设置防火隔离带（每层及开口周边设置矿棉条）。许多国家现已要求高度超过 18 m 的建筑采用 A1/A2 保温材料。
+**隔声：**Rw 48–55 dB（基层墙体质量）
+**隐含碳：**70–110 kgCO2e/m²（EPS 方案）；80–120（矿棉方案）
+**成本：**$120–220/m²（最经济的外保温方案）
 
-### 1.15 Double-Skin Facade (Ventilated)
+### 1.15 双层表皮立面（通风式）
 
-**Build-up:**
+**构造层次：**
 
-| Layer | Material | Thickness (mm) | Properties |
+| 层次 | 材料 | 厚度（mm） | 性能 |
 |---|---|---|---|
 | 1 | Outer glass skin (single-glazed, toughened) | 10 | Weather protection, solar pre-heating |
 | 2 | Ventilated cavity (with blinds) | 200–800 | Natural/mechanical ventilation; blinds for solar control |
 | 3 | Inner glass skin (double/triple IGU) | 30–50 | Thermal insulation, acoustic |
 | 4 | Aluminum/steel frame system | — | Supporting both skins |
 
-**U-value (combined):** 0.8–1.5 W/m²K (inner skin performance + cavity effect)
+**U 值（组合）：**0.8–1.5 W/m²K（内层表皮性能 + 夹腔效应）
 **SHGC:** 0.10–0.30 (with blinds deployed)
-**Acoustic:** Rw 42–52 dB (double skin + cavity absorption)
-**Embodied carbon:** 150–250 kgCO2e/m² (two full glazed skins)
-**Cost:** $800–2000/m²
+**隔声：**Rw 42–52 dB（双层表皮 + 夹腔吸声）
+**隐含碳：**150–250 kgCO2e/m²（两层完整玻璃表皮）
+**成本：**$800–2000/m²
 
-**Advantages:** Excellent acoustic insulation (ideal for noisy urban sites), natural ventilation possible in high-rise, integrated solar shading protected from weather, night cooling potential
-**Disadvantages:** Very expensive, complex maintenance (cavity cleaning), overheating risk if cavity not properly ventilated, additional structural load, significant embodied carbon
+**优点：**隔声性能优异（适合噪声较大的城市场地）；高层建筑可实现自然通风；整合式遮阳受天气保护；具备夜间冷却潜力。
+**缺点：**成本很高；维护复杂（需清洁夹腔）；夹腔通风不当时存在过热风险；增加结构荷载；隐含碳较高。
 
 ---
 
@@ -388,46 +388,46 @@ Note: bracket thermal bridges add ~0.02–0.04 W/m²K. With thermal break bracke
 
 ---
 
-## 4. Embodied Carbon Comparison
+## 4. 隐含碳比较
 
-| Wall System | kgCO2e/m² | Carbon Rating | Notes |
+| 墙体系统 | kgCO2e/m² | 碳评级 | 说明 |
 |---|---|---|---|
-| Timber frame (standard) | 25–50 | Excellent | Timber sequestration offsets |
-| Timber frame (Passive House) | 15–35 | Excellent | Cellulose + timber maximize sequestration |
-| CLT + wood fibre | -10 to +30 | Outstanding | Can achieve net-negative |
-| SIPs (EPS) | 30–50 | Good | OSB + EPS |
-| Masonry cavity (mineral wool) | 85–120 | Moderate | Brick + block + cement |
-| Steel frame | 65–100 | Moderate | Steel recycled content helps |
-| ICF | 130–180 | Poor | Concrete + EPS |
-| Precast sandwich | 110–170 | Poor | Concrete dominant |
-| Curtain wall (double) | 100–150 | Poor | Aluminum dominant |
-| ETICS on concrete | 70–120 | Moderate | Varies by insulation type |
-| Double-skin facade | 150–250 | Very poor | Double glass + aluminum frames |
+| 木框架（标准） | 25–50 | 优秀 | 木材固碳可抵消排放 |
+| 木框架（被动房） | 15–35 | 优秀 | 纤维素+木材最大化固碳 |
+| CLT+木纤维 | -10至+30 | 卓越 | 可实现净负碳 |
+| SIP（EPS） | 30–50 | 良好 | OSB+EPS |
+| 砌体空腔墙（岩棉） | 85–120 | 中等 | 砖+砌块+水泥 |
+| 钢框架 | 65–100 | 中等 | 再生钢含量有助于降低碳排放 |
+| ICF | 130–180 | 较差 | 混凝土+EPS |
+| 预制夹芯板 | 110–170 | 较差 | 以混凝土为主 |
+| 双层幕墙 | 100–150 | 较差 | 以铝材为主 |
+| 混凝土外保温系统（ETICS） | 70–120 | 中等 | 因保温类型而异 |
+| 双层表皮立面 | 150–250 | 很差 | 双层玻璃+铝框 |
 
-**Benchmarks (LETI Climate Emergency Design Guide):**
-- Residential target: <400 kgCO2e/m² GIA (whole building, structure + envelope + finishes)
-- Commercial target: <500 kgCO2e/m² GIA
-- Envelope typically 15–25% of whole-building embodied carbon
+**基准（LETI《气候紧急设计指南》）：**
+- 住宅目标：<400 kgCO2e/m² GIA（整栋建筑，结构+围护+饰面）
+- 商业目标：<500 kgCO2e/m² GIA
+- 围护结构通常占整栋建筑隐含碳的15–25%
 
 ---
 
-## 5. Cost Range Summary (2024 Prices, Installed, Approximate)
+## 5. 成本范围汇总（2024年价格，含安装，近似值）
 
-| Wall System | Low ($/m²) | Mid ($/m²) | High ($/m²) | Cost Driver |
+| 墙体系统 | 低（$/m²） | 中（$/m²） | 高（$/m²） | 成本驱动因素 |
 |---|---|---|---|---|
-| ETICS on masonry | 120 | 170 | 220 | Render finish quality |
-| Timber frame (standard) | 120 | 160 | 200 | Cladding type |
-| Masonry cavity | 150 | 200 | 250 | Brick type, insulation |
-| SIPs | 140 | 185 | 230 | Panel specification |
-| Steel frame + infill | 150 | 190 | 250 | Cladding + fire rating |
-| ICF | 180 | 240 | 300 | Concrete grade, height |
-| Timber frame (Passive House) | 200 | 275 | 350 | Insulation depth, airtightness |
-| Precast sandwich | 220 | 320 | 420 | Finish, reinforcement |
-| CLT + external insulation | 220 | 300 | 380 | CLT grade, cladding |
-| Rainscreen (fiber cement) | 180 | 240 | 300 | Panel brand, backing wall |
-| Rainscreen (terracotta) | 300 | 400 | 500 | Panel format, bracket system |
-| Rainscreen (natural stone) | 400 | 550 | 700 | Stone type, thickness |
-| Curtain wall (stick, double) | 400 | 550 | 700 | Glass spec, mullion system |
+| 砌体ETICS | 120 | 170 | 220 | 抹灰饰面质量 |
+| 木框架（标准） | 120 | 160 | 200 | 覆层类型 |
+| 砌体空腔墙 | 150 | 200 | 250 | 砖类型、保温 |
+| SIP | 140 | 185 | 230 | 板材规格 |
+| 钢框架+填充墙 | 150 | 190 | 250 | 覆层+耐火等级 |
+| ICF | 180 | 240 | 300 | 混凝土等级、高度 |
+| 木框架（被动房） | 200 | 275 | 350 | 保温厚度、气密性 |
+| 预制夹芯板 | 220 | 320 | 420 | 饰面、配筋 |
+| CLT+外保温 | 220 | 300 | 380 | CLT等级、覆层 |
+| 雨屏（纤维水泥） | 180 | 240 | 300 | 板材品牌、基层墙体 |
+| 雨屏（陶土） | 300 | 400 | 500 | 板材规格、支架系统 |
+| 雨屏（天然石材） | 400 | 550 | 700 | 石材类型、厚度 |
+| 幕墙（明框、双层） | 400 | 550 | 700 | 玻璃规格、竖梃系统 |
 | Curtain wall (unitized, double) | 500 | 750 | 900 | Factory finish, logistics |
 | Curtain wall (triple) | 700 | 1000 | 1300 | Triple IGU, frame |
 | Double-skin facade | 800 | 1400 | 2000 | Cavity depth, ventilation system |

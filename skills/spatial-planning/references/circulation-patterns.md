@@ -1,173 +1,173 @@
-# Circulation Patterns — Comprehensive Reference
+# 交通组织模式——综合参考
 
-## 1. Corridor Typologies
+## 1. 走道类型
 
-### 1.1 Single-Loaded Corridor (Gallery Access)
+### 1.1 单侧布房走道（外廊式）
 
-An open or enclosed corridor serving rooms on one side only. Common in tropical/subtropical climates and gallery-access housing.
+仅服务一侧房间的开放式或封闭式走道。常见于热带/亚热带气候及外廊式住宅。
 
-**Dimensional standards:**
+**尺寸标准：**
 
-| Code | Minimum Width | Notes |
+| 规范 | 最小宽度 | 备注 |
 |---|---|---|
-| IBC (USA) | 1118 mm (44 in) | Occupant load >50 |
-| BS 9999 (UK) | 1050 mm | For escape route |
-| Approved Doc B (UK) | 1050 mm | Fire escape corridor |
-| Approved Doc M (UK) | 1200 mm | Accessible common corridor |
-| DIN 18040-2 (Germany) | 1200 mm | Wheelchair accessible |
-| DIN 18065 (Germany) | 1000 mm | Residential, non-accessible |
-| SIA 500 (Switzerland) | 1200 mm | Accessible route |
+| IBC（美国） | 1118 mm（44 in） | 使用人数 >50 |
+| BS 9999（英国） | 1050 mm | 疏散路径 |
+| Approved Doc B（英国） | 1050 mm | 消防疏散走道 |
+| Approved Doc M（英国） | 1200 mm | 无障碍公共走道 |
+| DIN 18040-2（德国） | 1200 mm | 轮椅可通行 |
+| DIN 18065（德国） | 1000 mm | 住宅、非无障碍 |
+| SIA 500（瑞士） | 1200 mm | 无障碍路径 |
 
-**Recommended widths by building type:**
-- Residential gallery: 1200–1500 mm (allow wheelchair passing at 1500 mm alcoves every 15 m)
-- Hospital ward corridor: 2400–3000 mm (bed passing width: 2 beds + attendants)
-- School corridor: 1800–2400 mm (600 mm per stream, 3–4 streams)
-- Office: 1500–1800 mm (two-person passing with briefcases)
+**按建筑类型建议的宽度：**
+- 住宅外廊：1200–1500 mm（每 15 m 设置 1500 mm 凹龛供轮椅会车）
+- 医院病房走道：2400–3000 mm（满足两张病床及陪护人员会车）
+- 学校走道：1800–2400 mm（每股人流 600 mm，3–4 股）
+- 办公：1500–1800 mm（可供两人携公文包会车）
 
-### 1.2 Double-Loaded Corridor
+### 1.2 双侧布房走道
 
-Central corridor serving rooms on both sides. Most area-efficient linear circulation.
+服务两侧房间的中央走道，是面积效率最高的线性交通组织方式。
 
-**Same width standards apply.** Additional considerations:
-- Natural light: provide glazed ends or periodic cross-views every 15–20 m
-- Ventilation: mechanical extract required for internal corridors >10 m without openable windows
-- Fire compartmentation: corridor may need to be fire-rated (30 or 60 min) depending on building type and height
+**适用相同宽度标准。**其他注意事项：
+- 自然采光：设置玻璃端部，或每 15–20 m 设置横向视线开口
+- 通风：无可开启窗且长度 >10 m 的内部走道需设置机械排风
+- 防火分隔：根据建筑类型和高度，走道可能需要 30 或 60 分钟防火等级
 
-### 1.3 Corridor with Alcoves / Widenings
+### 1.3 带凹龛/加宽段的走道
 
-Corridor widens at intervals to provide:
-- Wheelchair passing places: 1800 mm x 1800 mm min every 15 m (Approved Doc M)
-- Breakout/waiting areas: 2400–3000 mm width zones at elevator lobbies
-- Display/wayfinding niches: 300–600 mm recessed zones
+走道在特定间距处加宽，以提供：
+- 轮椅会车处：每 15 m 至少设置 1800 mm × 1800 mm（Approved Doc M）
+- 交流/等候区域：电梯厅处宽 2400–3000 mm 的区域
+- 展示/导向凹龛：深 300–600 mm 的凹入区域
 
-### 1.4 Arcade / Colonnade
+### 1.4 骑楼/柱廊
 
-Semi-exterior circulation — covered walkway with one open side. Common in campus buildings, Mediterranean architecture, tropical design.
+半室外交通空间——一侧开放的有顶步道。常见于校园建筑、地中海建筑和热带设计。
 
-- Width: 2400–4000 mm typical
-- Column spacing: 3000–6000 mm on centers
-- Minimum clear height: 3000 mm
-- Weather protection: overhang min 1200 mm beyond column line
+- 宽度：通常 2400–4000 mm
+- 柱距：柱中心距 3000–6000 mm
+- 最小净高：3000 mm
+- 防雨保护：挑檐至少超出柱线 1200 mm
 
-### 1.5 Ramp Circulation
+### 1.5 坡道交通
 
-Where level changes occur without stairs or elevators.
+用于无楼梯或电梯条件下的高差转换。
 
-**Dimensional standards:**
+**尺寸标准：**
 
-| Code | Max Gradient | Max Rise per Run | Landing Length |
+| 规范 | 最大坡度 | 每段最大提升高度 | 平台长度 |
 |---|---|---|---|
-| IBC / ADA | 1:12 (8.33%) | 760 mm (30 in) | 1524 mm (60 in) |
-| Approved Doc M (UK) | 1:12 | 500 mm | 1500 mm |
-| DIN 18040-1 (Germany) | 1:16 (6.25%) | 500 mm | 1500 mm |
-| BS 8300 (UK) | 1:12 (preferred 1:20) | 500 mm | 1500 mm |
+| IBC / ADA | 1:12（8.33%） | 760 mm（30 in） | 1524 mm（60 in） |
+| Approved Doc M（英国） | 1:12 | 500 mm | 1500 mm |
+| DIN 18040-1（德国） | 1:16（6.25%） | 500 mm | 1500 mm |
+| BS 8300（英国） | 1:12（建议 1:20） | 500 mm | 1500 mm |
 
-- Width: 1200 mm min (1500 mm preferred for wheelchair + ambulant person)
-- Handrails: both sides, 900 mm height, extending 300 mm beyond top and bottom
-- Edge protection: 100 mm upstand or kerb rail on open sides
-- Surface: slip-resistant, visually contrasting at top and bottom landings
+- 宽度：最小 1200 mm（轮椅与步行者并行时建议 1500 mm）
+- 扶手：两侧设置，高 900 mm，超出上下端各 300 mm
+- 边缘防护：开放侧设置 100 mm 高的挡边或缘石扶栏
+- 表面：防滑，上下平台处应有视觉对比
 
 ---
 
-## 2. Stair Design — Detailed Dimensional Standards
+## 2. 楼梯设计——详细尺寸标准
 
-### 2.1 IBC (International Building Code — USA)
+### 2.1 IBC（国际建筑规范——美国）
 
-| Parameter | Requirement |
+| 参数 | 要求 |
 |---|---|
-| Minimum width | 1118 mm (44 in) for OL >50; 914 mm (36 in) for OL ≤50 |
-| Riser height | 102–178 mm (4–7 in) |
-| Tread depth | min 279 mm (11 in) |
-| Nosing | max 38 mm projection, radius max 13 mm |
-| Headroom | min 2032 mm (80 in) |
-| Handrails | 864–965 mm (34–38 in) height |
-| Landings | min depth = stair width, max 1220 mm required |
-| Max flight height | 3658 mm (12 ft) vertical between landings |
-| Guard height | min 1067 mm (42 in) |
+| 最小宽度 | OL >50 时 1118 mm（44 in）；OL ≤50 时 914 mm（36 in） |
+| 踢步高度 | 102–178 mm（4–7 in） |
+| 踏步深度 | 最小 279 mm（11 in） |
+| 踏步前缘 | 最大突出 38 mm，半径最大 13 mm |
+| 净高 | 最小 2032 mm（80 in） |
+| 扶手 | 高度 864–965 mm（34–38 in） |
+| 平台 | 最小进深 = 楼梯宽度，要求最大 1220 mm |
+| 最大梯段高度 | 平台间垂直高度 3658 mm（12 ft） |
+| 防护栏杆高度 | 最小 1067 mm（42 in） |
 
-### 2.2 BS 9999 / Approved Document K (UK)
+### 2.2 BS 9999 / Approved Document K（英国）
 
-| Parameter | Requirement |
+| 参数 | 要求 |
 |---|---|
-| Minimum width | 1000 mm (escape stair for <220 persons/floor) |
-| Riser height | 150–170 mm (private); 150–170 mm (institutional) |
-| Going (tread) | 250–300 mm (common stair); 220 mm min (private) |
-| 2R + G formula | 550–700 mm (optimum 600 mm) |
-| Headroom | 2000 mm minimum |
-| Handrail height | 900–1000 mm (stair), 1100 mm (landing) |
-| Landing length | min = stair width |
-| Max risers per flight | 16 (utility); 12 (institutional — care homes, hospitals) |
-| Contrast nosing | 55 mm depth on open risers; step edge visible |
+| 最小宽度 | 1000 mm（每层 <220 人的疏散楼梯） |
+| 踢步高度 | 150–170 mm（私人）；150–170 mm（机构） |
+| 踏步进深 | 250–300 mm（公共楼梯）；私人楼梯最小 220 mm |
+| 2R + G 公式 | 550–700 mm（最佳 600 mm） |
+| 净高 | 最小 2000 mm |
+| 扶手高度 | 楼梯 900–1000 mm，平台 1100 mm |
+| 平台长度 | 最小值 = 楼梯宽度 |
+| 每段最大踢步数 | 16（辅助楼梯）；12（机构——养老院、医院） |
+| 对比踏步前缘 | 开放踢步处深 55 mm；踏步边缘应清晰可见 |
 
-### 2.3 DIN 18065 (Germany)
+### 2.3 DIN 18065（德国）
 
-| Parameter | Requirement |
+| 参数 | 要求 |
 |---|---|
-| Minimum width | 1000 mm (residential); 1200 mm (public); 1500 mm (assembly) |
-| Riser height | 140–200 mm (residential); 140–190 mm (public) |
-| Tread depth | 230–370 mm (residential); 260–370 mm (public) |
-| Step formula | 2R + T = 590–650 mm (optimum 630 mm) |
-| Security formula | R + T = 460 mm ± 30 mm |
-| Comfort formula | T - R = 120 mm ± 20 mm |
-| Headroom | 2000 mm minimum |
-| Max risers per flight | 18 |
+| 最小宽度 | 1000 mm（住宅）；1200 mm（公共）；1500 mm（集会） |
+| 踢步高度 | 140–200 mm（住宅）；140–190 mm（公共） |
+| 踏步深度 | 230–370 mm（住宅）；260–370 mm（公共） |
+| 踏步公式 | 2R + T = 590–650 mm（最佳 630 mm） |
+| 安全公式 | R + T = 460 mm ± 30 mm |
+| 舒适公式 | T - R = 120 mm ± 20 mm |
+| 净高 | 最小 2000 mm |
+| 每段最大踢步数 | 18 |
 
-### 2.4 Stair Capacity Calculation
+### 2.4 楼梯容量计算
 
-**IBC method:**
-- Capacity factor for stairs: 7.6 mm per person (0.3 in/person)
-- Required stair width = Occupant load × 7.6 mm
-- Example: 300 persons per floor → 300 × 7.6 = 2280 mm total stair width → 2 stairs × 1140 mm each
+**IBC 方法：**
+- 楼梯容量系数：7.6 mm/人（0.3 in/人）
+- 所需楼梯宽度 = 使用人数 × 7.6 mm
+- 示例：每层 300 人 → 300 × 7.6 = 2280 mm 楼梯总宽度 → 2 部楼梯 × 每部 1140 mm
 
-**BS 9999 method (simultaneous evacuation):**
+**BS 9999 方法（同时疏散）：**
 - Stair width = (P × S × F) / (D × R)
-  - P = population per floor
-  - S = number of storeys served
-  - F = flow time factor
-  - D = door width factor
-  - R = rate of flow (persons/m/min)
-- Typical flow rate downward: 60 persons per metre width per minute
-- For phased evacuation: designed for largest single floor plus one above
+  - P = 每层人数
+  - S = 服务楼层数
+  - F = 流动时间系数
+  - D = 门宽系数
+  - R = 流量（人/m/min）
+- 向下疏散典型流量：每米宽度每分钟 60 人
+- 分阶段疏散：按人数最多的一层加其上一层设计
 
-**NFPA 101 method:**
-- Similar to IBC; capacity factor 7.6 mm per person for stairs, 5.1 mm per person for level egress
+**NFPA 101 方法：**
+- 与 IBC 类似；楼梯容量系数为 7.6 mm/人，水平疏散为 5.1 mm/人
 
-### 2.5 Stair Types by Function
+### 2.5 按功能划分的楼梯类型
 
-**Escape stairs:**
-- Fire-rated enclosure: 1-hour (≤4 storeys), 2-hour (>4 storeys) per IBC
-- Self-closing fire doors (FD30S or FD60S)
-- Pressurized: 50 Pa positive differential for buildings >30 m (BS 9999, IBC Section 909)
-- Smoke lobbies required in buildings >18 m height (UK); check local code
+**疏散楼梯：**
+- 防火围护：按 IBC，≤4 层为 1 小时，>4 层为 2 小时
+- 自闭式防火门（FD30S 或 FD60S）
+- 加压：建筑高度 >30 m 时保持 50 Pa 正压差（BS 9999、IBC 第 909 节）
+- 建筑高度 >18 m 时需设置防烟前室（英国）；应核查当地规范
 
-**Feature/architectural stairs:**
-- Open treads: riser opening max 102 mm (4 in) sphere test per IBC
-- Glass balustrades: laminated glass, min 12 mm thick, tested to BS 6206 / EN 12600
-- Helical/spiral: min 660 mm clear width at mid-tread; tread min 190 mm at 300 mm from narrow end (IBC 1011.10)
+**景观/建筑楼梯：**
+- 开放式踏步：按 IBC 球体测试，踢步开口最大 102 mm（4 in）
+- 玻璃栏板：夹层玻璃，最小厚度 12 mm，按 BS 6206/EN 12600 检测
+- 弧形/螺旋楼梯：踏步中部净宽最小 660 mm；距窄端 300 mm 处踏步最小 190 mm（IBC 1011.10）
 
-**External stairs:**
-- Drainage: 1:60 fall across treads to edge
-- Slip resistance: PTV ≥36 in wet conditions (UK Slip Resistance Group)
-- Frost protection: heated treads or grit bins in cold climates
-- Handrails: both sides mandatory
+**室外楼梯：**
+- 排水：踏步向边缘坡度 1:60
+- 防滑：潮湿条件下 PTV ≥36（英国防滑组织）
+- 防冻：寒冷气候采用加热踏步或设置防滑砂箱
+- 扶手：两侧必须设置
 
 ---
 
-## 3. Elevator Design — Detailed Reference
+## 3. 电梯设计——详细参考
 
-### 3.1 Traffic Analysis Methods
+### 3.1 交通分析方法
 
-**Up-peak calculation (CIBSE Guide D):**
-The most critical design condition for office buildings — morning arrival period.
+**上行高峰计算（CIBSE Guide D）：**
+办公建筑最关键的设计工况——早晨到达时段。
 
-- **5-minute handling capacity (HC5):** Number of passengers the elevator system can handle in the peak 5-minute period
+- **5 分钟运载能力（HC5）：**电梯系统在高峰 5 分钟内可输送的乘客数
 - **HC5 = (5 × 60 × N × P × η) / RTT**
   - N = number of elevators
   - P = rated capacity (persons)
   - η = car load factor (typically 0.8)
   - RTT = round-trip time (seconds)
 
-**Round-trip time calculation:**
+**往返时间计算：**
 - RTT = 2 × H × tv + (S + 1) × ts + 2 × P × tp
   - H = highest floor served
   - tv = inter-floor travel time (s)
@@ -175,14 +175,14 @@ The most critical design condition for office buildings — morning arrival peri
   - ts = time per stop (acceleration + deceleration + door open/close) ≈ 8–12 s
   - tp = passenger transfer time ≈ 1.2 s per person
 
-**Probable stops (S) formula:**
+**可能停站数（S）公式：**
 - S = N × (1 - ((N-1)/N)^P)
   - N = number of floors
   - P = number of passengers in car
 
-### 3.2 Elevator Shaft Dimensions
+### 3.2 电梯井道尺寸
 
-| Capacity | Cab W x D (mm) | Shaft W x D (mm) | Pit Depth (mm) | Overrun (mm) |
+| 载重 | 轿厢宽 × 深（mm） | 井道宽 × 深（mm） | 底坑深度（mm） | 顶层高度（mm） |
 |---|---|---|---|---|
 | 450 kg (6-person) | 1100 x 1400 | 1650 x 1900 | 1200 | 3600 |
 | 630 kg (8-person) | 1600 x 1400 | 2150 x 1900 | 1200 | 3600 |
@@ -191,174 +191,174 @@ The most critical design condition for office buildings — morning arrival peri
 | 1600 kg (21-person) | 2100 x 1800 | 2650 x 2300 | 1600 | 4200 |
 | 2500 kg (bed lift) | 2400 x 2700 | 2900 x 3200 | 1800 | 4500 |
 
-Notes:
-- Pit depth and overrun vary by manufacturer and speed; above values are typical for traction lifts at 1.0–2.5 m/s
-- MRL (machine-room-less) elevators reduce overrun by ~500 mm but require deeper pit or stronger shaft walls for controller mounting
-- Fire-rated shaft construction: 2-hour for buildings >4 storeys (IBC); 1-hour for ≤4 storeys
-- Shaft ventilation: 0.028 m² vent area per elevator shaft (IBC 3004.1)
+注：
+- 底坑深度和顶层高度随制造商和速度变化；以上为 1.0–2.5 m/s 曳引电梯的典型值
+- 无机房（MRL）电梯可将顶层高度减少约 500 mm，但控制器安装需要更深底坑或更强井道墙
+- 井道防火构造：按 IBC，建筑 >4 层为 2 小时，≤4 层为 1 小时
+- 井道通风：每个电梯井道通风面积 0.028 m²（IBC 3004.1）
 
-### 3.3 Elevator Lobby Dimensions
+### 3.3 电梯厅尺寸
 
-- Depth in front of doors: minimum 1.5 m (EN 81-70); 2.4 m recommended for office towers
-- Width: lobby width = number of elevators × shaft width + inter-shaft pillars
-- Facing elevator banks: lobby depth = 1.5 × cab depth (2.1 m for 1400 mm deep cabs)
-- Accessible: 1500 mm turning circle clear of door swing
-- Call buttons: 900–1100 mm above floor (ADA); audible and tactile indication
+- 门前进深：最小 1.5 m（EN 81-70）；办公塔楼建议 2.4 m
+- 宽度：电梯厅宽度 = 电梯数量 × 井道宽度 + 井道间柱宽
+- 相对布置的电梯组：电梯厅进深 = 1.5 × 轿厢深度（轿厢深 1400 mm 时为 2.1 m）
+- 无障碍：门扇开启范围外应有直径 1500 mm 的回转空间
+- 呼梯按钮：距地面 900–1100 mm（ADA）；提供声音和触觉提示
 
-### 3.4 Waiting Time Targets
+### 3.4 等候时间目标
 
-| Building Type | Target AWT (s) | Max AWT (s) | Grade of Service |
+| 建筑类型 | 目标 AWT（s） | 最大 AWT（s） | 服务等级 |
 |---|---|---|---|
 | Prestige office | 20 | 30 | A+ |
 | Standard office | 25 | 35 | A |
 | Budget office | 30 | 45 | B |
 | Residential (peak) | 45 | 80 | C |
-| Residential (average) | 60 | 120 | D |
-| Hotel | 30 | 50 | B+ |
-| Hospital (visitor) | 40 | 60 | C |
-| Hospital (bed) | 50 | 90 | D |
+| 住宅（平均） | 60 | 120 | D |
+| 酒店 | 30 | 50 | B+ |
+| 医院（访客） | 40 | 60 | C |
+| 医院（病床） | 50 | 90 | D |
 
 ---
 
-## 4. Escalator Design — Detailed Reference
+## 4. 自动扶梯设计——详细参考
 
-### 4.1 Dimensional Standards
+### 4.1 尺寸标准
 
-| Parameter | 600 mm Width | 1000 mm Width |
+| 参数 | 600 mm 宽度 | 1000 mm 宽度 |
 |---|---|---|
-| Step width | 600 mm | 1000 mm |
-| Overall width (balustrade to balustrade) | 1080 mm | 1480 mm |
-| Structural width (truss) | 1200 mm | 1600 mm |
-| Speed | 0.5 m/s (standard) | 0.5 m/s (standard) |
-| Inclination | 30° (standard) | 30° (standard) |
-| Rise per unit | 3000–6000 mm typical | 3000–6000 mm |
-| Horizontal run (top and bottom) | 800 mm min (2.5 steps) | 800 mm min |
-| Structural opening length | ~5.5 m per 3 m rise | ~5.5 m per 3 m rise |
+| 踏步宽度 | 600 mm | 1000 mm |
+| 总宽度（栏板间） | 1080 mm | 1480 mm |
+| 结构宽度（桁架） | 1200 mm | 1600 mm |
+| 速度 | 0.5 m/s（标准） | 0.5 m/s（标准） |
+| 倾角 | 30°（标准） | 30°（标准） |
+| 单台提升高度 | 通常 3000–6000 mm | 3000–6000 mm |
+| 上下水平段 | 最小 800 mm（2.5 个踏步） | 最小 800 mm |
+| 结构开口长度 | 每提升 3 m 约 5.5 m | 每提升 3 m 约 5.5 m |
 
-### 4.2 Capacity Calculation
+### 4.2 容量计算
 
-Theoretical capacity (persons per hour):
+理论容量（人/小时）：
 - **Q = 3600 × v × k / d**
-  - v = speed (m/s) = 0.5
-  - k = occupancy factor: 1.0 for 600 mm (1 person per step), 1.5 for 1000 mm (1.5 avg)
-  - d = step depth = 0.4 m
-- 600 mm @ 0.5 m/s: Q = 3600 × 0.5 × 1.0 / 0.4 = 4,500 persons/hour
-- 1000 mm @ 0.5 m/s: Q = 3600 × 0.5 × 1.5 / 0.4 = 6,750 persons/hour
+  - v = 速度（m/s）= 0.5
+  - k = 占用系数：600 mm 为 1.0（每踏步 1 人），1000 mm 为 1.5（平均 1.5 人）
+  - d = 踏步深度 = 0.4 m
+- 600 mm @ 0.5 m/s：Q = 3600 × 0.5 × 1.0 / 0.4 = 4,500 人/小时
+- 1000 mm @ 0.5 m/s：Q = 3600 × 0.5 × 1.5 / 0.4 = 6,750 人/小时
 
-Practical capacity (accounting for step voids, rider behavior):
-- 600 mm: ~3,600 persons/hour
-- 1000 mm: ~5,400 persons/hour
+实际容量（考虑踏步空位和乘客行为）：
+- 600 mm：约 3,600 人/小时
+- 1000 mm：约 5,400 人/小时
 
-### 4.3 Arrangement Patterns
+### 4.3 布置模式
 
-- **Parallel:** Up and down side by side. Width: 2 × overall width + 200 mm separation = 2560 mm (600 mm) or 3360 mm (1000 mm)
-- **Criss-cross:** Up and down stacked with 180° turn at each landing. Saves plan area but increases travel distance. Common in department stores and transit stations.
-- **Stacked:** Multiple parallel units serving successive floors, all in one direction. Requires large structural openings.
+- **平行式：**上行和下行并列。宽度：2 × 总宽度 + 200 mm 间隔 = 600 mm 时 2560 mm，1000 mm 时 3360 mm
+- **交叉式：**上行和下行叠置，每个平台转向 180°。节省平面面积但增加行程，常见于百货商店和交通枢纽。
+- **叠置式：**多个平行单元沿同一方向服务连续楼层，需要较大的结构开口。
 
-### 4.4 Code Requirements
+### 4.4 规范要求
 
-- Handrail speed: within ±2% of step speed
-- Comb plates: at top and bottom with interlocking teeth
-- Emergency stop buttons: at top and bottom landings, clearly visible
-- Skirt deflector devices: on both sides
-- Step demarcation: yellow border lines on steps
-- Fire protection: escalator opening must be protected by sprinklers (draft curtain method) or enclosed (rolling shutter) per IBC 712
+- 扶手带速度：与踏步速度相差不超过 ±2%
+- 梳齿板：上下端均设置，齿部相互啮合
+- 急停按钮：上下平台均设置，并清晰可见
+- 裙板偏转装置：两侧均设置
+- 踏步界线：踏步设置黄色边界线
+- 防火：按 IBC 712，自动扶梯开口必须采用喷淋（挡烟垂壁法）保护或封闭（卷帘）
 
 ---
 
-## 5. Evacuation Time Calculation
+## 5. 疏散时间计算
 
-### 5.1 Total Evacuation Time Model
+### 5.1 总疏散时间模型
 
 **T_total = T_detect + T_alarm + T_pre-movement + T_travel**
 
-| Component | Typical Duration | Notes |
+| 组成部分 | 典型持续时间 | 备注 |
 |---|---|---|
-| T_detect | 0–120 s | Automatic detection: 30–60 s; manual: variable |
-| T_alarm | 0–30 s | System activation delay |
-| T_pre-movement | 30–360 s | Depends on occupancy: office 60–120 s, residential 120–360 s, retail 60–180 s |
-| T_travel | Variable | Based on travel distance and flow rate |
+| T_detect | 0–120 s | 自动探测：30–60 s；人工探测：视情况而定 |
+| T_alarm | 0–30 s | 系统启动延迟 |
+| T_pre-movement | 30–360 s | 取决于使用类型：办公 60–120 s、住宅 120–360 s、零售 60–180 s |
+| T_travel | 可变 | 根据疏散距离和流量确定 |
 
-### 5.2 Flow Rate Through Egress Components
+### 5.2 疏散构件流量
 
-| Component | Flow Rate (persons/m/min) | Effective Width Reduction |
+| 构件 | 流量（人/m/min） | 有效宽度扣减 |
 |---|---|---|
-| Corridor (level) | 80–85 | 150 mm each side for walls |
-| Stair (down) | 55–65 | 150 mm each side for handrails |
-| Stair (up) | 40–50 | 150 mm each side |
-| Door | 60–75 | 150 mm each side of frame |
-| Ramp (down) | 70–80 | 150 mm each side |
-| Ramp (up) | 50–60 | 150 mm each side |
+| 水平走道 | 80–85 | 墙体两侧各扣 150 mm |
+| 楼梯（下行） | 55–65 | 扶手两侧各扣 150 mm |
+| 楼梯（上行） | 40–50 | 两侧各扣 150 mm |
+| 门 | 60–75 | 门框两侧各扣 150 mm |
+| 坡道（下行） | 70–80 | 两侧各扣 150 mm |
+| 坡道（上行） | 50–60 | 两侧各扣 150 mm |
 
-**Effective width = Total width - boundary layer deductions**
-- Walls: 150 mm deduction each side
-- Handrails: 89 mm deduction each side (SFPE Handbook)
-- Open edge: 0 mm deduction
+**有效宽度 = 总宽度 - 边界层扣减**
+- 墙体：两侧各扣 150 mm
+- 扶手：两侧各扣 89 mm（SFPE Handbook）
+- 开放边：扣减 0 mm
 
-### 5.3 Stair Merging Flow
+### 5.3 楼梯汇流
 
-At each floor, occupants merge from the floor into the stair stream. The stair can become a bottleneck:
+在每个楼层，人员从楼层汇入楼梯流线，楼梯可能成为瓶颈：
 
-- **Stair density limit:** 2.0 persons/m² on treads (comfortable); 3.5 persons/m² (maximum)
-- At 2.0 p/m², flow rate drops to 40 persons/m/min
-- If arrival rate from floor > stair flow capacity, queuing occurs at stair door
-- Design target: no queuing beyond 2 floors during simultaneous evacuation
+- **楼梯密度限值：**踏步上 2.0 人/m²（舒适）；3.5 人/m²（最大）
+- 达到 2.0 人/m² 时，流量降至 40 人/m/min
+- 若楼层到达率 > 楼梯流量能力，楼梯门处会排队
+- 设计目标：同时疏散时排队不超过 2 个楼层
 
-### 5.4 Elevator Evacuation (Occupant Evacuation Elevators — OEE)
+### 5.4 电梯疏散（人员疏散电梯——OEE）
 
-Per IBC Section 3008 and BS 9999 Annex G:
-- Permitted as supplementary egress (not sole means)
-- Requirements: fire-rated lobby, standby power, water protection, communication, pressurization
-- Capacity: one elevator serving 16 floors can evacuate ~300 persons in 30 minutes
-- Design: calculate based on round-trip time × number of trips in available safe egress time (ASET)
+依据 IBC 第 3008 节和 BS 9999 附录 G：
+- 可作为补充疏散设施（不得作为唯一疏散方式）
+- 要求：防火电梯厅、备用电源、防水保护、通信和加压
+- 容量：服务 16 层的一部电梯可在 30 分钟内疏散约 300 人
+- 设计：按往返时间 × 可用安全疏散时间（ASET）内的运行次数计算
 
-### 5.5 Example Calculation
+### 5.5 计算示例
 
-**20-storey office building, 200 occupants per floor, 4,000 total:**
+**20 层办公建筑，每层 200 人，总人数 4,000 人：**
 
-Stairs: 2 x 1200 mm wide
-- Effective width per stair: 1200 - 300 = 900 mm
-- Flow rate per stair: 900 / 1000 × 60 = 54 persons/min (down stair)
-- Total flow: 2 × 54 = 108 persons/min
-- Travel time (20 floors at ~25 s/floor): 500 s = 8.3 min
-- Total flow time: 4,000 / 108 = 37 min
-- Add pre-movement (90 s) = 38.5 min total
+楼梯：2 部、每部宽 1200 mm
+- 每部楼梯有效宽度：1200 - 300 = 900 mm
+- 每部楼梯流量：900 / 1000 × 60 = 54 人/分钟（下行楼梯）
+- 总流量：2 × 54 = 108 人/分钟
+- 疏散行程时间（20 层、约 25 s/层）：500 s = 8.3 分钟
+- 总流动时间：4,000 / 108 = 37 分钟
+- 加上行动前时间（90 s）= 总计 38.5 分钟
 
-This exceeds the typical 30-min target for full evacuation — solutions:
-- Add a 3rd stair
-- Increase stair width to 1500 mm
-- Implement phased evacuation (2 floors at a time)
-- Add occupant evacuation elevators
+这超过了完全疏散通常 30 分钟的目标，可采取以下措施：
+- 增设第 3 部楼梯
+- 将楼梯宽度增加至 1500 mm
+- 实施分阶段疏散（每次 2 层）
+- 增设人员疏散电梯
 
 ---
 
-## 6. Accessible Circulation Standards
+## 6. 无障碍交通标准
 
-### 6.1 Wheelchair Clearances
+### 6.1 轮椅净空
 
-| Maneuver | Clear Space Required |
+| 动作 | 所需净空 |
 |---|---|
-| Straight travel | 900 mm wide × continuous (ADA); 1000 mm (UK/EU) |
-| 90° turn | 1200 mm × 1200 mm (ADA); 1200 mm × 1200 mm (BS 8300) |
-| 180° turn | 1524 mm diameter (ADA); 1500 mm diameter (BS 8300) |
-| Passing another wheelchair | 1800 mm wide × 1800 mm long |
-| Forward approach to door | 1524 mm depth × door width + 457 mm pull side (ADA) |
-| Side approach to door | 1067 mm depth × door width + 610 mm (ADA) |
+| 直行 | 宽 900 mm × 连续空间（ADA）；1000 mm（英国/欧盟） |
+| 90° 转弯 | 1200 mm × 1200 mm（ADA）；1200 mm × 1200 mm（BS 8300） |
+| 180° 转弯 | 直径 1524 mm（ADA）；直径 1500 mm（BS 8300） |
+| 与另一辆轮椅会车 | 宽 1800 mm × 长 1800 mm |
+| 正面接近门 | 深 1524 mm × 门宽 + 拉侧 457 mm（ADA） |
+| 侧向接近门 | 深 1067 mm × 门宽 + 610 mm（ADA） |
 
-### 6.2 Accessible Elevator Requirements
+### 6.2 无障碍电梯要求
 
-- Car dimensions: min 1100 mm wide × 1400 mm deep (EN 81-70 Type 1); 2000 mm × 1400 mm (Type 3) for wheelchair + attendant
-- Door width: min 900 mm (EN 81-70)
-- Door dwell time: min 8 s with reopening sensor
-- Controls: 900–1200 mm height, min 10 mm from corner; tactile/Braille markings
-- Audible announcements: floor and direction
-- Mirror: on rear wall if car depth <1500 mm (for reversing in wheelchair)
+- 轿厢尺寸：最小宽 1100 mm × 深 1400 mm（EN 81-70 Type 1）；轮椅与陪护人员使用 Type 3 时为 2000 mm × 1400 mm
+- 门宽：最小 900 mm（EN 81-70）
+- 开门保持时间：配重新开门传感器时最小 8 s
+- 控制装置：高度 900–1200 mm，距角部至少 10 mm；设置触觉/盲文标记
+- 声音播报：楼层和运行方向
+- 镜子：轿厢深度 <1500 mm 时设置于后壁（便于轮椅倒车）
 
-### 6.3 Platform Lifts
+### 6.3 平台升降机
 
-Where a full elevator is not feasible (typically retrofit situations):
-- Travel: max 2000 mm (UK Building Regs); up to 12 m (EN 81-41 enclosed)
-- Platform size: min 900 mm × 1250 mm (unaccompanied wheelchair); 1100 mm × 1400 mm (accompanied)
-- Speed: typically 0.1–0.15 m/s
-- Enclosure: enclosed shaft required for travel >2000 mm
-- Not a substitute for passenger elevators in new construction
+当无法设置完整电梯时（通常为改造项目）：
+- 提升高度：最大 2000 mm（英国建筑法规）；封闭式设备按 EN 81-41 可达 12 m
+- 平台尺寸：无人陪同轮椅最小 900 mm × 1250 mm；有人陪同为 1100 mm × 1400 mm
+- 速度：通常 0.1–0.15 m/s
+- 围护：提升高度 >2000 mm 时必须设置封闭井道
+- 新建项目中不得以平台升降机替代乘客电梯

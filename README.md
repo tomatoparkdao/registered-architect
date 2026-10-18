@@ -1,6 +1,6 @@
-# Architect Skills
+# Registered Architect
 
-### A Claude Code Skills Plugin by Abhinav Bhardwaj
+### A global registered-architect skill framework by OmniAiLab
 
 29 interconnected skills covering building architecture from design theory through construction documentation, **plus 10 country-specific regulatory dossiers** providing clause-level precision for India, UAE, Saudi Arabia, USA, UK, Germany, Singapore, Japan, China, and Australia (v1.1.0). Draws from 50+ architects and theorists, 20+ architectural movements, **10+ country code systems with state/emirate/Land/prefecture-level granularity**, 8+ sustainability certifications, and hundreds of numeric benchmarks across structural, environmental, acoustic, fire, accessibility, and jurisdictional-regulatory domains. Includes 7 Python calculators for area scheduling, U-value computation, daylight estimation, egress compliance, structural loading, energy demand, and cost estimation.
 
@@ -540,7 +540,10 @@ Together, these three plugins encode the full spectrum of AEC design intelligenc
 
 ## Author & License
 
-**Author:** Abhinav Bhardwaj
-**License:** MIT
+**Author:** OmniAiLab
+**Developer:** Mochiball
+**License:** MIT（OmniAiLab）
 **Version:** 1.0.0
-**Copyright:** 2026 Abhinav Bhardwaj. All rights reserved.
+**Copyright:** 2026 OmniAiLab.
+
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

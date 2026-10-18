@@ -1,245 +1,244 @@
-# Drawing Set Completeness Checklist
+# 图纸集完整性检查清单
 
-Professional checklist for verifying completeness of architectural
-construction documents. Review each item before issue.
-
----
-
-## Cover Sheet Checklist
-
-- [ ] Project name and address
-- [ ] Owner name and contact information
-- [ ] Architect of record name, license number, and seal
-- [ ] Consultant list with contact information
-- [ ] Project number and date
-- [ ] Vicinity map / location map
-- [ ] Building code summary (code edition, occupancy, construction type)
-- [ ] Area tabulation (per floor, total, allowable)
-- [ ] Height summary (stories, building height, allowable)
-- [ ] Occupancy classification and mixed-use separations
-- [ ] Sprinkler status (fully sprinklered, partial, none)
-- [ ] Accessibility standards referenced
-- [ ] Drawing list / sheet index (all disciplines)
-- [ ] Abbreviations legend
-- [ ] Symbol legend
-- [ ] General keynote legend
-- [ ] Life safety summary (exits, travel distances, occupant loads)
+用于核查建筑施工文件完整性的专业清单。发布前应逐项检查。
 
 ---
 
-## Site Plan Checklist
+## 封面检查清单
 
-- [ ] Property boundary with dimensions and bearings
-- [ ] Setback lines with dimensions to building
-- [ ] Easements and rights-of-way
-- [ ] Building footprint with dimensions to property lines
-- [ ] Finish floor elevation(s)
-- [ ] Existing and proposed grades with spot elevations
-- [ ] North arrow (true north and project north if different)
-- [ ] Scale bar (graphic)
-- [ ] Parking layout with count and accessible spaces
-- [ ] Accessible route from parking to building entry
-- [ ] Fire department access and fire lane
-- [ ] Utility connections (water, sewer, storm, gas, electric, telecom)
-- [ ] Stormwater management features
-- [ ] Landscaping and planting areas
-- [ ] Site lighting locations
-- [ ] Fencing, walls, and gates
-- [ ] Trash/recycling enclosure
-- [ ] Signage locations
-- [ ] Adjacent streets and sidewalks
+- [ ] 项目名称和地址
+- [ ] 业主名称及联系方式
+- [ ] 注册建筑师姓名、执照编号和印章
+- [ ] 顾问单位清单及联系方式
+- [ ] 项目编号和日期
+- [ ] 周边环境图/位置图
+- [ ] 建筑规范摘要（规范版本、使用分类、结构类型）
+- [ ] 面积统计（分层、总计、允许值）
+- [ ] 高度摘要（层数、建筑高度、允许值）
+- [ ] 使用分类及混合使用分隔
+- [ ] 喷淋状态（全设、局部、无）
+- [ ] 引用的无障碍标准
+- [ ] 图纸目录/图纸索引（所有专业）
+- [ ] 缩写图例
+- [ ] 符号图例
+- [ ] 通用索引图例
+- [ ] 生命安全摘要（出口、疏散距离、使用人数）
 
 ---
 
-## Floor Plan Checklist
+## 总平面图检查清单
 
-- [ ] Column grid with labels (numbers and letters)
-- [ ] All walls drawn with correct line weights (cut vs. beyond)
-- [ ] Wall types indicated (fire-rated walls clearly marked)
-- [ ] All doors shown with swing direction and tags
-- [ ] All windows shown with tags
-- [ ] Room names and numbers in every enclosed space
-- [ ] Finish floor elevation where it changes
-- [ ] Floor finish indication or reference to schedule
-- [ ] Stair identification with up/down arrows and floor designation
-- [ ] Elevator identification
-- [ ] Plumbing fixture locations
-- [ ] Built-in casework and countertops
-- [ ] Dimensions: overall, grid-to-grid, wall-to-wall, opening locations
-- [ ] Section cut indicators with reference sheet numbers
-- [ ] Interior elevation markers with reference sheet numbers
-- [ ] Detail callouts with reference sheet numbers
-- [ ] Enlarged plan callouts with reference sheet numbers
-- [ ] North arrow
-- [ ] Scale bar and numeric scale
-- [ ] Drawing title and number
-- [ ] Key plan (for multi-building or large projects)
-- [ ] Accessibility features (clearances, turning radii, signage)
-- [ ] Fire extinguisher and AED locations
-- [ ] Keynotes or material annotations
+- [ ] 用地边界及尺寸、方位角
+- [ ] 建筑退线及至建筑物的尺寸
+- [ ] 地役权和通行权
+- [ ] 建筑轮廓及至用地边界的尺寸
+- [ ] 完成地面标高
+- [ ] 现状及设计标高、散点标高
+- [ ] 指北针（真北与项目北不同则均标示）
+- [ ] 图示比例尺
+- [ ] 停车布局、数量及无障碍车位
+- [ ] 从停车位至建筑入口的无障碍路径
+- [ ] 消防车道及消防部门通行
+- [ ] 市政接口（水、污水、雨水、燃气、电力、通信）
+- [ ] 雨水管理设施
+- [ ] 景观和种植区域
+- [ ] 场地照明位置
+- [ ] 围栏、墙体和大门
+- [ ] 垃圾/回收物围护设施
+- [ ] 标识位置
+- [ ] 相邻道路和人行道
 
 ---
 
-## Reflected Ceiling Plan Checklist
+## 平面图检查清单
 
-- [ ] Column grid matching floor plan
-- [ ] Ceiling material designations
-- [ ] Ceiling heights noted for each area
-- [ ] Ceiling grid layout (if suspended system)
-- [ ] Light fixture locations and types
-- [ ] HVAC diffuser and return air grille locations
-- [ ] Sprinkler head locations
-- [ ] Smoke detector and fire alarm device locations
-- [ ] Access panels
-- [ ] Ceiling soffits and bulkheads with dimensions
-- [ ] Cove lighting and indirect lighting details
-- [ ] Ceiling-mounted equipment (projectors, speakers)
-- [ ] Room names and numbers matching floor plan
-- [ ] Section references
-- [ ] Detail callouts for ceiling conditions
-- [ ] North arrow
-- [ ] Scale bar and numeric scale
-
----
-
-## Exterior Elevation Checklist
-
-- [ ] All four sides drawn (minimum)
-- [ ] Grade line shown
-- [ ] Floor lines and ceiling lines indicated
-- [ ] Roof ridge, eave, and parapet lines
-- [ ] All exterior materials indicated with keynotes
-- [ ] Window tags matching schedule
-- [ ] Door tags matching schedule
-- [ ] Vertical dimensions (floor-to-floor, sill heights, head heights)
-- [ ] Top of parapet, ridge, and eave elevations
-- [ ] Finish grade elevations
-- [ ] Mechanical equipment on roof (if visible)
-- [ ] Downspouts and scuppers
-- [ ] Signage locations
-- [ ] Expansion joints
-- [ ] Control joints
-- [ ] Flashing and coping details referenced
-- [ ] Material transition details referenced
-- [ ] Drawing title, number, and scale
+- [ ] 柱网及编号（数字和字母）
+- [ ] 所有墙体采用正确线宽（剖切与投影部分区分）
+- [ ] 墙体类型标注（防火墙清晰标示）
+- [ ] 所有门标示开启方向和编号
+- [ ] 所有窗标示编号
+- [ ] 每个封闭空间标示房间名称和编号
+- [ ] 标高变化处标示完成地面标高
+- [ ] 地面饰面标注或引用饰面表
+- [ ] 楼梯编号、上下箭头和楼层标示
+- [ ] 电梯标识
+- [ ] 卫生器具位置
+- [ ] 内置柜体和台面
+- [ ] 尺寸：总尺寸、柱网间、墙间、洞口位置
+- [ ] 剖切符号及对应图纸编号
+- [ ] 室内立面标记及对应图纸编号
+- [ ] 详图索引及对应图纸编号
+- [ ] 放大平面索引及对应图纸编号
+- [ ] 指北针
+- [ ] 图示比例尺和数字比例
+- [ ] 图纸标题和编号
+- [ ] 关键平面图（多栋或大型项目）
+- [ ] 无障碍设施（净空、转弯半径、标识）
+- [ ] 灭火器和 AED 位置
+- [ ] 索引或材料标注
 
 ---
 
-## Building Section Checklist
+## 天花反射平面图检查清单
 
-- [ ] Foundation system shown (footings, slab, piles)
-- [ ] Floor structure at each level
-- [ ] Roof structure and slope
-- [ ] Exterior wall assembly (all layers)
-- [ ] Interior partitions at cut location
-- [ ] Floor-to-floor dimensions
-- [ ] Ceiling heights
-- [ ] Structure depth dimensions
-- [ ] Finish floor elevations at each level
-- [ ] Top of foundation wall elevation
-- [ ] Top of parapet / roof ridge elevation
-- [ ] Insulation shown in all assemblies
-- [ ] Waterproofing and dampproofing
-- [ ] Below-grade drainage
-- [ ] Stair sections (if cut through)
-- [ ] Elevator shaft (if cut through)
-- [ ] Wall section references
-- [ ] Detail callouts for connections and conditions
-- [ ] Material indications / hatching per convention
-- [ ] Drawing title, number, and scale
+- [ ] 与平面图一致的柱网
+- [ ] 天花材料标注
+- [ ] 各区域天花高度
+- [ ] 天花网格布局（吊顶系统适用）
+- [ ] 灯具位置和类型
+- [ ] HVAC 散流器及回风口位置
+- [ ] 喷淋头位置
+- [ ] 烟感探测器和火灾报警设备位置
+- [ ] 检修口
+- [ ] 天花跌级和吊顶尺寸
+- [ ] 灯槽及间接照明详图
+- [ ] 吊装设备（投影仪、扬声器）
+- [ ] 与平面图一致的房间名称和编号
+- [ ] 剖面引用
+- [ ] 天花条件详图索引
+- [ ] 指北针
+- [ ] 图示比例尺和数字比例
 
 ---
 
-## Wall Section Checklist
+## 外立面图检查清单
 
-- [ ] Foundation to roof shown continuously
-- [ ] Every layer of each assembly labeled
-- [ ] Structural connections (base of wall, floor, roof)
-- [ ] Window head, sill, and jamb conditions
-- [ ] Flashing at all transitions
-- [ ] Weep holes (masonry)
-- [ ] Vapor barrier / air barrier continuity
-- [ ] Insulation continuity (no thermal bridging gaps)
-- [ ] Waterproofing / dampproofing below grade
-- [ ] Drainage board and perimeter drain
-- [ ] Coping / cap flashing at parapet
-- [ ] Roof membrane termination
-- [ ] Sealant joints
-- [ ] Expansion and control joints
-- [ ] Dimensions for all layers and critical clearances
-- [ ] Material keynotes or labels
-- [ ] Detail callouts for enlarged conditions
-- [ ] Drawing title, number, and scale
-
----
-
-## Detail Sheet Checklist
-
-- [ ] Each detail has a unique identification number
-- [ ] Detail title describes the condition
-- [ ] Scale noted for each detail
-- [ ] All materials labeled or keynoted
-- [ ] Dimensions for all critical measurements
-- [ ] Fastener types and spacing noted
-- [ ] Sealant types and locations indicated
-- [ ] Flashing profiles and materials shown
-- [ ] Slope/drainage direction arrows where applicable
-- [ ] Reference to specification section where relevant
-- [ ] Notes for installation sequence if critical
-- [ ] Fire-rated assembly details reference UL or GA number
-- [ ] Waterproofing continuity shown
-- [ ] Thermal break / insulation continuity shown
-- [ ] Accessible clearance dimensions where applicable
+- [ ] 至少绘制四个立面
+- [ ] 标示地坪线
+- [ ] 标示楼层线和天花线
+- [ ] 屋脊、檐口和女儿墙线
+- [ ] 通过索引标注所有外部材料
+- [ ] 窗编号与窗表一致
+- [ ] 门编号与门表一致
+- [ ] 垂直尺寸（层高、窗台高、窗顶高）
+- [ ] 女儿墙顶、屋脊和檐口标高
+- [ ] 完成地面标高
+- [ ] 屋面机械设备（可见时）
+- [ ] 落水管和溢水口
+- [ ] 标识位置
+- [ ] 伸缩缝
+- [ ] 控制缝
+- [ ] 引用泛水和压顶详图
+- [ ] 引用材料转换详图
+- [ ] 图纸标题、编号和比例
 
 ---
 
-## Schedule Checklist
+## 建筑剖面图检查清单
 
-### Door Schedule
-- [ ] Every door tagged on plans appears in schedule
-- [ ] Door sizes, types, and materials complete
-- [ ] Fire ratings match rated wall locations
-- [ ] Hardware sets assigned to every door
-- [ ] Hardware sets coordinated with hardware specification
-- [ ] Frame types and materials listed
-- [ ] Glazing requirements noted (vision panels, fire-rated)
-- [ ] Accessibility requirements noted (closers, thresholds)
-- [ ] Undercuts specified where required (HVAC transfer)
-- [ ] Acoustic ratings noted where required
-
-### Window Schedule
-- [ ] Every window tagged on plans/elevations appears in schedule
-- [ ] Window sizes and types complete
-- [ ] Frame materials and finishes listed
-- [ ] Glazing specifications complete (U-value, SHGC, VLT)
-- [ ] Operator types specified
-- [ ] Safety glazing requirements noted per code
-- [ ] Fire-rated glazing where required by proximity to property line
-- [ ] Screen requirements noted
-- [ ] Hardware requirements noted
-
-### Finish Schedule
-- [ ] Every room numbered on plans appears in schedule
-- [ ] Floor, base, wall, and ceiling finishes assigned
-- [ ] Ceiling heights noted
-- [ ] Finish codes defined in legend
-- [ ] Wet area finishes appropriate (waterproof, slip-resistant)
-- [ ] Fire-rated ceiling assemblies noted where required
-- [ ] Acoustic requirements noted (STC, NRC, NC)
-- [ ] Special requirements noted (antimicrobial, chemical-resistant)
+- [ ] 基础系统（基础、底板、桩）
+- [ ] 各楼层楼板结构
+- [ ] 屋面结构和坡度
+- [ ] 外墙构造（全部层次）
+- [ ] 剖切位置的内隔墙
+- [ ] 层间尺寸
+- [ ] 天花高度
+- [ ] 结构深度尺寸
+- [ ] 各楼层完成地面标高
+- [ ] 基础墙顶标高
+- [ ] 女儿墙顶/屋脊标高
+- [ ] 所有构造中标示保温层
+- [ ] 防水和防潮
+- [ ] 地下排水
+- [ ] 楼梯剖面（剖切到时）
+- [ ] 电梯井道（剖切到时）
+- [ ] 墙身详图引用
+- [ ] 连接和节点条件详图索引
+- [ ] 按制图约定标示材料/填充
+- [ ] 图纸标题、编号和比例
 
 ---
 
-## General Quality Checks
+## 墙身详图检查清单
 
-- [ ] Sheet numbers follow standard convention
-- [ ] All cross-references resolve (section marks point to correct sheets)
-- [ ] Drawing scales match noted scales
-- [ ] North arrow consistent on all plan sheets
-- [ ] Column grid labels consistent across all sheets
-- [ ] Room numbers unique and consistent across all sheets
-- [ ] Revision clouds current (old revisions removed)
-- [ ] Title block complete on every sheet
-- [ ] Architect seal and signature on every sheet (for permit set)
-- [ ] Copyright notice included
-- [ ] "Not for Construction" watermark on non-FC issues
+- [ ] 连续表示从基础至屋面
+- [ ] 标注每个构造的每一层
+- [ ] 结构连接（墙脚、楼板、屋面）
+- [ ] 窗顶、窗台和窗侧框节点
+- [ ] 所有转换处的泛水
+- [ ] 泄水孔（砌体）
+- [ ] 隔汽层/空气层连续性
+- [ ] 保温连续性（不得有热桥断点）
+- [ ] 地下防水/防潮
+- [ ] 排水板和周边排水沟
+- [ ] 女儿墙压顶/盖板泛水
+- [ ] 屋面卷材收头
+- [ ] 密封胶缝
+- [ ] 伸缩缝和控制缝
+- [ ] 所有层次和关键净空的尺寸
+- [ ] 材料索引或标签
+- [ ] 放大节点详图索引
+- [ ] 图纸标题、编号和比例
+
+---
+
+## 详图页检查清单
+
+- [ ] 每个详图均有唯一识别编号
+- [ ] 详图标题说明节点条件
+- [ ] 每个详图标注比例
+- [ ] 所有材料均有标签或索引
+- [ ] 所有关键尺寸均已标注
+- [ ] 标注紧固件类型和间距
+- [ ] 标示密封胶类型和位置
+- [ ] 标示泛水形状和材料
+- [ ] 适用时标示坡度/排水方向箭头
+- [ ] 适用时引用技术规格书章节
+- [ ] 关键时标注安装顺序
+- [ ] 防火构造详图引用 UL 或 GA 编号
+- [ ] 标示防水连续性
+- [ ] 标示隔热断桥/保温连续性
+- [ ] 适用时标示无障碍净空尺寸
+
+---
+
+## 明细表检查清单
+
+### 门表
+- [ ] 平面图中标注的每樘门均出现在门表中
+- [ ] 门尺寸、类型和材料完整
+- [ ] 防火等级与防火墙位置匹配
+- [ ] 每樘门均指定五金组
+- [ ] 五金组与五金规格书协调一致
+- [ ] 列出门框类型和材料
+- [ ] 标注玻璃要求（视窗、防火玻璃）
+- [ ] 标注无障碍要求（闭门器、门槛）
+- [ ] 需要时标注门底切口（HVAC 转移）
+- [ ] 需要时标注声学等级
+
+### 窗表
+- [ ] 平面图/立面图中标注的每樘窗均出现在窗表中
+- [ ] 窗尺寸和类型完整
+- [ ] 列出窗框材料和饰面
+- [ ] 玻璃规格完整（U 值、SHGC、VLT）
+- [ ] 指定开启扇类型
+- [ ] 按规范标注安全玻璃要求
+- [ ] 因靠近用地边界而需要时标注防火玻璃
+- [ ] 标注纱窗要求
+- [ ] 标注五金要求
+
+### 饰面表
+- [ ] 平面图中编号的每个房间均出现在饰面表中
+- [ ] 指定地面、踢脚、墙面和天花饰面
+- [ ] 标注天花高度
+- [ ] 在图例中定义饰面代码
+- [ ] 湿区饰面适用（防水、防滑）
+- [ ] 需要时标注防火天花构造
+- [ ] 标注声学要求（STC、NRC、NC）
+- [ ] 标注特殊要求（抗菌、耐化学品）
+
+---
+
+## 总体质量检查
+
+- [ ] 图纸编号遵循标准约定
+- [ ] 所有交叉引用有效（剖切标记指向正确图纸）
+- [ ] 图纸比例与标注比例一致
+- [ ] 所有平面图的指北针一致
+- [ ] 所有图纸的柱网编号一致
+- [ ] 所有图纸的房间编号唯一且一致
+- [ ] 修订云线为当前版本（删除旧修订）
+- [ ] 每张图纸的标题栏完整
+- [ ] 每张图纸均有建筑师印章和签名（报审图纸集）
+- [ ] 包含版权声明
+- [ ] 非施工版图纸加注“不得用于施工”水印

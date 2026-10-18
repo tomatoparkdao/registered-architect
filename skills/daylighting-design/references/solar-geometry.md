@@ -1,27 +1,27 @@
-# Solar Geometry — Deep Reference
+# 太阳几何——深度参考
 
-Comprehensive reference on solar position calculation, sun path diagrams, shading mask construction, overhang and fin sizing, and shadow analysis methods for architectural design.
+涵盖建筑设计中太阳位置计算、日照路径图、遮阳掩模构建、挑檐与遮阳翼尺寸设计及阴影分析方法的综合参考。
 
 ---
 
-## 1. Fundamentals of Solar Position
+## 1. 太阳位置基础
 
-### 1.1 Key Definitions
+### 1.1 关键定义
 
-- **Solar Altitude (α_s):** Angle between the sun's center and the horizontal plane. Range: 0° (horizon) to 90° (zenith).
-- **Solar Azimuth (γ_s):** Horizontal angle measured from due south (Northern Hemisphere convention). Positive = west of south; negative = east of south. Range: -180° to +180°.
-- **Solar Zenith Angle (θ_z):** Complement of altitude. θ_z = 90° - α_s.
-- **Solar Declination (δ):** Angle between the sun's rays and the equatorial plane. Range: -23.45° (winter solstice NH) to +23.45° (summer solstice NH).
-- **Hour Angle (ω):** Angular displacement of the sun from solar noon. ω = 15° × (solar time - 12). Negative in morning, positive in afternoon.
-- **Latitude (φ):** Geographic latitude of the site. Positive for Northern Hemisphere.
+- **太阳高度角（α_s）：**太阳中心与水平面之间的角度，范围为 0°（地平线）至 90°（天顶）。
+- **太阳方位角（γ_s）：**从正南测量的水平角（北半球约定）。正值表示南偏西，负值表示南偏东，范围为 −180° 至 +180°。
+- **太阳天顶角（θ_z）：**高度角的余角，θ_z = 90° − α_s。
+- **太阳赤纬（δ）：**太阳光线与赤道面的夹角，范围为 −23.45°（北半球冬至）至 +23.45°（北半球夏至）。
+- **时角（ω）：**太阳相对于太阳正午的角位移，ω = 15° ×（太阳时 − 12）。上午为负，下午为正。
+- **纬度（φ）：**场地地理纬度，北半球取正值。
 
-### 1.2 Solar Declination Calculation
+### 1.2 太阳赤纬计算
 
-**Cooper Equation (approximate):**
+**Cooper 方程（近似）：**
 δ = 23.45° × sin(360° × (284 + n) / 365)
-where n = day of year (January 1 = 1, December 31 = 365)
+其中 n = 年内日序（1 月 1 日 = 1，12 月 31 日 = 365）。
 
-**Key Declination Values:**
+**关键赤纬值：**
 | Date | Day (n) | Declination (δ) |
 |---|---|---|
 | March 21 (Vernal Equinox) | 80 | 0.0° |
@@ -31,44 +31,44 @@ where n = day of year (January 1 = 1, December 31 = 365)
 | August 1 (Thermal peak) | 213 | +17.9° |
 | February 1 | 32 | -17.1° |
 
-### 1.3 Solar Altitude Calculation
+### 1.3 太阳高度角计算
 
-**General Formula:**
+**通用公式：**
 sin(α_s) = sin(φ) × sin(δ) + cos(φ) × cos(δ) × cos(ω)
 
-**At Solar Noon (ω = 0):**
+**太阳正午（ω = 0）时：**
 α_noon = 90° - |φ - δ|
 
-This simplifies to:
+可简化为：
 - Summer solstice noon: α = 90° - φ + 23.45°
 - Winter solstice noon: α = 90° - φ - 23.45°
 - Equinox noon: α = 90° - φ
 
-### 1.4 Solar Azimuth Calculation
+### 1.4 太阳方位角计算
 
-**General Formula:**
+**通用公式：**
 cos(γ_s) = [sin(α_s) × sin(φ) - sin(δ)] / [cos(α_s) × cos(φ)]
 
-Sign convention: if ω < 0 (morning), γ_s is negative (east of south); if ω > 0 (afternoon), γ_s is positive (west of south).
+符号约定：ω < 0（上午）时 γ_s 为负（南偏东）；ω > 0（下午）时 γ_s 为正（南偏西）。
 
-**At Equinox:**
+**春分/秋分时：**
 - Sunrise azimuth = -90° (due east)
 - Sunset azimuth = +90° (due west)
 - At all latitudes between Arctic and Antarctic circles
 
 **At Summer Solstice (Northern Hemisphere):**
-Sunrise azimuth = -arccos(-tan(φ) × tan(δ)) — northeast of east
-Sunset azimuth = +arccos(-tan(φ) × tan(δ)) — northwest of west
+日出方位角 = −arccos(−tan(φ) × tan(δ))——东偏北
+日落方位角 = +arccos(−tan(φ) × tan(δ))——西偏北
 
-### 1.5 Solar Time vs. Clock Time
+### 1.5 太阳时与钟表时间
 
-**Solar Time:** Based on sun's actual position. Solar noon = sun at due south (NH).
+**太阳时：**依据太阳实际位置确定，太阳正午 = 太阳位于正南（北半球）。
 
-**Conversion:**
-Solar Time = Clock Time + Equation of Time (EOT) + Longitude Correction - Daylight Saving Offset
+**换算：**
+太阳时 = 钟表时间 + 均时差（EOT）+ 经度修正 − 夏令时修正
 
-**Equation of Time (EOT):** Corrects for Earth's elliptical orbit and axial tilt.
-EOT (minutes) = 9.87 × sin(2B) - 7.53 × cos(B) - 1.5 × sin(B)
+**均时差（EOT）：**用于修正地球椭圆轨道和地轴倾角的影响。
+EOT（分钟）= 9.87 × sin(2B) − 7.53 × cos(B) − 1.5 × sin(B)
 where B = 360° × (n - 81) / 364
 
 **EOT Key Values:**
@@ -80,113 +80,113 @@ where B = 360° × (n - 81) / 364
 | Nov 3 | +16.4 (sun ahead of clock) |
 | Apr 15 / Sep 1 | ~0 |
 
-**Longitude Correction:**
+**经度修正：**
 4 minutes per degree of longitude difference from standard meridian.
-Correction = 4 × (L_standard - L_local) minutes
+修正值 = 4 ×（L_standard − L_local）分钟
 where L_standard = time zone standard meridian (e.g., 0° for GMT, 75°W for EST)
 
-**Example:** New York (74°W, EST standard meridian 75°W), June 21:
+**示例：**纽约（74°W，EST 标准经线 75°W），6 月 21 日：
 - Longitude correction = 4 × (75 - 74) = +4 minutes
 - EOT ≈ -1.5 minutes
 - Solar noon = 12:00 + 0:04 - 0:01.5 - 1:00 (DST) = 11:02:30 AM EDT
 
 ---
 
-## 2. Sun Path Diagrams
+## 2. 日照路径图
 
-### 2.1 Stereographic Sun Path Diagram
+### 2.1 立体投影日照路径图
 
-Projects the sun's path onto a horizontal plane using stereographic projection. The most common diagram type for architectural shading analysis.
+使用立体投影将太阳路径投影到水平面，是建筑遮阳分析中最常见的图表类型。
 
-**Reading the Diagram:**
+**图表读取：**
 - Concentric circles = altitude angles (outermost = 0°/horizon, center = 90°/zenith)
 - Radial lines = azimuth angles (top = north, bottom = south for NH; reversed for SH)
 - Curved lines (date lines) = sun paths for specific dates (typically monthly or solstice/equinox)
 - Vertical hour lines = solar time hours
 
-**Construction Method:**
+**构建方法：**
 1. Calculate solar altitude and azimuth for each hour of each representative date
 2. Plot altitude as radial distance: r = R × cos(α) / (1 + sin(α)) for stereographic, or r = R × (90 - α) / 90 for equidistant
 3. Plot azimuth as angular position from south
 4. Connect points of same date for sun path curves
 5. Connect points of same hour for hour lines
 
-### 2.2 Equidistant Sun Path Diagram
+### 2.2 等距投影日照路径图
 
-Altitude mapped linearly (each degree = same radial distance). Simpler but less geometrically accurate than stereographic. Used in many educational and software tools.
+高度角采用线性映射（每一度对应相同径向距离），比立体投影简单但几何精度较低，常用于教学和软件工具。
 
-### 2.3 Cylindrical Sun Path Diagram
+### 2.3 圆柱投影日照路径图
 
-Azimuth on horizontal axis (-180° to +180°), altitude on vertical axis (0° to 90°). Rectangular plot. Useful for reading shading mask overlays. Used in Ecotect, Climate Consultant.
-
----
-
-## 3. Design Solar Angles for Major Latitudes
-
-### 3.1 Equator (0° Latitude)
-
-| Date | Noon Altitude | Sunrise/set Azimuth | Day Length |
-|---|---|---|---|
-| Equinox (Mar/Sep 21) | 90.0° | ±90° (E/W) | 12h 00m |
-| June Solstice | 66.6° | ±23.5° N of E/W | 12h 00m |
-| December Solstice | 66.6° | ±23.5° S of E/W | 12h 00m |
-
-**Characteristics:** Sun passes directly overhead at equinoxes. Both solstices have equal (and lower) noon altitude. Sun is always high; horizontal shading on all facades. Nearly equal day length year-round.
-
-### 3.2 Latitude 15° (Tropical — Mumbai, Mexico City, Dakar)
-
-| Date | Noon Altitude | Sunrise/set Azimuth | Day Length |
-|---|---|---|---|
-| Equinox | 75.0° | ±90° | 12h 07m |
-| June Solstice | 81.6° (sun slightly north) | ±113° | 13h 12m |
-| December Solstice | 51.6° | ±67° | 10h 54m |
-
-**Characteristics:** Sun passes overhead in May and July (declination = +15°). Very high summer altitude; moderate winter altitude. Dominant overheating period is March-October.
-
-### 3.3 Latitude 30° (Subtropical — Cairo, Houston, Shanghai, New Delhi)
-
-| Date | Noon Altitude | Sunrise/set Azimuth | Day Length |
-|---|---|---|---|
-| Equinox | 60.0° | ±90° | 12h 09m |
-| June Solstice | 83.5° | ±119° | 14h 04m |
-| December Solstice | 36.6° | ±61° | 10h 04m |
-
-**Characteristics:** High summer sun enables effective horizontal overhangs on south facade. Low winter sun provides welcome solar gain. East/west facades problematic year-round. Significant seasonal variation in day length.
-
-### 3.4 Latitude 45° (Temperate — Milan, Montreal, Sapporo, Christchurch)
-
-| Date | Noon Altitude | Sunrise/set Azimuth | Day Length |
-|---|---|---|---|
-| Equinox | 45.0° | ±90° | 12h 12m |
-| June Solstice | 68.5° | ±126° | 15h 37m |
-| December Solstice | 21.6° | ±54° | 8h 46m |
-
-**Characteristics:** Large altitude range (47°). South-facing overhangs moderately effective but must handle wide angle range. Low winter sun deeply penetrates interiors (beneficial for passive solar heating). Long summer days, short winter days. East/west shading critical in summer.
-
-### 3.5 Latitude 60° (Subarctic — Helsinki, Anchorage, Oslo, St Petersburg)
-
-| Date | Noon Altitude | Sunrise/set Azimuth | Day Length |
-|---|---|---|---|
-| Equinox | 30.0° | ±90° | 12h 17m |
-| June Solstice | 53.5° | ±140° | 18h 52m |
-| December Solstice | 6.6° | ±40° | 5h 33m |
-
-**Characteristics:** Sun never rises high — maximum 53.5°. Winter sun barely clears horizon. Horizontal overhangs minimally effective (sun always at moderate-to-low angles). Vertical fins or combined shading needed. Maximizing daylight in winter is primary challenge. Very long summer days; nearly 19 hours of light at solstice.
+方位角位于水平轴（−180° 至 +180°），高度角位于垂直轴（0° 至 90°），形成矩形图。适合读取遮阳掩模叠加图，Ecotect 和 Climate Consultant 均采用此类图表。
 
 ---
 
-## 4. Shading Device Design
+## 3. 主要纬度的设计太阳角
 
-### 4.1 Overhang Sizing Formula
+### 3.1 赤道（纬度 0°）
 
-For a horizontal overhang above a window:
+| 日期 | 正午高度角 | 日出/日落方位角 | 昼长 |
+|---|---|---|---|
+| 春分/秋分（3月/9月21日） | 90.0° | ±90°（东/西） | 12h 00m |
+| 夏至 | 66.6° | 东/西偏北±23.5° | 12h 00m |
+| 冬至 | 66.6° | 东/西偏南±23.5° | 12h 00m |
 
-**Required overhang depth (D):**
+**特征：**春分和秋分时太阳直射头顶。两个至日的正午高度相等且较低。太阳始终较高，所有立面均需水平遮阳；全年昼长几乎相等。
+
+### 3.2 纬度 15°（热带——孟买、墨西哥城、达喀尔）
+
+| 日期 | 正午高度角 | 日出/日落方位角 | 昼长 |
+|---|---|---|---|
+| 春分/秋分 | 75.0° | ±90° | 12h 07m |
+| 夏至 | 81.6°（太阳略偏北） | ±113° | 13h 12m |
+| 冬至 | 51.6° | ±67° | 10h 54m |
+
+**特征：**5 月和 7 月太阳经过头顶（赤纬 = +15°）。夏季高度角很高，冬季适中；主要过热期为 3–10 月。
+
+### 3.3 纬度 30°（亚热带——开罗、休斯敦、上海、新德里）
+
+| 日期 | 正午高度角 | 日出/日落方位角 | 昼长 |
+|---|---|---|---|
+| 春分/秋分 | 60.0° | ±90° | 12h 09m |
+| 夏至 | 83.5° | ±119° | 14h 04m |
+| 冬至 | 36.6° | ±61° | 10h 04m |
+
+**特征：**夏季太阳高度高，南立面水平挑檐有效；冬季低太阳提供有益得热。东西立面全年均较难遮阳；昼长季节变化明显。
+
+### 3.4 纬度 45°（温带——米兰、蒙特利尔、札幌、基督城）
+
+| 日期 | 正午高度角 | 日出/日落方位角 | 昼长 |
+|---|---|---|---|
+| 春分/秋分 | 45.0° | ±90° | 12h 12m |
+| 夏至 | 68.5° | ±126° | 15h 37m |
+| 冬至 | 21.6° | ±54° | 8h 46m |
+
+**特征：**太阳高度角范围大（47°）。南向挑檐具有中等效果，但需应对较宽角度范围。冬季低太阳可深入室内，有利于被动太阳能供暖；夏季昼长、冬季昼短，夏季东西向遮阳至关重要。
+
+### 3.5 纬度 60°（亚寒带——赫尔辛基、安克雷奇、奥斯陆、圣彼得堡）
+
+| 日期 | 正午高度角 | 日出/日落方位角 | 昼长 |
+|---|---|---|---|
+| 春分/秋分 | 30.0° | ±90° | 12h 17m |
+| 夏至 | 53.5° | ±140° | 18h 52m |
+| 冬至 | 6.6° | ±40° | 5h 33m |
+
+**特征：**太阳从不升得很高，最高仅 53.5°；冬季太阳刚刚越过地平线。水平挑檐效果很小（太阳始终处于中低角度），需要垂直翼片或组合遮阳。冬季最大化日照是主要挑战；夏季昼长，至日时接近 19 小时日照。
+
+---
+
+## 4. 遮阳装置设计
+
+### 4.1 挑檐尺寸计算公式
+
+对于窗上方的水平挑檐：
+
+**所需挑檐深度（D）：**
 D = H_sill / tan(α_cutoff)
 
-Where:
-- H_sill = vertical distance from bottom of overhang to window sill
-- α_cutoff = solar altitude angle at which full shading is desired
+其中：
+- H_sill = 挑檐底部至窗台的垂直距离
+- α_cutoff = 希望实现完全遮阳时的太阳高度角
 
 **Alternative formulation using window height:**
 D = (H_overhang - H_sill_above_ground) / tan(α_cutoff)
@@ -195,9 +195,9 @@ D = (H_overhang - H_sill_above_ground) / tan(α_cutoff)
 D = H_shade / tan(α_cutoff)
 where H_shade = height of window portion to be shaded
 
-### 4.2 Overhang Depth by Latitude — South-Facing Window (NH)
+### 4.2 按纬度确定挑檐深度——南向窗（北半球）
 
-Design condition: full shading at summer solstice noon. Window height 1.8 m, overhang at window head.
+设计条件：夏至正午完全遮阳。窗高 1.8 m，挑檐位于窗顶。
 
 | Latitude | Solstice Noon Alt. | Required D (m) | D/H Ratio |
 |---|---|---|---|
@@ -213,9 +213,9 @@ Design condition: full shading at summer solstice noon. Window height 1.8 m, ove
 
 **Note:** At latitudes 20-25°, the near-vertical sun requires minimal south-facing overhang, but east/west facades need deep protection. At latitudes > 50°, south-facing overhangs become very deep and may be impractical — combined strategies needed.
 
-### 4.3 Overhang Sizing for Non-South Orientations
+### 4.3 非南向朝向的挑檐尺寸
 
-South-facing overhangs are effective because the sun is high when facing the facade. For east and west facades, the sun is low and oblique, making horizontal overhangs ineffective alone.
+南向挑檐有效，因为面向南立面时太阳高度较高。东西立面太阳高度低且斜射，单独采用水平挑檐效果有限。
 
 **East/West Facade Shading Strategy:**
 - Vertical fins perpendicular to facade
@@ -228,47 +228,47 @@ South-facing overhangs are effective because the sun is high when facing the fac
 - Combined horizontal overhang + angled vertical fins
 - Exterior venetian blinds with automated angle adjustment
 
-### 4.4 Shadow Length and Area Calculations
+### 4.4 阴影长度与面积计算
 
 **Shadow Length of Vertical Object:**
 L_shadow = H_object / tan(α_s)
 
-Where L_shadow = length of shadow on horizontal ground, H_object = height of object, α_s = solar altitude.
+其中 L_shadow = 水平地面上的阴影长度；H_object = 物体高度；α_s = 太阳高度角。
 
 **Shadow Direction:** Shadow falls directly opposite the solar azimuth (azimuth + 180°).
 
 **Shadow of Horizontal Overhang on Vertical Wall:**
-Vertical shadow drop below overhang = D × tan(α_profile)
+挑檐下方的垂直阴影落差 = D × tan(α_profile)
 
-Where:
+其中：
 α_profile = profile angle = arctan(tan(α_s) / cos(γ_wall))
 γ_wall = azimuth angle between sun and wall normal
 
 **Profile Angle:** The apparent solar altitude when viewed in the plane perpendicular to the wall surface. Critical for overhang design because it accounts for oblique sun angles.
 
-### 4.5 Shading Coefficient Calculation
+### 4.5 遮阳系数计算
 
 **Shading fraction (SF)** of a horizontal overhang on a vertical window at a given time:
 
-If profile angle > cutoff angle: SF = 1.0 (fully shaded)
-If profile angle < 0: SF = 0.0 (sun behind wall)
-Otherwise: SF = D × tan(α_profile) / H_window
+若剖面角 > 截止角：SF = 1.0（完全遮阳）
+若剖面角 < 0：SF = 0.0（太阳位于墙体背后）
+否则：SF = D × tan(α_profile) / H_window
 
-Where H_window = window height below overhang.
+其中 H_window = 挑檐下方的窗高。
 
 **Annual shading fraction:** Integrate hourly SF values over occupied hours weighted by incident solar radiation.
 
 ---
 
-## 5. Shading Mask Construction
+## 5. 遮阳掩模构建
 
-### 5.1 Purpose
+### 5.1 目的
 
-A shading mask (or shadow angle protractor overlay) shows the angular range of sky blocked by a shading device when overlaid on a sun path diagram. If the sun path falls within the shaded region, the window is shaded at that time.
+遮阳掩模（或阴影角量角器叠图）叠加在日照路径图上时，可显示遮阳装置阻挡的天空角度范围。如果太阳路径落在遮蔽区域内，则该时刻窗户处于遮阳状态。
 
-### 5.2 Horizontal Overhang Mask
+### 5.2 水平挑檐掩模
 
-A horizontal overhang produces a **segmental mask** — a curved band across the upper portion of the sun path diagram.
+水平挑檐产生**弧段掩模**——横跨日照路径图上部的弯曲带状区域。
 
 **Construction:**
 1. Calculate the profile cutoff angle: β = arctan(H_sill / D_overhang)
@@ -277,9 +277,9 @@ A horizontal overhang produces a **segmental mask** — a curved band across the
 
 **Width of mask:** Determined by the lateral extent of the overhang. If overhang extends infinitely, mask spans full azimuth range. If finite width, mask is bounded by azimuth angles defined by the overhang edges.
 
-### 5.3 Vertical Fin Mask
+### 5.3 垂直翼片掩模
 
-Vertical fins produce a **radial mask** — wedge-shaped sectors emanating from the center.
+垂直翼片产生**径向掩模**——从中心向外辐射的楔形扇区。
 
 **Construction:**
 1. Calculate the horizontal cutoff angle: η = arctan(S_gap / D_fin)
@@ -287,11 +287,11 @@ Vertical fins produce a **radial mask** — wedge-shaped sectors emanating from 
 2. On sun path diagram, draw radial lines at azimuth = ±η from the facade normal
 3. The area outside these radial lines (more oblique angles) represents shaded times
 
-### 5.4 Egg-Crate Mask
+### 5.4 格栅式掩模
 
-Combination of segmental (overhang) and radial (fin) masks. The shaded region is the intersection of both.
+弧段（挑檐）与径向（翼片）掩模的组合，遮蔽区域为两者的交集。
 
-### 5.5 Software Tools for Shading Analysis
+### 5.5 遮阳分析软件工具
 
 - **Ladybug Tools (Grasshopper):** SunPath, ShadingMask, and SunlightHours components
 - **Climate Consultant:** Built-in sun path with shading mask overlay
@@ -305,9 +305,9 @@ Combination of segmental (overhang) and radial (fin) masks. The shaded region is
 
 ## 6. Equinox and Solstice Analysis Methods
 
-### 6.1 Shadow Study Protocol
+### 6.1 阴影研究流程
 
-Standard architectural shadow studies examine building massing and shading effects at critical dates and times.
+标准建筑阴影研究在关键日期和时刻检查建筑体量及遮阳影响。
 
 **Standard Dates:**
 1. **Winter Solstice (December 21 NH):** Longest shadows; worst-case for solar access to adjacent properties; critical for rights-to-light analysis
@@ -319,7 +319,7 @@ Standard architectural shadow studies examine building massing and shading effec
 - 9 AM, 12 PM (noon), 3 PM solar time (minimum three-point analysis)
 - Full hourly analysis from sunrise to sunset for detailed studies
 
-### 6.2 Rights-to-Light and Solar Access
+### 6.2 采光权与日照可达性
 
 **UK Rights to Light (Waldram Diagram Method):**
 - Statutory right under Prescription Act 1832 (20+ years of uninterrupted daylight)
@@ -336,9 +336,9 @@ Standard architectural shadow studies examine building massing and shading effec
 - BRE Guide: at least 50% of amenity area should receive ≥ 2 hours of direct sunlight on March 21
 - PAN (Scotland): living rooms should receive ≥ 3 hours of sunlight on equinox
 
-### 6.3 Solar Envelope Method
+### 6.3 太阳包络法
 
-Developed by Ralph Knowles (USC). Defines the maximum buildable volume on a site that will not overshadow adjacent properties beyond specified limits.
+由 Ralph Knowles（USC）发展，用于定义场地上不会超过规定限值遮挡相邻物业的最大可建体量。
 
 **Construction:**
 1. Define solar access criteria (e.g., 4 hours of direct sun on adjacent facades on winter solstice)
@@ -348,7 +348,7 @@ Developed by Ralph Knowles (USC). Defines the maximum buildable volume on a site
 
 **Applications:** Zoning regulations in solar-access-protected districts; passive solar community design; daylighting master plans.
 
-### 6.4 Heliodon and Digital Shadow Studies
+### 6.4 日照仪与数字阴影研究
 
 **Physical Heliodon:** Adjustable light source + tilting table that simulates sun position for any latitude, date, and time on architectural models. Used for qualitative light quality assessment.
 
@@ -360,56 +360,56 @@ Developed by Ralph Knowles (USC). Defines the maximum buildable volume on a site
 
 ---
 
-## 7. Advanced Solar Geometry Applications
+## 7. 太阳几何高级应用
 
-### 7.1 Facade Orientation Optimization
+### 7.1 立面朝向优化
 
-**Annual Solar Radiation by Orientation (latitude 45°N, kWh/m²/year):**
+**按朝向划分的年太阳辐射（纬度45°N，kWh/m²/年）：**
 
-| Orientation | Total Radiation | Direct (Beam) | Diffuse |
+| 朝向 | 总辐射 | 直射（光束） | 漫射 |
 |---|---|---|---|
-| Horizontal (roof) | 1,250 | 780 | 470 |
-| South (vertical) | 880 | 590 | 290 |
-| East (vertical) | 640 | 370 | 270 |
-| West (vertical) | 640 | 370 | 270 |
-| North (vertical) | 360 | 70 | 290 |
-| South tilted 45° | 1,180 | 810 | 370 |
+| 水平（屋面） | 1,250 | 780 | 470 |
+| 南（垂直） | 880 | 590 | 290 |
+| 东（垂直） | 640 | 370 | 270 |
+| 西（垂直） | 640 | 370 | 270 |
+| 北（垂直） | 360 | 70 | 290 |
+| 向南倾斜45° | 1,180 | 810 | 370 |
 
-**Optimal Building Orientation:** Long axis within ±15° of east-west for maximum south-facing area and minimum east/west exposure. Deviation up to ±30° acceptable with 5-10% performance loss.
+**最佳建筑朝向：**长轴宜位于东西向±15°以内，以最大化南向面积并最小化东西向暴露。偏差至±30°时仍可接受，但性能损失约5-10%。
 
-### 7.2 Passive Solar Heating Window Sizing
+### 7.2 被动太阳能供暖窗尺寸
 
-**South-facing glass area for passive solar heating (latitude 45°N):**
-- Net solar gain per m² of south glazing: 200-350 kWh/year (double low-e, argon)
-- Heat loss per m² of south glazing: 80-150 kWh/year (depending on U-value and climate)
-- Net benefit: 100-250 kWh/m²/year
-- Optimal south glazing: 25-50% of south wall area (diminishing returns above 40% due to overheating risk)
+**被动太阳能供暖的南向玻璃面积（纬度45°N）：**
+- 南向玻璃每m²净太阳得热：200-350 kWh/年（低辐射双层、氩气）
+- 南向玻璃每m²热损失：80-150 kWh/年（取决于U值和气候）
+- 净收益：100-250 kWh/m²/年
+- 最佳南向玻璃比例：南墙面积的25-50%（超过40%后因过热风险收益递减）
 
-### 7.3 Photovoltaic Panel Orientation
+### 7.3 光伏板朝向
 
-**Optimal tilt angle for annual maximum yield:** Approximately equal to latitude (±5°) for fixed panels.
-- Latitude 30°: optimal tilt 25-35°
-- Latitude 45°: optimal tilt 35-45°
-- Latitude 60°: optimal tilt 50-60°
+**年发电量最大化的最佳倾角：**固定光伏板约等于当地纬度（±5°）。
+- 纬度30°：最佳倾角25-35°
+- 纬度45°：最佳倾角35-45°
+- 纬度60°：最佳倾角50-60°
 
-**Azimuth:** Due south (NH) or due north (SH). Deviation ±30° loses < 5% annual yield. East/west-facing vertical panels useful for morning/evening peak demand alignment.
+**方位角：**北半球正南，南半球正北。偏差±30°时年发电量损失<5%。东西向垂直板适合与早晚峰值需求匹配。
 
-### 7.4 Sundial and Shadow Clock Principles
+### 7.4 日晷与影钟原理
 
-Solar time can be read from shadow position:
+可根据阴影位置读取太阳时：
 - **Hour angle to time:** Each 15° of hour angle = 1 hour. Shadow rotates clockwise (NH) at 15°/hour.
 - **Analemma:** Figure-8 pattern traced by sun at same clock time over the year; caused by combined effects of orbital eccentricity and axial tilt.
 - **Architectural sundials:** Can be integrated into building facades and ground planes as functional art (e.g., sundial gardens, gnomon walls).
 
 ---
 
-## 8. Quick Reference Formulas
+## 8. 公式速查
 
-| Parameter | Formula |
+| 参数 | 公式 |
 |---|---|
-| Solar declination | δ = 23.45° × sin(360° × (284+n)/365) |
-| Solar altitude (general) | sin(α) = sin(φ)sin(δ) + cos(φ)cos(δ)cos(ω) |
-| Solar altitude at noon | α_noon = 90° - \|φ - δ\| |
+| 太阳赤纬 | δ = 23.45° × sin(360° × (284+n)/365) |
+| 太阳高度角（通用） | sin(α) = sin(φ)sin(δ) + cos(φ)cos(δ)cos(ω) |
+| 正午太阳高度角 | α_noon = 90° - \|φ - δ\| |
 | Hour angle | ω = 15° × (solar time - 12) |
 | Solar azimuth | cos(γ) = [sin(α)sin(φ) - sin(δ)] / [cos(α)cos(φ)] |
 | Overhang depth | D = H / tan(α_cutoff) |

@@ -1,200 +1,199 @@
-# Structural Typologies: Comprehensive Reference
+# 结构类型：综合参考
 
-## 1. Load-Bearing Masonry
+## 1. 承重砌体
 
-### 1.1 System Description
-Load-bearing masonry relies on walls (brick, block, or stone) to carry both gravity loads and lateral forces. The floor structure spans between parallel walls, typically in a crosswall configuration for residential buildings.
+### 1.1 体系说明
+承重砌体依靠墙体（砖、砌块或石材）承担重力荷载和侧向力。楼盖结构跨接于平行墙体之间，住宅建筑通常采用横墙承重布置。
 
-### 1.2 Sub-Types
-- **Unreinforced masonry (URM)**: Traditional construction. Limited to low-rise (3-6 storeys depending on code). Not suitable for seismic zones.
-- **Reinforced masonry**: Hollow block with grouted reinforcement. Suitable for moderate seismic zones. Up to 10 storeys.
-- **Confined masonry**: Masonry walls with RC tie-columns and tie-beams at edges and intersections. Common in Latin America, Southern Europe, Asia. Good seismic performance.
-- **Thin-joint masonry**: Precision-cut blocks with 2-3mm adhesive joints (vs 10mm mortar). Faster construction, better thermal performance.
+### 1.2 子类型
+- **无筋砌体（URM）：**传统构造。限用于低层建筑（根据规范为3-6层）。不适用于地震区。
+- **配筋砌体：**在空心砌块中灌注砂浆并设置钢筋。适用于中等地震区，最高可达10层。
+- **约束砌体：**在墙边缘和交接处设置钢筋混凝土构造柱与圈梁。常见于拉丁美洲、南欧和亚洲，抗震性能良好。
+- **薄层砌体：**采用精确切割砌块和2-3mm胶粘接缝（普通砂浆缝为10mm）。施工更快，热工性能更好。
 
-### 1.3 Span Ranges and Member Sizes
-| Element | Span/Dimension | Typical Sizes |
+### 1.3 跨度范围与构件尺寸
+| 构件 | 跨度／尺寸 | 典型尺寸 |
 |---|---|---|
-| External wall (cavity) | — | 102.5mm outer leaf + 100mm cavity + 140mm inner leaf = 342.5mm |
-| Internal load-bearing wall | — | 140-215mm (block); 215mm (brick) |
-| Party wall (crosswall) | — | 215mm solid block (achieves 60 dB Rw with plaster) |
-| Lintel | 0.9-3.6m | Precast concrete: 100x150mm to 140x215mm; steel angle: 100x65x8mm to 200x150x12mm |
-| Floor span between walls | 4.0-7.5m | Using RC slab, precast plank, or timber joists |
+| 外墙（夹腔） | — | 102.5mm 外叶 + 100mm 夹腔 + 140mm 内叶 = 342.5mm |
+| 内承重墙 | — | 140–215mm（砌块）；215mm（砖） |
+| 分户墙（横墙） | — | 215mm 实心砌块（抹灰后达到 60 dB Rw） |
+| 过梁 | 0.9–3.6m | 预制混凝土：100×150mm 至 140×215mm；角钢：100×65×8mm 至 200×150×12mm |
+| 墙间楼板跨度 | 4.0–7.5m | 采用钢筋混凝土板、预制板或木搁栅 |
 
-### 1.4 Connection Types
-- **Wall-to-foundation**: Mortar bed on DPC on foundation wall/strip footing
-- **Wall-to-floor**: Bearing (minimum 90mm); or joist hangers into masonry
-- **Wall-to-wall intersection**: Bonded (toothed) or tied (stainless steel ties at 450mm vertical centres)
-- **Wall-to-roof**: Strapped connection for uplift resistance (30x5mm galvanised steel straps at 2.0m centres)
+### 1.4 连接类型
+- **墙—基础：**基础墙／条形基础上的 DPC 防潮层和砂浆座浆
+- **墙—楼板：**支承（最小 90mm），或通过搁栅挂件连接至砌体
+- **墙—墙交接：**咬槎砌筑或拉结（竖向中心距 450mm 的不锈钢拉结件）
+- **墙—屋面：**采用带状连接抵抗上拔（30×5mm 镀锌钢带，中心距 2.0m）
 
-### 1.5 Fire Strategy
-Masonry has inherent fire resistance. A 100mm solid concrete block wall achieves 120 minutes fire resistance (load-bearing). A 215mm solid brick wall achieves 240+ minutes. No additional fire protection required.
+### 1.5 防火策略
+砌体具有固有耐火性能。100mm厚实心混凝土砌块墙（承重）可达到120分钟耐火极限；215mm厚实心砖墙可达到240分钟以上。无需额外防火保护。
 
-### 1.6 Embodied Carbon
-- Dense concrete block: 70-95 kgCO2e/m² of wall
-- Lightweight aggregate block: 40-65 kgCO2e/m² of wall
-- Fired clay brick: 80-120 kgCO2e/m² of wall
-- Mortar: 20-30 kgCO2e/m² of wall
-- Total structure (walls + floors): 150-280 kgCO2e/m² GFA
+### 1.6 隐含碳
+- 密实混凝土砌块：70–95 kgCO2e/m² 墙面
+- 轻骨料砌块：40–65 kgCO2e/m² 墙面
+- 烧结黏土砖：80–120 kgCO2e/m² 墙面
+- 砂浆：20–30 kgCO2e/m² 墙面
+- 总结构（墙 + 楼板）：150–280 kgCO2e/m² GFA
 
-### 1.7 Cost Comparison
-80-140 $/m² of floor area (structure). Lower than framed construction for buildings up to 6 storeys. Cost advantage increases with repetition and simplicity of plan.
+### 1.7 成本比较
+结构成本为80-140 $/m²楼面面积。对于最高6层的建筑，成本低于框架结构。平面越重复、越简单，成本优势越明显。
 
-### 1.8 Exemplar Buildings
-- **Monadnock Building, Chicago (1891)**: 17-storey URM, 1.8m thick walls at base — the practical limit of load-bearing masonry height
-- **Park Hill, Sheffield (1961)**: Crosswall construction, streets in the sky, 13 storeys
-- **Accordia Housing, Cambridge (2008)**: Modern thin-joint masonry, 4 storeys, RIBA Stirling Prize
-- **Bear Lane, London (2022)**: 6-storey load-bearing masonry with CLT floors, low-carbon
+### 1.8 代表性建筑
+- **芝加哥 Monadnock Building（1891）：**17 层无筋砌体，底部墙厚 1.8m，是承重砌体高度的实际极限
+- **谢菲尔德 Park Hill（1961）：**横墙承重，“空中街道”，13 层
+- **剑桥 Accordia Housing（2008）：**现代薄缝砌体，4 层，获 RIBA 斯特林奖
+- **伦敦 Bear Lane（2022）：**6 层承重砌体配 CLT 楼板，低碳
 
 ---
 
-## 2. Reinforced Concrete Frame — Flat Slab
+## 2. 钢筋混凝土框架——无梁楼板
 
-### 2.1 System Description
-Flat slabs span directly between columns without beams. The simplest RC frame system and the most common for buildings up to 10 storeys. Slab thickness provides fire resistance and acoustic separation. Flat soffit allows maximum flexibility for services routing.
+### 2.1 体系说明
+无梁楼板不设梁，直接跨接于柱之间。它是最简单的钢筋混凝土框架体系，也是最高约10层建筑中最常见的形式。楼板厚度提供耐火和隔声性能，平整底面可最大限度提高设备管线布置的灵活性。
 
-### 2.2 Span Ranges and Member Sizes
-| Element | Span Range | Typical Sizes |
+### 2.2 跨度范围与构件尺寸
+| 构件 | 跨度范围 | 典型尺寸 |
 |---|---|---|
-| Flat slab (RC) | 6-9m | 250mm (6m span), 300mm (7.5m), 350mm (9m) |
-| Flat slab (PT) | 8-13m | 225mm (8m span), 275mm (10m), 325mm (12m) |
-| Drop panel | — | 1.5-2.5m square, 50-100mm deeper than slab |
-| Column (interior) | — | 300x300mm (low-rise) to 600x600mm (10+ storeys) |
-| Column (edge/corner) | — | Larger than interior due to unbalanced moments |
+| 无梁楼板（钢筋混凝土） | 6–9m | 250mm（6m 跨）、300mm（7.5m）、350mm（9m） |
+| 无梁楼板（后张） | 8–13m | 225mm（8m 跨）、275mm（10m）、325mm（12m） |
+| 柱帽板 | — | 1.5–2.5m 方形，比楼板深 50–100mm |
+| 柱（中柱） | — | 300×300mm（低层）至 600×600mm（10 层以上） |
+| 柱（边柱／角柱） | — | 因不平衡弯矩大于中柱 |
 
-### 2.3 Connection Types
-- **Slab-to-column**: Punching shear is the critical failure mode. Shear studs, shear links, or drop panels used to prevent brittle failure. Minimum column size for punching shear: typically 300x300mm.
-- **Slab-to-core wall**: Cast monolithically. Slab reinforcement anchored into wall.
+### 2.3 连接类型
+- **楼板—柱：**冲切剪切是关键破坏模式。采用抗剪栓钉、抗剪箍筋或柱帽板防止脆性破坏。抗冲切所需柱的最小尺寸通常为 300×300 mm。
+- **楼板—核心筒墙：**整体浇筑，楼板钢筋锚入墙体。
 
-### 2.4 Fire Strategy
-Cover to reinforcement provides inherent fire resistance:
+### 2.4 防火策略
+钢筋保护层提供固有耐火性能：
 - 20mm cover → 30 min
 - 25mm cover → 60 min
 - 35mm cover → 90 min
 - 45mm cover → 120 min
-Minimum slab thickness: 150mm (60 min), 170mm (90 min), 200mm (120 min)
+楼板最小厚度：150 mm（60 分钟）、170 mm（90 分钟）、200 mm（120 分钟）
 
-### 2.5 Exemplar Buildings
-- **Barbican Estate, London (1969-76)**: Flat slab construction, brutalist expression
-- **One Kemble Street, London (1966)**: Coffered flat slab with expressed structure
-- **Peckham Library, London (2000)**: Cantilevered flat slab, RIBA Stirling Prize
+### 2.5 代表性建筑
+- **伦敦 Barbican Estate（1969–76）：**无梁楼板构造，粗野主义表达
+- **伦敦 One Kemble Street（1966）：**格构式无梁楼板，结构表达清晰
+- **伦敦 Peckham Library（2000）：**悬挑无梁楼板，获 RIBA 斯特林奖
 
 ---
 
-## 3. Reinforced Concrete Frame — Beam-Slab
+## 3. 钢筋混凝土框架——梁板结构
 
-### 3.1 System Description
-Beams span between columns, supporting a thinner one-way or two-way slab. Deeper overall than flat slab but more material-efficient for longer spans. Beam depth limits services routing — services must pass below or through beams.
+### 3.1 体系说明
+梁跨接于柱之间，支承较薄的单向或双向楼板。整体比无梁楼板更深，但在较大跨度下材料效率更高。梁高限制设备管线布置，管线必须从梁下方或梁腹穿过。
 
-### 3.2 Span Ranges and Member Sizes
-| Element | Span Range | Typical Sizes |
+### 3.2 跨度范围与构件尺寸
+| 构件 | 跨度范围 | 典型尺寸 |
 |---|---|---|
-| Slab (one-way, simply supported) | 3-6m (between beams) | 150-200mm |
-| Slab (two-way) | 4-8m | 175-250mm |
-| Beam (simply supported) | 6-12m | 300x500mm to 400x900mm |
-| Beam (continuous) | 8-15m | 300x450mm to 500x800mm |
-| Band beam (wide shallow) | 8-12m | 1200x350mm to 2000x500mm |
+| 楼板（单向、简支） | 3-6m（梁间） | 150-200mm |
+| 楼板（双向） | 4-8m | 175-250mm |
+| 梁（简支） | 6-12m | 300x500mm至400x900mm |
+| 梁（连续） | 8–15m | 300×450mm 至 500×800mm |
+| 带状梁（宽扁梁） | 8-12m | 1200x350mm至2000x500mm |
 
-### 3.3 Exemplar Buildings
-- **National Theatre, London (1976)**: Expressed RC beams and board-marked concrete
-- **Salk Institute, La Jolla (1965)**: Post-tensioned beam-and-slab with service interstitial floors
-- **TWA Flight Center, JFK (1962)**: Sculptural RC shell and beam structure
+### 3.3 代表性建筑
+- **伦敦国家剧院（1976）：**外露钢筋混凝土梁和清水模板混凝土
+- **拉霍亚 Salk Institute（1965）：**后张梁板结构，设设备夹层
+- **JFK TWA Flight Center（1962）：**雕塑性钢筋混凝土壳体和梁结构
 
 ---
 
-## 4. Reinforced Concrete Frame — Waffle Slab
+## 4. 钢筋混凝土框架——密肋楼板
 
-### 4.1 System Description
-A two-way ribbed slab formed using reusable dome or trough moulds. The ribs create a waffle pattern on the soffit — architecturally distinctive when exposed. Efficient for spans of 9-16m. Ribs are typically 125-200mm wide at 600-1500mm centres with 75-125mm topping slab.
+### 4.1 体系说明
+采用可重复使用的穹顶或槽形模板形成双向肋楼板。肋条在底面形成蜂窝状图案，外露时具有鲜明的建筑特征。适用于9-16m跨度。肋宽通常为125-200mm，中心间距600-1500mm，顶部面层厚75-125mm。
 
-### 4.2 Span Ranges and Member Sizes
-| Element | Span Range | Typical Sizes |
+### 4.2 跨度范围与构件尺寸
+| 构件 | 跨度范围 | 典型尺寸 |
 |---|---|---|
-| Waffle slab | 9-16m | 325mm overall (9m span) to 500mm overall (16m span) |
-| Rib width | — | 125-200mm |
-| Rib spacing | — | 600mm, 900mm, or 1200mm centres |
-| Topping slab | — | 75-125mm |
-| Solid zone at columns | — | 1.5-2.5m square for punching shear |
+| 密肋楼板 | 9–16m | 总厚 325mm（9m 跨）至总厚 500mm（16m 跨） |
+| 肋宽 | — | 125–200mm |
+| 肋间距 | — | 中心距 600mm、900mm 或 1200mm |
+| 柱边实心区 | — | 1.5–2.5m 方形，用于抗冲切 |
 
-### 4.3 Exemplar Buildings
-- **Palazzetto dello Sport, Rome (1957) — Pier Luigi Nervi**: Ribbed dome, 60m diameter
-- **Yale Art Gallery, New Haven (1953) — Louis Kahn**: Tetrahedral waffle ceiling
-- **Scottish Parliament, Edinburgh (2004)**: Waffle slabs in debating chamber roof
+### 4.3 代表性建筑
+- **罗马 Palazzetto dello Sport（1957）——Pier Luigi Nervi：**肋拱穹顶，直径 60m
+- **纽黑文 Yale Art Gallery（1953）——Louis Kahn：**四面体密肋天花
+- **爱丁堡苏格兰议会（2004）：**辩论厅屋面采用密肋楼板
 
 ---
 
-## 5. Steel Frame — Moment Frame
+## 5. 钢框架——刚架
 
-### 5.1 System Description
-Rigid connections between steel beams and columns resist both gravity and lateral loads. No bracing or shear walls needed — maximum planning freedom. But connections are expensive and members are larger than in braced or composite alternatives.
+### 5.1 体系说明
+钢梁与钢柱之间的刚性连接同时抵抗重力荷载和侧向荷载。无需支撑或剪力墙，可获得最大的平面规划自由度。但连接成本较高，构件尺寸也大于支撑框架或组合结构方案。
 
-### 5.2 Span Ranges and Member Sizes
-| Element | Span Range | Typical Sizes |
+### 5.2 跨度范围与构件尺寸
+| 构件 | 跨度范围 | 典型尺寸 |
 |---|---|---|
-| Beam (UB) | 6-15m | 305x165UB40 to 762x267UB197 |
-| Column (UC) | storey height | 254x254UC89 to 356x406UC634 |
-| Connection | — | Extended end-plate, haunched end-plate, or welded flange |
+| 梁（UB） | 6–15m | 305×165UB40 至 762×267UB197 |
+| 柱（UC） | 层高 | 254×254UC89 至 356×406UC634 |
+| 连接 | — | 加长端板、加腋端板或焊接翼缘 |
 
-### 5.3 Exemplar Buildings
-- **Farnsworth House, Plano (1951)**: Pure moment frame in miniature, 8x23m
-- **Crown Hall, IIT Chicago (1956)**: Moment frame, 36.6m clear span roof beams
-- **Seagram Building, New York (1958)**: Moment frame with bronze-clad mullions
+### 5.3 代表性建筑
+- **Plano Farnsworth House（1951）：**微型纯刚架，8×23m
+- **芝加哥 IIT Crown Hall（1956）：**刚架，屋面梁净跨 36.6 m
+- **纽约 Seagram Building（1958）：**刚架，青铜包覆竖梃
 
 ---
 
-## 6. Steel Frame — Braced Frame
+## 6. 钢框架——支撑框架
 
-### 6.1 System Description
-Diagonal bracing members in selected bays provide lateral stability, allowing the rest of the frame to be simple construction (pin connections). Much more economical than moment frame. Bracing can be expressed architecturally or concealed in walls/cores.
+### 6.1 体系说明
+在选定跨间设置斜向支撑构件提供侧向稳定，使框架其余部分可采用简单构造（铰接）。其经济性远高于刚架。支撑可作为建筑表达外露，也可隐藏在墙体或核心筒中。
 
-### 6.2 Bracing Configurations
-| Type | Description | Pros | Cons |
+### 6.2 支撑布置形式
+| 类型 | 说明 | 优点 | 缺点 |
 |---|---|---|---|
-| X-bracing | Diagonals cross in X | Most efficient | Blocks opening in bay |
-| V-bracing (chevron) | Diagonals meet at mid-beam | Allows opening below | Mid-beam requires design for unbalanced forces |
-| Inverted-V | Diagonals from base to mid-beam | Allows door at base | As above |
-| K-bracing | Diagonals meet at mid-column | — | PROHIBITED in seismic design (progressive collapse) |
-| Eccentric bracing | Short ductile link between brace and beam | Excellent seismic performance | Requires specialist design |
+| X 形支撑 | 斜杆交叉成 X 形 | 效率最高 | 阻挡支撑跨开口 |
+| V 形支撑（人字形） | 斜杆在梁中部相交 | 下方可设开口 | 中梁需按不平衡力设计 |
+| 倒 V 形 | 斜杆从柱脚汇至梁中部 | 柱脚可设门 | 同上 |
+| K 形支撑 | 斜杆在柱中部相交 | — | 地震设计中禁止（连续倒塌） |
+| 偏心支撑 | 支撑与梁之间设置短延性连梁 | 抗震性能优良 | 需要专项设计 |
 
-### 6.3 Typical Member Sizes (Bracing)
-- Low-rise (3-6 storeys): 150x150x8 SHS to 200x200x10 SHS
-- Mid-rise (6-15 storeys): 200x200x10 SHS to 300x300x16 SHS
-- High-rise (15+ storeys): 250x250x12 SHS to 400x400x20 SHS
+### 6.3 典型构件尺寸（支撑）
+- 低层（3–6 层）：150×150×8 SHS 至 200×200×10 SHS
+- 中层（6–15 层）：200×200×10 SHS 至 300×300×16 SHS
+- 高层（15 层以上）：250×250×12 SHS 至 400×400×20 SHS
 
-### 6.4 Exemplar Buildings
-- **John Hancock Center, Chicago (1969)**: External X-bracing, 100 storeys, 344m
-- **30 St Mary Axe "The Gherkin", London (2004)**: Diagrid external bracing
-- **Hearst Tower, New York (2006)**: Diagrid steel frame over historic masonry base
+### 6.4 代表性建筑
+- **芝加哥约翰·汉考克中心（1969）：**外部X形支撑，100层，344 m
+- **伦敦30 St Mary Axe“黄瓜大楼”（2004）：**外部网格支撑
+- **纽约赫斯特大厦（2006）：**历史砌体基座上的钢结构网格筒体
 
 ---
 
-## 7. Steel Frame — Composite Construction
+## 7. 钢框架——组合结构
 
-### 7.1 System Description
-Steel beams act compositely with a concrete slab (usually on profiled metal deck) via shear studs welded to the top flange. The composite action increases beam stiffness and strength by 30-50%, allowing shallower or lighter beams.
+### 7.1 体系说明
+钢梁通过焊接于上翼缘的抗剪栓钉与混凝土楼板（通常位于压型钢板上）形成组合受力。组合效应可使梁的刚度和强度提高30-50%，从而采用更浅或更轻的梁。
 
-### 7.2 Span Ranges and Member Sizes
-| Element | Span Range | Typical Sizes |
+### 7.2 跨度范围与构件尺寸
+| 构件 | 跨度范围 | 典型尺寸 |
 |---|---|---|
-| Composite beam (secondary) | 6-12m | 305x165UB40 to 533x210UB82 |
-| Composite beam (primary) | 6-9m | 356x171UB45 to 610x229UB101 |
-| Metal deck slab | 2.7-3.6m (unpropped) | 130-170mm total depth (51-80mm deck + concrete topping) |
-| Slim-floor / ASB | 6-9m | 280-350mm ASB section with precast planks |
-| Cellular beam (composite) | 9-18m | 500-800mm deep with 200-400mm web openings |
+| 组合梁（次梁） | 6–12m | 305×165UB40 至 533×210UB82 |
+| 组合梁（主梁） | 6–9m | 356×171UB45 至 610×229UB101 |
+| 金属楼承板 | 2.7–3.6m（无支撑） | 总厚 130–170mm（51–80mm 楼承板 + 混凝土面层） |
+| 薄楼板／ASB | 6–9m | 280–350mm ASB 截面配预制板 |
+| 空腹组合梁 | 9–18m | 深 500–800mm，腹板开孔 200–400mm |
 
-### 7.3 Exemplar Buildings
-- **22 Bishopsgate, London (2020)**: 62 storeys, composite frame, 278m
-- **Heron Tower, London (2011)**: Composite frame with expressed mega-structure
-- **One Angel Court, London (2017)**: Long-span cellular composite beams, 16.5m spans
+### 7.3 代表性建筑
+- **伦敦 22 Bishopsgate（2020）：**62 层组合框架，高 278m
+- **伦敦Heron Tower（2011）：**外露巨型结构的组合框架
+- **伦敦One Angel Court（2017）：**大跨度蜂窝组合梁，跨度16.5 m
 
 ---
 
-## 8. Precast Concrete — Hollowcore Plank
+## 8. 预制混凝土——空心板
 
-### 8.1 System Description
-Factory-produced, pre-stressed concrete planks with longitudinal voids to reduce self-weight. Standard widths of 1200mm, depths from 150mm to 500mm. The workhorse of precast construction.
+### 8.1 体系说明
+工厂生产的预应力混凝土板，设纵向孔洞以减轻自重。标准宽度为1200mm，厚度150-500mm，是预制结构中最常用的构件。
 
-### 8.2 Span Ranges
-| Depth | Max Span (imposed load 2.5 kN/m²) | Max Span (imposed load 5.0 kN/m²) |
+### 8.2 跨度范围
+| 厚度 | 最大跨度（可变荷载 2.5 kN/m²） | 最大跨度（可变荷载 5.0 kN/m²） |
 |---|---|---|
 | 150mm | 6.5m | 5.5m |
 | 200mm | 9.5m | 8.0m |
@@ -202,185 +201,185 @@ Factory-produced, pre-stressed concrete planks with longitudinal voids to reduce
 | 300mm | 13.0m | 11.5m |
 | 400mm | 16.0m | 14.0m |
 
-### 8.3 Exemplar Buildings
-- **De Rotterdam, Rotterdam (2013)**: Precast hollowcore on steel/concrete frame, 162,000m²
-- **Thamesmead Housing, London (1968-72)**: System-built precast concrete panels and planks
-- **Balfron Tower, London (1967)**: Precast panel and frame construction, 27 storeys
+### 8.3 代表性建筑
+- **鹿特丹 De Rotterdam（2013）：**钢／混凝土框架上的预制空心板，162,000m²
+- **伦敦 Thamesmead Housing（1968–72）：**系统化预制混凝土板和楼板
+- **伦敦 Balfron Tower（1967）：**预制板和框架构造，27 层
 
 ---
 
-## 9. Precast Concrete — Double-Tee
+## 9. 预制混凝土——双T板
 
-### 9.1 System Description
-Large precast units with two ribs (stems) and a wide top flange. Efficient for long spans in car parks, retail, and industrial buildings. Standard widths 2.4m, depths 400-800mm.
+### 9.1 体系说明
+大型预制构件由两根肋和宽顶翼缘组成。在停车库、零售和工业建筑的大跨度应用中效率较高。标准宽度2.4m，厚度400-800mm。
 
-### 9.2 Span Ranges
-| Depth | Max Span (parking loads 2.5 kN/m²) | Max Span (retail loads 4.0 kN/m²) |
+### 9.2 跨度范围
+| 厚度 | 最大跨度（停车荷载 2.5 kN/m²） | 最大跨度（零售荷载 4.0 kN/m²） |
 |---|---|---|
 | 400mm | 15m | 12m |
 | 500mm | 18m | 15m |
 | 600mm | 21m | 18m |
 | 800mm | 25m | 21m |
 
-### 9.3 Exemplar Buildings
-- **Welbeck Street Car Park, London (1970)**: Precast double-tee with diagrid facade
-- **Miami Parking Garage, Miami (various)**: Standard double-tee construction
-- **Preston Bus Station, Lancashire (1969)**: Precast double-tee car park decks with sculptural facades
+### 9.3 代表性建筑
+- **伦敦Welbeck Street停车楼（1970）：**预制双T板与网格立面
+- **迈阿密 Miami Parking Garage（多个项目）：**标准双 T 板构造
+- **兰开夏 Preston Bus Station（1969）：**预制双 T 板停车楼面，配雕塑性立面
 
 ---
 
-## 10. Mass Timber — CLT Panels
+## 10. 工程木结构——CLT板
 
-### 10.1 System Description
-Cross-Laminated Timber (CLT) consists of layers of timber boards glued at right angles. Acts as a solid panel for walls and floors. Manufactured in panels up to 3.5m wide x 16m long x 400mm thick.
+### 10.1 体系说明
+交叉层压木材（CLT）由相互垂直胶合的多层木板组成，可作为墙体和楼板的实心板。可生产最大3.5m宽、16m长、400mm厚的板材。
 
-### 10.2 Span Ranges and Panel Sizes
-| Thickness (layers) | Thickness (mm) | Max Floor Span | Max Wall Height |
+### 10.2 跨度范围与板材尺寸
+| 厚度（层数） | 厚度（mm） | 最大楼板跨度 | 最大墙高 |
 |---|---|---|---|
-| 3-ply | 100 | 4.0m | Single storey |
-| 5-ply | 140-180 | 5.5-6.5m | 2-3 storeys |
-| 7-ply | 200-240 | 7.0-8.0m | 4-6 storeys |
-| 9-ply | 260-300 | 8.5m+ | 6+ storeys |
+| 3 层 | 100 | 4.0m | 单层 |
+| 5 层 | 140–180 | 5.5–6.5m | 2–3 层 |
+| 7 层 | 200–240 | 7.0–8.0m | 4–6 层 |
+| 9 层 | 260–300 | 8.5m 以上 | 6 层以上 |
 
-### 10.3 Connection Types
-- **Panel-to-panel (floor)**: Half-lap joint with self-tapping screws (8-12mm dia., 200-400mm long)
-- **Wall-to-floor**: Angle brackets (BMF 90, Simpson ABR) at 400-600mm centres
-- **Wall-to-foundation**: Hold-down anchors (Simpson HDU, Rothoblaas WHT) for uplift; shear brackets for sliding
-- **Moment connections**: Steel plates with dowels or self-tapping screws
+### 10.3 连接类型
+- **板—板（楼板）：**半搭接节点配自攻螺钉（直径 8–12mm，长度 200–400mm）
+- **墙—楼板：**角码（BMF 90、Simpson ABR），中心距 400–600mm
+- **墙—基础：**采用抗拔锚固件（Simpson HDU、Rothoblaas WHT）；采用抗剪角码抵抗滑移
+- **弯矩连接：**钢板配销钉或自攻螺钉
 
-### 10.4 Fire Strategy
-CLT chars at 0.65mm/min (softwood). Design approach: provide sacrificial timber layers beyond the structural requirement.
-- 60 min fire resistance: add 42mm sacrificial layer (0.65 x 60 x 1.1 factor = 42mm)
-- 90 min fire resistance: add 63mm sacrificial layer
-- Alternatively: encapsulate with 2x Type F plasterboard (2x15mm = 30mm) for 60 min protection
+### 10.4 防火策略
+CLT（针叶材）的炭化速率为0.65mm/min。设计方法是在结构要求之外设置牺牲木层。
+- 60分钟耐火：增加42mm牺牲层（0.65 x 60 x 1.1系数 = 42mm）
+- 90分钟耐火：增加63mm牺牲层
+- 或者：采用2层F型石膏板封包（2x15mm = 30mm），可提供60分钟保护
 
-### 10.5 Embodied Carbon
-- CLT panel: -600 to -800 kgCO2e/m³ (biogenic carbon sequestered)
-- Manufacturing: +50 to +100 kgCO2e/m³
-- Net: -500 to -700 kgCO2e/m³ (carbon-negative when biogenic carbon is counted)
-- Structure per m² GFA: 80-180 kgCO2e/m² (excluding biogenic carbon)
+### 10.5 隐含碳
+- CLT板：-600至-800 kgCO2e/m³（封存的生物源碳）
+- 制造：+50至+100 kgCO2e/m³
+- 净值：-500至-700 kgCO2e/m³（计入生物源碳时为负碳）
+- 每m²总建筑面积的结构：80-180 kgCO2e/m²（不含生物源碳）
 
-### 10.6 Exemplar Buildings
-- **Dalston Works, London (2017)**: 10-storey CLT, 121 apartments, tallest CLT building in UK at time
-- **Stadthaus, London (2009)**: 9-storey CLT residential, pioneering tall timber
-- **Framework, Portland (2024)**: 12-storey CLT and glulam, first tall timber in US
+### 10.6 代表性建筑
+- **伦敦 Dalston Works（2017）：**10 层 CLT，121 套公寓，当时英国最高的 CLT 建筑
+- **伦敦 Stadthaus（2009）：**9 层 CLT 住宅，高层木建筑先驱
+- **波特兰 Framework（2024）：**12 层 CLT 和胶合木，美国首座高层木建筑
 
 ---
 
-## 11. Mass Timber — Glulam Post-and-Beam
+## 11. 工程木结构——胶合木柱梁
 
-### 11.1 System Description
-Glued-laminated timber (glulam) beams and columns form a skeletal frame, with CLT or timber-concrete composite panels as floor decks. Allows larger spans and more architectural expression than CLT panel construction. Beams can be curved, tapered, or pitched.
+### 11.1 体系说明
+胶合木（glulam）梁柱组成骨架框架，CLT或木-混凝土组合板作为楼盖。相比CLT板式结构可实现更大跨度和更丰富的建筑表达。梁可做成曲线、变截面或变坡形式。
 
-### 11.2 Span Ranges and Member Sizes
-| Element | Span Range | Typical Sizes |
+### 11.2 跨度范围与构件尺寸
+| 构件 | 跨度范围 | 典型尺寸 |
 |---|---|---|
-| Glulam beam (rectangular) | 6-15m | 200x400mm to 300x900mm |
-| Glulam beam (curved/pitched) | 10-30m | Custom cross-sections |
-| Glulam column | storey height | 200x200mm to 500x500mm |
-| LVL beam (Kerto, Metsawood) | 6-12m | 200x400mm to 300x800mm |
+| 胶合木梁（矩形） | 6–15m | 200×400mm 至 300×900mm |
+| 胶合木梁（曲线／变坡） | 10–30m | 定制截面 |
+| 胶合木柱 | 层高 | 200×200mm 至 500×500mm |
+| LVL 梁（Kerto、Metsawood） | 6–12m | 200×400mm 至 300×800mm |
 
-### 11.3 Exemplar Buildings
-- **Tamedia Office, Zurich (2013) — Shigeru Ban**: Glulam frame with interlocking timber joints, no metal connectors
-- **Sara Kulturhus, Skelleftea, Sweden (2021)**: 20-storey glulam and CLT, cultural centre and hotel
-- **Macquarie University Incubator, Sydney (2022)**: Glulam post-and-beam with exposed connections
-
----
-
-## 12. Mass Timber — Hybrid and Diagrid
-
-### 12.1 Timber-Concrete Hybrid
-CLT or glulam floors with a 50-80mm concrete topping, connected by shear connectors (screws, notches, or proprietary systems). The timber provides tension resistance and the concrete provides compression and acoustic mass.
-- **Span range**: 6-10m (vs 5-8m for CLT alone)
-- **Vibration performance**: Significantly improved over pure CLT (concrete adds mass and damping)
-- **Acoustic performance**: 55-62 dB Rw (vs 44-50 dB for bare CLT)
-
-### 12.2 Timber Diagrid
-Triangulated timber structure on the building perimeter, providing both gravity and lateral resistance. Visually striking; eliminates need for internal bracing or concrete cores.
-- **Exemplar**: Mjosternet, Norway — timber diagrid to 85.4m
-
-### 12.3 Steel-Timber Hybrid
-Steel primary structure (long spans, lateral stability) with CLT floor panels replacing composite metal deck. Combines steel's spanning ability with timber's sustainability and biophilic quality.
-- **Exemplar**: 25 King, Brisbane (2018); 80 Atlantic Avenue, Toronto (2022)
+### 11.3 代表性建筑
+- **苏黎世 Tamedia Office（2013）——Shigeru Ban：**胶合木框架，木构件互锁节点，无金属连接件
+- **瑞典谢莱夫特奥 Sara Kulturhus（2021）：**20 层胶合木与 CLT 建筑，文化中心和酒店
+- **悉尼 Macquarie University Incubator（2022）：**胶合木柱梁，连接件外露
 
 ---
 
-## 13. Long-Span Structures — Trusses
+## 12. 工程木结构——混合体系与三角网格
 
-### 13.1 System Description
-Triangulated frames of steel (or timber) members spanning 20-100m+. Used for roofs over column-free spaces: exhibition halls, sports venues, theatres, airports.
+### 12.1 木-混凝土混合结构
+CLT或胶合木楼板上设置50-80mm混凝土面层，通过抗剪连接件（螺钉、槽口或专用系统）连接。木材承担拉力，混凝土提供压力承载和隔声质量。
+- **跨度范围：**6–10m（CLT 单独使用为 5–8m）
+- **振动性能：**显著优于纯 CLT（混凝土增加质量和阻尼）
+- **声学性能：**55–62 dB Rw（裸 CLT 为 44–50 dB）
 
-### 13.2 Types and Spans
-| Truss Type | Span Range | Depth (L/ratio) |
+### 12.2 木结构三角网格
+建筑外围采用三角形木结构，同时承担重力和侧向作用。视觉表现力强，可取消内部支撑或混凝土核心筒。
+- **示范项目：**挪威 Mjosternet——木结构斜交网格，高度达 85.4m
+
+### 12.3 钢-木混合结构
+以钢结构作为主体（承担大跨度和侧向稳定），以CLT楼板替代组合压型钢板。结合钢材的跨越能力与木材的可持续性和亲生物品质。
+- **示范项目：**布里斯班 25 King（2018）；多伦多 80 Atlantic Avenue（2022）
+
+---
+
+## 13. 大跨度结构——桁架
+
+### 13.1 体系说明
+由钢材（或木材）构件组成的三角形框架，跨度20-100m以上。用于展览馆、体育场馆、剧院和机场等无柱空间的屋盖。
+
+### 13.2 类型与跨度
+| 桁架类型 | 跨度范围 | 高度（L/比值） |
 |---|---|---|
-| Pratt truss | 15-45m | L/10 to L/15 |
-| Warren truss | 15-60m | L/10 to L/15 |
-| Vierendeel truss | 10-30m | L/5 to L/8 (deeper, no diagonals) |
-| Bowstring truss | 25-80m | L/8 to L/12 |
-| Space frame (2-way) | 20-100m+ | L/15 to L/25 |
+| 普拉特桁架 | 15–45m | L/10 至 L/15 |
+| 华伦桁架 | 15–60m | L/10 至 L/15 |
+| Vierendeel 桁架 | 10–30m | L/5 至 L/8（更深、无斜杆） |
+| 弓弦桁架 | 25–80m | L/8 至 L/12 |
+| 空间网架（双向） | 20–100m 以上 | L/15 至 L/25 |
 
-### 13.3 Exemplar Buildings
-- **Waterloo International Terminal, London (1993)**: Asymmetric bowstring trusses, 48m span
-- **Stansted Airport, London (1991) — Foster**: Space frame "trees", 36m grid
-- **Javits Center Expansion, New York (2021)**: Long-span steel trusses, column-free exhibition halls
-
----
-
-## 14. Long-Span Structures — Cable and Tensile
-
-### 14.1 Cable-Stayed Roofs
-Cables from masts support roof beams or purlins, allowing spans of 50-200m+ with minimal material. Roof is in compression (from cable forces); cables are in tension.
-- **Exemplar**: Munich Olympic Stadium (1972), Millennium Dome/O2 Arena (1999)
-
-### 14.2 Tensile Membrane Structures
-PTFE-coated fibreglass or ETFE membrane stretched between masts, cables, and edge beams. Self-weight as low as 1-3 kg/m². Translucent. Spans 20-100m+.
-- **Exemplar**: Denver International Airport (1995), Allianz Arena Munich (2005), Khan Shatyr, Astana (2010)
-
-### 14.3 Pneumatic Structures
-Air-supported or air-inflated membranes. Air-supported structures maintain positive internal pressure (250-750 Pa) to support the membrane.
-- **Exemplar**: Eden Project, Cornwall (2001) — ETFE cushions on steel space frame
+### 13.3 代表性建筑
+- **Waterloo International Terminal，伦敦（1993）：**非对称弓弦桁架，跨度48m
+- **Stansted Airport，伦敦（1991）——Foster：**“树状”空间网架，36m网格
+- **Javits Center Expansion，纽约（2021）：**大跨度钢桁架，无柱展览大厅
 
 ---
 
-## 15. Long-Span Structures — Shells
+## 14. 大跨度结构——索结构与张拉结构
 
-### 15.1 System Description
-Thin concrete, steel, or timber shells resist loads primarily through membrane action (compression and tension in the surface), minimising bending. Shell thickness can be remarkably thin: 50-150mm of concrete spanning 30-60m.
+### 14.1 斜拉屋盖
+从桅杆引出的索支承屋面梁或檩条，以较少材料实现50-200m以上跨度。屋面受压（由索力产生），索受拉。
+- **代表性建筑：**Munich Olympic Stadium（1972）、Millennium Dome/O2 Arena（1999）
 
-### 15.2 Shell Types
-| Type | Span Range | Thickness | Form |
+### 14.2 张拉膜结构
+在桅杆、索和边梁之间张拉PTFE涂层玻璃纤维膜或ETFE膜。自重低至1-3 kg/m²，具有半透明性，跨度20-100m以上。
+- **代表性建筑：**Denver International Airport（1995）、Allianz Arena Munich（2005）、Khan Shatyr，Astana（2010）
+
+### 14.3 充气结构
+采用空气支承或空气充气膜。空气支承结构通过维持250-750 Pa的内部正压来支撑膜材。
+- **代表性建筑：**Eden Project，Cornwall（2001）——钢空间网架上的ETFE气枕
+
+---
+
+## 15. 大跨度结构——壳体
+
+### 15.1 体系说明
+薄型混凝土、钢或木壳体主要通过表面的膜作用（受压和受拉）抵抗荷载，从而将弯曲降至最低。壳体可以非常薄：50-150mm厚混凝土即可跨越30-60m。
+
+### 15.2 壳体类型
+| 类型 | 跨度范围 | 厚度 | 形态 |
 |---|---|---|---|
-| Barrel vault | 15-60m | 75-150mm (concrete) | Single curvature |
-| Dome | 20-100m | 60-150mm (concrete) | Double curvature, synclastic |
-| Hyperbolic paraboloid (hypar) | 15-40m | 50-100mm (concrete) | Double curvature, anticlastic |
-| Gridshell | 20-100m+ | Steel or timber lattice | Free-form double curvature |
-| Folded plate | 10-30m | 75-125mm (concrete) | Planar facets forming 3D shape |
+| 筒拱 | 15–60m | 75–150mm（混凝土） | 单曲率 |
+| 穹顶 | 20–100m | 60–150mm（混凝土） | 双曲率、同曲面 |
+| 双曲抛物面（hypar） | 15–40m | 50–100mm（混凝土） | 双曲率、反曲面 |
+| 网壳 | 20–100m 以上 | 钢或木网格 | 自由形态双曲率 |
+| 折板 | 10–30m | 75–125mm（混凝土） | 平面板折叠形成三维形态 |
 
-### 15.3 Exemplar Buildings
-- **TWA Flight Center, JFK (1962) — Saarinen**: Concrete shell, sweeping curves
-- **Sydney Opera House (1973)**: Spherical shell segments, precast concrete ribs
-- **Multihalle, Mannheim (1975) — Frei Otto**: Timber gridshell, 60m span
-- **Great Court, British Museum, London (2000) — Foster**: Steel and glass gridshell roof
-- **Rolex Learning Center, Lausanne (2010) — SANAA**: Undulating concrete shell on grade
+### 15.3 代表性建筑
+- **TWA Flight Center，JFK（1962）——Saarinen：**混凝土壳体，流动曲线
+- **Sydney Opera House（1973）：**球形壳体分片，预制混凝土肋
+- **Multihalle，Mannheim（1975）——Frei Otto：**木结构网壳，跨度60m
+- **Great Court，British Museum，伦敦（2000）——Foster：**钢与玻璃网壳屋顶
+- **Rolex Learning Center，Lausanne（2010）——SANAA：**落地起伏混凝土壳体
 
 ---
 
-## Comparative Summary Table
+## 比较汇总表
 
-| System | Typical Span | Max Height | Embodied Carbon (kgCO2e/m²) | Relative Cost ($/m²) | Speed |
+| 体系 | 典型跨度 | 最大高度 | 隐含碳（kgCO2e/m²） | 相对成本（$/m²） | 速度 |
 |---|---|---|---|---|---|
-| Load-bearing masonry | 4-7m | 6 storeys | 150-280 | 80-140 | Medium |
-| RC flat slab | 6-9m | Unlimited | 250-400 | 120-200 | Medium |
-| RC beam-slab | 8-15m | Unlimited | 250-380 | 130-220 | Medium |
-| RC waffle slab | 9-16m | Unlimited | 240-360 | 150-240 | Medium-Slow |
-| Post-tensioned slab | 8-16m | Unlimited | 200-320 | 140-240 | Medium-Fast |
-| Steel moment frame | 6-15m | 25 storeys | 200-350 | 180-280 | Fast |
-| Steel braced frame | 6-20m | 100+ storeys | 180-320 | 150-260 | Fast |
-| Composite steel-concrete | 9-18m | Unlimited | 220-340 | 140-250 | Fast |
-| Precast hollowcore | 6-16m | 30 storeys | 230-370 | 130-230 | Fast |
-| Precast double-tee | 12-25m | 10 storeys | 240-380 | 140-240 | Fast |
-| CLT panels | 5-8m | 18 storeys | 80-180 | 160-300 | Very Fast |
-| Glulam post-beam | 6-15m | 20 storeys | 80-180 | 170-310 | Very Fast |
-| Steel truss (roof) | 20-80m | Single storey | 200-350 | 200-400 | Fast |
-| Tensile membrane | 20-200m+ | Single storey | 30-80 | 250-500 | Medium |
-| Concrete shell | 15-100m | Single storey | 100-250 | 300-600 | Slow |
+| 承重砌体 | 4–7m | 6 层 | 150–280 | 80–140 | 中 |
+| 钢筋混凝土无梁楼板 | 6–9m | 无上限 | 250–400 | 120–200 | 中 |
+| 钢筋混凝土梁板 | 8–15m | 无上限 | 250–380 | 130–220 | 中 |
+| 钢筋混凝土密肋楼板 | 9–16m | 无上限 | 240–360 | 150–240 | 中—慢 |
+| 后张楼板 | 8–16m | 无上限 | 200–320 | 140–240 | 中—快 |
+| 钢刚架 | 6–15m | 25 层 | 200–350 | 180–280 | 快 |
+| 钢支撑框架 | 6–20m | 100 层以上 | 180–320 | 150–260 | 快 |
+| 钢—混凝土组合结构 | 9–18m | 无上限 | 220–340 | 140–250 | 快 |
+| 预制空心板 | 6–16m | 30 层 | 230–370 | 130–230 | 快 |
+| 预制双 T 板 | 12–25m | 10 层 | 240–380 | 140–240 | 快 |
+| CLT 板 | 5–8m | 18 层 | 80–180 | 160–300 | 很快 |
+| 胶合木柱梁 | 6–15m | 20 层 | 80–180 | 170–310 | 很快 |
+| 钢桁架（屋面） | 20–80m | 单层 | 200–350 | 200–400 | 快 |
+| 张拉膜 | 20–200m 以上 | 单层 | 30–80 | 250–500 | 中 |
+| 混凝土壳体 | 15–100m | 单层 | 100–250 | 300–600 | 慢 |

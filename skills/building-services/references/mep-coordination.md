@@ -1,318 +1,318 @@
-# MEP Coordination: Comprehensive Reference
+# MEP 协调：综合参考
 
-This reference provides detailed guidance on mechanical, electrical, and plumbing coordination for architectural practice, including zone planning, ceiling void allocation, service route hierarchies, riser shaft sizing, plant room sizing, below-ground services, roof plant screening, and coordination case studies.
+本参考为建筑实践中的机械、电气和给排水协调提供详细指南，涵盖分区规划、吊顶夹层分配、设备管线路由层级、管井尺寸、设备机房面积、地下管线、屋面设备屏蔽及协调案例。
 
 ---
 
-## 1. Zone Planning: Horizontal Distribution
+## 1. 分区规划：水平分配
 
-### Ceiling Void Zone Allocation
+### 吊顶夹层分区分配
 
-The ceiling void must be organised in horizontal layers with a clear hierarchy. Working downward from the structural soffit:
+吊顶夹层必须按明确层级组织为水平分层。从结构板底向下依次为：
 
-**Layer 1 — Structural zone (immediately below slab soffit)**
-- Downstand beams, drop panels, post-tensioned tendon profiles
-- Nothing installed here without structural engineer approval
-- Zero tolerance for clashes — relocate services, not structure
+**第 1 层——结构区（紧邻楼板底）**
+- 下挂梁、柱帽、后张预应力筋轮廓
+- 未经结构工程师批准不得在此安装任何设备
+- 碰撞零容忍——应移动设备管线，不得移动结构
 
-**Layer 2 — Primary horizontal distribution (50-150mm below structure)**
-- Main HVAC supply and return ductwork (largest cross-section elements)
-- Main cable trays and bus-bar trunking
-- Primary CHW/LTHW/CW mains
-- Sprinkler main headers
-- Run parallel to or perpendicular to primary structure (not diagonal — complicates coordination)
-- Minimum 25mm clearance between services; 50mm preferred for insulated pipes
+**第 2 层——主要水平分配（结构下方 50–150 mm）**
+- HVAC 主送风和回风风管（截面最大）
+- 主电缆桥架和母线槽
+- 冷冻水/低温热水/冷水主管
+- 喷淋主干管
+- 与主体结构平行或垂直布置（不得斜向布置，以免增加协调难度）
+- 设备管线之间最小净距 25 mm；保温管优选 50 mm
 
-**Layer 3 — Secondary distribution (below primary zone)**
-- Branch ductwork from main to terminal units
-- Secondary cable trays
-- Branch pipework
-- Sprinkler distribution pipes
-- Crossover zone: where primary services in one direction cross secondary services in the perpendicular direction
+**第 3 层——次级分配（主要分配区下方）**
+- 从主管至末端设备的支风管
+- 次级电缆桥架
+- 支管
+- 喷淋分配管
+- 交叉区：一个方向的主要设备管线与垂直方向的次级设备管线相交处
 
-**Layer 4 — Terminal zone (closest to ceiling plane)**
-- Fan coil units, chilled beam units, VAV boxes
-- Sprinkler drops and heads
-- Light fittings (recessed)
-- Smoke detectors, speakers, access points
-- Cable drops to floor below (via perimeter trunking or floor boxes)
+**第 4 层——末端设备区（最靠近吊顶平面）**
+- 风机盘管、冷梁机组、VAV 箱
+- 喷淋支管和喷头
+- 嵌入式灯具
+- 烟感探测器、扬声器、接入点
+- 通往下层的电缆下引（经周边线槽或地板盒）
 
-**Layer 5 — Ceiling finish**
-- Suspended ceiling grid and tiles (15-25mm)
-- Or plasterboard ceiling on framing (25-50mm)
-- Or exposed soffit with painted services (0mm — services are the ceiling)
+**第 5 层——吊顶饰面**
+- 悬挂式吊顶龙骨和板材（15–25 mm）
+- 或龙骨石膏板吊顶（25–50 mm）
+- 或涂装设备管线的外露楼板底（0 mm——设备管线即为吊顶）
 
-### Typical Layer Depths
+### 典型分层深度
 
-| Layer | Residential (mm) | Office (mm) | Hospital (mm) | Laboratory (mm) |
+| 层级 | 住宅（mm） | 办公（mm） | 医院（mm） | 实验室（mm） |
 |---|---|---|---|---|
-| Primary distribution | 100-200 | 250-400 | 350-600 | 400-700 |
-| Secondary distribution | 50-100 | 100-200 | 150-300 | 200-400 |
-| Terminal equipment | 50-100 | 100-200 | 150-300 | 150-300 |
-| Ceiling finish | 15-25 | 15-25 | 15-25 | 15-25 |
-| **Total void** | **215-425** | **465-825** | **665-1225** | **765-1425** |
+| 主要分配 | 100–200 | 250–400 | 350–600 | 400–700 |
+| 次级分配 | 50–100 | 100–200 | 150–300 | 200–400 |
+| 末端设备 | 50–100 | 100–200 | 150–300 | 150–300 |
+| 吊顶饰面 | 15–25 | 15–25 | 15–25 | 15–25 |
+| **夹层总深度** | **215–425** | **465–825** | **665–1225** | **765–1425** |
 
-### Horizontal Zone Planning
+### 水平分区规划
 
-In plan, services follow defined routes:
-- **Primary routes**: Along corridors, parallel to the building's long axis. Width: 1.5-3.0m corridor zone accommodates all primary services.
-- **Secondary routes**: Perpendicular to primary, into occupied zones. Branching from corridor to perimeter.
-- **Service-free zones**: Keep structure-to-structure connections clear (punching shear zones at columns, shear wall junctions).
-- **Coordination strips**: Define 600mm-wide coordination strips in plan at primary/secondary intersections. All crossovers occur here, allowing sectional coordination.
+在平面中，设备管线应遵循明确路线：
+- **主要路线：**沿走廊并平行于建筑长轴布置。宽度 1.5–3.0 m 的走廊设备区可容纳所有主要设备管线。
+- **次级路线：**与主要路线垂直，进入使用区域，从走廊分支至周边。
+- **无设备区：**保持结构连接区域畅通（柱周冲切区、剪力墙交接处）。
+- **协调带：**在主要/次级路线交叉处设置 600 mm 宽协调带，所有交叉集中于此，以便进行剖面协调。
 
 ---
 
 ## 2. Vertical Distribution: Riser Shaft Design
 
-### Riser Types and Sizing
+### 管井类型与尺寸
 
-**Electrical risers:**
-- Bus-bar trunking: 200x200mm to 300x300mm (100-3200A rating)
-- Cable trays (stacked): 400x200mm to 600x400mm
-- Segregation required: HV/LV separation 300mm minimum; power/data separation 150mm minimum
-- Size per floor: 0.4-0.6m² (office); 0.3-0.4m² (residential)
-- Access: Lockable door at each floor, 600x2100mm minimum
+**电气管井：**
+- 母线槽：200×200 mm 至 300×300 mm（额定 100–3200 A）
+- 叠置电缆桥架：400×200 mm 至 600×400 mm
+- 必须分隔：高压/低压最小间距 300 mm；动力/数据最小间距 150 mm
+- 每层面积：0.4–0.6 m²（办公）；0.3–0.4 m²（住宅）
+- 检修：每层设置可锁门，最小 600×2100 mm
 
-**Data/telecoms risers:**
-- Cable trays or basket: 300x200mm to 400x300mm
-- Fibre optic backbone + copper distribution
-- Size per floor: 0.2-0.4m² (office); 0.1-0.2m² (residential)
-- May combine with electrical riser if segregation maintained
+**数据/通信管井：**
+- 电缆桥架或网篮：300×200 mm 至 400×300 mm
+- 光纤主干 + 铜缆分配
+- 每层面积：0.2–0.4 m²（办公）；0.1–0.2 m²（住宅）
+- 保持分隔时可与电气管井合并
 
-**Water risers (cold water, hot water flow and return):**
-- Pipes: 28-80mm diameter (insulated)
-- Insulation: 19-32mm (cold water, to prevent condensation); 25-50mm (hot water, to prevent heat loss)
-- Isolation valves at each floor
-- Size per floor: 0.3-0.5m² (combined CW + HW)
-- Access: Removable panels at each floor, 450x450mm minimum
+**给水管井（冷水、热水供回水）：**
+- 管道：直径 28–80 mm（带保温）
+- 保温：冷水 19–32 mm（防结露）；热水 25–50 mm（防热损失）
+- 每层设置隔离阀
+- 每层面积：0.3–0.5 m²（冷水 + 热水合计）
+- 检修：每层设置可拆卸面板，最小 450×450 mm
 
-**Soil and waste risers:**
-- Soil stack: 100mm diameter
-- Waste stack: 50mm diameter (or combined with soil stack)
-- Vent pipe: 50-75mm diameter (may terminate above roof or use AAV)
-- Size per floor: 0.2-0.3m² per stack
-- Access: Rodding access at base and changes of direction
+**污水和废水管井：**
+- 污水立管：直径 100 mm
+- 废水立管：直径 50 mm（或与污水立管合并）
+- 通气管：直径 50–75 mm（可伸至屋面以上或采用 AAV）
+- 每根立管每层面积：0.2–0.3 m²
+- 检修：底部和方向变化处设置通管检修口
 
-**HVAC risers:**
-- Supply air duct: Varies widely — 300x300mm (small FCU system) to 1200x800mm (VAV system for large floor)
-- Return air duct: 70-80% of supply duct size
-- CHW/LTHW pipes: 50-150mm diameter
-- Size per floor: 0.5-3.0m² depending on system and floor area served
-- Fire dampers at every floor penetration
+**HVAC 管井：**
+- 送风风管：变化很大——300×300 mm（小型 FCU）至 1200×800 mm（大楼面 VAV）
+- 回风风管：送风风管尺寸的 70–80%
+- 冷冻水/低温热水管：直径 50–150 mm
+- 每层面积：0.5–3.0 m²，取决于系统和服务面积
+- 每层穿越处设置防火阀
 
-**Sprinkler riser:**
-- Flow and return: 65-150mm diameter (depending on hazard class)
-- Valve set (flow switch, drain, test valve) at each floor: 600x400x200mm
-- Size per floor: 0.2-0.3m²
+**喷淋管井：**
+- 供回水管：直径 65–150 mm（取决于危险等级）
+- 每层阀组（流量开关、排水阀、试验阀）：600×400×200 mm
+- 每层面积：0.2–0.3 m²
 
-**Smoke extract shaft:**
-- Dedicated fire-rated shaft
-- Minimum 1.0m² cross-section (building-specific calculation)
-- Fire-rated construction (typically 120 minutes)
-- Smoke extract fans at roof level
+**排烟管井：**
+- 专用耐火管井
+- 最小截面 1.0 m²（按建筑专项计算）
+- 耐火构造（通常 120 分钟）
+- 排烟风机设于屋面层
 
-### Riser Location Strategy
+### 管井位置策略
 
-- **Adjacent to cores**: Risers should be adjacent to or within the building core, close to lifts and stairs. This centralises vertical distribution and minimises horizontal pipe/duct runs.
-- **Paired risers**: On opposite sides of the core for redundancy and to reduce horizontal distribution lengths. Two smaller risers are often better than one large riser for deep-plan buildings.
-- **Perimeter risers**: Electrical and data risers may be at the perimeter to serve raised floor outlets, reducing cable lengths in the floor void.
-- **Fire-rated enclosure**: All risers penetrating fire compartment floors must be fire-rated (typically 60 or 120 minutes). Riser walls: 100mm blockwork or 2x15mm Type F plasterboard on metal stud.
-- **Access from common areas**: Risers should be accessible from corridors or service areas, not from within tenancies (for maintenance access without disturbing occupants).
-
----
-
-## 3. Service Route Hierarchies
-
-### Priority Hierarchy for Clash Resolution
-
-When services conflict in the coordination process, the following hierarchy applies:
-
-1. **Gravity drainage** (soil, waste, rainwater) — Cannot be rerouted easily; requires falls. Highest priority.
-2. **Primary HVAC ductwork** — Large cross-section, difficult to reroute. Second priority.
-3. **Primary pipework** (CHW/LTHW mains, sprinkler mains) — Large diameter, insulated.
-4. **Cable trays and bus-bar** — Can bend and reroute more easily than ducts.
-5. **Secondary HVAC branches** — Smaller, more flexible.
-6. **Secondary pipework** — Smaller diameter, flexible routing.
-7. **Sprinkler distribution** — Small pipes, highly flexible routing.
-8. **Terminal equipment** — FCUs, VAV boxes, light fittings — located last to avoid all above.
-
-### Crossover Strategy
-
-Where services running in different directions must cross (e.g., east-west ductwork crosses north-south pipework):
-
-- **Ductwork reduces height at crossover**: Transition from rectangular to wider, shallower section (e.g., 600x400mm becomes 800x300mm for a local crossover zone)
-- **Pipework dips or rises**: Small-diameter pipes (<50mm) can dip below ductwork; larger pipes should maintain level and duct transitions around them
-- **Dedicated crossover zones**: Define 1-2 crossover locations per structural bay. All intersections occur here, simplifying coordination.
-- **Avoid diagonal routes**: All services run orthogonally (parallel to structural grid). Diagonal routes create unpredictable crossovers.
+- **靠近核心筒**：管井应靠近或位于建筑核心筒内，邻近电梯和楼梯。这样可集中竖向分配并缩短水平管线。
+- **成对管井**：位于核心筒两侧以提高冗余并缩短水平分配距离。对于深进深建筑，两个较小管井通常优于一个大管井。
+- **周边管井**：电气和数据管井可设于周边，为架空地板出线服务，减少楼板夹层中的电缆长度。
+- **耐火围护**：所有穿越防火分区楼板的管井必须具备耐火性能（通常 60 或 120 分钟）。管井墙可采用 100 mm 砌块或金属龙骨双层 15 mm F 型石膏板。
+- **从公共区域检修**：管井应从走廊或设备区域进入，不应位于租户内部，以便维护而不干扰使用者。
 
 ---
 
-## 4. Plant Room Sizing: Rules of Thumb
+## 3. 设备管线路由层级
 
-### Central Mechanical Plant
+### 碰撞解决优先级
 
-| Equipment | Sizing Rule | Typical Dimensions |
+当协调过程中设备管线发生冲突时，按以下层级处理：
+
+1. **重力排水**（污水、废水、雨水）——难以改线且需要坡度，优先级最高。
+2. **HVAC 主风管**——截面大、难以改线，优先级第二。
+3. **主要管道**（冷冻水/低温热水主管、喷淋主管）——管径大且需保温。
+4. **电缆桥架和母线槽**——比风管更容易弯折和改线。
+5. **HVAC 次级支管**——尺寸较小、灵活性较高。
+6. **次级管道**——管径较小，路由灵活。
+7. **喷淋分配管**——管径小，路由最灵活。
+8. **末端设备**——FCU、VAV 箱、灯具最后定位，以避让上述设备。
+
+### 交叉策略
+
+当不同方向的设备管线必须交叉时（例如东西向风管与南北向管道相交）：
+
+- **风管在交叉处降低高度**：由矩形截面变为更宽、更薄的截面（例如局部交叉区由 600×400 mm 变为 800×300 mm）。
+- **管道下沉或上抬**：小直径管道（<50 mm）可下沉至风管下方；大管道应保持标高，风管绕行并在交叉处变换。
+- **设置专用交叉区**：每个结构跨设置 1–2 处交叉位置，所有交叉集中于此，简化协调。
+- **避免斜向路由**：所有设备管线应正交布置（平行于结构网格），斜向路由会产生不可预测的交叉。
+
+---
+
+## 4. 设备机房尺寸：经验规则
+
+### 中央机械设备
+
+| 设备 | 尺寸规则 | 典型尺寸 |
 |---|---|---|
-| Air Handling Unit (AHU) | 1 AHU per 500-2000m² floor area | 2.0x1.5x3.0m (small) to 3.0x2.5x8.0m (large) |
-| Chiller (air-cooled) | 100-200 W/m² cooling load | 3.0x1.0x2.2m per 200-500 kW |
-| Chiller (water-cooled) | 100-200 W/m² cooling load | 2.5x0.8x1.5m per 200-1000 kW |
-| Cooling tower | Rejects chiller heat | 2.0x2.0x3.0m per 500 kW; requires open-air location |
-| Boiler (gas) | 50-100 W/m² heating load | 1.5x0.8x1.5m per 200-500 kW |
-| Heat pump (ASHP) | 80-150 W/m² | 2.0x0.8x1.8m per 50-100 kW; external location |
-| Buffer/thermal store | 10-50 litres/kW | 1.0m dia. x 2.0m high per 1000 litres |
-| Plate heat exchanger | Matches boiler/chiller capacity | 0.8x0.3x1.2m per 200-500 kW |
-| Pumps (CHW/LTHW) | Matched to system flow rate | 0.8x0.4x0.5m per duty pump + standby |
-| Calorifier (hot water) | 40-60 litres/person (residential) | 1.0m dia. x 2.0m high per 1000 litres |
+| 空气处理机组（AHU） | 每 500–2000 m² 楼面面积配置 1 台 | 小型 2.0×1.5×3.0 m 至大型 3.0×2.5×8.0 m |
+| 冷水机（风冷） | 冷负荷 100–200 W/m² | 每 200–500 kW 为 3.0×1.0×2.2 m |
+| 冷水机（水冷） | 冷负荷 100–200 W/m² | 每 200–1000 kW 为 2.5×0.8×1.5 m |
+| 冷却塔 | 排出冷水机热量 | 每 500 kW 为 2.0×2.0×3.0 m；需设于开放空气环境 |
+| 锅炉（燃气） | 热负荷 50–100 W/m² | 每 200–500 kW 为 1.5×0.8×1.5 m |
+| 热泵（ASHP） | 80–150 W/m² | 每 50–100 kW 为 2.0×0.8×1.8 m；设于室外 |
+| 缓冲/蓄热罐 | 10–50 L/kW | 每 1000 L 直径 1.0 m、高 2.0 m |
+| 板式换热器 | 与锅炉/冷水机容量匹配 | 每 200–500 kW 为 0.8×0.3×1.2 m |
+| 水泵（CHW/LTHW） | 与系统流量匹配 | 每台工作泵 + 备用泵为 0.8×0.4×0.5 m |
+| 热水加热器 | 住宅每人 40–60 L | 每 1000 L 直径 1.0 m、高 2.0 m |
 
-### Plant Room Space Allowances
+### 设备机房面积比例
 
-| Building Type | Total Plant Area (% of GFA) | Notes |
+| 建筑类型 | 设备总面积（占 GFA） | 说明 |
 |---|---|---|
-| Naturally ventilated office | 1.5-3.0% | Boiler room + minimal electrical |
-| Air-conditioned office | 5-8% | AHU + chiller + boiler + electrical + generator |
-| Hospital (general) | 8-12% | Extensive HVAC, medical gases, sterilisation plant, standby power |
-| Hospital (specialist) | 12-18% | Operating theatres, imaging suites, laboratories |
-| Hotel | 5-7% | Central boiler/chiller + laundry + kitchen extract |
-| Residential (apartments) | 2-4% | Central boiler/heat pump + water storage + electrical |
-| Retail (shopping centre) | 4-6% | AHU per tenant zone + central chiller/boiler |
-| School | 3-5% | Boiler room + ventilation units + electrical |
-| Laboratory | 8-15% | Intensive AHU provision, specialist extract, emergency power |
-| Data centre | 25-40% | Massive cooling plant; redundant (N+1 or 2N) systems |
+| 自然通风办公室 | 1.5–3.0% | 锅炉房 + 少量电气设备 |
+| 空调办公室 | 5–8% | AHU + 冷水机 + 锅炉 + 电气 + 发电机 |
+| 医院（普通） | 8–12% | 大量 HVAC、医用气体、灭菌设备和备用电源 |
+| 医院（专科） | 12–18% | 手术室、影像套房、实验室 |
+| 酒店 | 5–7% | 中央锅炉/冷水机 + 洗衣房 + 厨房排风 |
+| 住宅（公寓） | 2–4% | 中央锅炉/热泵 + 储水 + 电气 |
+| 零售（购物中心） | 4–6% | 每租户分区 AHU + 中央冷水机/锅炉 |
+| 学校 | 3–5% | 锅炉房 + 通风机组 + 电气 |
+| 实验室 | 8–15% | 大量 AHU、专用排风和应急电源 |
+| 数据中心 | 25–40% | 大型制冷设备；N+1 或 2N 冗余系统 |
 
-### Plant Room Location Strategy
+### 设备机房位置策略
 
-- **Basement plant**: Boilers, electrical switchgear, water tanks, sprinkler pump, generator. Requires vehicular access for equipment replacement. Minimum 4.0m clear height; 5.0m preferred for large AHUs.
-- **Roof plant**: Chillers (air-cooled), cooling towers, AHUs, exhaust fans. Requires structural load allowance (500-2000 kg/m²). Acoustic screening. Crane access for installation/replacement.
-- **Intermediate plant floors**: In tall buildings, mechanical floors every 20-30 storeys. Outrigger floors serve dual structural and mechanical function. Reduces riser and duct sizes.
-- **Ground-floor plant**: Generator (if no basement), gas meter/governor, incoming water/electrical. Requires direct external access for maintenance and fuel delivery.
+- **地下室设备**：锅炉、电气开关设备、水箱、喷淋泵和发电机。设备更换需车辆通行；最小净高 4.0 m，大型 AHU 优选 5.0 m。
+- **屋面设备**：冷水机（风冷）、冷却塔、AHU 和排风机。需预留结构荷载（500–2000 kg/m²）、隔声屏蔽及吊车安装/更换通道。
+- **中间设备层**：高层建筑每 20–30 层设置机械层。伸臂桁架层兼具结构和设备功能，可减少管井和风管尺寸。
+- **首层设备**：发电机（无地下室时）、燃气表/调压器、进水和进电设备。需直接连接室外，便于维护和燃料运输。
 
-### Clearances Within Plant Rooms
+### 设备机房内净距
 
-- AHU: 1.0m on service side (filter/coil access); 0.6m on non-service side; 1.5m at end for fan removal
-- Boiler: 1.0m all sides; 1.5m at flue connection end
-- Chiller: 1.0m tube-pull side (full tube length clearance); 0.6m other sides
-- Electrical switchboard: 1.0m in front of panels (BS 7671); 0.8m behind if rear access
-- Minimum door: 1.2m wide x 2.1m high (larger for equipment entry — double doors 2.4m wide)
-- Ceiling height: 4.0-5.0m minimum (AHU rooms with ductwork connections above units)
+- AHU：维护侧 1.0 m（过滤器/盘管检修）；非维护侧 0.6 m；端部 1.5 m（风机拆卸）
+- 锅炉：四周 1.0 m；烟道连接端 1.5 m
+- 冷水机：抽管侧 1.0 m（完整管长净空）；其他侧 0.6 m
+- 电气开关柜：柜前 1.0 m（BS 7671）；后部检修时柜后 0.8 m
+- 最小门宽：1.2 m，门高 2.1 m（设备入口需更大时，双扇门宽 2.4 m）
+- 吊顶高度：最小 4.0–5.0 m（AHU 上方需连接风管的机房）
 
 ---
 
-## 5. Below-Ground Services
+## 5. 地下设备管线
 
-### Service Entry Coordination
+### 设备接入协调
 
-| Service | Typical Depth Below Ground (mm) | Clearance from Foundations | Entry Point |
+| 管线类别 | 地下典型埋深（mm） | 与基础净距 | 接入点 |
 |---|---|---|---|
-| Incoming water main | 750-1350 (below frost line) | 1.0m minimum | Basement wall or ground floor slab |
-| Gas supply | 450-750 | 1.0m minimum | Ground floor external wall (never into basement) |
-| Electrical (HV) | 600-1000 (in duct) | 1.0m minimum | Substation or main switchroom |
-| Electrical (LV) | 600-800 (in duct) | 1.0m minimum | Main switchroom |
-| Telecoms/data | 450-600 (in duct) | 0.5m minimum | Comms room at ground/basement |
-| Foul drainage | 600-1500+ | Must not undermine foundations | Below slab to public sewer |
-| Surface water | 600-1500+ | As foul | To public sewer or SuDS |
-| District heating | 600-1000 | 1.0m minimum | Basement energy centre |
+| 进水主管 | 750–1350（冰冻线以下） | 最小 1.0 m | 地下室墙或首层楼板 |
+| 燃气供应 | 450–750 | 最小 1.0 m | 首层外墙（不得进入地下室） |
+| 高压电 | 600–1000（管道内） | 最小 1.0 m | 变电站或主开关室 |
+| 低压电 | 600–800（管道内） | 最小 1.0 m | 主开关室 |
+| 通信/数据 | 450–600（管道内） | 最小 0.5 m | 首层/地下室通信机房 |
+| 污水排水 | 600–1500+ | 不得削弱基础 | 楼板下接至公共污水管 |
+| 地表水 | 600–1500+ | 同污水 | 接至公共管网或 SuDS |
+| 区域供热 | 600–1000 | 最小 1.0 m | 地下室能源中心 |
 
-### Below-Ground Coordination Rules
+### 地下协调规则
 
-- **No services beneath strip/pad foundations**: Route services around foundation footprints with 1.0m minimum clearance.
-- **Piled foundations**: Services routed between piles. Pile layout must accommodate service routes — coordinate at scheme design stage.
-- **Raft foundations**: Services enter through raft edge (thickened upstand) or through sealed penetrations in the raft slab. Waterproofing continuity critical.
-- **Service trenches**: Parallel services separated by 300mm minimum (different utilities). 600mm separation between water and sewer.
-- **Drainage falls**: Below-ground drainage at 1:40 (100mm dia.) to 1:150 (150mm+ dia.) — calculate depth at building entry and at sewer connection to confirm feasibility.
-- **Inspection chambers**: At every change of direction, junction, and gradient change. Max spacing 45m on straight runs. 450x450mm minimum (up to 600mm deep); 1050mm dia. or 1200x750mm (deeper than 600mm).
+- **条形基础/独立基础下不得敷设设备管线：**沿基础投影外绕行，最小净距 1.0 m。
+- **桩基础：**设备管线在桩间敷设。桩位布置必须容纳管线路由，并在方案设计阶段协调。
+- **筏板基础：**设备管线从筏板边缘（加厚翻边）进入，或通过筏板内密封套管穿越。防水连续性至关重要。
+- **设备管沟：**不同管线平行敷设时最小间距 300 mm；给水与污水间距 600 mm。
+- **排水坡度：**地下排水管坡度从 1:40（直径 100 mm）至 1:150（直径 150 mm 以上），应计算建筑入口和接入市政污水管处的标高以确认可行性。
+- **检查井：**每个方向变化、交汇和坡度变化处设置。直线段最大间距 45 m。深度不超过 600 mm 时最小 450×450 mm；深度超过 600 mm 时采用直径 1,050 mm 或 1,200×750 mm。
 
 ---
 
-## 6. Roof Plant Screening
+## 6. 屋面设备屏蔽
 
-### Visual Screening Requirements
+### 视觉屏蔽要求
 
-- Screen must fully conceal all plant when viewed from public ground level at the building perimeter (45-degree sight line from building base, or from specific viewpoints defined in planning conditions).
-- Screen height: Tallest plant item + 300mm minimum freeboard. Typical: 2.0-3.5m.
-- Screen material options:
-  - Perforated metal (30-50% open area): Allows airflow while concealing; anodised aluminium, weathering steel, or painted steel
-  - Expanded mesh: Lightweight, high open area (40-60%), good ventilation, moderate screening
-  - Timber louvre: Biophilic appearance; requires maintenance; spacing 50-100mm with 50% open area
+- 从建筑边界公共地面观察时，屏蔽构件必须完全遮挡所有设备（视线可按建筑基座45°视线，或规划条件规定的特定视点确定）。
+- 屏蔽高度：最高设备高度+至少300 mm的余量。典型高度：2.0-3.5 m。
+- 屏蔽材料选项：
+  - 冲孔金属（开孔率30-50%）：在遮挡设备的同时允许气流通过；可采用阳极氧化铝、耐候钢或涂装钢
+  - 拉伸网：重量轻、开孔率高（40-60%），通风良好，遮挡程度中等
+  - 木百叶：具有亲生物外观；需要维护；间距 50–100 mm，开口率 50%
   - Living wall / green screen: Excellent visual screening; irrigation and maintenance required
   - Matching facade material: Best visual integration; may restrict ventilation
 
-### Acoustic Screening Requirements
+### 声学屏蔽要求
 
 - Plant noise at nearest noise-sensitive receptor must comply with planning condition (typically background noise level or background +5 dB at night).
 - Acoustic louvre: 10-25 dB(A) attenuation depending on louvre depth (150mm: ~10 dB; 300mm: ~15 dB; 600mm: ~25 dB).
 - Acoustic enclosure: For individual noisy items (generators, cooling towers). Attenuation 15-35 dB(A).
 - Minimum setback: Plant should be 3m from roof edge to reduce noise propagation over edge.
 
-### Structural and Access Considerations
+### 结构与通行考虑
 
 - Plant loads: 5-15 kN/m² on plant plinths (vs 0.75-1.5 kN/m² typical roof live load). Coordinate with structural engineer at concept stage.
 - Anti-vibration mounts: Required for all rotating equipment (chillers, pumps, fans, generators). Spring mounts or rubber isolators. 90-98% vibration isolation efficiency required.
 - Crane access: Initial installation and future replacement of major plant (chillers, AHUs, generators). Tower crane during construction; mobile crane access for replacement — confirm route and standing location.
-- Maintenance access: 800mm minimum between plant items. 1200mm for carrying tools/filters. Designated walkways with anti-slip surface.
-- Fall protection: Roof-edge protection (1100mm guardrail) or fall-restraint systems for maintenance personnel.
+- 维护通道：设备之间最小 800 mm，携带工具/过滤器时需 1200 mm。设置防滑专用走道。
+- 防坠落：设置屋面边缘防护（1100 mm 护栏）或供维护人员使用的防坠落约束系统。
 
 ---
 
-## 7. Coordination Case Studies
+## 7. 协调案例研究
 
-### Case Study 1: 15-Storey Commercial Office Tower (London)
+### 案例 1：15 层商业办公塔楼（伦敦）
 
-**Building parameters**: 15 storeys + 2 basements. 2,500m² per floor. 9.0m structural grid. Composite steel frame with concrete core. Target: BCO Grade A.
+**建筑参数**：15 层 + 2 层地下室。每层 2500 m²。9.0 m 结构网格。钢-混凝土组合框架，混凝土核心筒。目标：BCO Grade A。
 
-**HVAC system**: 4-pipe FCU + DOAS fresh air. Chilled beams on upper floors.
+**HVAC 系统**：四管制 FCU + DOAS 新风。上部楼层采用冷梁。
 
-**Coordination challenges and solutions**:
-- **Challenge**: 600mm composite beam conflicted with 500mm main supply duct at core zone.
-  - **Solution**: Specified cellular beams with 350mm web openings. Primary ductwork routed through beam openings, eliminating the crossover. Floor-to-floor reduced from 4.0m to 3.75m, saving 3.75m total building height and 2,500m² of cladding.
-- **Challenge**: Sprinkler main clashing with structural beam at transfer level.
-  - **Solution**: Rerouted sprinkler main around beam with 90-degree bends. Added 2m of pipe run but avoided structural modification.
-- **Void allocation**: Structure 600mm (cellular beam + 150mm slab), services 300mm (through beam + 200mm below), ceiling 15mm. Total void: 715mm. Clear height: 2750mm + 150mm raised floor. Floor-to-floor: 3630mm, rounded to 3750mm.
+**协调难点与解决方案**：
+- **难点**：核心区 600 mm 组合梁与 500 mm 主送风管冲突。
+  - **解决方案**：采用腹板开孔 350 mm 的蜂窝梁，主风管穿过梁孔，消除交叉。层高由 4.0 m 降至 3.75 m，建筑总高度节省 3.75 m，并减少 2500 m² 幕墙。
+- **难点**：转换层喷淋主管与结构梁冲突。
+  - **解决方案**：通过 90°弯头绕梁改线，增加 2 m 管道长度但避免结构修改。
+- **夹层分配**：结构 600 mm（蜂窝梁 + 150 mm 楼板），设备 300 mm（梁内 100 mm + 梁下 200 mm），吊顶 15 mm。夹层总深度 715 mm；净高 2750 mm + 150 mm 架空地板；层高 3630 mm，取整为 3750 mm。
 
-### Case Study 2: 200-Bed Hospital (UK NHS)
+### 案例 2：200 床医院（英国 NHS）
 
-**Building parameters**: 4 storeys + basement. 8,000m² per floor. 7.5m structural grid. RC flat slab (275mm). Plant rooms: 10% of GFA.
+**建筑参数**：4 层 + 地下室。每层 8000 m²。7.5 m 结构网格。钢筋混凝土无梁楼板（275 mm）。机房占 GFA 的 10%。
 
-**HVAC system**: Central AHU with terminal reheat. 100% fresh air in clinical zones. Recirculation in non-clinical. Operating theatres with laminar flow canopies.
+**HVAC 系统**：中央 AHU 配末端再热。临床区域 100% 新风；非临床区域回风循环。手术室采用层流罩。
 
-**Coordination challenges and solutions**:
-- **Challenge**: 1200mm ceiling void required in general ward areas, but 3600mm floor-to-floor created excessive building height.
-  - **Solution**: Zoned void depth — 1200mm in corridor (primary distribution) tapering to 600mm at window wall (terminal only). Stepped ceiling design. Floor-to-floor maintained at 4200mm with 2700mm clear height in patient areas.
-- **Challenge**: Medical gas pipework routing conflicted with structural beam adjacent to operating theatre.
-  - **Solution**: Interstitial services zone above operating theatre suite — a full-height (1800mm) walk-in service space between the structural slab and the theatre ceiling. Allows maintenance without disrupting sterile environment below.
-- **Riser shafts**: 12 riser shafts per floor. Total riser area: 48m² (0.6% of floor area). Risers grouped into clinical (medical gases, specialist extract, CHW/LTHW) and non-clinical (electrical, data, general HVAC).
+**协调难点与解决方案**：
+- **难点**：普通病房需 1200 mm 吊顶夹层，但 3600 mm 层高导致建筑过高。
+  - **解决方案**：分区设置夹层深度——走廊（主要分配）1200 mm，向窗墙侧逐渐减至 600 mm（仅末端设备）。采用阶梯式吊顶；层高保持 4200 mm，病房净高 2700 mm。
+- **难点**：医用气体管道与手术室旁结构梁冲突。
+  - **解决方案**：在手术部上方设置设备夹层——结构楼板与手术室吊顶之间形成 1800 mm 全高可进入空间，可维护且不干扰下方无菌环境。
+- **管井**：每层 12 个，总面积 48 m²（占楼面 0.6%）。分为临床管井（医用气体、专用排风、冷冻水/低温热水）和非临床管井（电气、数据、普通 HVAC）。
 
-### Case Study 3: Mixed-Use Residential Tower (45 Storeys)
+### 案例 3：综合住宅塔楼（45 层）
 
-**Building parameters**: 45 storeys residential on 5-storey podium (retail/parking). 750m² typical floor. RC core + RC flat slab (PT). Podium: steel frame with PT slab.
+**建筑参数**：5 层裙房（零售/停车）上为 45 层住宅。标准层 750 m²。钢筋混凝土核心筒 + 钢筋混凝土预应力无梁楼板（PT）。裙房采用钢框架预应力楼板。
 
-**HVAC system**: Centralised heat pump plant at basement and roof. Individual apartment FCUs with corridors served by DOAS. Podium: VRF for retail, natural ventilation for parking.
+**HVAC 系统**：地下室和屋面设置集中热泵机房。公寓采用独立 FCU，走廊由 DOAS 服务。裙房零售采用 VRF，停车区采用自然通风。
 
-**Coordination challenges and solutions**:
-- **Challenge**: Podium grid (8.1 x 16.2m for parking) incompatible with tower grid (6.0 x 8.0m for residential).
-  - **Solution**: 1200mm deep transfer slab at Level 5. Services riser locations aligned between podium and tower — risers positioned at columns that are continuous from tower through podium.
-- **Challenge**: Residential ceiling void only 250mm, but corridor requires 400mm for fresh air ductwork.
-  - **Solution**: Bulkhead ceiling in corridors (2400mm clear) vs 2600mm clear in apartments. Ductwork in corridor ceiling feeds through apartment entrance wall to ceiling-mounted FCU.
-- **Intermediate plant floor**: Level 25 dedicated to mechanical plant. Outrigger trusses for structural bracing occupy same floor. CHW/LTHW risers sized for half-building height (22 floors above and below), reducing pipe sizes by 30% vs full-height risers.
+**协调难点与解决方案**：
+- **难点**：裙房停车网格（8.1×16.2 m）与住宅塔楼网格（6.0×8.0 m）不兼容。
+  - **解决方案**：5 层设置 1200 mm 深转换楼板。裙房与塔楼的设备管井位置对齐，将管井布置在从塔楼连续贯通裙房的柱位处。
+- **难点**：住宅吊顶夹层仅 250 mm，但走廊新风风管需要 400 mm。
+  - **解决方案**：走廊采用降板吊顶（净高 2400 mm），公寓净高 2600 mm。走廊吊顶内的风管穿过公寓入口墙连接吊顶式 FCU。
+- **中间设备层**：25 层专用于机械设备。结构抗侧的伸臂桁架也布置在该层。冷冻水/低温热水管井按半楼高（上下各 22 层）设计，相比贯通全高的管井管径减少 30%。
 
-### Case Study 4: University Science Building (4 Storeys)
+### 案例 4：大学科学楼（4 层）
 
-**Building parameters**: 4 storeys. 3,000m² per floor. 7.5 x 9.0m grid. RC beam-slab (200mm slab + 500mm beams). Mixed laboratory and teaching spaces.
+**建筑参数**：4 层，每层 3000 m²。7.5×9.0 m 网格。钢筋混凝土梁板结构（200 mm 楼板 + 500 mm 梁）。包含实验室和教学空间。
 
-**HVAC system**: VAV for laboratories (6-12 ACH). Chilled beams for teaching spaces. Central AHU plant on roof.
+**HVAC 系统**：实验室采用 VAV（6–12 ACH）；教学空间采用冷梁；屋面设置中央 AHU 机房。
 
-**Coordination challenges and solutions**:
-- **Challenge**: Laboratory fume cupboard extract ducts (400mm dia. each, 15+ fume cupboards per floor) congesting the ceiling void and risers.
-  - **Solution**: Grouped fume cupboard extract into 4 manifolded risers (800x600mm each) instead of individual duct risers. Manifolds on each floor with fire/smoke dampers. Reduced riser shaft area from 18m² to 8m² per floor.
-- **Challenge**: Structural beams at 600mm deep conflicted with 500mm main VAV supply duct.
-  - **Solution**: Rotated ductwork to run parallel to beams (not perpendicular). At crossover points, used flat oval duct sections (750x250mm equivalent to 500x400mm rectangular) to pass below beam soffit within the available 400mm zone.
-- **Void allocation**: Structure 500mm (beam), services crossing zone 200mm, primary services 500mm (parallel to beam in adjacent zone), secondary 200mm, terminals 150mm, ceiling 15mm. Effective void: 850mm (at beam) to 650mm (away from beam). Floor-to-floor: 4500mm.
+**协调难点与解决方案**：
+- **难点**：实验室通风柜排风管（每根直径 400 mm，每层 15 个以上通风柜）使吊顶夹层和管井拥挤。
+  - **解决方案**：将通风柜排风汇入 4 个总管井（每个 800×600 mm），而非分别设置风管井。每层设置汇流管和防火/排烟阀。管井面积由每层 18 m² 降至 8 m²。
+- **难点**：600 mm 深结构梁与 500 mm 主 VAV 送风管冲突。
+  - **解决方案**：将风管旋转为与梁平行（而非垂直）布置。在交叉处采用扁椭圆风管（750×250 mm，相当于 500×400 mm 矩形风管），在可用 400 mm 空间内穿过梁底。
+- **夹层分配**：结构 500 mm（梁）、设备交叉区 200 mm、主要设备 500 mm（相邻区与梁平行）、次级设备 200 mm、末端 150 mm、吊顶 15 mm。有效夹层从梁处 850 mm 至远离梁处 650 mm；层高 4500 mm。
 
-### Case Study 5: Retail Shopping Centre Refurbishment
+### 案例 5：购物中心改造
 
-**Building parameters**: Existing 2-storey shopping centre, 1970s construction. RC frame, 10m grid. Adding new food court and cinema on existing roof.
+**建筑参数**：既有 2 层购物中心，建于 20 世纪 70 年代。钢筋混凝土框架，10 m 网格。在既有屋面增加美食广场和电影院。
 
-**Coordination challenges and solutions**:
-- **Challenge**: Existing ceiling void only 300mm (original natural ventilation design). New food court requires 600mm void for kitchen extract and fresh air supply.
-  - **Solution**: Dropped bulkhead ceilings over service corridors (2400mm clear height) carrying primary distribution. Exposed services in dining areas as architectural feature. New extract ductwork (800x500mm) routed through structural penetrations cored through existing beams (with structural engineer approval and carbon fibre reinforcement to beams).
-- **Challenge**: Existing building has no sprinkler system. New use requires sprinklers.
-  - **Solution**: Surface-mounted sprinkler mains on existing soffit (painted to match). Concealed pendant heads through new ceiling tiles. Sprinkler tank and pump in new rooftop plant room on structural steel platform above existing roof slab.
+**协调难点与解决方案**：
+- **难点**：既有吊顶夹层仅 300 mm（原自然通风设计），新增美食广场需要 600 mm 夹层容纳厨房排风和新风。
+  - **解决方案**：在设备走廊上方设置降板吊顶（净高 2400 mm）容纳主要设备管线；餐饮区将设备管线外露作为建筑特色。新排风管（800×500 mm）通过既有梁的结构开孔敷设，经结构工程师批准并对梁采用碳纤维加固。
+- **难点**：既有建筑没有喷淋系统，而新用途要求设置喷淋。
+  - **解决方案**：在既有楼板底明装喷淋主管并涂装匹配；新吊顶板内设置隐藏式下垂喷头。喷淋水箱和水泵设于新屋面机房内，机房位于既有屋面楼板上方的钢结构平台。

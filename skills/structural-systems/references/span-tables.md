@@ -1,30 +1,30 @@
-# Span Tables: Comprehensive Reference
+# 跨度表：综合参考
 
-This reference provides practitioner-grade span tables for all common structural elements, organised by material. Data is compiled from the Steel Construction Institute (SCI), The Concrete Centre, TRADA (Timber Research and Development Association), AISC Steel Construction Manual, and Eurocode design guides.
+本参考按材料整理了常见结构构件的专业跨度表。数据汇编自Steel Construction Institute（SCI）、The Concrete Centre、TRADA（Timber Research and Development Association）、AISC Steel Construction Manual及Eurocode设计指南。
 
-All spans assume normal occupancy imposed loads unless otherwise stated. Depths are overall structural depths. Self-weights are approximate for preliminary design.
+除非另有说明，所有跨度均假定为正常使用功能的可变荷载。高度为结构总高度，自重为初步设计估算值。
 
 ---
 
-## 1. Concrete Elements
+## 1. 混凝土构件
 
-### 1.1 One-Way Solid RC Slab
+### 1.1 单向实心钢筋混凝土楼板
 
-| Span (m) | Min. Depth — Simply Supported (mm) | Min. Depth — Continuous (mm) | Self-Weight (kN/m²) | Imposed Load Capacity (kN/m²) | Fire Rating (minutes) |
+| 跨度（m） | 最小高度——简支（mm） | 最小高度——连续（mm） | 自重（kN/m²） | 可变荷载承载力（kN/m²） | 耐火时间（分钟） |
 |---|---|---|---|---|---|
-| 3.0 | 110 | 100 | 2.6-2.5 | 5.0 | 60 (20mm cover) |
-| 4.0 | 150 | 125 | 3.6-3.0 | 5.0 | 90 (30mm cover) |
+| 3.0 | 110 | 100 | 2.6-2.5 | 5.0 | 60（保护层20mm）|
+| 4.0 | 150 | 125 | 3.6-3.0 | 5.0 | 90（保护层30mm）|
 | 5.0 | 180 | 160 | 4.3-3.8 | 5.0 | 90 |
-| 6.0 | 215 | 190 | 5.2-4.6 | 5.0 | 120 (40mm cover) |
+| 6.0 | 215 | 190 | 5.2-4.6 | 5.0 | 120（保护层40mm）|
 | 7.0 | 250 | 220 | 6.0-5.3 | 5.0 | 120 |
 | 8.0 | 290 | 250 | 7.0-6.0 | 5.0 | 120 |
 
-**Typical applications**: Residential floors, corridor slabs, balconies, short-span office floors.
-**Notes**: Continuous spans allow 10-15% thinner slabs. Add 20-30mm for 4-hour fire rating. Self-weight based on 24 kN/m³ concrete density.
+**典型应用：**住宅楼板、走廊楼板、阳台和短跨度办公楼板。
+**说明：**连续跨可使楼板薄10-15%。达到4小时耐火极限时增加20-30mm。自重按混凝土密度24 kN/m³计算。
 
-### 1.2 Two-Way Solid RC Slab
+### 1.2 双向实心钢筋混凝土楼板
 
-| Shorter Span (m) | Min. Depth — Simply Supported (mm) | Min. Depth — Continuous (mm) | Self-Weight (kN/m²) | Imposed Load (kN/m²) |
+| 短跨（m） | 最小高度——简支（mm） | 最小高度——连续（mm） | 自重（kN/m²） | 可变荷载（kN/m²） |
 |---|---|---|---|---|
 | 4.0 | 125 | 100 | 3.0-2.4 | 5.0 |
 | 5.0 | 150 | 125 | 3.6-3.0 | 5.0 |
@@ -32,11 +32,11 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 7.0 | 215 | 175 | 5.2-4.2 | 5.0 |
 | 8.0 | 245 | 200 | 5.9-4.8 | 5.0 |
 
-**Typical applications**: Residential, offices with square/near-square bays. Aspect ratio (long/short span) should be ≤2.0 for effective two-way action.
+**典型应用：**住宅及方形/近方形柱网的办公建筑。为实现有效双向受力，长跨与短跨之比应≤2.0。
 
-### 1.3 RC Flat Slab (No Beams)
+### 1.3 钢筋混凝土无梁楼板
 
-| Span (m) | Min. Depth (mm) | With Drop Panels (mm) | Self-Weight (kN/m²) | Imposed Load (kN/m²) |
+| 跨度（m） | 最小高度（mm） | 设柱帽（mm） | 自重（kN/m²） | 可变荷载（kN/m²） |
 |---|---|---|---|---|
 | 5.0 | 200 | 175 | 4.8-4.2 | 5.0 |
 | 6.0 | 225 | 200 | 5.4-4.8 | 5.0 |
@@ -45,26 +45,26 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 10.0 | 350 | 325 | 8.4-7.8 | 5.0 |
 | 12.0 | 425 | 400 | 10.2-9.6 | 5.0 |
 
-**Typical applications**: Multi-storey offices, residential, car parks. Most common RC floor system.
-**Notes**: Punching shear governs column sizing. Drop panels (50-100mm deeper, 1.5-2.5m square) add weight but reduce slab depth and punching shear stress.
+**典型应用：**多层办公、住宅和停车库，是最常见的钢筋混凝土楼盖体系。
+**说明：**柱的尺寸由冲切控制。柱帽（深50-100mm、边长1.5-2.5m）会增加重量，但可减小楼板厚度和冲切应力。
 
-### 1.4 Post-Tensioned Flat Slab
+### 1.4 后张预应力无梁楼板
 
-| Span (m) | Min. Depth (mm) | Self-Weight (kN/m²) | Imposed Load (kN/m²) | Saving vs RC Flat Slab |
+| 跨度（m） | 最小高度（mm） | 自重（kN/m²） | 可变荷载（kN/m²） | 相比钢筋混凝土无梁楼板的节省 |
 |---|---|---|---|---|
-| 7.5 | 200 | 4.8 | 5.0 | 75mm thinner |
-| 9.0 | 240 | 5.8 | 5.0 | 85mm thinner |
-| 10.0 | 260 | 6.2 | 5.0 | 90mm thinner |
-| 12.0 | 300 | 7.2 | 5.0 | 125mm thinner |
+| 7.5 | 200 | 4.8 | 5.0 | 薄75mm |
+| 9.0 | 240 | 5.8 | 5.0 | 薄85mm |
+| 10.0 | 260 | 6.2 | 5.0 | 薄90mm |
+| 12.0 | 300 | 7.2 | 5.0 | 薄125mm |
 | 14.0 | 350 | 8.4 | 5.0 | — |
 | 16.0 | 400 | 9.6 | 3.5 | — |
 
-**Typical applications**: Long-span offices, car parks (16.2m double-bay), hospitals, airports.
-**Notes**: 15-25% thinner than RC flat slab at equivalent span. Tendons restrict penetration locations — coordinate early.
+**典型应用：**大跨度办公、停车库（16.2m双车位）、医院和机场。
+**说明：**在相同跨度下比普通钢筋混凝土无梁楼板薄15-25%。预应力筋限制洞口位置，必须尽早协调。
 
-### 1.5 RC Beam (Rectangular)
+### 1.5 钢筋混凝土梁（矩形）
 
-| Span (m) | Depth — Simply Supported (mm) | Depth — Continuous (mm) | Typical Width (mm) | Self-Weight (kN/m) |
+| 跨度（m） | 高度——简支（mm） | 高度——连续（mm） | 典型宽度（mm） | 自重（kN/m） |
 |---|---|---|---|---|
 | 6.0 | 500 | 350 | 300 | 3.6-2.5 |
 | 8.0 | 650 | 450 | 300-350 | 4.7-3.8 |
@@ -72,11 +72,11 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 12.0 | 1000 | 700 | 400-450 | 9.6-7.6 |
 | 15.0 | 1250 | 850 | 450-500 | 13.5-10.2 |
 
-**Typical applications**: Supporting slab panels in beam-slab systems. Transfer beams. Edge beams for facade support.
+**典型应用：**梁板体系中的楼板支承梁、转换梁和支承立面的边梁。
 
-### 1.6 Waffle Slab (Two-Way Ribbed)
+### 1.6 密肋楼板（双向肋）
 
-| Span (m) | Overall Depth (mm) | Rib Width (mm) | Rib Spacing (mm) | Topping (mm) | Self-Weight (kN/m²) |
+| 跨度（m） | 总高度（mm） | 肋宽（mm） | 肋间距（mm） | 面层（mm） | 自重（kN/m²） |
 |---|---|---|---|---|---|
 | 8.0 | 275 | 125 | 900 | 75 | 3.8 |
 | 10.0 | 350 | 150 | 900 | 100 | 4.8 |
@@ -84,31 +84,31 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 14.0 | 475 | 175 | 1200 | 100 | 5.8 |
 | 16.0 | 525 | 200 | 1200 | 125 | 6.5 |
 
-**Typical applications**: Public buildings with exposed soffits (libraries, galleries, airports). Square or near-square bays.
+**典型应用：**底面外露的公共建筑（图书馆、展廊、机场），以及方形或近方形柱网。
 
 ---
 
-## 2. Steel Elements
+## 2. 钢构件
 
-### 2.1 Universal Beams (UB) — Simply Supported
+### 2.1 普通工字钢梁（UB）——简支
 
-| Span (m) | Min. Section | Section Depth (mm) | Self-Weight (kg/m) | Imposed Load Capacity (kN/m²) at 3m spacing | Fire Protection Required |
+| 跨度（m） | 最小截面 | 截面高度（mm） | 自重（kg/m） | 3m间距时的可变荷载承载力（kN/m²） | 所需防火保护 |
 |---|---|---|---|---|---|
-| 6.0 | 305x165UB40 | 303 | 40.3 | 5.0 | Yes (intumescent/board) |
-| 7.5 | 356x171UB45 | 352 | 45.0 | 5.0 | Yes |
-| 9.0 | 457x152UB52 | 449 | 52.0 | 5.0 | Yes |
-| 10.5 | 457x191UB67 | 454 | 67.1 | 5.0 | Yes |
-| 12.0 | 533x210UB82 | 528 | 82.2 | 5.0 | Yes |
-| 14.0 | 610x229UB101 | 602 | 101.2 | 5.0 | Yes |
-| 16.0 | 686x254UB125 | 678 | 125.2 | 5.0 | Yes |
-| 18.0 | 762x267UB147 | 754 | 147.0 | 4.0 | Yes |
-| 20.0 | 762x267UB197 | 770 | 197.0 | 4.0 | Yes |
+| 6.0 | 305x165UB40 | 303 | 40.3 | 5.0 | 是（膨胀型涂料/板材）|
+| 7.5 | 356x171UB45 | 352 | 45.0 | 5.0 | 是 |
+| 9.0 | 457x152UB52 | 449 | 52.0 | 5.0 | 是 |
+| 10.5 | 457x191UB67 | 454 | 67.1 | 5.0 | 是 |
+| 12.0 | 533x210UB82 | 528 | 82.2 | 5.0 | 是 |
+| 14.0 | 610x229UB101 | 602 | 101.2 | 5.0 | 是 |
+| 16.0 | 686x254UB125 | 678 | 125.2 | 5.0 | 是 |
+| 18.0 | 762x267UB147 | 754 | 147.0 | 4.0 | 是 |
+| 20.0 | 762x267UB197 | 770 | 197.0 | 4.0 | 是 |
 
-**Notes**: Sections based on S355 steel grade. Deflection (L/360) typically governs for spans above 10m. Self-weight includes steel beam only, not slab.
+**说明：**截面按S355钢材等级计算。跨度超过10m时通常由挠度（L/360）控制。自重仅包含钢梁，不含楼板。
 
-### 2.2 Composite Beams (Steel UB + Metal Deck Slab)
+### 2.2 组合梁（钢UB梁+压型钢板楼板）
 
-| Span (m) | Secondary Beam Section | Primary Beam Section | Deck + Slab Depth (mm) | Total Structural Depth (mm) | Imposed Load (kN/m²) |
+| 跨度（m） | 次梁截面 | 主梁截面 | 压型钢板+楼板高度（mm） | 结构总高度（mm） | 可变荷载（kN/m²） |
 |---|---|---|---|---|---|
 | 6.0 | 254x146UB31 | 356x171UB45 | 130 | 384-482 | 5.0 |
 | 7.5 | 305x165UB40 | 406x178UB54 | 130 | 433-536 | 5.0 |
@@ -118,12 +118,12 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 15.0 | 533x210UB82 | 686x254UB125 | 150 | 678-828 | 4.0 |
 | 18.0 | 610x229UB101 | 762x267UB147 | 150 | 752-904 | 3.5 |
 
-**Typical applications**: Commercial offices (UK standard). Secondary beams at 3.0-3.6m centres span onto primary beams.
-**Notes**: Metal deck spans 2.7-3.6m unpropped. Total depth = slab depth + beam depth (secondary governs floor-to-floor). Web openings in beams can reduce effective depth by accommodating services.
+**典型应用：**商业办公（英国标准）。次梁按3.0-3.6m中心间距布置并跨接到主梁上。
+**说明：**压型钢板无支撑跨度为2.7-3.6m。总高度=楼板高度+梁高（次梁控制层高）。梁腹开洞可容纳设备管线，从而降低有效结构高度。
 
-### 2.3 Cellular Beams (with Circular Web Openings)
+### 2.3 蜂窝梁（圆形腹板开洞）
 
-| Span (m) | Beam Depth (mm) | Opening Diameter (mm) | Opening Spacing (mm) | Self-Weight (kg/m) | Imposed Load (kN/m²) |
+| 跨度（m） | 梁高（mm） | 洞口直径（mm） | 洞口间距（mm） | 自重（kg/m） | 可变荷载（kN/m²） |
 |---|---|---|---|---|---|
 | 9.0 | 450-500 | 300 | 450 | 40-55 | 5.0 |
 | 12.0 | 550-650 | 375 | 550 | 55-75 | 5.0 |
@@ -131,22 +131,22 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 18.0 | 800-950 | 550 | 800 | 90-125 | 3.5 |
 | 21.0 | 950-1100 | 650 | 950 | 110-150 | 3.0 |
 
-**Typical applications**: Long-span offices where services integration through beam web is required. Reduces overall floor construction depth by 150-300mm compared to downstand beams with separate service zone.
+**典型应用：**需要设备穿过梁腹的大跨度办公建筑。与设独立设备空间的下挂梁相比，可将楼层构造总高度降低150-300mm。
 
-### 2.4 Castellated Beams
+### 2.4 蜂窝式开孔梁
 
-| Span (m) | Beam Depth (mm) | Opening Height (mm) | Self-Weight (kg/m) | Imposed Load (kN/m²) |
+| 跨度（m） | 梁高（mm） | 洞口高度（mm） | 自重（kg/m） | 可变荷载（kN/m²） |
 |---|---|---|---|---|
 | 9.0 | 450-550 | 300 | 35-50 | 5.0 |
 | 12.0 | 600-700 | 400 | 50-70 | 5.0 |
 | 15.0 | 700-850 | 475 | 65-90 | 4.0 |
 | 18.0 | 850-1000 | 575 | 85-115 | 3.5 |
 
-**Notes**: Castellated beams have hexagonal openings formed by splitting and re-welding a UB. Less flexible than cellular beams for services routing but slightly cheaper.
+**说明：**蜂窝式开孔梁通过切开并重新焊接UB梁形成六边形开洞。其设备路线灵活性低于圆孔蜂窝梁，但成本略低。
 
-### 2.5 Steel Trusses
+### 2.5 钢桁架
 
-| Span (m) | Truss Depth (mm) | Top Chord (typical) | Bottom Chord (typical) | Diagonals (typical) | Self-Weight (kg/m²) |
+| 跨度（m） | 桁架高度（mm） | 上弦杆（典型） | 下弦杆（典型） | 腹杆（典型） | 自重（kg/m²） |
 |---|---|---|---|---|---|
 | 15.0 | 1000-1500 | 150x150x8 SHS | 150x150x8 SHS | 100x100x6 SHS | 15-25 |
 | 20.0 | 1500-2000 | 200x200x10 SHS | 200x200x10 SHS | 120x120x8 SHS | 20-35 |
@@ -154,26 +154,26 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 40.0 | 3000-4000 | 300x300x16 SHS | 300x300x16 SHS | 200x200x12 SHS | 40-70 |
 | 60.0 | 4000-6000 | 350x350x16 SHS | 350x350x16 SHS | 250x250x12 SHS | 55-90 |
 
-**Typical applications**: Exhibition halls, sports halls, airports, industrial buildings, long-span roofs.
+**典型应用：**展览馆、体育馆、机场、工业建筑和大跨度屋盖。
 
-### 2.6 Plate Girders
+### 2.6 板梁
 
-| Span (m) | Overall Depth (mm) | Flange Width (mm) | Flange Thickness (mm) | Web Thickness (mm) | Self-Weight (kg/m) |
+| 跨度（m） | 总高度（mm） | 翼缘宽度（mm） | 翼缘厚度（mm） | 腹板厚度（mm） | 自重（kg/m） |
 |---|---|---|---|---|---|
 | 15.0 | 1000-1250 | 300-400 | 20-30 | 10-12 | 150-250 |
 | 20.0 | 1350-1650 | 350-450 | 25-40 | 12-16 | 250-400 |
 | 25.0 | 1700-2100 | 400-500 | 30-50 | 14-20 | 400-600 |
 | 30.0 | 2000-2500 | 450-600 | 35-60 | 16-25 | 550-850 |
 
-**Typical applications**: Bridge structures, transfer beams, heavy industrial, crane girders.
+**典型应用：**桥梁结构、转换梁、重型工业建筑和起重机梁。
 
 ---
 
-## 3. Timber Elements
+## 3. 木构件
 
-### 3.1 Glulam Beams (GL24h to GL32h)
+### 3.1 胶合木梁（GL24h至GL32h）
 
-| Span (m) | Depth — Simply Supported (mm) | Depth — Continuous (mm) | Width (mm) | Self-Weight (kg/m) | Imposed Load (kN/m²) at 3m spacing |
+| 跨度（m） | 高度——简支（mm） | 高度——连续（mm） | 宽度（mm） | 自重（kg/m） | 3m间距时的可变荷载（kN/m²） |
 |---|---|---|---|---|---|
 | 5.0 | 300 | 250 | 140-180 | 18-24 | 3.0 |
 | 6.0 | 360 | 300 | 160-200 | 25-32 | 3.0 |
@@ -182,24 +182,24 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 12.0 | 720 | 600 | 220-280 | 70-88 | 2.5 |
 | 15.0 | 900 | 750 | 240-300 | 94-118 | 2.5 |
 
-**Notes**: Glulam density approximately 430-500 kg/m³ (GL24h-GL32h). Deflection typically governs design for spans above 8m. Lateral bracing required at compression flange.
+**说明：**胶合木密度约430-500 kg/m³（GL24h-GL32h）。跨度超过8m时通常由挠度控制设计。受压翼缘需要设置侧向支撑。
 
-### 3.2 CLT Floor Panels
+### 3.2 CLT楼板
 
-| Span (m) | Panel Thickness (mm) | Number of Plies | Self-Weight (kN/m²) | Imposed Load (kN/m²) | Vibration Limit |
+| 跨度（m） | 板厚（mm） | 层数 | 自重（kN/m²） | 可变荷载（kN/m²） | 振动限值 |
 |---|---|---|---|---|---|
-| 3.5 | 100 (3-ply) | 3 | 0.5 | 3.0 | OK |
-| 4.5 | 140 (5-ply) | 5 | 0.7 | 3.0 | OK |
-| 5.5 | 160 (5-ply) | 5 | 0.8 | 3.0 | Check vibration |
-| 6.5 | 200 (7-ply) | 7 | 1.0 | 3.0 | Check vibration |
-| 7.5 | 240 (7-ply) | 7 | 1.2 | 2.5 | Vibration-critical |
-| 8.5 | 280 (9-ply) | 9 | 1.4 | 2.5 | Vibration-critical |
+| 3.5 | 100（3层） | 3 | 0.5 | 3.0 | 合格 |
+| 4.5 | 140（5层） | 5 | 0.7 | 3.0 | 合格 |
+| 5.5 | 160（5层） | 5 | 0.8 | 3.0 | 需检查振动 |
+| 6.5 | 200（7层） | 7 | 1.0 | 3.0 | 需检查振动 |
+| 7.5 | 240（7层） | 7 | 1.2 | 2.5 | 振动控制关键 |
+| 8.5 | 280（9层） | 9 | 1.4 | 2.5 | 振动控制关键 |
 
-**Notes**: CLT density approximately 480-520 kg/m³. Vibration performance is typically the limiting factor for spans above 5m. Concrete topping (50-80mm) significantly improves vibration and acoustic performance. Maximum panel width: 3.0-3.5m. Maximum panel length: 13-16m.
+**说明：**CLT密度约480-520 kg/m³。跨度超过5m时，振动性能通常成为控制因素。混凝土面层（50-80mm）可显著改善振动和隔声性能。板材最大宽度3.0-3.5m，最大长度13-16m。
 
-### 3.3 LVL (Laminated Veneer Lumber) Beams
+### 3.3 LVL（单板层积材）梁
 
-| Span (m) | Depth (mm) | Width (mm) | Self-Weight (kg/m) | Imposed Load (kN/m²) at 600mm spacing |
+| 跨度（m） | 高度（mm） | 宽度（mm） | 自重（kg/m） | 600mm间距时的可变荷载（kN/m²） |
 |---|---|---|---|---|
 | 4.0 | 200 | 45-90 | 5-9 | 2.0 |
 | 5.0 | 240 | 45-90 | 6-10 | 2.0 |
@@ -208,11 +208,11 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 9.0 | 450 | 90-126 | 19-27 | 2.0 |
 | 12.0 | 600 | 90-126 | 26-36 | 1.5 |
 
-**Notes**: LVL density approximately 480-530 kg/m³. Higher bending strength than glulam (typically 40-50 N/mm² vs 24-32 N/mm²). Available in long lengths (up to 25m). Typically used as beams, not panels (though LVL panels exist, e.g., Kerto-Q).
+**说明：**LVL密度约480-530 kg/m³。弯曲强度高于胶合木（通常为40-50 N/mm²，而胶合木为24-32 N/mm²）。可提供长尺寸（最长25m）。通常用作梁而非板材（但也有LVL板材，例如Kerto-Q）。
 
-### 3.4 Timber I-Joists
+### 3.4 木工字搁栅
 
-| Span (m) | Overall Depth (mm) | Flange Width (mm) | Web Thickness (mm) | Self-Weight (kg/m) | Imposed Load (kN/m²) at 400mm spacing |
+| 跨度（m） | 总高度（mm） | 翼缘宽度（mm） | 腹板厚度（mm） | 自重（kg/m） | 400mm间距时的可变荷载（kN/m²） |
 |---|---|---|---|---|---|
 | 3.0 | 200 | 47-89 | 9.5 | 2.5-3.5 | 2.5 |
 | 4.0 | 240 | 47-89 | 9.5 | 3.0-4.0 | 2.5 |
@@ -220,11 +220,11 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 6.0 | 360 | 63-89 | 9.5 | 4.0-5.5 | 2.0 |
 | 7.5 | 400 | 89 | 11.1 | 5.0-6.5 | 1.5 |
 
-**Typical applications**: Domestic floors and flat roofs. Lightweight, easy to handle. OSB or plywood web. Services can pass through pre-punched web openings (subject to manufacturer guidance).
+**典型应用：**住宅楼板和平屋面。重量轻、易于搬运，腹板采用OSB或胶合板。设备管线可穿过预制腹板洞口（须遵循制造商指南）。
 
-### 3.5 Sawn Timber Joists (C16/C24)
+### 3.5 锯材木搁栅（C16/C24）
 
-| Span (m) | Depth (mm) | Width (mm) | Spacing (mm) | Self-Weight (kg/m) | Imposed Load (kN/m²) |
+| 跨度（m） | 高度（mm） | 宽度（mm） | 间距（mm） | 自重（kg/m） | 可变荷载（kN/m²） |
 |---|---|---|---|---|---|
 | 2.5 | 150 | 47 | 400 | 3.1 | 1.5 |
 | 3.0 | 175 | 47 | 400 | 3.6 | 1.5 |
@@ -233,15 +233,15 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 4.5 | 225 | 63 | 400 | 6.2 | 1.5 |
 | 5.0 | 250 | 63 | 400 | 6.8 | 1.5 |
 
-**Typical applications**: Domestic construction (houses, low-rise residential). Maximum practical span approximately 5.5m for C24 grade at 400mm centres.
+**典型应用：**住宅建造（独立住宅、低层住宅）。C24等级、中心间距400mm时，实际最大跨度约5.5m。
 
 ---
 
-## 4. Precast Concrete Elements
+## 4. 预制混凝土构件
 
-### 4.1 Hollowcore Planks
+### 4.1 空心板
 
-| Plank Depth (mm) | Span at 2.5 kN/m² IL (m) | Span at 5.0 kN/m² IL (m) | Span at 7.5 kN/m² IL (m) | Self-Weight (kN/m²) | Fire Rating (min) |
+| 板厚（mm） | 2.5 kN/m²可变荷载时跨度（m） | 5.0 kN/m²可变荷载时跨度（m） | 7.5 kN/m²可变荷载时跨度（m） | 自重（kN/m²） | 耐火时间（分钟） |
 |---|---|---|---|---|---|
 | 150 | 6.5 | 5.5 | 4.5 | 2.4 | 60 |
 | 200 | 9.5 | 8.0 | 7.0 | 3.2 | 90 |
@@ -251,11 +251,11 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 400 | 16.0 | 14.0 | 12.0 | 5.0 | 120 |
 | 500 | 18.0 | 16.0 | 14.0 | 5.8 | 120 |
 
-**Notes**: Standard width 1200mm. Concrete grade C45/55 minimum. Strands: 7-wire pre-stressing tendons, typically 9.3mm or 12.5mm diameter. Structural topping of 50-75mm often added for diaphragm action and level surface. Maximum weight per plank typically limited to 10 tonnes for transport/crane capacity.
+**说明：**标准宽度1200mm，混凝土最低等级C45/55。钢绞线采用7丝预应力筋，直径通常为9.3mm或12.5mm。通常增加50-75mm结构面层以形成水平隔板并提供平整表面。考虑运输和吊装能力，每块板重量通常限制在10吨以内。
 
-### 4.2 Precast Double-Tee Units
+### 4.2 预制双T板
 
-| Unit Depth (mm) | Span at 2.5 kN/m² IL (m) | Span at 5.0 kN/m² IL (m) | Flange Width (mm) | Stem Width (mm) | Self-Weight (kN/m²) |
+| 构件高度（mm） | 2.5 kN/m²可变荷载时跨度（m） | 5.0 kN/m²可变荷载时跨度（m） | 翼缘宽度（mm） | 腹杆宽度（mm） | 自重（kN/m²） |
 |---|---|---|---|---|---|
 | 400 | 15 | 12 | 2400 | 150 | 3.5 |
 | 500 | 18 | 15 | 2400 | 150 | 4.0 |
@@ -263,34 +263,34 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 800 | 25 | 21 | 2400 | 200 | 5.5 |
 | 1000 | 28 | 24 | 2400 | 225 | 6.5 |
 
-**Typical applications**: Car park structures, retail floors, industrial buildings. Flange thickness typically 50-75mm. Pre-stressed with pre-tensioned strands. Maximum weight per unit approximately 15-20 tonnes.
+**典型应用：**停车库结构、零售楼层和工业建筑。翼缘厚度通常为50-75mm，采用先张法预应力钢绞线。每块构件最大重量约15-20吨。
 
-### 4.3 Precast Beams
+### 4.3 预制梁
 
-| Beam Type | Span Range (m) | Depth Range (mm) | Width (mm) | Self-Weight (kN/m) | Fire Rating |
+| 梁类型 | 跨度范围（m） | 高度范围（mm） | 宽度（mm） | 自重（kN/m） | 耐火时间 |
 |---|---|---|---|---|---|
-| Rectangular (standard) | 6-12 | 400-900 | 300-500 | 2.9-10.8 | 60-120 min |
-| Inverted-T (floor support) | 6-16 | 500-1200 | 300-600 (web), 600-900 (flange) | 4.0-14.4 | 60-120 min |
-| L-beam (edge) | 6-16 | 500-1200 | 300-500 (web), 300-450 (flange) | 3.5-12.0 | 60-120 min |
-| Spandrel beam (facade) | 4-10 | 800-2500 (storey-height) | 200-400 | 3.8-24.0 | 60-120 min |
+| 矩形梁（标准） | 6-12 | 400-900 | 300-500 | 2.9-10.8 | 60-120 min |
+| 倒T形梁（楼板支承） | 6-16 | 500-1200 | 300-600（腹板），600-900（翼缘） | 4.0-14.4 | 60-120 min |
+| L形梁（边梁） | 6-16 | 500-1200 | 300-500（腹板），300-450（翼缘） | 3.5-12.0 | 60-120 min |
+| 窗间墙梁（立面） | 4-10 | 800-2500（层高） | 200-400 | 3.8-24.0 | 60-120 min |
 
 ---
 
-## 5. Composite and Specialist Elements
+## 5. 组合及专用构件
 
-### 5.1 Slim-Floor / ASB (Asymmetric Steel Beam)
+### 5.1 薄楼板/ASB（非对称钢梁）
 
-| Span (m) | ASB Depth (mm) | Slab Type | Total Floor Depth (mm) | Self-Weight (kN/m²) | Imposed Load (kN/m²) |
+| 跨度（m） | ASB高度（mm） | 楼板类型 | 楼层总高度（mm） | 自重（kN/m²） | 可变荷载（kN/m²） |
 |---|---|---|---|---|---|
-| 6.0 | 280 | Precast hollowcore | 280-300 | 3.5 | 5.0 |
-| 7.5 | 300 | Precast hollowcore | 300-320 | 4.0 | 5.0 |
-| 9.0 | 340 | Precast hollowcore | 340-360 | 4.5 | 5.0 |
+| 6.0 | 280 | 预制空心板 | 280-300 | 3.5 | 5.0 |
+| 7.5 | 300 | 预制空心板 | 300-320 | 4.0 | 5.0 |
+| 9.0 | 340 | 预制空心板 | 340-360 | 4.5 | 5.0 |
 
-**Typical applications**: Residential, hotels, car parks — where minimum structural depth is critical. Steel beam is hidden within slab depth.
+**典型应用：**住宅、酒店和停车库等对最小结构高度要求严格的项目。钢梁隐藏在楼板厚度内。
 
-### 5.2 Timber-Concrete Composite (TCC)
+### 5.2 木-混凝土组合结构（TCC）
 
-| Span (m) | Timber Element | Timber Depth (mm) | Concrete Topping (mm) | Total Depth (mm) | Self-Weight (kN/m²) |
+| 跨度（m） | 木构件 | 木材高度（mm） | 混凝土面层（mm） | 总高度（mm） | 自重（kN/m²） |
 |---|---|---|---|---|---|
 | 5.0 | CLT 140mm | 140 | 60 | 200 | 2.1 |
 | 6.0 | CLT 160mm | 160 | 70 | 230 | 2.5 |
@@ -298,65 +298,65 @@ All spans assume normal occupancy imposed loads unless otherwise stated. Depths 
 | 9.0 | Glulam 360mm + CLT 100mm | 460 (ribs) | 70 | 530 (at rib) | 2.4 |
 | 10.0 | Glulam 450mm + CLT 100mm | 550 (ribs) | 70 | 620 (at rib) | 2.6 |
 
-**Notes**: Shear connection between timber and concrete is critical. Options: inclined screws (Rothoblaas HBV), notched connections, glued-in steel plates. TCC significantly improves acoustic and vibration performance vs bare CLT.
+**说明：**木材与混凝土之间的抗剪连接至关重要。可采用斜螺钉（Rothoblaas HBV）、槽口连接或胶粘钢板。与裸露CLT相比，TCC可显著改善隔声和振动性能。
 
-### 5.3 Profiled Metal Deck (Composite Floor)
+### 5.3 压型钢板（组合楼板）
 
-| Deck Profile Depth (mm) | Unpropped Span (m) | Propped Span (m) | Slab Depth Including Deck (mm) | Self-Weight (kN/m²) |
+| 压型钢板高度（mm） | 无支撑跨度（m） | 有支撑跨度（m） | 含压型钢板的楼板高度（mm） | 自重（kN/m²） |
 |---|---|---|---|---|
 | 51 (TR60+, ComFlor 51) | 2.7-3.0 | 3.6-4.5 | 120-150 | 2.2-2.8 |
 | 60 (TR80+, ComFlor 60) | 3.0-3.6 | 4.0-5.0 | 130-170 | 2.4-3.2 |
 | 80 (ComFlor 80) | 3.6-4.5 | 4.5-6.0 | 150-200 | 2.8-3.8 |
 
-**Notes**: Metal deck acts as permanent formwork and tension reinforcement. Mesh reinforcement in topping for fire and shrinkage. Through-deck welded shear studs (19mm dia. x 100mm) connect slab to steel beams.
+**说明：**压型钢板兼作永久模板和受拉钢筋。面层设置钢筋网以应对防火和收缩。穿板焊接抗剪栓钉（直径19mm x 100mm）将楼板与钢梁连接。
 
 ---
 
-## 6. Quick Reference: Floor-to-Floor Height Estimation
+## 6. 快速参考：层高估算
 
-### 6.1 Residential Building (6m span, RC flat slab)
-| Component | Depth (mm) |
+### 6.1 住宅建筑（6m跨度，钢筋混凝土无梁楼板）
+| 构成 | 高度（mm） |
 |---|---|
-| RC flat slab | 225 |
-| Ceiling void (services) | 200 |
-| Ceiling finish | 15 |
-| Floor finish (screed + carpet) | 75 |
-| Clear room height | 2500 |
-| **Total floor-to-floor** | **3015 → 3100mm** |
+| 钢筋混凝土无梁楼板 | 225 |
+| 吊顶空间（设备） | 200 |
+| 吊顶饰面 | 15 |
+| 楼面饰面（找平层+地毯） | 75 |
+| 房间净高 | 2500 |
+| **总层高** | **3015 → 3100mm** |
 
-### 6.2 Commercial Office (9m span, composite steel)
-| Component | Depth (mm) |
+### 6.2 商业办公（9m跨度，钢组合结构）
+| 构成 | 高度（mm） |
 |---|---|
-| Composite slab (150mm) + steel beam (450mm) | 600 |
-| Services below beam | 200 |
-| Ceiling tile | 15 |
-| Raised access floor | 150 |
-| Clear room height | 2750 |
-| **Total floor-to-floor** | **3715 → 3750-4000mm** |
+| 组合楼板（150mm）+钢梁（450mm） | 600 |
+| 梁下设备空间 | 200 |
+| 吊顶板 | 15 |
+| 架空活动地板 | 150 |
+| 房间净高 | 2750 |
+| **总层高** | **3715 → 3750-4000mm** |
 
-### 6.3 Hospital (7.5m span, RC beam-slab)
-| Component | Depth (mm) |
+### 6.3 医院（7.5m跨度，钢筋混凝土梁板）
+| 构成 | 高度（mm） |
 |---|---|
-| RC slab (200mm) + beam (600mm) | 600 |
-| Ceiling void (services — extensive) | 800 |
-| Ceiling tile | 15 |
-| Floor finish (vinyl on screed) | 75 |
-| Clear room height | 2700 |
-| **Total floor-to-floor** | **4190 → 4200-4500mm** |
+| 钢筋混凝土楼板（200mm）+梁（600mm） | 600 |
+| 吊顶空间（设备密集） | 800 |
+| 吊顶板 | 15 |
+| 楼面饰面（找平层上铺乙烯基地板） | 75 |
+| 房间净高 | 2700 |
+| **总层高** | **4190 → 4200-4500mm** |
 
-### 6.4 Car Park (16.2m span, PT flat slab)
-| Component | Depth (mm) |
+### 6.4 停车库（16.2m跨度，后张预应力无梁楼板）
+| 构成 | 高度（mm） |
 |---|---|
-| PT flat slab | 350 |
-| Services (sprinklers, lighting, minimal) | 150 |
-| No ceiling finish | 0 |
-| No floor finish | 0 |
-| Clear height (minimum 2.4m general, 2.1m at obstructions) | 2400 |
-| **Total floor-to-floor** | **2900 → 3000mm** |
+| 后张预应力无梁楼板 | 350 |
+| 设备（喷淋、照明，最少配置） | 150 |
+| 无吊顶饰面 | 0 |
+| 无楼面饰面 | 0 |
+| 净高（一般最低2.4m，障碍物处2.1m） | 2400 |
+| **总层高** | **2900 → 3000mm** |
 
-### 6.5 Warehouse (no intermediate floors)
-| Component | Depth (mm) |
+### 6.5 仓库（无中间楼层）
+| 构成 | 高度（mm） |
 |---|---|
-| Steel truss (24m span) | 2400 |
-| Clear height to underside of truss (racking + access) | 8000-12000 |
-| **Total eaves height** | **10400-14400mm** |
+| 钢桁架（24m跨度） | 2400 |
+| 桁架下净高（货架+通行） | 8000-12000 |
+| **檐口总高度** | **10400-14400mm** |

@@ -1,205 +1,205 @@
-# Daylighting Strategies — Deep Reference
+# 日照设计策略——深度参考
 
-Comprehensive reference on 20+ architectural daylighting strategies with performance data, dimensional guidelines, simulation benchmarks, and exemplar buildings.
+涵盖 20 多种建筑日照策略的综合参考，包含性能数据、尺寸指南、模拟基准和示范建筑。
 
 ---
 
-## 1. Side-Lighting Strategies
+## 1. 侧向采光策略
 
-### 1.1 Standard Punched Windows
+### 1.1 标准开窗
 
-The most universal daylighting strategy. Individual window openings in opaque walls.
+最通用的日照策略，即在不透明墙体上设置独立窗洞。
 
-**Performance Data:**
+**性能数据：**
 - DF contribution: 1.5-4.0% at window-side (1 m from facade), dropping to 0.5-1.0% at 6 m depth
 - Uniformity ratio: 0.15-0.30 (poor uniformity inherent to side-lighting)
 - sDA300/50%: 40-60% for rooms ≤ 6 m deep with 30-40% WWR
 
-**Dimensional Guidelines:**
+**尺寸指南：**
 - Optimal window height-to-floor ratio: window head at ≥ 0.7 × room depth for DF ≥ 1% at back wall
 - Minimum window head height for offices: 2.7 m (achieves ~5.4 m daylit depth)
 - Maximum plan depth for single-sided lighting: 2.5 × window head height (6.75 m for 2.7 m head)
 - Bilateral lighting (windows on opposite walls): effective up to 5.0 × window head height (13.5 m)
 
-**Simulation Benchmark (Radiance, CIE overcast):**
+**模拟基准（Radiance，CIE 阴天模型）：**
 - Room 6 m × 4 m × 3 m, single window 3 m × 1.8 m (WWR 38%), head height 2.7 m
 - Average DF: 2.8%; minimum DF: 0.9%; uniformity: 0.32
 - Surface reflectances: ceiling 0.80, walls 0.60, floor 0.30
 
-### 1.2 Floor-to-Ceiling Glazing
+### 1.2 落地至顶玻璃
 
-Full-height glazing maximizes daylight admission and view connection.
+全高玻璃最大化引入日光并建立视线联系。
 
-**Performance Data:**
+**性能数据：**
 - DF improvement over punched window: +30-50% average DF
 - sDA improvement: +10-20 percentage points
 - ASE risk: significantly higher; requires external shading
 - Glare risk: high at perimeter; DGP 0.40-0.55 without shading
 
-**Dimensional Guidelines:**
+**尺寸指南：**
 - Sill at 0 mm (floor level) to head at 2.7-3.5 m
 - Spandrel zone (0-0.8 m) contributes minimal useful daylight but increases solar gain and glare
 - Consider opaque spandrel or fritted lower zone for glare/thermal management
 
-**Exemplar Buildings:**
+**示范建筑：**
 - **Farnsworth House** (Mies van der Rohe, 1951, Plano IL) — floor-to-ceiling glass on all sides; 18.3 m × 8.5 m plan; extreme daylight availability but severe glare and thermal issues (occupant installed curtains)
 - **Crown Hall** (Mies, 1956, Chicago) — 67 m × 37 m clear-span; 5.5 m floor-to-ceiling glass; sandblasted lower panels for privacy; upper clear panels for daylight
 
-### 1.3 Corner Windows and Wrap-Around Glazing
+### 1.3 转角窗与环绕玻璃
 
-Windows meeting at building corners eliminate the dark corner effect and provide bilateral light from two orientations.
+在建筑转角相接的窗可消除暗角效应，并从两个朝向提供双侧采光。
 
-**Performance Data:**
+**性能数据：**
 - DF at corner zone: 3-6% (vs. 1.5-3% with single-sided window)
 - Uniformity improvement: +0.10-0.15 in ratio compared to single-sided
 - Structural implication: corner column elimination requires transfer beam or cantilevered slab
 
-**Exemplar Buildings:**
+**示范建筑：**
 - **Villa Savoye** (Le Corbusier, 1931) — ribbon windows wrapping corners; pilotis eliminate load-bearing corners
 - **Maison de Verre** (Chareau, 1932, Paris) — glass block walls turning corners; diffuse uniform light throughout
 
-### 1.4 Bay and Oriel Windows
+### 1.4 飘窗与凸窗
 
-Projecting windows that capture light from three directions (front + two sides).
+向外凸出的窗，可从三个方向（正面 + 两侧）捕捉光线。
 
-**Performance Data:**
+**性能数据：**
 - DF improvement over flush window of same width: +15-25%
 - Increased sky view angle at window edges
 - Depth of projection: 0.3-0.8 m typical; 0.8-1.5 m for full bay
 
-**Exemplar Buildings:**
+**示范建筑：**
 - Victorian and Edwardian terraced houses (UK) — bay windows as primary daylighting strategy for narrow-frontage deep plans
 - **Casa Batllo** (Gaudi, 1906, Barcelona) — organic bay windows maximizing light capture on narrow street
 
-### 1.5 Ribbon Windows (Fenetre en Longueur)
+### 1.5 带形窗（Fenetre en Longueur）
 
-Continuous horizontal strip windows across the full facade width.
+贯穿整个立面宽度的连续水平条带窗。
 
-**Performance Data:**
+**性能数据：**
 - Uniform horizontal illuminance distribution along facade
 - DF: consistent 2-3% along window wall vs. variable with punched windows
 - Head height still governs depth penetration (same 2.5× rule)
 
-**Exemplar Buildings:**
+**示范建筑：**
 - **Villa Savoye** (Le Corbusier, 1931) — 11 m ribbon window on south facade
 - **Bauhaus Dessau** (Gropius, 1926) — curtain wall glazing as extended ribbon
 
 ---
 
-## 2. Top-Lighting Strategies
+## 2. 顶部采光策略
 
-### 2.1 Flat Skylights
+### 2.1 平天窗
 
-Horizontal or near-horizontal roof glazing. Simple and effective for single-storey spaces.
+水平或近水平的屋面玻璃，适用于单层空间，简单且有效。
 
-**Performance Data:**
+**性能数据：**
 - 3% skylight-to-floor-area ratio achieves DF ≈ 3-5% directly below
 - Annual daylight delivery: 2-3× more efficient than equivalent vertical window area
 - Peak illuminance can exceed 10,000 lux under clear sky (glare and overheating risk)
 - Diffusing glazing reduces peak by 40-60% while maintaining useful illuminance
 
-**Dimensional Guidelines:**
+**尺寸指南：**
 - Skylight size: 1.2 m × 1.2 m to 2.4 m × 2.4 m modules
 - Spacing: center-to-center = 1.0-1.5 × room height for uniform distribution
 - Curb height: ≥ 150 mm above roof for waterproofing
 - Slope: 5-15° for self-cleaning drainage
 
-**Simulation Benchmark:**
+**模拟基准：**
 - Room 12 m × 12 m × 4 m, four 2.4 m × 2.4 m skylights (4% ratio), diffusing glass
 - Average DF: 4.2%; minimum DF: 1.8%; uniformity: 0.43
 
-**Exemplar Buildings:**
+**示范建筑：**
 - **Nasher Sculpture Center** (Piano, 2003, Dallas) — parallel roof vaults with filtered skylight; aluminum louvers reduce direct sun while admitting diffuse light; 500 lux average gallery illuminance
 - **Beyeler Foundation** (Piano, 1997, Basel) — long roof overhangs with roof-light strips; motorized louvers; consistent 300-500 lux on gallery walls
 
-### 2.2 Sawtooth Roofs
+### 2.2 锯齿形屋顶
 
-Asymmetric roof profiles with vertical or near-vertical glazing on one face (oriented away from equator for glare-free light).
+非对称屋顶剖面，一侧设置垂直或近垂直玻璃（朝向背离赤道，以获得无眩光光线）。
 
-**Performance Data:**
+**性能数据：**
 - DF: 3-6% uniform across floor plate
 - Uniformity ratio: 0.4-0.6 (excellent for top-lighting)
 - sDA300/50%: 70-90% for well-designed sawtooth
 
-**Dimensional Guidelines:**
+**尺寸指南：**
 - Glazed face: north-facing (Northern Hemisphere), near-vertical (80-90° from horizontal)
 - Opaque face: south-facing, sloped 15-25°
 - Module width: 3-6 m (wider modules = deeper penetration but less uniformity)
 - Glazing height: 1.0-2.0 m on vertical face
 
-**Simulation Benchmark:**
+**模拟基准：**
 - Factory floor 30 m × 20 m × 6 m, five sawtooth modules at 6 m spacing, 1.5 m glazing height
 - Average DF: 4.8%; minimum DF: 2.1%; uniformity: 0.44
 
-**Exemplar Buildings:**
+**示范建筑：**
 - **Menil Collection** (Piano, 1987, Houston) — ferro-cement leaf-shaped baffles below skylights; daylight filtered to ≤ 200 lux on artwork; no direct sun penetration; 10,000 m² gallery
 - **De Young Museum** (Herzog & de Meuron, 2005, San Francisco) — perforated copper skin with sawtooth clerestories; dappled light effect
 
-### 2.3 Monitor Roofs
+### 2.3 高侧窗屋顶
 
-Raised sections of roof with vertical or angled clerestory glazing on one or more sides.
+抬高的屋顶段，在一侧或多侧设置垂直或倾斜高侧窗玻璃。
 
-**Performance Data:**
+**性能数据：**
 - Single-sided monitor (north glazing): DF 2-4% below monitor, dropping to 1-2% at 8-10 m
 - Double-sided monitor: DF 3-5% with better uniformity
 - Risk: south-facing monitor glazing causes glare hot spots without shading
 
-**Dimensional Guidelines:**
+**尺寸指南：**
 - Monitor height above main roof: 1.5-3.0 m
 - Monitor width: 2.0-4.0 m
 - Spacing between monitors: 6-12 m
 
-**Exemplar Buildings:**
+**示范建筑：**
 - **Kimbell Art Museum** (Louis Kahn, 1972, Fort Worth) — 30.5 m cycloid vault shells with central slit monitor; perforated aluminum reflector splits light to curved vault surface; natural light on vault walls reaches 200-500 lux; artificial light supplements to 300 lux on artwork. Possibly the finest daylit gallery ever built.
 - **Yale Center for British Art** (Kahn, 1977, New Haven) — concrete coffers with skylight panels; natural light to fourth-floor galleries through layered diffusing systems
 
-### 2.4 Lantern Lights
+### 2.4 采光亭
 
-Raised glazed structures projecting above roof level, typically with glazing on multiple sides.
+高出屋面的抬高玻璃结构，通常多侧设玻璃。
 
-**Performance Data:**
+**性能数据：**
 - DF: 4-8% directly below (multi-directional light capture)
 - Creates dramatic pool of light with gradual falloff
 - Historic precedent: cathedral crossing towers, Ottoman mosques
 
-**Exemplar Buildings:**
+**示范建筑：**
 - **Hagia Sophia** (537 AD, Istanbul) — 40 windows at dome base; ring of light dematerializing dome structure
 - **Pantheon** (125 AD, Rome) — 8.7 m oculus; single point source creating rotating light patch; DF at floor ≈ 2-3%
 - **Therme Vals** (Zumthor, 1996) — narrow roof slits between stone blocks; linear light strips on water surface; precise 30 mm gaps between roof slabs
 
-### 2.5 Roof Cones and Light Scoops
+### 2.5 屋顶光锥与集光器
 
-Sculptural roof elements that capture and redirect light, often combining collection and diffusion.
+捕捉并重新引导光线的雕塑性屋顶构件，通常结合集光与漫射。
 
-**Exemplar Buildings:**
+**示范建筑：**
 - **Bagsvaerd Church** (Utzon, 1976, Copenhagen) — undulating concrete shell ceiling; skylights between shell peaks illuminate vault undersides; indirect reflected light fills nave to 200-400 lux; no direct sun visible; sublime luminous quality
 - **Chapel of St. Ignatius** (Steven Holl, 1997, Seattle) — seven "bottles of light" — each a different color and orientation; light enters through colored lenses in roof forms; intensity varies 50-500 lux through day
 
 ---
 
-## 3. Atrium and Courtyard Strategies
+## 3. 中庭与庭院策略
 
-### 3.1 Linear Atria
+### 3.1 线性中庭
 
-Elongated voids running through building depth or length, typically glazed at top.
+沿建筑进深或长度延伸的狭长中空空间，通常顶部设玻璃顶。
 
-**Performance Data:**
+**性能数据：**
 - Width-to-height ratio ≥ 1:3 for DF ≥ 1% at base
 - Reflective walls (ρ ≥ 0.7) improve base DF by 40-70%
 - Upper floors receive adequate daylight (DF 3-6%); ground floor may need supplementary lighting
 
-**Dimensional Guidelines:**
+**尺寸指南：**
 - Minimum atrium width: 6 m for meaningful daylight at base of 4-storey building
 - Optimal width: H/3 to H/2 (8-12 m for 6-storey atrium)
 - Length: typically 2-5× width
 
-**Exemplar Buildings:**
+**示范建筑：**
 - **Bradbury Building** (Wyman, 1893, Los Angeles) — five-storey atrium; iron railings and open cage elevators; skylight roof; natural light reaches ground floor through open galleries
 - **Commerzbank HQ** (Foster, 1997, Frankfurt) — 53-storey; four-storey sky gardens spiraling up triangular plan; natural ventilation and daylight to 60% of floor area
 
-### 3.2 Central Atria
+### 3.2 中央中庭
 
-Square or circular voids at building center, open to roof-level glazing.
+位于建筑中心、顶部敞向屋面玻璃的方形或圆形中空空间。
 
 **Performance Data:**
 - Well Index (WI) ≤ 2.0 provides DF ≥ 2% at ground floor
@@ -210,9 +210,9 @@ Square or circular voids at building center, open to roof-level glazing.
 - **Ford Foundation HQ** (Roche Dinkeloo, 1968, New York) — 49 m × 37 m atrium with 12-storey garden; offices face inward to atrium; daylight plus vegetation biophilic quality
 - **National Gallery of Canada** (Safdie, 1988, Ottawa) — crystalline glazed atrium; light enters from multiple angles; gallery spaces open to atrium for borrowed light
 
-### 3.3 Courtyards (Open to Sky)
+### 3.3 庭院（敞向天空）
 
-Traditional courtyard planning maximizes daylight to deep-plan buildings while creating protected outdoor spaces.
+传统庭院规划在为深进深建筑最大化引入日光的同时，创造受保护的室外空间。
 
 **Performance Data:**
 - W:H = 1:1 courtyard: DF 5-10% at courtyard floor; 2-4% in adjacent rooms
@@ -228,7 +228,7 @@ Traditional courtyard planning maximizes daylight to deep-plan buildings while c
 
 ## 4. Light Redistribution Strategies
 
-### 4.1 Light Shelves
+### 4.1 光搁板
 
 **Detailed Performance Data:**
 - External shelf 0.9 m deep at 2.1 m height, south-facing, latitude 40°N:
@@ -242,9 +242,9 @@ Traditional courtyard planning maximizes daylight to deep-plan buildings while c
 - **Sendai Mediatheque** (Toyo Ito, 2001, Sendai) — structural tube columns double as light wells; each 2-9 m diameter tube brings daylight through multiple floors; facades fully glazed with external louver shelves
 - **GSW Headquarters** (Sauerbruch Hutton, 1999, Berlin) — double-skin west facade with adjustable colored panels acting as combined light shelves and solar shading
 
-### 4.2 Reflective Ceilings and Vaults
+### 4.2 反射吊顶与拱顶
 
-Curved or angled ceiling surfaces that redirect window light deeper into rooms.
+通过曲面或倾斜吊顶表面将窗光重新引导至室内更深处。
 
 **Performance Data:**
 - White flat ceiling (ρ 0.80): IRC contributes 0.3-0.5% DF
@@ -255,18 +255,18 @@ Curved or angled ceiling surfaces that redirect window light deeper into rooms.
 - **Kimbell Art Museum** (Kahn, 1972) — cycloid vault (not parabolic) prevents point-focus; perforated aluminum reflector below roof slit distributes light to vault surface; light washes down walls uniformly; average gallery illuminance 300 lux from daylight alone on clear days
 - **Nordic Pavilion, Venice Biennale** (Sverre Fehn, 1962) — laminated timber beams creating deep coffered roof with skylights between; beams at 45° to plan reflect light through double-height space; trees growing through roof slots
 
-### 4.3 Prismatic and Holographic Elements
+### 4.3 棱镜与全息构件
 
-Optical elements integrated into glazing or installed as secondary panels that redirect light by refraction or diffraction.
+集成于玻璃或作为次级面板安装的光学构件，通过折射或衍射重新引导光线。
 
 **Performance Data:**
 - Laser-cut panels (LCP): redirect low-angle light (< 30° altitude) upward; effective for depths 4-8 m
 - Prismatic film: 3M Daylight Redirecting Film; retrofittable; adds 20-40% illuminance at 4-6 m depth
 - Holographic optical elements (HOE): diffractive films tuned to specific solar angles; emerging technology
 
-### 4.4 Anidolic Ceilings
+### 4.4 无像吊顶
 
-Compound parabolic concentrator (CPC) systems integrated into the upper window zone and ceiling.
+集成于窗上部区域和吊顶的复合抛物面聚光器（CPC）系统。
 
 **Performance Data:**
 - Developed at LESO-PB, EPFL Lausanne
@@ -282,7 +282,7 @@ Compound parabolic concentrator (CPC) systems integrated into the upper window z
 
 ## 5. Innovative and Specialized Strategies
 
-### 5.1 Fiber-Optic Daylighting
+### 5.1 光纤日照
 
 **Performance Data:**
 - Parabolic dish collector (1 m diameter): captures ~50,000 lumens in direct sun
@@ -294,9 +294,9 @@ Compound parabolic concentrator (CPC) systems integrated into the upper window z
 **Exemplar Buildings:**
 - **Parans System installations** (various) — roof-mounted Fresnel lens panels with fiber-optic cables; used in underground or deep-plan office spaces
 
-### 5.2 Heliostats
+### 5.2 日光跟踪镜
 
-External mirrors that track the sun and redirect beams into building interiors or onto secondary reflectors.
+跟踪太阳并将光束重新引入建筑内部或导向次级反射器的外部镜面。
 
 **Performance Data:**
 - Single heliostat mirror (1-2 m²) can illuminate 20-50 m² of interior space
@@ -308,7 +308,7 @@ External mirrors that track the sun and redirect beams into building interiors o
 - **Rjukan, Norway** — three 17 m² heliostats on mountain ridge reflect sunlight to town square during winter months when direct sun cannot reach valley floor
 - **One Angel Court** (Fletcher Priest, 2017, London) — heliostat array in courtyard base reflects daylight to lower office floors
 
-### 5.3 Light Tubes and Sun Pipes
+### 5.3 导光管与太阳管
 
 **Performance Data:**
 - Rigid tube (350 mm diameter, 2 m length): delivers 300-800 lux at diffuser under clear sky
@@ -320,18 +320,18 @@ External mirrors that track the sun and redirect beams into building interiors o
 **Exemplar Buildings:**
 - **Solatube installations** — residential and commercial; standard 250-530 mm diameter; 160-600 lumens delivered per tube
 
-### 5.4 Dynamic Facades
+### 5.4 动态立面
 
-Kinetic facade elements that respond to sun position, adjusting aperture, angle, or opacity in real time.
+响应太阳位置并实时调节开口、角度或透光率的动态立面构件。
 
 **Exemplar Buildings:**
 - **Al Bahar Towers** (Aedas, 2012, Abu Dhabi) — 2,000 PTFE-coated mashrabiya units on actuated frames; open/close in response to sun angle; reduce solar gain by 50%; dappled light interior
 - **Institut du Monde Arabe** (Jean Nouvel, 1987, Paris) — 240 camera-diaphragm-inspired panels on south facade; photosensitive aperture control (original mechanism largely non-functional; static beauty remains)
 - **Kiefer Technic Showroom** (Ernst Giselbrecht, 2007, Steiermark) — 112 motorized aluminum panels; facade reconfigures throughout day; dramatic light pattern changes inside
 
-### 5.5 Translucent and Diffusing Materials
+### 5.5 半透明与漫射材料
 
-Materials that transmit light diffusely, eliminating direct sun while maintaining illumination.
+以漫射方式透光、在保持照度的同时消除直射阳光的材料。
 
 **Performance Data:**
 - Channel glass (Profilit/Pilkington): VLT 25-50%; diffuse; U-value 1.4-3.0 W/m²K (single/double)
@@ -347,9 +347,9 @@ Materials that transmit light diffusely, eliminating direct sun while maintainin
 - **Allianz Arena** (Herzog & de Meuron, 2005, Munich) — 2,874 ETFE cushions; internally illuminated at night; translucent daylight facade by day
 - **Eden Project** (Grimshaw, 2001, Cornwall) — ETFE cushion biomes; 3-layer pillows; high light transmission for plant growth; transparent architecture
 
-### 5.6 Perforated and Patterned Screens
+### 5.6 穿孔与图案化屏风
 
-Solid cladding with geometric perforations that filter sunlight, creating dappled light patterns.
+带几何穿孔的实体饰面，可过滤阳光并形成斑驳光影图案。
 
 **Performance Data:**
 - Perforation ratio 30%: ~25% daylight transmission (accounting for angle and depth)
@@ -365,7 +365,7 @@ Solid cladding with geometric perforations that filter sunlight, creating dapple
 
 ## 6. Daylighting in Extreme Climates
 
-### 6.1 Hot-Arid Climates (Solar Altitude 65-90° at Noon)
+### 6.1 炎热干旱气候（正午太阳高度角 65–90°）
 - Minimize east/west glazing (< 15% WWR)
 - Deep reveals (300-600 mm) on all openings
 - Mashrabiya and jali screens for filtered light
@@ -373,14 +373,14 @@ Solid cladding with geometric perforations that filter sunlight, creating dapple
 - Light-colored exterior surfaces (ρ ≥ 0.60) to reduce cooling load while reflecting daylight
 - Traditional precedent: Hassan Fathy's New Gourna (1946); wind catchers and lattice screens
 
-### 6.2 Hot-Humid Climates (High Diffuse Radiation)
+### 6.2 炎热湿润气候（漫射辐射强）
 - Large roof overhangs (1.5-3.0 m) for rain and sun protection
 - Generous window areas under overhangs (40-60% WWR)
 - Cross-ventilation compatible with daylight (openable windows on opposite facades)
 - Louvered walls for simultaneous light and air
 - Traditional precedent: Geoffrey Bawa's Sri Lankan houses; Glenn Murcutt's Australian houses
 
-### 6.3 Cold and Overcast Climates (Low Solar Altitude)
+### 6.3 寒冷阴天气候（太阳高度角低）
 - Maximize south-facing glazing (40-55% WWR) with high VLT (> 0.65)
 - Light-colored interiors (ceiling ρ ≥ 0.85)
 - Anidolic systems for diffuse light collection
@@ -388,7 +388,7 @@ Solid cladding with geometric perforations that filter sunlight, creating dapple
 - Triple glazing mandatory (U-value < 0.8 W/m²K) to manage heat loss with large windows
 - Traditional precedent: Nordic vernacular (large south windows, small north windows); Alvar Aalto's libraries
 
-### 6.4 Dense Urban Environments (Limited Sky Access)
+### 6.4 高密度城市环境（天空可视范围有限）
 - Top-lighting essential where roof access exists
 - Light wells and atria for multi-storey daylight distribution
 - Reflective adjacent surfaces and heliostats
@@ -425,19 +425,19 @@ Solid cladding with geometric perforations that filter sunlight, creating dapple
 
 ## 8. Cost-Effectiveness Summary
 
-| Strategy | Installed Cost ($/m² floor served) | Annual Lighting Energy Savings | Simple Payback | Best Building Type |
+| 策略 | 安装成本（$/m²服务楼面） | 年照明节能 | 简单回收期 | 最适宜建筑类型 |
 |---|---|---|---|---|
-| Optimized standard windows | $0 (baseline) | Reference | Reference | Universal |
-| Light shelves | $30-80 | 15-25% | 5-8 years | Office, school |
-| Clerestory monitors | $60-150 | 25-40% | 6-10 years | Gallery, industrial |
-| Skylights (flat) | $50-120 | 30-50% | 4-7 years | Retail, warehouse |
-| Sawtooth roofs | $80-180 | 35-50% | 7-12 years | Industrial, school |
-| Light pipes (TDD) | $40-100 | 10-20% | 5-10 years | Residential, corridor |
-| Atrium (glazed) | $200-500 | 30-50% | 10-20 years | Office, hotel, retail |
-| Electrochromic glazing | $150-350 | 20-35% | 8-15 years | Premium office, health |
-| Fiber-optic system | $200-600 | 5-15% | 15-25 years | Underground, specialty |
-| Automated external blinds | $80-200 | 15-30% | 5-10 years | Office, all orientations |
-| Anidolic ceiling | $100-250 | 20-35% | 8-14 years | Office, high latitude |
+| 优化标准窗 | $0（基准） | 参考值 | 参考值 | 通用 |
+| 采光搁板 | $30-80 | 15-25% | 5-8年 | 办公、学校 |
+| 高侧窗采光构件 | $60-150 | 25-40% | 6-10年 | 展廊、工业建筑 |
+| 平屋面天窗 | $50-120 | 30-50% | 4-7年 | 零售、仓库 |
+| 锯齿形屋顶 | $80-180 | 35-50% | 7-12年 | 工业建筑、学校 |
+| 导光管（TDD） | $40-100 | 10-20% | 5-10年 | 住宅、走廊 |
+| 玻璃中庭 | $200-500 | 30-50% | 10-20年 | 办公、酒店、零售 |
+| 电致变色玻璃 | $150-350 | 20-35% | 8-15年 | 高端办公、医疗 |
+| 光纤系统 | $200-600 | 5-15% | 15-25年 | 地下空间、特殊用途 |
+| 自动外遮阳 | $80-200 | 15-30% | 5-10年 | 办公、各朝向 |
+| 无日光眩光顶棚 | $100-250 | 20-35% | 8-14年 | 办公、高纬度地区 |
 
 ---
 

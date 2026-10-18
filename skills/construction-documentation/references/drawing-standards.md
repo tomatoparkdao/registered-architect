@@ -1,165 +1,160 @@
-# Drawing Standards Reference
+# 制图标准参考
 
-Comprehensive reference for architectural drawing standards covering CAD
-layer conventions, BIM standards, sheet sizes, title blocks, revision
-management, issue status codes, markup conventions, and coordination checks.
+本参考综合介绍建筑制图标准，涵盖 CAD 图层约定、BIM 标准、图纸尺寸、标题栏、修订管理、发布状态代码、批注约定和协调检查。
 
 ---
 
-## 1. AIA CAD Layer Guidelines
+## 1. AIA CAD 图层指南
 
-### 1.1 Layer Naming Convention
+### 1.1 图层命名约定
 
-The AIA CAD Layer Guidelines (based on the U.S. National CAD Standard)
-use a structured naming format:
+AIA CAD 图层指南（基于美国国家 CAD 标准）采用结构化命名格式：
 
 ```
-Discipline - Major Group - Minor Group (optional) - Status (optional)
+专业 - 主组 - 次组（可选）- 状态（可选）
 ```
 
-**Format**: `A-WALL-FULL-N` where:
-- `A` = Discipline designator
-- `WALL` = Major group (4 characters)
-- `FULL` = Minor group (4 characters, optional)
-- `N` = Status code (optional)
+**格式：**`A-WALL-FULL-N`，其中：
+- `A` = 专业标识
+- `WALL` = 主组（4 个字符）
+- `FULL` = 次组（4 个字符，可选）
+- `N` = 状态代码（可选）
 
-### 1.2 Discipline Designators
+### 1.2 专业标识
 
-| Code | Discipline                |
+| 代码 | 专业 |
 |------|--------------------------|
-| A    | Architectural            |
-| C    | Civil                    |
-| E    | Electrical               |
-| F    | Fire Protection          |
-| G    | General                  |
-| H    | Hazardous Materials      |
-| I    | Interiors                |
-| L    | Landscape                |
-| M    | Mechanical               |
-| O    | Operations               |
-| P    | Plumbing                 |
-| Q    | Equipment                |
-| R    | Resource                 |
-| S    | Structural               |
-| T    | Telecommunications       |
-| X    | Other Disciplines        |
-| Z    | Contractor/Shop Drawings |
+| A | 建筑 |
+| C | 土木 |
+| E | 电气 |
+| F | 消防 |
+| G | 通用 |
+| H | 危险材料 |
+| I | 室内 |
+| L | 景观 |
+| M | 机械 |
+| O | 运营 |
+| P | 给排水 |
+| Q | 设备 |
+| R | 资源 |
+| S | 结构 |
+| T | 电信 |
+| X | 其他专业 |
+| Z | 承包商/加工图 |
 
-### 1.3 Standard Architectural Layers
+### 1.3 建筑标准图层
 
-| Layer Name        | Description                              | Color | Line Weight |
+| 图层名称 | 描述 | 颜色 | 线宽 |
 |-------------------|------------------------------------------|-------|-------------|
-| A-WALL            | Walls -- general                         | 4     | 0.50mm      |
-| A-WALL-FULL       | Full-height walls                        | 4     | 0.50mm      |
-| A-WALL-PRHT       | Partial-height walls                     | 4     | 0.35mm      |
-| A-WALL-PATT       | Wall hatching/patterns                   | 8     | 0.13mm      |
-| A-DOOR            | Doors                                    | 3     | 0.35mm      |
-| A-DOOR-IDEN       | Door identification tags                 | 7     | 0.25mm      |
-| A-GLAZ            | Windows and glazing                      | 3     | 0.35mm      |
-| A-GLAZ-IDEN       | Window identification tags               | 7     | 0.25mm      |
-| A-FLOR            | Floor information                        | 3     | 0.25mm      |
-| A-FLOR-PATT       | Floor patterns/finishes                  | 8     | 0.13mm      |
-| A-CLNG            | Ceiling information                      | 5     | 0.25mm      |
-| A-CLNG-GRID       | Ceiling grid                             | 8     | 0.13mm      |
-| A-ROOF            | Roof outline                             | 4     | 0.35mm      |
-| A-ROOF-PATT       | Roof hatching                            | 8     | 0.13mm      |
-| A-COLS            | Columns                                  | 5     | 0.50mm      |
-| A-STRS            | Stairs                                   | 3     | 0.35mm      |
-| A-ELEV            | Elevators                                | 3     | 0.35mm      |
-| A-FURN            | Furniture                                | 8     | 0.18mm      |
-| A-EQPM            | Equipment                                | 8     | 0.18mm      |
-| A-ANNO-DIMS       | Dimensions                               | 1     | 0.18mm      |
-| A-ANNO-TEXT       | Text annotations                         | 7     | 0.18mm      |
-| A-ANNO-NOTE       | General notes                            | 7     | 0.18mm      |
-| A-ANNO-SYMB       | Symbols (section marks, tags)            | 7     | 0.25mm      |
-| A-ANNO-TTLB       | Title block                              | 7     | 0.35mm      |
-| A-AREA-IDEN       | Area identification                      | 2     | 0.18mm      |
-| A-DETL            | Detail components                        | 4     | 0.35mm      |
-| A-GRID            | Column grid lines                        | 8     | 0.13mm      |
-| A-GRID-IDEN       | Grid identification bubbles              | 7     | 0.25mm      |
+| A-WALL            | 墙体——一般                         | 4     | 0.50mm      |
+| A-WALL-FULL       | 全高墙体                        | 4     | 0.50mm      |
+| A-WALL-PRHT       | 半高墙体                     | 4     | 0.35mm      |
+| A-WALL-PATT       | 墙体填充/图案                   | 8     | 0.13mm      |
+| A-DOOR            | 门                                    | 3     | 0.35mm      |
+| A-DOOR-IDEN       | 门识别编号                 | 7     | 0.25mm      |
+| A-GLAZ            | 窗及玻璃                   | 3     | 0.35mm      |
+| A-GLAZ-IDEN       | 窗识别编号               | 7     | 0.25mm      |
+| A-FLOR            | 楼面信息                        | 3     | 0.25mm      |
+| A-FLOR-PATT       | 楼面图案/饰面                  | 8     | 0.13mm      |
+| A-CLNG            | 吊顶信息                      | 5     | 0.25mm      |
+| A-CLNG-GRID       | 吊顶网格                             | 8     | 0.13mm      |
+| A-ROOF            | 屋面轮廓                             | 4     | 0.35mm      |
+| A-ROOF-PATT       | 屋面填充                            | 8     | 0.13mm      |
+| A-COLS            | 柱                                  | 5     | 0.50mm      |
+| A-STRS            | 楼梯                                   | 3     | 0.35mm      |
+| A-ELEV            | 电梯                                | 3     | 0.35mm      |
+| A-FURN            | 家具                                | 8     | 0.18mm      |
+| A-EQPM            | 设备                                | 8     | 0.18mm      |
+| A-ANNO-DIMS       | 尺寸                               | 1     | 0.18mm      |
+| A-ANNO-TEXT       | 文字注释                         | 7     | 0.18mm      |
+| A-ANNO-NOTE       | 一般说明                            | 7     | 0.18mm      |
+| A-ANNO-SYMB       | 符号（剖面标记、编号）            | 7     | 0.25mm      |
+| A-ANNO-TTLB       | 标题栏                              | 7     | 0.35mm      |
+| A-AREA-IDEN       | 面积识别                      | 2     | 0.18mm      |
+| A-DETL            | 详图构件                        | 4     | 0.35mm      |
+| A-GRID            | 柱网轴线                        | 8     | 0.13mm      |
+| A-GRID-IDEN       | 轴网识别气泡              | 7     | 0.25mm      |
 
-### 1.4 Status Codes
+### 1.4 状态代码
 
-| Code | Meaning                                |
+| 代码 | 含义 |
 |------|----------------------------------------|
-| D    | Demolition (existing to be removed)    |
-| E    | Existing to remain                     |
-| F    | Future work (not in current contract)  |
-| M    | Items to be moved                      |
-| N    | New work                               |
-| T    | Temporary work                         |
+| D | 拆除（现有且将移除） |
+| E | 保留现状 |
+| F | 未来工程（不在当前合同内） |
+| M | 待移动项目 |
+| N | 新建工程 |
+| T | 临时工程 |
 
 ---
 
-## 2. BIM Standards
+## 2. BIM 标准
 
 ### 2.1 BS 1192 / ISO 19650
 
-BS 1192 (superseded by ISO 19650) establishes the framework for managing
-information over the whole life cycle of a built asset using BIM.
+BS 1192（已由 ISO 19650 取代）建立了使用 BIM 管理建成资产全生命周期信息的框架。
 
-**Key principles:**
-- Common Data Environment (CDE) for all project information
-- Naming conventions for files, models, and documents
-- Information containers organized by discipline, zone, and stage
-- Status and suitability codes control information use
+**关键原则：**
+- 所有项目信息使用统一数据环境（CDE）
+- 文件、模型和文档采用统一命名约定
+- 信息容器按专业、区域和阶段组织
+- 通过状态和适用性代码控制信息使用
 
-### 2.2 ISO 19650 Information Management Framework
+### 2.2 ISO 19650 信息管理框架
 
-| Part     | Scope                                        |
+| 部分 | 范围 |
 |----------|----------------------------------------------|
-| 19650-1  | Concepts and principles                      |
-| 19650-2  | Delivery phase of assets                     |
-| 19650-3  | Operational phase of assets                  |
-| 19650-5  | Security-minded approach to information management |
+| 19650-1 | 概念与原则 |
+| 19650-2 | 资产交付阶段 |
+| 19650-3 | 资产运营阶段 |
+| 19650-5 | 注重安全的信息管理方法 |
 
-**Common Data Environment (CDE) States:**
+**统一数据环境（CDE）状态：**
 
-| State          | Code | Description                              |
+| 状态 | 代码 | 描述 |
 |----------------|------|------------------------------------------|
-| Work in Progress| WIP | Team internal development                |
-| Shared         | S1   | Suitable for coordination                |
-| Shared         | S2   | Suitable for information                 |
-| Shared         | S3   | Suitable for review and comment          |
-| Shared         | S4   | Suitable for stage approval              |
-| Published      | A1   | Authorized for construction (BEP stage)  |
-| Published      | A2   | Authorized for construction              |
-| Published      | AB   | As-built                                 |
-| Archive        | --   | Archived/superseded                      |
+| 工作进行中 | WIP | 团队内部开发 |
+| 共享 | S1 | 适合协调 |
+| 共享 | S2 | 适合信息使用 |
+| 共享 | S3 | 适合审查和评论 |
+| 共享 | S4 | 适合阶段审批 |
+| 已发布 | A1 | 已授权施工（BEP 阶段） |
+| 已发布 | A2 | 已授权施工 |
+| 已发布 | AB | 竣工图 |
+| 归档 | -- | 已归档/已取代 |
 
-### 2.3 BIM File Naming Convention (ISO 19650)
+### 2.3 BIM 文件命名约定（ISO 19650）
 
 ```
 Project - Originator - Zone - Level - Type - Role - Classification - Number
 ```
 
 Example: `PROJ-ARC-ZZ-01-DR-A-20-0001`
-- PROJ = Project code
-- ARC = Originator (architect firm code)
-- ZZ = Applicable to all zones
-- 01 = Level 01
-- DR = Drawing
-- A = Architecture
-- 20 = Section number per classification
-- 0001 = Sequential number
+- PROJ = 项目代码
+- ARC = 创建者（建筑事务所代码）
+- ZZ = 适用于所有区域
+- 01 = 01 层
+- DR = 图纸
+- A = 建筑
+- 20 = 按分类划分的章节编号
+- 0001 = 顺序号
 
-### 2.4 Model Coordination Procedures
+### 2.4 模型协调流程
 
-1. **Federated model assembly**: Combine discipline models weekly
-2. **Clash detection**: Run automated clash reports (Navisworks, Solibri)
-3. **Clash resolution meetings**: Review clashes by priority (critical,
-   major, minor)
-4. **Model audit**: Check for compliance with BIM Execution Plan (BEP)
-5. **LOD verification**: Confirm elements meet required LOD per stage
-6. **Design freeze**: Lock model elements that have been coordinated
+1. **联合模型组装：**每周合并各专业模型
+2. **碰撞检测：**运行自动碰撞报告（Navisworks、Solibri）
+3. **碰撞解决会议：**按优先级审查碰撞（关键、重大、一般）
+4. **模型审计：**检查是否符合 BIM 执行计划（BEP）
+5. **LOD 验证：**确认构件达到各阶段要求的 LOD
+6. **设计冻结：**锁定已协调的模型构件
 
 ---
 
-## 3. Sheet Size Standards
+## 3. 图纸尺寸标准
 
-### 3.1 ISO Standard Sheet Sizes (Metric)
+### 3.1 ISO 标准图纸尺寸（公制）
 
-| Designation | Width (mm) | Height (mm) | Area (m2)  |
+| 代号 | 宽度（mm） | 高度（mm） | 面积（m²） |
 |-------------|-----------|-------------|------------|
 | A4          | 210       | 297         | 0.0624     |
 | A3          | 297       | 420         | 0.1247     |
@@ -167,7 +162,7 @@ Example: `PROJ-ARC-ZZ-01-DR-A-20-0001`
 | A1          | 594       | 841         | 0.4996     |
 | A0          | 841       | 1189        | 0.9999     |
 
-### 3.2 ANSI/ARCH Standard Sheet Sizes (Imperial)
+### 3.2 ANSI/ARCH 标准图纸尺寸（英制）
 
 | Designation | Width (in) | Height (in) | Metric Approx    |
 |-------------|-----------|-------------|------------------|
@@ -183,149 +178,142 @@ Example: `PROJ-ARC-ZZ-01-DR-A-20-0001`
 | ARCH E      | 36        | 48          | 914 x 1219mm     |
 | ARCH E1     | 30        | 42          | 762 x 1067mm     |
 
-### 3.3 Standard Practice by Region
+### 3.3 各地区常用做法
 
-- **North America**: ARCH D (24"x36") most common for construction sets;
-  ARCH E (36"x48") for large projects; half-size prints on ARCH B (12"x18")
-- **Europe/Asia**: A1 (594x841mm) most common for construction; A0 for
-  large projects; A3 for field copies
-- **Middle East**: Mix of A1 and ARCH D depending on project origin
+- **北美：**施工图集最常用 ARCH D（24"x36"）；大型项目使用 ARCH E（36"x48"）；半幅打印使用 ARCH B（12"x18"）
+- **欧洲/亚洲：**施工最常用 A1（594x841mm）；大型项目使用 A0；现场副本使用 A3
+- **中东：**根据项目来源混用 A1 和 ARCH D
 
 ---
 
-## 4. Title Block Content
+## 4. 标题栏内容
 
-### 4.1 Required Information
+### 4.1 必要信息
 
-Every drawing sheet must include a title block containing:
+每张图纸必须包含标题栏，内容包括：
 
-**Project Information:**
-- Project name
-- Project address / location
-- Project number
-- Owner name and contact
-- Building permit number (when issued)
-- Zoning/planning reference number
+**项目信息：**
+- 项目名称
+- 项目地址/位置
+- 项目编号
+- 业主名称和联系方式
+- 建筑许可编号（签发后）
+- 分区/规划参考编号
 
-**Firm Information:**
-- Architect firm name and logo
-- Firm address and contact information
-- Architect of record license number and seal
-- Firm registration number
+**事务所信息：**
+- 建筑事务所名称和标志
+- 事务所地址和联系方式
+- 负责建筑师执照编号和印章
+- 事务所注册编号
 
-**Sheet Information:**
-- Sheet number (per numbering convention)
-- Sheet title
-- Drawing scale(s) -- both graphic and numeric
-- Date of issue
-- Drawn by (initials)
-- Checked by (initials)
-- Approved by (initials)
+**图纸信息：**
+- 图纸编号（按编号约定）
+- 图纸标题
+- 图纸比例（图示比例和数字比例）
+- 发布日期
+- 绘图人（姓名首字母）
+- 校核人（姓名首字母）
+- 批准人（姓名首字母）
 
-**Revision Information:**
-- Revision number
-- Revision date
-- Revision description
-- Revision mark (delta or triangle with number)
+**修订信息：**
+- 修订编号
+- 修订日期
+- 修订说明
+- 修订标记（带编号的三角形或 Delta 符号）
 
-**Consultant Information (if applicable):**
-- Structural engineer
-- Mechanical engineer
-- Electrical engineer
-- Civil engineer
-- Other specialty consultants
+**顾问信息（如适用）：**
+- 结构工程师
+- 机械工程师
+- 电气工程师
+- 土木工程师
+- 其他专业顾问
 
 ### 4.2 Title Block Layout
 
-Standard title block occupies the right side or bottom-right corner of
-the sheet. Typical dimensions:
+标准标题栏位于图纸右侧或右下角。典型尺寸：
 
-- **Right-side strip**: 75mm wide x full sheet height (ISO standard)
-- **Bottom-right block**: 180mm wide x 60mm high (common alternative)
-- Revision table: above or adjacent to main title block
-- Issue table: below main title block information
+- **右侧条带：**宽 75 mm × 图纸全高（ISO 标准）
+- **右下角区块：**宽 180 mm × 高 60 mm（常用替代方案）
+- 修订表：位于主标题栏上方或旁侧
+- 发布表：位于主标题栏信息下方
 
 ---
 
-## 5. Revision Management
+## 5. 修订管理
 
-### 5.1 Revision Numbering
+### 5.1 修订编号
 
-- Revisions numbered sequentially: Rev 1, Rev 2, Rev 3 (or Rev A, B, C)
-- Revision number resets to 1 at each new issue milestone (design stage)
-  in some practices, or runs continuously in others
-- Each revision must have: number, date, description, and cloud markup
+- 修订按顺序编号：Rev 1、Rev 2、Rev 3（或 Rev A、B、C）
+- 在部分实践中，每个新的发布里程碑（设计阶段）修订编号重新从 1 开始，另一些实践则连续编号
+- 每次修订必须包含：编号、日期、说明和云线标记
 
-### 5.2 Revision Clouds
+### 5.2 修订云线
 
-- Revised areas enclosed in a revision cloud (irregular curved boundary)
-- Cloud accompanied by a delta symbol with the revision number
-- Clouds from previous revisions typically removed when a new revision
-  is issued (only current revision clouds shown)
-- In BIM environments, revision clouds are scheduled and tracked by Revit
-  or equivalent software
+- 修订区域用修订云线圈定（不规则曲线边界）
+- 云线旁标注带修订编号的 Delta 符号
+- 发布新修订时通常移除旧修订云线（只显示当前修订云线）
+- 在 BIM 环境中，修订云线由 Revit 或同类软件编排和跟踪
 
-### 5.3 Revision Table Format
+### 5.3 修订表格式
 
-| Rev | Date       | Description                | By  |
+| 修订 | 日期 | 说明 | 编制 |
 |-----|------------|---------------------------|-----|
-| 3   | 2025-12-01 | Updated window schedule    | JD  |
-| 2   | 2025-10-15 | Revised stair layout       | MK  |
-| 1   | 2025-08-20 | Owner review comments      | JD  |
+| 3 | 2025-12-01 | 更新窗表 | JD |
+| 2 | 2025-10-15 | 修订楼梯布局 | MK |
+| 1 | 2025-08-20 | 业主审查意见 | JD |
 
-Most recent revision listed at top. Table typically shows last 5-6
-revisions; earlier revisions noted as "See previous issues."
+最新修订列在最上方。表格通常显示最近 5-6 次修订；更早修订注明“见此前发布版”。
 
 ---
 
-## 6. Issue Status Codes
+## 6. 发布状态代码
 
-### 6.1 Standard Issue Stages
+### 6.1 标准发布阶段
 
-| Code | Status                    | Description                                |
+| 代码 | 状态 | 描述 |
 |------|---------------------------|--------------------------------------------|
-| P    | Preliminary               | Work in progress, not for external use     |
-| FR   | For Review                | Issued for review and comment              |
-| FA   | For Approval              | Issued for client/authority approval       |
-| FC   | For Construction          | Issued for construction (contract document)|
-| FT   | For Tender/Bidding        | Issued for contractor pricing              |
-| FI   | For Information           | Issued for reference only                  |
-| FC-R | For Construction (Revised)| Revised during construction                |
-| AB   | As-Built                  | Updated to reflect constructed conditions  |
-| RD   | Record Document           | Final record of constructed work           |
+| P | 初步 | 进行中，不供外部使用 |
+| FR | 供审查 | 发布供审查和评论 |
+| FA | 供批准 | 发布供业主/主管机构批准 |
+| FC | 供施工 | 发布供施工（合同文件） |
+| FT | 供招标/报价 | 发布供承包商报价 |
+| FI | 供参考 | 仅供参考 |
+| FC-R | 供施工（修订） | 施工期间修订 |
+| AB | 竣工 | 更新以反映建成条件 |
+| RD | 记录文件 | 建成工程最终记录 |
 
-### 6.2 Issue Management
+### 6.2 发布管理
 
-- Each issue has a unique identifier (issue date or issue number)
-- Transmittal letter accompanies every issue listing all sheets included
-- Superseded sheets must be clearly marked or removed from field sets
-- Digital issue management through project portals (Aconex, PlanGrid,
+- 每次发布均有唯一标识符（发布日期或发布编号）
+- 每次发布均附发送函，列出所含全部图纸
+- 被取代图纸必须明确标记，或从现场图纸集中移除
+- 通过项目门户（Aconex、PlanGrid 等）进行数字化发布管理
   BIM 360, Procore) tracks receipt and acknowledgment
 
 ---
 
-## 7. Cloud Markup Conventions
+## 7. 云线批注约定
 
 ### 7.1 Types of Markups
 
-- **Revision clouds**: Indicate changes between issues
-- **Review comments**: Preliminary markups for internal coordination
-- **RFI references**: Clouds linking to RFI responses incorporated
-- **ASI references**: Architect's Supplemental Instructions annotated
-- **Scope change markers**: Identifying change order related modifications
+- **修订云线：**表示不同发布版本之间的变更
+- **审查意见：**用于内部协调的初步批注
+- **RFI引用：**云线链接至已纳入的RFI回复
+- **ASI引用：**标注建筑师补充指令
+- **范围变更标记：**标识与变更令相关的修改
 
-### 7.2 Color Coding (Digital Review)
+### 7.2 颜色编码（数字审查）
 
-| Color   | Meaning                          |
+| 颜色   | 含义                          |
 |---------|----------------------------------|
-| Red     | Critical issue, must address     |
-| Orange  | Important comment, review needed |
-| Yellow  | Minor comment or suggestion      |
-| Green   | Approved or accepted             |
-| Blue    | Information only                 |
-| Purple  | Consultant coordination item     |
+| 红色     | 关键问题，必须处理     |
+| 橙色  | 重要意见，需要复核 |
+| 黄色  | 次要意见或建议      |
+| 绿色   | 已批准或已接受             |
+| 蓝色    | 仅供信息                 |
+| 紫色  | 顾问协调事项     |
 
-### 7.3 Markup Workflow
+### 7.3 批注流程
 
 1. Author creates drawing and publishes to CDE as "Work in Progress"
 2. Reviewer opens drawing and adds markup comments
@@ -336,9 +324,9 @@ revisions; earlier revisions noted as "See previous issues."
 
 ---
 
-## 8. Drawing Coordination Checks
+## 8. 图纸协调检查
 
-### 8.1 Internal Coordination (Architectural)
+### 8.1 内部协调（建筑）
 
 Before any issue, verify:
 - Room numbers consistent across plans, RCPs, finish schedules
@@ -353,43 +341,43 @@ Before any issue, verify:
 - Stair risers and treads comply with code and match floor heights
 - Material indications consistent between plans, sections, and details
 
-### 8.2 Interdisciplinary Coordination
+### 8.2 跨专业协调
 
 Verify against consultant drawings:
-- **Structural**: Column and beam locations match architectural plans;
+- **结构：**柱梁位置与建筑图一致；
   slab edges, openings, and depressions coordinated; structural depths
   match architectural sections
-- **Mechanical**: Duct routing fits within ceiling plenum; equipment
+- **机械：**风管路线适配吊顶夹层；设备
   locations have required clearances; louver sizes match architectural
   elevations
-- **Electrical**: Panel locations match architectural plans; light fixture
+- **电气：**配电盘位置与建筑图一致；灯具
   layout matches RCP; outlet heights per architectural interior elevations
-- **Plumbing**: Fixture locations match architectural plans; floor drains
+- **给排水：**洁具位置与建筑图一致；地漏
   at correct locations; pipe chases sized adequately
-- **Fire Protection**: Sprinkler heads coordinated with ceiling layout;
+- **消防：**喷淋头与天花布置协调；
   fire-rated walls continuous through all drawings; smoke/fire dampers
   at rated wall penetrations
-- **Civil**: Building footprint matches site plan; finish floor elevation
+- **土建：**建筑轮廓与总平面一致；完成地坪标高
   matches grading plan; utility connections coordinated
 
-### 8.3 Automated Coordination Tools
+### 8.3 自动化协调工具
 
-- **Navisworks Manage**: Federated model clash detection
-- **Solibri Model Checker**: Rule-based model checking
-- **BIMcollab**: Cloud-based BCF issue management
-- **Revit Interference Check**: Built-in clash detection within Revit
-- **Bluebeam Revu**: PDF overlay comparison for 2D coordination
-- **AutoCAD DWG Compare**: Automated drawing comparison tool
+- **Navisworks Manage：**联合模型碰撞检测
+- **Solibri Model Checker：**基于规则的模型检查
+- **BIMcollab：**基于云的BCF问题管理
+- **Revit干涉检查：**Revit内置碰撞检测
+- **Bluebeam Revu：**用于二维协调的PDF叠图比较
+- **AutoCAD DWG Compare：**自动图纸比较工具
 
-### 8.4 Coordination Checklist by Phase
+### 8.4 按阶段划分的协调检查清单
 
-**Schematic Design Issue:**
+**方案设计阶段发布：**
 - Building footprint and overall dimensions verified
 - Floor-to-floor heights confirmed with structural and MEP
 - Major vertical penetrations (stairs, elevators, shafts) located
 - Preliminary code compliance verified
 
-**Design Development Issue:**
+**设计深化阶段发布：**
 - All rooms numbered and named
 - All doors and windows tagged
 - Structural grid finalized and coordinated
@@ -397,12 +385,12 @@ Verify against consultant drawings:
 - Ceiling heights established and verified
 - Wall types assigned and rated walls identified
 
-**Construction Document Issue:**
+**施工图文件阶段发布：**
 - All annotation complete (dimensions, keynotes, tags)
 - All schedules complete and cross-referenced
 - All details drawn and referenced
 - All specification sections written and cross-referenced
 - Clash detection run and issues resolved
-- Code compliance fully documented
+- 规范合规性已完整记录
 - Accessibility compliance verified
 - QA/QC review by senior architect completed

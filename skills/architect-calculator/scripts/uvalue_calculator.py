@@ -1,41 +1,38 @@
 #!/usr/bin/env python3
 """
-U-Value Calculator for Architects
-===================================
-Calculates thermal transmittance for both simple wall build-ups and
-composite facade assemblies with windows, doors, balconies, and
-linear/point thermal bridges.
+建筑师传热系数（U 值）计算器
+============================
+计算简单墙体构造及复合立面构件的传热系数；复合立面可包含窗、门、阳台门，
+以及线性/点状热桥。
 
-Facade mode auto-composes openings with equal pier widths, symmetry
-around doors, sill height alignment, and generates a proportional
-ASCII facade elevation diagram.
+立面模式会自动布置洞口，使窗间墙宽度相等、门洞两侧保持对称、窗台高度对齐，
+并生成按比例绘制的 ASCII 立面图。
 
-MODE 1 -- Simple Wall Build-Up:
+模式 1 —— 简单墙体构造：
   python uvalue_calculator.py --layers '[
-    {"name":"Brick","thickness_mm":102,"conductivity":0.77},
-    {"name":"PIR Insulation","thickness_mm":100,"conductivity":0.022},
-    {"name":"Concrete block","thickness_mm":100,"conductivity":0.15}
+    {"name":"砖墙","thickness_mm":102,"conductivity":0.77},
+    {"name":"PIR 保温层","thickness_mm":100,"conductivity":0.022},
+    {"name":"混凝土砌块","thickness_mm":100,"conductivity":0.15}
   ]'
 
-MODE 2 -- Composite Facade (auto-layout + thermal calculation):
+模式 2 —— 复合立面（自动布局 + 热工计算）：
   python uvalue_calculator.py --facade '{
     "width": 7.0, "height": 3.0,
     "wall_layers": [
-      {"name":"Render","thickness_mm":15,"conductivity":0.50},
+      {"name":"抹灰层","thickness_mm":15,"conductivity":0.50},
       {"name":"EPS","thickness_mm":150,"conductivity":0.034},
-      {"name":"Concrete","thickness_mm":200,"conductivity":1.40},
-      {"name":"Plaster","thickness_mm":13,"conductivity":0.16}
+      {"name":"混凝土","thickness_mm":200,"conductivity":1.40},
+      {"name":"石膏抹灰层","thickness_mm":13,"conductivity":0.16}
     ],
     "openings": [
       {"type":"window","name":"W1","width":1.2,"height":1.5,"u_value":1.2},
-      {"type":"door","name":"D1 Entrance","width":0.9,"height":2.1,"u_value":1.8},
+      {"type":"door","name":"D1 入户门","width":0.9,"height":2.1,"u_value":1.8},
       {"type":"window","name":"W2","width":1.2,"height":1.5,"u_value":1.2}
     ]
   }'
 
-  Openings are laid out LEFT-TO-RIGHT in the order given, with equal
-  pier widths computed automatically. Doors sit at ground level (sill=0),
-  windows default to sill=0.9m. Override sill with "sill" field.
+  洞口将按给定顺序从左至右布置，并自动计算相等的窗间墙宽度。门落地布置（sill=0），
+  窗的默认窗台高度为 0.9m。可通过 "sill" 字段覆盖窗台高度。
 """
 
 import argparse
@@ -45,49 +42,49 @@ import sys
 
 
 # ============================================================================
-# Constants
+# 常量
 # ============================================================================
 
 DEFAULT_PSI_WINDOW = 0.04
 DEFAULT_PSI_DOOR = 0.06
 DEFAULT_PSI_BALCONY_DOOR = 0.05
 
-MIN_PIER_STRUCTURAL = 0.20   # absolute structural minimum (m)
-MIN_PIER_THERMAL = 0.40      # minimum to avoid severe thermal bridging (m)
-MIN_PIER_RECOMMENDED = 0.60  # recommended for good practice (m)
+MIN_PIER_STRUCTURAL = 0.20   # 结构绝对最小值（m）
+MIN_PIER_THERMAL = 0.40      # 避免严重热桥的最小值（m）
+MIN_PIER_RECOMMENDED = 0.60  # 良好实践建议值（m）
 
-DEFAULT_SILL_WINDOW = 0.90   # metres above floor
-DEFAULT_SILL_DOOR = 0.00     # ground level
+DEFAULT_SILL_WINDOW = 0.90   # 距楼地面高度（m）
+DEFAULT_SILL_DOOR = 0.00     # 地面标高
 
 COMPLIANCE_TARGETS = {
     "passive_house_wall": 0.15,
     "code_wall": 0.30,
 }
 
-DIAGRAM_TARGET_WIDTH = 74  # characters wide for ASCII diagram
+DIAGRAM_TARGET_WIDTH = 74  # ASCII 图示宽度（字符数）
 
 
 # ============================================================================
-# Mode 1: Simple Wall
+# 模式 1：简单墙体
 # ============================================================================
 
 def validate_layers(layers):
     errors = []
     if not layers:
-        errors.append("At least one layer is required.")
+        errors.append("至少需要一个构造层。")
         return errors
     for i, layer in enumerate(layers):
-        label = f"Layer {i + 1}"
+        label = f"第 {i + 1} 层"
         if "name" not in layer:
-            errors.append(f"{label}: missing 'name'.")
+            errors.append(f"{label}：缺少 'name'。")
         if "thickness_mm" not in layer:
-            errors.append(f"{label}: missing 'thickness_mm'.")
+            errors.append(f"{label}：缺少 'thickness_mm'。")
         elif layer["thickness_mm"] <= 0:
-            errors.append(f"{label}: thickness_mm must be positive.")
+            errors.append(f"{label}：thickness_mm 必须为正数。")
         if "conductivity" not in layer:
-            errors.append(f"{label}: missing 'conductivity'.")
+            errors.append(f"{label}：缺少 'conductivity'。")
         elif layer["conductivity"] <= 0:
-            errors.append(f"{label}: conductivity must be positive.")
+            errors.append(f"{label}：conductivity 必须为正数。")
     return errors
 
 
@@ -117,11 +114,11 @@ def calculate_wall_uvalue(layers, rsi_internal, rsi_external):
 
 
 # ============================================================================
-# Mode 2: Facade Layout Engine
+# 模式 2：立面布局引擎
 # ============================================================================
 
 def expand_openings(openings):
-    """Expand count>1 into individual openings, preserving input order."""
+    """将 count>1 展开为独立洞口，并保留输入顺序。"""
     expanded = []
     for op in openings:
         count = op.get("count", 1)
@@ -137,20 +134,20 @@ def expand_openings(openings):
 
 def generate_layout(facade_width, facade_height, openings):
     """
-    Position openings left-to-right with equal pier widths.
+    按从左至右顺序布置洞口，并使窗间墙宽度相等。
 
-    Rules:
-    - Openings are placed in INPUT ORDER (user controls composition)
-    - All pier widths (gaps between openings and edges) are EQUAL
-    - Doors: sill = 0.0m (ground level) unless overridden
-    - Windows: sill = 0.9m unless overridden
-    - Balcony doors: sill = 0.0m unless overridden
-    - Validates: piers not too narrow, openings fit within facade
+    规则：
+    - 洞口按输入顺序布置（由用户控制构图）
+    - 所有窗间墙宽度（洞口之间及边缘处的间距）相等
+    - 门：除非另行指定，sill = 0.0m（地面标高）
+    - 窗：除非另行指定，sill = 0.9m
+    - 阳台门：除非另行指定，sill = 0.0m
+    - 校验窗间墙宽度是否过窄，以及洞口是否能够容纳于立面内
 
-    Returns:
-        positioned: list of dicts with added 'x', 'sill', 'x_center' fields
-        pier_width: the equal pier width (metres)
-        piers: list of pier dicts with 'x', 'width', 'label'
+    返回：
+        positioned：新增 'x'、'sill'、'x_center' 字段的字典列表
+        pier_width：相等的窗间墙宽度（米）
+        piers：包含 'x'、'width'、'label' 的窗间墙字典列表
     """
     expanded = expand_openings(openings)
 
@@ -159,10 +156,10 @@ def generate_layout(facade_width, facade_height, openings):
     n_piers = len(expanded) + 1
     pier_width = remaining / n_piers if n_piers > 0 else remaining
 
-    # Assign positions
+    # 分配位置
     x = pier_width
     piers = []
-    # Left edge pier
+    # 左侧边缘窗间墙
     piers.append({
         "label": "pier",
         "x": 0.0,
@@ -170,7 +167,7 @@ def generate_layout(facade_width, facade_height, openings):
     })
 
     for i, op in enumerate(expanded):
-        # Set sill height
+        # 设置窗台高度
         if "sill" not in op:
             if op["type"] in ("door", "balcony_door"):
                 op["sill"] = DEFAULT_SILL_DOOR
@@ -183,7 +180,7 @@ def generate_layout(facade_width, facade_height, openings):
 
         x_after = x + op["width"]
 
-        # Pier after this opening
+        # 此洞口后的窗间墙
         piers.append({
             "label": "pier",
             "x": round(x_after, 4),
@@ -197,20 +194,19 @@ def generate_layout(facade_width, facade_height, openings):
 
 def draw_facade_elevation(facade_width, facade_height, positioned, pier_width):
     """
-    Generate a proportional ASCII facade elevation diagram.
+    生成按比例绘制的 ASCII 立面图。
 
-    The diagram uses character widths proportional to real dimensions,
-    showing openings as boxes within the wall, with sill heights,
-    labels, and dimension annotations.
+    图示中的字符宽度与实际尺寸成比例；墙体中的洞口以框线表示，并标注
+    窗台高度、名称和尺寸。
     """
-    scale = (DIAGRAM_TARGET_WIDTH - 2) / facade_width  # chars per metre (inside borders)
-    min_label_width = 3  # minimum chars for any element
+    scale = (DIAGRAM_TARGET_WIDTH - 2) / facade_width  # 每米对应的字符数（边框内）
+    min_label_width = 3  # 任一元素的最小字符宽度
 
-    # Build element sequence: pier, opening, pier, opening, ..., pier
+    # 构建元素序列：窗间墙、洞口、窗间墙、洞口……窗间墙
     elements = []
     x = 0.0
     for op in positioned:
-        # Pier before this opening
+        # 此洞口前的窗间墙
         op_x = op.get("x", op.get("x_m", 0))
         pw = op_x - x
         if pw > 0.001:
@@ -218,22 +214,22 @@ def draw_facade_elevation(facade_width, facade_height, positioned, pier_width):
         op_w = op.get("width", op.get("width_m", 0))
         elements.append({"type": "opening", "width_m": op_w, "data": op})
         x = op_x + op_w
-    # Final pier
+    # 最后一段窗间墙
     pw = facade_width - x
     if pw > 0.001:
         elements.append({"type": "pier", "width_m": pw, "data": None})
 
-    # Calculate character widths
+    # 计算字符宽度
     raw_chars = []
     for el in elements:
         c = max(min_label_width, round(el["width_m"] * scale))
         raw_chars.append(c)
 
-    # Adjust to hit target width
+    # 调整至目标宽度
     total_c = sum(raw_chars)
-    target = DIAGRAM_TARGET_WIDTH - 2  # minus left and right border chars
+    target = DIAGRAM_TARGET_WIDTH - 2  # 减去左右边框字符
     diff = target - total_c
-    # Distribute difference across widest elements
+    # 将差值分配给最宽的元素
     if diff != 0:
         sorted_indices = sorted(range(len(raw_chars)),
                                 key=lambda i: raw_chars[i], reverse=True)
@@ -245,17 +241,17 @@ def draw_facade_elevation(facade_width, facade_height, positioned, pier_width):
     char_widths = raw_chars
 
     lines = []
-    lines.append(f"--- FACADE ELEVATION ({facade_width:.1f}m x {facade_height:.1f}m) ---")
+    lines.append(f"--- 立面图 ({facade_width:.1f}m × {facade_height:.1f}m) ---")
     lines.append("")
 
-    # --- TOP BORDER ---
+    # --- 顶部边框 ---
     top = "+"
     for cw in char_widths:
         top += "-" * cw + "+"
     lines.append("  " + top)
 
-    # --- UPPER WALL (above window heads, below facade top) ---
-    # Show opening type labels
+    # --- 上部墙体（洞口顶以上、立面顶部以下）---
+    # 显示洞口类型标签
     row_type = "|"
     row_name = "|"
     row_size = "|"
@@ -270,7 +266,11 @@ def draw_facade_elevation(facade_width, facade_height, positioned, pier_width):
             row_uval += " " * cw + "|"
         else:
             op = el["data"]
-            op_type = op["type"].upper().replace("_", " ")
+            op_type = {
+                "window": "窗",
+                "door": "门",
+                "balcony_door": "阳台门",
+            }.get(op["type"], op["type"].upper().replace("_", " "))
             op_name = op.get("name", op["type"])
             w = op.get("width", op.get("width_m", 0))
             h = op.get("height", op.get("height_m", 0))
@@ -287,7 +287,7 @@ def draw_facade_elevation(facade_width, facade_height, positioned, pier_width):
     lines.append("  " + row_size)
     lines.append("  " + row_uval)
 
-    # --- SILL LINE (windows stop here, doors continue to ground) ---
+    # --- 窗台线（窗止于此线，门延续至地面）---
     sill_row = "|"
     for i, el in enumerate(elements):
         cw = char_widths[i]
@@ -297,13 +297,13 @@ def draw_facade_elevation(facade_width, facade_height, positioned, pier_width):
             op = el["data"]
             sill = op.get("sill", op.get("sill_m", 0))
             if sill > 0.01:
-                sill_str = f"sill {sill:.1f}m"
+                sill_str = f"窗台 {sill:.1f}m"
                 sill_row += center_text(sill_str, cw) + "|"
             else:
-                sill_row += center_text("(to ground)", cw) + "|"
+                sill_row += center_text("（至地面）", cw) + "|"
     lines.append("  " + sill_row)
 
-    # --- BELOW-SILL ROW (wall below windows, doors still open) ---
+    # --- 窗台以下行（窗下为墙体，门洞仍为空）---
     below = "|"
     for i, el in enumerate(elements):
         cw = char_widths[i]
@@ -313,18 +313,18 @@ def draw_facade_elevation(facade_width, facade_height, positioned, pier_width):
             op = el["data"]
             sill2 = op.get("sill", op.get("sill_m", 0))
             if sill2 > 0.01:
-                below += center_text("[wall]", cw) + "|"
+                below += center_text("[墙体]", cw) + "|"
             else:
                 below += " " * cw + "|"
     lines.append("  " + below)
 
-    # --- BOTTOM BORDER ---
+    # --- 底部边框 ---
     bot = "+"
     for cw in char_widths:
         bot += "-" * cw + "+"
     lines.append("  " + bot)
 
-    # --- DIMENSION LINE ---
+    # --- 尺寸线 ---
     dim_row = " "
     for i, el in enumerate(elements):
         cw = char_widths[i]
@@ -335,103 +335,103 @@ def draw_facade_elevation(facade_width, facade_height, positioned, pier_width):
         dim_row += center_text(dim_str, cw + 1)
     lines.append("  " + dim_row)
 
-    # --- LABEL LINE ---
+    # --- 标签行 ---
     label_row = " "
     for i, el in enumerate(elements):
         cw = char_widths[i]
         if el["type"] == "pier":
-            label_row += center_text("pier", cw + 1)
+            label_row += center_text("窗间墙", cw + 1)
         else:
             op = el["data"]
             label_row += center_text(op.get("name", op["type"]), cw + 1)
     lines.append("  " + label_row)
 
     lines.append("")
-    lines.append(f"  Equal pier width: {pier_width:.2f}m")
+    lines.append(f"  等宽窗间墙：{pier_width:.2f}m")
 
-    # Pier quality assessment
+    # 窗间墙质量评估
     if pier_width < MIN_PIER_STRUCTURAL:
-        lines.append(f"  !! CRITICAL: Pier {pier_width:.2f}m < {MIN_PIER_STRUCTURAL}m "
-                     "structural minimum. Openings do not fit.")
+        lines.append(f"  !! 严重：窗间墙 {pier_width:.2f}m < {MIN_PIER_STRUCTURAL}m "
+                     "结构最小值。洞口无法容纳。")
     elif pier_width < MIN_PIER_THERMAL:
-        lines.append(f"  ! WARNING: Pier {pier_width:.2f}m < {MIN_PIER_THERMAL}m. "
-                     "Severe thermal bridging at piers. Widen wall or shrink openings.")
+        lines.append(f"  ! 警告：窗间墙 {pier_width:.2f}m < {MIN_PIER_THERMAL}m。"
+                     "窗间墙处热桥严重。请加宽墙体或缩小洞口。")
     elif pier_width < MIN_PIER_RECOMMENDED:
-        lines.append(f"  NOTE: Pier {pier_width:.2f}m < {MIN_PIER_RECOMMENDED}m recommended. "
-                     "Consider widening for better thermal performance and proportions.")
+        lines.append(f"  提示：窗间墙 {pier_width:.2f}m < 建议值 {MIN_PIER_RECOMMENDED}m。"
+                     "建议加宽以改善热工性能和立面比例。")
     else:
-        lines.append(f"  Pier width OK (>= {MIN_PIER_RECOMMENDED}m recommended minimum)")
+        lines.append(f"  窗间墙宽度合格（建议最小值 ≥ {MIN_PIER_RECOMMENDED}m）")
 
     return "\n".join(lines)
 
 
 def center_text(text, width):
-    """Center text within a given character width, truncating if needed."""
+    """在指定字符宽度内居中文本；必要时截断。"""
     if len(text) > width:
         text = text[:width]
     return text.center(width)
 
 
 # ============================================================================
-# Mode 2: Facade Thermal Calculation
+# 模式 2：立面热工计算
 # ============================================================================
 
 def validate_facade(facade):
     errors = []
     if "width" not in facade or facade["width"] <= 0:
-        errors.append("Facade 'width' must be positive (metres).")
+        errors.append("立面的 'width' 必须为正数（米）。")
     if "height" not in facade or facade["height"] <= 0:
-        errors.append("Facade 'height' must be positive (metres).")
+        errors.append("立面的 'height' 必须为正数（米）。")
     if "wall_layers" not in facade or not facade["wall_layers"]:
-        errors.append("Facade must include 'wall_layers' array.")
+        errors.append("立面必须包含 'wall_layers' 数组。")
     else:
         errors.extend(validate_layers(facade["wall_layers"]))
 
     for i, op in enumerate(facade.get("openings", [])):
-        label = f"Opening {i + 1}"
+        label = f"第 {i + 1} 个洞口"
         if "type" not in op:
-            errors.append(f"{label}: missing 'type' (window/door/balcony_door).")
+            errors.append(f"{label}：缺少 'type'（window/door/balcony_door）。")
         if "width" not in op or op["width"] <= 0:
-            errors.append(f"{label}: 'width' must be positive.")
+            errors.append(f"{label}：'width' 必须为正数。")
         if "height" not in op or op["height"] <= 0:
-            errors.append(f"{label}: 'height' must be positive.")
+            errors.append(f"{label}：'height' 必须为正数。")
         if "u_value" not in op or op["u_value"] <= 0:
-            errors.append(f"{label}: 'u_value' must be positive.")
+            errors.append(f"{label}：'u_value' 必须为正数。")
 
     for i, tb in enumerate(facade.get("thermal_bridges", [])):
-        label = f"Thermal bridge {i + 1}"
+        label = f"第 {i + 1} 个热桥"
         if "psi" not in tb or tb["psi"] < 0:
-            errors.append(f"{label}: 'psi' must be non-negative.")
+            errors.append(f"{label}：'psi' 不得为负数。")
         if "length" not in tb or tb["length"] <= 0:
-            errors.append(f"{label}: 'length' must be positive.")
+            errors.append(f"{label}：'length' 必须为正数。")
 
     return errors
 
 
 def calculate_facade(facade, rsi_internal, rsi_external):
     """
-    Full composite facade analysis:
-    1. Auto-layout openings with equal pier widths
-    2. Calculate opaque wall U-value from layers
-    3. Area-weighted composite U-value per ISO 13789
-    4. Thermal bridge contributions (perimeter + user-defined)
+    完整的复合立面分析：
+    1. 自动布置洞口，并使窗间墙宽度相等
+    2. 根据构造层计算不透明墙体的 U 值
+    3. 按 ISO 13789 计算面积加权的综合 U 值
+    4. 计算热桥贡献（洞口周边 + 用户自定义热桥）
     """
     fw = facade["width"]
     fh = facade["height"]
     total_area = fw * fh
 
-    # --- Layout ---
+    # --- 布局 ---
     positioned, pier_width, piers = generate_layout(
         fw, fh, facade.get("openings", [])
     )
 
-    # --- Wall U-value ---
+    # --- 墙体 U 值 ---
     wall_result = calculate_wall_uvalue(
         facade["wall_layers"], rsi_internal, rsi_external
     )
     wall_u = wall_result["u_value"]
 
-    # --- Process positioned openings ---
+    # --- 处理已定位的洞口 ---
     opening_results = []
     total_opening_area = 0.0
     total_window_area = 0.0
@@ -475,16 +475,16 @@ def calculate_facade(facade, rsi_internal, rsi_external):
             "loss_total_WK": round(area_loss + perim_loss, 3),
         })
 
-        component_losses.append({"name": f"{op_name} (area)", "WK": area_loss})
-        component_losses.append({"name": f"{op_name} (perim)", "WK": perim_loss})
+        component_losses.append({"name": f"{op_name}（面积）", "WK": area_loss})
+        component_losses.append({"name": f"{op_name}（周边）", "WK": perim_loss})
 
     opaque_area = total_area - total_opening_area
     if opaque_area < 0:
         opaque_area = 0.0
     opaque_loss = wall_u * opaque_area
-    component_losses.insert(0, {"name": "Opaque wall", "WK": opaque_loss})
+    component_losses.insert(0, {"name": "不透明墙体", "WK": opaque_loss})
 
-    # --- User-defined thermal bridges ---
+    # --- 用户自定义热桥 ---
     bridges = facade.get("thermal_bridges", [])
     bridge_results = []
     total_bridge_loss = 0.0
@@ -492,13 +492,13 @@ def calculate_facade(facade, rsi_internal, rsi_external):
         loss = tb["psi"] * tb["length"]
         total_bridge_loss += loss
         bridge_results.append({
-            "name": tb.get("name", "Bridge"),
+            "name": tb.get("name", "热桥"),
             "psi_WmK": tb["psi"],
             "length_m": tb["length"],
             "loss_WK": round(loss, 3),
         })
         component_losses.append({
-            "name": f"{tb.get('name', 'Bridge')} (psi={tb['psi']})",
+            "name": f"{tb.get('name', '热桥')}（psi={tb['psi']}）",
             "WK": loss,
         })
 
@@ -550,15 +550,15 @@ def calculate_facade(facade, rsi_internal, rsi_external):
 
 
 # ============================================================================
-# Output Formatting
+# 输出格式化
 # ============================================================================
 
 def format_simple_output(result):
     lines = [
-        "=== U-Value Calculator -- Simple Wall Build-Up ===",
-        f"{'Layer':<25} {'Thick(mm)':>10} {'Cond(W/mK)':>12} {'R(m2K/W)':>12}",
+        "=== 传热系数（U 值）计算器 —— 简单墙体构造 ===",
+        f"{'构造层':<25} {'厚度(mm)':>10} {'导热系数(W/mK)':>12} {'R(m2K/W)':>12}",
         "-" * 62,
-        f"{'Rsi (internal)':<25} {'--':>10} {'--':>12} {result['rsi_internal']:>12.4f}",
+        f"{'Rsi（内表面）':<25} {'--':>10} {'--':>12} {result['rsi_internal']:>12.4f}",
     ]
     for layer in result["layers"]:
         lines.append(
@@ -566,16 +566,16 @@ def format_simple_output(result):
             f"{layer['conductivity']:>12.4f} {layer['r_value']:>12.4f}"
         )
     lines.extend([
-        f"{'Rse (external)':<25} {'--':>10} {'--':>12} {result['rsi_external']:>12.4f}",
+        f"{'Rse（外表面）':<25} {'--':>10} {'--':>12} {result['rsi_external']:>12.4f}",
         "-" * 62,
-        f"Total thickness:   {result['total_thickness_mm']:,} mm",
-        f"Total R-value:     {result['total_r_value']:.4f} m2K/W",
-        f"U-value:           {result['u_value']:.4f} W/m2K",
+        f"总厚度：           {result['total_thickness_mm']:,} mm",
+        f"总热阻 R 值：      {result['total_r_value']:.4f} m2K/W",
+        f"传热系数 U 值：    {result['u_value']:.4f} W/m2K",
         "",
-        f"Passive House (wall): 0.15 W/m2K -- "
-        f"{'MEETS' if result['u_value'] <= 0.15 else 'DOES NOT MEET'}",
-        f"Typical code (wall):  0.30 W/m2K -- "
-        f"{'MEETS' if result['u_value'] <= 0.30 else 'DOES NOT MEET'}",
+        f"被动房（墙体）：0.15 W/m2K —— "
+        f"{'符合' if result['u_value'] <= 0.15 else '不符合'}",
+        f"常见规范限值（墙体）：0.30 W/m2K —— "
+        f"{'符合' if result['u_value'] <= 0.30 else '不符合'}",
     ])
     return "\n".join(lines)
 
@@ -589,35 +589,35 @@ def format_facade_output(result):
 
     lines = []
 
-    # --- FACADE ELEVATION DIAGRAM ---
+    # --- 立面图 ---
     diagram = draw_facade_elevation(
         f["width_m"], f["height_m"],
         layout["openings_positioned"], pier_w
     )
     lines.append(diagram)
 
-    # --- GEOMETRY SUMMARY ---
+    # --- 几何汇总 ---
     lines.extend([
         "",
         "=" * 72,
-        "  COMPOSITE FACADE THERMAL ANALYSIS",
+        "  复合立面热工分析",
         "=" * 72,
         "",
-        "--- GEOMETRY ---",
-        f"  Facade:            {f['width_m']:.1f}m x {f['height_m']:.1f}m = {f['total_area_m2']:.2f} m2",
-        f"  Opaque wall:       {f['opaque_area_m2']:.2f} m2 ({f['opaque_area_m2']/f['total_area_m2']*100:.1f}%)",
-        f"  Openings:          {f['opening_area_m2']:.2f} m2 ({f['opening_area_m2']/f['total_area_m2']*100:.1f}%)",
-        f"  WWR:               {f['wwr_pct']:.1f}%",
-        f"  Pier width:        {pier_w:.2f}m (x{layout['pier_count']} piers)",
+        "--- 几何信息 ---",
+        f"  立面：             {f['width_m']:.1f}m × {f['height_m']:.1f}m = {f['total_area_m2']:.2f} m2",
+        f"  不透明墙体：       {f['opaque_area_m2']:.2f} m2 ({f['opaque_area_m2']/f['total_area_m2']*100:.1f}%)",
+        f"  洞口：             {f['opening_area_m2']:.2f} m2 ({f['opening_area_m2']/f['total_area_m2']*100:.1f}%)",
+        f"  窗墙比 WWR：       {f['wwr_pct']:.1f}%",
+        f"  窗间墙宽度：       {pier_w:.2f}m（共 {layout['pier_count']} 段）",
     ])
 
-    # --- WALL BUILD-UP ---
+    # --- 墙体构造 ---
     lines.extend([
         "",
-        "--- OPAQUE WALL BUILD-UP ---",
-        f"  {'Layer':<20} {'Thick':>7} {'Cond':>10} {'R-value':>10}",
+        "--- 不透明墙体构造 ---",
+        f"  {'构造层':<20} {'厚度':>7} {'导热系数':>10} {'R 值':>10}",
         f"  {'-'*49}",
-        f"  {'Rsi (internal)':<20} {'--':>7} {'--':>10} {wb['rsi_internal']:>10.4f}",
+        f"  {'Rsi（内表面）':<20} {'--':>7} {'--':>10} {wb['rsi_internal']:>10.4f}",
     ])
     for layer in wb["layers"]:
         lines.append(
@@ -625,24 +625,25 @@ def format_facade_output(result):
             f"{layer['conductivity']:>10.4f} {layer['r_value']:>10.4f}"
         )
     lines.extend([
-        f"  {'Rse (external)':<20} {'--':>7} {'--':>10} {wb['rsi_external']:>10.4f}",
+        f"  {'Rse（外表面）':<20} {'--':>7} {'--':>10} {wb['rsi_external']:>10.4f}",
         f"  {'-'*49}",
-        f"  Wall U-value: {wb['u_value']:.4f} W/m2K  |  "
-        f"Thickness: {wb['total_thickness_mm']}mm",
+        f"  墙体 U 值：{wb['u_value']:.4f} W/m2K  |  "
+        f"厚度：{wb['total_thickness_mm']}mm",
     ])
 
-    # --- OPENINGS TABLE ---
+    # --- 洞口表 ---
     if result["openings"]:
         lines.extend([
             "",
-            "--- OPENINGS (positioned left-to-right, perimeter psi auto-detected) ---",
-            f"  {'Name':<18} {'Type':<13} {'x(m)':>5} {'Size':>9} "
-            f"{'Sill':>5} {'U':>5} {'Loss':>8}",
+            "--- 洞口（按从左至右定位，周边 psi 自动识别）---",
+            f"  {'名称':<18} {'类型':<13} {'x(m)':>5} {'尺寸':>9} "
+            f"{'窗台':>5} {'U':>5} {'损失':>8}",
             f"  {'-'*67}",
         ])
         for op in result["openings"]:
             lines.append(
-                f"  {op['name']:<18} {op['type']:<13} "
+                f"  {op['name']:<18} "
+                f"{{'window': '窗', 'door': '门', 'balcony_door': '阳台门'}.get(op['type'], op['type']):<13} "
                 f"{op['x_m']:>5.2f} "
                 f"{op['width_m']:.1f}x{op['height_m']:.1f}m "
                 f"{op['sill_m']:>4.1f}m "
@@ -650,12 +651,12 @@ def format_facade_output(result):
                 f"{op['loss_total_WK']:>7.2f}W/K"
             )
 
-    # --- THERMAL BRIDGES ---
+    # --- 热桥 ---
     if result["thermal_bridges"]:
         lines.extend([
             "",
-            "--- ADDITIONAL THERMAL BRIDGES ---",
-            f"  {'Name':<28} {'psi(W/mK)':>10} {'Length':>8} {'Loss':>10}",
+            "--- 附加热桥 ---",
+            f"  {'名称':<28} {'psi(W/mK)':>10} {'长度':>8} {'损失':>10}",
             f"  {'-'*58}",
         ])
         for tb in result["thermal_bridges"]:
@@ -664,40 +665,40 @@ def format_facade_output(result):
                 f"{tb['length_m']:>7.1f}m {tb['loss_WK']:>9.3f}W/K"
             )
 
-    # --- HEAT LOSS BREAKDOWN ---
+    # --- 热损失分项 ---
     lines.extend([
         "",
-        "--- HEAT LOSS BREAKDOWN ---",
-        f"  Opaque wall:          {hl['wall_WK']:>8.2f} W/K  ({hl['wall_pct']:>5.1f}%)",
-        f"  Openings (area):      {hl['openings_WK']:>8.2f} W/K  ({hl['openings_pct']:>5.1f}%)",
-        f"  Opening perimeters:   {hl['perimeters_WK']:>8.2f} W/K  ({hl['perimeters_pct']:>5.1f}%)",
-        f"  Additional bridges:   {hl['bridges_WK']:>8.2f} W/K  ({hl['bridges_pct']:>5.1f}%)",
+        "--- 热损失分项 ---",
+        f"  不透明墙体：         {hl['wall_WK']:>8.2f} W/K  ({hl['wall_pct']:>5.1f}%)",
+        f"  洞口（面积）：       {hl['openings_WK']:>8.2f} W/K  ({hl['openings_pct']:>5.1f}%)",
+        f"  洞口周边：           {hl['perimeters_WK']:>8.2f} W/K  ({hl['perimeters_pct']:>5.1f}%)",
+        f"  附加热桥：           {hl['bridges_WK']:>8.2f} W/K  ({hl['bridges_pct']:>5.1f}%)",
         f"  {'-'*42}",
-        f"  TOTAL:                {hl['total_WK']:>8.2f} W/K  (100.0%)",
+        f"  合计：               {hl['total_WK']:>8.2f} W/K  (100.0%)",
     ])
 
-    # --- RESULT ---
+    # --- 结果 ---
     lines.extend([
         "",
         "=" * 72,
-        f"  COMPOSITE U-VALUE:   {result['u_composite']:.4f} W/m2K",
-        f"  (ISO 13789 area-weighted, including all thermal bridges)",
+        f"  综合 U 值：          {result['u_composite']:.4f} W/m2K",
+        f"  （按 ISO 13789 面积加权计算，含全部热桥）",
         "=" * 72,
         "",
-        f"  Passive House: 0.15 -- "
-        f"{'MEETS' if result['meets_passive_house'] else 'DOES NOT MEET'}",
-        f"  Code target:   0.30 -- "
-        f"{'MEETS' if result['meets_code'] else 'DOES NOT MEET'}",
+        f"  被动房：0.15 —— "
+        f"{'符合' if result['meets_passive_house'] else '不符合'}",
+        f"  规范目标：0.30 —— "
+        f"{'符合' if result['meets_code'] else '不符合'}",
     ])
 
-    # --- RECOMMENDATIONS ---
+    # --- 建议 ---
     lines.append("")
-    lines.append("--- RECOMMENDATIONS ---")
+    lines.append("--- 建议 ---")
 
     if f["wwr_pct"] > 40:
         lines.append(
-            f"  ! WWR={f['wwr_pct']:.0f}% exceeds 40%. "
-            "Reduce glazing area or upgrade to triple glazing."
+            f"  ! 窗墙比 WWR={f['wwr_pct']:.0f}% 超过 40%。"
+            "请减少玻璃面积或升级为三玻系统。"
         )
 
     worst_op = max(result["openings"], key=lambda o: o["loss_total_WK"],
@@ -705,39 +706,39 @@ def format_facade_output(result):
     if worst_op:
         savings = worst_op["area_m2"] * 0.4
         lines.append(
-            f"  Highest-loss opening: {worst_op['name']} "
-            f"({worst_op['loss_total_WK']:.2f} W/K). "
-            f"Upgrading U by 0.4 saves {savings:.1f} W/K."
+            f"  热损失最大的洞口：{worst_op['name']} "
+            f"（{worst_op['loss_total_WK']:.2f} W/K）。"
+            f"将 U 值改善 0.4 可节省 {savings:.1f} W/K。"
         )
 
     worst_tb = max(result["thermal_bridges"],
                    key=lambda t: t["loss_WK"], default=None)
     if worst_tb and worst_tb["psi_WmK"] > 0.10:
         lines.append(
-            f"  Worst bridge: {worst_tb['name']} "
-            f"(psi={worst_tb['psi_WmK']:.2f}, {worst_tb['loss_WK']:.2f} W/K). "
-            "Use thermal break connectors."
+            f"  最不利热桥：{worst_tb['name']} "
+            f"（psi={worst_tb['psi_WmK']:.2f}，{worst_tb['loss_WK']:.2f} W/K）。"
+            "建议采用隔热断桥连接件。"
         )
 
     return "\n".join(lines)
 
 
 # ============================================================================
-# Main
+# 主程序
 # ============================================================================
 
 def main():
     parser = argparse.ArgumentParser(
-        description="U-Value Calculator with facade layout engine.",
+        description="带立面布局引擎的传热系数（U 值）计算器。",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
-MODE 1 -- Simple wall:
-  %(prog)s --layers '[{"name":"Brick","thickness_mm":102,"conductivity":0.77}]'
+模式 1 —— 简单墙体：
+  %(prog)s --layers '[{"name":"砖墙","thickness_mm":102,"conductivity":0.77}]'
 
-MODE 2 -- Composite facade with auto-layout:
+模式 2 —— 自动布局的复合立面：
   %(prog)s --facade '{
     "width":7,"height":3,
-    "wall_layers":[{"name":"EPS","thickness_mm":150,"conductivity":0.034}],
+    "wall_layers":[{"name":"EPS 保温层","thickness_mm":150,"conductivity":0.034}],
     "openings":[
       {"type":"window","name":"W1","width":1.2,"height":1.5,"u_value":1.2},
       {"type":"door","name":"D1","width":0.9,"height":2.1,"u_value":1.8},
@@ -745,17 +746,17 @@ MODE 2 -- Composite facade with auto-layout:
     ]
   }'
 
-  Openings are placed LEFT-TO-RIGHT in the order you list them.
-  Equal pier widths are computed automatically.
-  Doors default to sill=0 (ground). Windows default to sill=0.9m.
-  Override with "sill" field per opening.
+  洞口按列出顺序从左至右布置。
+  自动计算相等的窗间墙宽度。
+  门的默认 sill=0（地面），窗的默认 sill=0.9m。
+  可在每个洞口中通过 "sill" 字段覆盖。
 
-  Opening types: window, door, balcony_door
-  Add "count":N to repeat an opening (expands to N individual instances).
-  Add "psi":value to override perimeter thermal bridge psi.
+  洞口类型：window、door、balcony_door
+  添加 "count":N 可重复一个洞口（展开为 N 个独立实例）。
+  添加 "psi":value 可覆盖洞口周边热桥 psi。
 
-  Thermal bridges (user-defined):
-    "thermal_bridges": [{"name":"Balcony slab","psi":0.50,"length":3.6}]
+  热桥（用户自定义）：
+    "thermal_bridges": [{"name":"阳台板","psi":0.50,"length":3.6}]
         """,
     )
 
@@ -768,31 +769,31 @@ MODE 2 -- Composite facade with auto-layout:
     args = parser.parse_args()
 
     if args.rsi_internal < 0 or args.rsi_external < 0:
-        print("Error: Surface resistances cannot be negative.", file=sys.stderr)
+        print("错误：表面热阻不得为负数。", file=sys.stderr)
         sys.exit(1)
 
     if args.facade and args.layers:
-        print("Error: Use --layers OR --facade, not both.", file=sys.stderr)
+        print("错误：请使用 --layers 或 --facade，不能同时使用。", file=sys.stderr)
         sys.exit(1)
 
     if not args.facade and not args.layers:
-        print("Error: Provide --layers or --facade. Use --help.", file=sys.stderr)
+        print("错误：请提供 --layers 或 --facade。使用 --help 查看帮助。", file=sys.stderr)
         sys.exit(1)
 
-    # --- MODE 1 ---
+    # --- 模式 1 ---
     if args.layers:
         try:
             layers = json.loads(args.layers)
         except json.JSONDecodeError as e:
-            print(f"Error: Invalid JSON: {e}", file=sys.stderr)
+            print(f"错误：JSON 无效：{e}", file=sys.stderr)
             sys.exit(1)
         if not isinstance(layers, list):
-            print("Error: --layers must be a JSON array.", file=sys.stderr)
+            print("错误：--layers 必须是 JSON 数组。", file=sys.stderr)
             sys.exit(1)
         errors = validate_layers(layers)
         if errors:
             for e in errors:
-                print(f"Error: {e}", file=sys.stderr)
+                print(f"错误：{e}", file=sys.stderr)
             sys.exit(1)
 
         result = calculate_wall_uvalue(layers, args.rsi_internal, args.rsi_external)
@@ -803,31 +804,31 @@ MODE 2 -- Composite facade with auto-layout:
         else:
             print(format_simple_output(result))
 
-    # --- MODE 2 ---
+    # --- 模式 2 ---
     elif args.facade:
         try:
             facade = json.loads(args.facade)
         except json.JSONDecodeError as e:
-            print(f"Error: Invalid JSON: {e}", file=sys.stderr)
+            print(f"错误：JSON 无效：{e}", file=sys.stderr)
             sys.exit(1)
         if not isinstance(facade, dict):
-            print("Error: --facade must be a JSON object.", file=sys.stderr)
+            print("错误：--facade 必须是 JSON 对象。", file=sys.stderr)
             sys.exit(1)
 
         errors = validate_facade(facade)
         if errors:
             for e in errors:
-                print(f"Error: {e}", file=sys.stderr)
+                print(f"错误：{e}", file=sys.stderr)
             sys.exit(1)
 
-        # Check openings fit
+        # 检查洞口是否能够容纳
         total_op_w = sum(
             o["width"] * o.get("count", 1)
             for o in facade.get("openings", [])
         )
         if total_op_w >= facade["width"]:
-            print(f"Error: Openings total width ({total_op_w:.2f}m) >= "
-                  f"facade width ({facade['width']:.2f}m).", file=sys.stderr)
+            print(f"错误：洞口总宽度（{total_op_w:.2f}m）≥ "
+                  f"立面宽度（{facade['width']:.2f}m）。", file=sys.stderr)
             sys.exit(1)
 
         result = calculate_facade(facade, args.rsi_internal, args.rsi_external)

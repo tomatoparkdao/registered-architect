@@ -1,337 +1,334 @@
 ---
 name: building-services
 description: >
-  Comprehensive building services knowledge for architects covering HVAC system
-  selection and spatial impact, plumbing and drainage design, electrical systems
-  and power distribution, vertical transportation (elevators and escalators),
-  fire protection systems (sprinklers, detection, smoke control), and MEP
-  coordination strategies including ceiling void allocation, riser sizing, plant
-  room planning, and BIM integration.
+  面向建筑师的全面建筑设备知识，涵盖 HVAC 系统选择及其空间影响、给排水设计、电气系统与配电、
+  垂直交通（电梯与自动扶梯）、消防系统（喷淋、探测、排烟），以及 MEP 协调策略，包括吊顶空间分配、
+  管井尺寸、设备机房规划和 BIM 集成。
 ---
 
-# Building Services for Architects
+# 建筑师建筑设备指南
 
-## Section 1: HVAC Systems for Architects
+## 第 1 节：建筑师 HVAC 系统
 
-Mechanical ventilation, heating, and cooling systems are the single largest consumer of building volume after the primary structure. The architect's HVAC decisions at concept stage — system type, plant room location, riser positions, ceiling void depth — are largely irreversible. This section equips architects to make informed selections and understand spatial consequences.
+在主体结构之后，机械通风、采暖和制冷系统是建筑体量的最大占用者。建筑师在概念阶段作出的 HVAC 决策——系统类型、设备机房位置、管井位置和吊顶空间深度——大多不可逆。本节帮助建筑师作出知情选择，并理解其空间后果。
 
-### Space Allowances: Mechanical Plant as Percentage of GFA
+### 空间预留：机械设备占总建筑面积（GFA）的比例
 
-| Building Type | Mechanical Plant (% of GFA) | Notes |
+| 建筑类型 | 机械设备（占 GFA） | 备注 |
 |---|---|---|
-| Commercial office (air-conditioned) | 5-8% | Higher end for prestige/lab-grade |
-| Commercial office (mixed-mode) | 3-5% | Reduced mechanical plant |
-| Hospital / healthcare | 8-12% | Extensive air handling, medical gases, redundancy |
-| Hotel | 5-7% | Central plant + individual room FCUs |
-| Residential (apartments) | 2-4% | Minimal central plant if individual systems |
-| Retail (shopping centre) | 4-6% | Anchor tenants often have own plant |
-| School / university | 3-5% | Varies with ventilation strategy |
-| Laboratory | 8-15% | High air-change rates, fume cupboards, specialist extract |
-| Data centre | 25-40% | Cooling-dominated; massive plant requirement |
+| 商业办公室（空调） | 5–8% | 高端项目/实验室级设备取较高值 |
+| 商业办公室（混合模式） | 3–5% | 机械设备较少 |
+| 医院/医疗建筑 | 8–12% | 大量空气处理、医用气体和冗余设备 |
+| 酒店 | 5–7% | 中央机房 + 客房独立 FCU |
+| 住宅（公寓） | 2–4% | 采用独立系统时中央机房最小 |
+| 零售（购物中心） | 4–6% | 主力店通常自设设备机房 |
+| 学校/大学 | 3–5% | 取决于通风策略 |
+| 实验室 | 8–15% | 高换气次数、通风柜和专用排风 |
+| 数据中心 | 25–40% | 以制冷为主，设备需求巨大 |
 
-### System Type 1: Natural Ventilation
+### 系统类型 1：自然通风
 
-- **Description**: Relies on wind-driven and buoyancy-driven airflow through operable windows, trickle vents, and/or ventilation shafts. No mechanical cooling. Heating by radiators, underfloor heating, or convectors.
-- **Spatial impact on architecture**:
-  - Floor plate depth: Maximum 12-15m (single-sided ventilation 2.5x floor-to-ceiling height; cross-ventilation up to 5x)
-  - No ceiling void for ductwork — 50-150mm for surface pipework/wiring only
-  - No AHU plant rooms required
-  - Ventilation shafts/stacks may be required for buoyancy-driven ventilation (0.5-1.5m² per stack)
-  - Heating plant room: 0.5-1.0% of GFA (boiler room)
-- **Energy performance**: 0 kWh/m²/yr for ventilation energy (heating energy 30-60 kWh/m²/yr)
-- **Noise ratings**: NR 25-35 (dependent on external noise — problematic on busy roads)
-- **Best-fit building types**: Low-rise residential, schools (in temperate climates), low-rise offices in rural/suburban settings
-- **Limitations**: Cannot control humidity. Dependent on external conditions. Not suitable for deep plans, noisy sites, polluted environments, or climates with sustained temperatures above 28C.
+- **说明**：依靠可开启窗、微量通风口和/或通风竖井中的风压及热压气流。无机械制冷；通过散热器、地板采暖或对流器采暖。
+- **对建筑的空间影响**：
+  - 楼板进深：最大 12–15 m（单侧通风为层高的 2.5 倍；穿堂风通风可达 5 倍）。
+  - 无需为风管设置吊顶空间——仅需 50–150 mm 用于明装管道/布线。
+  - 无需 AHU 设备机房。
+  - 热压通风可能需要通风竖井/风塔（每个竖井 0.5–1.5 m²）。
+  - 采暖机房：占 GFA 的 0.5–1.0%（锅炉房）。
+- **能耗表现**：通风能耗 0 kWh/m²/年（采暖能耗 30–60 kWh/m²/年）。
+- **噪声等级**：NR 25–35（取决于外部噪声；繁忙道路旁可能存在问题）。
+- **最适用建筑类型**：低层住宅、学校（温带气候）、乡村/郊区环境中的低层办公建筑。
+- **局限**：无法控制湿度，依赖外部条件；不适用于进深较大的平面、噪声场地、污染环境或持续温度高于 28°C 的气候。
 
-### System Type 2: Mixed-Mode / Hybrid Ventilation
+### 系统类型 2：混合模式/混合通风
 
-- **Description**: Natural ventilation used when external conditions permit; mechanical ventilation and cooling activated when natural ventilation is insufficient. Requires automated facade (actuated windows/louvres) and BMS integration.
-- **Spatial impact on architecture**:
-  - Floor plate depth: 12-18m (wider than pure natural vent due to mechanical backup)
-  - Ceiling void: 200-400mm (reduced ductwork for supplementary mode)
-  - AHU plant rooms: 1.5-3% of GFA
-  - Riser shafts: Smaller than fully air-conditioned — 0.5-1.0m² per floor per riser
-- **Energy performance**: 40-70 kWh/m²/yr (total HVAC energy), 30-50% less than full air conditioning
-- **COP**: Variable — depends on proportion of mechanical operation
-- **Best-fit building types**: Offices (progressive clients), universities, libraries, civic buildings
-- **Exemplar**: The Hive, Worcester (2012); Bloomberg HQ, London (2017)
+- **说明**：外部条件允许时采用自然通风；自然通风不足时启动机械通风和制冷。需要自动化立面（电动窗/百叶）并与 BMS 集成。
+- **对建筑的空间影响**：
+  - 楼板进深：12–18 m（因有机械备用系统，比纯自然通风更大）。
+  - 吊顶空间：200–400 mm（补充模式下风管减少）。
+  - AHU 设备机房：占 GFA 的 1.5–3%。
+  - 管井：比全空气调节系统小，每个管井每层 0.5–1.0 m²。
+- **能耗表现**：40–70 kWh/m²/年（HVAC 总能耗），比全空气调节低 30–50%。
+- **COP**：可变，取决于机械运行比例。
+- **最适用建筑类型**：办公建筑（具有前瞻性的业主）、大学、图书馆和公共建筑。
+- **案例**：The Hive，伍斯特（2012）；Bloomberg HQ，伦敦（2017）。
 
-### System Type 3: Fan Coil Units (FCU) + Fresh Air
+### 系统类型 3：风机盘管（FCU）+新风
 
-- **Description**: Centralised fresh air supply (via AHU) provides ventilation air only (typically 10-12 L/s per person). Individual fan coil units at ceiling level provide local heating/cooling using chilled/hot water from central plant. 4-pipe system (separate heating and cooling circuits) is standard for commercial buildings.
-- **Spatial impact on architecture**:
-  - Ceiling void: 350-500mm (AHU ductwork: 300-400mm rectangular; FCU: 200-300mm high; pipework: 100-150mm)
-  - AHU plant room: 2-3% of GFA
-  - Chiller plant (roof or basement): 1-2% of GFA
-  - Riser shafts: 0.5-0.8m² per floor (4 pipes + fresh air duct)
-  - FCU access panels in ceiling: 600x600mm per unit, at 3-6m spacing
-- **Ductwork dimensions**: Fresh air main duct: 400x300mm to 800x400mm (depending on floor area served). Branch to each FCU: 200x150mm flex duct.
-- **Pipework dimensions**: CHW/HHW mains: 50-100mm diameter. Branch to FCU: 15-22mm diameter.
-- **Energy performance**: COP 3.5-5.0 (chiller). Total HVAC energy: 80-120 kWh/m²/yr.
-- **Noise ratings**: NR 35-40 (FCU noise can be problematic in quiet spaces — specify low-noise units)
-- **Best-fit building types**: Hotels (individual room control), residential apartments (with central plant), commercial offices, hospitals (patient rooms)
+- **说明**：集中式新风供应（通过 AHU）仅提供通风空气（通常每人 10–12 L/s）。吊顶处的独立风机盘管使用中央设备提供的冷/热水进行局部采暖和制冷。4 管制系统（采暖和制冷回路分开）是商业建筑的标准做法。
+- **对建筑的空间影响**：
+  - 吊顶空间：350–500 mm（AHU 风管：矩形 300–400 mm；FCU 高度：200–300 mm；管道：100–150 mm）。
+  - AHU 设备机房：占 GFA 的 2–3%。
+  - 冷水机组（屋面或地下室）：占 GFA 的 1–2%。
+  - 管井：每层 0.5–0.8 m²（4 根管道 + 新风管）。
+  - 吊顶 FCU 检修口：每台 600x600 mm，间距 3–6 m。
+- **风管尺寸**：新风主风管 400x300 mm 至 800x400 mm（根据服务楼面面积）；至每台 FCU 的支管为 200x150 mm 软管。
+- **管道尺寸**：CHW/HHW 主干管直径 50–100 mm；至 FCU 的支管直径 15–22 mm。
+- **能耗表现**：COP 3.5–5.0（冷水机组）；HVAC 总能耗 80–120 kWh/m²/年。
+- **噪声等级**：NR 35–40（FCU 噪声在安静空间可能成为问题，应指定低噪声设备）。
+- **最适用建筑类型**：酒店（客房独立控制）、住宅公寓（中央设备）、商业办公和医院（病房）。
 
-### System Type 4: Variable Air Volume (VAV)
+### 系统类型 4：变风量（VAV）
 
-- **Description**: Centralised AHUs supply conditioned air through a duct network. VAV terminal boxes at each zone modulate airflow volume to match heating/cooling demand. High airflow rates require large duct sizes.
-- **Spatial impact on architecture**:
-  - Ceiling void: 500-800mm (large main ducts: 600x400mm to 1200x600mm; branch ducts: 300x250mm to 500x300mm; VAV boxes: 300x400x800mm)
-  - AHU plant room: 3-5% of GFA (AHUs are large: typical unit 2.0x1.5x3.0m serving 1000-2000m²)
-  - Riser shafts: 1.0-2.0m² per floor (large supply and return air ducts)
-  - Return air: Via ceiling plenum or ducted return (adds to void depth if ducted)
-- **Ductwork dimensions**: Main supply duct: 800x400mm to 1500x800mm. Branch ducts: 300x200mm to 600x300mm. Return air duct: 70-80% of supply duct size.
-- **Energy performance**: COP 3.5-5.5 (chiller). Fan energy significant — variable speed drives reduce this by 30-50%. Total HVAC energy: 90-140 kWh/m²/yr.
-- **Noise ratings**: NR 30-40 (well-designed); NR 40-50 (poorly designed — duct velocity critical)
-- **Best-fit building types**: Large open-plan offices (>2000m² per floor), laboratories (high air-change rates), clean rooms, trading floors
-- **Limitations**: Large duct sizes increase floor-to-floor height. Not efficient for cellular offices with many small zones. Higher fan energy than water-based systems.
+- **说明**：集中式 AHU 通过风管网络供应处理后的空气。每个区域的 VAV 末端箱调节风量，以匹配采暖/制冷需求。高风量要求较大的风管尺寸。
+- **对建筑的空间影响**：
+  - 吊顶空间：500–800 mm（大型主风管 600x400 mm 至 1200x600 mm；支管 300x250 mm 至 500x300 mm；VAV 箱 300x400x800 mm）。
+  - AHU 设备机房：占 GFA 的 3–5%（AHU 较大：典型设备 2.0x1.5x3.0 m，可服务 1000–2000 m²）。
+  - 管井：每层 1.0–2.0 m²（大型送风和回风管道）。
+  - 回风：通过吊顶静压箱或风管回风（采用风管回风时会增加空间深度）。
+- **风管尺寸**：主送风管 800x400 mm 至 1500x800 mm；支管 300x200 mm 至 600x300 mm；回风管尺寸为送风管的 70–80%。
+- **能耗表现**：COP 3.5–5.5（冷水机组）。风机能耗显著，变速驱动可降低 30–50%；HVAC 总能耗 90–140 kWh/m²/年。
+- **噪声等级**：NR 30–40（设计良好）；NR 40–50（设计不佳，风管风速是关键）。
+- **最适用建筑类型**：大型开放式办公楼（每层 >2000 m²）、实验室（高换气率）、洁净室和交易大厅。
+- **局限**：大型风管尺寸会增加层高。对于具有许多小区域的分隔式办公室效率不高，风机能耗高于水系统。
 
-### System Type 5: Chilled Beams (Active and Passive)
+### 系统类型 5：冷梁（主动式与被动式）
 
-- **Description**: Chilled water circulates through finned tubes mounted in ceiling-level units. Passive chilled beams rely on natural convection. Active chilled beams induce room air over the coil using a primary air supply from a central AHU.
-- **Spatial impact on architecture**:
-  - Ceiling void: 300-450mm (active chilled beams: 200-300mm high + primary air duct 150-200mm)
-  - AHU plant room: 2-3% of GFA (smaller AHUs than VAV — primary air only)
-  - Riser shafts: 0.6-1.0m² per floor (CHW pipes + primary air duct)
-  - Chilled beam units: 300-600mm wide x 1200-3000mm long, mounted flush in ceiling grid or exposed
-- **Pipework dimensions**: CHW mains: 40-80mm dia. Branch to beam: 15-22mm dia. Primary air duct: 250x200mm to 500x300mm.
-- **Energy performance**: Excellent — water transports 4x more energy per unit volume than air. COP 4.0-6.0. Total HVAC: 60-90 kWh/m²/yr.
-- **Noise ratings**: NR 25-30 (passive beams are silent; active beams have slight induction noise)
-- **Best-fit building types**: Offices (premium), schools, universities, museums — where quiet operation and low energy are priorities
-- **Limitations**: Condensation risk — chilled water temperature must stay above dew point (typically 14-16C). Not suitable for high latent loads (kitchens, swimming pools). Limited cooling capacity: 80-120 W/m² (vs 150+ W/m² for FCU/VAV).
+- **说明**：冷冻水在安装于吊顶设备中的翅片管内循环。被动式冷梁依靠自然对流；主动式冷梁利用中央 AHU 的一次风供应，诱导室内空气流过盘管。
+- **对建筑的空间影响**：
+  - 吊顶空间：300–450 mm（主动式冷梁高度 200–300 mm + 一次风管 150–200 mm）。
+  - AHU 设备机房：占 GFA 的 2–3%（仅供应一次风，AHU 比 VAV 更小）。
+  - 管井：每层 0.6–1.0 m²（CHW 管道 + 一次风管）。
+  - 冷梁设备：宽 300–600 mm、长 1200–3000 mm，可嵌入吊顶网格或外露安装。
+- **管道尺寸**：CHW 主干管直径 40–80 mm；至冷梁支管直径 15–22 mm；一次风管 250x200 mm 至 500x300 mm。
+- **能耗表现**：优秀——水单位体积传输的能量约为空气的 4 倍。COP 4.0–6.0；HVAC 总能耗 60–90 kWh/m²/年。
+- **噪声等级**：NR 25–30（被动式冷梁无噪声；主动式冷梁有轻微诱导噪声）。
+- **最适用建筑类型**：办公建筑（高品质）、学校、大学和博物馆——适用于重视安静运行和低能耗的场所。
+- **局限**：存在结露风险，冷冻水温度必须高于露点（通常为 14–16°C）。不适用于潜热负荷高的场所（厨房、游泳池）。制冷能力有限：80–120 W/m²（FCU/VAV 可达 150+ W/m²）。
 
-### System Type 6: Variable Refrigerant Flow (VRF/VRV)
+### 系统类型 6：变制冷剂流量（VRF/VRV）
 
-- **Description**: Direct expansion refrigerant system with one outdoor condensing unit serving multiple indoor fan coil units via refrigerant pipework. Heat recovery variants (3-pipe) allow simultaneous heating and cooling in different zones.
-- **Spatial impact on architecture**:
-  - Ceiling void: 250-350mm (indoor units: 200-250mm high; refrigerant pipes: 15-30mm dia.)
-  - No central AHU plant room required (massive space saving)
-  - Outdoor condensing units: roof or ground level, 800x300x900mm each (3-6 per system)
-  - Riser shafts: Small — 0.2-0.4m² per floor (refrigerant pipes only; separate fresh air required)
-  - Fresh air provision: Separate DOAS or heat recovery ventilation unit required
-- **Refrigerant pipework**: Liquid line 6.35-15.88mm dia.; gas line 12.7-28.58mm dia. Maximum pipe run: 165m (varies by manufacturer).
-- **Energy performance**: COP 3.5-5.5. Total HVAC: 70-110 kWh/m²/yr.
-- **Noise ratings**: NR 30-35 (indoor units); outdoor units can be 55-65 dBA (screen or locate away from noise-sensitive facades)
-- **Best-fit building types**: Multi-zone buildings (offices with diverse tenants), retrofit (small pipes suit existing buildings), hotels, residential with individual metering
-- **Limitations**: Refrigerant charge limits in occupied spaces (F-gas regulations). Maximum pipe lengths limit building size. Not suitable for very large floor plates. Refrigerant leak detection required.
+- **说明**：直接膨胀式制冷剂系统，一台室外冷凝机组通过制冷剂管道为多台室内风机盘管服务。热回收型（三管制）可让不同区域同时采暖和制冷。
+- **对建筑的空间影响**：
+  - 吊顶空间：250–350 mm（室内机高度 200–250 mm；制冷剂管道直径 15–30 mm）。
+  - 无需中央 AHU 设备机房（大幅节省空间）。
+  - 室外冷凝机组：屋面或地面，每台 800x300x900 mm（每套系统 3–6 台）。
+  - 管井：较小，每层 0.2–0.4 m²（仅制冷剂管道；需另设新风）。
+  - 新风供应：需要单独的 DOAS 或热回收通风机组。
+- **制冷剂管道**：液管直径 6.35–15.88 mm；气管直径 12.7–28.58 mm。最大管道长度 165 m（因制造商而异）。
+- **能耗表现**：COP 3.5–5.5；HVAC 总能耗 70–110 kWh/m²/年。
+- **噪声等级**：室内机 NR 30–35；室外机可达 55–65 dBA（应设置屏蔽或远离对噪声敏感的立面）。
+- **最适用建筑类型**：多区域建筑（租户多样的办公楼）、改造项目（小管径适合既有建筑）、酒店和独立计量住宅。
+- **局限**：使用空间内的制冷剂充注量受限（F-gas 法规）。最大管长限制建筑规模，不适用于超大楼板；必须设置制冷剂泄漏探测。
 
-### System Type 7: Displacement Ventilation
+### 系统类型 7：置换通风
 
-- **Description**: Low-velocity conditioned air supplied at floor level (or low-level wall diffusers) rises naturally through buoyancy as it absorbs heat from occupants and equipment. Extract at ceiling level. Creates stratified temperature profile — cooler at occupied level, warmer at ceiling.
-- **Spatial impact on architecture**:
-  - Raised floor: 250-400mm (supply air plenum beneath raised floor)
-  - Ceiling void: 200-300mm (return air only — smaller than conventional systems)
-  - Floor diffusers: Swirl-type, 200-300mm diameter, at 4-6m² per diffuser
-  - AHU plant room: 2-3% of GFA
-- **Ductwork dimensions**: Underfloor supply through raised floor plenum — no supply ductwork above ceiling. Return ducts at ceiling: 400x300mm to 600x400mm.
-- **Energy performance**: 15-30% more efficient than overhead mixing ventilation. Supply air temperature 18-20C (vs 12-14C for mixing). Total HVAC: 55-85 kWh/m²/yr.
-- **Noise ratings**: NR 25-30 (very quiet — low air velocities)
-- **Best-fit building types**: Auditoria, theatres, concert halls (seated audience generates buoyancy), open-plan offices with raised floors, atriums
-- **Limitations**: Supply air temperature limited to 18C minimum (drafts if colder). Cooling capacity limited: 40-60 W/m². Not suitable for spaces with high ceilings and no thermal stratification benefit.
+- **说明**：在地面（或低位墙面散流器）以低速供应处理空气；空气吸收人员和设备热量后因热压自然上升，并在吊顶处排出。形成分层温度剖面——人员活动区较凉，吊顶处较暖。
+- **对建筑的空间影响**：
+  - 架空地板：250–400 mm（架空地板下设置送风静压层）。
+  - 吊顶空间：200–300 mm（仅回风，较传统系统小）。
+  - 地板散流器：旋流型，直径 200–300 mm，每个散流器服务 4–6 m²。
+  - AHU 设备机房：占 GFA 的 2–3%。
+- **风管尺寸**：通过架空地板静压层送风，吊顶上方无需送风管；吊顶回风管 400x300 mm 至 600x400 mm。
+- **能耗表现**：比顶送混合通风高效 15–30%。送风温度 18–20°C（混合通风为 12–14°C）；HVAC 总能耗 55–85 kWh/m²/年。
+- **噪声等级**：NR 25–30（非常安静，风速低）。
+- **最适用建筑类型**：礼堂、剧院、音乐厅（就座观众产生热压）、带架空地板的开放式办公室和中庭。
+- **局限**：送风温度最低限制为 18°C（更低会产生吹风感）。制冷能力有限：40–60 W/m²；不适用于层高很高且无法利用热分层的空间。
 
-### System Type 8: Dedicated Outdoor Air System (DOAS)
+### 系统类型 8：专用新风系统（DOAS）
 
-- **Description**: Centralised AHU handles 100% outdoor air (ventilation), conditioning it to neutral temperature and humidity. Separate systems (radiant ceiling, chilled beams, fan coils, active chilled slab) handle local heating/cooling loads. Decouples ventilation from thermal conditioning.
-- **Spatial impact on architecture**:
-  - DOAS AHU: Smaller than conventional AHU (ventilation air only) — 1.5-2.5% of GFA for plant
-  - Ceiling void: Dependent on local system (radiant: 100-200mm; chilled beams: 300-450mm)
-  - Riser shafts: DOAS duct + local system pipework — 0.6-1.2m² per floor
-- **Energy performance**: Total HVAC energy: 50-80 kWh/m²/yr (when paired with radiant system)
-- **Best-fit building types**: High-performance offices, Passivhaus-adjacent designs, any building targeting ultra-low energy
-- **Exemplar**: Bullitt Center, Seattle (2013); One Angel Square, Manchester (2013)
+- **说明**：集中式 AHU 处理 100% 室外空气（通风），将其调节至中性温度和湿度。独立系统（辐射吊顶、冷梁、风机盘管、主动式冷板）承担局部采暖/制冷负荷，使通风与热环境调节解耦。
+- **对建筑的空间影响**：
+  - DOAS AHU：小于传统 AHU（仅处理通风空气），设备占 GFA 的 1.5–2.5%。
+  - 吊顶空间：取决于局部系统（辐射系统 100–200 mm；冷梁 300–450 mm）。
+  - 管井：DOAS 风管 + 局部系统管道，每层 0.6–1.2 m²。
+- **能耗表现**：HVAC 总能耗 50–80 kWh/m²/年（与辐射系统配合时）。
+- **最适用建筑类型**：高性能办公建筑、接近被动房标准的设计，以及任何以超低能耗为目标的建筑。
+- **案例**：Bullitt Center，西雅图（2013）；One Angel Square，曼彻斯特（2013）。
 
-### System Type 9: District Heating and Cooling
+### 系统类型 9：区域供热与供冷
 
-- **Description**: Thermal energy supplied to buildings from a centralised district energy plant via underground insulated pipes. Buildings connect via heat exchangers in a plant room (energy transfer station, ETS).
-- **Spatial impact on architecture**:
-  - No boiler or chiller plant on site (major space saving: eliminates 2-4% of GFA)
-  - ETS plant room: 0.5-1.0% of GFA (heat exchangers, pumps, meters)
-  - Underground pipe entry point required at basement/ground level
-  - Distribution within building: Standard LTHW/CHW pipework from ETS
-- **Energy performance**: Varies by district source — CHP 80-90% efficiency; waste heat recovery can be near-zero carbon; ground-source heat pump networks COP 3.5-5.0
-- **Best-fit building types**: Urban mixed-use developments, campus developments (universities, hospitals), masterplan-scale projects
-- **Exemplar**: Copenhagen district heating (serves 98% of city); Olympic Park London (2012); Battersea Power Station redevelopment
+- **说明**：热能由集中式区域能源站通过地下保温管道供应至建筑。建筑在设备机房内通过换热器连接（能源转换站，ETS）。
+- **对建筑的空间影响**：
+  - 场地内无需锅炉或冷水机组（显著节省空间，可减少 GFA 的 2–4%）。
+  - ETS 设备机房：占 GFA 的 0.5–1.0%（换热器、水泵和计量表）。
+  - 地下室/首层需要设置地下管道接入点。
+  - 建筑内部配电：由 ETS 引出的标准 LTHW/CHW 管道。
+- **能耗表现**：取决于区域能源来源——热电联产效率 80–90%；余热回收可接近零碳；地源热泵网络 COP 3.5–5.0。
+- **最适用建筑类型**：城市综合体、校园开发（大学、医院）和总体规划尺度的项目。
+- **案例**：哥本哈根区域供热（服务全市 98%）；伦敦奥林匹克公园（2012）；Battersea Power Station 改造项目。
 
 ---
 
-## Section 2: Plumbing and Drainage
+## 第 2 节：给水与排水
 
-### Hot and Cold Water Distribution
+### 冷热水分配
 
-**Cold water supply systems:**
-- **Direct system**: Mains pressure to all outlets. Typical in low-rise residential. Incoming main: 25-32mm (house), 50-80mm (apartment block), 80-150mm (commercial).
-- **Indirect system**: Mains fills roof-level storage tank; outlets fed by gravity. Provides storage for peak demand and pressure regulation. Tank sizing: 115 litres per person per day (office); 135 litres per person per day (residential).
-- **Boosted system**: Pumped supply for tall buildings where mains pressure insufficient. Break tanks at basement; booster pumps; roof tanks or pressure vessels at upper levels. Pressure zones every 30-40m of height.
+**冷水供应系统：**
+- **直供系统**：市政压力供应所有用水点，常用于低层住宅。进水主管：住宅 25–32 mm，公寓楼 50–80 mm，商业建筑 80–150 mm。
+- **间接供水系统**：市政水补入屋面储水箱，用水点由重力供水。为峰值需求提供储水并调节压力。水箱容量：办公建筑每人每天 115 L；住宅每人每天 135 L。
+- **增压系统**：市政压力不足的高层建筑采用泵送供水。地下室设置断流水箱和增压泵，高层设置屋面水箱或压力容器；每 30–40 m 高度设置一个压力分区。
 
-**Hot water systems:**
-- **Point-of-use heaters**: Electric instantaneous or small storage (6-15 litres). Minimal pipework. Suit remote outlets.
-- **Centralised calorifier**: Storage vessel heated by boiler or heat pump. Capacity: 40-60 litres per person (residential); 5-10 litres per person (office). Located in plant room.
-- **Plate heat exchanger + thermal store**: More efficient than calorifier. Common in district heating connections.
-- **Legionella prevention**: Store hot water at 60C minimum, distribute at 55C minimum, return at 50C minimum. Dead-legs must be <3m or have trace heating.
+**热水系统：**
+- **即热式设备**：电即热式或小型储水式（6–15 L），管道最少，适合偏远用水点。
+- **集中式热水器**：由锅炉或热泵加热储水容器。容量：住宅每人 40–60 L；办公每人 5–10 L，设置于设备机房。
+- **板式换热器 + 蓄热水箱**：效率高于集中式热水器，常用于区域供热连接。
+- **军团菌预防**：储水温度最低 60°C，供水最低 55°C，回水最低 50°C。盲管段必须 <3 m 或设置伴热。
 
-### Pipe Sizes (Typical)
+### 管径（典型值）
 
-| Pipe Function | Typical Diameter |
+| 管道用途 | 典型直径 |
 |---|---|
-| Individual outlet (basin, WC cistern) | 15mm |
-| Branch (serving 2-5 outlets) | 22mm |
-| Sub-main (serving a floor or group) | 28-35mm |
-| Main riser (cold water up, hot water flow/return) | 35-54mm |
-| Incoming main (apartment block) | 50-80mm |
-| Incoming main (commercial building) | 80-150mm |
+| 单个出水点（洗脸盆、坐便器水箱） | 15 mm |
+| 支管（服务 2–5 个出水点） | 22 mm |
+| 次干管（服务一个楼层或一组用水点） | 28–35 mm |
+| 主立管（冷水上水、热水供回水） | 35–54 mm |
+| 进水主管（公寓楼） | 50–80 mm |
+| 进水主管（商业建筑） | 80–150 mm |
 
-### Drainage Systems
+### 排水系统
 
-**Soil drainage (foul water — WCs, urinals):**
-- WC branch: 100mm diameter (min. 1:40 gradient or steeper)
-- Soil stack (vertical): 100mm diameter (serves up to 10 floors of residential)
-- Building drain (horizontal below ground): 100-150mm (1:40 to 1:80 gradient)
+**污水排水（污水——坐便器、小便器）：**
+- 坐便器支管：直径 100 mm（最小坡度 1:40 或更陡）。
+- 污水立管：直径 100 mm（可服务住宅最多 10 层）。
+- 建筑排水管（地下水平管）：100–150 mm（坡度 1:40 至 1:80）。
 
-**Waste drainage (basins, showers, sinks, baths):**
-- Individual waste pipe: 32mm (basin), 40mm (bath/shower/sink)
-- Waste branch: 50mm (multiple outlets)
-- Combined waste/soil stack: 100mm (if receiving both waste and soil)
+**废水排水（洗脸盆、淋浴、洗涤池、浴缸）：**
+- 单个废水管：洗脸盆 32 mm，浴缸/淋浴/洗涤池 40 mm。
+- 废水支管：50 mm（多个用水点）。
+- 合流废水/污水立管：100 mm（同时接纳废水和污水时）。
 
-**Rainwater drainage:**
-- Roof outlet sizing: Based on rainfall intensity (75mm/hr UK design standard; 150mm/hr tropical)
-- Downpipe: 75mm (up to 55m² roof), 100mm (up to 130m² roof), 150mm (up to 300m² roof)
-- Siphonic drainage: Higher capacity at smaller pipe sizes but requires specialist design. 56mm siphonic pipe equivalent to 100mm conventional.
+**雨水排水：**
+- 屋面排水口尺寸：根据降雨强度确定（英国设计标准 75 mm/hr；热带地区 150 mm/hr）。
+- 落水管：75 mm（屋面不超过 55 m²），100 mm（不超过 130 m²），150 mm（不超过 300 m²）。
+- 虹吸排水：较小管径即可获得更大排水能力，但需要专业设计。56 mm 虹吸管相当于 100 mm 常规管。
 
-### Drainage Falls
+### 排水坡度
 
-| Pipe Diameter | Minimum Gradient | Maximum Gradient |
+| 管径 | 最小坡度 | 最大坡度 |
 |---|---|---|
-| 50mm waste | 1:40 (25mm per metre) | 1:20 |
-| 75mm waste/rainwater | 1:40 to 1:50 | 1:20 |
-| 100mm soil/drain | 1:40 (minimum 1 WC) to 1:80 (5+ WCs) | 1:20 |
-| 150mm drain | 1:80 to 1:150 | 1:40 |
+| 50 mm 废水管 | 1:40（每米 25 mm） | 1:20 |
+| 75 mm 废水/雨水管 | 1:40 至 1:50 | 1:20 |
+| 100 mm 污水/排水管 | 1:40（至少 1 个坐便器）至 1:80（5 个以上坐便器） | 1:20 |
+| 150 mm 排水管 | 1:80 至 1:150 | 1:40 |
 
-### Wet-Room Stacking Principle
+### 湿区竖向叠合原则
 
-Bathrooms, kitchens, and other wet rooms should be stacked vertically through the building to minimise horizontal drainage runs. Horizontal drains require falls (25-40mm per metre) which consume floor void depth. Non-stacked wet rooms create:
-- Longer pipe runs
-- Deeper floor voids to accommodate falls
-- More penetrations through structural elements
-- Greater risk of leaks above occupied spaces
+卫生间、厨房及其他湿区应在建筑中竖向叠合，以尽量减少水平排水管线。水平排水管需要坡度（每米 25–40 mm），会占用楼板空间。不叠合的湿区会造成：
+- 管线更长
+- 为满足坡度而需要更深的楼板空间
+- 穿透结构构件的部位更多
+- 使用空间上方漏水风险更高
 
-**Design rule**: All wet rooms should be within 3m horizontal distance of a soil/waste stack.
+**设计规则**：所有湿区与污水/废水立管的水平距离应在 3 m 以内。
 
-### Riser Sizing
+### 管井尺寸
 
-| Service | Typical Riser Size | Notes |
+| 系统 | 典型管井尺寸 | 备注 |
 |---|---|---|
-| Cold water (residential, per 8-10 apartments) | 150x150mm duct (35-54mm pipe + insulation) | Insulation for condensation prevention |
-| Hot water (residential, per 8-10 apartments) | 150x150mm duct (35-54mm pipe + insulation) | Flow and return pipes |
-| Soil/waste stack (per group of bathrooms) | 150x150mm duct (100mm pipe) | Access required at each floor |
-| Combined services riser (residential) | 600x400mm duct | CW, HW, soil, waste, rainwater, gas |
-| Rainwater stack | 100x100mm duct (75-100mm pipe) | Internal or external |
+| 冷水（住宅，每 8–10 户） | 150×150 mm 管井（35–54 mm 管 + 保温） | 防结露保温 |
+| 热水（住宅，每 8–10 户） | 150×150 mm 管井（35–54 mm 管 + 保温） | 供水和回水管 |
+| 污水/废水立管（每组卫生间） | 150×150 mm 管井（100 mm 管） | 每层需设置检修口 |
+| 综合设备管井（住宅） | 600×400 mm 管井 | 冷水、热水、污水、废水、雨水、燃气 |
+| 雨水立管 | 100×100 mm 管井（75–100 mm 管） | 可设于室内或室外 |
 
 ---
 
-## Section 3: Electrical Systems
+## 第 3 节：电气系统
 
-### Power Distribution Hierarchy
+### 配电层级
 
-1. **Incoming supply**: From utility transformer or on-site substation. Voltage: 400V 3-phase (UK/EU) or 480V 3-phase (US). Incoming cable: typically via underground duct to main switchroom at ground/basement level.
-2. **Main switchboard (MSB)**: Located in main electrical switchroom. Distributes power to sub-main distribution boards via vertical bus-bar risers or cable risers.
-3. **Sub-main distribution boards**: Located on each floor (or every 2-3 floors in residential). Size: typically 800x2000mm wall-mounted panel.
-4. **Final distribution boards**: Local to each tenancy or zone. Feed final circuits (lighting, small power, dedicated equipment).
-5. **Final circuits**: Ring mains (UK: 32A, serving 100m² floor area) or radial circuits (US: 20A, serving 50-80m² floor area).
+1. **进线电源**：来自公用变压器或场地变电站。电压：400V 三相（英国/欧盟）或 480V 三相（美国）。进线电缆通常通过地下管道接至首层/地下室的主开关室。
+2. **主配电柜（MSB）**：设置在主电气开关室内，通过竖向母线管井或电缆管井向分配电柜供电。
+3. **分配电柜**：设置在每层（住宅可每 2–3 层设置一处），典型尺寸为 800x2000 mm 壁挂式柜体。
+4. **末端配电箱**：靠近各租户或区域，向末端回路供电（照明、小动力和专用设备）。
+5. **末端回路**：环形回路（英国：32A，服务 100 m² 楼面）或放射式回路（美国：20A，服务 50–80 m² 楼面）。
 
-### Typical Electrical Loads by Building Type
+### 各类建筑典型电气负荷
 
-| Building Type | Small Power (W/m²) | Lighting (W/m²) | Total Electrical (W/m²) | Notes |
+| 建筑类型 | 小动力（W/m²） | 照明（W/m²） | 总电气负荷（W/m²） | 备注 |
 |---|---|---|---|---|
-| Commercial office (standard) | 25-35 | 10-12 | 50-80 | Includes IT loads |
-| Commercial office (trading floor) | 50-80 | 10-12 | 80-150 | High-density IT |
-| Residential (apartment) | 15-25 | 5-8 | 30-50 | Per unit |
-| Hotel (guest room) | 10-15 | 5-8 | 20-40 | Per room |
-| Retail (general) | 15-25 | 12-18 | 40-60 | Higher lighting |
-| Hospital (general areas) | 20-30 | 8-12 | 50-80 | Excludes specialist equipment |
-| Hospital (operating theatre) | 50-100 | 15-20 | 100-200 | High specialist loads |
-| School / university | 15-25 | 8-12 | 30-50 | IT rooms higher |
-| Laboratory | 40-80 | 10-15 | 80-150 | Varies widely by type |
-| Data centre | 500-2000 | 5-10 | 500-2000+ | IT load dominant |
-| Warehouse / industrial | 5-15 | 5-10 | 15-30 | Excludes process loads |
+| 商业办公室（标准） | 25–35 | 10–12 | 50–80 | 包含 IT 负荷 |
+| 商业办公室（交易大厅） | 50–80 | 10–12 | 80–150 | 高密度 IT |
+| 住宅（公寓） | 15–25 | 5–8 | 30–50 | 每户 |
+| 酒店（客房） | 10–15 | 5–8 | 20–40 | 每间客房 |
+| 零售（普通） | 15–25 | 12–18 | 40–60 | 照明负荷较高 |
+| 医院（普通区域） | 20–30 | 8–12 | 50–80 | 不含专用设备 |
+| 医院（手术室） | 50–100 | 15–20 | 100–200 | 专用设备负荷高 |
+| 学校/大学 | 15–25 | 8–12 | 30–50 | IT 房间更高 |
+| 实验室 | 40–80 | 10–15 | 80–150 | 因类型差异较大 |
+| 数据中心 | 500–2000 | 5–10 | 500–2000+ | 以 IT 负荷为主 |
+| 仓库/工业建筑 | 5–15 | 5–10 | 15–30 | 不含工艺负荷 |
 
-### Emergency Power
+### 备用电源
 
-- **Standby generator**: Diesel generator providing backup power during mains failure. Sizing: 30-50% of building total load (life safety + critical systems). Location: basement or roof (with fuel storage, exhaust flue, acoustic enclosure). Space requirement: 1.0-2.5m² per 100 kVA. Typical office generator: 200-500 kVA (5-10m² generator room).
-- **Uninterruptible Power Supply (UPS)**: Battery backup for zero-interruption supply to critical loads (IT, medical equipment, security). Typically 5-30 minutes autonomy. Battery room: 0.5-2.0m² per 100 kVA.
-- **Essential circuits**: Life safety lighting, fire alarm, smoke extract fans, firefighting lift, sprinkler pumps — must have secondary power supply (generator or battery).
+- **备用发电机**：市电故障时提供备用电力的柴油发电机。容量按建筑总负荷的 30–50%（生命安全及关键系统）确定。位置：地下室或屋面（配燃油储存、排烟管和隔声围护）。空间需求：每 100 kVA 为 1.0–2.5 m²。典型办公楼发电机：200–500 kVA（发电机房 5–10 m²）。
+- **不间断电源（UPS）**：为关键负荷（IT、医疗设备、安防）提供零中断供电的电池备用系统，通常可自主运行 5–30 分钟。电池房：每 100 kVA 为 0.5–2.0 m²。
+- **重要回路**：生命安全照明、火灾报警、排烟风机、消防电梯和喷淋泵必须配备备用电源（发电机或电池）。
 
-### Lightning Protection
+### 防雷保护
 
-- **Requirement**: BS EN 62305 risk assessment determines need. Generally required for buildings over 20m, buildings with high occupancy, or buildings with sensitive equipment.
-- **Components**: Air termination network (roof conductors at 10-20m mesh), down conductors (at 10-20m spacing around perimeter), earth electrodes (ring earth at foundation level).
-- **Spatial impact**: Down conductors run inside or outside the facade — coordinate with cladding design. Test clamps required at 1.5m above ground level.
+- **要求**：依据 BS EN 62305 风险评估确定是否需要。通常适用于高度超过 20 m、人员密集或配有敏感设备的建筑。
+- **组成**：接闪网络（屋面导体网格 10–20 m）、引下线（沿周边间距 10–20 m）和接地极（基础标高处的接地环）。
+- **空间影响**：引下线设置在立面内或外，应与幕墙设计协调；距地面 1.5 m 处设置测试夹。
 
-### Electrical Riser Sizing
+### 电气管井尺寸
 
-| Building Type | Electrical Riser Size (per floor) | Notes |
+| 建筑类型 | 电气管井尺寸（每层） | 备注 |
 |---|---|---|
-| Residential (per 8-10 apartments) | 400x200mm | Bus-bar riser or cable tray |
-| Commercial office (per floor of 1000m²) | 600x400mm | Bus-bar or cable ladder |
-| Hospital (per floor) | 800x400mm | Separated essential and normal circuits |
+| 住宅（每 8–10 户） | 400×200 mm | 母线槽立管或电缆桥架 |
+| 商业办公室（每层 1000 m²） | 600×400 mm | 母线槽或电缆梯架 |
+| 医院（每层） | 800×400 mm | 重要回路与普通回路分开 |
 
-### Lighting Power Density Targets (ASHRAE 90.1 / CIBSE)
+### 照明功率密度目标（ASHRAE 90.1 / CIBSE）
 
-| Space Type | ASHRAE 90.1 LPD (W/m²) | CIBSE Target (W/m²) | Maintained Illuminance (lux) |
+| 空间类型 | ASHRAE 90.1 LPD（W/m²） | CIBSE 目标（W/m²） | 维持照度（lux） |
 |---|---|---|---|
-| Open-plan office | 9.8 | 8-10 | 300-500 |
-| Private office | 10.1 | 8-10 | 300-500 |
-| Retail (general) | 11.8 | 12-15 | 300-500 |
-| Retail (accent/display) | 16.1 | 15-20 | 500-1000 |
-| Classroom | 10.5 | 8-10 | 300-500 |
-| Hospital ward | 8.1 | 6-8 | 100-300 |
-| Corridor / circulation | 5.4 | 4-6 | 100-150 |
-| Car park | 1.8 | 2-3 | 75-100 |
-| Warehouse | 6.0 | 5-8 | 150-300 |
+| 开放式办公室 | 9.8 | 8–10 | 300–500 |
+| 独立办公室 | 10.1 | 8–10 | 300–500 |
+| 零售（普通） | 11.8 | 12–15 | 300–500 |
+| 零售（重点/展示） | 16.1 | 15–20 | 500–1000 |
+| 教室 | 10.5 | 8–10 | 300–500 |
+| 医院病房 | 8.1 | 6–8 | 100–300 |
+| 走廊/交通空间 | 5.4 | 4–6 | 100–150 |
+| 停车库 | 1.8 | 2–3 | 75–100 |
+| 仓库 | 6.0 | 5–8 | 150–300 |
 
 ---
 
-## Section 4: Vertical Transportation
+## 第 4 节：垂直交通
 
-### Elevator Types
+### 电梯类型
 
-| Type | Mechanism | Machine Room | Max Speed (m/s) | Max Travel (m) | Best-Fit |
+| 类型 | 机理 | 机房 | 最大速度（m/s） | 最大行程（m） | 最适用场景 |
 |---|---|---|---|---|---|
-| Traction (geared) | Motor + gearbox + ropes | Above shaft | 2.5 | 60 | Mid-rise, 5-20 floors |
-| Traction (gearless) | Direct-drive motor + ropes | Above shaft | 10+ | 500+ | High-rise, express lifts |
-| Machine-room-less (MRL) | Motor in shaft headroom | None (motor in shaft) | 4.0 | 75 | Most common today, up to 25 floors |
-| Hydraulic | Hydraulic ram | Below shaft (pump room) | 1.0 | 18 | Low-rise, 2-6 floors, goods lifts |
-| Double-deck | Two cabins, one above other | Above shaft | 10+ | 500+ | Super-tall, high-density |
+| 曳引式（有齿轮） | 电机 + 齿轮箱 + 钢丝绳 | 井道上方 | 2.5 | 60 | 中层建筑，5–20 层 |
+| 曳引式（无齿轮） | 直驱电机 + 钢丝绳 | 井道上方 | 10+ | 500+ | 高层建筑、快速电梯 |
+| 无机房电梯（MRL） | 电机位于井道顶部空间 | 无（电机在井道内） | 4.0 | 75 | 当今最常用，最高约 25 层 |
+| 液压式 | 液压柱塞 | 井道下方（泵房） | 1.0 | 18 | 低层建筑、2–6 层、货梯 |
+| 双层轿厢 | 两个上下叠置的轿厢 | 井道上方 | 10+ | 500+ | 超高层、高密度建筑 |
 
-### Elevator Sizing Formula
+### 电梯数量计算公式
 
-**Number of elevators required:**
+**所需电梯数量：**
 
 n = (P x RTT) / (300 x HC)
 
-Where:
-- **P** = peak population to be served (typically 80% of building population arriving in 5 minutes for office)
-- **RTT** = Round Trip Time in seconds (time for one complete cycle: loading + travel up + stops + unloading + travel down)
-- **300** = 300 seconds (5-minute peak period)
-- **HC** = Handling Capacity per car (typically 80% of rated capacity — e.g., 80% x 21 persons = 17 persons for a 1600kg lift)
+其中：
+- **P** = 需服务的峰值人数（办公建筑通常取 5 分钟内到达的建筑人数的 80%）。
+- **RTT** = 往返时间（秒），即一个完整循环所需时间：装载 + 上行 + 停站 + 卸载 + 下行。
+- **300** = 300 秒（5 分钟高峰时段）。
+- **HC** = 每台电梯的输送能力（通常为额定容量的 80%；例如 1600 kg 电梯为 80% x 21 人 = 17 人）。
 
-**RTT estimation (simplified):**
+**RTT 估算（简化）：**
 RTT = 2 x H/V + (S x ts) + 2 x P x tp
 
-Where:
-- H = total travel height (m)
-- V = rated speed (m/s)
-- S = number of stops (probable) — approximately N x (1 - ((N-1)/N)^P) where N = number of floors
-- ts = stop time (door open + close + acceleration/deceleration) ≈ 8-12 seconds
-- P = passengers per trip
-- tp = passenger transfer time ≈ 1.2 seconds
+其中：
+- H = 总行程高度（m）。
+- V = 额定速度（m/s）。
+- S = 停站数（概率值）——约为 N x (1 - ((N-1)/N)^P)，其中 N = 楼层数。
+- ts = 停站时间（开门 + 关门 + 加速/减速）≈ 8–12 秒。
+- P = 每次行程的乘客数。
+- tp = 乘客进出时间 ≈ 1.2 秒。
 
-**Target performance (BCO standard for UK offices):**
-- Waiting interval: <25 seconds (Grade A office); <30 seconds (Grade B)
-- Handling capacity: 12-15% of building population in 5 minutes
-- Time to destination: <90 seconds (including wait)
+**目标性能（英国办公建筑 BCO 标准）：**
+- 等候间隔：甲级办公楼 <25 秒；乙级办公楼 <30 秒。
+- 输送能力：5 分钟内输送建筑人数的 12–15%。
+- 到达目的地时间：<90 秒（包括等候时间）。
 
-### Elevator Shaft Dimensions
+### 电梯井尺寸
 
-| Rated Load (kg) | Persons | Car Internal (mm) W x D | Shaft Internal (mm) W x D | Door Width (mm) | Pit Depth (mm) | Headroom Above Top Floor (mm) |
+| 额定载荷（kg） | 人数 | 轿厢内部（mm）宽 x 深 | 井道内部（mm）宽 x 深 | 门宽（mm） | 底坑深度（mm） | 顶层以上净空（mm） |
 |---|---|---|---|---|---|---|
 | 630 | 8 | 1100 x 1400 | 1700 x 1900 | 800 | 1400 | 3600 |
 | 1000 | 13 | 1350 x 1600 | 1950 x 2100 | 900 | 1400 | 3800 |
@@ -340,240 +337,240 @@ Where:
 | 2000 | 26 | 2000 x 2100 | 2600 x 2600 | 1200 | 1500 | 4200 |
 | 2500 (goods) | — | 2100 x 2700 | 2700 x 3400 | 1300 | 1500 | 4500 |
 
-**Notes**: Shaft dimensions include structural walls (150-200mm concrete each side). Counter-weight space at rear of shaft. MRL lifts require slightly taller headroom (add 400-600mm) but eliminate machine room.
+**备注**：井道尺寸包括结构墙体（两侧各 150–200 mm 混凝土）。井道后部设置对重空间。MRL 电梯需要略高的顶层净空（增加 400–600 mm），但可取消机房。
 
-### Escalator Dimensions
+### 自动扶梯尺寸
 
-| Parameter | Standard (30 degree) | High-Rise (35 degree) |
+| 参数 | 标准型（30°） | 高层型（35°） |
 |---|---|---|
-| Step width | 1000mm (standard) or 800mm (narrow) | 1000mm |
-| Overall width (including balustrade) | 1200mm (800mm step) or 1400mm (1000mm step) | 1400mm |
-| Incline angle | 30 degrees | 35 degrees |
-| Speed | 0.5 m/s | 0.5 m/s |
-| Capacity | 6000-9000 persons/hour (1000mm step) | 6000-9000 persons/hour |
-| Pit depth | 1000-1200mm | 1000-1200mm |
-| Headroom (minimum) | 2300mm clear above any step | 2300mm |
-| Floor-to-floor height (typical) | 3500-6000mm | 3500-6000mm |
-| Horizontal run-out at top and bottom | 800-1000mm flat steps before incline | 600-800mm |
-| Structural opening (per pair up + down) | 2800-3200mm wide x varies long | As left |
+| 梯级宽度 | 1000 mm（标准）或 800 mm（窄型） | 1000 mm |
+| 总宽度（含扶手带） | 1200 mm（800 mm 梯级）或 1400 mm（1000 mm 梯级） | 1400 mm |
+| 倾角 | 30° | 35° |
+| 速度 | 0.5 m/s | 0.5 m/s |
+| 运力 | 6000–9000 人/小时（1000 mm 梯级） | 6000–9000 人/小时 |
+| 坑深 | 1000–1200 mm | 1000–1200 mm |
+| 净空（最小） | 任一梯级上方净空 2300 mm | 2300 mm |
+| 典型层高 | 3500–6000 mm | 3500–6000 mm |
+| 顶部和底部水平段 | 倾斜段前 800–1000 mm 平梯级 | 600–800 mm |
+| 结构洞口（上行+下行一对） | 宽 2800–3200 mm × 长度视情况 | 同左 |
 
-**Planning rule**: For floor-to-floor height of 4000mm at 30 degrees: horizontal length ≈ 4000/tan(30) = 6930mm + 1600mm run-outs = 8530mm total plan length.
+**规划规则**：层高 4000 mm、倾角 30° 时：水平长度 ≈ 4000/tan(30) = 6930 mm，加上 1600 mm 的上下水平段，总平面长度为 8530 mm。
 
-### Goods Lift Sizing
+### 货梯尺寸
 
-| Application | Rated Load (kg) | Car Internal (mm) W x D x H | Door Width x Height (mm) |
+| 用途 | 额定载荷（kg） | 轿厢内部（mm）宽 x 深 x 高 | 门宽 x 高（mm） |
 |---|---|---|---|
-| Service lift (catering trolleys) | 300-500 | 1000 x 1200 x 2100 | 800 x 2000 |
-| Bed lift (hospital) | 2000-2500 | 1400 x 2400 x 2300 | 1300 x 2100 |
-| Goods/furniture lift | 2000-3000 | 2100 x 2700 x 2400 | 1800 x 2200 |
-| Car lift (vehicle transport) | 3000-5000 | 2700 x 5500 x 2200 | 2500 x 2100 |
-| Firefighting lift | 1000-1600 | Per BS EN 81-72 | 800-1100 x 2000 |
+| 服务梯（餐饮推车） | 300–500 | 1000 × 1200 × 2100 | 800 × 2000 |
+| 病床梯（医院） | 2000–2500 | 1400 × 2400 × 2300 | 1300 × 2100 |
+| 货物/家具梯 | 2000–3000 | 2100 × 2700 × 2400 | 1800 × 2200 |
+| 汽车电梯（车辆运输） | 3000–5000 | 2700 × 5500 × 2200 | 2500 × 2100 |
+| 消防电梯 | 1000–1600 | 按 BS EN 81-72 | 800–1100 × 2000 |
 
 ---
 
-## Section 5: Fire Protection Systems
+## 第 5 节：消防系统
 
-### Sprinkler Systems
+### 喷淋系统
 
-| Type | Description | Application | Activation |
+| 类型 | 说明 | 应用 | 启动方式 |
 |---|---|---|---|
-| Wet-pipe | Pipes permanently charged with water | Heated buildings (most common) | Individual head activates at rated temperature (57-74C) |
-| Dry-pipe | Pipes charged with compressed air; water admitted on activation | Unheated spaces (car parks, loading docks), freezing risk | Individual head; water fills pipe after air release |
-| Pre-action | Dry pipe; water admitted only when fire detection system also activates | Areas with high-value contents (museums, server rooms, archives) | Detection + head activation (double interlock) |
-| Deluge | All heads open (no thermal element); water floods entire zone on detection | High-hazard industrial, aircraft hangars, transformer rooms | Detection system triggers |
+| 湿式 | 管道持续充水 | 采暖建筑（最常用） | 单个喷头达到额定温度（57–74°C）后启动 |
+| 干式 | 管道充压缩空气，启动时进水 | 无采暖空间（停车库、装卸码头），有冻结风险 | 单个喷头启动；排气后水充满管道 |
+| 预作用式 | 干式管道，仅在火灾探测系统同时启动时进水 | 存放高价值物品的区域（博物馆、服务器机房、档案库） | 探测 + 喷头启动（双重联锁） |
+| 雨淋式 | 所有喷头均开启（无热敏元件），探测后整个区域进水 | 高危险工业、飞机库、变压器室 | 由探测系统触发 |
 
-**Sprinkler spacing rules (BS EN 12845 / NFPA 13):**
-- Light hazard (offices, hotels, residential): Maximum 4.6m between heads; 12m² coverage per head; 21m² per head (NFPA residential)
-- Ordinary hazard (retail, car parks, factories): Maximum 4.0m between heads; 12m² per head
-- High hazard (warehouse, industrial storage): Maximum 3.7m between heads; 9m² per head
+**喷头间距规则（BS EN 12845 / NFPA 13）：**
+- 轻危险（办公、酒店、住宅）：喷头最大间距 4.6 m；每个喷头覆盖 12 m²；NFPA 住宅每个喷头 21 m²。
+- 普通危险（零售、停车库、工厂）：喷头最大间距 4.0 m；每个喷头 12 m²。
+- 高危险（仓库、工业储存）：喷头最大间距 3.7 m；每个喷头 9 m²。
 
-**Sprinkler head clearance**: 25-30mm below ceiling (minimum); heads must be within 150mm of soffit level. Obstruction rules: heads must be 3x distance from obstruction as the distance the obstruction is below the ceiling.
+**喷头净空**：距吊顶下方至少 25–30 mm；喷头必须位于结构板底标高 150 mm 范围内。障碍物规则：喷头与障碍物的水平距离至少为障碍物低于吊顶高度的 3 倍。
 
-**System sizing:**
-- Light hazard design density: 2.25 mm/min over 84m² assumed maximum area of operation
-- Ordinary hazard: 5.0 mm/min over 144-360m² (depending on OH group)
-- Riser sizes: 65mm (light hazard, small area); 100mm (ordinary hazard); 150mm (high hazard/large buildings)
-- Fire pump: Required if mains pressure/flow insufficient. Typically 100-300 L/min (light hazard); 500-2000 L/min (ordinary/high hazard). Pump room: 15-25m².
+**系统尺寸：**
+- 轻危险设计密度：在假定最大作用面积 84 m² 上为 2.25 mm/min。
+- 普通危险：在 144–360 m² 上为 5.0 mm/min（取决于 OH 组别）。
+- 立管尺寸：65 mm（轻危险、小面积）；100 mm（普通危险）；150 mm（高危险/大型建筑）。
+- 消防泵：市政压力/流量不足时需要设置。典型流量为轻危险 100–300 L/min，普通/高危险 500–2000 L/min。泵房 15–25 m²。
 
-**Water storage:**
-- Tank sizing: Flow rate x duration. Light hazard: 30 minutes; ordinary: 60 minutes; high hazard: 90 minutes.
-- Typical tank: 20-50m³ (light hazard office); 100-300m³ (warehouse)
+**储水：**
+- 水箱尺寸：流量 x 持续时间。轻危险 30 分钟；普通危险 60 分钟；高危险 90 分钟。
+- 典型水箱：轻危险办公建筑 20–50 m³；仓库 100–300 m³。
 
-### Fire Detection and Alarm Systems
+### 火灾探测与报警系统
 
-| Type | Detector Type | Coverage | Application |
+| 类型 | 探测器类型 | 覆盖范围 | 应用 |
 |---|---|---|---|
-| Conventional | Point detectors wired in zones | 1 detector per 50m² (smoke); 1 per 30m² (heat) | Small buildings, low budget |
-| Addressable | Individual detector addresses on loop | Same coverage as conventional; faster identification | Standard for commercial buildings |
-| Analogue addressable | Detectors report analogue values; panel sets thresholds | Enhanced sensitivity; pre-alarm capability | Premium offices, hospitals, heritage |
-| Aspirating (VESDA) | Network of sampling pipes, central laser detector | Pipe network at ceiling; one unit per 200-500m² | High-value (data centres, clean rooms, museums) |
-| Beam detector | IR beam across space | 1 beam per 500-1000m² in large open volumes | Warehouses, atria, churches, hangars |
-| Linear heat detection | Cable detects temperature along its length | Along cable routes, car parks, tunnels | Cable trays, tunnels, conveyor belts |
+| 常规型 | 分区布置的点型探测器 | 每 50 m² 设置 1 个（烟）；每 30 m² 设置 1 个（热） | 小型建筑、预算有限项目 |
+| 编码型 | 回路中每个探测器有独立地址 | 覆盖范围同常规型，但识别更快 | 商业建筑标准配置 |
+| 模拟量编码型 | 探测器报告模拟值，控制盘设定阈值 | 灵敏度更高，可预报警 | 高端办公室、医院、历史建筑 |
+| 吸气式（VESDA） | 采样管网和中央激光探测器 | 吊顶管网；每台覆盖 200–500 m² | 高价值空间（数据中心、洁净室、博物馆） |
+| 光束型 | 横跨空间的红外光束 | 大型开敞空间每 500–1000 m² 设置 1 束 | 仓库、中庭、教堂、飞机库 |
+| 线型感温 | 电缆检测沿线温度 | 沿电缆路径、停车库、隧道布置 | 电缆桥架、隧道、输送带 |
 
-### Smoke Control Systems
+### 排烟系统
 
-| Type | Mechanism | Application | Spatial Impact |
+| 类型 | 机理 | 应用 | 空间影响 |
 |---|---|---|---|
-| Natural smoke ventilation | Roof vents/openable windows; buoyancy drives smoke out | Single-storey buildings, small atria | Roof openings: 2-5% of floor area; minimum 1.5m² per vent |
-| Mechanical smoke extract | Powered fans extract smoke from fire zone | Multi-storey, basement, large atria | Extract fan: 3-10 m³/s per zone; ductwork: 600-1200mm dia. or equivalent |
-| Smoke curtains | Motorised fabric barriers descend from ceiling | Atria, open-plan floors, shopping centres | 100-200mm housing at ceiling level; drops to 3m below ceiling |
-| Pressurisation | Fans pressurise escape stairs/lobbies to prevent smoke entry | Stair cores in tall buildings (>30m), basement stairs | Supply fan: 1-5 m³/s per stair; dedicated shaft or ductwork |
+| 自然排烟 | 屋顶排烟窗/可开启窗，利用浮力排烟 | 单层建筑、小型中庭 | 屋顶开口为楼面面积的 2–5%；每个排烟口至少 1.5 m² |
+| 机械排烟 | 动力风机从着火分区排烟 | 多层建筑、地下室、大型中庭 | 每区排烟风机 3–10 m³/s；风管直径 600–1200 mm 或等效尺寸 |
+| 挡烟垂壁 | 电动织物屏障从吊顶降下 | 中庭、开放式楼层、购物中心 | 吊顶处收纳盒 100–200 mm；下降至吊顶下 3 m |
+| 加压送风 | 风机对疏散楼梯/前室加压，阻止烟气进入 | 高层建筑（>30 m）楼梯核心筒、地下室楼梯 | 每个楼梯送风机 1–5 m³/s；设专用管井或风管 |
 
-**Design standards:**
-- BS 7346 (components), BS EN 12101 (systems), BS 9999 (design guidance)
-- Stair pressurisation: 50 Pa positive pressure with all doors closed; 10 Pa with one door open. Air velocity through open door: 0.75 m/s minimum.
-- Smoke reservoir depth: 2.5-3.0m minimum beneath roof in naturally ventilated spaces; clear height below smoke layer: 2.5-3.0m.
+**设计标准：**
+- BS 7346（部件）、BS EN 12101（系统）、BS 9999（设计指南）。
+- 楼梯加压：所有门关闭时正压 50 Pa；一扇门打开时 10 Pa。开门处气流速度最低 0.75 m/s。
+- 烟气蓄积层深度：自然通风空间屋面下方至少 2.5–3.0 m；烟层以下净高 2.5–3.0 m。
 
-### Fire Suppression (Specialist)
+### 专用灭火系统
 
-| System | Agent | Application | Spatial Impact |
+| 系统 | 灭火介质 | 应用 | 空间影响 |
 |---|---|---|---|
-| Gas suppression (FM-200, Novec 1230) | Clean agent gas | Server rooms, archives, museums | Cylinder storage: 1-2m² per 50m³ room volume; sealed room required |
-| CO2 suppression | Carbon dioxide | Electrical switchgear, industrial | Hazardous to life — lockout system required; ventilation after discharge |
-| Water mist | Fine water droplets (<1mm) | Heritage buildings, tunnels, turbine halls | Smaller pipe sizes than sprinkler (25-50mm); higher pressure (40-200 bar) |
-| Foam | AFFF (aqueous film-forming foam) | Aircraft hangars, fuel storage, car showrooms | Foam tanks, proportioning equipment, foam makers |
+| 气体灭火（FM-200、Novec 1230） | 洁净灭火气体 | 服务器机房、档案库、博物馆 | 每 50 m³ 房间容积需 1–2 m² 气瓶储存空间；房间必须密闭 |
+| CO₂ 灭火 | 二氧化碳 | 电气开关设备、工业建筑 | 对生命有危险，必须设置联锁；释放后需通风 |
+| 细水雾 | 细小水滴（<1 mm） | 历史建筑、隧道、涡轮机大厅 | 管径小于喷淋系统（25–50 mm）；压力更高（40–200 bar） |
+| 泡沫 | AFFF（水成膜泡沫） | 飞机库、燃料储存、汽车展厅 | 泡沫罐、比例混合设备、泡沫发生器 |
 
 ---
 
-## Section 6: MEP Coordination
+## 第 6 节：MEP 协调
 
-### Spatial Coordination Strategy
+### 空间协调策略
 
-The fundamental principle of MEP coordination is zone allocation: reserving specific depths in the floor/ceiling void for structure, services, and finishes in a defined hierarchy.
+MEP 协调的基本原则是分区分配：按照明确的层级，为结构、设备管线和饰面在楼板/吊顶空间中预留特定深度。
 
-**Vertical zone allocation (from structural slab downward):**
+**竖向分区分配（从结构楼板向下）：**
 
-1. **Structure zone**: Beam depth (or flat slab soffit). Nothing penetrates the structure without structural engineer approval.
-2. **Primary services zone**: Large ducts, main cable trays, main pipe runs. Runs perpendicular to or along primary structure.
-3. **Secondary services zone**: Branch ducts, secondary cable trays, sprinkler mains. Runs perpendicular to primary services.
-4. **Terminal services zone**: Sprinkler drops, light fittings, FCU units, chilled beams, final circuits. Closest to ceiling.
-5. **Ceiling finish**: Plasterboard, suspended tile, exposed services (if applicable).
+1. **结构区**：梁高（或平板底面）。未经结构工程师批准，任何管线不得穿透结构。
+2. **主要设备区**：大型风管、主电缆桥架和主干管道，沿主结构或垂直主结构布置。
+3. **次要设备区**：支风管、次级电缆桥架和喷淋主管，垂直于主要设备布置。
+4. **末端设备区**：喷淋支管、灯具、FCU、冷梁和末端回路，最靠近吊顶。
+5. **吊顶饰面**：石膏板、悬挂式板材或外露设备管线（如适用）。
 
-### Typical Ceiling Void Depths
+### 典型吊顶空间深度
 
-| Building Type | Minimum Void (mm) | Typical Void (mm) | Maximum Void (mm) | Notes |
+| 建筑类型 | 最小空间（mm） | 典型空间（mm） | 最大空间（mm） | 备注 |
 |---|---|---|---|---|
-| Residential (apartment) | 200 | 300-400 | 500 | Simple services; may be flush ceiling with bulkheads |
-| Hotel (guest room) | 250 | 350-450 | 550 | FCU + fresh air duct + sprinkler |
-| Commercial office (standard) | 400 | 500-700 | 900 | VAV or FCU + cable trays + sprinkler |
-| Commercial office (premium) | 350 | 450-600 | 700 | Chilled beams + reduced ductwork |
-| Retail (shell unit) | 400 | 600-800 | 1000 | Large HVAC ducts for high cooling loads |
-| Hospital (general ward) | 600 | 800-1000 | 1200 | Extensive services, medical gases, access requirements |
-| Hospital (operating suite) | 800 | 1000-1500 | 2000 | Laminar flow, theatre pendants, interstitial space |
-| School / university | 300 | 400-600 | 700 | Mixed-mode may reduce void |
-| Laboratory | 600 | 800-1200 | 1500 | Fume extract, specialist gases, variable air volume |
+| 住宅（公寓） | 200 | 300–400 | 500 | 设备简单，可采用平吊顶和局部降板 |
+| 酒店（客房） | 250 | 350–450 | 550 | FCU + 新风风管 + 喷淋 |
+| 商业办公室（标准） | 400 | 500–700 | 900 | VAV 或 FCU + 电缆桥架 + 喷淋 |
+| 商业办公室（高端） | 350 | 450–600 | 700 | 冷梁 + 减少风管 |
+| 零售（毛坯单元） | 400 | 600–800 | 1000 | 高制冷负荷需要大型 HVAC 风管 |
+| 医院（普通病房） | 600 | 800–1000 | 1200 | 大量设备、医用气体和检修要求 |
+| 医院（手术部） | 800 | 1000–1500 | 2000 | 层流、手术灯吊架和夹层空间 |
+| 学校/大学 | 300 | 400–600 | 700 | 混合模式可减小夹层 |
+| 实验室 | 600 | 800–1200 | 1500 | 通风柜排风、专用气体和变风量系统 |
 
-### Clash Detection Process
+### 碰撞检查流程
 
-**Stage 1: Design Coordination (pre-BIM clash detection)**
-- Agree zone allocation drawings showing reserved depths for each service in section
-- Define priority hierarchy: gravity drainage > primary ductwork > primary pipework > cable trays > secondary branches > terminals
-- Identify coordination "hot spots": risers, plant rooms, ceiling void crossover points, low-headroom areas, transfer beam locations
+**阶段 1：设计协调（BIM 碰撞检查前）：**
+- 确认分区分配图，在剖面中标明各系统预留深度。
+- 确定优先级：重力排水 > 主要风管 > 主要管道 > 电缆桥架 > 次级支管 > 末端设备。
+- 识别协调“热点”：管井、设备机房、吊顶空间交叉点、低净高区域和转换梁位置。
 
-**Stage 2: BIM Clash Detection**
-- Model all services to agreed LOD (Level of Development):
-  - LOD 200 (concept): Approximate sizes and routes
-  - LOD 300 (developed design): Specific sizes, materials, connections. Sufficient for coordination.
-  - LOD 350: Specific sizes plus supports, hangers, access clearances
-  - LOD 400 (construction): Fabrication-ready models
-- Run automated clash detection (Navisworks, Solibri, BIM Collab)
-- Classify clashes: Hard (physical intersection), soft (clearance violation), workflow (sequencing)
-- Resolve through weekly coordination meetings
+**阶段 2：BIM 碰撞检查：**
+- 按约定的 LOD（开发等级）建立所有设备模型：
+  - LOD 200（概念）：近似尺寸和路径。
+  - LOD 300（深化设计）：具体尺寸、材料和连接，足以进行协调。
+  - LOD 350：具体尺寸，以及支架、吊架和检修净空。
+  - LOD 400（施工）：可直接用于加工的模型。
+- 运行自动碰撞检查（Navisworks、Solibri、BIM Collab）。
+- 碰撞分类：硬碰撞（实体相交）、软碰撞（净空违规）和流程碰撞（施工顺序）。
+- 通过每周协调会议解决问题。
 
-**Stage 3: Construction Coordination**
-- Produce coordinated services sections at key locations (1:20 or 1:25 scale)
-- Issue combined services drawings (CSD) for each ceiling zone
-- Agree installation sequence: structure → main cable trays → main ductwork → main pipework → branches → terminals → ceiling
+**阶段 3：施工协调：**
+- 在关键位置制作综合设备剖面图（比例 1:20 或 1:25）。
+- 为每个吊顶区域发布综合设备图（CSD）。
+- 确定安装顺序：结构 → 主电缆桥架 → 主风管 → 主管道 → 支管 → 末端设备 → 吊顶。
 
-### Riser Shaft Sizing
+### 管井尺寸
 
-| Service Riser | Size per Floor (m²) | Notes |
+| 设备管井 | 每层面积（m²） | 备注 |
 |---|---|---|
-| Electrical (bus-bar + cable trays) | 0.4-0.6 | 600x800mm typical; segregate from water |
-| Data/telecoms | 0.2-0.4 | 400x600mm; may combine with electrical |
-| Cold water | 0.2-0.3 | 300x400mm; insulated pipes + valve access |
-| Hot water (flow + return) | 0.2-0.3 | 300x400mm; insulated pipes |
-| Soil/waste stack | 0.2-0.3 | 300x400mm; access panels at each floor |
-| Rainwater | 0.1-0.2 | 200x200mm (internal downpipe) |
-| HVAC (supply + extract duct) | 0.5-2.0+ | Highly variable — depends on system type and floor area served |
-| Gas | 0.1-0.2 | 200x200mm; fire-sealed at each floor |
-| Fire sprinkler riser | 0.2-0.3 | 300x300mm; valve set at each floor |
-| Smoke extract shaft | 0.5-2.0 | Building-specific; fire-rated construction |
+| 电气（母线槽 + 电缆桥架） | 0.4–0.6 | 典型 600×800 mm；与水系统分隔 |
+| 数据/通信 | 0.2–0.4 | 400×600 mm；可与电气合并 |
+| 冷水 | 0.2–0.3 | 300×400 mm；保温管 + 阀门检修 |
+| 热水（供水 + 回水） | 0.2–0.3 | 300×400 mm；保温管 |
+| 污水/废水立管 | 0.2–0.3 | 300×400 mm；每层设检修口 |
+| 雨水 | 0.1–0.2 | 200×200 mm（室内落水管） |
+| HVAC（送风 + 排风管） | 0.5–2.0+ | 变化较大，取决于系统类型和服务面积 |
+| 燃气 | 0.1–0.2 | 200×200 mm；每层进行防火封堵 |
+| 消防喷淋立管 | 0.2–0.3 | 300×300 mm；每层设置阀组 |
+| 排烟管井 | 0.5–2.0 | 依据建筑确定；采用耐火构造 |
 
-**Combined riser strategy:**
-- Group risers by type: wet risers together (water, sprinkler, drainage), dry risers together (electrical, data, HVAC)
-- Minimum riser dimensions: 600mm depth for access (person entry for maintenance)
-- Access doors: 600x600mm minimum at each floor level, 450x450mm for small risers
-- Fire stopping: All penetrations through fire-rated floors and walls must be fire-stopped to match the fire rating of the element penetrated
+**综合管井策略：**
+- 按类型分组：湿管井集中布置（水、喷淋、排水），干管井集中布置（电气、数据、HVAC）。
+- 管井最小深度：600 mm，以满足进入检修的要求。
+- 检修门：每层最小 600x600 mm；小型管井为 450x450 mm。
+- 防火封堵：所有穿过耐火楼板和墙体的部位必须采用与被穿透构件耐火等级相匹配的防火封堵。
 
-### Plant Room Sizing Rules of Thumb
+### 设备机房尺寸经验规则
 
-| Plant Room | Size (% of GFA) | Typical Location |
+| 设备机房 | 尺寸（占 GFA） | 典型位置 |
 |---|---|---|
-| Main mechanical plant (AHU, boilers, chillers) | 3-6% (office), 5-10% (hospital) | Basement and/or roof |
-| Chiller plant | 0.5-1.5% | Roof (air-cooled) or basement (water-cooled with cooling tower on roof) |
-| Boiler plant | 0.3-0.8% | Basement or ground floor (gas supply access, flue route to roof) |
-| Main electrical switchroom | 0.3-0.5% | Ground or basement (utility connection) |
-| Generator room | 0.3-0.5% | Basement (with exhaust flue to exterior) or ground level |
-| UPS / battery room | 0.1-0.3% | Adjacent to IT/server rooms |
-| Water tank room | 0.2-0.5% | Roof (gravity) or basement (boosted) |
-| Sprinkler pump room | 0.1-0.2% | Ground or basement (near water supply) |
-| Lift motor room (if applicable) | 10-15m² per lift group | Above shaft |
-| BMS / controls room | 10-20m² | Central location, any floor |
+| 主要机械设备（AHU、锅炉、冷水机） | 3–6%（办公），5–10%（医院） | 地下室和/或屋面 |
+| 冷水机房 | 0.5–1.5% | 屋面（风冷）或地下室（水冷，冷却塔设于屋面） |
+| 锅炉房 | 0.3–0.8% | 地下室或首层（燃气接入、烟道通往屋面） |
+| 主电气开关室 | 0.3–0.5% | 首层或地下室（公用工程接入） |
+| 发电机房 | 0.3–0.5% | 地下室（排烟管通向室外）或首层 |
+| UPS/电池房 | 0.1–0.3% | 靠近 IT/服务器机房 |
+| 水箱间 | 0.2–0.5% | 屋面（重力供水）或地下室（增压供水） |
+| 喷淋泵房 | 0.1–0.2% | 首层或地下室（靠近水源） |
+| 电梯电机房（如适用） | 每组电梯 10–15 m² | 井道上方 |
+| BMS/控制室 | 10–20 m² | 建筑中央位置，任一楼层 |
 
-### Below-Ground Services
+### 地下设备管线
 
-External services entering the building below ground:
-- **Incoming water main**: 80-150mm dia., min. 750mm deep (frost), entry at meter location
-- **Gas supply**: 50-100mm dia., min. 450mm deep, entry at meter/governor
-- **Electrical supply**: HV cable from substation or LV from transformer, min. 600mm deep in duct
-- **Telecoms/data**: Multiple duct entries, min. 450mm deep
-- **Foul drainage**: 100-225mm dia., min. 600mm deep, to public sewer or treatment
-- **Surface water drainage**: 100-300mm dia., to public sewer, soakaway, or attenuation tank
-- **District heating/cooling**: Insulated pre-insulated pipe (DN50-DN200), min. 600mm deep
+进入建筑地下的外部设备管线：
+- **进水主管**：直径 80–150 mm，最小埋深 750 mm（防冻），在水表位置接入。
+- **燃气供应**：直径 50–100 mm，最小埋深 450 mm，在水表/调压器处接入。
+- **电力供应**：来自变电站的高压电缆或变压器的低压电缆，管道内最小埋深 600 mm。
+- **通信/数据**：多根管道接入，最小埋深 450 mm。
+- **污水排水**：直径 100–225 mm，最小埋深 600 mm，接至公共污水管网或处理设施。
+- **地表水排水**：直径 100–300 mm，接至公共管网、渗透井或调蓄水箱。
+- **区域供热/供冷**：预保温管（DN50–DN200），最小埋深 600 mm。
 
-**Coordination**: Below-ground services survey (PAS 128) essential before design. Services should not cross beneath foundations. Allow 1m clear separation between parallel services of different types. Service trenches should be accessible without excavating building foundations.
+**协调**：设计前必须进行地下管线测量（PAS 128）。设备管线不得从基础下方穿越。不同类型的平行管线之间应保持 1 m 净距。设备管沟应能在不挖开建筑基础的情况下检修。
 
-### Roof Plant Screening
+### 屋面设备屏蔽
 
-Roof-mounted plant (chillers, AHUs, cooling towers, generators, exhaust fans) typically requires acoustic and visual screening:
-- **Acoustic enclosure**: Required if plant noise exceeds planning limits at nearest sensitive receptor. Typically 10-25 dB(A) attenuation needed. Louvred enclosure with acoustic lining.
-- **Visual screening**: Height to fully screen tallest plant item (typically 2.0-3.0m). Material to match building aesthetic (perforated metal, expanded mesh, timber louvre, living wall).
-- **Access**: Maintenance access routes to all plant items. Minimum 800mm clear between plant and screen. Crane access or hatch for plant replacement.
-- **Structural load**: Roof structure must be designed for plant loads. Typical: chiller 100-300 kN on 4 supports; AHU 50-200 kN; cooling tower 50-150 kN. Anti-vibration mounts required.
-- **Planning impact**: Roof plant and screening count toward building height. Screen height must be included in planning application. Some authorities require 45-degree sight line analysis from ground level.
+屋面设备（冷水机组、AHU、冷却塔、发电机、排风机）通常需要隔声和视觉屏蔽：
+- **隔声围护**：当设备噪声超过最近敏感受体处的规划限值时需要设置，通常需要 10–25 dB(A) 的衰减。采用带吸声衬里的百叶围护。
+- **视觉屏蔽**：高度应完全遮挡最高设备（通常 2.0–3.0 m）。材料应匹配建筑美学（穿孔金属、拉伸网、木百叶、立体绿墙）。
+- **通道**：所有设备均应有维护通道。设备与屏蔽之间至少保留 800 mm 净距，并设置起重机通道或设备更换吊装口。
+- **结构荷载**：屋面结构必须按设备荷载设计。典型值：冷水机组由 4 个支点承受 100–300 kN；AHU 50–200 kN；冷却塔 50–150 kN。必须设置减振支座。
+- **规划影响**：屋面设备和屏蔽计入建筑高度，屏蔽高度必须纳入规划申请；部分主管部门要求从地面进行 45° 视线分析。
 
-### Renewable Energy Integration
+### 可再生能源整合
 
-Architects must coordinate the spatial and structural requirements of on-site renewable energy systems:
+建筑师必须协调现场可再生能源系统的空间和结构要求：
 
-- **Photovoltaic (PV) panels**: Roof area required — 6-8m² per kWp. Typical office yield: 150-180 kWh/m² panel/year (UK); 250-350 kWh/m² (southern US/Mediterranean). Weight: 12-20 kg/m² including mounting. Orientation: ideally south-facing at 30-35 degree tilt, but east-west flat arrays acceptable at 85-90% yield. Minimum 300mm gap below panels for maintenance. Avoid shading from roof plant — PV layout coordinated with plant screening.
-- **Solar thermal**: 2-4m² per dwelling (domestic hot water). Higher yield than PV per m² for hot water but limited application to space heating. Pipe runs from roof to plant room (15-22mm insulated copper).
-- **Wind turbines**: Building-mounted micro-turbines generally underperform. Roof-mounted or building-integrated vertical-axis turbines: 1-10 kW. Vibration and noise transfer to structure is a significant issue. Most effective as standalone mast-mounted units on exposed sites.
-- **Heat pumps (ASHP/GSHP)**: See HVAC Section. Space requirements in plant room: 1.5-2.5% of GFA. External units require acoustic setback from boundaries.
-- **Battery storage**: Lithium-ion battery arrays for PV storage or demand response. Space: 0.5-1.0m² per 10 kWh. Weight: 100-200 kg per 10 kWh. Ventilation and fire suppression requirements per NFPA 855. Temperature control: 15-25C operating range.
+- **光伏（PV）板**：屋面所需面积为每 kWp 6–8 m²。办公建筑典型发电量：英国每年每 m² 板面 150–180 kWh；美国南部/地中海地区 250–350 kWh/m²。含支架重量 12–20 kg/m²。朝向：理想为朝南、倾角 30–35°；东西向平铺阵列也可接受，发电量可达 85–90%。板下至少留 300 mm 检修间隙。避免屋面设备遮挡，并将 PV 布置与设备屏蔽协调。
+- **太阳能热利用**：每户 2–4 m²（生活热水）。用于热水时单位面积产能高于 PV，但用于空间采暖的适用性有限。管道从屋面接至设备机房（15–22 mm 保温铜管）。
+- **风力发电机**：建筑附着式微型风机通常表现不佳。屋面安装或建筑一体化垂直轴风机功率为 1–10 kW。振动和噪声传入结构是重要问题；在开阔场地，独立桅杆式设备效果最好。
+- **热泵（ASHP/GSHP）**：见 HVAC 节。设备机房空间需求占 GFA 的 1.5–2.5%；室外机组需与边界保持隔声退距。
+- **电池储能**：用于 PV 储能或需求响应的锂离子电池阵列。空间需求：每 10 kWh 为 0.5–1.0 m²；重量：每 10 kWh 为 100–200 kg。通风和消防要求按 NFPA 855；运行温度范围 15–25°C。
 
-### Building Management System (BMS) and Smart Controls
+### 建筑管理系统（BMS）与智能控制
 
-The BMS integrates all building services into a single monitoring and control platform. Spatial and infrastructure requirements:
+BMS 将所有建筑设备集成至统一的监测与控制平台。空间和基础设施要求如下：
 
-- **BMS head-end / server room**: 10-20m² (centralised PC/server, UPS, network switches)
-- **BMS outstations**: One per floor or zone, mounted in riser cupboard or ceiling void (300x200x100mm controller units)
-- **Cabling**: Cat 6A or fibre backbone to each outstation. BACnet/IP or Modbus protocol. Dedicated containment (50x50mm to 100x100mm trunking) separate from power cables.
-- **Sensors**: Temperature (every zone), CO2 (occupied spaces), humidity (critical zones), occupancy/PIR (lighting and ventilation control), lux level (daylight dimming). Wired or wireless — wireless reduces containment but requires gateway devices.
-- **Integration points**: HVAC controllers, lighting controllers (DALI), blinds/shading, access control, fire alarm (monitoring only), lifts (monitoring only), energy meters (sub-metering at distribution board level).
-- **Smart building platforms**: Modern buildings increasingly deploy IoT platforms above the BMS layer for data analytics, predictive maintenance, occupancy analytics, and tenant apps. Requires robust Wi-Fi 6 / 5G infrastructure and edge computing nodes (one per 2-3 floors).
+- **BMS 主站/服务器机房**：10–20 m²（集中式电脑/服务器、UPS 和网络交换机）。
+- **BMS 分站**：每层或每个区域一处，安装在管井柜或吊顶空间内（控制器尺寸 300x200x100 mm）。
+- **布线**：向每个分站敷设 Cat 6A 或光纤主干；采用 BACnet/IP 或 Modbus 协议。设置独立线槽（50x50 mm 至 100x100 mm），与动力电缆分开。
+- **传感器**：温度（每个区域）、CO2（使用空间）、湿度（关键区域）、人员占用/PIR（照明和通风控制）、照度（采光调光）。可采用有线或无线；无线可减少线槽，但需要网关设备。
+- **集成点**：HVAC 控制器、照明控制器（DALI）、百叶/遮阳、门禁控制、火灾报警（仅监测）、电梯（仅监测）和能耗表（配电箱层级的分项计量）。
+- **智能建筑平台**：现代建筑越来越多地在 BMS 层之上部署 IoT 平台，用于数据分析、预测性维护、人员占用分析和租户应用。需要可靠的 Wi-Fi 6 / 5G 基础设施及边缘计算节点（每 2–3 层一处）。
 
-### Services Design Benchmarks by Building Type
+### 各类建筑设备设计基准
 
-| Parameter | Residential | Office | Hospital | School | Hotel |
+| 参数 | 住宅 | 办公 | 医院 | 学校 | 酒店 |
 |---|---|---|---|---|---|
-| Heating load (W/m²) | 40-60 | 30-50 | 50-80 | 40-60 | 40-60 |
-| Cooling load (W/m²) | 30-50 | 60-100 | 80-150 | 30-60 | 50-80 |
-| Fresh air rate (L/s/person) | 8-12 | 10-12 | 10-15 | 5-8 | 10-12 |
-| Small power (W/m²) | 15-25 | 25-35 | 20-30 | 15-25 | 10-15 |
-| Lighting power (W/m²) | 5-8 | 8-12 | 8-12 | 8-10 | 5-10 |
-| Hot water demand (L/person/day) | 40-60 | 3-5 | 50-80 | 3-5 | 100-150 |
-| Plant room (% GFA) | 2-4 | 5-8 | 8-12 | 3-5 | 5-7 |
-| Ceiling void (mm) | 200-400 | 500-800 | 800-1200 | 400-600 | 350-500 |
-| Riser area (% floor area) | 1.0-1.5 | 1.5-2.5 | 2.5-4.0 | 1.0-2.0 | 1.5-2.5 |
+| 采暖负荷（W/m²） | 40–60 | 30–50 | 50–80 | 40–60 | 40–60 |
+| 制冷负荷（W/m²） | 30–50 | 60–100 | 80–150 | 30–60 | 50–80 |
+| 新风量（L/s/人） | 8–12 | 10–12 | 10–15 | 5–8 | 10–12 |
+| 小动力（W/m²） | 15–25 | 25–35 | 20–30 | 15–25 | 10–15 |
+| 照明功率（W/m²） | 5–8 | 8–12 | 8–12 | 8–10 | 5–10 |
+| 热水需求（L/人/日） | 40–60 | 3–5 | 50–80 | 3–5 | 100–150 |
+| 机房（% GFA） | 2–4 | 5–8 | 8–12 | 3–5 | 5–7 |
+| 吊顶夹层（mm） | 200–400 | 500–800 | 800–1200 | 400–600 | 350–500 |
+| 管井面积（% 楼面面积） | 1.0–1.5 | 1.5–2.5 | 2.5–4.0 | 1.0–2.0 | 1.5–2.5 |

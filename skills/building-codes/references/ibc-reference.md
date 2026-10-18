@@ -1,103 +1,95 @@
-# IBC Reference Guide for Architects
+# 建筑师 IBC 参考指南
 
-## Overview
+## 概述
 
-The International Building Code (IBC) is organized into 35 chapters covering
-administrative provisions, building planning, fire protection, means of egress,
-accessibility, structural design, and building systems. This reference focuses
-on the chapters architects interact with most frequently and provides worked
-examples demonstrating code navigation.
+International Building Code（IBC）分为 35 章，涵盖行政条款、建筑规划、防火、疏散路径、无障碍、结构设计和建筑系统。本参考重点介绍建筑师最常使用的章节，并提供示例说明如何查阅规范。
 
 ---
 
-## IBC Chapter Structure -- Key Chapters for Architects
+## IBC 章节结构——建筑师重点章节
 
-### Chapter 3: Use and Occupancy Classification
-- Sections 302-312: definitions of Groups A through U
-- Section 302.1: mixed occupancy triggers when building contains 2+ groups
-- Section 303-312: specific use conditions for each group
-- Key decision: correctly classify the primary and accessory uses before
-  proceeding to any other code analysis
+### 第 3 章：用途与使用类别
+- 第 302–312 节：A 至 U 类使用类别定义
+- 第 302.1 节：建筑包含 2 个或以上类别时触发混合使用类别
+- 第 303–312 节：各类别的具体使用条件
+- 关键决策：在进行其他规范分析前，正确划分主要用途和附属用途
 
-### Chapter 4: Special Detailed Requirements
-- Section 402: covered and open mall buildings
-- Section 403: high-rise buildings (occupied floor > 23 m / 75 ft above
-  lowest fire department vehicle access)
-- Section 404: atriums
-- Section 405: underground buildings (occupied floor > 9.1 m / 30 ft below
-  exit discharge)
-- Section 406: motor vehicle facilities
-- Section 407: Group I-2 (hospitals)
-- Section 408: Group I-3 (detention)
-- Section 409-415: special industrial and hazardous uses
+### 第 4 章：特殊详细要求
+- 第 402 节：有顶和开放式商业步行街建筑
+- 第 403 节：高层建筑（使用楼层高于最低消防车辆通行面 23 m / 75 ft）
+- 第 404 节：中庭
+- 第 405 节：地下建筑（使用楼层低于出口排出层 9.1 m / 30 ft）
+- 第 406 节：机动车设施
+- 第 407 节：I-2 类（医院）
+- 第 408 节：I-3 类（拘留设施）
+- 第 409–415 节：特殊工业和危险用途
 
-### Chapter 5: General Building Heights and Areas
-- Section 503: general height and area limitations
-- Section 504: building height (Tables 504.3, 504.4)
-- Section 505: mezzanines and equipment platforms
-- Section 506: building area modifications (frontage and sprinkler increases)
-- Section 507: unlimited area buildings
-- Section 508: mixed use and occupancy
-- Section 510: special provisions (podium/pedestal buildings, horizontal
-  building separation)
+### 第 5 章：建筑高度和面积总则
+- 第 503 节：高度和面积一般限值
+- 第 504 节：建筑高度（表 504.3、504.4）
+- 第 505 节：夹层和设备平台
+- 第 506 节：建筑面积修正（临街和喷淋增幅）
+- 第 507 节：不限面积建筑
+- 第 508 节：混合用途和使用类别
+- 第 510 节：特殊规定（裙房/基座建筑、水平建筑分隔）
 
-### Chapter 6: Types of Construction
-- Section 602: construction classification (Types I-V with subtypes)
-- Table 601: fire-resistance rating requirements for building elements
-- Table 602: fire-resistance rating requirements for exterior walls
+### 第 6 章：建筑构造类别
+- 第 602 节：构造分类（I–V 类及子类别）
+- 表 601：建筑构件耐火等级要求
+- 表 602：外墙耐火等级要求
 
-### Chapter 7: Fire and Smoke Protection Features
-- Section 703: fire-resistance-rated construction (testing, listing)
-- Section 706: fire walls
-- Section 707: fire barriers
-- Section 708: fire partitions
-- Section 709: smoke barriers
-- Section 710: smoke partitions
-- Section 711: horizontal assemblies (floor/ceiling, roof/ceiling)
-- Section 712: vertical openings (shafts)
-- Section 713: shaft enclosures
-- Section 714: penetrations and joints (firestopping)
-- Section 715: opening protectives (fire doors, fire windows, fire shutters)
-- Section 716: fire door and shutter assemblies
+### 第 7 章：防火与防烟构造
+- 第 703 节：耐火构造（试验、认证清单）
+- 第 706 节：防火墙
+- 第 707 节：防火隔墙
+- 第 708 节：防火分隔墙
+- 第 709 节：防烟隔断
+- 第 710 节：防烟分隔墙
+- 第 711 节：水平构件（楼板/吊顶、屋面/吊顶）
+- 第 712 节：竖向开口（竖井）
+- 第 713 节：竖井封闭
+- 第 714 节：贯穿部位和接缝（防火封堵）
+- 第 715 节：开口防护（防火门、防火窗、防火卷帘）
+- 第 716 节：防火门和防火卷帘组件
 
-### Chapter 9: Fire Protection and Life Safety Systems
-- Section 903: automatic sprinkler systems
-- Section 905: standpipe systems
-- Section 906: portable fire extinguishers
-- Section 907: fire alarm and detection systems
-- Section 909: smoke control systems
-- Section 910: smoke and heat vents
+### 第 9 章：防火与生命安全系统
+- 第 903 节：自动喷水灭火系统
+- 第 905 节：消火栓立管系统
+- 第 906 节：便携式灭火器
+- 第 907 节：火灾报警与探测系统
+- 第 909 节：防烟系统
+- 第 910 节：排烟排热天窗
 
-### Chapter 10: Means of Egress
-- Section 1003: general means of egress
-- Section 1004: occupant load (Table 1004.5)
-- Section 1005: egress width
-- Section 1006: number of exits and exit access doorways (Table 1006.2.1)
-- Section 1009: accessible means of egress
-- Section 1010: doors, gates, and turnstiles
-- Section 1011: stairways
-- Section 1012: ramps
-- Section 1014: exit access (travel through intervening rooms)
-- Section 1017: exit access travel distance (Table 1017.2)
-- Section 1018: aisles
-- Section 1020: corridors (Table 1020.1)
-- Section 1023: interior exit stairways and ramps
-- Section 1028: assembly seating
+### 第 10 章：疏散路径
+- 第 1003 节：疏散路径总则
+- 第 1004 节：人员荷载（表 1004.5）
+- 第 1005 节：疏散宽度
+- 第 1006 节：出口数量和出口通道门（表 1006.2.1）
+- 第 1009 节：无障碍疏散路径
+- 第 1010 节：门、闸门和旋转闸机
+- 第 1011 节：楼梯
+- 第 1012 节：坡道
+- 第 1014 节：出口通道（穿过中间房间）
+- 第 1017 节：出口通道行走距离（表 1017.2）
+- 第 1018 节：过道
+- 第 1020 节：走道（表 1020.1）
+- 第 1023 节：室内出口楼梯和坡道
+- 第 1028 节：集会座位
 
-### Chapter 11: Accessibility
-- References ICC A117.1 for dimensional requirements
-- Section 1103: scoping -- accessible route, entrances, parking
+### 第 11 章：无障碍
+- 尺寸要求引用 ICC A117.1
+- 第 1103 节：适用范围——无障碍路线、入口、停车
 
-### Chapter 29: Plumbing Systems
-- Section 2902: minimum plumbing facilities (Table 2902.1)
+### 第 29 章：卫生系统
+- 第 2902 节：卫生设施最低要求（表 2902.1）
 
 ---
 
-## Key Code Tables -- Quick Reference
+## 关键规范表——快速参考
 
-### Table 504.3: Allowable Building Height (feet) Above Grade Plane
+### 表 504.3：高于地坪面的允许建筑高度（英尺）
 
-| Type | IA | IB | IIA | IIB | IIIA | IIIB | IV | VA | VB |
+| 类型 | IA | IB | IIA | IIB | IIIA | IIIB | IV | VA | VB |
 |------|-----|-----|------|------|-------|-------|-----|-----|-----|
 | A-1 | UL | 180 | 65 | 55 | 65 | 55 | 65 | 50 | 40 |
 | A-2 | UL | 180 | 65 | 55 | 65 | 55 | 65 | 50 | 40 |
@@ -110,10 +102,9 @@ examples demonstrating code navigation.
 | R-2 | UL | 180 | 65 | 55 | 65 | 55 | 65 | 50 | 40 |
 | S-1 | UL | 180 | 65 | 55 | 65 | 55 | 65 | 50 | 40 |
 
-(Values shown are base heights without sprinkler increase. Add 6.1 m / 20 ft
-with NFPA 13 sprinkler system per Section 504.2.)
+（所示数值为未计入喷淋增量的基准高度。按第 504.2 节设置 NFPA 13 喷淋系统时增加 6.1 m / 20 ft。）
 
-### Table 504.4: Allowable Number of Stories Above Grade Plane
+### 表 504.4：高于地坪面的允许层数
 
 | Type | IA | IB | IIA | IIB | IIIA | IIIB | IV | VA | VB |
 |------|-----|-----|------|------|-------|-------|-----|-----|-----|
@@ -123,10 +114,9 @@ with NFPA 13 sprinkler system per Section 504.2.)
 | R-2 | UL | 11 | 4 | 4 | 4 | 4 | 4 | 3 | 2 |
 | S-1 | UL | 11 | 4 | 2 | 3 | 2 | 4 | 2 | 1 |
 
-(Add 1 story with NFPA 13 sprinkler system per Section 504.2, except for
-certain H and I occupancies.)
+（按第 504.2 节设置 NFPA 13 喷淋系统时增加 1 层，但部分 H 类和 I 类使用类别除外。）
 
-### Table 506.2: Allowable Area Factor (At) in ft² per floor
+### 表 506.2：每层允许面积系数（At，ft²）
 
 | Type | IA | IB | IIA | IIB | IIIA | IIIB | IV | VA | VB |
 |------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
@@ -135,374 +125,334 @@ certain H and I occupancies.)
 | R-2 | UL | UL | 24,000| 16,000| 24,000| 16,000| 20,500| 12,000| 7,000 |
 | S-1 | UL | UL | 26,000| 17,500| 26,000| 17,500| 25,500| 14,000| 9,000 |
 
-(UL = Unlimited. Multiply by increases for sprinklers and frontage per
-Section 506.2 formula.)
+（UL = 不限。按第 506.2 节公式乘以喷淋和临街面增量。）
 
-### Table 601: Fire-Resistance Rating Requirements (hours) for Building Elements
+### 表 601：建筑构件耐火等级要求（小时）
 
-| Building Element | IA | IB | IIA | IIB | IIIA | IIIB | IV | VA | VB |
+| 建筑构件 | IA | IB | IIA | IIB | IIIA | IIIB | IV | VA | VB |
 |------------------------------|-----|-----|------|------|-------|-------|------|-----|-----|
-| Primary structural frame | 3 | 2 | 1 | 0 | 1 | 0 | HT | 1 | 0 |
-| Bearing walls (exterior) | 3 | 2 | 1 | 0 | 2 | 2 | 2 | 1 | 0 |
-| Bearing walls (interior) | 3 | 2 | 1 | 0 | 1 | 0 | 1/HT | 1 | 0 |
-| Floor construction + secondary| 2 | 2 | 1 | 0 | 1 | 0 | HT | 1 | 0 |
-| Roof construction + secondary| 1.5 | 1 | 1 | 0 | 1 | 0 | HT | 1 | 0 |
+| 主结构框架 | 3 | 2 | 1 | 0 | 1 | 0 | HT | 1 | 0 |
+| 承重墙（外部） | 3 | 2 | 1 | 0 | 2 | 2 | 2 | 1 | 0 |
+| 承重墙（内部） | 3 | 2 | 1 | 0 | 1 | 0 | 1/HT | 1 | 0 |
+| 楼板构造 + 次要构件 | 2 | 2 | 1 | 0 | 1 | 0 | HT | 1 | 0 |
+| 屋面构造 + 次要构件 | 1.5 | 1 | 1 | 0 | 1 | 0 | HT | 1 | 0 |
 
-(HT = Heavy Timber per Section 602.4)
+（HT = 按第 602.4 节定义的重型木结构）
 
-### Table 602: Fire-Resistance Rating Requirements for Exterior Walls (by fire separation distance)
+### 表 602：外墙耐火等级要求（按防火间距）
 
-| Fire Separation Distance | Occupancy Group | Rating |
+| 防火间距 | 使用类别组 | 耐火等级 |
 |--------------------------|-----------------|--------|
-| < 1.5 m (5 ft) | All | 1 hr (minimum) |
-| 1.5 m to < 3 m (5-10 ft) | H, F-1, M, S-1 | 1 hr |
-| 1.5 m to < 3 m (5-10 ft) | A, B, E, R, others | 1 hr |
-| 3 m to < 6 m (10-20 ft) | H, F-1, M, S-1 | 1 hr |
-| 3 m to < 6 m (10-20 ft) | A, B, E, R, others | 0 hr |
-| >= 6 m (20 ft) | All | 0 hr |
+| < 1.5 m (5 ft) | 全部 | 1 hr（最小） |
+| 1.5 m 至 < 3 m (5-10 ft) | H、F-1、M、S-1 | 1 hr |
+| 1.5 m 至 < 3 m (5-10 ft) | A、B、E、R 等 | 1 hr |
+| 3 m 至 < 6 m (10-20 ft) | H、F-1、M、S-1 | 1 hr |
+| 3 m 至 < 6 m (10-20 ft) | A、B、E、R 等 | 0 hr |
+| >= 6 m (20 ft) | 全部 | 0 hr |
 
-(Opening percentage restrictions also apply based on fire separation distance
-per Table 705.8.)
+（按表 705.8，开口比例也受防火间距限制。）
 
-### Table 1004.5: Maximum Floor Area Allowances Per Occupant (excerpts)
+### 表 1004.5：每名使用者的最大楼面面积限值（节选）
 
-| Function | m² per person | ft² per person |
+| 用途 | 每人 m² | 每人 ft² |
 |----------------------------------------------|---------------|---------------|
-| Assembly -- concentrated (chairs only, no tables) | 0.65 net | 7 net |
-| Assembly -- unconcentrated (tables and chairs)| 1.4 net | 15 net |
-| Assembly -- standing space | 0.46 net | 5 net |
-| Business areas | 9.3 gross | 100 gross |
-| Classrooms | 1.9 net | 20 net |
-| Day care | 3.3 net | 35 net |
-| Retail (ground floor) | 2.8 gross | 30 gross |
-| Retail (upper floors) | 5.6 gross | 60 gross |
-| Industrial | 9.3 gross | 100 gross |
-| Residential | 18.6 gross | 200 gross |
-| Parking garages | 18.6 gross | 200 gross |
-| Storage | 27.9 gross | 300 gross |
-| Kitchen (commercial) | 18.6 gross | 200 gross |
-| Library -- reading rooms | 4.6 net | 50 net |
-| Library -- stacks | 9.3 gross | 100 gross |
-| Exercise rooms | 4.6 gross | 50 gross |
+| 集会——集中式（仅座椅，无桌） | 0.65 净 | 7 净 |
+| 集会——非集中式（桌椅） | 1.4 净 | 15 净 |
+| 集会——站立空间 | 0.46 净 | 5 净 |
+| 商业办公区域 | 9.3 总 | 100 总 |
+| 教室 | 1.9 净 | 20 净 |
+| 日间照护 | 3.3 净 | 35 净 |
+| 零售（首层） | 2.8 总 | 30 总 |
+| 零售（上层） | 5.6 总 | 60 总 |
+| 工业 | 9.3 总 | 100 总 |
+| 住宅 | 18.6 总 | 200 总 |
+| 停车库 | 18.6 总 | 200 总 |
+| 仓储 | 27.9 总 | 300 总 |
+| 商用厨房 | 18.6 总 | 200 总 |
+| 图书馆——阅览室 | 4.6 净 | 50 净 |
+| 图书馆——书库 | 9.3 总 | 100 总 |
+| 健身房 | 4.6 总 | 50 总 |
 
-### Table 1006.2.1: Spaces with One Exit or Exit Access Doorway
+### 表 1006.2.1：允许设置一个出口或出口通道门的空间
 
-| Occupancy | Max Occupant Load | Max Travel Distance (sprinklered) |
+| 使用类别 | 最大人员荷载 | 最大行走距离（设置喷淋） |
 |-----------|-------------------|-----------------------------------|
 | A, B, E, F, M, U | 49 | 23 m (75 ft) |
-| H-1, H-2, H-3 | 3 | Not applicable |
+| H-1, H-2, H-3 | 3 | 不适用 |
 | H-4, H-5, I-1, I-3, I-4 | 10 | 23 m (75 ft) |
-| I-2 | Not permitted | Not permitted |
+| I-2 | 不允许 | 不允许 |
 | R-1 | 10 | 23 m (75 ft) |
 | R-2 | 20 per dwelling unit | 38 m (125 ft) |
 | R-3, R-4 | 20 | 23 m (75 ft) |
 | S | 29 | 30 m (100 ft) |
 
-### Table 1017.2: Exit Access Travel Distance (see SKILL.md Section 4)
+### 表 1017.2：出口通道行走距离（见 SKILL.md 第 4 节）
 
-### Table 1020.1: Corridor Fire-Resistance Rating (see SKILL.md Section 5)
+### 表 1020.1：走道耐火等级（见 SKILL.md 第 5 节）
 
-### Table 2902.1: Minimum Number of Required Plumbing Fixtures (see SKILL.md Section 6)
-
----
-
-## Worked Example 1: Sizing a 3-Story Office Building
-
-**Project:** 3-story office building (Group B), no sprinklers initially,
-suburban site with 30 m frontage on a public way, total perimeter 200 m.
-
-**Step 1: Determine construction type options.**
-
-Target: 3 stories, Group B.
-
-From Table 504.4 (unsprinklered):
-- Type IA: UL stories -- works
-- Type IB: 11 stories -- works
-- Type IIA: 5 stories -- works
-- Type IIB: 3 stories -- works (exactly)
-- Type IIIA: 5 stories -- works
-- Type IIIB: 3 stories -- works
-- Type IV: 5 stories -- works
-- Type VA: 3 stories -- works
-- Type VB: 2 stories -- does NOT work
-
-From Table 504.3 (unsprinklered):
-- Type IIB: 55 ft (16.8 m) -- 3 stories at ~3.96 m (13 ft) floor-to-floor
-  = 11.9 m total, works
-- Type VB: 40 ft (12.2 m) -- only 2 stories allowed anyway
-
-**Step 2: Choose Type IIB (most economical for 3-story B).**
-
-Verify area from Table 506.2:
-- Type IIB, Group B: 23,000 ft² (2,137 m²) per floor
-
-Apply frontage increase:
-- F/P = 30/200 = 0.15, which is < 0.25 -- no frontage increase
-
-No sprinkler increase (unsprinklered).
-
-Allowable area per floor: 23,000 ft² (2,137 m²).
-
-**Step 3: If 23,000 ft² per floor is insufficient, add sprinklers.**
-
-With NFPA 13 sprinklers:
-- Stories: 3 + 1 = 4 allowed (but we only need 3)
-- Height: 55 + 20 = 75 ft allowed
-- Area increase (Is): 200% for multi-story
-- Aa = 23,000 + (23,000 × 200/100) = 69,000 ft² (6,410 m²) per floor
-
-**Step 4: Egress design.**
-
-Assume 2,000 m² (21,528 ft²) per floor, Group B:
-- Occupant load = 21,528 / 100 = 216 occupants per floor
-- Number of exits: 2 (for up to 500 occupants)
-- Travel distance: 61 m unsprinklered / 91 m sprinklered
-- Stair width: 216 × 7.6 mm = 1,642 mm each stair (provide 1,680 mm or 66 in)
-- Corridor: 0 hr rating if sprinklered; 1 hr if unsprinklered
-
-**Step 5: Plumbing.**
-
-216 occupants per floor, Group B:
-- Assume 50/50 male/female: 108 each
-- WCs: 108/25 = 5 per gender per floor (minimum)
-- Lavatories: 216/40 = 6 total per floor
-- Drinking fountains: 216/100 = 3 per floor
+### 表 2902.1：卫生器具最低数量（见 SKILL.md 第 6 节）
 
 ---
 
-## Worked Example 2: Construction Type for a 6-Story Apartment Building
+## 计算示例 1：确定 3 层办公楼规模
 
-**Project:** 6-story apartment building (Group R-2), sprinklered,
-urban site.
+**项目：**3 层办公楼（B 类），初始不设置喷淋；郊区场地临公共道路一侧长 30 m，总周长 200 m。
 
-**Step 1: From Table 504.4, sprinklered stories (base + 1):**
+**步骤 1：确定构造类别选项。**
 
-Need 6 stories:
-- Type IA: UL -- works
-- Type IB: 11 + 1 = 12 -- works
-- Type IIA: 4 + 1 = 5 -- does NOT work
-- Type IIIA: 4 + 1 = 5 -- does NOT work
-- Type VA: 3 + 1 = 4 -- does NOT work
-- Type VB: 2 + 1 = 3 -- does NOT work
+目标：3 层，B 类。
 
-**Standard construction types for 6-story R-2:** Type IA or Type IB only.
+根据表 504.4（无喷淋）：
+- IA 类：UL 层——满足
+- IB 类：11 层——满足
+- IIA 类：5 层——满足
+- IIB 类：3 层——满足（恰好）
+- IIIA 类：5 层——满足
+- IIIB 类：3 层——满足
+- IV 类：5 层——满足
+- VA 类：3 层——满足
+- VB 类：2 层——不满足
 
-**Step 2: Podium/pedestal option (IBC 510.2).**
+根据表 504.3（无喷淋）：
+- IIB 类：55 ft（16.8 m）——每层约 3.96 m（13 ft），3 层总高 = 11.9 m，满足
+- VB 类：40 ft（12.2 m）——无论如何仅允许 2 层
 
-IBC Section 510.2 allows a horizontal building separation:
-- 3-hour fire-rated horizontal assembly (podium slab)
-- Building above: treated as separate building starting at grade
-- Building below: Type IA construction
+**步骤 2：选择 IIB 类（3 层 B 类建筑最经济）。**
 
-This means:
-- Podium (1-2 stories): Type IA construction (concrete) -- parking, retail, lobby
-- Upper building (5 stories of R-2): Type IIIA or Type VA wood-frame
+根据表 506.2 核验面积：
+- IIB 类、B 类：每层 23,000 ft²（2,137 m²）
 
-For 5 stories above the podium:
-- Type IIIA: 4 + 1 = 5 stories sprinklered -- works (5 stories R-2)
-- Type VA: 3 + 1 = 4 stories -- does NOT work for 5 stories
+应用临街增幅：
+- F/P = 30/200 = 0.15，小于 0.25——不增加临街面积
 
-**Result:** 1-story Type IA podium + 5-story Type IIIA wood-frame = 6-story
-building. This is the most common mid-rise residential construction type in
-the US (the "5-over-1" or "5-over-2" typology).
+不增加喷淋面积（无喷淋）。
 
-**Step 3: Height check.**
+每层允许面积：23,000 ft²（2,137 m²）。
 
-Type IIIA sprinklered: 65 + 20 = 85 ft (25.9 m)
-- 6 stories at 3.05 m (10 ft) floor-to-floor = 18.3 m -- works
-- Podium story at 4.3 m (14 ft) + 5 stories at 3.05 m = 19.5 m -- works
+**步骤 3：如果每层 23,000 ft² 不足，则增加喷淋系统。**
 
-**Step 4: Area check.**
+采用 NFPA 13 喷淋系统：
+- 层数：3 + 1 = 允许 4 层（但项目只需 3 层）
+- 高度：允许 55 + 20 = 75 ft
+- 面积增幅（Is）：多层建筑为 200%
+- Aa = 23,000 +（23,000 × 200/100）= 每层 69,000 ft²（6,410 m²）
 
-Type IIIA, R-2 base: 24,000 ft² (2,230 m²) per floor
+**步骤 4：疏散设计。**
 
-With NFPA 13 sprinkler increase (200%) and assuming F/P > 0.25:
-- If = (0.4 - 0.25) × 100 / 0.75 = 20%
-- Aa = 24,000 + (24,000 × 20/100) + (24,000 × 200/100)
-- Aa = 24,000 + 4,800 + 48,000 = 76,800 ft² (7,134 m²) per floor
+假设每层 2,000 m²（21,528 ft²），B 类：
+- 人员荷载 = 21,528 / 100 = 每层 216 人
+- 出口数量：2 个（最多 500 人）
+- 行走距离：无喷淋 61 m / 有喷淋 91 m
+- 楼梯宽度：216 × 7.6 mm = 每部楼梯 1,642 mm（设置 1,680 mm 或 66 in）
+- 走道：有喷淋时耐火等级 0 小时；无喷淋时 1 小时
 
-**Step 5: Egress.**
+**步骤 5：卫生器具。**
 
-Typical floor: 20 units × 2.5 occupants = 50 occupants per floor
-- 2 exits (stairs) required
-- Stair width: 50 × 7.6 = 380 mm -- below minimum of 1,118 mm,
-  so use 1,118 mm (44 in) minimum
-- Travel distance: 76 m (250 ft) sprinklered R
-- Corridor rating: 0.5 hr (R, sprinklered per Table 1020.1)
-
----
-
-## Worked Example 3: Egress for a 200-Seat Auditorium
-
-**Project:** 200-seat auditorium (Group A-1), fixed seating, sprinklered,
-within a larger building.
-
-**Step 1: Occupant load.**
-
-Fixed seating: count actual seats = 200 occupants.
-(If chairs not fixed: 200 seats, but calculate by area as backup:
-200 × 0.65 m² = 130 m² net seating area. Occupant load = 130 / 0.65 = 200.)
-
-Also count stage, backstage, control room, lobby as separate areas:
-- Stage: 60 m² net / 1.4 = 43 persons (unconcentrated)
-- Control room: 20 m² / 9.3 = 3 persons (business)
-- Lobby: 100 m² / 1.4 = 72 persons
-- Total: 200 + 43 + 3 + 72 = 318 occupants
-
-**Step 2: Number of exits from auditorium space.**
-
-200 occupants in auditorium: 2 exits required (up to 500).
-But consider lobby: 200 + 72 = 272 occupants passing through lobby.
-Still 2 exits from lobby to exterior.
-
-If total building occupant load exceeds 500, provide 3 exits.
-318 < 500, so 2 exits total from building is sufficient.
-
-**Step 3: Exit door width.**
-
-Level egress (doors): 5.1 mm per occupant
-- Auditorium doors: 200 × 5.1 = 1,020 mm total
-- 2 doors: 510 mm each -- below minimum of 813 mm (32 in clear), so
-  provide 2 doors at 914 mm (36 in) clear minimum
-
-Lobby exit doors: 272 × 5.1 = 1,387 mm total
-- 2 doors at 914 mm (36 in) = 1,828 mm total -- adequate
-
-**Step 4: Aisle width (IBC 1018/1029 for assembly).**
-
-Assembly aisle width per IBC 1029.6:
-- Clear aisle width: 305 mm (12 in) + 7.6 mm per seat row beyond 7th row
-  on each side for smoke-protected or 305 mm + 7.6 mm per seat for
-  non-smoke-protected
-- Example: 20 rows of 10 seats per side of center aisle = 200 seats
-  - Aisle serves 10 seats per row × 20 rows = 200 seats at maximum
-  - Non-smoke-protected: larger of formula result and 914 mm (36 in)
-
-Provide aisles minimum 1,067 mm (42 in) for center aisle with seating
-on both sides; 914 mm (36 in) for side aisles.
-
-**Step 5: Travel distance.**
-
-A-1, sprinklered: max 76 m (250 ft).
-200-seat auditorium is likely 25-30 m deep -- well within limit.
-
-**Step 6: Assembly-specific requirements.**
-
-- Panic hardware on exit doors (IBC 1010.1.10) when occupant load > 50
-  in A and E occupancies
-- Main exit: must accommodate 50% of occupant load (IBC 1029.2)
-  - 200 × 50% = 100 occupants through main exit
-  - 100 × 5.1 = 510 mm -- provide double door at 1,829 mm (72 in)
-    pair to serve as main entrance/exit
-- Emergency voice/alarm communication system if occupant load > 300
-  (total is 318, so required for building)
-- Illuminated exit signs at exits and along exit access path
-- Emergency lighting: minimum 1 hour in exit access, exit, and exit discharge
-
-**Step 7: Plumbing fixtures.**
-
-200 auditorium occupants + 72 lobby (use 200 as primary):
-- WC male: 200 × 0.5 / 125 = 1 (minimum 2 in practice)
-- WC female: 200 × 0.5 / 65 = 2 (minimum)
-- Lavatories: 200 / 200 = 1 (minimum 2 in practice)
-- Drinking fountains: 200 / 500 = 1
-
-Adjust for actual expected gender ratio and provide generous female fixtures
-due to well-documented queuing issues at assembly venues.
+每层 216 人，B 类：
+- 假设男女各 50%：各 108 人
+- 坐便器：108/25 = 每种性别每层 5 个（最小值）
+- 洗手盆：216/40 = 每层共 6 个
+- 饮水器：216/100 = 每层 3 个
 
 ---
 
-## How to Navigate the IBC for Architectural Decisions
+## 计算示例 2：6 层公寓楼的构造类别
 
-### Decision Sequence
+**项目：**6 层公寓楼（R-2 类），设置喷淋，城市场地。
 
-1. **Classify occupancy** (Chapter 3) -- determines all subsequent requirements
-2. **Identify special provisions** (Chapter 4) -- high-rise, atrium, underground
-3. **Select construction type** (Chapter 6, Tables 601/602) -- based on
-   materials, budget, and height/area needs
-4. **Verify height and area** (Chapter 5, Tables 504.3/504.4/506.2) -- with
-   all applicable increases
-5. **Design fire protection features** (Chapter 7) -- separations, enclosures
-6. **Design fire protection systems** (Chapter 9) -- sprinklers, alarm, standpipe
-7. **Design means of egress** (Chapter 10) -- exits, travel distance, width
-8. **Verify accessibility** (Chapter 11 + ICC A117.1) -- accessible routes
-9. **Structural design** (Chapters 16-23) -- reference to ASCE 7, ACI 318, etc.
-10. **Building systems** (Chapters 28-32) -- plumbing, mechanical, electrical
+**步骤 1：根据表 504.4，设置喷淋后的层数（基准 +1）：**
 
-### Common Pitfalls
+需要 6 层：
+- IA 类：UL——满足
+- IB 类：11 + 1 = 12——满足
+- IIA 类：4 + 1 = 5——不满足
+- IIIA 类：4 + 1 = 5——不满足
+- VA 类：3 + 1 = 4——不满足
+- VB 类：2 + 1 = 3——不满足
 
-1. **Forgetting mixed occupancy analysis:** A building with retail on ground
-   floor and apartments above requires either separated or nonseparated analysis
-   per Section 508. Separated method requires fire barriers; nonseparated method
-   uses the most restrictive occupancy for area/height.
+**6 层 R-2 类的标准构造类别：**仅 IA 类或 IB 类。
 
-2. **Misapplying sprinkler area increase:** The 200% increase is on the base
-   tabular area, not on an already-increased area. Frontage and sprinkler
-   increases are additive, not multiplicative.
+**步骤 2：裙房/基座方案（IBC 510.2）。**
 
-3. **Confusing fire walls and fire barriers:** Fire walls create separate
-   buildings (different height/area calculations on each side). Fire barriers
-   do not. Using a fire barrier when a fire wall is needed invalidates the
-   area calculation.
+IBC 第 510.2 节允许设置水平建筑分隔：
+- 3 小时耐火水平构件（裙房楼板）
+- 上部建筑：视为从地坪起算的独立建筑
+- 下部建筑：采用 IA 类构造
 
-4. **Ignoring Section 510 podium provisions:** Many wood-frame projects are
-   feasible only because of the horizontal building separation allowance.
-   The podium slab must be 3-hour rated and the upper building must meet
-   all requirements independently.
+这意味着：
+- 裙房（1–2 层）：IA 类混凝土构造——停车、零售、大堂
+- 上部建筑（5 层 R-2）：IIIA 类或 VA 类木框架
 
-5. **Underestimating I-2 complexity:** Hospitals have the most complex code
-   requirements: smoke compartments, defend-in-place egress, corridor widths,
-   fire alarm, and numerous references to NFPA standards. Start code analysis
-   early in hospital design.
+裙房上方 5 层：
+- IIIA 类：4 + 1 = 设置喷淋后 5 层——满足（5 层 R-2）
+- VA 类：3 + 1 = 4 层——不满足 5 层要求
 
-6. **Not checking local amendments:** The IBC is a model code. Every jurisdiction
-   adopts it with amendments. New York City uses its own Building Code based
-   on IBC but with significant modifications. California uses CBC (California
-   Building Code) with Title 24 amendments. Always verify the locally adopted
-   edition and amendments.
+**结果：**1 层 IA 类裙房 + 5 层 IIIA 类木框架 = 6 层建筑。这是美国最常见的中层住宅构造类型（“5-over-1”或“5-over-2”类型）。
 
-### Cross-Reference Map
+**步骤 3：高度核验。**
 
-| Design Question | Primary Section | Related Tables |
+IIIA 类设置喷淋：65 + 20 = 85 ft（25.9 m）
+- 6 层、层高 3.05 m（10 ft）=18.3 m——满足
+- 裙房层高 4.3 m（14 ft）+5 层、层高 3.05 m =19.5 m——满足
+
+**步骤 4：面积核验。**
+
+IIIA 类、R-2 基准：每层 24,000 ft²（2,230 m²）
+
+采用 NFPA 13 喷淋增幅（200%），且假设 F/P >0.25：
+- If =（0.4 - 0.25）× 100 / 0.75 = 20%
+- Aa = 24,000 +（24,000 × 20/100）+（24,000 × 200/100）
+- Aa = 24,000 + 4,800 + 48,000 = 每层 76,800 ft²（7,134 m²）
+
+**步骤 5：疏散。**
+
+典型楼层：20 个单元 × 2.5 人 = 每层 50 人
+- 需要 2 个出口（楼梯）
+- 楼梯宽度：50 × 7.6 = 380 mm——低于 1,118 mm 最小值，因此采用最小 1,118 mm（44 in）
+- 行走距离：设置喷淋的 R 类为 76 m（250 ft）
+- 走道耐火等级：0.5 小时（R 类，按表 1020.1 设置喷淋）
+
+---
+
+## 计算示例 3：200 座报告厅的疏散
+
+**项目：**200 座报告厅（A-1 类），固定座位，设置喷淋，位于较大建筑内。
+
+**步骤 1：人员荷载。**
+
+固定座位：按实际座位数计 = 200 人。
+（若座椅不固定：有 200 个座位，但以面积作为备用计算：200 × 0.65 m² = 130 m² 净座位面积。人员荷载 = 130 / 0.65 = 200。）
+
+舞台、后台、控制室和大堂还需作为独立区域计入：
+- 舞台：60 m² 净面积 / 1.4 = 43 人（非集中式）
+- 控制室：20 m² / 9.3 = 3 人（商业办公）
+- 大堂：100 m² / 1.4 = 72 人
+- 总计：200 + 43 + 3 + 72 = 318 人
+
+**步骤 2：报告厅空间的出口数量。**
+
+报告厅 200 人：需要 2 个出口（最多 500 人）。
+但要考虑大堂：通过大堂的人员为 200 + 72 = 272 人。
+大堂通往室外仍需 2 个出口。
+
+如果建筑总人员荷载超过 500 人，则设置 3 个出口。
+318 < 500，因此整栋建筑设置 2 个出口即可。
+
+**步骤 3：出口门宽度。**
+
+同层疏散（门）：每人 5.1 mm
+- 报告厅门：200 × 5.1 = 总计 1,020 mm
+- 2 扇门：每扇 510 mm——低于 813 mm（32 in）最小净宽，因此设置 2 扇净宽至少 914 mm（36 in）的门
+
+大堂出口门：272 × 5.1 = 总计 1,387 mm
+- 2 扇 914 mm（36 in）= 总计 1,828 mm——满足要求
+
+**步骤 4：过道宽度（集会建筑 IBC 1018/1029）。**
+
+按 IBC 1029.6，集会过道宽度：
+- 净过道宽度：烟气防护时为 305 mm（12 in）+ 第 7 排以后每排座位每侧增加 7.6 mm；无烟气防护时为 305 mm + 每个座位增加 7.6 mm
+- 示例：中央过道两侧各 20 排、每排 10 个座位 = 200 个座位
+  - 过道最多服务 10 个座位/排 × 20 排 = 200 个座位
+  - 无烟气防护时，取公式结果和 914 mm（36 in）中的较大值
+
+两侧均有座位的中央过道最小设置 1,067 mm（42 in）；侧过道为 914 mm（36 in）。
+
+**步骤 5：行走距离。**
+
+A-1 类设置喷淋：最大 76 m（250 ft）。
+200 座报告厅通常进深约 25–30 m，明显在限值内。
+
+**步骤 6：集会建筑专项要求。**
+
+- A、E 类人员荷载 >50 时，出口门设置防恐慌五金（IBC 1010.1.10）
+- 主要出口必须容纳 50% 的人员荷载（IBC 1029.2）
+  - 200 × 50% = 100 人通过主要出口
+  - 100 × 5.1 = 510 mm——设置总净宽 1,829 mm（72 in）的双扇门作为主入口/出口
+- 人员荷载 >300 时设置应急语音/报警通信系统（总计 318 人，因此建筑必须设置）
+- 出口处及出口通道沿线设置发光出口标志
+- 应急照明：出口通道、出口和出口排出通道最少持续 1 小时
+
+**步骤 7：卫生器具。**
+
+报告厅 200 人 + 大堂 72 人（主要按 200 人计算）：
+- 男厕坐便器：200 × 0.5 / 125 = 1（实际至少设置 2 个）
+- 女厕坐便器：200 × 0.5 / 65 = 2（最小值）
+- 洗手盆：200 / 200 = 1（实际至少设置 2 个）
+- 饮水器：200 / 500 = 1
+
+应根据预计性别比例调整，并考虑集会场所已知的排队问题，适当增加女厕卫生器具。
+
+---
+
+## 建筑决策中的 IBC 查阅流程
+
+### 决策顺序
+
+1. **划分使用类别**（第 3 章）——决定后续所有要求
+2. **识别特殊规定**（第 4 章）——高层、中庭、地下建筑
+3. **选择构造类别**（第 6 章、表 601/602）——根据材料、预算及高度/面积需求
+4. **核验高度和面积**（第 5 章、表 504.3/504.4/506.2）——考虑所有适用增幅
+5. **设计防火构造**（第 7 章）——分隔、封闭
+6. **设计防火系统**（第 9 章）——喷淋、报警、立管
+7. **设计疏散路径**（第 10 章）——出口、行走距离、宽度
+8. **核验无障碍**（第 11 章 + ICC A117.1）——无障碍路线
+9. **结构设计**（第 16–23 章）——参考 ASCE 7、ACI 318 等
+10. **建筑系统**（第 28–32 章）——卫生、机电和电气
+
+### 常见错误
+
+1. **忘记混合使用类别分析：**首层零售、上部住宅的建筑必须按第 508 节进行分隔或非分隔分析。分隔方法要求防火隔墙；非分隔方法按面积/高度限制最严格的使用类别执行。
+
+2. **错误应用喷淋面积增幅：**200% 增幅应作用于基础表列面积，而不是已增加后的面积。临街增幅和喷淋增幅是相加关系，不是相乘关系。
+
+3. **混淆防火墙和防火隔墙：**防火墙形成独立建筑（两侧分别进行高度/面积计算），防火隔墙不会。需要防火墙却使用防火隔墙，会导致面积计算无效。
+
+4. **忽略第 510 节裙房规定：**许多木框架项目只有依靠水平建筑分隔许可才可行。裙房楼板必须达到 3 小时耐火等级，上部建筑必须独立满足全部要求。
+
+5. **低估 I-2 类复杂性：**医院具有最复杂的规范要求，包括防烟分区、就地防御疏散、走道宽度、火灾报警及大量 NFPA 标准引用。医院设计应尽早开始规范分析。
+
+6. **未核查地方修订：**IBC 是示范规范，每个辖区都会附带修订采用。纽约市使用以 IBC 为基础但有重大修改的本地建筑规范；加州使用带 Title 24 修订的 CBC（California Building Code）。务必核验当地采用的版本及修订内容。
+
+### 交叉引用表
+
+| 设计问题 | 主要章节 | 相关表格 |
 |----------------------------------|-----------------|-------------------------|
-| How tall can my building be? | 504 | 504.3, 504.4 |
-| How large can my floor plate be? | 506 | 506.2 |
-| What construction type do I need?| 602 | 601, 602 |
-| Do I need sprinklers? | 903 | 903.2.1 through 903.2.12|
-| How many exits? | 1006 | 1006.2.1 |
-| How wide do stairs need to be? | 1005, 1011 | -- |
-| What is max travel distance? | 1017 | 1017.2 |
-| What fire rating for corridors? | 1020 | 1020.1 |
-| How many toilets? | 2902 | 2902.1 |
-| What occupancy separation? | 508 | 508.4 |
-| High-rise requirements? | 403 | -- |
-| Atrium requirements? | 404 | -- |
+| 建筑最高可建多高？ | 504 | 504.3、504.4 |
+| 单层平面最大可多大？ | 506 | 506.2 |
+| 需要哪种构造类别？ | 602 | 601、602 |
+| 是否需要喷淋？ | 903 | 903.2.1 至 903.2.12 |
+| 需要多少个出口？ | 1006 | 1006.2.1 |
+| 楼梯需要多宽？ | 1005、1011 | -- |
+| 最大行走距离是多少？ | 1017 | 1017.2 |
+| 走道需要何种耐火等级？ | 1020 | 1020.1 |
+| 需要多少个卫生间？ | 2902 | 2902.1 |
+| 使用类别如何分隔？ | 508 | 508.4 |
+| 高层建筑有哪些要求？ | 403 | -- |
+| 中庭有哪些要求？ | 404 | -- |
 
 ---
 
-## Code Edition Tracking
+## 规范版本跟踪
 
-| Edition | Significant Changes |
+| 版本 | 主要变化 |
 |---------|------------------------------------------|
-| IBC 2009 | Baseline for many current jurisdictions |
-| IBC 2012 | Revised assembly egress, updated H occupancy |
-| IBC 2015 | Updated fire alarm requirements, pedestal building clarifications |
-| IBC 2018 | Mass timber provisions (early draft in appendix), updated I-2 smoke compartments |
-| IBC 2021 | Type IV-A/B/C mass timber codified, height up to 18 stories, updated Table 504 |
-| IBC 2024 | Continued mass timber refinements, EV charging provisions, updated energy integration |
+| IBC 2009 | 许多当前辖区采用的基准版本 |
+| IBC 2012 | 修订集会建筑疏散，更新 H 类使用规定 |
+| IBC 2015 | 更新火灾报警要求，明确裙房建筑规定 |
+| IBC 2018 | 增加大体量木结构规定（附录中的早期草案），更新 I-2 类防烟分区 |
+| IBC 2021 | 将 IV-A/B/C 类大体量木结构正式纳入规范，最高 18 层，更新表 504 |
+| IBC 2024 | 继续完善大体量木结构，增加电动汽车充电规定，更新能源整合要求 |
 
 ---
 
-## References
+## 参考资料
 
-- ICC (International Code Council). International Building Code. Country Club Hills, IL.
-- ICC. International Fire Code. (companion to IBC Chapter 9)
-- NFPA 13: Standard for the Installation of Sprinkler Systems
-- NFPA 101: Life Safety Code (alternative to IBC Chapter 10 in some jurisdictions)
-- ASCE 7: Minimum Design Loads and Associated Criteria for Buildings
-- ACI 318: Building Code Requirements for Structural Concrete
-- AISC 360: Specification for Structural Steel Buildings
+- ICC（International Code Council）。International Building Code。美国伊利诺伊州 Country Club Hills。
+- ICC。International Fire Code（IBC 第 9 章的配套规范）
+- NFPA 13：自动喷水灭火系统安装标准
+- NFPA 101：生命安全规范（部分辖区可替代 IBC 第 10 章）
+- ASCE 7：建筑最低设计荷载及相关准则
+- ACI 318：结构混凝土建筑规范要求
+- AISC 360：钢结构建筑规范
 
-*All table values are representative of the IBC 2021 edition and should be
-verified against the specific edition and local amendments adopted by the
-authority having jurisdiction.*
+*所有表格数值均以 IBC 2021 版为代表，应根据主管部门采用的具体版本及地方修订进行核验。*

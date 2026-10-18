@@ -1,140 +1,140 @@
-# Core Design — Comprehensive Reference
+# 核心筒设计——综合参考
 
-## 1. Core Design Principles
+## 1. 核心筒设计原则
 
-The vertical core is the single most consequential spatial element in any multi-storey building. It determines:
-- Structural lateral stability (shear walls, braced frames)
-- Vertical transportation capacity and quality of service
-- Fire egress strategy and code compliance
-- MEP distribution efficiency and maintenance access
-- Floor plate usability, lettable area, and tenant subdivision flexibility
+竖向核心筒是多层建筑中影响最深远的单一空间要素。它决定：
+- 结构侧向稳定（剪力墙、支撑框架）
+- 竖向交通容量和服务质量
+- 防火疏散策略及规范合规性
+- 机电分配效率和维护通道
+- 楼板可用性、可出租面积和租户分隔灵活性
 
-A well-designed core is compact, structurally efficient, code-compliant, and positioned to maximize the quality and quantity of usable space surrounding it.
+设计良好的核心筒应紧凑、结构高效、符合规范，并通过合理定位最大化周边可使用空间的品质和数量。
 
-### 1.1 Core Location Principles
+### 1.1 核心筒位置原则
 
-| Core Position | Floor Plate Efficiency | Structural Performance | Daylight Impact | Tenant Flexibility |
+| 核心筒位置 | 楼板效率 | 结构性能 | 对采光的影响 | 租户灵活性 |
 |---|---|---|---|---|
-| Central | Highest (min travel) | Excellent (torsion resistance) | Core blocks center; perimeter clear | Good but inflexible center zone |
-| Side | High | Good (requires additional bracing) | Core wall limits one side; rest clear | Excellent open floor plate |
-| End | Moderate | Fair (eccentric; needs supplementary) | One end lost; rest excellent | Very good single-direction floor |
-| Dual (both ends) | Moderate | Good (balanced) | Both ends lost; middle excellent | Good for long floor plates |
-| Split (2 offset) | Moderate | Very good (tuned for torsion) | Interrupts floor plate twice | Moderate complexity |
-| External | Moderate | Requires transfer at base | No impact on interior daylight | Excellent interior freedom |
+| 中央 | 最高（行走距离最短） | 优异（抗扭） | 核心筒占据中心；周边清晰 | 良好但中心区不灵活 |
+| 侧边 | 高 | 良好（需额外支撑） | 核心筒墙限制一侧；其余区域清晰 | 楼板开放性优异 |
+| 端部 | 中等 | 一般（偏心，需补充措施） | 损失一端；其余区域优良 | 单向楼板非常好 |
+| 两端双核心 | 中等 | 良好（平衡） | 两端损失；中部优异 | 适合长条形楼板 |
+| 分裂式（错位 2 个） | 中等 | 很好（针对抗扭优化） | 两次打断楼板 | 复杂度中等 |
+| 外置 | 中等 | 基部需要转换结构 | 不影响室内采光 | 室内自由度优异 |
 
-### 1.2 Core Area as Percentage of Gross Floor Plate
+### 1.2 核心筒占总楼板面积比例
 
-| Building Type | Typical Floor Plate GFA | Core Area | Core % |
+| 建筑类型 | 典型楼板总建筑面积 | 核心筒面积 | 核心筒比例 |
 |---|---|---|---|
-| Residential tower (economy) | 500–700 m² | 35–55 m² | 7–9% |
-| Residential tower (premium) | 700–1200 m² | 50–80 m² | 6–8% |
-| Office tower (small) | 800–1200 m² | 160–280 m² | 20–25% |
-| Office tower (large) | 1500–2500 m² | 375–625 m² | 22–28% |
-| Office tower (supertall) | 2500–4000 m² | 700–1200 m² | 28–35% |
-| Hotel | 600–1000 m² | 50–80 m² | 8–10% |
-| Hospital | 2000–4000 m² | 200–400 m² | 8–12% |
+| 住宅塔楼（经济型） | 500–700 m² | 35–55 m² | 7–9% |
+| 住宅塔楼（高端型） | 700–1200 m² | 50–80 m² | 6–8% |
+| 办公塔楼（小型） | 800–1200 m² | 160–280 m² | 20–25% |
+| 办公塔楼（大型） | 1500–2500 m² | 375–625 m² | 22–28% |
+| 办公塔楼（超高层） | 2500–4000 m² | 700–1200 m² | 28–35% |
+| 酒店 | 600–1000 m² | 50–80 m² | 8–10% |
+| 医院 | 2000–4000 m² | 200–400 m² | 8–12% |
 
 ---
 
-## 2. Dimensioned Core Layouts by Building Type
+## 2. 按建筑类型划分的核心筒尺寸布局
 
-### 2.1 Residential Tower — Single Stair Core (UK model, <18 m building height)
+### 2.1 住宅塔楼——单楼梯核心筒（英国模式，建筑高度<18 m）
 
-**Configuration:** 1 escape stair, 2 elevators, service risers, refuse chute, small lobby.
+**配置：**1部疏散楼梯、2部电梯、设备管井、垃圾管道井和小型大厅。
 
-**Floor plate:** 500–700 m² GFA, 6–8 apartments per floor.
+**楼板：**500-700 m²总建筑面积，每层6-8套公寓。
 
-**Core dimensions:** approximately 4.5 m x 9.0 m = 40.5 m²
+**核心筒尺寸：**约4.5 m x 9.0 m=40.5 m²
 
-**Layout (from left to right, top to bottom):**
+**布局（从左至右、从上至下）：**
 
 ```
 +------------------------------------------+
-|  STAIR A     |  LIFT 1  |  LIFT 2  |RISER|
+|  楼梯 A      |  电梯 1   |  电梯 2   |立管 |
 |  2400x4800   |  1600x   |  2000x   | 800 |
 |  (1200 clear |  1400    |  1400    | x   |
 |   width stair)|  (8-per) | (13-per) |2400 |
 |              |          |          |     |
 +--------------+----------+----------+-----+
-|           LOBBY  4500 x 2400             |
-|  (access to all apartments)              |
+|           大厅 4500 × 2400              |
+|  （通往所有住宅单元）                    |
 +------------------------------------------+
-|  REFUSE |  DRY    |  WET    |  ELEC |DATA|
-|  CHUTE  |  RISER  |  RISER  |  RISER|RISR|
+| 垃圾管道 | 干管井  | 湿管井  |电气 |数据|
+|   井     |         |         |管井 |管井|
 |  600x600|  400x400|  400x600|  600x |400x|
 |         |         |         |  400  |400 |
 +------------------------------------------+
 ```
 
-**Component dimensions:**
-- Stair A: 2400 mm x 4800 mm shaft (1200 mm clear width, 2 x 8 risers per flight, 150 mm riser, 280 mm going)
-- Lift 1: 8-person (630 kg), shaft 2150 x 1900 mm
-- Lift 2: 13-person (1000 kg), shaft 2550 x 1900 mm (accessible/furniture lift)
-- Lobby: 4500 x 2400 mm (meets 1500 mm wheelchair turning circle, 1.5 m clearance in front of lift doors)
-- Refuse chute: 500 mm diameter in 600 x 600 mm fire-rated enclosure
-- Service risers: see Section 4
+**构件尺寸：**
+- 楼梯A：2400 mm x 4800 mm井道（净宽1200 mm，每跑2 x 8级，踢面150 mm，踏步280 mm）
+- 电梯1：8人（630 kg），井道2150 x 1900 mm
+- 电梯2：13人（1000 kg），井道2550 x 1900 mm（无障碍/家具电梯）
+- 大厅：4500 x 2400 mm（满足1500 mm轮椅回转直径，电梯门前净距1.5 m）
+- 垃圾管道井：直径500 mm，设于600 x 600 mm耐火围护内
+- 设备管井：见第4节
 
-**Compliance notes:**
-- Single stair permitted for residential buildings <11 m in England/Wales (Approved Document B), <18 m in Scotland
-- Stair pressurization not required <18 m but smoke ventilation at head of stair (1.0 m² AOV or mechanical)
-- Maximum travel distance from flat entrance door to stair: 7.5 m (enhanced, open plan) or 30 m (protected corridor) per ADB
+**合规说明：**
+- 英格兰/威尔士住宅建筑高度<11 m时允许设置单楼梯（Approved Document B）；苏格兰<18 m时允许
+- 高度<18 m时无需楼梯加压，但楼梯顶部需排烟（1.0 m²自动开启排烟窗或机械排烟）
+- 根据ADB，从住宅入口门到楼梯最大行走距离为7.5 m（强化开放式）或30 m（防护走廊）
 
-### 2.2 Residential Tower — Dual Stair Core (IBC model, USA)
+### 2.2 住宅塔楼——双楼梯核心筒（IBC模式，美国）
 
-**Configuration:** 2 escape stairs, 2–3 elevators, service risers, lobby.
+**配置：**2部疏散楼梯、2-3部电梯、设备管井和大厅。
 
-**Floor plate:** 700–1200 m² GFA, 6–10 apartments per floor.
+**楼板：**700-1200 m²总建筑面积，每层6-10套公寓。
 
-**Core dimensions:** approximately 6.0 m x 12.0 m = 72 m²
+**核心筒尺寸：**约6.0 m x 12.0 m=72 m²
 
-**Layout:**
+**布局：**
 
 ```
 +-----------------------------------------------------+
-| STAIR A  |  LIFT 1  |  LIFT 2  | LIFT 3  | STAIR B  |
+| 楼梯 A   |  电梯 1   |  电梯 2   | 电梯 3   | 楼梯 B   |
 | 2700x    |  1600x   |  2000x   | 1600x   | 2700x    |
 | 5400     |  1400    |  1400    | 1400    | 5400     |
 |          |  (8-per) | (13-per) | (8-per) |          |
 +----------+----------+----------+---------+----------+
-|               LOBBY  6000 x 2400                     |
+|               大厅 6000 × 2400                       |
 +-----------------------------------------------------+
-| ELEC | DATA | WET  | DRY  | REFUSE | HVAC  | METER  |
-| 600x | 400x | 400x | 400x | 600x   | 800x  | ROOM   |
+| 电气 | 数据 | 湿管井 | 干管井 | 垃圾井 | 暖通 | 计量间 |
+| 600× | 400× | 400× | 400× | 600×   | 800× |        |
 | 400  | 400  | 600  | 400  | 600    | 1200  | 1500x  |
 |      |      |      |      |        |       | 1000   |
 +-----------------------------------------------------+
 ```
 
-**Compliance notes (IBC):**
-- Two stairs required for all residential buildings >1 storey or >10 occupants per floor
-- Stair separation: min 1/3 diagonal distance (sprinklered) or 1/2 diagonal (unsprinklered) — IBC 1007.1.1
-- Travel distance from any unit door to nearest stair: max 76 m sprinklered (IBC 1017.2)
-- Common path of egress travel: max 23 m (IBC Table 1006.2.1)
-- Each stair: min 1118 mm (44 in) clear width
-- Elevator lobby: 2-hour fire-rated enclosure for buildings >128 m (IBC 403.6.1)
+**合规说明（IBC）：**
+- 所有超过1层或每层超过10人的住宅建筑均需设置两部楼梯
+- 楼梯间距：设喷淋时至少为对角线的1/3，无喷淋时至少为1/2——IBC 1007.1.1
+- 任一住宅门至最近楼梯的行走距离：设喷淋时最大76 m（IBC 1017.2）
+- 共同疏散路径：最大23 m（IBC表1006.2.1）
+- 每部楼梯净宽至少1118 mm（44 in）
+- 建筑高度>128 m时，电梯厅需采用2小时耐火围护（IBC 403.6.1）
 
-### 2.3 Office Tower — Central Core (30 storeys)
+### 2.3 办公塔楼——中央核心筒（30层）
 
-**Configuration:** 2 escape stairs, 6–8 passenger elevators (2 banks), 1 goods elevator, fire-fighting elevator, MEP risers, male/female/accessible toilets, cleaners store.
+**配置：**2部疏散楼梯、6-8部客梯（2组）、1部货梯、消防员电梯、机电管井、男女卫生间/无障碍卫生间和清洁间。
 
-**Floor plate:** 1500–2000 m² GFA.
+**楼板：**1500-2000 m²总建筑面积。
 
-**Core dimensions:** approximately 18.0 m x 18.0 m = 324 m² (core ratio 18–22%)
+**核心筒尺寸：**约18.0 m x 18.0 m=324 m²（核心筒比例18-22%）
 
-**Schematic layout:**
+**示意布局：**
 
 ```
 +---------------------------------------------------------------+
-|        |  LOW-RISE BANK (4 LIFTS)   |  HIGH-RISE BANK (4 LIFTS)|
-| STAIR  |  2550 x 1900 each x 4      |  2550 x 1900 each x 4   |
+|        |  低区电梯组（4部）          |  高区电梯组（4部）         |
+| 楼梯   |  2550 x 1900 each x 4      |  2550 x 1900 each x 4   |
 |   A    |  (13-person, 1000 kg)       |  (13-person, 1000 kg)    |
 | 2700x  |                             |                          |
-| 6000   |  LOBBY 4800 x 2400          |  LOBBY 4800 x 2400       |
+| 6000   |  大厅 4800 x 2400           |  大厅 4800 x 2400        |
 |        +-----------------------------+--------------------------+
-|        | GOODS LIFT   | FIRE LIFT    |         STAIR B          |
+|        | 货梯         | 消防员电梯   |         楼梯 B             |
 |        | 2900 x 3200  | 2550 x 2400  |         2700 x 6000      |
 +--------+--------------+--------------+--------------------------+
-| FEMALE WC   | MALE WC     | ACC WC x2 | CLEANERS | RISERS      |
+| 女厕        | 男厕        | 无障碍厕 x2 | 清洁间   | 管井        |
 | 12 cubicles | 6 urinals   | 2200x1500 | 1500x    | ELEC|DATA|  |
 | 4 basins    | 6 cubicles  | each      | 1500     | 800x|600x|  |
 | 5400x3600   | 4 basins    |           |          | 600 |600 |  |
@@ -147,99 +147,99 @@ A well-designed core is compact, structurally efficient, code-compliant, and pos
 +-------------------------+-------------+----------------+-------+
 ```
 
-**Toilet provision (BS 6465-1 / IBC):**
-- Office: 1 WC per 15 females, 1 WC per 25 males + 1 urinal per 25 males
-- For 200 persons per floor (50/50 gender split): 7F WCs + 4M WCs + 4 urinals + 2 accessible
-- Accessible WC: 1500 x 2200 mm min (1500 mm turning circle + WC pan + basin)
+**卫生间配置（BS 6465-1 / IBC）：**
+- 办公建筑：女性每 15 人 1 个坐便器；男性每 25 人 1 个坐便器 + 每 25 人 1 个小便器
+- 每层 200 人（男女各半）：女性 7 个坐便器 + 男性 4 个坐便器 + 4 个小便器 + 2 个无障碍卫生间
+- 无障碍卫生间：最小 1500 × 2200 mm（1500 mm 回转圆 + 坐便器 + 洗手盆）
 
-**Elevator bank design:**
-- Low-rise bank (floors G–15): 4 elevators at 2.5 m/s
-- High-rise bank (floors 15–30): 4 elevators at 4.0 m/s
-- Goods lift: 2500 kg at 1.6 m/s (serves all floors)
-- Firefighter lift: 1000 kg min (EN 81-72), dedicated shaft, 2-hour rated, lobby with pressurization
+**电梯组设计：**
+- 低区电梯组（首层–15 层）：4 部，速度 2.5 m/s
+- 高区电梯组（15–30 层）：4 部，速度 4.0 m/s
+- 货梯：2500 kg，速度 1.6 m/s（服务所有楼层）
+- 消防员电梯：最小 1000 kg（EN 81-72），独立井道，2 小时耐火，前室加压
 
-### 2.4 Hospital — Dual Escape Core
+### 2.4 医院——双疏散核心筒
 
-**Configuration:** 2 progressive horizontal evacuation zones, each with escape stair, bed elevator, passenger elevators, MEP risers.
+**配置：**2个渐进式水平疏散区，每个区域设疏散楼梯、病床电梯、客梯和机电管井。
 
-**Floor plate:** 2500–4000 m² GFA per floor.
+**楼板：**每层2500-4000 m²总建筑面积。
 
-**Core A (one end) dimensions:** approximately 8.0 m x 15.0 m = 120 m²
+**核心筒A（一端）尺寸：**约8.0 m x 15.0 m=120 m²
 
-**Layout per core:**
+**每个核心筒布局：**
 
 ```
 +--------------------------------------------------+
-| STAIR    |  BED LIFT    |  PASS LIFT 1 | PASS LIFT 2 |
+| 楼梯     |  病床电梯    | 客梯 1       | 客梯 2       |
 | 1500x    |  2400x2700   |  2000x1400   | 2000x1400   |
 | 6000     |  (2500 kg)   |  (1000 kg)   | (1000 kg)   |
 | (1500mm  |              |              |             |
 |  wide)   |              |              |             |
 +----------+--------------+--------------+-------------+
-|              LOBBY  8000 x 3000                       |
-|   (bed turning, wheelchair passing, trolley storage)  |
+|              大厅 8000 × 3000                         |
+|   （病床回转、轮椅通行、推车存放）                    |
 +-------------------------------------------------------+
-| DIRTY    | CLEAN   | ELEC  | DATA | WET   | HVAC     |
-| UTILITY  | UTILITY | RISER | RISR | RISER | RISER    |
+| 污物     | 清洁   | 电气  | 数据 | 湿管井 | 暖通     |
+| 间       | 间     | 管井  | 管井 |       | 管井     |
 | 2400x    | 2400x   | 800x  | 600x | 600x  | 1500x   |
 | 2400     | 2400    | 600   | 600  | 800   | 1200    |
 +----------+---------+-------+------+-------+----------+
 ```
 
-**Hospital-specific requirements:**
-- Bed elevator: min cab 1100 x 2100 mm (EN 81-70); preferred 2400 x 2700 mm for bed + 2 attendants
-- Corridor width at core: min 2400 mm (bed passing), recommended 3000 mm
-- Progressive horizontal evacuation: patients move horizontally into adjacent fire compartment, not down stairs
-- Fire compartment size: max 750 m² for sleeping risk (NHS HTM 05-02)
-- Stairs: min 1500 mm wide for evacuation of non-ambulant patients using evac chairs
-- Stair lobbies: 2400 x 2400 mm min for bed/chair maneuvering
-- Dedicated dirty/clean utility rooms adjacent to core on each floor
+**医院专项要求：**
+- 病床电梯：轿厢至少1100 x 2100 mm（EN 81-70）；病床加2名陪护时宜为2400 x 2700 mm
+- 核心筒处走廊宽度：病床通行至少2400 mm，建议3000 mm
+- 渐进式水平疏散：患者水平转移至相邻防火分区，而非向下经楼梯疏散
+- 防火分区面积：睡眠风险区域最大750 m²（NHS HTM 05-02）
+- 楼梯：非自行行走患者使用疏散椅时，宽度至少1500 mm
+- 楼梯厅：病床/疏散椅转向至少2400 x 2400 mm
+- 每层核心筒旁设置专用污物间和清洁间
 
-### 2.5 Retail — Distributed Cores
+### 2.5 零售建筑——分散式核心筒
 
-**Configuration:** Multiple small cores distributed across a large floor plate, each serving a zone of 2000–4000 m².
+**配置：**在大型楼板中分布多个小核心筒，每个服务2000-4000 m²区域。
 
-**Floor plate:** 5000–20,000 m² GFA (shopping center floor).
+**楼板：**5000-20,000 m²总建筑面积（购物中心楼层）。
 
-**Core type A (anchor zone):** 5.0 m x 8.0 m = 40 m²
+**核心筒A型（主力店区域）：**5.0 m x 8.0 m=40 m²
 
 ```
 +-------------------------------+
-| STAIR   | GOODS LIFT | RISERS |
+| 楼梯    | 货梯       | 管井    |
 | 1500x   | 2900x3200  | 1000x  |
 | 5400    | (2500 kg)  | 2400   |
 |         |            | (all)  |
 +-------------------------------+
 ```
 
-**Core type B (mall zone):** 4.0 m x 6.0 m = 24 m²
+**核心筒B型（商场区域）：**4.0 m x 6.0 m=24 m²
 
 ```
 +------------------------+
-| STAIR   | PASS LIFT x2 |
+| 楼梯    | 客梯 x2      |
 | 1200x   | 2000x1400    |
 | 4800    | each         |
 +---------+--------------+
-| RISERS  | CLEANERS     |
+| 管井    | 清洁间       |
 | 600x    | 1200x1200    |
 | 1800    |              |
 +---------+--------------+
 ```
 
-**Retail-specific requirements:**
-- Travel distance: max 45 m to nearest exit in sprinklered retail (IBC)
-- Escalators supplement cores for customer flow (not counted as egress in most codes)
-- Service corridors (BOH): min 2400 mm wide for pallet jacks, accessible from goods lifts
-- Each anchor tenant requires independent goods access and fire exit
-- Cores positioned to serve 30–45 m radius zones
+**零售专项要求：**
+- 行走距离：设喷淋的零售区域至最近出口最大45 m（IBC）
+- 自动扶梯补充核心筒的顾客流线（多数规范不计入疏散）
+- 后勤服务走廊（BOH）：为托盘车通行至少2400 mm宽，并可从货梯到达
+- 每个主力店需设置独立货运通道和防火出口
+- 核心筒应布置为服务半径30-45 m的区域
 
-### 2.6 Hotel — Double-Loaded Corridor with End Stairs
+### 2.6 酒店——双侧走廊与端部楼梯
 
-**Configuration:** Central elevator lobby with stairs at corridor ends. Long, narrow core distribution.
+**配置：**中央电梯厅，走廊两端设楼梯，形成长而窄的核心筒分布。
 
-**Floor plate:** 600–1200 m² GFA, 16–30 rooms per floor.
+**楼板：**600-1200 m²总建筑面积，每层16-30间客房。
 
-**Central lobby core:** 6.0 m x 6.0 m = 36 m²
+**中央大厅核心筒：**6.0 m x 6.0 m=36 m²
 
 ```
 +-----------------------------------+
@@ -250,18 +250,18 @@ A well-designed core is compact, structurally efficient, code-compliant, and pos
 +----------+----------+-------------+
 |      LOBBY 6000 x 2400            |
 +-----------------------------------+
-| LINEN    | HOUSEKEEP | RISERS     |
-| STORE    | CLOSET    | (ALL)      |
+| 布草间   | 客房服务间 | 管井       |
+| 储藏间   | 壁橱      |（全部）    |
 | 2400x    | 1800x     | 1200x     |
 | 1800     | 1500      | 1800      |
 +----------+-----------+-----------+
 ```
 
-**End stair cores (x2):** 2.7 m x 5.4 m = 14.6 m² each
+**端部楼梯核心筒（x2）：**2.7 m x 5.4 m=每个14.6 m²
 
 ```
 +-----------------+
-| STAIR           |
+| 楼梯            |
 | 1200 clear width|
 | 2700 x 5400    |
 | (fire-rated     |
@@ -269,134 +269,134 @@ A well-designed core is compact, structurally efficient, code-compliant, and pos
 +-----------------+
 ```
 
-**Hotel-specific requirements:**
-- Corridor: 1350–1500 mm wide (guests with luggage, housekeeping carts)
-- Max corridor length (dead-end): 15 m sprinklered to nearest stair (IBC)
-- Room doors: recessed 300 mm from corridor wall (Neufert recommendation, prevents door collision)
-- Linen/housekeeping stores: one per floor, adjacent to elevator lobby, 10–15 m² per 20 rooms
-- Room service elevator: one dedicated service elevator per 150 rooms
-- Firefighter access: per IBC 403 for buildings >128 m
+**酒店专项要求：**
+- 走廊：宽1350-1500 mm（考虑客人行李和客房服务车）
+- 尽端走廊最大长度：设喷淋时至最近楼梯15 m（IBC）
+- 客房门：从走廊墙内凹300 mm（Neufert建议，防止门扇碰撞）
+- 布草/客房服务储藏：每层一间，邻近电梯厅，每20间客房配置10-15 m²
+- 客房服务电梯：每150间客房设置1部专用服务电梯
+- 消防员进入：建筑高度>128 m时按IBC 403执行
 
 ---
 
-## 3. Structural Role of the Core
+## 3. 核心筒的结构作用
 
-### 3.1 Core as Lateral System
+### 3.1 核心筒作为侧向体系
 
-In most buildings over 10 storeys, the core provides the primary lateral resistance:
+在大多数超过10层的建筑中，核心筒提供主要侧向抗力：
 
-**Shear wall core:**
-- Concrete walls 200–500 mm thick (increasing with height)
-- Coupled shear walls between stair/lift openings via link beams (coupling ratio 40–70%)
-- Typical stiffness: sufficient for buildings up to ~40 storeys without additional lateral systems
-- Wall reinforcement: 0.25–4% depending on height and seismic zone
+**剪力墙核心筒：**
+- 混凝土墙厚200-500 mm（随高度增加）
+- 楼梯/电梯洞口之间通过连梁连接的联肢剪力墙（耦联率40-70%）
+- 典型刚度：无额外侧向体系时足以适用于约40层建筑
+- 墙体配筋率：根据高度和地震区为0.25-4%
 
-**Core + outrigger system (for supertall):**
-- Core provides primary shear and moment resistance
-- Outrigger trusses (1–2 storey deep) connect core to perimeter mega-columns at 1/3 and 2/3 height
-- Belt trusses engage multiple perimeter columns
-- Reduces core overturning moment by 20–40%
-- Example: Shanghai Tower, Taipei 101
+**核心筒+外伸臂体系（用于超高层）：**
+- 核心筒提供主要剪力和弯矩抗力
+- 外伸臂桁架（深度1-2层）在建筑高度1/3和2/3处连接核心筒与周边巨型柱
+- 带状桁架调动多个周边柱共同受力
+- 可将核心筒倾覆弯矩降低20-40%
+- 示例：Shanghai Tower、Taipei 101
 
-**Core stiffness-to-weight ratio:**
-- Target: building natural period T = 0.1 × number of storeys (rule of thumb)
-- For 40-storey office: T ≈ 4.0 s; wind design dominates over seismic in most non-seismic regions
-- Core wall thickness sized for H/500 drift limit (total) and h/400 inter-storey drift (IBC/Eurocode)
+**核心筒刚重比：**
+- 目标：建筑自振周期T=0.1 x 层数（经验规则）
+- 对40层办公楼：T≈4.0 s；在大多数非地震区，风荷载设计控制而非地震设计
+- 核心筒墙厚按总位移H/500和层间位移h/400限值确定（IBC/Eurocode）
 
-### 3.2 Core Construction Sequence
+### 3.2 核心筒施工顺序
 
-- Core typically constructed in advance of floor slabs (jump-form or slip-form)
-- Jump-form cycle: 1 floor every 4–7 days per core
-- Slip-form: continuous pour at 150–300 mm/hour (24/7 operation); for simple cores
-- Floor slabs connect to core via starter bars or couplers
-- Tolerances: ±15 mm plumb over 30 storeys (BS 5606)
+- 核心筒通常先于楼板施工（跳模或滑模）
+- 跳模周期：每个核心筒每4-7天完成1层
+- 滑模：以150-300 mm/小时连续浇筑（全天候运行），适用于简单核心筒
+- 楼板通过插筋或套筒连接至核心筒
+- 允许偏差：30层范围内垂直度±15 mm（BS 5606）
 
 ---
 
-## 4. MEP Riser Shaft Sizing
+## 4. 机电管井尺寸
 
-### 4.1 Electrical Risers
+### 4.1 电气管井
 
-| Building Type | Floor Area (m²) | Riser Size (W x D mm) | Notes |
+| 建筑类型 | 楼层面积（m²） | 管井尺寸（宽x深 mm） | 说明 |
 |---|---|---|---|
-| Residential (per core) | 500–700 | 400 x 400 | Consumer units, sub-mains |
-| Office (per core) | 1500–2000 | 800 x 600 | Busbar rising main, distribution boards |
-| Office (large, per core) | 2000–3000 | 1000 x 800 | Dual busbar, generator feeds |
-| Hotel | 600–1000 | 600 x 400 | Consumer units, emergency lighting |
-| Hospital | 2000–4000 | 1200 x 800 | Essential/non-essential separation, IPS |
+| 住宅（每核心筒） | 500–700 | 400 x 400 | 用户配电箱、分支干线 |
+| 办公（每核心筒） | 1500–2000 | 800 x 600 | 母线干线、配电盘 |
+| 办公（大型、每核心筒） | 2000–3000 | 1000 x 800 | 双母线、发电机馈线 |
+| 酒店 | 600–1000 | 600 × 400 | 用户配电箱、应急照明 |
+| 医院 | 2000–4000 | 1200 × 800 | 重要/非重要系统分隔、IPS |
 
-### 4.2 Data / Telecommunications Risers
+### 4.2 数据/通信管井
 
-| Building Type | Riser Size (W x D mm) | Notes |
+| 建筑类型 | 管井尺寸（宽x深 mm） | 说明 |
 |---|---|---|
-| Residential | 300 x 300 | Fiber spine, copper to units |
-| Office | 600 x 600 | Multiple carriers, fiber + copper, cable trays |
-| Hospital | 800 x 600 | Redundant paths, nurse call, BMS, telemetry |
+| 住宅 | 300 x 300 | 光纤主干、铜缆至各单元 |
+| 办公 | 600 x 600 | 多运营商、光纤+铜缆、电缆桥架 |
+| 医院 | 800 × 600 | 冗余路径、护士呼叫、BMS、遥测 |
 
-**Separation:** Min 300 mm from electrical risers or in separate fire-rated compartment to prevent EMI.
+**分隔：**与电气管井至少相距300 mm，或设置于独立耐火分区内，以防止电磁干扰。
 
-### 4.3 Water Risers (Potable + Fire)
+### 4.3 给水立管（生活水+消防水）
 
-| Component | Pipe Diameter (mm) | Riser Space (mm) | Notes |
+| 构件 | 管径（mm） | 管井空间（mm） | 说明 |
 |---|---|---|---|
-| Cold water (residential, per stack) | 35–54 | 150 x 150 | Boosted above 10 storeys |
-| Hot water (residential, per stack) | 28–42 | 150 x 150 | Secondary return above 10 storeys |
-| Fire wet riser | 100–150 | 300 x 300 | Landing valve each floor, 2-hour enclosure |
-| Fire dry riser | 100 | 300 x 300 | Inlet at ground, outlet valves per floor |
-| Sprinkler main | 100–150 | 300 x 300 | Zone valves at plant floors |
+| 冷水（住宅，每根立管） | 35-54 | 150 x 150 | 超过10层增压 |
+| 热水（住宅，每根立管） | 28-42 | 150 x 150 | 超过10层设置二次回水 |
+| 消防湿式立管 | 100-150 | 300 x 300 | 每层设置栓口阀，2小时围护 |
+| 消防干式立管 | 100 | 300 x 300 | 首层进水，每层设出水阀 |
+| 喷淋干管 | 100-150 | 300 x 300 | 设备层设置分区阀 |
 
-### 4.4 Waste / Drainage Risers
+### 4.4 污水/排水立管
 
-| Component | Pipe Diameter (mm) | Riser Space (mm) | Notes |
+| 构件 | 管径（mm） | 管井空间（mm） | 说明 |
 |---|---|---|---|
-| Soil stack (WC group) | 100–150 | 250 x 250 | One per bathroom group; vertical with min offset |
-| Waste stack (basin/shower) | 50–75 | 150 x 150 | Can combine with soil above ground |
-| Vent stack | 75–100 | 150 x 150 | Air admittance valves (AAVs) may reduce |
-| Rainwater downpipe | 75–150 | 200 x 200 | One per 100–200 m² roof area |
+| 污水立管（卫生间组） | 100–150 | 250 x 250 | 每组卫生间一根；竖向布置且偏移最小 |
+| 废水立管（洗手盆/淋浴） | 50–75 | 150 x 150 | 地面以上可与污水立管合并 |
+| 通气立管 | 75–100 | 150 x 150 | 空气 admittance 阀（AAV）可减小尺寸 |
+| 雨水落水管 | 75–150 | 200 x 200 | 每100–200 m²屋面设置一根 |
 
-### 4.5 HVAC Risers
+### 4.5 暖通空调管井
 
-| System Type | Riser Size per Floor (W x D mm) | Notes |
+| 系统类型 | 每层管井尺寸（宽x深 mm） | 说明 |
 |---|---|---|
 | Central AHU (VAV) | 1200 x 800 (supply) + 800 x 600 (return) | Vertical risers from central plant |
 | Floor-by-floor AHU | No vertical duct riser | AHU in ceiling void each floor |
 | Fan coil + DOAS | 600 x 400 (OA) + 200 x 200 (condensate) | Chilled/heating water in wet riser |
-| Chilled water pipes | 4 x 100–200 mm dia (flow/return x 2) | In wet riser or dedicated shaft |
-| Heating water pipes | 2 x 50–100 mm dia (flow/return) | In wet riser |
-| Smoke extract duct | 800 x 800 min | Fire-rated, dedicated shaft |
-| Kitchen extract | 600 x 600 min | 2-hour fire-rated (grease duct) |
+| 冷冻水管 | 4 x 100–200 mm直径（供/回水×2） | 湿式立管井或专用管井 |
+| 采暖水管 | 2 x 50–100 mm直径（供/回水） | 湿式立管井 |
+| 排烟风管 | 最小800 x 800 | 耐火、专用管井 |
+| 厨房排风 | 最小600 x 600 | 2小时耐火（油脂风管） |
 
-### 4.6 Total Riser Shaft Sizing Summary
+### 4.6 管井总尺寸汇总
 
-**Typical office tower (1500 m² floor plate):**
+**典型办公塔楼（楼板面积1500 m²）：**
 
-| Riser | Size (mm) | Area (m²) |
+| 管井 | 尺寸（mm） | 面积（m²） |
 |---|---|---|
-| Electrical | 800 x 600 | 0.48 |
-| Data | 600 x 600 | 0.36 |
+| 电气 | 800 x 600 | 0.48 |
+| 数据 | 600 x 600 | 0.36 |
 | Water (potable) | 400 x 400 | 0.16 |
 | Water (fire) | 300 x 300 | 0.09 |
-| Drainage | 400 x 400 | 0.16 |
-| HVAC (if central plant) | 1200 x 800 + 800 x 600 | 1.44 |
-| Smoke extract | 800 x 800 | 0.64 |
-| **Total riser area** | | **3.33 m²** |
+| 排水 | 400 x 400 | 0.16 |
+| 暖通（集中机房时） | 1200 x 800 + 800 x 600 | 1.44 |
+| 排烟 | 800 x 800 | 0.64 |
+| **管井总面积** | | **3.33 m²** |
 
-Add 20% for access space, fire stopping, and future capacity: **~4.0 m²** total riser zone per floor.
+为检修空间、防火封堵和未来容量增加20%：每层管井区域总计约**4.0 m²**。
 
 ---
 
-## 5. Fire-Rating Requirements for Core Elements
+## 5. 核心筒构件耐火要求
 
-| Element | ≤4 Storeys | 5–28 m Height | >28 m Height | >50 m Height |
+| 构件 | ≤4层 | 高度5-28 m | 高度>28 m | 高度>50 m |
 |---|---|---|---|---|
-| Stair enclosure (IBC) | 1 hour | 2 hours | 2 hours | 2 hours + pressurization |
-| Elevator shaft (IBC) | 1 hour | 2 hours | 2 hours | 2 hours + lobby |
-| MEP riser shaft | 1 hour | 2 hours | 2 hours | 2 hours |
-| Stair doors | FD30S | FD60S | FD60S | FD60S + lobby |
-| Elevator lobby | Not required | Not required | Required (IBC 403) | Required + pressurization |
-| Smoke control | Natural AOV | Natural or mech | Mechanical pressurization | Mechanical + backup power |
+| 楼梯间（IBC） | 1小时 | 2小时 | 2小时 | 2小时+加压 |
+| 电梯井（IBC） | 1小时 | 2小时 | 2小时 | 2小时+前室 |
+| 机电立管井 | 1小时 | 2小时 | 2小时 | 2小时 |
+| 楼梯门 | FD30S | FD60S | FD60S | FD60S+前室 |
+| 电梯厅 | 不要求 | 不要求 | 要求（IBC 403） | 要求+加压 |
+| 排烟控制 | 自然排烟窗（AOV） | 自然或机械 | 机械加压 | 机械+备用电源 |
 
-**UK Approved Document B equivalents:**
+**英国Approved Document B对应要求：**
 - <5 m: 30 min enclosure, FD20S doors
 - 5–18 m: 60 min enclosure, FD30S doors
 - 18–30 m: 60 min enclosure, FD30S doors, pressurization or lobby
@@ -404,21 +404,21 @@ Add 20% for access space, fire stopping, and future capacity: **~4.0 m²** total
 
 ---
 
-## 6. Core Design Optimization Strategies
+## 6. 核心筒设计优化策略
 
-### 6.1 Compact Core Strategies
+### 6.1 紧凑型核心筒策略
 
-1. **Machine-room-less (MRL) elevators:** Eliminate machine room at roof, saving ~15 m² per elevator bank
-2. **Counterweight in shaft rear:** Allows shallower shaft depth
-3. **Shared lobbies:** Single lobby serving stair and elevators reduces corridor area
-4. **Back-to-back toilets:** Male and female sharing one riser wall saves 3–5 m² per floor
-5. **Combined riser shafts:** Electrical + data in one fire-rated enclosure (with EMI separation) saves 0.5 m² per floor
-6. **Destination dispatch elevators:** Reduce required number of elevators by 15–30% through intelligent allocation
+1. **无机房电梯（MRL）：**取消屋顶机房，每组电梯节省约15 m²
+2. **将对重置于井道后部：**可减小井道进深
+3. **共用大厅：**楼梯与电梯共用一个大厅，减少走廊面积
+4. **背靠背卫生间：**男女卫生间共用一面管井墙，每层节省3-5 m²
+5. **合并管井：**电气与数据共用耐火围护（设置电磁分隔），每层节省0.5 m²
+6. **目的层派梯：**通过智能分配减少15-30%的电梯需求量
 
-### 6.2 Flexible Core Strategies
+### 6.2 灵活型核心筒策略
 
-1. **Subdivide elevator banks:** Allow independent tenant access to different elevator groups
-2. **Turnstile integration:** Security gates in lobby for multi-tenant buildings
-3. **Tenant toilet option:** Provide core toilet provision but allow tenants to add private facilities
-4. **Pre-provisioned risers:** Oversize shafts 10–15% for future capacity (fiber, cooling, PV feeds)
-5. **Modular core construction:** Prefabricated toilet/riser pods installed floor-by-floor (20–30% faster)
+1. **细分电梯组：**允许不同租户独立使用不同电梯组
+2. **集成闸机：**多租户建筑在大厅设置安检闸机
+3. **租户卫生间选项：**核心筒提供基础卫生间，同时允许租户增加专用设施
+4. **预留管井：**管井放大10-15%以满足未来容量（光纤、制冷、光伏供电）
+5. **模块化核心筒施工：**按楼层安装预制卫生间/管井模块（速度提高20-30%）

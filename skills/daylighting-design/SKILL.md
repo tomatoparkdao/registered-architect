@@ -4,408 +4,409 @@ description: Natural daylighting strategies, solar geometry, glare control, arti
 user-invocable: true
 ---
 
-# Daylighting Design
+# 日光照明设计
 
-Comprehensive knowledge base for natural daylighting strategies, solar geometry, shading device design, glare control, artificial lighting integration, and visual comfort optimization. Invoke this skill when addressing questions about window design, daylight simulation, shading calculations, lighting zones, circadian lighting, daylight metrics (sDA, ASE, UDI, DF), or any design decision involving natural light in buildings.
+关于自然采光策略、太阳几何、遮阳装置设计、眩光控制、人工照明整合和视觉舒适度优化的综合知识库。涉及窗户设计、日光模拟、遮阳计算、照明分区、昼夜节律照明、日光指标（sDA、ASE、UDI、DF），或任何建筑自然光设计决策时启用本技能。
 
 ---
 
-## Section 1: Daylight Metrics
+## 第 1 节：日光指标
 
-### 1.1 Daylight Factor (DF)
+### 1.1 采光系数（DF）
 
-The Daylight Factor is the ratio of internal illuminance at a point on the working plane to the simultaneous unobstructed external horizontal illuminance under a CIE overcast sky, expressed as a percentage.
+采光系数是工作面某点的室内照度与 CIE 阴天天空条件下同时测得的无遮挡室外水平照度之比，以百分比表示。
 
-**Formula:** DF (%) = (E_internal / E_external) × 100
+**公式：**DF（%）=（E_internal / E_external）× 100
 
-**Components:**
-- Sky Component (SC) — direct light from visible sky through the window
-- Externally Reflected Component (ERC) — light reflected from external surfaces (ground, adjacent buildings)
-- Internally Reflected Component (IRC) — light reflected from internal room surfaces (ceiling, walls, floor)
+**组成部分：**
+- 天空分量（SC）——通过窗户进入的可见天空直接光
+- 室外反射分量（ERC）——由室外表面（地面、相邻建筑）反射的光
+- 室内反射分量（IRC）——由房间内部表面（顶棚、墙面、地面）反射的光
 
-**Typical CIE overcast sky reference illuminance:** 10,000-15,000 lux (design value: 10,000 lux for conservative analysis)
+**典型 CIE 阴天天空参考照度：**10,000–15,000 lux（保守分析的设计值：10,000 lux）
 
-**DF Targets by Space Type:**
+**按空间类型划分的 DF 目标：**
 
-| Space Type | Average DF Target | Minimum Point DF | Notes |
+| 空间类型 | 平均 DF 目标 | 点位 DF 最低值 | 备注 |
 |---|---|---|---|
-| Residential — living rooms | ≥ 2.0% | ≥ 0.5% | BS 8206-2, BS EN 17037 |
-| Residential — bedrooms | ≥ 1.5% | ≥ 0.3% | Some codes accept ≥ 1.0% |
-| Residential — kitchens | ≥ 2.0% | ≥ 0.6% | Task lighting critical |
-| Office — open plan | ≥ 2.0% | ≥ 0.7% | 300 lux at desk level |
-| Office — private/cellular | ≥ 1.5% | ≥ 0.5% | Window proximity advantage |
-| Schools — classrooms | ≥ 2.0% | ≥ 0.7% | Uniformity ratio ≥ 0.3 |
-| Schools — laboratories | ≥ 2.5% | ≥ 0.8% | High visual task demand |
-| Hospitals — wards | ≥ 2.0% | ≥ 0.5% | Patient wellbeing critical |
-| Hospitals — operating theatres | Artificial only | N/A | Controlled lighting required |
-| Retail — general sales | ≥ 2.0% | ≥ 0.5% | Display lighting supplements |
-| Libraries — reading areas | ≥ 2.5% | ≥ 0.8% | 500 lux on reading plane |
-| Museums — galleries | 1.0-3.0% | Variable | UV control critical; max 200 lux for sensitive works |
+| 空间类型 | 平均 DF 目标 | 点位 DF 最低值 | 备注 |
+| 住宅——起居室 | ≥ 2.0% | ≥ 0.5% | BS 8206-2、BS EN 17037 |
+| 住宅——卧室 | ≥ 1.5% | ≥ 0.3% | 部分规范接受 ≥ 1.0% |
+| 住宅——厨房 | ≥ 2.0% | ≥ 0.6% | 作业照明至关重要 |
+| 办公——开放办公 | ≥ 2.0% | ≥ 0.7% | 桌面高度 300 lux |
+| 办公——独立/分隔办公室 | ≥ 1.5% | ≥ 0.5% | 靠近窗户更有利 |
+| 学校——教室 | ≥ 2.0% | ≥ 0.7% | 均匀度比 ≥ 0.3 |
+| 学校——实验室 | ≥ 2.5% | ≥ 0.8% | 视觉作业要求高 |
+| 医院——病房 | ≥ 2.0% | ≥ 0.5% | 患者身心健康至关重要 |
+| 医院——手术室 | 仅人工照明 | 不适用 | 需要受控照明 |
+| 零售——普通销售区 | ≥ 2.0% | ≥ 0.5% | 陈列照明作为补充 |
+| 图书馆——阅览区 | ≥ 2.5% | ≥ 0.8% | 阅读面 500 lux |
+| 博物馆——展厅 | 1.0–3.0% | 可变 | 紫外线控制关键；敏感展品最高 200 lux |
 
-**Uniformity:** Minimum-to-average DF ratio should be ≥ 0.3 (0.4 preferred). Values below 0.3 indicate excessive contrast between window-side and room-depth zones.
+**均匀度：**最低 DF 与平均 DF 的比值应 ≥ 0.3（优选 0.4）。低于 0.3 表示靠窗区与房间深处之间反差过大。
 
-**Limitations of DF:** Assumes CIE overcast sky only; ignores building orientation, climate, direct sunlight, and temporal variation. Use Climate-Based Daylight Modelling (CBDM) for performance-based analysis.
+**DF 的局限：**仅假定 CIE 阴天天空，忽略建筑朝向、气候、直射日光和时间变化。进行性能分析时，应使用基于气候的日光模拟（CBDM）。
 
-### 1.2 Spatial Daylight Autonomy (sDA300/50%)
+### 1.2 空间日光自主性（sDA300/50%）
 
-sDA measures the percentage of floor area that receives at least 300 lux from daylight alone for at least 50% of occupied hours annually.
+sDA 衡量每年占用时段中至少 50% 的时间仅依靠日光获得不低于 300 lux 照度的楼面面积比例。
 
-**Standard:** IES LM-83-12 (Approved Method for Spatial Daylight Autonomy and Annual Sunlight Exposure)
+**标准：**IES LM-83-12（空间日光自主性和年度日照暴露的认可方法）
 
-**Calculation Method:**
-1. Define analysis grid (typically 0.76 m / 30 in above floor, grid spacing ≤ 0.6 m)
-2. Use annual climate-based simulation (hourly timestep, TMY weather data)
-3. At each grid point, count hours where daylight illuminance ≥ 300 lux
-4. Point passes if ≥ 50% of occupied hours meet threshold
-5. sDA = percentage of passing grid points / total grid points
+**计算方法：**
+1. 定义分析网格（通常位于地面以上 0.76 m / 30 in，网格间距 ≤ 0.6 m）
+2. 采用全年基于气候的模拟（小时步长、TMY 气象数据）
+3. 在每个网格点统计日光照度 ≥ 300 lux 的小时数
+4. 若至少 50% 的占用时段达到阈值，则该点通过
+5. sDA = 通过网格点数 ÷ 网格点总数
 
-**Performance Targets:**
-- sDA ≥ 55% — acceptable (LEED v4 Daylight credit Option 1: 2 points)
-- sDA ≥ 75% — preferred (LEED v4 Daylight credit Option 1: 3 points)
-- sDA ≥ 40% — minimum for EN 17037 Level I (Minimum)
-- sDA ≥ 50% — EN 17037 Level II (Medium)
-- sDA ≥ 65% — EN 17037 Level III (High)
+**性能目标：**
+- sDA ≥ 55%——可接受（LEED v4 日光学分选项 1：2 分）
+- sDA ≥ 75%——优选（LEED v4 日光学分选项 1：3 分）
+- sDA ≥ 40%——EN 17037 I 级（最低）
+- sDA ≥ 50%——EN 17037 II 级（中等）
+- sDA ≥ 65%——EN 17037 III 级（高）
 
-**LEED v4.1 BD+C:** Daylight Credit EQ Credit — Demonstrate sDA300/50% ≥ 55% in ≥ 55% of regularly occupied floor area (2 points) or ≥ 75% of regularly occupied floor area (3 points), AND ASE1000,250 ≤ 10%.
+**LEED v4.1 BD+C：**日光学分 EQ Credit——证明 sDA300/50% ≥ 常规占用楼面面积的 55%（2 分）或 ≥75%（3 分），且 ASE1000,250 ≤ 10%。
 
-### 1.3 Annual Sunlight Exposure (ASE1000,250)
+### 1.3 年度日照暴露（ASE1000,250）
 
-ASE measures the percentage of floor area that receives at least 1,000 lux of direct sunlight for 250 or more occupied hours per year. It is a glare risk indicator.
+ASE 衡量每年占用时段中有 250 小时或以上获得至少 1,000 lux 直射日光的楼面面积比例，是眩光风险指标。
 
-**Threshold:** ASE1000,250 ≤ 10% of regularly occupied floor area
+**阈值：**ASE1000,250 ≤ 常规占用楼面面积的 10%
 
-**Calculation:**
+**计算：**
 - Uses direct sun only (excludes diffuse sky)
 - Same analysis grid as sDA
 - Counts hours of ≥ 1,000 lux direct beam illuminance per point
 - Point fails if ≥ 250 hours exceed threshold
 - ASE = percentage of failing points
 
-**Interpretation:**
-- ASE ≤ 3% — excellent glare control
-- ASE 3-7% — acceptable with operable shading
-- ASE 7-10% — marginal; requires automated shading
-- ASE > 10% — fails LEED; visual discomfort likely; redesign fenestration/shading
+**解释：**
+- ASE ≤ 3%——眩光控制优秀
+- ASE 3–7%——配合可调遮阳后可接受
+- ASE 7–10%——临界；需要自动遮阳
+- ASE > 10%——不满足 LEED；很可能产生视觉不适，应重新设计开窗/遮阳
 
-**Critical:** ASE can be reduced without harming sDA by adding external shading devices that block direct sun while admitting diffuse sky light.
+**关键点：**通过设置阻挡直射阳光、同时允许散射天空光进入的外遮阳装置，可在不损害 sDA 的情况下降低 ASE。
 
-### 1.4 Useful Daylight Illuminance (UDI)
+### 1.4 有效日光照度（UDI）
 
-UDI classifies daylight illuminance at each analysis point into four bins, evaluated hourly across the year.
+UDI 将每个分析点的日光照度分为四个区间，并按全年逐小时评估。
 
-**Bins:**
-- UDI-f (fell-short): < 100 lux — insufficient daylight; electric lighting required
-- UDI-s (supplementary): 100-300 lux — useful but may need supplementary electric light
-- UDI-a (autonomous): 300-3,000 lux — ideal range; daylight sufficient, no glare risk
-- UDI-e (exceeded): > 3,000 lux — potential glare and overheating risk
+**分档：**
+- UDI-f（不足）：< 100 lux——日光不足，需要电照明
+- UDI-s（补充）：100–300 lux——有用，但可能需要电照明补充
+- UDI-a（自主）：300–3,000 lux——理想范围，日光充足且无眩光风险
+- UDI-e（超出）：> 3,000 lux——存在眩光和过热风险
 
-**Targets:**
-- Maximize UDI-a (300-3,000 lux): aim for ≥ 50% of occupied hours at ≥ 50% of floor area
-- Minimize UDI-e: aim for < 5% of occupied hours at perimeter zones
-- UDI-f + UDI-s indicates electric lighting dependency
+**目标：**
+- 最大化 UDI-a（300–3,000 lux）：目标是在至少 50% 的楼面面积中，至少 50% 的占用时段达到该范围
+- 最小化 UDI-e：目标是周边区域低于 5% 的占用时段
+- UDI-f + UDI-s 表示对电照明的依赖
 
-**Advantages over DF:** Climate-specific, accounts for orientation, captures both insufficient and excessive daylight conditions, annual temporal resolution.
+**相对于 DF 的优势：**针对具体气候，考虑朝向，同时捕捉日光不足和过量情况，并提供全年时间分辨率。
 
-### 1.5 Daylight Glare Probability (DGP)
+### 1.5 日光眩光概率（DGP）
 
-DGP is a luminance-based metric predicting the probability of glare from a specific viewpoint. Calculated from high-dynamic-range (HDR) luminance maps using Evalglare (part of Radiance).
+DGP 是基于亮度的指标，用于预测特定视点发生眩光的概率。使用 Radiance 中的 Evalglare，根据高动态范围（HDR）亮度图计算。
 
-**Classification:**
-- DGP < 0.35 (35%) — imperceptible glare (best practice target)
-- DGP 0.35-0.40 — perceptible glare
-- DGP 0.40-0.45 — disturbing glare
-- DGP > 0.45 — intolerable glare
+**分级：**
+- DGP < 0.35（35%）——不可察觉的眩光（最佳实践目标）
+- DGP 0.35–0.40——可察觉的眩光
+- DGP 0.40–0.45——令人不适的眩光
+- DGP > 0.45——不可容忍的眩光
 
-**Simplified DGP (DGPs):** Vertical eye illuminance-based approximation: DGPs = 6.22 × 10⁻⁵ × E_v + 0.184 (where E_v = vertical illuminance at eye in lux). Valid for DGP < 0.45.
+**简化 DGP（DGPs）：**基于眼部垂直照度的近似式：DGPs = 6.22 × 10⁻⁵ × E_v + 0.184（其中 E_v 为眼部垂直照度，单位 lux）。适用于 DGP < 0.45。
 
-### 1.6 Additional Metrics
+### 1.6 其他指标
 
-- **Daylight Autonomy (DA):** Percentage of occupied hours a single point receives ≥ target illuminance from daylight. Point-based predecessor to sDA.
-- **Continuous Daylight Autonomy (cDA):** Gives partial credit for values below threshold (e.g., 200 lux counts as 200/300 = 0.67 at 300 lux target).
-- **Mean Daylight Factor:** Area-weighted average DF across analysis grid.
-- **Vertical Illuminance (E_v):** Illuminance on a vertical plane at eye height; critical for circadian stimulus (target ≥ 250 melanopic lux at eye level during morning hours).
-- **View Factor:** Solid angle of sky visible from a point; correlates strongly with DF.
+- **日光自主性（DA）：**单个点在占用时段中由日光获得不低于目标照度的时间比例，是 sDA 的点位前身。
+- **连续日光自主性（cDA）：**对低于阈值的数值给予部分得分（例如目标 300 lux 时，200 lux 计为 200/300 = 0.67）。
+- **平均采光系数：**分析网格内按面积加权的平均 DF。
+- **垂直照度（E_v）：**眼睛高度处垂直平面的照度；对昼夜节律刺激至关重要（上午眼睛高度目标 ≥ 250 melanopic lux）。
+- **视野因子：**某点可见天空的立体角，与 DF 高度相关。
 
 ---
 
-## Section 2: Daylighting Strategies
+## 第 2 节：采光策略
 
-### 2.1 Side-Lighting (Window Design)
+### 2.1 侧向采光（窗户设计）
 
-The most common daylighting strategy. Daylight enters through vertical apertures in exterior walls.
+这是最常见的采光策略，日光通过外墙上的竖向开口进入室内。
 
-**Key Parameters:**
-- **Window Head Height (H_w):** Determines depth of daylight penetration. Effective daylit zone depth = 1.5× to 2.5× window head height. Rule of thumb: 2.0× H_w for side-lit rooms.
-- **Window-to-Wall Ratio (WWR):** Total glazed area / gross exterior wall area. Typical ranges: 25-40% for energy-optimized designs; 40-60% for daylight-prioritized; > 60% requires high-performance glazing and shading.
-- **Sill Height:** 0.8-1.0 m typical for view windows; lower sills (0.3-0.5 m) for seated occupants; higher sills (1.5-2.1 m) for clerestories.
-- **Plan Depth Limit:** Maximum room depth for adequate side-lighting = 2.5 × H_w. Beyond this, DF drops below 1% and electric lighting becomes primary.
+**关键参数：**
+- **窗顶高度（H_w）：**决定日光进入深度。有效采光区深度 = 窗顶高度的 1.5–2.5 倍。侧向采光房间的经验值为 2.0 × H_w。
+- **窗墙比（WWR）：**总玻璃面积 ÷ 外墙总面积。节能优先设计通常为 25–40%；采光优先设计为 40–60%；> 60% 时需要高性能玻璃和遮阳。
+- **窗台高度：**观景窗通常为 0.8–1.0 m；坐姿使用者可采用较低窗台（0.3–0.5 m）；高侧窗采用较高窗台（1.5–2.1 m）。
+- **平面进深限制：**满足侧向采光的最大房间进深 = 2.5 × H_w。超过该值后 DF 会低于 1%，电照明将成为主要光源。
 
-**WWR by Orientation (temperate climates, 40-55°N):**
-- North: 30-50% WWR (diffuse light, low solar gain, minimal glare)
-- South: 25-40% WWR (controllable with horizontal overhangs, high winter gain)
-- East: 20-30% WWR (morning glare risk, difficult to shade)
-- West: 15-25% WWR (afternoon glare and overheating, hardest orientation to shade)
+**按朝向划分的 WWR（温带气候，北纬 40–55°）：**
+- 北向：30–50% WWR（漫射光、太阳得热低、眩光最小）
+- 南向：25–40% WWR（可通过水平挑檐控制，冬季得热高）
+- 东向：20–30% WWR（早间眩光风险，较难遮阳）
+- 西向：15–25% WWR（下午眩光和过热，最难遮阳）
 
-**DF Improvement:** Each 10% increase in WWR adds approximately 0.5-1.0% to average DF (diminishing returns above 50% WWR due to room surface reflectance limits).
+**DF 改善：**WWR 每增加 10%，平均 DF 约增加 0.5–1.0%（WWR 超过 50% 后受室内表面反射率限制，收益递减）。
 
-**Cost:** Standard window assemblies $300-800/m²; high-performance triple glazing $600-1,200/m².
+**成本：**标准窗组件 $300–800/m²；高性能三玻窗 $600–1,200/m²。
 
-**Best For:** All building types; universal applicability.
+**最适用：**所有建筑类型，适用范围广。
 
-### 2.2 Top-Lighting
+### 2.2 顶部采光
 
-Light enters from roof-level apertures. Up to 3× more efficient than side-lighting per unit aperture area because light enters from directly overhead.
+光线通过屋顶开口进入。由于光线直接从上方进入，按单位开口面积计算，其效率最高可达侧向采光的 3 倍。
 
-**Types:**
+**类型：**
 
-**Skylights:**
-- Horizontal or slightly tilted (5-15° for drainage)
-- Aperture area: 3-5% of floor area provides DF ≈ 2-4% below skylight
-- Risk: overheating and excessive brightness directly below; use diffusing glazing or baffles
-- Suitable glazing: translucent polycarbonate, opal glass, prismatic diffusers, aerogel-filled panels
+**天窗：**
+- 水平或略微倾斜（为排水设置 5–15°）
+- 开口面积为楼面面积的 3–5% 时，天窗下方 DF ≈ 2–4%
+- 风险：正下方可能过热和亮度过高；使用漫射玻璃或挡板
+- 适用玻璃：半透明聚碳酸酯、乳白玻璃、棱镜漫射器、气凝胶填充板
 
-**Monitor Roofs (Raised Clerestory):**
-- Vertical or near-vertical glazing on raised roof section
-- Can be oriented north for glare-free diffuse light
-- Effective for deep-plan single-storey buildings (factories, galleries, studios)
-- Depth of light throw: 1.0-1.5× monitor height
+**监视器屋顶（抬高的高侧窗）：**
+- 抬高屋顶段上的竖向或近竖向玻璃
+- 可朝北布置，以获得无眩光的漫射光
+- 适用于大进深单层建筑（工厂、展厅、工作室）
+- 光线投射深度：监视器高度的 1.0–1.5 倍
 
-**Sawtooth Roofs:**
+**锯齿形屋顶：**
 - Repeated asymmetric profiles with north-facing glazing (Southern Hemisphere: south-facing)
 - Provides uniform illumination across large floor plates
 - Optimal pitch: 30-45° for glazed face; 15-25° for opaque face
 - DF achievable: 3-6% uniform
 - Classic industrial typology; revived in modern schools and offices
 
-**Light Wells:**
-- Vertical shaft from roof to lower floors
-- W:H ratio ≥ 1:3 for reasonable bottom illuminance (DF ≈ 0.5-1.0% at base)
-- Reflective lining (white paint ρ ≥ 0.85, or mirrored surfaces ρ ≥ 0.92) essential
-- Can combine with atrium for multi-storey distribution
+**采光井：**
+- 从屋顶延伸至下部楼层的竖向井道
+- W:H 比 ≥ 1:3，以保证底部具有合理照度（底部 DF ≈ 0.5–1.0%）
+- 必须设置反射内衬（白色涂料 ρ ≥ 0.85，或镜面 ρ ≥ 0.92）
+- 可与中庭结合，为多层建筑分配日光
 
-**Cost:** Skylights $400-1,500/m²; monitor roofs +15-25% over standard roof; sawtooth +20-35%.
+**成本：**天窗 $400–1,500/m²；监视器屋顶比标准屋顶高 15–25%；锯齿形屋顶高 20–35%。
 
-**Best For:** Single-storey buildings, top floors of multi-storey, galleries, industrial, retail.
+**最适用：**单层建筑、多层建筑顶层、展厅、工业和零售建筑。
 
-### 2.3 Atrium Lighting
+### 2.3 中庭采光
 
-Atria serve as internal daylight distributors, bringing light into deep-plan multi-storey buildings.
+中庭作为内部日光分配器，将光线引入大进深多层建筑。
 
-**Design Parameters:**
-- **Well Index (WI):** WI = H × (W + L) / (2 × W × L) where H = atrium height, W = width, L = length. Lower WI = more light at base.
-- **Target:** WI ≤ 2.0 for DF ≥ 2% at ground floor; WI ≤ 1.5 for DF ≥ 3%
-- **Aspect Ratio:** Width-to-height ratio ≥ 1:3 (minimum); 1:2 preferred; 1:1 ideal but area-expensive
-- **Surface Reflectances:** Atrium walls ρ ≥ 0.6 (white: 0.7-0.85); floor ρ ≥ 0.3
-- **Roof Glazing:** Clear or fritted glass; ETFE cushions; operable vents for ventilation
+**设计参数：**
+- **井指数（WI）：**WI = H × (W + L) / (2 × W × L)，其中 H 为中庭高度，W 为宽度，L 为长度。WI 越低，底部获得的光线越多。
+- **目标：**首层 DF ≥ 2% 时 WI ≤ 2.0；DF ≥ 3% 时 WI ≤ 1.5
+- **长宽比：**宽高比最低 ≥ 1:3；优选 1:2；1:1 理想但占用面积大
+- **表面反射率：**中庭墙面 ρ ≥ 0.6（白色为 0.7–0.85）；地面 ρ ≥ 0.3
+- **屋顶玻璃：**透明或丝网印刷玻璃；ETFE 气枕；设置可开启通风口
 
-**Borrowed Light:** Rooms facing atrium receive side-light from atrium void. Glazed atrium-facing walls critical.
+**借光：**朝向中庭的房间从中庭空腔获得侧向光。朝向中庭的玻璃墙至关重要。
 
-**Exemplars:** Ford Foundation HQ (Roche Dinkeloo), Bradbury Building (Wyman), National Gallery East Wing (Pei), Rijksmuseum atrium (Cruz y Ortiz).
+**示范案例：**Ford Foundation 总部（Roche Dinkeloo）、Bradbury Building（Wyman）、National Gallery 东翼（Pei）、Rijksmuseum 中庭（Cruz y Ortiz）。
 
-**Cost:** Atrium construction premium +20-40% over equivalent solid floor area; long-term energy savings in lighting 30-50%.
+**成本：**中庭建造成本比等面积实心楼面高 20–40%；长期照明节能 30–50%。
 
-### 2.4 Light Shelves
+### 2.4 光棚
 
-Horizontal reflective elements mounted at or near window mid-height, dividing the window into a lower view zone and an upper daylight zone.
+安装在窗户中部或附近的水平反射构件，将窗户分为下部观景区和上部采光区。
 
-**Design Rules:**
-- Mount height: 2.0-2.4 m above floor (above eye level of seated occupants)
-- Shelf depth (external): 0.6-1.2 m (effective throw into room = 1.5-2.0× external shelf depth)
-- Shelf depth (internal): 0.3-0.8 m (secondary redistribution)
-- Shelf surface: highly reflective (ρ ≥ 0.85); specular aluminum, white painted metal
-- Upper glazing above shelf: clear or lightly tinted (maximize VLT)
-- Lower glazing below shelf: can be tinted, fritted, or with blinds for glare control
+**设计规则：**
+- 安装高度：距地面 2.0–2.4 m（高于坐姿使用者视线）
+- 光棚外挑深度：0.6–1.2 m（进入室内的有效投射深度 = 外挑深度的 1.5–2.0 倍）
+- 光棚内挑深度：0.3–0.8 m（用于二次分配）
+- 光棚表面：高反射率（ρ ≥ 0.85）；镜面铝或白色涂层金属
+- 光棚以上玻璃：透明或浅色，最大化 VLT
+- 光棚以下玻璃：可采用着色、丝网印刷或百叶以控制眩光
 
-**Performance:**
-- Increases DF at room depth by 0.5-1.5%
-- Improves uniformity ratio by 30-60%
-- Reduces near-window DF excess by 10-20%
-- Most effective on south-facing facades (Northern Hemisphere) within ±30° of due south
-- Minimal effect on north-facing facades (diffuse sky, no direct beam to redirect)
-- Reduced effectiveness at latitudes > 55° (low sun angles bypass shelf)
+**性能：**
+- 房间深处 DF 提高 0.5–1.5%
+- 均匀度比提高 30–60%
+- 窗边 DF 过高现象减少 10–20%
+- 在北半球，正南向 ±30° 范围内的立面效果最好
+- 对北向立面作用很小（天空为漫射光，没有可重新定向的直射光束）
+- 纬度 > 55° 时效果降低（低太阳高度角会绕过光棚）
 
-**Cost:** $200-600/linear meter installed.
+**成本：**安装成本 $200–600/延米。
 
-**Best For:** Offices, schools, libraries — any space requiring uniform daylighting over depth.
+**最适用：**办公室、学校、图书馆，以及任何需要在进深方向实现均匀采光的空间。
 
-### 2.5 Clerestory Windows
+### 2.5 高侧窗
 
-High-level glazing strips positioned above adjacent lower roof zones or above partitions. Bring light deep into floor plates without occupying wall area at eye level.
+设置在相邻低屋顶区域或隔断上方的高位玻璃带。无需占用视线高度的墙面，即可将光线引入楼面深处。
 
-**Design Rules:**
-- Head height: 3.0-5.0 m above floor for effective penetration
-- Light throw: 1.5-2.5× clerestory head height
-- Orientation: north-facing for diffuse light; south-facing with overhangs for controlled direct light
-- Can combine with light shelves or reflective ceilings
+**设计规则：**
+- 窗顶高度：距地面 3.0–5.0 m，以实现有效采光深入
+- 光线投射深度：高侧窗窗顶高度的 1.5–2.5 倍
+- 朝向：朝北获得漫射光；朝南配合挑檐控制直射光
+- 可与光棚或反射顶棚结合
 
-**Performance:** DF improvement 1.0-2.5% in rear zone of room; excellent uniformity.
+**性能：**房间后部区域 DF 提高 1.0–2.5%；均匀度优秀。
 
-**Best For:** Churches, galleries, double-height spaces, stepped-section buildings.
+**最适用：**教堂、展厅、通高空间和错层剖面建筑。
 
-### 2.6 Light Pipes and Tubular Daylighting Devices (TDDs)
+### 2.6 导光管和管式日光照明装置（TDD）
 
-Cylindrical or rectangular ducts that transport daylight from roof-level collector to interior spaces without direct facade access.
+通过圆形或矩形管道，将屋顶收集器采集的日光输送至无法直接接触外立面的室内空间。
 
-**Components:** Roof dome collector → highly reflective tube lining (ρ ≥ 0.98, 3M Silverlux or similar specular film) → ceiling diffuser.
+**组成：**屋顶穹顶收集器 → 高反射率管道内衬（ρ ≥ 0.98，3M Silverlux 或类似镜面薄膜）→ 顶棚漫射器。
 
-**Performance:**
-- Tube diameter: 250-600 mm residential; 600-1,200 mm commercial
-- Effective tube length: up to 6 m for rigid tubes; up to 12 m with elbows (each 30° elbow loses ~10% flux)
-- Delivers 200-600 lux at diffuser for 350 mm tube under clear sky
-- DF equivalent: 0.5-1.5% over 5-8 m² floor area per tube
+**性能：**
+- 管径：住宅 250–600 mm；商业建筑 600–1,200 mm
+- 有效管长：刚性管最长 6 m；带弯头最长 12 m（每个 30° 弯头约损失 10% 光通量）
+- 晴空条件下，350 mm 管径在漫射器处可提供 200–600 lux
+- 等效 DF：每根管覆盖 5–8 m² 楼面时为 0.5–1.5%
 
-**Cost:** $500-2,000 per unit installed (residential); $1,500-5,000 (commercial).
+**成本：**住宅每套安装 $500–2,000；商业建筑 $1,500–5,000。
 
-**Best For:** Interior bathrooms, corridors, stairwells, storage areas needing code-compliant natural light.
+**最适用：**需要符合规范的自然光的内部卫生间、走廊、楼梯间和储藏区。
 
-### 2.7 Borrowed Light
+### 2.7 借光
 
-Transmitting daylight from a well-lit space to an adjacent darker space through internal glazed partitions, transoms, fanlights, or glazed doors.
+通过内部玻璃隔断、门上亮窗、扇形高窗或玻璃门，将采光良好空间的日光传递至相邻较暗空间。
 
-**Design Rules:**
-- Internal glazing area: minimum 15-25% of partition area for meaningful contribution
-- Glass type: clear float or acid-etched for privacy with light transmission
-- Transom windows above doors: 300-600 mm high strips
-- Sidelights flanking doors: 200-400 mm wide
+**设计规则：**
+- 内部玻璃面积：至少为隔断面积的 15–25%，才能产生有意义的贡献
+- 玻璃类型：透明浮法玻璃，或采用酸蚀玻璃兼顾隐私与透光
+- 门上亮窗：高 300–600 mm 的条带
+- 门侧玻璃：宽 200–400 mm
 
-**Performance:** Adds 0.3-1.0% DF to receiving space (dependent on source space illuminance).
+**性能：**可使受光空间 DF 增加 0.3–1.0%（取决于光源空间的照度）。
 
-**Best For:** Corridors, internal offices, hotel rooms facing corridors, school circulation spaces.
+**最适用：**走廊、内部办公室、朝向走廊的酒店客房和学校交通空间。
 
-### 2.8 Light Wells and Courtyards
+### 2.8 采光井和庭院
 
-Vertical voids or open courtyards bringing daylight to lower floors of deep-plan buildings.
+将日光引入大进深建筑下部楼层的竖向空腔或开放庭院。
 
-**Design Rules:**
-- **Light well:** enclosed, often narrow (W:H ≥ 1:3 minimum for usable light at base)
-- **Courtyard:** open, wider (W:H ≥ 1:2 for comfortable microclimate and good daylight)
-- Bottom illuminance: for W:H = 1:2, expect DF ≈ 3-5% at courtyard floor; for W:H = 1:4, DF ≈ 0.5-1.5%
-- White-painted walls increase base illuminance by 40-70% compared to brick
+**设计规则：**
+- **采光井：**封闭且通常较窄（底部获得可用光线的最低 W:H 为 1:3）
+- **庭院：**开放且更宽（为获得舒适微气候和良好采光，W:H ≥ 1:2）
+- 底部照度：W:H = 1:2 时，庭院地面 DF 约为 3–5%；W:H = 1:4 时，DF 约为 0.5–1.5%
+- 与砖墙相比，白色涂层墙面可使底部照度提高 40–70%
 
-**Exemplars:** Islamic courtyard houses (Fez, Marrakech), Barcelona Eixample light wells, Louis Kahn's Salk Institute, Renzo Piano's Fondation Beyeler courtyard.
+**示范案例：**伊斯兰庭院住宅（非斯、马拉喀什）、巴塞罗那扩展区采光井、Louis Kahn 的 Salk Institute、Renzo Piano 的 Fondation Beyeler 庭院。
 
-### 2.9 Reflective Ceilings and Splayed Reveals
+### 2.9 反射顶棚和斜向窗洞口
 
-**Reflective Ceilings:** White or metallic ceilings (ρ ≥ 0.8) redirect downward-reflected light from windows deeper into the room. Curved ceilings can focus light. Kahn's Kimbell Art Museum uses cycloid vaults to distribute reflected light uniformly.
+**反射顶棚：**白色或金属顶棚（ρ ≥ 0.8）将窗户反射下来的光线重新导向房间深处。曲面顶棚可以聚焦光线。Kahn 的金贝尔艺术博物馆采用摆线拱顶均匀分配反射光。
 
-**Splayed Reveals:** Window jambs angled outward at 15-30° to increase the apparent sky angle and admit more light. Increases SC by 5-15%. Traditional in thick-walled construction (600 mm+ masonry).
+**斜向窗洞口：**将窗侧墙向外倾斜 15–30°，增大天空视角并引入更多光线。可使 SC 提高 5–15%，常用于厚墙构造（砌体厚度 600 mm 以上）。
 
-### 2.10 Automated Blinds and Dynamic Glazing
+### 2.10 自动百叶和动态玻璃
 
-**Automated Blinds:**
-- External roller blinds, venetian blinds, or fabric screens
-- Sensor-driven: solar radiation, illuminance, occupancy
-- Response time: < 60 seconds for motorized systems
-- Most effective on east and west facades (rapidly changing sun position)
+**自动百叶：**
+- 外置卷帘、百叶或织物遮阳屏
+- 由太阳辐射、照度和占用传感器驱动
+- 响应时间：电动系统 < 60 秒
+- 对东、西向立面最有效（太阳位置变化快）
 
-**Dynamic Glazing (Electrochromic):**
-- Variable tint: VLT range 2-60% (e.g., SageGlass, View Smart Glass)
-- Transition time: 7-20 minutes for full tint change
-- Power consumption: < 5 W/m²
-- Eliminates need for mechanical blinds
-- Cost: $500-1,200/m² (2-3× static glazing)
-- Reduces ASE to near-zero when fully tinted; maintains view connection
+**动态玻璃（电致变色）：**
+- 可变色调：VLT 范围 2–60%（例如 SageGlass、View Smart Glass）
+- 转换时间：完全变色需 7–20 分钟
+- 功耗：< 5 W/m²
+- 可取消机械百叶需求
+- 成本：$500–1,200/m²（为静态玻璃的 2–3 倍）
+- 完全着色时可将 ASE 降至接近零，同时保持视觉联系
 
-**Thermochromic Glazing:** Self-tinting at elevated temperatures (passive, no power). Limited VLT range. Emerging technology.
+**热致变色玻璃：**温度升高时自动着色（被动式，无需电力）。VLT 范围有限，属于新兴技术。
 
-**Best For:** Premium offices, healthcare, curtain-wall facades, airports.
+**最适用：**高端办公室、医疗建筑、幕墙立面和机场。
 
-### 2.11 Prismatic Glazing and Daylight-Redirecting Films
+### 2.11 棱镜玻璃和日光重定向薄膜
 
-Laser-cut panels, prismatic films, or micro-structured glazing that refract or redirect daylight upward toward the ceiling.
+通过激光切割板、棱镜薄膜或微结构玻璃折射或重新定向日光，使其向上投射至顶棚。
 
-**Performance:** Redirects low-angle winter sun deep into room; blocks high-angle summer sun. Adds 0.5-1.5% DF at room depth. Can replace light shelves in retrofit applications.
+**性能：**将低角度冬季阳光引入房间深处，阻挡高角度夏季阳光。可使房间深处 DF 增加 0.5–1.5%，在改造项目中可替代光棚。
 
-### 2.12 Fiber-Optic Daylighting
+### 2.12 光纤日光照明
 
-Roof-mounted solar concentrators (parabolic dishes or Fresnel lenses) focus sunlight into fiber-optic cables that transport light to interior spaces.
+安装在屋顶的太阳能聚光器（抛物面盘或菲涅尔透镜）将阳光聚焦到光纤电缆中，再输送至室内空间。
 
-**Performance:** Up to 50,000 lux at collector; delivery efficiency 50-70% over 10-15 m cable length; delivers 500-1,500 lux at endpoint luminaire. Niche application for high-value interior spaces (operating theaters, underground spaces).
+**性能：**收集器处最高可达 50,000 lux；电缆长度 10–15 m 时输送效率为 50–70%；末端灯具可提供 500–1,500 lux。适用于高价值室内空间（手术室、地下空间等）这一细分场景。
 
-### 2.13 Anidolic Systems
+### 2.13 无像系统
 
-Compound parabolic concentrators (CPC) integrated into window assemblies that collect diffuse light from a wide sky angle and redirect it horizontally into the room depth.
+集成在窗组件中的复合抛物面聚光器（CPC）从宽广天空角度收集漫射光，并将其水平引入房间深处。
 
-**Performance:** 2-4× improvement in rear-zone illuminance compared to standard windows. Developed at EPFL, Lausanne. Effective at high latitudes (> 45°N) where low-angle diffuse light dominates.
+**性能：**与标准窗相比，后部区域照度提高 2–4 倍。由洛桑 EPFL 开发。在低角度漫射光占主导的高纬度地区（> 北纬 45°）效果显著。
 
-### 2.14 Double-Skin Facades for Daylight
+### 2.14 用于采光的双层幕墙
 
-The cavity between inner and outer skins houses adjustable blinds or reflective louvers that redistribute light while managing thermal gains. Light can be reflected upward to ceiling for deeper penetration. Typical cavity depth: 0.3-1.2 m.
+内外层之间的空腔容纳可调百叶或反射格栅，在管理太阳得热的同时重新分配光线。光线可向上反射至顶棚，以获得更深的采光。典型空腔深度为 0.3–1.2 m。
 
-### 2.15 Translucent Insulation and Diffusing Materials
+### 2.15 透光保温材料和漫射材料
 
-Translucent insulating materials (TIM), aerogel panels (light transmission 40-60%, U-value 0.5-0.7 W/m²K), channel glass (Profilit), polycarbonate multiwall sheets. Provide diffuse, glare-free light while maintaining thermal performance. Suitable for north facades, stairwells, gymnasiums.
+透光保温材料（TIM）、气凝胶板（透光率 40–60%，U 值 0.5–0.7 W/m²K）、槽型玻璃（Profilit）和聚碳酸酯多层板，可在保持热工性能的同时提供漫射且无眩光的光线。适用于北向立面、楼梯间和体育馆。
 
 ---
 
-## Section 3: Solar Geometry and Shading
+## 第 3 节：太阳几何与遮阳
 
-### 3.1 Solar Position
+### 3.1 太阳位置
 
-The sun's position is defined by two angles:
-- **Solar Altitude (α):** Angle above the horizon (0° at horizon, 90° at zenith)
-- **Solar Azimuth (γ):** Angle along the horizon from due south (Northern Hemisphere convention: 0° = south, +90° = west, -90° = east)
+太阳位置由两个角度确定：
+- **太阳高度角（α）：**太阳位于地平线以上的角度（地平线为 0°，天顶为 90°）
+- **太阳方位角（γ）：**沿地平线从正南方向测量的角度（北半球约定：0° = 南，+90° = 西，−90° = 东）
 
-**Key Solar Events:**
-- Summer Solstice (June 21, Northern Hemisphere): maximum altitude, longest day
-- Winter Solstice (December 21): minimum altitude, shortest day
-- Equinoxes (March 21, September 21): sun rises due east, sets due west; altitude at solar noon = 90° - latitude
+**主要太阳事件：**
+- 夏至（北半球 6 月 21 日）：太阳高度最高，白昼最长
+- 冬至（12 月 21 日）：太阳高度最低，白昼最短
+- 春分和秋分（3 月 21 日、9 月 21 日）：太阳正东升起、正西落下；太阳正午高度 = 90° − 纬度
 
-**Solar Noon Altitude by Latitude (Equinox):**
+**按纬度划分的太阳正午高度（分点）：**
 
-| Latitude | Equinox Noon Alt. | Summer Solstice Noon Alt. | Winter Solstice Noon Alt. |
+| 纬度 | 分点正午高度 | 夏至正午高度 | 冬至正午高度 |
 |---|---|---|---|
-| 0° (Equator) | 90.0° | 66.5° | 66.5° |
+| 0°（赤道） | 90.0° | 66.5° | 66.5° |
 | 15° | 75.0° | 81.5° | 51.5° |
 | 30° | 60.0° | 83.5° | 36.5° |
 | 45° | 45.0° | 68.5° | 21.5° |
 | 60° | 30.0° | 53.5° | 6.5° |
 
-**Formula:** Solar altitude at noon = 90° - |latitude - solar declination|
-Solar declination: +23.45° at summer solstice, -23.45° at winter solstice, 0° at equinoxes.
+**公式：**太阳正午高度 = 90° − |纬度 − 太阳赤纬|
+太阳赤纬：夏至为 +23.45°，冬至为 −23.45°，分点为 0°。
 
-### 3.2 Shading Device Types
+### 3.2 遮阳装置类型
 
-**Horizontal Overhangs:**
-- Most effective for south-facing facades (Northern Hemisphere)
-- Block high-angle summer sun while admitting low-angle winter sun
-- Overhang depth formula: D = H × tan(90° - α_cutoff) where H = distance from overhang to window sill, α_cutoff = solar altitude to be blocked
-- Simplified: D = H / tan(α_cutoff)
-- Design for summer solstice noon altitude; verify at equinox for partial shading
+**水平挑檐：**
+- 对南向立面（北半球）最有效
+- 阻挡高角度夏季阳光，同时允许低角度冬季阳光进入
+- 挑檐深度公式：D = H × tan(90° − α_cutoff)，其中 H 为挑檐至窗台的距离，α_cutoff 为需要阻挡的太阳高度角
+- 简化式：D = H / tan(α_cutoff)
+- 按夏至正午高度设计，并在分点核查部分遮阳效果
 
-**Vertical Fins:**
-- Most effective for east- and west-facing facades
-- Block low-angle oblique sun in morning (east) and afternoon (west)
-- Fin spacing-to-depth ratio: S/D = tan(cutoff azimuth angle from facade normal)
-- Angled fins (10-15° from perpendicular to facade) improve morning/afternoon performance
+**垂直遮阳翼：**
+- 对东、西向立面最有效
+- 阻挡早晨（东向）和下午（西向）的低角度斜射阳光
+- 翼片间距与深度比：S/D = tan（相对于立面法线的截止方位角）
+- 翼片相对立面垂线倾斜 10–15°，可改善早晚遮阳效果
 
-**Egg-Crate (Combined Horizontal + Vertical):**
-- Effective for all orientations, especially southeast and southwest
-- Higher material cost but superior performance
-- Common in tropical and subtropical climates
+**蛋格式遮阳（水平 + 垂直组合）：**
+- 适用于所有朝向，尤其是东南和西南向
+- 材料成本较高，但性能更优
+- 常用于热带和亚热带气候
 
-**Brise-Soleil:**
-- Array of horizontal or vertical blades, fixed or adjustable
-- Blade angle, spacing, and depth determine shading coefficient
-- Le Corbusier's signature element (Chandigarh, Marseille)
+**遮阳板（Brise-Soleil）：**
+- 由固定或可调的水平/垂直叶片组成
+- 叶片角度、间距和深度决定遮阳系数
+- 勒·柯布西耶的标志性元素（昌迪加尔、马赛）
 
-**External Venetian Blinds:**
-- Adjustable horizontal slats on building exterior
-- Most effective operable shading system (blocks 85-95% of solar gain when closed)
-- Wind-rated to 65-100 km/h; auto-retract in high winds
-- Prevalent in Central Europe (Germany, Austria, Switzerland)
+**外置百叶：**
+- 建筑外部的可调水平叶片
+- 最有效的可操作遮阳系统（关闭时可阻挡 85–95% 的太阳得热）
+- 抗风等级 65–100 km/h；大风时自动收回
+- 中欧地区（德国、奥地利、瑞士）常见
 
-**Perforated Screens and Mashrabiya:**
-- Solid screen with patterned perforations; filters light and provides privacy
-- Perforation ratio 20-50% (lower = more shading, less view)
-- Traditional Islamic architecture; contemporary reinterpretation by Jean Nouvel (Louvre Abu Dhabi, Institut du Monde Arabe)
-- Dynamic mashrabiya: motorized rotating elements responsive to sun position
+**穿孔屏和马什拉比亚：**
+- 带有图案化孔洞的实体屏风；过滤光线并提供隐私
+- 穿孔率 20–50%（越低 = 遮阳越强、视野越小）
+- 源自伊斯兰传统建筑；Jean Nouvel 在阿布扎比卢浮宫、阿拉伯世界研究院中进行了当代诠释
+- 动态马什拉比亚：根据太阳位置响应的电动旋转构件
 
-### 3.3 Shading Design Rules
+### 3.3 遮阳设计规则
 
-**Overhang Sizing by Latitude (south-facing, Northern Hemisphere):**
+**按纬度确定挑檐尺寸（北半球南向立面）：**
 
-| Latitude | Summer Solstice Noon Alt. | Overhang Ratio (D/H) for Full Summer Shade |
+| 纬度 | 夏至正午高度 | 实现夏季完全遮阳的挑檐比（D/H） |
 |---|---|---|
 | 25° | 88.5° | 0.03 |
 | 30° | 83.5° | 0.11 |
@@ -415,249 +416,249 @@ Solar declination: +23.45° at summer solstice, -23.45° at winter solstice, 0°
 | 50° | 63.5° | 0.50 |
 | 55° | 58.5° | 0.61 |
 
-**Shading Coefficient (SC):** Fraction of solar radiation transmitted through a fenestration system relative to a reference single clear glass pane (SC = 1.0). Modern systems target SC 0.2-0.5.
+**遮阳系数（SC）：**窗户系统透过的太阳辐射与基准单层透明玻璃透过量之比（SC = 1.0）。现代系统的目标通常为 SC 0.2–0.5。
 
-**Solar Heat Gain Coefficient (SHGC):** Total solar heat gain (transmitted + re-radiated inward) as fraction of incident radiation. SHGC = SC × 0.87. Typical targets: SHGC 0.25-0.40 for cooling-dominated climates; SHGC 0.40-0.60 for heating-dominated.
+**太阳得热系数（SHGC）：**太阳总得热量（透射 + 向内再辐射）占入射辐射的比例。SHGC = SC × 0.87。典型目标：以制冷为主的气候为 SHGC 0.25–0.40；以采暖为主的气候为 SHGC 0.40–0.60。
 
-**Cutoff Angles:** The solar altitude angle at which an overhang fully shades the window below. Design for the altitude angle at the critical overheating date (typically August 1 in Northern Hemisphere, accounting for thermal lag after solstice).
+**截止角：**遮阳挑檐完全遮蔽下方窗户时的太阳高度角。应按关键过热日期的高度角设计（北半球通常为 8 月 1 日，并考虑夏至后的热滞后）。
 
 ---
 
-## Section 4: Glare Control
+## 第 4 节：眩光控制
 
-### 4.1 Glare Sources in Buildings
+### 4.1 建筑中的眩光来源
 
-- **Direct sun:** Highest luminance source (~1.6 × 10⁹ cd/m²); even 0.1% of sun disc in field of view causes severe glare
-- **Bright sky:** Clear sky luminance 5,000-15,000 cd/m²; overcast sky 2,000-8,000 cd/m²
-- **Specular reflections:** Sun reflected from glossy surfaces (polished floors, glass desktops, screens)
-- **High-luminance surfaces:** Sunlit white walls (5,000-10,000 cd/m²), luminaires
+- **直射日光：**亮度最高的来源（约 1.6 × 10⁹ cd/m²）；视野中即使只有太阳圆面 0.1% 也会造成严重眩光
+- **明亮天空：**晴天空亮度 5,000–15,000 cd/m²；阴天空亮度 2,000–8,000 cd/m²
+- **镜面反射：**阳光从光泽表面反射（抛光地面、玻璃桌面、屏幕）
+- **高亮度表面：**被阳光照射的白墙（5,000–10,000 cd/m²）和灯具
 
-### 4.2 Glare Metrics
+### 4.2 眩光指标
 
-**Daylight Glare Probability (DGP):** Primary metric. Calculated from HDR luminance images using Evalglare.
+**日光眩光概率（DGP）：**主要指标，使用 Evalglare 根据 HDR 亮度图像计算。
 
-| DGP Range | Classification | Action Required |
+| DGP 范围 | 分级 | 所需措施 |
 |---|---|---|
-| < 0.35 | Imperceptible | None — best practice target |
-| 0.35-0.40 | Perceptible | Acceptable for most tasks |
-| 0.40-0.45 | Disturbing | Shading or redesign needed |
-| > 0.45 | Intolerable | Immediate intervention required |
+| < 0.35 | 不可察觉 | 无需措施——最佳实践目标 |
+| 0.35–0.40 | 可察觉 | 对大多数作业可接受 |
+| 0.40–0.45 | 令人不适 | 需要遮阳或重新设计 |
+| > 0.45 | 不可容忍 | 需要立即干预 |
 
-**Daylight Glare Index (DGI):** Older metric (Hopkinson). DGI < 22 = acceptable for offices. Largely superseded by DGP.
+**日光眩光指数（DGI）：**较早的指标（Hopkinson）。办公空间 DGI < 22 为可接受，现大多已被 DGP 取代。
 
-**Unified Glare Rating (UGR):** For electric lighting glare only (not daylight). UGR < 19 for offices; UGR < 16 for detailed drafting.
+**统一眩光值（UGR）：**仅用于人工照明眩光（不用于日光）。办公室 UGR < 19；精细制图 UGR < 16。
 
-**Luminance Ratios (recommended):**
-- Task to immediate surround: ≤ 3:1
-- Task to distant surround: ≤ 10:1
-- Window to adjacent wall: ≤ 20:1 (preferably ≤ 10:1)
-- Maximum luminance in field of view: ≤ 25,000 cd/m² for transient exposure
+**亮度比（建议值）：**
+- 作业面与近邻环境：≤ 3:1
+- 作业面与远处环境：≤ 10:1
+- 窗户与相邻墙面：≤ 20:1（优选 ≤ 10:1）
+- 视野内最大亮度：短时暴露时 ≤ 25,000 cd/m²
 
-### 4.3 Glare Control Strategies
+### 4.3 眩光控制策略
 
-**Ranked by Effectiveness (best to worst):**
+**按有效性排序（从优到劣）：**
 
-1. **External shading devices** — intercept solar radiation before it enters building. Most effective strategy. Reduces DGP by 0.20-0.35.
-2. **Building orientation** — minimize east/west glazing; favor north/south. Free; must be decided at masterplan stage.
-3. **Window position and size** — avoid placing windows directly in line with seated occupant's view direction. Set workstations perpendicular to windows.
-4. **Glazing selection** — low VLT glazing, solar control coatings, fritted glass. Reduces DGP by 0.05-0.15.
-5. **Light shelves and louvers** — redirect direct sun upward away from occupants' eyes.
-6. **Interior blinds** — roller, venetian, vertical. Least effective for solar glare (heat already inside). Reduces DGP by 0.10-0.20 but can reduce useful daylight significantly.
-7. **Screen placement in offices** — orient screens perpendicular to windows; use matte screen finishes.
+1. **外遮阳装置**——在太阳辐射进入建筑前将其拦截，是最有效的策略，可使 DGP 降低 0.20–0.35。
+2. **建筑朝向**——减少东、西向玻璃，优先南、北向；无需额外成本，但必须在总图阶段确定。
+3. **窗户位置和尺寸**——避免窗户正对坐姿使用者视线；工作位应与窗户垂直布置。
+4. **玻璃选择**——低 VLT 玻璃、太阳控制涂层、丝网印刷玻璃，可使 DGP 降低 0.05–0.15。
+5. **光棚和格栅**——将直射阳光向上重新定向，避开使用者眼睛。
+6. **内遮阳**——卷帘、百叶、垂直帘。对太阳眩光最不有效（热量已经进入室内），可使 DGP 降低 0.10–0.20，但可能显著降低有效日光。
+7. **办公室屏幕布置**——屏幕应与窗户垂直，采用哑光屏幕表面。
 
-**Screen Orientation Rule:** In side-lit offices, computer screens should face parallel to the window wall (user seated perpendicular to window). Never place screen facing a bright window (screen washout) or user facing window (direct glare behind screen).
+**屏幕朝向规则：**侧向采光办公室中，电脑屏幕应与窗墙平行（使用者坐姿与窗户垂直）。不得让屏幕正对明亮窗户（画面发白），也不得让使用者面向窗户（屏幕后方产生直射眩光）。
 
 ---
 
-## Section 5: Artificial Lighting Integration
+## 第 5 节：人工照明整合
 
-### 5.1 Lighting Zones
+### 5.1 照明分区
 
-Buildings are divided into daylight response zones for electric lighting control:
+建筑按日光响应划分区域，以控制电照明：
 
-- **Perimeter Daylit Zone (Zone 1):** 0-4.5 m (0-15 ft) from window wall. High daylight availability; electric lighting can be dimmed or switched off 50-80% of occupied hours.
-- **Transition Zone (Zone 2):** 4.5-7.5 m (15-25 ft) from window wall. Moderate daylight; electric lighting supplementation needed 40-60% of hours.
-- **Core Zone (Zone 3):** > 7.5 m (> 25 ft) from window wall. Minimal daylight contribution; electric lighting provides primary illumination. Top-lighting can extend daylit zone into core.
+- **周边日光区（区域 1）：**距窗墙 0–4.5 m（0–15 ft）。日光充足；占用时段中 50–80% 的时间可将电照明调暗或关闭。
+- **过渡区（区域 2）：**距窗墙 4.5–7.5 m（15–25 ft）。日光中等；40–60% 的时间需要电照明补充。
+- **核心区（区域 3）：**距窗墙 > 7.5 m（> 25 ft）。日光贡献很小；电照明提供主要照度。顶部采光可将日光区延伸至核心区。
 
-### 5.2 Daylight-Linked Dimming (Photoelectric Controls)
+### 5.2 日光联动调光（光电控制）
 
-**Types:**
-- **Continuous dimming:** Smooth adjustment from 100% to 1-10% output. Most energy-efficient and occupant-preferred.
-- **Stepped dimming:** Discrete levels (e.g., 100%, 66%, 33%, off). Lower cost but perceptible transitions.
-- **Switching:** On/off based on daylight threshold. Least preferred by occupants.
+**类型：**
+- **连续调光：**输出从 100% 平滑调节至 1–10%，节能效果最好，也最受使用者欢迎。
+- **分级调光：**采用离散档位（如 100%、66%、33%、关闭），成本较低但档位变化可被察觉。
+- **开关控制：**根据日光阈值开/关，使用者接受度最低。
 
-**Sensor Types:**
-- **Open-loop (external):** Rooftop photosensor measures outdoor illuminance; no feedback from internal conditions. Simple but less accurate.
-- **Closed-loop (internal):** Ceiling-mounted photosensor measures work plane illuminance; adjusts electric light to maintain target. Self-correcting. Preferred for LEED compliance.
+**传感器类型：**
+- **开环（外部）：**屋顶光电传感器测量室外照度，不接收室内环境反馈；简单但精度较低。
+- **闭环（内部）：**顶棚光电传感器测量工作面照度，调节电照明以维持目标值；可自校正，LEED 合规优先采用。
 
-**Commissioning:** Sensors must be commissioned on-site. Calibrate to target illuminance (e.g., 300-500 lux on desk). Sensitivity and set-point adjustment critical. Common failure mode: poorly aimed sensors reading ceiling reflectance instead of task plane.
+**调试：**传感器必须在现场调试。应校准至目标照度（例如桌面 300–500 lux）。灵敏度和设定点调整至关重要。常见故障是传感器瞄准不当，读取了顶棚反射率而非作业面照度。
 
-**Energy Savings:** Daylight-linked dimming in perimeter zones saves 40-60% of lighting energy. Payback: 2-5 years.
+**节能：**周边区域采用日光联动调光可节省 40–60% 的照明能耗，投资回收期为 2–5 年。
 
-### 5.3 Circadian Lighting
+### 5.3 昼夜节律照明
 
-Lighting that supports human circadian rhythms by varying spectrum and intensity throughout the day.
+通过全天改变光谱和强度来支持人体昼夜节律的照明。
 
-**Key Concepts:**
-- **Melanopic Lux:** Weighted illuminance based on intrinsically photosensitive retinal ganglion cell (ipRGC) sensitivity (peak ~480 nm, blue-cyan). Defined by CIE S 026.
-- **Melanopic/Photopic (M/P) Ratio:** Higher M/P ratio = more circadian stimulus per unit visual illuminance. Daylight M/P ≈ 1.0-1.1; warm white LED (2700K) M/P ≈ 0.45; cool white LED (6500K) M/P ≈ 0.9.
+**关键概念：**
+- **黑视素照度（Melanopic Lux）：**依据内在感光视网膜神经节细胞（ipRGC）敏感度加权的照度（峰值约 480 nm，蓝青光），由 CIE S 026 定义。
+- **黑视素/明视觉（M/P）比：**M/P 比越高，单位视觉照度产生的昼夜节律刺激越强。日光 M/P ≈ 1.0–1.1；暖白 LED（2700K）M/P ≈ 0.45；冷白 LED（6500K）M/P ≈ 0.9。
 
-**Targets (WELL Building Standard v2):**
-- ≥ 250 melanopic equivalent daylight illuminance (M-EDI) at eye level for ≥ 4 hours/day (between 9 AM and 1 PM)
-- Occupied spaces: tunable CCT range 2700-6500K
+**目标（WELL Building Standard v2）：**
+- 眼睛高度的黑视素等效日光照度（M-EDI）≥ 250，且每天至少 4 小时（9:00–13:00 之间）达到该值
+- 占用空间：可调 CCT 范围 2700–6500K
 
-**Tunable White LEDs:**
-- Morning (7-10 AM): high CCT (5000-6500K), high intensity (300-500 lux at eye)
-- Midday (10 AM-2 PM): medium-high CCT (4000-5000K)
-- Afternoon (2-5 PM): medium CCT (3500-4000K)
-- Evening (after 5 PM): low CCT (2700-3000K), reduced intensity (< 200 lux at eye)
+**可调白光 LED：**
+- 上午（7:00–10:00）：高 CCT（5000–6500K），高强度（眼部 300–500 lux）
+- 中午（10:00–14:00）：中高 CCT（4000–5000K）
+- 下午（14:00–17:00）：中等 CCT（3500–4000K）
+- 傍晚（17:00 后）：低 CCT（2700–3000K），降低强度（眼部 < 200 lux）
 
-### 5.4 Lighting Power Density (LPD) Targets
+### 5.4 照明功率密度（LPD）目标
 
-**ASHRAE 90.1-2019 (Building Area Method):**
+**ASHRAE 90.1-2019（建筑面积法）：**
 
-| Space Type | LPD (W/m²) | LPD (W/ft²) |
+| 空间类型 | LPD（W/m²） | LPD（W/ft²） |
 |---|---|---|
-| Office | 9.8 | 0.91 |
-| Retail — general | 11.8 | 1.10 |
-| Hospital/Healthcare | 9.7 | 0.90 |
-| School/Classroom | 10.2 | 0.95 |
-| Hotel/Motel — guest room | 7.5 | 0.70 |
-| Warehouse | 6.1 | 0.57 |
-| Manufacturing | 11.2 | 1.04 |
-| Library | 10.6 | 0.99 |
-| Museum | 10.1 | 0.94 |
-| Religious building | 9.5 | 0.88 |
-| Restaurant | 9.8 | 0.91 |
-| Parking garage | 2.3 | 0.21 |
+| 办公 | 9.8 | 0.91 |
+| 零售——普通 | 11.8 | 1.10 |
+| 医院/医疗 | 9.7 | 0.90 |
+| 学校/教室 | 10.2 | 0.95 |
+| 酒店/汽车旅馆——客房 | 7.5 | 0.70 |
+| 仓库 | 6.1 | 0.57 |
+| 制造业 | 11.2 | 1.04 |
+| 图书馆 | 10.6 | 0.99 |
+| 博物馆 | 10.1 | 0.94 |
+| 宗教建筑 | 9.5 | 0.88 |
+| 餐厅 | 9.8 | 0.91 |
+| 停车库 | 2.3 | 0.21 |
 
-**Title 24 (California):** Generally 10-20% stricter than ASHRAE 90.1.
+**Title 24（加利福尼亚）：**通常比 ASHRAE 90.1 严格 10–20%。
 
-**Passive House / Ultra-low energy:** Target < 5.0 W/m² for all spaces using high-efficacy LED (> 130 lm/W).
+**被动房/超低能耗：**所有空间采用高光效 LED（> 130 lm/W）时，目标为 < 5.0 W/m²。
 
-### 5.5 Emergency Lighting
+### 5.5 应急照明
 
-**Requirements (IBC, BS 5266, EN 1838):**
-- Minimum illuminance: 1 lux along escape routes at floor level
-- Open areas: 0.5 lux minimum
-- High-risk task areas: 10% of normal illuminance or 15 lux (whichever is greater)
-- Duration: 1-3 hours (building-dependent; 3 hours typical for assembly occupancies)
-- Battery backup or generator-fed circuits
-- Monthly functional test; annual full-duration test
+**要求（IBC、BS 5266、EN 1838）：**
+- 最低照度：疏散路线地面处 1 lux
+- 开敞区域：最低 0.5 lux
+- 高风险作业区：正常照度的 10% 或 15 lux，取较高者
+- 持续时间：1–3 小时（取决于建筑；人员密集场所通常为 3 小时）
+- 配置电池备用或发电机供电回路
+- 每月功能测试；每年完整持续时间测试
 
 ---
 
-## Section 6: Daylighting Design Process
+## 第 6 节：日光设计流程
 
-### 6.1 Eight-Step Daylighting Design Workflow
+### 6.1 八步日光设计工作流程
 
-**Step 1: Establish Performance Targets**
-Define daylight metrics targets based on building type, certification goals, and occupant needs:
-- Residential: DF targets per BS EN 17037 or local codes
-- Office/LEED: sDA300/50% ≥ 55%, ASE1000,250 ≤ 10%
-- BREEAM: HEA 01 Visual Comfort credit (daylight factor or CBDM route)
-- WELL: Feature L03 Circadian Lighting Design (melanopic targets)
+**步骤 1：确定性能目标**
+根据建筑类型、认证目标和使用者需求确定日光指标目标：
+- 住宅：按 BS EN 17037 或当地规范确定 DF 目标
+- 办公/LEED：sDA300/50% ≥ 55%，ASE1000,250 ≤ 10%
+- BREEAM：HEA 01 视觉舒适度学分（日光系数或 CBDM 路径）
+- WELL：L03 特性“昼夜节律照明设计”（黑视素指标）
 
-**Step 2: Orient Building and Fenestration**
-- Elongate building on east-west axis (long facades face north and south)
-- Minimize east and west glazing (hardest to shade, worst glare)
-- Position primary occupied spaces on south facade (controlled solar access)
-- Place service spaces (stairs, toilets, storage) on east/west or as buffer zones
+**步骤 2：确定建筑和开窗朝向**
+- 沿东西轴拉长建筑（长立面朝北、朝南）
+- 减少东、西向玻璃（最难遮阳，眩光最严重）
+- 将主要占用空间布置在南立面（便于控制太阳辐射）
+- 将服务空间（楼梯、卫生间、储藏）布置在东、西侧或作为缓冲区
 
-**Step 3: Size Windows (WWR by Orientation)**
-Use initial WWR estimates:
-- South: 30-40% with horizontal shading
-- North: 35-50% (no shading needed in Northern Hemisphere)
-- East: 20-30% with vertical fins
-- West: 15-25% with vertical fins or deep reveals
-Adjust for plan depth, ceiling height, and internal reflectances.
+**步骤 3：确定窗户尺寸（按朝向确定 WWR）**
+采用初始 WWR 估算值：
+- 南向：30–40%，配水平遮阳
+- 北向：35–50%（北半球通常无需遮阳）
+- 东向：20–30%，配垂直遮阳翼
+- 西向：15–25%，配垂直遮阳翼或深窗洞口
+根据平面进深、顶棚高度和室内反射率进行调整。
 
-**Step 4: Design Shading Devices**
-- Calculate overhang depth from latitude and cutoff angle
-- Select shading type per orientation (horizontal south, vertical east/west, egg-crate corners)
-- Design for critical overheating date (not solstice — account for 4-6 week thermal lag)
-- Integrate with facade architecture and maintenance access
+**步骤 4：设计遮阳装置**
+- 根据纬度和截止角计算挑檐深度
+- 按朝向选择遮阳类型（南向水平、东/西向垂直、转角蛋格式）
+- 按关键过热日期设计（而非夏至，应考虑 4–6 周的热滞后）
+- 与立面建筑设计和维护通道整合
 
-**Step 5: Select Glazing**
+**步骤 5：选择玻璃**
 Balance Visual Light Transmittance (VLT) and Solar Heat Gain Coefficient (SHGC):
 - High VLT (> 0.65) for north facades
 - Moderate VLT (0.45-0.65) with low SHGC (< 0.35) for south with shading
 - Low VLT (0.30-0.45) for unshaded east/west (or use dynamic glazing)
 - Double or triple glazing: U-value 1.0-1.6 W/m²K (double), 0.5-0.8 W/m²K (triple)
 
-**Step 6: Simulate**
-- **Tools:** Radiance (gold standard ray-tracer), Daysim (annual daylight), DIVA-for-Rhino, Ladybug/Honeybee (Grasshopper-based), ClimateStudio, Sefaira, Velux Daylight Visualizer
-- **Method:** Climate-Based Daylight Modelling (CBDM) using TMY/EPW weather files
-- **Grid:** Analysis points at work plane height (0.76 m office, 0.85 m residential), spacing ≤ 0.5 m
-- **Output:** sDA, ASE, UDI, DF maps, DGP for critical viewpoints, annual illuminance profiles
+**步骤 6：模拟**
+- **工具：**Radiance（金标准光线追踪器）、Daysim（全年日光）、DIVA-for-Rhino、Ladybug/Honeybee（基于 Grasshopper）、ClimateStudio、Sefaira、Velux Daylight Visualizer
+**方法：**使用 TMY/EPW 气象文件进行基于气候的日光模拟（CBDM）
+- **网格：**分析点位于工作面高度（办公 0.76 m，住宅 0.85 m），间距 ≤ 0.5 m
+- **输出：**sDA、ASE、UDI、DF 分布图，关键视点 DGP，全年照度曲线
 
-**Step 7: Optimize**
-Iterative refinement:
-- Adjust WWR, glazing VLT, shading depth/angle
-- Test alternative strategies (light shelves, reflective ceilings, light pipes)
-- Balance sDA (increase) against ASE (decrease) — these often conflict
-- Check glare (DGP) at critical viewpoints and times
-- Verify uniformity across floor plate
+**步骤 7：优化**
+迭代调整：
+- 调整 WWR、玻璃 VLT、遮阳深度/角度
+- 测试替代策略（光棚、反射顶棚、导光管）
+- 平衡 sDA（提高）与 ASE（降低），两者经常存在冲突
+- 在关键视点和时段检查眩光（DGP）
+- 核查整个楼面的均匀度
 
-**Step 8: Integrate Electric Lighting**
-- Define daylight zones (perimeter, transition, core)
-- Specify daylight-linked dimming controls per zone
-- Size luminaires for supplementary operation (not full-output design)
-- Calculate blended lighting energy use (daylit hours + electric hours)
-- Specify circadian-appropriate CCT schedules
+**步骤 8：整合电照明**
+- 定义日光分区（周边、过渡、核心）
+- 为各分区规定日光联动调光控制
+- 按补充运行确定灯具尺寸（而非按满负荷设计）
+- 计算混合照明能耗（日光时段 + 电照明时段）
+- 规定符合昼夜节律的 CCT 时序
 
-### 6.2 Common Design Errors
+### 6.2 常见设计错误
 
-1. **Oversized windows without shading** — high sDA but ASE > 10%; glare complaints; overheating
-2. **Deep plan reliance on side-lighting alone** — DF drops below 0.5% beyond 8 m from facade
-3. **Dark interior finishes** — ceiling reflectance < 0.7 reduces IRC significantly; DF drops 20-40%
-4. **Ignoring furniture and partitions** — post-occupancy daylight lower than simulation predicts
-5. **North-only daylighting assumption** — possible only in narrow-plan buildings at temperate latitudes
-6. **Confusing DF with sDA** — DF is sky-condition static; sDA is annual dynamic; cannot be compared directly
-7. **Ignoring maintenance** — dirty glazing loses 10-30% VLT; external shading requires cleaning access
-8. **Under-commissioning controls** — daylight sensors installed but never calibrated; lights run at full power despite available daylight
+1. **窗户过大且无遮阳**——sDA 高但 ASE > 10%；产生眩光投诉和过热
+2. **大进深平面仅依靠侧向采光**——距立面超过 8 m 后 DF 降至 0.5% 以下
+3. **室内饰面过暗**——顶棚反射率 < 0.7 会显著降低 IRC，DF 下降 20–40%
+4. **忽略家具和隔断**——实际使用后的日光低于模拟预测
+5. **假定仅北向采光**——仅适用于温带纬度的窄进深建筑
+6. **混淆 DF 与 sDA**——DF 是静态天空条件指标，sDA 是全年动态指标，不能直接比较
+7. **忽略维护**——玻璃脏污会使 VLT 损失 10–30%；外遮阳需要清洁通道
+8. **控制系统调试不足**——日光传感器安装后从未校准；即使有日光，灯具仍满功率运行
 
-### 6.3 Recommended Surface Reflectances
+### 6.3 建议表面反射率
 
-| Surface | Minimum ρ | Recommended ρ | Notes |
+| 表面 | 最低 ρ | 建议 ρ | 备注 |
 |---|---|---|---|
-| Ceiling | 0.70 | 0.80-0.90 | White paint or tiles |
-| Walls (upper) | 0.50 | 0.60-0.80 | Light colors |
-| Walls (lower/dado) | 0.30 | 0.40-0.60 | Slightly darker acceptable |
-| Floor | 0.20 | 0.30-0.40 | Carpet 0.10-0.20 is problematic |
-| Furniture (desks) | 0.30 | 0.40-0.50 | Matte finish to avoid veiling reflections |
-| Window reveals | 0.60 | 0.70-0.85 | White splayed reveals best |
-| External ground | 0.15 | 0.20-0.30 | Grass 0.20; concrete 0.25-0.35; snow 0.70 |
+| 天花 | 0.70 | 0.80-0.90 | 白色涂料或瓷砖 |
+| 墙面（上部） | 0.50 | 0.60-0.80 | 浅色 |
+| 墙面（下部/墙裙） | 0.30 | 0.40-0.60 | 可接受略深颜色 |
+| 地面 | 0.20 | 0.30-0.40 | 地毯0.10-0.20不利于采光 |
+| 家具（桌面） | 0.30 | 0.40-0.50 | 采用哑光饰面，避免遮蔽反射 |
+| 窗洞口内壁 | 0.60 | 0.70-0.85 | 白色斜向洞口效果最佳 |
+| 室外地面 | 0.15 | 0.20-0.30 | 草地0.20；混凝土0.25-0.35；积雪0.70 |
 
-### 6.4 Glazing Selection Quick Reference
+### 6.4 玻璃选择速查
 
-| Glazing Type | VLT | SHGC | U-value (W/m²K) | Application |
+| 玻璃类型 | VLT | SHGC | U 值（W/m²K） | 应用 |
 |---|---|---|---|---|
-| Clear single | 0.87 | 0.86 | 5.8 | Heritage; mild climates only |
-| Clear double (air) | 0.79 | 0.70 | 2.8 | Residential basic |
-| Low-e double (argon) | 0.70 | 0.37 | 1.3 | Standard commercial |
-| Low-e triple (argon) | 0.60 | 0.30 | 0.7 | Passive House |
-| Low-e triple (krypton) | 0.62 | 0.28 | 0.5 | Ultra-low energy |
-| Solar control double | 0.42 | 0.25 | 1.4 | Hot climates, west facades |
-| Electrochromic (tinted) | 0.02-0.60 | 0.09-0.41 | 1.3-1.7 | Adaptive facades |
-| Translucent aerogel | 0.40-0.60 | 0.30-0.45 | 0.5-0.7 | Diffuse light, high insulation |
+| 透明单层 | 0.87 | 0.86 | 5.8 | 仅适用于历史建筑和温和气候 |
+| 透明双层（空气） | 0.79 | 0.70 | 2.8 | 基本住宅 |
+| 低辐射双层（氩气） | 0.70 | 0.37 | 1.3 | 标准商业建筑 |
+| 低辐射三层（氩气） | 0.60 | 0.30 | 0.7 | 被动房 |
+| 低辐射三层（氪气） | 0.62 | 0.28 | 0.5 | 超低能耗 |
+| 太阳控制双层 | 0.42 | 0.25 | 1.4 | 炎热气候、西向立面 |
+| 电致变色（着色） | 0.02-0.60 | 0.09-0.41 | 1.3-1.7 | 自适应立面 |
+| 半透明气凝胶 | 0.40-0.60 | 0.30-0.45 | 0.5-0.7 | 漫射采光、高保温 |
 
 ---
 
-## Section 7: Quick Reference — Daylighting Rules of Thumb
+## 第 7 节：日光设计经验法则速查
 
-1. Effective side-lit daylit zone depth = 2.0 × window head height
-2. Top-lighting aperture area = 3-5% of floor area for DF ≈ 2-4%
-3. Minimum room surface reflectance: ceiling 0.80, walls 0.50, floor 0.20
-4. WWR sweet spot for energy + daylight balance: 25-40%
-5. Light shelf effective throw = 1.5-2.0 × external shelf depth
-6. Overhang depth for full summer shade: D = H / tan(solar altitude at cutoff)
-7. sDA and ASE are inversely correlated: optimize both simultaneously
-8. Daylight-linked dimming saves 40-60% perimeter zone lighting energy
-9. Every 10% increase in VLT adds ~5% to sDA (all else equal)
-10. Dark floors (ρ < 0.2) reduce DF by 10-15% compared to light floors (ρ 0.3-0.4)
-11. 1% DF ≈ 100 lux under 10,000 lux overcast sky
-12. Courtyard W:H ≥ 1:2 for habitable daylight at base
-13. Clerestory light throw = 1.5-2.5 × clerestory head height above work plane
-14. Circadian stimulus requires ≥ 250 melanopic EDI at eye level for ≥ 4 hours/day
-15. Light pipe loses ~10% flux per 30° bend
+1. 有效侧向采光区深度 = 窗顶高度的 2.0 倍
+2. 顶部采光开口面积为楼面面积的 3–5% 时，DF ≈ 2–4%
+3. 房间表面最低反射率：顶棚 0.80、墙面 0.50、地面 0.20
+4. 能耗与采光平衡的 WWR 最佳范围：25–40%
+5. 光棚有效投射深度 = 外挑深度的 1.5–2.0 倍
+6. 实现夏季完全遮阳的挑檐深度：D = H / tan（截止太阳高度角）
+7. sDA 与 ASE 负相关，应同时优化
+8. 日光联动调光可节省周边区域 40–60% 的照明能耗
+9. 在其他条件不变时，VLT 每提高 10%，sDA 约提高 5%
+10. 与浅色地面（ρ 0.3–0.4）相比，深色地面（ρ < 0.2）使 DF 降低 10–15%
+11. 在 10,000 lux 阴天天空下，1% DF ≈ 100 lux
+12. 庭院 W:H ≥ 1:2，底部才能获得适合居住的日光
+13. 高侧窗光线投射深度 = 高侧窗窗顶至工作面的高度的 1.5–2.5 倍
+14. 昼夜节律刺激要求眼睛高度 M-EDI ≥ 250，且每天至少 4 小时
+15. 导光管每个 30° 弯头约损失 10% 光通量

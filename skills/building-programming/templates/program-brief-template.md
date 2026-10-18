@@ -1,37 +1,37 @@
-# Architectural Program Brief Template
+# 建筑策划任务书模板
 
-Use this template to develop a comprehensive architectural program brief. Complete all sections before commencing design. Sections marked [REQUIRED] must be completed; sections marked [IF APPLICABLE] are included when relevant to the project type.
+使用本模板编制完整的建筑策划任务书。设计开始前应完成所有章节。标记为 [REQUIRED] 的章节必须完成；标记为 [IF APPLICABLE] 的章节在项目类型适用时填写。
 
 ---
 
-## 1. Project Overview [REQUIRED]
+## 1. 项目概况 [REQUIRED]
 
-| Field | Content |
+| 字段 | 内容 |
 |-------|---------|
-| Project Name | |
-| Client / Owner | |
-| Project Address | |
-| Brief Author | |
-| Date Issued | |
-| Revision Number | |
-| Project Type | [New Build / Renovation / Extension / Change of Use] |
-| Building Type | [Residential / Office / Healthcare / Education / Hospitality / Retail / Cultural / Mixed-Use / Other] |
-| Anticipated Construction Start | |
-| Anticipated Completion | |
+| 项目名称 | |
+| 客户/业主 | |
+| 项目地址 | |
+| 任务书编制人 | |
+| 发布日期 | |
+| 修订编号 | |
+| 项目类型 | [新建/改造/扩建/用途变更] |
+| 建筑类型 | [住宅/办公/医疗/教育/酒店/零售/文化/混合使用/其他] |
+| 预计开工日期 | |
+| 预计竣工日期 | |
 
-### 1.1 Project Vision
-[One paragraph describing the client's aspirations, the building's purpose, and the intended user experience. This is the qualitative anchor for the quantitative program.]
+### 1.1 项目愿景
+[用一段话描述客户愿景、建筑用途及预期用户体验。这是定量策划内容的定性依据。]
 
-### 1.2 Key Objectives (Ranked by Priority)
-1. [Objective 1 -- e.g., Maximize net lettable area within zoning envelope]
-2. [Objective 2 -- e.g., Achieve BREEAM Excellent rating]
-3. [Objective 3 -- e.g., Deliver Phase 1 by Q3 2027]
-4. [Objective 4]
-5. [Objective 5]
+### 1.2 关键目标（按优先级排序）
+1. [目标 1 —— 例如：在规划控制范围内最大化可出租净面积]
+2. [目标 2 —— 例如：达到 BREEAM Excellent 等级]
+3. [目标 3 —— 例如：在 2027 年第三季度前完成第一阶段]
+4. [目标 4]
+5. [目标 5]
 
-### 1.3 Key Stakeholders
+### 1.3 主要利益相关方
 
-| Stakeholder | Role | Contact | Decision Authority |
+| 利益相关方 | 角色 | 联系方式 | 决策权限 |
 |-------------|------|---------|-------------------|
 | | | | |
 | | | | |
@@ -39,104 +39,104 @@ Use this template to develop a comprehensive architectural program brief. Comple
 
 ---
 
-## 2. Site Data [REQUIRED]
+## 2. 场地资料 [REQUIRED]
 
-| Parameter | Value | Source |
+| 参数 | 数值 | 来源 |
 |-----------|-------|--------|
-| Site Area (m2) | | Survey |
-| Buildable Area (m2) | | After setbacks, easements, protected features |
-| Zoning / Use Class | | Local planning authority |
-| Maximum Plot Ratio / FAR | | Zoning regulation |
-| Maximum Site Coverage (%) | | Zoning regulation |
-| Maximum Building Height (m / storeys) | | Zoning regulation |
-| Required Setbacks (front/side/rear, m) | | Zoning regulation |
-| Parking Requirement (spaces or ratio) | | Zoning regulation |
-| Existing Structures on Site | | Site survey |
-| Heritage / Conservation Constraints | | Planning authority |
-| Flood Risk Zone | | Environmental agency |
-| Ground Conditions Summary | | Geotechnical report |
-| Vehicular Access Points | | Transport assessment |
-| Pedestrian Access Points | | Site analysis |
-| Public Transport Access | | Transport assessment |
-| Utilities Available | [Gas / Electric / Water / Sewer / Telecoms / District Heating] | Utility companies |
-| Key Views / Orientation | | Site analysis |
-| Noise Sources | | Acoustic survey |
+| 用地面积（m2） | | 测量 |
+| 可建设面积（m2） | | 扣除退线、地役权和受保护要素后 |
+| 规划/使用分类 | | 当地规划主管部门 |
+| 最大容积率/FAR | | 规划规定 |
+| 最大用地覆盖率（%） | | 规划规定 |
+| 最大建筑高度（m/层） | | 规划规定 |
+| 要求退线（前/侧/后，m） | | 规划规定 |
+| 停车要求（车位数或配比） | | 规划规定 |
+| 场地现有构筑物 | | 场地测量 |
+| 遗产/保护约束 | | 规划主管部门 |
+| 洪水风险区 | | 环境主管机构 |
+| 地基条件摘要 | | 岩土工程报告 |
+| 机动车出入口 | | 交通评估 |
+| 步行出入口 | | 场地分析 |
+| 公共交通可达性 | | 交通评估 |
+| 可用市政设施 | [燃气/电力/给水/污水/通信/区域供热] | 公用事业单位 |
+| 重要景观/朝向 | | 场地分析 |
+| 噪声源 | | 声学测量 |
 
-### 2.1 Site Capacity Summary
+### 2.1 场地容量摘要
 
-| Calculation | Value |
+| 计算项目 | 数值 |
 |-------------|-------|
-| Maximum GEA per Floor (buildable area x coverage) | m2 |
-| Maximum Floors (height limit / floor-to-floor) | storeys |
-| Maximum Total GEA (GEA/floor x floors) | m2 |
-| Program GEA Required (from Section 3) | m2 |
-| Fit Ratio (Program / Maximum) | |
+| 每层最大 GEA（可建设面积 × 覆盖率） | m2 |
+| 最大楼层数（高度限值/层高） | 层 |
+| 最大 GEA 总量（每层 GEA × 层数） | m2 |
+| 策划所需 GEA（第 3 节） | m2 |
+| 适配率（策划/最大值） | |
 
 ---
 
-## 3. Space Program [REQUIRED]
+## 3. 空间策划 [REQUIRED]
 
-### 3.1 Area Schedule
+### 3.1 面积表
 
-| Ref | Space Name | Qty | Unit NIA (m2) | Total NIA (m2) | Occupants | Special Requirements |
+| 编号 | 空间名称 | 数量 | 单位 NIA（m2） | NIA 总量（m2） | 使用人数 | 特殊要求 |
 |-----|-----------|-----|--------------|----------------|-----------|---------------------|
-| **1.0** | **DEPARTMENT / ZONE A** | | | | | |
-| 1.1 | [Space Type] | | | | | |
-| 1.2 | [Space Type] | | | | | |
-| 1.3 | [Space Type] | | | | | |
-| | **Subtotal Zone A** | | | **0** | | |
-| **2.0** | **DEPARTMENT / ZONE B** | | | | | |
-| 2.1 | [Space Type] | | | | | |
-| 2.2 | [Space Type] | | | | | |
-| | **Subtotal Zone B** | | | **0** | | |
-| **3.0** | **DEPARTMENT / ZONE C** | | | | | |
-| 3.1 | [Space Type] | | | | | |
-| 3.2 | [Space Type] | | | | | |
-| | **Subtotal Zone C** | | | **0** | | |
+| **1.0** | **部门/区域 A** | | | | | |
+| 1.1 | [空间类型] | | | | | |
+| 1.2 | [空间类型] | | | | | |
+| 1.3 | [空间类型] | | | | | |
+| | **区域 A 小计** | | | **0** | | |
+| **2.0** | **部门/区域 B** | | | | | |
+| 2.1 | [空间类型] | | | | | |
+| 2.2 | [空间类型] | | | | | |
+| | **区域 B 小计** | | | **0** | | |
+| **3.0** | **部门/区域 C** | | | | | |
+| 3.1 | [空间类型] | | | | | |
+| 3.2 | [空间类型] | | | | | |
+| | **区域 C 小计** | | | **0** | | |
 | | | | | | | |
-| | **TOTAL NET INTERNAL AREA (NIA)** | | | **0** | | |
-| | Circulation (____%) | | | 0 | | |
-| | Structure (____%) | | | 0 | | |
-| | Core & Services (____%) | | | 0 | | |
-| | **TOTAL GROSS INTERNAL AREA (GIA)** | | | **0** | | |
-| | External Walls (____%) | | | 0 | | |
-| | **TOTAL GROSS EXTERNAL AREA (GEA)** | | | **0** | | |
+| | **净内部面积总计（NIA）** | | | **0** | | |
+| | 交通空间（____%） | | | 0 | | |
+| | 结构（____%） | | | 0 | | |
+| | 核心筒与服务空间（____%） | | | 0 | | |
+| | **总内部面积（GIA）** | | | **0** | | |
+| | 外墙（____%） | | | 0 | | |
+| | **总外部面积（GEA）** | | | **0** | | |
 
-### 3.2 Net-to-Gross Calculation
+### 3.2 净总面积计算
 
-| Metric | Value | Benchmark |
+| 指标 | 数值 | 基准 |
 |--------|-------|-----------|
-| Total NIA | m2 | -- |
-| Total GIA | m2 | -- |
-| NTG Ratio | | [Enter benchmark for building type] |
-| Circulation % of GIA | % | [Enter benchmark] |
-| Core % of GIA | % | [Enter benchmark] |
-| Structure % of GIA | % | [Enter benchmark] |
+| NIA 总量 | m2 | -- |
+| GIA 总量 | m2 | -- |
+| NTG 比率 | | [填写该建筑类型的基准] |
+| 交通空间占 GIA | % | [填写基准] |
+| 核心筒占 GIA | % | [填写基准] |
+| 结构占 GIA | % | [填写基准] |
 
 ### 3.3 External Areas [IF APPLICABLE]
 
 | Space | Area (m2) | Notes |
 |-------|-----------|-------|
-| Car Parking (surface) | | [Spaces x 25 m2/space incl. aisles] |
-| Car Parking (structured) | | [Spaces x 30 m2/space incl. ramps] |
-| Bicycle Parking | | |
-| Loading / Service Yard | | |
-| Landscaped Areas | | |
-| Play Space | | |
-| Outdoor Dining / Terrace | | |
-| **Total External Area** | **0** | |
+| 地面停车 | | [车位数 × 25 m2/车位，含车道] |
+| 车库停车 | | [车位数 × 30 m2/车位，含坡道] |
+| 自行车停车 | | |
+| 装卸/服务场地 | | |
+| 景观区域 | | |
+| 游戏场地 | | |
+| 室外餐饮/露台 | | |
+| **外部面积总计** | **0** | |
 
 ---
 
-## 4. Adjacency Requirements [REQUIRED]
+## 4. 邻接要求 [REQUIRED]
 
-### 4.1 Adjacency Matrix
+### 4.1 邻接矩阵
 
-Complete the half-matrix using the scoring system:
-- 4 = Essential (must be directly adjacent)
-- 3 = Desirable (should be nearby)
-- 2 = Neutral
-- 1 = Undesirable (should be separated)
+使用以下评分系统填写半矩阵：
+- 4 = 必要（必须直接相邻）
+- 3 = 理想（应当邻近）
+- 2 = 中性
+- 1 = 不理想（应当分隔）
 
 |  | Zone A | Zone B | Zone C | Zone D | Zone E |
 |--|-------:|-------:|-------:|-------:|-------:|
@@ -146,160 +146,160 @@ Complete the half-matrix using the scoring system:
 | Zone D | -- | -- | -- | -- | |
 | Zone E | -- | -- | -- | -- | -- |
 
-### 4.2 Critical Adjacencies (Score 4)
-List all essential adjacency pairs and the reason:
+### 4.2 关键邻接（评分 4）
+列出所有必要的邻接组合及原因：
 
-| Pair | Reason |
+| 组合 | 原因 |
 |------|--------|
-| [Zone A] -- [Zone B] | [e.g., Direct patient transfer required] |
+| [区域 A] —— [区域 B] | [例如：需要直接转运患者] |
 | | |
 
-### 4.3 Critical Separations (Score 1)
-List all required separations and the reason:
+### 4.3 关键分隔（评分 1）
+列出所有必须分隔的组合及原因：
 
-| Pair | Reason |
+| 组合 | 原因 |
 |------|--------|
-| [Zone C] -- [Zone E] | [e.g., Noise conflict -- music rooms vs. library] |
+| [区域 C] —— [区域 E] | [例如：噪声冲突——音乐教室与图书馆] |
 | | |
 
-### 4.4 Stacking Preferences
+### 4.4 竖向分层偏好
 
-| Floor | Preferred Departments | Reason |
+| 楼层 | 优先布置部门 | 原因 |
 |-------|----------------------|--------|
-| Basement | | |
-| Ground | | |
-| 1st Floor | | |
-| 2nd Floor | | |
-| Upper Floors | | |
-| Roof | | |
+| 地下层 | | |
+| 首层 | | |
+| 二层 | | |
+| 三层 | | |
+| 上部楼层 | | |
+| 屋面 | | |
 
 ---
 
-## 5. Special Requirements [IF APPLICABLE]
+## 5. 特殊要求 [IF APPLICABLE]
 
-### 5.1 Structural
+### 5.1 结构
 
-| Requirement | Spaces Affected | Value |
+| 要求 | 受影响空间 | 数值 |
 |-------------|----------------|-------|
-| Imposed Floor Load (kN/m2) | | [Standard: 2.5 office, 3.0 assembly, 5.0+ storage] |
-| Column-Free Spans (m) | | [e.g., Ballroom: 24m clear span] |
-| Vibration Criteria | | [e.g., VC-A for microscope labs] |
-| Floor-to-Floor Height (m) | | [e.g., 3.9m office, 4.5m retail, 3.0m residential] |
+| 楼面活荷载（kN/m2） | | [标准：办公 2.5，集会 3.0，仓储 5.0+] |
+| 无柱跨度（m） | | [例如：宴会厅净跨度 24m] |
+| 振动标准 | | [例如：显微镜实验室采用 VC-A] |
+| 层高（m） | | [例如：办公 3.9m、零售 4.5m、住宅 3.0m] |
 
-### 5.2 Environmental
+### 5.2 环境
 
-| Requirement | Spaces Affected | Value |
+| 要求 | 受影响空间 | 数值 |
 |-------------|----------------|-------|
-| Temperature (deg C) | | [e.g., Server room: 18-24 deg C] |
-| Relative Humidity (%) | | [e.g., Archive: 45-55% RH] |
-| Air Changes per Hour | | [e.g., Operating theatre: 25 ACH] |
-| Acoustic (dB / STC) | | [e.g., Music room: STC 50 walls] |
-| Lighting (lux) | | [e.g., Office: 500 lux task, 300 lux ambient] |
-| Vibration | | [e.g., Concert hall: VC-C background] |
+| 温度（摄氏度） | | [例如：服务器机房 18-24 摄氏度] |
+| 相对湿度（%） | | [例如：档案室 45-55% RH] |
+| 每小时换气次数 | | [例如：手术室 25 ACH] |
+| 声学（dB/STC） | | [例如：音乐室墙体 STC 50] |
+| 照度（lux） | | [例如：办公任务照明 500 lux、环境照明 300 lux] |
+| 振动 | | [例如：音乐厅背景 VC-C] |
 
-### 5.3 Technology
+### 5.3 技术系统
 
-| Requirement | Spaces Affected | Notes |
+| 要求 | 受影响空间 | 备注 |
 |-------------|----------------|-------|
-| AV/Presentation Systems | | |
-| Specialist Data / Network | | |
-| Security / Access Control | | |
-| CCTV Coverage | | |
-| Building Management System | | |
-| Specialist Equipment | | [List fixed equipment with spatial implications] |
+| AV/演示系统 | | |
+| 专用数据/网络 | | |
+| 安防/门禁控制 | | |
+| CCTV 覆盖 | | |
+| 建筑管理系统 | | |
+| 专用设备 | | [列出对空间有影响的固定设备] |
 
-### 5.4 Accessibility
+### 5.4 无障碍
 
-| Requirement | Standard | Notes |
+| 要求 | 标准 | 备注 |
 |-------------|----------|-------|
-| Wheelchair-Accessible Units (%) | | [e.g., 10% of residential units per Part M Cat 3] |
-| Accessible WCs | | [Number and locations] |
-| Hearing Loops | | [Rooms with public address] |
-| Changing Places Facility | | [Required for buildings > certain size/public use] |
-| Wayfinding / Signage | | [Tactile, Braille, high contrast] |
+| 轮椅无障碍单元（%） | | [例如：按 Part M Cat 3，住宅单元的 10%] |
+| 无障碍卫生间 | | [数量和位置] |
+| 助听环路 | | [设有公共广播的房间] |
+| Changing Places 设施 | | [达到特定规模/公共用途的建筑必须设置] |
+| 导向/标识 | | [触觉、盲文、高对比度] |
 
 ---
 
-## 6. Environmental Targets [REQUIRED]
+## 6. 环境目标 [REQUIRED]
 
-| Target | Value | Standard/Benchmark |
+| 目标 | 数值 | 标准/基准 |
 |--------|-------|-------------------|
-| Certification Target | | [LEED Gold / BREEAM Excellent / Passive House / WELL Gold / Other] |
-| Energy Use Intensity (kWh/m2/yr) | | [Benchmark for type] |
-| Carbon Target (kgCO2/m2/yr) | | [Operational carbon] |
-| Embodied Carbon (kgCO2e/m2) | | [LETI target: < 350 residential, < 500 commercial] |
-| Water Consumption (l/person/day) | | [BREEAM: < 12.5 l/m2/yr office] |
-| Renewable Energy (%) | | [On-site generation target] |
-| Overheating Compliance | | [CIBSE TM59 / TM52 / Passive House] |
-| Daylight Target | | [Min Average Daylight Factor or spatial daylight autonomy] |
-| Biodiversity Net Gain (%) | | [UK: min 10% BNG] |
-| WELL Features | | [Air, water, nourishment, light, movement, comfort, mind] |
+| 认证目标 | | [LEED Gold/BREEAM Excellent/Passive House/WELL Gold/其他] |
+| 能源使用强度（kWh/m2/年） | | [该类型基准] |
+| 碳目标（kgCO2/m2/年） | | [运行碳] |
+| 隐含碳（kgCO2e/m2） | | [LETI 目标：住宅 < 350，商业 < 500] |
+| 用水量（升/人/日） | | [BREEAM：办公 < 12.5 l/m2/年] |
+| 可再生能源（%） | | [现场发电目标] |
+| 过热合规 | | [CIBSE TM59/TM52/Passive House] |
+| 采光目标 | | [平均采光系数下限或空间日光自主性] |
+| 生物多样性净增益（%） | | [英国：BNG 至少 10%] |
+| WELL 特征 | | [空气、水、营养、光、运动、舒适、心智] |
 
 ---
 
-## 7. Budget Parameters [REQUIRED]
+## 7. 预算参数 [REQUIRED]
 
-| Parameter | Value | Source |
+| 参数 | 数值 | 来源 |
 |-----------|-------|--------|
-| Total Project Budget (excl. land) | | Client |
-| Construction Budget | | [Typically 60-70% of total] |
-| Construction Cost per m2 (GIA) | | [BCIS / Turner & Townsend / local benchmarks] |
-| Professional Fees (%) | | [Typically 10-15%] |
-| Contingency (%) | | [Design: 10-15%, Construction: 5-10%] |
-| FF&E Budget | | [Furniture, fixtures, equipment] |
-| IT/AV Budget | | |
-| External Works Budget | | [Landscaping, parking, utilities] |
-| Inflation Allowance (% per annum) | | [Applied to mid-point of construction] |
+| 项目总预算（土地除外） | | 客户 |
+| 建造预算 | | [通常占总额 60-70%] |
+| 每平方米建造成本（GIA） | | [BCIS/Turner & Townsend/当地基准] |
+| 专业服务费（%） | | [通常 10-15%] |
+| 不可预见费（%） | | [设计：10-15%，施工：5-10%] |
+| FF&E 预算 | | [家具、固定装置、设备] |
+| IT/AV 预算 | | |
+| 室外工程预算 | | [景观、停车、市政设施] |
+| 通货膨胀预留（%/年） | | [按施工中点应用] |
 
-### 7.1 Budget Alignment Check
+### 7.1 预算匹配检查
 
-| Calculation | Value |
+| 计算项目 | 数值 |
 |-------------|-------|
-| Program GIA (from Section 3) | m2 |
-| Construction Cost/m2 Benchmark | per m2 |
-| Estimated Construction Cost | |
-| All-in Project Cost (x 1.35-1.50) | |
-| Client Budget | |
-| Variance (%) | % |
-| Status | [ALIGNED / OVER / UNDER] |
+| 策划 GIA（第 3 节） | m2 |
+| 建造单方成本基准 | 每 m2 |
+| 估算建造成本 | |
+| 项目全包成本（× 1.35-1.50） | |
+| 客户预算 | |
+| 偏差（%） | % |
+| 状态 | [匹配/超支/结余] |
 
 ---
 
-## 8. Phasing [IF APPLICABLE]
+## 8. 分期实施 [IF APPLICABLE]
 
-| Phase | Scope | GIA (m2) | Target Completion | Notes |
+| 阶段 | 范围 | GIA（m2） | 目标完成时间 | 备注 |
 |-------|-------|----------|-------------------|-------|
-| Phase 1 | | | | [Must be functionally complete] |
-| Phase 2 | | | | |
-| Phase 3 | | | | |
-| Future Expansion | | | | [Identify reserved land/structure] |
+| 第一阶段 | | | | [必须具备完整功能] |
+| 第二阶段 | | | | |
+| 第三阶段 | | | | |
+| 未来扩建 | | | | [标明预留用地/结构] |
 
-### 8.1 Phasing Constraints
-- [Each phase must have independent access, services, and fire egress]
-- [Phase 1 must include all shared infrastructure (main plant, car park access, primary circulation)]
-- [Structure must accommodate future phases without modification]
-- [Temporary conditions during phased construction must be safe and functional]
+### 8.1 分期约束
+- [每个阶段必须具备独立的出入口、设备服务和消防疏散]
+- [第一阶段必须包含所有共享基础设施（主机房、停车场出入口、主要交通空间）]
+- [结构应能容纳未来阶段，无需改造]
+- [分期施工期间的临时状态必须安全且具备功能]
 
 ---
 
-## 9. Approvals
+## 9. 审批
 
-| Role | Name | Signature | Date |
+| 角色 | 姓名 | 签名 | 日期 |
 |------|------|-----------|------|
-| Client Representative | | | |
-| Project Architect | | | |
-| Quantity Surveyor | | | |
-| Building Services Engineer | | | |
-| Structural Engineer | | | |
+| 客户代表 | | | |
+| 项目建筑师 | | | |
+| 工料测量师 | | | |
+| 建筑设备工程师 | | | |
+| 结构工程师 | | | |
 
-### 9.1 Revision History
+### 9.1 修订记录
 
-| Rev | Date | Author | Description of Change |
+| 修订 | 日期 | 作者 | 变更说明 |
 |-----|------|--------|-----------------------|
-| A | | | Initial issue |
-| B | | | [Description] |
-| C | | | [Description] |
+| A | | | 首次发布 |
+| B | | | [说明] |
+| C | | | [说明] |
 
 ---
 
-*This program brief is a living document. Any changes after client sign-off require a formal variation with impact assessment on area, cost, schedule, and compliance.*
+*本策划任务书为动态文件。客户签字确认后发生的任何变更，都必须通过正式变更流程，并评估其对面积、成本、进度和合规性的影响。*

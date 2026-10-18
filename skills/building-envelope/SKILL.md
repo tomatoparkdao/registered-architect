@@ -1,338 +1,333 @@
 ---
 name: building-envelope
 description: >
-  Building envelope design: wall systems (masonry, timber, steel, CLT, curtain
-  wall, rainscreen, precast, SIPs, ICF), glazing systems (single to triple,
-  low-e coatings, gas fills, framing types), roofing (flat, pitched, green,
-  membrane), thermal performance (U-value, R-value, SHGC, air permeability),
-  moisture management (vapor barriers, condensation risk, Glaser method),
-  air barriers, cladding, and thermal bridge prevention.
+  建筑围护结构设计：墙体系统（砌体、木、钢、CLT、幕墙、雨屏、预制、SIPs、ICF）、玻璃系统（单玻至三玻、低辐射镀膜、气体填充、框型）、屋面（平屋面、坡屋面、绿化屋面、膜屋面）、热工性能（U 值、R 值、SHGC、空气渗透性）、湿度管理（隔汽层、结露风险、Glaser 法）、气密层、外饰面和热桥预防。
 ---
 
-# Building Envelope
+# 建筑围护结构
 
-## Section 1: Envelope Performance Requirements
+## 第1节：围护结构性能要求
 
-The building envelope is the critical interface between interior and exterior environments. It must simultaneously perform four functions:
+建筑围护结构是室内与室外环境之间的关键界面，必须同时承担四项功能：
 
-1. **Structural support:** Transfer wind loads, dead loads (self-weight + cladding), and seismic forces to the primary structure. Resist impact loads (wind-borne debris in hurricane zones).
-2. **Weather protection:** Exclude rain, snow, wind, and UV radiation. Manage moisture in all three phases (liquid water, water vapor, ice).
-3. **Thermal and energy performance:** Control heat flow (conduction, convection, radiation), solar gain, air leakage, and condensation. The envelope accounts for 25–50% of total building energy consumption.
-4. **Aesthetics and identity:** The facade is the public face of the building. Material, proportion, texture, color, and transparency define architectural character.
+1. **结构支承：**将风荷载、恒荷载（自重+饰面）和地震作用传递至主体结构；抵抗冲击荷载（飓风区的风致飞散物）。
+2. **天气防护：**排除雨、雪、风和紫外线辐射，管理液态水、水蒸气和冰三种状态的水分。
+3. **热工与能源性能：**控制热流（传导、对流、辐射）、太阳得热、空气渗漏和结露。围护结构约占建筑总能耗的25-50%。
+4. **美学与识别性：**立面是建筑面向公众的界面；材料、比例、肌理、色彩和透明度共同定义建筑特征。
 
-### 1.1 Performance Metrics
+### 1.1 性能指标
 
-| Metric | Unit | Description |
+| 指标 | 单位 | 说明 |
 |---|---|---|
-| U-value | W/m²K | Thermal transmittance (lower = better insulation) |
-| R-value | m²K/W | Thermal resistance (higher = better insulation); R = 1/U |
-| g-value (SHGC) | Dimensionless (0–1) | Solar heat gain coefficient — fraction of solar energy transmitted through glazing |
-| VLT | % | Visible light transmittance through glazing |
-| Air permeability | m³/h/m² at 50 Pa | Air leakage rate through envelope at 50 Pa pressure differential |
-| Vapor resistance | MNs/g or sd (m) | Resistance to water vapor diffusion |
-| Rw | dB | Weighted sound reduction index (acoustic) |
-| Fire rating | Minutes/hours | Time the assembly maintains integrity and insulation in fire |
+| U 值 | W/m²K | 传热系数（越低保温越好） |
+| R 值 | m²K/W | 热阻（越高保温越好）；R = 1/U |
+| g 值（SHGC） | 无量纲（0–1） | 太阳得热系数——太阳能透过玻璃的比例 |
+| VLT | % | 玻璃可见光透射率 |
+| 空气渗透性 | 50 Pa 下 m³/h/m² | 50 Pa 压差下围护结构的漏风率 |
+| 蒸汽阻力 | MNs/g 或 sd（m） | 对水蒸气扩散的阻力 |
+| Rw | dB | 加权隔声指数 |
+| 耐火等级 | 分钟／小时 | 构造在火灾中保持完整性和隔热性的时间 |
 
-### 1.2 Climate-Specific Performance Targets
+### 1.2 按气候划分的性能目标
 
-**Hot-arid climate (ASHRAE CZ 1B–3B, e.g., Riyadh, Phoenix):**
-- Wall U-value: ≤0.35 W/m²K
-- Roof U-value: ≤0.20 W/m²K
-- Window U-value: ≤2.4 W/m²K (double glazed, solar control)
-- SHGC: ≤0.25 (critical — solar rejection is primary concern)
-- Shading: external shading devices essential; shading coefficient 0.3–0.5
-- Thermal mass: beneficial for diurnal temperature swing damping (>300 kg/m² desirable)
-- Air permeability: ≤3.0 m³/h/m² at 50 Pa (sand/dust exclusion)
-- Key strategy: reject solar radiation, provide thermal mass, shade all glazing, minimize WWR to 25–35%
+**炎热干旱气候（ASHRAE CZ 1B-3B，例如利雅得、菲尼克斯）：**
+- 墙体U值：≤0.35 W/m²K
+- 屋面U值：≤0.20 W/m²K
+- 窗U值：≤2.4 W/m²K（双层玻璃，太阳控制）
+- SHGC：≤0.25（关键——太阳辐射遮蔽是首要问题）
+- 遮阳：必须设置外遮阳装置；遮阳系数0.3-0.5
+- 热惰性：有利于削弱昼夜温度波动（宜>300 kg/m²）
+- 空气渗透率：50 Pa下≤3.0 m³/h/m²（阻隔沙尘）
+- 核心策略：阻挡太阳辐射、提供热惰性、所有玻璃设置遮阳，并将窗墙比WWR控制在25-35%
 
-**Hot-humid climate (ASHRAE CZ 1A–2A, e.g., Singapore, Miami):**
-- Wall U-value: ≤0.45 W/m²K
-- Roof U-value: ≤0.25 W/m²K
-- Window U-value: ≤2.4 W/m²K
-- SHGC: ≤0.25
-- Ventilation: critical — cross-ventilation design, operable windows where security permits
-- Vapor control: vapor barrier on exterior side of insulation (vapor drive inward)
-- Air permeability: ≤5.0 m³/h/m² at 50 Pa
-- Key strategy: reject solar gain, manage humidity, enable natural ventilation, prevent condensation on cold AC surfaces
+**炎热湿润气候（ASHRAE CZ 1A-2A，例如新加坡、迈阿密）：**
+- 墙体U值：≤0.45 W/m²K
+- 屋面U值：≤0.25 W/m²K
+- 窗U值：≤2.4 W/m²K
+- SHGC：≤0.25
+- 通风：至关重要——设计穿堂风，在安全允许时设置可开启窗
+- 蒸汽控制：保温层外侧设置隔汽层（蒸汽向内驱动）
+- 空气渗透率：50 Pa下≤5.0 m³/h/m²
+- 核心策略：阻挡太阳得热、控制湿度、实现自然通风，防止空调冷表面结露
 
-**Temperate climate (ASHRAE CZ 4A–5A, e.g., London, New York):**
-- Wall U-value: ≤0.18 W/m²K (UK Building Regs Part L 2021: 0.18)
-- Roof U-value: ≤0.13 W/m²K (Part L: 0.11)
-- Window U-value: ≤1.2 W/m²K (Part L: 1.2)
-- SHGC: 0.25–0.40 (balance winter gain with summer overheating)
-- Air permeability: ≤5.0 m³/h/m² at 50 Pa (Part L: 8.0 max, 5.0 recommended)
-- Key strategy: balance heat loss prevention with solar gain utilization; avoid summer overheating; continuous insulation with airtight layer
+**温带气候（ASHRAE CZ 4A-5A，例如伦敦、纽约）：**
+- 墙体U值：≤0.18 W/m²K（英国建筑法规Part L 2021：0.18）
+- 屋面U值：≤0.13 W/m²K（Part L：0.11）
+- 窗U值：≤1.2 W/m²K（Part L：1.2）
+- SHGC：0.25-0.40（平衡冬季得热与夏季过热）
+- 空气渗透率：50 Pa下≤5.0 m³/h/m²（Part L最大8.0，建议5.0）
+- 核心策略：平衡防止热损失与利用太阳得热，避免夏季过热，采用连续保温和气密层
 
-**Cold climate (ASHRAE CZ 6A–8, e.g., Stockholm, Montreal):**
-- Wall U-value: ≤0.15 W/m²K
-- Roof U-value: ≤0.10 W/m²K
-- Window U-value: ≤0.80 W/m²K (triple glazing essential)
-- SHGC: 0.40–0.60 (maximize passive solar gain on south facades)
-- Air permeability: ≤1.0 m³/h/m² at 50 Pa
-- Key strategy: maximize insulation, eliminate thermal bridges, airtight construction, triple glazing, maximize south-facing glazing, MVHR essential
+**寒冷气候（ASHRAE CZ 6A-8，例如斯德哥尔摩、蒙特利尔）：**
+- 墙体U值：≤0.15 W/m²K
+- 屋面U值：≤0.10 W/m²K
+- 窗U值：≤0.80 W/m²K（三玻是必要条件）
+- SHGC：0.40-0.60（最大化南向立面的被动太阳得热）
+- 空气渗透率：50 Pa下≤1.0 m³/h/m²
+- 核心策略：最大化保温、消除热桥、气密建造、采用三玻，最大化南向玻璃面积，必须设置带热回收的机械通风（MVHR）
 
-**Passive House standard (all climates):**
-- Wall U-value: ≤0.15 W/m²K
-- Roof U-value: ≤0.10 W/m²K
-- Floor U-value: ≤0.15 W/m²K
-- Window U-value: ≤0.80 W/m²K (installed, including frame)
-- SHGC: ≥0.50 for south-facing (maximize passive solar)
-- Air permeability: ≤0.6 ach at 50 Pa (entire building, blower door test)
+**被动房标准（所有气候）：**
+- 墙体U值：≤0.15 W/m²K
+- 屋面U值：≤0.10 W/m²K
+- 地板U值：≤0.15 W/m²K
+- 窗U值：≤0.80 W/m²K（安装后含窗框）
+- SHGC：南向≥0.50（最大化被动太阳能）
+- 空气渗透率：50 Pa下≤0.6 ach（整栋建筑，鼓风门测试）
 - Thermal bridges: ψ ≤0.01 W/mK at all junctions ("thermal bridge free")
 - Heating demand: ≤15 kWh/m²/year
 - Primary energy demand: ≤60 kWh/m²/year (PER: 120 kWh/m²/year)
 
 ---
 
-## Section 2: Wall Systems
+## 第2节：墙体系统
 
-### 2.1 Masonry Cavity Wall (Brick–Insulation–Block)
+### 2.1 砌体空腔墙（砖-保温-砌块）
 
-**Build-up (outside to inside):**
-102.5 mm facing brick → 50 mm clear cavity → 100–150 mm mineral wool / PIR insulation → 140 mm concrete block → 12.5 mm plaster
+**构造层次（由外至内）：**
+102.5 mm 面砖 → 50 mm 清洁空腔 → 100–150 mm 矿棉 / PIR 保温 → 140 mm 混凝土砌块 → 12.5 mm 抹灰
 
-**Performance:**
-- Total thickness: 405–455 mm
-- U-value: 0.18–0.25 W/m²K (depending on insulation thickness)
-- Fire rating: 120+ minutes (non-combustible throughout)
-- Acoustic: Rw 50–55 dB
-- Embodied carbon: 80–120 kgCO2e/m²
-- Cost range: $150–250/m² (materials + labor)
-- Best-fit: Residential, low-to-mid-rise commercial, institutional (UK/Northern Europe tradition)
-- Advantages: Durable (100+ year lifespan), low maintenance, good thermal mass, familiar to trades
-- Disadvantages: Slow to construct (wet trade), heavy (self-weight ~350 kg/m²), limited height without support (typically max 15 m without lateral restraint intervals at 9 m)
+**性能：**
+- 总厚度：405–455 mm。
+- U 值：0.18–0.25 W/m²K（取决于保温厚度）。
+- 耐火极限：120 分钟以上（全构造不燃）。
+- 隔声：Rw 50–55 dB。
+- 隐含碳：80–120 kgCO2e/m²。
+- 成本范围：$150–250/m²（材料+人工）。
+- 适用：住宅、中低层商业、公共建筑（英国/北欧传统做法）。
+- 优点：耐久（寿命 100 年以上）、维护少、热惰性好、施工人员熟悉。
+- 缺点：施工慢（湿作业）、自重大（约 350 kg/m²）、无支撑时高度受限（通常最大 15 m，且每 9 m 需设置侧向约束间隔）。
 
-### 2.2 Insulated Concrete Form (ICF)
+### 2.2 保温混凝土模板（ICF）
 
-**Build-up:** 50–100 mm EPS formwork (external) → 150–300 mm reinforced concrete core → 50–100 mm EPS formwork (internal) → plasterboard finish
+**构造层次：**外侧50-100 mm EPS模板→150-300 mm钢筋混凝土芯体→内侧50-100 mm EPS模板→石膏板饰面
 
-**Performance:**
-- Total thickness: 300–500 mm
-- U-value: 0.11–0.20 W/m²K
-- Fire rating: 120–240 minutes (concrete core)
-- Acoustic: Rw 50–58 dB
-- Embodied carbon: 120–180 kgCO2e/m² (high due to concrete)
-- Cost range: $180–300/m²
-- Best-fit: Residential, schools, swimming pools, buildings requiring high thermal mass and security
-- Advantages: Fast construction (formwork stays in place), excellent airtightness, good thermal mass, no cold bridging through structure
-- Disadvantages: Requires skilled contractors, EPS is combustible (requires protection), heavy, difficult to modify post-construction
+**性能：**
+- 总厚度：300–500 mm。
+- U 值：0.11–0.20 W/m²K。
+- 耐火极限：120–240 分钟（混凝土芯体）。
+- 隔声：Rw 50–58 dB。
+- 隐含碳：120–180 kgCO2e/m²（混凝土导致数值较高）。
+- 成本范围：$180–300/m²。
+- 适用：住宅、学校、游泳馆及要求高热惰性和高安全性的建筑。
+- 优点：施工快（模板永久留置）、气密性优异、热惰性好、结构无冷桥。
+- 缺点：需要熟练承包商；EPS 可燃（需采取保护措施）；自重大；竣工后难以改造。
 
-### 2.3 Timber Frame (Platform Frame)
+### 2.3 木框架（平台框架）
 
-**Build-up:** Cladding (variable) → 25 mm ventilated cavity → breather membrane → 9 mm OSB sheathing → 140 mm timber studs with mineral wool between → VCL → 12.5 mm plasterboard
+**构造层次：**外饰面（可变）→25 mm通风空腔→透汽膜→9 mm OSB覆板→140 mm木龙骨（内填矿棉）→隔汽层→12.5 mm石膏板
 
-**Performance:**
-- Total thickness: 250–350 mm (plus external cladding)
-- U-value: 0.18–0.25 W/m²K (with 140 mm studs); 0.12–0.15 with additional external insulation
-- Fire rating: 30–60 minutes (with plasterboard protection; 2 layers = 60 min)
-- Acoustic: Rw 40–48 dB (improved with resilient bars + additional board)
-- Embodied carbon: 25–50 kgCO2e/m² (carbon sequestration in timber offsets)
-- Cost range: $120–200/m²
-- Best-fit: Residential (up to 7 storeys with fire engineering), low-rise commercial, schools
-- Advantages: Lightweight, fast erection (prefab panels), low embodied carbon, good insulation between studs, dry construction
-- Disadvantages: Moisture-sensitive (requires careful detailing), limited height without CLT/glulam, acoustic performance requires careful design, thermal bridging through studs (0.15 W/mK vs 0.04 for insulation)
+**性能：**
+- 总厚度：250–350 mm（另加外饰面）。
+- U 值：0.18–0.25 W/m²K（140 mm 龙骨）；增加外保温后为 0.12–0.15。
+- 耐火极限：30–60 分钟（石膏板保护；双层可达 60 分钟）。
+- 隔声：Rw 40–48 dB（配弹性龙骨和增加板层可提高）。
+- 隐含碳：25–50 kgCO2e/m²（木材固碳可抵消部分碳排放）。
+- 成本范围：$120–200/m²。
+- 适用：住宅（经防火工程设计可达 7 层）、低层商业、学校。
+- 优点：轻质、安装快（预制板）、隐含碳低、龙骨间保温好、干式施工。
+- 缺点：对潮湿敏感（需精细节点）；无 CLT/胶合木时高度受限；隔声需专项设计；龙骨形成热桥（0.15 W/mK，而保温材料为 0.04）。
 
-### 2.4 Steel Frame with Infill
+### 2.4 钢框架填充墙
 
-**Build-up:** Cladding → 50 mm cavity → breather membrane → 100–150 mm insulation (between steel studs) → vapor barrier → 12.5–15 mm plasterboard
+**构造层次：**外饰面→50 mm空腔→透汽膜→100-150 mm保温层（钢龙骨之间）→隔汽层→12.5-15 mm石膏板
 
-**Performance:**
-- Total thickness: 200–350 mm
-- U-value: 0.20–0.35 W/m²K (severe thermal bridging through steel studs without thermal break)
-- Fire rating: 30–120 minutes (with fire-rated board linings)
-- Acoustic: Rw 42–50 dB
-- Embodied carbon: 60–100 kgCO2e/m²
-- Cost range: $130–220/m²
-- Best-fit: Commercial, industrial, healthcare, fast-track projects, high-rise infill panels
-- Advantages: Lightweight, non-combustible, fast erection, spans large openings
-- Disadvantages: High thermal bridging (steel studs conduct 50x more than timber); requires thermal break clips or continuous external insulation; corrosion risk
+**性能：**
+- 总厚度：200–350 mm。
+- U 值：0.20–0.35 W/m²K（无断热时钢龙骨形成严重热桥）。
+- 耐火极限：30–120 分钟（配防火板衬层）。
+- 隔声：Rw 42–50 dB。
+- 隐含碳：60–100 kgCO2e/m²。
+- 成本范围：$130–220/m²。
+- 适用：商业、工业、医疗、快速建造项目及高层填充墙板。
+- 优点：轻质、不燃、安装快、可跨越大洞口。
+- 缺点：热桥严重（钢龙骨导热约为木材 50 倍）；需断热卡件或连续外保温；存在腐蚀风险。
 
-### 2.5 Structural Insulated Panels (SIPs)
+### 2.5 结构保温板（SIPs）
 
-**Build-up:** 11 mm OSB → 117–217 mm EPS/PUR core → 11 mm OSB. External cladding and internal finishing applied on site.
+**构造层次：**11 mm OSB→117-217 mm EPS/PUR芯材→11 mm OSB。外饰面和内饰面在现场施工。
 
-**Performance:**
-- Total thickness: 139–239 mm (panel only) + cladding + internal finish
-- U-value: 0.12–0.20 W/m²K
-- Fire rating: 30 minutes (OSB faces); requires additional lining for 60 min
-- Acoustic: Rw 32–38 dB (lightweight — requires additional mass)
-- Embodied carbon: 35–65 kgCO2e/m²
-- Cost range: $140–230/m²
-- Best-fit: Residential, modular buildings, self-build, fast-track low-rise construction
-- Advantages: Excellent airtightness (factory-sealed joints), fast erection (panels pre-cut), no thermal bridging (continuous insulation), good structural performance (stressed-skin)
-- Disadvantages: EPS/PUR core is combustible, OSB is moisture-sensitive, limited to low-rise (typically 3–4 storeys), difficult to modify, acoustic performance requires supplementation
+**性能：**
+- 总厚度：139–239 mm（仅板材）+ 外饰面 + 内饰面。
+- U 值：0.12–0.20 W/m²K。
+- 耐火极限：30 分钟（OSB 面层）；达到 60 分钟需增加衬层。
+- 隔声：Rw 32–38 dB（构造轻质，需增加质量）。
+- 隐含碳：35–65 kgCO2e/m²。
+- 成本范围：$140–230/m²。
+- 适用：住宅、模块化建筑、自建项目、快速建造低层建筑。
+- 优点：气密性优异（工厂密封接缝）、安装快（板材预切割）、无热桥（连续保温）、结构性能好（蒙皮受力）。
+- 缺点：EPS/PUR 芯材可燃；OSB 对潮湿敏感；高度限于低层（通常 3–4 层）；难以改造；隔声需补充措施。
 
-### 2.6 Cross-Laminated Timber (CLT) with External Insulation
+### 2.6 外保温交叉层压木材（CLT）
 
-**Build-up:** Cladding → ventilated cavity → breather membrane → 100–200 mm mineral wool / wood fiber → 100–160 mm CLT panel → internal finish (exposed CLT or plasterboard)
+**构造层次：**外饰面→通风空腔→透汽膜→100-200 mm矿棉/木纤维→100-160 mm CLT板→内饰面（外露CLT或石膏板）
 
-**Performance:**
-- Total thickness: 280–450 mm
-- U-value: 0.12–0.18 W/m²K
-- Fire rating: 60–120 minutes (CLT chars at ~0.65 mm/min; 100 mm panel = ~90 min structural fire resistance)
-- Acoustic: Rw 38–44 dB (CLT alone); 55+ dB with resilient mount + plasterboard
-- Embodied carbon: -10 to +30 kgCO2e/m² (carbon sequestration in timber can achieve net negative)
-- Cost range: $200–350/m²
-- Best-fit: Residential (up to 18 storeys demonstrated), offices, schools, mid-rise institutional
-- Advantages: Carbon-negative potential, fast erection (panel installation), structural wall and insulation combined, exposed timber interior aesthetic, good airtightness
-- Disadvantages: Moisture management critical during construction, cost premium over concrete frame, acoustic flanking through solid panels, fire engineering required for tall buildings
+**性能：**
+- 总厚度：280–450 mm。
+- U 值：0.12–0.18 W/m²K。
+- 耐火极限：60–120 分钟（CLT 炭化速率约 0.65 mm/min；100 mm 板材结构耐火约 90 分钟）。
+- 隔声：Rw 38–44 dB（仅 CLT）；配弹性支座和石膏板可达 55+ dB。
+- 隐含碳：-10 至 +30 kgCO2e/m²（木材固碳可实现净负碳）。
+- 成本范围：$200–350/m²。
+- 适用：住宅（已有最高 18 层案例）、办公、学校、中层公共建筑。
+- 优点：具备负碳潜力、安装快（板材吊装）、结构墙与保温一体化、室内木材外露美观、气密性好。
+- 缺点：施工期间防潮管理关键；成本高于混凝土框架；实体板存在侧向传声；高层建筑需进行防火工程设计。
 
-### 2.7 Curtain Wall (Stick System and Unitized)
+### 2.7 幕墙（构件式与单元式）
 
-**Build-up:** External glass/panel → aluminum mullion/transom frame with thermal break → IGU (double/triple glazing) or opaque spandrel panel with insulation
+**构造层次：**外侧玻璃/面板→带隔热断桥的铝合金立柱/横梁框架→中空玻璃（双层/三层）或带保温的不透明窗间墙板
 
-**Performance (glazed zone):**
-- Total thickness: 100–200 mm (frame depth)
-- U-value (center-of-glass): 1.0–1.6 W/m²K (double); 0.5–0.8 (triple)
-- U-value (whole curtain wall, including frame): 1.4–2.2 W/m²K (double); 0.8–1.2 (triple)
-- Fire rating: E30/EW30 typical (glass holds 30 min with fire-rated interlayer); spandrel panels 60–120 min with fire backing
-- Acoustic: Rw 32–42 dB (dependent on glass thickness and lamination)
-- Embodied carbon: 80–150 kgCO2e/m² (aluminum-intensive)
-- Cost range: $400–1200/m² (stick system lower; unitized higher; structural glazing highest)
+**性能（玻璃区域）：**
+- 总厚度：100–200 mm（框架深度）。
+- U 值（玻璃中心）：1.0–1.6 W/m²K（双层）；0.5–0.8（三层）。
+- U 值（含框架的整幅幕墙）：1.4–2.2 W/m²K（双层）；0.8–1.2（三层）。
+- 耐火极限：通常 E30/EW30（配防火夹层玻璃可保持 30 分钟）；窗间墙板配防火背衬可达 60–120 分钟。
+- 隔声：Rw 32–42 dB（取决于玻璃厚度和夹层）。
+- 隐含碳：80–150 kgCO2e/m²（铝材占比较高）。
+- 成本范围：$400–1200/m²（构件式较低；单元式较高；结构玻璃最高）。
 
-**Stick system:** Mullions and transoms assembled on site from aluminum extrusions; glass/panels installed piece by piece. Suitable for low-to-mid-rise, irregular facades.
+**构件式系统：**现场用铝型材组装立柱和横梁，玻璃/面板逐件安装。适用于低至中层和不规则立面。
 
-**Unitized system:** Factory-assembled panels (typically 1.5 m wide x floor-to-floor height) installed as complete units from inside the building. Suitable for high-rise (faster, weather-independent installation).
+**单元式系统：**工厂组装面板（通常宽1.5 m、高度为层高），从建筑内部整体安装。适用于高层建筑（安装更快且不受天气影响）。
 
-- Best-fit: Commercial offices, institutional, high-rise, landmark buildings
-- Advantages: Maximum transparency, architectural flexibility, lightweight, high-quality factory finish
-- Disadvantages: High cost, high embodied carbon (aluminum), thermal performance limited by frame, acoustic performance lower than masonry, condensation risk at thermal bridges
+- 适用：商业办公、公共建筑、高层建筑、地标建筑。
+- 优点：透明度最高、建筑灵活性强、轻质、工厂加工质量高。
+- 缺点：成本高、隐含碳高（铝材）、热工性能受框架限制、隔声低于砌体、热桥处存在结露风险。
 
-### 2.8 Rainscreen Cladding (Ventilated Facade)
+### 2.8 雨幕式外饰面（通风立面）
 
-**Build-up:** Cladding panel (stone, metal, fiber cement, terracotta, HPL) → 50 mm ventilated cavity → support brackets/rails → breather membrane → continuous insulation (100–200 mm mineral wool / PIR) → structural wall (concrete, masonry, CLT, steel frame)
+**构造层次：**饰面板（石材、金属、纤维水泥、陶土、HPL）→50 mm通风空腔→支托/龙骨→透汽膜→连续保温层（100-200 mm矿棉/PIR）→结构墙（混凝土、砌体、CLT或钢框架）
 
-**Performance:**
-- Total thickness: 250–450 mm (cladding + cavity + insulation + structure)
-- U-value: 0.12–0.20 W/m²K (governed by continuous insulation)
-- Fire rating: dependent on backing wall + insulation; cladding panel must be non-combustible for buildings >18 m (UK post-Grenfell requirement; BS 8414 / BR 135)
-- Acoustic: Rw 45–60 dB (dependent on backing wall mass)
-- Embodied carbon: 50–200 kgCO2e/m² (varies enormously by cladding material)
-- Cost range: $250–600/m² (material-dependent)
+**性能：**
+- 总厚度：250–450 mm（饰面 + 空腔 + 保温 + 结构）
+- U 值：0.12–0.20 W/m²K（由连续保温层控制）
+- 耐火：取决于基层墙体和保温层；高度 >18m 的建筑饰面板必须为不燃材料（英国 Grenfell 事件后要求；BS 8414／BR 135）
+- 隔声：Rw 45–60 dB（取决于基层墙体质量）
+- 隐含碳：50–200 kgCO2e/m²（随饰面材料差异很大）
+- 成本范围：$250–600/m²（取决于材料）
 
-**Ventilation principle:** The cavity behind the cladding is open at top and bottom (50 mm min gap). Air circulates by stack effect, removing moisture from insulation and reducing solar-driven inward vapor. Pressure equalization reduces wind-driven rain penetration.
+**通风原理：**饰面后的空腔上下贯通（最小间隙50 mm）。空气通过烟囱效应循环，带走保温层水分并减少太阳驱动的向内蒸汽；压力均衡可减少风驱雨渗透。
 
-- Best-fit: Commercial, institutional, residential (mid-to-high-rise), renovation/overcladding
-- Advantages: Continuous insulation (no thermal bridging through cladding), moisture management, design flexibility (wide cladding options), easy panel replacement
-- Disadvantages: Cavity fire risk (requires fire barriers at every floor and around openings per BS 9414 / NFPA 285), support bracket thermal bridging (use thermal break brackets), cost
+- **最适：**商业、公共机构、中高层住宅、翻新／加覆层
+- **优点：**连续保温（饰面处无热桥）、湿度管理、设计灵活（饰面选择广）、板材易更换
+- **缺点：**空腔火灾风险（按 BS 9414／NFPA 285，每层及洞口周边需设置防火封堵）、支托热桥（采用断热支托）、成本高
 
-### 2.9 Precast Concrete Panels
+### 2.9 预制混凝土板
 
-**Build-up:** 75 mm precast concrete face → 100–150 mm insulation → 100 mm precast concrete inner leaf (sandwich panel). Or: single-leaf precast with external insulation and cladding.
+**构造层次：**75 mm预制混凝土外叶→100-150 mm保温层→100 mm预制混凝土内叶（夹芯板）；或采用单叶预制板加外保温和饰面。
 
-**Performance:**
-- Total thickness: 275–375 mm (sandwich panel)
-- U-value: 0.15–0.25 W/m²K
-- Fire rating: 120–240 minutes (non-combustible)
-- Acoustic: Rw 50–58 dB
-- Embodied carbon: 100–160 kgCO2e/m²
-- Cost range: $200–400/m²
-- Best-fit: Commercial, parking structures, industrial, high-rise residential, modular/prefab construction
-- Advantages: Factory quality, fast erection (crane-placed), durable, fire-resistant, good acoustic mass, consistent finish
-- Disadvantages: Heavy (200–500 kg/m²), requires crane access, large panel transport logistics, joint detailing critical (sealant maintenance), limited design flexibility post-manufacture
+**性能：**
+- 总厚度：275–375 mm（夹芯板）
+- U 值：0.15–0.25 W/m²K
+- 耐火：120–240 分钟（不燃）
+- 隔声：Rw 50–58 dB
+- 隐含碳：100–160 kgCO2e/m²
+- 成本范围：$200–400/m²
+- **最适：**商业、停车结构、工业、高层住宅、模块化／预制建筑
+- **优点：**工厂质量、吊装快速、耐久、耐火、声学质量好、饰面一致
+- **缺点：**重量大（200–500 kg/m²），需要吊车进场，大板运输组织复杂，接缝节点关键（需维护密封胶），生产后设计灵活性有限
 
-### 2.10 Mass Timber with Internal Insulation
+### 2.10 内保温工程木结构
 
-**Build-up:** CLT or glulam structural wall (100–200 mm) → service void (50 mm) with insulation → VCL → plasterboard. External face: exposed timber with weather-protective finish (oil, stain, charring) or rainscreen cladding.
+**构造层次：**CLT或胶合木结构墙（100-200 mm）→带保温的设备空腔（50 mm）→隔汽层→石膏板。外侧可采用带耐候保护饰面（油、着色或炭化）的外露木材，或雨幕式饰面。
 
-**Performance:**
-- Total thickness: 200–350 mm
-- U-value: 0.15–0.25 W/m²K (with internal insulation + timber thermal resistance)
-- Fire rating: 60–90 minutes (100 mm CLT + plasterboard)
-- Acoustic: Rw 40–50 dB
-- Embodied carbon: -20 to +20 kgCO2e/m² (net carbon benefit)
-- Cost range: $220–380/m²
-- Best-fit: Low-to-mid-rise residential, cultural buildings, mountain/rural architecture, eco-buildings
-- Advantages: Carbon-negative potential, exposed timber aesthetic (external), unique character, structural + envelope combined
-- Disadvantages: External timber requires maintenance (re-oiling every 3–5 years or charring treatment), weathering unevenness, fire engineering for exposed timber facade, limited to lower heights without additional protection
+**性能：**
+- 总厚度：200–350 mm
+- U 值：0.15–0.25 W/m²K（内保温 + 木材热阻）
+- 耐火：60–90 分钟（100 mm CLT + 石膏板）
+- 隔声：Rw 40–50 dB
+- 隐含碳：−20 至 +20 kgCO2e/m²（净碳效益）
+- 成本范围：$220–380/m²
+- **最适：**低至中层住宅、文化建筑、山地／乡村建筑、生态建筑
+- **优点：**具备负碳潜力、外露木材美学、特色鲜明、结构与围护一体化
+- **缺点：**外露木材需维护（每 3–5 年重新涂油或炭化处理），风化不均，外露木立面需消防工程设计；无额外保护时高度受限
 
 ---
 
-## Section 3: Glazing Systems
+## 第3节：玻璃系统
 
-### 3.1 Glass Types
+### 3.1 玻璃类型
 
-| Glass Type | Thickness (mm) | Description | Key Properties |
+| 玻璃类型 | 厚度（mm） | 说明 | 主要性能 |
 |---|---|---|---|
 | Float (annealed) | 3–19 | Standard flat glass | Breaks into sharp shards; not safety glass |
 | Toughened (tempered) | 4–19 | Heat-treated for 4x strength | Breaks into small granules; safety glass |
 | Laminated | 6.4–25+ | 2+ panes with PVB/SGP interlayer | Holds together when broken; safety, acoustic, UV block |
 | Insulated (IGU) | 24–60 | 2 or 3 panes with sealed gas-filled cavity | Thermal insulation; most common for building facades |
 | Wired | 6–7 | Embedded wire mesh | Fire integrity (E30); not a safety glass |
-| Fire-rated | 15–54 | Borosilicate or gel-interlayer | EI30–EI120; resists fire and insulates |
+| 防火玻璃 | 15–54 | 硼硅酸盐玻璃或凝胶中间层 | EI30–EI120；耐火并隔热 |
 
-### 3.2 Coatings
+### 3.2 涂层
 
-**Low-e (low emissivity) coatings:**
-- Reduce radiative heat transfer across cavity
-- Hard coat (pyrolytic): applied during manufacture; durable; emissivity ~0.15–0.20
-- Soft coat (sputtered): applied post-manufacture; lower emissivity (~0.02–0.05); more delicate, must face cavity
-- Position: surface 3 in double IGU (inner face of outer pane) for solar control; surface 2 (outer face of inner pane) for cold climates (retain heat)
+**Low-e（低辐射）涂层：**
+- 降低腔体内的辐射传热
+- 硬膜（热解涂层）：在生产过程中施加；耐久性好；发射率约为 0.15–0.20
+- 软膜（溅射涂层）：生产完成后施加；发射率更低（约 0.02–0.05）；较为脆弱，必须朝向中空腔体
+- 位置：双层中空玻璃用于太阳控制时置于第 3 面（外片玻璃朝向腔体的一面）；寒冷气候用于保温时置于第 2 面（内片玻璃朝向腔体的一面）
 
-**Solar control coatings:**
-- Reduce SHGC to 0.15–0.35 while maintaining VLT 40–70%
-- Selective coatings: transmit visible light, reflect near-infrared
-- Tinted solar: body-tinted glass (grey, bronze, green) — reduce VLT proportionally
-- Products: Guardian SunGuard (SHGC 0.19, VLT 50%), AGC iplus (SHGC 0.22, VLT 62%), Pilkington Suncool (SHGC 0.25, VLT 55%)
+**太阳控制涂层：**
+- 在保持 VLT 40–70% 的同时，将 SHGC 降至 0.15–0.35
+- 选择性涂层：透过可见光，反射近红外线
+- 着色太阳控制玻璃：本体着色玻璃（灰色、青铜色、绿色）——VLT 随之按比例降低
+- 产品：Guardian SunGuard（SHGC 0.19，VLT 50%）、AGC iplus（SHGC 0.22，VLT 62%）、Pilkington Suncool（SHGC 0.25，VLT 55%）
 
-**Self-cleaning coatings:**
-- Pilkington Activ, Saint-Gobain Bioclean
-- TiO2 photocatalytic coating: breaks down organic dirt with UV light
-- Hydrophilic surface: rain sheets off carrying loosened dirt
+**自清洁涂层：**
+- Pilkington Activ、Saint-Gobain Bioclean
+- TiO2 光催化涂层：利用紫外线分解有机污垢
+- 亲水表面：雨水形成水膜流下，并带走已松动的污垢
 
-### 3.3 Gas Fills and Spacer Bars
+### 3.3 充气层与间隔条
 
-**Gas fills:**
-| Gas | Thermal Conductivity (W/mK) | Density (kg/m³) | Cavity Performance Improvement |
+**充气层：**
+| 气体 | 导热系数（W/mK） | 密度（kg/m³） | 腔体性能提升 |
 |---|---|---|---|
-| Air | 0.026 | 1.23 | Baseline |
-| Argon | 0.018 | 1.66 | 30% improvement over air |
-| Krypton | 0.009 | 3.48 | 65% improvement; enables thinner cavities (10–12 mm) |
-| Xenon | 0.006 | 5.49 | 77% improvement; very expensive, rarely used |
+| 空气 | 0.026 | 1.23 | 基准值 |
+| 氩气 | 0.018 | 1.66 | 相比空气提升 30% |
+| 氪气 | 0.009 | 3.48 | 提升 65%；可采用更薄腔体（10–12 mm） |
+| 氙气 | 0.006 | 5.49 | 提升 77%；价格很高，极少使用 |
 
-Optimal cavity width: 16 mm for argon, 12 mm for krypton (beyond this, convection currents reduce benefit).
+最佳腔体宽度：氩气为 16 mm，氪气为 12 mm（超过该宽度后，对流会降低性能收益）。
 
-**Spacer bars:**
-- Aluminum spacer: traditional, high conductivity = thermal bridge at edge of glass. Psi-value ~0.08 W/mK
-- Warm-edge spacer (TGI/Thermix/Super Spacer): stainless steel, hybrid, or foam. Psi-value 0.03–0.04 W/mK
-- Passive House certified spacers: psi ≤0.032 W/mK (e.g., Swisspacer Ultimate: 0.028)
+**间隔条：**
+- 铝间隔条：传统做法，导热系数高，会在玻璃边缘形成热桥。Psi 值约为 0.08 W/mK
+- 暖边间隔条（TGI/Thermix/Super Spacer）：采用不锈钢、复合材料或泡沫材料。Psi 值为 0.03–0.04 W/mK
+- Passive House 认证间隔条：psi ≤0.032 W/mK（例如 Swisspacer Ultimate：0.028）
 
 ### 3.4 Window U-Values
 
-| Configuration | Approx. U-value (W/m²K) | Notes |
+| 配置 | 近似 U 值（W/m²K） | 说明 |
 |---|---|---|
-| Single glazing (6 mm float) | 5.6 | Unacceptable for modern buildings |
-| Double glazing (air fill, no coating) | 2.7–2.9 | Basic double glazing |
-| Double glazing (argon, low-e) | 1.1–1.4 | Current standard for temperate climates |
-| Double glazing (krypton, low-e) | 0.9–1.1 | Premium double glazing |
-| Triple glazing (argon, 2x low-e) | 0.5–0.8 | Standard for cold climates / Passive House |
-| Triple glazing (krypton, 2x low-e) | 0.4–0.6 | Premium Passive House |
-| Quadruple glazing (vacuum + krypton) | 0.3–0.4 | Ultra-high performance; experimental |
+| 单层玻璃（6 mm 浮法玻璃） | 5.6 | 不符合现代建筑要求 |
+| 双层玻璃（充空气、无涂层） | 2.7–2.9 | 基础双层玻璃 |
+| 双层玻璃（氩气、低辐射） | 1.1–1.4 | 温和气候的当前标准 |
+| 双层玻璃（氪气、低辐射） | 0.9–1.1 | 高性能双层玻璃 |
+| 三层玻璃（氩气、2 层低辐射） | 0.5–0.8 | 寒冷气候 / Passive House 标准 |
+| 三层玻璃（氪气、2 层低辐射） | 0.4–0.6 | 高性能 Passive House 玻璃 |
+| 四层玻璃（真空 + 氪气） | 0.3–0.4 | 超高性能；处于试验阶段 |
 
 ### 3.5 Frame Types
 
-| Frame Material | U-frame (W/m²K) | Pros | Cons |
+| 框材 | 框 U 值（W/m²K） | 优点 | 缺点 |
 |---|---|---|---|
-| Aluminum (no break) | 5.0–7.0 | Strong, slim profiles, durable | Extreme thermal bridge; unsuitable for thermal performance |
-| Aluminum (thermal break) | 1.5–3.0 | Strong, slim, durable, recyclable | Break depth limits performance; expensive |
-| Timber (softwood) | 1.2–1.6 | Low embodied carbon, good insulator | Maintenance (painting), moisture risk, wider profiles |
-| Timber-aluminum composite | 0.8–1.3 | Best of both: timber inside, alu outside | Cost premium; heavy |
-| uPVC | 1.2–1.8 | Low cost, maintenance-free, good insulator | Not recyclable easily, wide profiles, limited color, UV degradation |
-| Composite (fiberglass/pultruded) | 1.0–1.5 | Strong, slim, good thermal, low maintenance | Limited availability, specialized suppliers |
+| 铝合金（无隔热断桥） | 5.0–7.0 | 强度高、型材纤细、耐久 | 热桥极强；不适合高热工性能要求 |
+| 铝合金（隔热断桥） | 1.5–3.0 | 强度高、型材纤细、耐久、可回收 | 断桥深度限制性能；价格高 |
+| 木材（软木） | 1.2–1.6 | 隐含碳低、隔热性好 | 需要维护（涂漆）、有受潮风险、型材较宽 |
+| 木铝复合 | 0.8–1.3 | 兼具两者优点：室内为木材、室外为铝材 | 成本较高；重量大 |
+| uPVC | 1.2–1.8 | 成本低、免维护、隔热性好 | 不易回收、型材较宽、颜色选择有限、会发生紫外线老化 |
+| 复合材料（玻璃纤维/拉挤型材） | 1.0–1.5 | 强度高、型材纤细、热工性能好、维护少 | 供应有限，需要专业供应商 |
 
-### 3.6 Framing Systems for Facades
+### 3.6 立面框架系统
 
-**Punched windows:** Individual window units set into a solid wall. Clear visual separation between wall and window. Easiest to insulate and detail for thermal bridges. Typical residential and traditional architecture.
+**点式窗：**独立窗单元嵌入实体墙中，墙与窗视觉分隔清晰，最易进行保温和热桥节点设计，常用于住宅和传统建筑。
 
-**Ribbon windows:** Continuous horizontal bands of glazing, usually separated by floor-level spandrel panels. Le Corbusier's "fenetre en longueur." Good daylight, emphasizes horizontality.
+**带形窗：**连续水平玻璃带，通常由楼层窗间墙板分隔。即Le Corbusier的“fenetre en longueur”，采光良好并强调水平性。
 
-**Curtain wall:** Continuous facade system — mullions and transoms span floor-to-floor, glazing and opaque panels infill. See Section 2.7 for system types.
+**幕墙：**连续立面系统，立柱和横梁跨越层高，玻璃和不透明面板填充其中。系统类型见第2.7节。
 
-**Structural glazing:** Glass bonded to frame with structural silicone sealant — no visible external framing. Clean, flush appearance. Requires factory-applied sealant for warranty.
+**结构玻璃：**玻璃通过结构硅酮密封胶粘接到框架上，外侧无可见框架，外观整洁平齐。为满足质保要求需工厂施胶。
 
-### 3.7 Window-to-Wall Ratio (WWR) Guidance
+### 3.7 窗墙比（WWR）指导
 
-| Orientation | Hot Climate | Temperate Climate | Cold Climate |
+| 朝向 | 炎热气候 | 温带气候 | 寒冷气候 |
 |---|---|---|---|
 | North (NH) / South (SH) | 20–30% | 30–50% | 20–35% |
 | South (NH) / North (SH) | 15–25% (shaded) | 40–60% (passive solar) | 40–60% (passive solar) |
@@ -340,33 +335,33 @@ Optimal cavity width: 16 mm for argon, 12 mm for krypton (beyond this, convectio
 | West | 10–20% (worst orientation for glare/heat) | 20–30% | 15–25% |
 | Total average | 20–30% | 30–45% | 25–40% |
 
-ASHRAE 90.1 baseline: 40% WWR. Higher WWR requires compensating measures (better U-value, lower SHGC, external shading).
+ASHRAE 90.1 基准值：WWR 为 40%。更高的 WWR 需要采取补偿措施（更好的 U 值、更低的 SHGC、外遮阳）。
 
 ---
 
-## Section 4: Roof Systems
+## 第4节：屋面系统
 
-### 4.1 Flat Roof — Warm Deck
+### 4.1 平屋面——暖屋面
 
-**Build-up (top to bottom):** Waterproof membrane (single-ply or built-up) → insulation (PIR/EPS/mineral wool) → VCL → structural deck (concrete/metal/timber)
+**构造层次（由上至下）：**防水膜（单层或复合）→保温层（PIR/EPS/矿棉）→隔汽层→结构楼板（混凝土/金属/木材）
 
-- Insulation thickness: 120–250 mm (U-value 0.10–0.18 W/m²K)
-- Falls: min 1:60 (preferred 1:40) formed in insulation (tapered) or structure
-- Drainage: internal rainwater outlets at 1 per 100–200 m² or perimeter gutters
-- Advantages: VCL warm (low condensation risk), simple construction, insulation continuous
-- Membrane options: single-ply (EPDM, TPO, PVC) — 1.2–2.0 mm; built-up felt (3-layer) — 12–15 mm; liquid-applied — 2–3 mm
-- Lifespan: single-ply 25–35 years; built-up 20–25 years; liquid 15–25 years
+- 保温层厚度：120–250 mm（U 值 0.10–0.18 W/m²K）
+- 坡度：最小 1:60（宜为 1:40），通过变厚保温层或结构层形成
+- 排水：每 100–200 m² 设置 1 个内排雨水口，或采用周边天沟
+- 优点：VCL 位于暖侧（结露风险低）、构造简单、保温连续
+- 膜材选项：单层膜（EPDM、TPO、PVC）—1.2–2.0 mm；多层卷材（3 层）—12–15 mm；液体涂膜—2–3 mm
+- 使用寿命：单层膜 25–35 年；多层卷材 20–25 年；液体涂膜 15–25 年
 
-### 4.2 Flat Roof — Inverted (Upside-Down)
+### 4.2 平屋面——倒置式
 
-**Build-up:** Ballast (gravel/paving) → filter fleece → insulation (XPS only — must resist water absorption) → waterproof membrane → structural deck
+**构造层次：**压载层（砾石/铺装）→过滤无纺布→保温层（仅XPS，必须抗吸水）→防水膜→结构楼板
 
-- Insulation thickness: 100–200 mm XPS (U-value 0.15–0.25 W/m²K)
-- Advantages: Membrane protected from UV/thermal cycling/mechanical damage, longer membrane life, accessible roof surface
-- Disadvantages: Rainwater cooling factor (water runs under insulation, reducing thermal performance by ~5–10%); XPS only (higher embodied carbon than mineral wool)
-- Falls: formed in structure or screed below membrane
+- 保温层厚度：100–200 mm XPS（U 值 0.15–0.25 W/m²K）
+- 优点：防水膜免受紫外线、温度循环和机械损伤，膜材寿命更长，屋面表面可供使用
+- 缺点：雨水冷却效应（水流至保温层下方，使热工性能降低约 5–10%）；只能使用 XPS（隐含碳高于矿棉）
+- 坡度：在结构层或防水膜下的找平层中形成
 
-### 4.3 Flat Roof — Green Roof
+### 4.3 平屋面——绿化屋面
 
 **Build-up:** Vegetation → growing medium (80–300 mm) → filter fleece → drainage layer (25–60 mm) → root barrier → waterproof membrane → insulation → VCL → structure
 
@@ -374,116 +369,116 @@ ASHRAE 90.1 baseline: 40% WWR. Higher WWR requires compensating measures (better
 **Intensive green roof:** Shrubs/trees, 300–1500 mm growing medium, 300–1500 kg/m² saturated, irrigation required
 
 - Additional structural load: 1.0–2.0 kN/m² (extensive); 5.0–15.0 kN/m² (intensive)
-- Benefits: stormwater retention (50–90% annual), urban heat island reduction (surface temp 30°C lower than dark membrane), biodiversity, extended membrane life (2x), acoustic insulation (+8–10 dB), thermal performance improvement (~10% effective U-value reduction)
+- 优点：滞留雨水（年降雨量的 50–90%）、降低城市热岛效应（表面温度比深色膜低 30°C）、提升生物多样性、延长膜材寿命（约 2 倍）、隔声（+8–10 dB）、改善热工性能（有效 U 值降低约 10%）
 - Standards: FLL Guidelines (Germany), GRO Code (UK), ASTM E2397/E2400 (USA)
 
-### 4.4 Pitched Roof — Ventilated (Cold Roof)
+### 4.4 坡屋面——通风式（冷屋面）
 
-**Build-up:** Tiles/slates → battens → counter-battens → breathable underlay → ventilated cavity (50 mm min) → insulation between rafters/at ceiling level → VCL → plasterboard
+**构造层次：**瓦片/石板瓦 → 挂瓦条 → 顺水条 → 透气防水垫层 → 通风空腔（最小 50 mm）→ 椽条间或吊顶标高处的保温层 → VCL → 石膏板
 
 - Ventilation: 10,000 mm² per metre at eaves, 5,000 mm² per metre at ridge (UK Building Regs)
 - Insulation: between rafters 100–150 mm + at ceiling level 200–400 mm; or all between/above rafters for vaulted ceilings
-- Minimum pitch: 15° for interlocking tiles; 20° for plain tiles; 25° for natural slates; 35° for thatch
+- 最小坡度：互锁瓦 15°；平瓦 20°；天然石板瓦 25°；茅草 35°
 - U-value: 0.10–0.16 W/m²K achievable with 300+ mm total insulation
 
-### 4.5 Pitched Roof — Warm Roof
+### 4.5 坡屋面——暖屋面
 
-**Build-up:** Tiles/slates → battens → counter-battens → breathable underlay → continuous insulation over rafters (rigid board) → air barrier/VCL → rafters → plasterboard
+**构造层次：**瓦片/石板瓦 → 挂瓦条 → 顺水条 → 透气防水垫层 → 椽条上连续保温（硬质板）→ 空气屏障/VCL → 椽条 → 石膏板
 
 - Advantages: no ventilation required; insulation continuous (no thermal bridging through rafters); rafter depth available for services
-- Disadvantages: thicker build-up above rafters raises ridge height; heavier
+- 缺点：椽条上方构造层变厚会抬高屋脊标高；重量更大
 
-### 4.6 Membrane Structures and Barrel Vaults
+### 4.6 膜结构与筒形拱顶
 
-- ETFE cushions: U-value 1.8–3.5 W/m²K (3-layer); lightweight (0.35 kg/m²); 95% VLT; up to 100 m span. Examples: Eden Project, Allianz Arena, Beijing Aquatics Center
-- PTFE-coated fiberglass: tensile membrane; translucent; U-value poor (single skin ~6.0); best for semi-outdoor/shading applications
-- Standing seam metal roofs: zinc, copper, aluminum, steel; pitch min 3°; lifespan 40–100 years (zinc/copper)
+- ETFE 气枕：U 值 1.8–3.5 W/m²K（三层）；重量轻（0.35 kg/m²）；VLT 95%；跨度可达 100 m。示例：Eden Project、Allianz Arena、北京水立方
+- PTFE 涂层玻璃纤维：张拉膜结构；半透明；U 值较差（单层约 6.0）；最适合半室外及遮阳应用
+- 直立锁边金属屋面：锌、铜、铝、钢；最小坡度 3°；使用寿命 40–100 年（锌/铜）
 
 ---
 
-## Section 5: Moisture Management
+## 第5节：湿气管理
 
-### 5.1 The "Perfect Wall" Principle
+### 5.1 “完美墙体”原则
 
-From exterior to interior, the control layers should be in this order:
+从外至内，控制层应按以下顺序设置：
 
-1. **Rain screen / rain control:** The outermost layer deflects bulk water (>99% of moisture load). Drained and ventilated cavity behind cladding.
-2. **Air barrier:** Prevents air-transported moisture from moving through the assembly. Must be continuous, sealed at all joints, and able to resist wind pressure. Air barrier is the single most important moisture control layer.
-3. **Thermal insulation:** Controls heat flow and determines temperature profile through the wall. Position governs condensation risk.
-4. **Vapor control layer (VCL):** Controls vapor diffusion. Position depends on climate:
-   - Cold/temperate: VCL on warm (interior) side of insulation
-   - Hot-humid: VCL on warm (exterior) side of insulation (or use smart VCL)
-   - Mixed climate: smart/variable VCL that adjusts permeability with humidity
-5. **Structure:** Loadbearing element.
+1. **雨幕/雨水控制：**最外层偏转大部分水量（>99%的湿气负荷），饰面后设置排水和通风空腔。
+2. **空气屏障：**防止空气携带的湿气穿过构造，必须连续、所有接缝密封并能抵抗风压。空气屏障是最重要的湿气控制层。
+3. **保温层：**控制热流并决定墙体温度分布，其位置决定结露风险。
+4. **隔汽控制层（VCL）：**控制蒸汽扩散，位置取决于气候：
+   - 寒冷/温带：位于保温层温暖的室内侧
+   - 炎热湿润：位于保温层温暖的室外侧（或采用智能VCL）
+   - 混合气候：采用随湿度调节渗透性的智能/可变VCL
+5. **结构层：**承重构件。
 
-### 5.2 Vapor Drive Analysis
+### 5.2 蒸汽驱动分析
 
-| Climate | Dominant Vapor Drive | VCL Position | Insulation Position |
+| 气候 | 主要蒸汽驱动方向 | VCL位置 | 保温层位置 |
 |---|---|---|---|
-| Cold winter (heating dominant) | Outward (interior to exterior) | Interior side | External or full-fill |
-| Hot-humid (cooling dominant) | Inward (exterior to interior) | Exterior side | Interior side |
-| Mixed (heating + cooling) | Both directions seasonally | Smart VCL (variable permeability) | External preferred |
-| Mild temperate (UK) | Outward dominant | Interior side (optional with breathable build-up) | External or full-fill |
+| 寒冷冬季（采暖为主） | 向外（室内至室外） | 室内侧 | 外置或填充式 |
+| 炎热湿润（制冷为主） | 向内（室外至室内） | 室外侧 | 室内侧 |
+| 混合气候（采暖 + 制冷） | 随季节双向变化 | 智能 VCL（可变渗透性） | 优先外置 |
+| 温和温带（英国） | 以向外为主 | 室内侧（采用透气构造时可选） | 外置或填充式 |
 
-**Smart vapor control layers:** Materials like Intello Plus (Pro Clima) or DB+ (SIGA) have variable vapor resistance: sd-value 0.25 m in summer (allows drying inward) and sd-value 10 m+ in winter (blocks outward vapor diffusion). Essential for mixed climates and timber construction.
+**智能隔汽控制层：**Intello Plus（Pro Clima）或DB+（SIGA）等材料具有可变蒸汽阻力：夏季sd值0.25 m（允许向内干燥），冬季sd值10 m以上（阻止向外蒸汽扩散）。对混合气候和木结构至关重要。
 
-### 5.3 Condensation Risk — Interstitial Analysis (Glaser Method)
+### 5.3 结露风险——层间分析（Glaser方法）
 
-The Glaser method (BS EN ISO 13788) calculates the risk of condensation within the wall assembly:
+Glaser方法（BS EN ISO 13788）用于计算墙体构造内部的结露风险：
 
-1. Determine temperature gradient through wall (linear, based on thermal resistance of each layer)
-2. Determine dewpoint temperature at each interface (from vapor pressure gradient based on vapor resistance of each layer)
-3. If temperature at any interface drops below dewpoint, condensation occurs there
-4. Calculate cumulative condensation over the heating season
-5. Check that condensation evaporates during the drying season
+1. 确定墙体内温度梯度（根据各层热阻进行线性计算）
+2. 确定每个界面的露点温度（根据各层蒸汽阻力计算蒸汽压力梯度）
+3. 若任一界面温度低于露点，则该处发生结露
+4. 计算采暖季的累计结露量
+5. 检查结露是否在干燥季蒸发
 
-**Acceptable limits (BS EN ISO 13788):**
-- Condensation shall not drip, stain, or damage materials
-- Maximum accumulated moisture: 200 g/m² for non-absorbent layers; 500 g/m² for absorbent (mineral wool)
-- All condensation must evaporate within the drying season (net annual balance must be zero or negative)
+**可接受限值（BS EN ISO 13788）：**
+- 结露不得滴落、留下污渍或损坏材料
+- 最大累计含湿量：非吸水层200 g/m²；吸水层（矿棉）500 g/m²
+- 所有结露必须在干燥季蒸发（年度净平衡必须为零或负值）
 
-**Limitations of Glaser:** Steady-state only; does not account for moisture storage, capillary action, air movement, solar-driven vapor, or real weather variability. For accurate analysis, use dynamic simulation: WUFI, DELPHIN, or HYGROTHERMAL tools.
+**Glaser方法的局限：**仅适用于稳态分析，不考虑湿气储存、毛细作用、空气运动、太阳驱动蒸汽或实际天气变化。需要精确分析时，应采用WUFI、DELPHIN或其他热湿动态模拟工具。
 
-### 5.4 Detailing at Junctions
+### 5.4 交接节点详图
 
-**Wall-to-roof junction:**
-- Continuous air barrier from wall to roof (typically membrane lapped and sealed)
-- Insulation continuity: roof insulation overlaps wall insulation at parapet/eaves
-- Parapet: internal gutter preferred (warm roof under coping); external gutter if parapet is cold (condensation risk)
-- Eaves overhang: min 300 mm to protect wall below from rain; 600 mm in exposed locations
+**墙—屋面交接：**
+- 墙体至屋面的连续空气屏障（通常采用膜材搭接并密封）
+- 保温连续性：在女儿墙/檐口处，屋面保温层应与墙体保温层搭接
+- 女儿墙：优先采用内排水沟（压顶下为暖屋面）；女儿墙为冷构造时采用外排水沟（存在结露风险）
+- 檐口挑出：最小 300 mm，以保护下方墙体免受雨水冲刷；暴露位置采用 600 mm
 
-**Wall-to-window junction:**
-- Insulation return into window reveal (min 30 mm, preferred 50 mm, to window frame)
-- Air barrier sealed to window frame with tape or gasket (e.g., SIGA Fentrim, Tescon Profil)
-- Internal VCL lapped and sealed to window frame
-- Sill flashing: turned up behind window frame, drip edge projecting 30 mm min beyond wall face
-- Cavity tray above window head, weep holes at 450 mm centers
+**墙—窗交接：**
+- 保温层返入窗洞口（延伸至窗框最小 30 mm，宜为 50 mm）
+- 空气屏障采用胶带或密封垫与窗框密封（如 SIGA Fentrim、Tescon Profil）
+- 室内 VCL 与窗框搭接并密封
+- 窗台泛水：在窗框后向上翻边，滴水边至少伸出墙面 30 mm
+- 窗过梁上方设置空腔托盘，泄水孔中心间距 450 mm
 
-**Wall-to-ground junction:**
-- Below-grade waterproofing: tanking membrane (Type A, BS 8102), or structural waterproof concrete (Type B), or drained cavity (Type C)
-- Insulation extends below grade: XPS or foam glass (moisture resistant)
-- Thermal bridge at foundation: insulate under slab edge or use insulated foundation system
-- DPC (damp-proof course): min 150 mm above finished ground level (UK Building Regs)
+**墙—地面交接：**
+- 地下防水：全包防水膜（A 型，BS 8102）、结构自防水混凝土（B 型）或排水空腔（C 型）
+- 保温层延伸至地坪以下：采用 XPS 或泡沫玻璃（耐潮）
+- 基础处热桥：在底板边缘下方设置保温，或采用保温基础系统
+- DPC（防潮层）：至少高出完成地坪 150 mm（英国建筑法规）
 
 ---
 
-## Section 6: Thermal Bridge Prevention
+## 第6节：热桥预防
 
-### 6.1 What Is a Thermal Bridge?
+### 6.1 什么是热桥？
 
-A thermal bridge is a localized area of the building envelope where the heat flow is significantly higher than through the adjacent general envelope area. Thermal bridges:
-- Increase total heat loss by 10–30% in conventional construction
-- Reduce internal surface temperature, increasing condensation and mold risk
-- Are the primary barrier to achieving Passive House performance
+热桥是建筑围护结构中局部热流显著高于相邻一般围护区域的位置。热桥会：
+- 在传统建造中使总热损失增加10-30%
+- 降低内表面温度，增加结露和霉菌风险
+- 是实现被动房性能的首要障碍
 
-### 6.2 Psi-Values (ψ) for Common Junctions
+### 6.2 常见交接处的Psi值（ψ）
 
-The psi-value (linear thermal transmittance) quantifies the additional heat loss per metre length of junction, in W/mK.
+Psi值（线性热透射系数）量化交接处每米长度的附加热损失，单位为W/mK。
 
-| Junction | Typical Construction ψ (W/mK) | Good Practice ψ (W/mK) | Passive House Limit ψ (W/mK) |
+| 交接处 | 典型构造ψ（W/mK） | 良好做法ψ（W/mK） | 被动房限值ψ（W/mK） |
 |---|---|---|---|
 | Wall-to-floor (ground floor) | 0.16 | 0.08 | ≤0.01 |
-| Wall-to-floor (intermediate) | 0.07 | 0.03 | ≤0.01 |
+| 墙—楼板（中间楼层） | 0.07 | 0.03 | ≤0.01 |
 | Wall-to-roof (flat) | 0.12 | 0.06 | ≤0.01 |
 | Wall-to-roof (pitched, eaves) | 0.10 | 0.04 | ≤0.01 |
 | Window head | 0.15 | 0.05 | ≤0.01 |
@@ -494,126 +489,126 @@ The psi-value (linear thermal transmittance) quantifies the additional heat loss
 | Parapet | 0.20 | 0.08 | ≤0.01 |
 | Steel beam penetration | 0.10–0.30 | 0.05 | ≤0.01 |
 
-### 6.3 Strategies for Thermal Bridge Prevention
+### 6.3 热桥预防策略
 
-**Continuous insulation:** The single most effective strategy. Insulation wraps continuously around the entire building envelope without interruption. External insulation (ETICS/rainscreen) achieves this more easily than cavity or internal insulation.
+**连续保温：**最有效的单一策略。保温层连续包覆整个建筑围护结构，不得中断。外保温（ETICS/雨幕）比夹芯空腔或内保温更容易实现连续性。
 
-**Thermal break connectors:**
-- Schock Isokorb: structural thermal break for concrete-to-concrete balcony connections. Reduces ψ from ~0.70 to ~0.15 W/mK. Available for moment, shear, and combined loads.
-- Halfen HIT: similar structural thermal break system
-- Armatherm: FRP (fiber-reinforced polymer) thermal break pads for steel-to-steel and steel-to-concrete connections
-- Typical thermal break thickness: 80–120 mm of insulation within the structural connection
+**断热连接件：**
+- Schock Isokorb：用于混凝土—混凝土阳台连接的结构断热件，可将 ψ 从约 0.70 降至约 0.15 W/mK，并可适用于弯矩、剪力及组合荷载。
+- Halfen HIT：类似的结构断热系统。
+- Armatherm：用于钢—钢及钢—混凝土连接的 FRP（纤维增强聚合物）断热垫块。
+- 典型断热厚度：结构连接内部设置 80–120 mm 保温层。
 
-**Proprietary brackets for rainscreen cladding:**
-- Standard aluminum bracket: ψ ≈ 0.04–0.08 W/mK per bracket
-- Thermal break bracket (e.g., Leviat Halfen, Fischer Thermax): ψ ≈ 0.01–0.02 per bracket
-- Number of brackets: typically 4–6 per m² of facade
-- Total bracket thermal bridge on a facade: can add 0.02–0.05 W/m²K to effective wall U-value if not thermally broken
+**雨幕覆层专用支托：**
+- 标准铝支托：每个支托 ψ ≈ 0.04–0.08 W/mK。
+- 断热支托（如 Leviat Halfen、Fischer Thermax）：每个支托 ψ ≈ 0.01–0.02。
+- 支托数量：通常每平方米立面 4–6 个。
+- 立面支托形成的总热桥：未采取断热时，可能使墙体有效 U 值增加 0.02–0.05 W/m²K。
 
-### 6.4 Common Thermal Bridge Locations
+### 6.4 常见热桥位置
 
-**Window heads, sills, and jambs:**
-- Install window in the insulation plane (not at the back of the reveal)
-- Insulation return into reveal: min 30 mm over frame
-- Use insulated window sub-frames (Purenit, Compacfoam) for Passive House detailing
-- Passive House install zone: window positioned where insulation layer crosses (typically 1/3 from exterior face)
+**窗过梁、窗台和窗侧：**
+- 将窗安装在保温层平面内（不要安装在窗洞口内侧末端）。
+- 保温层返入窗洞口：覆盖窗框至少 30 mm。
+- 被动房节点采用带保温的窗副框（Purenit、Compacfoam）。
+- 被动房安装区域：窗应置于保温层连续穿过的位置（通常距外表面约 1/3 处）。
 
-**Floor edges (intermediate floors):**
-- Concrete slab edge exposed at facade: major thermal bridge (ψ = 0.07–0.15)
-- Solution: wrap insulation around slab edge (perimeter insulation strip, 30–50 mm)
-- Or: use insulated curtain wall spandrel panel covering slab edge
+**楼板边缘（中间楼层）：**
+- 混凝土楼板边缘暴露于立面处会形成主要热桥（ψ = 0.07–0.15）。
+- 解决方案：在楼板边缘包覆保温层（周边保温条，30–50 mm）。
+- 或使用带保温的幕墙实体墙板覆盖楼板边缘。
 
-**Balcony connections:**
-- Uninsulated concrete balcony penetrating insulation layer is the worst common thermal bridge
-- Solutions: structural thermal break (Isokorb type); hung balconies on independent structure; cantilevered steel brackets with thermal breaks; prefabricated balcony units with thermal separation
+**阳台连接：**
+- 未保温的混凝土阳台穿透保温层，是最严重的常见热桥。
+- 解决方案：采用结构断热件（Isokorb 类型）；将悬挂式阳台设置在独立结构上；采用带断热的悬臂钢支托；使用具有热隔离的预制阳台单元。
 
-**Parapets:**
-- Concrete or masonry parapet extending above insulated roof is a thermal bridge and condensation risk
-- Solution: insulate parapet on all three sides (inner face, top, outer face) to maintain warm temperatures
-- Or: eliminate parapet with roof edge detail and external gutter
+**女儿墙：**
+- 高出保温屋面的混凝土或砌体女儿墙会形成热桥并带来结露风险。
+- 解决方案：女儿墙三面（内侧、顶部、外侧）均设置保温，以维持温暖表面温度。
+- 或通过屋面边缘节点和外置天沟取消女儿墙。
 
-**Foundations:**
-- Concrete foundation wall extending below insulated wall: thermal bridge to ground
-- Solution: insulate foundation externally to depth of 600 mm minimum (frost depth); use insulated foundation systems (Passive House foundations with XPS/foam glass sub-slab and perimeter insulation)
-- Passive House approach: Foamglas Perinsul blocks at base of wall to break thermal bridge at DPC level
+**基础：**
+- 混凝土基础墙延伸至保温墙以下，会形成通向地基的热桥。
+- 解决方案：基础外侧保温深度至少 600 mm（冻土深度）；采用保温基础系统（被动房基础使用 XPS/泡沫玻璃板下保温及周边保温）。
+- 被动房做法：在墙基 DPC（防潮层）标高设置 Foamglas Perinsul 砌块，切断该处热桥。
 
-### 6.5 Thermal Bridge Calculation Methods
+### 6.5 热桥计算方法
 
-- **2D analysis:** THERM (free, LBNL), Flixo, HTflux, Psi-Therm. Calculate ψ-values for linear junctions per BS EN ISO 10211.
-- **3D analysis:** Required for point thermal bridges (brackets, anchors, balcony connections). HEAT3, AnTherm, Comsol.
-- **Conventions:** BRE IP 1/06 (UK); PHI Protocol (Passive House). Interior dimensions method vs. exterior dimensions method affects ψ-values — always state convention used.
-- **SAP/SBEM (UK):** Uses tabulated ψ-values from Accredited Construction Details or BR 497; custom values from thermal modeling accepted.
-
----
-
-## Appendix A: Envelope Testing and Commissioning
-
-### Air Permeability Testing
-
-**Blower door test (BS EN ISO 9972 / ASTM E779):**
-- Pressurize building to 50 Pa; measure air flow rate required to maintain pressure
-- Result expressed as m³/(h·m²) at 50 Pa (envelope area basis) or air changes per hour at 50 Pa (ach50, volume basis)
-- UK Building Regs Part L: max 8.0 m³/(h·m²); recommended ≤5.0; best practice ≤3.0
-- Passive House: ≤0.6 ach50 (extremely airtight; ~1.0 m³/(h·m²) typical)
-- Testing: required on completion for new buildings in UK (since 2006); sampled or all units
-- Common leakage paths: service penetrations, wall-to-floor junctions, window frames, loft hatches, electrical sockets on external walls
-
-### Water Penetration Testing (Curtain Wall)
-
-- **AAMA 501.1:** Field test with calibrated spray rack at 34 liters/m²/hour with 137 Pa pressure differential
-- **AAMA 503:** Volumetric test — measure total water penetration volume
-- **EN 12155:** Lab test under static and dynamic pressure (up to 600 Pa static, 250 Pa gusting)
-- **CWCT Standard (UK):** Lab test to 600 Pa static; no water penetration beyond air barrier
-- **Hose test (AAMA 501.2):** Field diagnostic — hand-held nozzle at 22 liters/min, 300 mm distance, systematic sweep. Identifies leak locations.
-
-### Thermal Imaging (Infrared Thermography)
-
-- BS EN 13187: Qualitative detection of thermal irregularities in building envelopes
-- Conduct during heating season: min 10°C interior-exterior temperature differential
-- Pre-dawn preferred (no solar loading on facade)
-- Identifies: thermal bridges, missing insulation, air leakage paths, moisture ingress
-- Cannot quantify U-values; qualitative assessment only (color palette indicates relative surface temperature)
+- **二维分析：**THERM（LBNL 免费软件）、Flixo、HTflux、Psi-Therm。依据 BS EN ISO 10211 计算线性节点的 ψ 值。
+- **三维分析：**点热桥（支托、锚固件、阳台连接）必须进行三维分析，可使用 HEAT3、AnTherm、Comsol。
+- **计算约定：**BRE IP 1/06（英国）；PHI Protocol（被动房）。内尺寸法与外尺寸法会影响 ψ 值，必须说明采用的约定。
+- **SAP/SBEM（英国）：**采用 Accredited Construction Details 或 BR 497 的 ψ 值表；也接受热工模拟得到的定制值。
 
 ---
 
-## Appendix B: Key Standards and Code References
+## 附录 A：围护结构测试与调试
 
-| Standard | Scope | Jurisdiction |
+### 气密性测试
+
+**鼓风门测试（BS EN ISO 9972 / ASTM E779）：**
+- 将建筑加压至 50 Pa，测量维持该压力所需的空气流量。
+- 结果以 50 Pa 下每平方米围护结构面积的 m³/(h·m²)，或以 50 Pa 下每小时换气次数（ach50，按体积计）表示。
+- 英国建筑法规 Part L：最大 8.0 m³/(h·m²)；建议 ≤5.0；最佳实践 ≤3.0。
+- 被动房：≤0.6 ach50（极高气密性；典型值约 1.0 m³/(h·m²)）。
+- 测试要求：英国新建建筑竣工时必须进行（自 2006 年起）；可抽样或对所有单元测试。
+- 常见泄漏路径：管线穿透处、墙—楼板交界、窗框、阁楼检修口、外墙上的电气插座。
+
+### 水渗透测试（幕墙）
+
+- **AAMA 501.1：**现场测试，使用校准喷淋架，喷淋量 34 L/m²/h，压差 137 Pa。
+- **AAMA 503：**体积测试，测量总渗水量。
+- **EN 12155：**在静压和动压下进行实验室测试（静压最高 600 Pa，阵风压力 250 Pa）。
+- **CWCT Standard（英国）：**静压 600 Pa 实验室测试；空气屏障之外不得出现渗水。
+- **软管测试（AAMA 501.2）：**现场诊断，手持喷嘴以 22 L/min 流量、距表面 300 mm 的距离进行系统扫描，以识别泄漏位置。
+
+### 热成像（红外热成像）
+
+- BS EN 13187：定性检测建筑围护结构中的热异常。
+- 在采暖季进行：室内外温差至少 10°C。
+- 宜在黎明前进行（立面无太阳辐射影响）。
+- 可识别：热桥、保温缺失、空气泄漏路径和水分侵入。
+- 不能量化 U 值；仅作定性评估（色标表示相对表面温度）。
+
+---
+
+## 附录 B：主要标准与规范参考
+
+| 标准 | 范围 | 适用辖区 |
 |---|---|---|
-| UK Building Regs Part L (2021) | Conservation of fuel and power (U-values, airtightness) | England |
-| ASHRAE 90.1 | Energy standard for buildings | USA / international |
-| ASHRAE 90.2 | Energy standard for low-rise residential | USA |
-| IECC (International Energy Conservation Code) | Envelope insulation, fenestration, airtightness | USA |
-| Passive House Standard (PHI) | Ultra-low energy design standard | International |
-| BS EN ISO 6946 | Thermal resistance calculation for building components | Europe / international |
-| BS EN ISO 13788 | Hygrothermal performance — interstitial condensation (Glaser) | Europe |
-| BS EN ISO 10211 | Thermal bridges — calculation of heat flows and surface temperatures | Europe |
-| BS EN ISO 13370 | Heat transfer via ground | Europe |
-| BS EN 14351-1 | Windows and doors — product standard and performance | Europe |
-| BS EN 13830 | Curtain wall product standard | Europe |
-| CWCT Standard | Standard for curtain walling (UK industry standard) | UK |
-| AAMA/NAFS | North American Fenestration Standard | USA / Canada |
-| NFPA 285 | Fire propagation in exterior wall assemblies | USA |
-| BS 8414 | Fire performance of external cladding systems | UK |
-| BR 135 | Fire performance of external thermal insulation | UK (BRE guidance) |
-| ETAG 034 / EAD | ETICS (external insulation) European assessment document | Europe |
-| EN 1991-1-4 | Wind actions on structures (wind load for facade design) | Europe |
-| ASTM E283 | Air leakage of curtain walls and windows | USA |
-| ASTM E331 | Water penetration under static pressure | USA |
+| UK Building Regs Part L (2021) | 燃料与能源节约（U 值、气密性） | 英格兰 |
+| ASHRAE 90.1 | 建筑能源标准 | 美国 / 国际 |
+| ASHRAE 90.2 | 低层住宅能源标准 | 美国 |
+| IECC (International Energy Conservation Code) | 围护结构保温、门窗、气密性 | 美国 |
+| Passive House Standard (PHI) | 超低能耗设计标准 | 国际 |
+| BS EN ISO 6946 | 建筑构件热阻计算 | 欧洲 / 国际 |
+| BS EN ISO 13788 | 热湿性能——夹层结露（Glaser） | 欧洲 |
+| BS EN ISO 10211 | 热桥——热流与表面温度计算 | 欧洲 |
+| BS EN ISO 13370 | 经由地基的传热 | 欧洲 |
+| BS EN 14351-1 | 门窗——产品标准与性能 | 欧洲 |
+| BS EN 13830 | 幕墙产品标准 | 欧洲 |
+| CWCT Standard | 幕墙标准（英国行业标准） | 英国 |
+| AAMA/NAFS | 北美门窗标准 | 美国 / 加拿大 |
+| NFPA 285 | 外墙组件中的火焰传播 | 美国 |
+| BS 8414 | 外部覆层系统防火性能 | 英国 |
+| BR 135 | 外保温防火性能 | 英国（BRE 指南） |
+| ETAG 034 / EAD | ETICS（外保温）欧洲评估文件 | 欧洲 |
+| EN 1991-1-4 | 结构风作用（立面设计风荷载） | 欧洲 |
+| ASTM E283 | 幕墙和门窗空气渗漏 | 美国 |
+| ASTM E331 | 静压下水渗透 | 美国 |
 
-### Envelope Performance Rules of Thumb
+### 围护结构性能经验法则
 
-| Parameter | Rule of Thumb | Notes |
+| 参数 | 经验法则 | 备注 |
 |---|---|---|
-| Insulation thickness (mineral wool) | 25 mm per 0.01 W/m²K reduction | Approximate; diminishing returns above 200 mm |
-| Cavity width for argon IGU | 16 mm optimal | Above 20 mm, convection reduces benefit |
-| Cavity width for krypton IGU | 12 mm optimal | More expensive gas, thinner units |
-| Window-to-wall ratio energy impact | Each 10% increase in WWR ≈ 5–8% increase in facade heat loss | Climate-dependent |
-| Thermal bridge surcharge | Add 10–30% to calculated U-value for conventional construction | Reduced to <5% for Passive House |
-| Embodied carbon target (envelope) | <60–80 kgCO2e/m² facade | LETI benchmark |
-| Facade cost as % of building cost | 15–25% for commercial; 8–15% for residential | Curtain wall at upper end |
-| Facade weight | 30–60 kg/m² (curtain wall); 150–350 kg/m² (masonry/precast) | Structural design input |
-| Maintenance cycle (painted timber) | 5–8 years | External exposed elements |
-| Maintenance cycle (aluminum PPC) | 25+ years | Powder coat to BS EN 12206 |
-| Sealant replacement cycle | 15–25 years | Silicone outlasts polyurethane |
-| Flat roof membrane replacement | 20–30 years (single-ply); 15–20 years (built-up) | Green roof membrane longer (protected) |
+| 保温层厚度（矿棉） | 每降低 0.01 W/m²K 需增加 25 mm | 近似值；超过 200 mm 后边际收益递减 |
+| 氩气 IGU 腔体宽度 | 最优 16 mm | 超过 20 mm 后对流会降低收益 |
+| 氪气 IGU 腔体宽度 | 最优 12 mm | 气体更昂贵，组件更薄 |
+| 窗墙比对能耗的影响 | WWR 每增加 10%，立面热损失约增加 5–8% | 取决于气候 |
+| 热桥附加值 | 传统构造在计算 U 值上增加 10–30% | Passive House 可降至 <5% |
+| 围护结构隐含碳目标 | 立面 <60–80 kgCO2e/m² | LETI 基准 |
+| 立面成本占建筑成本比例 | 商业建筑 15–25%；住宅 8–15% | 幕墙通常位于高值端 |
+| 立面重量 | 30–60 kg/m²（幕墙）；150–350 kg/m²（砌体/预制构件） | 结构设计输入 |
+| 维护周期（涂漆木材） | 5–8 年 | 室外暴露构件 |
+| 维护周期（铝合金 PPC） | 25 年以上 | 粉末涂层符合 BS EN 12206 |
+| 密封胶更换周期 | 15–25 年 | 硅酮的耐久性优于聚氨酯 |
+| 平屋面防水膜更换 | 20–30 年（单层膜）；15–20 年（多层卷材） | 绿化屋面膜材因受保护而寿命更长 |

@@ -12,82 +12,82 @@ description: >-
   compliance with NDSS, Neufert, NHS HBN, BB103, or ASHRAE standards.
 ---
 
-# Building Programming Skill
+# 建筑策划技能
 
-You are an expert in architectural programming -- the systematic process of defining, quantifying, and organizing the spatial requirements of a building before design begins. You work with the rigour of Pena & Parshall's Problem Seeking methodology, the area benchmarks of Neufert Architects' Data, and the space standards of national codes. Every number you produce is traceable to a published source.
+你是建筑策划专家，擅长在设计开始前系统定义、量化和组织建筑空间需求。你依据 Pena & Parshall 的 Problem Seeking 方法、Neufert Architects' Data 的面积基准和国家规范的空间标准开展工作。你输出的每个数字都可追溯至已发布来源。
 
 ---
 
-## 1. Architectural Programming Methodology
+## 1. 建筑策划方法论
 
-### 1.1 Definition and Purpose
+### 1.1 定义与目的
 
-Architectural programming is the research and decision-making process that identifies the client's needs and translates them into a quantified spatial brief. It precedes design: no sketch, no massing, no plan should be drawn until the program is validated. Programming answers "what and how much" so that design can answer "how."
+建筑策划是识别客户需求并将其转化为量化空间任务书的研究与决策过程。它先于设计：在策划得到验证前，不应绘制草图、体量或平面。策划回答“需要什么、需要多少”，设计再回答“如何实现”。
 
-The program document becomes the contract between client and architect -- a measurable standard against which every design iteration can be evaluated.
+策划文件成为客户与建筑师之间的合同，也是评估每次设计迭代的可测量标准。
 
-### 1.2 Pena & Parshall's Problem Seeking Framework
+### 1.2 Pena & Parshall 的 Problem Seeking 框架
 
-William Pena and Steven Parshall (Problem Seeking: An Architectural Programming Primer, 5th ed., Wiley, 2012) established the dominant methodology used in North American and international practice. The framework has five steps and five information categories.
+William Pena 和 Steven Parshall（Problem Seeking: An Architectural Programming Primer，第 5 版，Wiley，2012）建立了北美及国际实践中占主导地位的方法。框架包含五个步骤和五类信息。
 
-**Five Steps:**
+**五个步骤：**
 
-| Step | Action | Output |
+| 步骤 | 行动 | 输出 |
 |------|--------|--------|
-| 1. Establish Goals | Define the client's mission, aspirations, and priorities | Goal statements ranked by importance |
-| 2. Collect Facts | Gather quantitative data: user counts, existing areas, equipment lists, growth projections | Fact sheets, user surveys, existing-condition plans |
-| 3. Uncover Concepts | Identify the organizational ideas, relationships, and performance criteria that will govern the design | Concept diagrams, adjacency priorities, circulation concepts |
-| 4. Determine Needs | Quantify every space: area, occupancy, environmental requirements, special conditions | Area schedule, room data sheets, equipment lists |
-| 5. State the Problem | Synthesize goals, facts, concepts, and needs into a clear problem statement that guides design | Program summary document, design directives |
+| 1. 确立目标 | 定义客户使命、愿景和优先级 | 按重要性排序的目标陈述 |
+| 2. 收集事实 | 收集定量数据：使用者数量、现有面积、设备清单、增长预测 | 事实表、用户调查、现状图纸 |
+| 3. 揭示概念 | 识别将支配设计的组织思想、关系和性能标准 | 概念图、邻接优先级、交通概念 |
+| 4. 确定需求 | 量化每个空间：面积、使用人数、环境要求和特殊条件 | 面积表、房间数据表、设备清单 |
+| 5. 陈述问题 | 将目标、事实、概念和需求综合为指导设计的清晰问题陈述 | 策划摘要文件、设计指令 |
 
-**Five Information Categories (The Information Index):**
+**五类信息（信息索引）：**
 
-Every piece of programming data is classified into one of five categories. Each step is applied to each category, creating a 5x5 matrix:
+每条策划数据均归入五类之一。每个步骤分别应用于每一类别，形成 5×5 矩阵：
 
-| Category | What It Addresses | Typical Data |
+| 类别 | 关注内容 | 典型数据 |
 |----------|-------------------|--------------|
-| Function | Activities, relationships, user groups | Number of staff, patients, students; adjacency needs; workflow diagrams |
-| Form | Site, environment, physical context, quality | Site area, orientation, views, urban context, image aspirations |
-| Economy | Budget, life-cycle cost, operations | Construction budget per m2, O&M costs, value engineering targets |
-| Time | Schedule, phasing, growth, change | Project timeline, phased delivery, expansion capacity, flexibility needs |
-| Energy | Sustainability, environmental performance, resources | Energy use intensity targets, carbon budget, water targets, renewables |
+| 功能 | 活动、关系、使用者群体 | 员工、患者、学生数量；邻接需求；工作流图 |
+| 形态 | 场地、环境、物理语境、品质 | 场地面积、朝向、景观、城市语境、形象愿景 |
+| 经济 | 预算、全生命周期成本、运营 | 每 m² 建造预算、运营维护成本、价值工程目标 |
+| 时间 | 进度、分期、增长、变化 | 项目时间表、分期交付、扩展能力、灵活性需求 |
+| 能源 | 可持续性、环境性能、资源 | 能源使用强度目标、碳预算、用水目标、可再生能源 |
 
-### 1.3 Programming Process in Practice
+### 1.3 实际策划流程
 
-**Phase 1: Kickoff and Data Gathering (1-3 weeks)**
-- Stakeholder interviews (minimum: client leadership, facility managers, department heads, end users)
-- Existing facility audit: measure actual utilization, not just nominal allocation
-- Benchmarking: compare to published standards and peer institutions
-- User surveys for occupancy patterns, satisfaction, future needs
+**阶段 1：启动与数据收集（1–3 周）**
+- 利益相关者访谈（至少包括客户管理层、设施管理者、部门负责人和最终使用者）
+- 既有设施审计：测量实际使用率，而不仅是名义分配面积
+- 基准比较：与已发布标准和同类机构比较
+- 用户调查：了解使用模式、满意度和未来需求
 
-**Phase 2: Analysis and Synthesis (2-4 weeks)**
-- Draft area schedule with preliminary allocations
-- Adjacency matrix construction (see Section 3)
-- Stacking and blocking diagrams
-- Site capacity testing: can the site accommodate the program?
-- Budget alignment: does the program fit the budget at benchmark cost/m2?
+**阶段 2：分析与综合（2–4 周）**
+- 编制初步面积分配表
+- 构建邻接矩阵（见第 3 节）
+- 绘制叠置图和功能块图
+- 场地容量测试：场地能否容纳策划内容？
+- 预算匹配：按基准造价/m²，策划是否符合预算？
 
-**Phase 3: Validation and Documentation (1-2 weeks)**
-- Red-flag review (see Section 5)
-- Client sign-off on final program
-- Room data sheets for specialty spaces
-- Program summary document with design directives
+**阶段 3：验证与文件化（1–2 周）**
+- 红旗问题审查（见第 5 节）
+- 客户签署确认最终策划
+- 编制专业空间房间数据表
+- 编制含设计指令的策划摘要文件
 
-### 1.4 Key Programming Ratios
+### 1.4 关键策划比率
 
-| Metric | Definition | Typical Range |
+| 指标 | 定义 | 典型范围 |
 |--------|-----------|---------------|
-| Net-to-Gross Ratio (NTG) | Net Usable Area / Gross Floor Area | 0.55 - 0.85 depending on building type |
-| Circulation Factor | Circulation Area / Net Usable Area | 0.20 - 0.40 |
-| Space per Person | Total program area / peak occupancy | Varies by type (see Section 2) |
-| Support Ratio | Support area / primary function area | 0.15 - 0.35 |
-| Parking Ratio | Parking spaces / 1000 m2 GFA or per unit | Code-dependent |
+| 净面积/总面积比（NTG） | 净可用面积 / 总楼面面积 | 依据建筑类型为 0.55–0.85 |
+| 交通系数 | 交通面积 / 净可用面积 | 0.20–0.40 |
+| 人均空间 | 策划总面积 / 高峰使用人数 | 随类型变化（见第 2 节） |
+| 配套比率 | 配套面积 / 主要功能面积 | 0.15–0.35 |
+| 停车比率 | 每 1,000 m² GFA 的车位数或每户车位数 | 取决于规范 |
 
 ---
 
-## 2. Space Standards by Building Type
+## 2. 按建筑类型划分的空间标准
 
-All areas are Net Internal Area (NIA) per space unless noted. Sources abbreviated: NEU = Neufert Architects' Data (5th ed.); NDSS = Nationally Described Space Standard (UK MHCLG, 2015); HBN = NHS Health Building Notes; BB = Building Bulletin (DfE, UK); ASHRAE = ASHRAE Handbook; ADA = Americans with Disabilities Act; BCIS = Building Cost Information Service; IBC = International Building Code.
+除非另有说明，所有面积均为每个空间的净内部面积（NIA）。来源缩写：NEU = Neufert Architects' Data（第 5 版）；NDSS = Nationally Described Space Standard（英国 MHCLG，2015）；HBN = NHS Health Building Notes；BB = Building Bulletin（英国 DfE）；ASHRAE = ASHRAE Handbook；ADA = Americans with Disabilities Act；BCIS = Building Cost Information Service；IBC = International Building Code。
 
 ### 2.1 Residential
 
@@ -107,80 +107,80 @@ All areas are Net Internal Area (NIA) per space unless noted. Sources abbreviate
 | 4-Bed 6p | 99 | 120-130 | 99 | NDSS Table 1 |
 | 4-Bed 7p | 108 | 130-140 | 108 | NDSS Table 1 |
 
-**Individual Room Standards (NDSS):**
+**单个房间标准（NDSS）：**
 
-| Room | Min Area (m2) | Min Dimension | Notes |
+| 房间 | 最小面积（m²） | 最小尺寸 | 说明 |
 |------|--------------|---------------|-------|
-| Single Bedroom | 7.5 | 2.15m width | Must accommodate single bed (2000x900mm) |
-| Double/Twin Bedroom | 11.5 | 2.75m width | Must accommodate double bed (2000x1500mm) |
-| Living/Kitchen/Dining (studio) | 23 | -- | Combined space for 1-person studio |
-| Storage (1-2 person) | 1.5 | -- | Built-in, dedicated, accessible |
-| Storage (3 person) | 2.0 | -- | Scales with occupancy |
-| Storage (4 person) | 2.5 | -- | |
-| Storage (5 person) | 3.0 | -- | |
-| Storage (6+ person) | 3.5 | -- | |
+| 单人卧室 | 7.5 | 宽 2.15 m | 必须容纳单人床（2,000 × 900 mm） |
+| 双人/双床卧室 | 11.5 | 宽 2.75 m | 必须容纳双人床（2,000 × 1,500 mm） |
+| 起居/厨房/餐厅（单间） | 23 | — | 1 人单间的组合空间 |
+| 储藏（1–2 人） | 1.5 | — | 内置、独立、可达 |
+| 储藏（3 人） | 2.0 | — | 随使用人数增加 |
+| 储藏（4 人） | 2.5 | — | |
+| 储藏（5 人） | 3.0 | — | |
+| 储藏（6 人以上） | 3.5 | — | |
 
-**Amenity and Common Spaces:**
+**配套与公共空间：**
 
-| Space | Area per Unit | Notes |
+| 空间 | 每户面积 | 说明 |
 |-------|--------------|-------|
-| Private Balcony/Terrace | 5 - 8 m2 | London Plan min 5m2 for 1-2 person, +1m2 per additional person |
-| Communal Amenity | 2 - 5 m2/unit | Lobby, lounge, co-working, gym, rooftop |
-| Cycle Storage | 1.0 - 1.5 m2/space | 1 space per 1-bed, 2 spaces per 2-bed+ (London Plan) |
-| Bin Store | 0.3 - 0.5 m2/unit | Sized to local authority waste collection |
-| Pram/Mobility Scooter | 0.8 - 1.2 m2/unit | Ground floor, accessible |
+| 私人阳台/露台 | 5–8 m² | 伦敦规划：1–2 人户最小 5 m²，每增加 1 人加 1 m² |
+| 共享配套 | 2–5 m²/户 | 大堂、休息室、共享办公、健身房、屋顶 |
+| 自行车储藏 | 1.0–1.5 m²/车位 | 一居每户 1 个，两居以上每户 2 个（伦敦规划） |
+| 垃圾房 | 0.3–0.5 m²/户 | 按地方政府垃圾收集要求确定 |
+| 婴儿车/代步车 | 0.8–1.2 m²/户 | 首层设置，保证可达 |
 
-### 2.2 Office
+### 2.2 办公
 
-**Workspace Standards:**
+**工作空间标准：**
 
-| Workspace Type | Area per Person (NIA) | Notes | Source |
+| 工作空间类型 | 人均面积（NIA） | 说明 | 来源 |
 |---------------|----------------------|-------|--------|
-| Open Plan (hot-desking) | 6 - 8 m2 | Desk sharing ratio 0.6-0.8:1 | BCO Guide 2019 |
-| Open Plan (assigned) | 8 - 12 m2 | Including primary circulation | BCO Guide 2019 |
-| Team Neighbourhood | 10 - 14 m2 | Activity-based working | BCO Guide 2019 |
-| Private Office (small) | 12 - 15 m2 | 1 person | NEU |
-| Private Office (large) | 15 - 20 m2 | Director / partner | NEU |
-| Executive Suite | 25 - 40 m2 | CEO / Chairman | Practice benchmarks |
-| Touchdown / Hot Desk | 4 - 6 m2 | Short-duration unassigned | BCO Guide 2019 |
+| 开放办公（共享工位） | 6–8 m² | 工位共享比 0.6–0.8:1 | BCO Guide 2019 |
+| 开放办公（固定工位） | 8–12 m² | 包括主要交通空间 | BCO Guide 2019 |
+| 团队邻里 | 10–14 m² | 基于活动的办公 | BCO Guide 2019 |
+| 小型独立办公室 | 12–15 m² | 1 人 | NEU |
+| 大型独立办公室 | 15–20 m² | 董事/合伙人 | 实务基准 |
+| 行政套间 | 25–40 m² | CEO/董事长 | 实务基准 |
+| 临时工位 | 4–6 m² | 短时、非固定 | BCO Guide 2019 |
 
-**Support Spaces:**
+**配套空间：**
 
-| Space | Sizing Basis | Typical Area | Source |
+| 空间 | 尺寸依据 | 典型面积 | 来源 |
 |-------|-------------|-------------|--------|
-| Meeting Room (small, 4-6p) | 2.0 - 2.5 m2/seat | 10 - 15 m2 | BCO |
-| Meeting Room (medium, 8-12p) | 2.0 - 2.5 m2/seat | 18 - 30 m2 | BCO |
-| Boardroom (14-20p) | 2.5 - 3.0 m2/seat | 40 - 60 m2 | BCO |
-| Meeting rooms total | 1 room per 20-25 staff | -- | BCO benchmark |
-| Breakout / Informal | 5% - 10% of workspace NIA | Varies | BCO |
-| Kitchen / Tea Point | 1 per 40-60 staff | 8 - 15 m2 | Practice benchmarks |
-| Staff Restaurant | 1.2 - 1.5 m2/seat | Varies | NEU |
-| Print/Copy | 1 per floor or zone | 6 - 10 m2 | -- |
-| Server/Comms Room | 1 per 2-3 floors | 10 - 20 m2 | -- |
-| Reception / Lobby | 0.3 - 0.5 m2 per 100 m2 NLA | 30 - 80 m2 typical | BCO |
-| WC Provision | IBC: 1 per 25 (M), 1 per 20 (F) | Per code | IBC Table 2902.1 |
+| 小型会议室（4–6 人） | 2.0–2.5 m²/座 | 10–15 m² | BCO |
+| 中型会议室（8–12 人） | 2.0–2.5 m²/座 | 18–30 m² | BCO |
+| 董事会议室（14–20 人） | 2.5–3.0 m²/座 | 40–60 m² | BCO |
+| 会议室总量 | 每 20–25 名员工 1 间 | — | BCO 基准 |
+| 分组/非正式空间 | 工作区 NIA 的 5–10% | 可变 | BCO |
+| 茶水间/茶点区 | 每 40–60 名员工 1 处 | 8–15 m² | 实务基准 |
+| 员工餐厅 | 1.2–1.5 m²/座 | 可变 | NEU |
+| 打印/复印 | 每层或每个区域 1 处 | 6–10 m² | — |
+| 服务器/通信机房 | 每 2–3 层 1 间 | 10–20 m² | — |
+| 接待/大堂 | 每 100 m² NLA 为 0.3–0.5 m² | 典型 30–80 m² | BCO |
+| 卫生间配置 | IBC：男厕每 25 人 1 个，女厕每 20 人 1 个 | 按规范 | IBC 表 2902.1 |
 
-### 2.3 Healthcare
+### 2.3 医疗
 
-**Patient Accommodation:**
+**患者空间：**
 
-| Space | Min Area (m2) | Recommended (m2) | Source |
+| 空间 | 最小面积（m²） | 建议面积（m²） | 来源 |
 |-------|--------------|------------------|--------|
-| Single Patient Room (standard) | 20 | 22-25 | HBN 04-01 |
-| Single Patient Room (en-suite) | 22 | 26 | HBN 04-01 |
-| Double Patient Room | 28 | 30-32 | HBN 04-01 |
-| ICU / Critical Care Bay | 22 | 24-26 | HBN 04-02 |
-| ICU Single Room (isolation) | 26 | 28-30 | HBN 04-02 |
-| Operating Theatre (standard) | 36 | 42-50 | HBN 26 |
-| Operating Theatre (orthopaedic/cardiac) | 50 | 55 | HBN 26 |
-| Anaesthetic Room | 17 | 20 | HBN 26 |
-| Recovery Bay | 9 | 10-12 | HBN 26 |
-| Consultation Room | 12 | 14-16 | HBN 00-03 |
-| Examination Room | 14 | 16 | HBN 00-03 |
-| Treatment Room | 16 | 18-20 | HBN 00-03 |
-| Nurse Station | -- | 12-16 per station | HBN 04-01 |
-| Clean Utility | -- | 10-14 per ward | HBN 04-01 |
-| Dirty Utility | -- | 10-12 per ward | HBN 04-01 |
+| 标准单人病房 | 20 | 22–25 | HBN 04-01 |
+| 带卫生间单人病房 | 22 | 26 | HBN 04-01 |
+| 双人病房 | 28 | 30–32 | HBN 04-01 |
+| ICU/重症监护床位区 | 22 | 24–26 | HBN 04-02 |
+| ICU 隔离单人病房 | 26 | 28–30 | HBN 04-02 |
+| 标准手术室 | 36 | 42–50 | HBN 26 |
+| 骨科/心脏手术室 | 50 | 55 | HBN 26 |
+| 麻醉准备室 | 17 | 20 | HBN 26 |
+| 复苏床位区 | 9 | 10–12 | HBN 26 |
+| 诊室 | 12 | 14–16 | HBN 00-03 |
+| 检查室 | 14 | 16 | HBN 00-03 |
+| 治疗室 | 16 | 18–20 | HBN 00-03 |
+| 护士站 | — | 每站 12–16 | HBN 04-01 |
+| 清洁配套间 | — | 每病区 10–14 | HBN 04-01 |
+| 污物配套间 | — | 每病区 10–12 | HBN 04-01 |
 
 **Departmental Benchmarks (m2/bed for an entire department):**
 
@@ -192,95 +192,95 @@ All areas are Net Internal Area (NIA) per space unless noted. Sources abbreviate
 | Operating Suite | 80 - 120 | Per operating room, including prep/recovery |
 | Outpatient Clinic | 25 - 35 | Per consulting room |
 
-### 2.4 Education
+### 2.4 教育
 
-**Primary and Secondary Schools (BB103 / BB104 Guidance):**
+**小学与中学（BB103 / BB104 指南）：**
 
-| Space | Area | Notes | Source |
+| 空间 | 面积 | 说明 | 来源 |
 |-------|------|-------|--------|
-| General Teaching Classroom | 50 - 56 m2 | 25-30 pupils, 2.0 m2/pupil min | BB103 |
-| Secondary Classroom | 55 - 65 m2 | 30 pupils, specialist furniture | BB103 |
-| Science Laboratory | 80 - 90 m2 | 30 students, fume cupboard, services | BB103 |
-| Art/DT Workshop | 80 - 100 m2 | Wet and dry areas, tool storage | BB103 |
-| Music Room | 55 - 65 m2 | Acoustic isolation required | BB103 |
-| Drama Studio | 80 - 100 m2 | Flexible, blackout, sprung floor | BB103 |
-| School Library (primary) | 40 - 60 m2 | 1 class + browsers | BB103 |
-| School Library (secondary) | 80 - 120 m2 | 40+ readers | BB103 |
-| Sports Hall (4 court) | 594 m2 (33x18m) | Standard 4-badminton court | Sport England |
-| Assembly/Dining Hall | 1.0 - 1.2 m2/seated pupil | Dual-use with PE in primary | BB103 |
+| 普通教学教室 | 50–56 m² | 25–30 名学生，至少 2.0 m²/学生 | BB103 |
+| 中学教室 | 55–65 m² | 30 名学生，专业家具 | BB103 |
+| 科学实验室 | 80–90 m² | 30 名学生，通风柜和设备服务 | BB103 |
+| 艺术/设计技术工作坊 | 80–100 m² | 湿区和干区，工具储藏 | BB103 |
+| 音乐室 | 55–65 m² | 需要声学隔离 | BB103 |
+| 戏剧工作室 | 80–100 m² | 灵活、可遮光、弹性地板 | BB103 |
+| 小学图书馆 | 40–60 m² | 1 个班级 + 浏览区 | BB103 |
+| 中学图书馆 | 80–120 m² | 40 名以上读者 | BB103 |
+| 体育馆（4 场地） | 594 m²（33×18 m） | 标准 4 场羽毛球场 | Sport England |
+| 集会/餐厅 | 1.0–1.2 m²/座位学生 | 小学可与体育空间复用 | BB103 |
 
-**Higher Education:**
+**高等教育：**
 
-| Space | Area | Notes | Source |
+| 空间 | 面积 | 说明 | 来源 |
 |-------|------|-------|--------|
-| Lecture Hall | 1.2 - 1.5 m2/seat | Tiered, fixed seats, AV provision | NEU / AUDE |
-| Seminar Room (20 seats) | 35 - 45 m2 | 1.8 - 2.2 m2/seat | AUDE |
-| Teaching Laboratory | 2.5 - 3.5 m2/student | Wet science, benches, fume hoods | AUDE |
-| Research Laboratory | 10 - 20 m2/researcher | Equipment-dependent | AUDE |
-| Library Reading Space | 4 - 5 m2/reader | Shelving at 5-7 m2 per 1000 volumes | NEU |
-| Student Commons | 0.5 - 1.0 m2/FTE student | Social learning, informal | AUDE |
-| Office (academic) | 10 - 14 m2/person | Shared increasingly common | AUDE |
+| 阶梯讲堂 | 1.2–1.5 m²/座 | 阶梯式、固定座椅、配备视听设备 | NEU / AUDE |
+| 研讨室（20 座） | 35–45 m² | 1.8–2.2 m²/座 | AUDE |
+| 教学实验室 | 2.5–3.5 m²/学生 | 湿实验科学、实验台、通风柜 | AUDE |
+| 研究实验室 | 10–20 m²/研究人员 | 取决于设备 | AUDE |
+| 图书馆阅览空间 | 4–5 m²/读者 | 每 1,000 册书架 5–7 m² | NEU |
+| 学生公共空间 | 0.5–1.0 m²/FTE 学生 | 社交学习、非正式活动 | AUDE |
+| 教师办公室 | 10–14 m²/人 | 越来越多采用共享方式 | AUDE |
 
-### 2.5 Hospitality
+### 2.5 酒店与接待
 
-**Hotel Room Sizes:**
+**酒店客房面积：**
 
-| Category | Room NIA (m2) | Bathroom (m2) | Total (m2) | Source |
+| 类别 | 客房 NIA（m²） | 卫生间（m²） | 总面积（m²） | 来源 |
 |----------|-------------|--------------|-----------|--------|
-| Budget / Economy | 14 - 18 | 3 - 4 | 16 - 20 | NEU / operator standards |
-| Standard (3-star) | 18 - 24 | 4 - 5 | 22 - 28 | NEU / operator standards |
-| Superior (4-star) | 24 - 32 | 5 - 7 | 28 - 38 | NEU / operator standards |
-| Deluxe (5-star) | 32 - 38 | 7 - 10 | 38 - 48 | NEU / operator standards |
-| Junior Suite | 38 - 50 | 8 - 12 | 46 - 62 | Operator standards |
-| Suite | 50 - 75 | 10 - 15 | 60 - 80 | Operator standards |
-| Presidential Suite | 80 - 200+ | 15 - 30 | 100 - 250+ | Operator standards |
+| 经济型 | 14–18 | 3–4 | 16–20 | NEU / 运营商标准 |
+| 标准型（三星） | 18–24 | 4–5 | 22–28 | NEU / 运营商标准 |
+| 高级型（四星） | 24–32 | 5–7 | 28–38 | NEU / 运营商标准 |
+| 豪华型（五星） | 32–38 | 7–10 | 38–48 | NEU / 运营商标准 |
+| 小型套房 | 38–50 | 8–12 | 46–62 | 运营商标准 |
+| 套房 | 50–75 | 10–15 | 60–80 | 运营商标准 |
+| 总统套房 | 80–200+ | 15–30 | 100–250+ | 运营商标准 |
 
-**Hotel Back-of-House Ratios:**
+**酒店后勤区比率：**
 
-| Component | Ratio to Total Room Count | Notes |
+| 组成部分 | 相对总客房数的比率 | 说明 |
 |-----------|--------------------------|-------|
-| Lobby / Reception | 1.0 - 2.0 m2/room | Higher for luxury |
-| Restaurant Seating | 0.7 - 1.2 seats/room | Full-service hotel |
-| Kitchen | 50 - 70% of dining area | Full production kitchen |
-| Ballroom/Conference | 0.5 - 1.5 m2/room | Convention hotels higher |
-| BOH (total) | 50 - 70% of FOH area | Includes housekeeping, laundry, MEP |
-| Fitness/Spa | 0.5 - 2.0 m2/room | Budget: none; 5-star: full spa |
+| 大堂/接待 | 1.0–2.0 m²/间 | 豪华酒店取较高值 |
+| 餐厅座位 | 0.7–1.2 座/间 | 全服务酒店 |
+| 厨房 | 用餐区的 50–70% | 完整生产型厨房 |
+| 宴会厅/会议 | 0.5–1.5 m²/间 | 会议型酒店取较高值 |
+| BOH（总计） | FOH 面积的 50–70% | 包括客房服务、洗衣、MEP |
+| 健身/水疗 | 0.5–2.0 m²/间 | 经济型无；五星级为完整水疗 |
 
-### 2.6 Retail
+### 2.6 零售
 
-| Space | Sizing Basis | Area | Source |
+| 空间 | 尺寸依据 | 面积 | 来源 |
 |-------|-------------|------|--------|
-| Convenience Store | Per unit | 200 - 500 m2 | Practice benchmarks |
-| Supermarket (small) | Per unit | 1,000 - 2,500 m2 | NEU |
-| Supermarket (large) | Per unit | 2,500 - 6,000 m2 | NEU |
-| Hypermarket | Per unit | 6,000 - 15,000+ m2 | NEU |
-| Back of House / Storage | % of sales floor | 15 - 25% | NEU |
-| Staff Facilities | Per unit | 20 - 60 m2 | Practice benchmarks |
-| Loading / Receiving | Per unit | 30 - 80 m2 | Practice benchmarks |
-| Retail Shell (spec) | Floor depth | 12 - 18m preferred, 20m max | NEU |
-| Floor-to-ceiling (retail) | Clear height | 3.5 - 5.0m ground floor | NEU |
+| 便利店 | 每个单元 | 200–500 m² | 实务基准 |
+| 小型超市 | 每个单元 | 1,000–2,500 m² | NEU |
+| 大型超市 | 每个单元 | 2,500–6,000 m² | NEU |
+| 大卖场 | 每个单元 | 6,000–15,000+ m² | NEU |
+| 后勤/储藏 | 销售面积的百分比 | 15–25% | NEU |
+| 员工设施 | 每个单元 | 20–60 m² | 实务基准 |
+| 装卸/收货 | 每个单元 | 30–80 m² | 实务基准 |
+| 零售外壳（标准） | 平面进深 | 建议 12–18 m，最大 20 m | NEU |
+| 零售层高 | 净高 | 首层 3.5–5.0 m | NEU |
 
-### 2.7 Cultural
+### 2.7 文化建筑
 
-| Space | Sizing Basis | Area | Source |
+| 空间 | 尺寸依据 | 面积 | 来源 |
 |-------|-------------|------|--------|
-| Gallery (major works) | Per major piece | 30 - 50 m2 | Museum planning literature |
-| Gallery (general) | Linear wall | 4 - 6 m per work, 3m hanging height | Best practice |
-| Temporary Exhibition | Per gallery | 200 - 800 m2 | Flexible, column-free |
-| Auditorium Seating | Per seat | 0.7 - 1.0 m2 | NEU |
-| Auditorium (with stage) | Per seat total | 1.5 - 2.5 m2 | Including stage, wings |
-| BOH (museum) | % of public area | 40 - 60% | Conservation, storage, workshops |
-| Library Stack Area | Per 1000 volumes | 5 - 7 m2 | Open shelving, 2.1m high |
-| Library Study Carrels | Per reader | 2.5 - 3.5 m2 | Individual, wired |
-| Performance Venue BOH | % of auditorium | 70 - 100% | Dressing rooms, workshops, storage |
+| 展厅（大型作品） | 每件大型作品 | 30–50 m² | 博物馆策划文献 |
+| 展厅（一般） | 墙面长度 | 每件作品 4–6 m，悬挂高度 3 m | 最佳实践 |
+| 临时展览 | 每个展厅 | 200–800 m² | 灵活、无柱 |
+| 礼堂座席 | 每座 | 0.7–1.0 m² | NEU |
+| 礼堂（含舞台） | 每座总面积 | 1.5–2.5 m² | 包括舞台和侧台 |
+| BOH（博物馆） | 公共面积的百分比 | 40–60% | 保护、储藏、工作坊 |
+| 图书馆书库 | 每 1,000 册 | 5–7 m² | 开放书架，高 2.1 m |
+| 图书馆阅览位 | 每位读者 | 2.5–3.5 m² | 独立、配线 |
+| 表演场馆 BOH | 礼堂面积的百分比 | 70–100% | 化妆间、工作坊、储藏 |
 
 ---
 
-## 3. Adjacency Matrix Method
+## 3. 邻接矩阵方法
 
-### 3.1 Purpose
+### 3.1 目的
 
-The adjacency matrix is the fundamental tool for translating functional relationships into spatial organization. It answers: which spaces must be near each other, which should be separated, and which have no strong relationship?
+邻接矩阵是将功能关系转化为空间组织的基础工具。它回答：哪些空间必须相邻，哪些应当分隔，哪些没有强关系？
 
 ### 3.2 Constructing the Matrix
 
@@ -298,31 +298,31 @@ Typically 8-20 for a building-level matrix. Too few loses resolution; too many b
 
 Some practitioners add a fifth level (0 = must not be adjacent) for hard separations like sterile vs. dirty zones.
 
-**Step 3: Score based on specific criteria:**
-- Shared users (patients, staff, students moving between spaces)
-- Shared equipment or services
-- Workflow sequences
-- Environmental compatibility (noise, vibration, fumes)
-- Security and access control
-- Servicing and logistics
+**步骤 3：根据具体标准评分：**
+- 共享使用者（在空间之间移动的患者、员工、学生）
+- 共享设备或服务
+- 工作流序列
+- 环境兼容性（噪声、振动、烟气）
+- 安全与访问控制
+- 设备服务与物流
 
-**Step 4: Populate the half-matrix.** The matrix is symmetric (A-to-B = B-to-A), so only the upper or lower triangle is needed.
+**步骤 4：填写半矩阵。**矩阵具有对称性（A 到 B = B 到 A），因此只需填写上三角或下三角。
 
-### 3.3 From Matrix to Diagram
+### 3.3 从矩阵到图解
 
-**Bubble Diagram:** Translate scores into a spatial diagram:
-- Score 4: circles touching or overlapping
-- Score 3: circles close with a connecting line
-- Score 2: circles at moderate distance, no line
-- Score 1: circles distant, dashed line indicating separation
+**气泡图：**将评分转化为空间图解：
+- 评分 4：圆相切或重叠
+- 评分 3：圆靠近并用连接线相连
+- 评分 2：圆保持中等距离，不画线
+- 评分 1：圆相距较远，用虚线表示分隔
 
-**Stacking Diagram:** For multi-storey buildings, overlay the adjacency logic onto a vertical section showing which departments go on which floors. Ground floor adjacencies (public entry, loading, emergency) drive the stacking.
+**叠置图：**对于多层建筑，将邻接逻辑叠加到竖向剖面中，显示各部门所在楼层。首层邻接关系（公共入口、装卸、急诊）决定叠置方式。
 
-**Affinity Mapping:** Group spaces into clusters based on shared characteristics (public/private, clean/dirty, quiet/noisy, served/servant). These clusters become zones in the plan.
+**亲和性映射：**根据共享特征将空间分组（公共/私密、清洁/污染、安静/嘈杂、被服务/服务），这些集群在平面中形成分区。
 
-### 3.4 Worked Example: 5-Department Hospital
+### 3.4 工作示例：五部门医院
 
-**Departments:** Emergency (ED), Surgery, Inpatient Wards, Outpatient Clinics, Diagnostic Imaging
+**部门：**急诊（ED）、手术部、住院病区、门诊部、诊断影像
 
 **Adjacency Matrix:**
 
@@ -334,216 +334,216 @@ Some practitioners add a fifth level (0 = must not be adjacent) for hard separat
 | Outpatient | -- | -- | -- | -- | 4 |
 | Imaging | -- | -- | -- | -- | -- |
 
-**Reading the Matrix:**
-- ED-Surgery = 4 (essential): Trauma patients move directly from ED to operating theatres. Direct connection required.
-- ED-Imaging = 4 (essential): Emergency patients need immediate CT/X-ray. Many EDs co-locate a dedicated CT scanner.
-- Surgery-Inpatient = 4 (essential): Post-operative patients transfer directly to wards. Same floor or direct lift connection.
-- Outpatient-Imaging = 4 (essential): Outpatients are the highest-volume imaging users. Direct adjacency reduces travel and wait times.
-- ED-Outpatient = 2 (neutral): Different patient populations, different access points, different hours of operation.
-- Surgery-Outpatient = 2 (neutral): Day-surgery patients use a separate admissions path.
+**矩阵解读：**
+- ED—手术 = 4（必要）：创伤患者从急诊直接进入手术室，必须直接连接。
+- ED—影像 = 4（必要）：急诊患者需要立即进行 CT/X 光检查，许多急诊区设置专用 CT。
+- 手术—住院 = 4（必要）：术后患者直接转入病区，宜同层或通过专用电梯连接。
+- 门诊—影像 = 4（必要）：门诊患者是影像使用量最大的群体，直接相邻可减少行走和等待时间。
+- ED—门诊 = 2（中性）：患者群体、入口和运行时间不同。
+- 手术—门诊 = 2（中性）：日间手术患者使用独立入院路径。
 
-**Resulting Stacking Logic:**
-- Ground Floor: ED + Imaging (shared CT) + Main Entrance + Outpatient Clinics
-- First Floor: Surgery (directly above ED for vertical connection) + Day Surgery Admissions
-- Upper Floors: Inpatient Wards (above Surgery for post-op transfer, quiet environment)
+**形成的叠置逻辑：**
+- 首层：急诊 + 影像（共享 CT）+ 主入口 + 门诊部
+- 二层：手术部（位于急诊正上方以实现竖向连接）+ 日间手术入院
+- 上部楼层：住院病区（位于手术部上方，便于术后转运并保持安静环境）
 
-### 3.5 Common Adjacency Patterns by Building Type
+### 3.5 按建筑类型划分的常见邻接模式
 
-**Office Building:**
-- Reception must be adjacent to main entrance (score 4)
-- Meeting rooms should be near reception for visitors (score 3)
-- Kitchen/breakout near workspace clusters (score 3)
-- Server rooms away from water sources (score 1)
-- Executive suites can be separate from general workspace (score 2)
+**办公建筑：**
+- 接待处必须邻接主入口（评分 4）
+- 会议室应靠近接待处，方便访客（评分 3）
+- 厨房/分组空间应靠近工作区集群（评分 3）
+- 服务器机房应远离水源（评分 1）
+- 行政套间可与普通工作区分开（评分 2）
 
-**School:**
-- Administration must be adjacent to main entrance for safeguarding (score 4)
-- Hall adjacent to kitchen for meal service (score 4)
-- Quiet classrooms separated from music/PE (score 1)
-- Science labs near prep rooms (score 4)
-- Library central to teaching zones (score 3)
+**学校：**
+- 为保障安全，行政区必须邻接主入口（评分 4）
+- 餐厅/礼堂邻接厨房，便于供餐（评分 4）
+- 安静教室与音乐/体育空间分隔（评分 1）
+- 科学实验室靠近准备室（评分 4）
+- 图书馆位于教学区中心（评分 3）
 
-**Mixed-Use:**
-- Retail at ground with direct street access (score 4 to street)
-- Office entrance separate from residential (score 1 for lobbies)
-- Residential above office for noise separation (score varies)
-- Car park access separated from pedestrian entry (score 1)
-- Plant rooms at basement or roof, not adjacent to hotel rooms (score 1)
+**混合用途：**
+- 零售位于首层并直接通向街道（对街道评分 4）
+- 办公入口与住宅入口分开（大堂评分 1）
+- 住宅位于办公上方以分隔噪声（评分可变）
+- 停车场入口与行人入口分开（评分 1）
+- 设备机房位于地下室或屋顶，不得邻接酒店客房（评分 1）
 
 ---
 
-## 4. Area Schedule Construction
+## 4. 面积表编制
 
-### 4.1 Definitions
+### 4.1 定义
 
-| Term | Definition | Measurement Standard |
+| 术语 | 定义 | 测量标准 |
 |------|-----------|---------------------|
-| Gross External Area (GEA) | Total area measured to outer face of external walls | RICS Code of Measuring Practice |
-| Gross Internal Area (GIA) | Total area measured to inner face of external walls | RICS |
-| Net Internal Area (NIA) | Usable floor area excluding structure, core, risers, plant, primary circulation | RICS |
-| Net Usable Area (NUA) | NIA minus secondary circulation within tenancies | BOMA / IFMA |
-| Construction Area | Area taken by structure (columns, walls, shear walls) | Typically 5-10% of GIA |
-| Core Area | Lifts, stairs, lobbies, risers, WCs | Typically 15-25% of GIA |
-| Primary Circulation | Corridors, lobbies connecting departments | Typically 10-20% of GIA |
-| Secondary Circulation | Circulation within departments/tenancies | Part of NIA allocation |
-| Plant/Services Area | Mechanical rooms, electrical rooms, risers | Typically 5-10% of GIA |
+| 外部总面积（GEA） | 测量至外墙外表面的总面积 | RICS 测量实务规范 |
+| 内部总面积（GIA） | 测量至外墙内表面的总面积 | RICS |
+| 净内部面积（NIA） | 排除结构、核心筒、管井、设备房和主要交通后的可用楼面面积 | RICS |
+| 净可用面积（NUA） | NIA 减去租赁单元内部的次要交通面积 | BOMA / IFMA |
+| 结构面积 | 柱、墙、剪力墙等结构占用的面积 | 通常为 GIA 的 5–10% |
+| 核心筒面积 | 电梯、楼梯、大堂、管井、卫生间 | 通常为 GIA 的 15–25% |
+| 主要交通面积 | 连接各部门的走道和大堂 | 通常为 GIA 的 10–20% |
+| 次要交通面积 | 部门/租赁单元内部交通 | 属于 NIA 分配的一部分 |
+| 设备/服务面积 | 机房、电气间、管井 | 通常为 GIA 的 5–10% |
 
-### 4.2 Net-to-Gross Ratios by Building Type
+### 4.2 各建筑类型净总比
 
-| Building Type | Typical NTG Ratio | Notes |
+| 建筑类型 | 典型 NTG 比率 | 说明 |
 |--------------|-------------------|-------|
-| Office (speculative) | 0.80 - 0.85 | BCO target: 82.5% |
-| Office (owner-occupied) | 0.75 - 0.82 | More generous circulation |
-| Residential (apartments) | 0.75 - 0.82 | Core-dependent; point tower lower |
-| Hotel | 0.62 - 0.72 | Long double-loaded corridors |
-| Hospital | 0.55 - 0.65 | Complex servicing, wide corridors, interstitial floors |
-| School | 0.70 - 0.78 | Wide corridors for circulation/social |
-| University | 0.60 - 0.72 | Lab buildings lower than teaching |
-| Retail (department store) | 0.80 - 0.88 | Minimal core, open floor plates |
-| Museum/Gallery | 0.55 - 0.65 | Massive BOH, environmental plant |
-| Performing Arts | 0.45 - 0.55 | Stage house, fly tower, BOH dominant |
+| 办公（标准化出租） | 0.80–0.85 | BCO 目标：82.5% |
+| 办公（自用） | 0.75–0.82 | 交通空间更充裕 |
+| 住宅（公寓） | 0.75–0.82 | 取决于核心筒；点式塔楼较低 |
+| 酒店 | 0.62–0.72 | 双侧走道较长 |
+| 医院 | 0.55–0.65 | 设备服务复杂、走道宽、设夹层 |
+| 学校 | 0.70–0.78 | 走道宽，用于交通/社交 |
+| 大学 | 0.60–0.72 | 实验楼低于教学楼 |
+| 零售（百货商店） | 0.80–0.88 | 核心筒少，楼板开放 |
+| 博物馆/画廊 | 0.55–0.65 | BOH 大，环境设备多 |
+| 表演艺术 | 0.45–0.55 | 舞台房、舞台塔和 BOH 占主导 |
 
-### 4.3 Area Schedule Template
+### 4.3 面积表模板
 
-Every program should produce an area schedule in this format:
+每份建筑策划都应按以下格式编制面积表：
 
-| # | Space Name | Qty | Unit NIA (m2) | Total NIA (m2) | Occupants | Special Requirements |
+| # | 空间名称 | 数量 | 单位 NIA（m²） | 总 NIA（m²） | 使用人数 | 特殊要求 |
 |---|-----------|-----|--------------|----------------|-----------|---------------------|
-| 1.0 | DEPARTMENT A | | | | | |
-| 1.1 | Space Type 1 | 4 | 25 | 100 | 6 each | Daylight required, acoustic STC 45 |
-| 1.2 | Space Type 2 | 2 | 40 | 80 | 12 each | AV provision, blackout blinds |
-| 1.3 | Support Space | 1 | 15 | 15 | -- | Adjacent to 1.1 |
-| | Dept A Subtotal | | | 195 | | |
-| 2.0 | DEPARTMENT B | | | | | |
+| 1.0 | A 部门 | | | | | |
+| 1.1 | 空间类型 1 | 4 | 25 | 100 | 每间 6 人 | 需要日光，声学 STC 45 |
+| 1.2 | 空间类型 2 | 2 | 40 | 80 | 每间 12 人 | 预留影音设备，配置遮光帘 |
+| 1.3 | 支持空间 | 1 | 15 | 15 | -- | 邻接 1.1 |
+| | A 部门小计 | | | 195 | | |
+| 2.0 | B 部门 | | | | | |
 | ... | ... | ... | ... | ... | ... | ... |
-| | TOTAL NIA | | | X,XXX | | |
-| | Circulation (20%) | | | X,XXX | | |
-| | Structure (8%) | | | XXX | | |
-| | Core & Services (15%) | | | X,XXX | | |
-| | TOTAL GIA | | | X,XXX | | |
-| | Wall Thickness (3%) | | | XXX | | |
-| | TOTAL GEA | | | X,XXX | | |
+| | NIA 总计 | | | X,XXX | | |
+| | 交通面积（20%） | | | X,XXX | | |
+| | 结构面积（8%） | | | XXX | | |
+| | 核心筒及设备服务（15%） | | | X,XXX | | |
+| | GIA 总计 | | | X,XXX | | |
+| | 墙体厚度（3%） | | | XXX | | |
+| | GEA 总计 | | | X,XXX | | |
 
-### 4.4 Building the Schedule Step by Step
+### 4.4 面积表编制步骤
 
-1. **List every space** from the program, grouped by department or function
-2. **Assign unit areas** from standards (Section 2) or client brief
-3. **Assign quantities** from occupancy data and operational requirements
-4. **Calculate total NIA** = sum of all (unit area x quantity)
-5. **Add circulation factor** based on building type (see NTG ratios)
-6. **Add structural area** (columns, walls): typically 5-10%
-7. **Add core and services** (lifts, stairs, risers, plant): typically 12-20%
-8. **Sum to GIA** = NIA + circulation + structure + core/services
-9. **Add wall thickness** (GIA to GEA conversion): typically 2-5%
-10. **Cross-check NTG ratio** against benchmarks: if outside normal range, investigate
+1. **列出全部空间**：按部门或功能对策划中的所有空间进行分组
+2. **确定单位面积**：依据第 2 节标准或业主任务书
+3. **确定数量**：依据使用人数数据和运营要求
+4. **计算 NIA 总计** = 所有（单位面积 × 数量）之和
+5. **增加交通系数**：依据建筑类型（见 NTG 比率）
+6. **增加结构面积**（柱、墙）：通常为 5–10%
+7. **增加核心筒及设备服务面积**（电梯、楼梯、管井、机房）：通常为 12–20%
+8. **汇总为 GIA** = NIA + 交通面积 + 结构面积 + 核心筒/设备服务面积
+9. **增加墙体厚度**（由 GIA 换算至 GEA）：通常为 2–5%
+10. **复核 NTG 比率**：与基准值对照，超出正常范围时应调查原因
 
-### 4.5 Room Data Sheets
+### 4.5 房间数据表
 
-For complex or specialist spaces, supplement the area schedule with Room Data Sheets (RDS). Each RDS specifies:
+对于复杂或专业空间，应以房间数据表（RDS）补充面积表。每份 RDS 应规定：
 
-| Field | Content |
+| 字段 | 内容 |
 |-------|---------|
-| Room Name and Number | Unique identifier matching area schedule |
-| Area | Net area in m2 |
-| Occupancy | Number and type of occupants |
-| Adjacencies | Required proximity to other rooms |
-| Finishes | Floor, wall, ceiling materials and performance |
-| Environmental | Temperature range, humidity, air changes/hour, noise level |
-| Lighting | Lux level, type (natural/artificial), controls |
-| Power/Data | Socket count, data points, special power |
-| Equipment | Fixed equipment list with spatial requirements |
-| Accessibility | Wheelchair access, hearing loop, visual contrast |
-| Security | Access control level, CCTV, panic alarm |
-| Notes | Any special conditions |
+| 房间名称和编号 | 与面积表对应的唯一标识 |
+| 面积 | 以 m² 表示的净面积 |
+| 使用人数 | 使用者数量及类型 |
+| 邻接关系 | 与其他房间所需的邻近程度 |
+| 装修做法 | 地面、墙面、顶棚材料及性能 |
+| 环境条件 | 温度范围、湿度、每小时换气次数、噪声等级 |
+| 照明 | 照度（lux）、类型（自然光/人工光）、控制方式 |
+| 电力/数据 | 插座数量、数据点、专用电源 |
+| 设备 | 固定设备清单及空间要求 |
+| 无障碍 | 轮椅通行、助听环路、视觉对比度 |
+| 安防 | 门禁等级、闭路电视、紧急报警 |
+| 备注 | 任何特殊条件 |
 
-Healthcare projects (NHS) use the standardised Activity DataBase (ADB) sheets. Education projects use BB103 environmental performance schedules.
+医疗项目（NHS）使用标准化的 Activity DataBase（ADB）表。教育项目使用 BB103 环境性能计划表。
 
 ---
 
-## 5. Brief Validation
+## 5. 任务书验证
 
-### 5.1 Purpose
+### 5.1 目的
 
-Before design begins, the program must be tested against real-world constraints. A program that cannot fit the site, exceeds the budget, or violates codes is a failed program -- no matter how carefully the spaces were sized.
+设计开始前，必须依据现实约束对建筑策划进行测试。无论空间尺寸计算得多么仔细，只要策划无法适配场地、超出预算或违反规范，就属于失败的策划。
 
-### 5.2 Site Capacity Test
+### 5.2 场地容量测试
 
-Calculate whether the program fits the site:
+计算建筑策划是否适配场地：
 
-1. **Site area** (m2)
-2. **Buildable area** = site area minus setbacks, easements, rights-of-way, protected trees
-3. **Maximum GEA per floor** = buildable area x site coverage (typically 40-80% depending on zoning)
-4. **Maximum floors** = zoning height limit / floor-to-floor height
-5. **Maximum GEA** = GEA per floor x number of floors
-6. **Program GEA** = from area schedule (Section 4)
-7. **Fit ratio** = Program GEA / Maximum GEA
+1. **场地面积**（m²）
+2. **可建设面积** = 场地面积 − 退界、地役权、通行权、受保护树木占地
+3. **每层最大 GEA** = 可建设面积 × 建筑覆盖率（取决于分区，通常为 40–80%）
+4. **最大层数** = 分区限高 ÷ 层高（楼板至楼板）
+5. **最大 GEA** = 每层 GEA × 层数
+6. **策划 GEA** = 来自面积表（第 4 节）
+7. **适配比率** = 策划 GEA ÷ 最大 GEA
 
-| Fit Ratio | Interpretation |
+| 适配比率 | 解释 |
 |----------|---------------|
-| < 0.70 | Comfortable fit; room for amenity, landscape, future expansion |
-| 0.70 - 0.85 | Good fit; design flexibility available |
-| 0.85 - 0.95 | Tight fit; limited flexibility, careful massing needed |
-| 0.95 - 1.00 | Marginal; requires maximum envelope, limited ground-level amenity |
-| > 1.00 | DOES NOT FIT; reduce program, add floors, or find larger site |
+| < 0.70 | 适配宽裕；可为配套、景观和未来扩建留出空间 |
+| 0.70–0.85 | 适配良好；仍有设计弹性 |
+| 0.85–0.95 | 适配紧张；弹性有限，需要谨慎进行体量设计 |
+| 0.95–1.00 | 临界；需使用最大建筑轮廓，地面层配套空间有限 |
+| > 1.00 | 不适配；应缩减策划、增加楼层或寻找更大场地 |
 
-### 5.3 Budget Envelope Test
+### 5.3 预算范围测试
 
-1. **Total program GIA** from area schedule
-2. **Construction cost per m2** from BCIS, Turner & Townsend, or local benchmarks
-3. **Estimated construction cost** = GIA x cost/m2
-4. **Total project cost** = construction cost x all-in multiplier (typically 1.3-1.5 for fees, contingency, FF&E, inflation)
-5. **Compare to client budget**
+1. 从面积表取得**策划 GIA 总计**
+2. 从 BCIS、Turner & Townsend 或当地基准取得**每平方米建造成本**
+3. **估算建造成本** = GIA × 每平方米成本
+4. **项目总成本** = 建造成本 × 全包系数（通常为 1.3–1.5，用于计入费用、预备费、FF&E 和通货膨胀）
+5. **与业主预算比较**
 
-| Budget Ratio | Interpretation |
+| 预算比率 | 解释 |
 |-------------|---------------|
-| Project cost < 85% of budget | Potential scope increase or higher specification |
-| 85-100% of budget | Aligned; proceed with contingency |
-| 100-115% of budget | Over; value engineering or scope reduction needed |
-| > 115% of budget | Significant mismatch; fundamental reprogram |
+| 项目成本 < 预算的 85% | 可考虑扩大范围或提高规格 |
+| 预算的 85–100% | 基本匹配；保留预备费后推进 |
+| 预算的 100–115% | 超支；需要价值工程或缩减范围 |
+| > 预算的 115% | 严重不匹配；需要从根本上重新策划 |
 
-### 5.4 Code Compliance Pre-Check
+### 5.4 规范符合性预检查
 
-Before design, verify the program is code-compliant:
-- **Zoning**: Use class, FAR/plot ratio, height, setbacks, parking minimums
-- **Fire**: Maximum compartment sizes, travel distances, number of exits (drives core design)
-- **Accessibility**: Percentage of accessible units, wheelchair-accessible routes
-- **Daylight**: Right-to-light, daylight/sunlight planning requirements
-- **Environmental**: Energy code baseline (Part L, Title 24, ASHRAE 90.1)
+设计前应核查建筑策划是否符合规范：
+- **分区**：使用类别、容积率/地块比率、高度、退界、最低停车位数
+- **消防**：最大防火分区面积、疏散距离、出口数量（影响核心筒设计）
+- **无障碍**：无障碍单元比例、轮椅可达路线
+- **日照采光**：采光权、日光/日照规划要求
+- **环境**：能源规范基线（Part L、Title 24、ASHRAE 90.1）
 
-### 5.5 Red-Flag Checklist
+### 5.5 红旗问题清单
 
-Review the program for these common failures:
+检查建筑策划是否存在以下常见问题：
 
-| Red Flag | Issue | Resolution |
+| 红旗问题 | 问题 | 解决方案 |
 |----------|-------|------------|
-| NTG ratio outside benchmark range | Over/under-estimated circulation or core | Recalculate with type-specific ratios |
-| Program GEA exceeds site capacity | Too much floor area for site | Reduce program, increase storeys, or acquire more land |
-| No growth allowance | Building will be undersized on day 1 | Add 10-20% expansion capacity |
-| Missing support spaces | Only primary spaces listed | Add storage, plant, circulation, WCs, cleaners |
-| Adjacency conflicts | Noise sources next to quiet spaces | Recheck adjacency matrix, revise stacking |
-| Parking shortfall | Not enough parking for code/market | Calculate from code minimums or demand studies |
-| Floor plate too deep | Spaces exceed daylight reach | Limit floor depth to 12-15m from window |
-| Floor-to-floor too low | Insufficient for services distribution | Check structural depth + services + ceiling height |
-| No phasing strategy | Client needs partial occupancy | Define phases, ensure each phase is functional |
-| Budget mismatch > 15% | Program cost exceeds client budget | Reprogram: reduce area, reduce specification, phase |
+| NTG 比率超出基准范围 | 高估或低估交通面积/核心筒面积 | 使用建筑类型专用比率重新计算 |
+| 策划 GEA 超出场地容量 | 场地无法容纳如此大的楼面面积 | 缩减策划、增加层数或取得更多土地 |
+| 未预留增长空间 | 建筑从启用第一天起就偏小 | 增加 10–20% 的扩建容量 |
+| 缺少支持空间 | 仅列出主要空间 | 增加储藏、机房、交通、卫生间和清洁间 |
+| 邻接冲突 | 噪声源紧邻安静空间 | 复核邻接矩阵，调整垂直分区 |
+| 停车位不足 | 不满足规范或市场需求 | 按规范最低值或需求研究计算 |
+| 标准层过深 | 空间超出日光可达范围 | 将窗边向内的进深限制在 12–15 m |
+| 层高过低 | 无法容纳设备管线分配 | 核查结构厚度 + 设备服务 + 吊顶高度 |
+| 没有分期策略 | 业主需要部分先行使用 | 定义各期，并确保每期均可独立运行 |
+| 预算偏差 > 15% | 策划成本超过业主预算 | 重新策划：缩减面积、降低规格或分期实施 |
 
-### 5.6 Program Sign-Off
+### 5.6 建筑策划确认
 
-The validated program document should contain:
-1. Executive summary with total GIA, cost estimate, and key metrics
-2. Space-by-space area schedule (Section 4 template)
-3. Adjacency matrix and stacking diagram
-4. Room data sheets for specialist spaces
-5. Site capacity confirmation
-6. Budget alignment confirmation
-7. Code compliance pre-check results
-8. Client approval signature and date
+经验证的建筑策划文件应包含：
+1. 执行摘要，包括 GIA 总计、成本估算和关键指标
+2. 逐空间面积表（第 4 节模板）
+3. 邻接矩阵和垂直分区图
+4. 专业空间的房间数据表
+5. 场地容量确认
+6. 预算匹配确认
+7. 规范符合性预检查结果
+8. 业主批准签名和日期
 
-This document becomes the baseline against which all design proposals are measured. Any subsequent change to the program requires a formal variation with impact assessment on area, cost, and schedule.
+该文件将作为评估所有设计方案的基准。之后对建筑策划的任何变更，都必须通过正式变更程序，并评估其对面积、成本和进度的影响。
 
 ---
 
-## References
+## 参考资料
 
 - Pena, W. & Parshall, S. (2012). *Problem Seeking: An Architectural Programming Primer*. 5th ed. Wiley.
 - Cherry, E. (1999). *Programming for Design: From Theory to Practice*. Wiley.

@@ -1,22 +1,22 @@
 ---
 name: material-selection
-description: Architectural material properties, durability, sustainability, specification, detailing, life-cycle assessment, and material palettes for building design
+description: 建筑材料性能、耐久性、可持续性、规格、节点、生命周期评估及建筑设计材料组合
 user-invocable: true
 ---
 
-# Material Selection
+# 材料选择
 
-Comprehensive knowledge base for architectural material selection covering structural performance, durability, thermal and acoustic properties, fire resistance, embodied carbon, cost, and aesthetic quality. Invoke this skill when addressing questions about material specification, material comparison, life-cycle assessment, embodied carbon targets, material detailing, finish selection, or material-appropriate design strategies.
+建筑材料选择综合知识库，涵盖结构性能、耐久性、热工与声学性能、耐火性、隐含碳、成本和美学品质。涉及材料规格、材料比较、生命周期评估、隐含碳目标、材料节点、饰面选择或材料适配型设计策略时调用本技能。
 
 ---
 
-## Section 1: Material Selection Methodology
+## 第 1 节：材料选择方法
 
-### 1.1 Eight-Criteria Evaluation Framework
+### 1.1 八项标准评估框架
 
-Every architectural material decision should be evaluated against eight performance criteria. Weight each criterion according to project priorities (structural warehouse vs. cultural institution vs. social housing).
+每项建筑材料决策都应依据八项性能标准进行评估。根据项目优先级为各标准赋予权重（结构仓库、文化机构或保障性住房的权重不同）。
 
-**Criterion 1: Structural Performance**
+**标准 1：结构性能**
 - Compressive strength (MPa)
 - Tensile strength (MPa)
 - Elastic modulus (GPa)
@@ -25,7 +25,7 @@ Every architectural material decision should be evaluated against eight performa
 - Span-to-depth ratio capability
 - Connection and jointing methods
 
-**Criterion 2: Durability and Weathering**
+**标准 2：耐久性与风化**
 - Design life expectation (25, 50, 60, 100+ years)
 - Resistance to moisture, freeze-thaw, UV, pollution, biological attack
 - Maintenance frequency and cost
@@ -33,21 +33,21 @@ Every architectural material decision should be evaluated against eight performa
 - EN 206 exposure classes (concrete); EN 350 durability classes (timber)
 - Corrosion resistance (metals); efflorescence (masonry)
 
-**Criterion 3: Thermal Properties**
+**标准 3：热工性能**
 - Thermal conductivity (λ, W/mK)
 - Specific heat capacity (c, J/kgK)
 - Thermal mass (decrement delay, admittance)
 - Contribution to U-value calculation
 - Thermal bridging potential (ψ-values at junctions)
 
-**Criterion 4: Acoustic Properties**
+**标准 4：声学性能**
 - Sound absorption coefficient (α) and NRC
 - Sound reduction index (Rw, dB)
 - Impact sound insulation (Ln,w)
 - Flanking transmission paths
 - Resonant frequency (for panel absorbers)
 
-**Criterion 5: Fire Performance**
+**标准 5：防火性能**
 - Euroclass rating (A1 to F) / ASTM E84 (Class A, B, C)
 - Fire resistance period (REI 30 to REI 240)
 - Reaction to fire (ignitability, flame spread, smoke production)
@@ -55,100 +55,100 @@ Every architectural material decision should be evaluated against eight performa
 - Concrete cover requirements for fire rating
 - Intumescent and board-based fire protection for steel
 
-**Criterion 6: Embodied Carbon and Sustainability**
-- Embodied carbon (kgCO2e per kg, per m², or per m³)
-- LCA stages A1-A5, B1-B7, C1-C4, D
-- Recyclability and recycled content
-- Renewable/non-renewable resource base
-- Transportation distance (local vs. imported)
-- Circular economy potential (Design for Disassembly)
+**标准 6：隐含碳与可持续性**
+- 隐含碳（kgCO2e/kg、kgCO2e/m² 或 kgCO2e/m³）
+- LCA 阶段 A1–A5、B1–B7、C1–C4、D
+- 可回收性和再生材料含量
+- 可再生/不可再生资源基础
+- 运输距离（本地与进口）
+- 循环经济潜力（面向拆解设计）
 
-**Criterion 7: Cost**
-- Material cost (per m², per m³, per linear meter)
-- Installation labor cost
-- Maintenance and replacement costs over design life
-- Whole-life cost (initial + maintenance + replacement + end-of-life)
-- Supply chain reliability and lead times
+**标准 7：成本**
+- 材料成本（每 m²、每 m³ 或每延米）
+- 安装人工成本
+- 设计使用年限内的维护和更换成本
+- 全生命周期成本（初始 + 维护 + 更换 + 寿命结束）
+- 供应链可靠性和交货周期
 
-**Criterion 8: Aesthetic Quality**
-- Color, texture, pattern, translucency
-- Surface finish options
-- Ageing character and patina
-- Scale and module relationships
-- Tectonic expression (honesty of material)
-- Contextual appropriateness (regional materials, cultural associations)
+**标准 8：美学品质**
+- 颜色、纹理、图案、半透明性
+- 表面饰面选项
+- 老化特征和包浆
+- 尺度与模数关系
+- 构造表达（材料真实性）
+- 语境适宜性（地域材料、文化联想）
 
-### 1.2 Decision Matrix Template
+### 1.2 决策矩阵模板
 
-Scoring: 1 (poor) to 5 (excellent) per criterion. Apply weighting multipliers (1.0-3.0) based on project priorities.
+评分：每项标准按 1（差）至 5（优秀）评分。根据项目优先级应用权重系数（1.0–3.0）。
 
-| Criterion | Weight | Option A (Score) | A Weighted | Option B (Score) | B Weighted | Option C (Score) | C Weighted |
+| 标准 | 权重 | 方案 A（评分） | A 加权 | 方案 B（评分） | B 加权 | 方案 C（评分） | C 加权 |
 |---|---|---|---|---|---|---|---|
-| Structural | 1.5 | | | | | | |
-| Durability | 2.0 | | | | | | |
-| Thermal | 1.5 | | | | | | |
-| Acoustic | 1.0 | | | | | | |
-| Fire | 2.0 | | | | | | |
-| Embodied Carbon | 2.5 | | | | | | |
-| Cost | 2.0 | | | | | | |
-| Aesthetic | 1.5 | | | | | | |
-| **TOTAL** | **14.0** | | **Σ** | | **Σ** | | **Σ** |
+| 结构 | 1.5 | | | | | | |
+| 耐久性 | 2.0 | | | | | | |
+| 热工 | 1.5 | | | | | | |
+| 隔声 | 1.0 | | | | | | |
+| 防火 | 2.0 | | | | | | |
+| 隐含碳 | 2.5 | | | | | | |
+| 成本 | 2.0 | | | | | | |
+| 美学 | 1.5 | | | | | | |
+| **合计** | **14.0** | | **Σ** | | **Σ** | | **Σ** |
 
-**Interpretation:** Highest weighted total = preferred option. Sensitivity analysis: vary weights ±0.5 to test robustness. If options score within 5%, treat as equivalent and decide on qualitative factors.
+**解读：**加权总分最高者为优选方案。进行敏感性分析：将权重改变 ±0.5 以检验稳健性。若方案得分差异在 5% 以内，可视为等效，并根据定性因素决策。
 
 ---
 
-## Section 2: Concrete
+## 第 2 节：混凝土
 
-### 2.1 Types
+### 2.1 类型
 
-**In-Situ (Cast-in-Place):**
-- Poured into formwork on site; cures in position
-- Maximum flexibility in form and geometry
-- Grades: C20/25 (foundations), C30/37 (structural frames), C40/50 (high-rise columns), C50/60 (prestressed)
-- Minimum 28-day strength; continued strength gain over months
+**现浇混凝土：**
+- 在现场浇入模板并原位养护。
+- 形态和几何自由度最高。
+- 强度等级：C20/25（基础）、C30/37（结构框架）、C40/50（高层柱）、C50/60（预应力）。
+- 最低 28 天强度；数月内持续增长。
 
-**Precast:**
-- Factory-produced elements (beams, columns, panels, stairs, floors)
-- Superior quality control; consistent finish; rapid erection
-- Hollow-core slabs: 150-500 mm deep, spans 6-16 m
-- Sandwich panels: structural + insulation + facing leaf in single unit
+**预制混凝土：**
+- 工厂生产的构件（梁、柱、板、楼梯和楼板）。
+- 质量控制优良、饰面一致、安装迅速。
+- 空心楼板：厚度 150–500 mm，跨度 6–16 m。
+- 夹芯板：在一个单元中整合结构层、保温层和面层。
 
-**Glass-Fibre Reinforced Concrete (GRC/GFRC):**
-- Thin (10-25 mm) concrete panels with alkali-resistant glass fibres
-- Lightweight: 15-20 kg/m² (vs. 100+ kg/m² for solid precast)
-- Cladding and facade applications; complex curved forms
-- Flexural strength: 20-30 MPa (vs. 3-5 MPa for plain concrete)
+**玻璃纤维增强混凝土（GRC/GFRC）：**
+- 含耐碱玻璃纤维的薄型混凝土板（10–25 mm）。
+- 轻质：15–20 kg/m²（实心预制混凝土为 100+ kg/m²）。
+- 用于幕墙和立面，可实现复杂曲面。
+- 抗弯强度：20–30 MPa（普通混凝土为 3–5 MPa）。
 
-**Ultra-High Performance Concrete (UHPC):**
-- Compressive strength: 120-200 MPa (vs. 30-50 MPa standard)
-- Steel fibre reinforced; no conventional rebar needed for thin sections
-- Density: 2,400-2,600 kg/m³
-- Enables extremely thin elements (25-75 mm structural walls, 15-30 mm panels)
-- Self-healing micro-cracks; exceptional durability
-- Cost: 5-10× standard concrete
-- Exemplars: MUCEM Marseille (Ricciotti), Ductal bridges
+**超高性能混凝土（UHPC）：**
+- 抗压强度：120–200 MPa（普通混凝土为 30–50 MPa）。
+- 钢纤维增强；薄截面可不设传统钢筋。
+- 密度：2,400–2,600 kg/m³。
+- 可实现极薄构件（结构墙 25–75 mm，面板 15–30 mm）。
+- 微裂缝自愈，耐久性卓越。
+- 成本：普通混凝土的 5–10 倍。
+- 案例：马赛 MUCEM（Ricciotti）、Ductal 桥梁。
 
-**Self-Compacting Concrete (SCC):**
-- Flows under its own weight; no vibration needed
-- Superior finish quality; fills complex formwork without voids
-- Used for architectural exposed concrete with demanding finish requirements
+**自密实混凝土（SCC）：**
+- 依靠自重流动，无需振捣。
+- 饰面质量优良，可填满复杂模板而不产生空洞。
+- 用于对饰面要求严格的建筑外露混凝土。
 
-### 2.2 Finishes
+### 2.2 饰面
 
-| Finish | Method | Texture | Typical Cost Premium |
+| 饰面 | 方法 | 质感 | 典型成本增幅 |
 |---|---|---|---|
-| Board-marked | Sawn timber formwork; grain transfers | Rough, directional | +10-20% |
-| Steel-formed | Steel or resin-coated plywood formwork | Smooth, uniform | Baseline |
-| Polished | Diamond grinding after curing | Mirror-like, exposes aggregate | +30-50% |
-| Acid-etched | Acid wash removes surface cement paste | Exposed fine aggregate | +15-25% |
-| Sandblasted | Abrasive blasting | Exposed coarse aggregate | +20-30% |
-| Bush-hammered | Mechanical hammering | Rough, stone-like | +25-40% |
-| Pigmented | Integral oxide pigments | Colored throughout | +15-30% |
-| White concrete | White Portland cement + white aggregate | Bright white | +40-60% |
-| Fabric-formed | Flexible textile formwork | Organic, draped | +20-50% |
+| 木纹模板 | 锯制木模板；转印木纹 | 粗糙、有方向性 | +10–20% |
+| 钢模板 | 钢模板或树脂覆膜胶合板模板 | 平滑、均匀 | 基准 |
+| 抛光 | 养护后金刚石研磨 | 镜面效果，露出骨料 | +30–50% |
+| 酸蚀 | 酸洗去除表面水泥浆 | 露出细骨料 | +15–25% |
+| 喷砂 | 磨料喷射 | 露出粗骨料 | +20–30% |
+| 凿毛 | 机械锤击 | 粗糙、类似石材 | +25–40% |
+| 着色 | 整体氧化物颜料 | 通体着色 | +15–30% |
+| 白色混凝土 | 白色波特兰水泥 + 白色骨料 | 明亮白色 | +40–60% |
+| 织物成型 | 柔性织物模板 | 有机、褶皱状 | +20–50% |
 
-### 2.3 Key Properties
+### 2.3 关键性能
 
 - Density: 2,300-2,400 kg/m³ (normal weight); 1,400-1,800 kg/m³ (lightweight)
 - Thermal conductivity: 1.0-1.8 W/mK (normal); 0.5-0.8 (lightweight)
@@ -157,192 +157,192 @@ Scoring: 1 (poor) to 5 (excellent) per criterion. Apply weighting multipliers (1
 - Embodied carbon: 150-200 kgCO2e/m³ (standard OPC concrete); 80-120 kgCO2e/m³ (low-carbon with GGBS/PFA replacement)
 - Fire rating: inherently non-combustible (Euroclass A1). Concrete cover for fire resistance: 25 mm (REI 60), 35 mm (REI 90), 40 mm (REI 120), 55 mm (REI 240)
 
-### 2.4 Architects of Concrete
+### 2.4 混凝土建筑师案例
 
-- **Tadao Ando:** Smooth board-marked finish with precise tie-hole patterns (600 mm grid); Church of the Light, Naoshima museums
-- **Peter Zumthor:** Textured, layered concrete (Therme Vals — local quartzite aggregate; Bruder Klaus Chapel — charred timber interior formwork)
-- **Louis Kahn:** Monumental concrete with expressed structure (Salk Institute, National Assembly Dhaka — concrete + marble aggregate)
-- **Oscar Niemeyer:** Sculptural white concrete (Brasilia Cathedral — hyperboloid shell; Niteroi Museum)
-- **Le Corbusier:** Beton brut (Unite d'Habitation, Chandigarh — board-marked exposed concrete)
-- **Zaha Hadid:** UHPC and GRC for fluid geometries (Heydar Aliyev Center — GRC panels)
-- **Grafton Architects:** Raw exposed concrete as civic material (UTEC Lima, Bocconi University)
+- **安藤忠雄：**光滑清水模板面与精确对拉螺栓孔阵列（600 mm 网格）；光之教堂、直岛美术馆群
+- **Peter Zumthor：**具有肌理和层次的混凝土（瓦尔斯温泉——当地石英岩骨料；Bruder Klaus 礼拜堂——烧焦木材内模）
+- **Louis Kahn：**纪念性混凝土与结构表达（萨尔克研究所、达卡国民议会大厦——混凝土 + 大理石骨料）
+- **Oscar Niemeyer：**雕塑般的白色混凝土（巴西利亚大教堂——双曲面壳体；尼泰罗伊当代艺术博物馆）
+- **勒·柯布西耶：**粗野混凝土（马赛公寓、昌迪加尔——清水模板外露混凝土）
+- **Zaha Hadid：**以 UHPC 与 GRC 实现流动几何（海达尔·阿利耶夫中心——GRC 板）
+- **Grafton Architects：**将裸露混凝土作为公共建筑材料（利马 UTEC、博科尼大学）
 
 ---
 
-## Section 3: Steel
+## 第 3 节：钢材
 
-### 3.1 Structural Steel Grades
+### 3.1 结构钢等级
 
-| Grade (EN) | Yield Strength (MPa) | Tensile Strength (MPa) | Primary Use |
+| 等级（EN） | 屈服强度（MPa） | 抗拉强度（MPa） | 主要用途 |
 |---|---|---|---|
-| S235 | 235 | 360-510 | Light structures, secondary steelwork |
-| S275 | 275 | 410-560 | General building frames |
-| S355 | 355 | 470-630 | Most common structural grade; beams, columns |
-| S460 | 460 | 540-720 | High-rise, long-span, heavily loaded |
+| S235 | 235 | 360-510 | 轻型结构、次要钢构件 |
+| S275 | 275 | 410-560 | 一般建筑框架 |
+| S355 | 355 | 470-630 | 最常用结构钢级；梁、柱 |
+| S460 | 460 | 540-720 | 高层、大跨度、重荷载 |
 
-**ASTM Equivalents:** A36 (≈S235), A992 (≈S345-S355), A572 Gr 50 (≈S345)
+**ASTM 等效等级：**A36（≈S235）、A992（≈S345–S355）、A572 Gr 50（≈S345）。
 
-### 3.2 Stainless Steel
+### 3.2 不锈钢
 
-- **304 (18/8):** 18% chromium, 8% nickel. General purpose. Interior and mild exterior use. Yield 210 MPa.
-- **316 (18/10/3):** Added molybdenum for enhanced corrosion resistance. Marine and polluted environments. Yield 220 MPa. Cost: +30-40% over 304.
-- **Duplex 2205:** High strength (yield 450 MPa) + corrosion resistance. Structural applications. Cost: +50-70% over 304.
+- **304（18/8）：**18% 铬、8% 镍，用途广泛，适用于室内和轻度室外环境；屈服强度 210 MPa。
+- **316（18/10/3）：**添加钼以提高耐腐蚀性，适用于海洋和污染环境；屈服强度 220 MPa，成本比 304 高 30–40%。
+- **双相钢 2205：**高强度（屈服强度 450 MPa）并具耐腐蚀性，适用于结构用途；成本比 304 高 50–70%。
 
-### 3.3 Weathering Steel (Corten A/B)
+### 3.3 耐候钢（Corten A/B）
 
-- Forms stable oxide patina (rust layer) that protects underlying steel
-- Eliminates need for painting; self-healing if scratched
-- Patina formation: 2-5 years for full development; color progression from orange to deep brown
-- **Critical:** Must not be used where run-off stains adjacent materials (limestone, concrete). Requires detailing to manage staining. Not suitable for marine environments (chloride prevents stable patina).
-- Exemplars: Angel of the North (Gormley), Barclays Center Brooklyn (SHoP), CaixaForum Madrid (Herzog & de Meuron)
+- 形成稳定的氧化物锈层，保护下部钢材。
+- 无需涂漆；划伤后可自我修复。
+- 锈层形成：2–5 年完成发展，颜色由橙色逐渐变为深棕色。
+- **关键：**不得用于径流会污染相邻材料（石灰石、混凝土）的场所；必须通过节点设计控制污染。不适用于海洋环境（氯离子会阻止稳定锈层形成）。
+- 案例：Angel of the North（Gormley）、Barclays Center Brooklyn（SHoP）、CaixaForum Madrid（Herzog & de Meuron）。
 
-### 3.4 Finishes
+### 3.4 饰面
 
-- **Painted:** Shop-applied primer + topcoat. Recoat every 15-25 years. Most common.
-- **Galvanized (hot-dip):** Zinc coating 45-85 µm; 40-60 year life in mild environments. Matte silver-grey appearance.
-- **Powder-coated:** Thermoset polymer; color range unlimited; 20-30 year life exterior. Polyester (standard) or PVDF (premium, 30+ years).
-- **Brushed/Polished:** For stainless steel; various grades (No.4 brushed, No.8 mirror).
-- **Patinated:** Applied patina (chemical acceleration of natural oxidation); controlled finish for bronze, copper, steel.
+- **涂漆：**工厂施涂底漆和面漆；每 15–25 年重涂一次，最常见。
+- **热浸镀锌：**锌层厚度 45–85 µm；温和环境寿命 40–60 年，呈哑光银灰色。
+- **粉末涂层：**热固性聚合物，颜色选择几乎不受限；室外寿命 20–30 年。可采用聚酯（标准）或 PVDF（高端，30 年以上）。
+- **拉丝/抛光：**用于不锈钢，有多种等级（4 号拉丝、8 号镜面）。
+- **做旧锈层：**施加人工锈层（化学加速自然氧化），用于青铜、铜和钢的可控饰面。
 
-### 3.5 Key Properties
+### 3.5 关键性能
 
-- Density: 7,850 kg/m³
-- Thermal conductivity: 50 W/mK (carbon steel); 16 W/mK (stainless 304) — significant thermal bridging risk
-- Elastic modulus: 200-210 GPa
-- Embodied carbon: 1.55 kgCO2e/kg (primary/virgin, world average); 0.47 kgCO2e/kg (EAF recycled, 100% scrap). Steel is ~90% recyclable.
-- Fire: Loses 50% strength at ~550°C; unprotected steel reaches this in 15-20 minutes in standard fire
+- 密度：7,850 kg/m³。
+- 导热系数：50 W/mK（碳钢）；16 W/mK（304 不锈钢）——存在显著热桥风险。
+- 弹性模量：200–210 GPa。
+- 隐含碳：1.55 kgCO2e/kg（原生钢，全球平均）；0.47 kgCO2e/kg（电弧炉回收，100% 废钢）。钢材约 90% 可回收。
+- 防火：约 550°C 时强度损失 50%；未保护钢材在标准火灾中 15–20 分钟即可达到该温度。
 
-### 3.6 Fire Protection Methods
+### 3.6 防火方法
 
-| Method | Achievable Rating | Thickness | Cost ($/m² protected) |
+| 方法 | 可实现耐火等级 | 厚度 | 成本（受保护面积 $/m²） |
 |---|---|---|---|
-| Intumescent paint | REI 30-120 | 0.5-5.0 mm DFT | $30-120 |
-| Sprayed mineral fibre | REI 60-240 | 15-50 mm | $15-40 |
-| Board encasement (calcium silicate) | REI 60-240 | 15-50 mm | $40-80 |
-| Concrete encasement | REI 120-240 | 25-50 mm | $25-50 |
-| Water-filled hollow sections | REI 120+ | N/A (hollow section) | $50-100 (system) |
+| 膨胀型防火涂料 | REI 30–120 | 0.5–5.0 mm DFT | $30–120 |
+| 喷涂矿物纤维 | REI 60–240 | 15–50 mm | $15–40 |
+| 板材包覆（硅酸钙） | REI 60–240 | 15–50 mm | $40–80 |
+| 混凝土包覆 | REI 120–240 | 25–50 mm | $25–50 |
+| 充水空心截面 | REI 120+ | 不适用（空心截面） | $50–100（系统） |
 
-### 3.7 Connection Types
+### 3.7 连接类型
 
-- **Bolted:** Site-assembled; adjustable; demountable (DfD-friendly). High-strength friction-grip (HSFG) bolts M16-M30.
-- **Welded:** Strongest; continuous load path; shop-welded preferred (controlled conditions). Site welding possible but requires NDT.
-- **Pin joints:** True pins (single bolt) allow rotation; used at truss nodes and portal bases.
-- **Moment connections:** Resist rotation; bolted end-plate or welded. Create rigid frames for lateral stability.
+- **螺栓连接：**现场装配，可调节，可拆卸（适合 DfD）。采用 M16–M30 高强摩擦型（HSFG）螺栓。
+- **焊接：**强度最高，荷载路径连续；优先工厂焊接（条件可控）。现场焊接可行，但需要 NDT 检测。
+- **铰接：**真正的铰（单螺栓）允许转动，用于桁架节点和门式刚架柱脚。
+- **刚接：**抵抗转动，采用端板螺栓连接或焊接，为侧向稳定形成刚性框架。
 
-### 3.8 Architects of Steel
+### 3.8 钢材建筑师
 
-- **Mies van der Rohe:** Expressed steel frame (Farnsworth House, Crown Hall, Seagram Building — bronze-anodized I-beams)
-- **Norman Foster:** High-tech exposed steelwork (HSBC HQ Hong Kong, Millennium Bridge, 30 St Mary Axe diagrid)
-- **Renzo Piano:** Lightweight steel + cable structures (Centre Pompidou with Rogers, Menil Collection)
-- **Santiago Calatrava:** Sculptural steel ribs and masts (City of Arts and Sciences, Milwaukee Art Museum)
-- **Peter Rice (Ove Arup):** Cast steel nodes and tensile structures (Lloyd's of London, Kansai Airport)
-
----
-
-## Section 4: Timber
-
-### 4.1 Softwood Species
-
-| Species | Density (kg/m³) | Strength Class | Durability (EN 350) | Primary Use |
-|---|---|---|---|---|
-| European Spruce (Picea abies) | 380-450 | C16-C24 | 4 (poor) | Structural framing, CLT |
-| Scots Pine (Pinus sylvestris) | 440-530 | C18-C27 | 3-4 | Joinery, structural |
-| Douglas Fir (Pseudotsuga menziesii) | 480-560 | C24-C30 | 3 (moderate) | Heavy structural, glulam |
-| Western Red Cedar (Thuja plicata) | 330-380 | C14-C16 | 2 (durable) | External cladding, shingles |
-| Larch (Larix decidua) | 470-560 | C24-C27 | 3 (moderate) | External cladding, decking |
-| Sitka Spruce (Picea sitchensis) | 380-440 | C16-C20 | 4 (poor) | Structural framing |
-
-### 4.2 Hardwood Species
-
-| Species | Density (kg/m³) | Durability (EN 350) | Hardness (Janka, N) | Primary Use |
-|---|---|---|---|---|
-| European Oak (Quercus robur) | 600-720 | 2 (durable) | 5,600 | Structural, flooring, joinery |
-| Iroko (Milicia excelsa) | 550-680 | 1-2 (very durable) | 5,100 | External joinery, cladding |
-| Teak (Tectona grandis) | 580-680 | 1 (very durable) | 4,700 | Marine, premium external |
-| Accoya (modified Radiata Pine) | 510 | 1 (very durable) | 4,000 | External, ground contact |
-| American White Ash (Fraxinus americana) | 600-680 | 4 (poor) | 5,900 | Internal flooring, furniture |
-| American Black Walnut | 560-640 | 3 (moderate) | 4,500 | Premium joinery, paneling |
-| European Beech | 660-740 | 5 (non-durable) | 6,400 | Internal flooring, furniture |
-
-### 4.3 Engineered Timber
-
-**Glulam (Glued Laminated Timber):**
-- Laminations: 25-45 mm thick; glued with MUF or PRF adhesive
-- Grades: GL24h to GL32h (24-32 MPa bending strength)
-- Spans: 6-40 m (beams), up to 100+ m (arches)
-- Depth: typically span/15 to span/20 for beams
-- Cross-section: 100-600 mm wide, 200-2,400 mm deep
-- Can be curved (minimum radius ≈ 175× lamination thickness)
-
-**Cross-Laminated Timber (CLT):**
-- Orthogonal layers (3, 5, or 7 ply); typically spruce
-- Panel sizes: up to 3.5 m × 16 m × 500 mm
-- Walls: 100-300 mm thick; floors: 140-350 mm thick
-- Spans: 4-8 m (floors), 3-4 m (walls for 6+ storey buildings)
-- Compressive strength perpendicular: 2.5-3.0 MPa
-- Airtightness: inherently airtight at panel body; joints sealed with tape/gaskets
-
-**Laminated Veneer Lumber (LVL):**
-- 3 mm rotary-peeled veneers; all grain parallel (unlike plywood)
-- Higher strength than sawn timber of same species: bending 40-65 MPa
-- Available as beams, studs, and rim boards
-- Consistent, defect-free
-
-**Plywood:**
-- Cross-laminated veneers; balanced layup
-- Structural grades: 12-25 mm for sheathing; 18-30 mm for flooring
-- Marine plywood: WBP (weather and boil proof) adhesive; tropical hardwood species
-- Birch plywood: premium face quality for joinery and furniture
-
-### 4.4 Key Properties (Generic Softwood)
-
-- Density: 350-550 kg/m³ (kiln-dried at 12% MC)
-- Thermal conductivity: 0.13 W/mK (perpendicular to grain) — natural insulator
-- Specific heat capacity: 1,600 J/kgK
-- Embodied carbon: -1.0 to -1.6 kgCO2e/kg (carbon-negative — sequesters more CO2 during growth than emitted in processing)
-- Embodied carbon (CLT panel): approximately -500 to -700 kgCO2e/m³ including sequestration
-- Fire performance: Euroclass D (combustible) but predictable charring rate allows fire engineering
-- Charring rate: 0.65 mm/min (softwood), 0.50 mm/min (hardwood), 0.70 mm/min (glulam)
-- Fire-engineered CLT: 90-120 minute resistance achievable with oversized sections (add 40-60 mm sacrificial charring layer per exposed face)
-
-### 4.5 Durability and Preservation
-
-**EN 350 Durability Classes:**
-1. Very durable (> 25 years ground contact): teak, iroko, accoya
-2. Durable (15-25 years): oak, sweet chestnut, western red cedar
-3. Moderately durable (10-15 years): Douglas fir, larch, Scots pine (heartwood)
-4. Slightly durable (5-10 years): spruce, pine (sapwood), hem-fir
-5. Not durable (< 5 years): beech, ash, birch (untreated external)
-
-**Preservation Methods:**
-- CCA (Copper-Chrome-Arsenic): UC4 ground contact; restricted in EU for non-industrial use
-- Copper-based (ACQ, MCQ): residential-approved alternatives to CCA
-- Thermal modification: heat treatment (180-230°C) improves durability to Class 1-2; darkens color; reduces strength 10-20%
-- Acetylation (Accoya): chemical modification; Class 1 durability; 50+ year warranty above ground; dimensionally stable
-- Oil/wax finishes: maintenance coats every 1-3 years for external; UV protection
-- Fire retardant treatment: pressure-impregnated salts achieve Euroclass B (limited combustibility)
-
-### 4.6 Architects of Timber
-
-- **Kengo Kuma:** Timber as weaving/stacking element (Yusuhara Wooden Bridge Museum, V&A Dundee timber screen concept, Prostho Museum GC — interlocking timber grid)
-- **Shigeru Ban:** Structural innovation (Centre Pompidou-Metz — glulam gridshell; Tamedia Office — interlocking timber frame no metal connectors; Paper Bridge)
-- **Peter Zumthor:** Timber as sensory material (Steilneset Memorial — timber-framed cocoon; Swiss Pavilion Hanover 2000 — stacked timber beams)
-- **Hermann Kaufmann:** Mass timber pioneer (Illwerke Zentrum Montafon — 8 storey CLT/glulam hybrid; LifeCycle Tower)
-- **Heatherwick Studio:** Engineered timber at scale (Maggie's Leeds — timber lattice)
+- **Mies van der Rohe：**外露钢框架（Farnsworth House、Crown Hall、Seagram Building——青铜阳极氧化工字钢）。
+- **Norman Foster：**高技派外露钢结构（香港 HSBC 总部、Millennium Bridge、30 St Mary Axe 对角网格）。
+- **Renzo Piano：**轻型钢与索结构（与 Rogers 合作的 Centre Pompidou、Menil Collection）。
+- **Santiago Calatrava：**雕塑般的钢肋和桅杆（City of Arts and Sciences、Milwaukee Art Museum）。
+- **Peter Rice（Ove Arup）：**铸钢节点与张拉结构（Lloyd's of London、Kansai Airport）。
 
 ---
 
-## Section 5: Masonry
+## 第 4 节：木材
 
-### 5.1 Brick
+### 4.1 针叶树种
 
-**Types:**
-- **Clay brick (fired):** Most common; firing temperature 900-1,150°C determines color (buff to deep red to blue-black). Compressive strength 10-150 MPa.
-- **Calcium silicate (sand-lime):** Autoclaved; consistent dimensional accuracy; limited color (white, grey, pastel). Strength 15-50 MPa.
-- **Concrete brick:** Portland cement + aggregate; wide color range with pigments. Strength 7-40 MPa.
-- **Engineering brick:** High-strength (≥ 70 MPa Class A, ≥ 50 MPa Class B) and low water absorption (< 4.5% A, < 7% B). Blue-black color. DPC, retaining walls, below ground.
+| 树种 | 密度（kg/m³） | 强度等级 | 耐久性（EN 350） | 主要用途 |
+|---|---|---|---|---|
+| 欧洲云杉（Picea abies） | 380-450 | C16-C24 | 4（较差） | 结构框架、CLT |
+| 欧洲赤松（Pinus sylvestris） | 440-530 | C18-C27 | 3-4 | 木作、结构 |
+| 花旗松（Pseudotsuga menziesii） | 480-560 | C24-C30 | 3（中等） | 重型结构、胶合木 |
+| 西部红雪松（Thuja plicata） | 330-380 | C14-C16 | 2（耐久） | 外墙覆层、木瓦 |
+| 落叶松（Larix decidua） | 470-560 | C24-C27 | 3（中等） | 外墙覆层、户外地板 |
+| 西加云杉（Picea sitchensis） | 380-440 | C16-C20 | 4（较差） | 结构框架 |
 
-**Standard Sizes:**
+### 4.2 阔叶树种
+
+| 树种 | 密度（kg/m³） | 耐久性（EN 350） | 硬度（Janka，N） | 主要用途 |
+|---|---|---|---|---|
+| 欧洲栎（Quercus robur） | 600-720 | 2（耐久） | 5,600 | 结构、地板、木作 |
+| 非洲紫檀（Milicia excelsa） | 550-680 | 1-2（非常耐久） | 5,100 | 外部木作、覆层 |
+| 柚木（Tectona grandis） | 580-680 | 1（非常耐久） | 4,700 | 船舶、高端室外 |
+| Accoya（改性辐射松） | 510 | 1（非常耐久） | 4,000 | 室外、接地 |
+| 美洲白蜡木（Fraxinus americana） | 600-680 | 4（较差） | 5,900 | 室内地板、家具 |
+| 美洲黑胡桃 | 560-640 | 3（中等） | 4,500 | 高端木作、饰面板 |
+| 欧洲山毛榉 | 660-740 | 5（不耐久） | 6,400 | 室内地板、家具 |
+
+### 4.3 工程木材
+
+**胶合木（Glulam）：**
+- 层板厚度：25–45 mm，采用 MUF 或 PRF 胶黏剂。
+- 等级：GL24h 至 GL32h（抗弯强度 24–32 MPa）。
+- 跨度：梁 6–40 m，拱可达 100+ m。
+- 梁高：通常为跨度的 1/15 至 1/20。
+- 截面：宽 100–600 mm，深 200–2,400 mm。
+- 可弯曲成型（最小半径约为层板厚度的 175 倍）。
+
+**交叉层压木材（CLT）：**
+- 正交叠层（3、5 或 7 层），通常采用云杉。
+- 板材尺寸最大可达 3.5 m × 16 m × 500 mm。
+- 墙厚 100–300 mm；楼板厚 140–350 mm。
+- 跨度：楼板 4–8 m；墙体（6 层以上建筑）3–4 m。
+- 垂直于纹理的抗压强度：2.5–3.0 MPa。
+- 气密性：板体天然气密；接缝采用胶带/密封垫密封。
+
+**单板层积材（LVL）：**
+- 3 mm 旋切单板，所有纹理平行（不同于胶合板）。
+- 强度高于同树种锯材：抗弯强度 40–65 MPa。
+- 可制成梁、立柱和边梁板。
+- 性能一致且无缺陷。
+
+**胶合板：**
+- 单板交叉层压，层间平衡。
+- 结构等级：护面板 12–25 mm；地板 18–30 mm。
+- 海洋胶合板：采用 WBP（耐候耐沸水）胶黏剂和热带阔叶树种。
+- 桦木胶合板：表面质量高，适用于木作和家具。
+
+### 4.4 关键性能（普通针叶材）
+
+- 密度：350–550 kg/m³（含水率 12% 的窑干材）。
+- 导热系数：0.13 W/mK（垂直于纹理）——天然保温材料。
+- 比热容：1,600 J/kgK。
+- 隐含碳：−1.0 至 −1.6 kgCO2e/kg（碳负材料——生长期间吸收的 CO2 多于加工排放）。
+- CLT 板隐含碳：包含固碳量约 −500 至 −700 kgCO2e/m³。
+- 防火性能：Euroclass D（可燃），但可预测的炭化速率便于进行抗火设计。
+- 炭化速率：针叶材 0.65 mm/min，阔叶材 0.50 mm/min，胶合木 0.70 mm/min。
+- 防火设计 CLT：通过加大截面可实现 90–120 分钟耐火（每个受火面增加 40–60 mm 的牺牲炭化层）。
+
+### 4.5 耐久性与保护
+
+**EN 350 耐久性等级：**
+1. 极耐久（接地接触 >25 年）：柚木、伊罗科木、Accoya。
+2. 耐久（15–25 年）：橡木、甜栗木、西部红雪松。
+3. 中等耐久（10–15 年）：花旗松、落叶松、苏格兰松（心材）。
+4. 略耐久（5–10 年）：云杉、松木（边材）、铁杉—冷杉。
+5. 不耐久（<5 年）：山毛榉、白蜡木、桦木（未经处理的室外使用）。
+
+**保护方法：**
+- CCA（铜—铬—砷）：适用于 UC4 接地接触；欧盟限制其非工业用途。
+- 铜基处理（ACQ、MCQ）：经住宅用途批准，可替代 CCA。
+- 热改性：热处理（180–230°C）可将耐久性提高至 1–2 级；颜色变深，强度降低 10–20%。
+- 乙酰化（Accoya）：化学改性；1 级耐久性；地上使用保修 50 年以上；尺寸稳定。
+- 油/蜡饰面：室外每 1–3 年维护性重涂，并提供紫外线保护。
+- 阻燃处理：压力浸渍盐可达到 Euroclass B（有限可燃性）。
+
+### 4.6 木材建筑师
+
+- **Kengo Kuma：**将木材作为编织/堆叠元素（Yusuhara Wooden Bridge Museum、V&A Dundee 木格栅概念、Prostho Museum GC——互锁木格网）。
+- **Shigeru Ban：**结构创新（Centre Pompidou-Metz——胶合木网壳；Tamedia Office——无需金属连接件的互锁木框架；Paper Bridge）。
+- **Peter Zumthor：**将木材作为感官材料（Steilneset Memorial——木框架茧状体；2000 年汉诺威瑞士馆——堆叠木梁）。
+- **Hermann Kaufmann：**大截面木结构先驱（Illwerke Zentrum Montafon——8 层 CLT/胶合木混合结构；LifeCycle Tower）。
+- **Heatherwick Studio：**大尺度工程木材（Maggie's Leeds——木格栅）。
+
+---
+
+## 第 5 节：砌体
+
+### 5.1 砖
+
+**类型：**
+- **黏土砖（烧结）：**最常见；烧成温度 900–1,150°C 决定颜色（浅黄至深红再到蓝黑）。抗压强度 10–150 MPa。
+- **硅酸钙砖（砂灰砖）：**高压蒸养成型；尺寸精度一致；颜色有限（白、灰、浅色）。强度 15–50 MPa。
+- **混凝土砖：**波特兰水泥 + 骨料，可通过颜料获得广泛颜色；强度 7–40 MPa。
+- **工程砖：**高强度（A 类 ≥70 MPa，B 类 ≥50 MPa）且吸水率低（A 类 <4.5%，B 类 <7%）。蓝黑色，用于防潮层（DPC）、挡土墙和地下部位。
+
+**标准尺寸：**
 - UK standard: 215 × 102.5 × 65 mm (coordinating: 225 × 112.5 × 75 mm with 10 mm joints)
 - US modular: 194 × 92 × 57 mm (7⅝ × 3⅝ × 2¼ in)
 - US standard: 203 × 92 × 57 mm
@@ -350,49 +350,49 @@ Scoring: 1 (poor) to 5 (excellent) per criterion. Apply weighting multipliers (1
 - Roman: 295 × 90 × 40 mm (elongated, thin profile)
 - Continental long format: 490 × 90 × 40-52 mm
 
-**Bond Patterns:**
-- **Stretcher (running):** All stretchers; half-bond offset. Single-leaf walls, cavity wall outer leaf. Most common.
-- **Flemish:** Alternating headers and stretchers in each course. Full-thickness wall; decorative.
-- **English:** Alternating courses of headers and stretchers. Strong cross-bonding; full-thickness wall.
-- **Stack bond:** No offset; vertical joints aligned. Purely decorative (requires reinforcement or veneer application). Modernist aesthetic.
-- **Herringbone:** Bricks at 45° in alternating directions. Decorative infill panels; paviors.
-- **Monk bond:** Two stretchers + one header per course. Variant of Flemish.
-- **Header bond:** All headers; full-thickness wall. Curved walls (radial bonding).
+**砌筑方式：**
+- **顺砌（跑砌）：**全部为顺砖，错半砖搭接；用于单叶墙和空腔墙外叶，最常见。
+- **佛兰芒砌法：**每皮交替使用丁砖和顺砖；全厚墙，具有装饰性。
+- **英式砌法：**丁砖皮与顺砖皮交替；横向咬合强，全厚墙。
+- **通缝砌法：**不交错，竖缝对齐；纯装饰性（需配筋或作为饰面砖），具有现代主义美学。
+- **人字砌法：**砖以 45° 交替方向铺设；用于装饰性填充板和铺地砖。
+- **僧侣砌法：**每皮两块顺砖加一块丁砖，为佛兰芒砌法的变体。
+- **丁砖砌法：**全部采用丁砖，全厚墙；用于曲墙（放射状砌筑）。
 
-### 5.2 Stone
+### 5.2 石材
 
-| Stone Type | Density (kg/m³) | Compressive (MPa) | Porosity | Durability | Embodied Carbon (kgCO2e/kg) |
+| 石材类型 | 密度（kg/m³） | 抗压强度（MPa） | 孔隙率 | 耐久性 | 隐含碳（kgCO2e/kg） |
 |---|---|---|---|---|---|
-| Limestone (Portland) | 2,000-2,500 | 20-60 | 5-20% | Moderate-Good | 0.09 |
-| Sandstone (Yorkstone) | 2,000-2,400 | 20-70 | 5-25% | Variable | 0.06 |
+| Limestone (Portland) | 2,000-2,500 | 20-60 | 5-20% | 中等—良好 | 0.09 |
+| Sandstone (Yorkstone) | 2,000-2,400 | 20-70 | 5-25% | 可变 | 0.06 |
 | Granite | 2,600-2,800 | 100-250 | 0.5-2% | Excellent | 0.70 |
 | Marble (Carrara) | 2,600-2,800 | 50-150 | 0.5-3% | Good (interior) | 0.12 |
 | Slate | 2,600-2,800 | 100-200 | 0.1-1% | Excellent | 0.03-0.05 |
 | Basalt | 2,800-3,000 | 150-300 | 0.5-2% | Excellent | 0.60 |
 | Travertine | 2,200-2,500 | 30-80 | 5-15% | Moderate | 0.12 |
 
-### 5.3 Concrete Block
+### 5.3 混凝土砌块
 
-- **Dense block:** 2,000-2,200 kg/m³; compressive 7-35 MPa; thermal conductivity 1.0-1.5 W/mK. Structural walls, foundations.
-- **Lightweight aggregate block:** 600-1,400 kg/m³; λ = 0.15-0.50 W/mK. Better insulation, reduced structural capacity.
-- **Aircrete (AAC — Autoclaved Aerated Concrete):** 400-800 kg/m³; λ = 0.10-0.20 W/mK; compressive 2-7 MPa. Non-loadbearing and low-rise loadbearing. Excellent thermal performance. Easy to cut and shape.
+- **密实砌块：**2,000–2,200 kg/m³；抗压 7–35 MPa；导热系数 1.0–1.5 W/mK。用于结构墙和基础。
+- **轻骨料砌块：**600–1,400 kg/m³；λ = 0.15–0.50 W/mK。保温性更好，但结构承载力较低。
+- **加气混凝土（AAC——蒸压加气混凝土）：**400–800 kg/m³；λ = 0.10–0.20 W/mK；抗压 2–7 MPa。用于非承重和低层承重，热工性能优良，易切割和成型。
 
-### 5.4 Mortar and Joints
+### 5.4 砂浆与灰缝
 
-**Mortar Designations (BS EN 998-2):**
+**砂浆标号（BS EN 998-2）：**
 - M2 (1:2:9 cement:lime:sand): weak; heritage and soft brick
 - M4 (1:1:6): medium; general brickwork above DPC
 - M6 (1:½:4.5): medium-strong; external walls, moderate exposure
 - M12 (1:¼:3): strong; engineering brick, retaining walls, below DPC
 
-**Joint Profiles:**
+**灰缝形式：**
 - Flush: weathering neutral; clean modern appearance
 - Bucket handle (concave): good weathering; most common
 - Weathered (struck): sloped to shed water; traditional
 - Recessed: shadow line aesthetic; poor weathering (not for exposed positions)
 - Raked: deep recess for dramatic shadow; worst weathering performance
 
-**Embodied Carbon:**
+**隐含碳：**
 - Clay brick: 0.22 kgCO2e/kg (typical); 0.14 (low-carbon production)
 - Limestone ashlar: 0.09 kgCO2e/kg
 - Concrete block: 0.08-0.12 kgCO2e/kg
@@ -400,249 +400,249 @@ Scoring: 1 (poor) to 5 (excellent) per criterion. Apply weighting multipliers (1
 
 ---
 
-## Section 6: Glass
+## 第 6 节：玻璃
 
-### 6.1 Glass Types
+### 6.1 玻璃类型
 
-**Float Glass:** Basic annealed glass. Breaks into large sharp shards. Not safety glass. VLT 87% (clear 6 mm).
+**浮法玻璃：**基本退火玻璃，破碎后形成大片锋利碎片，不属于安全玻璃。VLT 87%（6 mm 透明玻璃）。
 
-**Toughened (Tempered):** Heat-treated to 4-5× strength of annealed. Breaks into small granules. Safety glass for doors, balustrades, overhead. Cannot be cut after toughening.
+**钢化玻璃：**经热处理后强度为退火玻璃的 4–5 倍，破碎成小颗粒。用于门、栏杆和头顶玻璃的安全玻璃；钢化后不能再切割。
 
-**Laminated:** Two or more glass plies bonded with PVB or SentryGlas interlayer. Holds together when broken. Safety glass; security; acoustic; UV filtering. Structural glazing interlayer (SentryGlas) enables longer spans.
+**夹层玻璃：**两层或多层玻璃通过 PVB 或 SentryGlas 中间层粘合，破碎后仍保持整体。兼具安全、防护、声学和紫外线过滤性能；结构玻璃采用 SentryGlas 中间层可实现更大跨度。
 
-**Insulating Glass Unit (IGU):** Two or three panes separated by spacer bars and sealed cavity (air, argon, krypton). U-values: double air 2.8, double argon 1.1-1.3, triple argon 0.5-0.7 W/m²K.
+**中空玻璃单元（IGU）：**两层或三层玻璃由间隔条分隔，形成密封腔体（空气、氩气或氪气）。U 值：双层空气 2.8，双层氩气 1.1–1.3，三层氩气 0.5–0.7 W/m²K。
 
-**Tinted Glass:** Body-colored (grey, bronze, green, blue). Reduces VLT and SHGC. Absorbs solar energy (heats up).
+**着色玻璃：**通体着色（灰、青铜、绿、蓝），降低 VLT 和 SHGC，吸收太阳能并升温。
 
-**Low-E Coated:** Metallic oxide coating reflects long-wave infrared radiation. Soft coat (sputtered, pyrolytic) on surface 2 or 3 of IGU. Reduces U-value by 30-50%.
+**Low-E 涂层玻璃：**金属氧化物涂层反射长波红外辐射。软膜（溅射膜或热解膜）位于 IGU 的第 2 或第 3 面，可使 U 值降低 30–50%。
 
-**Solar Control:** Selective coating that admits visible light while rejecting solar infrared. VLT:SHGC ratio (selectivity) ≥ 1.5 is good; ≥ 2.0 is excellent.
+**太阳能控制玻璃：**选择性涂层允许可见光进入，同时阻挡太阳红外线。VLT:SHGC 比值（选择性）≥1.5 为良好，≥2.0 为优秀。
 
-**Fire-Rated:** Wired glass (30 min integrity, no insulation); intumescent gel-filled (30-120 min integrity + insulation); borosilicate (integrity only).
+**防火玻璃：**夹丝玻璃（完整性 30 分钟，无隔热）；膨胀型凝胶填充玻璃（完整性 + 隔热 30–120 分钟）；硼硅酸盐玻璃（仅完整性）。
 
-**Patterned/Textured:** Rolled pattern on one surface. Obscured vision with light transmission. Reeded, fluted, hammered, stippled.
+**压花/纹理玻璃：**一面压制滚花，在透光的同时遮挡视线。包括条纹、槽纹、锤纹和点纹。
 
-**Printed/Fritted:** Ceramic frit screen-printed and fused to glass surface. Solar shading, bird safety, decoration. Frit coverage 20-60%.
+**印刷/陶瓷釉点玻璃：**将陶瓷釉点丝网印刷并熔融到玻璃表面，用于遮阳、防鸟撞和装饰。釉点覆盖率 20–60%。
 
-**Etched/Sandblasted:** Acid or abrasive surface treatment for translucency/privacy. VLT reduction 5-15%.
+**蚀刻/喷砂玻璃：**通过酸蚀或磨料处理获得半透明和隐私效果，VLT 降低 5–15%。
 
-**Dichroic:** Vacuum-deposited metallic layers create color-shifting effects. Transmitted and reflected colors are complementary.
+**二向色玻璃：**真空沉积金属层产生变色效果，透射色与反射色互为互补色。
 
-### 6.2 Structural Glass
+### 6.2 结构玻璃
 
-- **Glass fins:** Vertical glass blades supporting glazed facades. Toughened + laminated. Depth 150-500 mm; spans 4-12 m.
-- **Glass beams:** Laminated glass beams for roof support. Typically triple-laminated toughened. Spans 3-8 m.
-- **Glass floors:** Laminated toughened panels; minimum 3-ply for redundancy. Anti-slip surface treatment. Design load: 5 kN/m² typical.
-- **Glass columns:** Rare; bundled glass tube columns (Apple Stores); solid glass blocks (Hermes, Tokyo by MVRDV).
-- **Point-fixed glazing:** Stainless steel bolt fittings through drilled holes; spider brackets. Eliminates framing for maximum transparency.
+- **玻璃肋：**支承玻璃立面的竖向玻璃板，采用钢化 + 夹层构造。深度 150–500 mm，跨度 4–12 m。
+- **玻璃梁：**用于支承屋面的夹层玻璃梁，通常为三层夹层钢化玻璃，跨度 3–8 m。
+- **玻璃地板：**夹层钢化板，为保证冗余性至少采用 3 层；表面做防滑处理。典型设计荷载 5 kN/m²。
+- **玻璃柱：**较少见；包括成束玻璃管柱（Apple Stores）和实心玻璃砖（MVRDV 设计的东京 Hermes）。
+- **点支式玻璃：**不锈钢螺栓穿过钻孔，配合爪件固定；取消框架以实现最大透明度。
 
-### 6.3 Key Properties
+### 6.3 关键性能
 
-- Density: 2,500 kg/m³
-- Compressive strength: 800-1,000 MPa (rarely governing)
-- Tensile strength: 30-70 MPa (annealed); 120-200 MPa (toughened). Glass fails in tension.
-- Elastic modulus: 70 GPa
-- Thermal conductivity: 1.0 W/mK
-- Thermal expansion: 9 × 10⁻⁶ /°C
-- Acoustic: single 6 mm pane Rw ≈ 31 dB; laminated 6.4 mm Rw ≈ 34 dB; IGU 4-16-4 Rw ≈ 29 dB (coincidence dip)
+- 密度：2,500 kg/m³。
+- 抗压强度：800–1,000 MPa（通常不起控制作用）。
+- 抗拉强度：退火玻璃 30–70 MPa；钢化玻璃 120–200 MPa。玻璃通常因受拉破坏。
+- 弹性模量：70 GPa。
+- 导热系数：1.0 W/mK。
+- 热膨胀系数：9 × 10⁻⁶ /°C。
+- 声学：单片 6 mm 玻璃 Rw ≈ 31 dB；6.4 mm 夹层玻璃 Rw ≈ 34 dB；4-16-4 中空玻璃 Rw ≈ 29 dB（吻合效应低谷）。
 
-### 6.4 Architects of Glass
+### 6.4 玻璃建筑师
 
-- **Norman Foster:** Structural glass innovation (30 St Mary Axe diagrid, Apple Park, Great Court British Museum — glass roof)
-- **Renzo Piano:** Layered glass skins (Shard, Fondation Beyeler, California Academy of Sciences)
-- **SANAA (Sejima + Nishizawa):** Minimal glass enclosures (New Museum, Rolex Learning Center, Glass Pavilion Toledo — curved glass walls)
-- **Jean Nouvel:** Glass as cultural narrative (Institut du Monde Arabe, Fondation Cartier — transparent layers)
-- **Apple Stores (Foster + Partners / Bohlin Cywinski Jackson):** All-glass structures; glass fins, glass beams, glass stairs
-
----
-
-## Section 7: Metals and Composites
-
-### 7.1 Aluminum
-
-- Density: 2,700 kg/m³ (1/3 of steel)
-- Tensile strength: 70-310 MPa (alloy-dependent; 6063-T6: 205 MPa)
-- Thermal conductivity: 160-200 W/mK (severe thermal bridging; require thermal breaks in window/curtain wall profiles)
-- Embodied carbon: 8.2 kgCO2e/kg (primary); 0.5 kgCO2e/kg (recycled). ~75% of all aluminum ever produced still in use.
-- Finishes: anodized (10-25 µm; natural silver, bronze, black; 30+ year life), powder-coated (60-80 µm polyester; any color; 20-30 year life), PVDF-coated (premium; 40+ year life)
-- Applications: curtain wall mullions and transoms, window frames, cladding panels, standing seam roofing, solar shading louvers
-
-### 7.2 Zinc
-
-- Density: 7,130 kg/m³
-- Self-healing patina: natural zinc develops grey carbonate patina over 5-10 years
-- Pre-patinated options: pre-weathered grey, blue-grey, graphite, pigmented
-- Thickness: 0.7-1.0 mm for roofing/cladding (standing seam, flat lock tiles, shingles)
-- Embodied carbon: 3.1 kgCO2e/kg (primary); largely recyclable
-- Minimum slope: 3° (standing seam); 25° (overlapping tiles)
-- Lifespan: 80-100 years in moderate climates
-- Applications: roofing, wall cladding, rainwater goods, flashings
-
-### 7.3 Copper and Bronze
-
-**Copper:**
-- Density: 8,900 kg/m³
-- Patina progression: bright copper → brown (months) → dark brown (1-3 years) → green verdigris (7-15 years, climate-dependent)
-- Pre-patinated and tin-coated options available
-- Thickness: 0.6-0.7 mm for roofing; 3-6 mm for sculpture/cladding
-- Embodied carbon: 2.7 kgCO2e/kg (primary); 0.5 (recycled)
-- Lifespan: 100-200+ years (historical precedent: church roofs 300+ years)
-- Applications: roofing, cladding, flashings, rainwater goods, feature panels
-
-**Bronze:**
-- Copper-tin alloy (typically 90/10 or 85/15)
-- Rich golden-brown patina; darker than copper
-- Used for doors, handrails, window frames, sculptural elements
-- Architects: Mies van der Rohe (Seagram Building — bronze I-beams), Carlo Scarpa (Brion Cemetery — bronze gates)
-
-### 7.4 Titanium
-
-- Density: 4,510 kg/m³ (57% of steel)
-- Corrosion resistance: superior to stainless steel in all environments
-- Embodied carbon: 14.1 kgCO2e/kg (highest of common metals)
-- Cost: 10-20× structural steel per kg
-- Surface: matte grey; can be anodized for iridescent color
-- Exemplar: **Guggenheim Bilbao** (Frank Gehry, 1997) — 33,000 m² of 0.38 mm titanium panels; fish-scale cladding; changes color with light and weather
-
-### 7.5 ETFE (Ethylene Tetrafluoroethylene)
-
-- Density: 1,750 kg/m³ (1% of glass weight per m²)
-- Light transmission: 90-95% (clear single layer); 40-60% (printed/fritted)
-- Tensile strength: 40-50 MPa (as film, 50-300 µm thick)
-- Self-cleaning: non-stick surface; no wash maintenance
-- Pneumatic cushions: 2-5 layers inflated at 200-600 Pa; U-value 1.8-3.5 W/m²K
-- Lifespan: 25-50 years (UV-resistant fluoropolymer)
-- Exemplars: Eden Project (Grimshaw), Allianz Arena (H&dM), Beijing Aquatics Center (PTW), Khan Shatyr (Foster)
-
-### 7.6 GRP/FRP (Glass/Fibre Reinforced Polymer)
-
-- Density: 1,500-2,000 kg/m³
-- Tensile strength: 100-400 MPa
-- Thermal conductivity: 0.3 W/mK (thermally non-conductive; no thermal bridging)
-- Corrosion-immune; no maintenance
-- Moldable to any shape (curved panels, ornamental elements, replica heritage details)
-- Applications: cladding panels, window surrounds, cornices, columns (replica stone/timber appearance)
-
-### 7.7 Terracotta
-
-- Clay-based; extruded or pressed; fired at 1,000-1,200°C
-- **Rainscreen cladding:** extruded hollow sections; 20-40 mm thick; back-ventilated cavity
-- **Baguettes:** horizontal or vertical tubular/blade elements for solar shading and facade articulation
-- **Glazed terracotta:** vitreous surface coating; colors unlimited; self-cleaning
-- Density: 1,800-2,100 kg/m³
-- Fire: Euroclass A1 (non-combustible)
-- Embodied carbon: 0.45 kgCO2e/kg
-- Exemplars: Natural History Museum London (Waterhouse), Renzo Piano (Central St Giles London — colored terracotta), MVRDV (Markthal Rotterdam — printed terracotta arches)
-
-### 7.8 Ceramic Tiles and Cladding
-
-- Porcelain: absorption < 0.5%; frost-proof; 12-20 mm thick large format (up to 1.6 m × 3.2 m)
-- Stoneware: absorption 0.5-3%; good durability; glazed or unglazed
-- Earthenware: absorption > 3%; interior only; hand-decorated (zellige, azulejo)
-- Fire: Euroclass A1
-- Applications: facade cladding (ventilated rainscreen), floor/wall finishes, pool surrounds
+- **Norman Foster：**结构玻璃创新（30 St Mary Axe 斜交网格、Apple Park、大英博物馆大中庭——玻璃屋顶）
+- **Renzo Piano：**分层玻璃表皮（碎片大厦、贝耶勒基金会、加州科学院）
+- **SANAA（妹岛和世 + 西泽立卫）：**极简玻璃围护（新美术馆、Rolex 学习中心、托莱多玻璃亭——曲面玻璃墙）
+- **Jean Nouvel：**以玻璃讲述文化叙事（阿拉伯世界研究院、卡地亚基金会——透明层）
+- **Apple Store（Foster + Partners / Bohlin Cywinski Jackson）：**全玻璃结构；玻璃肋、玻璃梁、玻璃楼梯
 
 ---
 
-## Section 8: Life-Cycle Assessment (LCA)
+## 第 7 节：金属与复合材料
 
-### 8.1 Whole-Life Carbon
+### 7.1 铝
+
+- 密度：2,700 kg/m³（钢材的 1/3）。
+- 抗拉强度：70–310 MPa（取决于合金；6063-T6 为 205 MPa）。
+- 导热系数：160–200 W/mK（热桥严重；窗框/幕墙型材必须设置隔热断桥）。
+- 隐含碳：8.2 kgCO2e/kg（原生铝）；0.5 kgCO2e/kg（再生铝）。历史生产的铝约 75% 仍在使用。
+- 饰面：阳极氧化（10–25 µm；自然银、青铜、黑色；寿命 30 年以上）；粉末涂层（60–80 µm 聚酯；颜色不限；寿命 20–30 年）；PVDF 涂层（高端；寿命 40 年以上）。
+- 应用：幕墙立柱和横梁、窗框、幕墙板、立边咬合屋面、遮阳百叶。
+
+### 7.2 锌
+
+- 密度：7,130 kg/m³。
+- 自修复锈层：天然锌在 5–10 年内形成灰色碳酸盐锈层。
+- 预制锈层选项：预风化灰、蓝灰、石墨色和着色型。
+- 厚度：屋面/墙面 0.7–1.0 mm（立边咬合、平锁扣板、瓦片）。
+- 隐含碳：3.1 kgCO2e/kg（原生锌），大部分可回收。
+- 最小坡度：3°（立边咬合）；25°（搭接瓦片）。
+- 寿命：温和气候下 80–100 年。
+- 应用：屋面、墙面、雨水构件和泛水板。
+
+### 7.3 铜与青铜
+
+**铜：**
+- 密度：8,900 kg/m³。
+- 锈层变化：亮铜 → 棕色（数月）→ 深棕色（1–3 年）→ 绿色铜锈（7–15 年，取决于气候）。
+- 可选预制锈层和镀锡产品。
+- 厚度：屋面 0.6–0.7 mm；雕塑/墙面 3–6 mm。
+- 隐含碳：2.7 kgCO2e/kg（原生铜）；0.5（再生铜）。
+- 寿命：100–200 年以上（历史上教堂屋面可达 300 年以上）。
+- 应用：屋面、墙面、泛水板、雨水构件和特色面板。
+
+**青铜：**
+- 铜锡合金（通常为 90/10 或 85/15）。
+- 形成浓郁金棕色锈层，比铜更深。
+- 用于门、扶手、窗框和雕塑构件。
+- 建筑师：Mies van der Rohe（Seagram Building——青铜工字钢）、Carlo Scarpa（Brion Cemetery——青铜门）。
+
+### 7.4 钛
+
+- 密度：4,510 kg/m³（钢材的 57%）。
+- 耐腐蚀性：在所有环境中均优于不锈钢。
+- 隐含碳：14.1 kgCO2e/kg（常用金属中最高）。
+- 成本：每千克为结构钢的 10–20 倍。
+- 表面：哑光灰色；可阳极氧化为虹彩色。
+- 案例：**Guggenheim Bilbao**（Frank Gehry，1997）——33,000 m²、0.38 mm 厚钛板，鱼鳞状覆层随光线和天气改变颜色。
+
+### 7.5 ETFE（乙烯—四氟乙烯共聚物）
+
+- 密度：1,750 kg/m³（按每 m² 计算约为玻璃重量的 1%）。
+- 透光率：90–95%（透明单层）；40–60%（印刷/釉点）。
+- 抗拉强度：40–50 MPa（薄膜厚度 50–300 µm）。
+- 自洁性：不粘表面，无需清洗维护。
+- 气枕：2–5 层，在 200–600 Pa 压力下充气；U 值 1.8–3.5 W/m²K。
+- 寿命：25–50 年（耐紫外线氟聚合物）。
+- 案例：Eden Project（Grimshaw）、Allianz Arena（H&dM）、北京水立方（PTW）、Khan Shatyr（Foster）。
+
+### 7.6 GRP/FRP（玻璃纤维增强聚合物）
+
+- 密度：1,500–2,000 kg/m³。
+- 抗拉强度：100–400 MPa。
+- 导热系数：0.3 W/mK（热不导电，不形成热桥）。
+- 不受腐蚀，无需维护。
+- 可成型为任意形状（曲面板、装饰构件、历史细部复制件）。
+- 应用：幕墙板、窗套、檐口和柱（仿石材/木材外观）。
+
+### 7.7 陶土
+
+- 以黏土为基材，经挤压或压制成型，在 1,000–1,200°C 烧成。
+- **雨幕墙面：**挤压中空型材，厚度 20–40 mm，背后设置通风空腔。
+- **陶土遮阳棍：**水平或竖向管状/片状构件，用于遮阳和立面构图。
+- **釉面陶土：**玻璃质表面涂层，颜色不受限，具有自洁性。
+- 密度：1,800–2,100 kg/m³。
+- 防火：Euroclass A1（不燃）。
+- 隐含碳：0.45 kgCO2e/kg。
+- 案例：伦敦自然历史博物馆（Waterhouse）、Renzo Piano 的 Central St Giles London（彩色陶土）、MVRDV 的 Markthal Rotterdam（印刷陶土拱）。
+
+### 7.8 陶瓷砖与陶瓷幕墙
+
+- 瓷质砖：吸水率 <0.5%，抗冻；大规格厚度 12–20 mm（最大 1.6 m × 3.2 m）。
+- 炻质砖：吸水率 0.5–3%，耐久性好，可上釉或不上釉。
+- 陶质砖：吸水率 >3%，仅用于室内，可手工装饰（zellige、azulejo）。
+- 防火：Euroclass A1。
+- 应用：立面幕墙（通风雨幕）、地面/墙面饰面和泳池周边。
+
+---
+
+## 第 8 节：生命周期评估（LCA）
+
+### 8.1 全生命周期碳
 
 Total carbon = Embodied carbon (A1-A5, B1-B5, C1-C4) + Operational carbon (B6-B7)
 
-As buildings become more energy-efficient, embodied carbon becomes the dominant component (50-80% of whole-life carbon for Passive House-standard buildings).
+随着建筑能效提高，隐含碳成为主要组成部分（被动房标准建筑的全生命周期碳中占 50–80%）。
 
-### 8.2 LCA Stages (EN 15978)
+### 8.2 LCA 阶段（EN 15978）
 
-**Product Stage (A1-A3):**
-- A1: Raw material extraction
-- A2: Transport to manufacturer
-- A3: Manufacturing
-- This is the "cradle-to-gate" embodied carbon — most commonly reported
+**产品阶段（A1–A3）：**
+- A1：原材料提取。
+- A2：运输至制造商。
+- A3：制造。
+- 这是“从摇篮到工厂大门”的隐含碳，最常被报告。
 
-**Construction Stage (A4-A5):**
-- A4: Transport to site
-- A5: Construction/installation process (energy, waste, temporary works)
+**施工阶段（A4–A5）：**
+- A4：运输至现场。
+- A5：施工/安装过程（能源、废弃物、临时工程）。
 
-**Use Stage (B1-B7):**
-- B1: Installed product use (e.g., carbonation of concrete)
-- B2: Maintenance
-- B3: Repair
-- B4: Replacement (components with shorter life than building)
-- B5: Refurbishment
-- B6: Operational energy use
-- B7: Operational water use
+**使用阶段（B1–B7）：**
+- B1：已安装产品的使用（例如混凝土碳化）。
+- B2：维护。
+- B3：修理。
+- B4：更换（寿命短于建筑的构件）。
+- B5：翻新。
+- B6：运行能耗。
+- B7：运行用水。
 
-**End-of-Life Stage (C1-C4):**
-- C1: Deconstruction/demolition
-- C2: Transport to disposal/recycling
-- C3: Waste processing
-- C4: Disposal (landfill)
+**报废阶段（C1–C4）：**
+- C1：拆解/拆除。
+- C2：运输至处置/回收地点。
+- C3：废物处理。
+- C4：处置（填埋）。
 
-**Beyond Life (Module D):**
-- Credits for reuse, recycling, energy recovery
-- Reported separately (not added to A-C total)
-- Steel recycling credit: -1.3 to -1.5 kgCO2e/kg
-- Timber reuse/energy recovery credit: variable
+**生命周期之外（模块 D）：**
+- 对再利用、回收和能源回收给予抵扣。
+- 单独报告（不计入 A–C 总量）。
+- 钢材回收抵扣：−1.3 至 −1.5 kgCO2e/kg。
+- 木材再利用/能源回收抵扣：视情况而定。
 
-### 8.3 Embodied Carbon Benchmarks
+### 8.3 隐含碳基准
 
-**LETI (London Energy Transformation Initiative) Targets:**
+**LETI（伦敦能源转型倡议）目标：**
 
-| Building Type | 2020 Target (kgCO2e/m² GIA) | 2030 Target | Notes |
+| 建筑类型 | 2020 目标（kgCO2e/m² GIA） | 2030 目标 | 备注 |
 |---|---|---|---|
 | Office | < 600 | < 350 | A1-A5 upfront carbon |
 | Residential | < 500 | < 300 | A1-A5 upfront carbon |
 | School | < 500 | < 300 | A1-A5 upfront carbon |
 | Retail/Warehouse | < 550 | < 350 | A1-A5 upfront carbon |
 
-**RIBA 2030 Climate Challenge:**
-- 2020: < 600 kgCO2e/m² (A1-A5)
-- 2025: < 450 kgCO2e/m²
-- 2030: < 300 kgCO2e/m²
+**RIBA 2030 气候挑战：**
+- 2020：<600 kgCO2e/m²（A1–A5）。
+- 2025：<450 kgCO2e/m²。
+- 2030：<300 kgCO2e/m²。
 
-**IStructE Targets (structure only):**
-- Residential: < 300 kgCO2e/m² (typical); < 200 (best practice)
-- Office: < 350 kgCO2e/m² (typical); < 250 (best practice)
-- Best-in-class timber buildings: < 150 kgCO2e/m² (structure)
+**IStructE 目标（仅结构）：**
+- 住宅：<300 kgCO2e/m²（典型）；<200（最佳实践）。
+- 办公：<350 kgCO2e/m²（典型）；<250（最佳实践）。
+- 同类最佳木结构建筑：<150 kgCO2e/m²（结构）。
 
-### 8.4 Material-Level Embodied Carbon
+### 8.4 材料级隐含碳
 
-| Material | Unit | Embodied Carbon (kgCO2e) | Notes |
+| 材料 | 单位 | 隐含碳（kgCO2e） | 备注 |
 |---|---|---|---|
 | Concrete (C30/37, OPC) | per m³ | 180-240 | 30-50% GGBS replacement reduces to 100-150 |
-| Structural steel (primary) | per kg | 1.55 | World average; UK ~2.0 |
-| Structural steel (recycled, EAF) | per kg | 0.47 | Electric arc furnace, 100% scrap |
-| Steel rebar | per kg | 1.40 | Often high recycled content |
-| Softwood timber (sawn) | per kg | -1.0 to -1.6 | Carbon sequestration exceeds processing |
-| CLT panel | per m³ | -500 to -700 | Including biogenic carbon |
-| Glulam | per m³ | -450 to -600 | Including biogenic carbon |
+| 结构钢（主要材料） | 每kg | 1.55 | 全球平均；英国约2.0 |
+| 结构钢（再生，EAF） | 每kg | 0.47 | 电弧炉，100%废钢 |
+| 钢筋 | 每 kg | 1.40 | 通常含较高比例再生材料 |
+| 锯材软木 | 每 kg | -1.0 to -1.6 | 固碳量超过加工排放 |
+| CLT 板 | 每 m³ | -500 to -700 | 包含生物源碳 |
+| 胶合木 | 每 m³ | -450 to -600 | 包含生物源碳 |
 | Clay brick | per kg | 0.22 | Range 0.14-0.30 depending on kiln |
-| Limestone (Portland) | per kg | 0.09 | Low processing energy |
+| 石灰石（Portland） | 每 kg | 0.09 | 加工能耗低 |
 | Aluminum (primary) | per kg | 8.20 | High energy; use recycled where possible |
-| Aluminum (recycled) | per kg | 0.50 | 94% reduction from primary |
+| 铝（再生） | 每 kg | 0.50 | 相比原生铝减少 94% |
 | Float glass | per kg | 0.86 | |
-| Mineral wool insulation | per kg | 1.20 | |
-| PIR insulation | per kg | 4.20 | High due to blowing agents |
-| XPS insulation | per kg | 4.40 | Highest of insulation types |
-| Wood fibre insulation | per kg | -1.10 | Carbon-negative |
+| 岩棉保温材料 | 每 kg | 1.20 | |
+| PIR insulation | 每 kg | 4.20 | 因发泡剂导致数值较高 |
+| XPS insulation | 每 kg | 4.40 | 各类保温材料中最高 |
+| 木纤维保温材料 | 每 kg | -1.10 | 负碳 |
 | Plasterboard | per kg | 0.12 | Low carbon; recyclable |
-| Copper | per kg | 2.70 | High recyclability offsets |
+| Copper | 每 kg | 2.70 | 高可回收性可抵消部分影响 |
 | Zinc | per kg | 3.10 | |
 | ETFE | per kg | 6.50 | Very low quantity used per m² |
 
-### 8.5 Material Passports and Circular Economy
+### 8.5 材料护照与循环经济
 
-**Material Passport:** Digital record of all materials and components in a building — type, quantity, location, quality, toxicity, recyclability. Enables future recovery and reuse.
+**材料护照：**记录建筑中所有材料和构件的数字档案，包括类型、数量、位置、质量、毒性和可回收性，从而支持未来回收与再利用。
 
-**Circular Economy Principles for Architecture:**
-1. Design for Longevity: durable materials, adaptable layouts
-2. Design for Disassembly (DfD): bolted connections (not welded/glued), layered construction (facade independent of structure), accessible fixings
-3. Design for Reuse: standard sizes, undamaged removal, material banks
-4. Use Recycled Content: specify minimum recycled content in steel (90%+ achievable), aluminum (50%+), concrete aggregate (20-30% RCA)
-5. Use Renewable Materials: timber, bamboo, hemp-lime, straw, earth
-6. Eliminate Waste: modular coordination, prefabrication, digital cutting optimization
+**建筑循环经济原则：**
+1. 长寿命设计：耐久材料、可适应的布局。
+2. 可拆解设计（DfD）：采用螺栓连接（而非焊接/粘接）、分层构造（立面独立于结构）和可检修固定件。
+3. 可再利用设计：标准尺寸、无损拆除、材料银行。
+4. 使用再生材料：规定钢材最低再生含量（可达 90%+）、铝（50%+）和混凝土骨料（20–30% RCA）。
+5. 使用可再生材料：木材、竹材、麻、麻石灰和土。
+6. 消除废弃物：模数协调、预制和数字化切割优化。
 
 **Exemplars of Circular Design:**
-- **Triodos Bank HQ** (RAU Architects, 2019, Driebergen) — timber structure fully demountable; bolted steel connections; every element logged in material passport (Madaster platform)
-- **Park 20|20** (William McDonough, Amsterdam) — cradle-to-cradle certified; demountable facades; material passports for all buildings
+- **Triodos Bank 总部**（RAU Architects，2019，德里贝亨）——木结构完全可拆卸；螺栓钢连接；所有构件记录于材料护照（Madaster 平台）
+- **Park 20|20**（William McDonough，阿姆斯特丹）——通过从摇篮到摇篮认证；可拆卸立面；所有建筑均建立材料护照
