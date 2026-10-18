@@ -712,3 +712,7 @@ No reference is complete without acknowledging the major critiques:
 *This reference covers 60+ architects, 20 movements, 9 urban theorists, key texts, structural innovators,
 pedagogical lineages, and critical counter-positions. It should be cross-referenced with the
 building-typology-taxonomy.md file for program-specific architectural guidance.*
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

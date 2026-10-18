@@ -552,3 +552,7 @@ Cities mapped to intensity:
 ---
 
 *交叉引用：加载 `building-codes` 了解一般规范结构（中国以红色印刷的强制性条文为特色）；加载 `fire-life-safety` 了解由 GB 50016 + GB 51251 叠加的消防生命安全原则；加载 `accessibility-design` 了解全球无障碍框架及 GB 50763；加载 `building-sustainability` 了解绿色建筑标识、LEED 对比和 GB/T 51350 NZEB；加载 `structural-systems` 了解抗震设计（中国烈度分级 + GB 50011）；加载 `building-envelope` 了解五类气候区的热带、寒冷和高原围护结构设计。*
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -646,3 +646,7 @@ Total carbon = Embodied carbon (A1-A5, B1-B5, C1-C4) + Operational carbon (B6-B7
 **Exemplars of Circular Design:**
 - **Triodos Bank 总部**（RAU Architects，2019，德里贝亨）——木结构完全可拆卸；螺栓钢连接；所有构件记录于材料护照（Madaster 平台）
 - **Park 20|20**（William McDonough，阿姆斯特丹）——通过从摇篮到摇篮认证；可拆卸立面；所有建筑均建立材料护照
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

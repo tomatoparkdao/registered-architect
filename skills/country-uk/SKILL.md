@@ -462,3 +462,7 @@ description: >
 ---
 
 *交叉引用：加载 `building-codes` 了解一般消防/疏散概念（AD-B 对其进行英国化细化）；加载 `fire-life-safety` 了解一般消防工程（再结合英国 BS 9991/9999）；加载 `accessibility-design` 了解全球框架及 BS 8300/AD-M；加载 `building-sustainability` 了解 BREEAM、被动房对比和全生命周期碳；加载 `building-envelope` 了解英国气候（AD-O 过热 + AD-L 围护结构）；加载 `structural-systems` 了解基于 Eurocode 的设计。*
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

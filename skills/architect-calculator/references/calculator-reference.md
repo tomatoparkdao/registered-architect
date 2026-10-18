@@ -316,3 +316,7 @@ EUI = (Heating + Cooling) / A_floor
 室外工程 = 建造成本 × 0.10（如包含）
 合计 = 建造成本 + 服务费 + 不可预见费 + 室外工程
 ```
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

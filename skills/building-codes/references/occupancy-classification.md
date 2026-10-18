@@ -327,3 +327,7 @@ A restaurant in a hotel:
 ---
 
 *除非另有说明，所有引用均指 IBC 2021 版。应根据当地采用的规范版本及修订条款进行核验。建筑主管部门拥有最终解释权。*
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

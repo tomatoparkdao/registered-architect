@@ -491,3 +491,7 @@ BCJ issues evaluation certificate which the Confirmation Inspection Agency relie
 ---
 
 *交叉引用：加载 `building-codes` 了解一般规范结构（日本 BSA 独特地采用双法规防火体系）；加载 `fire-life-safety` 了解一般原则，并结合 BSA 耐火和《消防法》主动防火条款；加载 `accessibility-design` 了解全球框架，再结合 Heart Building Law；加载 `building-sustainability` 比较 CASBEE、LEED 与 Passivhaus；加载 `structural-systems` 处理抗震专项设计（日本两级抗震与隔震）；加载 `building-envelope` 处理从亚寒带至亚热带的严酷气候及台风节点。*
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

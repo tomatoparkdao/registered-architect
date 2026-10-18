@@ -595,3 +595,7 @@ Construction Specifications Institute（CSI）的 MasterFormat 将技术规范�
 - ISO 19650（BIM 信息管理）
 - National CAD Standard（NCS）——美国
 - BS 1192 / PAS 1192——英国
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

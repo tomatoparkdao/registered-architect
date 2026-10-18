@@ -550,3 +550,7 @@ description: >
 - [ ] 已理解结构选择对施工计划的影响
 - [ ] 防火策略已与结构体系协调
 - [ ] 已建立隐含碳预算并据此选择结构体系
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

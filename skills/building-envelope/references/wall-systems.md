@@ -431,3 +431,7 @@
 | Curtain wall (unitized, double) | 500 | 750 | 900 | Factory finish, logistics |
 | Curtain wall (triple) | 700 | 1000 | 1300 | Triple IGU, frame |
 | Double-skin facade | 800 | 1400 | 2000 | Cavity depth, ventilation system |
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

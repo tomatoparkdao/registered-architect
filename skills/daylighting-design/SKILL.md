@@ -662,3 +662,7 @@ Balance Visual Light Transmittance (VLT) and Solar Heat Gain Coefficient (SHGC):
 13. 高侧窗光线投射深度 = 高侧窗窗顶至工作面的高度的 1.5–2.5 倍
 14. 昼夜节律刺激要求眼睛高度 M-EDI ≥ 250，且每天至少 4 小时
 15. 导光管每个 30° 弯头约损失 10% 光通量
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

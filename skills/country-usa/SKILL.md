@@ -454,3 +454,7 @@ FHA 适用于 1991 年 3 月以后首次投入使用的所有 4 套及以上住�
 ---
 
 *交叉引用：加载 `building-codes` 了解 IBC 基础（美国是 IBC 的本土管辖区）；加载 `fire-life-safety` 了解 NFPA 101 + IFC；加载 `accessibility-design` 了解 ADA + ANSI A117.1 +《公平住房法》；加载 `building-sustainability` 了解 LEED + ENERGY STAR + 被动房对比；加载 `structural-systems` 了解 ASCE 7 / ACI / AISC 深度；加载 `building-services` 了解 ASHRAE 细节。*
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

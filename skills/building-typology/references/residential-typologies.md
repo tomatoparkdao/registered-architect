@@ -444,3 +444,7 @@
 - CTBUH (2020). *Tall Building Design Guides*. Council on Tall Buildings and Urban Habitat.
 - Roberts, S. (2008). *Altering House*. Routledge.
 - Structural Timber Association (2020). *Design Guide for CLT*. STA.
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

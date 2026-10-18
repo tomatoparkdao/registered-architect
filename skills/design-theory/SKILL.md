@@ -548,3 +548,7 @@ LIMITATIONS (what does not transfer):
 | 《思考建筑》（Thinking Architecture） | Peter Zumthor | 2006 | 建筑中的氛围、材料存在感与记忆 |
 | Atmospheres | Peter Zumthor | 2006 | 建筑氛围的九种特质 |
 | 《建筑的自创生》（The Autopoiesis of Architecture） | Patrik Schumacher | 2011 | 参数主义作为时代风格；建筑作为社会系统 |
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

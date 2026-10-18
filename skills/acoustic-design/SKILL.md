@@ -460,3 +460,7 @@ BCO（British Council for Offices）Guide to Specification 规定办公声学准
 **增设吊顶：** 在既有顶棚下以弹簧吊件新设吊顶，空腔内填矿棉。可增加 8–12 dB 空气声隔声和 5–10 dB 撞击声改善量，但会降低房间净高。
 
 **密封缝隙和侧向传声路径：** 往往是性价比最高的首项干预。密封设备穿孔、踢脚线节点、窗框周边及构件交接处，可恢复因漏气和侧向传声损失的 3–10 dB 性能。
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

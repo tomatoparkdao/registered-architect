@@ -433,3 +433,7 @@ ITP 定义所有检查和测试活动、时间、验收标准及责任方。
 - [ ] Lead times checked for critical materials
 - [ ] Hold points and witness points defined in ITP
 - [ ] O&M manual requirements specified for all maintainable elements
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

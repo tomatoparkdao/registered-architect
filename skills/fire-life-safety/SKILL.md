@@ -589,3 +589,7 @@ A fire strategy report（也称 fire safety strategy、fire engineering report �
 ---
 
 *本技能为建筑设计提供一般性的消防与生命安全指导。所有消防策略必须与具备资质的消防工程师协调制定，并经主管机关批准。消防规范和标准具有辖区特定性——应依据当地采用的版本核实要求。*
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -465,3 +465,7 @@ mill-specific carbon intensity data.
    per drawn details
 6. Code compliance: Specified products meet applicable code requirements
 7. Budget verification: Specified products align with project budget
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

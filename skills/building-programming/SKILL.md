@@ -558,3 +558,7 @@ Some practitioners add a fifth level (0 = must not be adjacent) for hard separat
 - BOMA International (2017). *Office Buildings: Standard Methods of Measurement*. ANSI/BOMA Z65.1.
 - Sport England (2012). *Design Guidance Notes*. Sport England.
 - AUDE (2016). *Guide to Post-Occupancy Evaluation*. Association of University Directors of Estates.
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

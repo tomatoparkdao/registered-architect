@@ -363,3 +363,7 @@ JSON 输出（`--json` 标志）可用于集成至：
 - Web 仪表板
 - 自动化报告系统
 - BIM 参数写入
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

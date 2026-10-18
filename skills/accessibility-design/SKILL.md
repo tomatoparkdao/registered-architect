@@ -515,3 +515,7 @@ simply being unfamiliar with the building.
 ---
 
 *本技能提供无障碍设计的一般指导。所有设计必须符合项目所在地采用的具体无障碍标准和建筑规范。无障碍规范规定的是最低要求，执业人员应追求超越规范的通用设计品质。*
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

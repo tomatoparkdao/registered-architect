@@ -571,3 +571,7 @@ Always provide the foundational context from this skill, then defer to the speci
 ---
 
 *Sources: IBC 2021, IRC 2021, NFPA 101 2021, ADA 2010 Standards, ASHRAE 90.1-2022, ASHRAE 62.1-2022, EN 1990-1999 (Eurocodes), EN 17037, EN 12464-1, BS 8300:2018, BS 9999:2017, BB93, BB103, CIBSE Guides A/B/D/LG10/AM10, BCO Guide to Specification 2019, Neufert Architects' Data 5th Ed, Architectural Graphic Standards 12th Ed, FGI Guidelines for Design and Construction of Hospitals 2022, RIBA Plan of Work 2020, LEED BD+C v4.1, BREEAM New Construction SD5078 2024, Passive House Institute criteria, WELL v2 Q3 2023, AUDE/HEFCE Space Management Guide, BRE 209 Site Layout Planning for Daylight and Sunlight, LETI Climate Emergency Design Guide 2020.*
+#
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
