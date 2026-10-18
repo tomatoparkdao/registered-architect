@@ -555,6 +555,17 @@ Cities mapped to intensity:
 
 澳门拥有自己的建筑法（Lei 32/96/M）及技术规章，采用葡萄牙传统与中文体系结合的制度。本文不作详细说明。
 
+## 14. 中国规范资料库路由
+
+本技能附带 `references/standards/README.md`，登记用户提供的 250 个 PDF 规范及图集，并将可提取文本拆分为小型 Markdown 分片。调用中国规范时：
+
+1. 先按项目主题（总则、消防、人防、民用建筑、无障碍、节能、结构、机电、机场及地方审查资料）定位目录条目。
+2. 再按原文件名、标准编号和 `source_status` 打开对应资料页；`TEXT_EXTRACTED` 表示已生成文本分片，`OCR_REQUIRED` 表示源文件为扫描件或无法可靠提取文本。
+3. 需要引用条文时，只能把资料库作为检索辅助，必须核验现行官方版本、修订公告、地方标准和项目所在地主管部门要求。
+4. 不得把图示、课件、研究报告或历史版本自动当作现行强制性规范；输出中应标明资料类型、版本状态和复核责任。
+
+目录入口：`references/standards/README.md`。原始 PDF 不随 Skill 分发，目录中的分片文件也不包含图片。
+
 ---
 
 *交叉引用：加载 `building-codes` 了解一般规范结构（中国以红色印刷的强制性条文为特色）；加载 `fire-life-safety` 了解由 GB 50016 + GB 51251 叠加的消防生命安全原则；加载 `accessibility-design` 了解全球无障碍框架及 GB 50763；加载 `building-sustainability` 了解绿色建筑标识、LEED 对比和 GB/T 51350 NZEB；加载 `structural-systems` 了解抗震设计（中国烈度分级 + GB 50011）；加载 `building-envelope` 了解五类气候区的热带、寒冷和高原围护结构设计。*
