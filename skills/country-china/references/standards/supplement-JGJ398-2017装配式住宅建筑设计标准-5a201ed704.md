@@ -11,7 +11,7 @@ agent_created: true
 
 # JGJ398-2017装配式住宅建筑设计标准
 
-- 来源文件：`H:/建筑设计规范/4. 细部构造/JGJ398-2017装配式住宅建筑设计标准.pdf`
-- 状态：`UNREADABLE`
-- 页数：object of type 'PdfReader' has no len()
-- 文本分片：无；需 OCR 或旧格式转换
+- 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/2.  民用建筑/JGJ398-2017装配式住宅建筑设计标准.pdf`
+- 状态：`TEXT_EXTRACTED`
+- 页数：24
+- 文本分片：[supplement-JGJ398-2017装配式住宅建筑设计标准-5a201ed704-001.md](text/supplement-JGJ398-2017装配式住宅建筑设计标准-5a201ed704-001.md)
