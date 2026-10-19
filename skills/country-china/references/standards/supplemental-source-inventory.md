@@ -84,7 +84,7 @@
 | 15ZJ611. 拉闸门和卷帘门建筑构造.pdf | `H:/建筑设计规范/4. 细部构造/中南标/15ZJ611. 拉闸门和卷帘门建筑构造.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15ZJ611-拉闸门和卷帘门建筑构造-0e75cd4768.md](supplement-15ZJ611-拉闸门和卷帘门建筑构造-0e75cd4768.md) |
 | 06J403-1楼梯、栏杆、栏板.pdf | `H:/建筑设计规范/4. 细部构造/图集/06J403-1楼梯、栏杆、栏板.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-06J403-1楼梯-栏杆-栏板-7827d5e7d8.md](supplement-06J403-1楼梯-栏杆-栏板-7827d5e7d8.md) |
 | 08J933-1 体育场地与设施(一).pdf | `H:/建筑设计规范/4. 细部构造/图集/08J933-1 体育场地与设施(一).pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-08J933-1-体育场地与设施-一-5b8849cdc7.md](supplement-08J933-1-体育场地与设施-一-5b8849cdc7.md) |
-| 11ZJ401.  楼梯栏杆.pdf | `H:/建筑设计规范/4. 细部构造/图集/11ZJ401.  楼梯栏杆.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-11ZJ401-楼梯栏杆-e628ae6baf.md](supplement-11ZJ401-楼梯栏杆-e628ae6baf.md) |
+| 11ZJ401.  楼梯栏杆.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/图集/11ZJ401.  楼梯栏杆.pdf` | 49 pages, 9550 chars | `TEXT_EXTRACTED` | [supplement-11ZJ401-楼梯栏杆-e628ae6baf.md](supplement-11ZJ401-楼梯栏杆-e628ae6baf.md) |
 | 11ZJ411. 阳台、外廊栏杆.pdf | `H:/建筑设计规范/4. 细部构造/图集/11ZJ411. 阳台、外廊栏杆.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-11ZJ411-阳台-外廊栏杆-01504ac689.md](supplement-11ZJ411-阳台-外廊栏杆-01504ac689.md) |
 | 12J003 室外工程.pdf | `H:/建筑设计规范/4. 细部构造/图集/12J003 室外工程.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-12J003-室外工程-6d513ceb2d.md](supplement-12J003-室外工程-6d513ceb2d.md) |
 | 12J201 平屋面建筑构造.pdf | `H:/建筑设计规范/4. 细部构造/图集/12J201 平屋面建筑构造.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-12J201-平屋面建筑构造-672c7d55a5.md](supplement-12J201-平屋面建筑构造-672c7d55a5.md) |
