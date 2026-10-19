@@ -11,7 +11,7 @@ agent_created: true
 
 # 13ZJ301. 建筑无障碍设施
 
-- 来源文件：`H:/建筑设计规范/4. 细部构造/中南标/13ZJ301. 建筑无障碍设施.pdf`
-- 状态：`UNREADABLE`
-- 页数：object of type 'PdfReader' has no len()
-- 文本分片：无；需 OCR 或旧格式转换
+- 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/13ZJ301. 建筑无障碍设施.pdf`
+- 状态：`TEXT_EXTRACTED`
+- 页数：94
+- 文本分片：[supplement-13ZJ301-建筑无障碍设施-e974c842f0-001.md](text/supplement-13ZJ301-建筑无障碍设施-e974c842f0-001.md)

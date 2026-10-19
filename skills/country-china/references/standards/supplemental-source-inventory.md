@@ -71,7 +71,7 @@
 | 11ZJ411. 阳台、外廊栏杆.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/11ZJ411. 阳台、外廊栏杆.pdf` | 52 pages, 11660 chars | `TEXT_EXTRACTED` | [supplement-11ZJ411-阳台-外廊栏杆-ea8d576ae5.md](supplement-11ZJ411-阳台-外廊栏杆-ea8d576ae5.md) |
 | 11ZJ中南标建筑图集.pdf | `H:/建筑设计规范/4. 细部构造/中南标/11ZJ中南标建筑图集.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-11ZJ中南标建筑图集-42329943bb.md](supplement-11ZJ中南标建筑图集-42329943bb.md) |
 | 13ZJ002. 建筑节能构造用料做法.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/13ZJ002. 建筑节能构造用料做法.pdf` | 229 pages, 143283 chars | `TEXT_EXTRACTED` | [supplement-13ZJ002-建筑节能构造用料做法-d5439d9fec.md](supplement-13ZJ002-建筑节能构造用料做法-d5439d9fec.md) |
-| 13ZJ301. 建筑无障碍设施.pdf | `H:/建筑设计规范/4. 细部构造/中南标/13ZJ301. 建筑无障碍设施.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13ZJ301-建筑无障碍设施-e974c842f0.md](supplement-13ZJ301-建筑无障碍设施-e974c842f0.md) |
+| 13ZJ301. 建筑无障碍设施.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/13ZJ301. 建筑无障碍设施.pdf` | 94 pages, 27034 chars | `TEXT_EXTRACTED` | [supplement-13ZJ301-建筑无障碍设施-e974c842f0.md](supplement-13ZJ301-建筑无障碍设施-e974c842f0.md) |
 | 13ZJ302. 地沟和盖板.pdf | `H:/建筑设计规范/4. 细部构造/中南标/13ZJ302. 地沟和盖板.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13ZJ302-地沟和盖板-88d2a6f860.md](supplement-13ZJ302-地沟和盖板-88d2a6f860.md) |
 | 15ZJ001 建筑构造用料做法.pdf | `H:/建筑设计规范/4. 细部构造/中南标/15ZJ001 建筑构造用料做法.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15ZJ001-建筑构造用料做法-82f59bc88e.md](supplement-15ZJ001-建筑构造用料做法-82f59bc88e.md) |
 | 15ZJ201. 平屋面.pdf | `H:/建筑设计规范/4. 细部构造/中南标/15ZJ201. 平屋面.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15ZJ201-平屋面-884a45607c.md](supplement-15ZJ201-平屋面-884a45607c.md) |
