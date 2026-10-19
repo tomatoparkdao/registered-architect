@@ -12,6 +12,6 @@ agent_created: true
 # 06J505-1  外装修（一）
 
 - 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/06J505-1  外装修（一）.pdf`
-- 状态：`UNREADABLE`
+- 状态：`TEXT_EXTRACTED`
 - 页数：object of type 'PdfReader' has no len()
-- 文本分片：无；需 OCR 或旧格式转换
+- 文本分片：[supplement-06J505-1-外装修-一-c453fc1f4c-001.md](text/supplement-06J505-1-外装修-一-c453fc1f4c-001.md)
