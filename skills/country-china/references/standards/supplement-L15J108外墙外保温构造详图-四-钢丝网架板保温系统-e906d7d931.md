@@ -14,6 +14,5 @@ agent_created: true
 - 来源文件：`E:/SKILL/蒸馏文件/建筑师/建筑设计规范合集  电子版整理/建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/山东标/L15J108外墙外保温构造详图_四_钢丝网架板保温系统.pdf`
 - 页数：45
 - OCR 字符数：20147
-- 状态：`OCR_PENDING`
-- 页数：object of type 'PdfReader' has no len()
+- 状态：`TEXT_EXTRACTED`
 - 文本分片：[supplement-L15J108外墙外保温构造详图-四-钢丝网架板保温系统-e906d7d931-001.md](text/supplement-L15J108外墙外保温构造详图-四-钢丝网架板保温系统-e906d7d931-001.md)
