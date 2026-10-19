@@ -24,7 +24,7 @@
 | 14J924木结构建筑.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/14J924木结构建筑.pdf` | 139 pages, 71712 chars | `TEXT_EXTRACTED` | [supplement-14J924木结构建筑-01aebd9af4.md](supplement-14J924木结构建筑-01aebd9af4.md) |
 | 14J936变形缝建筑构造.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/14J936变形缝建筑构造.pdf` | 114 pages, 80199 chars | `TEXT_EXTRACTED` | [supplement-14J936变形缝建筑构造-9af046b559.md](supplement-14J936变形缝建筑构造-9af046b559.md) |
 | 15J207-1单层防水卷材屋面建筑构造(一).pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/15J207-1单层防水卷材屋面建筑构造(一).pdf` | 135 pages, 76391 chars | `TEXT_EXTRACTED` | [supplement-15J207-1单层防水卷材屋面建筑构造-一-644b29a316.md](supplement-15J207-1单层防水卷材屋面建筑构造-一-644b29a316.md) |
-| 15J403-1楼梯 栏杆 栏板（一）.pdf | `H:/建筑设计规范/4. 细部构造/15J403-1楼梯 栏杆 栏板（一）.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15J403-1楼梯-栏杆-栏板-一-1bfff4766c.md](supplement-15J403-1楼梯-栏杆-栏板-一-1bfff4766c.md) |
+| 15J403-1楼梯 栏杆 栏板（一）.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/15J403-1楼梯 栏杆 栏板（一）.pdf` | 240 pages, 77329 chars | `TEXT_EXTRACTED` | [supplement-15J403-1楼梯-栏杆-栏板-一-1bfff4766c.md](supplement-15J403-1楼梯-栏杆-栏板-一-1bfff4766c.md) |
 | 15K606防排烟图集节选.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/15K606防排烟图集节选.pdf` | 100 pages, 36429 chars | `TEXT_EXTRACTED` | [supplement-15K606防排烟图集节选-9e6a377ae8.md](supplement-15K606防排烟图集节选-9e6a377ae8.md) |
 | 15ZJ001 建筑构造用料做法.pdf | `H:/建筑设计规范/4. 细部构造/15ZJ001 建筑构造用料做法.pdf` | Cannot read an empty file | `UNREADABLE` | [supplement-15ZJ001-建筑构造用料做法-adf1c13304.md](supplement-15ZJ001-建筑构造用料做法-adf1c13304.md) |
 | 16J509铝合金护栏.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/16J509铝合金护栏.pdf` | 158 pages, 60638 chars | `TEXT_EXTRACTED` | [supplement-16J509铝合金护栏-19a5ee1317.md](supplement-16J509铝合金护栏-19a5ee1317.md) |
