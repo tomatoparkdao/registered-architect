@@ -67,7 +67,7 @@
 | 轻钢住宅节点大样.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/轻钢住宅节点大样.pdf` | 142 pages, 57354 chars | `TEXT_EXTRACTED` | [supplement-轻钢住宅节点大样-4a74220107.md](supplement-轻钢住宅节点大样-4a74220107.md) |
 | 铝合金门窗工程技术规范---JGJ 214-2010.pdf | `H:/建筑设计规范/4. 细部构造/铝合金门窗工程技术规范---JGJ 214-2010.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-铝合金门窗工程技术规范-JGJ-214-2010-fbd9882706.md](supplement-铝合金门窗工程技术规范-JGJ-214-2010-fbd9882706.md) |
 | U型玻璃3D示意.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/CAD构造大样/U型玻璃3D示意.pdf` | 9 pages, 117 chars | `TEXT_EXTRACTED` | [supplement-U型玻璃3D示意-3f5dcb4eb0.md](supplement-U型玻璃3D示意-3f5dcb4eb0.md) |
-| 11ZJ401.  楼梯栏杆.pdf | `H:/建筑设计规范/4. 细部构造/中南标/11ZJ401.  楼梯栏杆.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-11ZJ401-楼梯栏杆-a5ce43d0ed.md](supplement-11ZJ401-楼梯栏杆-a5ce43d0ed.md) |
+| 11ZJ401.  楼梯栏杆.pdf | `E:/SKILL/蒸馏文件/建筑师/建筑设计规范合集  电子版整理/建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/11ZJ401.  楼梯栏杆.pdf` | 49页，GPU OCR，9550字符 | `TEXT_EXTRACTED` | [supplement-11ZJ401-楼梯栏杆-a5ce43d0ed.md](supplement-11ZJ401-楼梯栏杆-a5ce43d0ed.md) |
 | 11ZJ411. 阳台、外廊栏杆.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/11ZJ411. 阳台、外廊栏杆.pdf` | 52 pages, 11660 chars | `TEXT_EXTRACTED` | [supplement-11ZJ411-阳台-外廊栏杆-ea8d576ae5.md](supplement-11ZJ411-阳台-外廊栏杆-ea8d576ae5.md) |
 | 11ZJ中南标建筑图集.pdf | `H:/建筑设计规范/4. 细部构造/中南标/11ZJ中南标建筑图集.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-11ZJ中南标建筑图集-42329943bb.md](supplement-11ZJ中南标建筑图集-42329943bb.md) |
 | 13ZJ002. 建筑节能构造用料做法.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/13ZJ002. 建筑节能构造用料做法.pdf` | 229 pages, 143283 chars | `TEXT_EXTRACTED` | [supplement-13ZJ002-建筑节能构造用料做法-d5439d9fec.md](supplement-13ZJ002-建筑节能构造用料做法-d5439d9fec.md) |
