@@ -15,7 +15,7 @@
 | 11J122 外墙内保温建筑构造.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/11J122 外墙内保温建筑构造.pdf` | 94 pages, 45671 chars | `TEXT_EXTRACTED` | [supplement-11J122-外墙内保温建筑构造-2faaac166e.md](supplement-11J122-外墙内保温建筑构造-2faaac166e.md) |
 | 12J201平屋面建筑构造.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/12J201平屋面建筑构造.pdf` | 154 pages, 77941 chars | `TEXT_EXTRACTED` | [supplement-12J201平屋面建筑构造-413374a74c.md](supplement-12J201平屋面建筑构造-413374a74c.md) |
 | 12J304楼地面建筑构造.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/12J304楼地面建筑构造.pdf` | 194 pages, 125664 chars | `TEXT_EXTRACTED` | [supplement-12J304楼地面建筑构造-0f7dbc7957.md](supplement-12J304楼地面建筑构造-0f7dbc7957.md) |
-| 12J5-1 平屋面.pdf | `H:/建筑设计规范/4. 细部构造/12J5-1 平屋面.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-12J5-1-平屋面-e25e4bef44.md](supplement-12J5-1-平屋面-e25e4bef44.md) |
+| 12J5-1 平屋面.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/12J5-1 平屋面.pdf` | 110 pages, 44004 chars | `TEXT_EXTRACTED` | [supplement-12J5-1-平屋面-e25e4bef44.md](supplement-12J5-1-平屋面-e25e4bef44.md) |
 | 13J404 电梯 自动扶梯 自动人行道.pdf | `H:/建筑设计规范/4. 细部构造/13J404 电梯 自动扶梯 自动人行道.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13J404-电梯-自动扶梯-自动人行道-fa645d0bd3.md](supplement-13J404-电梯-自动扶梯-自动人行道-fa645d0bd3.md) |
 | 13J502-1内装修-墙面装修.pdf | `H:/建筑设计规范/4. 细部构造/13J502-1内装修-墙面装修.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13J502-1内装修-墙面装修-83d969dc85.md](supplement-13J502-1内装修-墙面装修-83d969dc85.md) |
 | 13J502-2 内装修：室内吊顶.pdf | `H:/建筑设计规范/4. 细部构造/13J502-2 内装修：室内吊顶.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13J502-2-内装修-室内吊顶-08c211df5e.md](supplement-13J502-2-内装修-室内吊顶-08c211df5e.md) |
