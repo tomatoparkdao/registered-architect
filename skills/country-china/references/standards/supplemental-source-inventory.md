@@ -21,7 +21,7 @@
 | 13J502-2 内装修：室内吊顶.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/13J502-2 内装修：室内吊顶.pdf` | 190 pages, 71374 chars | `TEXT_EXTRACTED` | [supplement-13J502-2-内装修-室内吊顶-08c211df5e.md](supplement-13J502-2-内装修-室内吊顶-08c211df5e.md) |
 | 13J502-3 内装修-楼(地)面装修.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/13J502-3 内装修-楼(地)面装修.pdf` | 113 pages, 49670 chars | `TEXT_EXTRACTED` | [supplement-13J502-3-内装修-楼-地-面装修-9e0e8d7797.md](supplement-13J502-3-内装修-楼-地-面装修-9e0e8d7797.md) |
 | 13ZJ302. 地沟和盖板.pdf | `H:/建筑设计规范/4. 细部构造/13ZJ302. 地沟和盖板.pdf` | Cannot read an empty file | `UNREADABLE` | [supplement-13ZJ302-地沟和盖板-04f55e71fb.md](supplement-13ZJ302-地沟和盖板-04f55e71fb.md) |
-| 14J924木结构建筑.pdf | `H:/建筑设计规范/4. 细部构造/14J924木结构建筑.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-14J924木结构建筑-01aebd9af4.md](supplement-14J924木结构建筑-01aebd9af4.md) |
+| 14J924木结构建筑.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/14J924木结构建筑.pdf` | 139 pages, 71712 chars | `TEXT_EXTRACTED` | [supplement-14J924木结构建筑-01aebd9af4.md](supplement-14J924木结构建筑-01aebd9af4.md) |
 | 14J936变形缝建筑构造.pdf | `H:/建筑设计规范/4. 细部构造/14J936变形缝建筑构造.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-14J936变形缝建筑构造-9af046b559.md](supplement-14J936变形缝建筑构造-9af046b559.md) |
 | 15J207-1单层防水卷材屋面建筑构造(一).pdf | `H:/建筑设计规范/4. 细部构造/15J207-1单层防水卷材屋面建筑构造(一).pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15J207-1单层防水卷材屋面建筑构造-一-644b29a316.md](supplement-15J207-1单层防水卷材屋面建筑构造-一-644b29a316.md) |
 | 15J403-1楼梯 栏杆 栏板（一）.pdf | `H:/建筑设计规范/4. 细部构造/15J403-1楼梯 栏杆 栏板（一）.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15J403-1楼梯-栏杆-栏板-一-1bfff4766c.md](supplement-15J403-1楼梯-栏杆-栏板-一-1bfff4766c.md) |
