@@ -161,8 +161,8 @@ claude --plugin-dir "/path/to/registered-architect"
 ```text
 registered-architect/
 ├── SKILL.md                         # 全球注册建筑师总入口
-├── README.md                        # English README
-├── README.zh-CN.md                  # 简体中文 README
+├── README.md                        # 简体中文 README（默认）
+├── README_EN.md                     # English README
 ├── LICENSE                          # OmniAiLab MIT License
 ├── skills/                          # 设计、技术、合规和国家专题
 │   ├── architect-foundations/
@@ -506,8 +506,9 @@ registered-architect/
 │   ├── country-china/               # 中国大陆规范与实践资料
 │   ├── architect-calculator/        # 计算器与计算参考
 │   └── ...
-├── README.md                        # English README
-└── README.zh-CN.md                  # 中文 README
+├── README.md                        # 简体中文 README（默认）
+├── README_EN.md                     # English README
+└── README.zh-CN.md                  # 中文兼容副本
 ```
 
 ## 许可证与来源
@@ -575,3 +576,4 @@ registered-architect/
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
