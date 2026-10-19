@@ -5,7 +5,7 @@
 | 原文件 | 来源路径 | 页数 | 状态 | 索引 |
 |---|---|---:|---|---|
 | 02J503-1 常用建筑色.pdf | `H:/建筑设计规范/4. 细部构造/02J503-1 常用建筑色.pdf` | Cannot read an empty file | `UNREADABLE` | [supplement-02J503-1-常用建筑色-57f86352fe.md](supplement-02J503-1-常用建筑色-57f86352fe.md) |
-| 06J505-1  外装修（一）.pdf | `H:/建筑设计规范/4. 细部构造/06J505-1  外装修（一）.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-06J505-1-外装修-一-c453fc1f4c.md](supplement-06J505-1-外装修-一-c453fc1f4c.md) |
+| 06J505-1  外装修（一）.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/06J505-1  外装修（一）.pdf` | 10 pages, 5671 chars | `TEXT_EXTRACTED` | [supplement-06J505-1-外装修-一-c453fc1f4c.md](supplement-06J505-1-外装修-一-c453fc1f4c.md) |
 | 07J905-1防火建筑构造（一）.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/07J905-1防火建筑构造（一）.pdf` | 102 pages, 46801 chars | `TEXT_EXTRACTED` | [supplement-07J905-1防火建筑构造-一-63dc2c994a.md](supplement-07J905-1防火建筑构造-一-63dc2c994a.md) |
 | 09J202-1坡屋面建筑构造(一)图集.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/09J202-1坡屋面建筑构造(一)图集.pdf` | 137 pages, 76465 chars | `TEXT_EXTRACTED` | [supplement-09J202-1坡屋面建筑构造-一-图集-6daa9c39e9.md](supplement-09J202-1坡屋面建筑构造-一-图集-6daa9c39e9.md) |
 | 09J202-1坡屋面建筑构造（一）.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/09J202-1坡屋面建筑构造（一）.pdf` | 141 pages, 52766 chars | `TEXT_EXTRACTED` | [supplement-09J202-1坡屋面建筑构造-一-ceab654474.md](supplement-09J202-1坡屋面建筑构造-一-ceab654474.md) |
