@@ -11,7 +11,7 @@ agent_created: true
 
 # JGJ230-2010  倒置式屋面工程技术规程
 
-- 来源文件：`H:/建筑设计规范/4. 细部构造/JGJ230-2010  倒置式屋面工程技术规程.pdf`
-- 状态：`UNREADABLE`
-- 页数：object of type 'PdfReader' has no len()
-- 文本分片：无；需 OCR 或旧格式转换
+- 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/JGJ230-2010  倒置式屋面工程技术规程.pdf`
+- 状态：`TEXT_EXTRACTED`
+- 页数：18
+- 文本分片：[supplement-JGJ230-2010-倒置式屋面工程技术规程-287a44acb0-001.md](text/supplement-JGJ230-2010-倒置式屋面工程技术规程-287a44acb0-001.md)
