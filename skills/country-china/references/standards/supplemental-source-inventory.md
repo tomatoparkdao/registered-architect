@@ -157,5 +157,6 @@
 | 建筑设计资料集 （第二版）09.pdf | `H:/建筑设计规范/6. 建筑设计资料集（第三版）/建筑设计资料集 （第二版）/建筑设计资料集 （第二版）09.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-建筑设计资料集-第二版-09-01bc258435.md](supplement-建筑设计资料集-第二版-09-01bc258435.md) |
 | 建筑设计资料集 （第二版）10.pdf | `H:/建筑设计规范/6. 建筑设计资料集（第三版）/建筑设计资料集 （第二版）/建筑设计资料集 （第二版）10.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-建筑设计资料集-第二版-10-1395d11684.md](supplement-建筑设计资料集-第二版-10-1395d11684.md) |
 | 建筑设计资料集+（第二版）04.pdf | `H:/建筑设计规范/6. 建筑设计资料集（第三版）/建筑设计资料集 （第二版）/建筑设计资料集+（第二版）04.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-建筑设计资料集-第二版-04-47f424ffad.md](supplement-建筑设计资料集-第二版-04-47f424ffad.md) |
-| 建筑设计资料集（第二版）总目录.doc | `H:/建筑设计规范/6. 建筑设计资料集（第三版）/建筑设计资料集 （第二版）/建筑设计资料集（第二版）总目录.doc` |  | `LEGACY_UNPARSED` | [supplement-建筑设计资料集-第二版-总目录-d290f07fd6.md](supplement-建筑设计资料集-第二版-总目录-d290f07fd6.md) |
+| 建筑设计资料集（第二版）总目录.doc | `H:/建筑设计规范/6. 建筑设计资料集（第三版）/建筑设计资料集 （第二版）/建筑设计资料集（第二版）总目录.doc` | N/A | `TEXT_EXTRACTED` | [supplement-建筑设计资料集-第二版-总目录-481a5a157d.md](supplement-建筑设计资料集-第二版-总目录-481a5a157d.md) |
+| 山东省现行建筑标准设计图集目录.doc | `H:/建筑设计规范/4. 细部构造/山东标/山东省现行建筑标准设计图集目录.doc` | N/A | `TEXT_EXTRACTED` | [supplement-山东省现行建筑标准设计图集目录-d386b7b983.md](supplement-山东省现行建筑标准设计图集目录-d386b7b983.md) |
 
