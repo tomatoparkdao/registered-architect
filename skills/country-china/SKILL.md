@@ -18,6 +18,9 @@ agent_created: true
 
 当出现任何中国城市（北京、上海、广州、深圳、成都、重庆、杭州、南京、天津、武汉、西安、苏州等）、CNY/RMB/元货币、提及“GB 50016”/“GB 50352”/“GB 50011”/“JGJ”/“DB11”/“DGJ08”，或中文建筑术语（容积率 yongji-lv、建筑密度 jianzhu-midu、日照 rizhao、抗震 kangzhen、防火 fanghuo）时，启用此技能。
 
+新增资料集（细部构造与建筑设计资料集）已纳入参考目录：
+`references/standards/supplemental-source-inventory.md`。其中 PDF/DOCX 的可读文本已拆为 Markdown 分片；扫描型 PDF 标记为 `OCR_REQUIRED`，旧版 DOC 记录在 `supplemental-legacy-queue.md`，不得将未提取内容当作条文引用。用户明确要求跳过的 DWG 文件不纳入 Skill。
+
 ---
 
 ## 1. 法规层级
