@@ -11,8 +11,8 @@ agent_created: true
 
 # GB345-2012  屋面工程技术规范
 
-- 来源文件：`H:/建筑设计规范/4. 细部构造/GB345-2012  屋面工程技术规范.pdf`
-- 状态：`UNREADABLE`
+- 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/GB345-2012  屋面工程技术规范.pdf`
+- 状态：`TEXT_EXTRACTED`
 - 页数：object of type 'PdfReader' has no len()
-- 文本分片：无；需 OCR 或旧格式转换
+- 文本分片：[supplement-GB345-2012-屋面工程技术规范-75b6c0643c-001.md](text/supplement-GB345-2012-屋面工程技术规范-75b6c0643c-001.md)
 
