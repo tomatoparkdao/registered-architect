@@ -61,7 +61,7 @@
 | 建筑防水识图.pdf | `H:/建筑设计规范/4. 细部构造/建筑防水识图.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-建筑防水识图-ee94fd4f74.md](supplement-建筑防水识图-ee94fd4f74.md) |
 | 技术作图-电力版构造题.pdf | `H:/建筑设计规范/4. 细部构造/技术作图-电力版构造题.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-技术作图-电力版构造题-467c9ce475.md](supplement-技术作图-电力版构造题-467c9ce475.md) |
 | 构造基础一眼望穿抄绘图集.pdf | `H:/建筑设计规范/4. 细部构造/构造基础一眼望穿抄绘图集.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-构造基础一眼望穿抄绘图集-4ade768a5b.md](supplement-构造基础一眼望穿抄绘图集-4ade768a5b.md) |
-| 清式营造则例.pdf | `H:/建筑设计规范/4. 细部构造/清式营造则例.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-清式营造则例-d2dbe20479.md](supplement-清式营造则例-d2dbe20479.md) |
+| 清式营造则例.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/清式营造则例.pdf` | 222 pages, 147106 chars | `TEXT_EXTRACTED` | [supplement-清式营造则例-d2dbe20479.md](supplement-清式营造则例-d2dbe20479.md) |
 | 电梯.docx | `H:/建筑设计规范/4. 细部构造/电梯.docx` |  | `LEGACY_UNPARSED` | [supplement-电梯-901c7b17e0.md](supplement-电梯-901c7b17e0.md) |
 | 补充资料-《建筑材料》大学课本.pdf | `H:/建筑设计规范/4. 细部构造/补充资料-《建筑材料》大学课本.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-补充资料-建筑材料-大学课本-e847264a22.md](supplement-补充资料-建筑材料-大学课本-e847264a22.md) |
 | 轻钢住宅节点大样.pdf | `H:/建筑设计规范/4. 细部构造/轻钢住宅节点大样.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-轻钢住宅节点大样-4a74220107.md](supplement-轻钢住宅节点大样-4a74220107.md) |
