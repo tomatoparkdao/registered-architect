@@ -1,0 +1,13 @@
+# 新增资料蒸馏状态摘要
+
+| 项目 | 数量 |
+|---|---:|
+| 新增 PDF 源文件 | 151 |
+| 新增 DOC 源文件 | 2 |
+| 新增 DOCX 源文件 | 1 |
+| 跳过 DWG 源文件 | 4351 |
+| 已建立索引文件 | 156 |
+| 已生成文本分片 | 3 |
+| OCR 待处理索引条目 | 0 |
+
+处理规则：PDF/DOC/DOCX 纳入资料清单；可提取文本拆为 Markdown；扫描型 PDF 标记为 OCR_REQUIRED；旧版 DOC 保留在 supplemental-legacy-queue.md；DWG 按用户要求跳过。
