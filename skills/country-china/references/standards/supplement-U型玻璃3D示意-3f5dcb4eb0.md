@@ -11,7 +11,7 @@ agent_created: true
 
 # U型玻璃3D示意
 
-- 来源文件：`H:/建筑设计规范/4. 细部构造/CAD、SU构造大样/U型玻璃3D示意.pdf`
-- 状态：`UNREADABLE`
-- 页数：object of type 'PdfReader' has no len()
-- 文本分片：无；需 OCR 或旧格式转换
+- 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/CAD构造大样/U型玻璃3D示意.pdf`
+- 状态：`TEXT_EXTRACTED`
+- 页数：9
+- 文本分片：[supplement-U型玻璃3D示意-3f5dcb4eb0-001.md](text/supplement-U型玻璃3D示意-3f5dcb4eb0-001.md)
