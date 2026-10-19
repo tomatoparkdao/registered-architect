@@ -13,7 +13,7 @@
 | 10J301地下建筑防水构造.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/10J301地下建筑防水构造.pdf` | 84 pages, 59135 chars | `TEXT_EXTRACTED` | [supplement-10J301地下建筑防水构造-9dccb97897.md](supplement-10J301地下建筑防水构造-9dccb97897.md) |
 | 10S605游泳池设计及附件安装图集.pdf | `H:/建筑设计规范/4. 细部构造/10S605游泳池设计及附件安装图集.pdf` | Cannot read an empty file | `UNREADABLE` | [supplement-10S605游泳池设计及附件安装图集-1815fe851e.md](supplement-10S605游泳池设计及附件安装图集-1815fe851e.md) |
 | 11J122 外墙内保温建筑构造.pdf | `H:/建筑设计规范/4. 细部构造/11J122 外墙内保温建筑构造.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-11J122-外墙内保温建筑构造-2faaac166e.md](supplement-11J122-外墙内保温建筑构造-2faaac166e.md) |
-| 12J201平屋面建筑构造.pdf | `H:/建筑设计规范/4. 细部构造/12J201平屋面建筑构造.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-12J201平屋面建筑构造-413374a74c.md](supplement-12J201平屋面建筑构造-413374a74c.md) |
+| 12J201平屋面建筑构造.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/12J201平屋面建筑构造.pdf` | 154 pages, 77941 chars | `TEXT_EXTRACTED` | [supplement-12J201平屋面建筑构造-413374a74c.md](supplement-12J201平屋面建筑构造-413374a74c.md) |
 | 12J304楼地面建筑构造.pdf | `H:/建筑设计规范/4. 细部构造/12J304楼地面建筑构造.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-12J304楼地面建筑构造-0f7dbc7957.md](supplement-12J304楼地面建筑构造-0f7dbc7957.md) |
 | 12J5-1 平屋面.pdf | `H:/建筑设计规范/4. 细部构造/12J5-1 平屋面.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-12J5-1-平屋面-e25e4bef44.md](supplement-12J5-1-平屋面-e25e4bef44.md) |
 | 13J404 电梯 自动扶梯 自动人行道.pdf | `H:/建筑设计规范/4. 细部构造/13J404 电梯 自动扶梯 自动人行道.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13J404-电梯-自动扶梯-自动人行道-fa645d0bd3.md](supplement-13J404-电梯-自动扶梯-自动人行道-fa645d0bd3.md) |
