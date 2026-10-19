@@ -56,7 +56,7 @@
 | L12J142 岩棉墙板外墙外保温系统构造详图.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/L12J142 岩棉墙板外墙外保温系统构造详图.pdf` | 43 pages, 21300 chars | `TEXT_EXTRACTED` | [supplement-L12J142-岩棉墙板外墙外保温系统构造详图-38b93203dd.md](supplement-L12J142-岩棉墙板外墙外保温系统构造详图-38b93203dd.md) |
 | TGJT316-2013  单层防水卷材屋面工程技术规程.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/TGJT316-2013  单层防水卷材屋面工程技术规程.pdf` | 13 pages, 10492 chars | `TEXT_EXTRACTED` | [supplement-TGJT316-2013-单层防水卷材屋面工程技术规程-6c47bb54a3.md](supplement-TGJT316-2013-单层防水卷材屋面工程技术规程-6c47bb54a3.md) |
 | 地下工程防水技术规范.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/地下工程防水技术规范.pdf` | 30 pages, 28266 chars | `TEXT_EXTRACTED` | [supplement-地下工程防水技术规范-35a3adb7ae.md](supplement-地下工程防水技术规范-35a3adb7ae.md) |
-| 外墙饰面砖工程施工及验收规程.pdf | `H:/建筑设计规范/4. 细部构造/外墙饰面砖工程施工及验收规程.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-外墙饰面砖工程施工及验收规程-5c2c5c8a4c.md](supplement-外墙饰面砖工程施工及验收规程-5c2c5c8a4c.md) |
+| 外墙饰面砖工程施工及验收规程.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/外墙饰面砖工程施工及验收规程.pdf` | 37 pages, 11944 chars | `TEXT_EXTRACTED` | [supplement-外墙饰面砖工程施工及验收规程-5c2c5c8a4c.md](supplement-外墙饰面砖工程施工及验收规程-5c2c5c8a4c.md) |
 | 建筑构造构成原理-扩展资料.pdf | `H:/建筑设计规范/4. 细部构造/建筑构造构成原理-扩展资料.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-建筑构造构成原理-扩展资料-68902bb92d.md](supplement-建筑构造构成原理-扩展资料-68902bb92d.md) |
 | 建筑防水识图.pdf | `H:/建筑设计规范/4. 细部构造/建筑防水识图.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-建筑防水识图-ee94fd4f74.md](supplement-建筑防水识图-ee94fd4f74.md) |
 | 技术作图-电力版构造题.pdf | `H:/建筑设计规范/4. 细部构造/技术作图-电力版构造题.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-技术作图-电力版构造题-467c9ce475.md](supplement-技术作图-电力版构造题-467c9ce475.md) |
