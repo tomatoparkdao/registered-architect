@@ -9,6 +9,6 @@
 | 已建立索引文件 | 156 |
 | 已生成文本分片 | 5 |
 | OCR 待处理索引条目 | 149 |
-| 统一 OCR 队列（含主规范队列） | 186 |
+| 统一 OCR 队列（含主规范队列） | 185 |
 
-处理规则：PDF/DOC/DOCX 纳入资料清单；可提取文本拆为 Markdown；扫描型 PDF 标记为 OCR_REQUIRED，并与主规范 `ocr-queue.md` 统一统计；旧版 DOC 已全部转换；DWG 按用户要求跳过。当前主规范队列 37 项，新增资料 OCR_REQUIRED 队列 149 项，总计 186 项。新增资料的逐项路径、索引和状态见 `supplemental-source-inventory.md`。
+处理规则：PDF/DOC/DOCX 纳入资料清单；可提取文本拆为 Markdown；扫描型 PDF 标记为 OCR_REQUIRED，并与主规范 `ocr-queue.md` 统一统计；旧版 DOC 已全部转换；DWG 按用户要求跳过。当前主规范队列 36 项，新增资料 OCR_REQUIRED 队列 149 项，总计 185 项。新增资料的逐项路径、索引和状态见 `supplemental-source-inventory.md`。
