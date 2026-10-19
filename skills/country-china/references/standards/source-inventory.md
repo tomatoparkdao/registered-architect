@@ -11,7 +11,20 @@ agent_created: true
 
 # 中国建筑规范源文件清单
 
-覆盖源目录全部 264 个文件；原始 PDF、图片和压缩包不复制进 Skill。
+覆盖源目录当前全部 269 个文件；原始 PDF、图片和压缩包不复制进 Skill。
+
+## 最近同步：建筑面积计算子目录
+
+以下资料来自源目录新增/补充的“建筑面积计算”子文件夹，已按文件类型分别建立索引、文本分片或待处理队列：
+
+| 原文件 | 处理记录 |
+|---|---|
+| 《关于建筑基底_绿地面积测量计算方法的探讨》.pdf | [area-4a5dd989bb.md](area-4a5dd989bb.md)；文本分片：`text/area-4a5dd989bb-001.md` |
+| 《建筑面积计算规范图解》.pdf | [area-5c5126ca6d.md](area-5c5126ca6d.md)；状态：`OCR_REQUIRED` |
+| GBT50353-2013 建筑工程建筑面积计算规范.pdf | [area-9c874b4769.md](area-9c874b4769.md) |
+| 2014年最新建筑面积计算规则 .doc | [area-9ecf3da4e0.md](area-9ecf3da4e0.md)；状态：`LEGACY_UNPARSED` |
+| 2014年最新建筑面积计算规则_.doc | [area-c8d19d901f.md](area-c8d19d901f.md)；状态：`LEGACY_UNPARSED` |
+| 建筑面积计算规范2014.docx | [area-faff2ee17b.md](area-faff2ee17b.md)；文本分片：`text/area-c8d19d901f-001.md` |
 
 | 文件 | 类型 | 大小（字节） | 处理状态 |
 |---|---|---:|---|
