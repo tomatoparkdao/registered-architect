@@ -74,7 +74,7 @@
 | 13ZJ301. 建筑无障碍设施.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/13ZJ301. 建筑无障碍设施.pdf` | 94 pages, 27034 chars | `TEXT_EXTRACTED` | [supplement-13ZJ301-建筑无障碍设施-e974c842f0.md](supplement-13ZJ301-建筑无障碍设施-e974c842f0.md) |
 | 13ZJ302. 地沟和盖板.pdf | `H:/建筑设计规范/4. 细部构造/中南标/13ZJ302. 地沟和盖板.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13ZJ302-地沟和盖板-88d2a6f860.md](supplement-13ZJ302-地沟和盖板-88d2a6f860.md) |
 | 15ZJ001 建筑构造用料做法.pdf | `H:/建筑设计规范/4. 细部构造/中南标/15ZJ001 建筑构造用料做法.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15ZJ001-建筑构造用料做法-82f59bc88e.md](supplement-15ZJ001-建筑构造用料做法-82f59bc88e.md) |
-| 15ZJ201. 平屋面.pdf | `H:/建筑设计规范/4. 细部构造/中南标/15ZJ201. 平屋面.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15ZJ201-平屋面-884a45607c.md](supplement-15ZJ201-平屋面-884a45607c.md) |
+| 15ZJ201. 平屋面.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/15ZJ201. 平屋面.pdf` | 47 pages, 17944 chars | `TEXT_EXTRACTED` | [supplement-15ZJ201-平屋面-884a45607c.md](supplement-15ZJ201-平屋面-884a45607c.md) |
 | 15ZJ203. 种植屋面.pdf | `H:/建筑设计规范/4. 细部构造/中南标/15ZJ203. 种植屋面.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15ZJ203-种植屋面-f07ee52d29.md](supplement-15ZJ203-种植屋面-f07ee52d29.md) |
 | 15ZJ211. 坡屋面.pdf | `H:/建筑设计规范/4. 细部构造/中南标/15ZJ211. 坡屋面.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15ZJ211-坡屋面-9479dd8f63.md](supplement-15ZJ211-坡屋面-9479dd8f63.md) |
 | 15ZJ502. 民用建筑隔声与吸声构造.pdf | `H:/建筑设计规范/4. 细部构造/中南标/15ZJ502. 民用建筑隔声与吸声构造.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15ZJ502-民用建筑隔声与吸声构造-534a018df7.md](supplement-15ZJ502-民用建筑隔声与吸声构造-534a018df7.md) |
