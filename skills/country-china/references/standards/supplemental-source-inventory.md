@@ -27,7 +27,7 @@
 | 15J403-1楼梯 栏杆 栏板（一）.pdf | `H:/建筑设计规范/4. 细部构造/15J403-1楼梯 栏杆 栏板（一）.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15J403-1楼梯-栏杆-栏板-一-1bfff4766c.md](supplement-15J403-1楼梯-栏杆-栏板-一-1bfff4766c.md) |
 | 15K606防排烟图集节选.pdf | `H:/建筑设计规范/4. 细部构造/15K606防排烟图集节选.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15K606防排烟图集节选-9e6a377ae8.md](supplement-15K606防排烟图集节选-9e6a377ae8.md) |
 | 15ZJ001 建筑构造用料做法.pdf | `H:/建筑设计规范/4. 细部构造/15ZJ001 建筑构造用料做法.pdf` | Cannot read an empty file | `UNREADABLE` | [supplement-15ZJ001-建筑构造用料做法-adf1c13304.md](supplement-15ZJ001-建筑构造用料做法-adf1c13304.md) |
-| 16J509铝合金护栏.pdf | `H:/建筑设计规范/4. 细部构造/16J509铝合金护栏.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-16J509铝合金护栏-19a5ee1317.md](supplement-16J509铝合金护栏-19a5ee1317.md) |
+| 16J509铝合金护栏.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/16J509铝合金护栏.pdf` | 158 pages, 60638 chars | `TEXT_EXTRACTED` | [supplement-16J509铝合金护栏-19a5ee1317.md](supplement-16J509铝合金护栏-19a5ee1317.md) |
 | 16J908-7既有建筑节能改造.pdf | `H:/建筑设计规范/4. 细部构造/16J908-7既有建筑节能改造.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-16J908-7既有建筑节能改造-a73990309e.md](supplement-16J908-7既有建筑节能改造-a73990309e.md) |
 | 19J823_幼儿园_标准设计样图.pdf | `H:/建筑设计规范/4. 细部构造/19J823_幼儿园_标准设计样图.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-19J823-幼儿园-标准设计样图-50decc380a.md](supplement-19J823-幼儿园-标准设计样图-50decc380a.md) |
 | 20版-第三节-墙体.pdf | `H:/建筑设计规范/4. 细部构造/20版-第三节-墙体.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-20版-第三节-墙体-077b1db108.md](supplement-20版-第三节-墙体-077b1db108.md) |
