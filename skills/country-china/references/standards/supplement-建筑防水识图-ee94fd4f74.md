@@ -12,6 +12,6 @@ agent_created: true
 # 建筑防水识图
 
 - 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/建筑防水识图.pdf`
-- 状态：`OCR_PENDING`
+- 状态：`TEXT_EXTRACTED`
 - 页数：待 GPU OCR
-- 文本分片：待生成
+- 文本分片：[supplement-建筑防水识图-ee94fd4f74-001.md](text/supplement-建筑防水识图-ee94fd4f74-001.md)
