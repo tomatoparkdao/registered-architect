@@ -1,6 +1,6 @@
 ---
-name: README
-description: 注册建筑师专业参考：README。
+name: README.zh-CN
+description: 注册建筑师专业参考：README.zh-CN。
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
 version: 1.0.0
@@ -9,555 +9,569 @@ developer: Mochiball
 agent_created: true
 ---
 
-# Registered Architect
+# OmniAiLab 全球注册建筑师
 
-### A global registered-architect skill framework by OmniAiLab
+面向全球注册建筑师与建筑设计专业人员的规范驱动型 Skill，也是一个会引导你做判断的建筑设计决策系统。
+从项目所在地与适用法规判定开始，经过方案、技术设计、消防、无障碍、节能、施工图和规范核验，输出可追溯的设计判断与资料路由。
 
-29 interconnected skills covering building architecture from design theory through construction documentation, **plus 10 country-specific regulatory dossiers** providing clause-level precision for India, UAE, Saudi Arabia, USA, UK, Germany, Singapore, Japan, China, and Australia (v1.1.0). Draws from 50+ architects and theorists, 20+ architectural movements, **10+ country code systems with state/emirate/Land/prefecture-level granularity**, 8+ sustainability certifications, and hundreds of numeric benchmarks across structural, environmental, acoustic, fire, accessibility, and jurisdictional-regulatory domains. Includes 7 Python calculators for area scheduling, U-value computation, daylight estimation, egress compliance, structural loading, energy demand, and cost estimation.
+简体中文（默认）｜[English README](README_EN.md)
 
-**v1.1.0** | **18 core skills + 1 geographic router + 10 country dossiers = 29 skills** | **7 Python calculators**
+> © OmniAiLab ｜ 开发者：Mochiball ｜ 平台：omniailabx.com
 
-## What's New in v1.1.0 -- Country-Specific Precision
+本技能包以 `registered-architect` 为总入口，面向全球注册建筑师与建筑设计专业人员，覆盖从设计理论到施工图文件的建筑全流程，并提供印度、阿联酋、沙特、美国、英国、德国、新加坡、日本、中国和澳大利亚十个国家/地区的法规专题。各国资料用于路由和核验，不替代当地注册专业人员或主管部门。
 
-- **`geographic-foundations`** -- auto-activated router that detects geographic context (country, city, code reference, currency cue) and routes to the correct country dossier. Routes IBC/Eurocodes/ASCE/ISO as international fallback.
-- **`country-india`** -- NBC 2016, ECBC 2017, IS codes (456, 800, 875, 1893, 13920), MoHUA Harmonised Guidelines 2021, state DCRs (Mumbai DCPR 2034, Delhi MPD 2041, Bangalore BBMP, Chennai TNCDBR 2019, Hyderabad GHMC, Kolkata KMC, Pune UDCPR 2020, Ahmedabad GDCR 2017), GRIHA, IGBC, RERA, EIA, CRZ, DGCA NOCAS
-- **`country-uae`** -- Dubai Building Code 2021, ADIBC 2013, UAE Fire & Life Safety Code 2018, Estidama Pearl Rating, Al Sa'fat 2016, Dubai Universal Design Code 2017, Federal Law 29/2006 People of Determination
-- **`country-saudi-arabia`** -- SBC 201-1001 nine-part series 2018, Mostadamah Green Building, Saudi Universal Accessibility Code, NEOM + Qiddiya + Red Sea + Diriyah + AlUla + RCRC special jurisdictions, Mecca/Medina Hajj building rules
-- **`country-usa`** -- IBC/IRC/IECC/IFC 2024, NFPA 101 2024, NFPA 70 NEC 2023, ADA 2010 + ANSI A117.1-2017, Fair Housing Act + HUD, ASCE 7-22, ACI 318-19, AISC 360-22, AWC NDS 2024, California Title 24 Parts 1-12, NYC BC 2022 + LL97 + LL11/98, Florida HVHZ, Chicago Construction Codes 2019, Massachusetts 9th Edition, Washington Energy Code
-- **`country-uk`** -- Building Regulations 2010 + Approved Documents A-S, Building Safety Act 2022 + BSR + Higher-Risk Building regime, post-Grenfell AD-B amendments, BS 9991:2024 + BS 9999:2017, BS 8300-1/-2:2018, Future Homes/Buildings Standard 2025, MEES + EPC + SAP 10.2 + SBEM, BREEAM, London Plan 2021, NPPF 2024, Scotland/Wales/NI parallel regimes
-- **`country-germany`** -- MBO 2002/2019 + 16 Landesbauordnungen (BayBO, BauO NRW, BauO Bln, HBauO, etc.), GEG 2023 + 2024 Heizungsgesetz amendments, DIN 18040-1/-2/-3 accessibility, DIN 4109 acoustics, DIN 4108 thermal, DIN 4102/EN 13501 fire, Eurocodes with German National Annexes, Sonderbau ordinances, DGNB, Effizienzhaus 40/55, BAFA/KfW, Passivhaus
-- **`country-singapore`** -- BCA Building Control Act 1989 + Regulations 2003, SCDF Fire Code 2018, BCA Green Mark 2021 (mandatory minimum since 2008), BCA Code on Accessibility 2019, Code on Environmental Sustainability of Buildings 2018, URA Master Plan 2019, SS EN Eurocodes with Singapore NAs, ETTV/RTTV envelope metrics, Universal Design Mark
-- **`country-japan`** -- Building Standards Act 1950 (revised 1998 performance-based, 2007 structural review reform), two-level seismic design (Level 1 + Level 2, Shintaishin 1981+), Fire Service Act parallel statute, Sho-Energy Ho 2015 + 2022 amendments, Heart Building Law 2006, AIJ Recommendations for Loads 2015, BCJ structural performance evaluation, CASBEE, City Planning Act 13 use districts + yoseki-ritsu/kenpei-ritsu + sun-right + sky-right setback regulations, ZEH/ZEB programs
-- **`country-china`** -- GB 50352-2019 Civil Buildings Unified Design, GB 50016-2014 (2018 ed.) Fire Protection, GB 50011-2010 Seismic, GB 50009-2012 Loads, GB 55015-2021 + GB 50189-2015 Energy, JGJ 26/75/134 residential energy by zone, GB 50763-2012 Accessibility, sunlight rights (Rizhao), 5 thermal climate zones + 8 seismic intensity zones, DB local supplements (DB11 Beijing, DGJ08 Shanghai, DBJ Guangdong), Green Building Label 3-star, NZEB. Hong Kong + Macao SARs noted as separate
-- **`country-australia`** -- NCC 2022 Vol 1 (BCA Class 2-9) + Vol 2 (Housing) + Vol 3 (PCA Plumbing), AS/NZS 1170.0-5 loads, AS 1170.4 seismic, AS 3600 concrete, AS 4100 steel, AS 1684 timber, AS 1428.1-2021 accessibility, AS 5113 cladding, Disability (Access to Premises) Standards 2010, NatHERS 7-star (mandatory 2023), BASIX NSW, Green Star + NABERS, 8 climate zones, wind regions A-D (cyclonic), state-specific overlays (NSW SEPP 65, VIC Better Apartments, QLD QDC, WA R-Codes)
+项目 | 值 | 说明
+--- | --- | ---
+Skill 调用名（唯一标识） | `registered-architect` | 支持原生 Skill 的工具优先使用此调用名；不支持时可直接描述建筑设计与规范核验任务
+显示名 | OmniAiLab 全球注册建筑师 | 仓库页面和文档中的显示名称
+版本 | v1.1.0 | 与技能元数据和发布记录保持一致
+出品 / 开发者 | OmniAiLab / Mochiball | —
+许可 | MIT（见 [LICENSE](LICENSE)） | 可自由使用、修改和再分发
+开源仓库（公开） | [github.com/tomatoparkdao/registered-architect](https://github.com/tomatoparkdao/registered-architect) | 克隆或更新完整 Skill 目录
 
----
+## 使用范围
 
-## Table of Contents
+- 方案设计、建筑策划、建筑类型与空间规划
+- 建筑防火、疏散、无障碍、声学、日照与围护设计
+- 结构体系、机电协调、材料选择、绿色建筑与施工图文件
+- 十个国家/地区的国家、州、省、城市、酋长国及特别管辖区法规资料
 
-- [Quick Start](#quick-start)
-- [How It Works](#how-it-works)
-- [Skills Reference](#skills-reference)
-  - [Foundation](#1-foundation-auto-activated)
-  - [Design & Theory](#2-design--theory)
-  - [Program & Typology](#3-program--typology)
-  - [Spatial & Envelope](#4-spatial--envelope)
-  - [Structure & Services](#5-structure--services)
-  - [Environment & Materials](#6-environment--materials)
-  - [Codes & Compliance](#7-codes--compliance)
-  - [Sustainability & Production](#8-sustainability--production)
-- [Architect Calculator](#architect-calculator)
-- [Knowledge Base](#knowledge-base)
-- [Architecture](#architecture)
-- [Example Prompts](#example-prompts)
-- [Tri-Scalar Ecosystem](#tri-scalar-ecosystem)
-- [Stats](#stats)
-- [Author & License](#author--license)
+规范资料仅用于辅助设计判断。对任何数值限值、条文引用或合规结论，均须核验项目所在地现行的国家强制性标准、地方标准和主管部门要求。
 
----
+## 快速开始
 
-## Quick Start
+本技能包的总入口为 [SKILL.md](SKILL.md)。先根据项目国家、地区和城市阅读 `geographic-foundations` 及对应国家专题，再按任务选择 `skills/` 下的专项模块。
 
-### Option 1: Use as a Plugin
+若将其作为 Claude Code 插件使用：
 
 ```bash
-claude --plugin-dir "/path/to/Architect Skills"
+claude --plugin-dir "/path/to/registered-architect"
 ```
 
-### Option 2: Copy to Your Project
+若复制到既有项目，请保留完整的 `skills/` 目录，以维持模块、参考资料、模板和计算器之间的链接关系。
 
-```bash
-cp -r skills/ your-project/.claude/skills/
+## 技能模块
+
+| 范畴 | 主要模块 |
+| --- | --- |
+| 基础与地区 | `architect-foundations`、`geographic-foundations`、十个国家/地区专题 |
+| 设计与策划 | `design-theory`、`concept-design`、`building-programming`、`building-typology`、`spatial-planning` |
+| 技术设计 | `building-envelope`、`structural-systems`、`building-services`、`daylighting-design`、`material-selection`、`acoustic-design` |
+| 规范与交付 | `building-codes`、`fire-life-safety`、`accessibility-design`、`building-sustainability`、`construction-documentation` |
+| 计算工具 | `architect-calculator`：面积、传热系数、日照、疏散、结构荷载、能耗与成本计算 |
+
+## 使用原则
+
+1. 先明确项目所在地、建筑类型、高度、面积、火灾危险类别和设计阶段。
+2. 应优先适用项目所在地现行强制性标准、地方标准和主管部门要求；不要直接套用其他国家的数值。
+3. 不同国家、地区、州、省、城市和特别管辖区可能采用不同监管体系，应分别确认。
+4. 计算器结果仅为辅助数据，必须复核输入条件、单位和对应规范。
+5. 输出审查意见时，应列出适用地区、待核验的标准版本、关键约束、设计响应和后续核验事项。
+
+## 工作机制
+
+技能采用渐进式加载：总入口先识别项目语境，再调用基础知识、专项技能、参考文件、模板和计算脚本。这样可在保持上下文精简的同时，按需加载深度资料。
+
+### 三层上下文
+
+| 层级 | 加载内容 | 加载时机 |
+| --- | --- | --- |
+| 第 0 层 | 技能名称和描述 | 始终可用 |
+| 第 1 层 | 对应 `SKILL.md` 正文 | 调用专项技能时 |
+| 第 2 层 | 参考文件、模板和脚本 | 明确需要时 |
+
+### 专项模块路由
+
+- 基础层：建筑师与理论家、定量经验规则、建筑类型分类、设计质量框架和反模式目录。
+- 设计层：设计理论、概念设计、建筑策划、建筑类型和空间规划。
+- 技术层：围护结构、结构体系、建筑服务、采光、声学和材料选择。
+- 合规层：建筑规范、消防生命安全、无障碍和可持续性。
+- 交付层：施工图文件、规范编制和计算器。
+
+## 计算器
+
+`architect-calculator` 包含七个 Python 计算器，分别用于面积策划、传热系数、日照估算、疏散合规、结构荷载、能源需求和成本估算。使用计算器前应确认单位、输入边界和适用地区；计算结果不能单独作为审批或认证结论。
+
+## 国家/地区法规专题
+
+技能包提供以下法规路由：
+
+- 印度：NBC、ECBC、IS 系列、州级 DCR、GRIHA、IGBC、RERA、EIA、CRZ 和 DGCA。
+- 阿联酋：Dubai Building Code、ADIBC、UAE Fire & Life Safety Code、Estidama、Al Sa'fat 和无障碍规范。
+- 沙特：SBC 系列、Mostadamah、Saudi Universal Accessibility Code 以及 NEOM、Qiddiya、红海、Diriyah、AlUla 等专项辖区。
+- 美国：IBC、IRC、IECC、IFC、NFPA、ADA、ASCE、ACI、AISC、AWC 以及州和城市规范。
+- 英国：Building Regulations、Approved Documents、Building Safety Act、BS 规范、BREEAM、London Plan 及苏格兰、威尔士、北爱尔兰体系。
+- 德国：MBO、各州 LBO、GEG、DIN、Eurocodes、Sonderbau、DGNB 和 Passivhaus。
+- 新加坡：BCA、SCDF Fire Code、Green Mark、Code on Accessibility、URA 和新加坡国家附录。
+- 日本：Building Standards Act、消防法、两级抗震、AIJ、BCJ、CASBEE 和城市计划法规。
+- 中国：GB、JGJ、地方 DB、绿色建筑标识、日照、气候分区和抗震烈度体系。
+- 澳大利亚：NCC、AS/NZS、州级规划、Green Star、NABERS、NatHERS 和风区体系。
+
+## 目录说明
+
+## 技能使用详解
+
+### 基础与理论
+
+`architect-foundations` 是自动加载的基础层，提供建筑师与理论家速查、定量经验规则、建筑类型分类、设计质量框架、反模式目录和技能路由。`design-theory` 用于建筑理论、设计哲学、建筑思潮、宣言、先例分析和设计批评。`concept-design` 用于概念生成、体量研究、形态策略、视线廊道、日照包络和风环境评估。
+
+### 功能策划与建筑类型
+
+`building-programming` 处理任务书、面积标准、邻接关系、人员和设备清单、功能分区及容量验证。`building-typology` 提供住宅、办公、商业、酒店、教育、医疗、文化、工业和特殊建筑的类型学比较。`spatial-planning` 处理核心筒、交通流线、净得率、服务空间、楼层组织、装卸和停车。
+
+### 技术设计
+
+`building-envelope` 涵盖墙体、屋面、玻璃、幕墙、保温、防潮、气密、水密和耐久性。`structural-systems` 比较钢筋混凝土、钢结构、木结构、砌体、预制和复合结构，并提供跨度、柱网、楼板和荷载路径参考。`building-services` 涵盖暖通空调、给排水、电气、消防机电、竖井、设备房、屋面设备和机电协调。
+
+`daylighting-design` 处理日光因子、sDA、ASE、太阳几何、遮阳、采光中庭、锯齿形屋顶和日照模拟。`acoustic-design` 处理空气声、撞击声、侧向传声、混响、清晰度、隔振和演出空间声学。`material-selection` 处理材料性能、成本、生命周期、隐含碳、耐火、声学、耐久性和规范编制。
+
+### 合规、可持续与交付
+
+`building-codes` 提供国际规范体系、使用分类、结构、防火、能耗和无障碍的交叉参考。`fire-life-safety` 处理防火分区、疏散、楼梯、消防电梯、报警、喷淋、烟控和消防车道。`accessibility-design` 处理通用设计、无障碍路径、坡道、电梯、卫生间、停车和感官无障碍。
+
+`building-sustainability` 处理能源、运营碳、隐含碳、被动式设计、绿色屋顶、雨水、再利用以及 LEED、BREEAM、WELL、Green Star、NABERS、DGNB、CASBEE、Estidama 和 Mostadamah。`construction-documentation` 处理图纸组织、图层、线宽、标注、LOD、规范、BIM、RFI、ASI、样板、现场质量和竣工资料。
+
+## 示例提示词
+
+以下提示词可作为工作入口，实际任务应补充地点、规模、用途、预算、阶段和法规版本：
+
+1. “为北纬 40° 的 12 层住宅比较三种体量方案，说明日照、风环境、结构和消防影响。”
+2. “根据新加坡 SCDF Fire Code 和 BCA Code on Accessibility，审查这个酒店的疏散与无障碍方案。”
+3. “为 5,000 m² 办公楼生成面积表、邻接矩阵、核心筒选项和初步柱网。”
+4. “比较双层玻璃、三层玻璃和动态玻璃的 U 值、SHGC、VLT、成本和生命周期影响。”
+5. “针对英国项目建立围护结构、BREEAM、声学和施工图交付检查清单。”
+6. “核验印度 NBC 使用分类、耐火分隔、停车、FAR 和无障碍要求，并列出待向主管部门确认的事项。”
+7. “使用计算器估算 2,000 m² 建筑的传热系数、疏散容量、结构荷载和初步成本。”
+8. “根据已确认平面方案生成材料策略、门窗表、房间声学目标和施工图备注。”
+
+## 结果与责任边界
+
+技能输出可以是设计判断、备选方案、表格、计算结果、检查清单、规范路由和后续行动建议。输出不得被描述为建筑许可、消防审查、结构签章、能源认证或无障碍认证。对于生命安全、结构安全、火灾、卫生、无障碍和能源等高风险事项，必须由具备当地资质的专业人员复核。
+
+如输入信息不足，应明确列出缺失项，而不是自行假定关键条件。对于法规不确定性，应同时列出采用的版本、判断依据、可能的地方差异以及需要向 AHJ、规划部门、消防部门或其他主管机构确认的问题。
+
+## 工具和兼容性
+
+技能可以在支持 Markdown 技能加载的 Agent 环境中使用。计算器使用 Python 标准库和项目内脚本；不要求注册外部平台，也不要求联网才能阅读或使用基本知识。外部 CAD、BIM、渲染、分析和协作软件仅作为可选适配对象，不能被视为本技能的必需依赖。
+
+路径、文件名、技能名、脚本名、命令、API 参数、YAML 字段、JSON Key、标准编号和专业缩写必须保持原样，以便 Agent 正确识别和调用。翻译只改变自然语言说明，不改变程序逻辑和数据结构。
+
+## 文件结构
+
+```text
+registered-architect/
+├── SKILL.md                         # 全球注册建筑师总入口
+├── README.md                        # English README
+├── README.zh-CN.md                  # 简体中文 README
+├── LICENSE                          # OmniAiLab MIT License
+├── skills/                          # 设计、技术、合规和国家专题
+│   ├── architect-foundations/
+│   ├── geographic-foundations/
+│   ├── architect-calculator/
+│   ├── country-*/
+│   └── ...
+└── .claude-plugin/                 # 插件元数据
 ```
 
-Once installed, just ask Claude anything about building architecture. The system activates automatically — no slash commands required for most tasks.
+## 质量控制
+
+- 每项规范结论都应注明地区、版本、条款或参考来源。
+- 每项定量计算都应注明单位、输入、假设和适用范围。
+- 每个方案比较都应同时说明性能、成本、施工、维护和风险。
+- 每份交付文件都应进行结构、链接、路径、代码块和表格完整性检查。
+- 所有法规、产品、价格、软件和认证信息都应在项目启动时重新核对时效性。
+
+## 技能参考：基础层
+
+### `architect-foundations`
+
+自动激活的基础技能提供以下内容：
+
+- 建筑师与理论家速查矩阵：从 Vitruvius 到 Kéré 的代表人物、贡献、设计原则、建筑案例和适用语境。
+- 定量经验规则：层高、柱网、净得率、U 值、声学等级、日光因子、走廊宽度、停车、电梯和耐火等级。
+- 建筑类型分类：住宅、商业、机构、工业和特殊建筑的 28 个子类型。
+- 设计质量框架：Firmitas、Utilitas、Venustas、语境与场所、可持续性和无障碍。
+- 反模式目录：五类常见建筑失败模式及其修正方法。
+- 技能路由：依据用户语境激活专项技能。
+
+### `geographic-foundations`
+
+根据国家、城市、法规编号、货币、气候和材料体系识别地理语境，并把任务路由到对应国家专题。若没有明确地区，则使用 IBC、Eurocodes、ASCE、ISO 等国际参考，同时要求用户确认适用辖区。
+
+## 技能参考：设计与策划层
+
+### `design-theory`
+
+处理建筑史、理论、建筑思潮、宣言、设计哲学、形式语言、批判地域主义、现代主义、后现代主义、参数主义、现象学和设计批评。输出应区分历史事实、理论解释、案例观察和当前项目建议。
+
+### `concept-design`
+
+处理设计概念、体量研究、太阳包络、风舒适度、视线廊道、阴影影响、语境化高度、FAR/GFA 优化、自然通风体量和概念评估。每个体量方案都应说明场地响应、功能组织、结构逻辑、环境性能、成本和实施风险。
+
+### `building-programming`
+
+提供面积标准、功能清单、邻接矩阵、流程图、人员容量、设备清单、功能分区和设计任务书模板。面积数字是初步策划依据，必须根据项目业主、运营模式和当地规范复核。
+
+### `building-typology`
+
+比较不同住宅、办公、酒店、零售、学校、医院、图书馆、剧院、体育、工业和混合使用建筑的空间组织、标准层、流线、采光、通风、结构和运营特点。
+
+### `spatial-planning`
+
+处理核心筒、竖向交通、公共与后勤流线、楼层效率、服务空间、装卸、停车、卫生间、机房、管井和消防疏散。平面建议必须同时检查可达性、消防、结构网格、机电空间和维护路径。
+
+## 技能参考：技术层
+
+### `building-envelope`
+
+比较砖墙、混凝土墙、幕墙、双层表皮、木结构墙、金属板、保温、气密、水密、玻璃、间隔条、镀膜和动态玻璃。围护结构判断应结合气候、朝向、内部湿度、火灾、声学、维护、施工和全生命周期碳。
+
+### `structural-systems`
+
+提供混凝土、钢、木、砌体、预制、张弦、空间网架、壳体和复合体系的跨度及构造参考。不得仅凭经验表确定结构尺寸；实际设计须由结构工程师按现行标准和地震、风、雪、火灾等荷载复核。
+
+### `building-services`
+
+覆盖自然通风、混合模式、VAV、VRF、冷梁、地源热泵、热回收、给排水、雨水、消防水、电气、照明、弱电、BMS、设备房、屋面设备和机电协调。所有系统应考虑检修、替换、噪声、振动和运行能耗。
+
+### `daylighting-design`
+
+使用 DF、sDA、ASE、UDI、VLT、SHGC、太阳高度角、方位角、遮阳几何和气候数据进行日光设计。模拟结果必须注明天气文件、时间步长、反射率、玻璃参数、遮阳状态和占用假设。
+
+### `acoustic-design`
+
+覆盖墙体和楼板隔声、窗户声学、撞击声、侧向传声、设备噪声、混响时间、清晰度、空间感、隔振和可变声学系统。声学性能必须同时考虑构造节点、穿孔、门、窗、机电设备和施工质量。
+
+### `material-selection`
+
+按性能、法规、耐久、维护、成本、碳、可回收性、供应链、施工和美学比较材料。材料表中的产品名称、标准编号和性能数据不能替代项目级样品、测试、供应商确认和规范编制。
+
+## 技能参考：合规与交付层
+
+### `building-codes`
+
+用于识别建筑法规体系、使用分类、面积和高度限制、结构、防火、无障碍、能源和材料要求。该技能只提供规范路由和设计参考，不能替代 AHJ 的正式解释。
+
+### `fire-life-safety`
+
+处理占用人数、出口数量、疏散距离、楼梯、走道、门、消防电梯、防火分区、烟控、报警、喷淋、消防车道和避难空间。应明确采用的法规版本及其地方修订。
+
+### `accessibility-design`
+
+比较 ADA、ISO、EN、BS、DIN、AS、GB、BCA 和其他无障碍体系，覆盖连续无障碍路径、门、坡道、电梯、卫生间、停车、触觉、听觉和认知支持。
+
+### `building-sustainability`
+
+涵盖被动式设计、能源模型、碳排放、水、材料、健康、生态、运营和认证。认证条款、评分和最低门槛会更新，项目启动前必须确认当前版本。
+
+### `construction-documentation`
+
+处理图纸目录、图层、线宽、标注、符号、材料填充、修订云线、RFI、ASI、LOD、BIM 协调、规范、样板、现场测试、收尾、保修和运行维护资料。
+
+## 国家专题使用顺序
+
+| 顺序 | 操作 |
+| --- | --- |
+| 1 | 确认国家、地区、城市、州/省、特别辖区和主管部门。 |
+| 2 | 读取 `geographic-foundations`，确认法规路由和国际参考。 |
+| 3 | 读取对应 `country-*` 文件，确认规划、建筑、防火、无障碍、能源和结构体系。 |
+| 4 | 调用设计、技术和交付专项技能，保持国家专题的优先级。 |
+| 5 | 列出已确认、待确认和不能仅凭资料判断的事项。 |
+
+## 典型交付物
+
+- 设计任务书与面积表。
+- 功能邻接矩阵和流线图。
+- 体量比较与环境性能说明。
+- 核心筒、柱网、楼板和结构体系备选。
+- 围护结构、玻璃、遮阳和材料策略。
+- 疏散、消防、无障碍和规范核验清单。
+- HVAC、给排水、电气和机电协调策略。
+- 日照、能源、声学和碳排放初步分析。
+- 材料表、门窗表、房间数据表和规范章节草案。
+- 施工图、BIM 协调、RFI/ASI 和竣工资料检查表。
+
+## 国家专题速查
+
+### 印度
+
+重点核对 NBC 2016、ECBC 2017、IS 456、IS 800、IS 875、IS 1893、IS 13920、州级 DCR、RERA、EIA、CRZ、GRIHA 和 IGBC。印度的开发控制、消防、停车、无障碍和环境审批通常由国家规范与州、市政规则共同决定。
+
+### 阿联酋
+
+迪拜项目重点核对 Dubai Building Code、UAE Fire & Life Safety Code、Dubai Universal Design Code、Estidama 和 Al Sa'fat；阿布扎比项目还需核对 ADIBC、DMT/DMA 要求及项目主开发商指南。高层、外墙覆层、避难层和消防部门预审是重点风险。
+
+### 沙特阿拉伯
+
+重点核对 SBC 201 系列、SBC 801、Saudi Universal Accessibility Code、Mostadamah、Amana 审批和项目专项开发机构要求。NEOM、Qiddiya、红海、Diriyah、AlUla、RCRC、麦加和麦地那等辖区可能拥有独立设计审查流程。
+
+### 美国
+
+重点核对 IBC、IRC、IECC、IFC、NFPA 101、NFPA 70、ADA、ANSI A117.1、Fair Housing Act、ASCE 7、ACI 318、AISC 360、AWC NDS 以及州和城市修订。纽约、加利福尼亚、佛罗里达、芝加哥、马萨诸塞和华盛顿等辖区具有显著地方差异。
+
+### 英国
+
+重点核对 Building Regulations、Approved Documents A–S、Building Safety Act、BSR、高风险建筑制度、BS 9991、BS 9999、BS 8300、BREEAM、NPPF 和 London Plan。苏格兰、威尔士和北爱尔兰并非英格兰规则的简单复制。
+
+### 德国
+
+重点核对 MBO、州级 LBO、BauGB、BauNVO、GEG、DIN 18040、DIN 4109、DIN 4108、DIN 4102/EN 13501、Eurocodes 及德国国家附录。Sonderbau、Brandschutznachweis、DGNB、BAFA/KfW 和 Passivhaus 可能构成额外要求。
+
+### 新加坡
+
+重点核对 Building Control Act、BCA Regulations、SCDF Fire Code、BCA Code on Accessibility、Green Mark、Code on Environmental Sustainability、URA Master Plan、SS EN Eurocodes 和新加坡国家附录。ETTV、RTTV、遮阳、消防疏散和维护安全是常见审查重点。
+
+### 日本
+
+重点核对 Building Standards Act、消防法、两级抗震、AIJ Recommendations、BCJ 结构性能评价、Heart Building Law、CASBEE 和 City Planning Act。用途地域、容积率、建蔽率、日影、斜线限制和防火地域会影响体量方案。
+
+### 中国
+
+重点核对 GB 50352、GB 50016、GB 50011、GB 50009、GB 55015、GB 50189、GB 50763、JGJ 系列和地方 DB。应区分强制性工程建设规范、国家标准、行业标准、地方标准和主管部门审查口径；香港、澳门应单独处理。
+
+### 澳大利亚
+
+重点核对 NCC 2022、AS/NZS 1170、AS 3600、AS 4100、AS 1684、AS 1428.1、AS 5113、州级规划规则、NatHERS、BASIX、Green Star、NABERS 和风区 A–D。NCC 性能条款、州级审批和丛林火灾、气旋、洪水风险需要联合判断。
+
+## 从概念到施工图的工作流
+
+### 阶段 1：项目理解
+
+收集项目地址、用地边界、现状测绘、功能、面积、层数、预算、进度、业主目标、运营模式、气候和法规版本。将未知信息列入假设清单。
+
+### 阶段 2：法规路由
+
+识别主管部门和法规层级，区分强制性要求、推荐性指南、项目主开发商要求、认证条款和业主偏好。对冲突要求记录优先级和待确认事项。
+
+### 阶段 3：功能与体量
+
+建立面积表、邻接矩阵、流线和体量选项。同步检查日照、视线、风环境、消防、无障碍、结构、机电和施工可行性，避免只优化单一指标。
+
+### 阶段 4：技术协调
+
+确定结构网格、楼板厚度、核心筒、管井、设备房、围护系统、竖向交通、消防系统、遮阳和维护路径。将关键接口列入协调清单。
+
+### 阶段 5：性能验证
+
+根据项目阶段进行面积、U 值、日光、疏散、结构荷载、能源、声学、碳和成本的初步计算。清楚标示计算器结果、模型结果和专业工程师复核结果。
+
+### 阶段 6：设计交付
+
+输出图纸、模型、表格、规范、材料表、性能说明、审批文件和风险登记。每次修订都应保留版本、日期、修改原因和责任人。
+
+## 常见错误
+
+- 把一个国家的法规数值直接用于另一个国家。
+- 使用过时版本而未注明核验日期。
+- 将经验规则误写成强制性条文。
+- 只看平面面积而忽略消防、结构、机电、维护和施工空间。
+- 只比较初始成本而忽略运行、替换和寿命结束成本。
+- 只给出方案结论而不列出假设和待确认事项。
+- 将 AI 生成的建议描述为签章、审批或认证结论。
+
+## 常见问题
+
+**问：这个技能是否只适用于中国项目？**
+
+答：不是。它包含十个国家/地区法规专题，并通过地理路由识别项目语境；中国资料只是其中一个专题。
+
+**问：是否可以直接把计算器结果用于报审？**
+
+答：不可以。计算器用于早期设计和交叉检查，报审结果必须由具备当地资质的专业人员按现行规范确认。
+
+**问：缺少具体城市规范时怎么办？**
+
+答：明确说明缺失信息，采用上一级规范作为暂定参考，并列出需要向 AHJ 或地方规划部门确认的问题。
+
+**问：可以比较不同国家的法规吗？**
+
+答：可以，但必须明确比较的指标、版本、适用范围和不可直接等效的部分。
+
+**问：技能是否依赖外部平台？**
+
+答：基本知识、Markdown 文件和项目内计算器可独立使用；外部 CAD、BIM、渲染或分析软件只作为可选工具。
+
+## 设计审查输出模板
+
+### 项目摘要
+
+- 项目名称：
+- 项目地点：
+- 主管部门：
+- 建筑用途：
+- 用地面积与建筑面积：
+- 建筑高度与层数：
+- 设计阶段：
+- 适用法规版本：
+
+### 关键假设
+
+| 编号 | 假设 | 影响 | 确认人 | 状态 |
+| --- | --- | --- | --- | --- |
+| A-01 | 项目边界和测绘资料准确 | 体量、面积和退界 | 业主/测绘 | 待确认 |
+| A-02 | 用途分类与运营模式已确认 | 消防、面积和设备 | 业主/建筑师 | 待确认 |
+| A-03 | 采用当前法规版本 | 合规结论 | 建筑师/AHJ | 待确认 |
+| A-04 | 结构和机电顾问参与 | 技术协调 | 项目经理 | 待确认 |
+
+### 约束与响应
+
+| 约束类别 | 约束内容 | 设计响应 | 证据或待核验事项 |
+| --- | --- | --- | --- |
+| 规划 | 高度、退界、FAR、建蔽率 | 体量和楼层控制 | 规划批文、分区条款 |
+| 消防 | 占用人数、出口、耐火、喷淋 | 防火分区和疏散方案 | 消防规范及 AHJ |
+| 无障碍 | 连续路径、坡道、电梯、卫生间 | 通用设计路径 | 无障碍法规和现场条件 |
+| 环境 | 日照、能耗、热工、碳 | 围护和系统策略 | 模拟、能源规范、认证 |
+| 结构 | 风、地震、雪、荷载 | 结构体系和柱网 | 结构顾问复核 |
+| 施工 | 场地、吊装、材料、工期 | 分期和节点设计 | 承包商与施工方法 |
+
+### 风险登记
+
+| 风险 | 概率 | 影响 | 缓解措施 | 责任方 |
+| --- | --- | --- | --- | --- |
+| 法规版本变化 | 中 | 高 | 记录核验日期并持续监测 | 建筑师 |
+| 地方审批口径不明确 | 中 | 高 | 尽早咨询 AHJ | 项目经理 |
+| 关键尺寸未协调 | 中 | 中 | 进行跨专业模型审查 | BIM 负责人 |
+| 材料供应不稳定 | 中 | 中 | 预审替代材料和供应商 | 材料顾问 |
+| 维护空间不足 | 低 | 高 | 运行维护审查和可达性检查 | 机电顾问 |
+
+## 版本记录
+
+| 版本 | 说明 |
+| --- | --- |
+| 1.0.0 | 全球注册建筑师技能框架，含十个国家/地区法规专题和七个计算器。 |
+| 翻译版 | 英文自然语言转为简体中文，保留文件名、代码、标准编号和程序标识。 |
+| OmniAiLab 版 | 统一 OmniAiLab 元数据、MIT License、署名和交付边界。 |
+
+本文件与 `SKILL.md`、`skills/`、`LICENSE` 和计算脚本共同构成当前技能包。任何后续改造都应保留目录结构、调用路径和程序标识，除非改造任务明确要求变更。
 
 ---
 
-## How It Works
-
-Architect Skills uses a **progressive disclosure architecture** to stay lean while encoding deep knowledge:
-
-```
-User asks anything about building architecture
-        |
-        v
-architect-foundations (auto-fires, invisible to user)
-  - Applies baseline knowledge from 50+ theorists and frameworks
-  - Routes to specialized skills as needed
-        |
-        v
-Specialized skill loads (e.g., building-envelope, spatial-planning)
-  - Follows structured workflow
-  - Loads deep reference files on demand
-        |
-        v
-architect-calculator provides precise computations when needed
-  - 7 Python scripts for area, U-value, daylight, egress,
-    structural loads, energy demand, and cost estimation
-```
-
-### Three-Layer Context Management
-
-| Layer | What Loads | When | Size |
-|---|---|---|---|
-| **Layer 0** | Skill names + descriptions only | Always in context | ~18KB |
-| **Layer 1** | Full SKILL.md body | On skill invocation | ~450-815 lines each |
-| **Layer 2** | Reference files, templates, scripts | Only when explicitly needed | Varies |
-
-This keeps the context window efficient. Claude never loads knowledge it doesn't need for the current task.
-
----
-
-## Skills Reference
-
-### 1. Foundation (Auto-Activated)
-
-#### `architect-foundations`
-
-**Invocation:** Automatic (invisible to user) — Claude-only, not user-invocable
-
-The foundation layer. Auto-fires on any building architecture context and provides:
-
-- **Architect & Theorist Quick-Reference Matrix** — 35+ architects/theorists with key contributions, design principles, landmark buildings, and application contexts (Vitruvius through Kéré)
-- **Quantitative Rules of Thumb** — 50+ metrics with min/optimal/max values across 14 categories (floor-to-floor heights, structural grids, NTG ratios, U-values, acoustic ratings, daylight factors, corridor widths, parking, elevator sizing, fire resistance)
-- **Building Typology Taxonomy** — 28 sub-types across residential, commercial, institutional, industrial, and special categories
-- **Design Quality Framework** — composite checklist: Firmitas, Utilitas, Venustas, Context & Place, Sustainability, Accessibility
-- **Anti-Pattern Catalog** — 17 common architectural failures across 5 categories with fixes
-- **Skill Router** — decision tree activating specialized skills based on user context
-
-**Reference files (loaded on demand):**
-- `theorists-and-movements.md` — 50+ architects by era, 20+ movements with manifestos and canonical buildings
-- `quantitative-standards.md` — extended dimensional, structural, environmental, acoustic, and servicing standards
-- `building-typology-taxonomy.md` — all building types with dimensions, metrics, and exemplar projects
-- `global-codes-frameworks.md` — IBC, NFPA, ADA, ASHRAE, Eurocodes, Building Regulations, NCC, NBC worldwide
-
----
-
-### 2. Design & Theory
-
-#### `design-theory`
-
-**Invocation:** Ask about architectural theory, design philosophy, movements, precedent analysis, or design critique
-
-- 8 architectural design philosophies (Rationalism, Empiricism, Phenomenology, Pragmatism, Critical Regionalism, Parametricism, Ecological, Social)
-- Design thinking frameworks (RIBA Plan of Work 2020, AIA phases, IDP, EBD)
-- Compositional principles (proportion systems, balance, rhythm, hierarchy, unity)
-- 7-step precedent analysis method with structured template
-- 8-dimension design critique framework
-
-**Reference files:** `movements-and-manifestos.md` (20+ movements), `design-philosophy.md` (Vitruvian triad through POE)
-
-#### `concept-design`
-
-**Invocation:** Ask about parti development, massing studies, spatial organization, or concept generation
-
-- 12 archetypal parti types with exemplar buildings (linear, courtyard, clustered, radial, grid, pinwheel, bar, tower, podium+tower, atrium, spiral, split-level)
-- Massing strategies (solar, wind, view, contextual, additive, subtractive)
-- 6 spatial organization models from Francis Ching
-- 8 concept-to-form translation drivers with decision tree
-- Design iteration protocol with structured evaluation
-
-**Reference files:** `parti-strategies.md` (16 strategies with 3+ built examples each), `massing-methods.md` (12 case studies, solar envelope, wind comfort)
-
----
-
-### 3. Program & Typology
-
-#### `building-programming`
-
-**Invocation:** Ask about space programming, area schedules, adjacency matrices, or brief development
-
-- Peña & Parshall's Problem Seeking methodology
-- Space standards for 7 building types with specific area tables (NDSS, BCO, HBN, BB103)
-- Adjacency matrix method with 4 worked examples (hospital, school, office, mixed-use)
-- Area schedule construction with NTG ratios for 10 building types
-- Brief validation methodology
-
-**Reference files:** `area-standards.md` (exhaustive tables for 9 sectors), `adjacency-methods.md` (4 worked examples)
-**Templates:** `program-brief-template.md`
-
-#### `building-typology`
-
-**Invocation:** Ask about building types, plan configurations, residential/office/hospital/school design, or mixed-use
-
-- 10 residential types (detached through co-living) with plan depths, NTG, structural systems, parking
-- 4 office types with BCO metrics, structural grids, floor-to-floor heights
-- Healthcare typologies (4 hospital plan types, clinics, sterile flows)
-- Education (primary/secondary/university with BB103 compliance)
-- Cultural (museums, theaters, libraries), hospitality, and hybrid/mixed-use
-
-**Reference files:** `residential-typologies.md` (core design, daylight access, unit mix, 15+ exemplar projects)
-
----
-
-### 4. Spatial & Envelope
-
-#### `spatial-planning`
-
-**Invocation:** Ask about floor plan layout, circulation design, core design, stacking, or space efficiency
-
-- 10 floor plan archetypes with plan depths, structural grids, daylight characteristics
-- Circulation design (corridor widths by code, dead-end limits, travel distances, stair/elevator sizing)
-- Core design (central, side, dual, distributed) with dimensioned layouts
-- Vertical stacking strategy and NTG optimization (targets for 8 building types)
-- Wayfinding and spatial legibility
-
-**Reference files:** `circulation-patterns.md` (dimensional standards across 3 codes), `core-design.md` (ASCII diagrams for 5 building types, riser shaft sizing)
-
-#### `building-envelope`
-
-**Invocation:** Ask about wall systems, glazing, roofing, thermal performance, moisture management, or cladding
-
-- Envelope performance requirements with climate-specific targets (5 climate zones + Passive House)
-- 10 wall systems with full build-ups, U-values, fire ratings, embodied carbon
-- Glazing systems (glass types, coatings, curtain wall systems, WWR guidance)
-- Roof systems (warm deck, inverted, green, pitched, membrane)
-- Moisture management (Glaser method, junction detailing)
-- Thermal bridge prevention (psi-values, strategies, common locations)
-
-**Reference files:** `wall-systems.md` (15 wall types layer-by-layer), `glazing-systems.md` (5 curtain wall systems, 8 commercial glass products)
-
----
-
-### 5. Structure & Services
-
-#### `structural-systems`
-
-**Invocation:** Ask about structural design, grids, spans, lateral systems, foundations, or structural material selection
-
-- 8 structural system types with span ranges, costs, embodied carbon, exemplars
-- Structural grid design by building type
-- Lateral stability systems (shear walls through mega-frames)
-- Foundation types with bearing pressures
-- Span-to-depth ratios for all materials
-- Load path narrative and coordination checklists
-
-**Reference files:** `structural-typologies.md` (15 systems in depth), `span-tables.md` (comprehensive tables by material)
-
-#### `building-services`
-
-**Invocation:** Ask about HVAC, plumbing, electrical, elevators, fire protection, or MEP coordination
-
-- 9 HVAC system types with spatial impact on architecture (duct sizes, void depths, plant rooms)
-- Plumbing and drainage (wet-room stacking, riser sizing, pipe sizes)
-- Electrical systems (power distribution, loads by building type, lighting power density)
-- Vertical transportation (elevator sizing formula, shaft dimensions, escalators)
-- Fire protection systems (sprinklers, detection, smoke control)
-- MEP coordination (zone allocation, clash detection, BIM integration)
-
-**Reference files:** `hvac-systems.md` (12 system types with full comparison), `mep-coordination.md` (5 case studies)
-
----
-
-### 6. Environment & Materials
-
-#### `daylighting-design`
-
-**Invocation:** Ask about daylighting, solar geometry, glare control, shading, or lighting design
-
-- Daylight metrics (DF, sDA, ASE, UDI, DGP) with targets by space type
-- 15+ daylighting strategies with effectiveness data
-- Solar geometry and shading device design with sizing tables by latitude
-- Glare control ranked by effectiveness
-- Artificial lighting integration (zones, dimming, circadian, LPD targets)
-- 8-step design workflow
-
-**Reference files:** `daylight-strategies.md` (20+ strategies, 15+ exemplar buildings), `solar-geometry.md` (sun path diagrams, overhang sizing formulas)
-
-#### `material-selection`
-
-**Invocation:** Ask about materials, finishes, durability, specification, LCA, or embodied carbon
-
-- 8-criteria evaluation framework with decision matrix
-- 7 material categories: concrete, steel, timber, masonry, glass, metals/composites, insulation
-- Each with: properties, fire performance, embodied carbon, costs, exemplar architects
-- Life-cycle assessment (EN 15978 stages, LETI benchmarks, material passports, circular economy)
-
-**Reference files:** `material-properties.md` (30+ materials with full property tables), `specification-guide.md` (NBS, CSI MasterFormat, testing standards)
-
----
-
-### 7. Codes & Compliance
-
-#### `building-codes`
-
-**Invocation:** Ask about IBC, occupancy classification, construction types, height/area limits, egress, or code compliance
-
-- All 10 IBC occupancy groups with subgroups and occupant load factors
-- Construction types IA through VB plus Type IV mass timber
-- Height and area limitations with sprinkler/frontage increases
-- Means of egress (exits, travel distance, stair width, dead-end corridors)
-- Fire separation requirements
-- Plumbing fixture minimums
-- International code comparison (IBC, UK Building Regs, Eurocodes, NCC, NBC)
-
-**Reference files:** `ibc-reference.md` (key tables with 3 worked examples), `occupancy-classification.md` (mixed occupancy, atriums, high-rise, mall provisions)
-
-#### `accessibility-design`
-
-**Invocation:** Ask about ADA, universal design, accessible routes, inclusive environments, or DDA compliance
-
-- Ron Mace's 7 universal design principles
-- Full ADA dimensional requirements (routes, doors, ramps, stairs, elevators, toilets, parking, signage)
-- Accessible sanitary facilities including Changing Places
-- Sensory accessibility (visual impairment, hearing impairment)
-- Inclusive design beyond compliance (neurodiversity, aging, children)
-- International comparison (ADA, BS 8300, DIN 18040, AS 1428)
-
-**Reference files:** `ada-standards.md` (chapter-by-chapter requirements), `universal-design-principles.md` (11 exemplar inclusive buildings)
-
-#### `fire-life-safety`
-
-**Invocation:** Ask about fire strategy, compartmentation, egress design, smoke control, sprinklers, or fire resistance
-
-- Fire strategy development (prescriptive vs performance-based)
-- Compartmentation (fire barriers, doors FD30-FD120, firestopping, cavity barriers)
-- Means of egress design with international travel distance comparison
-- Structural fire protection (concrete cover, intumescent coatings, mass timber charring)
-- Smoke control (NSHEV, mechanical extract, stair pressurization)
-- Active fire protection (sprinklers, detection, emergency lighting)
-
-**Reference files:** `egress-design.md` (travel distance tables, 3 worked examples, 5 case studies)
-
-#### `acoustic-design`
-
-**Invocation:** Ask about acoustics, sound insulation, room acoustics, noise control, or STC/Rw ratings
-
-- Acoustic fundamentals (STC, Rw, IIC, Ln,w, NRC, RT60, STI, NR)
-- Sound insulation targets by adjacency type with construction solutions
-- Room acoustics (Sabine equation, RT60 targets, absorption, diffusion)
-- Environmental noise control (facade insulation, ventilation impact)
-- Building services noise control (vibration isolation, duct attenuation)
-- Guidance for 10 building types
-
-**Reference files:** `sound-insulation.md` (15 wall + 11 floor constructions with ratings), `room-acoustics.md` (concert hall typologies, 32 material absorption coefficients, 11 exemplar spaces)
-
----
-
-### 8. Sustainability & Production
-
-#### `building-sustainability`
-
-**Invocation:** Ask about LEED, BREEAM, Passive House, WELL, net zero carbon, embodied carbon, or green certification
-
-- Certification system selector (LEED BD+C, BREEAM, DGNB, WELL, Passive House, Living Building Challenge)
-- LEED BD+C v4.1 category-by-category breakdown (110 points, architect's influence per credit)
-- Passive House standard (5 criteria, design principles, PHPP, component specifications)
-- Whole-life carbon (LETI targets, RIBA 2030, reduction strategies)
-- WELL Building Standard v2 (10 concepts, architect's role)
-- Net zero carbon strategy and circular economy (DfD, material passports)
-
-**Reference files:** `leed-bdc.md` (credit-by-credit analysis), `passive-house.md` (design guidance, 11 exemplar buildings)
-
-#### `construction-documentation`
-
-**Invocation:** Ask about drawing sets, specifications, schedules, BIM LOD, or construction administration
-
-- Drawing set organization with sheet numbering conventions
-- Drawing standards (line weights, text heights, hatching, dimensions)
-- BIM LOD requirements (100-500) by element type
-- CSI MasterFormat specification writing (three-part format)
-- Schedule production (door, window, finish, fixture, equipment, room data)
-- Construction administration (RFI, submittals, change orders, site observations, punch list)
-
-**Reference files:** `drawing-standards.md` (AIA/ISO 19650/sheet sizes), `specification-systems.md` (MasterFormat division-by-division)
-**Templates:** `drawing-checklist.md`, `specification-template.md`
-
-#### `architect-calculator`
-
-**Invocation:** Ask Claude to calculate, or say "use the architect calculator" for any of the 7 tools
-
-7 Python calculators with CLI interface and `--json` output:
-
-| Calculator | What It Computes |
-|---|---|
-| `area_calculator.py` | GFA, NGA, unit count, population, parking from site area + FAR |
-| `uvalue_calculator.py` | U-value of multi-layer constructions with Passive House comparison |
-| `daylight_calculator.py` | Daylight factor from room geometry and window size |
-| `egress_calculator.py` | Occupant load, exits, stair widths, travel distance compliance |
-| `structural_load_calculator.py` | Gravity loads, tributary area, preliminary column sizing |
-| `energy_calculator.py` | Annual heating/cooling demand via degree-day method |
-| `cost_calculator.py` | Construction cost by type, quality, and region |
-
-**Example usage:**
-
-```bash
-python area_calculator.py --site-area 5000 --far 3.0 --ntg-ratio 0.80
-python uvalue_calculator.py --layers '[{"name":"Brick","thickness_mm":102,"conductivity":0.77},{"name":"Cavity","thickness_mm":50,"conductivity":0.18},{"name":"PIR","thickness_mm":100,"conductivity":0.022},{"name":"Block","thickness_mm":100,"conductivity":0.15}]'
-python egress_calculator.py --floor-area 2000 --occupancy-type B --sprinklered --num-stories 6
-python energy_calculator.py --floor-area 500 --envelope-area 800 --average-u-value 0.18 --heating-degree-days 3000 --cooling-degree-days 500
-```
-
----
-
-## Knowledge Base
-
-### Architects & Theorists Referenced
-
-**Classical & Renaissance:** Vitruvius, Alberti, Brunelleschi, Palladio
-**Early Modern:** Sullivan, Loos, Perret, Horta, Gaudi
-**Bauhaus & International:** Gropius, Mies van der Rohe, Le Corbusier, Neutra
-**Mid-Century:** Kahn, Aalto, Eames, Saarinen, Utzon, Niemeyer, Barragán
-**Brutalist & Late Modern:** Smithsons, Stirling, Tange, Rudolph
-**Postmodern:** Venturi, Rossi, Graves, Bofill
-**Deconstructivist:** Gehry, Libeskind, Hadid, Eisenman, Tschumi
-**High-Tech:** Rogers, Piano, Foster, Grimshaw, Hopkins
-**Phenomenological:** Zumthor, Holl, Pallasmaa
-**Contemporary:** Koolhaas, BIG, MVRDV, SANAA, Kuma, Kéré, Lacaton & Vassal, Wang Shu, Studio Gang, DS+R, Snøhetta, Heatherwick
-**Theorists:** Christopher Alexander, Francis Ching, Kenneth Frampton, Christian Norberg-Schulz, Reyner Banham, Colin Rowe, Ron Mace, Cedric Price
-
-### Standards & Codes Referenced
-
-IBC, NFPA 101, ADA/ABA, ASHRAE 90.1, ASHRAE 62.1, ASHRAE 55, IECC, Building Regulations (England & Wales) Approved Documents A-S, Eurocodes EN 1990-1999, NCC (Australia), NBC (Canada), NBC (India), Japanese Building Standards Law
-
-### Sustainability Frameworks
-
-LEED BD+C v4.1, BREEAM New Construction, Passive House (PHI/PHIUS), WELL Building Standard v2, DGNB, Living Building Challenge 4.0, RIBA 2030 Climate Challenge, LETI, Architecture 2030
-
-### Measurement Standards
-
-Neufert Architects' Data, Architectural Graphic Standards (Ramsey/Sleeper), BCO Guide to Specification, NHS Health Building Notes (HBN), Building Bulletin 103 (BB93/BB103), NDSS (Nationally Described Space Standard), CIBSE Guides, SCI publications, Concrete Centre, TRADA
-
----
-
-## Architecture
-
-```
-Architect Skills Plugin
-├── architect-foundations (auto-activated, invisible)
-│   ├── Theorist Matrix (35+ architects)
-│   ├── Quantitative Rules (50+ metrics, 14 tables)
-│   ├── Typology Taxonomy (28 building sub-types)
-│   ├── Quality Framework (Firmitas/Utilitas/Venustas+)
-│   ├── Anti-Pattern Catalog (17 failures)
-│   └── Skill Router → dispatches to 17 specialized skills
-│
-├── Design & Theory
-│   ├── design-theory (8 philosophies, RIBA/AIA stages, precedent method)
-│   └── concept-design (12 partis, massing, organization, iteration)
-│
-├── Program & Typology
-│   ├── building-programming (Peña method, area standards, adjacency)
-│   └── building-typology (residential, office, healthcare, education, cultural, hotel, hybrid)
-│
-├── Spatial & Envelope
-│   ├── spatial-planning (10 plan types, circulation, cores, stacking, NTG)
-│   └── building-envelope (10 wall systems, glazing, roofs, moisture, thermal bridges)
-│
-├── Structure & Services
-│   ├── structural-systems (8 systems, grids, laterals, foundations, spans)
-│   └── building-services (9 HVAC types, plumbing, electrical, elevators, MEP)
-│
-├── Environment & Materials
-│   ├── daylighting-design (metrics, 15+ strategies, solar geometry, glare)
-│   └── material-selection (7 material categories, LCA, specification)
-│
-├── Codes & Compliance
-│   ├── building-codes (IBC occupancy, construction types, egress, international)
-│   ├── accessibility-design (ADA, universal design, inclusive, sensory)
-│   ├── fire-life-safety (compartmentation, egress, smoke, sprinklers)
-│   └── acoustic-design (STC/Rw, room acoustics, noise control, 10 building types)
-│
-├── Sustainability & Production
-│   ├── building-sustainability (LEED, Passive House, WELL, net zero, circular)
-│   ├── construction-documentation (drawings, specs, BIM LOD, CA)
-│   └── architect-calculator (7 Python scripts)
-│
-└── Progressive Disclosure
-    Layer 0: Skill names (~18KB) → always loaded
-    Layer 1: SKILL.md bodies (450-815 lines) → on invocation
-    Layer 2: References, templates, scripts → on explicit demand
+**中文 README 完整性说明：**本文件应与 `README.md` 保持相同的范围和章节信息，仅将自然语言翻译为简体中文。英文项目名称、法规名称、标准编号、软件名、路径和命令保留原样。
+
+## 交付文件命名建议
+
+- `01_project-brief.md`：项目任务书和假设。
+- `02_code-route.md`：法规路由和版本记录。
+- `03_program.md`：功能、面积和邻接关系。
+- `04_concept-options.md`：概念、体量和比较。
+- `05_performance.md`：环境、结构、消防和无障碍性能。
+- `06_materials.md`：围护和材料策略。
+- `07_documentation.md`：图纸、规范和 BIM 协调。
+- `08_review-log.md`：审查意见、RFI、ASI 和决策记录。
+
+## 最终核验
+
+在发布技能包或项目交付物前，至少执行以下检查：
+
+1. Markdown 标题层级、表格、链接、代码块和目录结构完整。
+2. 文件名、技能名、脚本名和程序标识未被误译。
+3. 标准编号、单位、公式、数值范围和版本未被改写。
+4. 中文 README 与英文 README 的范围、章节、技能和统计信息一致。
+5. 不包含原上游作者、原上游仓库或未经授权的署名。
+6. MIT License 与 OmniAiLab 统一版本一致。
+7. Git 工作树干净，并已创建可追溯提交。
+
+如上述任一项未通过，不应将技能包标记为最终完成。
+
+## 维护责任
+
+OmniAiLab 负责技能框架、目录组织和通用设计知识的维护。项目团队负责确认当地法规、项目数据、产品性能、施工方法和专业签章。用户对技能包进行二次改造时，应保留必要的许可证信息，并在版本记录中注明改动范围。
+
+## 反馈与改造
+
+建议通过版本提交记录问题和改造内容，包括文件路径、章节、法规版本、复现条件、预期结果和实际结果。涉及法规变更时，应附主管部门或正式规范来源，由具备资质的专业人员确认后再更新技能内容。
+
+本 README 的中文版本是当前全球注册建筑师框架的中文说明，不将任何单一国家、地区或考试体系视为唯一适用范围。
+
+## 变更记录
+
+- 完成全球注册建筑师定位调整。
+- 完成 OmniAiLab 统一元数据和署名。
+- 完成 MIT License 统一。
+- 完成主要技能文件的自然语言中文化。
+- 完成国家法规专题的中文化审查。
+- 完成计算器和技术文件的调用标识保留。
+- 完成 README 中文版结构扩展。
+- 保留英文标准名称和国际项目名称。
+- 保留法规编号、公式和单位。
+- 保留代码块、路径和命令。
+- 后续改造需继续维护中英文 README 同步。
+
+## 内容组织
+
+```text
+registered-architect/
+├── SKILL.md                         # 技能总入口
+├── skills/                          # 专项技能模块
+│   ├── country-china/               # 中国大陆规范与实践资料
+│   ├── architect-calculator/        # 计算器与计算参考
+│   └── ...
+├── README.md                        # English README
+└── README.zh-CN.md                  # 中文 README
 ```
 
----
+## 许可证与来源
 
-## Example Prompts
+本包采用 OmniAiLab MIT License，许可文本见 [LICENSE](LICENSE)。
 
-**Design Theory & Concept:**
-- "Develop a concept for a 200-bed hospital on a sloped hillside site"
-- "Compare the design philosophies of Kahn and Zumthor for a museum project"
-- "Generate 3 parti options for a 5,000 m² community center"
+## 专项技能索引
 
-**Programming & Typology:**
-- "Create a space program for a 150-room business hotel"
-- "What are the key metrics for a double-loaded residential corridor building?"
-- "Build an adjacency matrix for a K-8 school"
+| 编号 | 技能 | 主要用途 |
+| --- | --- | --- |
+| 1 | `architect-foundations` | 建筑基础知识、理论家、定量规则和技能路由 |
+| 2 | `geographic-foundations` | 国家、地区、气候和法规路由 |
+| 3 | `design-theory` | 建筑理论、设计哲学、思潮和宣言 |
+| 4 | `concept-design` | 概念生成、体量、形态和设计策略 |
+| 5 | `building-programming` | 功能策划、面积标准、邻接关系和任务书 |
+| 6 | `building-typology` | 住宅、办公、商业、教育、医疗和文化建筑类型 |
+| 7 | `spatial-planning` | 核心筒、空间组织、流线和面积效率 |
+| 8 | `building-envelope` | 墙体、屋面、玻璃、幕墙和热工性能 |
+| 9 | `structural-systems` | 结构体系、跨度、荷载路径和构造类型 |
+| 10 | `building-services` | HVAC、给排水、电气、机房和机电协调 |
+| 11 | `daylighting-design` | 日光、太阳几何、遮阳和模拟 |
+| 12 | `acoustic-design` | 隔声、房间声学、混响和噪声控制 |
+| 13 | `material-selection` | 材料性能、生命周期、成本和规范编制 |
+| 14 | `fire-life-safety` | 防火分区、疏散、报警、喷淋和消防策略 |
+| 15 | `accessibility-design` | 无障碍、通用设计和国际法规比较 |
+| 16 | `building-codes` | IBC、Eurocodes、NCC、NBC 和全球规范框架 |
+| 17 | `building-sustainability` | 能源、碳、认证、被动式设计和水资源 |
+| 18 | `construction-documentation` | 图纸标准、规范、BIM、RFI 和施工管理 |
+| 19 | `architect-calculator` | 面积、U 值、日照、疏散、结构、能源和成本计算 |
 
-**Spatial & Envelope:**
-- "Design the core layout for a 30-storey residential tower under IBC"
-- "Specify a wall build-up achieving U-value 0.15 W/m²K for a Passive House"
-- "What WWR should I target for a south-facing office facade in London?"
+## 交付前检查清单
 
-**Structure & Services:**
-- "Select a structural system for a 12-storey timber office building"
-- "Compare chilled beams vs VAV for a 20,000 m² open-plan office"
-- "Size the elevator provision for a 15-storey, 300-unit residential building"
+1. 确认项目所在地、主管部门和适用法规版本。
+2. 确认建筑用途、使用人数、面积、高度、层数和火灾危险类别。
+3. 确认结构体系、围护性能、机电系统和无障碍路径。
+4. 对关键尺寸、荷载、耐火、能耗、日照和声学指标进行独立复核。
+5. 区分设计建议、规范核验、审批意见和专业认证结论。
+6. 记录所有假设、缺失信息、待确认事项和后续责任人。
 
-**Environment & Materials:**
-- "Estimate the daylight factor for a 6m deep office with 2.7m ceilings"
-- "Compare embodied carbon of CLT vs RC frame for a 6-storey building"
-- "Design a shading strategy for west-facing glazing at latitude 35°N"
+## 统计概览
 
-**Codes & Compliance:**
-- "Classify a mixed-use building with ground-floor retail and residential above under IBC"
-- "Calculate egress requirements for a 500-seat auditorium"
-- "What STC rating do I need between a hotel room and corridor?"
+| 项目 | 数量或范围 |
+| --- | --- |
+| 核心技能 | 18 项 |
+| 地理法规专题 | 10 个国家/地区 |
+| Python 计算器 | 7 个 |
+| 建筑师与理论家 | 50+ |
+| 建筑思潮 | 20+ |
+| 可持续性认证框架 | 8+ |
+| 建筑类型 | 28+ |
+| 结构体系 | 15+ |
+| HVAC 系统类型 | 12+ |
+| 墙体构造 | 15+ |
+| 楼板构造 | 11+ |
+| 玻璃构造 | 14+ |
+| 材料吸声系数 | 32+ |
+| 参考建筑案例 | 100+ |
+| 尺寸标准 | 200+ |
 
-**Sustainability & Production:**
-- "Score my design against LEED BD+C v4.1 and identify quick wins"
-- "What are the Passive House requirements for windows in climate zone 5?"
-- "Generate a door schedule for a 20-unit apartment building"
+## 版本与维护
 
----
+当前版本为 `1.0.0`。法规、标准、软件和认证体系具有时效性；每次项目使用前均应核对现行版本，并在项目记录中注明核验日期。
 
-## Tri-Scalar Ecosystem
-
-Architect Skills is the **building-scale pillar** in a tri-scalar AEC knowledge system:
-
-| Scale | Plugin | Focus |
-|---|---|---|
-| **City** | Urban Design Skills (v1.2.0) | Masterplanning, street design, public space, TOD, zoning, sustainability scoring |
-| **Building** | **Architect Skills (v1.0.0)** | **Programming, typology, spatial planning, envelope, structure, services, codes, sustainability** |
-| **Component** | Computational Design Skills (v1.0.0) | Parametric modeling, generative design, computational geometry, fabrication, BIM scripting |
-
-Together, these three plugins encode the full spectrum of AEC design intelligence — from "How wide should the boulevard be?" to "What wall build-up achieves U=0.15?" to "How do I panelize this facade into planar quads?"
-
----
-
-## Stats
-
-| Metric | Value |
-|---|---|
-| **Total skills** | 18 |
-| **Total files** | 80+ |
-| **Total lines** | 35,000+ |
-| **Python calculators** | 7 |
-| **Architects/theorists referenced** | 50+ |
-| **Architectural movements** | 20+ |
-| **Building codes/standards** | 12+ |
-| **Sustainability frameworks** | 6+ |
-| **Building typologies documented** | 28+ |
-| **Structural systems** | 15+ |
-| **HVAC system types** | 12+ |
-| **Wall constructions with ratings** | 15+ |
-| **Floor constructions with ratings** | 11+ |
-| **Glazing configurations** | 14+ |
-| **Material absorption coefficients** | 32+ |
-| **Exemplar buildings referenced** | 100+ |
-| **Dimensional standards** | 200+ |
-
----
-
-## Author & License
-
-**Author:** OmniAiLab
-**Developer:** Mochiball
-**License:** MIT（OmniAiLab）
-**Version:** 1.0.0
-**Copyright:** 2026 OmniAiLab.
-
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI 建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+本 README 与英文 README 使用相同的章节组织、技能范围、法规专题、计算器说明、统计项目和许可证信息；英文名称、规范编号、程序标识符、路径和命令保持原样，以确保 Agent 能够正确识别和调用。
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

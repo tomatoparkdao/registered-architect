@@ -11,7 +11,7 @@ agent_created: true
 
 # 全球注册建筑师技能框架
 
-> [English README](README.md)
+> [English README](README_EN.md)
 
 本技能包以 `registered-architect` 为总入口，面向全球注册建筑师与建筑设计专业人员，覆盖从设计理论到施工图文件的建筑全流程，并提供印度、阿联酋、沙特、美国、英国、德国、新加坡、日本、中国和澳大利亚十个国家/地区的法规专题。各国资料用于路由和核验，不替代当地注册专业人员或主管部门。
 
