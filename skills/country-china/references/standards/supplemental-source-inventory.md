@@ -68,7 +68,7 @@
 | 铝合金门窗工程技术规范---JGJ 214-2010.pdf | `H:/建筑设计规范/4. 细部构造/铝合金门窗工程技术规范---JGJ 214-2010.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-铝合金门窗工程技术规范-JGJ-214-2010-fbd9882706.md](supplement-铝合金门窗工程技术规范-JGJ-214-2010-fbd9882706.md) |
 | U型玻璃3D示意.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/CAD构造大样/U型玻璃3D示意.pdf` | 9 pages, 117 chars | `TEXT_EXTRACTED` | [supplement-U型玻璃3D示意-3f5dcb4eb0.md](supplement-U型玻璃3D示意-3f5dcb4eb0.md) |
 | 11ZJ401.  楼梯栏杆.pdf | `H:/建筑设计规范/4. 细部构造/中南标/11ZJ401.  楼梯栏杆.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-11ZJ401-楼梯栏杆-a5ce43d0ed.md](supplement-11ZJ401-楼梯栏杆-a5ce43d0ed.md) |
-| 11ZJ411. 阳台、外廊栏杆.pdf | `H:/建筑设计规范/4. 细部构造/中南标/11ZJ411. 阳台、外廊栏杆.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-11ZJ411-阳台-外廊栏杆-ea8d576ae5.md](supplement-11ZJ411-阳台-外廊栏杆-ea8d576ae5.md) |
+| 11ZJ411. 阳台、外廊栏杆.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/11ZJ411. 阳台、外廊栏杆.pdf` | 52 pages, 11660 chars | `TEXT_EXTRACTED` | [supplement-11ZJ411-阳台-外廊栏杆-ea8d576ae5.md](supplement-11ZJ411-阳台-外廊栏杆-ea8d576ae5.md) |
 | 11ZJ中南标建筑图集.pdf | `H:/建筑设计规范/4. 细部构造/中南标/11ZJ中南标建筑图集.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-11ZJ中南标建筑图集-42329943bb.md](supplement-11ZJ中南标建筑图集-42329943bb.md) |
 | 13ZJ002. 建筑节能构造用料做法.pdf | `H:/建筑设计规范/4. 细部构造/中南标/13ZJ002. 建筑节能构造用料做法.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13ZJ002-建筑节能构造用料做法-d5439d9fec.md](supplement-13ZJ002-建筑节能构造用料做法-d5439d9fec.md) |
 | 13ZJ301. 建筑无障碍设施.pdf | `H:/建筑设计规范/4. 细部构造/中南标/13ZJ301. 建筑无障碍设施.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13ZJ301-建筑无障碍设施-e974c842f0.md](supplement-13ZJ301-建筑无障碍设施-e974c842f0.md) |
