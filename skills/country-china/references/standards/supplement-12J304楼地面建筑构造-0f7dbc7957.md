@@ -11,8 +11,8 @@ agent_created: true
 
 # 12J304楼地面建筑构造
 
-- 来源文件：`H:/建筑设计规范/4. 细部构造/12J304楼地面建筑构造.pdf`
-- 状态：`UNREADABLE`
+- 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/12J304楼地面建筑构造.pdf`
+- 状态：`TEXT_EXTRACTED`
 - 页数：object of type 'PdfReader' has no len()
-- 文本分片：无；需 OCR 或旧格式转换
+- 文本分片：[supplement-12J304楼地面建筑构造-0f7dbc7957-001.md](text/supplement-12J304楼地面建筑构造-0f7dbc7957-001.md)
 
