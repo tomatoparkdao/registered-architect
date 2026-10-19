@@ -11,7 +11,9 @@ agent_created: true
 
 # 15ZJ521.吊顶和轻隔断
 
-- 来源文件：`H:/建筑设计规范/4. 细部构造/中南标/15ZJ521.吊顶和轻隔断.pdf`
-- 状态：`UNREADABLE`
+- 来源文件：`E:/SKILL/蒸馏文件/建筑师/建筑设计规范合集  电子版整理/建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/15ZJ521.吊顶和轻隔断.pdf`
+- 页数：72
+- OCR 字符数：20700
+- 状态：`OCR_PENDING`
 - 页数：object of type 'PdfReader' has no len()
-- 文本分片：无；需 OCR 或旧格式转换
+- 文本分片：[supplement-15ZJ521-吊顶和轻隔断-bfbed8a549-001.md](text/supplement-15ZJ521-吊顶和轻隔断-bfbed8a549-001.md)
