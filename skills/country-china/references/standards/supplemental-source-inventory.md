@@ -63,7 +63,7 @@
 | 构造基础一眼望穿抄绘图集.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/构造基础一眼望穿抄绘图集.pdf` | 60 pages, 41727 chars | `TEXT_EXTRACTED` | [supplement-构造基础一眼望穿抄绘图集-4ade768a5b.md](supplement-构造基础一眼望穿抄绘图集-4ade768a5b.md) |
 | 清式营造则例.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/清式营造则例.pdf` | 222 pages, 147106 chars | `TEXT_EXTRACTED` | [supplement-清式营造则例-d2dbe20479.md](supplement-清式营造则例-d2dbe20479.md) |
 | 电梯.docx | `H:/建筑设计规范/4. 细部构造/电梯.docx` |  | `LEGACY_UNPARSED` | [supplement-电梯-901c7b17e0.md](supplement-电梯-901c7b17e0.md) |
-| 补充资料-《建筑材料》大学课本.pdf | `H:/建筑设计规范/4. 细部构造/补充资料-《建筑材料》大学课本.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-补充资料-建筑材料-大学课本-e847264a22.md](supplement-补充资料-建筑材料-大学课本-e847264a22.md) |
+| 补充资料-《建筑材料》大学课本.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/补充资料-《建筑材料》大学课本.pdf` | 100 pages, 177313 chars | `TEXT_EXTRACTED` | [supplement-补充资料-建筑材料-大学课本-e847264a22.md](supplement-补充资料-建筑材料-大学课本-e847264a22.md) |
 | 轻钢住宅节点大样.pdf | `H:/建筑设计规范/4. 细部构造/轻钢住宅节点大样.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-轻钢住宅节点大样-4a74220107.md](supplement-轻钢住宅节点大样-4a74220107.md) |
 | 铝合金门窗工程技术规范---JGJ 214-2010.pdf | `H:/建筑设计规范/4. 细部构造/铝合金门窗工程技术规范---JGJ 214-2010.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-铝合金门窗工程技术规范-JGJ-214-2010-fbd9882706.md](supplement-铝合金门窗工程技术规范-JGJ-214-2010-fbd9882706.md) |
 | U型玻璃3D示意.pdf | `H:/建筑设计规范/4. 细部构造/CAD、SU构造大样/U型玻璃3D示意.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-U型玻璃3D示意-3f5dcb4eb0.md](supplement-U型玻璃3D示意-3f5dcb4eb0.md) |
