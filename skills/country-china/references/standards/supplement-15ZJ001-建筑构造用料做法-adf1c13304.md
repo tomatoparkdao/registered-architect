@@ -11,8 +11,9 @@ agent_created: true
 
 # 15ZJ001 建筑构造用料做法
 
-- 来源文件：`H:/建筑设计规范/4. 细部构造/15ZJ001 建筑构造用料做法.pdf`
-- 状态：`UNREADABLE`
-- 页数：Cannot read an empty file
-- 文本分片：无；需 OCR 或旧格式转换
+- 来源文件：`建筑设计规范合集  电子版整理/建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/15ZJ001 建筑构造用料做法.pdf`
+- 状态：`TEXT_EXTRACTED`
+- 页数：159
+- OCR 字符数：93411
+- 文本分片：[supplement-15ZJ001-建筑构造用料做法-adf1c13304-001.md](text/supplement-15ZJ001-建筑构造用料做法-adf1c13304-001.md)
 
