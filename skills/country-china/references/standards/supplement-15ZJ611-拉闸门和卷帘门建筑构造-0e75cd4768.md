@@ -11,8 +11,9 @@ agent_created: true
 
 # 15ZJ611. 拉闸门和卷帘门建筑构造
 
-- 来源文件：`H:/建筑设计规范/4. 细部构造/中南标/15ZJ611. 拉闸门和卷帘门建筑构造.pdf`
-- 状态：`UNREADABLE`
-- 页数：object of type 'PdfReader' has no len()
-- 文本分片：无；需 OCR 或旧格式转换
+- 来源文件：`E:/SKILL/蒸馏文件/建筑师/建筑设计规范合集  电子版整理/建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/中南标/15ZJ611. 拉闸门和卷帘门建筑构造.pdf`
+- 页数：34
+- OCR 字符数：12318
+- 状态：`TEXT_EXTRACTED`
+- 文本分片：[supplement-15ZJ611-拉闸门和卷帘门建筑构造-0e75cd4768-001.md](text/supplement-15ZJ611-拉闸门和卷帘门建筑构造-0e75cd4768-001.md)
 
