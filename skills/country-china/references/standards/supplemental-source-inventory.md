@@ -18,7 +18,7 @@
 | 12J5-1 平屋面.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/12J5-1 平屋面.pdf` | 110 pages, 44004 chars | `TEXT_EXTRACTED` | [supplement-12J5-1-平屋面-e25e4bef44.md](supplement-12J5-1-平屋面-e25e4bef44.md) |
 | 13J404 电梯 自动扶梯 自动人行道.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/13J404 电梯 自动扶梯 自动人行道.pdf` | 95 pages, 69653 chars | `TEXT_EXTRACTED` | [supplement-13J404-电梯-自动扶梯-自动人行道-fa645d0bd3.md](supplement-13J404-电梯-自动扶梯-自动人行道-fa645d0bd3.md) |
 | 13J502-1内装修-墙面装修.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/13J502-1内装修-墙面装修.pdf` | 163 pages, 74585 chars | `TEXT_EXTRACTED` | [supplement-13J502-1内装修-墙面装修-83d969dc85.md](supplement-13J502-1内装修-墙面装修-83d969dc85.md) |
-| 13J502-2 内装修：室内吊顶.pdf | `H:/建筑设计规范/4. 细部构造/13J502-2 内装修：室内吊顶.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13J502-2-内装修-室内吊顶-08c211df5e.md](supplement-13J502-2-内装修-室内吊顶-08c211df5e.md) |
+| 13J502-2 内装修：室内吊顶.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/13J502-2 内装修：室内吊顶.pdf` | 190 pages, 71374 chars | `TEXT_EXTRACTED` | [supplement-13J502-2-内装修-室内吊顶-08c211df5e.md](supplement-13J502-2-内装修-室内吊顶-08c211df5e.md) |
 | 13J502-3 内装修-楼(地)面装修.pdf | `H:/建筑设计规范/4. 细部构造/13J502-3 内装修-楼(地)面装修.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13J502-3-内装修-楼-地-面装修-9e0e8d7797.md](supplement-13J502-3-内装修-楼-地-面装修-9e0e8d7797.md) |
 | 13ZJ302. 地沟和盖板.pdf | `H:/建筑设计规范/4. 细部构造/13ZJ302. 地沟和盖板.pdf` | Cannot read an empty file | `UNREADABLE` | [supplement-13ZJ302-地沟和盖板-04f55e71fb.md](supplement-13ZJ302-地沟和盖板-04f55e71fb.md) |
 | 14J924木结构建筑.pdf | `H:/建筑设计规范/4. 细部构造/14J924木结构建筑.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-14J924木结构建筑-01aebd9af4.md](supplement-14J924木结构建筑-01aebd9af4.md) |
