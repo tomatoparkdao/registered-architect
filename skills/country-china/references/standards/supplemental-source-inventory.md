@@ -91,7 +91,7 @@
 | 13ZJ002. 建筑节能构造用料做法.pdf | `H:/建筑设计规范/4. 细部构造/图集/13ZJ002. 建筑节能构造用料做法.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-13ZJ002-建筑节能构造用料做法-51c4c9bc39.md](supplement-13ZJ002-建筑节能构造用料做法-51c4c9bc39.md) |
 | 14J936变形缝建筑构造.pdf | `H:/建筑设计规范/4. 细部构造/图集/14J936变形缝建筑构造.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-14J936变形缝建筑构造-348e161e27.md](supplement-14J936变形缝建筑构造-348e161e27.md) |
 | 15J403-1楼梯 栏杆 栏板（一） - 副本.pdf | `H:/建筑设计规范/4. 细部构造/图集/15J403-1楼梯 栏杆 栏板（一） - 副本.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15J403-1楼梯-栏杆-栏板-一-副本-8bf07f7b56.md](supplement-15J403-1楼梯-栏杆-栏板-一-副本-8bf07f7b56.md) |
-| 15ZJ201平屋面.pdf | `H:/建筑设计规范/4. 细部构造/图集/15ZJ201平屋面.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15ZJ201平屋面-6de07f91f9.md](supplement-15ZJ201平屋面-6de07f91f9.md) |
+| 15ZJ201平屋面.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/图集/15ZJ201平屋面.pdf` | 42 pages, 14172 chars | `TEXT_EXTRACTED` | [supplement-15ZJ201平屋面-6de07f91f9.md](supplement-15ZJ201平屋面-6de07f91f9.md) |
 | C窗井、设备吊装口、排水沟、集水坑07J306.pdf | `H:/建筑设计规范/4. 细部构造/图集/C窗井、设备吊装口、排水沟、集水坑07J306.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-C窗井-设备吊装口-排水沟-集水坑07J306-8dd0e06cdf.md](supplement-C窗井-设备吊装口-排水沟-集水坑07J306-8dd0e06cdf.md) |
 | ★15J403-1楼梯 栏杆 栏板（一）.pdf | `H:/建筑设计规范/4. 细部构造/图集/★15J403-1楼梯 栏杆 栏板（一）.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-15J403-1楼梯-栏杆-栏板-一-c94f24265e.md](supplement-15J403-1楼梯-栏杆-栏板-一-c94f24265e.md) |
 | ★★★★★10J301地下建筑防水构造.pdf | `H:/建筑设计规范/4. 细部构造/图集/★★★★★10J301地下建筑防水构造.pdf` | object of type 'PdfReader' has no len() | `UNREADABLE` | [supplement-10J301地下建筑防水构造-2193619a0f.md](supplement-10J301地下建筑防水构造-2193619a0f.md) |
