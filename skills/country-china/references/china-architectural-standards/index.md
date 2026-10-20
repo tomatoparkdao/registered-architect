@@ -1,6 +1,18 @@
 # 中国建筑规范图集（DWG 首测）
 
 - [来源清单](source_inventory.json)
+- [样本来源元数据](source_metadata.json)
+- [真实几何](geometry.json)
+- [图层](layers.json)
+- [块定义](blocks.json)
+- [尺寸标注](dimensions.json)
+- [文字标注](text_annotations.json)
+- [构造语义](semantics.json)
+- [CAD 重绘配方](cad_recipe.json)
+- [CAD 绘图步骤](source_reconstruction.md)
+- [重绘验证报告](reconstruction_test_report.md)
+- [重绘 DXF](reconstruction/CN-DETAIL-0001-reconstructed.dxf)
+- [源/重绘句柄映射](reconstruction/entity_handle_map.json)
 - [图纸索引](drawing_index.json)
 - [语义索引](semantic_index.json)
 - [覆盖率报告](reports/coverage_report.md)
