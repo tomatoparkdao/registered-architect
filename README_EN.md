@@ -116,11 +116,35 @@ architect-calculator provides precise computations when needed
 
 ### Three-Layer Context Management
 
-| Layer | What Loads | When | Size |
-|---|---|---|---|
-| **Layer 0** | Skill names + descriptions only | Always in context | ~18KB |
-| **Layer 1** | Full SKILL.md body | On skill invocation | ~450-815 lines each |
-| **Layer 2** | Reference files, templates, scripts | Only when explicitly needed | Varies |
+<table width="100%">
+<thead><tr>
+<th>Layer</th>
+<th>What Loads</th>
+<th>When</th>
+<th>Size</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Layer 0</strong></td>
+<td>Skill names + descriptions only</td>
+<td>Always in context</td>
+<td>~18KB</td>
+</tr>
+<tr>
+<td><strong>Layer 1</strong></td>
+<td>Full SKILL.md body</td>
+<td>On skill invocation</td>
+<td>~450-815 lines each</td>
+</tr>
+<tr>
+<td><strong>Layer 2</strong></td>
+<td>Reference files, templates, scripts</td>
+<td>Only when explicitly needed</td>
+<td>Varies</td>
+</tr>
+</tbody>
+</table>
+
 
 This keeps the context window efficient. Claude never loads knowledge it doesn't need for the current task.
 
@@ -387,15 +411,43 @@ The foundation layer. Auto-fires on any building architecture context and provid
 
 7 Python calculators with CLI interface and `--json` output:
 
-| Calculator | What It Computes |
-|---|---|
-| `area_calculator.py` | GFA, NGA, unit count, population, parking from site area + FAR |
-| `uvalue_calculator.py` | U-value of multi-layer constructions with Passive House comparison |
-| `daylight_calculator.py` | Daylight factor from room geometry and window size |
-| `egress_calculator.py` | Occupant load, exits, stair widths, travel distance compliance |
-| `structural_load_calculator.py` | Gravity loads, tributary area, preliminary column sizing |
-| `energy_calculator.py` | Annual heating/cooling demand via degree-day method |
-| `cost_calculator.py` | Construction cost by type, quality, and region |
+<table width="100%">
+<thead><tr>
+<th>Calculator</th>
+<th>What It Computes</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>area_calculator.py</code></td>
+<td>GFA, NGA, unit count, population, parking from site area + FAR</td>
+</tr>
+<tr>
+<td><code>uvalue_calculator.py</code></td>
+<td>U-value of multi-layer constructions with Passive House comparison</td>
+</tr>
+<tr>
+<td><code>daylight_calculator.py</code></td>
+<td>Daylight factor from room geometry and window size</td>
+</tr>
+<tr>
+<td><code>egress_calculator.py</code></td>
+<td>Occupant load, exits, stair widths, travel distance compliance</td>
+</tr>
+<tr>
+<td><code>structural_load_calculator.py</code></td>
+<td>Gravity loads, tributary area, preliminary column sizing</td>
+</tr>
+<tr>
+<td><code>energy_calculator.py</code></td>
+<td>Annual heating/cooling demand via degree-day method</td>
+</tr>
+<tr>
+<td><code>cost_calculator.py</code></td>
+<td>Construction cost by type, quality, and region</td>
+</tr>
+</tbody>
+</table>
+
 
 **Example usage:**
 
@@ -532,11 +584,31 @@ Architect Skills Plugin
 
 Architect Skills is the **building-scale pillar** in a tri-scalar AEC knowledge system:
 
-| Scale | Plugin | Focus |
-|---|---|---|
-| **City** | Urban Design Skills (v1.2.0) | Masterplanning, street design, public space, TOD, zoning, sustainability scoring |
-| **Building** | **Architect Skills (v1.0.0)** | **Programming, typology, spatial planning, envelope, structure, services, codes, sustainability** |
-| **Component** | Computational Design Skills (v1.0.0) | Parametric modeling, generative design, computational geometry, fabrication, BIM scripting |
+<table width="100%">
+<thead><tr>
+<th>Scale</th>
+<th>Plugin</th>
+<th>Focus</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>City</strong></td>
+<td>Urban Design Skills (v1.2.0)</td>
+<td>Masterplanning, street design, public space, TOD, zoning, sustainability scoring</td>
+</tr>
+<tr>
+<td><strong>Building</strong></td>
+<td><strong>Architect Skills (v1.0.0)</strong></td>
+<td><strong>Programming, typology, spatial planning, envelope, structure, services, codes, sustainability</strong></td>
+</tr>
+<tr>
+<td><strong>Component</strong></td>
+<td>Computational Design Skills (v1.0.0)</td>
+<td>Parametric modeling, generative design, computational geometry, fabrication, BIM scripting</td>
+</tr>
+</tbody>
+</table>
+
 
 Together, these three plugins encode the full spectrum of AEC design intelligence — from "How wide should the boulevard be?" to "What wall build-up achieves U=0.15?" to "How do I panelize this facade into planar quads?"
 
@@ -544,25 +616,83 @@ Together, these three plugins encode the full spectrum of AEC design intelligenc
 
 ## Stats
 
-| Metric | Value |
-|---|---|
-| **Total skills** | 18 |
-| **Total files** | 80+ |
-| **Total lines** | 35,000+ |
-| **Python calculators** | 7 |
-| **Architects/theorists referenced** | 50+ |
-| **Architectural movements** | 20+ |
-| **Building codes/standards** | 12+ |
-| **Sustainability frameworks** | 6+ |
-| **Building typologies documented** | 28+ |
-| **Structural systems** | 15+ |
-| **HVAC system types** | 12+ |
-| **Wall constructions with ratings** | 15+ |
-| **Floor constructions with ratings** | 11+ |
-| **Glazing configurations** | 14+ |
-| **Material absorption coefficients** | 32+ |
-| **Exemplar buildings referenced** | 100+ |
-| **Dimensional standards** | 200+ |
+<table width="100%">
+<thead><tr>
+<th>Metric</th>
+<th>Value</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Total skills</strong></td>
+<td>18</td>
+</tr>
+<tr>
+<td><strong>Total files</strong></td>
+<td>80+</td>
+</tr>
+<tr>
+<td><strong>Total lines</strong></td>
+<td>35,000+</td>
+</tr>
+<tr>
+<td><strong>Python calculators</strong></td>
+<td>7</td>
+</tr>
+<tr>
+<td><strong>Architects/theorists referenced</strong></td>
+<td>50+</td>
+</tr>
+<tr>
+<td><strong>Architectural movements</strong></td>
+<td>20+</td>
+</tr>
+<tr>
+<td><strong>Building codes/standards</strong></td>
+<td>12+</td>
+</tr>
+<tr>
+<td><strong>Sustainability frameworks</strong></td>
+<td>6+</td>
+</tr>
+<tr>
+<td><strong>Building typologies documented</strong></td>
+<td>28+</td>
+</tr>
+<tr>
+<td><strong>Structural systems</strong></td>
+<td>15+</td>
+</tr>
+<tr>
+<td><strong>HVAC system types</strong></td>
+<td>12+</td>
+</tr>
+<tr>
+<td><strong>Wall constructions with ratings</strong></td>
+<td>15+</td>
+</tr>
+<tr>
+<td><strong>Floor constructions with ratings</strong></td>
+<td>11+</td>
+</tr>
+<tr>
+<td><strong>Glazing configurations</strong></td>
+<td>14+</td>
+</tr>
+<tr>
+<td><strong>Material absorption coefficients</strong></td>
+<td>32+</td>
+</tr>
+<tr>
+<td><strong>Exemplar buildings referenced</strong></td>
+<td>100+</td>
+</tr>
+<tr>
+<td><strong>Dimensional standards</strong></td>
+<td>200+</td>
+</tr>
+</tbody>
+</table>
+
 
 ---
 

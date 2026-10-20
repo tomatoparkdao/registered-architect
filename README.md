@@ -38,14 +38,46 @@ agent_created: true
 
 本技能包以 `registered-architect` 为总入口，面向全球注册建筑师与建筑设计专业人员，覆盖从设计理论到施工图文件的建筑全流程，并提供印度、阿联酋、沙特、美国、英国、德国、新加坡、日本、中国和澳大利亚十个国家/地区的法规专题。各国资料用于路由和核验，不替代当地注册专业人员或主管部门。
 
-| 项目 | 值 | 说明 |
-|---|---|---|
-| Skill 调用名（唯一标识） | `registered-architect` | 支持原生 Skill 的工具优先使用此调用名；不支持时可直接描述建筑设计与规范核验任务 |
-| 显示名 | OmniAiLab 全球注册建筑师 | 仓库页面和文档中的显示名称 |
-| 版本 | v1.1.0 | 与技能元数据和发布记录保持一致 |
-| 出品 / 开发者 | OmniAiLab / Mochiball | — |
-| 许可 | MIT（见 [LICENSE](LICENSE)） | 可自由使用、修改和再分发 |
-| 开源仓库（公开） | [github.com/tomatoparkdao/registered-architect](https://github.com/tomatoparkdao/registered-architect) | 克隆或更新完整 Skill 目录 |
+<table width="100%">
+<thead><tr>
+<th>项目</th>
+<th>值</th>
+<th>说明</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Skill 调用名（唯一标识）</td>
+<td><code>registered-architect</code></td>
+<td>支持原生 Skill 的工具优先使用此调用名；不支持时可直接描述建筑设计与规范核验任务</td>
+</tr>
+<tr>
+<td>显示名</td>
+<td>OmniAiLab 全球注册建筑师</td>
+<td>仓库页面和文档中的显示名称</td>
+</tr>
+<tr>
+<td>版本</td>
+<td>v1.1.0</td>
+<td>与技能元数据和发布记录保持一致</td>
+</tr>
+<tr>
+<td>出品 / 开发者</td>
+<td>OmniAiLab / Mochiball</td>
+<td>—</td>
+</tr>
+<tr>
+<td>许可</td>
+<td>MIT（见 <a href="LICENSE">LICENSE</a>）</td>
+<td>可自由使用、修改和再分发</td>
+</tr>
+<tr>
+<td>开源仓库（公开）</td>
+<td><a href="https://github.com/tomatoparkdao/registered-architect">github.com/tomatoparkdao/registered-architect</a></td>
+<td>克隆或更新完整 Skill 目录</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 使用范围
 
@@ -70,13 +102,35 @@ claude --plugin-dir "/path/to/registered-architect"
 
 ## 技能模块
 
-| 范畴 | 主要模块 |
-| --- | --- |
-| 基础与地区 | `architect-foundations`、`geographic-foundations`、十个国家/地区专题 |
-| 设计与策划 | `design-theory`、`concept-design`、`building-programming`、`building-typology`、`spatial-planning` |
-| 技术设计 | `building-envelope`、`structural-systems`、`building-services`、`daylighting-design`、`material-selection`、`acoustic-design` |
-| 规范与交付 | `building-codes`、`fire-life-safety`、`accessibility-design`、`building-sustainability`、`construction-documentation` |
-| 计算工具 | `architect-calculator`：面积、传热系数、日照、疏散、结构荷载、能耗与成本计算 |
+<table width="100%">
+<thead><tr>
+<th>范畴</th>
+<th>主要模块</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>基础与地区</td>
+<td><code>architect-foundations</code>、<code>geographic-foundations</code>、十个国家/地区专题</td>
+</tr>
+<tr>
+<td>设计与策划</td>
+<td><code>design-theory</code>、<code>concept-design</code>、<code>building-programming</code>、<code>building-typology</code>、<code>spatial-planning</code></td>
+</tr>
+<tr>
+<td>技术设计</td>
+<td><code>building-envelope</code>、<code>structural-systems</code>、<code>building-services</code>、<code>daylighting-design</code>、<code>material-selection</code>、<code>acoustic-design</code></td>
+</tr>
+<tr>
+<td>规范与交付</td>
+<td><code>building-codes</code>、<code>fire-life-safety</code>、<code>accessibility-design</code>、<code>building-sustainability</code>、<code>construction-documentation</code></td>
+</tr>
+<tr>
+<td>计算工具</td>
+<td><code>architect-calculator</code>：面积、传热系数、日照、疏散、结构荷载、能耗与成本计算</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 使用原则
 
@@ -92,11 +146,31 @@ claude --plugin-dir "/path/to/registered-architect"
 
 ### 三层上下文
 
-| 层级 | 加载内容 | 加载时机 |
-| --- | --- | --- |
-| 第 0 层 | 技能名称和描述 | 始终可用 |
-| 第 1 层 | 对应 `SKILL.md` 正文 | 调用专项技能时 |
-| 第 2 层 | 参考文件、模板和脚本 | 明确需要时 |
+<table width="100%">
+<thead><tr>
+<th>层级</th>
+<th>加载内容</th>
+<th>加载时机</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>第 0 层</td>
+<td>技能名称和描述</td>
+<td>始终可用</td>
+</tr>
+<tr>
+<td>第 1 层</td>
+<td>对应 <code>SKILL.md</code> 正文</td>
+<td>调用专项技能时</td>
+</tr>
+<tr>
+<td>第 2 层</td>
+<td>参考文件、模板和脚本</td>
+<td>明确需要时</td>
+</tr>
+</tbody>
+</table>
+
 
 ### 专项模块路由
 
@@ -288,13 +362,35 @@ registered-architect/
 
 ## 国家专题使用顺序
 
-| 顺序 | 操作 |
-| --- | --- |
-| 1 | 确认国家、地区、城市、州/省、特别辖区和主管部门。 |
-| 2 | 读取 `geographic-foundations`，确认法规路由和国际参考。 |
-| 3 | 读取对应 `country-*` 文件，确认规划、建筑、防火、无障碍、能源和结构体系。 |
-| 4 | 调用设计、技术和交付专项技能，保持国家专题的优先级。 |
-| 5 | 列出已确认、待确认和不能仅凭资料判断的事项。 |
+<table width="100%">
+<thead><tr>
+<th>顺序</th>
+<th>操作</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>确认国家、地区、城市、州/省、特别辖区和主管部门。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>读取 <code>geographic-foundations</code>，确认法规路由和国际参考。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>读取对应 <code>country-*</code> 文件，确认规划、建筑、防火、无障碍、能源和结构体系。</td>
+</tr>
+<tr>
+<td>4</td>
+<td>调用设计、技术和交付专项技能，保持国家专题的优先级。</td>
+</tr>
+<tr>
+<td>5</td>
+<td>列出已确认、待确认和不能仅凭资料判断的事项。</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 典型交付物
 
@@ -424,41 +520,170 @@ registered-architect/
 
 ### 关键假设
 
-| 编号 | 假设 | 影响 | 确认人 | 状态 |
-| --- | --- | --- | --- | --- |
-| A-01 | 项目边界和测绘资料准确 | 体量、面积和退界 | 业主/测绘 | 待确认 |
-| A-02 | 用途分类与运营模式已确认 | 消防、面积和设备 | 业主/建筑师 | 待确认 |
-| A-03 | 采用当前法规版本 | 合规结论 | 建筑师/AHJ | 待确认 |
-| A-04 | 结构和机电顾问参与 | 技术协调 | 项目经理 | 待确认 |
+<table width="100%">
+<thead><tr>
+<th>编号</th>
+<th>假设</th>
+<th>影响</th>
+<th>确认人</th>
+<th>状态</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>A-01</td>
+<td>项目边界和测绘资料准确</td>
+<td>体量、面积和退界</td>
+<td>业主/测绘</td>
+<td>待确认</td>
+</tr>
+<tr>
+<td>A-02</td>
+<td>用途分类与运营模式已确认</td>
+<td>消防、面积和设备</td>
+<td>业主/建筑师</td>
+<td>待确认</td>
+</tr>
+<tr>
+<td>A-03</td>
+<td>采用当前法规版本</td>
+<td>合规结论</td>
+<td>建筑师/AHJ</td>
+<td>待确认</td>
+</tr>
+<tr>
+<td>A-04</td>
+<td>结构和机电顾问参与</td>
+<td>技术协调</td>
+<td>项目经理</td>
+<td>待确认</td>
+</tr>
+</tbody>
+</table>
+
 
 ### 约束与响应
 
-| 约束类别 | 约束内容 | 设计响应 | 证据或待核验事项 |
-| --- | --- | --- | --- |
-| 规划 | 高度、退界、FAR、建蔽率 | 体量和楼层控制 | 规划批文、分区条款 |
-| 消防 | 占用人数、出口、耐火、喷淋 | 防火分区和疏散方案 | 消防规范及 AHJ |
-| 无障碍 | 连续路径、坡道、电梯、卫生间 | 通用设计路径 | 无障碍法规和现场条件 |
-| 环境 | 日照、能耗、热工、碳 | 围护和系统策略 | 模拟、能源规范、认证 |
-| 结构 | 风、地震、雪、荷载 | 结构体系和柱网 | 结构顾问复核 |
-| 施工 | 场地、吊装、材料、工期 | 分期和节点设计 | 承包商与施工方法 |
+<table width="100%">
+<thead><tr>
+<th>约束类别</th>
+<th>约束内容</th>
+<th>设计响应</th>
+<th>证据或待核验事项</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>规划</td>
+<td>高度、退界、FAR、建蔽率</td>
+<td>体量和楼层控制</td>
+<td>规划批文、分区条款</td>
+</tr>
+<tr>
+<td>消防</td>
+<td>占用人数、出口、耐火、喷淋</td>
+<td>防火分区和疏散方案</td>
+<td>消防规范及 AHJ</td>
+</tr>
+<tr>
+<td>无障碍</td>
+<td>连续路径、坡道、电梯、卫生间</td>
+<td>通用设计路径</td>
+<td>无障碍法规和现场条件</td>
+</tr>
+<tr>
+<td>环境</td>
+<td>日照、能耗、热工、碳</td>
+<td>围护和系统策略</td>
+<td>模拟、能源规范、认证</td>
+</tr>
+<tr>
+<td>结构</td>
+<td>风、地震、雪、荷载</td>
+<td>结构体系和柱网</td>
+<td>结构顾问复核</td>
+</tr>
+<tr>
+<td>施工</td>
+<td>场地、吊装、材料、工期</td>
+<td>分期和节点设计</td>
+<td>承包商与施工方法</td>
+</tr>
+</tbody>
+</table>
+
 
 ### 风险登记
 
-| 风险 | 概率 | 影响 | 缓解措施 | 责任方 |
-| --- | --- | --- | --- | --- |
-| 法规版本变化 | 中 | 高 | 记录核验日期并持续监测 | 建筑师 |
-| 地方审批口径不明确 | 中 | 高 | 尽早咨询 AHJ | 项目经理 |
-| 关键尺寸未协调 | 中 | 中 | 进行跨专业模型审查 | BIM 负责人 |
-| 材料供应不稳定 | 中 | 中 | 预审替代材料和供应商 | 材料顾问 |
-| 维护空间不足 | 低 | 高 | 运行维护审查和可达性检查 | 机电顾问 |
+<table width="100%">
+<thead><tr>
+<th>风险</th>
+<th>概率</th>
+<th>影响</th>
+<th>缓解措施</th>
+<th>责任方</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>法规版本变化</td>
+<td>中</td>
+<td>高</td>
+<td>记录核验日期并持续监测</td>
+<td>建筑师</td>
+</tr>
+<tr>
+<td>地方审批口径不明确</td>
+<td>中</td>
+<td>高</td>
+<td>尽早咨询 AHJ</td>
+<td>项目经理</td>
+</tr>
+<tr>
+<td>关键尺寸未协调</td>
+<td>中</td>
+<td>中</td>
+<td>进行跨专业模型审查</td>
+<td>BIM 负责人</td>
+</tr>
+<tr>
+<td>材料供应不稳定</td>
+<td>中</td>
+<td>中</td>
+<td>预审替代材料和供应商</td>
+<td>材料顾问</td>
+</tr>
+<tr>
+<td>维护空间不足</td>
+<td>低</td>
+<td>高</td>
+<td>运行维护审查和可达性检查</td>
+<td>机电顾问</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 版本记录
 
-| 版本 | 说明 |
-| --- | --- |
-| 1.0.0 | 全球注册建筑师技能框架，含十个国家/地区法规专题和七个计算器。 |
-| 翻译版 | 英文自然语言转为简体中文，保留文件名、代码、标准编号和程序标识。 |
-| OmniAiLab 版 | 统一 OmniAiLab 元数据、MIT License、署名和交付边界。 |
+<table width="100%">
+<thead><tr>
+<th>版本</th>
+<th>说明</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1.0.0</td>
+<td>全球注册建筑师技能框架，含十个国家/地区法规专题和七个计算器。</td>
+</tr>
+<tr>
+<td>翻译版</td>
+<td>英文自然语言转为简体中文，保留文件名、代码、标准编号和程序标识。</td>
+</tr>
+<tr>
+<td>OmniAiLab 版</td>
+<td>统一 OmniAiLab 元数据、MIT License、署名和交付边界。</td>
+</tr>
+</tbody>
+</table>
+
 
 本文件与 `SKILL.md`、`skills/`、`LICENSE` 和计算脚本共同构成当前技能包。任何后续改造都应保留目录结构、调用路径和程序标识，除非改造任务明确要求变更。
 
@@ -535,27 +760,111 @@ registered-architect/
 
 ## 专项技能索引
 
-| 编号 | 技能 | 主要用途 |
-| --- | --- | --- |
-| 1 | `architect-foundations` | 建筑基础知识、理论家、定量规则和技能路由 |
-| 2 | `geographic-foundations` | 国家、地区、气候和法规路由 |
-| 3 | `design-theory` | 建筑理论、设计哲学、思潮和宣言 |
-| 4 | `concept-design` | 概念生成、体量、形态和设计策略 |
-| 5 | `building-programming` | 功能策划、面积标准、邻接关系和任务书 |
-| 6 | `building-typology` | 住宅、办公、商业、教育、医疗和文化建筑类型 |
-| 7 | `spatial-planning` | 核心筒、空间组织、流线和面积效率 |
-| 8 | `building-envelope` | 墙体、屋面、玻璃、幕墙和热工性能 |
-| 9 | `structural-systems` | 结构体系、跨度、荷载路径和构造类型 |
-| 10 | `building-services` | HVAC、给排水、电气、机房和机电协调 |
-| 11 | `daylighting-design` | 日光、太阳几何、遮阳和模拟 |
-| 12 | `acoustic-design` | 隔声、房间声学、混响和噪声控制 |
-| 13 | `material-selection` | 材料性能、生命周期、成本和规范编制 |
-| 14 | `fire-life-safety` | 防火分区、疏散、报警、喷淋和消防策略 |
-| 15 | `accessibility-design` | 无障碍、通用设计和国际法规比较 |
-| 16 | `building-codes` | IBC、Eurocodes、NCC、NBC 和全球规范框架 |
-| 17 | `building-sustainability` | 能源、碳、认证、被动式设计和水资源 |
-| 18 | `construction-documentation` | 图纸标准、规范、BIM、RFI 和施工管理 |
-| 19 | `architect-calculator` | 面积、U 值、日照、疏散、结构、能源和成本计算 |
+<table width="100%">
+<thead><tr>
+<th>编号</th>
+<th>技能</th>
+<th>主要用途</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>architect-foundations</code></td>
+<td>建筑基础知识、理论家、定量规则和技能路由</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>geographic-foundations</code></td>
+<td>国家、地区、气候和法规路由</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>design-theory</code></td>
+<td>建筑理论、设计哲学、思潮和宣言</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>concept-design</code></td>
+<td>概念生成、体量、形态和设计策略</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>building-programming</code></td>
+<td>功能策划、面积标准、邻接关系和任务书</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>building-typology</code></td>
+<td>住宅、办公、商业、教育、医疗和文化建筑类型</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>spatial-planning</code></td>
+<td>核心筒、空间组织、流线和面积效率</td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>building-envelope</code></td>
+<td>墙体、屋面、玻璃、幕墙和热工性能</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>structural-systems</code></td>
+<td>结构体系、跨度、荷载路径和构造类型</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>building-services</code></td>
+<td>HVAC、给排水、电气、机房和机电协调</td>
+</tr>
+<tr>
+<td>11</td>
+<td><code>daylighting-design</code></td>
+<td>日光、太阳几何、遮阳和模拟</td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>acoustic-design</code></td>
+<td>隔声、房间声学、混响和噪声控制</td>
+</tr>
+<tr>
+<td>13</td>
+<td><code>material-selection</code></td>
+<td>材料性能、生命周期、成本和规范编制</td>
+</tr>
+<tr>
+<td>14</td>
+<td><code>fire-life-safety</code></td>
+<td>防火分区、疏散、报警、喷淋和消防策略</td>
+</tr>
+<tr>
+<td>15</td>
+<td><code>accessibility-design</code></td>
+<td>无障碍、通用设计和国际法规比较</td>
+</tr>
+<tr>
+<td>16</td>
+<td><code>building-codes</code></td>
+<td>IBC、Eurocodes、NCC、NBC 和全球规范框架</td>
+</tr>
+<tr>
+<td>17</td>
+<td><code>building-sustainability</code></td>
+<td>能源、碳、认证、被动式设计和水资源</td>
+</tr>
+<tr>
+<td>18</td>
+<td><code>construction-documentation</code></td>
+<td>图纸标准、规范、BIM、RFI 和施工管理</td>
+</tr>
+<tr>
+<td>19</td>
+<td><code>architect-calculator</code></td>
+<td>面积、U 值、日照、疏散、结构、能源和成本计算</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 交付前检查清单
 
@@ -568,23 +877,75 @@ registered-architect/
 
 ## 统计概览
 
-| 项目 | 数量或范围 |
-| --- | --- |
-| 核心技能 | 18 项 |
-| 地理法规专题 | 10 个国家/地区 |
-| Python 计算器 | 7 个 |
-| 建筑师与理论家 | 50+ |
-| 建筑思潮 | 20+ |
-| 可持续性认证框架 | 8+ |
-| 建筑类型 | 28+ |
-| 结构体系 | 15+ |
-| HVAC 系统类型 | 12+ |
-| 墙体构造 | 15+ |
-| 楼板构造 | 11+ |
-| 玻璃构造 | 14+ |
-| 材料吸声系数 | 32+ |
-| 参考建筑案例 | 100+ |
-| 尺寸标准 | 200+ |
+<table width="100%">
+<thead><tr>
+<th>项目</th>
+<th>数量或范围</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>核心技能</td>
+<td>18 项</td>
+</tr>
+<tr>
+<td>地理法规专题</td>
+<td>10 个国家/地区</td>
+</tr>
+<tr>
+<td>Python 计算器</td>
+<td>7 个</td>
+</tr>
+<tr>
+<td>建筑师与理论家</td>
+<td>50+</td>
+</tr>
+<tr>
+<td>建筑思潮</td>
+<td>20+</td>
+</tr>
+<tr>
+<td>可持续性认证框架</td>
+<td>8+</td>
+</tr>
+<tr>
+<td>建筑类型</td>
+<td>28+</td>
+</tr>
+<tr>
+<td>结构体系</td>
+<td>15+</td>
+</tr>
+<tr>
+<td>HVAC 系统类型</td>
+<td>12+</td>
+</tr>
+<tr>
+<td>墙体构造</td>
+<td>15+</td>
+</tr>
+<tr>
+<td>楼板构造</td>
+<td>11+</td>
+</tr>
+<tr>
+<td>玻璃构造</td>
+<td>14+</td>
+</tr>
+<tr>
+<td>材料吸声系数</td>
+<td>32+</td>
+</tr>
+<tr>
+<td>参考建筑案例</td>
+<td>100+</td>
+</tr>
+<tr>
+<td>尺寸标准</td>
+<td>200+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## 版本与维护
 
