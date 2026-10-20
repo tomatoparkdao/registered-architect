@@ -34,5 +34,9 @@ agent_created: true
 
 提供设计审查或建议时，应说明：待确认的适用地区与标准版本、适用约束、设计响应和后续核验事项。不得将初步建议表述为审批结论或认证结果。
 
+## 开源社区
+
+用法讨论、口径争议与问题反馈走开源社区：[Discord · discord.gg/vdgTEpXMh3](https://discord.gg/vdgTEpXMh3)。可复现的问题与功能建议请同时落到仓库 issue，便于检索与追踪。
+
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
