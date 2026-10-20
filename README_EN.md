@@ -220,10 +220,10 @@ Codes and editions:  code number + edition + verification date
 
 | ID | Assumption | Area of impact | Confirmed by | Status |
 |---|---|---|---|---|
-| A-01 | Site boundary and survey are accurate | Massing, areas, setbacks, fire lanes | Client / surveyor | Open |
-| A-02 | Occupancy class and operating model are fixed | Fire class, occupant load, equipment loads | Client / architect | Open |
-| A-03 | Current editions of codes are adopted | Validity of every compliance conclusion | Architect / AHJ | Open |
-| A-04 | Structural and MEP consultants are engaged | Grid, floor-to-floor, shafts, plant rooms | Project manager | Open |
+| A-01 | Site boundary, coordinates and existing survey are accurate | Massing, floor area, setbacks, fire lane and aerial access | Client / surveyor | Open |
+| A-02 | Occupancy class, operating model and trading hours are fixed | Fire hazard class, occupant density, equipment loads | Client / architect | Open |
+| A-03 | The code editions currently in force are adopted | Validity of every compliance conclusion, including local supplements | Architect / AHJ | Open |
+| A-04 | Structural and MEP consultants are engaged and have issued loads | Grid, floor-to-floor, shafts, plant rooms, clear height | Project manager | Open |
 
 ### Constraints and responses
 
@@ -276,14 +276,14 @@ A fixed prefix keeps the review chain traceable; the order is the work order.
 
 | File | Content | Audience |
 |---|---|---|
-| `01_project-brief.md` | Project summary, key assumptions, stage | Client, project manager |
-| `02_code-route.md` | Jurisdiction determination, code tiers, editions, verification dates | Architect, AHJ |
-| `03_program.md` | Programme, area schedule, adjacencies | Client, operator |
-| `04_concept-options.md` | Concept, massing comparison, environmental response | Client, design review |
-| `05_performance.md` | Environmental, structural, fire and accessibility performance | Specialist consultants |
-| `06_materials.md` | Envelope and material strategy, equivalence evidence | Materials consultant, contractor |
-| `07_documentation.md` | Drawings, specifications, BIM coordination | Contractor, reviewer |
-| `08_review-log.md` | Review comments, RFI, ASI, decision record | Whole project team |
+| `01_project-brief.md` | Project summary, key assumptions, design stage and known constraints | Client, project manager, discipline leads |
+| `02_code-route.md` | Jurisdiction determination, code tiers, editions, verification dates and open questions | Architect, AHJ, fire and planning authorities |
+| `03_program.md` | Programme, area schedule, adjacencies and capacity checks | Client, operator, programming consultant |
+| `04_concept-options.md` | Concept, massing comparison and environmental response, with the reasoning for each option | Client, design review panel, design team |
+| `05_performance.md` | Environmental, structural, fire and accessibility performance with review responsibilities | Specialist consultants, plan-check authority |
+| `06_materials.md` | Envelope and material strategy, equivalence evidence and sample schedule | Materials consultant, contractor, suppliers |
+| `07_documentation.md` | Drawings, specifications, BIM coordination and required level of detail | Contractor, construction-document reviewer |
+| `08_review-log.md` | Review comments, RFI, ASI and decision record | Whole project team, client representative, auditor |
 
 ## Repository Layout
 
@@ -352,18 +352,18 @@ When input is insufficient it lists the gaps instead of assuming critical condit
 
 | Item | Count | Notes |
 |---|---|---|
-| Professional modules | 18 | Spanning base, design, technical, compliance and delivery layers |
-| Jurisdiction packs | 10 | China, USA, UK, Germany, Japan, Singapore, Australia, India, UAE, Saudi Arabia |
-| Calculators | 7 | Standard library only; `--json` for records |
-| Reference documents | 883 | Including 848 for mainland China: 426 code and atlas entries + 414 text fragments |
-| Knowledge base | ~1.13M lines of Markdown | 919 files, module bodies plus references |
-| Architects and theorists | 50+ | Vitruvius to Kéré, with representative works and applicable context |
-| Architectural movements | 20+ | Modernism, postmodernism, critical regionalism, parametricism, phenomenology and more |
-| Building types | 28+ | Residential, commercial, institutional, industrial, special subtypes |
-| Structural systems | 15+ | Concrete, steel, timber, masonry, precast, cable, space frame, shell, composite |
-| Sustainability schemes | 8+ | LEED, BREEAM, WELL, Green Star, NABERS, DGNB, CASBEE, Estidama, Mostadamah |
-| Reference cases | 100+ | For precedent analysis and detailing comparison |
-| Dimensions and rules of thumb | 200+ | Floor-to-floor, grids, efficiency, corridors, parking, lifts, fire resistance |
+| Professional modules | 18 | Spanning the base, design, technical, compliance and delivery layers, each with its own criteria and red lines |
+| Jurisdiction packs | 10 | China, USA, UK, Germany, Japan, Singapore, Australia, India, UAE, Saudi Arabia, each with authorities and review paths |
+| Calculators | 7 | Standard library only; `--json` output for records or for batch checks inside project scripts |
+| Reference documents | 883 | Including 848 for mainland China: 426 code and atlas entries plus 414 body-text fragments |
+| Knowledge base | ~1.13M lines of Markdown | 919 files covering module bodies, references, templates and clause fragments |
+| Architects and theorists | 50+ | Vitruvius to Kéré, with representative works, design principles and applicable context |
+| Architectural movements | 20+ | Modernism, postmodernism, critical regionalism, parametricism, phenomenology and criticism |
+| Building types | 28+ | Residential, commercial, institutional, industrial and special subtypes with spatial organisation notes |
+| Structural systems | 15+ | Concrete, steel, timber, masonry, precast, cable-stayed, space frame, shell and composite |
+| Sustainability schemes | 8+ | LEED, BREEAM, WELL, Green Star, NABERS, DGNB, CASBEE, Estidama and Mostadamah criteria |
+| Reference cases | 100+ | Used for precedent analysis, detailing comparison and side-by-side option review |
+| Dimensions and rules of thumb | 200+ | Floor-to-floor, structural grids, efficiency, corridors, parking, lifts and fire resistance |
 
 ## Version History
 
