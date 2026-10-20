@@ -4,7 +4,10 @@ import torch
 
 root=Path(__file__).resolve().parent.parent
 manifest=root/'batch'/'batch_manifest.json'
-records=json.loads(manifest.read_text(encoding='utf8'))['records'] if manifest.exists() else []
+state=json.loads(manifest.read_text(encoding='utf8')) if manifest.exists() else {}
+records=list(state.get('records', []))
+for relative in state.get('record_shards', []):
+    records.extend(json.loads((manifest.parent/relative).read_text(encoding='utf8'))['records'])
 gpu=subprocess.run(['nvidia-smi','--query-gpu=name,memory.total,driver_version','--format=csv,noheader'],capture_output=True,text=True).stdout.strip()
 success=len({x['source_path'] for x in records if x['status']=='geometry_extracted'})
 report=f'''# GPU 执行报告

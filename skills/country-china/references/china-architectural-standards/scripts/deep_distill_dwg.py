@@ -44,7 +44,40 @@ def write_json(path: Path, payload):
     # ASCII escapes keep the structured record valid without crashing a batch.
     encoded = json.dumps(payload, ensure_ascii=True, separators=(",", ":"))
     if len(encoded.encode("utf-8")) >= MAX_BYTES:
-        raise RuntimeError(f"refusing oversized output: {path}")
+        # Large entity collections remain queryable through the original file
+        # name, while records are split into independently size-auditable JSON
+        # shards.  This is intentionally data-only: no source DWG is copied.
+        collection_keys = [key for key, value in payload.items() if isinstance(value, list)] if isinstance(payload, dict) else []
+        if not collection_keys:
+            raise RuntimeError(f"refusing oversized non-collection output: {path}")
+        key = max(collection_keys, key=lambda item: len(json.dumps(payload[item], ensure_ascii=True)))
+        records = payload[key]
+        if not records:
+            raise RuntimeError(f"refusing oversized empty collection output: {path}")
+        shard_dir = path.parent / f"{path.stem}_shards"
+        shard_dir.mkdir(parents=True, exist_ok=True)
+        base = {name: value for name, value in payload.items() if name != key}
+        shard_names = []
+        chunk = []
+        for record in records:
+            candidate = chunk + [record]
+            candidate_payload = {key: candidate}
+            if chunk and len(json.dumps(candidate_payload, ensure_ascii=True, separators=(",", ":")).encode("utf-8")) >= MAX_BYTES - 4096:
+                shard_name = f"{path.stem}-{len(shard_names)+1:04d}.json"
+                (shard_dir / shard_name).write_text(json.dumps({key: chunk}, ensure_ascii=True, separators=(",", ":")), encoding="utf-8")
+                shard_names.append(f"{shard_dir.name}/{shard_name}")
+                chunk = [record]
+            else:
+                chunk = candidate
+        if len(json.dumps({key: chunk}, ensure_ascii=True, separators=(",", ":")).encode("utf-8")) >= MAX_BYTES:
+            raise RuntimeError(f"single record exceeds size limit: {path}")
+        shard_name = f"{path.stem}-{len(shard_names)+1:04d}.json"
+        (shard_dir / shard_name).write_text(json.dumps({key: chunk}, ensure_ascii=True, separators=(",", ":")), encoding="utf-8")
+        shard_names.append(f"{shard_dir.name}/{shard_name}")
+        payload = {**base, "sharded": True, "record_key": key, "record_count": len(records), "record_shards": shard_names}
+        encoded = json.dumps(payload, ensure_ascii=True, separators=(",", ":"))
+        if len(encoded.encode("utf-8")) >= MAX_BYTES:
+            raise RuntimeError(f"refusing oversized shard index: {path}")
     path.write_text(encoded, encoding="utf-8")
 
 
@@ -456,4 +489,8 @@ def main():
     sizes = [{"path": str(x.relative_to(out)).replace("\\", "/"), "bytes": x.stat().st_size} for x in out.rglob("*") if x.is_file()]
     if any(x["bytes"] >= MAX_BYTES for x in sizes): raise RuntimeError("size audit failed")
     write_json(out / "reports" / "size_audit.json", {"status": "pass", "files": sizes})
-    print(json.dumps({"status": "geometry_extracted", "devic
+    print(json.dumps({"status": "geometry_extracted", "device": gpu_name, "entities": len(geometry)+len(texts)+len(dimensions), "bounds": recipe["verification"]["expected_bounds"]}, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    main()

@@ -4,7 +4,7 @@
 - PyTorch：2.11.0+cu128
 - CUDA 可用：True
 - 实际设备：NVIDIA GeForce RTX 4070
-- 已完成深度处理的 DWG：276
+- 已完成深度处理的 DWG：561
 
 ## GPU 阶段
 
