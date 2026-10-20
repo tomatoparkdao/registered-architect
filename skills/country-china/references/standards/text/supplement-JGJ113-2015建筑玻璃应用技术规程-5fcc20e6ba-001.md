@@ -1,6 +1,6 @@
 
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 ## 第 1 页
 
@@ -910,4 +910,4 @@ G豉蓝足脆性廿刊。不笔与式他#朴硬
 143 堙!引龙的鬟尽娈形所茜戒耐框琴!氏。:柞外力怙逄 到珑剪上。斫以应迭用弹住密封升料八吸收这外力
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

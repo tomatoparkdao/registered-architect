@@ -11,7 +11,7 @@ agent_created: true
 
 # 中国建筑设计规范资料目录
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 覆盖用户资料库中的 PDF、Word 及补充资料：原始 PDF 资料共 253 个；新增“建筑面积计算”资料已完成 5/5 个 Word/PDF 的文本化。文本型资料已拆分为 Markdown 分片；扫描/无法可靠提取的资料标记为 `OCR_REQUIRED`，不得将其当作已完成条文库。新增资料集（细部构造与建筑设计资料集）另见 `supplemental-source-inventory.md`，全部 DWG 已按要求跳过。
 
@@ -279,4 +279,4 @@ agent_created: true
 | 超高层核心筒研究-天津津塔 | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/2.  民用建筑/超高层核心筒研究-天津津塔.pdf` | 19 | `TEXT_EXTRACTED` | [超高层核心筒研究-天津津塔-68ea41d4.md](超高层核心筒研究-天津津塔-68ea41d4.md) |
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

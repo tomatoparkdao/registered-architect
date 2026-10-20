@@ -24,4 +24,4 @@ agent_created: true
 这些文件仍可通过 `source-inventory.md` 精确定位。待获得兼容解析器后，应将其转换为 Markdown，并补入 `office/README.md` 或对应主题目录；不得把二进制文件复制进 Skill。
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

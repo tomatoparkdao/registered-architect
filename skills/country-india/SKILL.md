@@ -24,7 +24,7 @@ agent_created: true
 
 # 国家：印度
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 适用于印度任何州或联邦属地项目的建筑规范与法规参考。当项目位于印度、提及印度城市、印度卢比或 “square feet built-up” / “carpet area” / “lakh” / “crore” 等面积或金额单位，或提及 NBC、ECBC、IS 系列规范时启用本技能。
 
@@ -547,4 +547,4 @@ NBC 2016 **没有**与 IBC 表 504 等效的单一“高度—结构类型”表
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

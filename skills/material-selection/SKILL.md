@@ -12,7 +12,7 @@ agent_created: true
 
 # 材料选择
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 建筑材料选择综合知识库，涵盖结构性能、耐久性、热工与声学性能、耐火性、隐含碳、成本和美学品质。涉及材料规格、材料比较、生命周期评估、隐含碳目标、材料节点、饰面选择或材料适配型设计策略时调用本技能。
 
@@ -657,4 +657,4 @@ Total carbon = Embodied carbon (A1-A5, B1-B5, C1-C4) + Operational carbon (B6-B7
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

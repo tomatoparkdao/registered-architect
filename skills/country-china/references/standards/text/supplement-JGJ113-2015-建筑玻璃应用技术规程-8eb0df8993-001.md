@@ -1,6 +1,6 @@
 
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 ## 第 1 页
 
@@ -324,4 +324,4 @@ h =乞 (A.0.1-1) 式中: ht -玻璃热导[V /(m? K)]; 玻璃导热系数[V /(m }
 12.4 玻璃抗侧移的安装 12.4.1  玻璃的四边应留有间隙; 框架允许水平娈形量应大于因 楼层娈形引起的框架娈形量。 12.4.2 框架允许水平变形量应按下式计算: Au = 24(1+ 甓)+s (12.4.2) 式中: Au -框架允许水平娈形量 (mm) ~玻璃与框架纵向间隙 (mm) ~玻璃与框架横向间隙 (mm) H -框架槽内高度 (mm); V一 框架槽内宽度 (mm) $误差, 12.4.3 可取 Zmm~3mm。 于 2OHM。 骏:矣装采用的篱封胶的位穆能力级别不应小 38  
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

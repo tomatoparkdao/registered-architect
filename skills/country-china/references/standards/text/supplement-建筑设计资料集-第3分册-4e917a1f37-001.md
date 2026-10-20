@@ -1,4 +1,4 @@
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 
 
@@ -397,7 +397,7 @@ ONC
 SOIN
 # UI 口wuu
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 THING TaAN1+
 回乐准层帚厦布量帚#囤
 川搴量U $SOTI "寸门(Lr 芰寸SNIIi) N。 甚-] ,ILLKCeNryL LE+T。 NETAT
@@ -9050,4 +9050,4 @@ c4诈讧[夜莲炕憝计有]公司 大迮万达1山眨`有}公司 大迮凸璧�
 317
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

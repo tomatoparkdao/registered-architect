@@ -11,7 +11,7 @@ agent_created: true
 
 # 定量标准参考
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 ## 建筑设计数值、经验法则与规范派生指标
 
 > Sources: Neufert Architects' Data (5th Ed.), Architectural Graphic Standards (12th Ed.),
@@ -788,4 +788,4 @@ Source: BRE IP 1/06; Accredited Construction Details (UK); PHI certification lim
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -3,7 +3,7 @@ name: registered-architect
 description: 面向全球注册建筑师与建筑设计专业人员的方案设计、规范审查、消防、无障碍、建筑技术与施工图工作。根据项目所在国家、地区、城市及适用规范路由到相应的法规专题；在作出合规结论前，必须核验现行强制性标准与地方要求。
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
+version: 1.1.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
@@ -11,7 +11,7 @@ agent_created: true
 
 # Registered Architect · 全球注册建筑师专业框架
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 本技能包服务于全球注册建筑师和建筑设计专业人员，覆盖设计理论、功能策划、建筑类型、空间规划、围护结构、结构、机电、采光、声学、消防、无障碍、可持续性、材料、施工图和十个国家/地区法规专题。它提供设计决策与规范核验的工作框架，不替代当地注册专业人员、主管部门或现行法律法规。
 
@@ -34,4 +34,4 @@ agent_created: true
 提供设计审查或建议时，应说明：待确认的适用地区与标准版本、适用约束、设计响应和后续核验事项。不得将初步建议表述为审批结论或认证结果。
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

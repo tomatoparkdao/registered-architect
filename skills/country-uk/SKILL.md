@@ -15,7 +15,7 @@ agent_created: true
 
 # 国家：英国
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 适用于英格兰、威尔士、苏格兰和北爱尔兰项目的建筑规范与法规参考。当出现任何英国相关内容、GBP 货币、提及“Approved Document”/“AD-B”/“Part L”/“Part M”、BSI/英国标准、BS 8300、《建筑安全法》、BSR、格伦费尔相关外墙问题、NPPF、伦敦规划、EPC/SAP/SBEM、BREEAM、英国版本 RIBA 工作计划、MEES 或 LABC 时，启用此技能。
 
@@ -473,4 +473,4 @@ agent_created: true
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -11,7 +11,7 @@ agent_created: true
 
 # MEP 协调：综合参考
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 本参考为建筑实践中的机械、电气和给排水协调提供详细指南，涵盖分区规划、吊顶夹层分配、设备管线路由层级、管井尺寸、设备机房面积、地下管线、屋面设备屏蔽及协调案例。
 
@@ -332,4 +332,4 @@ agent_created: true
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

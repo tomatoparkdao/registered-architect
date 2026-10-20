@@ -12,7 +12,7 @@ agent_created: true
 
 # 国家：美利坚合众国
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 适用于美国各州、领地和哥伦比亚特区项目的建筑规范与法规参考。当出现美国城市/州、USD 货币、平方英尺/英制单位、提及“IBC”/“IRC”/“IECC”/“NFPA”/“ASCE 7”/“ADA”/“Title 24”/“CalGreen”/“NYC BC”、州建筑部门/AHJ，或 LEED/ENERGY STAR 时，启用此技能。
 
@@ -465,4 +465,4 @@ FHA 适用于 1991 年 3 月以后首次投入使用的所有 4 套及以上住�
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

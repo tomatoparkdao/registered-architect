@@ -11,7 +11,7 @@ agent_created: true
 
 # 体量研究方法——深度参考
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 涵盖建筑体量研究的综合参考，包括太阳包络法、风舒适度评估、视线廊道分析、阴影影响分析、语境化高度与体量控制、容积率优化、自然通风体量设计，以及 10 多个示范性体量策略案例。
 
@@ -424,4 +424,4 @@ Lawson 舒适度准则（依据布里斯托大学 T.V. Lawson，1975/2001）规�
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

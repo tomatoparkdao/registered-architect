@@ -24,4 +24,4 @@ source_pages: 72
 - [jgj62-2014旅馆建筑设计规范-dbebcb19-001.md](text/jgj62-2014旅馆建筑设计规范-dbebcb19-001.md)
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

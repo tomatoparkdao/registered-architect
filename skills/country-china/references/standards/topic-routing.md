@@ -11,7 +11,7 @@ agent_created: true
 
 # 中国建筑规范主题路由
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 调用中国规范时，先识别项目主题，再打开 `README.md` 的原文件记录。规范编号、版本和适用地域必须作为检索条件；不能仅凭文件标题作合规结论。
 
@@ -45,4 +45,4 @@ agent_created: true
 5. 输出任何数值或合规结论时，标记来源文件、版本状态和需要复核的官方渠道。
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

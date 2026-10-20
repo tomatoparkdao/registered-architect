@@ -16,7 +16,7 @@ agent_created: true
 
 # 建筑师计算器
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 这是一套用于快速建筑设计计算的七个命令行 Python 计算器。每个计算器均通过
 命令行参数接收输入、校验输入内容，并输出便于阅读的结果或结构化 JSON。
@@ -374,4 +374,4 @@ JSON 输出（`--json` 标志）可用于集成至：
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

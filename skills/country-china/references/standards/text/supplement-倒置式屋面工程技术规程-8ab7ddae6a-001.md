@@ -1,6 +1,6 @@
 
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 ## 第 1 页
 
@@ -755,4 +755,4 @@ n妆内窄士|什对。罡:屉直人量尕用的爷申村升下  式焦护层葩
 `廿易莅起3脱幕 -出固定措旋要符合设计婴求。 升且 爝式聿凹 {6,7 目前 -苠惦丁单僮升现瓷保护层的质f真视不O, 使水泥砂紧 石批氍土保护尽表酊出比裂-。足元 起钞升 逆闱@b霞4开孰蠖扭 ~此付{死砂侬。怅泥北r土 果护层的雨#耍来。除+足墨度 1木坟度的迓计耍求外。还妄 V宅4外度要求。
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

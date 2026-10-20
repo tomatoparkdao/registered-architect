@@ -1,4 +1,4 @@
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 
 
@@ -80,7 +80,7 @@ J1 J2 J8 J9 JI0 71
 备 ^注
 # C3 cS  C5 C6 适用于地下车库 # C6 适用于地下车库 C7 适用于地下车库 # C8 砖墙为非粘土普通烧结砖墙 " 窗井选用表 图集号 07J306 厣杨杨文舂[燕岙对胡洪趔}<.迓设c田菀华页愆l 页 C1
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 聚碳酸酯板。压型钢板
 钢筋混凝土盖板
 金属箅子
@@ -889,4 +889,4 @@ QlCo 德国亚科预制成品线性排水系统相关技术资料
 张生友 010-68799100 国标恩热线电话 ) 010-68318822 (发行电话 )
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

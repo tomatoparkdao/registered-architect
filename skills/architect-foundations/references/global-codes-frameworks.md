@@ -11,7 +11,7 @@ agent_created: true
 
 # 全球建筑规范与法规框架
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 ## 建筑设计合规综合参考
 
 > 本参考介绍全球主要建筑规范与标准的结构、范围及关键条款，是导航性指南；引用任何规范时，务必依据其现行版本进行核验。
@@ -631,4 +631,4 @@ NCC 按以下层级运行：目标 → 功能性陈述 → 性能要求 → “�
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

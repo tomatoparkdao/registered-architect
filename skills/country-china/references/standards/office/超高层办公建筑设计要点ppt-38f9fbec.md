@@ -12,7 +12,7 @@ source_status: TEXT_EXTRACTED
 
 # 超高层办公建筑设计要点PPT
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 - 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/2.  民用建筑/超高层办公建筑设计要点PPT.pptx`
 - 文本状态：`TEXT_EXTRACTED`
@@ -754,4 +754,4 @@ d.穿梭梯的平均间隔时间＜30s，本区电梯间隔时间＜35s。各区
 5.0.3 综合楼内的办公部分的疏散出入口不应与同一楼内对外的商场、营业厅、娱乐、餐饮等人员密集场所的疏散出入口共用。
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

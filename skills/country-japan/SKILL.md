@@ -17,7 +17,7 @@ agent_created: true
 
 # 国家：日本
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 适用于日本项目（47 个都道府县及东京都）的建筑规范与法规参考。当提及日本城市/都道府县、JPY 货币、“Kenchiku Kijun Ho”/“BSL”/“Sho-Energy Ho”/“CASBEE”/“AIJ”/“BCJ”/“Shintaishin”，或日本建筑术语（yoseki-ritsu、kenpei-ritsu、kakunin-shinsei、kanseikensa、joryoku-do、koshou-tatemono、mokuzo）时启用本技能。
 
@@ -502,4 +502,4 @@ BCJ issues evaluation certificate which the Confirmation Inspection Agency relie
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

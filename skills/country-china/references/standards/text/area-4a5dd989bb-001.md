@@ -1,6 +1,6 @@
 
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 ## 第 1 页
 
@@ -214,4 +214,4 @@ NT is
 十裁忾月卫麈列充}母@.y6耻寺#小俣上人4r 昙拄慕布 ,布罾灯光及市干搭设的天柝{祧介夺构仵议篪; 弛笑钩内不构戢结肉层肉探作平台.上粹平台(工』厂v 揠卅蝽利4仓夺纨中的辽备暹作控劐平1,上4平{竽) .儿土 戛作用为字内杓艾杓立迓备及)的独立匕人设蓖.因比下计并 n面熙; 川aL兄: |l止裂 止' 窒爿网窿膺丐妄区牙4]用译 ,妒幸用于消防k槿礴 ,翦 不计并憩筑酊思,如果晃矬_芄钩r 遁进,蓑用丁岿#,则*要苌 $巩惩弟 !0.20 条|算徒芄囱
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

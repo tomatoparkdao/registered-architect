@@ -11,7 +11,7 @@ agent_created: true
 
 # 建筑师、理论家与建筑运动：综合参考
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 > 按时间顺序整理 50 多位建筑师和 20 个建筑运动。每个条目均提供设计思想、代表性技法及其适用场景。
 
@@ -728,4 +728,4 @@ building-typology-taxonomy.md file for program-specific architectural guidance.*
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

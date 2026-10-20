@@ -12,7 +12,7 @@ agent_created: true
 
 # 设计理论
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 建筑设计哲学、批判理论、构图原则、先例分析方法和设计评析框架的综合知识库。涉及设计哲学、建筑运动、设计决策的理论基础或建筑方案的结构化评析时调用本技能。
 
@@ -559,4 +559,4 @@ LIMITATIONS (what does not transfer):
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

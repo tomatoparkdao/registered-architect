@@ -17,7 +17,7 @@ agent_created: true
 
 # 国家：德国
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 适用于德国 16 个 Bundeslaender（联邦州）项目的建筑规范与法规参考。当提及德国城市、德国语境下的 EUR 货币、“DIN”/“LBO”/“GEG”/“MBO”/“BayBO”/“Energieausweis”/“Brandschutznachweis”/“Effizienzhaus”/“DGNB”/“KfW”/“BauO”，或德国技术术语（Geschossflaechenzahl、Grundflaechenzahl、Vollgeschoss、Bauantrag、Bauvoranfrage、Rohbau）时启用本技能。
 
@@ -513,4 +513,4 @@ DIN 18040-1 区分：
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

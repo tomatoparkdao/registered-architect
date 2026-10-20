@@ -1,28 +1,19 @@
----
-
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
-name: README.zh-CN
-description: 注册建筑师专业参考：README.zh-CN。
-license: MIT（OmniAiLab）—— 见 LICENSE
-platform: OmniAiLab
-version: 1.0.0
-author: OmniAiLab
-developer: Mochiball
-agent_created: true
----
-
 <h1 align="center">OmniAiLab 全球注册建筑师</h1>
 
 <p align="center">
-  <b>面向注册建筑师的全球建筑设计、规范核验与施工图 Skill</b><br>
-  从项目定位、法规路由到方案设计、技术协调与交付审查
+  <b>面向全球注册建筑师的规范路由、设计核验与交付审查 Skill —— 先定辖区，再谈设计</b><br>
+  29 个模块：18 项专业设计能力 ＋ 10 个司法辖区法规专题 ＋ 7 个计算器 ｜ 883 份参考文档 ｜ 约 113 万行专业资料<br>
+  项目定位 → 法规路由 → 功能与体量 → 技术协调 → 性能验证 → 施工图交付 → 合规审查<br>
+  规范只做路由与核验，不作审批结论 ｜ 零硬依赖可离线 ｜ 结构 / 消防 / 无障碍须当地持证人员复核签署
 </p>
 
 <p align="center">
   <a href="https://github.com/tomatoparkdao/registered-architect"><img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-1.1.0-1f6feb?style=flat-square" alt="版本 1.1.0"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-MIT-2ea043?style=flat-square" alt="许可 MIT"></a>
   <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-OmniAiLab-8957e5?style=flat-square" alt="平台 OmniAiLab"></a>
-  <img src="https://img.shields.io/badge/%E5%85%BC%E5%AE%B9-Codex_%7C_Claude_%7C_WorkBuddy_%7C_OmniAiLab-0969da?style=flat-square" alt="兼容 Codex / Claude / WorkBuddy / OmniAiLab">
+  <img src="https://img.shields.io/badge/%E5%9C%B0%E5%8C%BA-10_%E4%B8%AA%E5%8F%B8%E6%B3%95%E8%BE%96%E5%8C%BA-0e8a16?style=flat-square" alt="10 个司法辖区">
+  <img src="https://img.shields.io/badge/%E6%A8%A1%E5%9D%97-29_%E9%A1%B9-0969da?style=flat-square" alt="29 项模块">
+  <img src="https://img.shields.io/badge/%E5%85%BC%E5%AE%B9-Codex_%7C_Claude_%7C_WorkBuddy_%7C_OmniAiLab-6f42c1?style=flat-square" alt="兼容 Codex / Claude / WorkBuddy / OmniAiLab">
 </p>
 
 <p align="center">
@@ -31,927 +22,362 @@ agent_created: true
 
 > © OmniAiLab ｜ 开发者：Mochiball ｜ 平台：[omniailabx.com](https://www.omniailabx.com/)
 
-面向全球注册建筑师与建筑设计专业人员的规范驱动型 Skill，也是一个会引导你做判断的建筑设计决策系统。
-从项目所在地与适用法规判定开始，经过方案、技术设计、消防、无障碍、节能、施工图和规范核验，输出可追溯的设计判断与资料路由。
+这不是一个“生成方案”的创作工具，而是一个**会先问清辖区再下判断**的规范核验框架。它的第一动作不是画图，是确认项目在哪个国家、哪个城市、受哪一级强制性标准约束；确认不了就先列缺失项，而不是套一个别国的数值继续往下算。
 
-简体中文（默认）｜[English README](README_EN.md)
+同一个体量方案，放在迪拜、慕尼黑和新加坡要过的审查完全不同：迪拜看民防预审与外墙覆层，慕尼黑看 Brandschutznachweis 与州级 LBO，新加坡看 SCDF Fire Code 与 ETTV/RTTV。本技能把这套差异做成**可路由的结构**——先把辖区的监管体系、主管部门和规范层级摆清楚，再谈方案、技术、消防、无障碍、节能与施工图。
 
-本技能包以 `registered-architect` 为总入口，面向全球注册建筑师与建筑设计专业人员，覆盖从设计理论到施工图文件的建筑全流程，并提供印度、阿联酋、沙特、美国、英国、德国、新加坡、日本、中国和澳大利亚十个国家/地区的法规专题。各国资料用于路由和核验，不替代当地注册专业人员或主管部门。
+**它是注册建筑师手里的规范地图和交叉校核清单，不是替代注册建筑师的人。**
 
-<table width="100%">
-<thead><tr>
-<th>项目</th>
-<th>值</th>
-<th>说明</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>Skill 调用名（唯一标识）</td>
-<td><code>registered-architect</code></td>
-<td>支持原生 Skill 的工具优先使用此调用名；不支持时可直接描述建筑设计与规范核验任务</td>
-</tr>
-<tr>
-<td>显示名</td>
-<td>OmniAiLab 全球注册建筑师</td>
-<td>仓库页面和文档中的显示名称</td>
-</tr>
-<tr>
-<td>版本</td>
-<td>v1.1.0</td>
-<td>与技能元数据和发布记录保持一致</td>
-</tr>
-<tr>
-<td>出品 / 开发者</td>
-<td>OmniAiLab / Mochiball</td>
-<td>—</td>
-</tr>
-<tr>
-<td>许可</td>
-<td>MIT（见 <a href="LICENSE">LICENSE</a>）</td>
-<td>可自由使用、修改和再分发</td>
-</tr>
-<tr>
-<td>开源仓库（公开）</td>
-<td><a href="https://github.com/tomatoparkdao/registered-architect">github.com/tomatoparkdao/registered-architect</a></td>
-<td>克隆或更新完整 Skill 目录</td>
-</tr>
-</tbody>
-</table>
+## 基本档案
 
+| 项目 | 值 | 说明 |
+|---|---|---|
+| Skill 调用名 | `registered-architect` | 唯一标识，全小写连字符写法；支持原生 Skill 的工具直接用它调起，不支持的工具用自然语言描述建筑设计与规范核验任务也能触发 |
+| 显示名 | OmniAiLab 全球注册建筑师 | 仓库页面与文档中的显示名，与调用名不是同一个东西 |
+| 版本 | v1.1.0 | 与 `SKILL.md`、`.claude-plugin/plugin.json` 保持一致；国家专项资料自 v1.1.0 起做到条文级精度 |
+| 定位 | 注册建筑师的规范路由与设计核验框架 | **不是总设计师、不是方案创作工具、不是效果图生成器**；它输出的是判断、清单与待核验事项 |
+| 出品 / 开发者 | OmniAiLab ／ Mochiball | 署名与版权见文末与 [LICENSE](LICENSE) |
+| 许可 | MIT | 可自由使用、修改与再分发，保留版权与许可声明即可 |
+| 开源仓库 | [tomatoparkdao/registered-architect](https://github.com/tomatoparkdao/registered-architect) | 公开仓库，可直接 `git clone` 获取完整模块、参考资料与计算脚本 |
+| 运行要求 | Python 3.9+（仅计算器需要） | 七个计算器只用标准库 `argparse` / `json` / `math` / `sys`，无第三方依赖；不联网即可阅读全部知识库 |
+| 规模 | 29 模块 ／ 883 份参考文档 ／ 约 113 万行 | 其中中国大陆专题 848 份（426 份规范与图集条目 + 414 份正文分片），是十个辖区里资料最厚的一个 |
 
-## 使用范围
+## 适用范围：做与不做
 
-- 方案设计、建筑策划、建筑类型与空间规划
-- 建筑防火、疏散、无障碍、声学、日照与围护设计
-- 结构体系、机电协调、材料选择、绿色建筑与施工图文件
-- 十个国家/地区的国家、州、省、城市、酋长国及特别管辖区法规资料
+判断一个任务该不该交给它，看这张表就够了。
 
-规范资料仅用于辅助设计判断。对任何数值限值、条文引用或合规结论，均须核验项目所在地现行的国家强制性标准、地方标准和主管部门要求。
+| 适用性 | 具体内容 |
+|---|---|
+| **适用 · 辖区定位与法规路由** | 拿到项目地址、用途、高度、面积、火灾危险类别与设计阶段，判定适用哪一级强制性标准、主管部门是谁、哪些是地方补充规定；十个辖区各自有独立专题，可交叉比较 |
+| **适用 · 方案与技术设计判断** | 功能策划、面积表、邻接关系、体量比较、核心筒与柱网、围护构造、结构体系选型、机电协调、采光遮阳、房间声学、材料策略——给的是有依据的选项与权衡，不是拍脑袋的单一答案 |
+| **适用 · 合规交叉校核** | 防火分区、疏散距离、出口数量、无障碍路径、节能指标、日照与间距：逐项列出采用版本、条文依据、地方差异和待 AHJ 确认的问题 |
+| **适用 · 交付与审查** | 图纸组织、图层线宽、标注体系、LOD、BIM 协调、规范文本、RFI/ASI、竣工与运维资料检查清单 |
+| **不适用 · 审批与签章结论** | 建筑许可、消防审查意见、结构签章、能源认证、无障碍认证——这些只能由主管部门与当地持证专业人员出具，本技能的输出不得被表述为上述任何一项 |
+| **不适用 · 结构安全最终判定** | 可给跨度参考、荷载路径与初步截面，但最终截面、配筋、抗震构造须由结构工程师按现行标准复核；经验规则不得写成强制性条文 |
+| **不适用 · 跨国数值直接套用** | 把一个国家的限值搬到另一个国家是最常见的错误来源。跨辖区只能比较“指标—版本—适用范围”，不能等效替换 |
 
 ## 快速开始
 
-本技能包的总入口为 [SKILL.md](SKILL.md)。先根据项目国家、地区和城市阅读 `geographic-foundations` 及对应国家专题，再按任务选择 `skills/` 下的专项模块。
-
-若将其作为 Claude Code 插件使用：
+技能的总入口是 [SKILL.md](SKILL.md)。装好之后，第一句话把项目语境说清楚，比任何提示词技巧都重要。
 
 ```bash
+# 方式一：作为 Claude Code 插件直接挂载
 claude --plugin-dir "/path/to/registered-architect"
+
+# 方式二：放进宿主 Agent 的 skills 目录（按你所用工具的实际路径）
+cp -R registered-architect ~/.claude/skills/registered-architect
+cp -R registered-architect ~/.codex/skills/registered-architect
+cp -R registered-architect ~/.workbuddy/skills/registered-architect
+
+# 方式三：只做只读参考，不装
+git clone https://github.com/tomatoparkdao/registered-architect.git
 ```
 
-若复制到既有项目，请保留完整的 `skills/` 目录，以维持模块、参考资料、模板和计算器之间的链接关系。
+复制到既有项目时，**必须保留完整的 `skills/` 目录**：模块、参考资料、模板与计算器之间的相对链接一旦断开，路由就失效。
 
-## 技能模块
-
-<table width="100%">
-<thead><tr>
-<th>范畴</th>
-<th>主要模块</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>基础与地区</td>
-<td><code>architect-foundations</code>、<code>geographic-foundations</code>、十个国家/地区专题</td>
-</tr>
-<tr>
-<td>设计与策划</td>
-<td><code>design-theory</code>、<code>concept-design</code>、<code>building-programming</code>、<code>building-typology</code>、<code>spatial-planning</code></td>
-</tr>
-<tr>
-<td>技术设计</td>
-<td><code>building-envelope</code>、<code>structural-systems</code>、<code>building-services</code>、<code>daylighting-design</code>、<code>material-selection</code>、<code>acoustic-design</code></td>
-</tr>
-<tr>
-<td>规范与交付</td>
-<td><code>building-codes</code>、<code>fire-life-safety</code>、<code>accessibility-design</code>、<code>building-sustainability</code>、<code>construction-documentation</code></td>
-</tr>
-<tr>
-<td>计算工具</td>
-<td><code>architect-calculator</code>：面积、传热系数、日照、疏散、结构荷载、能耗与成本计算</td>
-</tr>
-</tbody>
-</table>
-
-
-## 使用原则
-
-1. 先明确项目所在地、建筑类型、高度、面积、火灾危险类别和设计阶段。
-2. 应优先适用项目所在地现行强制性标准、地方标准和主管部门要求；不要直接套用其他国家的数值。
-3. 不同国家、地区、州、省、城市和特别管辖区可能采用不同监管体系，应分别确认。
-4. 计算器结果仅为辅助数据，必须复核输入条件、单位和对应规范。
-5. 输出审查意见时，应列出适用地区、待核验的标准版本、关键约束、设计响应和后续核验事项。
-
-## 工作机制
-
-技能采用渐进式加载：总入口先识别项目语境，再调用基础知识、专项技能、参考文件、模板和计算脚本。这样可在保持上下文精简的同时，按需加载深度资料。
-
-### 三层上下文
-
-<table width="100%">
-<thead><tr>
-<th>层级</th>
-<th>加载内容</th>
-<th>加载时机</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>第 0 层</td>
-<td>技能名称和描述</td>
-<td>始终可用</td>
-</tr>
-<tr>
-<td>第 1 层</td>
-<td>对应 <code>SKILL.md</code> 正文</td>
-<td>调用专项技能时</td>
-</tr>
-<tr>
-<td>第 2 层</td>
-<td>参考文件、模板和脚本</td>
-<td>明确需要时</td>
-</tr>
-</tbody>
-</table>
-
-
-### 专项模块路由
-
-- 基础层：建筑师与理论家、定量经验规则、建筑类型分类、设计质量框架和反模式目录。
-- 设计层：设计理论、概念设计、建筑策划、建筑类型和空间规划。
-- 技术层：围护结构、结构体系、建筑服务、采光、声学和材料选择。
-- 合规层：建筑规范、消防生命安全、无障碍和可持续性。
-- 交付层：施工图文件、规范编制和计算器。
-
-## 计算器
-
-`architect-calculator` 包含七个 Python 计算器，分别用于面积策划、传热系数、日照估算、疏散合规、结构荷载、能源需求和成本估算。使用计算器前应确认单位、输入边界和适用地区；计算结果不能单独作为审批或认证结论。
-
-## 国家/地区法规专题
-
-技能包提供以下法规路由：
-
-- 印度：NBC、ECBC、IS 系列、州级 DCR、GRIHA、IGBC、RERA、EIA、CRZ 和 DGCA。
-- 阿联酋：Dubai Building Code、ADIBC、UAE Fire & Life Safety Code、Estidama、Al Sa'fat 和无障碍规范。
-- 沙特：SBC 系列、Mostadamah、Saudi Universal Accessibility Code 以及 NEOM、Qiddiya、红海、Diriyah、AlUla 等专项辖区。
-- 美国：IBC、IRC、IECC、IFC、NFPA、ADA、ASCE、ACI、AISC、AWC 以及州和城市规范。
-- 英国：Building Regulations、Approved Documents、Building Safety Act、BS 规范、BREEAM、London Plan 及苏格兰、威尔士、北爱尔兰体系。
-- 德国：MBO、各州 LBO、GEG、DIN、Eurocodes、Sonderbau、DGNB 和 Passivhaus。
-- 新加坡：BCA、SCDF Fire Code、Green Mark、Code on Accessibility、URA 和新加坡国家附录。
-- 日本：Building Standards Act、消防法、两级抗震、AIJ、BCJ、CASBEE 和城市计划法规。
-- 中国：GB、JGJ、地方 DB、绿色建筑标识、日照、气候分区和抗震烈度体系。
-- 澳大利亚：NCC、AS/NZS、州级规划、Green Star、NABERS、NatHERS 和风区体系。
-
-## 目录说明
-
-## 技能使用详解
-
-### 基础与理论
-
-`architect-foundations` 是自动加载的基础层，提供建筑师与理论家速查、定量经验规则、建筑类型分类、设计质量框架、反模式目录和技能路由。`design-theory` 用于建筑理论、设计哲学、建筑思潮、宣言、先例分析和设计批评。`concept-design` 用于概念生成、体量研究、形态策略、视线廊道、日照包络和风环境评估。
-
-### 功能策划与建筑类型
-
-`building-programming` 处理任务书、面积标准、邻接关系、人员和设备清单、功能分区及容量验证。`building-typology` 提供住宅、办公、商业、酒店、教育、医疗、文化、工业和特殊建筑的类型学比较。`spatial-planning` 处理核心筒、交通流线、净得率、服务空间、楼层组织、装卸和停车。
-
-### 技术设计
-
-`building-envelope` 涵盖墙体、屋面、玻璃、幕墙、保温、防潮、气密、水密和耐久性。`structural-systems` 比较钢筋混凝土、钢结构、木结构、砌体、预制和复合结构，并提供跨度、柱网、楼板和荷载路径参考。`building-services` 涵盖暖通空调、给排水、电气、消防机电、竖井、设备房、屋面设备和机电协调。
-
-`daylighting-design` 处理日光因子、sDA、ASE、太阳几何、遮阳、采光中庭、锯齿形屋顶和日照模拟。`acoustic-design` 处理空气声、撞击声、侧向传声、混响、清晰度、隔振和演出空间声学。`material-selection` 处理材料性能、成本、生命周期、隐含碳、耐火、声学、耐久性和规范编制。
-
-### 合规、可持续与交付
-
-`building-codes` 提供国际规范体系、使用分类、结构、防火、能耗和无障碍的交叉参考。`fire-life-safety` 处理防火分区、疏散、楼梯、消防电梯、报警、喷淋、烟控和消防车道。`accessibility-design` 处理通用设计、无障碍路径、坡道、电梯、卫生间、停车和感官无障碍。
-
-`building-sustainability` 处理能源、运营碳、隐含碳、被动式设计、绿色屋顶、雨水、再利用以及 LEED、BREEAM、WELL、Green Star、NABERS、DGNB、CASBEE、Estidama 和 Mostadamah。`construction-documentation` 处理图纸组织、图层、线宽、标注、LOD、规范、BIM、RFI、ASI、样板、现场质量和竣工资料。
-
-## 示例提示词
-
-以下提示词可作为工作入口，实际任务应补充地点、规模、用途、预算、阶段和法规版本：
-
-1. “为北纬 40° 的 12 层住宅比较三种体量方案，说明日照、风环境、结构和消防影响。”
-2. “根据新加坡 SCDF Fire Code 和 BCA Code on Accessibility，审查这个酒店的疏散与无障碍方案。”
-3. “为 5,000 m² 办公楼生成面积表、邻接矩阵、核心筒选项和初步柱网。”
-4. “比较双层玻璃、三层玻璃和动态玻璃的 U 值、SHGC、VLT、成本和生命周期影响。”
-5. “针对英国项目建立围护结构、BREEAM、声学和施工图交付检查清单。”
-6. “核验印度 NBC 使用分类、耐火分隔、停车、FAR 和无障碍要求，并列出待向主管部门确认的事项。”
-7. “使用计算器估算 2,000 m² 建筑的传热系数、疏散容量、结构荷载和初步成本。”
-8. “根据已确认平面方案生成材料策略、门窗表、房间声学目标和施工图备注。”
-
-## 结果与责任边界
-
-技能输出可以是设计判断、备选方案、表格、计算结果、检查清单、规范路由和后续行动建议。输出不得被描述为建筑许可、消防审查、结构签章、能源认证或无障碍认证。对于生命安全、结构安全、火灾、卫生、无障碍和能源等高风险事项，必须由具备当地资质的专业人员复核。
-
-如输入信息不足，应明确列出缺失项，而不是自行假定关键条件。对于法规不确定性，应同时列出采用的版本、判断依据、可能的地方差异以及需要向 AHJ、规划部门、消防部门或其他主管机构确认的问题。
-
-## 工具和兼容性
-
-技能可以在支持 Markdown 技能加载的 Agent 环境中使用。计算器使用 Python 标准库和项目内脚本；不要求注册外部平台，也不要求联网才能阅读或使用基本知识。外部 CAD、BIM、渲染、分析和协作软件仅作为可选适配对象，不能被视为本技能的必需依赖。
-
-路径、文件名、技能名、脚本名、命令、API 参数、YAML 字段、JSON Key、标准编号和专业缩写必须保持原样，以便 Agent 正确识别和调用。翻译只改变自然语言说明，不改变程序逻辑和数据结构。
-
-## 文件结构
+第一次对话建议直接给出这五项，缺一项它会先问：
 
 ```text
-registered-architect/
-├── SKILL.md                         # 全球注册建筑师总入口
-├── README.md                        # 简体中文 README（默认）
-├── README_EN.md                     # English README
-├── LICENSE                          # OmniAiLab MIT License
-├── skills/                          # 设计、技术、合规和国家专题
-│   ├── architect-foundations/
-│   ├── geographic-foundations/
-│   ├── architect-calculator/
-│   ├── country-*/
-│   └── ...
-└── .claude-plugin/                 # 插件元数据
+国家/城市：阿联酋 迪拜
+用途与规模：酒店，18 层，地上 32,000 m²，含裙房餐饮
+设计阶段：方案深化，准备报民防预审
+已知约束：地块退界 6 m，限高 75 m，主开发商有外墙覆盖要求
+要你做的事：核验疏散与无障碍路径，列出待民防确认的问题
 ```
 
-## 质量控制
-
-- 每项规范结论都应注明地区、版本、条款或参考来源。
-- 每项定量计算都应注明单位、输入、假设和适用范围。
-- 每个方案比较都应同时说明性能、成本、施工、维护和风险。
-- 每份交付文件都应进行结构、链接、路径、代码块和表格完整性检查。
-- 所有法规、产品、价格、软件和认证信息都应在项目启动时重新核对时效性。
-
-## 技能参考：基础层
-
-### `architect-foundations`
-
-自动激活的基础技能提供以下内容：
-
-- 建筑师与理论家速查矩阵：从 Vitruvius 到 Kéré 的代表人物、贡献、设计原则、建筑案例和适用语境。
-- 定量经验规则：层高、柱网、净得率、U 值、声学等级、日光因子、走廊宽度、停车、电梯和耐火等级。
-- 建筑类型分类：住宅、商业、机构、工业和特殊建筑的 28 个子类型。
-- 设计质量框架：Firmitas、Utilitas、Venustas、语境与场所、可持续性和无障碍。
-- 反模式目录：五类常见建筑失败模式及其修正方法。
-- 技能路由：依据用户语境激活专项技能。
-
-### `geographic-foundations`
-
-根据国家、城市、法规编号、货币、气候和材料体系识别地理语境，并把任务路由到对应国家专题。若没有明确地区，则使用 IBC、Eurocodes、ASCE、ISO 等国际参考，同时要求用户确认适用辖区。
-
-## 技能参考：设计与策划层
-
-### `design-theory`
-
-处理建筑史、理论、建筑思潮、宣言、设计哲学、形式语言、批判地域主义、现代主义、后现代主义、参数主义、现象学和设计批评。输出应区分历史事实、理论解释、案例观察和当前项目建议。
-
-### `concept-design`
-
-处理设计概念、体量研究、太阳包络、风舒适度、视线廊道、阴影影响、语境化高度、FAR/GFA 优化、自然通风体量和概念评估。每个体量方案都应说明场地响应、功能组织、结构逻辑、环境性能、成本和实施风险。
-
-### `building-programming`
-
-提供面积标准、功能清单、邻接矩阵、流程图、人员容量、设备清单、功能分区和设计任务书模板。面积数字是初步策划依据，必须根据项目业主、运营模式和当地规范复核。
-
-### `building-typology`
-
-比较不同住宅、办公、酒店、零售、学校、医院、图书馆、剧院、体育、工业和混合使用建筑的空间组织、标准层、流线、采光、通风、结构和运营特点。
-
-### `spatial-planning`
-
-处理核心筒、竖向交通、公共与后勤流线、楼层效率、服务空间、装卸、停车、卫生间、机房、管井和消防疏散。平面建议必须同时检查可达性、消防、结构网格、机电空间和维护路径。
-
-## 技能参考：技术层
-
-### `building-envelope`
-
-比较砖墙、混凝土墙、幕墙、双层表皮、木结构墙、金属板、保温、气密、水密、玻璃、间隔条、镀膜和动态玻璃。围护结构判断应结合气候、朝向、内部湿度、火灾、声学、维护、施工和全生命周期碳。
-
-### `structural-systems`
-
-提供混凝土、钢、木、砌体、预制、张弦、空间网架、壳体和复合体系的跨度及构造参考。不得仅凭经验表确定结构尺寸；实际设计须由结构工程师按现行标准和地震、风、雪、火灾等荷载复核。
-
-### `building-services`
-
-覆盖自然通风、混合模式、VAV、VRF、冷梁、地源热泵、热回收、给排水、雨水、消防水、电气、照明、弱电、BMS、设备房、屋面设备和机电协调。所有系统应考虑检修、替换、噪声、振动和运行能耗。
-
-### `daylighting-design`
-
-使用 DF、sDA、ASE、UDI、VLT、SHGC、太阳高度角、方位角、遮阳几何和气候数据进行日光设计。模拟结果必须注明天气文件、时间步长、反射率、玻璃参数、遮阳状态和占用假设。
-
-### `acoustic-design`
-
-覆盖墙体和楼板隔声、窗户声学、撞击声、侧向传声、设备噪声、混响时间、清晰度、空间感、隔振和可变声学系统。声学性能必须同时考虑构造节点、穿孔、门、窗、机电设备和施工质量。
-
-### `material-selection`
-
-按性能、法规、耐久、维护、成本、碳、可回收性、供应链、施工和美学比较材料。材料表中的产品名称、标准编号和性能数据不能替代项目级样品、测试、供应商确认和规范编制。
-
-## 技能参考：合规与交付层
-
-### `building-codes`
-
-用于识别建筑法规体系、使用分类、面积和高度限制、结构、防火、无障碍、能源和材料要求。该技能只提供规范路由和设计参考，不能替代 AHJ 的正式解释。
-
-### `fire-life-safety`
-
-处理占用人数、出口数量、疏散距离、楼梯、走道、门、消防电梯、防火分区、烟控、报警、喷淋、消防车道和避难空间。应明确采用的法规版本及其地方修订。
-
-### `accessibility-design`
-
-比较 ADA、ISO、EN、BS、DIN、AS、GB、BCA 和其他无障碍体系，覆盖连续无障碍路径、门、坡道、电梯、卫生间、停车、触觉、听觉和认知支持。
-
-### `building-sustainability`
-
-涵盖被动式设计、能源模型、碳排放、水、材料、健康、生态、运营和认证。认证条款、评分和最低门槛会更新，项目启动前必须确认当前版本。
-
-### `construction-documentation`
-
-处理图纸目录、图层、线宽、标注、符号、材料填充、修订云线、RFI、ASI、LOD、BIM 协调、规范、样板、现场测试、收尾、保修和运行维护资料。
-
-## 国家专题使用顺序
-
-<table width="100%">
-<thead><tr>
-<th>顺序</th>
-<th>操作</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>确认国家、地区、城市、州/省、特别辖区和主管部门。</td>
-</tr>
-<tr>
-<td>2</td>
-<td>读取 <code>geographic-foundations</code>，确认法规路由和国际参考。</td>
-</tr>
-<tr>
-<td>3</td>
-<td>读取对应 <code>country-*</code> 文件，确认规划、建筑、防火、无障碍、能源和结构体系。</td>
-</tr>
-<tr>
-<td>4</td>
-<td>调用设计、技术和交付专项技能，保持国家专题的优先级。</td>
-</tr>
-<tr>
-<td>5</td>
-<td>列出已确认、待确认和不能仅凭资料判断的事项。</td>
-</tr>
-</tbody>
-</table>
-
-
-## 典型交付物
-
-- 设计任务书与面积表。
-- 功能邻接矩阵和流线图。
-- 体量比较与环境性能说明。
-- 核心筒、柱网、楼板和结构体系备选。
-- 围护结构、玻璃、遮阳和材料策略。
-- 疏散、消防、无障碍和规范核验清单。
-- HVAC、给排水、电气和机电协调策略。
-- 日照、能源、声学和碳排放初步分析。
-- 材料表、门窗表、房间数据表和规范章节草案。
-- 施工图、BIM 协调、RFI/ASI 和竣工资料检查表。
-
-## 国家专题速查
-
-### 印度
-
-重点核对 NBC 2016、ECBC 2017、IS 456、IS 800、IS 875、IS 1893、IS 13920、州级 DCR、RERA、EIA、CRZ、GRIHA 和 IGBC。印度的开发控制、消防、停车、无障碍和环境审批通常由国家规范与州、市政规则共同决定。
-
-### 阿联酋
-
-迪拜项目重点核对 Dubai Building Code、UAE Fire & Life Safety Code、Dubai Universal Design Code、Estidama 和 Al Sa'fat；阿布扎比项目还需核对 ADIBC、DMT/DMA 要求及项目主开发商指南。高层、外墙覆层、避难层和消防部门预审是重点风险。
-
-### 沙特阿拉伯
-
-重点核对 SBC 201 系列、SBC 801、Saudi Universal Accessibility Code、Mostadamah、Amana 审批和项目专项开发机构要求。NEOM、Qiddiya、红海、Diriyah、AlUla、RCRC、麦加和麦地那等辖区可能拥有独立设计审查流程。
-
-### 美国
-
-重点核对 IBC、IRC、IECC、IFC、NFPA 101、NFPA 70、ADA、ANSI A117.1、Fair Housing Act、ASCE 7、ACI 318、AISC 360、AWC NDS 以及州和城市修订。纽约、加利福尼亚、佛罗里达、芝加哥、马萨诸塞和华盛顿等辖区具有显著地方差异。
-
-### 英国
-
-重点核对 Building Regulations、Approved Documents A–S、Building Safety Act、BSR、高风险建筑制度、BS 9991、BS 9999、BS 8300、BREEAM、NPPF 和 London Plan。苏格兰、威尔士和北爱尔兰并非英格兰规则的简单复制。
-
-### 德国
-
-重点核对 MBO、州级 LBO、BauGB、BauNVO、GEG、DIN 18040、DIN 4109、DIN 4108、DIN 4102/EN 13501、Eurocodes 及德国国家附录。Sonderbau、Brandschutznachweis、DGNB、BAFA/KfW 和 Passivhaus 可能构成额外要求。
-
-### 新加坡
-
-重点核对 Building Control Act、BCA Regulations、SCDF Fire Code、BCA Code on Accessibility、Green Mark、Code on Environmental Sustainability、URA Master Plan、SS EN Eurocodes 和新加坡国家附录。ETTV、RTTV、遮阳、消防疏散和维护安全是常见审查重点。
-
-### 日本
-
-重点核对 Building Standards Act、消防法、两级抗震、AIJ Recommendations、BCJ 结构性能评价、Heart Building Law、CASBEE 和 City Planning Act。用途地域、容积率、建蔽率、日影、斜线限制和防火地域会影响体量方案。
-
-### 中国
-
-重点核对 GB 50352、GB 50016、GB 50011、GB 50009、GB 55015、GB 50189、GB 50763、JGJ 系列和地方 DB。应区分强制性工程建设规范、国家标准、行业标准、地方标准和主管部门审查口径；香港、澳门应单独处理。
-
-### 澳大利亚
-
-重点核对 NCC 2022、AS/NZS 1170、AS 3600、AS 4100、AS 1684、AS 1428.1、AS 5113、州级规划规则、NatHERS、BASIX、Green Star、NABERS 和风区 A–D。NCC 性能条款、州级审批和丛林火灾、气旋、洪水风险需要联合判断。
-
-## 从概念到施工图的工作流
-
-### 阶段 1：项目理解
-
-收集项目地址、用地边界、现状测绘、功能、面积、层数、预算、进度、业主目标、运营模式、气候和法规版本。将未知信息列入假设清单。
-
-### 阶段 2：法规路由
-
-识别主管部门和法规层级，区分强制性要求、推荐性指南、项目主开发商要求、认证条款和业主偏好。对冲突要求记录优先级和待确认事项。
-
-### 阶段 3：功能与体量
-
-建立面积表、邻接矩阵、流线和体量选项。同步检查日照、视线、风环境、消防、无障碍、结构、机电和施工可行性，避免只优化单一指标。
-
-### 阶段 4：技术协调
-
-确定结构网格、楼板厚度、核心筒、管井、设备房、围护系统、竖向交通、消防系统、遮阳和维护路径。将关键接口列入协调清单。
-
-### 阶段 5：性能验证
-
-根据项目阶段进行面积、U 值、日光、疏散、结构荷载、能源、声学、碳和成本的初步计算。清楚标示计算器结果、模型结果和专业工程师复核结果。
-
-### 阶段 6：设计交付
-
-输出图纸、模型、表格、规范、材料表、性能说明、审批文件和风险登记。每次修订都应保留版本、日期、修改原因和责任人。
-
-## 常见错误
-
-- 把一个国家的法规数值直接用于另一个国家。
-- 使用过时版本而未注明核验日期。
-- 将经验规则误写成强制性条文。
-- 只看平面面积而忽略消防、结构、机电、维护和施工空间。
-- 只比较初始成本而忽略运行、替换和寿命结束成本。
-- 只给出方案结论而不列出假设和待确认事项。
-- 将 AI 生成的建议描述为签章、审批或认证结论。
-
-## 常见问题
-
-**问：这个技能是否只适用于中国项目？**
-
-答：不是。它包含十个国家/地区法规专题，并通过地理路由识别项目语境；中国资料只是其中一个专题。
-
-**问：是否可以直接把计算器结果用于报审？**
-
-答：不可以。计算器用于早期设计和交叉检查，报审结果必须由具备当地资质的专业人员按现行规范确认。
-
-**问：缺少具体城市规范时怎么办？**
-
-答：明确说明缺失信息，采用上一级规范作为暂定参考，并列出需要向 AHJ 或地方规划部门确认的问题。
-
-**问：可以比较不同国家的法规吗？**
-
-答：可以，但必须明确比较的指标、版本、适用范围和不可直接等效的部分。
-
-**问：技能是否依赖外部平台？**
-
-答：基本知识、Markdown 文件和项目内计算器可独立使用；外部 CAD、BIM、渲染或分析软件只作为可选工具。
-
-## 设计审查输出模板
+## 工作机制：三层渐进加载
+
+技能不会一次性把所有资料塞进上下文。名称与描述常驻，正文按需加载，参考资料与脚本明确需要时才读——这是它能在 883 份文档里不迷路的唯一办法。
+
+| 层级 | 加载内容 | 加载时机 | 典型体积 |
+|---|---|---|---|
+| 第 0 层 | 技能名称与 description | 始终可见，用于判断“这个任务该不该用它” | 数十行 |
+| 第 1 层 | 对应模块的 `SKILL.md` 正文 | 命中任务类型时加载，含该模块的方法、判据与红线 | 400–600 行 |
+| 第 2 层 | `references/` 参考文档、模板、`scripts/` 计算器 | 需要具体条文、表格、构造做法或数值计算时才读 | 按文件取用 |
+
+路由顺序是固定的，跳步就会出错：
+
+```text
+用户输入（地址 / 用途 / 面积 / 阶段）
+        │
+        ▼
+geographic-foundations ── 识别国家、城市、规范编号、货币、气候、材料体系
+        │
+        ├─ 识别成功 ──► skills/country-<辖区>/SKILL.md   规范层级、主管部门、审查路径
+        │
+        └─ 识别失败 ──► 回落到 IBC / Eurocodes / ASCE / ISO 参考，
+        │               并明确要求用户确认适用辖区（不猜）
+        ▼
+按任务选专业模块 ── 设计 / 技术 / 合规 / 交付 四层
+        │
+        ▼
+输出：适用约束 → 设计响应 → 证据与版本 → 待核验事项 → 责任方
+```
+
+## 模块总览（29 项）
+
+18 项专业能力 ＋ 10 个辖区专题 ＋ 1 组计算器。`references/` 下的文档数说明这个模块能查到多深。
+
+| # | 模块 | 类别 | 主要能力 |
+|---|---|---|---|
+| 1 | `architect-foundations` | 基础 | 建筑师与理论家速查矩阵（Vitruvius → Kéré）、定量经验规则、28 个建筑子类型、设计质量框架、五类反模式目录、模块路由 |
+| 2 | `geographic-foundations` | 基础 | 由国家、城市、规范编号、货币、气候与材料体系识别辖区并路由；无法识别时回落到国际参考并要求确认，不擅自假定 |
+| 3 | `design-theory` | 设计 | 建筑史、思潮、宣言、设计哲学、形式语言、批判地域主义、现象学与设计批评；区分历史事实、理论解释与项目建议 |
+| 4 | `concept-design` | 设计 | 概念生成、体量研究、太阳包络、风舒适、视线廊道、阴影影响、语境化高度、FAR/GFA 优化与自然通风体量 |
+| 5 | `building-programming` | 设计 | 任务书、面积标准、邻接矩阵、流程图、人员容量、设备清单、功能分区与容量验证；面积是策划依据，须按运营模式与当地规范复核 |
+| 6 | `building-typology` | 设计 | 住宅、办公、酒店、零售、学校、医院、图书馆、剧院、体育、工业与混合使用的空间组织、标准层、流线、采光、结构与运营比较 |
+| 7 | `spatial-planning` | 设计 | 核心筒、竖向交通、公私流线、楼层效率、服务空间、装卸、停车、卫生间、机房管井与疏散；平面建议须同时过可达性、消防与结构网格 |
+| 8 | `building-envelope` | 技术 | 砖墙、混凝土墙、幕墙、双层表皮、木结构墙、金属板、保温、气密、水密、玻璃与间隔条、镀膜与动态玻璃；结合气候、朝向、湿度与全生命周期碳判断 |
+| 9 | `structural-systems` | 技术 | 混凝土、钢、木、砌体、预制、张弦、空间网架、壳体与复合体系的跨度与构造参考；**不得凭经验表定尺寸**，实际设计须结构工程师复核 |
+| 10 | `building-services` | 技术 | 自然通风与混合模式、VAV/VRF、冷梁、热泵、热回收、给排水、雨水、消防水、电气、照明、弱电、BMS、设备房与屋面设备、机电协调 |
+| 11 | `daylighting-design` | 技术 | DF、sDA、ASE、UDI、VLT、SHGC、太阳高度角与方位角、遮阳几何、采光中庭、锯齿屋顶；模拟结果须注明天气文件、时间步长与占用假设 |
+| 12 | `acoustic-design` | 技术 | 墙体与楼板隔声、窗声学、撞击声、侧向传声、设备噪声、混响时间、清晰度、空间感、隔振与可变声学；须同时看构造节点、穿孔、门窗与施工质量 |
+| 13 | `material-selection` | 技术 | 按性能、法规、耐久、维护、成本、隐含碳、可回收性、供应链、施工与美学比较材料；产品数据不替代样品、测试与供应商确认 |
+| 14 | `building-codes` | 合规 | IBC 使用类别与 I–V 类构造、高度面积限值、疏散、防火分隔、卫生器具计算，以及 IBC / Building Regulations / Eurocodes / NCC / NBC 的横向比较 |
+| 15 | `fire-life-safety` | 合规 | 占用人数、出口数量、疏散距离、楼梯与走道、消防电梯、防火分区、烟控、报警、喷淋、消防车道与避难空间；须明确采用版本及地方修订 |
+| 16 | `accessibility-design` | 合规 | ADA、ISO、EN、BS、DIN、AS、GB、BCA 体系比较；连续无障碍路径、门、坡道、电梯、卫生间、停车、触觉 / 听觉 / 认知支持 |
+| 17 | `building-sustainability` | 合规 | 被动式设计、能源模型、运营碳与隐含碳、水、材料、健康、生态与认证；LEED、BREEAM、WELL、Green Star、NABERS、DGNB、CASBEE 门槛会更新，用前须核版本 |
+| 18 | `construction-documentation` | 交付 | 图纸目录、图层线宽、标注符号、材料填充、修订云线、LOD、BIM 协调、规范文本、RFI/ASI、样板、现场测试、收尾保修与运维资料 |
+| 19 | `architect-calculator` | 工具 | 七个标准库计算器：面积密度、U 值、采光系数、疏散、结构荷载、能耗、造价 |
+
+参考资料的分层（`references/` 下的 Markdown 份数，不含 `SKILL.md` 本身）：
+
+| 文档位置 | 份数 | 说明 |
+|---|---|---|
+| `skills/*/references/`（18 个专业模块） | 35 | 每个模块 1–4 份专题参考：ADA 与无障碍体系、房间声学、围护构造、案例库、计算方法等；`architect-foundations` 最厚（4 份） |
+| `skills/country-china/references/standards/` | 426 | 中国规范与图集条目：GB 强制规范、JGJ 行业标准、地方 DB 与国标图集，按编号命名，可逐条定位 |
+| `skills/country-china/references/standards/text/` | 414 | 上述条目的正文分片，供条文级引用与交叉检索；扫描件未识别的部分单独标记，不当作条文使用 |
+| 其余九个辖区 | 各 0 | 单文件专题，全部内容收在各自 `SKILL.md` 内，不做二次拆包 |
+| **合计** | **883** | 阅读时按层加载第 2 层，不会一次性灌进上下文 |
+
+## 十个司法辖区
+
+每个辖区一个专题文件，写清监管体系、规范层级、主管部门与审查重点。**跨辖区只能比较，不能等效替换。**
+
+| 辖区 | 监管体系 | 核心规范 | 审查重点 |
+|---|---|---|---|
+| 中国 | 国家集中管理 + 强制性条文（D 型） | GB 50352-2019、GB 50016-2014（2018 年版）、GB 50011-2010（2016 修订）、GB 55015-2021、GB 50189-2015、GB 50763-2012、JGJ 系列、地方 DB | 强制性工程建设规范与推荐性标准的区分、日照间距、五类热工气候区节能、六至九度抗震；**香港、澳门单独处理**，不套大陆口径 |
+| 美国 | 州与市分别采用模式规范 | IBC 2024、IRC、IECC 2024、IFC、NFPA 101、NFPA 70、ADA 2010、ANSI A117.1、ASCE 7-22、ACI 318、AISC 360、AWC NDS | 州级修订差异极大（CA Title 24、NYC、FL HVHZ、Chicago、MA、WA），AHJ 解释权高于纸面条文 |
+| 英国 | 中央法规 + 地方执行，2022 年后责任链重构 | Building Regulations 2010 及 Approved Documents A–S、Building Safety Act 2022、BSR / HRB 制度、BS 9991、BS 9999、BS 8300、NPPF、London Plan | 高风险建筑（HRB）的 Accountable Person 与 Golden Thread 证据链；苏格兰、威尔士、北爱尔兰并非英格兰规则的复制 |
+| 德国 | 联邦框架法 + 16 州自订 LBO | MBO、BauGB、BauNVO、GEG 2023、DIN 18040、DIN 4109、DIN 4108、DIN 4102 / EN 13501、Eurocodes 及国家附录 | Sonderbau 专项建筑、Brandschutznachweis 防火证明、DGNB、BAFA/KfW 补贴与 Passivhaus 叠加要求 |
+| 日本 | 国家法 + 地方条例 + 民间评价 | Building Standards Act、消防法、City Planning Act、Heart Building Law、AIJ Recommendations、BCJ 结构性能评价、CASBEE | 用途地域、容积率与建蔽率、日影与斜线限制、防火地域、两级抗震设计；体量方案常被规划条款先卡死 |
+| 新加坡 | 集中监管（BCA / SCDF / URA 各管一段） | Building Control Act、BCA Regulations、SCDF Fire Code 2018、BCA Code on Accessibility、Green Mark 2021、URA Master Plan、SS EN Eurocodes | ETTV / RTTV 围护指标、消防疏散与维护安全、总体规划符合性；三部门口径须分别确认 |
+| 澳大利亚 | NCC 全国统一 + 州级规划与审批 | NCC 2022 Vol 1–3、AS/NZS 1170 系列、AS 3600、AS 4100、AS 1684、AS 1428.1-2021、AS 5113、NatHERS 7-star、BASIX、Green Star、NABERS | 性能条款与“视为符合”条款的取舍、州级审批差异、丛林火灾 / 气旋 / 洪水叠加风险、风区 A–D |
+| 印度 | 国家规范 + 州 / 市政开发控制规则 | NBC 2016、ECBC 2017、IS 456、IS 800、IS 875、IS 1893、IS 13920、州级 DCR、RERA、EIA、CRZ、GRIHA、IGBC | 开发控制（FAR、退界、停车）由国家规范与州 / 市政规则共同决定，两者冲突时按更严格者准备 |
+| 阿联酋 | 酋长国分立，迪拜与阿布扎比不同体系 | Dubai Building Code 2021、ADIBC、UAE Fire & Life Safety Code 2018、Dubai Universal Design Code、Estidama、Al Sa'fat | 高层与外墙覆层防火、避难层、民防（Civil Defence）预审、主开发商设计指南常严于法定规范 |
+| 沙特 | 国家建筑规范 + 专项开发辖区 | SBC 201 系列、SBC 801、Saudi Universal Accessibility Code、Mostadamah、Amana 审批 | NEOM、Qiddiya、红海、Diriyah、AlUla、RCRC、麦加与麦地那可能各有独立审查流程，不能套 SBC 一套走完 |
+
+## 七个计算器
+
+只做早期设计与交叉校核，**报审数值必须由持证人员按现行规范重算**。全部只用 Python 标准库。
+
+| 脚本 | 算什么 | 关键参数 | 用在哪 |
+|---|---|---|---|
+| `area_calculator.py` | 开发密度：GFA、NGA、套数、人口、车位数 | `--site-area` `--far` `--ntg-ratio` `--avg-unit-size` `--persons-per-unit` `--parking-ratio` | 拿地与方案前期的容量校核 |
+| `uvalue_calculator.py` | 围护传热系数 U 值（分层构造） | `--layers` `--facade` `--rsi-internal` `--rsi-external` | 节能规范对标、构造比选 |
+| `daylight_calculator.py` | 采光系数初算 | `--room-width/depth/height` `--window-width/height/sill-height` `--glazing-transmittance` `--average-reflectance` | 教室、办公、住宅的采光合规预判 |
+| `egress_calculator.py` | 疏散宽度与出口数量 | `--floor-area` `--occupancy-type` `--sprinklered` `--num-stories` | 方案阶段就要定的核心筒与楼梯数量 |
+| `structural_load_calculator.py` | 荷载汇集与构件初算 | `--tributary-area` `--num-floors` `--dead-load` `--live-load` `--occupancy-type` | 柱网与楼板厚度的量级判断 |
+| `energy_calculator.py` | 能耗强度初估 | `--floor-area` `--envelope-area` `--average-u-value` `--heating/cooling-degree-days` `--ventilation-rate` `--internal-gains` | 方案阶段的节能路线比较 |
+| `cost_calculator.py` | 造价初估 | `--gfa` `--building-type` `--quality` `--region` `--include-external` | 业主预算与方案取舍 |
+
+```bash
+# 输出人类可读摘要
+python skills/architect-calculator/scripts/area_calculator.py \
+  --site-area 5000 --far 2.5 --ntg-ratio 0.82
+
+# 加 --json 便于脚本串联与留档
+python skills/architect-calculator/scripts/egress_calculator.py \
+  --floor-area 1800 --occupancy-type business --sprinklered --num-stories 12 --json
+```
+
+## 六阶段工作流
+
+| 阶段 | 输入 | 动作 | 输出 |
+|---|---|---|---|
+| 1 项目理解 | 地址、用地边界、现状测绘、功能、面积、层数、预算、进度、业主目标、运营模式 | 收集并核对基础信息，把未知项写进假设清单，不猜 | 项目摘要 + 关键假设表 |
+| 2 法规路由 | 阶段 1 摘要 | 识别主管部门与法规层级，区分强制性要求、推荐指南、主开发商要求、认证条款与业主偏好 | 法规路由表 + 冲突优先级 + 待确认清单 |
+| 3 功能与体量 | 法规路由结论 | 建面积表、邻接矩阵、流线；出体量选项并同步看日照、视线、风、消防、无障碍、结构与施工 | 面积表 + 邻接矩阵 + 体量比选 |
+| 4 技术协调 | 选定体量 | 定结构网格、楼板厚度、核心筒、管井、设备房、围护系统、竖向交通、消防系统、遮阳与维护路径 | 技术协调清单 + 关键接口表 |
+| 5 性能验证 | 技术方案 | 按阶段做面积、U 值、采光、疏散、荷载、能耗、声学、碳与成本计算，标清谁算的 | 性能验证表（计算器 / 模拟 / 工程师复核分列） |
+| 6 设计交付 | 全部前置结论 | 出图纸、模型、表格、规范文本、材料表、性能说明、审批文件与风险登记；每次修订留版本、日期、原因、责任人 | 交付包 + 修订记录 |
+
+## 审查输出模板
 
 ### 项目摘要
 
-- 项目名称：
-- 项目地点：
-- 主管部门：
-- 建筑用途：
-- 用地面积与建筑面积：
-- 建筑高度与层数：
-- 设计阶段：
-- 适用法规版本：
+```text
+项目名称：
+项目地点：            国 / 州或省 / 城市 / 特别辖区
+主管部门：            AHJ、民防、规划、消防（分别列明）
+建筑用途与分类：
+用地面积 / 建筑面积 / 层数 / 高度：
+设计阶段：            方案 / 初设 / 施工图 / 报审
+适用法规与版本：      规范编号 + 版本 + 核验日期
+```
 
 ### 关键假设
 
-<table width="100%">
-<thead><tr>
-<th>编号</th>
-<th>假设</th>
-<th>影响</th>
-<th>确认人</th>
-<th>状态</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>A-01</td>
-<td>项目边界和测绘资料准确</td>
-<td>体量、面积和退界</td>
-<td>业主/测绘</td>
-<td>待确认</td>
-</tr>
-<tr>
-<td>A-02</td>
-<td>用途分类与运营模式已确认</td>
-<td>消防、面积和设备</td>
-<td>业主/建筑师</td>
-<td>待确认</td>
-</tr>
-<tr>
-<td>A-03</td>
-<td>采用当前法规版本</td>
-<td>合规结论</td>
-<td>建筑师/AHJ</td>
-<td>待确认</td>
-</tr>
-<tr>
-<td>A-04</td>
-<td>结构和机电顾问参与</td>
-<td>技术协调</td>
-<td>项目经理</td>
-<td>待确认</td>
-</tr>
-</tbody>
-</table>
-
+| 编号 | 假设 | 影响范围 | 确认人 | 状态 |
+|---|---|---|---|---|
+| A-01 | 用地边界与测绘资料准确 | 体量、面积、退界、消防车道 | 业主 / 测绘单位 | 待确认 |
+| A-02 | 用途分类与运营模式已定 | 消防类别、单位人数、设备负荷 | 业主 / 建筑师 | 待确认 |
+| A-03 | 采用当前有效的规范版本 | 全部合规结论的有效性 | 建筑师 / AHJ | 待确认 |
+| A-04 | 结构与机电顾问已介入协调 | 柱网、层高、管井、设备房 | 项目经理 | 待确认 |
 
 ### 约束与响应
 
-<table width="100%">
-<thead><tr>
-<th>约束类别</th>
-<th>约束内容</th>
-<th>设计响应</th>
-<th>证据或待核验事项</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>规划</td>
-<td>高度、退界、FAR、建蔽率</td>
-<td>体量和楼层控制</td>
-<td>规划批文、分区条款</td>
-</tr>
-<tr>
-<td>消防</td>
-<td>占用人数、出口、耐火、喷淋</td>
-<td>防火分区和疏散方案</td>
-<td>消防规范及 AHJ</td>
-</tr>
-<tr>
-<td>无障碍</td>
-<td>连续路径、坡道、电梯、卫生间</td>
-<td>通用设计路径</td>
-<td>无障碍法规和现场条件</td>
-</tr>
-<tr>
-<td>环境</td>
-<td>日照、能耗、热工、碳</td>
-<td>围护和系统策略</td>
-<td>模拟、能源规范、认证</td>
-</tr>
-<tr>
-<td>结构</td>
-<td>风、地震、雪、荷载</td>
-<td>结构体系和柱网</td>
-<td>结构顾问复核</td>
-</tr>
-<tr>
-<td>施工</td>
-<td>场地、吊装、材料、工期</td>
-<td>分期和节点设计</td>
-<td>承包商与施工方法</td>
-</tr>
-</tbody>
-</table>
-
+| 约束类别 | 约束内容 | 设计响应 | 证据或待核验事项 |
+|---|---|---|---|
+| 规划 | 高度、退界、FAR / 容积率、建蔽率 | 体量控制与楼层分配 | 规划批文、分区条款、限高文件 |
+| 消防 | 占用人数、出口、耐火等级、喷淋 | 防火分区与疏散方案 | 消防规范条文 + AHJ 预审意见 |
+| 无障碍 | 连续路径、坡道、电梯、卫生间 | 通用设计路径与节点做法 | 无障碍法规版本 + 现场实测条件 |
+| 环境 | 日照、能耗、热工、碳 | 围护与系统策略 | 模拟报告、能源规范限值、认证条款 |
+| 结构 | 风、地震、雪、荷载 | 结构体系与柱网 | 结构顾问复核意见 |
+| 施工 | 场地、吊装、材料、工期 | 分期方案与节点设计 | 承包商与施工方法说明 |
 
 ### 风险登记
 
-<table width="100%">
-<thead><tr>
-<th>风险</th>
-<th>概率</th>
-<th>影响</th>
-<th>缓解措施</th>
-<th>责任方</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>法规版本变化</td>
-<td>中</td>
-<td>高</td>
-<td>记录核验日期并持续监测</td>
-<td>建筑师</td>
-</tr>
-<tr>
-<td>地方审批口径不明确</td>
-<td>中</td>
-<td>高</td>
-<td>尽早咨询 AHJ</td>
-<td>项目经理</td>
-</tr>
-<tr>
-<td>关键尺寸未协调</td>
-<td>中</td>
-<td>中</td>
-<td>进行跨专业模型审查</td>
-<td>BIM 负责人</td>
-</tr>
-<tr>
-<td>材料供应不稳定</td>
-<td>中</td>
-<td>中</td>
-<td>预审替代材料和供应商</td>
-<td>材料顾问</td>
-</tr>
-<tr>
-<td>维护空间不足</td>
-<td>低</td>
-<td>高</td>
-<td>运行维护审查和可达性检查</td>
-<td>机电顾问</td>
-</tr>
-</tbody>
-</table>
+| 风险 | 概率 | 影响 | 缓解措施 | 责任方 |
+|---|---|---|---|---|
+| 规范版本更新 | 中 | 高 | 记录核验日期并持续监测，报审前二次确认 | 建筑师 |
+| 地方审批口径不明确 | 中 | 高 | 尽早向 AHJ 提交预审问询，保留书面答复 | 项目经理 |
+| 关键尺寸未跨专业协调 | 中 | 中 | 跨专业模型审查与碰撞检查 | BIM 负责人 |
+| 材料供应或性能不达标 | 中 | 中 | 预审替代材料与供应商，保留等效证明 | 材料顾问 |
+| 维护空间不足 | 低 | 高 | 运维可达性审查，设备更换路径验证 | 机电顾问 |
 
+## 示例提示词
 
-## 版本记录
+```text
+为北纬 40° 的 12 层住宅比较三种体量方案，说明日照、风环境、结构与消防影响。
 
-<table width="100%">
-<thead><tr>
-<th>版本</th>
-<th>说明</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>1.0.0</td>
-<td>全球注册建筑师技能框架，含十个国家/地区法规专题和七个计算器。</td>
-</tr>
-<tr>
-<td>翻译版</td>
-<td>英文自然语言转为简体中文，保留文件名、代码、标准编号和程序标识。</td>
-</tr>
-<tr>
-<td>OmniAiLab 版</td>
-<td>统一 OmniAiLab 元数据、MIT License、署名和交付边界。</td>
-</tr>
-</tbody>
-</table>
+按新加坡 SCDF Fire Code 与 BCA Code on Accessibility，审查这家酒店的疏散与无障碍方案，
+逐条列出条号、判定结果和需要向哪个部门确认。
 
+为 5,000 m² 办公楼生成面积表、邻接矩阵、核心筒选项与初步柱网。
 
-本文件与 `SKILL.md`、`skills/`、`LICENSE` 和计算脚本共同构成当前技能包。任何后续改造都应保留目录结构、调用路径和程序标识，除非改造任务明确要求变更。
+比较双层玻璃、三层玻璃与动态玻璃的 U 值、SHGC、VLT、成本与生命周期影响。
 
----
+针对英国项目建立围护结构、BREEAM、声学与施工图交付的检查清单。
 
-**中文 README 完整性说明：**本文件应与 `README.md` 保持相同的范围和章节信息，仅将自然语言翻译为简体中文。英文项目名称、法规名称、标准编号、软件名、路径和命令保留原样。
+核验印度 NBC 使用分类、耐火分隔、停车、FAR 与无障碍要求，列出待向主管部门确认的事项。
 
-## 交付文件命名建议
+使用计算器估算 2,000 m² 建筑的 U 值、疏散容量、结构荷载与初步造价，并标注各项假设。
+```
 
-- `01_project-brief.md`：项目任务书和假设。
-- `02_code-route.md`：法规路由和版本记录。
-- `03_program.md`：功能、面积和邻接关系。
-- `04_concept-options.md`：概念、体量和比较。
-- `05_performance.md`：环境、结构、消防和无障碍性能。
-- `06_materials.md`：围护和材料策略。
-- `07_documentation.md`：图纸、规范和 BIM 协调。
-- `08_review-log.md`：审查意见、RFI、ASI 和决策记录。
+## 交付文件命名
 
-## 最终核验
+固定前缀让审查链路可追溯，顺序即工作顺序。
 
-在发布技能包或项目交付物前，至少执行以下检查：
+| 文件 | 内容 | 谁看 |
+|---|---|---|
+| `01_project-brief.md` | 项目摘要、关键假设、设计阶段 | 业主、项目经理 |
+| `02_code-route.md` | 辖区判定、规范层级、版本与核验日期 | 建筑师、AHJ |
+| `03_program.md` | 功能清单、面积表、邻接关系 | 业主、运营方 |
+| `04_concept-options.md` | 概念、体量比较与环境响应 | 业主、评审 |
+| `05_performance.md` | 环境、结构、消防、无障碍性能 | 各专业顾问 |
+| `06_materials.md` | 围护与材料策略、等效证明 | 材料顾问、承包商 |
+| `07_documentation.md` | 图纸、规范文本、BIM 协调 | 施工方、审查方 |
+| `08_review-log.md` | 审查意见、RFI、ASI、决策记录 | 全项目组 |
 
-1. Markdown 标题层级、表格、链接、代码块和目录结构完整。
-2. 文件名、技能名、脚本名和程序标识未被误译。
-3. 标准编号、单位、公式、数值范围和版本未被改写。
-4. 中文 README 与英文 README 的范围、章节、技能和统计信息一致。
-5. 不包含原上游作者、原上游仓库或未经授权的署名。
-6. MIT License 与 OmniAiLab 统一版本一致。
-7. Git 工作树干净，并已创建可追溯提交。
-
-如上述任一项未通过，不应将技能包标记为最终完成。
-
-## 维护责任
-
-OmniAiLab 负责技能框架、目录组织和通用设计知识的维护。项目团队负责确认当地法规、项目数据、产品性能、施工方法和专业签章。用户对技能包进行二次改造时，应保留必要的许可证信息，并在版本记录中注明改动范围。
-
-## 反馈与改造
-
-建议通过版本提交记录问题和改造内容，包括文件路径、章节、法规版本、复现条件、预期结果和实际结果。涉及法规变更时，应附主管部门或正式规范来源，由具备资质的专业人员确认后再更新技能内容。
-
-本 README 的中文版本是当前全球注册建筑师框架的中文说明，不将任何单一国家、地区或考试体系视为唯一适用范围。
-
-## 变更记录
-
-- 完成全球注册建筑师定位调整。
-- 完成 OmniAiLab 统一元数据和署名。
-- 完成 MIT License 统一。
-- 完成主要技能文件的自然语言中文化。
-- 完成国家法规专题的中文化审查。
-- 完成计算器和技术文件的调用标识保留。
-- 完成 README 中文版结构扩展。
-- 保留英文标准名称和国际项目名称。
-- 保留法规编号、公式和单位。
-- 保留代码块、路径和命令。
-- 后续改造需继续维护中英文 README 同步。
-
-## 内容组织
+## 目录结构
 
 ```text
 registered-architect/
-├── SKILL.md                         # 技能总入口
-├── skills/                          # 专项技能模块
-│   ├── country-china/               # 中国大陆规范与实践资料
-│   ├── architect-calculator/        # 计算器与计算参考
-│   └── ...
-├── README.md                        # 简体中文 README（默认）
-├── README_EN.md                     # English README
-└── README.zh-CN.md                  # 中文兼容副本
+├── SKILL.md                          # 总入口：原则、模块指引、交付要求
+├── README.md                         # 简体中文 README（默认）
+├── README_EN.md                      # English README
+├── LICENSE                           # OmniAiLab MIT License
+├── .claude-plugin/plugin.json        # 插件元数据与关键词
+└── skills/
+    ├── architect-foundations/        # 自动加载的基础层
+    ├── geographic-foundations/       # 辖区识别与路由
+    ├── design-theory/  concept-design/  building-programming/
+    ├── building-typology/  spatial-planning/
+    ├── building-envelope/  structural-systems/  building-services/
+    ├── daylighting-design/  acoustic-design/  material-selection/
+    ├── building-codes/  fire-life-safety/  accessibility-design/
+    ├── building-sustainability/  construction-documentation/
+    ├── architect-calculator/         # 7 个脚本 + 计算参考
+    └── country-{china,usa,uk,germany,japan,singapore,australia,india,uae,saudi-arabia}/
+        ├── SKILL.md                  # 辖区专题正文
+        └── references/standards/     # 中国：426 条规范与图集 + 414 份正文分片
 ```
 
-## 许可证与来源
+## 责任边界
 
-本包采用 OmniAiLab MIT License，许可文本见 [LICENSE](LICENSE)。
+这条线必须写清楚，否则输出的每一条建议都会被误读成结论。
 
-## 专项技能索引
+| 事项 | 本技能能做的 | 必须由谁最终确认 |
+|---|---|---|
+| 法规适用与条文定位 | 判定辖区、列出规范层级、定位条文、标注版本与地方差异 | 当地主管部门（AHJ）与注册建筑师 |
+| 防火与生命安全 | 疏散距离、出口数量、防火分区策略、烟控与报警体系建议 | 消防审查部门 + 具备当地资质的消防工程师 |
+| 结构安全 | 体系选型、跨度参考、荷载路径、初算 | 结构工程师按现行标准复核并签章 |
+| 无障碍 | 路径、坡道、电梯、卫生间做法的合规比对 | 无障碍专项审查与注册建筑师 |
+| 节能与认证 | 指标预判、围护与系统策略、认证条款比对 | 能源顾问、认证机构（LEED / BREEAM / Green Mark 等） |
+| 造价 | 量级估算与方案比选 | 造价咨询与业主预算决策 |
+| 图纸与施工图 | 图纸组织、图层标注、LOD、协调清单 | 设计单位内部校审 + 施工图审查机构 |
 
-<table width="100%">
-<thead><tr>
-<th>编号</th>
-<th>技能</th>
-<th>主要用途</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>1</td>
-<td><code>architect-foundations</code></td>
-<td>建筑基础知识、理论家、定量规则和技能路由</td>
-</tr>
-<tr>
-<td>2</td>
-<td><code>geographic-foundations</code></td>
-<td>国家、地区、气候和法规路由</td>
-</tr>
-<tr>
-<td>3</td>
-<td><code>design-theory</code></td>
-<td>建筑理论、设计哲学、思潮和宣言</td>
-</tr>
-<tr>
-<td>4</td>
-<td><code>concept-design</code></td>
-<td>概念生成、体量、形态和设计策略</td>
-</tr>
-<tr>
-<td>5</td>
-<td><code>building-programming</code></td>
-<td>功能策划、面积标准、邻接关系和任务书</td>
-</tr>
-<tr>
-<td>6</td>
-<td><code>building-typology</code></td>
-<td>住宅、办公、商业、教育、医疗和文化建筑类型</td>
-</tr>
-<tr>
-<td>7</td>
-<td><code>spatial-planning</code></td>
-<td>核心筒、空间组织、流线和面积效率</td>
-</tr>
-<tr>
-<td>8</td>
-<td><code>building-envelope</code></td>
-<td>墙体、屋面、玻璃、幕墙和热工性能</td>
-</tr>
-<tr>
-<td>9</td>
-<td><code>structural-systems</code></td>
-<td>结构体系、跨度、荷载路径和构造类型</td>
-</tr>
-<tr>
-<td>10</td>
-<td><code>building-services</code></td>
-<td>HVAC、给排水、电气、机房和机电协调</td>
-</tr>
-<tr>
-<td>11</td>
-<td><code>daylighting-design</code></td>
-<td>日光、太阳几何、遮阳和模拟</td>
-</tr>
-<tr>
-<td>12</td>
-<td><code>acoustic-design</code></td>
-<td>隔声、房间声学、混响和噪声控制</td>
-</tr>
-<tr>
-<td>13</td>
-<td><code>material-selection</code></td>
-<td>材料性能、生命周期、成本和规范编制</td>
-</tr>
-<tr>
-<td>14</td>
-<td><code>fire-life-safety</code></td>
-<td>防火分区、疏散、报警、喷淋和消防策略</td>
-</tr>
-<tr>
-<td>15</td>
-<td><code>accessibility-design</code></td>
-<td>无障碍、通用设计和国际法规比较</td>
-</tr>
-<tr>
-<td>16</td>
-<td><code>building-codes</code></td>
-<td>IBC、Eurocodes、NCC、NBC 和全球规范框架</td>
-</tr>
-<tr>
-<td>17</td>
-<td><code>building-sustainability</code></td>
-<td>能源、碳、认证、被动式设计和水资源</td>
-</tr>
-<tr>
-<td>18</td>
-<td><code>construction-documentation</code></td>
-<td>图纸标准、规范、BIM、RFI 和施工管理</td>
-</tr>
-<tr>
-<td>19</td>
-<td><code>architect-calculator</code></td>
-<td>面积、U 值、日照、疏散、结构、能源和成本计算</td>
-</tr>
-</tbody>
-</table>
+输入不足时，它列缺失项而不自行假定关键条件；法规不确定时，它同时给出版本、判断依据、可能的地方差异和需要向 AHJ / 规划 / 消防确认的问题。
 
+## 常见错误
 
-## 交付前检查清单
+| 错误 | 后果 | 正确做法 |
+|---|---|---|
+| 把一个国家的法规数值直接用于另一个国家 | 整套方案在报审阶段被推翻 | 先做辖区路由，只比较指标与适用范围，不做等效替换 |
+| 使用过时版本且不注明核验日期 | 结论不可追溯，责任无法界定 | 每条结论写规范编号 + 版本 + 核验日期 |
+| 把经验规则当成强制条文 | 误导业主与施工方，埋下验收风险 | 经验值标注为“参考”，强制要求必须引条号 |
+| 只优化平面面积，忽略消防、结构、机电与维护空间 | 后期返工，核心筒与管井无处安放 | 方案阶段就同步过四类专业条件 |
+| 只比初始造价，忽略运行与替换成本 | 全生命周期成本反而更高 | 按寿命周期比较，含维护与替换 |
+| 只给结论不给假设 | 无法复核，也无法追责 | 每条判断附假设、证据与待确认事项 |
+| 把 AI 建议写成签章、审批或认证结论 | 法律与职业责任风险 | 明确区分“建议 / 核验 / 审批 / 认证”四种性质 |
 
-1. 确认项目所在地、主管部门和适用法规版本。
-2. 确认建筑用途、使用人数、面积、高度、层数和火灾危险类别。
-3. 确认结构体系、围护性能、机电系统和无障碍路径。
-4. 对关键尺寸、荷载、耐火、能耗、日照和声学指标进行独立复核。
-5. 区分设计建议、规范核验、审批意见和专业认证结论。
-6. 记录所有假设、缺失信息、待确认事项和后续责任人。
+## 常见问题
 
-## 统计概览
+| 问题 | 回答 |
+|---|---|
+| 只适用于中国项目吗？ | 不是。十个辖区各有专题，中国只是其中之一，且是资料最厚的一个（848 份条文资料）。无明确辖区时它会回落到国际参考并要求你确认。 |
+| 计算器结果能直接报审吗？ | 不能。计算器用于早期设计与交叉校核；报审数值须由持证人员按现行规范重算并签署。 |
+| 项目所在城市没有专门规范怎么办？ | 它会说明缺失，采用上一级规范作暂定参考，并列出需要向 AHJ 或地方规划部门确认的问题清单。 |
+| 可以比较不同国家的法规吗？ | 可以，但必须限定比较指标、版本、适用范围，并说明哪些部分不可等效。 |
+| 需要联网或外部软件吗？ | 不需要。知识库、模板与计算器全部离线可用；CAD、BIM、渲染与分析软件只是可选对接对象，不是依赖。 |
+| 它的输出算不算设计成果？ | 算设计判断与审查意见的支撑材料，不算可签章的施工图或审批文件。 |
 
-<table width="100%">
-<thead><tr>
-<th>项目</th>
-<th>数量或范围</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>核心技能</td>
-<td>18 项</td>
-</tr>
-<tr>
-<td>地理法规专题</td>
-<td>10 个国家/地区</td>
-</tr>
-<tr>
-<td>Python 计算器</td>
-<td>7 个</td>
-</tr>
-<tr>
-<td>建筑师与理论家</td>
-<td>50+</td>
-</tr>
-<tr>
-<td>建筑思潮</td>
-<td>20+</td>
-</tr>
-<tr>
-<td>可持续性认证框架</td>
-<td>8+</td>
-</tr>
-<tr>
-<td>建筑类型</td>
-<td>28+</td>
-</tr>
-<tr>
-<td>结构体系</td>
-<td>15+</td>
-</tr>
-<tr>
-<td>HVAC 系统类型</td>
-<td>12+</td>
-</tr>
-<tr>
-<td>墙体构造</td>
-<td>15+</td>
-</tr>
-<tr>
-<td>楼板构造</td>
-<td>11+</td>
-</tr>
-<tr>
-<td>玻璃构造</td>
-<td>14+</td>
-</tr>
-<tr>
-<td>材料吸声系数</td>
-<td>32+</td>
-</tr>
-<tr>
-<td>参考建筑案例</td>
-<td>100+</td>
-</tr>
-<tr>
-<td>尺寸标准</td>
-<td>200+</td>
-</tr>
-</tbody>
-</table>
+## 规模统计
 
+| 项目 | 数量 | 备注 |
+|---|---|---|
+| 专业模块 | 18 项 | 覆盖基础、设计、技术、合规、交付五层 |
+| 辖区专题 | 10 个 | 中国、美国、英国、德国、日本、新加坡、澳大利亚、印度、阿联酋、沙特 |
+| 计算器 | 7 个 | 纯标准库，`--json` 可留档 |
+| 参考文档 | 883 份 | 含中国大陆专题 848 份：426 条规范与图集 + 414 份正文分片 |
+| 知识库规模 | 约 113 万行 Markdown | 919 个文件，含模块正文与参考资料 |
+| 建筑师与理论家 | 50+ | 从 Vitruvius 到 Kéré，附代表作品与适用语境 |
+| 建筑思潮 | 20+ | 现代主义、后现代、批判地域主义、参数主义、现象学等 |
+| 建筑类型 | 28+ | 住宅、商业、机构、工业、特殊建筑各子类 |
+| 结构体系 | 15+ | 混凝土、钢、木、砌体、预制、张弦、网架、壳体、复合 |
+| 可持续性认证 | 8+ | LEED、BREEAM、WELL、Green Star、NABERS、DGNB、CASBEE、Estidama、Mostadamah |
+| 参考案例 | 100+ | 用于先例分析与做法对照 |
+| 尺寸与经验值 | 200+ | 层高、柱网、净得率、走廊、停车、电梯、耐火等级等 |
 
-## 版本与维护
+## 版本记录
 
-当前版本为 `1.0.0`。法规、标准、软件和认证体系具有时效性；每次项目使用前均应核对现行版本，并在项目记录中注明核验日期。
+| 版本 | 变更内容 | 影响范围 |
+|---|---|---|
+| v1.1.0 | 十个辖区专题升级到条文级精度（规范编号、版本年份、地方修订、审查路径）；新增中国规范与图集分片库 | 辖区路由与条文定位 |
+| v1.0.0 | 全球注册建筑师技能框架：18 项专业模块 + 10 个辖区 + 7 个计算器 | 全量 |
+| OmniAiLab 版 | 统一元数据、MIT 许可、署名与交付边界；自然语言中文化，保留规范编号、路径与程序标识 | 文档与元数据 |
 
-本 README 与英文 README 使用相同的章节组织、技能范围、法规专题、计算器说明、统计项目和许可证信息；英文名称、规范编号、程序标识符、路径和命令保持原样，以确保 Agent 能够正确识别和调用。
+## 许可与署名
+
+本技能包采用 **MIT License**，许可文本见 [LICENSE](LICENSE)。可自由使用、修改与再分发，保留版权与许可声明即可。
+
+- 出品：OmniAiLab
+- 开发者：Mochiball
+- 平台：[omniailabx.com](https://www.omniailabx.com/)
+- 仓库：[tomatoparkdao/registered-architect](https://github.com/tomatoparkdao/registered-architect)
+
+规范资料仅用于辅助设计判断。对任何数值限值、条文引用或合规结论，均须核验项目所在地现行的国家强制性标准、地方标准与主管部门要求，并由具备当地资质的专业人员复核签署。
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

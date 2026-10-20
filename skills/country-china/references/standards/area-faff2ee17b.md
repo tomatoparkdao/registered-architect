@@ -12,7 +12,7 @@ source_status: TEXT_EXTRACTED
 
 # 建筑面积计算规范2014
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 - 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/3. 建筑面积计算/建筑面积计算规范2014.docx`
 - 文本状态：`TEXT_EXTRACTED`
@@ -434,4 +434,4 @@ Addition:Explanation of Provisions
 7 室外钢楼梯需要区分具体用途，如专用于消防楼梯，则不计算建筑面积，如果是建筑物唯一通道，兼用于消防，则需要按本规范的第3.0.20条计算建筑面积。
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

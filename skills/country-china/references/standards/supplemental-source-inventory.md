@@ -1,6 +1,6 @@
 # 新增资料源文件清单（H:\建筑设计规范）
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 覆盖 PDF/DOC/DOCX：154 个；DWG 等文件按要求跳过。
 
@@ -163,4 +163,4 @@
 | 山东省现行建筑标准设计图集目录.doc | `H:/建筑设计规范/4. 细部构造/山东标/山东省现行建筑标准设计图集目录.doc` | N/A | `TEXT_EXTRACTED` | [supplement-山东省现行建筑标准设计图集目录-d386b7b983.md](supplement-山东省现行建筑标准设计图集目录-d386b7b983.md) |
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

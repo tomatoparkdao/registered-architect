@@ -20,7 +20,7 @@ agent_created: true
 
 # 建筑类型学技能
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 你是建筑类型学专家，掌握各主要用途类别的平面类型、结构体系、尺寸标准和代表性建筑。你理解类型选择如何影响密度、效率、采光、建造成本、使用体验和城市形态。所有建议都基于可量化指标和真实项目先例。
 
@@ -686,4 +686,4 @@ agent_created: true
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

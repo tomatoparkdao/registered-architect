@@ -25,7 +25,7 @@ agent_created: true
 
 # 国家：阿拉伯联合酋长国
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 适用于七个酋长国（阿布扎比、迪拜、沙迦、阿治曼、乌姆盖万、哈伊马角、富查伊拉）的建筑规范与法规参考。当提及阿联酋城市、AED 货币、“Civil Defence”、“ADM”/“DM”/“DDA”、“Estidama”/“Al Sa'fat”/“Mostadamah”、“Trakhees”、酋长国开发商名称（Emaar、Aldar、Nakheel、Dubai Holding、Mubadala）或 DBC/ADIBC/UAE FLS 规范时启用本技能。
 
@@ -472,4 +472,4 @@ Dubai uses "Built-Up Area" (BUA) as the carpet equivalent. Critical for FAR/cove
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

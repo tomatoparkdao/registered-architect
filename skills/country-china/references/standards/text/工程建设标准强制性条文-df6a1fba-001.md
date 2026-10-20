@@ -1,6 +1,6 @@
 ---
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 name: china-standard-text-工程建设标准强制性条文-df6a1fba-001
 description: 中国建筑设计规范文本分片。
 license: MIT（OmniAiLab）—— 见 LICENSE
@@ -7975,4 +7975,4 @@ TN —— S 接 零 保 护系统 。
 14 ．10 ．16 气 焊 严禁 使 用 未 安装 减 压 器 的 氧 气瓶 进行 作业。
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

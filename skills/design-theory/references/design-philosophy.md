@@ -11,7 +11,7 @@ agent_created: true
 
 # 设计哲学与建筑美学
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 建筑设计哲学与理论基础综合参考，涵盖维特鲁威三要素、现象学、符号学、建构理论、场所营造、以可持续性为设计驱动因素以及使用后评估。
 
@@ -370,4 +370,4 @@ POE 的最终价值不在于评价单栋建筑，而在于建立能够指导未�
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -24,4 +24,4 @@ source_pages: 7
 - [mht5026-通用机场建设规范-e8ff7ed6-001.md](text/mht5026-通用机场建设规范-e8ff7ed6-001.md)
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -24,4 +24,4 @@ source_pages: 11
 - [05sfj05-防空地下室室外出入口部钢结构装配式防倒塌棚架建筑设计-c9bc7b1a-001.md](text/05sfj05-防空地下室室外出入口部钢结构装配式防倒塌棚架建筑设计-c9bc7b1a-001.md)
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -12,7 +12,7 @@ agent_created: true
 
 # 国家：沙特阿拉伯王国
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 适用于沙特阿拉伯境内项目的建筑规范与法规参考。当提及沙特城市（利雅得、吉达、麦加、麦地那、达曼、塔布克、欧拉、NEOM、胡拜尔、宰赫兰）、SAR 货币、“Amana”/“Baladiya”、皇家委员会项目、Mostadamah、SBC 规范或沙特民防（Difa'a al-Madani）时启用本技能。
 
@@ -464,4 +464,4 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

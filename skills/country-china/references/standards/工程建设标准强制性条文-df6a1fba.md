@@ -24,4 +24,4 @@ source_pages: 196
 - [工程建设标准强制性条文-df6a1fba-001.md](text/工程建设标准强制性条文-df6a1fba-001.md)
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

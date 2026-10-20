@@ -12,7 +12,7 @@ agent_created: true
 
 # 概念设计
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 建筑概念设计综合知识库，涵盖 Parti 发展、体量策略、空间组织模型、概念到形体转译和设计迭代流程。在发展早期设计概念、评估体量方案、组织空间功能或将抽象设计想法转译为建筑形体时调用本技能。
 
@@ -674,4 +674,4 @@ Score each option 1-5 per criterion, multiply by weight, sum for total. Select t
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

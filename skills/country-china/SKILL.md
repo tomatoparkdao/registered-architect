@@ -14,7 +14,7 @@ agent_created: true
 
 # 国家：中国人民共和国
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 适用于中国大陆项目的建筑规范与法规参考。**香港特别行政区**具有独立的监管制度，本文第 12 节作简要概述（规范体系、英文语言环境及普通法传统均不同）。**澳门特别行政区**同样独立。本文不涵盖台湾。
 
@@ -577,4 +577,4 @@ Cities mapped to intensity:
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

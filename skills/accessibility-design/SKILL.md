@@ -14,7 +14,7 @@ agent_created: true
 
 # 无障碍设计
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 本技能为建筑实践提供专业级无障碍标准、通用设计原则和包容性设计策略知识。所有尺寸均以公制给出，并在行业惯例要求时附英制等值尺寸。
 
@@ -526,4 +526,4 @@ simply being unfamiliar with the building.
 #
 
 ---
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
