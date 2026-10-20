@@ -10,12 +10,13 @@ description: >-
   Also use when the user needs area tables for residential, office, healthcare,
   education, hospitality, retail, or cultural building types, or when checking
   compliance with NDSS, Neufert, NHS HBN, BB103, or ASHRAE standards.
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 建筑策划技能

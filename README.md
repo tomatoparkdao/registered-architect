@@ -20,7 +20,7 @@
   <b>简体中文</b>　｜　<a href="README_EN.md">English</a>
 </p>
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ 平台：[omniailabx.com](https://www.omniailabx.com/)
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 这不是一个“生成方案”的创作工具，而是一个**会先问清辖区再下判断**的规范核验框架。它的第一动作不是画图，是确认项目在哪个国家、哪个城市、受哪一级强制性标准约束；确认不了就先列缺失项，而不是套一个别国的数值继续往下算。
 

@@ -1,12 +1,13 @@
 ---
 name: supplement-山东省-L13J7-2-内装修-配件-地方规范图集-8ad6dc1f86
 description: 新增中国建筑规范资料索引。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 山东省_L13J7-2_内装修-配件_地方规范图集
@@ -18,3 +19,6 @@ agent_created: true
 - OCR 字符数：2058
 - 状态：`TEXT_EXTRACTED`
 - 文本分片：[supplement-山东省-L13J7-2-内装修-配件-地方规范图集-8ad6dc1f86-001.md](text/supplement-山东省-L13J7-2-内装修-配件-地方规范图集-8ad6dc1f86-001.md)
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

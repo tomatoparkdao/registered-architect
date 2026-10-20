@@ -15,12 +15,13 @@ description: >
   Code, SA Planning + Building Code, ACT + NT); BCA performance + DTS pathways; the BASIX
   (NSW) sustainability assessment; Green Building Council of Australia Green Star ratings;
   and the Australian climate zones (8 zones) with cyclonic wind regions (A0, A1-5, B, C, D).
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 国家：澳大利亚

@@ -1,15 +1,18 @@
 ---
 name: china-standards-legacy-queue
 description: 尚未能可靠解析的旧式中国规范资料队列。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 旧式资料待处理队列
+
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 以下资料已完整登记，但当前环境没有可靠的 DOC/PPT 旧格式解析器或 RAR 解包工具，因此未将猜测内容写入 Skill：
 

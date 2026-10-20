@@ -1,12 +1,13 @@
 ---
 name: supplement-13J502-2-内装修-室内吊顶-08c211df5e
 description: 新增中国建筑规范资料索引。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 13J502-2 内装修：室内吊顶
@@ -17,3 +18,6 @@ agent_created: true
 - 状态：`TEXT_EXTRACTED`
 - 页数：object of type 'PdfReader' has no len()
 - 文本分片：[supplement-13J502-2-内装修-室内吊顶-08c211df5e-001.md](text/supplement-13J502-2-内装修-室内吊顶-08c211df5e-001.md)
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -4,12 +4,13 @@ description: >
   中华人民共和国建筑规范与法规参考。涵盖 GB
   (Guojia Biaozhun -- National Standard) series of mandatory codes including GB 50352-2019
   《民用建筑统一设计标准》（替代 2005 版）、GB 50016-2014（2018 年版）《建筑设计防火规范》、GB 51251-2017《建筑防烟排烟系统技术标准》、GB 50045（旧版高层防火）、GB 50011-2010《建筑抗震设计规范》（含 2016 年修订）、GB 50009-2012《建筑结构荷载规范》、GB 55015-2021《建筑节能与可再生能源利用通用规范》、GB 50189-2015《公共建筑节能设计标准》、JGJ 26-2018 + JGJ 75-2012 + JGJ 134-2010 住宅节能设计（按气候区）、GB 50763-2012《无障碍设计规范》、GB 50352 民用建筑规范，以及补充性的 JGJ（行业标准）规范。还包括 GB 50176-2016 规定的五类热工气候区（严寒、寒冷、夏热冬冷、夏热冬暖、温和）、六至九度地震烈度分区、控制住宅建筑间距的日照权规定、地方 DB 补充规范（北京 DB11、上海 DGJ08、广东及广西 DBJ 等）、香港特别行政区独立法规（屋宇署 BD、香港《建筑物条例》Cap 123、PNAPs 和 ATCs）、澳门独立法规、中国海绵城市计划、绿色建筑标识（三星中国绿色建筑评价标准）以及《建设工程质量管理条例》。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 国家：中国人民共和国

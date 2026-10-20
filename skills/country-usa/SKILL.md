@@ -2,12 +2,13 @@
 name: country-usa
 description: >
   美国建筑规范与法规参考。涵盖国际规范委员会（ICC）模型规范系列（已被美国大多数辖区采用：IBC 2024、IRC 2024、IECC 2024、IFC 2024、IMC 2024、IPC 2024、IFGC 2024、IEBC 2024）、美国国家消防协会规范系列（NFPA 101《生命安全规范》2024、NFPA 70 NEC 2023、NFPA 13 喷淋、NFPA 72 探测、NFPA 285 墙体组件、NFPA 5000）、结构标准（ASCE 7-22 荷载、ASCE 41-23 既有建筑、ACI 318-19 混凝土、AISC 360-22 钢结构、ANSI/AWC NDS 2024 木结构、TMS 402/602 砌体）、无障碍标准（ADA 2010、ANSI A117.1-2017、《公平住房法》+ HUD 设计手册、ABA 标准）、能源标准（ASHRAE 90.1-2022、ASHRAE 62.1-2022、ASHRAE 55-2020、ENERGY STAR），以及主要州级修订（加州 Title 24 第 1-12 部分，其中第 6 部分能源、第 11 部分 CalGreen；纽约市建筑规范 2022 + 1968 年祖父条款 + 2014 年商业规范；佛罗里达建筑规范 2023；得州按州及辖区采用；芝加哥建筑规范；马萨诸塞州第 9 版；华盛顿州能源规范），并涵盖分区/规划实践（R/C/M 分区、FAR、退界、高度奖励、LEED 计划、AHJ——具有管辖权的主管机构）。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 国家：美利坚合众国

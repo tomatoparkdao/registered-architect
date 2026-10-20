@@ -4,12 +4,13 @@ description: >
   全面的消防与生命安全设计专业知识，涵盖消防策略制定、防火分区与防火隔断设计、
   疏散路径设计（包括疏散距离和楼梯尺寸）、耐火等级与结构防火方法、排烟系统（自然与机械）、
   主动消防系统（喷淋、探测、报警、应急照明）、防火门规格，以及建筑师与消防工程师之间的消防策略协调。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 消防与生命安全设计

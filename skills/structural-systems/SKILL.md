@@ -2,12 +2,13 @@
 name: structural-systems
 description: >
   面向建筑师的综合结构体系知识，涵盖结构类型选择、网格设计与间距、侧向稳定体系、基础类型、跨度—高度比表、荷载路径说明以及建筑师与工程师协调策略。根据跨度、高度、功能、成本、施工速度和可持续目标，为结构体系选择提供决策框架。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 建筑师结构体系

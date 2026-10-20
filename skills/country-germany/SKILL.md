@@ -7,12 +7,13 @@ description: >
   Thuringia, LBauO Rheinland-Pfalz, LBO BW Baden-Wuerttemberg, BauO SH Schleswig-Holstein, BauO
   M-V Mecklenburg-Vorpommern, LBO Saarland, BauO Bremen），联邦《建筑能源法》（GEG）
   GEG 2023、德国 Eurocode 国家附录（DIN EN 1990-1999/NA）、DIN 18040 无障碍系列（第 1 部分公共建筑、第 2 部分住宅、第 3 部分公共空间）、DIN 4109 隔声、DIN 4108 保温、DIN 4102/EN 13501 防火分类、适用于特殊建筑的高层建筑示范指南与特别建筑法规、适用于集会建筑的集会场所法规、工业建筑指南、医院 KrPflVO/HHRRL、消防安全证明方法、BAFA/KfW 激励认证制度、DGNB 认证、Effizienzhaus 40/55/70 标准、2024 年供热法、Bauwerksbuch（建筑文档）、TGA/HKLS 工程专业以及德国 BIM 联邦强制要求时间表。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 国家：德国

@@ -1,12 +1,13 @@
 ---
 name: supplement-15ZJ001-建筑构造用料做法-adf1c13304
 description: 新增中国建筑规范资料索引。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 15ZJ001 建筑构造用料做法
@@ -18,3 +19,6 @@ agent_created: true
 - 页数：159
 - OCR 字符数：93411
 - 文本分片：[supplement-15ZJ001-建筑构造用料做法-adf1c13304-001.md](text/supplement-15ZJ001-建筑构造用料做法-adf1c13304-001.md)
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

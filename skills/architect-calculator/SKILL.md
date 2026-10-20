@@ -6,12 +6,13 @@ description: >
   BRE 方法的采光系数估算；疏散合规性校核（使用人数、出口宽度、疏散距离）；
   结构竖向荷载与柱分担面积计算；基于度日法的年度能耗估算；以及按建筑类型、
   品质和地区估算建造成本。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 建筑师计算器

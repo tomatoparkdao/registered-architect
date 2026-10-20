@@ -2,12 +2,13 @@
 name: country-saudi-arabia
 description: >
   沙特阿拉伯王国建筑规范与法规参考。涵盖沙特建筑规范（SBC）国家委员会（SBCNC）发布的系列规范：SBC 201 一般建筑、SBC 301 结构荷载（源自 ASCE）、SBC 302 混凝土（源自 ACI 318）、SBC 304 土与基础、SBC 305 砌体、SBC 306 钢结构（源自 AISC）、SBC 401 电气、SBC 501 机械、SBC 601 节能、SBC 701 给排水、SBC 801 消防（与 NFPA 对齐）、SBC 901 既有建筑、SBC 1001 绿色建筑；以及民防总局法规、沙特通用无障碍规范、Mostadamah（沙特绿色建筑计划）、Vision 2030 超级项目（NEOM、Qiddiya、红海、Diriyah、ROSHN）、Amana（市政）审批流程、沙特能效中心（SEEC）计划和皇家委员会管辖区（朱拜勒/延布/欧拉）。包括麦加/麦地那特殊限制（朝觐建筑法规）、Aramco 住宅标准参考，以及针对全国三类气候区的炎热干旱、沿海湿热和高地设计附加要求。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 国家：沙特阿拉伯王国

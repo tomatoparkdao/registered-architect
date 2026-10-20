@@ -1,7 +1,5 @@
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
-
-
 ## 第 1 页
 
 中南地区工程建设标准设计 建筑图集 (4) 2011
@@ -624,7 +622,6 @@ w5#1 0u耜辨
 81125土
 # 觋巫 3性l1苎
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 %
 C5141
 2钚3-

@@ -1,12 +1,13 @@
 ---
 name: china-standard-area-faff2ee17b
 description: 中国建筑面积计算资料：建筑面积计算规范2014
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 source_status: TEXT_EXTRACTED
 ---
 

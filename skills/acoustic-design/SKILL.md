@@ -3,12 +3,13 @@ name: acoustic-design
 description: >
   建筑声学设计：空间之间的隔声（空气声和撞击声）、室内声学与混响控制、环境噪声侵入、
   建筑设备噪声与振动，以及住宅、商业、教育、医疗、演出和宗教建筑类型的声学设计策略。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 建筑声学设计

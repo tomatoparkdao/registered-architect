@@ -2,12 +2,13 @@
 name: country-singapore
 description: >
   新加坡建筑规范与法规参考。涵盖《建筑管制法 1989》（BCA）及《建筑管制条例 2003》（截至 2024 年的定期修订）、新加坡民防部队（SCDF）《消防规范 2018》（《消防安全法 1993》及《消防安全（建筑消防安全）条例》）、URA（城市重建局）《规划法》及 2019 总体规划和开发控制手册、BCA Green Mark 2021 计划（自 2008 年起所有新建建筑强制达到 Green Mark Certified）、BCA《无障碍规范 2019》（第 3 次修订；通用设计标志）、《建筑环境可持续性规范 2018》、新加坡标准 SS 530 能效、SS 553 空调、SS 568 自然采光、SS 593 声学、SS 632 应急电源，以及新加坡采用的 Eurocodes（带新加坡国家附录的 SS EN 系列）、BCA《可建造性实施规范》、《可建造性设计与施工性规范》、《工作场所安全与健康法》、NEA 噪声法规、PUB 给排水规范和陆路交通管理局车辆停车实施规范。包括 HDB（公共住房）标准及开发商主导的私人住宅设计质量协议。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 国家：新加坡

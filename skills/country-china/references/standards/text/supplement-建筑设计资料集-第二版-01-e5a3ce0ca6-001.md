@@ -1,7 +1,5 @@
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
-
-
 ## 第 1 页
 
 建筑设计资料集 (第「版)
@@ -3147,7 +3145,6 @@ k寸:叭  R3t @二 [ F[ [二观索~寡 T色.涸鼻劣 莨色.进框及 囹憨为
 f  止  倬  窗
 #  止 ^划
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
   止  瞒  下
 綮让穿打鞋人内
 骂心  典  电

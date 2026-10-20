@@ -7,12 +7,13 @@ description: >
   采光与退界比例）的《城市规划法》；独特的两级抗震设计理念（一级 475 年、二级 2475 年重现期）、1981 年新耐震标准、能量吸收构件、
   基础隔震与阻尼器系统；AIJ《建筑物荷载建议》（2015）；CASBEE（建成环境综合性能评价系统）；BCJ（日本建筑中心）结构性能评价；
   《建筑师法》及一级/二级/木造建筑师资格；《土地与建筑物租赁法》；以及都道府县、政令指定城市和核心城市行政层级。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 国家：日本

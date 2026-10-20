@@ -1,12 +1,13 @@
 ---
 name: china-standards-source-inventory
 description: 用户提供的中国建筑设计规范资料源文件完整清单。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 中国建筑规范源文件清单

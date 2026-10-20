@@ -14,13 +14,14 @@ description: >
   (ASTM E90 STC, ASTM E492 IIC, BB93, DIN 4109), structural systems, envelope performance,
   日光指标以及常见设计失败的反模式目录。可路由至
   可根据用户查询上下文路由至 17 个下游专业技能。
-user-invocable: false
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
+user-invocable: false
 ---
 
 # 建筑师基础

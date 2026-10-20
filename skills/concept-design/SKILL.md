@@ -1,13 +1,14 @@
 ---
 name: concept-design
 description: 总图构思（Parti）发展、体量研究、空间组织策略、设计概念生成以及从概念到形体转译的方法论
-user-invocable: true
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
+user-invocable: true
 ---
 
 # 概念设计

@@ -1,17 +1,20 @@
 ---
 name: china-standard-工程建设标准强制性条文-df6a1fba
 description: 中国建筑设计规范资料：工程建设标准强制性条文
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 source_status: TEXT_EXTRACTED
 source_pages: 196
 ---
 
 # 工程建设标准强制性条文
+
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 - 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/0. 制图标准/工程建设标准强制性条文.pdf`
 - 页数：196

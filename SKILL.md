@@ -1,12 +1,13 @@
 ---
 name: registered-architect
 description: 面向全球注册建筑师与建筑设计专业人员的方案设计、规范审查、消防、无障碍、建筑技术与施工图工作。根据项目所在国家、地区、城市及适用规范路由到相应的法规专题；在作出合规结论前，必须核验现行强制性标准与地方要求。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.1.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # Registered Architect · 全球注册建筑师专业框架

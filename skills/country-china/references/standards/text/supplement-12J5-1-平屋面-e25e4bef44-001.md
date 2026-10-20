@@ -1,7 +1,5 @@
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
-
-
 ## 第 1 页
 
 U
@@ -484,7 +482,6 @@ W6骡栓
 薜风遣出屋西
 # 出祧詹 兆橹水蓉0 出入口变形莛 无组椠#太兆檐 屋面详图索引
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 图黛号 12YJ5- 页
 倒置式屋面详图索引
 

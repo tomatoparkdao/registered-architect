@@ -2,12 +2,13 @@
 name: building-codes
 description: >
   全面的建筑规范专业知识，涵盖 IBC（International Building Code）使用类别、I 至 V 类建筑构造、建筑高度与面积限制、疏散设计、防火分隔与防护要求、卫生器具计算，以及 IBC、Building Regulations（英格兰和威尔士）、Eurocodes、NCC（澳大利亚）和 NBC（加拿大）之间的国际规范比较。提供具体规范条文、尺寸要求、耐火等级和建筑合规计算方法。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 建筑规范

@@ -1,12 +1,13 @@
 ---
 name: specification-guide
 description: 注册建筑师专业参考：specification-guide。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 规格编写指南——深度参考

@@ -1,13 +1,14 @@
 ---
 name: daylighting-design
 description: Natural daylighting strategies, solar geometry, glare control, artificial lighting integration, and visual comfort for architectural design
-user-invocable: true
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
+user-invocable: true
 ---
 
 # 日光照明设计

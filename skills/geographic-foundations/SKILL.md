@@ -2,13 +2,14 @@
 name: geographic-foundations
 description: >
   Architect Skills 插件的自动激活地理背景路由器。检测建筑问题涉及的国家或司法辖区，并路由至相应国家法规档案（印度、阿联酋、沙特、美国、英国、德国、新加坡、日本、中国、澳大利亚）。编码全球法规格局：各主管机构发布哪些规范、国家/州/市级法规层级、按版本年份划分的规范采用状态、各辖区主要能源/抗震/消防/无障碍规范，以及国家规范与国际参考体系（IBC、NFPA、Eurocode、ISO、ASCE）的对应关系。精确记录各国采用的 Eurocode 国家附录、各州/酋长国/联邦州/都道府县发布的修订，以及国际标准通过引用适用的场合。当用户问题中出现地理背景（城市名、项目地点、语言线索、规范引用）时触发国家技能；未声明具体辖区时提供全球框架比较。
-user-invocable: false
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
+user-invocable: false
 ---
 
 # 地理基础

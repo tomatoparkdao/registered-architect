@@ -20,7 +20,7 @@
   <a href="README.md">简体中文</a>　｜　<b>English</b>
 </p>
 
-> © OmniAiLab ｜ Developer: Mochiball ｜ Platform: [omniailabx.com](https://www.omniailabx.com/)
+> © OmniAiLab ｜ Developer: Mochiball ｜ OmniAiLab Global Registered Architect (omniailabx.com) — unauthorised copying, distribution or redistribution is prohibited.
 
 This is not a massing generator. It is a **code-routing framework that establishes which jurisdiction you are in before it answers anything**. Its first move is not drawing — it is determining which country, which city, and which tier of mandatory standards govern the project. If that cannot be established, it lists the gaps instead of borrowing another country's numbers and carrying on.
 

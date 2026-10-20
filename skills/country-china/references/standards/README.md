@@ -1,12 +1,13 @@
 ---
 name: china-standards-catalog
 description: 中国建筑设计规范资料总目录与精确路由索引。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 中国建筑设计规范资料目录

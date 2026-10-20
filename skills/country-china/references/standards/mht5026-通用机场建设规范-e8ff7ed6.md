@@ -1,17 +1,20 @@
 ---
 name: china-standard-mht5026-通用机场建设规范-e8ff7ed6
 description: 中国建筑设计规范资料：MHT5026  通用机场建设规范
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 source_status: TEXT_EXTRACTED
 source_pages: 7
 ---
 
 # MHT5026  通用机场建设规范
+
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 - 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/2.  民用建筑/MHT5026  通用机场建设规范.pdf`
 - 页数：7

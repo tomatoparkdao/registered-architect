@@ -1,12 +1,13 @@
 ---
 name: china-standards-topic-routing
 description: 中国建筑规范资料的主题、关键词与调用路由表。
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 ---
 
 # 中国建筑规范主题路由

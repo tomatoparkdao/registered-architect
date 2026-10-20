@@ -1,12 +1,13 @@
 ---
 name: china-standard-office-超高层办公建筑设计要点ppt-38f9fbec
 description: 中国建筑设计规范 Office 资料：超高层办公建筑设计要点PPT
+version: 1.1.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
-version: 1.0.0
 author: OmniAiLab
 developer: Mochiball
 agent_created: true
+开源仓库: https://github.com/tomatoparkdao/registered-architect
 source_status: TEXT_EXTRACTED
 ---
 

@@ -1,7 +1,5 @@
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
-
-
 ## 第 1 页
 
 国家建筑标准设计图集 15K606
@@ -877,7 +875,6 @@ f (: 盥 叩 回 防 |  | 罪 # :  # 》 烟 蠡 世 蔓 黧 杰 矍 - 烟 排 [
 1 计 排 l 设 计
 # A  嚣 凰 #
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 系 统 控
 昱
 } H
