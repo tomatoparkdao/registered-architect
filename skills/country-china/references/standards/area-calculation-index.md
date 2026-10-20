@@ -16,7 +16,7 @@ agent_created: true
 | 资料 | 状态 |
 |---|---|
 | 《关于建筑基底_绿地面积测量计算方法的探讨》 | `TEXT_EXTRACTED` |
-| 《建筑面积计算规范图解》 | `OCR_REQUIRED` |
+| 《建筑面积计算规范图解》 | `TEXT_EXTRACTED`（GPU OCR） |
 | 2014年最新建筑面积计算规则（两个 DOC 版本） | `LEGACY_UNPARSED` |
 | 建筑面积计算规范2014（DOCX） | `TEXT_EXTRACTED` |
 | GBT50353-2013 建筑工程建筑面积计算规范（子目录版本） | `TEXT_EXTRACTED` |
