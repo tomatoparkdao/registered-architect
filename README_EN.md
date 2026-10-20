@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>A code-routing, design-review and documentation-audit Skill for registered architects — jurisdiction first</b><br>
-  29 modules: 18 professional design modules + 10 jurisdictional code packs + 7 calculators ｜ 883 reference documents ｜ ~1.13M lines of source material<br>
+  29 modules: 18 professional design modules + 10 jurisdictional code packs + 1 calculator module (7 scripts) ｜ 883 reference documents ｜ ~1.13M lines of source material<br>
   Project intake → code routing → programme &amp; massing → technical coordination → performance verification → construction documents → compliance review<br>
   Codes are routed and cross-checked, never turned into approvals ｜ Zero hard dependencies, works offline ｜ Structure / fire / accessibility require a locally licensed sign-off
 </p>
@@ -22,6 +22,30 @@
 </p>
 
 > © OmniAiLab ｜ Developer: Mochiball ｜ OmniAiLab Global Registered Architect (omniailabx.com) — unauthorised copying, distribution or redistribution is prohibited.
+
+It does not draw the scheme, and it does not sign for you. **The first thing it does is establish which tier of mandatory standards governs the project**: address, use, height, area and design stage decide the jurisdiction and the authority, then the code hierarchy is traced down to clause level, and only then does the work move on to programme and massing, technical coordination, performance verification, construction documents and compliance review. At the end of every step you only answer "continue" or "not this one". One Skill covering 10 jurisdictions, 18 professional capabilities and 7 calculators, writing "where this number comes from, which edition, verified when" into every conclusion, so a design judgement becomes a record that can be traced, checked and handed to a reviewer.
+
+| Item | Value | Notes |
+|---|---|---|
+| Module system | 29 modules / 883 reference documents | 18 professional design capabilities + 10 jurisdictional code packs + `architect-calculator` (7 scripts inside); the China pack alone holds 848 documents, 96% of all references |
+| Skill invocation name (unique ID) | `registered-architect` | All-lowercase with hyphens; tools that support skills invoke it directly, and tools that do not still trigger it from a natural-language description |
+| Display name | OmniAiLab Global Registered Architect | The name shown on the repository page and in the docs — not the invocation name; it routes and checks codes, it does not produce schemes |
+| Version | v1.1.0 | Kept identical across `SKILL.md`, `.claude-plugin/plugin.json` and all three READMEs |
+| Publisher / Developer | OmniAiLab / Mochiball | — |
+| License | MIT (see [LICENSE](LICENSE)) | Use and redistribution are governed by that file; standard text is quoted, never resold |
+| Accompanying documents | [README.md](README.md) / [README_EN.md](README_EN.md) / [SKILL.md](SKILL.md) | Invocation, module index, six-stage workflow, terminology checks, pitfalls, FAQ and deliverable list |
+| Repository | [tomatoparkdao/registered-architect](https://github.com/tomatoparkdao/registered-architect) | All modules, references and calculators; **currently a private repository** — once public, `git clone` and issues work directly |
+| Requirements | Python 3.9+ (calculators only) | The calculators have zero third-party dependencies; without Python everything is still readable, you just lose the preliminary calculations |
+| Native platform | [OmniAiLab China site](https://www.omniailabx.com/) / [International site](https://omniailab.cn/) | Renderings and animation come from the platform; **code checks keep working when it is not connected** |
+
+The invocation name is **all-lowercase with hyphens** (`registered-architect`), not the display name "OmniAiLab Global Registered Architect". Tools with native skill support are best driven by the invocation name; tools without it still trigger from a natural-language description such as "this project is in the Middle East, which clauses govern fire egress".
+
+> **One naming trap**: the repository root holds a single `SKILL.md` — that is the **entry point** (global principles plus module routing).
+> Each `skills/<module>/SKILL.md` is one of 29 **capability units**, carrying its own front-matter and signature, loaded on demand by the entry point.
+> Invoke `registered-architect` by name — mounting the modules individually only loads the same clause material twice.
+
+---
+
 
 ## Decide the jurisdiction before the design
 
