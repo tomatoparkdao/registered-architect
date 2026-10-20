@@ -1,5 +1,7 @@
 
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 第 1 页
 
 国家建筑标准设计图集 10J301 替代 02J301 )
@@ -1781,3 +1783,6 @@ TDF 密甘膏窑甘 连:  本更恨据北京百酎尔砖术村料 桩头防水�
 组织编制单位。联系人及电话 中国建筑标准设计研究院
 V10-68799140 ( 国标图热绂电话 ) 010-68318822 发行电话 )
 奁阅标准倒黛相关信息请登录国家建筑标准设计网站 ILIp: / /wu. chinabuiIding Com.cn
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

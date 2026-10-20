@@ -1,3 +1,5 @@
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 
 
 ## 第 1 页
@@ -51,6 +53,8 @@ E-玻璃檎。岩棉- 喷涂硬泡聚氢酯 龙胥内保温系统 聂聃卑' 岩
 玉
 11111
 # NWOR2 
+
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 
 ## 第 6 页
@@ -1498,3 +1502,6 @@ AS4.外墙内保温板产品相关技术资料
 组织绢制单位。联系人及电话 中罔建筑诼准设计砰宄院
 干祖光
 (010) R87g910 (困杯圜热虻申诱) (010) 68318822〈友行电语)
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -11,6 +11,8 @@ agent_created: true
 
 # GB51251-2017  建筑防防烟排烟系统技术标准
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 - 来源文件：`建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/GB51251-2017  建筑防防烟排烟系统技术标准.pdf`
 - 状态：`TEXT_EXTRACTED`
 - 页数：object of type 'PdfReader' has no len()

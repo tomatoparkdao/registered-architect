@@ -1,3 +1,5 @@
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 
 
 ## 第 1 页
@@ -680,6 +682,8 @@ p
 平开窑为亓启寡 兵卓|彳宜天于600, x商不宦大干1+60。 1幕地f绥隽.档商度及芄本平雀力应蒲足`菟.素
 平开簋立面圈(囚)
 # LIJJI
+
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 
 ## 第 32 页
@@ -2437,3 +2441,6 @@ htlo:jq.aq.cor ?_wVy=10278k=OalEeA
 茳:L<50
 刨SW ]
 平开门连窗安装节总囝
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

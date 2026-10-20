@@ -11,6 +11,8 @@ agent_created: true
 
 # 交通组织模式——综合参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 1. 走道类型
 
 ### 1.1 单侧布房走道（外廊式）

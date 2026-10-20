@@ -1,5 +1,7 @@
 
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 第 1 页
 
 建筑构造 [
@@ -2374,3 +2376,6 @@ M0 |L
 Ts(1 AITNRIr
 e CJAT (RSHI |UN 旬自动人=菹平嬴。立面及斛面示重匝
 265
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

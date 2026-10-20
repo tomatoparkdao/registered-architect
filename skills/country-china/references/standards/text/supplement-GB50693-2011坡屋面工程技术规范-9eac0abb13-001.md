@@ -1,5 +1,7 @@
 
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 第 1 页
 
 UDC
@@ -1197,3 +1199,6 @@ I55 塑求婢暹gt紧挤出。芒为丫射防术巷杜边飨部位的留 苌讨�
 
 1'  堙工 戛点
 I』 瓦介篷芄助水层可作为犀固的笫二逍动水层。尽氯促 吁]t/防水层私侏f戾如介y帚和砖?应先#仆。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,3 +1,5 @@
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 
 
 ## 第 1 页
@@ -680,6 +682,8 @@ J2
 TOSN0
 三
 # 工2叽
+
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 3220
 7381
 11.86
@@ -5081,3 +5085,6 @@ OO IC IJ0 22FI oooo TO TETO 2520
 主管单位。联系人及电话 中国建筑标准设计研究院
 01088361155-800 国标图燕绩电话 )
 更多资料尽在微信公众号 :施工者
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

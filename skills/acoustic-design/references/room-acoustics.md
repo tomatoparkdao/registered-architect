@@ -11,6 +11,8 @@ agent_created: true
 
 # 室内声学——参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 1. 音乐厅类型
 
 ### 1.1 鞋盒式（矩形）

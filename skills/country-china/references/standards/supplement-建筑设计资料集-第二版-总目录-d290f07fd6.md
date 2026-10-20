@@ -11,6 +11,8 @@ agent_created: true
 
 # 建筑设计资料集（第二版）总目录
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 - 来源文件：`H:/建筑设计规范/6. 建筑设计资料集（第三版）/建筑设计资料集 （第二版）/建筑设计资料集（第二版）总目录.doc`
 - 状态：`LEGACY_UNPARSED`
 - 页数：N/A

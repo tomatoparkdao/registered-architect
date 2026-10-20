@@ -11,6 +11,8 @@ agent_created: true
 
 # OmniAiLab Global Registered Architect
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 An architecture Skill for registered architects and building-design professionals worldwide, designed as a standards-driven decision system: establish jurisdiction and applicable codes first, then route the project through concept, technical design, fire safety, accessibility, sustainability, construction documentation, and compliance review.
 
 English｜[简体中文 README](README.md)

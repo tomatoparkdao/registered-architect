@@ -11,6 +11,8 @@ agent_created: true
 
 # 墙体系统——综合参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 1. 分层构造与性能数据
 
 ### 1.1 传统砌体夹腔墙（砖/砌块）

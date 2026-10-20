@@ -11,6 +11,8 @@ agent_created: true
 
 # LEED BD+C v4.1——逐项学分参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 1. 综合过程（IP）——1 分
 
 ### IP 学分：综合过程（1 分）

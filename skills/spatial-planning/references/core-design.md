@@ -11,6 +11,8 @@ agent_created: true
 
 # 核心筒设计——综合参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 1. 核心筒设计原则
 
 竖向核心筒是多层建筑中影响最深远的单一空间要素。它决定：

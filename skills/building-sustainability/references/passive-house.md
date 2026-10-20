@@ -11,6 +11,8 @@ agent_created: true
 
 # 被动房——详细设计参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 1. 墙体构造
 
 ### 1.1 砌体夹心墙（被动房）

@@ -11,6 +11,8 @@ agent_created: true
 
 # 跨度表：综合参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 本参考按材料整理了常见结构构件的专业跨度表。数据汇编自Steel Construction Institute（SCI）、The Concrete Centre、TRADA（Timber Research and Development Association）、AISC Steel Construction Manual及Eurocode设计指南。
 
 除非另有说明，所有跨度均假定为正常使用功能的可变荷载。高度为结构总高度，自重为初步设计估算值。

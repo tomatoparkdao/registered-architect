@@ -11,6 +11,8 @@ agent_created: true
 
 # L13J1-建筑工程做法
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 - 来源文件：`E:/SKILL/蒸馏文件/建筑师/建筑设计规范合集  电子版整理/建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/4. 细部构造/山东标/L13J1-建筑工程做法.pdf`
 - 页数：170
 - OCR 字符数：92856

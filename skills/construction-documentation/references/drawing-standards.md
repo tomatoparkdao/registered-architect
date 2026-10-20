@@ -11,6 +11,8 @@ agent_created: true
 
 # 制图标准参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 本参考综合介绍建筑制图标准，涵盖 CAD 图层约定、BIM 标准、图纸尺寸、标题栏、修订管理、发布状态代码、批注约定和协调检查。
 
 ---

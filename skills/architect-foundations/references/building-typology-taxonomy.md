@@ -11,6 +11,8 @@ agent_created: true
 
 # 建筑类型学分类：综合参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 > Dimensions, metrics, adjacencies, and exemplars for every major building type.
 > All dimensions in meters unless noted. FAR = Floor Area Ratio. NTG = Net-to-Gross ratio.
 > Parking ratios in spaces per unit or per 1,000 sq ft GFA as noted.

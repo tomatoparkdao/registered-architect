@@ -1,5 +1,7 @@
 
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 第 1 页
 
 国家建筑标准设计图集 06J505-1
@@ -300,3 +302,6 @@ M
 g SHI
 SH
 0型玻璃外墙图片 图集号 061505-1 厘秘 '赢ls红l 殴讯邹华氮巫 页 P8 75
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

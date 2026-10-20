@@ -1,5 +1,7 @@
 
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 第 1 页
 
 国家建筑标准设计图集
@@ -3085,3 +3087,6 @@ BONKAH 古松现代重木结构顶端技术相关技术资料
 木  结  构  建  筑
 中国建筑标淮设讣研究院
 建筑交流加微信公众号ian2hu118
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

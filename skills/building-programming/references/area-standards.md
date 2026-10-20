@@ -11,6 +11,8 @@ agent_created: true
 
 # 面积标准参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 涵盖主要建筑类型及子类型的综合面积标准。除非另有说明，所有面积均为各空间的净内部面积（NIA）。尺寸为室内最小净尺寸。
 
 ---

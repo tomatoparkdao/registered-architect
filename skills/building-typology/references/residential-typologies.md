@@ -11,6 +11,8 @@ agent_created: true
 
 # 住宅类型学参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 本参考涵盖住宅建筑类型、平面配置、核心筒设计、采光、户型组合、密度、停车策略和代表性项目。
 
 ---

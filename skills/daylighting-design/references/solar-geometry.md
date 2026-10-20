@@ -11,6 +11,8 @@ agent_created: true
 
 # 太阳几何——深度参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 涵盖建筑设计中太阳位置计算、日照路径图、遮阳掩模构建、挑檐与遮阳翼尺寸设计及阴影分析方法的综合参考。
 
 ---

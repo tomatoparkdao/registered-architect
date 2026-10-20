@@ -1,5 +1,7 @@
 # 新增资料源文件清单（H:\建筑设计规范）
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 覆盖 PDF/DOC/DOCX：154 个；DWG 等文件按要求跳过。
 
 | 原文件 | 来源路径 | 页数 | 状态 | 索引 |
@@ -159,3 +161,6 @@
 | 建筑设计资料集+（第二版）04.pdf | `建筑设计规范合集  电子版整理PDF  高清规范图集国标人防制图标准/6. 建筑设计资料集（第三版）/建筑设计资料集 （第二版）/建筑设计资料集+（第二版）04.pdf` | 238页，GPU OCR，170220字符 | `TEXT_EXTRACTED` | [supplement-建筑设计资料集-第二版-04-47f424ffad.md](supplement-建筑设计资料集-第二版-04-47f424ffad.md) |
 | 建筑设计资料集（第二版）总目录.doc | `H:/建筑设计规范/6. 建筑设计资料集（第三版）/建筑设计资料集 （第二版）/建筑设计资料集（第二版）总目录.doc` | N/A | `TEXT_EXTRACTED` | [supplement-建筑设计资料集-第二版-总目录-481a5a157d.md](supplement-建筑设计资料集-第二版-总目录-481a5a157d.md) |
 | 山东省现行建筑标准设计图集目录.doc | `H:/建筑设计规范/4. 细部构造/山东标/山东省现行建筑标准设计图集目录.doc` | N/A | `TEXT_EXTRACTED` | [supplement-山东省现行建筑标准设计图集目录-d386b7b983.md](supplement-山东省现行建筑标准设计图集目录-d386b7b983.md) |
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

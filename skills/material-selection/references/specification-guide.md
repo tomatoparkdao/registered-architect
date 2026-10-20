@@ -11,6 +11,8 @@ agent_created: true
 
 # 规格编写指南——深度参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 关于建筑规格体系、性能化与规范性方法、报审文件、测试标准、质量保证和常见错误的综合参考。
 
 ---

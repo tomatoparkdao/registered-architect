@@ -11,6 +11,8 @@ agent_created: true
 
 # 中国建筑规范源文件清单
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 覆盖源目录当前全部 269 个文件；原始 PDF、图片和压缩包不复制进 Skill。
 
 ## 最近同步：建筑面积计算子目录

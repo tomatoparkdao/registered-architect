@@ -1,3 +1,5 @@
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 
 
 ## 第 1 页
@@ -191,6 +193,8 @@ TUIS
 加(
 r
 # "
+
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
 
 ## 第 29 页
@@ -597,3 +601,6 @@ k R* 詈
 薏   盖 1
 1  『 嚣 | 翼 ~ 訾 '  葚
 # #      蕞 薹 v # 鸯
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

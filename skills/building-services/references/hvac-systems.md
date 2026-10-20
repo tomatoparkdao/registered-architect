@@ -11,6 +11,8 @@ agent_created: true
 
 # HVAC 系统：综合参考
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 本参考为建筑实践提供 12 类 HVAC 系统的详细技术比较，涵盖空间要求、能源性能、噪声等级、控制策略、维护通道、成本比较、隐含碳和建筑类型适用性。
 
 ---

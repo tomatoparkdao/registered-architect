@@ -11,6 +11,8 @@ agent_created: true
 
 # 建筑师 IBC 参考指南
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 概述
 
 International Building Code（IBC）分为 35 章，涵盖行政条款、建筑规划、防火、疏散路径、无障碍、结构设计和建筑系统。本参考重点介绍建筑师最常使用的章节，并提供示例说明如何查阅规范。

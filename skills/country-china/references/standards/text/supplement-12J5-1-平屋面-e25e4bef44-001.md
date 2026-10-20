@@ -1,3 +1,5 @@
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 
 
 ## 第 1 页
@@ -481,6 +483,8 @@ W6骡栓
 暂鲨出
 薜风遣出屋西
 # 出祧詹 兆橹水蓉0 出入口变形莛 无组椠#太兆檐 屋面详图索引
+
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 图黛号 12YJ5- 页
 倒置式屋面详图索引
 
@@ -1604,3 +1608,6 @@ JCIT40g
 聂乙黛g8 >+00 >50 (N/cm) 合' 卷f 注:  云表透言 (苄植屋面工雀技元规裎》 ][J155-2007宁4.4节
 10
 附录  耐裉穿刺厉太村拜王要匆理夥 11 性能 页次 01
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
