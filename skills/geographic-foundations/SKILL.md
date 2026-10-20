@@ -13,6 +13,8 @@ agent_created: true
 
 # 地理基础
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 自动激活层，用于检测地理背景，并将建筑问题路由至正确的国家法规档案。在任何规范、生命安全、结构或规划分析之前加载。
 
 ---

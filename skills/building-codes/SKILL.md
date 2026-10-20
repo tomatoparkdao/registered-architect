@@ -12,6 +12,8 @@ agent_created: true
 
 # 建筑规范
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 本技能为建筑设计提供可直接用于实践的建筑规范知识，以 International Building Code（IBC）为主要框架，并进行国际规范比较。所有尺寸均采用公制；在行业惯例要求时同时给出英制等效值。
 
 ---

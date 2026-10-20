@@ -12,6 +12,8 @@ agent_created: true
 
 # 国家：新加坡
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 适用于新加坡共和国境内项目的建筑规范与法规参考。当提及新加坡、SGD 货币、“BCA”（Building & Construction Authority）、“URA”、“SCDF”、“Green Mark”、“HDB”、“PUB”、“LTA”、新加坡标准（SS）或当地术语（shophouse、conservation area、GFA、plot ratio）时启用本技能。
 
 ---

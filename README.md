@@ -9,25 +9,41 @@ developer: Mochiball
 agent_created: true
 ---
 
-# OmniAiLab 全球注册建筑师
+<h1 align="center">OmniAiLab 全球注册建筑师</h1>
+
+<p align="center">
+  <b>面向注册建筑师的全球建筑设计、规范核验与施工图 Skill</b><br>
+  从项目定位、法规路由到方案设计、技术协调与交付审查
+</p>
+
+<p align="center">
+  <a href="https://github.com/tomatoparkdao/registered-architect"><img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-1.1.0-1f6feb?style=flat-square" alt="版本 1.1.0"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-MIT-2ea043?style=flat-square" alt="许可 MIT"></a>
+  <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-OmniAiLab-8957e5?style=flat-square" alt="平台 OmniAiLab"></a>
+  <img src="https://img.shields.io/badge/%E5%85%BC%E5%AE%B9-Codex_%7C_Claude_%7C_WorkBuddy_%7C_OmniAiLab-0969da?style=flat-square" alt="兼容 Codex / Claude / WorkBuddy / OmniAiLab">
+</p>
+
+<p align="center">
+  <b>简体中文</b>　｜　<a href="README_EN.md">English</a>
+</p>
+
+> © OmniAiLab ｜ 开发者：Mochiball ｜ 平台：[omniailabx.com](https://www.omniailabx.com/)
 
 面向全球注册建筑师与建筑设计专业人员的规范驱动型 Skill，也是一个会引导你做判断的建筑设计决策系统。
 从项目所在地与适用法规判定开始，经过方案、技术设计、消防、无障碍、节能、施工图和规范核验，输出可追溯的设计判断与资料路由。
 
 简体中文（默认）｜[English README](README_EN.md)
 
-> © OmniAiLab ｜ 开发者：Mochiball ｜ 平台：omniailabx.com
-
 本技能包以 `registered-architect` 为总入口，面向全球注册建筑师与建筑设计专业人员，覆盖从设计理论到施工图文件的建筑全流程，并提供印度、阿联酋、沙特、美国、英国、德国、新加坡、日本、中国和澳大利亚十个国家/地区的法规专题。各国资料用于路由和核验，不替代当地注册专业人员或主管部门。
 
-项目 | 值 | 说明
---- | --- | ---
-Skill 调用名（唯一标识） | `registered-architect` | 支持原生 Skill 的工具优先使用此调用名；不支持时可直接描述建筑设计与规范核验任务
-显示名 | OmniAiLab 全球注册建筑师 | 仓库页面和文档中的显示名称
-版本 | v1.1.0 | 与技能元数据和发布记录保持一致
-出品 / 开发者 | OmniAiLab / Mochiball | —
-许可 | MIT（见 [LICENSE](LICENSE)） | 可自由使用、修改和再分发
-开源仓库（公开） | [github.com/tomatoparkdao/registered-architect](https://github.com/tomatoparkdao/registered-architect) | 克隆或更新完整 Skill 目录
+| 项目 | 值 | 说明 |
+|---|---|---|
+| Skill 调用名（唯一标识） | `registered-architect` | 支持原生 Skill 的工具优先使用此调用名；不支持时可直接描述建筑设计与规范核验任务 |
+| 显示名 | OmniAiLab 全球注册建筑师 | 仓库页面和文档中的显示名称 |
+| 版本 | v1.1.0 | 与技能元数据和发布记录保持一致 |
+| 出品 / 开发者 | OmniAiLab / Mochiball | — |
+| 许可 | MIT（见 [LICENSE](LICENSE)） | 可自由使用、修改和再分发 |
+| 开源仓库（公开） | [github.com/tomatoparkdao/registered-architect](https://github.com/tomatoparkdao/registered-architect) | 克隆或更新完整 Skill 目录 |
 
 ## 使用范围
 

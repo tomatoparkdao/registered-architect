@@ -25,6 +25,8 @@ agent_created: true
 
 # 建筑师基础
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 自动激活的知识层。所有涉及建筑设计的回答，在路由至专用技能前均先参考本基础库。
 
 ---

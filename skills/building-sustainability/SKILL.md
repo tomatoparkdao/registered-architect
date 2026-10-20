@@ -14,6 +14,8 @@ agent_created: true
 
 # 建筑可持续性
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 第 1 节：可持续性框架选择器
 
 选择合适的可持续性框架取决于项目地域、业主目标、市场定位、法规环境和预算。以下决策树用于指导选择。

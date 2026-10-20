@@ -12,6 +12,8 @@ agent_created: true
 
 # 建筑围护结构
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 ## 第1节：围护结构性能要求
 
 建筑围护结构是室内与室外环境之间的关键界面，必须同时承担四项功能：

@@ -25,6 +25,8 @@ agent_created: true
 
 # 国家：澳大利亚
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab AI建筑与室内设计总设计师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
 适用于澳大利亚任何州或领地项目的建筑规范与法规参考。当提及澳大利亚城市/州（悉尼、墨尔本、布里斯班、珀斯、阿德莱德、堪培拉、霍巴特、达尔文）、AUD 货币、“NCC”/“BCA”/“AS”/“AS/NZS”/“NatHERS”/“BASIX”/“Premises Standards”、Green Star 或州缩写（NSW、VIC、QLD、WA、SA、TAS、ACT、NT）时启用本技能。
 
 ---
