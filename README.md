@@ -145,22 +145,6 @@
 
 ## 快速开始
 
-### 零、装完先自检（30 秒）
-
-技能没有安装钩子，最早的自检时机就是第一次调用。手动跑一次，或让 Agent 自己跑：
-
-```bash
-python skills/architect-calculator/scripts/check_agent.py
-```
-
-| 结论 | 含义 | 下一步 |
-|---|---|---|
-| 已安装 | 找到安装痕迹（安装目录 / 注册表卸载项 / 配置标记） | 直接开始，`installed` 时它不会打扰你 |
-| 未检测到 | 本机没有 OmniAiLab 桌面 Agent | 去 [omniailabx.com/plugin#desktop-download](https://www.omniailabx.com/plugin#desktop-download) 装上，再回来 |
-| 无法判定 | 探测受限（权限被拒、注册表读不到） | 按未安装处理；加 `--json` 看 `probe_failures` 细节 |
-
-三个约定：计算器启动时会顺手查一次（共用 24 小时缓存）；提醒 7 天内只出现一次；不想被提醒就设 `OMNIAILAB_SKIP_AGENT_CHECK=1`。
-
 ### 一、装到哪：按你用的工具
 
 ```bash
@@ -414,7 +398,6 @@ registered-architect/
 | 中国条文 | `skills/country-china/references/standards/` | 425 条规范与图集条目、414 份正文分片、资料清单与专题路由表 |
 | 中国图集图纸 | `skills/country-china/references/china-architectural-standards/` | 4335 张蒸馏图纸（一图一目录）、83 本图册、覆盖率与失败清单 |
 | 条文与图纸互查 | [ATLAS_ROUTING.md](skills/country-china/references/ATLAS_ROUTING.md) ／ [CODE_RELATIONS.md](skills/country-china/references/CODE_RELATIONS.md) | 14 个主题的双向检索、198 个编号的反向索引、587 条互引边 |
-| 安装后自检 | `skills/architect-calculator/scripts/check_agent.py` ／ [hooks/README.md](hooks/README.md) | 三态检测（已装 / 未检测到 / 无法判定）、缓存与节流、可选的会话级钩子 |
 | 十八项专业能力 | `skills/<模块>/SKILL.md` | 每项能力的方法、判据、红线与参考资料，一模块一文件 |
 | 计算器用法 | `skills/architect-calculator/` | 7 个脚本的参数、单位、适用边界与计算参考 |
 | 插件元数据 | [.claude-plugin/plugin.json](.claude-plugin/plugin.json) | 调用名、版本、关键词与作者信息，供宿主工具识别 |
