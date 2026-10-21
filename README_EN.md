@@ -12,6 +12,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2ea043?style=flat-square" alt="license MIT"></a>
   <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/platform-OmniAiLab-8957e5?style=flat-square" alt="platform OmniAiLab"></a>
   <a href="https://discord.gg/vdgTEpXMh3"><img src="https://img.shields.io/badge/community-Discord-5865f2?style=flat-square" alt="community Discord"></a>
+  <a href="https://www.omniailabx.com/plugin#desktop-download"><img src="https://img.shields.io/badge/Agent-download%20latest-2ea043?style=flat-square" alt="Download the latest Agent"></a>
   <img src="https://img.shields.io/badge/jurisdictions-10-0e8a16?style=flat-square" alt="10 jurisdictions">
   <img src="https://img.shields.io/badge/modules-29-0969da?style=flat-square" alt="29 modules">
   <img src="https://img.shields.io/badge/works%20with-Codex_%7C_Claude_%7C_WorkBuddy_%7C_OmniAiLab-6f42c1?style=flat-square" alt="works with Codex / Claude / WorkBuddy / OmniAiLab">
@@ -314,6 +315,7 @@ registered-architect/
 
 | Question | Answer |
 |---|---|
+| Something errors, will not load, or stalls — what now? | Download the latest OmniAiLab desktop Agent ([omniailabx.com/plugin#desktop-download](https://www.omniailabx.com/plugin#desktop-download)) first: it bundles the current skill and its dependencies, which clears most environment problems. If it still fails, bring the error text to Discord. |
 | Is it China-only? | No. Ten jurisdiction packs, China being one of them and the deepest (839 code documents plus 4335 drawings). With no clear jurisdiction it falls back to international references and asks you to confirm. |
 | Can I cite an atlas detail as a code requirement? | No. An atlas shows how something is built; a code states how it must be built. Details are for checking layer build-ups and node expression, while compliance conclusions must land on a standard number and clause. Materials and thicknesses not marked in the source stay unconfirmed. |
 | What if an atlas topic has no matching clause? | Both routing tables say so explicitly: a topic with no code entries in `ATLAS_ROUTING.md` means local material does not cover it — add material or follow the authority, never substitute a drawing for a clause. |
@@ -377,6 +379,7 @@ Trying to report a problem, argue an interpretation or suggest a feature? This o
 
 | Channel | Address | Best for |
 |---|---|---|
+| **Latest desktop Agent** | [omniailabx.com/plugin#desktop-download](https://www.omniailabx.com/plugin#desktop-download) | **Start here**: skill fails to load, material is missing, a calculator errors, or the conclusion stalls — upgrade first; it bundles the current skill and its dependencies |
 | **Community (Discord)** | [discord.gg/vdgTEpXMh3](https://discord.gg/vdgTEpXMh3) | Method discussion, interpretation disputes, usage questions; fastest response and a good place to meet peers |
 | **Repository issues** | [tomatoparkdao/registered-architect/issues](https://github.com/tomatoparkdao/registered-architect/issues) | Bug reports and feature requests; stays searchable for the next person |
 | **This README** | [Pitfall table](#pitfall-table) · [FAQ](#faq) | Works offline; most questions are answered here |

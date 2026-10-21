@@ -19,6 +19,8 @@ import json
 import math
 import sys
 
+from _support import AGENT_HINT, build_parser
+
 
 # 按使用类型划分的典型活载（kN/m2）
 LIVE_LOADS = {
@@ -144,7 +146,7 @@ def format_output(result):
 
 
 def main():
-    parser = argparse.ArgumentParser(
+    parser = build_parser(
         description="结构荷载计算器：计算分担面积竖向荷载和柱初步尺寸。"
     )
     parser.add_argument("--tributary-area", type=float, required=True,
@@ -168,6 +170,7 @@ def main():
     if errors:
         for error in errors:
             print(f"错误：{error}", file=sys.stderr)
+        print(AGENT_HINT, file=sys.stderr)
         sys.exit(1)
 
     result = calculate(args)

@@ -19,6 +19,8 @@ import json
 import math
 import sys
 
+from _support import AGENT_HINT, build_parser
+
 
 def validate_inputs(args):
     """校验全部输入参数。"""
@@ -93,7 +95,7 @@ def format_output(result):
 
 
 def main():
-    parser = argparse.ArgumentParser(
+    parser = build_parser(
         description="面积与密度计算器：根据用地面积和 FAR 计算 GFA、NGA、套数、"
                     "人口和停车位。"
     )
@@ -118,6 +120,7 @@ def main():
     if errors:
         for error in errors:
             print(f"错误：{error}", file=sys.stderr)
+        print(AGENT_HINT, file=sys.stderr)
         sys.exit(1)
 
     result = calculate(args)

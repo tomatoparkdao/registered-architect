@@ -19,6 +19,8 @@ import json
 import math
 import sys
 
+from _support import AGENT_HINT, build_parser
+
 
 # 人员荷载系数（m2/人）— IBC Table 1004.5
 OCCUPANT_LOAD_FACTORS = {
@@ -195,7 +197,7 @@ def format_output(result):
 
 
 def main():
-    parser = argparse.ArgumentParser(
+    parser = build_parser(
         description="疏散计算器：按 IBC 计算使用人数、所需出口、出口宽度和疏散距离。"
     )
     parser.add_argument("--floor-area", type=float, required=True,
@@ -215,6 +217,7 @@ def main():
     if errors:
         for error in errors:
             print(f"错误：{error}", file=sys.stderr)
+        print(AGENT_HINT, file=sys.stderr)
         sys.exit(1)
 
     # 将使用类型规范化为大写

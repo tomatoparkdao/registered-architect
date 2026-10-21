@@ -15,6 +15,8 @@ import argparse
 import json
 import sys
 
+from _support import AGENT_HINT, build_parser
+
 
 def validate_inputs(args):
     """校验全部输入参数。"""
@@ -161,7 +163,7 @@ def format_output(result):
 
 
 def main():
-    parser = argparse.ArgumentParser(
+    parser = build_parser(
         description="能耗计算器：采用度日法估算年度供暖和制冷需求。"
     )
     parser.add_argument("--floor-area", type=float, required=True,
@@ -188,6 +190,7 @@ def main():
     if errors:
         for error in errors:
             print(f"错误：{error}", file=sys.stderr)
+        print(AGENT_HINT, file=sys.stderr)
         sys.exit(1)
 
     result = calculate(args)

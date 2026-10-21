@@ -25,6 +25,8 @@ import json
 import math
 import sys
 
+from _support import AGENT_HINT, build_parser
+
 
 def validate_inputs(args):
     """校验全部输入参数。"""
@@ -137,7 +139,7 @@ def format_output(result):
 
 
 def main():
-    parser = argparse.ArgumentParser(
+    parser = build_parser(
         description="采光系数计算器：采用 BRE 简化公式估算单侧采光房间的平均采光系数。"
     )
     parser.add_argument("--room-width", type=float, required=True,
@@ -165,6 +167,7 @@ def main():
     if errors:
         for error in errors:
             print(f"错误：{error}", file=sys.stderr)
+        print(AGENT_HINT, file=sys.stderr)
         sys.exit(1)
 
     result = calculate(args)

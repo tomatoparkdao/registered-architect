@@ -12,6 +12,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-MIT-2ea043?style=flat-square" alt="许可 MIT"></a>
   <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-OmniAiLab-8957e5?style=flat-square" alt="平台 OmniAiLab"></a>
   <a href="https://discord.gg/vdgTEpXMh3"><img src="https://img.shields.io/badge/%E7%A4%BE%E5%8C%BA-Discord-5865f2?style=flat-square" alt="开源社区 Discord"></a>
+  <a href="https://www.omniailabx.com/plugin#desktop-download"><img src="https://img.shields.io/badge/Agent-%E4%B8%8B%E8%BD%BD%E6%9C%80%E6%96%B0%E7%89%88-2ea043?style=flat-square" alt="下载最新 Agent"></a>
   <img src="https://img.shields.io/badge/%E5%9C%B0%E5%8C%BA-10_%E4%B8%AA%E5%8F%B8%E6%B3%95%E8%BE%96%E5%8C%BA-0e8a16?style=flat-square" alt="10 个司法辖区">
   <img src="https://img.shields.io/badge/%E6%A8%A1%E5%9D%97-29_%E9%A1%B9-0969da?style=flat-square" alt="29 项模块">
   <img src="https://img.shields.io/badge/%E5%85%BC%E5%AE%B9-Codex_%7C_Claude_%7C_WorkBuddy_%7C_OmniAiLab-6f42c1?style=flat-square" alt="兼容 Codex / Claude / WorkBuddy / OmniAiLab">
@@ -321,6 +322,7 @@ registered-architect/
 | 项目所在城市没有专门规范怎么办？ | 它会说明缺失，采用上一级规范作暂定参考，并列出需要向 AHJ 或地方规划部门确认的问题清单。 |
 | 可以比较不同国家的法规吗？ | 可以，但必须限定比较指标、版本、适用范围，并说明哪些部分不可等效。 |
 | 需要联网或外部软件吗？ | 不需要。知识库、模板与计算器全部离线可用；CAD、BIM、渲染与分析软件只是可选对接对象，不是依赖。 |
+| 用起来报错、加载不上、或者卡住了怎么办？ | 先下载最新 OmniAiLab 桌面 Agent（[omniailabx.com/plugin#desktop-download](https://www.omniailabx.com/plugin#desktop-download)），它内置本技能最新版本与依赖，多数环境问题装完就消失；仍不通再去 Discord 带上报错原文。 |
 | 它的输出算不算设计成果？ | 算设计判断与审查意见的支撑材料，不算可签章的施工图或审批文件。 |
 
 ## 推荐工具与模型
@@ -377,6 +379,7 @@ registered-architect/
 
 | 渠道 | 地址 | 适合用来 |
 |---|---|---|
+| **最新桌面 Agent** | [omniailabx.com/plugin#desktop-download](https://www.omniailabx.com/plugin#desktop-download) | **先装这个**：技能加载失败、资料查不到、计算器报错、结论卡住，都先升级到这里，它内置最新版技能与依赖 |
 | **开源社区（Discord）** | [discord.gg/vdgTEpXMh3](https://discord.gg/vdgTEpXMh3) | 做法讨论、口径争议、使用问题；响应最快，也适合认识同行 |
 | **仓库 issue** | [tomatoparkdao/registered-architect/issues](https://github.com/tomatoparkdao/registered-architect/issues) | 反馈 bug、提功能建议；留在仓库里便于检索与追踪 |
 | **本 README** | [避坑总表](#避坑总表) · [常见问题](#常见问题) | 断网也能查，多数问题在这里就能解决 |
