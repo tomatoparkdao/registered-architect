@@ -37,7 +37,7 @@ def save_state(manifest, records, total, processed):
     put(manifest, {"record_shards": names, "total_dwg_discovered": total, "processed_this_run": processed})
 
 def main():
-    p=argparse.ArgumentParser(); p.add_argument("--source",action="append",required=True,type=Path); p.add_argument("--limit",type=int,default=25); a=p.parse_args()
+    p=argparse.ArgumentParser(); p.add_argument("--source",action="append",required=True,type=Path); p.add_argument("--limit",type=int,default=25); p.add_argument("--retry-unresolved",action="store_true",help="retry only valid sources that have no successful extraction"); a=p.parse_args()
     out=ROOT/"batch"; drawings=out/"drawings"; drawings.mkdir(parents=True,exist_ok=True)
     files=[]
     for source in a.source:
@@ -50,9 +50,17 @@ def main():
     for item in records:
         if item["status"] not in {"geometry_extracted", "invalid_dwg"}:
             attempts[item["source_path"]] = attempts.get(item["source_path"], 0) + 1
-    done={x["source_path"] for x in records if x["status"] in {"geometry_extracted","invalid_dwg"}}
-    done.update(path for path, count in attempts.items() if count >= 2)
-    selected=[x for x in files if str(x) not in done][:a.limit]
+    successful={x["source_path"] for x in records if x["status"] == "geometry_extracted"}
+    invalid={x["source_path"] for x in records if x["status"] == "invalid_dwg"}
+    if a.retry_unresolved:
+        # Repair passes must never re-run completed or known-invalid drawings.
+        # Unlike the normal coverage pass, they deliberately revisit terminal
+        # parser/converter failures after a compatibility fix.
+        selected=[x for x in files if str(x) not in successful and str(x) not in invalid][:a.limit]
+    else:
+        done=successful | invalid
+        done.update(path for path, count in attempts.items() if count >= 2)
+        selected=[x for x in files if str(x) not in done][:a.limit]
     for source in selected:
         digest=hashlib.sha1(str(source).encode("utf8")).hexdigest()[:12]; drawing_id=f"CN-DWG-{digest.upper()}"; target=drawings/digest
         if not valid_dwg(source): records.append({"source_path":str(source),"drawing_id":drawing_id,"status":"invalid_dwg"}); continue

@@ -1,0 +1,18576 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1024
+  9
+$ACADMAINTVER
+ 70
+6
+  9
+$DWGCODEPAGE
+  3
+ANSI_1252
+  9
+$LASTSAVEDBY
+  1
+ezdxf
+  9
+$INSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$EXTMIN
+ 10
+1e+20
+ 20
+1e+20
+ 30
+1e+20
+  9
+$EXTMAX
+ 10
+-1e+20
+ 20
+-1e+20
+ 30
+-1e+20
+  9
+$LIMMIN
+ 10
+0.0
+ 20
+0.0
+  9
+$LIMMAX
+ 10
+420.0
+ 20
+297.0
+  9
+$ORTHOMODE
+ 70
+0
+  9
+$REGENMODE
+ 70
+1
+  9
+$FILLMODE
+ 70
+1
+  9
+$QTEXTMODE
+ 70
+0
+  9
+$MIRRTEXT
+ 70
+1
+  9
+$LTSCALE
+ 40
+1.0
+  9
+$ATTMODE
+ 70
+1
+  9
+$TEXTSIZE
+ 40
+2.5
+  9
+$TRACEWID
+ 40
+1.0
+  9
+$TEXTSTYLE
+  7
+Standard
+  9
+$CLAYER
+  8
+0
+  9
+$CELTYPE
+  6
+ByLayer
+  9
+$CECOLOR
+ 62
+256
+  9
+$CELTSCALE
+ 40
+1.0
+  9
+$DISPSILH
+ 70
+0
+  9
+$DIMSCALE
+ 40
+1.0
+  9
+$DIMASZ
+ 40
+2.5
+  9
+$DIMEXO
+ 40
+0.625
+  9
+$DIMDLI
+ 40
+3.75
+  9
+$DIMRND
+ 40
+0.0
+  9
+$DIMDLE
+ 40
+0.0
+  9
+$DIMEXE
+ 40
+1.25
+  9
+$DIMTP
+ 40
+0.0
+  9
+$DIMTM
+ 40
+0.0
+  9
+$DIMTXT
+ 40
+2.5
+  9
+$DIMCEN
+ 40
+2.5
+  9
+$DIMTSZ
+ 40
+0.0
+  9
+$DIMTOL
+ 70
+0
+  9
+$DIMLIM
+ 70
+0
+  9
+$DIMTIH
+ 70
+0
+  9
+$DIMTOH
+ 70
+0
+  9
+$DIMSE1
+ 70
+0
+  9
+$DIMSE2
+ 70
+0
+  9
+$DIMTAD
+ 70
+1
+  9
+$DIMZIN
+ 70
+8
+  9
+$DIMBLK
+  1
+
+  9
+$DIMASO
+ 70
+1
+  9
+$DIMSHO
+ 70
+1
+  9
+$DIMPOST
+  1
+
+  9
+$DIMAPOST
+  1
+
+  9
+$DIMALT
+ 70
+0
+  9
+$DIMALTD
+ 70
+3
+  9
+$DIMALTF
+ 40
+0.03937007874
+  9
+$DIMLFAC
+ 40
+1.0
+  9
+$DIMTOFL
+ 70
+1
+  9
+$DIMTVP
+ 40
+0.0
+  9
+$DIMTIX
+ 70
+0
+  9
+$DIMSOXD
+ 70
+0
+  9
+$DIMSAH
+ 70
+0
+  9
+$DIMBLK1
+  1
+
+  9
+$DIMBLK2
+  1
+
+  9
+$DIMSTYLE
+  2
+ISO-25
+  9
+$DIMCLRD
+ 70
+0
+  9
+$DIMCLRE
+ 70
+0
+  9
+$DIMCLRT
+ 70
+0
+  9
+$DIMTFAC
+ 40
+1.0
+  9
+$DIMGAP
+ 40
+0.625
+  9
+$DIMJUST
+ 70
+0
+  9
+$DIMSD1
+ 70
+0
+  9
+$DIMSD2
+ 70
+0
+  9
+$DIMTOLJ
+ 70
+0
+  9
+$DIMTZIN
+ 70
+8
+  9
+$DIMALTZ
+ 70
+0
+  9
+$DIMALTTZ
+ 70
+0
+  9
+$DIMUPT
+ 70
+0
+  9
+$DIMDEC
+ 70
+2
+  9
+$DIMTDEC
+ 70
+2
+  9
+$DIMALTU
+ 70
+2
+  9
+$DIMALTTD
+ 70
+3
+  9
+$DIMTXSTY
+  7
+Standard
+  9
+$DIMAUNIT
+ 70
+0
+  9
+$DIMADEC
+ 70
+0
+  9
+$DIMALTRND
+ 40
+0.0
+  9
+$DIMAZIN
+ 70
+0
+  9
+$DIMDSEP
+ 70
+44
+  9
+$DIMATFIT
+ 70
+3
+  9
+$DIMFRAC
+ 70
+0
+  9
+$DIMLDRBLK
+  1
+
+  9
+$DIMLUNIT
+ 70
+2
+  9
+$DIMLWD
+ 70
+-2
+  9
+$DIMLWE
+ 70
+-2
+  9
+$DIMTMOVE
+ 70
+0
+  9
+$DIMFXL
+ 40
+1.0
+  9
+$DIMFXLON
+ 70
+0
+  9
+$DIMJOGANG
+ 40
+0.785398163397
+  9
+$DIMTFILL
+ 70
+0
+  9
+$DIMTFILLCLR
+ 70
+0
+  9
+$DIMARCSYM
+ 70
+0
+  9
+$DIMLTYPE
+  6
+
+  9
+$DIMLTEX1
+  6
+
+  9
+$DIMLTEX2
+  6
+
+  9
+$DIMTXTDIRECTION
+ 70
+0
+  9
+$LUNITS
+ 70
+2
+  9
+$LUPREC
+ 70
+4
+  9
+$SKETCHINC
+ 40
+1.0
+  9
+$FILLETRAD
+ 40
+10.0
+  9
+$AUNITS
+ 70
+0
+  9
+$AUPREC
+ 70
+2
+  9
+$MENU
+  1
+.
+  9
+$ELEVATION
+ 40
+0.0
+  9
+$PELEVATION
+ 40
+0.0
+  9
+$THICKNESS
+ 40
+0.0
+  9
+$LIMCHECK
+ 70
+0
+  9
+$CHAMFERA
+ 40
+0.0
+  9
+$CHAMFERB
+ 40
+0.0
+  9
+$CHAMFERC
+ 40
+0.0
+  9
+$CHAMFERD
+ 40
+0.0
+  9
+$SKPOLY
+ 70
+0
+  9
+$TDCREATE
+ 40
+2461334.7774074073
+  9
+$TDUCREATE
+ 40
+2458532.153996898
+  9
+$TDUPDATE
+ 40
+2461334.7774074073
+  9
+$TDUUPDATE
+ 40
+2458532.1544311
+  9
+$TDINDWG
+ 40
+0.0
+  9
+$TDUSRTIMER
+ 40
+0.0
+  9
+$USRTIMER
+ 70
+1
+  9
+$ANGBASE
+ 50
+0.0
+  9
+$ANGDIR
+ 70
+0
+  9
+$PDMODE
+ 70
+0
+  9
+$PDSIZE
+ 40
+0.0
+  9
+$PLINEWID
+ 40
+0.0
+  9
+$SPLFRAME
+ 70
+0
+  9
+$SPLINETYPE
+ 70
+6
+  9
+$SPLINESEGS
+ 70
+8
+  9
+$HANDSEED
+  5
+2E0
+  9
+$SURFTAB1
+ 70
+6
+  9
+$SURFTAB2
+ 70
+6
+  9
+$SURFTYPE
+ 70
+6
+  9
+$SURFU
+ 70
+6
+  9
+$SURFV
+ 70
+6
+  9
+$UCSBASE
+  2
+
+  9
+$UCSNAME
+  2
+
+  9
+$UCSORG
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSXDIR
+ 10
+1.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSYDIR
+ 10
+0.0
+ 20
+1.0
+ 30
+0.0
+  9
+$UCSORTHOREF
+  2
+
+  9
+$UCSORTHOVIEW
+ 70
+0
+  9
+$UCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$UCSORGBACK
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSBASE
+  2
+
+  9
+$PUCSNAME
+  2
+
+  9
+$PUCSORG
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSXDIR
+ 10
+1.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSYDIR
+ 10
+0.0
+ 20
+1.0
+ 30
+0.0
+  9
+$PUCSORTHOREF
+  2
+
+  9
+$PUCSORTHOVIEW
+ 70
+0
+  9
+$PUCSORGTOP
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBOTTOM
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGLEFT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGRIGHT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGFRONT
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PUCSORGBACK
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$USERI1
+ 70
+0
+  9
+$USERI2
+ 70
+0
+  9
+$USERI3
+ 70
+0
+  9
+$USERI4
+ 70
+0
+  9
+$USERI5
+ 70
+0
+  9
+$USERR1
+ 40
+0.0
+  9
+$USERR2
+ 40
+0.0
+  9
+$USERR3
+ 40
+0.0
+  9
+$USERR4
+ 40
+0.0
+  9
+$USERR5
+ 40
+0.0
+  9
+$WORLDVIEW
+ 70
+1
+  9
+$SHADEDGE
+ 70
+3
+  9
+$SHADEDIF
+ 70
+70
+  9
+$TILEMODE
+ 70
+1
+  9
+$MAXACTVP
+ 70
+64
+  9
+$PINSBASE
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  9
+$PLIMCHECK
+ 70
+0
+  9
+$PEXTMIN
+ 10
+1e+20
+ 20
+1e+20
+ 30
+1e+20
+  9
+$PEXTMAX
+ 10
+-1e+20
+ 20
+-1e+20
+ 30
+-1e+20
+  9
+$PLIMMIN
+ 10
+0.0
+ 20
+0.0
+  9
+$PLIMMAX
+ 10
+420.0
+ 20
+297.0
+  9
+$UNITMODE
+ 70
+0
+  9
+$VISRETAIN
+ 70
+1
+  9
+$PLINEGEN
+ 70
+0
+  9
+$PSLTSCALE
+ 70
+1
+  9
+$TREEDEPTH
+ 70
+3020
+  9
+$CMLSTYLE
+  2
+Standard
+  9
+$CMLJUST
+ 70
+0
+  9
+$CMLSCALE
+ 40
+20.0
+  9
+$PROXYGRAPHICS
+ 70
+1
+  9
+$MEASUREMENT
+ 70
+1
+  9
+$CELWEIGHT
+370
+-1
+  9
+$ENDCAPS
+280
+0
+  9
+$JOINSTYLE
+280
+0
+  9
+$LWDISPLAY
+290
+0
+  9
+$INSUNITS
+ 70
+6
+  9
+$HYPERLINKBASE
+  1
+
+  9
+$STYLESHEET
+  1
+
+  9
+$XEDIT
+290
+1
+  9
+$CEPSNTYPE
+380
+0
+  9
+$PSTYLEMODE
+290
+1
+  9
+$FINGERPRINTGUID
+  2
+{50E7B318-F34F-48CA-886A-A38141D0A317}
+  9
+$VERSIONGUID
+  2
+{40B7D78A-ED3B-4B17-AFB7-D8BE61956FBA}
+  9
+$EXTNAMES
+290
+1
+  9
+$PSVPSCALE
+ 40
+0.0
+  9
+$OLESTARTUP
+290
+0
+  9
+$SORTENTS
+280
+127
+  9
+$INDEXCTL
+280
+0
+  9
+$HIDETEXT
+280
+1
+  9
+$XCLIPFRAME
+280
+1
+  9
+$HALOGAP
+280
+0
+  9
+$OBSCOLOR
+ 70
+257
+  9
+$OBSLTYPE
+280
+0
+  9
+$INTERSECTIONDISPLAY
+280
+0
+  9
+$INTERSECTIONCOLOR
+ 70
+257
+  9
+$DIMASSOC
+280
+2
+  9
+$PROJECTNAME
+  1
+
+  9
+$CAMERADISPLAY
+290
+0
+  9
+$LENSLENGTH
+ 40
+50.0
+  9
+$CAMERAHEIGHT
+ 40
+0.0
+  9
+$STEPSPERSEC
+ 40
+24.0
+  9
+$STEPSIZE
+ 40
+100.0
+  9
+$3DDWFPREC
+ 40
+2.0
+  9
+$PSOLWIDTH
+ 40
+0.005
+  9
+$PSOLHEIGHT
+ 40
+0.08
+  9
+$LOFTANG1
+ 40
+1.570796326795
+  9
+$LOFTANG2
+ 40
+1.570796326795
+  9
+$LOFTMAG1
+ 40
+0.0
+  9
+$LOFTMAG2
+ 40
+0.0
+  9
+$LOFTPARAM
+ 70
+7
+  9
+$LOFTNORMALS
+280
+1
+  9
+$LATITUDE
+ 40
+37.795
+  9
+$LONGITUDE
+ 40
+-122.394
+  9
+$NORTHDIRECTION
+ 40
+0.0
+  9
+$TIMEZONE
+ 70
+-8000
+  9
+$LIGHTGLYPHDISPLAY
+280
+1
+  9
+$TILEMODELIGHTSYNCH
+280
+1
+  9
+$CMATERIAL
+347
+20
+  9
+$SOLIDHIST
+280
+0
+  9
+$SHOWHIST
+280
+1
+  9
+$DWFFRAME
+280
+2
+  9
+$DGNFRAME
+280
+2
+  9
+$REALWORLDSCALE
+290
+1
+  9
+$INTERFERECOLOR
+ 62
+256
+  9
+$CSHADOW
+280
+0
+  9
+$SHADOWPLANELOCATION
+ 40
+0.0
+  0
+ENDSEC
+  0
+SECTION
+  2
+CLASSES
+  0
+CLASS
+  1
+ACDBDICTIONARYWDFLT
+  2
+AcDbDictionaryWithDefault
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+SUN
+  2
+AcDbSun
+  3
+SCENEOE
+ 90
+1153
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+VISUALSTYLE
+  2
+AcDbVisualStyle
+  3
+ObjectDBX Classes
+ 90
+4095
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+MATERIAL
+  2
+AcDbMaterial
+  3
+ObjectDBX Classes
+ 90
+1153
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+SCALE
+  2
+AcDbScale
+  3
+ObjectDBX Classes
+ 90
+1153
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+TABLESTYLE
+  2
+AcDbTableStyle
+  3
+ObjectDBX Classes
+ 90
+4095
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+MLEADERSTYLE
+  2
+AcDbMLeaderStyle
+  3
+ACDB_MLEADERSTYLE_CLASS
+ 90
+4095
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+DICTIONARYVAR
+  2
+AcDbDictionaryVar
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+CELLSTYLEMAP
+  2
+AcDbCellStyleMap
+  3
+ObjectDBX Classes
+ 90
+1152
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+MENTALRAYRENDERSETTINGS
+  2
+AcDbMentalRayRenderSettings
+  3
+SCENEOE
+ 90
+1024
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBDETAILVIEWSTYLE
+  2
+AcDbDetailViewStyle
+  3
+ObjectDBX Classes
+ 90
+1025
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBSECTIONVIEWSTYLE
+  2
+AcDbSectionViewStyle
+  3
+ObjectDBX Classes
+ 90
+1025
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+RASTERVARIABLES
+  2
+AcDbRasterVariables
+  3
+ISM
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+LAYOUT
+  2
+AcDbLayout
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBPLACEHOLDER
+  2
+AcDbPlaceHolder
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+VPORT
+  5
+8
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+  0
+VPORT
+  5
+23
+330
+8
+100
+AcDbSymbolTableRecord
+100
+AcDbViewportTableRecord
+  2
+*Active
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 11
+1.0
+ 21
+1.0
+ 12
+0.0
+ 22
+0.0
+ 13
+0.0
+ 23
+0.0
+ 14
+0.5
+ 24
+0.5
+ 15
+0.5
+ 25
+0.5
+ 16
+0.0
+ 26
+0.0
+ 36
+1.0
+ 17
+0.0
+ 27
+0.0
+ 37
+0.0
+ 40
+1000.0
+ 41
+1.34
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 50
+0.0
+ 51
+0.0
+ 71
+0
+ 72
+1000
+ 73
+1
+ 74
+3
+ 75
+0
+ 76
+0
+ 77
+0
+ 78
+0
+281
+0
+ 65
+0
+146
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LTYPE
+  5
+2
+330
+0
+100
+AcDbSymbolTable
+ 70
+3
+  0
+LTYPE
+  5
+24
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByBlock
+ 70
+0
+  3
+
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+LTYPE
+  5
+25
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+ByLayer
+ 70
+0
+  3
+
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+LTYPE
+  5
+26
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLinetypeTableRecord
+  2
+Continuous
+ 70
+0
+  3
+
+ 72
+65
+ 73
+0
+ 40
+0.0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  5
+1
+330
+0
+100
+AcDbSymbolTable
+ 70
+25
+  0
+LAYER
+  5
+27
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+0
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+28
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+Defpoints
+ 70
+0
+ 62
+7
+  6
+Continuous
+290
+0
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+47
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+文字
+ 70
+0
+ 62
+3
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+48
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+尺寸
+ 70
+0
+ 62
+42
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+49
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+坐标线
+ 70
+0
+ 62
+3
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+4A
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+标题
+ 70
+0
+ 62
+4
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+4B
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+引线
+ 70
+0
+ 62
+9
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+4C
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+填满-深
+ 70
+0
+ 62
+8
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+4D
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+钢柱
+ 70
+0
+ 62
+4
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+4E
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+主梁
+ 70
+0
+ 62
+4
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+4F
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+梯梁
+ 70
+0
+ 62
+4
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+50
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+梯板
+ 70
+0
+ 62
+11
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+51
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+钢筋
+ 70
+0
+ 62
+2
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+52
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+螺栓
+ 70
+0
+ 62
+11
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+53
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+中心线
+ 70
+0
+ 62
+20
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+54
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+加强板
+ 70
+0
+ 62
+3
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+55
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+主次梁
+ 70
+0
+ 62
+11
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+56
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+砼柱
+ 70
+0
+ 62
+3
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+57
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+AXIS
+ 70
+0
+ 62
+1
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+58
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+WALL
+ 70
+0
+ 62
+5
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+59
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+PUB_DIM
+ 70
+0
+ 62
+3
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+5A
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+AXIS_TEXT
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+5B
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+S_E_STAIR
+ 70
+0
+ 62
+4
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+5C
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+GROUND
+ 70
+0
+ 62
+2
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+5D
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+TITLE
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+  5
+5
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+  0
+STYLE
+  5
+29
+330
+5
+100
+AcDbSymbolTableRecord
+100
+AcDbTextStyleTableRecord
+  2
+Standard
+ 70
+0
+ 40
+0.0
+ 41
+1.0
+ 50
+0.0
+ 71
+0
+ 42
+2.5
+  3
+txt
+  4
+
+  0
+ENDTAB
+  0
+TABLE
+  2
+VIEW
+  5
+7
+330
+0
+100
+AcDbSymbolTable
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+UCS
+  5
+6
+330
+0
+100
+AcDbSymbolTable
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+APPID
+  5
+3
+330
+0
+100
+AcDbSymbolTable
+ 70
+3
+  0
+APPID
+  5
+2A
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+ACAD
+ 70
+0
+  0
+APPID
+  5
+2DD
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+HATCHBACKGROUNDCOLOR
+ 70
+0
+  0
+APPID
+  5
+2DE
+330
+3
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+EZDXF
+ 70
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+DIMSTYLE
+  5
+4
+330
+0
+100
+AcDbSymbolTable
+ 70
+1
+100
+AcDbDimStyleTable
+  0
+DIMSTYLE
+105
+2B
+330
+4
+100
+AcDbSymbolTableRecord
+100
+AcDbDimStyleTableRecord
+  2
+Standard
+ 70
+0
+ 40
+1.0
+ 41
+2.5
+ 42
+0.625
+ 43
+3.75
+ 44
+1.25
+ 45
+0.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+2.5
+140
+2.5
+141
+2.5
+142
+0.0
+143
+0.03937007874
+144
+1.0
+145
+0.0
+146
+1.0
+147
+0.625
+148
+0.0
+ 69
+0
+ 70
+0
+ 71
+0
+ 72
+0
+ 73
+0
+ 74
+0
+ 75
+0
+ 76
+0
+ 77
+1
+ 78
+8
+ 79
+3
+170
+0
+171
+3
+172
+1
+173
+0
+174
+0
+175
+0
+176
+0
+177
+0
+178
+0
+179
+2
+271
+2
+272
+2
+273
+2
+274
+3
+275
+0
+276
+0
+277
+2
+278
+44
+279
+0
+280
+0
+281
+0
+282
+0
+283
+0
+284
+8
+285
+0
+286
+0
+288
+0
+289
+3
+290
+0
+371
+-2
+372
+-2
+  0
+ENDTAB
+  0
+TABLE
+  2
+BLOCK_RECORD
+  5
+9
+330
+0
+100
+AcDbSymbolTable
+ 70
+8
+  0
+BLOCK_RECORD
+  5
+17
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Model_Space
+340
+1A
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+1B
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+*Paper_Space
+340
+1E
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+2F
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+_ARCHTICK
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+33
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+A$C7157716C
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+39
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+_ARROW
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+3C
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+_AXISO
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+40
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+A$C4E8C6FF1
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+BLOCK_RECORD
+  5
+44
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+A$C67B7301A
+340
+0
+ 70
+0
+280
+1
+281
+0
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+BLOCK
+  5
+18
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Model_Space
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*Model_Space
+  1
+
+  0
+ENDBLK
+  5
+19
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+1C
+330
+1B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*Paper_Space
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+*Paper_Space
+  1
+
+  0
+ENDBLK
+  5
+1D
+330
+1B
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+30
+330
+2F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+_ARCHTICK
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+_ARCHTICK
+  1
+
+  0
+LWPOLYLINE
+  5
+32
+330
+2F
+100
+AcDbEntity
+  8
+0
+  6
+ByBlock
+ 62
+0
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+-1.37
+ 20
+-1.23
+ 10
+1.51
+ 20
+1.65
+  0
+ENDBLK
+  5
+31
+330
+2F
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+34
+330
+33
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+A$C7157716C
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+A$C7157716C
+  1
+
+  0
+CIRCLE
+  5
+36
+330
+33
+100
+AcDbEntity
+  8
+螺栓
+100
+AcDbCircle
+ 10
+25.75
+ 20
+25.75
+ 30
+0.0
+ 40
+10.75
+  0
+LINE
+  5
+37
+330
+33
+100
+AcDbEntity
+  8
+螺栓
+100
+AcDbLine
+ 10
+25.75
+ 20
+51.5
+ 30
+0.0
+ 11
+25.75
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+38
+330
+33
+100
+AcDbEntity
+  8
+螺栓
+100
+AcDbLine
+ 10
+-0.0
+ 20
+25.75
+ 30
+0.0
+ 11
+51.5
+ 21
+25.75
+ 31
+0.0
+  0
+ENDBLK
+  5
+35
+330
+33
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3A
+330
+39
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+_ARROW
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+_ARROW
+  1
+
+  0
+ENDBLK
+  5
+3B
+330
+39
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+3D
+330
+3C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+_AXISO
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+_AXISO
+  1
+
+  0
+CIRCLE
+  5
+3F
+330
+3C
+100
+AcDbEntity
+  8
+0
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+ENDBLK
+  5
+3E
+330
+3C
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+41
+330
+40
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+A$C4E8C6FF1
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+A$C4E8C6FF1
+  1
+
+  0
+TEXT
+  5
+43
+330
+40
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+13.68
+ 20
+107.42
+ 30
+0.0
+ 40
+280.0
+  1
+4-4
+ 11
+13.68
+ 21
+107.42
+ 31
+0.0
+100
+AcDbText
+  0
+ENDBLK
+  5
+42
+330
+40
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+45
+330
+44
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+A$C67B7301A
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+A$C67B7301A
+  1
+
+  0
+ENDBLK
+  5
+46
+330
+44
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+LINE
+  5
+5E
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+36455.69
+ 20
+24421.34
+ 30
+0.0
+ 11
+36835.29
+ 21
+23678.64
+ 31
+0.0
+  0
+LINE
+  5
+5F
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+36835.29
+ 20
+23678.64
+ 30
+0.0
+ 11
+36728.57
+ 21
+23581.74
+ 31
+0.0
+  0
+LINE
+  5
+60
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+36728.57
+ 20
+23581.74
+ 30
+0.0
+ 11
+36996.17
+ 21
+23661.66
+ 31
+0.0
+  0
+LINE
+  5
+61
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+36996.17
+ 20
+23661.66
+ 30
+0.0
+ 11
+36892.83
+ 21
+23566.05
+ 31
+0.0
+  0
+LINE
+  5
+62
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+36892.83
+ 20
+23566.05
+ 30
+0.0
+ 11
+37355.04
+ 21
+22661.74
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+63
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+4
+ 70
+0
+ 10
+35651.16
+ 20
+22861.6
+ 10
+36401.16
+ 20
+22861.6
+ 10
+36401.16
+ 20
+23626.6
+ 10
+36777.97
+ 20
+23626.6
+  0
+LWPOLYLINE
+  5
+64
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+4
+ 70
+0
+ 10
+35651.16
+ 20
+22831.6
+ 10
+36431.16
+ 20
+22831.6
+ 10
+36431.16
+ 20
+23596.6
+ 10
+36744.93
+ 20
+23596.6
+  0
+LWPOLYLINE
+  5
+65
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+6
+ 70
+0
+ 10
+35365.47
+ 20
+24426.56
+ 10
+34185.09
+ 20
+24426.56
+ 10
+34166.23
+ 20
+24357.0
+ 10
+34140.92
+ 20
+24494.33
+ 10
+34121.87
+ 20
+24426.56
+ 10
+32987.57
+ 20
+24426.56
+  0
+LINE
+  5
+66
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+36047.96
+ 20
+21771.33
+ 30
+0.0
+ 11
+35651.16
+ 21
+22123.55
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+67
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+6
+ 70
+0
+ 10
+35365.47
+ 20
+20389.95
+ 10
+34185.09
+ 20
+20389.95
+ 10
+34166.23
+ 20
+20320.39
+ 10
+34140.92
+ 20
+20457.72
+ 10
+34121.87
+ 20
+20389.95
+ 10
+32987.57
+ 20
+20389.95
+  0
+LWPOLYLINE
+  5
+68
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+33176.16
+ 20
+24426.56
+ 10
+33176.16
+ 20
+20389.95
+  0
+LINE
+  5
+69
+330
+17
+100
+AcDbEntity
+  8
+中心线
+100
+AcDbLine
+ 10
+34151.16
+ 20
+20402.16
+ 30
+-0.0
+ 11
+34151.16
+ 21
+24965.55
+ 31
+-0.0
+  0
+LWPOLYLINE
+  5
+6A
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+35126.16
+ 20
+20389.95
+ 10
+35126.16
+ 20
+24426.56
+  0
+LWPOLYLINE
+  5
+6B
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+35046.16
+ 20
+20389.95
+ 10
+35046.16
+ 20
+24426.56
+  0
+LWPOLYLINE
+  5
+6C
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+33256.16
+ 20
+20389.95
+ 10
+33256.16
+ 20
+24426.56
+  0
+LWPOLYLINE
+  5
+6D
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+35601.16
+ 20
+23798.12
+ 10
+35651.16
+ 20
+23798.12
+ 10
+35651.16
+ 20
+22123.55
+ 10
+35601.16
+ 20
+22123.55
+  0
+LINE
+  5
+6E
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+30371.76
+ 20
+22524.94
+ 30
+0.0
+ 11
+32181.22
+ 21
+22524.94
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+6F
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+4
+ 70
+0
+ 10
+31809.27
+ 20
+20564.93
+ 10
+31901.16
+ 20
+20564.93
+ 10
+31901.16
+ 20
+21331.6
+ 10
+32651.16
+ 20
+21331.6
+  0
+LWPOLYLINE
+  5
+70
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+6
+ 70
+0
+ 10
+31230.64
+ 20
+21697.02
+ 10
+31610.24
+ 20
+20954.33
+ 10
+31503.52
+ 20
+20857.43
+ 10
+31771.13
+ 20
+20937.35
+ 10
+31667.79
+ 20
+20841.74
+ 10
+32046.9
+ 20
+20100.0
+  0
+LWPOLYLINE
+  5
+71
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+4
+ 70
+0
+ 10
+31824.6
+ 20
+20534.93
+ 10
+31931.16
+ 20
+20534.93
+ 10
+31931.16
+ 20
+21301.6
+ 10
+32651.16
+ 20
+21301.6
+  0
+LWPOLYLINE
+  5
+72
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+32701.16
+ 20
+20600.22
+ 10
+32651.16
+ 20
+20600.22
+ 10
+32651.16
+ 20
+22274.79
+ 10
+32701.16
+ 20
+22274.79
+  0
+LINE
+  5
+73
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+32181.22
+ 20
+22524.94
+ 30
+0.0
+ 11
+32681.16
+ 21
+22274.79
+ 31
+0.0
+  0
+LINE
+  5
+74
+330
+17
+100
+AcDbEntity
+  8
+标题
+100
+AcDbLine
+ 10
+34276.39
+ 20
+18610.78
+ 30
+-0.0
+ 11
+33607.07
+ 21
+18610.78
+ 31
+-0.0
+  0
+LINE
+  5
+75
+330
+17
+100
+AcDbEntity
+  8
+砼柱
+100
+AcDbLine
+ 10
+35769.14
+ 20
+12939.38
+ 30
+0.0
+ 11
+35169.14
+ 21
+14039.38
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+76
+330
+17
+100
+AcDbEntity
+  8
+梯梁
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+35069.14
+ 20
+14739.38
+ 10
+34949.14
+ 20
+14739.38
+ 10
+34949.14
+ 20
+13039.38
+ 10
+35069.14
+ 20
+13039.38
+  0
+LINE
+  5
+77
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbLine
+ 10
+34449.14
+ 20
+12939.38
+ 30
+0.0
+ 11
+34449.14
+ 21
+12689.38
+ 31
+0.0
+  0
+INSERT
+  5
+78
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+A$C7157716C
+ 10
+34256.64
+ 20
+11931.88
+ 30
+0.0
+ 41
+-10.0
+ 42
+10.0
+ 43
+10.0
+  0
+LINE
+  5
+7A
+330
+17
+100
+AcDbEntity
+  8
+加强板
+100
+AcDbLine
+ 10
+34449.14
+ 20
+12689.38
+ 30
+0.0
+ 11
+33599.14
+ 21
+12689.38
+ 31
+0.0
+  0
+LINE
+  5
+7B
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbLine
+ 10
+34449.14
+ 20
+12939.38
+ 30
+0.0
+ 11
+35975.47
+ 21
+12939.38
+ 31
+0.0
+  0
+LINE
+  5
+7C
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbLine
+ 10
+34449.14
+ 20
+12829.38
+ 30
+0.0
+ 11
+35975.47
+ 21
+12829.38
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+7D
+330
+17
+100
+AcDbEntity
+  8
+砼柱
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+35069.14
+ 20
+14039.38
+ 10
+35169.14
+ 20
+14039.38
+ 10
+35169.14
+ 20
+12939.38
+ 10
+35069.14
+ 20
+12939.38
+  0
+LWPOLYLINE
+  5
+7E
+330
+17
+100
+AcDbEntity
+  8
+螺栓
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+35336.3
+ 20
+13539.38
+ 10
+34762.16
+ 20
+13539.38
+  0
+LINE
+  5
+7F
+330
+17
+100
+AcDbEntity
+  8
+螺栓
+100
+AcDbLine
+ 10
+34691.71
+ 20
+13539.38
+ 30
+0.0
+ 11
+35426.19
+ 21
+13539.38
+ 31
+0.0
+  0
+HATCH
+  5
+80
+330
+17
+100
+AcDbEntity
+  8
+引线
+ 62
+7
+100
+AcDbHatch
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+210
+0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+0
+ 71
+0
+ 91
+1
+ 92
+3
+ 72
+0
+ 73
+1
+ 93
+3
+ 10
+31167.83
+ 20
+13078.75
+ 10
+31344.16
+ 20
+13078.75
+ 10
+31344.16
+ 20
+13195.82
+ 97
+0
+ 75
+1
+ 76
+1
+ 52
+0.0
+ 41
+1.0
+ 77
+0
+ 78
+1
+ 53
+45.0
+ 43
+0.0
+ 44
+0.0
+ 45
+-0.0883883476
+ 46
+0.0883883476
+ 79
+0
+ 98
+0
+  0
+LWPOLYLINE
+  5
+81
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+4
+ 70
+0
+ 10
+31344.16
+ 20
+12798.05
+ 10
+31344.16
+ 20
+13195.82
+ 10
+31167.83
+ 20
+13078.75
+ 10
+31344.16
+ 20
+13078.75
+  0
+LWPOLYLINE
+  5
+82
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+3
+ 70
+0
+ 10
+31137.85
+ 20
+12798.05
+ 10
+30969.58
+ 20
+12966.97
+ 10
+30969.58
+ 20
+12798.05
+  0
+LWPOLYLINE
+  5
+83
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+3
+ 70
+0
+ 10
+31137.85
+ 20
+12798.05
+ 10
+30969.58
+ 20
+12629.14
+ 10
+30969.58
+ 20
+12798.05
+  0
+LWPOLYLINE
+  5
+84
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+25542.53
+ 20
+23204.75
+ 10
+25592.53
+ 20
+23204.75
+ 10
+25592.53
+ 20
+22854.75
+ 10
+25542.53
+ 20
+22854.75
+  0
+LINE
+  5
+85
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+25842.53
+ 20
+22864.75
+ 30
+-0.0
+ 11
+25842.53
+ 21
+23204.75
+ 31
+-0.0
+  0
+LINE
+  5
+86
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+25872.53
+ 20
+22864.75
+ 30
+-0.0
+ 11
+25872.53
+ 21
+23204.75
+ 31
+-0.0
+  0
+LWPOLYLINE
+  5
+87
+330
+17
+100
+AcDbEntity
+  8
+标题
+100
+AcDbPolyline
+ 90
+3
+ 70
+0
+ 10
+27009.48
+ 20
+23114.38
+ 10
+27009.48
+ 20
+22864.38
+ 10
+26509.48
+ 20
+22864.38
+  0
+LINE
+  5
+88
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbLine
+ 10
+25067.53
+ 20
+23514.75
+ 30
+-0.0
+ 11
+25067.53
+ 21
+23814.75
+ 31
+-0.0
+  0
+LINE
+  5
+89
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbLine
+ 10
+23117.53
+ 20
+23514.75
+ 30
+-0.0
+ 11
+23117.53
+ 21
+23814.75
+ 31
+-0.0
+  0
+LWPOLYLINE
+  5
+8A
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbPolyline
+ 90
+16
+ 70
+1
+ 10
+23177.53
+ 20
+24814.75
+ 10
+23177.53
+ 20
+24172.25
+ 42
+0.41
+ 10
+23257.53
+ 20
+24092.25
+ 10
+24912.53
+ 20
+24092.25
+ 42
+0.38
+ 10
+25007.53
+ 20
+24172.25
+ 10
+25007.53
+ 20
+24814.75
+ 10
+25067.53
+ 20
+24814.75
+ 10
+25067.53
+ 20
+23314.75
+ 10
+25007.53
+ 20
+23314.75
+ 10
+25007.53
+ 20
+23957.25
+ 42
+0.38
+ 10
+24912.53
+ 20
+24037.25
+ 10
+23257.53
+ 20
+24037.25
+ 42
+0.41
+ 10
+23177.53
+ 20
+23957.25
+ 10
+23177.53
+ 20
+23314.75
+ 10
+23117.53
+ 20
+23314.75
+ 10
+23117.53
+ 20
+24814.75
+  0
+LINE
+  5
+8B
+330
+17
+100
+AcDbEntity
+  8
+中心线
+100
+AcDbLine
+ 10
+24092.53
+ 20
+24776.66
+ 30
+-0.0
+ 11
+24092.53
+ 21
+23051.01
+ 31
+-0.0
+  0
+LWPOLYLINE
+  5
+8C
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+3
+ 70
+0
+ 10
+25038.75
+ 20
+24716.79
+ 10
+25469.13
+ 20
+25060.59
+ 10
+25902.39
+ 20
+25060.59
+  0
+LINE
+  5
+8D
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+25842.53
+ 20
+20764.25
+ 30
+-0.0
+ 11
+25842.53
+ 21
+22804.75
+ 31
+-0.0
+  0
+LINE
+  5
+8E
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+24342.53
+ 20
+20671.58
+ 30
+-0.0
+ 11
+24342.53
+ 21
+22804.75
+ 31
+-0.0
+  0
+LINE
+  5
+8F
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+27342.53
+ 20
+21504.81
+ 30
+-0.0
+ 11
+27342.53
+ 21
+23204.75
+ 31
+0.0
+  0
+LINE
+  5
+90
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+24372.53
+ 20
+20671.58
+ 30
+-0.0
+ 11
+24372.53
+ 21
+22804.75
+ 31
+-0.0
+  0
+LINE
+  5
+91
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+25872.53
+ 20
+20764.25
+ 30
+-0.0
+ 11
+25872.53
+ 21
+22804.75
+ 31
+-0.0
+  0
+LINE
+  5
+92
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+27372.53
+ 20
+21519.72
+ 30
+-0.0
+ 11
+27372.53
+ 21
+23204.75
+ 31
+0.0
+  0
+LINE
+  5
+93
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+25542.53
+ 20
+22804.75
+ 30
+-0.0
+ 11
+26939.43
+ 21
+20838.86
+ 31
+-0.0
+  0
+LWPOLYLINE
+  5
+94
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+22642.53
+ 20
+23204.75
+ 10
+22592.53
+ 20
+23204.75
+ 10
+22592.53
+ 20
+22854.75
+ 10
+22642.53
+ 20
+22854.75
+  0
+LWPOLYLINE
+  5
+95
+330
+17
+100
+AcDbEntity
+  8
+标题
+100
+AcDbPolyline
+ 90
+3
+ 70
+0
+ 10
+19830.28
+ 20
+23150.49
+ 10
+19830.28
+ 20
+22900.49
+ 10
+20330.28
+ 20
+22900.49
+  0
+LINE
+  5
+96
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+22842.53
+ 20
+20862.73
+ 30
+-0.0
+ 11
+22842.53
+ 21
+22804.75
+ 31
+-0.0
+  0
+LINE
+  5
+97
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+21342.53
+ 20
+21617.43
+ 30
+-0.0
+ 11
+21342.53
+ 21
+23204.75
+ 31
+-0.0
+  0
+LINE
+  5
+98
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+21372.53
+ 20
+21617.43
+ 30
+-0.0
+ 11
+21372.53
+ 21
+23204.75
+ 31
+-0.0
+  0
+LINE
+  5
+99
+330
+17
+100
+AcDbEntity
+  8
+填满-深
+100
+AcDbLine
+ 10
+22872.53
+ 20
+20862.73
+ 30
+-0.0
+ 11
+22872.53
+ 21
+22804.75
+ 31
+-0.0
+  0
+LWPOLYLINE
+  5
+9A
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+22592.53
+ 20
+22854.75
+ 10
+22592.53
+ 20
+22804.75
+ 10
+25592.53
+ 20
+22804.75
+ 10
+25592.53
+ 20
+22854.75
+  0
+LINE
+  5
+9B
+330
+17
+100
+AcDbEntity
+  8
+中心线
+100
+AcDbLine
+ 10
+25293.12
+ 20
+24064.75
+ 30
+-0.0
+ 11
+22320.75
+ 21
+24064.75
+ 31
+-0.0
+  0
+LWPOLYLINE
+  5
+9C
+330
+17
+100
+AcDbEntity
+  8
+砼柱
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+25508.85
+ 20
+14138.89
+ 10
+25608.85
+ 20
+14138.89
+ 10
+25608.85
+ 20
+13038.89
+ 10
+25508.85
+ 20
+13038.89
+  0
+INSERT
+  5
+9D
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+A$C7157716C
+ 10
+26316.53
+ 20
+13381.39
+ 30
+0.0
+ 41
+-10.0
+ 42
+10.0
+ 43
+10.0
+  0
+INSERT
+  5
+9F
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+A$C7157716C
+ 10
+24801.53
+ 20
+13381.39
+ 30
+0.0
+ 41
+10.0
+ 42
+10.0
+ 43
+10.0
+  0
+LWPOLYLINE
+  5
+A1
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+27500.24
+ 20
+14224.16
+ 10
+23548.0
+ 20
+14224.16
+  0
+LWPOLYLINE
+  5
+A2
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+27500.24
+ 20
+14438.89
+ 10
+23548.0
+ 20
+14438.89
+  0
+LINE
+  5
+A3
+330
+17
+100
+AcDbEntity
+  8
+螺栓
+100
+AcDbLine
+ 10
+25912.77
+ 20
+11538.89
+ 30
+-0.0
+ 11
+25178.29
+ 21
+11538.89
+ 31
+-0.0
+  0
+LWPOLYLINE
+  5
+A4
+330
+17
+100
+AcDbEntity
+  8
+螺栓
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+25268.18
+ 20
+12288.89
+ 10
+25842.32
+ 20
+12288.89
+  0
+LINE
+  5
+A5
+330
+17
+100
+AcDbEntity
+  8
+螺栓
+100
+AcDbLine
+ 10
+25912.77
+ 20
+12288.89
+ 30
+-0.0
+ 11
+25178.29
+ 21
+12288.89
+ 31
+-0.0
+  0
+LWPOLYLINE
+  5
+A6
+330
+17
+100
+AcDbEntity
+  8
+砼柱
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+24659.03
+ 20
+13038.89
+ 10
+26459.03
+ 20
+13038.89
+ 10
+26459.03
+ 20
+14138.89
+ 10
+24659.03
+ 20
+14138.89
+  0
+LINE
+  5
+A7
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbLine
+ 10
+28302.42
+ 20
+23264.75
+ 30
+0.0
+ 11
+20646.94
+ 21
+23264.75
+ 31
+-0.0
+  0
+LINE
+  5
+A8
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbLine
+ 10
+20654.78
+ 20
+23204.75
+ 30
+-0.0
+ 11
+28275.64
+ 21
+23204.75
+ 31
+0.0
+  0
+POLYLINE
+  5
+A9
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDb2dPolyline
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+0
+  0
+VERTEX
+  5
+AB
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+20620.13
+ 20
+23669.91
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+AC
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+20620.13
+ 20
+23669.91
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+AD
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+20666.52
+ 20
+23314.96
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+AE
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+20722.05
+ 20
+23026.72
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+AF
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+20784.18
+ 20
+22795.21
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+B0
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+20850.36
+ 20
+22610.41
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+B1
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+20918.04
+ 20
+22462.33
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+B2
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+20984.67
+ 20
+22340.97
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+B3
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21047.7
+ 20
+22236.32
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+B4
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21104.58
+ 20
+22138.39
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+B5
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21153.69
+ 20
+22039.15
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+B6
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21197.18
+ 20
+21938.52
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+B7
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21238.13
+ 20
+21838.42
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+B8
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21279.62
+ 20
+21740.73
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+B9
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21324.73
+ 20
+21647.37
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+BA
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21376.54
+ 20
+21560.23
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+BB
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21438.13
+ 20
+21481.22
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+BC
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21512.58
+ 20
+21412.24
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+BD
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21601.86
+ 20
+21354.54
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+BE
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21703.46
+ 20
+21306.74
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+BF
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21813.78
+ 20
+21266.79
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+C0
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21929.19
+ 20
+21232.66
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+C1
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22046.09
+ 20
+21202.3
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+C2
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22160.84
+ 20
+21173.67
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+C3
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22269.85
+ 20
+21144.75
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+C4
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22369.49
+ 20
+21113.47
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+C5
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22457.18
+ 20
+21078.39
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+C6
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22534.49
+ 20
+21040.36
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+C7
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22604.02
+ 20
+21000.81
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+C8
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22668.38
+ 20
+20961.16
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+C9
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22730.15
+ 20
+20922.86
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+CA
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22791.95
+ 20
+20887.32
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+CB
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22856.38
+ 20
+20855.99
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+CC
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22926.03
+ 20
+20830.29
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+CD
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+23002.97
+ 20
+20811.18
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+CE
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+23087.08
+ 20
+20797.69
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+CF
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+23177.69
+ 20
+20788.41
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+D0
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+23274.15
+ 20
+20781.9
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+D1
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+23375.8
+ 20
+20776.73
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+D2
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+23481.98
+ 20
+20771.47
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+D3
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+23592.02
+ 20
+20764.69
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+D4
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+23705.27
+ 20
+20754.95
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+D5
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+23821.0
+ 20
+20741.34
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+D6
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+23938.23
+ 20
+20725.03
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+D7
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+24055.9
+ 20
+20707.68
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+D8
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+24172.97
+ 20
+20690.97
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+D9
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+24288.39
+ 20
+20676.58
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+DA
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+24401.1
+ 20
+20666.17
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+DB
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+24510.07
+ 20
+20661.42
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+DC
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+24614.23
+ 20
+20664.02
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+DD
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+24713.0
+ 20
+20674.94
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+DE
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+24807.59
+ 20
+20692.47
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+DF
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+24899.68
+ 20
+20714.21
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+E0
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+24990.95
+ 20
+20737.74
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+E1
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+25083.07
+ 20
+20760.66
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+E2
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+25177.73
+ 20
+20780.56
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+E3
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+25276.59
+ 20
+20795.05
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+E4
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+25381.32
+ 20
+20801.71
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+E5
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+25492.92
+ 20
+20799.11
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+E6
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+25609.5
+ 20
+20789.66
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+E7
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+25728.53
+ 20
+20776.73
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+E8
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+25847.43
+ 20
+20763.72
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+E9
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+25963.65
+ 20
+20753.99
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+EA
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26074.64
+ 20
+20750.93
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+EB
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26177.82
+ 20
+20757.92
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+EC
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26270.64
+ 20
+20778.33
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+ED
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26351.51
+ 20
+20814.44
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+EE
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26422.79
+ 20
+20864.1
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+EF
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26487.8
+ 20
+20924.06
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+F0
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26549.84
+ 20
+20991.04
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+F1
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26612.26
+ 20
+21061.8
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+F2
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26678.36
+ 20
+21133.08
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+F3
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26751.47
+ 20
+21201.62
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+F4
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26834.9
+ 20
+21264.16
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+F5
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26930.84
+ 20
+21318.64
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+F6
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27036.78
+ 20
+21367.79
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+F7
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27149.08
+ 20
+21415.55
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+F8
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27264.12
+ 20
+21465.83
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+F9
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27378.24
+ 20
+21522.56
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+FA
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27487.81
+ 20
+21589.68
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+FB
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27589.18
+ 20
+21671.11
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+FC
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27678.71
+ 20
+21770.77
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+FD
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27754.59
+ 20
+21892.42
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+FE
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27822.32
+ 20
+22039.14
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+FF
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27889.22
+ 20
+22213.8
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+100
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27962.63
+ 20
+22419.3
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+101
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+28049.88
+ 20
+22658.53
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+102
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+28158.29
+ 20
+22934.39
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+103
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+28295.19
+ 20
+23249.77
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+104
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+28467.91
+ 20
+23607.56
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+105
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+20729.35
+ 20
+22625.51
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+106
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21197.41
+ 20
+22173.46
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+107
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+21342.53
+ 20
+21284.94
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+108
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22507.97
+ 20
+21160.24
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+109
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+22842.53
+ 20
+20754.95
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+10A
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+23678.11
+ 20
+20801.71
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+10B
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+24676.64
+ 20
+20567.89
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+10C
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+25300.71
+ 20
+20910.83
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+10D
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26408.45
+ 20
+20599.07
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+10E
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+26689.29
+ 20
+21362.88
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+10F
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27843.83
+ 20
+21534.35
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+110
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+27953.04
+ 20
+22594.34
+ 30
+-0.0
+ 70
+0
+  0
+VERTEX
+  5
+111
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbVertex
+100
+AcDb2dVertex
+ 10
+28467.91
+ 20
+23607.56
+ 30
+-0.0
+ 70
+0
+  0
+SEQEND
+  5
+AA
+330
+A9
+100
+AcDbEntity
+  8
+引线
+  0
+LWPOLYLINE
+  5
+112
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+3
+ 70
+0
+ 10
+27067.01
+ 20
+23189.09
+ 10
+27294.99
+ 20
+23692.98
+ 10
+28236.44
+ 20
+23692.98
+  0
+LWPOLYLINE
+  5
+113
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+3
+ 70
+0
+ 10
+27819.96
+ 20
+22510.96
+ 10
+28392.55
+ 20
+21813.22
+ 10
+29594.31
+ 20
+21813.22
+  0
+LINE
+  5
+114
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+26939.43
+ 20
+20838.86
+ 30
+-0.0
+ 11
+28024.89
+ 21
+20838.86
+ 31
+-0.0
+  0
+LWPOLYLINE
+  5
+115
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+3
+ 70
+0
+ 10
+27296.3
+ 20
+14389.59
+ 10
+27499.27
+ 20
+14727.02
+ 10
+28076.5
+ 20
+14727.02
+  0
+LINE
+  5
+116
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+36047.96
+ 20
+21771.33
+ 30
+0.0
+ 11
+37857.43
+ 21
+21771.33
+ 31
+0.0
+  0
+LINE
+  5
+117
+330
+17
+100
+AcDbEntity
+  8
+S_E_STAIR
+100
+AcDbLine
+ 10
+28824.89
+ 20
+21179.49
+ 30
+-0.0
+ 11
+28824.89
+ 21
+21493.94
+ 31
+-0.0
+  0
+LINE
+  5
+118
+330
+17
+100
+AcDbEntity
+  8
+S_E_STAIR
+100
+AcDbLine
+ 10
+28024.89
+ 20
+21085.05
+ 30
+-0.0
+ 11
+28824.89
+ 21
+21493.94
+ 31
+-0.0
+  0
+LINE
+  5
+119
+330
+17
+100
+AcDbEntity
+  8
+S_E_STAIR
+100
+AcDbLine
+ 10
+28024.89
+ 20
+20770.6
+ 30
+-0.0
+ 11
+28824.89
+ 21
+21179.49
+ 31
+0.0
+  0
+LINE
+  5
+11A
+330
+17
+100
+AcDbEntity
+  8
+S_E_STAIR
+100
+AcDbLine
+ 10
+28024.89
+ 20
+20770.6
+ 30
+-0.0
+ 11
+28024.89
+ 21
+21085.05
+ 31
+-0.0
+  0
+LINE
+  5
+11B
+330
+17
+100
+AcDbEntity
+  8
+S_E_STAIR
+100
+AcDbLine
+ 10
+31973.4
+ 20
+20243.81
+ 30
+0.0
+ 11
+37220.22
+ 21
+22925.51
+ 31
+0.0
+  0
+LINE
+  5
+11C
+330
+17
+100
+AcDbEntity
+  8
+S_E_STAIR
+100
+AcDbLine
+ 10
+31290.73
+ 20
+21579.46
+ 30
+0.0
+ 11
+36537.55
+ 21
+24261.17
+ 31
+0.0
+  0
+INSERT
+  5
+11D
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+A$C7157716C
+ 10
+34256.64
+ 20
+10431.88
+ 30
+0.0
+ 41
+-10.0
+ 42
+10.0
+ 43
+10.0
+  0
+LINE
+  5
+11F
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+34238.62
+ 20
+8970.49
+ 30
+0.0
+ 11
+35085.17
+ 21
+8280.81
+ 31
+0.0
+  0
+LINE
+  5
+120
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbLine
+ 10
+34449.14
+ 20
+10189.38
+ 30
+0.0
+ 11
+34449.14
+ 21
+9939.38
+ 31
+0.0
+  0
+LINE
+  5
+121
+330
+17
+100
+AcDbEntity
+  8
+加强板
+100
+AcDbLine
+ 10
+34449.14
+ 20
+10189.38
+ 30
+0.0
+ 11
+33599.14
+ 21
+10189.38
+ 31
+0.0
+  0
+LINE
+  5
+122
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+35085.17
+ 20
+8280.81
+ 30
+0.0
+ 11
+35434.2
+ 21
+8280.81
+ 31
+0.0
+  0
+LINE
+  5
+123
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbLine
+ 10
+34449.14
+ 20
+10049.38
+ 30
+0.0
+ 11
+35975.47
+ 21
+10049.38
+ 31
+0.0
+  0
+LINE
+  5
+124
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbLine
+ 10
+34449.14
+ 20
+9939.38
+ 30
+0.0
+ 11
+35975.47
+ 21
+9939.38
+ 31
+0.0
+  0
+LINE
+  5
+125
+330
+17
+100
+AcDbEntity
+  8
+标题
+100
+AcDbLine
+ 10
+33871.48
+ 20
+6453.42
+ 30
+0.0
+ 11
+33028.72
+ 21
+6453.42
+ 31
+0.0
+  0
+LINE
+  5
+126
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+31613.12
+ 20
+9957.0
+ 30
+0.0
+ 11
+31264.09
+ 21
+9957.0
+ 31
+0.0
+  0
+LINE
+  5
+127
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbLine
+ 10
+32459.67
+ 20
+10646.68
+ 30
+0.0
+ 11
+31613.12
+ 21
+9957.0
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+128
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+10
+ 70
+0
+ 10
+33294.14
+ 20
+10839.38
+ 10
+33294.14
+ 20
+8649.38
+ 42
+-0.41
+ 10
+33134.14
+ 20
+8489.38
+ 10
+32349.14
+ 20
+8489.38
+ 10
+32349.14
+ 20
+8339.38
+ 10
+34349.14
+ 20
+8339.38
+ 10
+34349.14
+ 20
+8489.38
+ 10
+33564.14
+ 20
+8489.38
+ 42
+-0.41
+ 10
+33404.14
+ 20
+8649.38
+ 10
+33404.14
+ 20
+10839.38
+  0
+LWPOLYLINE
+  5
+129
+330
+17
+100
+AcDbEntity
+  8
+螺栓
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+25268.18
+ 20
+10788.89
+ 10
+25842.32
+ 20
+10788.89
+  0
+LINE
+  5
+12A
+330
+17
+100
+AcDbEntity
+  8
+螺栓
+100
+AcDbLine
+ 10
+25912.77
+ 20
+10788.89
+ 30
+-0.0
+ 11
+25178.29
+ 21
+10788.89
+ 31
+-0.0
+  0
+LWPOLYLINE
+  5
+12B
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+27500.24
+ 20
+8653.62
+ 10
+23548.0
+ 20
+8653.62
+  0
+LWPOLYLINE
+  5
+12C
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+27500.24
+ 20
+8438.89
+ 10
+23548.0
+ 20
+8438.89
+  0
+LINE
+  5
+12D
+330
+17
+100
+AcDbEntity
+  8
+标题
+100
+AcDbLine
+ 10
+25907.65
+ 20
+6541.48
+ 30
+0.0
+ 11
+25128.13
+ 21
+6541.48
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+12E
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+6
+ 70
+0
+ 10
+23546.71
+ 20
+14628.74
+ 10
+23546.71
+ 20
+12479.32
+ 10
+23368.63
+ 20
+12431.05
+ 10
+23720.19
+ 20
+12366.25
+ 10
+23546.71
+ 20
+12317.48
+ 10
+23546.71
+ 20
+8094.23
+  0
+LWPOLYLINE
+  5
+12F
+330
+17
+100
+AcDbEntity
+  8
+砼柱
+100
+AcDbPolyline
+ 90
+4
+ 70
+0
+ 10
+25526.35
+ 20
+8653.62
+ 10
+25526.35
+ 20
+11688.89
+ 10
+25426.35
+ 20
+11688.89
+ 10
+25426.35
+ 20
+8653.62
+  0
+LWPOLYLINE
+  5
+130
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+6
+ 70
+0
+ 10
+27498.94
+ 20
+14628.74
+ 10
+27498.94
+ 20
+12479.32
+ 10
+27320.86
+ 20
+12431.05
+ 10
+27672.42
+ 20
+12366.25
+ 10
+27498.94
+ 20
+12317.48
+ 10
+27498.94
+ 20
+8094.23
+  0
+LWPOLYLINE
+  5
+131
+330
+17
+100
+AcDbEntity
+  8
+砼柱
+100
+AcDbPolyline
+ 90
+4
+ 70
+1
+ 10
+25426.35
+ 20
+14224.16
+ 10
+25526.35
+ 20
+14224.16
+ 10
+25526.35
+ 20
+10288.89
+ 10
+25426.35
+ 20
+10288.89
+  0
+LWPOLYLINE
+  5
+132
+330
+17
+100
+AcDbEntity
+  8
+钢柱
+100
+AcDbPolyline
+ 90
+16
+ 70
+1
+ 10
+26308.85
+ 20
+13038.89
+ 10
+26308.85
+ 20
+12948.89
+ 10
+25751.35
+ 20
+12948.89
+ 42
+0.41
+ 10
+25591.35
+ 20
+12788.89
+ 10
+25591.35
+ 20
+10288.89
+ 42
+0.41
+ 10
+25751.35
+ 20
+10128.89
+ 10
+26308.85
+ 20
+10128.89
+ 10
+26308.85
+ 20
+10038.89
+ 10
+24808.85
+ 20
+10038.89
+ 10
+24808.85
+ 20
+10128.89
+ 10
+25366.35
+ 20
+10128.89
+ 42
+0.41
+ 10
+25526.35
+ 20
+10288.89
+ 10
+25526.35
+ 20
+12788.89
+ 42
+0.41
+ 10
+25366.35
+ 20
+12948.89
+ 10
+24808.85
+ 20
+12948.89
+ 10
+24808.85
+ 20
+13038.89
+  0
+LWPOLYLINE
+  5
+133
+330
+17
+100
+AcDbEntity
+  8
+螺栓
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+25268.18
+ 20
+11538.89
+ 10
+25842.32
+ 20
+11538.89
+  0
+LINE
+  5
+134
+330
+17
+100
+AcDbEntity
+  8
+中心线
+100
+AcDbLine
+ 10
+33349.14
+ 20
+8049.31
+ 30
+0.0
+ 11
+33349.14
+ 21
+15680.23
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+135
+330
+17
+100
+AcDbEntity
+  8
+加强板
+100
+AcDbPolyline
+ 90
+11
+ 70
+1
+ 10
+33144.14
+ 20
+14189.38
+ 10
+32299.14
+ 20
+14189.38
+ 10
+32299.14
+ 20
+14039.38
+ 10
+32299.14
+ 20
+14039.38
+ 10
+32299.14
+ 20
+8489.38
+ 10
+32299.14
+ 20
+8489.38
+ 10
+32299.14
+ 20
+8489.38
+ 10
+33294.14
+ 20
+8489.38
+ 10
+33294.14
+ 20
+8489.38
+ 10
+33294.14
+ 20
+14039.38
+ 10
+33294.14
+ 20
+14039.38
+  0
+LWPOLYLINE
+  5
+136
+330
+17
+100
+AcDbEntity
+  8
+加强板
+100
+AcDbPolyline
+ 90
+11
+ 70
+1
+ 10
+33404.14
+ 20
+8489.38
+ 10
+34399.14
+ 20
+8489.38
+ 10
+34399.14
+ 20
+8489.38
+ 10
+34399.14
+ 20
+8489.38
+ 10
+34399.14
+ 20
+14089.38
+ 10
+34399.14
+ 20
+14089.38
+ 10
+34399.14
+ 20
+14189.38
+ 10
+33554.14
+ 20
+14189.38
+ 10
+33404.14
+ 20
+14089.38
+ 10
+33404.14
+ 20
+8489.38
+ 10
+33404.14
+ 20
+8489.38
+  0
+LWPOLYLINE
+  5
+137
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+3
+ 70
+0
+ 10
+30343.69
+ 20
+12798.05
+ 10
+31344.16
+ 20
+12798.05
+ 10
+31543.81
+ 20
+12646.38
+  0
+LWPOLYLINE
+  5
+138
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+2
+ 70
+0
+ 10
+31344.16
+ 20
+12798.05
+ 10
+31542.56
+ 20
+12713.02
+  0
+LINE
+  5
+139
+330
+17
+100
+AcDbEntity
+  8
+加强板
+100
+AcDbLine
+ 10
+33599.14
+ 20
+12689.38
+ 30
+0.0
+ 11
+33599.14
+ 21
+10189.38
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+13A
+330
+17
+100
+AcDbEntity
+  8
+主次梁
+100
+AcDbPolyline
+ 90
+10
+ 70
+0
+ 10
+33294.14
+ 20
+10839.38
+ 10
+33294.14
+ 20
+14029.38
+ 42
+0.41
+ 10
+33134.14
+ 20
+14189.38
+ 10
+32349.14
+ 20
+14189.38
+ 10
+32349.14
+ 20
+14339.38
+ 10
+34349.14
+ 20
+14339.38
+ 10
+34349.14
+ 20
+14189.38
+ 10
+33564.14
+ 20
+14189.38
+ 42
+0.41
+ 10
+33404.14
+ 20
+14029.38
+ 10
+33404.14
+ 20
+10839.38
+  0
+INSERT
+  5
+13B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+A$C7157716C
+ 10
+34256.64
+ 20
+11181.88
+ 30
+0.0
+ 41
+-10.0
+ 42
+10.0
+ 43
+10.0
+  0
+LWPOLYLINE
+  5
+13D
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+6
+ 70
+0
+ 10
+35974.04
+ 20
+13125.1
+ 10
+35974.04
+ 20
+11508.91
+ 10
+35807.08
+ 20
+11463.65
+ 10
+36136.67
+ 20
+11402.9
+ 10
+35974.04
+ 20
+11357.18
+ 10
+35974.04
+ 20
+9815.25
+  0
+LINE
+  5
+13E
+330
+17
+100
+AcDbEntity
+  8
+中心线
+100
+AcDbLine
+ 10
+25558.88
+ 20
+14922.57
+ 30
+0.0
+ 11
+25558.88
+ 21
+8191.32
+ 31
+0.0
+  0
+LINE
+  5
+13F
+330
+17
+100
+AcDbEntity
+  8
+S_E_STAIR
+100
+AcDbLine
+ 10
+24659.03
+ 20
+13138.89
+ 30
+0.0
+ 11
+24659.03
+ 21
+13929.0
+ 31
+0.0
+  0
+LINE
+  5
+140
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22704.76
+ 20
+13038.89
+ 30
+0.0
+ 11
+21770.58
+ 21
+13038.89
+ 31
+0.0
+  0
+LINE
+  5
+141
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22704.76
+ 20
+10038.89
+ 30
+0.0
+ 11
+21770.58
+ 21
+10038.89
+ 31
+0.0
+  0
+LINE
+  5
+142
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+21820.58
+ 20
+13038.89
+ 30
+0.0
+ 11
+21820.58
+ 21
+10038.89
+ 31
+0.0
+  0
+INSERT
+  5
+143
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+21820.58
+ 20
+13038.89
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+INSERT
+  5
+145
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+21820.58
+ 20
+10038.89
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+LINE
+  5
+147
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22243.66
+ 20
+13038.89
+ 30
+0.0
+ 11
+22346.12
+ 21
+13038.89
+ 31
+0.0
+  0
+LINE
+  5
+148
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+24080.78
+ 20
+13638.89
+ 30
+0.0
+ 11
+22246.12
+ 21
+13638.89
+ 31
+0.0
+  0
+LINE
+  5
+149
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22296.12
+ 20
+13038.89
+ 30
+0.0
+ 11
+22296.12
+ 21
+13638.89
+ 31
+0.0
+  0
+INSERT
+  5
+14A
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+22296.12
+ 20
+13038.89
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+INSERT
+  5
+14C
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+22296.12
+ 20
+13638.89
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+14E
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22704.76
+ 20
+13038.89
+ 30
+0.0
+ 11
+21770.58
+ 21
+13038.89
+ 31
+0.0
+  0
+LINE
+  5
+14F
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+23548.0
+ 20
+14438.89
+ 30
+0.0
+ 11
+21770.58
+ 21
+14438.89
+ 31
+0.0
+  0
+LINE
+  5
+150
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+21820.58
+ 20
+13038.89
+ 30
+0.0
+ 11
+21820.58
+ 21
+14438.89
+ 31
+0.0
+  0
+INSERT
+  5
+151
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+21820.58
+ 20
+13038.89
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+INSERT
+  5
+153
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+21820.58
+ 20
+14438.89
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+155
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+24088.11
+ 20
+13638.89
+ 30
+0.0
+ 11
+22246.12
+ 21
+13638.89
+ 31
+0.0
+  0
+LINE
+  5
+156
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22869.34
+ 20
+14138.89
+ 30
+0.0
+ 11
+22246.12
+ 21
+14138.89
+ 31
+0.0
+  0
+LINE
+  5
+157
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22296.12
+ 20
+13638.89
+ 30
+0.0
+ 11
+22296.12
+ 21
+14138.89
+ 31
+0.0
+  0
+INSERT
+  5
+158
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+22296.12
+ 20
+14138.89
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+15A
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33294.14
+ 20
+8911.22
+ 30
+0.0
+ 11
+33294.14
+ 21
+8698.98
+ 31
+0.0
+  0
+LINE
+  5
+15B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32298.64
+ 20
+9049.71
+ 30
+0.0
+ 11
+32298.64
+ 21
+8698.98
+ 31
+0.0
+  0
+LINE
+  5
+15C
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33294.14
+ 20
+8748.98
+ 30
+0.0
+ 11
+32298.64
+ 21
+8748.98
+ 31
+0.0
+  0
+INSERT
+  5
+15D
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+33294.14
+ 20
+8748.98
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+INSERT
+  5
+15F
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+32298.64
+ 20
+8748.98
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+161
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32107.54
+ 20
+8489.38
+ 30
+0.0
+ 11
+31882.78
+ 21
+8489.38
+ 31
+0.0
+  0
+LINE
+  5
+162
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32157.42
+ 20
+8339.38
+ 30
+0.0
+ 11
+31882.78
+ 21
+8339.38
+ 31
+0.0
+  0
+LINE
+  5
+163
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+31932.78
+ 20
+8489.38
+ 30
+0.0
+ 11
+31932.78
+ 21
+8339.38
+ 31
+0.0
+  0
+INSERT
+  5
+164
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+31932.78
+ 20
+8489.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+INSERT
+  5
+166
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+31932.78
+ 20
+8339.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+LINE
+  5
+168
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33404.14
+ 20
+8911.22
+ 30
+0.0
+ 11
+33404.14
+ 21
+8698.98
+ 31
+0.0
+  0
+LINE
+  5
+169
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+34399.64
+ 20
+9049.71
+ 30
+0.0
+ 11
+34399.64
+ 21
+8698.98
+ 31
+0.0
+  0
+LINE
+  5
+16A
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33404.14
+ 20
+8748.98
+ 30
+0.0
+ 11
+34399.64
+ 21
+8748.98
+ 31
+0.0
+  0
+INSERT
+  5
+16B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+33404.14
+ 20
+8748.98
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+INSERT
+  5
+16D
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+34399.64
+ 20
+8748.98
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+LINE
+  5
+16F
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33999.14
+ 20
+9846.65
+ 30
+0.0
+ 11
+33999.14
+ 21
+9188.31
+ 31
+0.0
+  0
+LINE
+  5
+170
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+34399.14
+ 20
+9846.65
+ 30
+0.0
+ 11
+34399.14
+ 21
+9188.31
+ 31
+0.0
+  0
+LINE
+  5
+171
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33999.14
+ 20
+9238.31
+ 30
+0.0
+ 11
+34399.14
+ 21
+9238.31
+ 31
+0.0
+  0
+INSERT
+  5
+172
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+33999.14
+ 20
+9238.31
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+INSERT
+  5
+174
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+34393.52
+ 20
+9238.31
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+LINE
+  5
+176
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+34399.14
+ 20
+9846.65
+ 30
+0.0
+ 11
+34399.14
+ 21
+9188.31
+ 31
+0.0
+  0
+LINE
+  5
+177
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+34449.14
+ 20
+9856.68
+ 30
+0.0
+ 11
+34449.14
+ 21
+9188.31
+ 31
+0.0
+  0
+LINE
+  5
+178
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+34399.14
+ 20
+9238.31
+ 30
+0.0
+ 11
+34449.14
+ 21
+9238.31
+ 31
+0.0
+  0
+LINE
+  5
+179
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33999.14
+ 20
+9846.65
+ 30
+0.0
+ 11
+33999.14
+ 21
+9188.31
+ 31
+0.0
+  0
+LINE
+  5
+17A
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33349.14
+ 20
+9846.65
+ 30
+0.0
+ 11
+33349.14
+ 21
+9188.31
+ 31
+0.0
+  0
+LINE
+  5
+17B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33999.14
+ 20
+9238.31
+ 30
+0.0
+ 11
+33349.14
+ 21
+9238.31
+ 31
+0.0
+  0
+INSERT
+  5
+17C
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+33349.14
+ 20
+9238.31
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+17E
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33599.14
+ 20
+9928.28
+ 30
+0.0
+ 11
+33599.14
+ 21
+9586.51
+ 31
+0.0
+  0
+LINE
+  5
+17F
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33999.14
+ 20
+9928.28
+ 30
+0.0
+ 11
+33999.14
+ 21
+9586.51
+ 31
+0.0
+  0
+LINE
+  5
+180
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33599.14
+ 20
+9636.51
+ 30
+0.0
+ 11
+33999.14
+ 21
+9636.51
+ 31
+0.0
+  0
+INSERT
+  5
+181
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+33599.14
+ 20
+9636.51
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+INSERT
+  5
+183
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+33999.14
+ 20
+9636.51
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+LINE
+  5
+185
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33349.14
+ 20
+9928.28
+ 30
+0.0
+ 11
+33349.14
+ 21
+9586.51
+ 31
+0.0
+  0
+LINE
+  5
+186
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33599.14
+ 20
+9928.28
+ 30
+0.0
+ 11
+33599.14
+ 21
+9586.51
+ 31
+0.0
+  0
+LINE
+  5
+187
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33349.14
+ 20
+9636.51
+ 30
+0.0
+ 11
+33599.14
+ 21
+9636.51
+ 31
+0.0
+  0
+INSERT
+  5
+188
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+33349.14
+ 20
+9636.51
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+18A
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32107.54
+ 20
+14189.38
+ 30
+0.0
+ 11
+31882.78
+ 21
+14189.38
+ 31
+0.0
+  0
+LINE
+  5
+18B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32107.54
+ 20
+8489.38
+ 30
+0.0
+ 11
+31882.78
+ 21
+8489.38
+ 31
+0.0
+  0
+LINE
+  5
+18C
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+31932.78
+ 20
+14189.38
+ 30
+0.0
+ 11
+31932.78
+ 21
+8489.38
+ 31
+0.0
+  0
+INSERT
+  5
+18D
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+31932.78
+ 20
+14189.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+18F
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32157.42
+ 20
+14339.38
+ 30
+0.0
+ 11
+31492.06
+ 21
+14339.38
+ 31
+0.0
+  0
+LINE
+  5
+190
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32130.04
+ 20
+8339.38
+ 30
+0.0
+ 11
+31492.06
+ 21
+8339.38
+ 31
+0.0
+  0
+LINE
+  5
+191
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+31542.06
+ 20
+14339.38
+ 30
+0.0
+ 11
+31542.06
+ 21
+8339.38
+ 31
+0.0
+  0
+INSERT
+  5
+192
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+31542.06
+ 20
+14339.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+INSERT
+  5
+194
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+31542.06
+ 20
+8339.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+LINE
+  5
+196
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32107.54
+ 20
+14189.38
+ 30
+0.0
+ 11
+31882.78
+ 21
+14189.38
+ 31
+0.0
+  0
+LINE
+  5
+197
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32157.42
+ 20
+14339.38
+ 30
+0.0
+ 11
+31882.78
+ 21
+14339.38
+ 31
+0.0
+  0
+LINE
+  5
+198
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+31932.78
+ 20
+14189.38
+ 30
+0.0
+ 11
+31932.78
+ 21
+14339.38
+ 31
+0.0
+  0
+INSERT
+  5
+199
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+31932.78
+ 20
+14339.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+19B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+10189.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+10189.38
+ 31
+0.0
+  0
+LINE
+  5
+19C
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+9939.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+9939.38
+ 31
+0.0
+  0
+LINE
+  5
+19D
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36361.62
+ 20
+10189.38
+ 30
+0.0
+ 11
+36361.62
+ 21
+9939.38
+ 31
+0.0
+  0
+INSERT
+  5
+19E
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36361.62
+ 20
+10189.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+INSERT
+  5
+1A0
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36361.62
+ 20
+9939.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+LINE
+  5
+1A2
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+10189.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+10189.38
+ 31
+0.0
+  0
+LINE
+  5
+1A3
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+10689.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+10689.38
+ 31
+0.0
+  0
+LINE
+  5
+1A4
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36361.62
+ 20
+10189.38
+ 30
+0.0
+ 11
+36361.62
+ 21
+10689.38
+ 31
+0.0
+  0
+INSERT
+  5
+1A5
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36361.62
+ 20
+10689.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+1A7
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+10689.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+10689.38
+ 31
+0.0
+  0
+LINE
+  5
+1A8
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+11439.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+11439.38
+ 31
+0.0
+  0
+LINE
+  5
+1A9
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36361.62
+ 20
+10689.38
+ 30
+0.0
+ 11
+36361.62
+ 21
+11439.38
+ 31
+0.0
+  0
+INSERT
+  5
+1AA
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36361.62
+ 20
+11439.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+1AC
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+12939.38
+ 30
+0.0
+ 11
+36735.56
+ 21
+12939.38
+ 31
+0.0
+  0
+LINE
+  5
+1AD
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+9939.38
+ 30
+0.0
+ 11
+36735.56
+ 21
+9939.38
+ 31
+0.0
+  0
+LINE
+  5
+1AE
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36685.56
+ 20
+12939.38
+ 30
+0.0
+ 11
+36685.56
+ 21
+9939.38
+ 31
+0.0
+  0
+INSERT
+  5
+1AF
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36685.56
+ 20
+9939.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+LINE
+  5
+1B1
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+12189.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+12189.38
+ 31
+0.0
+  0
+LINE
+  5
+1B2
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+11439.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+11439.38
+ 31
+0.0
+  0
+LINE
+  5
+1B3
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36361.62
+ 20
+12189.38
+ 30
+0.0
+ 11
+36361.62
+ 21
+11439.38
+ 31
+0.0
+  0
+INSERT
+  5
+1B4
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36361.62
+ 20
+12189.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+1B6
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+12689.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+12689.38
+ 31
+0.0
+  0
+LINE
+  5
+1B7
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+12189.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+12189.38
+ 31
+0.0
+  0
+LINE
+  5
+1B8
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36361.62
+ 20
+12689.38
+ 30
+0.0
+ 11
+36361.62
+ 21
+12189.38
+ 31
+0.0
+  0
+INSERT
+  5
+1B9
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36361.62
+ 20
+12689.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+1BB
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+12689.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+12689.38
+ 31
+0.0
+  0
+LINE
+  5
+1BC
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36131.59
+ 20
+12939.38
+ 30
+0.0
+ 11
+36411.62
+ 21
+12939.38
+ 31
+0.0
+  0
+LINE
+  5
+1BD
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36361.62
+ 20
+12689.38
+ 30
+0.0
+ 11
+36361.62
+ 21
+12939.38
+ 31
+0.0
+  0
+INSERT
+  5
+1BE
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36361.62
+ 20
+12939.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+1C0
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35576.67
+ 20
+13539.38
+ 30
+0.0
+ 11
+36735.56
+ 21
+13539.38
+ 31
+0.0
+  0
+LINE
+  5
+1C1
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36382.12
+ 20
+14039.38
+ 30
+0.0
+ 11
+36735.56
+ 21
+14039.38
+ 31
+0.0
+  0
+LINE
+  5
+1C2
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36685.56
+ 20
+13539.38
+ 30
+0.0
+ 11
+36685.56
+ 21
+14039.38
+ 31
+0.0
+  0
+INSERT
+  5
+1C3
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36685.56
+ 20
+14039.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+1C5
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36382.12
+ 20
+12939.38
+ 30
+0.0
+ 11
+36735.56
+ 21
+12939.38
+ 31
+0.0
+  0
+LINE
+  5
+1C6
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35576.67
+ 20
+13539.38
+ 30
+0.0
+ 11
+36735.56
+ 21
+13539.38
+ 31
+0.0
+  0
+LINE
+  5
+1C7
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36685.56
+ 20
+12939.38
+ 30
+0.0
+ 11
+36685.56
+ 21
+13539.38
+ 31
+0.0
+  0
+INSERT
+  5
+1C8
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36685.56
+ 20
+12939.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+INSERT
+  5
+1CA
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36685.56
+ 20
+13539.38
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+1CC
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35169.14
+ 20
+15000.3
+ 30
+0.0
+ 11
+35169.14
+ 21
+16098.23
+ 31
+0.0
+  0
+LINE
+  5
+1CD
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35769.14
+ 20
+15000.3
+ 30
+0.0
+ 11
+35769.14
+ 21
+16098.23
+ 31
+0.0
+  0
+LINE
+  5
+1CE
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35169.14
+ 20
+16048.23
+ 30
+0.0
+ 11
+35769.14
+ 21
+16048.23
+ 31
+0.0
+  0
+INSERT
+  5
+1CF
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+35169.14
+ 20
+16048.23
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+INSERT
+  5
+1D1
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+35769.14
+ 20
+16048.23
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+LINE
+  5
+1D3
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35069.14
+ 20
+14876.92
+ 30
+0.0
+ 11
+35069.14
+ 21
+16098.23
+ 31
+0.0
+  0
+LINE
+  5
+1D4
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35169.14
+ 20
+15000.3
+ 30
+0.0
+ 11
+35169.14
+ 21
+16098.23
+ 31
+0.0
+  0
+LINE
+  5
+1D5
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35069.14
+ 20
+16048.23
+ 30
+0.0
+ 11
+35169.14
+ 21
+16048.23
+ 31
+0.0
+  0
+INSERT
+  5
+1D6
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+35069.14
+ 20
+16048.23
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+1D8
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+34949.14
+ 20
+15001.51
+ 30
+0.0
+ 11
+34949.14
+ 21
+16098.23
+ 31
+0.0
+  0
+LINE
+  5
+1D9
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35069.14
+ 20
+14876.92
+ 30
+0.0
+ 11
+35069.14
+ 21
+16098.23
+ 31
+0.0
+  0
+LINE
+  5
+1DA
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+34949.14
+ 20
+16048.23
+ 30
+0.0
+ 11
+35069.14
+ 21
+16048.23
+ 31
+0.0
+  0
+INSERT
+  5
+1DB
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+34949.14
+ 20
+16048.23
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+1DD
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33349.14
+ 20
+15318.26
+ 30
+0.0
+ 11
+33349.14
+ 21
+16098.23
+ 31
+0.0
+  0
+LINE
+  5
+1DE
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+34949.14
+ 20
+15001.51
+ 30
+0.0
+ 11
+34949.14
+ 21
+16098.23
+ 31
+0.0
+  0
+LINE
+  5
+1DF
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33349.14
+ 20
+16048.23
+ 30
+0.0
+ 11
+34949.14
+ 21
+16048.23
+ 31
+0.0
+  0
+INSERT
+  5
+1E0
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+33349.14
+ 20
+16048.23
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+1E2
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+27933.3
+ 20
+20770.6
+ 30
+-0.0
+ 11
+27747.11
+ 21
+20770.6
+ 31
+-0.0
+  0
+LINE
+  5
+1E3
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+27933.3
+ 20
+21085.05
+ 30
+-0.0
+ 11
+27747.11
+ 21
+21085.05
+ 31
+-0.0
+  0
+LINE
+  5
+1E4
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+27797.11
+ 20
+20770.6
+ 30
+-0.0
+ 11
+27797.11
+ 21
+21085.05
+ 31
+-0.0
+  0
+INSERT
+  5
+1E5
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+27797.11
+ 20
+20770.6
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+INSERT
+  5
+1E7
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+27797.11
+ 20
+21085.05
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+1E9
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+28024.89
+ 20
+20710.96
+ 30
+-0.0
+ 11
+28024.89
+ 21
+20410.27
+ 31
+-0.0
+  0
+LINE
+  5
+1EA
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+28824.89
+ 20
+21119.85
+ 30
+-0.0
+ 11
+28824.89
+ 21
+20410.27
+ 31
+-0.0
+  0
+LINE
+  5
+1EB
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+28024.89
+ 20
+20460.27
+ 30
+-0.0
+ 11
+28824.89
+ 21
+20460.27
+ 31
+-0.0
+  0
+INSERT
+  5
+1EC
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+28024.89
+ 20
+20460.27
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+INSERT
+  5
+1EE
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+28824.89
+ 20
+20460.27
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+LINE
+  5
+1F0
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+28919.19
+ 20
+21179.49
+ 30
+-0.0
+ 11
+29252.07
+ 21
+21179.49
+ 31
+-0.0
+  0
+LINE
+  5
+1F1
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+28119.19
+ 20
+20770.6
+ 30
+-0.0
+ 11
+29252.07
+ 21
+20770.6
+ 31
+-0.0
+  0
+LINE
+  5
+1F2
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+29202.07
+ 20
+21179.49
+ 30
+-0.0
+ 11
+29202.07
+ 21
+20770.6
+ 31
+-0.0
+  0
+INSERT
+  5
+1F3
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+29202.07
+ 20
+21179.49
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+INSERT
+  5
+1F5
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+29202.07
+ 20
+20770.6
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+LINE
+  5
+1F7
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+28919.19
+ 20
+21493.94
+ 30
+-0.0
+ 11
+29252.07
+ 21
+21493.94
+ 31
+-0.0
+  0
+LINE
+  5
+1F8
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+28919.19
+ 20
+21179.49
+ 30
+-0.0
+ 11
+29252.07
+ 21
+21179.49
+ 31
+-0.0
+  0
+LINE
+  5
+1F9
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+29202.07
+ 20
+21493.94
+ 30
+-0.0
+ 11
+29202.07
+ 21
+21179.49
+ 31
+-0.0
+  0
+INSERT
+  5
+1FA
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+29202.07
+ 20
+21493.94
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+1FC
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+24092.53
+ 20
+22598.06
+ 30
+-0.0
+ 11
+24092.53
+ 21
+21944.42
+ 31
+-0.0
+  0
+LINE
+  5
+1FD
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+25592.53
+ 20
+22598.06
+ 30
+-0.0
+ 11
+25592.53
+ 21
+21944.42
+ 31
+-0.0
+  0
+LINE
+  5
+1FE
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+24092.53
+ 20
+21994.42
+ 30
+-0.0
+ 11
+25592.53
+ 21
+21994.42
+ 31
+-0.0
+  0
+INSERT
+  5
+1FF
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+24092.53
+ 20
+21994.42
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+INSERT
+  5
+201
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+25592.53
+ 20
+21994.42
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+LINE
+  5
+203
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35651.16
+ 20
+23842.59
+ 30
+0.0
+ 11
+35651.16
+ 21
+24069.29
+ 31
+0.0
+  0
+LINE
+  5
+204
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35601.16
+ 20
+23842.59
+ 30
+0.0
+ 11
+35601.16
+ 21
+24069.29
+ 31
+0.0
+  0
+LINE
+  5
+205
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35651.16
+ 20
+24019.29
+ 30
+0.0
+ 11
+35601.16
+ 21
+24019.29
+ 31
+0.0
+  0
+INSERT
+  5
+206
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+35651.16
+ 20
+24019.29
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+INSERT
+  5
+208
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+35601.16
+ 20
+24019.29
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+20A
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+34151.16
+ 20
+23890.74
+ 30
+0.0
+ 11
+34151.16
+ 21
+24069.29
+ 31
+0.0
+  0
+LINE
+  5
+20B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35126.16
+ 20
+23890.74
+ 30
+0.0
+ 11
+35126.16
+ 21
+24069.29
+ 31
+0.0
+  0
+LINE
+  5
+20C
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+34151.16
+ 20
+24019.29
+ 30
+0.0
+ 11
+35126.16
+ 21
+24019.29
+ 31
+0.0
+  0
+INSERT
+  5
+20D
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+34151.16
+ 20
+24019.29
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+20F
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35126.16
+ 20
+23842.59
+ 30
+0.0
+ 11
+35126.16
+ 21
+24069.29
+ 31
+0.0
+  0
+LINE
+  5
+210
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35601.16
+ 20
+23842.59
+ 30
+0.0
+ 11
+35601.16
+ 21
+24069.29
+ 31
+0.0
+  0
+LINE
+  5
+211
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35126.16
+ 20
+24019.29
+ 30
+0.0
+ 11
+35601.16
+ 21
+24019.29
+ 31
+0.0
+  0
+INSERT
+  5
+212
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+35126.16
+ 20
+24019.29
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+214
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33176.16
+ 20
+20089.52
+ 30
+0.0
+ 11
+33176.16
+ 21
+19869.64
+ 31
+0.0
+  0
+LINE
+  5
+215
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+34151.16
+ 20
+20089.52
+ 30
+0.0
+ 11
+34151.16
+ 21
+19869.64
+ 31
+0.0
+  0
+LINE
+  5
+216
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33176.16
+ 20
+19919.64
+ 30
+0.0
+ 11
+34151.16
+ 21
+19919.64
+ 31
+0.0
+  0
+INSERT
+  5
+217
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+33176.16
+ 20
+19919.64
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+INSERT
+  5
+219
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+34151.16
+ 20
+19919.64
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+LINE
+  5
+21B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35768.81
+ 20
+23798.12
+ 30
+0.0
+ 11
+35961.71
+ 21
+23798.12
+ 31
+0.0
+  0
+LINE
+  5
+21C
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35768.81
+ 20
+22123.55
+ 30
+0.0
+ 11
+35961.71
+ 21
+22123.55
+ 31
+0.0
+  0
+LINE
+  5
+21D
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+35911.71
+ 20
+23798.12
+ 30
+0.0
+ 11
+35911.71
+ 21
+22123.55
+ 31
+0.0
+  0
+INSERT
+  5
+21E
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+35911.71
+ 20
+23798.12
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+INSERT
+  5
+220
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+35911.71
+ 20
+22123.55
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+LINE
+  5
+222
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32533.51
+ 20
+20600.22
+ 30
+-0.0
+ 11
+32340.62
+ 21
+20600.22
+ 31
+-0.0
+  0
+LINE
+  5
+223
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32533.51
+ 20
+22274.79
+ 30
+-0.0
+ 11
+32340.62
+ 21
+22274.79
+ 31
+-0.0
+  0
+LINE
+  5
+224
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32390.62
+ 20
+20600.22
+ 30
+-0.0
+ 11
+32390.62
+ 21
+22274.79
+ 31
+-0.0
+  0
+INSERT
+  5
+225
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+32390.62
+ 20
+20600.22
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+INSERT
+  5
+227
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+32390.62
+ 20
+22274.79
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+229
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33176.16
+ 20
+20413.2
+ 30
+0.0
+ 11
+33176.16
+ 21
+19869.64
+ 31
+0.0
+  0
+LINE
+  5
+22A
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32701.16
+ 20
+20413.2
+ 30
+0.0
+ 11
+32701.16
+ 21
+19869.64
+ 31
+0.0
+  0
+LINE
+  5
+22B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+33176.16
+ 20
+19919.64
+ 30
+0.0
+ 11
+32701.16
+ 21
+19919.64
+ 31
+0.0
+  0
+INSERT
+  5
+22C
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+33176.16
+ 20
+19919.64
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+INSERT
+  5
+22E
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+32701.16
+ 20
+19919.64
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+230
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32651.16
+ 20
+20413.2
+ 30
+0.0
+ 11
+32651.16
+ 21
+19869.64
+ 31
+0.0
+  0
+LINE
+  5
+231
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32701.16
+ 20
+20413.2
+ 30
+0.0
+ 11
+32701.16
+ 21
+19869.64
+ 31
+0.0
+  0
+LINE
+  5
+232
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+32651.16
+ 20
+19919.64
+ 30
+0.0
+ 11
+32701.16
+ 21
+19919.64
+ 31
+0.0
+  0
+INSERT
+  5
+233
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+32651.16
+ 20
+19919.64
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+INSERT
+  5
+235
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+32701.16
+ 20
+19919.64
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+LINE
+  5
+237
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+23363.23
+ 20
+23264.75
+ 30
+-0.0
+ 11
+23686.86
+ 21
+23264.75
+ 31
+-0.0
+  0
+LINE
+  5
+238
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+23363.23
+ 20
+23314.75
+ 30
+-0.0
+ 11
+23686.86
+ 21
+23314.75
+ 31
+-0.0
+  0
+LINE
+  5
+239
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+23636.86
+ 20
+23264.75
+ 30
+-0.0
+ 11
+23636.86
+ 21
+23314.75
+ 31
+-0.0
+  0
+INSERT
+  5
+23A
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+23636.86
+ 20
+23264.75
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+INSERT
+  5
+23C
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+23636.86
+ 20
+23314.75
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+23E
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+25592.53
+ 20
+22598.06
+ 30
+-0.0
+ 11
+25592.53
+ 21
+22371.35
+ 31
+-0.0
+  0
+LINE
+  5
+23F
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+25542.53
+ 20
+22598.06
+ 30
+-0.0
+ 11
+25542.53
+ 21
+22371.35
+ 31
+-0.0
+  0
+LINE
+  5
+240
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+25592.53
+ 20
+22421.35
+ 30
+-0.0
+ 11
+25542.53
+ 21
+22421.35
+ 31
+-0.0
+  0
+INSERT
+  5
+241
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+25592.53
+ 20
+22421.35
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+INSERT
+  5
+243
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+25542.53
+ 20
+22421.35
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+245
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22266.7
+ 20
+24064.75
+ 30
+-0.0
+ 11
+21587.88
+ 21
+24064.75
+ 31
+-0.0
+  0
+LINE
+  5
+246
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22216.7
+ 20
+23264.75
+ 30
+-0.0
+ 11
+21587.88
+ 21
+23264.75
+ 31
+-0.0
+  0
+LINE
+  5
+247
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+21637.88
+ 20
+24064.75
+ 30
+-0.0
+ 11
+21637.88
+ 21
+23264.75
+ 31
+-0.0
+  0
+INSERT
+  5
+248
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+21637.88
+ 20
+24064.75
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+24A
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22216.7
+ 20
+23264.75
+ 30
+-0.0
+ 11
+21587.88
+ 21
+23264.75
+ 31
+-0.0
+  0
+LINE
+  5
+24B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22216.7
+ 20
+23204.75
+ 30
+-0.0
+ 11
+21587.88
+ 21
+23204.75
+ 31
+-0.0
+  0
+LINE
+  5
+24C
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+21637.88
+ 20
+23264.75
+ 30
+-0.0
+ 11
+21637.88
+ 21
+23204.75
+ 31
+-0.0
+  0
+INSERT
+  5
+24D
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+21637.88
+ 20
+23264.75
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+INSERT
+  5
+24F
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+21637.88
+ 20
+23204.75
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+LINE
+  5
+251
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22216.7
+ 20
+23204.75
+ 30
+-0.0
+ 11
+21587.88
+ 21
+23204.75
+ 31
+-0.0
+  0
+LINE
+  5
+252
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22216.7
+ 20
+22804.75
+ 30
+-0.0
+ 11
+21587.88
+ 21
+22804.75
+ 31
+-0.0
+  0
+LINE
+  5
+253
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+21637.88
+ 20
+23204.75
+ 30
+-0.0
+ 11
+21637.88
+ 21
+22804.75
+ 31
+-0.0
+  0
+INSERT
+  5
+254
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+21637.88
+ 20
+22804.75
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+LINE
+  5
+256
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22216.7
+ 20
+22804.75
+ 30
+-0.0
+ 11
+22011.76
+ 21
+22804.75
+ 31
+-0.0
+  0
+LINE
+  5
+257
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22216.7
+ 20
+22854.75
+ 30
+-0.0
+ 11
+22011.76
+ 21
+22854.75
+ 31
+-0.0
+  0
+LINE
+  5
+258
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22061.76
+ 20
+22804.75
+ 30
+-0.0
+ 11
+22061.76
+ 21
+22854.75
+ 31
+-0.0
+  0
+INSERT
+  5
+259
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+22061.76
+ 20
+22804.75
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+270.0
+  0
+INSERT
+  5
+25B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+22061.76
+ 20
+22854.75
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+25D
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22216.7
+ 20
+22854.75
+ 30
+-0.0
+ 11
+22011.76
+ 21
+22854.75
+ 31
+-0.0
+  0
+LINE
+  5
+25E
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22216.7
+ 20
+23204.75
+ 30
+-0.0
+ 11
+22011.76
+ 21
+23204.75
+ 31
+-0.0
+  0
+LINE
+  5
+25F
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22061.76
+ 20
+22854.75
+ 30
+-0.0
+ 11
+22061.76
+ 21
+23204.75
+ 31
+-0.0
+  0
+INSERT
+  5
+260
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+22061.76
+ 20
+23204.75
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+90.0
+  0
+LINE
+  5
+262
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22592.53
+ 20
+22598.06
+ 30
+-0.0
+ 11
+22592.53
+ 21
+22371.35
+ 31
+-0.0
+  0
+LINE
+  5
+263
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22642.53
+ 20
+22598.06
+ 30
+-0.0
+ 11
+22642.53
+ 21
+22371.35
+ 31
+-0.0
+  0
+LINE
+  5
+264
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22592.53
+ 20
+22421.35
+ 30
+-0.0
+ 11
+22642.53
+ 21
+22421.35
+ 31
+-0.0
+  0
+INSERT
+  5
+265
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+22592.53
+ 20
+22421.35
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+INSERT
+  5
+267
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+22642.53
+ 20
+22421.35
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+LINE
+  5
+269
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+24092.53
+ 20
+22598.06
+ 30
+-0.0
+ 11
+24092.53
+ 21
+21944.42
+ 31
+-0.0
+  0
+LINE
+  5
+26A
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+22592.53
+ 20
+22598.06
+ 30
+-0.0
+ 11
+22592.53
+ 21
+21944.42
+ 31
+-0.0
+  0
+LINE
+  5
+26B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+24092.53
+ 20
+21994.42
+ 30
+-0.0
+ 11
+22592.53
+ 21
+21994.42
+ 31
+-0.0
+  0
+INSERT
+  5
+26C
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+22592.53
+ 20
+21994.42
+ 30
+-0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+180.0
+  0
+LINE
+  5
+26E
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+21608.3
+ 20
+14437.41
+ 30
+0.0
+ 11
+21768.34
+ 21
+14568.31
+ 31
+0.0
+  0
+LINE
+  5
+26F
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+21446.89
+ 20
+14568.31
+ 30
+0.0
+ 11
+21608.3
+ 21
+14437.41
+ 31
+0.0
+  0
+LINE
+  5
+270
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+21446.85
+ 20
+14437.41
+ 30
+0.0
+ 11
+21769.74
+ 21
+14437.41
+ 31
+0.0
+  0
+LINE
+  5
+271
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+21769.75
+ 20
+14568.19
+ 30
+0.0
+ 11
+20881.31
+ 21
+14568.19
+ 31
+0.0
+  0
+LINE
+  5
+272
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+31330.15
+ 20
+14336.21
+ 30
+0.0
+ 11
+31490.2
+ 21
+14467.12
+ 31
+0.0
+  0
+LINE
+  5
+273
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+31168.75
+ 20
+14467.12
+ 30
+0.0
+ 11
+31330.15
+ 21
+14336.21
+ 31
+0.0
+  0
+LINE
+  5
+274
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+31168.71
+ 20
+14336.21
+ 30
+0.0
+ 11
+31491.6
+ 21
+14336.21
+ 31
+0.0
+  0
+LINE
+  5
+275
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+31491.61
+ 20
+14466.99
+ 30
+0.0
+ 11
+30592.74
+ 21
+14466.99
+ 31
+0.0
+  0
+LINE
+  5
+276
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+30555.0
+ 20
+12855.81
+ 30
+0.0
+ 11
+30631.95
+ 21
+12855.81
+ 31
+0.0
+  0
+LINE
+  5
+277
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+30631.96
+ 20
+13045.92
+ 30
+0.0
+ 11
+30631.96
+ 21
+12855.76
+ 31
+0.0
+  0
+LINE
+  5
+278
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+30555.0
+ 20
+13045.92
+ 30
+0.0
+ 11
+30631.96
+ 21
+13045.92
+ 31
+0.0
+  0
+LWPOLYLINE
+  5
+279
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+4
+ 70
+0
+ 10
+31920.9
+ 20
+12550.86
+ 10
+33800.75
+ 20
+11745.15
+ 10
+33404.14
+ 20
+11455.03
+ 10
+33644.81
+ 20
+11471.15
+  0
+LWPOLYLINE
+  5
+27A
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbPolyline
+ 90
+4
+ 70
+0
+ 10
+31929.6
+ 20
+12353.29
+ 10
+33294.14
+ 20
+11316.63
+ 10
+32940.44
+ 20
+11349.22
+ 10
+32940.44
+ 20
+11349.22
+  0
+INSERT
+  5
+27B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+34442.05
+ 20
+9223.43
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+  0
+LINE
+  5
+27D
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+36898.12
+ 20
+12938.92
+ 30
+0.0
+ 11
+37058.17
+ 21
+13069.82
+ 31
+0.0
+  0
+LINE
+  5
+27E
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+36736.71
+ 20
+13069.82
+ 30
+0.0
+ 11
+36898.12
+ 21
+12938.92
+ 31
+0.0
+  0
+LINE
+  5
+27F
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+36736.67
+ 20
+12938.92
+ 30
+0.0
+ 11
+37059.57
+ 21
+12938.92
+ 31
+0.0
+  0
+LINE
+  5
+280
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+37625.02
+ 20
+13069.7
+ 30
+0.0
+ 11
+36736.58
+ 21
+13069.7
+ 31
+0.0
+  0
+LINE
+  5
+281
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36940.02
+ 20
+23902.01
+ 30
+0.0
+ 11
+37227.61
+ 21
+24049.0
+ 31
+0.0
+  0
+LINE
+  5
+282
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+37393.78
+ 20
+23014.22
+ 30
+0.0
+ 11
+37681.37
+ 21
+23161.21
+ 31
+0.0
+  0
+LINE
+  5
+283
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+37183.09
+ 20
+24026.25
+ 30
+0.0
+ 11
+37636.85
+ 21
+23138.46
+ 31
+0.0
+  0
+INSERT
+  5
+284
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+37183.09
+ 20
+24026.25
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+117.07
+  0
+INSERT
+  5
+286
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+37636.85
+ 20
+23138.46
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+297.07
+  0
+LINE
+  5
+288
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36940.02
+ 20
+23902.01
+ 30
+0.0
+ 11
+37227.61
+ 21
+24049.0
+ 31
+0.0
+  0
+LINE
+  5
+289
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+36711.11
+ 20
+24349.87
+ 30
+0.0
+ 11
+36998.7
+ 21
+24496.86
+ 31
+0.0
+  0
+LINE
+  5
+28A
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbLine
+ 10
+37183.09
+ 20
+24026.25
+ 30
+0.0
+ 11
+36954.18
+ 21
+24474.11
+ 31
+0.0
+  0
+INSERT
+  5
+28B
+330
+17
+100
+AcDbEntity
+  8
+尺寸
+100
+AcDbBlockReference
+  2
+_ARCHTICK
+ 10
+36954.18
+ 20
+24474.11
+ 30
+0.0
+ 41
+50.0
+ 42
+50.0
+ 43
+50.0
+ 50
+117.07
+  0
+CIRCLE
+  5
+28D
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbCircle
+ 10
+31015.06
+ 20
+9985.35
+ 30
+0.0
+ 40
+245.78
+  0
+CIRCLE
+  5
+28E
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbCircle
+ 10
+35674.35
+ 20
+8286.57
+ 30
+0.0
+ 40
+245.78
+  0
+CIRCLE
+  5
+28F
+330
+17
+100
+AcDbEntity
+  8
+引线
+100
+AcDbCircle
+ 10
+24119.85
+ 20
+19041.78
+ 30
+0.0
+ 40
+245.78
+  0
+TEXT
+  5
+290
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+22867.95
+ 20
+5459.37
+ 30
+0.0
+ 40
+180.0
+  1
+注：未注明板厚为10mm；未注明螺栓直径为20mm，对应孔径为21.5mm。
+ 11
+22867.95
+ 21
+5459.37
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+291
+330
+17
+100
+AcDbEntity
+  8
+文字
+100
+AcDbText
+ 10
+23869.86
+ 20
+1185.84
+ 30
+0.0
+ 40
+190.0
+  1
+
+ 11
+23869.86
+ 21
+1185.84
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+292
+330
+17
+100
+AcDbEntity
+  8
+文字
+100
+AcDbText
+ 10
+23495.81
+ 20
+1719.4
+ 30
+0.0
+ 40
+190.0
+  1
+
+ 11
+23495.81
+ 21
+1719.4
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+293
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+33604.53
+ 20
+18675.24
+ 30
+-0.0
+ 40
+285.0
+  1
+1-1
+ 11
+33604.53
+ 21
+18675.24
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+294
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+30504.34
+ 20
+22643.65
+ 30
+0.0
+ 40
+190.0
+  1
+-10×335×70
+ 11
+30504.34
+ 21
+22643.65
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+295
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+28491.47
+ 20
+21931.31
+ 30
+-0.0
+ 40
+190.0
+  1
+楼梯踏步
+ 11
+28491.47
+ 21
+21931.31
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+296
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+30681.99
+ 20
+14580.28
+ 30
+0.0
+ 40
+190.0
+  1
+-0.190
+ 11
+30681.99
+ 21
+14580.28
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+297
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+30705.1
+ 20
+12864.81
+ 30
+0.0
+ 40
+190.0
+  1
+6
+ 11
+30705.1
+ 21
+12864.81
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+298
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+30753.47
+ 20
+14890.82
+ 30
+0.0
+ 40
+190.0
+  1
+4.410
+ 11
+30753.47
+ 21
+14890.82
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+299
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+25623.95
+ 20
+25156.62
+ 30
+-0.0
+ 40
+190.0
+  1
+柱
+ 11
+25623.95
+ 21
+25156.62
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+29A
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+26735.08
+ 20
+22959.57
+ 30
+-0.0
+ 40
+190.0
+  1
+1
+ 11
+26735.08
+ 21
+22959.57
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+29B
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+27179.35
+ 20
+20902.63
+ 30
+-0.0
+ 40
+190.0
+  1
+=10
+ 11
+27179.35
+ 21
+20902.63
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+29C
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+24012.98
+ 20
+18903.26
+ 30
+0.0
+ 40
+285.0
+  1
+1
+ 11
+24012.98
+ 21
+18903.26
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+29D
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+19992.98
+ 20
+22993.22
+ 30
+-0.0
+ 40
+190.0
+  1
+1
+ 11
+19992.98
+ 21
+22993.22
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+29E
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+20937.75
+ 20
+14627.94
+ 30
+0.0
+ 40
+190.0
+  1
+-0.190
+ 11
+20937.75
+ 21
+14627.94
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+29F
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+27382.72
+ 20
+23798.25
+ 30
+-0.0
+ 40
+190.0
+  1
+楼梯梁
+ 11
+27382.72
+ 21
+23798.25
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2A0
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+27328.7
+ 20
+14780.0
+ 30
+-0.0
+ 40
+190.0
+  1
+楼面梁
+ 11
+27328.7
+ 21
+14780.0
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2A1
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+36180.54
+ 20
+21863.09
+ 30
+0.0
+ 40
+190.0
+  1
+-10×335×70
+ 11
+36180.54
+ 21
+21863.09
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2A2
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+36808.92
+ 20
+13144.04
+ 30
+0.0
+ 40
+190.0
+  1
+-0.330
+ 11
+36808.92
+ 21
+13144.04
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2A3
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+36938.64
+ 20
+13403.24
+ 30
+0.0
+ 40
+190.0
+  1
+4.270
+ 11
+36938.64
+ 21
+13403.24
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2A4
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+35622.64
+ 20
+8199.95
+ 30
+-0.0
+ 40
+190.0
+  1
+2
+ 11
+35622.64
+ 21
+8199.95
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2A5
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+33114.19
+ 20
+6528.92
+ 30
+0.0
+ 40
+285.0
+  1
+4-4
+ 11
+33114.19
+ 21
+6528.92
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2A6
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+30958.53
+ 20
+9900.89
+ 30
+-0.0
+ 40
+190.0
+  1
+1
+ 11
+30958.53
+ 21
+9900.89
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2A7
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+21729.26
+ 20
+11407.64
+ 30
+0.0
+ 40
+190.0
+  1
+300
+ 50
+90.0
+ 11
+21729.26
+ 21
+11407.64
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2A8
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+22271.12
+ 20
+13254.52
+ 30
+0.0
+ 40
+190.0
+  1
+60
+ 50
+90.0
+ 11
+22271.12
+ 21
+13254.52
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2A9
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+21753.2
+ 20
+13557.73
+ 30
+0.0
+ 40
+190.0
+  1
+140
+ 50
+90.0
+ 11
+21753.2
+ 21
+13557.73
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2AA
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+35470.98
+ 20
+16073.23
+ 30
+0.0
+ 40
+190.0
+  1
+60
+ 11
+35470.98
+ 21
+16073.23
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2AB
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+34835.81
+ 20
+16179.99
+ 30
+0.0
+ 40
+190.0
+  1
+12
+ 11
+34835.81
+ 21
+16179.99
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2AC
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+35122.97
+ 20
+16185.63
+ 30
+0.0
+ 40
+190.0
+  1
+10
+ 11
+35122.97
+ 21
+16185.63
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2AD
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+34027.27
+ 20
+16114.43
+ 30
+0.0
+ 40
+190.0
+  1
+160
+ 11
+34027.27
+ 21
+16114.43
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2AE
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+31845.28
+ 20
+13289.06
+ 30
+0.0
+ 40
+190.0
+  1
+翼缘厚
+ 50
+90.0
+ 11
+31845.28
+ 21
+13289.06
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2AF
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+31849.41
+ 20
+10645.63
+ 30
+0.0
+ 40
+190.0
+  1
+梁高-２倍翼缘厚
+ 50
+90.0
+ 11
+31849.41
+ 21
+10645.63
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2B0
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+31431.27
+ 20
+11170.63
+ 30
+0.0
+ 40
+190.0
+  1
+梁高
+ 50
+90.0
+ 11
+31431.27
+ 21
+11170.63
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2B1
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+31845.28
+ 20
+8713.52
+ 30
+0.0
+ 40
+190.0
+  1
+翼缘厚
+ 50
+90.0
+ 11
+31845.28
+ 21
+8713.52
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2B2
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+33580.39
+ 20
+9263.31
+ 30
+0.0
+ 40
+190.0
+  1
+65
+ 11
+33580.39
+ 21
+9263.31
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2B3
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+34084.08
+ 20
+9302.15
+ 30
+0.0
+ 40
+190.0
+  1
+40
+ 11
+34084.08
+ 21
+9302.15
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2B4
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+34558.89
+ 20
+9323.49
+ 30
+0.0
+ 40
+190.0
+  1
+5
+ 11
+34558.89
+ 21
+9323.49
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2B5
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+33677.69
+ 20
+9694.44
+ 30
+0.0
+ 40
+190.0
+  1
+40
+ 11
+33677.69
+ 21
+9694.44
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2B6
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+32976.43
+ 20
+9655.13
+ 30
+0.0
+ 40
+190.0
+  1
+25
+ 11
+32976.43
+ 21
+9655.13
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2B7
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+33707.19
+ 20
+8809.17
+ 30
+0.0
+ 40
+190.0
+  1
+100
+ 11
+33707.19
+ 21
+8809.17
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2B8
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+32604.71
+ 20
+8820.51
+ 30
+0.0
+ 40
+190.0
+  1
+100
+ 11
+32604.71
+ 21
+8820.51
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2B9
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+36374.88
+ 20
+9635.62
+ 30
+0.0
+ 40
+190.0
+  1
+25
+ 50
+90.0
+ 11
+36374.88
+ 21
+9635.62
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2BA
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+36336.62
+ 20
+10355.0
+ 30
+0.0
+ 40
+190.0
+  1
+50
+ 50
+90.0
+ 11
+36336.62
+ 21
+10355.0
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2BB
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+36645.61
+ 20
+11457.52
+ 30
+0.0
+ 40
+190.0
+  1
+300
+ 50
+90.0
+ 11
+36645.61
+ 21
+11457.52
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2BC
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+36308.16
+ 20
+10970.63
+ 30
+0.0
+ 40
+190.0
+  1
+75
+ 50
+90.0
+ 11
+36308.16
+ 21
+10970.63
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2BD
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+36301.73
+ 20
+11720.63
+ 30
+0.0
+ 40
+190.0
+  1
+75
+ 50
+90.0
+ 11
+36301.73
+ 21
+11720.63
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2BE
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+36309.14
+ 20
+12355.0
+ 30
+0.0
+ 40
+190.0
+  1
+50
+ 50
+90.0
+ 11
+36309.14
+ 21
+12355.0
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2BF
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+36275.76
+ 20
+13065.88
+ 30
+0.0
+ 40
+190.0
+  1
+25
+ 50
+90.0
+ 11
+36275.76
+ 21
+13065.88
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2C0
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+36613.04
+ 20
+13155.0
+ 30
+0.0
+ 40
+190.0
+  1
+60
+ 50
+90.0
+ 11
+36613.04
+ 21
+13155.0
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2C1
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+36624.92
+ 20
+13705.0
+ 30
+0.0
+ 40
+190.0
+  1
+50
+ 50
+90.0
+ 11
+36624.92
+ 21
+13705.0
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2C2
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+22230.24
+ 20
+13800.33
+ 30
+0.0
+ 40
+190.0
+  1
+50
+ 50
+90.0
+ 11
+22230.24
+ 21
+13800.33
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2C3
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+29589.57
+ 20
+21186.72
+ 30
+-0.0
+ 40
+190.0
+  1
+335
+ 50
+90.0
+ 11
+29589.57
+ 21
+21186.72
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2C4
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+29590.49
+ 20
+20726.82
+ 30
+-0.0
+ 40
+190.0
+  1
+305
+ 50
+90.0
+ 11
+29590.49
+ 21
+20726.82
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2C5
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+28293.64
+ 20
+20520.35
+ 30
+-0.0
+ 40
+190.0
+  1
+600
+ 11
+28293.64
+ 21
+20520.35
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2C6
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+27964.16
+ 20
+21127.87
+ 30
+-0.0
+ 40
+190.0
+  1
+335
+ 50
+90.0
+ 11
+27964.16
+ 21
+21127.87
+ 31
+-0.0
+100
+AcDbText
+  0
+MTEXT
+  5
+2C7
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbMText
+ 10
+27075.47
+ 20
+21096.74
+ 30
+0.0
+ 40
+190.0
+ 71
+1
+  1
+{\fTimes New Roman|b0|i1|c0|p18;t}
+  0
+TEXT
+  5
+2C8
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+24711.28
+ 20
+22063.63
+ 30
+-0.0
+ 40
+190.0
+  1
+300
+ 11
+24711.28
+ 21
+22063.63
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2C9
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+35751.29
+ 20
+24088.98
+ 30
+0.0
+ 40
+190.0
+  1
+10
+ 11
+35751.29
+ 21
+24088.98
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2CA
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+34507.41
+ 20
+24088.96
+ 30
+0.0
+ 40
+190.0
+  1
+195
+ 11
+34507.41
+ 21
+24088.96
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2CB
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+35269.91
+ 20
+24089.05
+ 30
+0.0
+ 40
+190.0
+  1
+95
+ 11
+35269.91
+ 21
+24089.05
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2CC
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+33532.41
+ 20
+19944.64
+ 30
+0.0
+ 40
+190.0
+  1
+195
+ 11
+33532.41
+ 21
+19944.64
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2CD
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+35886.71
+ 20
+22962.32
+ 30
+0.0
+ 40
+190.0
+  1
+335
+ 50
+90.0
+ 11
+35886.71
+ 21
+22962.32
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2CE
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+32365.62
+ 20
+21398.41
+ 30
+-0.0
+ 40
+190.0
+  1
+335
+ 50
+90.0
+ 11
+32365.62
+ 21
+21398.41
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2CF
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+32844.91
+ 20
+19944.64
+ 30
+0.0
+ 40
+190.0
+  1
+95
+ 11
+32844.91
+ 21
+19944.64
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2D0
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+32610.54
+ 20
+19532.14
+ 30
+0.0
+ 40
+190.0
+  1
+10
+ 11
+32610.54
+ 21
+19532.14
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2D1
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+23629.81
+ 20
+23402.26
+ 30
+-0.0
+ 40
+190.0
+  1
+10
+ 50
+90.0
+ 11
+23629.81
+ 21
+23402.26
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2D2
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+25174.97
+ 20
+22403.37
+ 30
+-0.0
+ 40
+190.0
+  1
+10
+ 11
+25174.97
+ 21
+22403.37
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2D3
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+21556.21
+ 20
+23579.51
+ 30
+-0.0
+ 40
+190.0
+  1
+160
+ 50
+90.0
+ 11
+21556.21
+ 21
+23579.51
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2D4
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+21881.9
+ 20
+23319.81
+ 30
+-0.0
+ 40
+190.0
+  1
+12
+ 50
+90.0
+ 11
+21881.9
+ 21
+23319.81
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2D5
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+21612.88
+ 20
+22898.12
+ 30
+-0.0
+ 40
+190.0
+  1
+80
+ 50
+90.0
+ 11
+21612.88
+ 21
+22898.12
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2D6
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+21605.77
+ 20
+22506.28
+ 30
+-0.0
+ 40
+190.0
+  1
+10
+ 50
+90.0
+ 11
+21605.77
+ 21
+22506.28
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2D7
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+21943.81
+ 20
+22856.73
+ 30
+-0.0
+ 40
+190.0
+  1
+70
+ 50
+90.0
+ 11
+21943.81
+ 21
+22856.73
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2D8
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+22227.44
+ 20
+22403.37
+ 30
+-0.0
+ 40
+190.0
+  1
+10
+ 11
+22227.44
+ 21
+22403.37
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2D9
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+23211.28
+ 20
+22049.43
+ 30
+-0.0
+ 40
+190.0
+  1
+300
+ 11
+23211.28
+ 21
+22049.43
+ 31
+-0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2DA
+330
+17
+100
+AcDbEntity
+  8
+PUB_DIM
+100
+AcDbText
+ 10
+25206.67
+ 20
+6622.12
+ 30
+0.0
+ 40
+285.0
+  1
+3-3
+ 11
+25206.67
+ 21
+6622.12
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2DB
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+37433.62
+ 20
+23789.63
+ 30
+0.0
+ 40
+190.0
+  1
+200
+ 50
+297.07
+ 11
+37433.62
+ 21
+23789.63
+ 31
+0.0
+100
+AcDbText
+  0
+TEXT
+  5
+2DC
+330
+17
+100
+AcDbEntity
+  8
+0
+100
+AcDbText
+ 10
+37086.9
+ 20
+24430.0
+ 30
+0.0
+ 40
+190.0
+  1
+100
+ 50
+297.07
+ 11
+37086.9
+ 21
+24430.0
+ 31
+0.0
+100
+AcDbText
+  0
+ENDSEC
+  0
+SECTION
+  2
+OBJECTS
+  0
+DICTIONARY
+  5
+A
+330
+0
+100
+AcDbDictionary
+281
+1
+  3
+ACAD_COLOR
+350
+B
+  3
+ACAD_GROUP
+350
+C
+  3
+ACAD_LAYOUT
+350
+D
+  3
+ACAD_MATERIAL
+350
+E
+  3
+ACAD_MLEADERSTYLE
+350
+F
+  3
+ACAD_MLINESTYLE
+350
+10
+  3
+ACAD_PLOTSETTINGS
+350
+11
+  3
+ACAD_PLOTSTYLENAME
+350
+12
+  3
+ACAD_SCALELIST
+350
+14
+  3
+ACAD_TABLESTYLE
+350
+15
+  3
+ACAD_VISUALSTYLE
+350
+16
+  3
+EZDXF_META
+350
+2D
+  0
+DICTIONARY
+  5
+B
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+C
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+D
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Model
+350
+1A
+  3
+Layout1
+350
+1E
+  0
+DICTIONARY
+  5
+E
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+ByBlock
+350
+1F
+  3
+ByLayer
+350
+20
+  3
+Global
+350
+21
+  0
+DICTIONARY
+  5
+F
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Standard
+350
+2C
+  0
+DICTIONARY
+  5
+10
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Standard
+350
+22
+  0
+DICTIONARY
+  5
+11
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+ACDBDICTIONARYWDFLT
+  5
+12
+330
+A
+100
+AcDbDictionary
+281
+1
+  3
+Normal
+350
+13
+100
+AcDbDictionaryWithDefault
+340
+13
+  0
+ACDBPLACEHOLDER
+  5
+13
+330
+12
+  0
+DICTIONARY
+  5
+14
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+15
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+DICTIONARY
+  5
+16
+330
+A
+100
+AcDbDictionary
+281
+1
+  0
+LAYOUT
+  5
+1A
+330
+D
+100
+AcDbPlotSettings
+  1
+
+  4
+A3
+  6
+
+ 40
+7.5
+ 41
+20.0
+ 42
+7.5
+ 43
+20.0
+ 44
+420.0
+ 45
+297.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+1024
+ 72
+1
+ 73
+0
+ 74
+5
+  7
+
+ 75
+16
+ 76
+0
+ 77
+2
+ 78
+300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Model
+ 70
+1
+ 71
+0
+ 10
+0.0
+ 20
+0.0
+ 11
+420.0
+ 21
+297.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+1e+20
+ 24
+1e+20
+ 34
+1e+20
+ 15
+-1e+20
+ 25
+-1e+20
+ 35
+-1e+20
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+1
+330
+17
+  0
+LAYOUT
+  5
+1E
+330
+D
+100
+AcDbPlotSettings
+  1
+
+  4
+A3
+  6
+
+ 40
+7.5
+ 41
+20.0
+ 42
+7.5
+ 43
+20.0
+ 44
+420.0
+ 45
+297.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+0
+ 72
+1
+ 73
+0
+ 74
+5
+  7
+
+ 75
+16
+ 76
+0
+ 77
+2
+ 78
+300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Layout1
+ 70
+1
+ 71
+1
+ 10
+0.0
+ 20
+0.0
+ 11
+420.0
+ 21
+297.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+1e+20
+ 24
+1e+20
+ 34
+1e+20
+ 15
+-1e+20
+ 25
+-1e+20
+ 35
+-1e+20
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+1
+330
+1B
+  0
+MATERIAL
+  5
+1F
+102
+{ACAD_REACTORS
+330
+E
+102
+}
+330
+E
+100
+AcDbMaterial
+  1
+ByBlock
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+1
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 94
+63
+  0
+MATERIAL
+  5
+20
+102
+{ACAD_REACTORS
+330
+E
+102
+}
+330
+E
+100
+AcDbMaterial
+  1
+ByLayer
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+1
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 94
+63
+  0
+MATERIAL
+  5
+21
+102
+{ACAD_REACTORS
+330
+E
+102
+}
+330
+E
+100
+AcDbMaterial
+  1
+Global
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+1
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 94
+63
+  0
+MLINESTYLE
+  5
+22
+102
+{ACAD_REACTORS
+330
+10
+102
+}
+330
+10
+100
+AcDbMlineStyle
+  2
+Standard
+ 70
+0
+  3
+
+ 62
+256
+ 51
+90.0
+ 52
+90.0
+ 71
+2
+ 49
+0.5
+ 62
+256
+  6
+BYLAYER
+ 49
+-0.5
+ 62
+256
+  6
+BYLAYER
+  0
+MLEADERSTYLE
+  5
+2C
+102
+{ACAD_REACTORS
+330
+F
+102
+}
+330
+F
+100
+AcDbMLeaderStyle
+179
+2
+170
+2
+171
+1
+172
+0
+ 90
+2
+ 40
+0.0
+ 41
+0.0
+173
+1
+ 91
+-1056964608
+ 92
+-2
+290
+1
+ 42
+2.0
+291
+1
+ 43
+8.0
+  3
+Standard
+ 44
+4.0
+300
+
+342
+29
+174
+1
+175
+1
+176
+0
+178
+1
+ 93
+-1056964608
+ 45
+4.0
+292
+0
+297
+0
+ 46
+4.0
+ 94
+-1056964608
+ 47
+1.0
+ 49
+1.0
+140
+1.0
+294
+1
+141
+0.0
+177
+0
+142
+1.0
+295
+0
+296
+0
+143
+3.75
+271
+0
+272
+9
+273
+9
+  0
+DICTIONARY
+  5
+2D
+330
+A
+100
+AcDbDictionary
+280
+1
+281
+1
+  3
+CREATED_BY_EZDXF
+350
+2E
+  3
+WRITTEN_BY_EZDXF
+350
+2DF
+  0
+DICTIONARYVAR
+  5
+2E
+330
+2D
+100
+DictionaryVariables
+280
+0
+  1
+1.4.5 @ 2026-10-20T10:39:28.693217+00:00
+  0
+DICTIONARYVAR
+  5
+2DF
+330
+2D
+100
+DictionaryVariables
+280
+0
+  1
+1.4.5 @ 2026-10-20T10:39:28.701217+00:00
+  0
+ENDSEC
+  0
+EOF

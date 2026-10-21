@@ -1,0 +1,40 @@
+# 解析报告
+
+```json
+{
+  "result": "geometry_extracted",
+  "gpu_execution": {
+    "device": "NVIDIA GeForce RTX 4070",
+    "cuda_available": true,
+    "operations": [
+      "model-space coordinate tensor construction",
+      "CUDA bounds reduction",
+      "CUDA geometry checksum",
+      "CUDA nearest-geometry association for text and dimensions"
+    ]
+  },
+  "entity_counts": {
+    "LINE": 787,
+    "INSERT": 23,
+    "CIRCLE": 2,
+    "LWPOLYLINE": 17,
+    "ARC": 21,
+    "SPLINE": 1,
+    "TEXT": 37
+  },
+  "geometry_checksum": 59048292352.0,
+  "bounds": [
+    [
+      6137.07,
+      1143.54
+    ],
+    [
+      14617.81,
+      12952.18
+    ]
+  ],
+  "warnings": [
+    "LibreDWG reported six HATCH handle warnings during temporary conversion; generated HATCH boundaries are retained only when present in DXF."
+  ]
+}
+```

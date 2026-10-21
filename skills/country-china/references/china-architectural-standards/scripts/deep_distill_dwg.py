@@ -8,6 +8,7 @@ coordinate validation and reconstruction comparison execute as CUDA tensors.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import math
 import os
@@ -79,6 +80,38 @@ def write_json(path: Path, payload):
         if len(encoded.encode("utf-8")) >= MAX_BYTES:
             raise RuntimeError(f"refusing oversized shard index: {path}")
     path.write_text(encoded, encoding="utf-8")
+
+
+def shard_large_artifact(path: Path):
+    """Replace an oversized generated artifact with verifiable sub-1 MiB byte parts.
+
+    This is used after the reconstructed DXF has already been re-opened and
+    compared.  Joining the listed parts in order restores the exact artifact.
+    """
+    if path.stat().st_size < MAX_BYTES:
+        return None
+    data = path.read_bytes()
+    part_bytes = MAX_BYTES - 4096
+    part_dir = path.parent / f"{path.name}.parts"
+    part_dir.mkdir(parents=True, exist_ok=True)
+    parts = []
+    for offset in range(0, len(data), part_bytes):
+        part = data[offset:offset + part_bytes]
+        name = f"part-{len(parts) + 1:04d}"
+        (part_dir / name).write_bytes(part)
+        parts.append({"path": f"{part_dir.name}/{name}", "bytes": len(part), "sha256": hashlib.sha256(part).hexdigest()})
+    index = {
+        "status": "byte_sharded_generated_artifact",
+        "original_filename": path.name,
+        "original_bytes": len(data),
+        "original_sha256": hashlib.sha256(data).hexdigest(),
+        "restore_instruction": "Concatenate parts in listed order as raw bytes to restore the original generated artifact.",
+        "parts": parts,
+    }
+    index_path = path.with_name(f"{path.name}.parts.json")
+    write_json(index_path, index)
+    path.unlink()
+    return str(index_path.name)
 
 
 def attrs(entity):
@@ -486,6 +519,16 @@ def main():
     (out / "reconstruction_test_report.md").write_text(report_summary + json.dumps(reconstruction_report, ensure_ascii=True, indent=2) + "\n```\n", encoding="utf-8")
     (out / "reports" / "parse_failures.log").write_text("", encoding="utf-8")
     (out / "reports" / "oversized_files.log").write_text("", encoding="utf-8")
+    sharded = []
+    # JSON collections are handled at write time.  DXF and human-readable
+    # recipe reports can still exceed the artifact ceiling for dense drawings.
+    # They are byte-sharded only after reconstruction verification completes.
+    for artifact in [x for x in out.rglob("*") if x.is_file() and x.stat().st_size >= MAX_BYTES]:
+        index_name = shard_large_artifact(artifact)
+        if index_name:
+            sharded.append({"artifact": str(artifact.relative_to(out)).replace("\\", "/"), "index": str(artifact.with_name(index_name).relative_to(out)).replace("\\", "/")})
+    if sharded:
+        (out / "reports" / "oversized_files.log").write_text(json.dumps(sharded, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
     sizes = [{"path": str(x.relative_to(out)).replace("\\", "/"), "bytes": x.stat().st_size} for x in out.rglob("*") if x.is_file()]
     if any(x["bytes"] >= MAX_BYTES for x in sizes): raise RuntimeError("size audit failed")
     write_json(out / "reports" / "size_audit.json", {"status": "pass", "files": sizes})
