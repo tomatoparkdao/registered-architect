@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import collections
+import argparse
 import json
 from pathlib import Path
 
@@ -16,6 +17,9 @@ def last_line(record):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--source-root", action="append", default=[], type=Path)
+    args = parser.parse_args()
     state = json.loads(MANIFEST.read_text(encoding="utf8"))
     records = [item for name in state["record_shards"] for item in json.loads((MANIFEST.parent / name).read_text(encoding="utf8"))["records"]]
     successful = {item["source_path"] for item in records if item["status"] == "geometry_extracted"}
@@ -36,6 +40,12 @@ def main():
     oversized = [path.relative_to(ROOT).as_posix() for path in files if path.stat().st_size >= MAX_BYTES]
     status_counts = collections.Counter(item["status"] for item in records)
     total = len(latest)
+    ignored_non_dwg = sum(
+        1
+        for source_root in args.source_root
+        for path in source_root.rglob("*")
+        if path.is_file() and path.suffix.lower() != ".dwg"
+    )
     coverage = len(successful) / total if total else 0
     (REPORTS / "coverage_report.md").write_text(
         "# DWG 批次覆盖率报告\n\n"
@@ -43,6 +53,7 @@ def main():
         f"- 无效 DWG：{len(invalid)}\n- 稳定失败：{len(unresolved)}\n"
         f"- 有效 DWG 成功率：{len(successful)}/{total-len(invalid)}（{len(successful)/(total-len(invalid)):.2%}）\n"
         f"- 全量覆盖（成功/无效/有明确失败原因）：{(len(successful)+len(invalid)+len(unresolved))}/{total}\n"
+        f"- 其他格式文件：{ignored_non_dwg} 个，已忽略且未读取/转换\n"
         f"- Manifest 事件统计：`{dict(status_counts)}`\n"
         f"- 小于 1 MiB 审计：{'通过' if not oversized else '失败，见下方'}\n\n"
         "所有成功项均经过 CUDA 几何处理及重绘前后校验。超限重绘产物已在校验后存为带 SHA-256 索引的字节分片。\n\n"

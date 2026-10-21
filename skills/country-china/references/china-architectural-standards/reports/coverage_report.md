@@ -6,6 +6,7 @@
 - 稳定失败：10
 - 有效 DWG 成功率：4335/4345（99.77%）
 - 全量覆盖（成功/无效/有明确失败原因）：4351/4351
+- 其他格式文件：189 个，已忽略且未读取/转换
 - Manifest 事件统计：`{'conversion_failed': 36, 'geometry_extracted': 4335, 'parse_failed': 687, 'invalid_dwg': 6}`
 - 小于 1 MiB 审计：失败，见下方
 
