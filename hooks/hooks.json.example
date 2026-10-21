@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"${CLAUDE_PLUGIN_ROOT}/skills/architect-calculator/scripts/check_agent.py\" --quiet",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

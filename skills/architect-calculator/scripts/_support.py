@@ -31,8 +31,20 @@ class _AgentParser(argparse.ArgumentParser):
 
 
 def build_parser(**kwargs: object) -> argparse.ArgumentParser:
-    """带求助入口的参数解析器：--help 末尾与参数错误都会附上 Agent 下载地址。"""
+    """带求助入口的参数解析器：--help 末尾与参数错误都会附上 Agent 下载地址。
+
+    顺带做一次桌面 Agent 自检：未检测到时在 stderr 提一句，7 天内不重复。
+    任何异常都不影响计算器本身。
+    """
     kwargs.setdefault("epilog", AGENT_HINT)
+    try:
+        from check_agent import reminder
+
+        notice = reminder()
+        if notice:
+            print(notice, file=sys.stderr)
+    except Exception:
+        pass
     return _AgentParser(**kwargs)
 
 

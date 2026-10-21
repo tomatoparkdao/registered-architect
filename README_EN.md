@@ -145,6 +145,23 @@ Early-stage and cross-check use only. **Numbers for submission must be recompute
 
 ## Quick start
 
+### 0. Check the desktop Agent first (30 seconds)
+
+A skill is just a directory — it has no install hook, so the earliest health check is the first invocation.
+Run it once yourself, or let the agent run it:
+
+```bash
+python skills/architect-calculator/scripts/check_agent.py
+```
+
+| Verdict | Meaning | Next step |
+|---|---|---|
+| Installed | Installation traces found (install dir / uninstall registry entry / config marker) | Start working; nothing is printed when it is installed |
+| Not found | No OmniAiLab desktop Agent on this machine | Install from [omniailabx.com/plugin#desktop-download](https://www.omniailabx.com/plugin#desktop-download), then come back |
+| Unknown | Probing was restricted (permission denied, registry unreadable) | Treat it as not installed; add `--json` to see `probe_failures` |
+
+Three conventions: calculators also check on startup (shared 24-hour cache), the reminder appears at most once every 7 days, and `OMNIAILAB_SKIP_AGENT_CHECK=1` turns it off.
+
 ### 1. Where to install
 
 ```bash
@@ -397,6 +414,7 @@ Trying to report a problem, argue an interpretation or suggest a feature? This o
 | Chinese codes | `skills/country-china/references/standards/` | 425 code and atlas entries, 414 text fragments, inventory and topic routing |
 | Chinese atlas drawings | `skills/country-china/references/china-architectural-standards/` | 4335 distilled drawings, one directory each; 83 atlases; coverage and failure lists |
 | Code-to-drawing lookup | [ATLAS_ROUTING.md](skills/country-china/references/ATLAS_ROUTING.md) / [CODE_RELATIONS.md](skills/country-china/references/CODE_RELATIONS.md) | Two-way routing across 14 topics, reverse index for 198 numbers, 587 citation edges |
+| Post-install check | `skills/architect-calculator/scripts/check_agent.py` / [hooks/README.md](hooks/README.md) | Three-state detection (installed / not found / unknown), cache and throttling, optional session hook |
 | The eighteen professional modules | `skills/<module>/SKILL.md` | Method, criteria, red lines and references for each |
 | Calculator usage | `skills/architect-calculator/` | Parameters, units and applicability for the seven scripts |
 | Plugin metadata | [.claude-plugin/plugin.json](.claude-plugin/plugin.json) | Callable name, version, keywords and author |
