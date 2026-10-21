@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<string>", line 1, in <module>
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\SKILL\建筑室内设计skill\registered-architect\skills\country-china\references\china-architectural-standards\scripts\batch_distill_dwg.py", line 78, in <module>
+    if __name__=="__main__": main()
+                             ^^^^^^
+  File "E:\SKILL\建筑室内设计skill\registered-architect\skills\country-china\references\china-architectural-standards\scripts\batch_distill_dwg.py", line 50, in main
+    for item in prior["records"]:
+                ~~~~~^^^^^^^^^^^
+KeyError: 'records'
