@@ -34,6 +34,8 @@ def safe_markdown(value):
 
 
 def p(point):
+    if point is None:
+        return None
     if hasattr(point, "x"):
         return [r(point.x), r(point.y), r(getattr(point, "z", 0))]
     # ezdxf exposes some SPLINE control points as NumPy coordinate arrays.
@@ -179,14 +181,17 @@ def dimension_for(entity):
     record = attrs(entity)
     d = entity.dxf
     measurement = entity.get_measurement()
+    definition_point = p(d.defpoint)
+    text_position = p(d.text_midpoint) or definition_point
     record.update(
         dimension_id=None,
         dimtype=int(d.dimtype),
         value=r(measurement) if isinstance(measurement, (int, float)) else None,
-        definition_point=p(d.defpoint),
+        definition_point=definition_point,
         start_point=p(d.defpoint2),
         end_point=p(d.defpoint3),
-        text_position=p(d.text_midpoint),
+        text_position=text_position,
+        text_position_source="text_midpoint" if p(d.text_midpoint) is not None else "definition_point_fallback",
         text=d.text if d.hasattr("text") else "",
         association_status="unresolved",
         related_entities=[],
@@ -197,7 +202,8 @@ def dimension_for(entity):
 def entity_points(record):
     for key in ("start", "end", "center", "insert", "position", "definition_point", "start_point", "end_point", "text_position"):
         if key in record:
-            yield record[key][:2]
+            if record[key] is not None:
+                yield record[key][:2]
     for vertex in record.get("vertices", []):
         yield vertex[:2]
     for boundary in record.get("boundaries", []):
