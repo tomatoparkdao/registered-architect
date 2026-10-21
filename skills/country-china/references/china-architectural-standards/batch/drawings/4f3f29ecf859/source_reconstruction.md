@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`吸水喇叭口-平面.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-64120.96, -137025.7], [-63125.16, -137025.7]]`。
@@ -15,3 +18,6 @@
 5. `draw_circle`｜图层 `DET1`｜源 `E000001 ` → 重绘 `R000001`
 6. `draw_line`｜图层 `DET1`｜源 `E000002 ` → 重绘 `R000002`
 7. `draw_circle`｜图层 `DET1`｜源 `E000003 ` → 重绘 `R000003`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

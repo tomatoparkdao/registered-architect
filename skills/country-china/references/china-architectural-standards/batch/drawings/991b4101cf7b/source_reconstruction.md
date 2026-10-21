@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`空心砖砌筑消防池.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [594.0, 420.0]]`。
@@ -419,3 +422,6 @@
 409. `add_text`｜图层 ` `｜源 `E000406 ` → 重绘 `R000406`
 410. `add_text`｜图层 ` `｜源 `E000407 ` → 重绘 `R000407`
 411. `add_text`｜图层 ` `｜源 `E000408 ` → 重绘 `R000408`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

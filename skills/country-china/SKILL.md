@@ -561,21 +561,46 @@ Cities mapped to intensity:
 
 澳门拥有自己的建筑法（Lei 32/96/M）及技术规章，采用葡萄牙传统与中文体系结合的制度。本文不作详细说明。
 
-## 14. 中国规范资料库路由
+## 14. 中国规范与图集资料库路由
 
-本技能附带 `references/standards/README.md`，登记用户提供的 250 个 PDF 规范及图集，并将可提取文本拆分为小型 Markdown 分片。调用中国规范时：
+中国资料分两层，都能离线检索，不需要联网：
 
-1. 先按项目主题（总则、消防、人防、民用建筑、无障碍、节能、结构、机电、机场及地方审查资料）定位目录条目。
-2. 再按原文件名、标准编号和 `source_status` 打开对应资料页；`TEXT_EXTRACTED` 表示已生成文本分片，`OCR_REQUIRED` 表示源文件为扫描件或无法可靠提取文本。
-3. 需要引用条文时，只能把资料库作为检索辅助，必须核验现行官方版本、修订公告、地方标准和项目所在地主管部门要求。
-4. 不得把图示、课件、研究报告或历史版本自动当作现行强制性规范；输出中应标明资料类型、版本状态和复核责任。
+| 层 | 位置 | 规模 | 用途 |
+|---|---|---|---|
+| 条文层 | `references/standards/` | 426 份条目 + 414 份正文分片 | 按编号、标题、`source_status` 定位规范与图集条文 |
+| 图纸层 | `references/china-architectural-standards/batch/drawings/` | 4335 张蒸馏图纸 / 83 本图册 | 取构造大样：几何、图层、块、尺寸、文字标注、重绘配方 |
 
-目录入口：`references/standards/README.md`。原始 PDF 不随 Skill 分发，目录中的分片文件也不包含图片。
+两层由两张表接通，缺一层就只能查到一半：
+
+| 表 | 作用 | 什么时候看 |
+|---|---|---|
+| `references/ATLAS_ROUTING.md` | 14 个主题 ↔ 83 本图册 ↔ 198 个规范编号的双向检索；含未归类图纸与覆盖率 | 手上有规范编号要找做法图，或手上有做法问题要找条文 |
+| `references/CODE_RELATIONS.md` | 规范互引图谱：谁被引最多、谁引别人最多、哪两条最紧 | 条文互相打架，或需要判断两条规范的层级关系 |
+
+### 检索顺序
+
+1. 先定辖区与项目主题（总则、消防、人防、民用建筑、无障碍、节能、结构、机电、地方审查资料），不要先翻图。
+2. 手上是规范编号（如 GB 50345）→ 查 `ATLAS_ROUTING.md` 第五节「反向检索」，拿到它覆盖的主题与被引次数。
+3. 顺着主题进第三节，拿到图册与图号，再到对应图册目录取 `geometry.json` / `layers.json` / `text_annotations.json` / `cad_recipe.json`。
+4. 手上是做法问题（如女儿墙泛水、变形缝收口）→ 直接从第二节主题总表入口，反向拿规范编号。
+5. 两条规范说法不一致 → 查 `CODE_RELATIONS.md` 第四节：互引说明同层，未互引多半是层级不同；最终以强制性标准与主管部门口径为准。
+6. 成文时把结论落在条文上（`按 GB ×××× 第 × 条`），图集只作为做法出处附在后面。
+
+### 边界
+
+| 项 | 规则 |
+|---|---|
+| 图集的法律地位 | 图集与 CAD 大样是做法参考，不是强制性条文；不得用图集替代条文结论 |
+| 关系强度 | 主题命中数是「关键词在两侧同时出现」的统计权重，**不是规范指定了这张图** |
+| 版本 | 图集编号对应多个年份版本，取用前核现行版；分册号（如 09J202-1）不得省略 |
+| 资料类型 | `TEXT_EXTRACTED` 为已提取文本，`OCR_REQUIRED` 为扫描件；图示、课件、历史版本不得当作现行强制规范 |
+| 更新 | 新增批次后重跑 `references/china-architectural-standards/scripts/build_atlas_routing.py`，两张表同步刷新，不要手改 |
+
+目录入口：`references/standards/README.md` 与 `references/china-architectural-standards/index.md`。原始 PDF 与 DWG 不随 Skill 分发。
 
 ---
 
-*交叉引用：加载 `building-codes` 了解一般规范结构（中国以红色印刷的强制性条文为特色）；加载 `fire-life-safety` 了解由 GB 50016 + GB 51251 叠加的消防生命安全原则；加载 `accessibility-design` 了解全球无障碍框架及 GB 50763；加载 `building-sustainability` 了解绿色建筑标识、LEED 对比和 GB/T 51350 NZEB；加载 `structural-systems` 了解抗震设计（中国烈度分级 + GB 50011）；加载 `building-envelope` 了解五类气候区的热带、寒冷和高原围护结构设计。*
-#
+*交叉引用：查中国条文与做法图时先开 `references/ATLAS_ROUTING.md`；判断两条规范的层级关系时开 `references/CODE_RELATIONS.md`；加载 `building-codes` 了解一般规范结构（中国以红色印刷的强制性条文为特色）；加载 `fire-life-safety` 了解由 GB 50016 + GB 51251 叠加的消防生命安全原则；加载 `accessibility-design` 了解全球无障碍框架及 GB 50763；加载 `building-sustainability` 了解绿色建筑标识、LEED 对比和 GB/T 51350 NZEB；加载 `structural-systems` 了解抗震设计（中国烈度分级 + GB 50011）；加载 `building-envelope` 了解五类气候区的热带、寒冷和高原围护结构设计。*
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

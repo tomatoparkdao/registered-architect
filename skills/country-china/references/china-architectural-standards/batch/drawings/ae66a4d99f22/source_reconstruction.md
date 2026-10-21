@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`连墙点作法（锚固式）.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[142.29, 4.9], [196.21, 70.04]]`。
@@ -188,3 +191,6 @@
 178. `add_text`｜图层 `涓?鏂?`｜源 `E000031 ` → 重绘 `R000031`
 179. `add_text`｜图层 `涓?鏂?`｜源 `E000032 ` → 重绘 `R000032`
 180. `add_text`｜图层 `涓?鏂?`｜源 `E000164 ` → 重绘 `R000164`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

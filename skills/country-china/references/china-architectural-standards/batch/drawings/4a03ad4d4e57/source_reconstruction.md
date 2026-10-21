@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`45度三通.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-0.0, -1.84], [26.39, 8.36]]`。
@@ -39,3 +42,6 @@
 29. `draw_polyline`｜图层 `003_THICK`｜源 `E000003 ` → 重绘 `R000003`
 30. `draw_polyline`｜图层 `003_THICK`｜源 `E000004 ` → 重绘 `R000004`
 31. `draw_polyline`｜图层 `003_THICK`｜源 `E000005 ` → 重绘 `R000005`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

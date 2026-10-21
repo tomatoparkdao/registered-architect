@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`马赛克花池.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-552.32, -10883.43], [49124.94, 2318.72]]`。
@@ -267,3 +270,6 @@
 257. `add_dimension`｜图层 `PUB_DIM`｜源 `E000223 ` → 重绘 `R000223`
 258. `add_dimension`｜图层 `PUB_DIM`｜源 `E000233 ` → 重绘 `R000233`
 259. `add_dimension`｜图层 `PUB_DIM`｜源 `E000235 ` → 重绘 `R000235`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

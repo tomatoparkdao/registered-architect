@@ -395,7 +395,6 @@ agent_created: true
 ---
 
 *除非另有说明，所有引用均指《2010 ADA 无障碍设计标准》。对于联邦资助项目，还应核实符合 ABA 标准（《建筑障碍法》）。州和地方规范可能规定超出 ADA 的附加要求。*
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

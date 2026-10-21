@@ -1,5 +1,8 @@
 # DWG 最终未解析清单
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 本清单为两轮兼容重试后的稳定失败项；未再进行无效重试。
 
 | 图纸 ID | 状态 | 最终原因 |
@@ -14,3 +17,6 @@
 | CN-DWG-EB562B4FABD5 | parse_failed | RuntimeError: refusing oversized shard index: E:\SKILL\�����������skill\registered-architect\skills\country-china\references\china-architectural-standards\batch\drawings\eb562b4fabd5\cad_recipe.json |
 | CN-DWG-4402B21583AB | parse_failed | RuntimeError: refusing oversized shard index: E:\SKILL\�����������skill\registered-architect\skills\country-china\references\china-architectural-standards\batch\drawings\4402b21583ab\cad_recipe.json |
 | CN-DWG-9B6A05DF0395 | parse_failed | RuntimeError: refusing oversized shard index: E:\SKILL\�����������skill\registered-architect\skills\country-china\references\china-architectural-standards\batch\drawings\9b6a05df0395\cad_recipe.json |
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

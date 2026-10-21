@@ -569,7 +569,6 @@ agent_created: true
 | 2008 | Parametricism manifesto | Schumacher | Parametricism |
 | 2012 | The Case for Tall Wood Buildings | Green | Mass Timber |
 | 2014 | 14 Patterns of Biophilic Design | Terrapin Bright Green | Biophilic Design |
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

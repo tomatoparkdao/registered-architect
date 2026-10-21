@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`楼梯扶手b.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-5938.72, 80.0], [118.72, 3738.67]]`。
@@ -1007,3 +1010,6 @@
 997. `add_dimension`｜图层 `PUB_DIM`｜源 `E000938 ` → 重绘 `R000938`
 998. `add_dimension`｜图层 `PUB_DIM`｜源 `E000942 ` → 重绘 `R000942`
 999. `add_dimension`｜图层 `PUB_DIM`｜源 `E000960 ` → 重绘 `R000960`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

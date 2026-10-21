@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`天沟大样.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-3000.43, 4347.25], [-788.21, 6209.33]]`。
@@ -93,3 +96,6 @@
 83. `add_dimension`｜图层 `PUB_DIM`｜源 `E000055 ` → 重绘 `R000055`
 84. `add_dimension`｜图层 `PUB_DIM`｜源 `E000056 ` → 重绘 `R000056`
 85. `add_dimension`｜图层 `PUB_DIM`｜源 `E000057 ` → 重绘 `R000057`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

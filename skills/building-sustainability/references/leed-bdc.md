@@ -469,7 +469,6 @@ agent_created: true
 - WE 室外用水减少（2 分）
 - SS 雨水管理（3 分）——雨水花园和生物滞留沟同时满足两项要求
 - SS 保护或恢复栖息地（2 分）——乡土植物配置同时满足两项要求
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

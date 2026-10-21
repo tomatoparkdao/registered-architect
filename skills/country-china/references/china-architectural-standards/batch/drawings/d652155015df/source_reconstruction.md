@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`标准槽埋件图纸.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[-14278.57, -2047.74], [-11326.02, -323.35]]`。
@@ -2355,3 +2358,6 @@
 2345. `add_dimension`｜图层 `0`｜源 `E002322 ` → 重绘 `R002322`
 2346. `add_dimension`｜图层 `0`｜源 `E002323 ` → 重绘 `R002323`
 2347. `add_dimension`｜图层 `0`｜源 `E002324 ` → 重绘 `R002324`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

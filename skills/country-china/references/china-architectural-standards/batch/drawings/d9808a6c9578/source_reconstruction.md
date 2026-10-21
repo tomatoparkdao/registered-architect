@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`耐火砖.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[15349.9, -2317.24], [17269.9, -1597.24]]`。
@@ -29,3 +32,6 @@
 19. `draw_line`｜图层 `LAYER4`｜源 `E000015 ` → 重绘 `R000015`
 20. `draw_line`｜图层 `0`｜源 `E000016 ` → 重绘 `R000016`
 21. `draw_line`｜图层 `0`｜源 `E000017 ` → 重绘 `R000017`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

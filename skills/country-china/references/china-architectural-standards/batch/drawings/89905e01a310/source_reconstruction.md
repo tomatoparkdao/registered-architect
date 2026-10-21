@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`hk600剖面.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[61846.86, 11189.86], [62082.4, 12756.14]]`。
@@ -61,3 +64,6 @@
 51. `draw_polyline`｜图层 `PUB_TITLE`｜源 `E000048 ` → 重绘 `R000048`
 52. `draw_line`｜图层 `PUB_TITLE`｜源 `E000049 ` → 重绘 `R000049`
 53. `draw_arc`｜图层 `PUB_TITLE`｜源 `E000050 ` → 重绘 `R000050`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

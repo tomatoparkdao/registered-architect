@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`石膏板节点图8.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[50963.29, 16735.85], [54100.35, 18832.09]]`。
@@ -492,3 +495,6 @@
 482. `add_dimension`｜图层 `PUB_DIM`｜源 `E000236 ` → 重绘 `R000236`
 483. `add_dimension`｜图层 `PUB_DIM`｜源 `E000243 ` → 重绘 `R000243`
 484. `add_dimension`｜图层 `PUB_DIM`｜源 `E000366 ` → 重绘 `R000366`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

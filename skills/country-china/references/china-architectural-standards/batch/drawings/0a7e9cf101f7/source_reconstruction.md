@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`立柱安装节点.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -488,3 +491,6 @@
 478. `add_text`｜图层 `0`｜源 `E000470 ` → 重绘 `R000470`
 479. `add_text`｜图层 `0`｜源 `E000476 ` → 重绘 `R000476`
 480. `add_text`｜图层 `0`｜源 `E000477 ` → 重绘 `R000477`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

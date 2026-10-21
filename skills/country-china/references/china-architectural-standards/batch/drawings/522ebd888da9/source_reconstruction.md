@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P151楼梯详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[1299989.38, -130601.59], [1317976.75, -106634.63]]`。
@@ -1783,3 +1786,6 @@
 1773. `add_text`｜图层 `尺寸`｜源 `E001684 ` → 重绘 `R001684`
 1774. `add_text`｜图层 `PUB_DIM`｜源 `E001721 ` → 重绘 `R001721`
 1775. `add_text`｜图层 `PUB_DIM`｜源 `E001730 ` → 重绘 `R001730`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

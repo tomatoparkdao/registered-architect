@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P433变形缝（二）.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[29490.57, -6464.26], [54685.16, 24387.0]]`。
@@ -549,3 +552,6 @@
 539. `add_text`｜图层 `PUB_TEXT`｜源 `E000533 ` → 重绘 `R000533`
 540. `add_text`｜图层 `PUB_TEXT`｜源 `E000534 ` → 重绘 `R000534`
 541. `add_text`｜图层 `PUB_TEXT`｜源 `E000535 ` → 重绘 `R000535`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`DY-阳台详图A（无雨蓬）.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[10700.0, 2692.68], [22145.24, 9700.0]]`。
@@ -97,3 +100,6 @@
 87. `add_dimension`｜图层 `PUB_DIM`｜源 `E000038 ` → 重绘 `R000038`
 88. `add_dimension`｜图层 `PUB_DIM`｜源 `E000039 ` → 重绘 `R000039`
 89. `add_dimension`｜图层 `PUB_DIM`｜源 `E000040 ` → 重绘 `R000040`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

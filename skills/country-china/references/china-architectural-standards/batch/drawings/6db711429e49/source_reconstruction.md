@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`蹲器2.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-1736.0, 317.6], [1980.0, 2846.48]]`。
@@ -1690,3 +1693,6 @@
 1680. `add_dimension`｜图层 `PUB_DIM`｜源 `E000029 ` → 重绘 `R000029`
 1681. `add_dimension`｜图层 `PUB_DIM`｜源 `E000148 ` → 重绘 `R000148`
 1682. `add_dimension`｜图层 `PUB_DIM`｜源 `E001025 ` → 重绘 `R001025`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

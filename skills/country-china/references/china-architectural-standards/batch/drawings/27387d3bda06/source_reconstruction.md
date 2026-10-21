@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`阳台砼栏板大样02.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[6596.9, 19296.92], [7964.89, 21277.63]]`。
@@ -84,3 +87,6 @@
 74. `add_dimension`｜图层 `LINE`｜源 `E000022 ` → 重绘 `R000022`
 75. `add_dimension`｜图层 `LINE`｜源 `E000035 ` → 重绘 `R000035`
 76. `add_dimension`｜图层 `LINE`｜源 `E000060 ` → 重绘 `R000060`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

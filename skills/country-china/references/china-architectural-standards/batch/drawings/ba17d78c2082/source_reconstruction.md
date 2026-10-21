@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`雨棚放大.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[170127.45, -25762.59], [203151.94, 25837.1]]`。
@@ -1314,3 +1317,6 @@
 1304. `add_dimension`｜图层 `PUB_DIM`｜源 `E001213 ` → 重绘 `R001213`
 1305. `add_dimension`｜图层 `PUB_DIM`｜源 `E001214 ` → 重绘 `R001214`
 1306. `add_dimension`｜图层 `PUB_DIM`｜源 `E001219 ` → 重绘 `R001219`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

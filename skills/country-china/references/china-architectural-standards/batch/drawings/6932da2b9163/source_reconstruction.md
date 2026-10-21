@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`钢桁架安装支乘图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 296.97]]`。
@@ -316,3 +319,6 @@
 306. `add_text`｜图层 `0`｜源 `E000174 ` → 重绘 `R000174`
 307. `add_text`｜图层 `0`｜源 `E000175 ` → 重绘 `R000175`
 308. `add_text`｜图层 `0`｜源 `E000176 ` → 重绘 `R000176`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

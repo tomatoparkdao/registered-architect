@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P346门窗洞口详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[17014.59, -5248.94], [53469.38, 20722.66]]`。
@@ -776,3 +779,6 @@
 766. `add_text`｜图层 `PUB_TEXT`｜源 `E000761 ` → 重绘 `R000761`
 767. `add_text`｜图层 `PUB_TEXT`｜源 `E000762 ` → 重绘 `R000762`
 768. `add_text`｜图层 `PUB_TEXT`｜源 `E000763 ` → 重绘 `R000763`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

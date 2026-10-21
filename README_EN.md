@@ -2,13 +2,13 @@
 
 <p align="center">
   <b>A code-routing, design-review and documentation-audit Skill for registered architects — jurisdiction first</b><br>
-  29 modules: 18 professional design modules + 10 jurisdictional code packs + 1 calculator module (7 scripts) ｜ 883 reference documents ｜ ~1.13M lines of source material<br>
+  29 modules: 18 professional design modules + 10 jurisdictional code packs + 1 calculator module (7 scripts) ｜ 839 Chinese code entries + 4335 drawings across 83 atlases ｜ ~4.2M lines<br>
   Project intake → code routing → programme &amp; massing → technical coordination → performance verification → construction documents → compliance review<br>
   Codes are routed and cross-checked, never turned into approvals ｜ Zero hard dependencies, works offline ｜ Structure / fire / accessibility require a locally licensed sign-off
 </p>
 
 <p align="center">
-  <a href="https://github.com/tomatoparkdao/registered-architect"><img src="https://img.shields.io/badge/version-1.1.0-1f6feb?style=flat-square" alt="version 1.1.0"></a>
+  <a href="https://github.com/tomatoparkdao/registered-architect"><img src="https://img.shields.io/badge/version-1.2.0-1f6feb?style=flat-square" alt="version 1.2.0"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2ea043?style=flat-square" alt="license MIT"></a>
   <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/platform-OmniAiLab-8957e5?style=flat-square" alt="platform OmniAiLab"></a>
   <a href="https://discord.gg/vdgTEpXMh3"><img src="https://img.shields.io/badge/community-Discord-5865f2?style=flat-square" alt="community Discord"></a>
@@ -27,10 +27,10 @@ It does not draw the scheme, and it does not sign for you. **The first thing it 
 
 | Item | Value | Notes |
 |---|---|---|
-| Module system | 29 modules / 883 reference documents | 18 professional design capabilities + 10 jurisdictional code packs + `architect-calculator` (7 scripts inside); the China pack alone holds 848 documents, 96% of all references |
+| Module system | 29 modules / 83 atlases / 4335 drawings | 18 professional design capabilities + 10 jurisdictional code packs + `architect-calculator` (7 scripts); the China pack holds 839 code documents (425 entries + 414 text fragments), 198 standard numbers and 314 searchable documents |
 | Skill invocation name (unique ID) | `registered-architect` | All-lowercase with hyphens; tools that support skills invoke it directly, and tools that do not still trigger it from a natural-language description |
 | Display name | OmniAiLab Global Registered Architect | The name shown on the repository page and in the docs — not the invocation name; it routes and checks codes, it does not produce schemes |
-| Version | v1.1.0 | Kept identical across `SKILL.md`, `.claude-plugin/plugin.json` and all three READMEs |
+| Version | v1.2.0 | Kept identical across `SKILL.md`, `.claude-plugin/plugin.json` and all three READMEs; 1.2.0 adds the drawing layer and two-way code-to-drawing routing |
 | Publisher / Developer | OmniAiLab / Mochiball | — |
 | License | MIT (see [LICENSE](LICENSE)) | Use and redistribution are governed by that file; standard text is quoted, never resold |
 | Accompanying documents | [README.md](README.md) / [README_EN.md](README_EN.md) / [SKILL.md](SKILL.md) | Invocation, module index, six-stage workflow, terminology checks, pitfalls, FAQ and deliverable list |
@@ -77,10 +77,11 @@ Hand it the project conditions — even just "an 18-storey hotel in Dubai, desig
 | **① Jurisdiction routing first** | `geographic-foundations` reads country, city, code number, currency, climate and material systems to identify the jurisdiction, then routes to the matching pack. If it cannot, it falls back to IBC / Eurocodes / ASCE / ISO references and **asks you to confirm** — it never assumes |
 | **② Ten packs at clause level** | China, USA, UK, Germany, Japan, Singapore, Australia, India, UAE, Saudi Arabia: regulatory model, authorities, code tiers, edition years, local amendments and review paths, item by item; across jurisdictions it compares, never substitutes |
 | **③ Eighteen professional modules** | Design theory, concept, programming, typology, spatial planning, envelope, structure, MEP, daylight, acoustics, materials, codes, fire, accessibility, sustainability, documentation — each with method, criteria and red lines |
-| **④ Three layers of progressive loading** | Name resident, module body on demand, references last. 883 documents are never injected at once — the only way to navigate 1.13M lines without drowning the context |
+| **④ Four layers of progressive loading** | Name resident, module body on demand, code references next, drawings and CAD recipes last. 13,917 Markdown files and 4335 drawings are never injected at once — the only way to navigate 4.2M lines without drowning the context |
 | **⑤ Seven recalculable calculators** | Area density, U-value, daylight factor, egress, structural load, energy, cost: standard library only, `--json` for records; **early-stage only — submission values must be recomputed by a licensed professional** |
 | **⑥ Every judgment has a source** | Each conclusion carries code number + edition + verification date; rules of thumb are labelled as guidance; four tiers of authority (mandatory / recommended / guidance / authority interpretation) are kept distinct |
 | **⑦ It does not pretend** | No recommendation dressed as an approval, no scheme stage passed off as construction documents, no calculator output as a submission value, no foreign limit as the local answer. Missing input is stated as missing, with the path to close it |
+| **⑧ Codes cross-linked to drawings** | 198 standard numbers and 4335 atlas drawings are wired both ways: from a clause you get the atlas and drawing number, from a detail you get the clause. `ATLAS_ROUTING.md` holds the topic tables and reverse index, `CODE_RELATIONS.md` the citation graph. **Drawings are how-to references, never compliance evidence** |
 
 ### Capability list (29, by layer)
 
@@ -164,7 +165,7 @@ When copying into an existing project, **keep the entire `skills/` tree intact**
 
 | Route | How | Best for |
 |---|---|---|
-| **Use the bundled material** | Read `skills/*/references/` and `skills/country-china/references/standards/` directly | Most projects; the Chinese fragments are full-text searchable |
+| **Use the bundled material** | Read `skills/*/references/`, `skills/country-china/references/standards/` (clauses) and `china-architectural-standards/batch/drawings/` (drawings) directly | Most projects; Chinese fragments are full-text searchable and details are routable by topic |
 | **Bring your own project files** | Drop the brief, drawings and local approvals into the project folder, then ask | Projects with existing design or local approvals |
 | **Method only** | No files — just ask "what should be checked at this stage, against which edition" | Early planning, design review |
 
@@ -288,7 +289,12 @@ registered-architect/
     ├── architect-calculator/         # Seven scripts plus calculation references
     └── country-{china,usa,uk,germany,japan,singapore,australia,india,uae,saudi-arabia}/
         ├── SKILL.md                  # Jurisdiction pack body
-        └── references/standards/     # China: 426 code and atlas entries + 414 text fragments
+        └── references/
+            ├── standards/            # China: 425 entries + 414 text fragments
+            ├── ATLAS_ROUTING.md      # topic ↔ 83 atlases ↔ 198 standard numbers
+            ├── CODE_RELATIONS.md     # citation graph across the code library
+            └── china-architectural-standards/
+                └── batch/drawings/   # 4335 drawings: geometry / layers / text / CAD recipe
 ```
 
 ## Deliverables
@@ -308,7 +314,9 @@ registered-architect/
 
 | Question | Answer |
 |---|---|
-| Is it China-only? | No. Ten jurisdiction packs, China being one of them and the deepest (848 documents). With no clear jurisdiction it falls back to international references and asks you to confirm. |
+| Is it China-only? | No. Ten jurisdiction packs, China being one of them and the deepest (839 code documents plus 4335 drawings). With no clear jurisdiction it falls back to international references and asks you to confirm. |
+| Can I cite an atlas detail as a code requirement? | No. An atlas shows how something is built; a code states how it must be built. Details are for checking layer build-ups and node expression, while compliance conclusions must land on a standard number and clause. Materials and thicknesses not marked in the source stay unconfirmed. |
+| What if an atlas topic has no matching clause? | Both routing tables say so explicitly: a topic with no code entries in `ATLAS_ROUTING.md` means local material does not cover it — add material or follow the authority, never substitute a drawing for a clause. |
 | Can calculator output go straight into a submission? | No. Calculators support early design and cross-checking; submission values must be recomputed and signed by a licensed professional. |
 | What if the city has no dedicated code? | It states the gap, uses the next tier up as a provisional reference, and lists the questions to put to the AHJ or local planning authority. |
 | Can it compare codes across countries? | Yes, provided the comparison names the metric, the edition, the scope, and the parts that cannot be equated. |
@@ -324,7 +332,7 @@ Nothing here is required. This table says what it can work alongside, not what y
 | Drawing production | AutoCAD / Revit / ArchiCAD / Rhino | Integration only; this Skill produces judgments and checklists, not DWG files |
 | Models and coordination | IFC / any BIM coordination platform | Key dimensions come from the model, but compliance conclusions still need review |
 | Code texts | Authority websites, official standards portals | Bundled fragments are for retrieval; verify the official current edition before relying on it |
-| Full-text clause search | `grep`, VS Code, any text search | 426 Chinese code entries and 414 text fragments are directly searchable |
+| Full-text clause search | `grep`, VS Code, any text search | 425 code entries and 414 text fragments are searchable, as are the titles and text annotations of all 4335 drawings |
 | Numerical checks | The seven built-in calculators (Python 3.9+) | Zero third-party dependencies; every result states its basis and assumptions |
 | Discussion and questions | [Discord community](https://discord.gg/vdgTEpXMh3) | Method debates, interpretation conflicts, issue reports |
 
@@ -357,7 +365,9 @@ No separate PDF manual is published; this README is the operating guide, and the
 |---|---|---|
 | Invocation and module duties | [SKILL.md](SKILL.md) | Working principles, module guide, deliverables and limits |
 | Clauses and practice | `skills/<module>/SKILL.md` + `references/` | Method, criteria, red lines and topical references per module |
-| Chinese code entries | `skills/country-china/references/standards/` | 426 code and atlas entries, 414 text fragments, topic-routing table |
+| Chinese code entries | `skills/country-china/references/standards/` | 425 code and atlas entries, 414 text fragments, topic-routing table |
+| Chinese atlas drawings | `skills/country-china/references/china-architectural-standards/` | 4335 distilled drawings, 83 atlases, coverage and failure lists |
+| Code ↔ drawing lookup | [ATLAS_ROUTING.md](skills/country-china/references/ATLAS_ROUTING.md) / [CODE_RELATIONS.md](skills/country-china/references/CODE_RELATIONS.md) | Topic tables, reverse index and citation graph |
 | Calculator arguments and basis | `skills/architect-calculator/` | Parameter notes and calculation references for the seven scripts |
 | Attribution and licence | [LICENSE](LICENSE) | Full MIT text and attribution convention |
 
@@ -381,7 +391,9 @@ Trying to report a problem, argue an interpretation or suggest a feature? This o
 |---|---|---|
 | Entry point and principles | [SKILL.md](SKILL.md) | Four working principles, module guide, deliverables and limits |
 | Ten jurisdictional packs | `skills/country-*/SKILL.md` | Regulatory model, authorities, code tiers, review paths |
-| Chinese codes and atlases | `skills/country-china/references/standards/` | 426 code entries, 414 text fragments, inventory and topic routing |
+| Chinese codes | `skills/country-china/references/standards/` | 425 code and atlas entries, 414 text fragments, inventory and topic routing |
+| Chinese atlas drawings | `skills/country-china/references/china-architectural-standards/` | 4335 distilled drawings, one directory each; 83 atlases; coverage and failure lists |
+| Code-to-drawing lookup | [ATLAS_ROUTING.md](skills/country-china/references/ATLAS_ROUTING.md) / [CODE_RELATIONS.md](skills/country-china/references/CODE_RELATIONS.md) | Two-way routing across 14 topics, reverse index for 198 numbers, 587 citation edges |
 | The eighteen professional modules | `skills/<module>/SKILL.md` | Method, criteria, red lines and references for each |
 | Calculator usage | `skills/architect-calculator/` | Parameters, units and applicability for the seven scripts |
 | Plugin metadata | [.claude-plugin/plugin.json](.claude-plugin/plugin.json) | Callable name, version, keywords and author |

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`18_在原有洞旁扩大的洞-俯.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[13294.49, 18500.8], [13310.76, 18505.05]]`。
@@ -35,3 +38,6 @@
 25. `draw_line`｜图层 `PUB_DIM`｜源 `E000021 ` → 重绘 `R000021`
 26. `draw_line`｜图层 `PUB_DIM`｜源 `E000022 ` → 重绘 `R000022`
 27. `draw_line`｜图层 `PUB_DIM`｜源 `E000023 ` → 重绘 `R000023`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

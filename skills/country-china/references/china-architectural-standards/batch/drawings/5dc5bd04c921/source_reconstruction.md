@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`车道起始点排水沟.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-56997.62, 23006.86], [12047.32, 39733.54]]`。
@@ -329,3 +332,6 @@
 319. `add_dimension`｜图层 `PUB_DIM`｜源 `E000282 ` → 重绘 `R000282`
 320. `add_dimension`｜图层 `PUB_DIM`｜源 `E000284 ` → 重绘 `R000284`
 321. `add_dimension`｜图层 `PUB_DIM`｜源 `E000285 ` → 重绘 `R000285`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

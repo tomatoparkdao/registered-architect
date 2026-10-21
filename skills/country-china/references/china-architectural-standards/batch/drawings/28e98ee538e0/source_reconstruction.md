@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`p300石材干挂墙柱横剖面图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[5560.6, 1823.81], [7536.44, 4372.28]]`。
@@ -379,3 +382,6 @@
 369. `add_mtext`｜图层 `PUB_DIM`｜源 `E000332 ` → 重绘 `R000332`
 370. `add_mtext`｜图层 `PUB_DIM`｜源 `E000337 ` → 重绘 `R000337`
 371. `add_text`｜图层 `PUB_TEXT`｜源 `E000341 ` → 重绘 `R000341`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

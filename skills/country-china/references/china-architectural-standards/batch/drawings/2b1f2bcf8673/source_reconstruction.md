@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`铝塑板节点图7.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[54417.12, 11207.99], [56870.78, 12375.8]]`。
@@ -252,3 +255,6 @@
 242. `add_dimension`｜图层 `7`｜源 `E000002 ` → 重绘 `R000002`
 243. `add_dimension`｜图层 `7`｜源 `E000003 ` → 重绘 `R000003`
 244. `add_dimension`｜图层 `7`｜源 `E000023 ` → 重绘 `R000023`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`FH02G001.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-17826.56, -11307.86], [7598992.0, 9361.93]]`。
@@ -976,3 +979,6 @@
 966. `add_dimension`｜图层 `DIM`｜源 `E000910 ` → 重绘 `R000910`
 967. `add_dimension`｜图层 `DIM`｜源 `E000911 ` → 重绘 `R000911`
 968. `add_dimension`｜图层 `DIM`｜源 `E000912 ` → 重绘 `R000912`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

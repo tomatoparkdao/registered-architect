@@ -589,7 +589,6 @@ Material passports enable buildings to function as material banks — repositori
 - Constructed in 70 days (prefabrication advantage of mass timber)
 - 2,432 tCO2e sequestered in timber structure
 - Designed by Acton Ostry Architects with Architekten Hermann Kaufmann
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

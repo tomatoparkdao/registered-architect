@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`Cwm-mc.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-145923.91, -3742.64], [-46603.48, 64908.77]]`。
@@ -1613,3 +1616,6 @@
 1603. `add_dimension`｜图层 `CCX`｜源 `E001334 ` → 重绘 `R001334`
 1604. `add_dimension`｜图层 `31`｜源 `E001347 ` → 重绘 `R001347`
 1605. `add_dimension`｜图层 `CCX`｜源 `E001471 ` → 重绘 `R001471`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

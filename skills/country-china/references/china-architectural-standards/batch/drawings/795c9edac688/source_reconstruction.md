@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`长圆形螺栓孔1.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-176159.06, -312544.59], [-174260.52, -311495.56]]`。
@@ -23,3 +26,6 @@
 13. `draw_line`｜图层 `TEXT`｜源 `E000008 ` → 重绘 `R000008`
 14. `draw_line`｜图层 `TEXT`｜源 `E000009 ` → 重绘 `R000009`
 15. `add_dimension`｜图层 `TEXT`｜源 `E000010 ` → 重绘 `R000010`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

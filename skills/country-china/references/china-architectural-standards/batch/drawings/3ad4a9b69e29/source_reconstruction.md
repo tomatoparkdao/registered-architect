@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`门套节点图4.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[211646.75, 4303.16], [215088.02, 6922.42]]`。
@@ -173,3 +176,6 @@
 163. `add_mtext`｜图层 `8`｜源 `E000153 ` → 重绘 `R000153`
 164. `add_dimension`｜图层 `7`｜源 `E000117 ` → 重绘 `R000117`
 165. `add_dimension`｜图层 `7`｜源 `E000152 ` → 重绘 `R000152`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

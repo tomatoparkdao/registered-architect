@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P29内墙连接.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[-923744.81, 418.94], [1664.68, 885106.5]]`。
@@ -572,3 +575,6 @@
 562. `add_text`｜图层 `_TCH_MASK`｜源 `E000479 ` → 重绘 `R000479`
 563. `add_text`｜图层 `_TCH_MASK`｜源 `E000483 ` → 重绘 `R000483`
 564. `add_text`｜图层 `_TCH_MASK`｜源 `E000491 ` → 重绘 `R000491`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

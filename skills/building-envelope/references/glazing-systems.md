@@ -472,7 +472,6 @@ agent_created: true
 - Typical bolt: M16 or M20 stainless steel 316
 - Hole diameter: 26 mm (M16) or 32 mm (M20) with 42 mm countersink on exterior face
 - Edge distance: min 2.5x glass thickness from edge; min 100 mm from corner
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`空气过滤器-高效.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-22058.4, -12389.6], [-22052.16, -12370.86]]`。
@@ -22,3 +25,6 @@
 12. `draw_line`｜图层 `0`｜源 `E000010 ` → 重绘 `R000010`
 13. `draw_line`｜图层 `0`｜源 `E000011 ` → 重绘 `R000011`
 14. `draw_line`｜图层 `0`｜源 `E000012 ` → 重绘 `R000012`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

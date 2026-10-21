@@ -672,7 +672,6 @@ Score each option 1-5 per criterion, multiply by weight, sum for total. Select t
 - [ ] 环境策略纲要（被动策略、朝向、遮阳）
 - [ ] 初步面积核算（实际值与任务书对比，±5%）
 - [ ] 数量级造价估算（±15–25%）
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

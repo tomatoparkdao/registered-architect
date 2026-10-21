@@ -474,7 +474,6 @@ agent_created: true
 - Large south-facing windows benefit from solar gain in heating season
 - Triple glazing (Uw ≤ 0.80 W/m²K) required; high VLT (≥ 0.50) recommended
 - Shading essential for summer overheating prevention (≤ 25°C for ≤ 10% of hours)
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

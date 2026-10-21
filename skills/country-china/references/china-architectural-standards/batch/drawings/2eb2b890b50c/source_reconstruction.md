@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`DY-管道穿墙防水大样.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-2102.2, -8902.81], [8062.34, 1453.04]]`。
@@ -371,3 +374,6 @@
 361. `add_text`｜图层 `PUB_TEXT`｜源 `E000354 ` → 重绘 `R000354`
 362. `add_text`｜图层 `PUB_TEXT`｜源 `E000357 ` → 重绘 `R000357`
 363. `add_text`｜图层 `PUB_TEXT`｜源 `E000360 ` → 重绘 `R000360`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

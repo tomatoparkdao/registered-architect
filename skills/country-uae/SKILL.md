@@ -470,7 +470,6 @@ Dubai uses "Built-Up Area" (BUA) as the carpet equivalent. Critical for FAR/cove
 ---
 
 *交叉引用：在迪拜（DBC 源自 IBC）或阿布扎比（ADIBC 源自 IBC 2009）工作时加载 `building-codes` 了解 IBC 基础；加载 `fire-life-safety` 了解叠加 UAE FLS 的一般疏散原则；加载 `building-envelope` 处理炎热干燥气候节点；加载 `building-sustainability` 比较 Sa'fa、Estidama 与 LEED；加载 `accessibility-design` 了解全球无障碍框架，再应用 Dubai UDC 2017 的专项要求。*
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

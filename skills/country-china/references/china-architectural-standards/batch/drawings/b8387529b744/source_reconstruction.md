@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`HM门框架安装在2250mm墙筋处.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-2.39, 0.0], [399.98, 280.9]]`。
@@ -1418,3 +1421,6 @@
 1408. `add_dimension`｜图层 `DIMS-PRIM`｜源 `E001125 ` → 重绘 `R001125`
 1409. `add_dimension`｜图层 `DIMS-PRIM`｜源 `E001134 ` → 重绘 `R001134`
 1410. `add_dimension`｜图层 `DIMS-PRIM`｜源 `E001135 ` → 重绘 `R001135`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

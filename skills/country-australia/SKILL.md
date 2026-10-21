@@ -561,7 +561,6 @@ Increasingly common in heritage buildings where DTS impossible; AAAA accredited 
 ---
 
 *交叉引用：加载 `building-codes` 了解一般规范结构（澳大利亚 NCC 基于性能，与 IBC 不同）；加载 `fire-life-safety` 了解 NCC C/D/E 节叠加的一般原则；加载 `accessibility-design` 了解全球框架及 AS 1428.1；加载 `building-sustainability` 对比 Green Star、NatHERS 和 NABERS；加载 `structural-systems` 了解 AS 结构标准（混凝土、钢、木材、砌体）；加载 `building-envelope` 了解 8 个气候区的围护结构细部及丛林火灾／气旋叠加规定。*
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

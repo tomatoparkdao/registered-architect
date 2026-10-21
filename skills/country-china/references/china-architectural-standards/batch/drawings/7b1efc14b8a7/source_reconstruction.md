@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P474放水节点.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[508.85, -723.17], [2262.06, 885.01]]`。
@@ -662,3 +665,6 @@
 652. `add_text`｜图层 `0`｜源 `E000654 ` → 重绘 `R000654`
 653. `add_text`｜图层 `0`｜源 `E000655 ` → 重绘 `R000655`
 654. `add_text`｜图层 `0`｜源 `E000658 ` → 重绘 `R000658`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

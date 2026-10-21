@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`吊挂节点图3.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, -188.95], [724029.19, 309406.72]]`。
@@ -1277,3 +1280,6 @@
 1267. `add_dimension`｜图层 `0`｜源 `E000953 ` → 重绘 `R000953`
 1268. `add_dimension`｜图层 `0`｜源 `E000954 ` → 重绘 `R000954`
 1269. `add_dimension`｜图层 `0`｜源 `E000955 ` → 重绘 `R000955`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

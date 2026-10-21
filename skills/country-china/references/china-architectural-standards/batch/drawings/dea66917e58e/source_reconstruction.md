@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`木饰面节点图11.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[119167.18, -36947.92], [120288.34, -34915.09]]`。
@@ -218,3 +221,6 @@
 208. `add_dimension`｜图层 `细`｜源 `E000057 ` → 重绘 `R000057`
 209. `add_dimension`｜图层 `细`｜源 `E000193 ` → 重绘 `R000193`
 210. `add_dimension`｜图层 `细`｜源 `E000194 ` → 重绘 `R000194`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

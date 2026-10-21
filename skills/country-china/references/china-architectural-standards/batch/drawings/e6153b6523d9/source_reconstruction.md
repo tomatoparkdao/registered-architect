@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`裙房屋顶.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-42380.55, -10711.16], [-380.55, 32828.95]]`。
@@ -1404,3 +1407,6 @@
 1394. `add_dimension`｜图层 `PUB_DIM`｜源 `E001225 ` → 重绘 `R001225`
 1395. `add_dimension`｜图层 `PUB_DIM`｜源 `E001232 ` → 重绘 `R001232`
 1396. `add_dimension`｜图层 `PUB_DIM`｜源 `E001233 ` → 重绘 `R001233`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

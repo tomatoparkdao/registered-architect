@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P107坡屋面大样图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[9484.93, 8035.25], [12010.22, 10644.57]]`。
@@ -314,3 +317,6 @@
 304. `add_text`｜图层 `0`｜源 `E000249 ` → 重绘 `R000249`
 305. `add_text`｜图层 `0`｜源 `E000255 ` → 重绘 `R000255`
 306. `add_text`｜图层 `0`｜源 `E000284 ` → 重绘 `R000284`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`木踢脚节点图11.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[-141793.03, -192627.73], [191453.56, 250032.28]]`。
@@ -97,3 +100,6 @@
 87. `add_dimension`｜图层 `7标住`｜源 `E000041 ` → 重绘 `R000041`
 88. `add_dimension`｜图层 `7标住`｜源 `E000042 ` → 重绘 `R000042`
 89. `add_dimension`｜图层 `7标住`｜源 `E000043 ` → 重绘 `R000043`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

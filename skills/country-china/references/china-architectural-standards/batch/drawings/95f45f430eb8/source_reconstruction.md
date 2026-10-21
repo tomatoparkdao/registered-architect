@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`防护通道立面图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -178,3 +181,6 @@
 168. `add_text`｜图层 `0`｜源 `E000166 ` → 重绘 `R000166`
 169. `add_text`｜图层 `0`｜源 `E000167 ` → 重绘 `R000167`
 170. `add_text`｜图层 `0`｜源 `E000168 ` → 重绘 `R000168`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

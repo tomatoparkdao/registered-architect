@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`螺栓连接1.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-176064.34, -367097.5], [-173532.64, -365697.53]]`。
@@ -52,3 +55,6 @@
 42. `add_text`｜图层 `DIM`｜源 `E000021 ` → 重绘 `R000021`
 43. `add_text`｜图层 `DIM`｜源 `E000022 ` → 重绘 `R000022`
 44. `add_text`｜图层 `DIM`｜源 `E000023 ` → 重绘 `R000023`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

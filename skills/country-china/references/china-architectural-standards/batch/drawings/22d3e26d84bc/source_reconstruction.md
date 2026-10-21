@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`止水变行缝-1.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[166764.56, -145106.62], [168027.7, -144236.95]]`。
@@ -169,3 +172,6 @@
 159. `add_dimension`｜图层 `0`｜源 `E000119 ` → 重绘 `R000119`
 160. `add_dimension`｜图层 `0`｜源 `E000120 ` → 重绘 `R000120`
 161. `add_dimension`｜图层 `DIM`｜源 `E000121 ` → 重绘 `R000121`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

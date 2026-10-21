@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`树穴节点CAD图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-775459.31, 0.0], [889594.88, 324723.66]]`。
@@ -2776,3 +2779,6 @@
 2766. `add_dimension`｜图层 `PUB_DIM`｜源 `E002721 ` → 重绘 `R002721`
 2767. `add_dimension`｜图层 `PUB_DIM`｜源 `E002722 ` → 重绘 `R002722`
 2768. `add_dimension`｜图层 `PUB_DIM`｜源 `E002723 ` → 重绘 `R002723`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

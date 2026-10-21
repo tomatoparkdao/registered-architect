@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`坡口平焊的钢筋接头1.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-100676.3, -334182.0], [-22323.27, 6381.71]]`。
@@ -50,3 +53,6 @@
 40. `insert_block`｜图层 `DIM`｜源 `E000036 ` → 重绘 `R000036`
 41. `add_text`｜图层 `TEXT`｜源 `E000022 ` → 重绘 `R000022`
 42. `add_text`｜图层 `TEXT`｜源 `E000028 ` → 重绘 `R000028`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

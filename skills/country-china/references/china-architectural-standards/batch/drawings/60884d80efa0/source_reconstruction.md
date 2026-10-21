@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P70大样图（一）.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[0.33, 314.14], [27015.87, 15242.54]]`。
@@ -2884,3 +2887,6 @@
 2874. `add_mtext`｜图层 `AXIS`｜源 `E002793 ` → 重绘 `R002793`
 2875. `add_text`｜图层 `0`｜源 `E002802 ` → 重绘 `R002802`
 2876. `add_mtext`｜图层 `AXIS`｜源 `E002806 ` → 重绘 `R002806`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

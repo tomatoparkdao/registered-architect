@@ -415,7 +415,6 @@ Parti 概念在建筑史中经历了显著演变：
 **后理性主义复兴（1970–1990 年代）：**Peter Eisenman、John Hejduk 和 New York Five 将 Parti 复兴为形式生成工具；此时 Parti 可以是图解、概念或程序性的，而不只是空间性的。Eisenman 的“House”系列（I–X）以几何变换（旋转、缩放、叠加）作为 Parti。Rem Koolhaas 的“功能剖面”（《Delirious New York》，1978）提出将无关功能垂直叠置为新的 Parti 类型。
 
 **计算时代（2000 年代至今）：**参数化设计工具挑战静态 Parti。Parti 不再是固定图解，而是一组生成多种配置的规则和关系（参数）。设计师的角色从选择 Parti 转变为设计生成 Parti 的参数系统。Greg Lynn 的“animate form”（1999）主张 Parti 应动态回应场地、功能和结构等作用力，而不是静态几何图形。尽管如此，最成功的参数化建筑仍具有可读 Parti——参数生成形态，建筑师则筛选最能体现组织理念的结果。
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`成品保护节点图3.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.04, 297.0]]`。
@@ -5757,3 +5760,6 @@
 5747. `add_text`｜图层 `0`｜源 `E005727 ` → 重绘 `R005727`
 5748. `add_text`｜图层 `0`｜源 `E005728 ` → 重绘 `R005728`
 5749. `add_text`｜图层 `0`｜源 `E005729 ` → 重绘 `R005729`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

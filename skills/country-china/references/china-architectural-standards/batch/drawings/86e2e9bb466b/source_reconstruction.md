@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`电梯井、集水坑防水处理.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [259.82, 183.71]]`。
@@ -1735,3 +1738,6 @@
 1725. `add_text`｜图层 `0`｜源 `E001705 ` → 重绘 `R001705`
 1726. `add_text`｜图层 `0`｜源 `E001711 ` → 重绘 `R001711`
 1727. `add_text`｜图层 `0`｜源 `E001717 ` → 重绘 `R001717`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

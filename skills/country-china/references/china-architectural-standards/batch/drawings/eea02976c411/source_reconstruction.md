@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`工字铰结柱脚.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[1863.9, 7816.45], [6485.23, 12441.91]]`。
@@ -582,3 +585,6 @@
 572. `add_text`｜图层 `Z`｜源 `E000552 ` → 重绘 `R000552`
 573. `add_text`｜图层 `Z`｜源 `E000553 ` → 重绘 `R000553`
 574. `add_text`｜图层 `Z`｜源 `E000561 ` → 重绘 `R000561`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

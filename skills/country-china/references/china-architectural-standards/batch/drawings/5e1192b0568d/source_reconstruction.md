@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`平交道-无防护.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[8.27, 11.33], [38.27, 21.98]]`。
@@ -16,3 +19,6 @@
 6. `draw_polyline`｜图层 `0`｜源 `E000004 ` → 重绘 `R000004`
 7. `draw_polyline`｜图层 `0`｜源 `E000005 ` → 重绘 `R000005`
 8. `hatch`｜图层 `0`｜源 `E000006 ` → 重绘 `R000006`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

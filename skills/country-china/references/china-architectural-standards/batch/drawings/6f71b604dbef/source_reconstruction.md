@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`无烟灶大样02.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[11.57, -1446.98], [4324.64, 2481.73]]`。
@@ -256,3 +259,6 @@
 246. `add_dimension`｜图层 `PUB_DIM`｜源 `E000114 ` → 重绘 `R000114`
 247. `add_dimension`｜图层 `PUB_DIM`｜源 `E000115 ` → 重绘 `R000115`
 248. `add_dimension`｜图层 `PUB_DIM`｜源 `E000129 ` → 重绘 `R000129`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

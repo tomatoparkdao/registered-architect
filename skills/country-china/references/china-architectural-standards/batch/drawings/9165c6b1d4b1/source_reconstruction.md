@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`玻璃采光顶与彩钢复合板节点详图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -362,3 +365,6 @@
 352. `add_text`｜图层 `0`｜源 `E000347 ` → 重绘 `R000347`
 353. `add_text`｜图层 `0`｜源 `E000351 ` → 重绘 `R000351`
 354. `add_text`｜图层 `0`｜源 `E000352 ` → 重绘 `R000352`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

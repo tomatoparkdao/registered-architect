@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`用楔形盖板加强框架梁.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[824.17, 4747.34], [10205.72, 8413.26]]`。
@@ -781,3 +784,6 @@
 771. `add_text`｜图层 `Z`｜源 `E000754 ` → 重绘 `R000754`
 772. `add_text`｜图层 `Z`｜源 `E000757 ` → 重绘 `R000757`
 773. `add_text`｜图层 `Z`｜源 `E000758 ` → 重绘 `R000758`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

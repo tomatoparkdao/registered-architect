@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`方格网交叉点标高.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-1226.25, -464.5], [1273.75, 492.9]]`。
@@ -16,3 +19,6 @@
 6. `add_text`｜图层 `0`｜源 `E000001 ` → 重绘 `R000001`
 7. `add_text`｜图层 `0`｜源 `E000002 ` → 重绘 `R000002`
 8. `add_text`｜图层 `0`｜源 `E000006 ` → 重绘 `R000006`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

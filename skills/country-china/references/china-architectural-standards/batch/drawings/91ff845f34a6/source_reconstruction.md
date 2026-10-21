@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`锚杆结构图1.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [297.0, 210.0]]`。
@@ -2412,3 +2415,6 @@
 2402. `add_text`｜图层 `0`｜源 `E002393 ` → 重绘 `R002393`
 2403. `add_text`｜图层 `0`｜源 `E002396 ` → 重绘 `R002396`
 2404. `add_text`｜图层 `0`｜源 `E002399 ` → 重绘 `R002399`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

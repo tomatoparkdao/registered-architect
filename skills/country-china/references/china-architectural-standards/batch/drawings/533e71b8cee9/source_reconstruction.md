@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`客货梯井道大样图1.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-9708.46, -33453.55], [96927.66, 8596.45]]`。
@@ -2654,3 +2657,6 @@
 2644. `add_mtext`｜图层 `DIM`｜源 `E002595 ` → 重绘 `R002595`
 2645. `add_mtext`｜图层 `DIM`｜源 `E002615 ` → 重绘 `R002615`
 2646. `add_mtext`｜图层 `DIM`｜源 `E002621 ` → 重绘 `R002621`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

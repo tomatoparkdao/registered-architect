@@ -14,7 +14,14 @@ agent_created: true
 
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
 
-覆盖用户资料库中的 PDF、Word 及补充资料：原始 PDF 资料共 253 个；新增“建筑面积计算”资料已完成 5/5 个 Word/PDF 的文本化。文本型资料已拆分为 Markdown 分片；扫描/无法可靠提取的资料标记为 `OCR_REQUIRED`，不得将其当作已完成条文库。新增资料集（细部构造与建筑设计资料集）另见 `supplemental-source-inventory.md`，全部 DWG 已按要求跳过。
+覆盖用户资料库中的 PDF、Word 及补充资料：本目录现有 426 份条目页、414 份正文分片，可归并为 198 个规范编号与 113 份技术文件（教材、技术措施、审查解答）。文本型资料已拆分为 Markdown 分片；扫描/无法可靠提取的资料标记为 `OCR_REQUIRED`，不得将其当作已完成条文库。新增资料集（细部构造与建筑设计资料集）另见 `supplemental-source-inventory.md`。
+
+DWG 不在本目录处理：全部图纸经蒸馏后落在同级目录 `china-architectural-standards/`（4335 张图、83 本图册）。条文与图纸之间的对应关系由两张表打通，查条文时建议同时打开：
+
+| 表 | 用途 |
+|---|---|
+| [../ATLAS_ROUTING.md](../ATLAS_ROUTING.md) | 主题 ↔ 图册 ↔ 规范编号双向检索；含「先有规范后找图」的反向索引 |
+| [../CODE_RELATIONS.md](../CODE_RELATIONS.md) | 规范互引图谱：谁被引最多、哪两条最紧 |
 
 ## 建筑面积计算子目录补充
 

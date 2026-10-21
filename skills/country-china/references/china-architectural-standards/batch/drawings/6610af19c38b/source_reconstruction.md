@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P350窗台剖面图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[2204.63, -15287.71], [47530.58, 9628.77]]`。
@@ -852,3 +855,6 @@
 842. `add_text`｜图层 `0`｜源 `E000761 ` → 重绘 `R000761`
 843. `add_text`｜图层 `0`｜源 `E000762 ` → 重绘 `R000762`
 844. `add_text`｜图层 `0`｜源 `E000763 ` → 重绘 `R000763`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

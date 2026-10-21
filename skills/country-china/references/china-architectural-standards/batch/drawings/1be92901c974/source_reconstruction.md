@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P447暗沟 踢脚大样图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[38331.0, 17797.6], [59561.68, 39790.95]]`。
@@ -416,3 +419,6 @@
 406. `add_text`｜图层 `1`｜源 `E000332 ` → 重绘 `R000332`
 407. `add_text`｜图层 `PUB_TEXT`｜源 `E000333 ` → 重绘 `R000333`
 408. `add_text`｜图层 `Q`｜源 `E000340 ` → 重绘 `R000340`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

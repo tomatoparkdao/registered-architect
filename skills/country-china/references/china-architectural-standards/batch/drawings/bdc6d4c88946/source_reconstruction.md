@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`人防通道变形缝节点示意图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -464,3 +467,6 @@
 454. `add_text`｜图层 `0`｜源 `E000452 ` → 重绘 `R000452`
 455. `add_text`｜图层 `0`｜源 `E000453 ` → 重绘 `R000453`
 456. `add_text`｜图层 `0`｜源 `E000454 ` → 重绘 `R000454`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

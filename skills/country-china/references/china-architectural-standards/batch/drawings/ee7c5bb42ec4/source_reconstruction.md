@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`支撑的连接构造.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[1350.73, 6353.11], [6946.99, 10801.66]]`。
@@ -918,3 +921,6 @@
 908. `add_text`｜图层 `0`｜源 `E000882 ` → 重绘 `R000882`
 909. `add_text`｜图层 `0`｜源 `E000901 ` → 重绘 `R000901`
 910. `add_text`｜图层 `0`｜源 `E000902 ` → 重绘 `R000902`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

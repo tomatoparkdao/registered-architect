@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P437阳角详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[916.35, 467.73], [26110.94, 31319.0]]`。
@@ -407,3 +410,6 @@
 397. `add_text`｜图层 `PUB_TEXT`｜源 `E000388 ` → 重绘 `R000388`
 398. `add_text`｜图层 `PUB_TEXT`｜源 `E000390 ` → 重绘 `R000390`
 399. `add_text`｜图层 `PUB_TEXT`｜源 `E000392 ` → 重绘 `R000392`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`雨篷大样05.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[16910.32, 4772.57], [18546.44, 6484.98]]`。
@@ -104,3 +107,6 @@
 94. `add_dimension`｜图层 `PUB_DIM`｜源 `E000015 ` → 重绘 `R000015`
 95. `add_dimension`｜图层 `PUB_DIM`｜源 `E000016 ` → 重绘 `R000016`
 96. `add_dimension`｜图层 `PUB_DIM`｜源 `E000059 ` → 重绘 `R000059`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

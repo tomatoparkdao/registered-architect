@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`发电机房排热大样.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[3325320.75, 2274627.75], [3387714.25, 2303779.5]]`。
@@ -3639,3 +3642,6 @@
 3629. `add_text`｜图层 `0`｜源 `E003625 ` → 重绘 `R003625`
 3630. `add_dimension`｜图层 `0`｜源 `E002122 ` → 重绘 `R002122`
 3631. `add_dimension`｜图层 `0`｜源 `E002123 ` → 重绘 `R002123`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

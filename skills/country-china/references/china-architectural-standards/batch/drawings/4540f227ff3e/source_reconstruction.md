@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`散热器及手动放气阀-系统.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-22501.32, -12644.28], [-22493.75, -12628.96]]`。
@@ -17,3 +20,6 @@
 7. `draw_line`｜图层 `0`｜源 `E000006 ` → 重绘 `R000006`
 8. `draw_line`｜图层 `0`｜源 `E000007 ` → 重绘 `R000007`
 9. `add_text`｜图层 `0`｜源 `E000005 ` → 重绘 `R000005`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

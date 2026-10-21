@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`十字形截面柱的刚性连接.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[2044.93, 9412.42], [8329.97, 13637.72]]`。
@@ -1082,3 +1085,6 @@
 1072. `add_text`｜图层 `Z`｜源 `E001026 ` → 重绘 `R001026`
 1073. `add_text`｜图层 `Z`｜源 `E001027 ` → 重绘 `R001027`
 1074. `add_text`｜图层 `Z`｜源 `E001041 ` → 重绘 `R001041`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

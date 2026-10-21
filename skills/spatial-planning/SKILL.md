@@ -574,7 +574,6 @@ agent_created: true
 | 4.5 (double height) | 9.0–11.25 | 2.0–2.5x |
 
 对于进深超过窗洞口高度2.5倍的空间，需要采用补充采光策略：采光搁板、高侧窗、借光、屋顶采光窗或中庭/采光井引入。BREEAM/LEED通常要求使用空间平均采光因子至少2%，并要求至少50%的经常使用面积达到300 lux下55%的空间采光自主率（sDA）。
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

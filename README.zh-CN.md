@@ -2,13 +2,13 @@
 
 <p align="center">
   <b>面向全球注册建筑师的规范路由、设计核验与交付审查 Skill —— 先定辖区，再谈设计</b><br>
-  29 个模块：18 项专业设计能力 ＋ 10 个司法辖区法规专题 ＋ 1 个计算器模块（7 个脚本） ｜ 883 份参考文档 ｜ 约 113 万行专业资料<br>
+  29 个模块：18 项专业设计能力 ＋ 10 个司法辖区法规专题 ＋ 1 个计算器模块（7 个脚本） ｜ 839 份中国条文 ＋ 4335 张图集图纸（83 本图册） ｜ 约 420 万行资料<br>
   项目定位 → 法规路由 → 功能与体量 → 技术协调 → 性能验证 → 施工图交付 → 合规审查<br>
   规范只做路由与核验，不作审批结论 ｜ 零硬依赖可离线 ｜ 结构 / 消防 / 无障碍须当地持证人员复核签署
 </p>
 
 <p align="center">
-  <a href="https://github.com/tomatoparkdao/registered-architect"><img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-1.1.0-1f6feb?style=flat-square" alt="版本 1.1.0"></a>
+  <a href="https://github.com/tomatoparkdao/registered-architect"><img src="https://img.shields.io/badge/%E7%89%88%E6%9C%AC-1.2.0-1f6feb?style=flat-square" alt="版本 1.2.0"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF-MIT-2ea043?style=flat-square" alt="许可 MIT"></a>
   <a href="https://www.omniailabx.com/"><img src="https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-OmniAiLab-8957e5?style=flat-square" alt="平台 OmniAiLab"></a>
   <a href="https://discord.gg/vdgTEpXMh3"><img src="https://img.shields.io/badge/%E7%A4%BE%E5%8C%BA-Discord-5865f2?style=flat-square" alt="开源社区 Discord"></a>
@@ -27,10 +27,10 @@
 
 | 项目 | 值 | 说明 |
 |---|---|---|
-| 模块体系 | 29 个模块 / 883 份参考文档 | 18 项专业设计能力 ＋ 10 个司法辖区法规专题 ＋ `architect-calculator`（内含 7 个脚本）；中国专题 848 份，占全部参考资料的 96% |
+| 模块体系 | 29 个模块 / 83 本图册 / 4335 张图纸 | 18 项专业设计能力 ＋ 10 个司法辖区法规专题 ＋ `architect-calculator`（7 个脚本）；中国资料库含 839 份条文（425 条目 ＋ 414 分片）、198 个规范编号、314 份可检索文档 |
 | Skill 调用名（唯一标识） | `registered-architect` | 全小写连字符写法；支持 skill 的工具直接用它调起，不支持的工具用自然语言描述也能触发 |
 | 显示名 | OmniAiLab 全球注册建筑师 | 仓库页面与文档里显示的名字，不是调用名；定位是规范路由与核验，不是方案创作 |
-| 版本 | v1.1.0 | 与 `SKILL.md`、`.claude-plugin/plugin.json` 及三份 README 保持一致 |
+| 版本 | v1.2.0 | 与 `SKILL.md`、`.claude-plugin/plugin.json` 及三份 README 保持一致；1.2.0 起加入图集图纸层与「条文 ↔ 图纸」双向路由 |
 | 出品 / 开发者 | OmniAiLab ／ Mochiball | — |
 | 许可 | MIT（见 [LICENSE](LICENSE)） | 使用与二次分发以该文件为准；标准原文只引用、不转售 |
 | 配套文档 | [README.md](README.md) ／ [README_EN.md](README_EN.md) ／ [SKILL.md](SKILL.md) | 如何调用、模块清单、六阶段流程、口径速查、避坑总表、常见问题与交付物清单 |
@@ -77,10 +77,11 @@
 | **① 辖区路由优先** | `geographic-foundations` 从国家、城市、规范编号、货币、气候与材料体系识别辖区，再路由到对应专题。识别不出来就回落到 IBC / Eurocodes / ASCE / ISO 参考，**并明确要求你确认**，绝不替你假定 |
 | **② 十个辖区做到条文级** | 中国、美国、英国、德国、日本、新加坡、澳大利亚、印度、阿联酋、沙特：监管体系、主管部门、规范层级、版本年份、地方修订与审查路径，逐项写清；跨辖区只比较、不替换 |
 | **③ 十八项专业模块** | 设计理论、概念、策划、类型、空间、围护、结构、机电、采光、声学、材料、规范、消防、无障碍、可持续、施工图：每项都给方法、判据与红线，不是词条堆砌 |
-| **④ 三层渐进加载** | 名称常驻、正文按需、资料最后读。883 份文档不会一次塞进上下文——这是它能在 113 万行资料里不迷路的唯一办法 |
+| **④ 四层渐进加载** | 名称常驻、模块正文按需、条文资料次之、图纸与配方最后读。13917 份 Markdown 与 4335 张图纸不会一次塞进上下文——这是它能在 420 万行资料里不迷路的唯一办法 |
 | **⑤ 七个可复算的计算器** | 面积密度、U 值、采光系数、疏散、结构荷载、能耗、造价：纯标准库，`--json` 可留档；**结果只作初算，报审值须持证人员重算** |
 | **⑥ 判断有出处** | 每条结论写规范编号 + 版本 + 核验日期；经验值标注为"参考"，强制要求必须引条号；区分强制 / 推荐 / 指南 / 主管口径四种效力 |
 | **⑦ 不假装做到** | 不把建议写成审批结论，不把方案深度当施工图，不把计算器结果当报审值，不把别国数值当本地答案；缺资料就说缺，并给出补齐路径 |
+| **⑧ 条文与图纸互串** | 中国资料库里 198 个规范编号与 4335 张图集图纸双向打通：查到条文能列出对应图册与图号，拿到做法图能倒推条文。`ATLAS_ROUTING.md` 给主题表与反向索引，`CODE_RELATIONS.md` 给规范互引链。**图纸只作做法参考，不作合规依据** |
 
 ### 能力清单（29 项，按层次）
 
@@ -164,7 +165,7 @@ git clone https://github.com/tomatoparkdao/registered-architect.git
 
 | 方式 | 怎么做 | 适合 |
 |---|---|---|
-| **用仓库自带资料** | 直接用 `skills/*/references/` 与 `skills/country-china/references/standards/` | 大多数项目；中国条文分片可全文检索 |
+| **用仓库自带资料** | 直接用 `skills/*/references/`、`skills/country-china/references/standards/`（条文）与 `china-architectural-standards/batch/drawings/`（图纸） | 大多数项目；中国条文分片可全文检索，做法图可按主题定位 |
 | **接自己的项目资料** | 把任务书、图纸、当地批文放进项目目录，让它读取后再判断 | 已有设计成果或地方批文 |
 | **只用方法论** | 不喂资料，只问"这个阶段该核什么、按哪一版" | 早期策划、方案评审 |
 
@@ -288,7 +289,12 @@ registered-architect/
     ├── architect-calculator/         # 7 个脚本 + 计算参考
     └── country-{china,usa,uk,germany,japan,singapore,australia,india,uae,saudi-arabia}/
         ├── SKILL.md                  # 辖区专题正文
-        └── references/standards/     # 中国：426 条规范与图集 + 414 份正文分片
+        └── references/
+            ├── standards/            # 中国：425 条规范与图集 + 414 份正文分片
+            ├── ATLAS_ROUTING.md      # 主题 ↔ 83 本图册 ↔ 198 个规范编号（双向）
+            ├── CODE_RELATIONS.md     # 规范互引图谱（587 条边）
+            └── china-architectural-standards/
+                └── batch/drawings/   # 4335 张图纸：几何 / 图层 / 文字 / 重绘配方
 ```
 
 ## 交付物清单
@@ -308,7 +314,9 @@ registered-architect/
 
 | 问题 | 回答 |
 |---|---|
-| 只适用于中国项目吗？ | 不是。十个辖区各有专题，中国只是其中之一，且是资料最厚的一个（848 份条文资料）。无明确辖区时它会回落到国际参考并要求你确认。 |
+| 只适用于中国项目吗？ | 不是。十个辖区各有专题，中国只是其中之一，也是资料最厚的一个（839 份条文 ＋ 4335 张图纸）。无明确辖区时它会回落到国际参考并要求你确认。 |
+| 图集图纸能当条文用吗？ | 不能。图册讲的是「怎么做」，规范讲的是「必须怎么做」。抓图只用于核对构造层序与节点表达，合规结论必须落在规范编号与条款上；图纸里未标注的材料与厚度一律按待确认处理。 |
+| 有图集但没有对应条文怎么办？ | 两张表都会如实标出缺口：`ATLAS_ROUTING.md` 里主题下没有规范条目的，说明本地资料未覆盖，需补资料或走当地主管部门口径，不能拿图集顶上。 |
 | 计算器结果能直接报审吗？ | 不能。计算器用于早期设计与交叉校核；报审数值须由持证人员按现行规范重算并签署。 |
 | 项目所在城市没有专门规范怎么办？ | 它会说明缺失，采用上一级规范作暂定参考，并列出需要向 AHJ 或地方规划部门确认的问题清单。 |
 | 可以比较不同国家的法规吗？ | 可以，但必须限定比较指标、版本、适用范围，并说明哪些部分不可等效。 |
@@ -324,7 +332,7 @@ registered-architect/
 | 读图与出图 | AutoCAD / Revit / ArchiCAD / Rhino | 只作对接；本技能输出判断与清单，不产出 DWG | 用 PDF 图纸或截图也能核，精度降一档并注明 |
 | 模型与协调 | IFC / 任意 BIM 协作平台 | 关键尺寸以模型为准，但合规结论仍须复核 | 用二维图纸加尺寸表替代，注明协调未完成 |
 | 规范原文 | 主管部门官网、官方标准发布平台 | 内置分片用于检索，采信前须核对官方现行版本 | 用内置分片定位条号，最终以官方文本为准 |
-| 条文全文检索 | `grep`、VS Code、任意文本搜索 | 中国 426 条规范 + 414 份分片可直接全文检索 | 直接读对应模块的 `references/` 目录 |
+| 条文全文检索 | `grep`、VS Code、任意文本搜索 | 中国 425 条规范 + 414 份分片可全文检索；4335 张图纸的标题与文字标注同样可搜 | 直接读对应模块的 `references/` 目录 |
 | 数值计算 | 内置 7 个计算器（Python 3.9+） | 零第三方依赖；结果标注口径与假设 | 手算并写明公式与假设条件 |
 | 协同与提问 | [Discord 开源社区](https://discord.gg/vdgTEpXMh3) | 做法讨论、口径争议、问题反馈 | 提 issue，附辖区与规范原文 |
 
@@ -357,7 +365,9 @@ registered-architect/
 |---|---|---|---|
 | 调用方式与模块职责 | [SKILL.md](SKILL.md) | 四条工作原则、模块指引、交付内容与免责边界 | 第一次用、或不确定该调哪个模块时 |
 | 具体条文与做法 | `skills/<模块>/SKILL.md` + `references/` | 每个模块的方法、判据、红线与专题参考资料 | 手上已有明确任务，需要具体做法时 |
-| 中国规范条目 | `skills/country-china/references/standards/` | 426 条规范与图集、414 份正文分片、专题路由表 | 需要定位条号、比对图集做法时 |
+| 中国规范条目 | `skills/country-china/references/standards/` | 425 条规范与图集、414 份正文分片、专题路由表 | 需要定位条号时 |
+| 中国图集图纸 | `skills/country-china/references/china-architectural-standards/` | 4335 张图纸、83 本图册、覆盖率与失败清单 | 条文查到了，要立刻看构造大样时 |
+| 条文 ↔ 图纸互查 | [ATLAS_ROUTING.md](skills/country-china/references/ATLAS_ROUTING.md) ／ [CODE_RELATIONS.md](skills/country-china/references/CODE_RELATIONS.md) | 主题表、反向索引、规范互引链 | 不知道某个做法该查哪本图册或哪条规范时 |
 | 计算器参数与口径 | `skills/architect-calculator/` | 7 个脚本的参数说明、单位约定与计算参考 | 要做量级判断，又不想到处找公式时 |
 | 署名与许可 | [LICENSE](LICENSE) | MIT 全文与署名约定 | 二次分发、商用或做衍生作品前 |
 
@@ -382,7 +392,9 @@ registered-architect/
 |---|---|---|
 | 总入口与工作原则 | [SKILL.md](SKILL.md) | 四条工作原则、模块指引、交付内容与免责边界，是全部模块的共同前提 |
 | 十个辖区的法规专题 | `skills/country-*/SKILL.md` | 监管体系、主管部门、规范层级、版本年份、地方修订与审查路径 |
-| 中国规范与图集 | `skills/country-china/references/standards/` | 426 条规范条目、414 份正文分片、资料清单与专题路由表 |
+| 中国条文 | `skills/country-china/references/standards/` | 425 条规范与图集条目、414 份正文分片、资料清单与专题路由表 |
+| 中国图集图纸 | `skills/country-china/references/china-architectural-standards/` | 4335 张蒸馏图纸（一图一目录）、83 本图册、覆盖率与失败清单 |
+| 条文与图纸互查 | [ATLAS_ROUTING.md](skills/country-china/references/ATLAS_ROUTING.md) ／ [CODE_RELATIONS.md](skills/country-china/references/CODE_RELATIONS.md) | 14 个主题的双向检索、198 个编号的反向索引、587 条互引边 |
 | 十八项专业能力 | `skills/<模块>/SKILL.md` | 每项能力的方法、判据、红线与参考资料，一模块一文件 |
 | 计算器用法 | `skills/architect-calculator/` | 7 个脚本的参数、单位、适用边界与计算参考 |
 | 插件元数据 | [.claude-plugin/plugin.json](.claude-plugin/plugin.json) | 调用名、版本、关键词与作者信息，供宿主工具识别 |

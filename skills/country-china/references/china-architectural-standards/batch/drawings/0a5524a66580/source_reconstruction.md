@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`车库说明.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[50517.4, 499943.22], [103024.08, 534062.88]]`。
@@ -499,3 +502,6 @@
 489. `add_text`｜图层 `PUB_TITLE`｜源 `E000485 ` → 重绘 `R000485`
 490. `add_text`｜图层 `PUB_TITLE`｜源 `E000486 ` → 重绘 `R000486`
 491. `add_text`｜图层 `PUB_TITLE`｜源 `E000487 ` → 重绘 `R000487`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

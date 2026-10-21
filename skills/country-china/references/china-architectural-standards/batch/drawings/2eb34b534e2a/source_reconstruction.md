@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`次粱与主粱相连时在节点中连接件的选用一览表,.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[2297.59, -9.83], [8956.24, 4544.53]]`。
@@ -811,3 +814,6 @@
 801. `add_text`｜图层 `Z`｜源 `E000795 ` → 重绘 `R000795`
 802. `add_text`｜图层 `Z`｜源 `E000796 ` → 重绘 `R000796`
 803. `add_text`｜图层 `0`｜源 `E000797 ` → 重绘 `R000797`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

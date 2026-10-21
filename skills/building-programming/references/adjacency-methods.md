@@ -410,7 +410,6 @@ Before finalizing adjacency analysis, verify:
 - DfE (2014). *Building Bulletin 103*. UK Department for Education.
 - BCO (2019). *BCO Guide to Specification*. British Council for Offices.
 - Neufert, E. & Neufert, P. (2019). *Neufert Architects' Data*. 5th ed. Wiley-Blackwell.
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

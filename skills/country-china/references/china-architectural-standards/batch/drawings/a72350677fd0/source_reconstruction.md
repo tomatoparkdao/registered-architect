@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`32_单扇内外开双层门-主.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[13446.53, 18517.78], [13460.53, 18529.48]]`。
@@ -30,3 +33,6 @@
 20. `draw_line`｜图层 `PUB_DIM`｜源 `E000015 ` → 重绘 `R000015`
 21. `draw_line`｜图层 `WINDOW`｜源 `E000016 ` → 重绘 `R000016`
 22. `draw_line`｜图层 `PUB_DIM`｜源 `E000017 ` → 重绘 `R000017`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

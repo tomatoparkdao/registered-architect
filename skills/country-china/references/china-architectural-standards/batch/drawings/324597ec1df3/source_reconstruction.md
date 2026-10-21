@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`用角钢或扁钢做连接板焊接的钢筋接头1.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-100455.97, -338358.44], [-97147.92, -337911.75]]`。
@@ -55,3 +58,6 @@
 45. `draw_polyline`｜图层 `STEEL`｜源 `E000040 ` → 重绘 `R000040`
 46. `draw_polyline`｜图层 `STEEL`｜源 `E000041 ` → 重绘 `R000041`
 47. `draw_polyline`｜图层 `STEEL`｜源 `E000042 ` → 重绘 `R000042`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

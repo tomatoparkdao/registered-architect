@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`古建装修花格.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=1)`；边界：`[[-1243.81, -1416509.5], [851804.25, -11170.26]]`。
@@ -1474,3 +1477,6 @@
 1464. `add_text`｜图层 `PUB_TEXT`｜源 `E001567 ` → 重绘 `R001567`
 1465. `add_text`｜图层 `PUB_TEXT`｜源 `E001615 ` → 重绘 `R001615`
 1466. `add_dimension`｜图层 `LVTRY`｜源 `E001640 ` → 重绘 `R001640`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

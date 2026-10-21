@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`箱形截面柱与十字形截面柱.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[806.19, 7322.06], [7911.59, 14622.23]]`。
@@ -1468,3 +1471,6 @@
 1458. `add_text`｜图层 `Z`｜源 `E001414 ` → 重绘 `R001414`
 1459. `add_text`｜图层 `Z`｜源 `E001423 ` → 重绘 `R001423`
 1460. `add_text`｜图层 `Z`｜源 `E001448 ` → 重绘 `R001448`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`塔吊附着立面图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [1497.74, 1043.72]]`。
@@ -3862,3 +3865,6 @@
 3852. `add_text`｜图层 `352`｜源 `E003235 ` → 重绘 `R003235`
 3853. `add_text`｜图层 `352`｜源 `E003240 ` → 重绘 `R003240`
 3854. `add_text`｜图层 `352`｜源 `E003244 ` → 重绘 `R003244`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

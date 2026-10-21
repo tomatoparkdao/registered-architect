@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`薄壁等肢卷边角钢-标注.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-120081.57, -286354.94], [-118961.32, -285954.09]]`。
@@ -19,3 +22,6 @@
 9. `draw_line`｜图层 `K`｜源 `E000006 ` → 重绘 `R000006`
 10. `add_text`｜图层 `DIM`｜源 `E000001 ` → 重绘 `R000001`
 11. `add_text`｜图层 `DIM`｜源 `E000002 ` → 重绘 `R000002`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

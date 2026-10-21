@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`各种厨厕施工大样图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-259333.56, -94137.39], [-195597.55, -64246.61]]`。
@@ -2286,3 +2289,6 @@
 2276. `add_dimension`｜图层 `0`｜源 `E002168 ` → 重绘 `R002168`
 2277. `add_dimension`｜图层 `0`｜源 `E002169 ` → 重绘 `R002169`
 2278. `add_dimension`｜图层 `0`｜源 `E002170 ` → 重绘 `R002170`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

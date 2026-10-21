@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`p194节点详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[706.76, 450.16], [926.23, 700.77]]`。
@@ -1098,3 +1101,6 @@
 1088. `add_text`｜图层 `DIM`｜源 `E001081 ` → 重绘 `R001081`
 1089. `add_text`｜图层 `DIM`｜源 `E001082 ` → 重绘 `R001082`
 1090. `add_text`｜图层 `DIM`｜源 `E001083 ` → 重绘 `R001083`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P21女儿墙天沟泛水（一）.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[-706719.06, -676703.5], [708727.31, 110885.05]]`。
@@ -839,3 +842,6 @@
 829. `add_text`｜图层 `_TCH_MASK`｜源 `E000821 ` → 重绘 `R000821`
 830. `add_text`｜图层 `_TCH_MASK`｜源 `E000863 ` → 重绘 `R000863`
 831. `add_text`｜图层 `_TCH_MASK`｜源 `E000864 ` → 重绘 `R000864`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

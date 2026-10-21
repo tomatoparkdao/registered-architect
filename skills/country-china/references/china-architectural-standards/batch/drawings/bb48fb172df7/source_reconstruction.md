@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P163楼梯剖面图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-27763.42, 15384.07], [-12581.43, 33169.37]]`。
@@ -791,3 +794,6 @@
 781. `add_text`｜图层 `TITLE`｜源 `E000729 ` → 重绘 `R000729`
 782. `add_text`｜图层 `TITLE`｜源 `E000730 ` → 重绘 `R000730`
 783. `add_text`｜图层 `文字`｜源 `E000738 ` → 重绘 `R000738`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

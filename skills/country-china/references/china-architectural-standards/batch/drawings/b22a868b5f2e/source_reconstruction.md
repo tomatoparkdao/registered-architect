@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P383墙面节点图（一）.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[69437.73, 22456.23], [71985.7, 25945.63]]`。
@@ -672,3 +675,6 @@
 662. `add_text`｜图层 `0`｜源 `E000657 ` → 重绘 `R000657`
 663. `add_text`｜图层 `0`｜源 `E000658 ` → 重绘 `R000658`
 664. `add_text`｜图层 `0`｜源 `E000659 ` → 重绘 `R000659`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

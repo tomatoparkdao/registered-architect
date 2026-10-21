@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`剪力墙结构外装修吊篮装配图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -454,3 +457,6 @@
 444. `add_text`｜图层 ` `｜源 `E000440 ` → 重绘 `R000440`
 445. `add_text`｜图层 ` `｜源 `E000441 ` → 重绘 `R000441`
 446. `add_text`｜图层 ` `｜源 `E000442 ` → 重绘 `R000442`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

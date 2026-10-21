@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`柱截面选用及其安装单元的划分一览表.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[4031.05, 1998.7], [9647.17, 6416.53]]`。
@@ -545,3 +548,6 @@
 535. `add_text`｜图层 `Z`｜源 `E000528 ` → 重绘 `R000528`
 536. `add_text`｜图层 `Z`｜源 `E000529 ` → 重绘 `R000529`
 537. `add_text`｜图层 `Z`｜源 `E000530 ` → 重绘 `R000530`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`内墙模板支设图1.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [193.05, 136.5]]`。
@@ -1383,3 +1386,6 @@
 1373. `add_text`｜图层 `0`｜源 `E001364 ` → 重绘 `R001364`
 1374. `add_text`｜图层 `0`｜源 `E001367 ` → 重绘 `R001367`
 1375. `add_text`｜图层 `0`｜源 `E001370 ` → 重绘 `R001370`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

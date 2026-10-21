@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`木螺钉连接背面画法1.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-157570.22, -363523.81], [-155058.59, -362191.41]]`。
@@ -43,3 +46,6 @@
 33. `add_text`｜图层 `DIM`｜源 `E000002 ` → 重绘 `R000002`
 34. `add_text`｜图层 `DIM`｜源 `E000003 ` → 重绘 `R000003`
 35. `add_text`｜图层 `DIM`｜源 `E000004 ` → 重绘 `R000004`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

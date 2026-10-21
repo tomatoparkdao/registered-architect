@@ -1,7 +1,7 @@
 ---
 name: registered-architect
-description: 面向全球注册建筑师与建筑设计专业人员的方案设计、规范审查、消防、无障碍、建筑技术与施工图工作。根据项目所在国家、地区、城市及适用规范路由到相应的法规专题；在作出合规结论前，必须核验现行强制性标准与地方要求。
-version: 1.1.0
+description: 面向全球注册建筑师与建筑设计专业人员的方案设计、规范审查、消防、无障碍、建筑技术与施工图工作。根据项目所在国家、地区、城市及适用规范路由到相应的法规专题，并可在中国资料库中按主题把规范条文与 4335 张图集图纸互相串联；在作出合规结论前，必须核验现行强制性标准与地方要求。
+version: 1.2.0
 license: MIT（OmniAiLab）—— 见 LICENSE
 platform: OmniAiLab
 author: OmniAiLab
@@ -26,6 +26,7 @@ agent_created: true
 ## 模块指引
 
 - 中国大陆的规范背景、审批、气候、抗震条件、地方补充标准与规范路由，先阅读 `skills/country-china/SKILL.md`。
+- 中国条文与做法图的打通走两张表：`skills/country-china/references/ATLAS_ROUTING.md`（14 个主题 ↔ 83 本图册 ↔ 198 个规范编号，双向检索）与 `CODE_RELATIONS.md`（规范互引图谱）。查到条文后按主题取构造大样；图纸只作做法参考，不作合规依据。
 - 生命安全与合规工作使用 `skills/fire-life-safety/SKILL.md`、`skills/accessibility-design/SKILL.md` 和 `skills/building-codes/SKILL.md`；中国规范要求优先于其中的国际示例。
 - 功能策划、建筑类型、空间规划、围护、结构、MEP、采光、声学、可持续性、材料或施工图工作，使用 `skills/` 下对应的设计模块。
 - 仅在确认输入、单位和适用地区假设后，才可使用 `skills/architect-calculator/scripts/` 下的计算器；受规范控制的决策必须独立复核。

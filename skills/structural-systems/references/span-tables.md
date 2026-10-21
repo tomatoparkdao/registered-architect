@@ -374,7 +374,6 @@ agent_created: true
 | 钢桁架（24m跨度） | 2400 |
 | 桁架下净高（货架+通行） | 8000-12000 |
 | **檐口总高度** | **10400-14400mm** |
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

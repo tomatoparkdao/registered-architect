@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`梁式梯.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[24548.5, -21300.71], [37115.73, -5751.04]]`。
@@ -110,3 +113,6 @@
 100. `add_dimension`｜图层 `尺寸标注`｜源 `E000009 ` → 重绘 `R000009`
 101. `add_dimension`｜图层 `尺寸标注`｜源 `E000010 ` → 重绘 `R000010`
 102. `add_dimension`｜图层 `尺寸标注`｜源 `E000012 ` → 重绘 `R000012`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

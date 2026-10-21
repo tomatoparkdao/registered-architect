@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`制图GB符号规范.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[-3732.35, -2.83], [63.32, 35481.33]]`。
@@ -639,3 +642,6 @@
 629. `add_dimension`｜图层 `超细实线`｜源 `E000182 ` → 重绘 `R000182`
 630. `add_dimension`｜图层 `超细实线`｜源 `E000183 ` → 重绘 `R000183`
 631. `add_dimension`｜图层 `粗实线`｜源 `E000242 ` → 重绘 `R000242`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

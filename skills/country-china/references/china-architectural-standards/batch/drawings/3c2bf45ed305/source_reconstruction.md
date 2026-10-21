@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P439屋顶女儿墙伸缩缝.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[3368.41, 2443.11], [27911.02, 36253.9]]`。
@@ -1186,3 +1189,6 @@
 1176. `add_text`｜图层 `PUB_TEXT`｜源 `E001158 ` → 重绘 `R001158`
 1177. `add_text`｜图层 `PUB_TEXT`｜源 `E001169 ` → 重绘 `R001169`
 1178. `add_text`｜图层 `PUB_TEXT`｜源 `E001170 ` → 重绘 `R001170`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

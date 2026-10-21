@@ -655,7 +655,18 @@ Total carbon = Embodied carbon (A1-A5, B1-B5, C1-C4) + Operational carbon (B6-B7
 **Exemplars of Circular Design:**
 - **Triodos Bank 总部**（RAU Architects，2019，德里贝亨）——木结构完全可拆卸；螺栓钢连接；所有构件记录于材料护照（Madaster 平台）
 - **Park 20|20**（William McDonough，阿姆斯特丹）——通过从摇篮到摇篮认证；可拆卸立面；所有建筑均建立材料护照
-#
+
+
+## 中国图集与做法图路由
+
+饰面与室内构造的收口做法分散在若干专题图册里，可按饰面材料直接定位。
+
+| 主题 | 图纸数 | 主要图册 | 对应规范 |
+|---|---|---|---|
+| 室内装修与饰面 | 67 张 | 石膏板节点图（23）、木饰面节点图（20） | `07J905-1`、`JGJ 144` |
+| 门窗与栏杆构件 | 932 张 | 中式常用窗门栏板（778）、建筑细部设计CAD精选图集（41） | `06J403-1`、`16J509` |
+
+材料性能以产品标准与检测报告为准，图册只解决「怎么做」不解决「能不能用」。入口：`references/ATLAS_ROUTING.md`。
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`钢柱柱脚构造详图一览表.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[2007.24, -316.07], [9803.98, 4956.77]]`。
@@ -1585,3 +1588,6 @@
 1575. `add_text`｜图层 `Z`｜源 `E001572 ` → 重绘 `R001572`
 1576. `add_text`｜图层 `Z`｜源 `E001573 ` → 重绘 `R001573`
 1577. `add_text`｜图层 `Z`｜源 `E001574 ` → 重绘 `R001574`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`Psb2-1zn.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-205.58, 16.46], [3081.63, 2842.27]]`。
@@ -1159,3 +1162,6 @@
 1149. `add_text`｜图层 `0`｜源 `E001141 ` → 重绘 `R001141`
 1150. `add_text`｜图层 `0`｜源 `E001142 ` → 重绘 `R001142`
 1151. `add_text`｜图层 `0`｜源 `E001143 ` → 重绘 `R001143`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

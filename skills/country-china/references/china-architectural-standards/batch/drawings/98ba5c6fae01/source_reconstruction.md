@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`封堵结构详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[53501.99, -20305.12], [147948.52, 47155.91]]`。
@@ -954,3 +957,6 @@
 944. `add_dimension`｜图层 `PUB_DIM`｜源 `E000918 ` → 重绘 `R000918`
 945. `add_dimension`｜图层 `PUB_DIM`｜源 `E000919 ` → 重绘 `R000919`
 946. `add_dimension`｜图层 `PUB_DIM`｜源 `E000926 ` → 重绘 `R000926`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

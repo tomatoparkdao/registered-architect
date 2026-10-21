@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`11_自动人行坡道.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[13655.54, 18454.73], [13703.47, 18461.73]]`。
@@ -35,3 +38,6 @@
 25. `draw_line`｜图层 `PUB_DIM`｜源 `E000022 ` → 重绘 `R000022`
 26. `draw_line`｜图层 `PUB_DIM`｜源 `E000023 ` → 重绘 `R000023`
 27. `add_text`｜图层 `PUB_TEXT`｜源 `E000015 ` → 重绘 `R000015`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

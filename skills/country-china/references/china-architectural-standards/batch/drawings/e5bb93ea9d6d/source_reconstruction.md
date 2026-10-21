@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`档水板.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-22096.88, -12443.92], [-22078.14, -12437.68]]`。
@@ -34,3 +37,6 @@
 24. `draw_line`｜图层 `0`｜源 `E000022 ` → 重绘 `R000022`
 25. `draw_line`｜图层 `0`｜源 `E000023 ` → 重绘 `R000023`
 26. `draw_line`｜图层 `0`｜源 `E000024 ` → 重绘 `R000024`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

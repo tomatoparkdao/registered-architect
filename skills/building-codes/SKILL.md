@@ -663,7 +663,6 @@ Total = Aa × number of stories (up to 3 stories)
 ---
 
 *本技能为建筑决策提供一般性规范指导。所有规范解释必须根据主管部门（AHJ）采用的具体版本进行核验。建筑主管部门对规范合规性拥有最终裁定权。*
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

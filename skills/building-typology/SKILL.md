@@ -684,7 +684,6 @@ agent_created: true
 - Council on Tall Buildings and Urban Habitat (CTBUH). *Tall Building Design Guides*.
 - IBC (2021). *International Building Code*. ICC.
 - RIBA Plan of Work (2020). Royal Institute of British Architects.
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

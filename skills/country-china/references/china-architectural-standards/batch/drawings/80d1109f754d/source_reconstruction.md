@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`栏杆·详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[6298.92, -54.23], [8055.65, 2209.77]]`。
@@ -1785,3 +1788,6 @@
 1775. `add_dimension`｜图层 `DIM`｜源 `E001281 ` → 重绘 `R001281`
 1776. `add_dimension`｜图层 `DIM`｜源 `E001282 ` → 重绘 `R001282`
 1777. `add_dimension`｜图层 `DIM`｜源 `E001317 ` → 重绘 `R001317`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

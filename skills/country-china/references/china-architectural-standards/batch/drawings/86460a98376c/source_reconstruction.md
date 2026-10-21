@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`隔油池.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[64958.51, -137218.92], [66712.14, -136839.66]]`。
@@ -21,3 +24,6 @@
 11. `draw_line`｜图层 `R`｜源 `E000007 ` → 重绘 `R000007`
 12. `draw_line`｜图层 `R`｜源 `E000008 ` → 重绘 `R000008`
 13. `add_text`｜图层 `R`｜源 `E000003 ` → 重绘 `R000003`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

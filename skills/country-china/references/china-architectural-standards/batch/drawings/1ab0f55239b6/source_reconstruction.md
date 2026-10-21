@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`保 温 管.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-41960.38, -110373.86], [-39077.93, -110373.86]]`。
@@ -22,3 +25,6 @@
 12. `draw_arc`｜图层 `DET1`｜源 `E000007 ` → 重绘 `R000007`
 13. `draw_arc`｜图层 `DET1`｜源 `E000008 ` → 重绘 `R000008`
 14. `draw_arc`｜图层 `DET1`｜源 `E000009 ` → 重绘 `R000009`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

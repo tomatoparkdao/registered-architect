@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`楼梯详图6.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[352701.62, -5268.58], [394751.62, 24431.42]]`。
@@ -2133,3 +2136,6 @@
 2123. `add_mtext`｜图层 `AXIS`｜源 `E002095 ` → 重绘 `R002095`
 2124. `add_mtext`｜图层 `AXIS`｜源 `E002101 ` → 重绘 `R002101`
 2125. `add_mtext`｜图层 `AXIS`｜源 `E002107 ` → 重绘 `R002107`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

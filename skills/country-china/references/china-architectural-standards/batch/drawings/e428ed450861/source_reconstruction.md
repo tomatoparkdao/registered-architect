@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`塔吊轨道基础图2.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -906,3 +909,6 @@
 896. `add_text`｜图层 `0`｜源 `E000894 ` → 重绘 `R000894`
 897. `add_text`｜图层 `0`｜源 `E000895 ` → 重绘 `R000895`
 898. `add_text`｜图层 `0`｜源 `E000896 ` → 重绘 `R000896`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

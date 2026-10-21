@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`套管神缩器.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-20221.24, -107751.72], [-17338.79, -107305.98]]`。
@@ -18,3 +21,6 @@
 8. `draw_line`｜图层 `G`｜源 `E000003 ` → 重绘 `R000003`
 9. `draw_line`｜图层 `DET1`｜源 `E000004 ` → 重绘 `R000004`
 10. `draw_line`｜图层 `G`｜源 `E000005 ` → 重绘 `R000005`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

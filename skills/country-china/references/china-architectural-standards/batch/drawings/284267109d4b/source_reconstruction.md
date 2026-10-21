@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`其它材料露天堆场或露天作业场.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[10.68, -779.91], [2510.68, 20.09]]`。
@@ -13,3 +16,6 @@
 3. `draw_polyline`｜图层 `0`｜源 `E000001 ` → 重绘 `R000001`
 4. `draw_line`｜图层 `0`｜源 `E000002 ` → 重绘 `R000002`
 5. `draw_line`｜图层 `0`｜源 `E000003 ` → 重绘 `R000003`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

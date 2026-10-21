@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`可卸及埋入式止水变形缝侧墙详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[860.04, 2257.93], [2221.06, 3725.65]]`。
@@ -307,3 +310,6 @@
 297. `add_dimension`｜图层 `0`｜源 `E000192 ` → 重绘 `R000192`
 298. `add_dimension`｜图层 `0`｜源 `E000228 ` → 重绘 `R000228`
 299. `add_dimension`｜图层 `0`｜源 `E000230 ` → 重绘 `R000230`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

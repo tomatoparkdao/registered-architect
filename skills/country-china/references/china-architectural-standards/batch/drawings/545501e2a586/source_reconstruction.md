@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`门窗洞口外脚手架搭设.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[144.3, 5.19], [319.99, 185.03]]`。
@@ -232,3 +235,6 @@
 222. `add_text`｜图层 `涓?鏂?`｜源 `E000204 ` → 重绘 `R000204`
 223. `add_text`｜图层 `涓?鏂?`｜源 `E000205 ` → 重绘 `R000205`
 224. `add_text`｜图层 `涓?鏂?`｜源 `E000207 ` → 重绘 `R000207`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

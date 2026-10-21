@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`31_双扇双面弹簧门-主.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[13408.41, 18474.73], [13422.41, 18486.43]]`。
@@ -39,3 +42,6 @@
 29. `draw_line`｜图层 `WINDOW`｜源 `E000024 ` → 重绘 `R000024`
 30. `draw_line`｜图层 `WINDOW`｜源 `E000025 ` → 重绘 `R000025`
 31. `draw_line`｜图层 `WINDOW`｜源 `E000026 ` → 重绘 `R000026`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

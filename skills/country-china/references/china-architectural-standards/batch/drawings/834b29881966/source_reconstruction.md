@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P222栏杆大样图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-3250.12, -3528.23], [9578.71, 5339.82]]`。
@@ -6106,3 +6109,6 @@
 6096. `add_text`｜图层 `BH`｜源 `E006528 ` → 重绘 `R006528`
 6097. `add_text`｜图层 `BH`｜源 `E006529 ` → 重绘 `R006529`
 6098. `add_text`｜图层 `BH`｜源 `E006530 ` → 重绘 `R006530`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

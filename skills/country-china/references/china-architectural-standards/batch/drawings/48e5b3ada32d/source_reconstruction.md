@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`按照模数确定的挑檐门_板与饰边的安装.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-27.35, -236.88], [396.26, 278.54]]`。
@@ -943,3 +946,6 @@
 933. `add_text`｜图层 `NOTES`｜源 `E000924 ` → 重绘 `R000924`
 934. `add_text`｜图层 `NOTES`｜源 `E000925 ` → 重绘 `R000925`
 935. `add_text`｜图层 `NOTES`｜源 `E000926 ` → 重绘 `R000926`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

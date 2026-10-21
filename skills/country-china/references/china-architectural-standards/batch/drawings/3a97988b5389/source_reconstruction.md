@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`三通阀.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[66152.34, -109524.46], [68839.26, -108436.16]]`。
@@ -25,3 +28,6 @@
 15. `draw_line`｜图层 `DET1`｜源 `E000010 ` → 重绘 `R000010`
 16. `draw_line`｜图层 `DET1`｜源 `E000011 ` → 重绘 `R000011`
 17. `draw_line`｜图层 `G`｜源 `E000012 ` → 重绘 `R000012`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

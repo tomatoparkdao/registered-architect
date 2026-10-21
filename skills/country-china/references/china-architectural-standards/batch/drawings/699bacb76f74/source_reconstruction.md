@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`后浇带施工缝防水及临时保护措施构造图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -311,3 +314,6 @@
 301. `add_text`｜图层 `0`｜源 `E000299 ` → 重绘 `R000299`
 302. `add_text`｜图层 `0`｜源 `E000300 ` → 重绘 `R000300`
 303. `add_text`｜图层 `0`｜源 `E000301 ` → 重绘 `R000301`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

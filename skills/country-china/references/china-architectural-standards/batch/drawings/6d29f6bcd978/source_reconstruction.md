@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`墙模板加固图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [193.05, 136.5]]`。
@@ -1599,3 +1602,6 @@
 1589. `add_text`｜图层 `0`｜源 `E001579 ` → 重绘 `R001579`
 1590. `add_text`｜图层 `0`｜源 `E001582 ` → 重绘 `R001582`
 1591. `add_text`｜图层 `0`｜源 `E001585 ` → 重绘 `R001585`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

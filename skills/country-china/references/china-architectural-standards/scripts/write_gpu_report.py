@@ -2,6 +2,8 @@ import json, subprocess
 from pathlib import Path
 import torch
 
+from signature import stamp
+
 root=Path(__file__).resolve().parent.parent
 manifest=root/'batch'/'batch_manifest.json'
 state=json.loads(manifest.read_text(encoding='utf8')) if manifest.exists() else {}
@@ -27,4 +29,4 @@ report=f'''# GPU 执行报告
 
 DWG→DXF 为外部格式转换预处理；后续几何处理、关联和验证在 CUDA 设备上执行。任何 `torch.cuda.is_available()` 为假时，深度解析脚本会拒绝运行。
 '''
-(root/'gpu_execution_report.md').write_text(report,encoding='utf8')
+(root/'gpu_execution_report.md').write_text(stamp(report),encoding='utf8')

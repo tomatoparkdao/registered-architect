@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`伸缩缝大样.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[29335.01, -43401.82], [113473.01, 15676.73]]`。
@@ -1053,3 +1056,6 @@
 1043. `add_dimension`｜图层 `PUB_DIM`｜源 `E000774 ` → 重绘 `R000774`
 1044. `add_dimension`｜图层 `PUB_DIM`｜源 `E000827 ` → 重绘 `R000827`
 1045. `add_dimension`｜图层 `PUB_DIM`｜源 `E000834 ` → 重绘 `R000834`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P459门厅剖面图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-138534.66, 21502.72], [-29568.61, 189062.91]]`。
@@ -466,3 +469,6 @@
 456. `add_text`｜图层 `TEXT`｜源 `E000448 ` → 重绘 `R000448`
 457. `add_text`｜图层 `TEXT`｜源 `E000449 ` → 重绘 `R000449`
 458. `add_text`｜图层 `TEXT`｜源 `E000450 ` → 重绘 `R000450`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`楼梯节点详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[0.0, -14880.0], [19505.33, -3000.0]]`。
@@ -3715,3 +3718,6 @@
 3705. `add_dimension`｜图层 `PUB_DIM`｜源 `E003673 ` → 重绘 `R003673`
 3706. `add_dimension`｜图层 `PUB_DIM`｜源 `E003674 ` → 重绘 `R003674`
 3707. `add_dimension`｜图层 `PUB_DIM`｜源 `E003675 ` → 重绘 `R003675`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`悬臂梁段与柱.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[1513.71, 7882.65], [8023.01, 11894.8]]`。
@@ -1205,3 +1208,6 @@
 1195. `add_text`｜图层 `Z`｜源 `E001154 ` → 重绘 `R001154`
 1196. `add_text`｜图层 `Z`｜源 `E001155 ` → 重绘 `R001155`
 1197. `add_text`｜图层 `Z`｜源 `E001192 ` → 重绘 `R001192`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

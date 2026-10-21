@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`地下连续墙施工工艺流程图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [285.12, 201.62]]`。
@@ -4060,3 +4063,6 @@
 4050. `add_text`｜图层 `0`｜源 `E004038 ` → 重绘 `R004038`
 4051. `add_text`｜图层 `0`｜源 `E004041 ` → 重绘 `R004041`
 4052. `add_text`｜图层 `0`｜源 `E004044 ` → 重绘 `R004044`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

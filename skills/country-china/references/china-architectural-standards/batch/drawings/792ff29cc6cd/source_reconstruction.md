@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`外墙组合钢模板爬架处支设图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -530,3 +533,6 @@
 520. `add_text`｜图层 ` `｜源 `E000511 ` → 重绘 `R000511`
 521. `add_text`｜图层 ` `｜源 `E000512 ` → 重绘 `R000512`
 522. `add_text`｜图层 ` `｜源 `E000513 ` → 重绘 `R000513`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

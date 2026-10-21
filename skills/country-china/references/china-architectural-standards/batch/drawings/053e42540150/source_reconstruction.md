@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`支撑斜杆件为双槽钢组合截面与单节点板的连接.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[2418.04, 5501.11], [8919.37, 9699.31]]`。
@@ -1130,3 +1133,6 @@
 1120. `add_text`｜图层 `0`｜源 `E001094 ` → 重绘 `R001094`
 1121. `add_text`｜图层 `Z`｜源 `E001096 ` → 重绘 `R001096`
 1122. `add_dimension`｜图层 `0`｜源 `E000831 ` → 重绘 `R000831`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

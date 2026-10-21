@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`肖变形缝节点详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-1400522.5, -495050.44], [-1348838.62, -466227.69]]`。
@@ -635,3 +638,6 @@
 625. `add_dimension`｜图层 `A-DIM1`｜源 `E000350 ` → 重绘 `R000350`
 626. `add_dimension`｜图层 `A-DIM1`｜源 `E000461 ` → 重绘 `R000461`
 627. `add_dimension`｜图层 `A-DIM1`｜源 `E000612 ` → 重绘 `R000612`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

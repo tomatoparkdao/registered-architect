@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P140楼梯详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[320.71, -3656.46], [21875.25, 34741.81]]`。
@@ -944,3 +947,6 @@
 934. `add_text`｜图层 `TEXT`｜源 `E000908 ` → 重绘 `R000908`
 935. `add_text`｜图层 `TEXT`｜源 `E000909 ` → 重绘 `R000909`
 936. `add_text`｜图层 `TEXT`｜源 `E000910 ` → 重绘 `R000910`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

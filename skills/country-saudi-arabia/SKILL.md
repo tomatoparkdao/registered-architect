@@ -462,7 +462,6 @@ Sulphate-resistant cement per SASO/SBC 302 mandatory for coastal foundations.
 ---
 
 *交叉引用：加载 `building-codes` 了解 IBC 基础（SBC 201 源自 IBC）；加载 `fire-life-safety` 了解一般疏散并结合 SBC 801；加载 `building-envelope` 处理炎热干燥及沿海湿热节点；加载 `building-sustainability` 比较 Mostadamah / LEED；加载 `accessibility-design` 了解 ANSI A117.1 / Saudi UAC；加载 `structural-systems` 了解 SBC 302/306 所采用的 ACI 318 + AISC 内容。*
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

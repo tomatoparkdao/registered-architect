@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`p378老虎窗节点图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[1025.68, -15030.27], [32070.02, 20171.24]]`。
@@ -423,3 +426,6 @@
 413. `add_text`｜图层 `Q`｜源 `E000310 ` → 重绘 `R000310`
 414. `add_text`｜图层 `Q`｜源 `E000311 ` → 重绘 `R000311`
 415. `add_dimension`｜图层 `PUB_DIM`｜源 `E000032 ` → 重绘 `R000032`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

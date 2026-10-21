@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`DY-屋面防水作法.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[9960.58, 10280.24], [11924.43, 11862.87]]`。
@@ -118,3 +121,6 @@
 108. `add_dimension`｜图层 `PUB_DIM`｜源 `E000061 ` → 重绘 `R000061`
 109. `add_dimension`｜图层 `PUB_DIM`｜源 `E000062 ` → 重绘 `R000062`
 110. `add_dimension`｜图层 `PUB_DIM`｜源 `E000079 ` → 重绘 `R000079`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

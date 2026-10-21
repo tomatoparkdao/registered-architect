@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`屋面节点1.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-87800.12, 23832.58], [-80290.12, 29777.58]]`。
@@ -2524,3 +2527,6 @@
 2514. `add_dimension`｜图层 `PUB_DIM`｜源 `E002229 ` → 重绘 `R002229`
 2515. `add_dimension`｜图层 `PUB_DIM`｜源 `E002264 ` → 重绘 `R002264`
 2516. `add_dimension`｜图层 `PUB_DIM`｜源 `E002300 ` → 重绘 `R002300`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

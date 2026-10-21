@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`地下防水大样.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-4935299.0, -4361891.0], [4387459.5, 4029177.25]]`。
@@ -612,3 +615,6 @@
 602. `add_dimension`｜图层 `PUB_DIM`｜源 `E000571 ` → 重绘 `R000571`
 603. `add_dimension`｜图层 `PUB_DIM`｜源 `E000579 ` → 重绘 `R000579`
 604. `add_dimension`｜图层 `PUB_DIM`｜源 `E000580 ` → 重绘 `R000580`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

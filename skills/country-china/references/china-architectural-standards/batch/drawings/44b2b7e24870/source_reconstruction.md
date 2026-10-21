@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P458顶棚详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[-7783.81, 81459.77], [-3639.52, 85290.84]]`。
@@ -747,3 +750,6 @@
 737. `add_text`｜图层 `STAIRS`｜源 `E000692 ` → 重绘 `R000692`
 738. `add_text`｜图层 `STAIRS`｜源 `E000720 ` → 重绘 `R000720`
 739. `add_text`｜图层 `TEXT`｜源 `E000730 ` → 重绘 `R000730`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

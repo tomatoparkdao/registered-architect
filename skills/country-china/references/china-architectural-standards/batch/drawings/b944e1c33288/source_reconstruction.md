@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P120墙身详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[-13858.68, 14079.77], [-9059.8, 23218.66]]`。
@@ -1458,3 +1461,6 @@
 1448. `add_text`｜图层 `PUB_TEXT`｜源 `E001361 ` → 重绘 `R001361`
 1449. `add_text`｜图层 `PUB_TEXT`｜源 `E001362 ` → 重绘 `R001362`
 1450. `add_text`｜图层 `PUB_TEXT`｜源 `E001363 ` → 重绘 `R001363`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

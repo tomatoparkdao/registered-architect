@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`双墙八字角墙模节点图2.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [193.05, 149.56]]`。
@@ -6170,3 +6173,6 @@
 6160. `add_text`｜图层 `0`｜源 `E006151 ` → 重绘 `R006151`
 6161. `add_text`｜图层 `0`｜源 `E006152 ` → 重绘 `R006152`
 6162. `add_text`｜图层 `0`｜源 `E006155 ` → 重绘 `R006155`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

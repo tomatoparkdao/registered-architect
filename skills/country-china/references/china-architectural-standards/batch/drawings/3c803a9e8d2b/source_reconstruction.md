@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`墙身石材安装示意图1.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -4710,3 +4713,6 @@
 4700. `add_text`｜图层 `0`｜源 `E004690 ` → 重绘 `R004690`
 4701. `add_text`｜图层 `0`｜源 `E004696 ` → 重绘 `R004696`
 4702. `add_text`｜图层 `0`｜源 `E004697 ` → 重绘 `R004697`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

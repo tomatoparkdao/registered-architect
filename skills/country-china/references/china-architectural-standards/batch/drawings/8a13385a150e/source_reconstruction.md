@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`屋顶花架.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[9984.95, 1211.19], [51984.95, 41515.73]]`。
@@ -592,3 +595,6 @@
 582. `add_dimension`｜图层 `PUB_DIM`｜源 `E000294 ` → 重绘 `R000294`
 583. `add_dimension`｜图层 `PUB_DIM`｜源 `E000298 ` → 重绘 `R000298`
 584. `add_dimension`｜图层 `AXIS`｜源 `E000318 ` → 重绘 `R000318`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`屋面女儿墙大样02.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[3010.52, 18988.49], [4924.2, 21522.62]]`。
@@ -99,3 +102,6 @@
 89. `add_dimension`｜图层 `PUB_DIM`｜源 `E000047 ` → 重绘 `R000047`
 90. `add_dimension`｜图层 `PUB_DIM`｜源 `E000048 ` → 重绘 `R000048`
 91. `add_dimension`｜图层 `LINE`｜源 `E000049 ` → 重绘 `R000049`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

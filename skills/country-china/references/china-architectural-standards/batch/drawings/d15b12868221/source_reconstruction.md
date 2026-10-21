@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`十字形截面柱.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[3072.42, 4503.86], [13568.9, 11816.88]]`。
@@ -1455,3 +1458,6 @@
 1445. `add_dimension`｜图层 `0`｜源 `E001229 ` → 重绘 `R001229`
 1446. `add_dimension`｜图层 `0`｜源 `E001263 ` → 重绘 `R001263`
 1447. `add_dimension`｜图层 `0`｜源 `E001264 ` → 重绘 `R001264`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

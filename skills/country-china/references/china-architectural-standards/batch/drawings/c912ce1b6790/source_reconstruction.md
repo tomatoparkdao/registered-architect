@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`排水明沟.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-20207.79, -102101.9], [-17325.34, -101468.47]]`。
@@ -19,3 +22,6 @@
 9. `draw_line`｜图层 `G`｜源 `E000003 ` → 重绘 `R000003`
 10. `draw_line`｜图层 `G`｜源 `E000004 ` → 重绘 `R000004`
 11. `add_text`｜图层 `PF`｜源 `E000005 ` → 重绘 `R000005`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

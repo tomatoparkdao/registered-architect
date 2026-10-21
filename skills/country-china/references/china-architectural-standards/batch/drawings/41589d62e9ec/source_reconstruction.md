@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`07_壁行起重机-平面.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[13604.59, 18505.98], [13616.59, 18521.73]]`。
@@ -30,3 +33,6 @@
 20. `add_text`｜图层 `PUB_TEXT`｜源 `E000015 ` → 重绘 `R000015`
 21. `add_text`｜图层 `PUB_TEXT`｜源 `E000016 ` → 重绘 `R000016`
 22. `add_text`｜图层 `PUB_TEXT`｜源 `E000017 ` → 重绘 `R000017`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # DWG 批次覆盖率报告
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG 总数：4351
 - 有效并完成深度蒸馏：4335
 - 无效 DWG：6
@@ -32,3 +35,6 @@
 - `batch/drawings/eb562b4fabd5/cad_recipe_shards/cad_recipe-0003.json`
 - `batch/drawings/eb562b4fabd5/cad_recipe_shards/cad_recipe-0005.json`
 - `batch/drawings/eb562b4fabd5/cad_recipe_shards/cad_recipe-0007.json`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

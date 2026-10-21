@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`幕墙水平开启节点示意图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -793,3 +796,6 @@
 783. `add_text`｜图层 `0`｜源 `E000781 ` → 重绘 `R000781`
 784. `add_text`｜图层 `0`｜源 `E000782 ` → 重绘 `R000782`
 785. `add_text`｜图层 `0`｜源 `E000783 ` → 重绘 `R000783`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

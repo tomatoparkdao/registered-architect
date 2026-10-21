@@ -511,7 +511,6 @@ DIN 18040-1 区分：
 ---
 
 *交叉引用：加载 `building-codes` 了解一般规范结构（德国结构采用 Eurocode，但生命安全体系具有独特性）；加载 `fire-life-safety` 了解一般原则（并叠加 Brandschutznachweis 方法）；加载 `accessibility-design` 了解全球框架，再结合 DIN 18040；加载 `building-sustainability` 比较 Passivhaus、DGNB 与 LEED；加载 `building-envelope` 了解热工、声学和气候节点（德国南北存在多个气候区）；加载 `structural-systems` 进行基于 Eurocode 的设计。*
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

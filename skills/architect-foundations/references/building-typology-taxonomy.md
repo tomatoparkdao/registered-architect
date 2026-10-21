@@ -540,7 +540,6 @@ agent_created: true
 | **RT (Reverberation Time)** | Time for sound to decay 60dB | Acoustic quality; varies by program type |
 | **ACH (Air Changes/Hour)** | Volume of air replaced per hour | Ventilation adequacy; critical for hospitals, labs |
 | **PUE** | Total facility energy / IT equipment energy | Data center efficiency; 1.0 is theoretical perfect |
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

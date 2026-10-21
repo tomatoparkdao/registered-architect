@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`p301石材幕墙底部节点图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[2472.55, 886.0], [3542.02, 2737.47]]`。
@@ -410,3 +413,6 @@
 400. `add_mtext`｜图层 `文字`｜源 `E000356 ` → 重绘 `R000356`
 401. `add_mtext`｜图层 `文字`｜源 `E000357 ` → 重绘 `R000357`
 402. `add_mtext`｜图层 `PUB_DIM`｜源 `E000369 ` → 重绘 `R000369`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

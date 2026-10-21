@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`p298石材幕墙大洋图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[2403.49, 1304.7], [3349.81, 3192.39]]`。
@@ -245,3 +248,6 @@
 235. `add_mtext`｜图层 `Dim`｜源 `E000202 ` → 重绘 `R000202`
 236. `add_mtext`｜图层 `Dim`｜源 `E000209 ` → 重绘 `R000209`
 237. `add_text`｜图层 `212`｜源 `E000210 ` → 重绘 `R000210`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

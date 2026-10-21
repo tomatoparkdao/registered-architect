@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`p289玻璃幕墙节点.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, -100675.92], [100809.45, 0.0]]`。
@@ -1636,3 +1639,6 @@
 1626. `add_text`｜图层 `T`｜源 `E001467 ` → 重绘 `R001467`
 1627. `add_text`｜图层 `0`｜源 `E001474 ` → 重绘 `R001474`
 1628. `add_text`｜图层 `0`｜源 `E001476 ` → 重绘 `R001476`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

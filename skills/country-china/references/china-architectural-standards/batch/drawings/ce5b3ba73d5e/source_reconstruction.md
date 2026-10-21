@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`四层扶手栏杆放大.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[174310.41, -24409.92], [184810.41, -16984.92]]`。
@@ -1900,3 +1903,6 @@
 1890. `add_dimension`｜图层 `详图-标住`｜源 `E001590 ` → 重绘 `R001590`
 1891. `add_dimension`｜图层 `详图-标住`｜源 `E001591 ` → 重绘 `R001591`
 1892. `add_dimension`｜图层 `详图-标住`｜源 `E001829 ` → 重绘 `R001829`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

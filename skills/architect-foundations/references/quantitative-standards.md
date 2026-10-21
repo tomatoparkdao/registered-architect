@@ -786,7 +786,6 @@ Source: BRE IP 1/06; Accredited Construction Details (UK); PHI certification lim
 *主要来源：Neufert（第 5 版）、AGS（第 12 版）、IBC 2021、ACI 318-19、AISC 360-22、*
 *ASHRAE 62.1-2022、ASHRAE 90.1-2022、BS/EN 标准、CIBSE 指南、Metric Handbook（第 6 版）、*
 *ADA/ABA 标准、PCI Design Handbook、CLT Handbook、PTI Manual。*
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

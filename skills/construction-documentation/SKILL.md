@@ -604,7 +604,17 @@ Construction Specifications Institute（CSI）的 MasterFormat 将技术规范�
 - ISO 19650（BIM 信息管理）
 - National CAD Standard（NCS）——美国
 - BS 1192 / PAS 1192——英国
-#
+
+
+## 中国图集与做法图路由
+
+制图、图框、符号与标注类图纸集中在一本图册里，画施工图前先按这里的规则对齐表达。
+
+| 主题 | 图纸数 | 主要图册 | 对应规范 |
+|---|---|---|---|
+| 制图与图框 | 897 张 | 房屋建筑制图标准图籍（888）、国家标准CAD图框模块（5） | `CJJ/T 67`、`GB/T 50001` |
+
+图纸里的制图习惯不等于现行制图标准；出图前以 GB/T 50001、GB/T 50104 及项目所在地要求为准。入口：`references/ATLAS_ROUTING.md`。
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

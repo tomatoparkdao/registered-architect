@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`膨胀螺栓2.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-174449.11, -310163.28], [-172600.41, -309163.44]]`。
@@ -43,3 +46,6 @@
 33. `draw_line`｜图层 `TEXT`｜源 `E000028 ` → 重绘 `R000028`
 34. `draw_line`｜图层 `TEXT`｜源 `E000029 ` → 重绘 `R000029`
 35. `draw_line`｜图层 `K`｜源 `E000030 ` → 重绘 `R000030`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

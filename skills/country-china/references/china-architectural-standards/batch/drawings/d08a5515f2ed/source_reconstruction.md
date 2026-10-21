@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`窗侧柱身石材安装示意图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -3178,3 +3181,6 @@
 3168. `add_text`｜图层 `0`｜源 `E003163 ` → 重绘 `R003163`
 3169. `add_text`｜图层 `0`｜源 `E003167 ` → 重绘 `R003167`
 3170. `add_text`｜图层 `0`｜源 `E003168 ` → 重绘 `R003168`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

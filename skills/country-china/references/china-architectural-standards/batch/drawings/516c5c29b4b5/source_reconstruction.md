@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`线板系列-1.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-311.77, -21.95], [-304.1, -16.61]]`。
@@ -1767,3 +1770,6 @@
 1757. `add_dimension`｜图层 `0`｜源 `E001351 ` → 重绘 `R001351`
 1758. `add_dimension`｜图层 `0`｜源 `E001352 ` → 重绘 `R001352`
 1759. `add_dimension`｜图层 `0`｜源 `E001353 ` → 重绘 `R001353`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

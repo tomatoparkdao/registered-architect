@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`洗手盆节点图2.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[148121.66, -41318.84], [153123.47, -30909.93]]`。
@@ -303,3 +306,6 @@
 293. `add_dimension`｜图层 `7`｜源 `E000283 ` → 重绘 `R000283`
 294. `add_dimension`｜图层 `7`｜源 `E000284 ` → 重绘 `R000284`
 295. `add_dimension`｜图层 `7`｜源 `E000285 ` → 重绘 `R000285`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

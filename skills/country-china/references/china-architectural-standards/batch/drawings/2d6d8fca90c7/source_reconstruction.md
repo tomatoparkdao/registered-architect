@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`拼接焊接.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[3413.45, 7131.18], [9658.29, 11098.79]]`。
@@ -781,3 +784,6 @@
 771. `add_text`｜图层 `BOR`｜源 `E000765 ` → 重绘 `R000765`
 772. `add_dimension`｜图层 `0`｜源 `E000587 ` → 重绘 `R000587`
 773. `add_dimension`｜图层 `0`｜源 `E000692 ` → 重绘 `R000692`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

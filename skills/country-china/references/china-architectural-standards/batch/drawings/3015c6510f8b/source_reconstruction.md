@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`15_改建时保留的原有墙和窗-主.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[13327.6, 18621.18], [13343.72, 18637.37]]`。
@@ -41,3 +44,6 @@
 31. `draw_line`｜图层 `PUB_DIM`｜源 `E000028 ` → 重绘 `R000028`
 32. `draw_line`｜图层 `PUB_DIM`｜源 `E000029 ` → 重绘 `R000029`
 33. `draw_line`｜图层 `PUB_DIM`｜源 `E000030 ` → 重绘 `R000030`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`残疾人坡道详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-1886423.38, -58755.82], [2378432.0, 1854760.75]]`。
@@ -1736,3 +1739,6 @@
 1726. `add_dimension`｜图层 `DIM-300外`｜源 `E001617 ` → 重绘 `R001617`
 1727. `add_dimension`｜图层 `DIM-300外`｜源 `E001618 ` → 重绘 `R001618`
 1728. `add_dimension`｜图层 `DIM-300外`｜源 `E001619 ` → 重绘 `R001619`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

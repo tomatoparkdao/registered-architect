@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`p325塑铝板剖节点图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[111112.83, 38570.93], [111928.91, 39204.02]]`。
@@ -351,3 +354,6 @@
 341. `add_mtext`｜图层 `ALUMINUM-H`｜源 `E000222 ` → 重绘 `R000222`
 342. `add_mtext`｜图层 `Dim`｜源 `E000228 ` → 重绘 `R000228`
 343. `add_mtext`｜图层 `Dim`｜源 `E000234 ` → 重绘 `R000234`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

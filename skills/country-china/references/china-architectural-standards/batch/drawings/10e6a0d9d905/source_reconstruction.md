@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P35内天沟2.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[87.41, 1166.36], [7002.49, 11498.81]]`。
@@ -487,3 +490,6 @@
 477. `add_text`｜图层 `HZ`｜源 `E000466 ` → 重绘 `R000466`
 478. `add_text`｜图层 `HZ`｜源 `E000469 ` → 重绘 `R000469`
 479. `add_text`｜图层 `HZ`｜源 `E000472 ` → 重绘 `R000472`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

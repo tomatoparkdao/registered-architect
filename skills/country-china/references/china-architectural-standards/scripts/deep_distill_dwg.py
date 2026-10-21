@@ -20,6 +20,8 @@ from pathlib import Path
 import ezdxf
 import torch
 
+from signature import stamp
+
 
 MAX_BYTES = 1024 * 1024
 
@@ -497,10 +499,10 @@ def main():
 
     step_lines = "\n".join(f"{step['step']}. `{step['operation']}`｜图层 `{step['layer']}`｜源 `{step['source_entity_id'] or '-'} ` → 重绘 `{step['reconstructed_entity_id'] or '-'}`" for step in recipe_steps)
     md = safe_markdown(f"# 源图重绘配方\n\n- 源 DWG：`{args.source_dwg.name}`\n- 临时 DXF：仅用于解析，不进入 Skill。\n- 坐标系：模型空间；单位：`{units}`；边界：`{recipe['verification']['expected_bounds']}`。\n- 执行原则：先建立图层，再严格按 `cad_recipe.json` 的操作顺序重建实体、文字与尺寸；每项保留 `source_entity_id` 与 `reconstructed_entity_id`。\n- 限制：材料、厚度、比例未在当前自动读出的源字段中确证，均标为待人工复核。\n\n## CAD 绘图步骤\n\n{step_lines}\n")
-    (out / "source_reconstruction.md").write_text(md, encoding="utf-8")
+    (out / "source_reconstruction.md").write_text(stamp(md), encoding="utf-8")
 
     report = {"result": "geometry_extracted", "gpu_execution": {"device": gpu_name, "cuda_available": True, "operations": ["model-space coordinate tensor construction", "CUDA bounds reduction", "CUDA geometry checksum", "CUDA nearest-geometry association for text and dimensions"]}, "entity_counts": dict(Counter([x["entity_type"] for x in geometry] + [x["entity_type"] for x in texts] + [x["entity_type"] for x in dimensions])), "geometry_checksum": r(geometry_hash), "bounds": recipe["verification"]["expected_bounds"], "warnings": ["LibreDWG reported six HATCH handle warnings during temporary conversion; generated HATCH boundaries are retained only when present in DXF."]}
-    (out / "parse_report.md").write_text("# 解析报告\n\n```json\n" + json.dumps(report, ensure_ascii=True, indent=2) + "\n```\n", encoding="utf-8")
+    (out / "parse_report.md").write_text(stamp("# 解析报告\n\n```json\n" + json.dumps(report, ensure_ascii=True, indent=2) + "\n```\n"), encoding="utf-8")
     source_msp = Counter(entity.dxftype() for entity in doc.modelspace())
     target_msp = Counter(entity.dxftype() for entity in reloaded.modelspace())
     categories = {
@@ -522,7 +524,7 @@ def main():
     map_complete = len(handle_map) == sum(source_msp.values()) and all(item["reconstructed_handle"] for item in handle_map)
     reconstruction_report = {"status": "reconstructed_by_independently_executing_cad_recipe", "reconstructed_dxf": f"reconstruction/{reconstruction_name}", "entity_handle_map": "reconstruction/entity_handle_map.json", "source_geometry_checksum": r(geometry_hash), "model_space_type_counts": {"source": dict(source_msp), "reconstructed": dict(target_msp)}, "category_counts": categories, "block_summary": block_summary, "handle_mapping": {"mapped_source_modelspace_entities": len(handle_map), "expected_source_modelspace_entities": sum(source_msp.values()), "complete": map_complete, "system_generated_modelspace_entities": 0, "system_generated_non_modelspace_entities": "匿名 *D 尺寸块内图元；均由对应 DIMENSION 重绘步骤生成。"}, "gpu_device": gpu_name, "source_bounds": [[r(v) for v in row] for row in source_bounds.cpu().tolist()], "reconstructed_bounds": [[r(v) for v in row] for row in rebuilt_bounds.cpu().tolist()], "max_bound_delta": r(bound_delta), "bounds_match_within_tolerance": bool(bound_delta <= 0.01), "comparison": "重绘 DXF 由 cad_recipe.json 独立执行生成；模型空间每类实体数量、边界和逐实体句柄映射均已核验。DIMENSION 关联为 GPU 近邻候选，仍明确标记为待人工复核。"}
     report_summary = "# 重绘验证报告\n\n## 计数口径与结论\n\n- 先前的 `27` 是含 6 个 HATCH 的几何记录数：`21` 个非填充几何 + `6` 个 HATCH；不是总模型空间实体数。\n- 总模型空间实体为 `27` 几何记录 + `7` 个 TEXT/MTEXT + `5` 个 DIMENSION = `39`。源图与重绘图在该口径下均为 39。\n- 本样本没有 LEADER 或模型空间 INSERT。源图的 21 个命名块没有被 INSERT 引用，故独立 Recipe 不复制无效库块；重绘文件唯一命名块是 CAD 默认尺寸样式支持块，非模型空间实体。5 个匿名 `*D` 块由对应 DIMENSION 的 CAD 渲染步骤生成。\n- `entity_handle_map.json` 为 39 个源模型空间实体逐项给出源句柄与重绘句柄；没有无来源的模型空间几何。\n\n```json\n"
-    (out / "reconstruction_test_report.md").write_text(report_summary + json.dumps(reconstruction_report, ensure_ascii=True, indent=2) + "\n```\n", encoding="utf-8")
+    (out / "reconstruction_test_report.md").write_text(stamp(report_summary + json.dumps(reconstruction_report, ensure_ascii=True, indent=2) + "\n```\n"), encoding="utf-8")
     (out / "reports" / "parse_failures.log").write_text("", encoding="utf-8")
     (out / "reports" / "oversized_files.log").write_text("", encoding="utf-8")
     sharded = []

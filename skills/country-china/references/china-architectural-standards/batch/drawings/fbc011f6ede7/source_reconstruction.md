@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`10_墙预留洞.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[13235.58, 18553.42], [13276.11, 18561.82]]`。
@@ -22,3 +25,6 @@
 12. `add_text`｜图层 `PUB_TEXT`｜源 `E000005 ` → 重绘 `R000005`
 13. `add_text`｜图层 `PUB_TEXT`｜源 `E000006 ` → 重绘 `R000006`
 14. `add_text`｜图层 `PUB_TEXT`｜源 `E000009 ` → 重绘 `R000009`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

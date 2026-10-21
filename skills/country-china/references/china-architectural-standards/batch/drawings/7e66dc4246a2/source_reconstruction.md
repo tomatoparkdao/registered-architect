@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`非正交连接.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[1779.9, 4625.85], [7997.48, 9165.49]]`。
@@ -1070,3 +1073,6 @@
 1060. `add_text`｜图层 `Z`｜源 `E001052 ` → 重绘 `R001052`
 1061. `add_text`｜图层 `Z`｜源 `E001053 ` → 重绘 `R001053`
 1062. `add_text`｜图层 `Z`｜源 `E001054 ` → 重绘 `R001054`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

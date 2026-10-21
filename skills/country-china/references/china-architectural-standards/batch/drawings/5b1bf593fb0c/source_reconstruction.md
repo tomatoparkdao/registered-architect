@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`泵房.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [897482.12, 133847.73]]`。
@@ -1314,3 +1317,6 @@
 1304. `add_dimension`｜图层 `PUB_DIM`｜源 `E001265 ` → 重绘 `R001265`
 1305. `add_dimension`｜图层 `PUB_DIM`｜源 `E001267 ` → 重绘 `R001267`
 1306. `add_dimension`｜图层 `PUB_DIM`｜源 `E001268 ` → 重绘 `R001268`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`p338挂钩式幕墙节点.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[112898.63, 39227.57], [113545.57, 40096.71]]`。
@@ -719,3 +722,6 @@
 709. `add_text`｜图层 `PUB_DIM`｜源 `E000670 ` → 重绘 `R000670`
 710. `add_text`｜图层 `PUB_DIM`｜源 `E000671 ` → 重绘 `R000671`
 711. `add_text`｜图层 `PUB_DIM`｜源 `E000672 ` → 重绘 `R000672`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

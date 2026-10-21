@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`B2型板梯.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[287818.31, 67136.1], [305679.12, 77425.48]]`。
@@ -146,3 +149,6 @@
 136. `add_dimension`｜图层 `尺寸标注`｜源 `E000077 ` → 重绘 `R000077`
 137. `add_dimension`｜图层 `尺寸标注`｜源 `E000078 ` → 重绘 `R000078`
 138. `add_dimension`｜图层 `ASDIM0`｜源 `E000083 ` → 重绘 `R000083`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

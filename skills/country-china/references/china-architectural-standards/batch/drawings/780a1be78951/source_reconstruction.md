@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`能量计2.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-21632.95, -12539.26], [-21584.81, -12525.9]]`。
@@ -29,3 +32,6 @@
 19. `draw_line`｜图层 `0`｜源 `E000018 ` → 重绘 `R000018`
 20. `add_text`｜图层 `0`｜源 `E000011 ` → 重绘 `R000011`
 21. `add_text`｜图层 `0`｜源 `E000013 ` → 重绘 `R000013`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

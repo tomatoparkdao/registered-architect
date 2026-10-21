@@ -1,0 +1,3428 @@
+{
+ "generated_at": "2026-10-21T07:59:17+00:00",
+ "method": "条文正文中的标准编号匹配，同一对被提及 ≥2 次记一条引用边",
+ "nodes": 314,
+ "coded_nodes": 198,
+ "edges": 587,
+ "top_cited": [
+  {
+   "code": "GB 50016",
+   "mentions": 662,
+   "title": "GB 50016-2014 建筑设计防火规范（2018年版）加标注",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50352",
+   "mentions": 171,
+   "title": "GB50352-2005《民用建筑设计通则》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50045",
+   "mentions": 149,
+   "title": "GB50045-95(2005年版)  高层民用建筑设计防火规范",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50189",
+   "mentions": 146,
+   "title": "GB50189-2015  公共建筑节能设计标准",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50763",
+   "mentions": 139,
+   "title": "GB50763-2012《无障碍设计规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50096",
+   "mentions": 132,
+   "title": "GB 50096-2011 住宅设计规范",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50067",
+   "mentions": 106,
+   "title": "GB 50067-2014 汽车库、修车库、停车场设计防火规范",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50084",
+   "mentions": 88,
+   "title": "A03-2自动喷水灭火系统设计规范GB50084-2017",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50118",
+   "mentions": 85,
+   "title": "GB50118-2010《民用建筑隔声设计规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50222",
+   "mentions": 84,
+   "title": "GB50222-2017 建筑内部装修设计防火规范",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50116",
+   "mentions": 80,
+   "title": "GB50116-2013火灾自动报警系统设计规范",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50368",
+   "mentions": 66,
+   "title": "GB50368-2005《住宅建筑规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "07FJ02",
+   "mentions": 62,
+   "title": "07FJ02 防空地下室建筑构造",
+   "kind": "图集"
+  },
+  {
+   "code": "GB 50345",
+   "mentions": 59,
+   "title": "GB50345-2012屋面工程技术规范",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50176",
+   "mentions": 57,
+   "title": "GB 50176-2016 民用建筑热工设计规范",
+   "kind": "国家标准"
+  },
+  {
+   "code": "JGJ 38",
+   "mentions": 51,
+   "title": "JGJ38-2015《图书馆建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 50098",
+   "mentions": 46,
+   "title": "GB50098-2009《人民防空工程设计防火规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "JGJ 57",
+   "mentions": 43,
+   "title": "JGJ57-2016《剧场建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 50180",
+   "mentions": 42,
+   "title": "GB 50180-1993（2016年版 )城市居住区规划设计规范（2016年版）",
+   "kind": "国家标准"
+  },
+  {
+   "code": "JGJ 100",
+   "mentions": 41,
+   "title": "JGJ100-2015《车库建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 50033",
+   "mentions": 40,
+   "title": "GB50033-2013《建筑采光设计标准》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50072",
+   "mentions": 36,
+   "title": "GB50072-2010《冷库设计规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "JGJ 16",
+   "mentions": 36,
+   "title": "JGJ16-2008民用建筑电气设计规范（节选）",
+   "kind": "行业标准"
+  },
+  {
+   "code": "CJJ 14",
+   "mentions": 36,
+   "title": "CJJ14-2005 城市公共厕所设计标准",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ 67",
+   "mentions": 35,
+   "title": "JGJ67-2006《办公建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 50005",
+   "mentions": 35,
+   "title": "GB50005-2017木结构设计标准",
+   "kind": "国家标准"
+  },
+  {
+   "code": "JGJ 134",
+   "mentions": 35,
+   "title": "JGJ134-2010  夏热冬冷地区居住及建筑节能设计标准",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 50156",
+   "mentions": 34,
+   "title": "GB50156-2012《气站设计与施工规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "JGJ 58",
+   "mentions": 31,
+   "title": "JGJ58-2008《电影院建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ 75",
+   "mentions": 31,
+   "title": "JGJ75-2012  夏热冬暖地区居住建筑节能设计标准",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ 113",
+   "mentions": 31,
+   "title": "JGJ113-2015  建筑玻璃应用技术规程",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ 64",
+   "mentions": 30,
+   "title": "JGJ 64-2017 饮食建筑设计标准",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ 155",
+   "mentions": 29,
+   "title": "JGJ155-2013  种植屋面工程技术规程",
+   "kind": "行业标准"
+  },
+  {
+   "code": "18J820",
+   "mentions": 28,
+   "title": "18J820 《装配式住宅建筑设计标准》图示",
+   "kind": "图集"
+  },
+  {
+   "code": "GB 50041",
+   "mentions": 28,
+   "title": "GB50041-2008《锅炉房设计规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "JGJ 48",
+   "mentions": 27,
+   "title": "JGJ48-2014 商店建筑设计规范",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 50007",
+   "mentions": 26,
+   "title": "GB50007-2011 建筑地基基础设计规范（节选）",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50099",
+   "mentions": 25,
+   "title": "GB50099-2011《中小学校设计规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB/T 50353",
+   "mentions": 25,
+   "title": "GBT50353-2013 建筑工程建筑面积计算规范",
+   "kind": "推荐性国标"
+  },
+  {
+   "code": "GB 50174",
+   "mentions": 24,
+   "title": "GB 50174-2017数据中心设计规范",
+   "kind": "国家标准"
+  }
+ ],
+ "top_citing": [
+  {
+   "code": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "mentions": 296,
+   "title": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "kind": "技术文件"
+  },
+  {
+   "code": "GB 50016·说明",
+   "mentions": 270,
+   "title": "GB 50016-2014(2018年版)实施指南  建筑设计防火规范",
+   "kind": "条文说明"
+  },
+  {
+   "code": "GB 50067",
+   "mentions": 175,
+   "title": "GB 50067-2014 汽车库、修车库、停车场设计防火规范",
+   "kind": "国家标准"
+  },
+  {
+   "code": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "mentions": 133,
+   "title": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "kind": "技术文件"
+  },
+  {
+   "code": "GB 50016",
+   "mentions": 126,
+   "title": "GB 50016-2014 建筑设计防火规范（2018年版）加标注",
+   "kind": "国家标准"
+  },
+  {
+   "code": "JGJ 48",
+   "mentions": 116,
+   "title": "JGJ48-2014 商店建筑设计规范",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 51157",
+   "mentions": 98,
+   "title": "GB51157-2016《物流建筑设计规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "JGJ 62",
+   "mentions": 98,
+   "title": "JGJ62-2014《旅馆建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "工程建设标准强制性条文",
+   "mentions": 90,
+   "title": "工程建设标准强制性条文",
+   "kind": "技术文件"
+  },
+  {
+   "code": "补充资料-全国民用建筑工程设计技术措施",
+   "mentions": 88,
+   "title": "补充资料-全国民用建筑工程设计技术措施",
+   "kind": "技术文件"
+  },
+  {
+   "code": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "mentions": 88,
+   "title": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "kind": "技术文件"
+  },
+  {
+   "code": "JGJ 100",
+   "mentions": 84,
+   "title": "JGJ100-2015《车库建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ/T 41",
+   "mentions": 81,
+   "title": "JGJ-T41-2014 文化馆建筑设计规范",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ 66",
+   "mentions": 80,
+   "title": "JGJ66-2015《博物馆建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 50340",
+   "mentions": 67,
+   "title": "GB 50340-2016 老年人居住建筑设计规范",
+   "kind": "国家标准"
+  },
+  {
+   "code": "07FJ01",
+   "mentions": 66,
+   "title": "07FJ01 《防空地下室建筑设计》图示",
+   "kind": "图集"
+  },
+  {
+   "code": "13J811-1",
+   "mentions": 66,
+   "title": "13J811-1-2015《建筑设计防火规范》图示",
+   "kind": "图集"
+  },
+  {
+   "code": "GB 50099",
+   "mentions": 64,
+   "title": "GB50099-2011《中小学校设计规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50352",
+   "mentions": 58,
+   "title": "GB50352-2005《民用建筑设计通则》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "JGJ 39",
+   "mentions": 54,
+   "title": "JGJ 39-2016 托儿所、幼儿园建筑设计规范",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ 367",
+   "mentions": 48,
+   "title": "JGJ367-2015住宅室内装饰装修设计规范",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ 36",
+   "mentions": 45,
+   "title": "JGJ 36-2016 宿舍建筑设计规范",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 50974·说明",
+   "mentions": 44,
+   "title": "GB50974-2014消防给水及消火栓系统技术规范 （高清含条文说明）",
+   "kind": "条文说明"
+  },
+  {
+   "code": "JGJ 64",
+   "mentions": 43,
+   "title": "JGJ 64-2017 饮食建筑设计标准",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 50368",
+   "mentions": 41,
+   "title": "GB50368-2005《住宅建筑规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "JGJ/T 397",
+   "mentions": 39,
+   "title": "JGJT397-2016《公墓和骨灰寄存建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ 214",
+   "mentions": 38,
+   "title": "铝合金门窗工程技术规范---JGJ 214-2010",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 51039",
+   "mentions": 35,
+   "title": "GB51039-2014《综合医院建筑设计规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "18J811-1",
+   "mentions": 32,
+   "title": "18J811-1 《建筑设计防火规范》图示",
+   "kind": "图集"
+  },
+  {
+   "code": "【思维导图】2019民用建筑设计统一标准",
+   "mentions": 31,
+   "title": "【思维导图】2019民用建筑设计统一标准",
+   "kind": "技术文件"
+  },
+  {
+   "code": "建筑防水（补充教材）",
+   "mentions": 30,
+   "title": "建筑防水（补充教材）",
+   "kind": "技术文件"
+  },
+  {
+   "code": "JGJ 57",
+   "mentions": 29,
+   "title": "JGJ57-2016《剧场建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ/T 67",
+   "mentions": 29,
+   "title": "JGJT67-2019《办公建筑设计标准》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "装配式住宅建筑设计标准图示",
+   "mentions": 28,
+   "title": "装配式住宅建筑设计标准图示",
+   "kind": "技术文件"
+  },
+  {
+   "code": "全国民用建筑工程设计技术措施节能专篇-建筑",
+   "mentions": 27,
+   "title": "全国民用建筑工程设计技术措施节能专篇-建筑",
+   "kind": "技术文件"
+  },
+  {
+   "code": "JGJ 38",
+   "mentions": 25,
+   "title": "JGJ38-2015《图书馆建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "JGJ 58",
+   "mentions": 23,
+   "title": "JGJ58-2008《电影院建筑设计规范》",
+   "kind": "行业标准"
+  },
+  {
+   "code": "GB 50096",
+   "mentions": 23,
+   "title": "GB 50096-2011 住宅设计规范",
+   "kind": "国家标准"
+  },
+  {
+   "code": "GB 50156",
+   "mentions": 21,
+   "title": "GB50156-2012《气站设计与施工规范》",
+   "kind": "国家标准"
+  },
+  {
+   "code": "技术作图-电力版构造题",
+   "mentions": 21,
+   "title": "技术作图-电力版构造题",
+   "kind": "技术文件"
+  }
+ ],
+ "edges_detail": [
+  {
+   "from": "GB 50067",
+   "to": "GB 50016",
+   "mentions": 107
+  },
+  {
+   "from": "07FJ01",
+   "to": "07FJ02",
+   "mentions": 62
+  },
+  {
+   "from": "GB 51157",
+   "to": "GB 50016",
+   "mentions": 62
+  },
+  {
+   "from": "GB 50340",
+   "to": "GB 50096",
+   "mentions": 48
+  },
+  {
+   "from": "13J811-1",
+   "to": "GB 50016",
+   "mentions": 42
+  },
+  {
+   "from": "JGJ 48",
+   "to": "GB 50016",
+   "mentions": 39
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50016",
+   "mentions": 33
+  },
+  {
+   "from": "JGJ 100",
+   "to": "GB 50067",
+   "mentions": 30
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50045",
+   "mentions": 30
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50352",
+   "mentions": 28
+  },
+  {
+   "from": "GB 50974·说明",
+   "to": "GB 50016",
+   "mentions": 28
+  },
+  {
+   "from": "装配式住宅建筑设计标准图示",
+   "to": "18J820",
+   "mentions": 28
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 50084",
+   "mentions": 27
+  },
+  {
+   "from": "JGJ 100",
+   "to": "GB 50352",
+   "mentions": 26
+  },
+  {
+   "from": "JGJ 367",
+   "to": "GB 50096",
+   "mentions": 22
+  },
+  {
+   "from": "JGJ 66",
+   "to": "GB 50016",
+   "mentions": 22
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50067",
+   "mentions": 21
+  },
+  {
+   "from": "GB 50156",
+   "to": "GB 50016",
+   "mentions": 21
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "GB 50045",
+   "mentions": 21
+  },
+  {
+   "from": "GB 50099",
+   "to": "GB 50016",
+   "mentions": 20
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50096",
+   "mentions": 20
+  },
+  {
+   "from": "GB 50352",
+   "to": "GB 50016",
+   "mentions": 19
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50016",
+   "mentions": 19
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50084",
+   "mentions": 18
+  },
+  {
+   "from": "GB 50099",
+   "to": "GB 50118",
+   "mentions": 18
+  },
+  {
+   "from": "GB 50368",
+   "to": "GB 50096",
+   "mentions": 18
+  },
+  {
+   "from": "JGJ 100",
+   "to": "GB 50016",
+   "mentions": 18
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50368",
+   "mentions": 17
+  },
+  {
+   "from": "JGJ 62",
+   "to": "GB 50118",
+   "mentions": 17
+  },
+  {
+   "from": "JGJ 48",
+   "to": "GB 50763",
+   "mentions": 16
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 50072",
+   "mentions": 15
+  },
+  {
+   "from": "JG 108",
+   "to": "JGJ 38",
+   "mentions": 15
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50045",
+   "mentions": 15
+  },
+  {
+   "from": "建筑防水（补充教材）",
+   "to": "GB 50345",
+   "mentions": 15
+  },
+  {
+   "from": "JGJ 48",
+   "to": "GB 50352",
+   "mentions": 14
+  },
+  {
+   "from": "JGJ 48",
+   "to": "GB 50189",
+   "mentions": 14
+  },
+  {
+   "from": "JGJ 62",
+   "to": "GB 50189",
+   "mentions": 14
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB 50016",
+   "mentions": 14
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 50116",
+   "mentions": 13
+  },
+  {
+   "from": "GB 50067",
+   "to": "GB 50084",
+   "mentions": 13
+  },
+  {
+   "from": "GB 50067",
+   "to": "GB 50045",
+   "mentions": 13
+  },
+  {
+   "from": "GB 50340",
+   "to": "GB 50763",
+   "mentions": 13
+  },
+  {
+   "from": "JGJ 36",
+   "to": "GB 50763",
+   "mentions": 13
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50098",
+   "mentions": 13
+  },
+  {
+   "from": "CJJ/T 67",
+   "to": "GB/T 50001",
+   "mentions": 12
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 48",
+   "mentions": 12
+  },
+  {
+   "from": "JGJ 64",
+   "to": "GB 50016",
+   "mentions": 12
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "JGJ 67",
+   "mentions": 12
+  },
+  {
+   "from": "JGJ 57",
+   "to": "GB 50016",
+   "mentions": 12
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB/T 21086",
+   "mentions": 12
+  },
+  {
+   "from": "【思维导图】2019民用建筑设计统一标准",
+   "to": "GB 50016",
+   "mentions": 12
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB 50045",
+   "mentions": 12
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50045",
+   "mentions": 11
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 67",
+   "mentions": 11
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50041",
+   "mentions": 11
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 57",
+   "mentions": 11
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 50045",
+   "mentions": 11
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 50156",
+   "mentions": 11
+  },
+  {
+   "from": "GB 50067",
+   "to": "GB 50156",
+   "mentions": 11
+  },
+  {
+   "from": "GB 50368",
+   "to": "GB 50180",
+   "mentions": 11
+  },
+  {
+   "from": "GB 51039",
+   "to": "GB 50189",
+   "mentions": 11
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50189",
+   "mentions": 11
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施节能专篇-建筑",
+   "to": "GB 50189",
+   "mentions": 11
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 58",
+   "mentions": 11
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50067",
+   "mentions": 11
+  },
+  {
+   "from": "15K606",
+   "to": "GB 51251",
+   "mentions": 10
+  },
+  {
+   "from": "GB 50222",
+   "to": "GB 50016",
+   "mentions": 10
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50005",
+   "mentions": 10
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 50368",
+   "mentions": 10
+  },
+  {
+   "from": "GB 51157",
+   "to": "GB 50091",
+   "mentions": 10
+  },
+  {
+   "from": "JGJ 36",
+   "to": "GB 50222",
+   "mentions": 10
+  },
+  {
+   "from": "JGJ 39",
+   "to": "GB 50033",
+   "mentions": 10
+  },
+  {
+   "from": "JGJ/T 397",
+   "to": "GB 50016",
+   "mentions": 10
+  },
+  {
+   "from": "13ZJ002",
+   "to": "JGJ 298",
+   "mentions": 10
+  },
+  {
+   "from": "技术作图-电力版构造题",
+   "to": "GB 50345",
+   "mentions": 10
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50368",
+   "mentions": 10
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 38",
+   "mentions": 10
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50007",
+   "mentions": 10
+  },
+  {
+   "from": "【思维导图】2019民用建筑设计统一标准",
+   "to": "GB 50352",
+   "mentions": 10
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB/T 21086",
+   "mentions": 10
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 64",
+   "mentions": 9
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 38",
+   "mentions": 9
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 16",
+   "mentions": 9
+  },
+  {
+   "from": "GB 50067",
+   "to": "GB 50116",
+   "mentions": 9
+  },
+  {
+   "from": "JGJ 39",
+   "to": "GB 50016",
+   "mentions": 9
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "JGJ 57",
+   "mentions": 9
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "GB 50099",
+   "mentions": 9
+  },
+  {
+   "from": "JGJ 367",
+   "to": "GB 50763",
+   "mentions": 9
+  },
+  {
+   "from": "JGJ 38",
+   "to": "GB 50016",
+   "mentions": 9
+  },
+  {
+   "from": "JGJ 48",
+   "to": "GB 50222",
+   "mentions": 9
+  },
+  {
+   "from": "JGJ 58",
+   "to": "GB 50016",
+   "mentions": 9
+  },
+  {
+   "from": "JGJ 58",
+   "to": "GB 50045",
+   "mentions": 9
+  },
+  {
+   "from": "JGJ 62",
+   "to": "GB 50067",
+   "mentions": 9
+  },
+  {
+   "from": "JGJ 62",
+   "to": "GB 50016",
+   "mentions": 9
+  },
+  {
+   "from": "JGJ 62",
+   "to": "GB 50763",
+   "mentions": 9
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "GB 50067",
+   "mentions": 9
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50226",
+   "mentions": 9
+  },
+  {
+   "from": "07FJ02",
+   "to": "07FJ01",
+   "mentions": 8
+  },
+  {
+   "from": "07FJ02",
+   "to": "07FJ03",
+   "mentions": 8
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50016",
+   "mentions": 8
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 75",
+   "mentions": 8
+  },
+  {
+   "from": "建筑面积计算规范2014",
+   "to": "GB/T 50353",
+   "mentions": 8
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50098",
+   "mentions": 8
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 36",
+   "mentions": 8
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 39",
+   "mentions": 8
+  },
+  {
+   "from": "GB 50072",
+   "to": "GB 50016",
+   "mentions": 8
+  },
+  {
+   "from": "GB 50099",
+   "to": "GB 50352",
+   "mentions": 8
+  },
+  {
+   "from": "GB 50974·说明",
+   "to": "GB 50045",
+   "mentions": 8
+  },
+  {
+   "from": "JGJ 450",
+   "to": "GB 50763",
+   "mentions": 8
+  },
+  {
+   "from": "JGJ 64",
+   "to": "GB 50033",
+   "mentions": 8
+  },
+  {
+   "from": "JGJ 48",
+   "to": "GB 50067",
+   "mentions": 8
+  },
+  {
+   "from": "JGJ 66",
+   "to": "GB 50763",
+   "mentions": 8
+  },
+  {
+   "from": "JGJ/T 397",
+   "to": "GB 51192",
+   "mentions": 8
+  },
+  {
+   "from": "15J403",
+   "to": "15J403-1",
+   "mentions": 8
+  },
+  {
+   "from": "JGJ 214",
+   "to": "JGJ 113",
+   "mentions": 8
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB 50189",
+   "mentions": 8
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50222",
+   "mentions": 7
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50368",
+   "mentions": 7
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50156",
+   "mentions": 7
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 31",
+   "mentions": 7
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 58",
+   "mentions": 7
+  },
+  {
+   "from": "GB 50067",
+   "to": "GB 50222",
+   "mentions": 7
+  },
+  {
+   "from": "GB 50067",
+   "to": "GB 50098",
+   "mentions": 7
+  },
+  {
+   "from": "GB 51192",
+   "to": "GB 50763",
+   "mentions": 7
+  },
+  {
+   "from": "JGJ 39",
+   "to": "GB 50118",
+   "mentions": 7
+  },
+  {
+   "from": "JGJ 62",
+   "to": "CJJ 14",
+   "mentions": 7
+  },
+  {
+   "from": "JGJ 62",
+   "to": "JGJ 64",
+   "mentions": 7
+  },
+  {
+   "from": "JGJ 75",
+   "to": "GB 50176",
+   "mentions": 7
+  },
+  {
+   "from": "14J924",
+   "to": "GB 50005",
+   "mentions": 7
+  },
+  {
+   "from": "JGJ 155·说明",
+   "to": "GB 50345",
+   "mentions": 7
+  },
+  {
+   "from": "JGJ 155",
+   "to": "GB 50345",
+   "mentions": 7
+  },
+  {
+   "from": "JGJ 214",
+   "to": "GB 50189",
+   "mentions": 7
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50222",
+   "mentions": 7
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 134",
+   "mentions": 7
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施节能专篇-建筑",
+   "to": "GB 50176",
+   "mentions": 7
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "JGJ 38",
+   "mentions": 7
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "GB 50226",
+   "mentions": 7
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 124",
+   "mentions": 7
+  },
+  {
+   "from": "13J811-1",
+   "to": "GB 50072",
+   "mentions": 6
+  },
+  {
+   "from": "18J811-1",
+   "to": "GB 50016",
+   "mentions": 6
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 100",
+   "mentions": 6
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 134",
+   "mentions": 6
+  },
+  {
+   "from": "GB 50096",
+   "to": "GB 50368",
+   "mentions": 6
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50016",
+   "mentions": 6
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50116",
+   "mentions": 6
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 50005",
+   "mentions": 6
+  },
+  {
+   "from": "GB 50067",
+   "to": "JGJ 100",
+   "mentions": 6
+  },
+  {
+   "from": "GB 51054",
+   "to": "GB 50016",
+   "mentions": 6
+  },
+  {
+   "from": "GB 51054",
+   "to": "GB 50352",
+   "mentions": 6
+  },
+  {
+   "from": "GB 50974·说明",
+   "to": "GB 50084",
+   "mentions": 6
+  },
+  {
+   "from": "GB 51039",
+   "to": "GB 50352",
+   "mentions": 6
+  },
+  {
+   "from": "GB 51157",
+   "to": "GB 50037",
+   "mentions": 6
+  },
+  {
+   "from": "GB 51157",
+   "to": "GB 50116",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ 36",
+   "to": "GB 50118",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ 64",
+   "to": "GB 50763",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ 64",
+   "to": "GB 50352",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ/T 229",
+   "to": "GB 50352",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "GB 50016",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "GB 50033",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "JGJ 66",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "JGJ 38",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "JGJ 25",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "GB 50174",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "GB 50189",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ 367",
+   "to": "JGJ 113",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ 66",
+   "to": "GB 50222",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ 66",
+   "to": "GB 50033",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ/T 40",
+   "to": "GB 51039",
+   "mentions": 6
+  },
+  {
+   "from": "14J206",
+   "to": "JGJ 155",
+   "mentions": 6
+  },
+  {
+   "from": "15J403-1",
+   "to": "06J403-1",
+   "mentions": 6
+  },
+  {
+   "from": "15J403-1",
+   "to": "15J403",
+   "mentions": 6
+  },
+  {
+   "from": "20版-第三节-墙体",
+   "to": "GB 50176",
+   "mentions": 6
+  },
+  {
+   "from": "GB 50037",
+   "to": "GB 50007",
+   "mentions": 6
+  },
+  {
+   "from": "JGJ 16",
+   "to": "GB 50116",
+   "mentions": 6
+  },
+  {
+   "from": "技术作图-电力版构造题",
+   "to": "GB 50763",
+   "mentions": 6
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50180",
+   "mentions": 6
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 100",
+   "mentions": 6
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "JGJ 57",
+   "mentions": 6
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 67",
+   "mentions": 6
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 48",
+   "mentions": 6
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 57",
+   "mentions": 6
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50693",
+   "mentions": 6
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50189",
+   "mentions": 6
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50005",
+   "mentions": 6
+  },
+  {
+   "from": "建筑防水（补充教材）",
+   "to": "JGJ 155",
+   "mentions": 6
+  },
+  {
+   "from": "【思维导图】2019民用建筑设计统一标准",
+   "to": "GB 50763",
+   "mentions": 6
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 155",
+   "mentions": 5
+  },
+  {
+   "from": "A02-04汽车库、修车库、停车场设计防火规范",
+   "to": "GB 50016",
+   "mentions": 5
+  },
+  {
+   "from": "GB 51251",
+   "to": "GB 50016",
+   "mentions": 5
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50096",
+   "mentions": 5
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 66",
+   "mentions": 5
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 62",
+   "mentions": 5
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50099",
+   "mentions": 5
+  },
+  {
+   "from": "GB 50174",
+   "to": "GB 50116",
+   "mentions": 5
+  },
+  {
+   "from": "GB 50352",
+   "to": "GB 50037",
+   "mentions": 5
+  },
+  {
+   "from": "GB 50368",
+   "to": "JGJ 50",
+   "mentions": 5
+  },
+  {
+   "from": "GB 50849",
+   "to": "GB 50045",
+   "mentions": 5
+  },
+  {
+   "from": "GB 51039",
+   "to": "GB 50116",
+   "mentions": 5
+  },
+  {
+   "from": "GB 51039",
+   "to": "GB 50118",
+   "mentions": 5
+  },
+  {
+   "from": "GB 51039",
+   "to": "GB 50763",
+   "mentions": 5
+  },
+  {
+   "from": "GB 51058",
+   "to": "GB 51039",
+   "mentions": 5
+  },
+  {
+   "from": "GB 51192",
+   "to": "GB 50352",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 36",
+   "to": "GB 50099",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 36",
+   "to": "GB 50016",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 39",
+   "to": "GB 50067",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 39",
+   "to": "GB 50352",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 450",
+   "to": "GB 50016",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 64",
+   "to": "CJJ 14",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 367",
+   "to": "GB 50222",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 48",
+   "to": "CJJ 14",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 48",
+   "to": "GB 50118",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 62",
+   "to": "GB 50176",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 62",
+   "to": "JGJ 100",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 75",
+   "to": "GB 50189",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ/T 40",
+   "to": "GB 50189",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ/T 60",
+   "to": "JGJ 86",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ/T 67",
+   "to": "GB 50016",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 214",
+   "to": "JGJ 75",
+   "mentions": 5
+  },
+  {
+   "from": "JGJ 214",
+   "to": "GB 50352",
+   "mentions": 5
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB/T 50378",
+   "mentions": 5
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50098",
+   "mentions": 5
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 113",
+   "mentions": 5
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "JGJ 48",
+   "mentions": 5
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "GB 50096",
+   "mentions": 5
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "JGJ 124",
+   "mentions": 5
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "JGJ 25",
+   "mentions": 5
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 39",
+   "mentions": 5
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50072",
+   "mentions": 5
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50041",
+   "mentions": 5
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50084",
+   "mentions": 5
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50222",
+   "mentions": 5
+  },
+  {
+   "from": "建筑防水（补充教材）",
+   "to": "GB 50693",
+   "mentions": 5
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "CJJ 14",
+   "mentions": 5
+  },
+  {
+   "from": "07FJ01",
+   "to": "07FJ03",
+   "mentions": 4
+  },
+  {
+   "from": "18J811-1",
+   "to": "GB 50084",
+   "mentions": 4
+  },
+  {
+   "from": "18J811-1",
+   "to": "GB 50116",
+   "mentions": 4
+  },
+  {
+   "from": "18J811-1",
+   "to": "GB 50005",
+   "mentions": 4
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50037",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50096",
+   "to": "GB 50016",
+   "mentions": 4
+  },
+  {
+   "from": "A3-7 消防给水及消防栓系统技术规范",
+   "to": "GB 50084",
+   "mentions": 4
+  },
+  {
+   "from": "CJJ 14",
+   "to": "GB 50016",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 51251",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 51309",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 50222",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 50041",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50016",
+   "to": "JGJ 39",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50016",
+   "to": "JGJ 25",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50016",
+   "to": "JGJ 58",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50174",
+   "to": "GB 50016",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50099",
+   "to": "GB 50222",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50099",
+   "to": "GB 50189",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50099",
+   "to": "GB 50174",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50099",
+   "to": "JGJ 50",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50352",
+   "to": "JGJ 100",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50352",
+   "to": "GB 50118",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50352",
+   "to": "GB 50033",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50849",
+   "to": "GB 50016",
+   "mentions": 4
+  },
+  {
+   "from": "GB 51157",
+   "to": "GB 50189",
+   "mentions": 4
+  },
+  {
+   "from": "GB 51157",
+   "to": "GB 50072",
+   "mentions": 4
+  },
+  {
+   "from": "GB 51157",
+   "to": "GB/T 50353",
+   "mentions": 4
+  },
+  {
+   "from": "GB/T 50378",
+   "to": "GB 50189",
+   "mentions": 4
+  },
+  {
+   "from": "GB/T 50378",
+   "to": "GB 50118",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 39",
+   "to": "JGJ 64",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 39",
+   "to": "JGJ 100",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 39",
+   "to": "GB 50180",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 450",
+   "to": "GB 51039",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 64",
+   "to": "GB 50072",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ/T 229",
+   "to": "GB 50180",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 100",
+   "to": "GB 50180",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 100",
+   "to": "JGJ 16",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 38",
+   "to": "GB 50763",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 38",
+   "to": "GB 50189",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 38",
+   "to": "GB 50174",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 57",
+   "to": "GB 50763",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 57",
+   "to": "GB 50352",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 62",
+   "to": "JGJ 48",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 66",
+   "to": "CJJ 14",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 66",
+   "to": "GB 50099",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 66",
+   "to": "JGJ 64",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 66",
+   "to": "GB 50174",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 66",
+   "to": "JGJ 67",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 66",
+   "to": "GB 50189",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 66",
+   "to": "GB 50098",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 66",
+   "to": "JGJ 16",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 66",
+   "to": "GB 50116",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 75",
+   "to": "GB 50368",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ/T 397",
+   "to": "GB 50763",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ/T 40",
+   "to": "GB 50016",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ/T 60",
+   "to": "CJJ 14",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ/T 67",
+   "to": "GB 50189",
+   "mentions": 4
+  },
+  {
+   "from": "13ZJ002",
+   "to": "GB 50345",
+   "mentions": 4
+  },
+  {
+   "from": "15J207-1",
+   "to": "GB 50016",
+   "mentions": 4
+  },
+  {
+   "from": "GB-50108",
+   "to": "JGJ 155",
+   "mentions": 4
+  },
+  {
+   "from": "GB 50005",
+   "to": "GB 50017",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 155·说明",
+   "to": "JGJ 155",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 230",
+   "to": "GB 50345",
+   "mentions": 4
+  },
+  {
+   "from": "倒置式屋面工程技术规程",
+   "to": "GB 50345",
+   "mentions": 4
+  },
+  {
+   "from": "建筑构造构成原理-扩展资料",
+   "to": "GB 50016",
+   "mentions": 4
+  },
+  {
+   "from": "JGJ 214",
+   "to": "JGJ 134",
+   "mentions": 4
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50037",
+   "mentions": 4
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 75",
+   "mentions": 4
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "CJJ 14",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "JGJ 62",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "JGJ 58",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "JGJ 66",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 62",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 36",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50368",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 16",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 25",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 86",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 66",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 214",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 102",
+   "mentions": 4
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 133",
+   "mentions": 4
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB/T 50378",
+   "mentions": 4
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "JGJ 100",
+   "mentions": 4
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB 50368",
+   "mentions": 4
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "JGJ 134",
+   "mentions": 4
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB 50222",
+   "mentions": 4
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "JGJ 75",
+   "mentions": 4
+  },
+  {
+   "from": "13J811-1",
+   "to": "13J502-3",
+   "mentions": 3
+  },
+  {
+   "from": "13J811-1",
+   "to": "JGJ 57",
+   "mentions": 3
+  },
+  {
+   "from": "13J811-1",
+   "to": "JGJ 58",
+   "mentions": 3
+  },
+  {
+   "from": "13J811-1",
+   "to": "GB 50084",
+   "mentions": 3
+  },
+  {
+   "from": "13J811-1",
+   "to": "GB 50116",
+   "mentions": 3
+  },
+  {
+   "from": "13J811-1",
+   "to": "JGJ 16",
+   "mentions": 3
+  },
+  {
+   "from": "15K606",
+   "to": "GB 50016",
+   "mentions": 3
+  },
+  {
+   "from": "18J820",
+   "to": "JGJ/T 398",
+   "mentions": 3
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50352",
+   "mentions": 3
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50098",
+   "mentions": 3
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50189",
+   "mentions": 3
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50176",
+   "mentions": 3
+  },
+  {
+   "from": "2014年最新建筑面积计算规则",
+   "to": "GB/T 50353",
+   "mentions": 3
+  },
+  {
+   "from": "2019.11.25消防设计、审查难点问题解答",
+   "to": "JGJ 57",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50096",
+   "to": "GB 50045",
+   "mentions": 3
+  },
+  {
+   "from": "GB 51251",
+   "to": "GB 50116",
+   "mentions": 3
+  },
+  {
+   "from": "GB 51251",
+   "to": "GB 50084",
+   "mentions": 3
+  },
+  {
+   "from": "《建筑面积计算规范图解》",
+   "to": "GB/T 50353",
+   "mentions": 3
+  },
+  {
+   "from": "CJJ 14",
+   "to": "GB 50189",
+   "mentions": 3
+  },
+  {
+   "from": "CJJ 14",
+   "to": "GB 50763",
+   "mentions": 3
+  },
+  {
+   "from": "CJJ/T 67",
+   "to": "CJJ/T 85",
+   "mentions": 3
+  },
+  {
+   "from": "CJJ/T 67",
+   "to": "GB/T 50103",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 218",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50849",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 133",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50016",
+   "to": "JGJ 57",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50174",
+   "to": "GB 50189",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50174",
+   "to": "GB 50156",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50352",
+   "to": "JGJ 50",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50352",
+   "to": "GB 50096",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50352",
+   "to": "GB 50180",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50352",
+   "to": "GB 50763",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50368",
+   "to": "GB 50007",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50849",
+   "to": "GB 50116",
+   "mentions": 3
+  },
+  {
+   "from": "GB 51039",
+   "to": "JGJ 16",
+   "mentions": 3
+  },
+  {
+   "from": "GB 51192",
+   "to": "GB 50007",
+   "mentions": 3
+  },
+  {
+   "from": "GB 51192",
+   "to": "GB/T 50353",
+   "mentions": 3
+  },
+  {
+   "from": "GB/T 50939",
+   "to": "GB 50763",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 36",
+   "to": "JGJ 31",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 36",
+   "to": "GB 50096",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "GB/T 50378",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "GB 50763",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ/T 41",
+   "to": "GB 50352",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 31",
+   "to": "JGJ 50",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 48",
+   "to": "JGJ 100",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 48",
+   "to": "JGJ 113",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 57",
+   "to": "GB 50084",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 58",
+   "to": "GB 50222",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 62",
+   "to": "GB 50352",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 62",
+   "to": "GB 50222",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 62",
+   "to": "JGJ 16",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 62",
+   "to": "GB 50116",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ/T 397",
+   "to": "GB 50352",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ/T 40",
+   "to": "GB 50763",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ/T 67",
+   "to": "GB 50067",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ/T 67",
+   "to": "JGJ 100",
+   "mentions": 3
+  },
+  {
+   "from": "15J207-1",
+   "to": "14J206",
+   "mentions": 3
+  },
+  {
+   "from": "15J403",
+   "to": "06J403-1",
+   "mentions": 3
+  },
+  {
+   "from": "20版-第三节-墙体",
+   "to": "GB 50016",
+   "mentions": 3
+  },
+  {
+   "from": "20版-第三节-墙体",
+   "to": "GB 50118",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50345",
+   "to": "GB 50176",
+   "mentions": 3
+  },
+  {
+   "from": "GB 50005",
+   "to": "GB 50016",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 255",
+   "to": "GB 50189",
+   "mentions": 3
+  },
+  {
+   "from": "技术作图-电力版构造题",
+   "to": "JGJ 102",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 214",
+   "to": "JGJ 102",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 214",
+   "to": "GB 50176",
+   "mentions": 3
+  },
+  {
+   "from": "JGJ 214",
+   "to": "GB 50017",
+   "mentions": 3
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50352",
+   "mentions": 3
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施节能专篇-建筑",
+   "to": "JGJ 144",
+   "mentions": 3
+  },
+  {
+   "from": "15S909",
+   "to": "GB 50045",
+   "mentions": 3
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "JGJ 39",
+   "mentions": 3
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "JGJ 86",
+   "mentions": 3
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50352",
+   "mentions": 3
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 76",
+   "mentions": 3
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 255",
+   "mentions": 3
+  },
+  {
+   "from": "【思维导图】2019民用建筑设计统一标准",
+   "to": "GB 50176",
+   "mentions": 3
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "JGJ 113",
+   "mentions": 3
+  },
+  {
+   "from": "05J804",
+   "to": "05SJ806",
+   "mentions": 2
+  },
+  {
+   "from": "05SFJ10",
+   "to": "GB 50038",
+   "mentions": 2
+  },
+  {
+   "from": "05SFK10",
+   "to": "GB 50038",
+   "mentions": 2
+  },
+  {
+   "from": "05SFS10",
+   "to": "GB 50038",
+   "mentions": 2
+  },
+  {
+   "from": "07FD01",
+   "to": "GB 50098",
+   "mentions": 2
+  },
+  {
+   "from": "07FD01",
+   "to": "07FJ05",
+   "mentions": 2
+  },
+  {
+   "from": "07FD02",
+   "to": "GB 50038",
+   "mentions": 2
+  },
+  {
+   "from": "07FS02",
+   "to": "GB 50038",
+   "mentions": 2
+  },
+  {
+   "from": "07J905-1",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "09J801",
+   "to": "GB/T 50001",
+   "mentions": 2
+  },
+  {
+   "from": "09J801",
+   "to": "JGJ 113",
+   "mentions": 2
+  },
+  {
+   "from": "12J814",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "15K606",
+   "to": "GB 50067",
+   "mentions": 2
+  },
+  {
+   "from": "18J811-1",
+   "to": "13J811-1",
+   "mentions": 2
+  },
+  {
+   "from": "18J811-1",
+   "to": "GB 50072",
+   "mentions": 2
+  },
+  {
+   "from": "18J811-1",
+   "to": "GB 50368",
+   "mentions": 2
+  },
+  {
+   "from": "18J811-1",
+   "to": "GB 50041",
+   "mentions": 2
+  },
+  {
+   "from": "18J811-1",
+   "to": "JGJ 16",
+   "mentions": 2
+  },
+  {
+   "from": "18J811-1",
+   "to": "GB 51251",
+   "mentions": 2
+  },
+  {
+   "from": "18J811-1",
+   "to": "JGJ 102",
+   "mentions": 2
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50180",
+   "mentions": 2
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50345",
+   "mentions": 2
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 113",
+   "mentions": 2
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 67",
+   "mentions": 2
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 57",
+   "mentions": 2
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 38",
+   "mentions": 2
+  },
+  {
+   "from": "2009全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 25",
+   "mentions": 2
+  },
+  {
+   "from": "2019.11.25消防设计、审查难点问题解答",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50096",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50096",
+   "to": "GB 50180",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50096",
+   "to": "GB/T 50353",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50096",
+   "to": "JGJ 50",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50096",
+   "to": "JGJ 134",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50098",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "GB 51251",
+   "to": "GB 50067",
+   "mentions": 2
+  },
+  {
+   "from": "GB 51251",
+   "to": "GB 50045",
+   "mentions": 2
+  },
+  {
+   "from": "GB 51251",
+   "to": "GB 50098",
+   "mentions": 2
+  },
+  {
+   "from": "CJJ 14",
+   "to": "GB/T 50353",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50045",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50345",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50693",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "GB 50222",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50016·说明",
+   "to": "JGJ 76",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 51039",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50016",
+   "to": "GB 50174",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50016",
+   "to": "JGJ 64",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50016",
+   "to": "JGJ 450",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50067",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50174",
+   "to": "GB 50222",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50174",
+   "to": "GB 50084",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50340",
+   "to": "GB 50180",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50340",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50340",
+   "to": "GB 50118",
+   "mentions": 2
+  },
+  {
+   "from": "GB 51054",
+   "to": "GB 50189",
+   "mentions": 2
+  },
+  {
+   "from": "GB 51054",
+   "to": "GB 50041",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50099",
+   "to": "JGJ 36",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50189",
+   "to": "GB 50176",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50352",
+   "to": "GB 50045",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50352",
+   "to": "JGJ 134",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50352",
+   "to": "JGJ 75",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50352",
+   "to": "GB 50189",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50352",
+   "to": "GB 50176",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50368",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50368",
+   "to": "GB 50005",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50763",
+   "to": "JGJ 50",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50763",
+   "to": "JGJ 76",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50763",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50763",
+   "to": "GB 50096",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50763",
+   "to": "GB 50180",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50849",
+   "to": "GB 50763",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50974·说明",
+   "to": "GB 50156",
+   "mentions": 2
+  },
+  {
+   "from": "GB 51157",
+   "to": "GB 50201",
+   "mentions": 2
+  },
+  {
+   "from": "GB/T 50378",
+   "to": "GB 50033",
+   "mentions": 2
+  },
+  {
+   "from": "GB/T 50939",
+   "to": "GB 50118",
+   "mentions": 2
+  },
+  {
+   "from": "GB/T 50939",
+   "to": "GB 50045",
+   "mentions": 2
+  },
+  {
+   "from": "GB/T 50939",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "GB/T 50939",
+   "to": "GB 50067",
+   "mentions": 2
+  },
+  {
+   "from": "JG 108",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 39",
+   "to": "JGJ 134",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 39",
+   "to": "JGJ 75",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 39",
+   "to": "JGJ 16",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 450",
+   "to": "GB 50222",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 450",
+   "to": "GB/T 50378",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 64",
+   "to": "GB 50067",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 229",
+   "to": "GB 50096",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 100",
+   "to": "GB 50116",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 134",
+   "to": "GB 50176",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 367",
+   "to": "JGJ 298",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 367",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 367",
+   "to": "GB 50368",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 38",
+   "to": "GB 50222",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 38",
+   "to": "GB 50116",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 398",
+   "to": "GB 50096",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 446",
+   "to": "GB 50118",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 57",
+   "to": "JGJ 58",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 57",
+   "to": "GB 50116",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 57",
+   "to": "GB 50189",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 58",
+   "to": "JGJ 50",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 66",
+   "to": "GB 50118",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 67",
+   "to": "GB 50189",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 75",
+   "to": "GB 50096",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 76",
+   "to": "JGJ 50",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 397",
+   "to": "GB 50067",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 397",
+   "to": "CJJ 14",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 397",
+   "to": "GB 50201",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 397",
+   "to": "GB 50033",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 397",
+   "to": "GB 50118",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 397",
+   "to": "GB 50116",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 397",
+   "to": "JGJ 124",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 40",
+   "to": "GB 50118",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 60",
+   "to": "JGJ 16",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 67",
+   "to": "GB 50763",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 67",
+   "to": "GB 50176",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 67",
+   "to": "JGJ 25",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 67",
+   "to": "JGJ 38",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 67",
+   "to": "JGJ 64",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 67",
+   "to": "GB 50222",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ/T 67",
+   "to": "GB 50116",
+   "mentions": 2
+  },
+  {
+   "from": "MH/T 5026",
+   "to": "MH 5001",
+   "mentions": 2
+  },
+  {
+   "from": "09J202-1",
+   "to": "JGJ 134",
+   "mentions": 2
+  },
+  {
+   "from": "09J202-1",
+   "to": "JGJ 75",
+   "mentions": 2
+  },
+  {
+   "from": "13ZJ002",
+   "to": "JGJ 76",
+   "mentions": 2
+  },
+  {
+   "from": "13ZJ002",
+   "to": "GB 50176",
+   "mentions": 2
+  },
+  {
+   "from": "13ZJ002",
+   "to": "GB 50693",
+   "mentions": 2
+  },
+  {
+   "from": "14J206",
+   "to": "GB 50693",
+   "mentions": 2
+  },
+  {
+   "from": "14J206",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "14J206",
+   "to": "GB 50345",
+   "mentions": 2
+  },
+  {
+   "from": "14J206",
+   "to": "09J202-1",
+   "mentions": 2
+  },
+  {
+   "from": "14J924",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "14J936",
+   "to": "JGJ 75",
+   "mentions": 2
+  },
+  {
+   "from": "14J936",
+   "to": "14J206",
+   "mentions": 2
+  },
+  {
+   "from": "14J936",
+   "to": "10J121",
+   "mentions": 2
+  },
+  {
+   "from": "15J207-1",
+   "to": "JGJ 155",
+   "mentions": 2
+  },
+  {
+   "from": "16J509",
+   "to": "12J003",
+   "mentions": 2
+  },
+  {
+   "from": "20版-第三节-墙体",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "20版-第三节-墙体",
+   "to": "JGJ 134",
+   "mentions": 2
+  },
+  {
+   "from": "20版-第三节-墙体",
+   "to": "JGJ 144",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50345",
+   "to": "GB 50189",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50037",
+   "to": "GB 50189",
+   "mentions": 2
+  },
+  {
+   "from": "GB 50037",
+   "to": "GB 50174",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 155·说明",
+   "to": "GB 50693",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 155·说明",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 113",
+   "to": "JGJ 102",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 133",
+   "to": "JGJ 102",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 16",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "JGJ 255",
+   "to": "GB 50176",
+   "mentions": 2
+  },
+  {
+   "from": "L12J142 岩棉墙板外墙外保温系统构造详图",
+   "to": "GB 50176",
+   "mentions": 2
+  },
+  {
+   "from": "L12J142 岩棉墙板外墙外保温系统构造详图",
+   "to": "JGJ 144",
+   "mentions": 2
+  },
+  {
+   "from": "TGJT316-2013  单层防水卷材屋面工程技术规程",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "技术作图-电力版构造题",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50007",
+   "mentions": 2
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "JGJ 31",
+   "mentions": 2
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "07J306",
+   "mentions": 2
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50176",
+   "mentions": 2
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施-规划建筑景观",
+   "to": "GB 50041",
+   "mentions": 2
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施节能专篇-建筑",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施节能专篇-建筑",
+   "to": "JGJ 134",
+   "mentions": 2
+  },
+  {
+   "from": "全国民用建筑工程设计技术措施节能专篇-建筑",
+   "to": "JGJ 75",
+   "mentions": 2
+  },
+  {
+   "from": "15S909",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文",
+   "to": "GB 50038",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50033",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50118",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50099",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 64",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 31",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 298",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50763",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50345",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 155",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50176",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50174",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 218",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 144",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50017",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "JGJ 113",
+   "mentions": 2
+  },
+  {
+   "from": "工程建设标准强制性条文-房屋建筑部分(2013年版)",
+   "to": "GB 50201",
+   "mentions": 2
+  },
+  {
+   "from": "《建筑工程设计文件编制深度规定》（2008版）",
+   "to": "GB 50352",
+   "mentions": 2
+  },
+  {
+   "from": "建筑防水（补充教材）",
+   "to": "GB 50176",
+   "mentions": 2
+  },
+  {
+   "from": "建筑防水（补充教材）",
+   "to": "GB 50016",
+   "mentions": 2
+  },
+  {
+   "from": "民用建筑设计通则图例",
+   "to": "06SJ813",
+   "mentions": 2
+  },
+  {
+   "from": "民用建筑设计通则图说",
+   "to": "JGJ 134",
+   "mentions": 2
+  },
+  {
+   "from": "绿色建筑评价标准2014",
+   "to": "GB 50118",
+   "mentions": 2
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB 50180",
+   "mentions": 2
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB 50007",
+   "mentions": 2
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "JGJ 31",
+   "mentions": 2
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB 50098",
+   "mentions": 2
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB 50037",
+   "mentions": 2
+  },
+  {
+   "from": "补充资料-全国民用建筑工程设计技术措施",
+   "to": "GB 50041",
+   "mentions": 2
+  }
+ ]
+}

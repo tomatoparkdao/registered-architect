@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`槽段配筋图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [285.12, 201.6]]`。
@@ -300,3 +303,6 @@
 290. `add_text`｜图层 ` `｜源 `E000246 ` → 重绘 `R000246`
 291. `add_text`｜图层 `0`｜源 `E000283 ` → 重绘 `R000283`
 292. `add_text`｜图层 `0`｜源 `E000286 ` → 重绘 `R000286`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

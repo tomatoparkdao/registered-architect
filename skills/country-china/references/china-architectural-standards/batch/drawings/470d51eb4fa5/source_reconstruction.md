@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`集水沟1比20.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-13413.03, 390909.5], [213075.98, 502641.62]]`。
@@ -196,3 +199,6 @@
 186. `add_dimension`｜图层 `PUB_DIM`｜源 `E000090 ` → 重绘 `R000090`
 187. `add_dimension`｜图层 `PUB_DIM`｜源 `E000117 ` → 重绘 `R000117`
 188. `add_dimension`｜图层 `PUB_DIM`｜源 `E000118 ` → 重绘 `R000118`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

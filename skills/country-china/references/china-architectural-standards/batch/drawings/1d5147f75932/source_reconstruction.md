@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`护坡.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-1664.34, -779.23], [1709.2, 20.77]]`。
@@ -54,3 +57,6 @@
 44. `draw_polyline`｜图层 `0`｜源 `E000042 ` → 重绘 `R000042`
 45. `draw_circle`｜图层 `0`｜源 `E000043 ` → 重绘 `R000043`
 46. `draw_circle`｜图层 `0`｜源 `E000044 ` → 重绘 `R000044`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

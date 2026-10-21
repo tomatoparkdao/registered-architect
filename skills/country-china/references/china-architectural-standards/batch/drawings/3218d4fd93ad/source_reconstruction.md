@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`自然土壤.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[22720.13, 9555.0], [25287.48, 9915.0]]`。
@@ -36,3 +39,6 @@
 26. `draw_solid`｜图层 `PUB_HATCH`｜源 `E000021 ` → 重绘 `R000021`
 27. `draw_line`｜图层 `PUB_HATCH`｜源 `E000022 ` → 重绘 `R000022`
 28. `draw_line`｜图层 `PUB_HATCH`｜源 `E000023 ` → 重绘 `R000023`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

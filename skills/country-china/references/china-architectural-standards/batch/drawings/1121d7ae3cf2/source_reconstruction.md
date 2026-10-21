@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`SSD-H-32.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-39642.46, 105579.15], [78982.8, 193849.5]]`。
@@ -3135,3 +3138,6 @@
 3125. `add_dimension`｜图层 `PDIM`｜源 `E002814 ` → 重绘 `R002814`
 3126. `add_dimension`｜图层 `PDIM`｜源 `E002817 ` → 重绘 `R002817`
 3127. `add_dimension`｜图层 `0`｜源 `E002916 ` → 重绘 `R002916`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

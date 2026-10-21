@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`L型墙转角处构造柱支模示意图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [514.5, 363.83]]`。
@@ -197,3 +200,6 @@
 187. `add_text`｜图层 `0`｜源 `E000174 ` → 重绘 `R000174`
 188. `add_text`｜图层 `0`｜源 `E000175 ` → 重绘 `R000175`
 189. `add_text`｜图层 `0`｜源 `E000176 ` → 重绘 `R000176`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

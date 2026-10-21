@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`26_墙外单扇推拉门-俯.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[13407.29, 18612.23], [13423.56, 18615.3]]`。
@@ -24,3 +27,6 @@
 14. `draw_line`｜图层 `PUB_DIM`｜源 `E000011 ` → 重绘 `R000011`
 15. `draw_line`｜图层 `PUB_DIM`｜源 `E000012 ` → 重绘 `R000012`
 16. `draw_line`｜图层 `PUB_DIM`｜源 `E000013 ` → 重绘 `R000013`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

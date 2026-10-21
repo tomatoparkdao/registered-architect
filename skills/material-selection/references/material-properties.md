@@ -495,7 +495,6 @@ agent_created: true
 | PIR保温（120 mm） | 每m² | $20-40 | 供货+固定 |
 
 **注：**成本具有很强的地域性并受市场条件影响，应向当地造价师核实。以上数据仅作为可行性研究和比较的数量级参考。
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

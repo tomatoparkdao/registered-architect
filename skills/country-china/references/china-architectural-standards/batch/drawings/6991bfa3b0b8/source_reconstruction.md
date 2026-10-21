@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P190节点详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[841.13, 293.7], [8072.68, 9063.73]]`。
@@ -929,3 +932,6 @@
 919. `add_text`｜图层 `PCENTER`｜源 `E000835 ` → 重绘 `R000835`
 920. `add_text`｜图层 `TEXT`｜源 `E000903 ` → 重绘 `R000903`
 921. `add_text`｜图层 `TEXT`｜源 `E000906 ` → 重绘 `R000906`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

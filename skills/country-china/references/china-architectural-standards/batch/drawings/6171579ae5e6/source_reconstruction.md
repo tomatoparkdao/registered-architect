@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`弯折管（向前）.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[1.0, 0.46], [59.39, 13.18]]`。
@@ -44,3 +47,6 @@
 34. `draw_polyline`｜图层 `003_THICK`｜源 `E000008 ` → 重绘 `R000008`
 35. `draw_polyline`｜图层 `003_THICK`｜源 `E000009 ` → 重绘 `R000009`
 36. `draw_polyline`｜图层 `003_THICK`｜源 `E000010 ` → 重绘 `R000010`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

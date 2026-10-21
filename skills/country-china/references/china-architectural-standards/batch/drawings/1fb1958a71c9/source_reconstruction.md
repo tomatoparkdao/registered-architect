@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`沉降缝、施工缝节点详图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -2508,3 +2511,6 @@
 2498. `add_text`｜图层 `0`｜源 `E002058 ` → 重绘 `R002058`
 2499. `add_text`｜图层 `0`｜源 `E002059 ` → 重绘 `R002059`
 2500. `add_text`｜图层 `0`｜源 `E002060 ` → 重绘 `R002060`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`钢筋棚及木工棚图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [594.0, 420.0]]`。
@@ -1248,3 +1251,6 @@
 1238. `add_text`｜图层 ` `｜源 `E000619 ` → 重绘 `R000619`
 1239. `add_text`｜图层 ` `｜源 `E000756 ` → 重绘 `R000756`
 1240. `add_text`｜图层 ` `｜源 `E000965 ` → 重绘 `R000965`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

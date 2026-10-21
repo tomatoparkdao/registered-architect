@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`卷帘门或上推门结构详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-845.08, -24.05], [556.62, 988.91]]`。
@@ -1510,3 +1513,6 @@
 1500. `add_dimension`｜图层 `STRL`｜源 `E001256 ` → 重绘 `R001256`
 1501. `add_dimension`｜图层 `STRL`｜源 `E001261 ` → 重绘 `R001261`
 1502. `add_dimension`｜图层 `STRL`｜源 `E001262 ` → 重绘 `R001262`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

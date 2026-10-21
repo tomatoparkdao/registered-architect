@@ -1,5 +1,8 @@
 # GPU 执行报告
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - GPU：NVIDIA GeForce RTX 4070, 12282 MiB, 617.42
 - PyTorch：2.11.0+cu128
 - CUDA 可用：True
@@ -14,3 +17,6 @@
 4. CUDA 重绘前后模型空间边界对比。
 
 DWG→DXF 为外部格式转换预处理；后续几何处理、关联和验证在 CUDA 设备上执行。任何 `torch.cuda.is_available()` 为假时，深度解析脚本会拒绝运行。
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

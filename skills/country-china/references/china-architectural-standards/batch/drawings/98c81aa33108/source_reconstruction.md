@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`钢支撑斜杆杆端连接件选用表.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[1135.32, 533.5], [9270.3, 4167.2]]`。
@@ -1781,3 +1784,6 @@
 1771. `add_mtext`｜图层 `Z`｜源 `E001755 ` → 重绘 `R001755`
 1772. `add_text`｜图层 `0`｜源 `E001757 ` → 重绘 `R001757`
 1773. `add_text`｜图层 `0`｜源 `E001758 ` → 重绘 `R001758`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

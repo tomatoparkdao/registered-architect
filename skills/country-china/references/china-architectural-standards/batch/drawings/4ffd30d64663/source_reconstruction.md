@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`顶板后浇带支模图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -2341,3 +2344,6 @@
 2331. `add_text`｜图层 `0`｜源 `E002329 ` → 重绘 `R002329`
 2332. `add_text`｜图层 `0`｜源 `E002330 ` → 重绘 `R002330`
 2333. `add_text`｜图层 `0`｜源 `E002331 ` → 重绘 `R002331`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

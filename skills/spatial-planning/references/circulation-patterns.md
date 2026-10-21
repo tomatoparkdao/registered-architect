@@ -376,7 +376,6 @@ agent_created: true
 - 速度：通常 0.1–0.15 m/s
 - 围护：提升高度 >2000 mm 时必须设置封闭井道
 - 新建项目中不得以平台升降机替代乘客电梯
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`内藏钢支撑剪力墙的混凝土墙板构造.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[2672.73, 10471.47], [12682.28, 13680.55]]`。
@@ -608,3 +611,6 @@
 598. `add_text`｜图层 `Z`｜源 `E000514 ` → 重绘 `R000514`
 599. `add_text`｜图层 `Z`｜源 `E000591 ` → 重绘 `R000591`
 600. `add_text`｜图层 `Z`｜源 `E000592 ` → 重绘 `R000592`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

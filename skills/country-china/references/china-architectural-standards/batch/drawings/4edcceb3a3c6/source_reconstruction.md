@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P18屋脊.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[-1059138.12, -57.17], [754064.19, 1031282.38]]`。
@@ -693,3 +696,6 @@
 683. `add_text`｜图层 `_TCH_MASK`｜源 `E000710 ` → 重绘 `R000710`
 684. `add_text`｜图层 `_TCH_MASK`｜源 `E000711 ` → 重绘 `R000711`
 685. `add_text`｜图层 `_TCH_MASK`｜源 `E000712 ` → 重绘 `R000712`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

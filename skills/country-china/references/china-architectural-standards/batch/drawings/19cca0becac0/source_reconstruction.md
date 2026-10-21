@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P78多彩沥青油毡瓦屋面.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[71.08, -32.19], [196.1, 203.86]]`。
@@ -999,3 +1002,6 @@
 989. `add_text`｜图层 `PUB_TEXT`｜源 `E000469 ` → 重绘 `R000469`
 990. `add_text`｜图层 `PUB_TEXT`｜源 `E000753 ` → 重绘 `R000753`
 991. `add_text`｜图层 `PUB_TEXT`｜源 `E000883 ` → 重绘 `R000883`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

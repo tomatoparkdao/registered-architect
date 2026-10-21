@@ -1,6 +1,6 @@
 {
   "name": "registered-architect",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "包含 29 项建筑专业 Claude Code 技能。核心 18 项技能覆盖设计理论、建筑策划、概念设计、建筑类型、空间规划、围护结构、结构体系、机电服务、采光、材料、建筑规范、无障碍、防火安全、声学、建筑尺度可持续性和施工图文件。国家专项资料（v1.1.0）为 10 个优先司法辖区提供条文级法规精度：印度（NBC 2016、ECBC、IS codes、各邦 DCRs）、阿联酋（Dubai Building Code 2021、ADIBC、UAE FLS Code 2018、Estidama、Al Sa'fat）、沙特阿拉伯（SBC 201-1001、Mostadamah、NEOM/Royal Commission 管辖区）、美国（IBC 2024、IECC 2024、NFPA 101、ADA 2010、ASCE 7-22、州级修订，包括 CA Title 24、NYC、FL HVHZ）、英国（Building Regulations 2010 + Approved Documents A-S、Building Safety Act 2022、BSR/HRB、苏格兰/威尔士/北爱尔兰）、德国（MBO + 16 LBOs、GEG 2023、DIN 18040/4109/4108、Eurocode NAs）、新加坡（BCA Building Control Act、SCDF Fire Code 2018、Green Mark 2021、URA Master Plan）、日本（Building Standards Act、两级抗震设计、Sho-Energy Ho 2015、Heart Building Law、AIJ 标准、BCJ 评估）、中国（GB 50352-2019、GB 50016-2014、GB 50011-2010、JGJ 住宅节能规范、DB 地方补充规范、日照权）、澳大利亚（NCC 2022 Vol 1-3、AS/NZS 1170 系列、AS 1428.1-2021、NatHERS 7-star、各州规划体系）。geographic-foundations skill 会自动识别司法辖区，并路由至正确的国家资料包。内容引用 50 余位建筑师和理论家、IBC/Eurocodes/ASCE/ASHRAE/ADA/NFPA/ISO 标准及可持续性体系（LEED、BREEAM、Passive House、DGNB、CASBEE、Green Mark、Green Star、NABERS、Mostadamah、Estidama、GRIHA、IGBC），并包含 7 个 Python 计算器。",
   "author": {
     "name": "OmniAiLab",

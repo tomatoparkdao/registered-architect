@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`p306石材幕墙节点图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[2677.73, 1732.5], [3650.34, 3173.24]]`。
@@ -1089,3 +1092,6 @@
 1079. `add_mtext`｜图层 `HATCH`｜源 `E001003 ` → 重绘 `R001003`
 1080. `add_mtext`｜图层 `HATCH`｜源 `E001009 ` → 重绘 `R001009`
 1081. `add_mtext`｜图层 `图框`｜源 `E001032 ` → 重绘 `R001032`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

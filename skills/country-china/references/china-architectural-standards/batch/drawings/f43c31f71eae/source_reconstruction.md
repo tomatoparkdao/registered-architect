@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`p311幕墙节点详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[3856.14, 2158.97], [4802.83, 4017.67]]`。
@@ -333,3 +336,6 @@
 323. `add_mtext`｜图层 `Dim`｜源 `E000274 ` → 重绘 `R000274`
 324. `add_mtext`｜图层 `Dim`｜源 `E000280 ` → 重绘 `R000280`
 325. `add_mtext`｜图层 `Dim`｜源 `E000286 ` → 重绘 `R000286`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P393地坪伸缩缝.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[-3857.99, -4668.09], [5043.69, 7112.17]]`。
@@ -1337,3 +1340,6 @@
 1327. `add_text`｜图层 `PUB_TEXT`｜源 `E001203 ` → 重绘 `R001203`
 1328. `add_text`｜图层 `PUB_TEXT`｜源 `E001270 ` → 重绘 `R001270`
 1329. `add_text`｜图层 `0`｜源 `E001277 ` → 重绘 `R001277`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

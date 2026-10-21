@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`幕墙避雷及带形窗水平节点固定示意图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [420.0, 297.0]]`。
@@ -1251,3 +1254,6 @@
 1241. `add_text`｜图层 `0`｜源 `E001232 ` → 重绘 `R001232`
 1242. `add_text`｜图层 `0`｜源 `E001240 ` → 重绘 `R001240`
 1243. `add_text`｜图层 `0`｜源 `E001241 ` → 重绘 `R001241`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

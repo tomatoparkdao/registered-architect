@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P9 坡屋面平法.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[2624.94, -5229.61], [18306.11, 14206.38]]`。
@@ -481,3 +484,6 @@
 471. `add_text`｜图层 `TXT`｜源 `E000446 ` → 重绘 `R000446`
 472. `add_text`｜图层 `TXT`｜源 `E000447 ` → 重绘 `R000447`
 473. `add_text`｜图层 `TXT`｜源 `E000448 ` → 重绘 `R000448`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

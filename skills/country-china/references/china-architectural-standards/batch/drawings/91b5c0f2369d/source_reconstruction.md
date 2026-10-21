@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`H型钢在横梁伸臂上的连接.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[1663.77, 3312.91], [10246.34, 10731.9]]`。
@@ -1543,3 +1546,6 @@
 1533. `add_text`｜图层 `Z`｜源 `E001519 ` → 重绘 `R001519`
 1534. `add_text`｜图层 `Z`｜源 `E001521 ` → 重绘 `R001521`
 1535. `add_dimension`｜图层 `0`｜源 `E000680 ` → 重绘 `R000680`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

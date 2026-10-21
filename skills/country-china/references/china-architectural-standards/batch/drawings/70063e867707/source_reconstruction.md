@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`止回阀.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[88146.12, -113404.6], [91090.46, -112947.1]]`。
@@ -20,3 +23,6 @@
 10. `draw_line`｜图层 `DET1`｜源 `E000006 ` → 重绘 `R000006`
 11. `draw_line`｜图层 `DET1`｜源 `E000007 ` → 重绘 `R000007`
 12. `draw_line`｜图层 `DET1`｜源 `E000008 ` → 重绘 `R000008`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

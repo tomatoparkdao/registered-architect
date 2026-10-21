@@ -256,7 +256,6 @@ agent_created: true
 - [ ] 每张图纸均有建筑师印章和签名（报审图纸集）
 - [ ] 包含版权声明
 - [ ] 非施工版图纸加注“不得用于施工”水印
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

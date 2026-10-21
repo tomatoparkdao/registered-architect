@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`压型钢板开孔时的加强措施.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[2599.74, 1230.86], [13196.69, 6066.38]]`。
@@ -1048,3 +1051,6 @@
 1038. `add_text`｜图层 `0`｜源 `E001027 ` → 重绘 `R001027`
 1039. `add_text`｜图层 `Z`｜源 `E001028 ` → 重绘 `R001028`
 1040. `add_text`｜图层 `Z`｜源 `E001030 ` → 重绘 `R001030`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

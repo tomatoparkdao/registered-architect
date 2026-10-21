@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P72大样图（三）.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[50.77, -4956.13], [19886.86, 14864.2]]`。
@@ -521,3 +524,6 @@
 511. `draw_line`｜图层 `柱`｜源 `E000502 ` → 重绘 `R000502`
 512. `draw_line`｜图层 `0`｜源 `E000504 ` → 重绘 `R000504`
 513. `add_text`｜图层 `PUB_TEXT`｜源 `E000503 ` → 重绘 `R000503`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

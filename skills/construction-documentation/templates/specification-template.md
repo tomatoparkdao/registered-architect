@@ -258,7 +258,6 @@ C. 更换或修复损坏工程至建筑师满意，业主不承担额外费用�
 ---
 
 第 [XX XX XX] 节结束
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

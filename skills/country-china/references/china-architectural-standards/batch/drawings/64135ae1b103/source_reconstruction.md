@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`花岗石踏步.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[51424.43, 5606.31], [62005.46, 17348.4]]`。
@@ -351,3 +354,6 @@
 341. `add_dimension`｜图层 `PUB_DIM`｜源 `E000202 ` → 重绘 `R000202`
 342. `add_dimension`｜图层 `PUB_DIM`｜源 `E000204 ` → 重绘 `R000204`
 343. `add_dimension`｜图层 `PUB_DIM`｜源 `E000205 ` → 重绘 `R000205`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

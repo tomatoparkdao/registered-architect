@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`中翼缘H型钢-标注.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-174518.11, -297600.5], [-174164.12, -297340.38]]`。
@@ -17,3 +20,6 @@
 7. `draw_line`｜图层 `K`｜源 `E000003 ` → 重绘 `R000003`
 8. `draw_line`｜图层 `K`｜源 `E000004 ` → 重绘 `R000004`
 9. `add_text`｜图层 `DIM`｜源 `E000001 ` → 重绘 `R000001`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`倒角1-45(上).dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[0.0, 0.0], [7.0, 7.0]]`。
@@ -12,3 +15,6 @@
 2. `create_layer`｜图层 `Defpoints`｜源 `- ` → 重绘 `-`
 3. `add_leader`｜图层 `0`｜源 `E000001 ` → 重绘 `R000001`
 4. `add_mtext`｜图层 `0`｜源 `E000002 ` → 重绘 `R000002`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

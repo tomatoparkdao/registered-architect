@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`暖气罩节点图7.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[246105.62, -17596.06], [308831.38, -5714.07]]`。
@@ -494,3 +497,6 @@
 484. `add_mtext`｜图层 `7`｜源 `E000471 ` → 重绘 `R000471`
 485. `add_mtext`｜图层 `7`｜源 `E000475 ` → 重绘 `R000475`
 486. `add_dimension`｜图层 `10`｜源 `E000464 ` → 重绘 `R000464`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

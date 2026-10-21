@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P464地下放水.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-265038.41, -336.77], [39482.7, 422442.34]]`。
@@ -1929,3 +1932,6 @@
 1919. `add_text`｜图层 `DIM`｜源 `E000296 ` → 重绘 `R000296`
 1920. `add_text`｜图层 `DIM`｜源 `E000302 ` → 重绘 `R000302`
 1921. `add_text`｜图层 `I-TEXT`｜源 `E000305 ` → 重绘 `R000305`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

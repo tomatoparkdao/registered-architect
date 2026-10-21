@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`浴盆带喷头混合水龙头.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-42644.74, -146079.36], [-41499.59, -145070.17]]`。
@@ -186,3 +189,6 @@
 176. `draw_line`｜图层 `DET1`｜源 `E000171 ` → 重绘 `R000171`
 177. `draw_arc`｜图层 `DET1`｜源 `E000172 ` → 重绘 `R000172`
 178. `draw_line`｜图层 `DET1`｜源 `E000173 ` → 重绘 `R000173`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

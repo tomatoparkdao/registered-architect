@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`钢筋混凝土剪力墙与钢骨混凝土柱的连接构造.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[313.27, 3016.05], [7031.27, 7817.54]]`。
@@ -960,3 +963,6 @@
 950. `add_text`｜图层 `Z`｜源 `E000868 ` → 重绘 `R000868`
 951. `add_text`｜图层 `Z`｜源 `E000879 ` → 重绘 `R000879`
 952. `add_text`｜图层 `FRAMING`｜源 `E000913 ` → 重绘 `R000913`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

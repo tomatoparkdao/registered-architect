@@ -14542,7 +14542,6 @@ WUNU
 11-1fINI
 L
 UAIU
-#
 OIo TI
 Tu
 FSo

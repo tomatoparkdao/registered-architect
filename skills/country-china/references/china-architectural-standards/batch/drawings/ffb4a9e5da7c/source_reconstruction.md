@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`工字形截面柱的工地拼接.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[3412.63, 11862.26], [8251.66, 14403.09]]`。
@@ -500,3 +503,6 @@
 490. `add_text`｜图层 `Z`｜源 `E000429 ` → 重绘 `R000429`
 491. `add_text`｜图层 `0`｜源 `E000431 ` → 重绘 `R000431`
 492. `add_text`｜图层 `0`｜源 `E000476 ` → 重绘 `R000476`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

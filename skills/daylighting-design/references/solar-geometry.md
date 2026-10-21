@@ -434,7 +434,6 @@ L_shadow = H_object / tan(α_s)
 | Sunrise/set hour angle | ω_s = ±arccos[-tan(φ) × tan(δ)] |
 | Sunrise/set azimuth | γ_s = ±arccos[sin(δ)/cos(φ)] (at equinox: ±90°) |
 | Solar time correction | Solar time = clock time + EOT + 4(L_std - L_loc) - DST |
-#
 
 ---
 > © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

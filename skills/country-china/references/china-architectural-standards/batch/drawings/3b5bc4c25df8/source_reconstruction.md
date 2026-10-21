@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`高架式料仓2.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[34083.85, 17493.74], [36583.85, 17943.74]]`。
@@ -17,3 +20,6 @@
 7. `draw_polyline`｜图层 `0`｜源 `E000004 ` → 重绘 `R000004`
 8. `draw_line`｜图层 `0`｜源 `E000005 ` → 重绘 `R000005`
 9. `draw_line`｜图层 `0`｜源 `E000006 ` → 重绘 `R000006`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

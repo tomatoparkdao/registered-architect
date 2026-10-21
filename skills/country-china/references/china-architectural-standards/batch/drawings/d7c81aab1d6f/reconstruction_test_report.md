@@ -1,5 +1,8 @@
 # 重绘验证报告
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 ## 计数口径与结论
 
 - 先前的 `27` 是含 6 个 HATCH 的几何记录数：`21` 个非填充几何 + `6` 个 HATCH；不是总模型空间实体数。
@@ -104,3 +107,6 @@
   "comparison": "重绘 DXF 由 cad_recipe.json 独立执行生成；模型空间每类实体数量、边界和逐实体句柄映射均已核验。DIMENSION 关联为 GPU 近邻候选，仍明确标记为待人工复核。"
 }
 ```
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

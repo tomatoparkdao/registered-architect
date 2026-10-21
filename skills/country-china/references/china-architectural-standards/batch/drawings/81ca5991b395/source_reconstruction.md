@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`简支组合次梁的配筋构造图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-1197.58, 3767.91], [7960.86, 7784.95]]`。
@@ -1264,3 +1267,6 @@
 1254. `add_text`｜图层 `Z`｜源 `E001229 ` → 重绘 `R001229`
 1255. `add_text`｜图层 `Z`｜源 `E001240 ` → 重绘 `R001240`
 1256. `add_text`｜图层 `Z`｜源 `E001241 ` → 重绘 `R001241`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

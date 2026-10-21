@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`预作用报警阀-系统.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[1308.74, -140387.94], [1870.54, -139141.47]]`。
@@ -21,3 +24,6 @@
 11. `draw_line`｜图层 `DET1`｜源 `E000007 ` → 重绘 `R000007`
 12. `draw_line`｜图层 `DET1`｜源 `E000008 ` → 重绘 `R000008`
 13. `draw_line`｜图层 `DET1`｜源 `E000009 ` → 重绘 `R000009`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

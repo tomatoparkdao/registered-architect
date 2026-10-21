@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`矩型化粪池.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[64958.51, -134374.36], [66712.14, -133995.09]]`。
@@ -24,3 +27,6 @@
 14. `draw_line`｜图层 `R`｜源 `E000010 ` → 重绘 `R000010`
 15. `draw_circle`｜图层 `R`｜源 `E000011 ` → 重绘 `R000011`
 16. `add_text`｜图层 `R`｜源 `E000005 ` → 重绘 `R000005`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P449楼地面节点图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-40624.09, -44064.22], [-23013.63, -34258.44]]`。
@@ -409,3 +412,6 @@
 399. `add_text`｜图层 `I-TEXT`｜源 `E000354 ` → 重绘 `R000354`
 400. `add_text`｜图层 `I-TEXT`｜源 `E000355 ` → 重绘 `R000355`
 401. `add_text`｜图层 `I-TEXT`｜源 `E000356 ` → 重绘 `R000356`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

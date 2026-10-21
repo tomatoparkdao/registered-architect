@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`预制屋面.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[99635.13, -80907.75], [566576.81, 132016.7]]`。
@@ -2876,3 +2879,6 @@
 2866. `add_dimension`｜图层 `细`｜源 `E000289 ` → 重绘 `R000289`
 2867. `add_dimension`｜图层 `细`｜源 `E000499 ` → 重绘 `R000499`
 2868. `add_dimension`｜图层 `细`｜源 `E001917 ` → 重绘 `R001917`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

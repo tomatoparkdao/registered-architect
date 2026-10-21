@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`踏步装修.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[315280.34, 21240.37], [318620.41, 23155.81]]`。
@@ -1068,3 +1071,6 @@
 1058. `add_text`｜图层 `FURN`｜源 `E001046 ` → 重绘 `R001046`
 1059. `add_text`｜图层 `FURN`｜源 `E001049 ` → 重绘 `R001049`
 1060. `add_text`｜图层 `FURN`｜源 `E001052 ` → 重绘 `R001052`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

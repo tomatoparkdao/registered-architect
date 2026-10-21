@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`金属软管1.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-20339.68, -11834.0], [-20280.24, -11827.86]]`。
@@ -20,3 +23,6 @@
 10. `draw_line`｜图层 `1`｜源 `E000007 ` → 重绘 `R000007`
 11. `draw_line`｜图层 `1`｜源 `E000008 ` → 重绘 `R000008`
 12. `draw_arc`｜图层 `1`｜源 `E000009 ` → 重绘 `R000009`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

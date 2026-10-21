@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P446排水沟.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[410.27, -3.25], [493.5, 126.21]]`。
@@ -1029,3 +1032,6 @@
 1019. `add_text`｜图层 `0`｜源 `E000909 ` → 重绘 `R000909`
 1020. `add_text`｜图层 `0`｜源 `E000912 ` → 重绘 `R000912`
 1021. `add_text`｜图层 `0`｜源 `E000916 ` → 重绘 `R000916`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

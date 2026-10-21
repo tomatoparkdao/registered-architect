@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`中式花木格.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[-1796117.12, 115.8], [5369.98, 2522875.5]]`。
@@ -926,3 +929,6 @@
 916. `add_dimension`｜图层 `0`｜源 `E000806 ` → 重绘 `R000806`
 917. `add_dimension`｜图层 `0`｜源 `E000897 ` → 重绘 `R000897`
 918. `add_dimension`｜图层 `0`｜源 `E000898 ` → 重绘 `R000898`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

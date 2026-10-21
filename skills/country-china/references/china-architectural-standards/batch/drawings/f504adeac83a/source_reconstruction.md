@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`落地玻璃标准节点详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[1403.05, 82.81], [3564.05, 1683.55]]`。
@@ -569,3 +572,6 @@
 559. `add_dimension`｜图层 `标注`｜源 `E000271 ` → 重绘 `R000271`
 560. `add_dimension`｜图层 `标注`｜源 `E000413 ` → 重绘 `R000413`
 561. `add_dimension`｜图层 `标注`｜源 `E000454 ` → 重绘 `R000454`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

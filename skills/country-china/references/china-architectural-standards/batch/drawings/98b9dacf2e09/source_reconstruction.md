@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P412结构详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[3695.09, 2065.5], [11905.49, 11825.74]]`。
@@ -2288,3 +2291,6 @@
 2278. `add_text`｜图层 `A-AXI`｜源 `E002080 ` → 重绘 `R002080`
 2279. `add_text`｜图层 `A-AXI`｜源 `E002266 ` → 重绘 `R002266`
 2280. `add_text`｜图层 `A-AXI`｜源 `E002267 ` → 重绘 `R002267`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

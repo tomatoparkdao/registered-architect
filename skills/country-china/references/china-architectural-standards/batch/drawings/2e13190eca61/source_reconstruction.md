@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`SHADOWRIB型墙面板底部饰边安装.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-1467.45, -227.2], [700.59, 853.38]]`。
@@ -266,3 +269,6 @@
 256. `add_text`｜图层 `ENGLISH`｜源 `E000250 ` → 重绘 `R000250`
 257. `add_text`｜图层 `ENGLISH`｜源 `E000251 ` → 重绘 `R000251`
 258. `add_text`｜图层 `0`｜源 `E000252 ` → 重绘 `R000252`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

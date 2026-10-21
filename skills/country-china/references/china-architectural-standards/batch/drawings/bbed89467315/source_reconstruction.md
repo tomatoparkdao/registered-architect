@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`供电系统图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [311.85, 220.5]]`。
@@ -552,3 +555,6 @@
 542. `add_text`｜图层 ` `｜源 `E000506 ` → 重绘 `R000506`
 543. `add_text`｜图层 ` `｜源 `E000507 ` → 重绘 `R000507`
 544. `add_text`｜图层 ` `｜源 `E000508 ` → 重绘 `R000508`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

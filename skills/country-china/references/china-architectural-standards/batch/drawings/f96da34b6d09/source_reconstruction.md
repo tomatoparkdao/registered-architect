@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`P451阳台雨蓬.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`mm`；边界：`[[3069.91, -2939.4], [24687.89, 20633.27]]`。
@@ -874,3 +877,6 @@
 864. `add_text`｜图层 `Q`｜源 `E000776 ` → 重绘 `R000776`
 865. `add_text`｜图层 `PUB_TEXT`｜源 `E000855 ` → 重绘 `R000855`
 866. `add_text`｜图层 `0`｜源 `E000856 ` → 重绘 `R000856`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

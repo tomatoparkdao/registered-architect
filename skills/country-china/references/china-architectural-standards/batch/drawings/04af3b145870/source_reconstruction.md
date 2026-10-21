@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`观光电梯详图A1.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, -4831.14], [81967.4, 28703.96]]`。
@@ -2136,3 +2139,6 @@
 2126. `add_dimension`｜图层 `DIM`｜源 `E002115 ` → 重绘 `R002115`
 2127. `add_dimension`｜图层 `DIM`｜源 `E002118 ` → 重绘 `R002118`
 2128. `add_dimension`｜图层 `DIM`｜源 `E002119 ` → 重绘 `R002119`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

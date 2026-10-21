@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`地下室外墙模板拼装加固详图.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[0.0, 0.0], [440.0, 311.0]]`。
@@ -2439,3 +2442,6 @@
 2429. `add_text`｜图层 `0`｜源 `E002415 ` → 重绘 `R002415`
 2430. `add_text`｜图层 `0`｜源 `E002423 ` → 重绘 `R002423`
 2431. `add_text`｜图层 `0`｜源 `E002424 ` → 重绘 `R002424`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

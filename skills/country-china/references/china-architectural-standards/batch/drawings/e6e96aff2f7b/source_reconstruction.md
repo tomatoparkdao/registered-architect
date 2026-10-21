@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`p368落地窗详图.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=1)`；边界：`[[28.7, 8.03], [2603.0, 2511.74]]`。
@@ -893,3 +896,6 @@
 883. `add_text`｜图层 `0`｜源 `E000098 ` → 重绘 `R000098`
 884. `add_text`｜图层 `0`｜源 `E000875 ` → 重绘 `R000875`
 885. `add_text`｜图层 `0`｜源 `E000882 ` → 重绘 `R000882`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`FH01P040.DWG`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[713.59, 199.28], [811.66, 378.86]]`。
@@ -30,3 +33,6 @@
 20. `draw_polyline`｜图层 `4`｜源 `E000016 ` → 重绘 `R000016`
 21. `draw_polyline`｜图层 `4`｜源 `E000017 ` → 重绘 `R000017`
 22. `draw_polyline`｜图层 `3`｜源 `E000018 ` → 重绘 `R000018`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。

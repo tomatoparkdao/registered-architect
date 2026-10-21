@@ -1,5 +1,8 @@
 # 源图重绘配方
 
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
+
+
 - 源 DWG：`防火阀.dwg`
 - 临时 DXF：仅用于解析，不进入 Skill。
 - 坐标系：模型空间；单位：`unknown ($INSUNITS=0)`；边界：`[[-19883.36, -11980.27], [-19812.79, -11962.43]]`。
@@ -32,3 +35,6 @@
 22. `draw_line`｜图层 `1`｜源 `E000019 ` → 重绘 `R000019`
 23. `draw_line`｜图层 `1`｜源 `E000020 ` → 重绘 `R000020`
 24. `add_text`｜图层 `1`｜源 `E000021 ` → 重绘 `R000021`
+
+---
+> © OmniAiLab ｜ 开发者：Mochiball ｜ OmniAiLab 全球注册建筑师（omniailabx.com）— 未经授权禁止复制、传播或二次分发。
