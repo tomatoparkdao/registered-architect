@@ -19,7 +19,7 @@ import json
 import math
 import sys
 
-from _support import AGENT_HINT, build_parser
+from _support import agent_hint, build_parser
 
 
 def validate_inputs(args):
@@ -120,7 +120,7 @@ def main():
     if errors:
         for error in errors:
             print(f"错误：{error}", file=sys.stderr)
-        print(AGENT_HINT, file=sys.stderr)
+        print(agent_hint(), file=sys.stderr)
         sys.exit(1)
 
     result = calculate(args)

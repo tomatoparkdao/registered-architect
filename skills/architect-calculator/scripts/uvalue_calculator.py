@@ -40,7 +40,7 @@ import json
 import math
 import sys
 
-from _support import AGENT_HINT, build_parser
+from _support import agent_hint, build_parser
 
 
 # ============================================================================
@@ -773,17 +773,17 @@ def main():
 
     if args.rsi_internal < 0 or args.rsi_external < 0:
         print("错误：表面热阻不得为负数。", file=sys.stderr)
-        print(AGENT_HINT, file=sys.stderr)
+        print(agent_hint(), file=sys.stderr)
         sys.exit(1)
 
     if args.facade and args.layers:
         print("错误：请使用 --layers 或 --facade，不能同时使用。", file=sys.stderr)
-        print(AGENT_HINT, file=sys.stderr)
+        print(agent_hint(), file=sys.stderr)
         sys.exit(1)
 
     if not args.facade and not args.layers:
         print("错误：请提供 --layers 或 --facade。使用 --help 查看帮助。", file=sys.stderr)
-        print(AGENT_HINT, file=sys.stderr)
+        print(agent_hint(), file=sys.stderr)
         sys.exit(1)
 
     # --- 模式 1 ---
@@ -792,17 +792,17 @@ def main():
             layers = json.loads(args.layers)
         except json.JSONDecodeError as e:
             print(f"错误：JSON 无效：{e}", file=sys.stderr)
-            print(AGENT_HINT, file=sys.stderr)
+            print(agent_hint(), file=sys.stderr)
             sys.exit(1)
         if not isinstance(layers, list):
             print("错误：--layers 必须是 JSON 数组。", file=sys.stderr)
-            print(AGENT_HINT, file=sys.stderr)
+            print(agent_hint(), file=sys.stderr)
             sys.exit(1)
         errors = validate_layers(layers)
         if errors:
             for e in errors:
                 print(f"错误：{e}", file=sys.stderr)
-            print(AGENT_HINT, file=sys.stderr)
+            print(agent_hint(), file=sys.stderr)
             sys.exit(1)
 
         result = calculate_wall_uvalue(layers, args.rsi_internal, args.rsi_external)
@@ -819,18 +819,18 @@ def main():
             facade = json.loads(args.facade)
         except json.JSONDecodeError as e:
             print(f"错误：JSON 无效：{e}", file=sys.stderr)
-            print(AGENT_HINT, file=sys.stderr)
+            print(agent_hint(), file=sys.stderr)
             sys.exit(1)
         if not isinstance(facade, dict):
             print("错误：--facade 必须是 JSON 对象。", file=sys.stderr)
-            print(AGENT_HINT, file=sys.stderr)
+            print(agent_hint(), file=sys.stderr)
             sys.exit(1)
 
         errors = validate_facade(facade)
         if errors:
             for e in errors:
                 print(f"错误：{e}", file=sys.stderr)
-            print(AGENT_HINT, file=sys.stderr)
+            print(agent_hint(), file=sys.stderr)
             sys.exit(1)
 
         # 检查洞口是否能够容纳
@@ -841,7 +841,7 @@ def main():
         if total_op_w >= facade["width"]:
             print(f"错误：洞口总宽度（{total_op_w:.2f}m）≥ "
                   f"立面宽度（{facade['width']:.2f}m）。", file=sys.stderr)
-            print(AGENT_HINT, file=sys.stderr)
+            print(agent_hint(), file=sys.stderr)
             sys.exit(1)
 
         result = calculate_facade(facade, args.rsi_internal, args.rsi_external)

@@ -8,8 +8,12 @@
   not_found  所有探测项都跑通且都没命中
   unknown    探测受限（权限被拒、注册表不可读等），此时不做任何断言
 
-只读本地文件与注册表，不联网、不改配置。缓存写在 `~/.omniailab/agent-check.json`，
+只读本地文件与注册表，不改配置。缓存写在 `~/.omniailab/agent-check.json`，
 默认 24 小时内复用结论，`--refresh` 强制重查。
+
+下载地址按地区二选一：中国大陆走国内站，其余地区走海外站。判定顺序为
+环境变量 `OMNIAILAB_REGION` → 30 天缓存 → 出口 IP（两次短超时探测，失败即跳过）
+→ 系统时区与语言兜底。任何一步失败都不会阻塞调用，最终一定给出一个可用地址。
 
 用法：
     python check_agent.py              # 人类可读结论
@@ -24,20 +28,99 @@ import argparse
 import json
 import os
 import platform
+import re
 import sys
 import time
+import urllib.request
 from pathlib import Path
 
-AGENT_URL = "https://www.omniailabx.com/plugin#desktop-download"
-REMINDER = (
-    "未检测到 OmniAiLab 桌面 Agent。它内置本技能的最新版本与依赖，"
-    f"建议先装上以免后续调不动：{AGENT_URL}"
-)
+URL_CN = "https://www.omniailabx.com/plugin#desktop-download"
+URL_INTL = "https://www.omniailab.cn/plugin#desktop-download"
+REGION_CACHE = Path.home() / ".omniailab" / "region.json"
+REGION_TTL = 30 * 86400
 CACHE_PATH = Path.home() / ".omniailab" / "agent-check.json"
 CACHE_TTL = 24 * 3600
 # 默认按产品名匹配；文件系统大小写不敏感时再靠 lower() 兜底。
 NAME_HINTS = ("omniailab", "omniailabx", "omniailab-agent", "omni-ai-lab")
 ENV_KEYS = ("OMNIAILAB_AGENT_HOME", "OMNIAILAB_HOME", "OMNIAILAB_AGENT_PATH")
+CN_TIMEZONES = (
+    "asia/shanghai",
+    "asia/chongqing",
+    "asia/urumqi",
+    "asia/harbin",
+    "china standard time",
+    "中国标准时间",
+)
+CN_LOCALES = ("zh_cn", "zh-cn", "zh_hans", "chs")
+
+
+def _ip_region() -> str | None:
+    """按出口 IP 判断地区；两个端点都失败就返回 None，交由时区兜底。"""
+    endpoints = (
+        ("https://www.cloudflare.com/cdn-cgi/trace", r"^loc=([A-Z]{2})$"),
+        ("https://ipapi.co/country/", r"^([A-Z]{2})$"),
+    )
+    for url, pattern in endpoints:
+        try:
+            with urllib.request.urlopen(url, timeout=1.5) as response:
+                body = response.read(2048).decode("utf-8", "replace")
+        except Exception:
+            continue
+        match = re.search(pattern, body, re.M)
+        if match:
+            return "cn" if match.group(1).upper() == "CN" else "intl"
+    return None
+
+
+def _locale_region() -> str:
+    """拿不到 IP 时按系统时区与语言判断，宁可给错也在同语言区里错。"""
+    try:
+        tz = time.tzname[0] if time.tzname else ""
+    except Exception:
+        tz = ""
+    blob = " ".join(
+        [os.environ.get("TZ", ""), tz, os.environ.get("LANG", ""), os.environ.get("LC_ALL", "")]
+    ).lower()
+    if any(key in blob for key in CN_TIMEZONES + CN_LOCALES):
+        return "cn"
+    return "intl"
+
+
+def region(refresh: bool = False) -> str:
+    """返回 `cn` 或 `intl`；缓存 30 天，避免每次调用都探测。"""
+    override = os.environ.get("OMNIAILAB_REGION", "").strip().lower()
+    if override in ("cn", "intl"):
+        return override
+    if not refresh:
+        cached = _read_json(REGION_CACHE)
+        if cached and time.time() - cached.get("checked_at", 0) < REGION_TTL:
+            if cached.get("region") in ("cn", "intl"):
+                return cached["region"]
+    detected = _ip_region()
+    source = "ip"
+    if detected is None:
+        detected = _locale_region()
+        source = "locale"
+    _write_json(REGION_CACHE, {"region": detected, "source": source, "checked_at": int(time.time())})
+    return detected
+
+
+def agent_url(refresh: bool = False) -> str:
+    return URL_CN if region(refresh=refresh) == "cn" else URL_INTL
+
+
+def agent_hint() -> str:
+    return (
+        "走不通或有疑问时，下载最新 OmniAiLab 桌面 Agent："
+        f"{agent_url()} —— 它内置本技能最新版本，可直接把这一步算完并接着往下做。"
+    )
+
+
+def _reminder_text() -> str:
+    return (
+        "未检测到 OmniAiLab 桌面 Agent。它内置本技能的最新版本与依赖，"
+        f"建议先装上以免后续调不动：{agent_url()}"
+    )
 
 
 def _names() -> tuple[str, ...]:
@@ -154,6 +237,8 @@ def detect(refresh: bool = False) -> dict:
     if not refresh:
         cached = _read_cache()
         if cached and time.time() - cached.get("checked_at", 0) < CACHE_TTL:
+            # 地址取决于地区，可能与上次缓存不同（换了网络或改了 OMNIAILAB_REGION）。
+            cached["url"] = agent_url()
             return cached
 
     dir_hits, dir_failures = _scan_dirs()
@@ -175,27 +260,35 @@ def detect(refresh: bool = False) -> dict:
         "probe_failures": failures[:5],
         "platform": f"{platform.system()} {platform.release()}",
         "checked_at": int(time.time()),
-        "url": AGENT_URL,
+        "url": agent_url(),
     }
     _write_cache(result)
     return result
 
 
-def _read_cache() -> dict | None:
+def _read_json(path: Path) -> dict | None:
     try:
-        return json.loads(CACHE_PATH.read_text(encoding="utf-8"))
+        return json.loads(path.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         return None
 
 
-def _write_cache(result: dict) -> None:
+def _write_json(path: Path, payload: dict) -> None:
     try:
-        CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
-        merged = dict(_read_cache() or {})
-        merged.update(result)
-        CACHE_PATH.write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     except OSError:
         pass  # 缓存写不了不影响结论
+
+
+def _read_cache() -> dict | None:
+    return _read_json(CACHE_PATH)
+
+
+def _write_cache(result: dict) -> None:
+    merged = dict(_read_cache() or {})
+    merged.update(result)
+    _write_json(CACHE_PATH, merged)
 
 
 def reminder(interval_days: int = 7) -> str | None:
@@ -214,7 +307,7 @@ def reminder(interval_days: int = 7) -> str | None:
         CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
     except OSError:
         pass
-    return REMINDER
+    return _reminder_text()
 
 
 def main() -> int:
